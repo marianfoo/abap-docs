@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Streaming and Locators"
+description: |
+  In ABAP SQL, data streams(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_stream_glosry.htm 'Glossary Entry') and locators(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocator_glosry.htm 'Glossary Entry') can be used to access LOBs(https://help.sap.com/doc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstreams_locators.htm"
+abapFile: "abenstreams_locators.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenstreams", "locators"]
+---
 
 * * *
 

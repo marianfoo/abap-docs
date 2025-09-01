@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') asXML, Mapping of Elementary Data Types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasxml_elementary_abexa.htm) !Example(exa.gif 'Example') asXML, Mapping of Structures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasxml_structu
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasxml_abexas.htm"
+abapFile: "abenasxml_abexas.htm"
+keywords: ["do", "if", "data", "types", "abenasxml", "abexas"]
+---
 
 * * *
 

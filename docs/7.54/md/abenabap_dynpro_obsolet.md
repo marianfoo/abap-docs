@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete ABAP Statements for Dynpros"
+description: |
+  -   LOOP AT SCREEN - Short Form(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_at_screen_obsolete.htm) -   MODIFY SCREEN - Short Form(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodify_screen_obsolete.htm) LOOP AT SCREEN - Short Form(https://help.sap.com
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_obsolet.htm"
+abapFile: "abenabap_dynpro_obsolet.htm"
+keywords: ["loop", "do", "if", "abenabap", "dynpro", "obsolet"]
+---
 
 * * *
 

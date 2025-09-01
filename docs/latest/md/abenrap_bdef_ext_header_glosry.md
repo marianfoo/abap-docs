@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF extension header"
+description: |
+  Part of a BDEF extension(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extension_glosry.htm 'Glossary Entry') that includes the first one to three lines of BDL source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_source_code_glosry.htm 'Gl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bdef_ext_header_glosry.htm"
+abapFile: "abenrap_bdef_ext_header_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenrap", "bdef", "ext", "header", "glosry"]
+---
 
 * * *
 

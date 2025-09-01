@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - SQL Operand Positions"
+description: |
+  The following table provides a general overview of important operand positions in ABAP SQL and which operands can be used. Operand Position Operands Arguments of SQL Expressions Column specification col_spec(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_clause_col_spe
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_operand_positions_oview.htm"
+abapFile: "abensql_operand_positions_oview.htm"
+keywords: ["select", "do", "if", "data", "abensql", "operand", "positions", "oview"]
+---
 
 * * *
 

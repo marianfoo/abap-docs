@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...   rel_exp  NOT sql_cond ANDOR sql_cond ... Effect Logical expression sql_cond for formulating a condition in ABAP SQL. A logical expression consists of one or more relational expressions rel_exp that are linked with AND(https://help.sap.com/doc/abapdocu_753_index_htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_cond.htm"
+abapFile: "abenopen_sql_cond.htm"
+keywords: ["do", "if", "data", "types", "abenopen", "sql", "cond"]
+---
 
 * * *
 

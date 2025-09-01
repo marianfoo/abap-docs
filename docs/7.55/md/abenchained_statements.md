@@ -1,4 +1,14 @@
-  
+---
+title: "Chained Statements"
+description: |
+  Consecutive statements that have the same initial part can be combined into in a single chained statement. To do this, the identical initial part is specified once and closed with a colon (:). The remaining parts are then listed separately, divided by commas (,), and closed with a period (.). When t
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchained_statements.htm"
+abapFile: "abenchained_statements.htm"
+keywords: ["update", "do", "if", "try", "data", "abenchained", "statements"]
+---
 
 * * *
 

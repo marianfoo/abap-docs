@@ -1,4 +1,14 @@
-  
+---
+title: "Business Application Programming Interface"
+description: |
+  BAPI for short. A predefined interface to data and processes of an SAP application that is stored in the business object repository with the basic functions Create Objects, Query Object Properties, and Change Object Properties. BAPIs are implemented using remotely called function modules(https://h
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_app_prog_inter_glosry.htm"
+abapFile: "abenbusiness_app_prog_inter_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenbusiness", "app", "prog", "inter", "glosry"]
+---
 
 * * *
 

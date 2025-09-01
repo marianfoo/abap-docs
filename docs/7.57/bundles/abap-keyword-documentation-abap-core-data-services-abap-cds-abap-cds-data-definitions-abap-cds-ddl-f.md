@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abencds_extend_view.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -254,7 +264,17 @@ Continue
 
 ### abencds_f1_extend_view_annotations.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Indexes in Database Tables"
+description: |
+  Indexes are special structures on the database that can improve the query processing time or provide additional query capabilities like text search. One or several indexes can be defined per database table. A DDIC database table has at least one primary index(https://help.sap.com/doc/abapdocu_758_
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_index.htm"
+abapFile: "abenddic_database_tables_index.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "index"]
+---
 
 * * *
 

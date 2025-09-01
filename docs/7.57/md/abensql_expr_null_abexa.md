@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_null. TYPES: BEGIN OF result, carrid   TYPE scarr-carrid, distid   TYPE spfli-distid, distance TYPE string, null     TYPE string, END OF result. DATA result TYPE TABLE OF result WITH NON-UNIQUE SORTED KEY skey COMPONENTS table_line. SELECT FROM scarr LEFT OUTER JOIN spfli ON
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_null_abexa.htm"
+abapFile: "abensql_expr_null_abexa.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "data", "types", "abensql", "expr", "null", "abexa"]
+---
 
 * * *
 

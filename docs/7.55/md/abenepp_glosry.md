@@ -1,4 +1,14 @@
-  
+---
+title: "Extended Passport"
+description: |
+  EPP for short. Internal data structure that exists for each ABAP session(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_session_glosry.htm 'Glossary Entry') and contains information about this session and its external connections. → More about(https://help.sap.com/doc/abapdo
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenepp_glosry.htm"
+abapFile: "abenepp_glosry.htm"
+keywords: ["do", "try", "data", "abenepp", "glosry"]
+---
 
 * * *
 

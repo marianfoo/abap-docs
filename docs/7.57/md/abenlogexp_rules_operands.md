@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   Previous assignments to helper variables of certain types or the conversion operator CONV(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_conv.htm) can be used to force comparison types and conversions other than a direct comparison of the operands. -   It
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules_operands.htm"
+abapFile: "abenlogexp_rules_operands.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenlogexp", "rules", "operands"]
+---
 
 * * *
 

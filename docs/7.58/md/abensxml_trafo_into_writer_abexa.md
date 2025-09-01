@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_trafo_into_writer DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_sxml_trafo_into_writer IMPLEMENTATION. METHOD main. FINAL(us
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensxml_trafo_into_writer_abexa.htm"
+abapFile: "abensxml_trafo_into_writer_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "abensxml", "trafo", "into", "writer", "abexa"]
+---
 
 * * *
 

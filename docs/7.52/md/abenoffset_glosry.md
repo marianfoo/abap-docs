@@ -1,4 +1,14 @@
-  
+---
+title: "Offset"
+description: |
+  Position specification for a charater or a byte in a character-(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_object_glosry.htm 'Glossary Entry') or byte-type data object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_like_data_object_glosry.ht
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_glosry.htm"
+abapFile: "abenoffset_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenoffset", "glosry"]
+---
 
 * * *
 

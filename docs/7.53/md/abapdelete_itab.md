@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab_shortref.htm) Syntax DELETE  itab_line(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab_line.htm)  itab_lines(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab.htm"
+abapFile: "abapdelete_itab.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abapdelete", "itab"]
+---
 
 * * *
 

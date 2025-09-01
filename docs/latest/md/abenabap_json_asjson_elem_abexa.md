@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - asJSON for Elementary Object Types"
+description: |
+  This example demonstrates asJSON(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asjson_abap_types_elem.htm) for all elementary ABAP types. Source Code  Public class definition CLASS cl_demo_asjson_elmntry_types DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CR
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_asjson_elem_abexa.htm"
+abapFile: "abenabap_json_asjson_elem_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "json", "asjson", "elem", "abexa"]
+---
 
 * * *
 

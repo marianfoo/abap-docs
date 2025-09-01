@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenlocal_obsolete.htm
 
-  
+---
+title: "Temporary Storage of Data"
+description: |
+  -   LOCAL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplocal.htm) LOCAL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplocal.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocal_obsolete.htm"
+abapFile: "abenlocal_obsolete.htm"
+keywords: ["do", "data", "abenlocal", "obsolete"]
+---
 
 * * *
 
@@ -23,7 +33,17 @@ Continue
 
 ### abaplocal.htm
 
-  
+---
+title: "LOCAL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplocal_shortref.htm) Obsolete Syntax LOCAL dobj. Effect The statement LOCAL (not allowed in classes) saves the current content of a data object dobj in an internal buffer. It can be used only in subroutines(https://hel
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplocal.htm"
+abapFile: "abaplocal.htm"
+keywords: ["loop", "do", "if", "try", "class", "data", "internal-table", "field-symbol", "abaplocal"]
+---
 
 * * *
 

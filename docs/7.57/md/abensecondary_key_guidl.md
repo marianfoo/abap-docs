@@ -1,4 +1,14 @@
-  
+---
+title: "Secondary Key"
+description: |
+  Background Secondary keys can be declared for internal tables. The following options are possible: -   Sorted keys (non-unique or unique) -   Hash keys that can only be unique These keys are assigned a name when they are declared and can be created for any table category. The primary key (nameless u
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_key_guidl.htm"
+abapFile: "abensecondary_key_guidl.htm"
+keywords: ["update", "delete", "loop", "do", "if", "case", "data", "types", "internal-table", "abensecondary", "key", "guidl"]
+---
 
 * * *
 

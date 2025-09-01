@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - BDEF Extension"
+description: |
+  A BDEF extension(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_extension_glosry.htm 'Glossary Entry') is a transportable extension of a RAP behavior definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension.htm"
+abapFile: "abenbdl_extension.htm"
+keywords: ["delete", "do", "if", "try", "types", "abenbdl", "extension"]
+---
 
 * * *
 

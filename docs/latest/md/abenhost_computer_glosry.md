@@ -1,4 +1,14 @@
-  
+---
+title: "host_computer_glosry"
+description: |
+  host_computer_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm"
+abapFile: "abenhost_computer_glosry.htm"
+keywords: ["do", "if", "try", "abenhost", "computer", "glosry"]
+---
 
 * * *
 

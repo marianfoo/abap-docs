@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - IN LOCAL MODE"
+description: |
+  Syntax ... IN LOCAL MODE ... Effect The addition is used to exclude feature controls and authorization checks. It can be added to the following EML statements: -   READ ENTITY, ENTITIES(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_entity_entities.htm) -   MODIFY ENTITY, ENT
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapin_local_mode.htm"
+abapFile: "abapin_local_mode.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abapin", "local", "mode"]
+---
 
 * * *
 

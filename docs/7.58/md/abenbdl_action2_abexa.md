@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Action with Input Parameter"
+description: |
+  This example demonstrates how a RAP action(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_action_glosry.htm 'Glossary Entry') with input parameter is defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of only one root entity DEMO_CDS
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action2_abexa.htm"
+abapFile: "abenbdl_action2_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "types", "abenbdl", "action2", "abexa"]
+---
 
 * * *
 

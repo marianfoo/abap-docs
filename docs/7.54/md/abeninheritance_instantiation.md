@@ -1,4 +1,14 @@
-  
+---
+title: "Inheritance and Instantiation"
+description: |
+  When a subclass is instantiated, all superclasses are instantiated at the same time. Here, the initialization of superclass attributes is ensured by calling the superclass constructors, as described in Inheritance and Constructors(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninhe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninheritance_instantiation.htm"
+abapFile: "abeninheritance_instantiation.htm"
+keywords: ["do", "if", "case", "try", "class", "abeninheritance", "instantiation"]
+---
 
 * * *
 

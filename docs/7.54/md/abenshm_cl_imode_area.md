@@ -1,4 +1,14 @@
-  
+---
+title: "Static Methods"
+description: |
+  GET_IMODE_HANDLE Returns a reference to the area handle for the current internal session. Return Value -   HANDLE of type REF TO cl_imode_area
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_cl_imode_area.htm"
+abapFile: "abenshm_cl_imode_area.htm"
+keywords: ["do", "try", "method", "class", "abenshm", "imode", "area"]
+---
 
 * * *
 

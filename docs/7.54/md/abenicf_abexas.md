@@ -1,4 +1,14 @@
-  
+---
+title: "ICF Examples"
+description: |
+  !Example(exa.gif 'Example') Calling an HTTP Service(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_service_abexa.htm) !Example(exa.gif 'Example') Calling an HTTP Service Using the POST Method(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_post_service_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_abexas.htm"
+abapFile: "abenicf_abexas.htm"
+keywords: ["do", "if", "method", "data", "abenicf", "abexas"]
+---
 
 * * *
 

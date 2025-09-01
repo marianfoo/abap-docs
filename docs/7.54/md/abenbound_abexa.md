@@ -1,4 +1,14 @@
-  
+---
+title: "Predicate Expression IS NOT BOUND"
+description: |
+  This example demonstrates the predicate expression IS NOT BOUND(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_bound.htm). Source Code REPORT demo_is_not_bound. CLASS cls DEFINITION. PUBLIC SECTION. CLASS-DATA dref TYPE REF TO i. CLASS-METHODS main. ENDCLASS. CLASS cls IM
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbound_abexa.htm"
+abapFile: "abenbound_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenbound", "abexa"]
+---
 
 * * *
 

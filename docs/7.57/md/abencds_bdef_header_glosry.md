@@ -1,4 +1,14 @@
-  
+---
+title: "CDS behavior definition header"
+description: |
+  BDEF header short. A BDEF header is the part of a CDS behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') that defines the implementation type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bd
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef_header_glosry.htm"
+abapFile: "abencds_bdef_header_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "bdef", "header", "glosry"]
+---
 
 * * *
 

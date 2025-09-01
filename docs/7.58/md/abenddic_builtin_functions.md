@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Built-In Functions"
+description: |
+  The following sections summarize the built-in database functions managed by ABAP Dictionary. They can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/a
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_functions.htm"
+abapFile: "abenddic_builtin_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "builtin", "functions"]
+---
 
 * * *
 

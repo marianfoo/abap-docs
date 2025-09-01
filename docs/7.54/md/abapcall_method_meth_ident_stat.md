@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... meth  oref->meth  class=>meth  super->meth(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_super.htm) ... Alternatives: 1. ... meth ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... oref->meth ...(#!ABAP_ALTERNATIVE_2@2@) 3. ... class=>meth ...(#!ABAP_ALTERN
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_ident_stat.htm"
+abapFile: "abapcall_method_meth_ident_stat.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "abapcall", "meth", "ident", "stat"]
+---
 
 * * *
 

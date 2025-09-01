@@ -1,4 +1,14 @@
-  
+---
+title: "RAP business event"
+description: |
+  A RAP business event is a business event that usually represents a piece of information about the outcome of a CUD operation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencud_glosry.htm 'Glossary Entry') in the context of a RAP BO entity(https://help.sap.com/doc/abapdocu_la
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_entity_event_glosry.htm"
+abapFile: "abenrap_entity_event_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "entity", "event", "glosry"]
+---
 
 * * *
 

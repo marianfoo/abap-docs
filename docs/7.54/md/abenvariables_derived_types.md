@@ -1,4 +1,14 @@
-  
+---
+title: "Variables with Derived Types"
+description: |
+  Syntax TYPES dtype TYPE TABLE FOR CREATEUPDATEDELETELOCKREAD IMPORT MAPPED LATE REPORTED LATEFAILED LATE ACTION entity_name. DATA dtype TYPE TABLE FOR CREATEUPDATEDELETELOCKREAD IMPORT MAPPED LATE REPORTED LATEFAIL
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariables_derived_types.htm"
+abapFile: "abenvariables_derived_types.htm"
+keywords: ["update", "delete", "do", "if", "case", "method", "class", "data", "types", "abenvariables", "derived"]
+---
 
 * * *
 

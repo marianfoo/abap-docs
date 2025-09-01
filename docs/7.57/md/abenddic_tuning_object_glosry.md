@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC tuning object"
+description: |
+  Tuning object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentuning_object_glosry.htm 'Glossary Entry') for DDIC objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_object_glosry.htm 'Glossary Entry'). A DDIC tuning object is a dictionary object(ht
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_tuning_object_glosry.htm"
+abapFile: "abenddic_tuning_object_glosry.htm"
+keywords: ["do", "if", "try", "abenddic", "tuning", "object", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "parameter_kind_glosry"
+description: |
+  parameter_kind_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenparameter_kind_glosry.htm"
+abapFile: "abenparameter_kind_glosry.htm"
+keywords: ["do", "if", "try", "abenparameter", "kind", "glosry"]
+---
 
 * * *
 

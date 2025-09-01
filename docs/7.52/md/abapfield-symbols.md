@@ -1,4 +1,14 @@
-  
+---
+title: "FIELD-SYMBOLS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfield-symbols_shortref.htm) Syntax FIELD-SYMBOLS <fs>  typing(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_syntax.htm)  obsolete_typing(https://help.sap.com/doc/abapdocu_752_index_htm
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfield-symbols.htm"
+abapFile: "abapfield-symbols.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abapfield", "symbols"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   Some of the mapping rules can be overridden by specifying format(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_option_format.htm), decimals(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_option_format.htm), regime(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_elementary.htm"
+abapFile: "abenabap_xslt_asxml_elementary.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenabap", "xslt", "asxml", "elementary"]
+---
 
 * * *
 
@@ -12,17 +22,11 @@ The asXML representation of elementary ABAP types is used in XSL transformations
 
 For elementary data objects with [built-in ABAP types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_data_type_glosry.htm "Glossary Entry"), the as representation is based on the representation of [XML schema data types](http://www.w3.org/tr/xmlschema-2/) from the namespace xsd="http://www.w3.org/2001/XMLSchema", where dates and times are represented in accordance with ISO-8601 and binary data is represented in accordance with [Base64](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbase64_glosry.htm "Glossary Entry"). The mapping of ABAP types to the XML schema data types is not fully bijective, due to the different value ranges. For example, a time zone can be specified for the XML schema data type xds:date, which is not possible for the ABAP type d.
 
--   [Mapping Tables](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_1)
+-   [Mapping Tables](#abenabap-xslt-asxml-elementary-1--------numeric-data-types---@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_2)
 
--   [Numeric Data Types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_2)
+-   [Character-Like Data Types](#abenabap-xslt-asxml-elementary-3--------byte-like-data-types---@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_4)
 
--   [Character-Like Data Types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_3)
-
--   [Byte-Like Data Types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_4)
-
--   [Date Types and Time Types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_5)
-
--   [Differences in Serialization](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_6)
+-   [Date Types and Time Types](#abenabap-xslt-asxml-elementary-5--------differences-in-serialization---@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_6)
 
 -   [Differences in Deserialization](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_7)
 

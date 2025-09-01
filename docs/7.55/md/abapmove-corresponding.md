@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE-CORRESPONDING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove-corresponding_shortref.htm) Syntax Forms Variant for Structures(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove-corresponding_structure.htm) 1. MOVE-CORRESPONDING EXACT struc1 TO stru
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove-corresponding.htm"
+abapFile: "abapmove-corresponding.htm"
+keywords: ["insert", "do", "if", "try", "catch", "class", "data", "types", "internal-table", "field-symbol", "abapmove", "corresponding"]
+---
 
 * * *
 

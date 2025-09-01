@@ -1,4 +1,14 @@
-  
+---
+title: "PARAMETERS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters_shortref.htm) Syntax PARAMETERS para(len)para LENGTH len type_options(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters_type.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters.htm"
+abapFile: "abapparameters.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "types", "abapparameters"]
+---
 
 * * *
 

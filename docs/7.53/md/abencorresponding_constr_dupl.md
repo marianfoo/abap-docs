@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING - Duplicates"
+description: |
+  Syntax ... DISCARDING DUPLICATES ... Effect Addition for handling duplicate rows in component operator CORRESPONDING(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm). The addition DISCARDING DUPLICATES can be specified: -   After a tabular paramete
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_dupl.htm"
+abapFile: "abencorresponding_constr_dupl.htm"
+keywords: ["insert", "do", "if", "try", "data", "internal-table", "abencorresponding", "constr", "dupl"]
+---
 
 * * *
 

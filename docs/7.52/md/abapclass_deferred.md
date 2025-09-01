@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS - DEFERRED"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_deferred_load_shortref.htm) Syntax CLASS class DEFINITION DEFERRED PUBLIC. Effect This variant of the statement CLASS is used to make the class class known, regardless of the location of the actual definit
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_deferred.htm"
+abapFile: "abapclass_deferred.htm"
+keywords: ["do", "if", "class", "data", "types", "abapclass", "deferred"]
+---
 
 * * *
 

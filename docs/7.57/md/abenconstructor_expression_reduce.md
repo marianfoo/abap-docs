@@ -1,4 +1,14 @@
-  
+---
+title: "REDUCE, Reduction Operator"
+description: |
+  Syntax ... REDUCE type( let_exp(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) INIT x1 = rhs1<x1> = wrexpr1x1<x1> TYPE dtype1 x2 = rhs2<x2> = wrexpr2x2<x2> TYPE dtype2 ... FOR for_exp1(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm"
+abapFile: "abenconstructor_expression_reduce.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "field-symbol", "abenconstructor", "expression", "reduce"]
+---
 
 * * *
 

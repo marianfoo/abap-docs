@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Spool Parameters"
+description: |
+  For every spool request(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_spool.htm), spool parameters must be defined that are used to format the spool list when the list is created, and to control the request. In the ABAP statements NEW-PAGE PRINT ON(https://help.sap.co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters.htm"
+abapFile: "abenprint_parameters.htm"
+keywords: ["do", "if", "try", "class", "data", "abenprint", "parameters"]
+---
 
 * * *
 

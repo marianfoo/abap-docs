@@ -1,4 +1,14 @@
-  
+---
+title: "reference_semantics_glosry"
+description: |
+  reference_semantics_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_semantics_glosry.htm"
+abapFile: "abenreference_semantics_glosry.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abenreference", "semantics", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DCL Restrictions for Transactional CDS Projection Views"
+description: |
+  CDS transactional queries(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_transactional_pv_glosry.htm 'Glossary Entry') and CDS transactional interfaces(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_trans_interface_glosry.htm 'Glossary Entry') (D
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_projection_views.htm"
+abapFile: "abencds_f1_dcl_projection_views.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "projection", "views"]
+---
 
 * * *
 

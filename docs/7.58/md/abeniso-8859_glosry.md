@@ -1,4 +1,14 @@
-  
+---
+title: "iso-8859_glosry"
+description: |
+  iso-8859_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniso-8859_glosry.htm"
+abapFile: "abeniso-8859_glosry.htm"
+keywords: ["do", "if", "try", "abeniso", "8859", "glosry"]
+---
 
 * * *
 

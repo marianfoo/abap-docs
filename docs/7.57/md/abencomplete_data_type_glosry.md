@@ -1,4 +1,14 @@
-  
+---
+title: "complete_data_type_glosry"
+description: |
+  complete_data_type_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomplete_data_type_glosry.htm"
+abapFile: "abencomplete_data_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencomplete", "type", "glosry"]
+---
 
 * * *
 

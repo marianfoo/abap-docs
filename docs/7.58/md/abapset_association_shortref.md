@@ -1,4 +1,14 @@
-  
+---
+title: "SET ASSOCIATION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_set_association.htm) Syntax SET ASSOCIATION mesh_path  = wa    LIKE wa       INITIAL . Effect Sets associations for a mesh path(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenme
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_association_shortref.htm"
+abapFile: "abapset_association_shortref.htm"
+keywords: ["do", "if", "try", "abapset", "association", "shortref"]
+---
 
 * * *
 

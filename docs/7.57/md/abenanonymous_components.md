@@ -1,4 +1,14 @@
-  
+---
+title: "Anonymous Components"
+description: |
+  Obsolete Syntax DATA: BEGIN OF struc, ... '...', ... space(len) TYPE c, ... END OF struc. Effect If text field literals(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_field_literal_glosry.htm 'Glossary Entry') or the constant space(https://help.sap.com/doc/abapdocu_7
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenanonymous_components.htm"
+abapFile: "abenanonymous_components.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenanonymous", "components"]
+---
 
 * * *
 

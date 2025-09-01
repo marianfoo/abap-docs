@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... para IS NOT REQUESTED ... Effect This predicate expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate_expression_glosry.htm 'Glossary Entry') checks whether an output parameter para of a procedure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-U
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_requested.htm"
+abapFile: "abenlogexp_requested.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "abenlogexp", "requested"]
+---
 
 * * *
 

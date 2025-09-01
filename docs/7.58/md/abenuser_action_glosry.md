@@ -1,4 +1,14 @@
-  
+---
+title: "user_action_glosry"
+description: |
+  user_action_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_action_glosry.htm"
+abapFile: "abenuser_action_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenuser", "action", "glosry"]
+---
 
 * * *
 

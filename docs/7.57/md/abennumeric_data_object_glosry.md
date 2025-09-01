@@ -1,4 +1,14 @@
-  
+---
+title: "numeric_data_object_glosry"
+description: |
+  numeric_data_object_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumeric_data_object_glosry.htm"
+abapFile: "abennumeric_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abennumeric", "object", "glosry"]
+---
 
 * * *
 

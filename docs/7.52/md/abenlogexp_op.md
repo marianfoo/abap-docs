@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  rel_exp - Relational Operators for All Data Types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_compare_all.htm) rel_exp - Relational Operators for Character-Like Data Types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_strings.htm) rel_exp - R
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_op.htm"
+abapFile: "abenlogexp_op.htm"
+keywords: ["select", "do", "data", "types", "abenlogexp"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Simple Case Distinction(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_simple_case.htm) 1. ... CASE sql_exp WHEN sql_exp1 THEN result1 WHEN sql_exp2 THEN result2 ... ELSE resultnsql_null END ... Complex Case Distinction(https://help.sap.com/doc/abapdoc
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_case.htm"
+abapFile: "abensql_case.htm"
+keywords: ["do", "if", "case", "try", "data", "abensql"]
+---
 
 * * *
 

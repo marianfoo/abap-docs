@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Table Buffering of CDS DDIC-Based Views"
+description: |
+  The following CDS annotations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotation_glosry.htm 'Glossary Entry') can define table buffering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_buffering_glosry.htm 'Glossary Entry') for a CDS view linked wi
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v1_buffering.htm"
+abapFile: "abencds_v1_buffering.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "buffering"]
+---
 
 * * *
 

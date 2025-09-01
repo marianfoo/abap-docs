@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  embd_exp format_options(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute_string_format_options.htm)  Effect Within a string template, an opening and a closing curly bracket  ...  define a general expression position(https://help.sap.com/doc/abapdocu_late
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_templates_expressions.htm"
+abapFile: "abenstring_templates_expressions.htm"
+keywords: ["insert", "do", "if", "case", "try", "method", "class", "data", "abenstring", "templates", "expressions"]
+---
 
 * * *
 

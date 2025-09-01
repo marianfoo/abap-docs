@@ -1,4 +1,14 @@
-  
+---
+title: "SFW"
+description: |
+  → Switch Framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenswitch_framework_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensfw_glosry.htm"
+abapFile: "abensfw_glosry.htm"
+keywords: ["do", "if", "try", "abensfw", "glosry"]
+---
 
 * * *
 

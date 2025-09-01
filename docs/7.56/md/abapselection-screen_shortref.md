@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen.htm) Syntax SELECTION-SCREEN    COMMENT /posPOS_LOWPOS_HIGH(len)  text  text FOR FIELD sel  VISIBLE LENGTH vlen MODIF ID modid
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_shortref.htm"
+abapFile: "abapselection-screen_shortref.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Loops Across Mesh Paths"
+description: |
+  This example demonstrates loops across mesh paths. Source Code REPORT demo_mesh_loop_at_flights. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: t_scarr    TYPE HASHED TABLE OF scarr WITH UNIQUE KEY carrid, t_spfli    TYPE HASHED TABLE OF
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmesh_loops_abexa.htm"
+abapFile: "abenmesh_loops_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abenmesh", "loops", "abexa"]
+---
 
 * * *
 

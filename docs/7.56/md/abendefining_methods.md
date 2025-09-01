@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Statements for Implementing Methods"
+description: |
+  The functions of classes are implemented in methods, that is, between METHOD - ENDMETHOD. The statements allowed in methods include the entire ABAP language range that is allowed in all procedures. It must be noted, however, that all statements in methods are subject to the stricter syntax(https:/
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendefining_methods.htm"
+abapFile: "abendefining_methods.htm"
+keywords: ["do", "method", "class", "abendefining", "methods"]
+---
 
 * * *
 

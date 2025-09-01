@@ -1,4 +1,14 @@
-  
+---
+title: "interface_component_glosry"
+description: |
+  interface_component_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_component_glosry.htm"
+abapFile: "abeninterface_component_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninterface", "component", "glosry"]
+---
 
 * * *
 

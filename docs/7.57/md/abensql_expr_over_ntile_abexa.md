@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_select_over_ntile. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SELECT name, salary, NTILE( 5 ) OVER( ORDER BY salary ) AS ntile FROM demo_employees INTO TABLE @FINAL(result). cl_demo_output=>displ
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_ntile_abexa.htm"
+abapFile: "abensql_expr_over_ntile_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abensql", "expr", "over", "ntile", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Simplified Regular Expressions"
+description: |
+  In addition to the regular expressions (in accordance with the extended POSIX(http://www.pasc.org/) standard IEEE 1003.1), the class CL_ABAP_REGEX also offers an alternative type of simplified regular expression with restricted functions. These simplified regular expressions (also known as simpl
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_simple.htm"
+abapFile: "abenregex_simple.htm"
+keywords: ["do", "if", "class", "data", "abenregex", "simple"]
+---
 
 * * *
 

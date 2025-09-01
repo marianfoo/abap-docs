@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... regex = regex ...  ) ... Effect regex is used to pass a regular expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenregex_syntax.htm) to be found or matched. regex is a character-like expression position(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions_regex.htm"
+abapFile: "abenstring_functions_regex.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenstring", "functions", "regex"]
+---
 
 * * *
 

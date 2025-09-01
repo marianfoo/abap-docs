@@ -1,4 +1,14 @@
-  
+---
+title: "Behavior Definition Language"
+description: |
+  → RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_glosry.htm"
+abapFile: "abenbdl_glosry.htm"
+keywords: ["do", "if", "try", "abenbdl", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Mesh Path Expressions"
+description: |
+  This example demonstrates how mesh paths can be used as standalone expressions. Source Code REPORT demo_mesh_expressions_flights. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: t_scarr    TYPE HASHED TABLE OF scarr WITH UNIQUE KEY carrid,
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_table_expressions_abexa.htm"
+abapFile: "abenmesh_table_expressions_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenmesh", "table", "expressions", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "predefined_data_object_glosry"
+description: |
+  predefined_data_object_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_data_object_glosry.htm"
+abapFile: "abenpredefined_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenpredefined", "object", "glosry"]
+---
 
 * * *
 

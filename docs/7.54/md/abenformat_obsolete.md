@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Formatting"
+description: |
+  -   DETAIL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdetail.htm) -   SUMMARY(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsummary.htm) -   INPUT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinput.htm) DETAIL(https://help.sap.com/doc/ab
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformat_obsolete.htm"
+abapFile: "abenformat_obsolete.htm"
+keywords: ["do", "abenformat", "obsolete"]
+---
 
 * * *
 

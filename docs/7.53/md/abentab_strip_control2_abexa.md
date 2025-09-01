@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 

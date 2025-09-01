@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP procedure"
+description: |
+  Database procedure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_procedure_glosry.htm 'Glossary Entry') implemented in an (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_class_glosry.htm 'Glossary Entry')AMDP(https://help.sap.com/doc/abapdocu_754_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_procedure_glosry.htm"
+abapFile: "abenamdp_procedure_glosry.htm"
+keywords: ["do", "try", "method", "class", "data", "abenamdp", "procedure", "glosry"]
+---
 
 * * *
 

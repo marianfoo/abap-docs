@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_for_groups_by_levels_nest. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF group, fldate   TYPE sflight-fldate, seatsocc TYPE sflight-seatsocc, END OF group, group_tab type STANDARD TABLE OF group WITH EMP
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_group_by_lvls_nst_abexa.htm"
+abapFile: "abenfor_group_by_lvls_nst_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "lvls", "nst", "abexa"]
+---
 
 * * *
 

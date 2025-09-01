@@ -1,4 +1,14 @@
-  
+---
+title: "CDS simple type"
+description: |
+  CDS user-defined type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_user_defined_type_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry') that defines an elementary data type(https://
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_type_glosry.htm"
+abapFile: "abencds_simple_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "simple", "type", "glosry"]
+---
 
 * * *
 

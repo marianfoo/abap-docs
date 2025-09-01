@@ -1,4 +1,14 @@
-  
+---
+title: "Table Functions"
+description: |
+  Table functions are part of the predefined functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions.htm). The following table functions are possible: -   lines - Row function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescriptive_functions_t
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_functions.htm"
+abapFile: "abentable_functions.htm"
+keywords: ["do", "try", "data", "internal-table", "abentable", "functions"]
+---
 
 * * *
 

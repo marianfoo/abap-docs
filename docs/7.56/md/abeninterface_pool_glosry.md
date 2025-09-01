@@ -1,4 +1,14 @@
-  
+---
+title: "interface_pool_glosry"
+description: |
+  interface_pool_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninterface_pool_glosry.htm"
+abapFile: "abeninterface_pool_glosry.htm"
+keywords: ["do", "try", "abeninterface", "pool", "glosry"]
+---
 
 * * *
 

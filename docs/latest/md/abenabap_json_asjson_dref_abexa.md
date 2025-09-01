@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - asJSON for Anonymous Data Objects"
+description: |
+  Source Code  Public class definition CLASS cl_demo_asjson_dref DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_asjson_dref IMPLEMENTATION. METHOD main. DATA dref TYPE REF TO
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_asjson_dref_abexa.htm"
+abapFile: "abenabap_json_asjson_dref_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "json", "asjson", "dref", "abexa"]
+---
 
 * * *
 

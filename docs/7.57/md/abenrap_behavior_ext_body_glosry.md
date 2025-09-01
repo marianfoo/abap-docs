@@ -1,4 +1,14 @@
-  
+---
+title: "RAP behavior extension body"
+description: |
+  That part of an entity behavior extension(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_behavior_extension_glosry.htm 'Glossary Entry') that is defined within curly brackets after the statement extend behavior for(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/ab
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_behavior_ext_body_glosry.htm"
+abapFile: "abenrap_behavior_ext_body_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "behavior", "ext", "body", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Language Versions"
+description: |
+  Each ABAP program has the program attribute(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_glosry.htm 'Glossary Entry') ABAP Language Version(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_version_glosry.htm 'Glossary Entry'), which is defin
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_versions.htm"
+abapFile: "abenabap_versions.htm"
+keywords: ["insert", "do", "if", "try", "method", "class", "data", "abenabap", "versions"]
+---
 
 * * *
 

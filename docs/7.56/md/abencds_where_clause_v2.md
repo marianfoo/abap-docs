@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, WHERE"
+description: |
+  Syntax ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v2.htm) ... Effect Defines a WHERE condition for the result set of a CDS view entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm 'Glossar
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_where_clause_v2.htm"
+abapFile: "abencds_where_clause_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "where", "clause"]
+---
 
 * * *
 

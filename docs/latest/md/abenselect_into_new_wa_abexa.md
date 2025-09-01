@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Create Structure as Target Area"
+description: |
+  The example demonstrates the creation of an structure as a target area of the statement SELECT. Source Code  Public class definition CLASS cl_demo_select_into_new_wa DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Pub
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_into_new_wa_abexa.htm"
+abapFile: "abenselect_into_new_wa_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "abenselect", "into", "new", "abexa"]
+---
 
 * * *
 

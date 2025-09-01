@@ -1,4 +1,14 @@
-  
+---
+title: "matchcode_object_glosry"
+description: |
+  matchcode_object_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmatchcode_object_glosry.htm"
+abapFile: "abenmatchcode_object_glosry.htm"
+keywords: ["do", "if", "try", "abenmatchcode", "object", "glosry"]
+---
 
 * * *
 

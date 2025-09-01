@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  The asXML format of serialized ABAP data or objects can be created and examined using the predefined identity transformation ID(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_id.htm). This transformation is not, however, symmetrical with respect to text strings that conta
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml.htm"
+abapFile: "abenabap_xslt_asxml.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenabap", "xslt", "asxml"]
+---
 
 * * *
 

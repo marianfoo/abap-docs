@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Projection Extension Entity"
+description: |
+  Syntax ... define behavior for ProjectionEntity ...(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_projection_bo.htm) Prerequisites -   As a prerequisite, the underlying CDS projection behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm"
+abapFile: "abenbdl_proj_ext_entity.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "proj", "ext", "entity"]
+---
 
 * * *
 

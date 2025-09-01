@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Semantic Properties of Structures"
+description: |
+  Structures in the ABAP Dictionary can have the following semantic properties: -   Short text of the structure Each structure is assigned a short descriptive text that must be specified when it is created. -   Documentation A structure can be assigned documentation that can be read as required. -   S
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_structures_sema.htm"
+abapFile: "abenddic_structures_sema.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "structures", "sema"]
+---
 
 * * *
 

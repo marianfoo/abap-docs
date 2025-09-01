@@ -1,4 +1,14 @@
-  
+---
+title: "Field Help"
+description: |
+  There are three ways of displaying field help for screen elements on dynpros: -   Displaying the Documentation of the Data Element(#abenabap-dynpros-field-help-1--------displaying-the-supplement-documentation-of-the-data-element---@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2) -   Calling Help Texts in Di
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_field_help.htm"
+abapFile: "abenabap_dynpros_field_help.htm"
+keywords: ["select", "do", "if", "case", "data", "abenabap", "dynpros", "field", "help"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Field Help
 
 There are three ways of displaying field help for screen elements on dynpros:
 
--   [Displaying the Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_1)
-
--   [Displaying the Supplement Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2)
+-   [Displaying the Documentation of the Data Element](#abenabap-dynpros-field-help-1--------displaying-the-supplement-documentation-of-the-data-element---@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2)
 
 -   [Calling Help Texts in Dialog Modules](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_3)
 

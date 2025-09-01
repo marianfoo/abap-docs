@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - with BOPF draft"
+description: |
+  Syntax ... with BOPF draft; ... Effect The addition with BOPF draft enables draft handling for a BOPF-based RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bopf_bo_glosry.htm 'Glossary Entry'). It is added in the behavior definition header(https://help.sap.com/doc/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm"
+abapFile: "abenbdl_rap_with_bopf_draft.htm"
+keywords: ["do", "if", "try", "class", "types", "abenbdl", "rap", "with", "bopf", "draft"]
+---
 
 * * *
 

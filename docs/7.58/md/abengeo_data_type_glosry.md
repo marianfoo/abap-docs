@@ -1,4 +1,14 @@
-  
+---
+title: "geo_data_type_glosry"
+description: |
+  geo_data_type_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeo_data_type_glosry.htm"
+abapFile: "abengeo_data_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abengeo", "type", "glosry"]
+---
 
 * * *
 

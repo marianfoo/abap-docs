@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Locking"
+description: |
+  Syntax Forms Declaration on Entity Level ... lock master unmanaged  lock dependent by _Assoc Addition That Can Be Used for an Action(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm) ... lock:none Variants: 1. ... lock master unmanaged(#!ABAP_VA
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_locking.htm"
+abapFile: "abenbdl_locking.htm"
+keywords: ["update", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "abenbdl", "locking"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP external numbering"
+description: |
+  A numbering concept(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_numbering_glosry.htm 'Glossary Entry') in which key values are provided by the RAP BO consumer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_glosry.htm 'Glossary Entry').
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_ext_numbering_glosry.htm"
+abapFile: "abenrap_ext_numbering_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "ext", "numbering", "glosry"]
+---
 
 * * *
 

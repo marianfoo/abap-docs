@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP File Interface"
+description: |
+  The statements of the ABAP file interface enable ABAP statements to process files on the host computers(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance(https://help.sap.com/doc/abapdocu_latest_index_htm/lat
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_files.htm"
+abapFile: "abenabap_language_files.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "language", "files"]
+---
 
 * * *
 

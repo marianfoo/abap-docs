@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Program Attributes"
+description: |
+  -   Obsolete Disabling of the Unicode Check(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_obsolete.htm) -   Obsolete Disabling of Fixed Point Arithmetic(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_fixed_point_obsolete.htm) Note The strict mode
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attributes_obsolete.htm"
+abapFile: "abenprogram_attributes_obsolete.htm"
+keywords: ["do", "abenprogram", "attributes", "obsolete"]
+---
 
 * * *
 

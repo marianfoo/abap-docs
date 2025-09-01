@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Prepared Statement"
+description: |
+  The example demonstrates how a prepared statement(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_sql_prepared_statement.htm) is created and executed using ADBC. Source Code  Public class definition CLASS cl_demo_adbc_prepared_stmnt DEFINITION INHERITING FROM cl_demo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_sql_prepared_abexa.htm"
+abapFile: "abenadbc_sql_prepared_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "sql", "prepared", "abexa"]
+---
 
 * * *
 

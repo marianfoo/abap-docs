@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Internal Tables"
+description: |
+  The example demonstrates the serializing of an internal table. Source Code  Public class definition CLASS cl_demo_st_table DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_st_
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_table_abexa.htm"
+abapFile: "abenst_table_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "internal-table", "abenst", "table", "abexa"]
+---
 
 * * *
 

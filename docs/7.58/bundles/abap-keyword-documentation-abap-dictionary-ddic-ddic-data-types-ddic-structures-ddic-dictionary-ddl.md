@@ -1,38 +1,21 @@
-# ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Data Types / DDIC - Structures / DDIC - Dictionary DDL for Structure Definitions
+# ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Data Types / DDIC - Structures / DDIC - Dictionary DDL for Structure Definitions / DDIC DDL - DEFINE STRUCTURE
 
-Included pages: 12
-
-
-### abenddic_define_structure.htm
-
-  
-
-* * *
-
-AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_types.htm) →  [DDIC - Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures.htm) → 
-
- [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dictionary%20DDL%20for%20Structure%20Definitions%2C%20ABENDDIC_DEFINE_STRUCTURE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
-%20improvement:)
-
-DDIC - Dictionary DDL for Structure Definitions
-
-A structure can be displayed and modified using [dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"). The source code of a structure is not stored and transported. Instead, the source code of an existing structure is generated from the metadata of the associated system tables. When saved, the metadata is derived directly from the source code and stored in the system tables.
-
--   [DEFINE STRUCTURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_structure.htm)
-
-Hint
-
-All properties of a structure described in the preceding sections can be defined using DEFINE STRUCTURE or in transaction SE11.
-
-Continue
-[DDIC DDL - DEFINE STRUCTURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_structure.htm)
+Included pages: 10
 
 
 ### abenddicddl_define_structure.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_props.htm) ext_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_ext_annos.htm) DEFINE STRUCTURE struct  ... component;(https://help.sap.com/doc/abap
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_structure.htm"
+abapFile: "abenddicddl_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddicddl", "define", "structure"]
+---
 
 * * *
 
@@ -93,7 +76,17 @@ Continue
 
 ### abenddicddl_define_struct_props.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.enhancement.category : enh_cat Effect Mandatory annotations for specifying structure properties in the definition of a DDIC structure using the statement DEFINE STRUCTURE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_structur
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_props.htm"
+abapFile: "abenddicddl_define_struct_props.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "props"]
+---
 
 * * *
 
@@ -132,7 +125,17 @@ Hints
 
 ### abenddicddl_define_ext_annos.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.enhancement.fieldSuffix: 'suffix' @AbapCatalog.enhancement.quotaMaximumFields: integer @AbapCatalog.enhancement.quotaMaximumBytes: integer @AbapCatalog.enhancement.quotaShareCustomer: integer @AbapCatalog.enhancement.quotaSharePartner: integer Effect The following annotations are requir
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_ext_annos.htm"
+abapFile: "abenddicddl_define_ext_annos.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "ext", "annos"]
+---
 
 * * *
 
@@ -194,7 +197,17 @@ Hints
 
 ### abenddicddl_define_struct_comps.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, component"
+description: |
+  Syntax component_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_cmpprps.htm) foreign_key_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sap.com/doc/
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 
@@ -259,7 +272,17 @@ Continue
 
 ### abenddicddl_define_struct_cmpprps.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.decfloat.outputStyle : style  @AbapCatalog.textLanguage  @Semantics.amount.currencyCode : 'struct.comp' @Semantics.quantity.unitOfMeasure : 'struct.comp' Effect Annotation for specifying optional properties of a compone
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_cmpprps.htm"
+abapFile: "abenddicddl_define_struct_cmpprps.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "cmpprps"]
+---
 
 * * *
 
@@ -317,7 +340,17 @@ define structure struct {
 
 ### abenddicddl_define_struct_valuhelp.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  WITH VALUE HELP value_help WHERE parameter1 = structure.component1 AND parameter2 = structure.component2 ... ... Effect Assigns a search help(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensearch_help_glosry.htm 'Glossary Entry') to a structure component(https://hel
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_valuhelp.htm"
+abapFile: "abenddicddl_define_struct_valuhelp.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "valuhelp"]
+---
 
 * * *
 
@@ -361,7 +394,17 @@ define structure struct {
 
 ### abenddicddl_define_struct_comps.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, component"
+description: |
+  Syntax component_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_cmpprps.htm) foreign_key_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sap.com/doc/
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 
@@ -426,7 +469,17 @@ Continue
 
 ### abenddicddl_define_struct_incl.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, include"
+description: |
+  Syntax group : INCLUDE struct WITH SUFFIX suffix ... extend(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_inc
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_incl.htm"
+abapFile: "abenddicddl_define_struct_incl.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "incl"]
+---
 
 * * *
 
@@ -478,7 +531,17 @@ Continue
 
 ### abenddicddl_define_struct_comp_ext.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, extend"
+description: |
+  Syntax ... foreign_key_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_fkprps.htm) EXTEND component :  value_help(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_valuhelp.htm)  foreign_key(ht
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comp_ext.htm"
+abapFile: "abenddicddl_define_struct_comp_ext.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "comp", "ext"]
+---
 
 * * *
 
@@ -532,7 +595,17 @@ define structure struct {
 
 ### abenddicddl_define_struct_incl.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, include"
+description: |
+  Syntax group : INCLUDE struct WITH SUFFIX suffix ... extend(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_inc
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_incl.htm"
+abapFile: "abenddicddl_define_struct_incl.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "incl"]
+---
 
 * * *
 
@@ -580,64 +653,3 @@ define structure demo\_week {
 
 Continue
 [DDIC DDL - DEFINE STRUCTURE, extend](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comp_ext.htm)
-
-
-### abenddicddl_define_structure.htm
-
-  
-
-* * *
-
-AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_types.htm) →  [DDIC - Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures.htm) →  [DDIC - Dictionary DDL for Structure Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_structure.htm) → 
-
- [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20DDL%20-%20DEFINE%20STRUCTURE%2C%20ABENDDICDDL_DEFINE_STRUCTURE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
-
-DDIC DDL - DEFINE STRUCTURE
-
-Syntax
-
-[structure\_annos](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_props.htm)
-[ext\_annos](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_ext_annos.htm)
-DEFINE STRUCTURE struct {
-  ...
-  [component;](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comps.htm)
-  ...
-  [include;](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_incl.htm)
-  ...
-}
-
-Effect
-
-[Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement for defining an ABAP Dictionary [DDIC structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures.htm) struct in the [ABAP development tools for Eclipse](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry").
-
--   A structure is defined using the statement DEFINE STRUCTURE. The name struct is subject to the [naming rules for DDIC data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_types_names.htm).
--   [Annotations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_annotation_glosry.htm "Glossary Entry") [structure\_annos](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_props.htm) in front of the statement DEFINE STRUCTURE define the mandatory structure properties.
--   Optionally, extensibility annotations [ext\_annos](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_ext_annos.htm) can be specified in front of the statement DEFINE STRUCTURE. These annotations are a prerequisite for [C0 release of a DDIC structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_contract_rules_ddic.htm).
--   The structure components are defined in a semicolon-separated list in curly brackets { } by one of the following methods:
-    -   Defining individual components [component](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comps.htm)
-    -   Including include structures [include](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_incl.htm)
-
-Hints
-
--   As in the [CDS syntax](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_general_syntax_rules.htm), an ABAP Dictionary structure definition can contain comments after // and between /\* ... \*/.
--   A more detailed description of the syntax is available in the ADT documentation [Syntax of ABAP Dictionary Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/fc6cd6f7d02f4546a33feb3f5fc9dd66).
-
-Example
-
-Definition of the structure DEMOFLI in ADT.
-
-@EndUserText.label : 'Structure for ALV Demo'
-@AbapCatalog.enhancement.category : #NOT\_EXTENSIBLE
-define structure demofli {
-  fldate   : s\_date;
-  seatsmax : s\_seatsmax;
-  seatsocc : s\_seatsocc;
-}
-
-Continue
-[DDIC DDL - DEFINE STRUCTURE, structure\_annos](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_props.htm)
-[DDIC DDL - DEFINE STRUCTURE, ext\_annos](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_ext_annos.htm)
-[DDIC DDL - DEFINE STRUCTURE, component](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comps.htm)
-[DDIC DDL - DEFINE STRUCTURE, include](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_incl.htm)

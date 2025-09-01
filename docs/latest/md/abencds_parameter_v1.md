@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, parameter"
+description: |
+  Syntax ... :pname$parameters.pname ... Effect Specifies an input parameter pname from the parameter list parameter_list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_parameter_list_v1.htm) in an operand position of a SELECT statement(https://help.sap.com/doc/abapdoc
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_parameter_v1.htm"
+abapFile: "abencds_parameter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "parameter"]
+---
 
 * * *
 

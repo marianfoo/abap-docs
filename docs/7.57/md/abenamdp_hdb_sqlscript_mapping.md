@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Mapping of ABAP Types to SQLScript"
+description: |
+  As shown in the following tables, the elementary ABAP types are mapped to the appropriate types in SQLScript. These include: -   Interface parameters of an AMDP method -   References to ABAP types using the AMDP macro(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_macro_glosry
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_hdb_sqlscript_mapping.htm"
+abapFile: "abenamdp_hdb_sqlscript_mapping.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenamdp", "hdb", "sqlscript", "mapping"]
+---
 
 * * *
 
@@ -18,8 +28,7 @@ As shown in the following tables, the elementary ABAP types are mapped to the ap
 
 The tables distinguish parameters that reference a type defined in ABAP from those that reference a [built-in type in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm). No parameters or type references can be defined for SQLScript types that are not listed here.
 
--   [Mapping with Reference to Types Defined in ABAP](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_1)
--   [Mapping with Reference to Types Defined in ABAP Dictionary](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_2)
+-   [Mapping with Reference to Types Defined in ABAP](#abenamdp-hdb-sqlscript-mapping-1-------mapping-with-reference-to-types-defined-in-abap-dictionary---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_2)
 
 Mapping with Reference to Types Defined in ABAP   
 

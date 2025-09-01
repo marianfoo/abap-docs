@@ -1,4 +1,14 @@
-  
+---
+title: "ENHANCEMENT-SECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section_shortref.htm) Syntax ENHANCEMENT-SECTION enh_id SPOTS spot1 spot2 ... STATIC INCLUDE BOUND. ... END-ENHANCEMENT-SECTION. Extras: 1. ... STATIC(#!ABAP_ADDITION_1@1@) 2. ... INCLU
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section.htm"
+abapFile: "abapenhancement-section.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapenhancement", "section"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_raise_message_reuse_attr. CLASS msg_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS meth EXCEPTIONS exception. ENDCLASS. CLASS msg_demo IMPLEMENTATION. METHOD main. TRY. meth( EXCEPTIONS exception = 4 ). IF sy-subrc <> 0. RAISE EXCEPTION TYPE cx
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_interface_reuse_abexa.htm"
+abapFile: "abenmessage_interface_reuse_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "abenmessage", "interface", "reuse", "abexa"]
+---
 
 * * *
 

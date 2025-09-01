@@ -1,4 +1,14 @@
-  
+---
+title: "RESUME"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapresume_shortref.htm) Syntax RESUME. Effect This statement exits the CATCH(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_try.htm) handling of a resumable exception(https://help.sap.com/doc/abap
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapresume.htm"
+abapFile: "abapresume.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "exception-handling", "abapresume"]
+---
 
 * * *
 

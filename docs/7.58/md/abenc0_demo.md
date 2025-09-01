@@ -1,4 +1,14 @@
-  
+---
+title: "c0_demo"
+description: |
+  c0_demo - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_demo.htm"
+abapFile: "abenc0_demo.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenc0", "demo"]
+---
 
 * * *
 

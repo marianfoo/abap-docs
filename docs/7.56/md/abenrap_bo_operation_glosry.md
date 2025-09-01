@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO operation"
+description: |
+  Operation of a RAP BO(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). RAP BO operations are CRUD(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencrud_glosry.htm 'Glossary Entry') operations, non-standard operations(https://help
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_operation_glosry.htm"
+abapFile: "abenrap_bo_operation_glosry.htm"
+keywords: ["do", "try", "method", "types", "abenrap", "operation", "glosry"]
+---
 
 * * *
 

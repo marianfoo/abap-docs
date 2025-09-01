@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  asXML - Mapping of Elementary ABAP Types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_elementary.htm) asXML - Mapping of Structures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_structure.htm) asXML - Mapping of Internal Tables
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_named.htm"
+abapFile: "abenabap_xslt_asxml_named.htm"
+keywords: ["do", "data", "types", "internal-table", "abenabap", "xslt", "asxml", "named"]
+---
 
 * * *
 

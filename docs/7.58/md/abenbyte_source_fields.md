@@ -1,4 +1,14 @@
-  
+---
+title: "Byte-Like Source Fields"
+description: |
+  -   x(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_type_x.htm) -   xstring(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_type_xstring.htm) Example Conversion of the byte field from hexadecimal content FFFF to different target types. The ty
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_source_fields.htm"
+abapFile: "abenbyte_source_fields.htm"
+keywords: ["do", "if", "data", "types", "abenbyte", "source", "fields"]
+---
 
 * * *
 

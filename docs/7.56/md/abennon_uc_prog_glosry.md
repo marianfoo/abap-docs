@@ -1,4 +1,14 @@
-  
+---
+title: "non_uc_prog_glosry"
+description: |
+  non_uc_prog_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennon_uc_prog_glosry.htm"
+abapFile: "abennon_uc_prog_glosry.htm"
+keywords: ["do", "try", "abennon", "prog", "glosry"]
+---
 
 * * *
 

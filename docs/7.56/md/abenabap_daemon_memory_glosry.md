@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP daemon memory"
+description: |
+  Part of the user memory(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuser_memory_glosry.htm 'Glossary Entry') in which an ABAP daemon(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_daemon_glosry.htm 'Glossary Entry') can store data in PCP(https://help.sap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_daemon_memory_glosry.htm"
+abapFile: "abenabap_daemon_memory_glosry.htm"
+keywords: ["do", "try", "data", "abenabap", "daemon", "memory", "glosry"]
+---
 
 * * *
 

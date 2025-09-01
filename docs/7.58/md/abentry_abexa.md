@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions, TRY"
+description: |
+  This example demonstrates the TRY control structure. Source Code  Public class definition CLASS cl_demo_try DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. DATA: result TYPE p LENGTH 8 DECIMALS 2, oref   TYPE REF TO cx_root, text   TYPE string. METHODS main R
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentry_abexa.htm"
+abapFile: "abentry_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abentry", "abexa"]
+---
 
 * * *
 

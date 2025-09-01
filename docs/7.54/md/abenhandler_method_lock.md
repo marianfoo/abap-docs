@@ -1,4 +1,14 @@
-  
+---
+title: "FOR LOCK"
+description: |
+  Syntax METHODS method_name FOR LOCK IMPORTING lock_import_parameter FOR LOCK entity_name. ... CHANGING failed   TYPE DATA reported TYPE DATA. Effect The LOCK implements the handler that locks entities. However, the lock properties(https://help.sap.com/doc/abapdocu_754_index_htm
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm"
+abapFile: "abenhandler_method_lock.htm"
+keywords: ["insert", "update", "loop", "do", "if", "try", "method", "class", "data", "types", "abenhandler", "lock"]
+---
 
 * * *
 

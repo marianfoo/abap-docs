@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenconditional_expressions.htm
 
-  
+---
+title: "Conditional Expressions"
+description: |
+  A conditional expression is a constructor expression(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expressions.htm) that creates a value or raises a class-based exception depending on a logical expression or a case distinction. Conditional expressions are constructed u
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm"
+abapFile: "abenconditional_expressions.htm"
+keywords: ["do", "if", "case", "class", "abenconditional", "expressions"]
+---
 
 * * *
 
@@ -32,7 +42,17 @@ Continue
 
 ### abenconditional_expression_cond.htm
 
-  
+---
+title: "COND, Conditional Operator"
+description: |
+  Syntax ... COND type( let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) WHEN log_exp1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) THEN  let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm"
+abapFile: "abenconditional_expression_cond.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenconditional", "expression", "cond"]
+---
 
 * * *
 
@@ -103,7 +123,17 @@ ENDCLASS.
 
 ### abenconditional_expression_switch.htm
 
-  
+---
+title: "SWITCH, Conditional Operator"
+description: |
+  Syntax ... SWITCH type( let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) operand WHEN const1 THEN  let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) result1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm"
+abapFile: "abenconditional_expression_switch.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenconditional", "expression", "switch"]
+---
 
 * * *
 
@@ -188,7 +218,17 @@ ENDCLASS.
 
 ### abenconditional_expression_result.htm
 
-  
+---
+title: "COND, SWITCH, result"
+description: |
+  Syntax ...   operand   THROW RESUMABLESHORTDUMP cx_class(  message(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm) p1 = a1 p2 = a2 ... )  ... Alternatives: 1. ... operand(#!ABAP_ALTERNATIVE_1@1@) 2. ... THROW
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm"
+abapFile: "abenconditional_expression_result.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenconditional", "expression", "result"]
+---
 
 * * *
 
@@ -294,7 +334,17 @@ FINAL(time) = COND t( WHEN t BETWEEN '090000' AND '170000'
 
 ### abencond_constructor_inference.htm
 
-  
+---
+title: "COND, SWITCH, Type Inference for Actual Parameters"
+description: |
+  If the following constructor expression is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #: COND(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm"
+abapFile: "abencond_constructor_inference.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abencond", "constructor", "inference"]
+---
 
 * * *
 
@@ -367,7 +417,17 @@ Executable Example
 
 ### abencond_type_inference_abexa.htm
 
-  
+---
+title: "Conditional Operator, Type Inference"
+description: |
+  This example demonstrates a type inference for the conversion operator COND(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm). Source Code  Public class definition CLASS cl_demo_cond_type_inference DEFINITION INHERITING FROM cl_demo_classrun PU
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_type_inference_abexa.htm"
+abapFile: "abencond_type_inference_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "field-symbol", "abencond", "type", "inference", "abexa"]
+---
 
 * * *
 

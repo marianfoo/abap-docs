@@ -1,4 +1,14 @@
-  
+---
+title: "Transaction Call, Report Transaction"
+description: |
+  The example demonstrates a selection screen call using a report transaction. Source Code REPORT demo_call_selection_screen. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK sel1 WITH FRAME TITLE tit1. PARAMETERS: cityfr TYPE spfli-cityfrom, cityto TYPE spfli-cityto. SELECTION
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_transaction_repo_abexa.htm"
+abapFile: "abencall_transaction_repo_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "abencall", "transaction", "repo", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... VIRTUAL elem_name : typing(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_typing.htm) Effect Defines a virtual element(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_virtual_element_glosry.htm 'Glossary Entry') in an element list(https://help.sap.co
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_virtual_element.htm"
+abapFile: "abencds_proj_view_virtual_element.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencds", "proj", "view", "virtual", "element"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "FILTER, Filter Operator"
+description: |
+  Syntax Forms Basic Form(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 

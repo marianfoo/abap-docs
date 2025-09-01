@@ -1,4 +1,14 @@
-  
+---
+title: "Business Function"
+description: |
+  BF for short. Repository object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that represents a self-contained (business) function within the scope of the Switch Framework(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbusiness_function_glosry.htm"
+abapFile: "abenbusiness_function_glosry.htm"
+keywords: ["do", "try", "abenbusiness", "function", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - col"
+description: |
+  Syntax ... data_sourcetabalias~colname  data_sourcetabalias~sql_path(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_path.htm)-element ... Variants: 1. ... colname(#!ABAP_VARIANT_1@1@) 2. ... sql_path-element(#!ABAP_VARIANT_2@2@) Addition
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_columns.htm"
+abapFile: "abenabap_sql_columns.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenabap", "sql", "columns"]
+---
 
 * * *
 

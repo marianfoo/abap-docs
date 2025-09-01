@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_game_2048_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: BEGIN OF t_cell, value TYPE i, id    TYPE string, born  TYPE i, END OF t_cell, t_cells  TYPE STANDARD TABLE OF t_cell  WITH EMPTY KEY, t_field  TYPE STANDARD TABLE OF t_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengame_2048_abexa.htm"
+abapFile: "abengame_2048_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "method", "class", "data", "types", "abengame", "2048", "abexa"]
+---
 
 * * *
 

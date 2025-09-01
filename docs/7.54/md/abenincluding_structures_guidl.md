@@ -1,4 +1,14 @@
-  
+---
+title: "Including Structures"
+description: |
+  Background In the program-internal design of structures with the BEGIN OF and END OF additions of the TYPES and DATA statements, you can use the INCLUDE TYPE or INCLUDE STRUCTURE statements to integrate all components of another structure with the current structure at this place without creating a s
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenincluding_structures_guidl.htm"
+abapFile: "abenincluding_structures_guidl.htm"
+keywords: ["do", "if", "data", "types", "abenincluding", "structures", "guidl"]
+---
 
 * * *
 

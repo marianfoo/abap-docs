@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Display"
+description: |
+  A basic list is either displayed automatically or in a program-driven way. A details list is always displayed automatically: -   In executable programs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexecutable_program_glosry.htm 'Glossary Entry') called using SUBMIT(https://help.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlists_displayed.htm"
+abapFile: "abenlists_displayed.htm"
+keywords: ["select", "do", "if", "try", "class", "abenlists", "displayed"]
+---
 
 * * *
 

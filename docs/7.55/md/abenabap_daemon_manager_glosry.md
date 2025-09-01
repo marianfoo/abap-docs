@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Daemon manager"
+description: |
+  The class CL_ABAP_DAEMON_CLIENT_MANAGER. The static methods of the ABAP Daemon Manager are used to create and use ABAP Daemons(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_glosry.htm 'Glossary Entry') in ABAP programs(https://help.sap.com/doc/abapdocu_755_index_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_manager_glosry.htm"
+abapFile: "abenabap_daemon_manager_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenabap", "daemon", "manager", "glosry"]
+---
 
 * * *
 

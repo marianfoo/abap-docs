@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Create Internal Table as Target Area"
+description: |
+  The example demonstrates the creation of an internal table as a target area of the statement SELECT. Source Code REPORT demo_select_into_new_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: dbtab TYPE tabname VALUE 'SPFLI',
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_into_new_table_abexa.htm"
+abapFile: "abenselect_into_new_table_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abenselect", "into", "new", "table", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column SOURCE contains the name of a data source defined in the ABAP Dictionary, namely a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -12,10 +22,8 @@ CL\_OSQL\_REPLACE, Replacement Service
 
 The system class CL\_OSQL\_REPLACE implements a replacement service that can be used to redirect access to data sources in [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry") statements during the execution of [unit tests](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunit_test_glosry.htm "Glossary Entry") in [ABAP Unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_unit_glosry.htm "Glossary Entry"). The system class CL\_OSQL\_REPLACE can only be used in [test classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_class_glosry.htm "Glossary Entry") of [ABAP Unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_unit_glosry.htm "Glossary Entry").
 
--   [Defining Replacement Rules](#@@ITOC@@ABENCL_OSQL_REPLACE_1)
--   [Additional Methods](#@@ITOC@@ABENCL_OSQL_REPLACE_2)
--   [Restrictions and Special Features](#@@ITOC@@ABENCL_OSQL_REPLACE_3)
-    -   [Data Sources of Reads](#@@ITOC@@ABENCL_OSQL_REPLACE_4)
+-   [Defining Replacement Rules](#abencl-osql-replace-1-------additional-methods---@ITOC@@ABENCL_OSQL_REPLACE_2)
+-   [Restrictions and Special Features](#abencl-osql-replace-3-----------data-sources-of-reads---@ITOC@@ABENCL_OSQL_REPLACE_4)
     -   [Targets of Writes](#@@ITOC@@ABENCL_OSQL_REPLACE_5)
 
 Defining Replacement Rules   

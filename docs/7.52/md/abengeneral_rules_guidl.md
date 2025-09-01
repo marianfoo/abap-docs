@@ -1,4 +1,14 @@
-  
+---
+title: "General Rules"
+description: |
+  The following rules do not apply specifically to ABAP, even if they are demonstrated here in the context of ABAP programming, but apply equally well to all types of business application programming. Many of the rules described in this section are either derived from the general rules or support thes
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_rules_guidl.htm"
+abapFile: "abengeneral_rules_guidl.htm"
+keywords: ["do", "if", "types", "abengeneral", "rules", "guidl"]
+---
 
 * * *
 

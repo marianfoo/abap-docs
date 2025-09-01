@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX regex - Replacement Patterns (obsolete)"
+description: |
+  In addition to searching(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_search.htm), the replacement of substrings in character strings is the most important application of regular expressions. When replacing, the occurrences of a search, that is, the substrings th
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_replace.htm"
+abapFile: "abenregex_posix_replace.htm"
+keywords: ["do", "if", "data", "abenregex", "posix", "replace"]
+---
 
 * * *
 
@@ -15,10 +25,8 @@ In addition to [searching](https://help.sap.com/doc/abapdocu_latest_index_htm/la
 
 In contrast to regular text replacements, when regular expressions are used, operators can be used in the replacement text that refer to the relevant occurrence.
 
--   [Operators for Replacement Texts](#@@ITOC@@ABENREGEX_POSIX_REPLACE_1)
-    -   [Addressing the Full Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_2)
-    -   [Addressing the Registers of Subgroups](#@@ITOC@@ABENREGEX_POSIX_REPLACE_3)
-    -   [Addressing the Text Before the Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_4)
+-   [Operators for Replacement Texts](#abenregex-posix-replace-1-----------addressing-the-full-occurrence---@ITOC@@ABENREGEX_POSIX_REPLACE_2)
+    -   [Addressing the Registers of Subgroups](#abenregex-posix-replace-3-----------addressing-the-text-before-the-occurrence---@ITOC@@ABENREGEX_POSIX_REPLACE_4)
     -   [Addressing the Text After the Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_5)
 
 Operators for Replacement Texts   

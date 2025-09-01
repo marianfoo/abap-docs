@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Formal Parameters"
+description: |
+  Parameter(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenparameter_glosry.htm 'Glossary Entry') of the parameter interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenparameter_interface_glosry.htm 'Glossary Entry') of a procedure(https://help.sap.com/doc/aba
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformal_parameter_glosry.htm"
+abapFile: "abenformal_parameter_glosry.htm"
+keywords: ["do", "try", "method", "data", "abenformal", "parameter", "glosry"]
+---
 
 * * *
 

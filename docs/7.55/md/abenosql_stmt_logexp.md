@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  operand1 =EQ<>NE>GT<LT>=GE<=LE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwhere_logexp_compare.htm)   operand2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwhere_logexp_compare.htm)  ALLAN
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenosql_stmt_logexp.htm"
+abapFile: "abenosql_stmt_logexp.htm"
+keywords: ["select", "update", "delete", "do", "while", "if", "case", "try", "data", "types", "internal-table", "abenosql", "stmt", "logexp"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Display and Maintenance of Database Tables"
+description: |
+  It is possible to define whether DDIC database tables can be displayed or maintained using certain tools such as Data Browser(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_browser_glosry.htm 'Glossary Entry') (transaction SE16 ) and Table View Maintenance (transactions S
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_maint.htm"
+abapFile: "abenddic_database_tables_maint.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "database", "tables", "maint"]
+---
 
 * * *
 

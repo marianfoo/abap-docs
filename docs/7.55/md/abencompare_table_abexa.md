@@ -1,4 +1,14 @@
-  
+---
+title: "Comparing Internal Tables"
+description: |
+  This example demonstrates how internal tables are compared. Source Code REPORT demo_int_tables_compare . CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, col1 TYPE i, col2 TYPE i, END OF line. DATA: itab TYPE TABLE
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencompare_table_abexa.htm"
+abapFile: "abencompare_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abencompare", "table", "abexa"]
+---
 
 * * *
 

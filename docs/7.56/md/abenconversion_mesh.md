@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Rules for Meshes"
+description: |
+  Meshes(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_glosry.htm 'Glossary Entry') are not converted. Meshes can only be assigned to meshes and meshes can be assigned to each other only if they are fully compatible(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_mesh.htm"
+abapFile: "abenconversion_mesh.htm"
+keywords: ["do", "if", "try", "data", "abenconversion", "mesh"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "conversion_glosry"
+description: |
+  conversion_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_glosry.htm"
+abapFile: "abenconversion_glosry.htm"
+keywords: ["do", "if", "try", "abenconversion", "glosry"]
+---
 
 * * *
 

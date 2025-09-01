@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Module Calls"
+description: |
+  To call a module, use the flow logic statement: MODULE mod. The system starts the module mod of the ABAP program. A module must have been defined for the same event block in which the call occurs. If you only use simple modules in the dynpro flow logic, the data transport between the ABAP program an
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_call_dialog_mod.htm"
+abapFile: "abenabap_dynpro_call_dialog_mod.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenabap", "dynpro", "call", "dialog", "mod"]
+---
 
 * * *
 

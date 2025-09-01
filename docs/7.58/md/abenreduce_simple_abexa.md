@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_reduce_simple DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_reduce_simple IMPLEMENTATION. METHOD main. DATA itab TYPE TABLE OF i WITH
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreduce_simple_abexa.htm"
+abapFile: "abenreduce_simple_abexa.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "internal-table", "abenreduce", "simple", "abexa"]
+---
 
 * * *
 

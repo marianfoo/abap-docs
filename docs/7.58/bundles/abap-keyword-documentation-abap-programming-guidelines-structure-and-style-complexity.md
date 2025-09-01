@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abencomplexity_gdl.htm
 
-  
+---
+title: "Complexity"
+description: |
+  The aim of program complexity is to keep the source code as clear and readable as possible for the human reader. The computer has no problems with compiling or executing highly complex programs. Unformatted source code does also not constitute any problems. The human reader, however, is usually over
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomplexity_gdl.htm"
+abapFile: "abencomplexity_gdl.htm"
+keywords: ["do", "if", "case", "method", "class", "abencomplexity", "gdl"]
+---
 
 * * *
 
@@ -39,7 +49,17 @@ Continue
 
 ### abenexpression_guidl.htm
 
-  
+---
+title: "Expressions"
+description: |
+  Background An expression is part of an ABAP statement that returns a result. An expression consists of one or more operands in combination with operators or special ABAP words. Expressions can be logical expressions constructed from relational expressions and also calculation expressions. The latter
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_guidl.htm"
+abapFile: "abenexpression_guidl.htm"
+keywords: ["loop", "do", "if", "method", "data", "abenexpression", "guidl"]
+---
 
 * * *
 
@@ -96,7 +116,17 @@ ENDLOOP.
 
 ### abennesting_depth_guidl.htm
 
-  
+---
+title: "Nesting Depth"
+description: |
+  Background The nesting depth is the number of statement blocks that are nested due to the use of control structures (branches, loops). We will discuss the nesting depth at the level of a procedure (method(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennesting_depth_guidl.htm"
+abapFile: "abennesting_depth_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "abennesting", "depth", "guidl"]
+---
 
 * * *
 
@@ -137,7 +167,17 @@ The transition from the bad to the good example in the rule for [modern ABAP](ht
 
 ### abenproc_volume_guidl.htm
 
-  
+---
+title: "Procedure Volume"
+description: |
+  Background The procedure volume is the number of executable ABAP statements in a procedure (method(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm 'Guideline')). In theory, this number has no upper limit and is only limited by the maximum program si
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenproc_volume_guidl.htm"
+abapFile: "abenproc_volume_guidl.htm"
+keywords: ["do", "if", "case", "method", "data", "abenproc", "volume", "guidl"]
+---
 
 * * *
 
@@ -180,7 +220,17 @@ See the [KISS Principle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en
 
 ### abenclass_size_guidl.htm
 
-  
+---
+title: "Class Size"
+description: |
+  Background The class size is the number of components (attributes, methods, events) of a class. ABAP Compiler predefines a maximum number of 65,536 components. The total memory consumption by static attributes, instance attributes, and constants is restricted to 500KB in each case. With respect to d
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_size_guidl.htm"
+abapFile: "abenclass_size_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenclass", "size", "guidl"]
+---
 
 * * *
 
@@ -223,7 +273,17 @@ This type of procedure is also useful for global classes. By moving highly speci
 
 ### abendead_code_guidl.htm
 
-  
+---
+title: "Dead Code"
+description: |
+  Background Dead code is program parts that are never executed because they are no longer required or were never actually required at any time. This code can accumulate during the development (rejected prototypes) or maintenance (changeover to new code without deleting the old code) of programs. Rule
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendead_code_guidl.htm"
+abapFile: "abendead_code_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "types", "abendead", "code", "guidl"]
+---
 
 * * *
 

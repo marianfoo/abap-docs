@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR, Standard Operations"
+description: |
+  Work in progress  Syntax ... internal create; internal update; internal delete; Effect The standard operations create, update, and delete (known as the CRUD operations) are the most important operations for the transactional behavior of a RAP business object(https://he
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm"
+abapFile: "abenbdl_standard_operations.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "standard", "operations"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Value Semantics"
+description: |
+  Value semantics means that the referenced data object, or the dereferenced reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_glosry.htm 'Glossary Entry') is used when accessing a deep(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeep_glosry.htm
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_semantics_glosry.htm"
+abapFile: "abenvalue_semantics_glosry.htm"
+keywords: ["do", "try", "data", "field-symbol", "abenvalue", "semantics", "glosry"]
+---
 
 * * *
 

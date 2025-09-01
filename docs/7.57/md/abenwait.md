@@ -1,4 +1,14 @@
-  
+---
+title: "Program Interruption"
+description: |
+  This section describes how programs can be generally interrupted using the statement WAIT UP TO. -   WAIT UP TO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_up_to.htm) Hint Special variants of the WAIT statement interrupt programs in order to wait for the end of certain proc
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwait.htm"
+abapFile: "abenwait.htm"
+keywords: ["do", "if", "abenwait"]
+---
 
 * * *
 

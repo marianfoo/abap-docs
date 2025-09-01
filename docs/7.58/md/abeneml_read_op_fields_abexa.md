@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - READ, Field Specification Expressions"
+description: |
+  This example demonstrates read operations using various variants of field specification expressions so as to read from a simple managed RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). The example covers read and read-by-association operati
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_read_op_fields_abexa.htm"
+abapFile: "abeneml_read_op_fields_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abeneml", "read", "fields", "abexa"]
+---
 
 * * *
 

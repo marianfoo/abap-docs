@@ -1,4 +1,14 @@
-  
+---
+title: "Data Sink"
+description: |
+  Repository in which a write data stream(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_stream_glosry.htm 'Glossary Entry') stores its data. A data sink can be an external resource such as an LOB(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_glosry.htm 'G
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_sink_glosry.htm"
+abapFile: "abendata_sink_glosry.htm"
+keywords: ["do", "try", "data", "internal-table", "abendata", "sink", "glosry"]
+---
 
 * * *
 

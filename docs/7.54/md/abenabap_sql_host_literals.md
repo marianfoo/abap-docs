@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - literal"
+description: |
+  Syntax ...  +-nnn...  'ccc...'  `ccc...`  ... Effect Appropriate ABAP literals(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenliteral.htm) can also be specified in reading posi
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql_host_literals.htm"
+abapFile: "abenabap_sql_host_literals.htm"
+keywords: ["select", "do", "if", "try", "data", "abenabap", "sql", "host", "literals"]
+---
 
 * * *
 

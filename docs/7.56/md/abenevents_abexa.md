@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Events"
+description: |
+  This example demonstrates how events are raised and handled. Source Code REPORT demo_abap_objects_events NO STANDARD PAGE HEADING.   Declarations
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevents_abexa.htm"
+abapFile: "abenevents_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "abenevents", "abexa"]
+---
 
 * * *
 

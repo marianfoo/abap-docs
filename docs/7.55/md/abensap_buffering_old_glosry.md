@@ -1,4 +1,14 @@
-  
+---
+title: "SAP buffering"
+description: |
+  Buffering of frequently used data in the shared memory(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_memory_glosry.htm 'Glossary Entry') buffers of an AS ABAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenas_abap_glosry.htm 'Glossary Entry') AS instance
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_buffering_old_glosry.htm"
+abapFile: "abensap_buffering_old_glosry.htm"
+keywords: ["do", "try", "data", "abensap", "buffering", "old", "glosry"]
+---
 
 * * *
 

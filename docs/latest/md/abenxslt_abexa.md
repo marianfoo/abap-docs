@@ -1,4 +1,14 @@
-  
+---
+title: "XSL - Identity Transformation to asXML Format"
+description: |
+  This example demonstrates the serialization of ABAP data to the asXML format(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_asxml.htm). Source Code  Public class definition CLASS cl_demo_xsl_transformation DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CRE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxslt_abexa.htm"
+abapFile: "abenxslt_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenxslt", "abexa"]
+---
 
 * * *
 

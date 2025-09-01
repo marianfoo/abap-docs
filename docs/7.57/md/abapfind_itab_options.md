@@ -1,4 +1,14 @@
-  
+---
+title: "FIND IN TABLE, options"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind_shortref.htm) Syntax ... RESPECTINGIGNORING CASE MATCH COUNT  mcnt  MATCH LINE   mlin MATCH OFFSET moff MATCH LENGTH mlen  RESULTS result_tabresu
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind_itab_options.htm"
+abapFile: "abapfind_itab_options.htm"
+keywords: ["do", "if", "case", "data", "types", "internal-table", "abapfind", "itab", "options"]
+---
 
 * * *
 

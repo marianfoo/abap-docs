@@ -1,4 +1,14 @@
-  
+---
+title: "Data Elements"
+description: |
+  A data element in ABAP Dictionary defines an elementary data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_type_glosry.htm 'Glossar
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_elements.htm"
+abapFile: "abenddic_data_elements.htm"
+keywords: ["do", "try", "class", "data", "types", "abenddic", "elements"]
+---
 
 * * *
 

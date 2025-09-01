@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenlocal_expr_declarations.htm
 
-  
+---
+title: "Local Declarations in Constructor Expressions"
+description: |
+  In most constructor expressions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_glosry.htm 'Glossary Entry'), variables and field symbols can be declared as local fields. The declaration takes place inside a constructor expression within an embedded -   LET e
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_expr_declarations.htm"
+abapFile: "abenlocal_expr_declarations.htm"
+keywords: ["do", "if", "try", "class", "internal-table", "field-symbol", "abenlocal", "expr", "declarations"]
+---
 
 * * *
 
@@ -47,7 +57,17 @@ Continue
 
 ### abaplet.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... LET var1 = rhs1<fs1> = wrexpr1 var2 = rhs2<fs2> = wrexpr2 ... IN ... Alternatives: 1. ... var = rhs ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... <fs> = wrexp ...(#!ABAP_ALTERNATIVE_2@2@) Effect A LET expression defines variables var1, var2, ... or field symbols <fs1>,
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm"
+abapFile: "abaplet.htm"
+keywords: ["do", "while", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abaplet"]
+---
 
 * * *
 
@@ -167,7 +187,17 @@ Continue
 
 ### abenlet_abexa.htm
 
-  
+---
+title: "LET Expression"
+description: |
+  This example demonstrates a LET expression in a constructor expression. Source Code  Public class definition CLASS cl_demo_let_it_be DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlet_abexa.htm"
+abapFile: "abenlet_abexa.htm"
+keywords: ["do", "if", "method", "class", "types", "internal-table", "abenlet", "abexa"]
+---
 
 * * *
 
@@ -211,7 +241,17 @@ A constructor expression with the value operator [VALUE](https://help.sap.com/do
 
 ### abaplet.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... LET var1 = rhs1<fs1> = wrexpr1 var2 = rhs2<fs2> = wrexpr2 ... IN ... Alternatives: 1. ... var = rhs ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... <fs> = wrexp ...(#!ABAP_ALTERNATIVE_2@2@) Effect A LET expression defines variables var1, var2, ... or field symbols <fs1>,
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm"
+abapFile: "abaplet.htm"
+keywords: ["do", "while", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abaplet"]
+---
 
 * * *
 

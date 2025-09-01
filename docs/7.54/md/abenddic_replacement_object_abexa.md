@@ -1,4 +1,14 @@
-  
+---
+title: "Replacement Object for Database Table"
+description: |
+  This example demonstrates a database table with a replacement object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreplacement_object_glosry.htm 'Glossary Entry'). Source Code REPORT demo_table_replacement_object. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_con
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_replacement_object_abexa.htm"
+abapFile: "abenddic_replacement_object_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenddic", "replacement", "object", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Maintenance"
+description: |
+  Messages(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm 'Glossary Entry') are created and changed using the message maintenance (transaction SE91). The message short texts are stored as language-specific texts in the database table T100, which offers an interface
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_messages_storing.htm"
+abapFile: "abenabap_messages_storing.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "messages", "storing"]
+---
 
 * * *
 

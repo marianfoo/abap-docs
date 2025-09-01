@@ -1,4 +1,14 @@
-  
+---
+title: "statement_block_glosry"
+description: |
+  statement_block_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_block_glosry.htm"
+abapFile: "abenstatement_block_glosry.htm"
+keywords: ["do", "try", "abenstatement", "block", "glosry"]
+---
 
 * * *
 

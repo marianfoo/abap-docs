@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Union of CDS View with Input Parameters"
+description: |
+  This example demonstrates a union of a CDS view with input parameters. Source Code REPORT demo_cds_parameters_unit. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: from_distance TYPE s_distance VALUE 0000, to_distance   TYPE s
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_union_cds_para_abexa.htm"
+abapFile: "abenselect_union_cds_para_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenselect", "union", "cds", "para", "abexa"]
+---
 
 * * *
 

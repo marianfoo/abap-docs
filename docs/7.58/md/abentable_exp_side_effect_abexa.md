@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  CCDEF TYPES itab TYPE STANDARD TABLE OF i WITH EMPTY KEY.  Public class definition CLASS cl_demo_tab_exp_side_effect DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS meth IMPORTING idx          TYPE i li
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_exp_side_effect_abexa.htm"
+abapFile: "abentable_exp_side_effect_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "field-symbol", "abentable", "exp", "side", "effect", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "END-OF-EDITING - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-editing.htm) Syntax END-OF-EDITING. Effect Obsolete: Initiates an event block whose event is triggered in executable programs(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.h
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-editing_shortref.htm"
+abapFile: "abapend-of-editing_shortref.htm"
+keywords: ["select", "do", "try", "abapend", "editing", "shortref"]
+---
 
 * * *
 

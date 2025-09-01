@@ -1,4 +1,14 @@
-  
+---
+title: "GET REFERENCE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_reference.htm) Syntax GET REFERENCE OF dobj INTO dref. Effect Gets a reference to the data object dobj in the reference variable dref.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_reference_shortref.htm"
+abapFile: "abapget_reference_shortref.htm"
+keywords: ["do", "if", "data", "abapget", "reference", "shortref"]
+---
 
 * * *
 

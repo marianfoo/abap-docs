@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Character Set"
+description: |
+  Application Server ABAP supports only Unicode systems in the current release. -   A Unicode system is an AS ABAP(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm 'Glossary Entry') that is based on Unicode character representation with a code page(https://help.sap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_sets.htm"
+abapFile: "abencharacter_sets.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "abencharacter", "sets"]
+---
 
 * * *
 

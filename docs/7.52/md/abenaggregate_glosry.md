@@ -1,4 +1,14 @@
-  
+---
+title: "Aggregate"
+description: |
+  Grouping of data from several lines in a database table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_table_glosry.htm 'Glossary Entry'). Can be determined by means of aggregate functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenaggregate_function_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenaggregate_glosry.htm"
+abapFile: "abenaggregate_glosry.htm"
+keywords: ["select", "do", "try", "data", "abenaggregate", "glosry"]
+---
 
 * * *
 

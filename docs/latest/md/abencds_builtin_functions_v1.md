@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, Built-In Functions"
+description: |
+  The following built-in database functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_functions.htm) provided by ABAP Dictionary can be specified in the SELECT list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_v1.htm) of
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_functions_v1.htm"
+abapFile: "abencds_builtin_functions_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "builtin", "functions"]
+---
 
 * * *
 

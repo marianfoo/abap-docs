@@ -1,4 +1,14 @@
-  
+---
+title: "SUBMIT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubmit.htm) Syntax SUBMIT rep(name) USING SELECTION-SCREEN dynnr VIA SELECTION-SCREEN USING SELECTION-SET variant USING SELECTION-SETS OF PROGRAM prog WITH SELECTION-TABLE rsp
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubmit_shortref.htm"
+abapFile: "abapsubmit_shortref.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abapsubmit", "shortref"]
+---
 
 * * *
 

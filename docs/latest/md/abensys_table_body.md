@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... itab-sys ... Effect If itab is an obsolete standard table with a header line(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheader_line_glosry.htm 'Glossary Entry'), instead of specifying itab to address the table body, the pseudo component itab-sys can be used
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensys_table_body.htm"
+abapFile: "abensys_table_body.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abensys", "table", "body"]
+---
 
 * * *
 

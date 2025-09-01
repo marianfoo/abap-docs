@@ -1,4 +1,14 @@
-  
+---
+title: "METHOD - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethod.htm) Syntax METHOD meth. ... ENDMETHOD. Effect Implements a method meth in the implementation part of a class. A method is declared in the declaration part of the class and is implemented between METHOD and ENDMET
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethod_shortref.htm"
+abapFile: "abapmethod_shortref.htm"
+keywords: ["do", "if", "method", "class", "abapmethod", "shortref"]
+---
 
 * * *
 

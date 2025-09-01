@@ -1,4 +1,14 @@
-  
+---
+title: "CDS Views, Client Handling"
+description: |
+  This example demonstrates how client-specific(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_client_handling.htm) CDS views are handled. Source Code REPORT demo_cds_client_handling. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATIO
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_client_handling_abexa.htm"
+abapFile: "abencds_client_handling_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "client", "handling", "abexa"]
+---
 
 * * *
 

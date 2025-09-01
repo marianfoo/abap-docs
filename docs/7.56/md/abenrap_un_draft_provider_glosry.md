@@ -1,4 +1,14 @@
-  
+---
+title: "RAP unmanaged draft provider"
+description: |
+  Draft provider(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry') of BOs(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry') with unmanaged draft. The draft handling(https://help.sap.com/doc
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_un_draft_provider_glosry.htm"
+abapFile: "abenrap_un_draft_provider_glosry.htm"
+keywords: ["do", "try", "abenrap", "draft", "provider", "glosry"]
+---
 
 * * *
 

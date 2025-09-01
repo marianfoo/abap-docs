@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN"
+description: |
+  Syntax Forms Create selection screens(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselection-screen_definition.htm) 1. SELECTION-SCREEN BEGIN OF SCREEN ... ... SELECTION-SCREEN END OF SCREEN ... Layout of selection screens(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselection-screen.htm"
+abapFile: "abapselection-screen.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE LIST-PROCESSING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_list-processing_shortref.htm) Syntax LEAVE LIST-PROCESSING. Effect This statement immediately exits the list processor. The runtime framework continues processing with the PBO(https://help.sap.com/doc/abapd
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_list-processing.htm"
+abapFile: "abapleave_list-processing.htm"
+keywords: ["select", "do", "if", "try", "class", "abapleave", "list", "processing"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  The PCRE syntax is more powerful than the POSIX syntax. Furthermore, PCRE regular expressions generally perform better than the POSIX regular expressions supported by ABAP. Example PCRE regular expressions support non-greedy behavior by placing a question mark (?) behind wildcard characters as for e
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_pcre_syntax.htm"
+abapFile: "abenregex_pcre_syntax.htm"
+keywords: ["do", "if", "method", "class", "data", "abenregex", "pcre", "syntax"]
+---
 
 * * *
 

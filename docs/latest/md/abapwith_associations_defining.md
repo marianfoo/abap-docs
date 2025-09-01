@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, ASSOCIATIONS, JOIN"
+description: |
+  Syntax ... JOIN cardinality target AS _assoc ON sql_cond(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_expr_logexp.htm) ... Addition: ... cardinality(#!ABAP_ONE_ADD@1@) Effect Specifying JOIN initiates the definition and exposure of a CTE association(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations_defining.htm"
+abapFile: "abapwith_associations_defining.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abapwith", "associations", "defining"]
+---
 
 * * *
 

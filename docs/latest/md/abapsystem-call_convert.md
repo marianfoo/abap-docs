@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax CONVERT ID id DATA dat ENCODING code ENDIAN endian IGNORE_CERR error N n POSITION position REPLACEMENT rep LEN len BUFFER buf AUX aux TYPE type. Effect Converts text and numbers between different formats. H
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsystem-call_convert.htm"
+abapFile: "abapsystem-call_convert.htm"
+keywords: ["do", "if", "class", "data", "abapsystem", "call", "convert"]
+---
 
 * * *
 

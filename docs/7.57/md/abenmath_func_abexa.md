@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_numerical_function. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA n TYPE decfloat16. DATA m TYPE decfloat16 VALUE '-5.55'. FINAL(out) = cl_demo_output=>new( ). n = abs( m ). out->write( ABS:  n  ). n = sign( m ).
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmath_func_abexa.htm"
+abapFile: "abenmath_func_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenmath", "func", "abexa"]
+---
 
 * * *
 

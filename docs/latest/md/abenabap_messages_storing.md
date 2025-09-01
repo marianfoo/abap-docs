@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Maintenance"
+description: |
+  Messages(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_glosry.htm 'Glossary Entry') are created and changed using the message maintenance tool in ADT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm 'Glossary Entry') or using transa
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_messages_storing.htm"
+abapFile: "abenabap_messages_storing.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "messages", "storing"]
+---
 
 * * *
 

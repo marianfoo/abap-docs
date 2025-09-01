@@ -1,4 +1,14 @@
-  
+---
+title: "Character in ABAP Name"
+description: |
+  Escape Character in XML Name ASCII characters other than 'a' to 'z', 'A' to 'Z', '0' to '9', or '_' and characters '0' to '9' as the first character. '_--hex(c)', where hex(c) is the two-character hexidecimal representation of the ASCII code for the character c. '/' '_-' 'XML' as the first three
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_general.htm"
+abapFile: "abenabap_xslt_asxml_general.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenabap", "xslt", "asxml", "general"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "scalar_subquery_glosry"
+description: |
+  scalar_subquery_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscalar_subquery_glosry.htm"
+abapFile: "abenscalar_subquery_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenscalar", "subquery", "glosry"]
+---
 
 * * *
 

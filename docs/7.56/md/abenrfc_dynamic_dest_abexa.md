@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Dynamic Destination"
+description: |
+  This example demonstrates how dynamic destinations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_destination.htm) are created. Source Code REPORT demo_rfc_dynamic_dest. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD m
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_dynamic_dest_abexa.htm"
+abapFile: "abenrfc_dynamic_dest_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenrfc", "dynamic", "dest", "abexa"]
+---
 
 * * *
 

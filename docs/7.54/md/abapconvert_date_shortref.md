@@ -1,4 +1,14 @@
-  
+---
+title: "CONVERT DATE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date.htm) Syntax CONVERT DATE dat1 INTO INVERTED-DATE dat2  INVERTED-DATE dat1 INTO DATE dat2. Effect Obsolete: Both variants convert the digits of a character-like data object dat1 into their complemen
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_shortref.htm"
+abapFile: "abapconvert_date_shortref.htm"
+keywords: ["do", "data", "abapconvert", "date", "shortref"]
+---
 
 * * *
 

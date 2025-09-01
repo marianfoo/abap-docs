@@ -1,4 +1,14 @@
-  
+---
+title: "PERFORM subr(prog)"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_shortref.htm) Obsolete Syntax PERFORM subr(prog) IF FOUND parameter_list(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_parameters.htm). Effect A variant of the extern
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_obsolete.htm"
+abapFile: "abapperform_obsolete.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "abapperform", "obsolete"]
+---
 
 * * *
 

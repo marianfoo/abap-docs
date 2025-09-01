@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSACTION - Obsolete"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_shortref.htm) Obsolete Syntax CALL TRANSACTION ta AND SKIP FIRST SCREEN(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_standard.htm)   USING bdc_tab .
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_auth_obs.htm"
+abapFile: "abapcall_transaction_auth_obs.htm"
+keywords: ["do", "if", "case", "try", "data", "abapcall", "transaction", "auth", "obs"]
+---
 
 * * *
 

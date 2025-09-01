@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL"
+description: |
+  ABAP SQL is a subset of SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_glosry.htm 'Glossary Entry') implemented by ABAP statements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_statement_glosry.htm 'Glossary Entry'), which includes the DML
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm"
+abapFile: "abenabap_sql_glosry.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "data", "abenabap", "sql", "glosry"]
+---
 
 * * *
 

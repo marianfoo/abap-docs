@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  .... lhs IS NOT INITIAL ... Effect Determines the initial value. This expression is true if the value of lhs is (is not) the initial value(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_glosry.htm 'Glossary Entry') of its built-in dictionary type(https://hel
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_initial_v2.htm"
+abapFile: "abencds_cond_expr_initial_v2.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "cond", "expr", "initial"]
+---
 
 * * *
 

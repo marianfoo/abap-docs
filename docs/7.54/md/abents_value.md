@@ -1,4 +1,14 @@
-  
+---
+title: "Representation of Time Stamps in Character-Like Fields"
+description: |
+  The values of data objects of the character-like data types c and string can be assigned to time stamp fields of the type utclong as long as they contain a valid representation of a time stamp. The following strings represent valid time stamps: 'yyyy-mm-dd hh:mm:ss.fffffff' 'yyyy-mm-dd hh:mm:ss,ffff
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abents_value.htm"
+abapFile: "abents_value.htm"
+keywords: ["do", "if", "try", "data", "types", "abents", "value"]
+---
 
 * * *
 

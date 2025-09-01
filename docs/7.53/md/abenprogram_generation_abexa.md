@@ -1,4 +1,14 @@
-  
+---
+title: "Program Generation"
+description: |
+  This example demonstrates how a program is generated using GENERATE SUBROUTINE POOL. Source Code REPORT demo_generic_program. CLASS display DEFINITION FINAL. PUBLIC SECTION. TYPES: txt_line TYPE c LENGTH 72, txt      TYPE STANDARD TABLE OF txt_line WITH DEFAULT KEY. CLASS-DATA: read_only TYPE a
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_generation_abexa.htm"
+abapFile: "abenprogram_generation_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenprogram", "generation", "abexa"]
+---
 
 * * *
 

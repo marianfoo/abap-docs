@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenroot_entity_glosry.htm 'Glossary Entry') DEMO_MANAGED_HIERARCHY: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity DEMO_MANAGED_HIERARCHY as select from de
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm"
+abapFile: "abenderived_type_hierarchy_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenderived", "type", "hierarchy", "abexa"]
+---
 
 * * *
 

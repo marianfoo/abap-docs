@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FROM lin1 OFFSET off1 TO   lin2 OFFSET off2 ... Effect This addition restricts the search performed by the statement REPLACE IN TABLE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_itab.htm) on the table section specified in the numeric
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_table_range.htm"
+abapFile: "abapreplace_table_range.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abapreplace", "table", "range"]
+---
 
 * * *
 

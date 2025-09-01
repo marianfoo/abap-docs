@@ -1,4 +1,14 @@
-  
+---
+title: "IF - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapif.htm) Syntax IF log_exp1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlog_exp_shortref.htm). statement_block1 ELSEIF log_exp2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/a
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapif_shortref.htm"
+abapFile: "abapif_shortref.htm"
+keywords: ["do", "if", "abapif", "shortref"]
+---
 
 * * *
 

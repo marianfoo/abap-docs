@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Rules for Structures"
+description: |
+  This example demonstrates how structures can be converted from one type to another. Source Code REPORT demo_data_conversion_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF fs1, int   TYPE i            VALUE 5,
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_conv_str_abexa.htm"
+abapFile: "abendata_conv_str_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abendata", "conv", "str", "abexa"]
+---
 
 * * *
 

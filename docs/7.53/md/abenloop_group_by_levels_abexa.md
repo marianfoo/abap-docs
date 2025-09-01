@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP in Control Levels"
+description: |
+  This example demonstrates simple control level processing using GROUP BY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_group_by.htm). Source Code REPORT demo_loop_group_by_levels. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: B
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_group_by_levels_abexa.htm"
+abapFile: "abenloop_group_by_levels_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "types", "internal-table", "abenloop", "group", "levels", "abexa"]
+---
 
 * * *
 

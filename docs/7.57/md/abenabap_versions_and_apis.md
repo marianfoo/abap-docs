@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Language Versions, Release Contracts and Released APIs"
+description: |
+  ABAP can be developed on an ABAP Platform Classic(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_platform_classic_glosry.htm 'Glossary Entry') or an ABAP Platform Strict(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_platform_strict_glosry.htm 'Glossary
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_versions_and_apis.htm"
+abapFile: "abenabap_versions_and_apis.htm"
+keywords: ["do", "if", "case", "try", "class", "abenabap", "versions", "and", "apis"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ ABAP Language Versions, Release Contracts and Released APIs
 
 ABAP can be developed on an [ABAP Platform Classic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_platform_classic_glosry.htm "Glossary Entry") or an [ABAP Platform Strict](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_platform_strict_glosry.htm "Glossary Entry"). Especially for [strict ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstrict_abap_glosry.htm "Glossary Entry"), the following subjects are important:
 
--   [ABAP Language Versions](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_1)
--   [Release Contracts](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
+-   [ABAP Language Versions](#abenabap-versions-and-apis-1-------release-contracts---@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
 -   [Released APIs](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_3)
 
 ABAP Language Versions   

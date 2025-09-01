@@ -1,4 +1,14 @@
-  
+---
+title: "ELSEIF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif_shortref.htm) Syntax ELSEIF log_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm). Effect See IF(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm).
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapelseif.htm"
+abapFile: "abapelseif.htm"
+keywords: ["do", "if", "abapelseif"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES - implicit"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_shortref.htm) Obsolete Syntax TYPES  dtype    dtype(len)    dtype LENGTH len    dtype TYPE cnpx    dtype(len) TYPE p   dtype TYPE p LENGTH len   dt
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_implicit.htm"
+abapFile: "abaptypes_implicit.htm"
+keywords: ["do", "if", "class", "data", "types", "abaptypes", "implicit"]
+---
 
 * * *
 

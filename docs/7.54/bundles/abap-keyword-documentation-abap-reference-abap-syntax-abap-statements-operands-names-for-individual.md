@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenoperands_names.htm
 
-  
+---
+title: "Names for Individual Operands"
+description: |
+  An individual operand, meaning an operand that is not an expression, can be elementary or made up of components. Composite operands are: -   Structured data types or data objects (structure) -   Instances of classes (objects) -   Classes -   Interfaces Accordingly, names for operands are either elem
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_names.htm"
+abapFile: "abenoperands_names.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenoperands", "names"]
+---
 
 * * *
 
@@ -62,7 +72,17 @@ Continue
 
 ### abenstructure_component_selector.htm
 
-  
+---
+title: "Structure Component Selector"
+description: |
+  A component comp of a structured data type or a structure struct is accessed using the name struct-comp In this case, the character - is the structure component selector. A structured data type or a structure struct must be specified as follows on the left of the structure component selector: -   N
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_component_selector.htm"
+abapFile: "abenstructure_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenstructure", "component", "selector"]
+---
 
 * * *
 
@@ -97,7 +117,17 @@ DATA struc TYPE spfli.
 
 ### abenobject_component_selector.htm
 
-  
+---
+title: "Object Component Selector"
+description: |
+  A component comp of an object is accessed using the following name: ref->comp In this case, the character -> is the object component selector. A reference variable ref must be specified on the left of the object component selector as follows: -   Name of a reference variable (can itself be a compos
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_component_selector.htm"
+abapFile: "abenobject_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenobject", "component", "selector"]
+---
 
 * * *
 
@@ -156,7 +186,17 @@ DATA dref TYPE REF TO sflight.
 
 ### abenclass_component_selector.htm
 
-  
+---
+title: "Class Component Selector"
+description: |
+  A static component(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_component_glosry.htm 'Glossary Entry') comp of a class can be accessed using the following name: class=>comp In this case, no instance of the class needs to be created. The characters => are the class compone
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_component_selector.htm"
+abapFile: "abenclass_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenclass", "component", "selector"]
+---
 
 * * *
 
@@ -207,7 +247,17 @@ ENDCLASS.
 
 ### abeninterface_component_selector.htm
 
-  
+---
+title: "Interface Component Selector"
+description: |
+  A component comp of an interface is accessed using the following name: intf~comp In this case, the character ~ is the interface component selector. The name intf of an interface must be on the left of the interface component selector. The name comp of the component must be on the right of the interf
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_component_selector.htm"
+abapFile: "abeninterface_component_selector.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abeninterface", "component", "selector"]
+---
 
 * * *
 
@@ -261,7 +311,17 @@ ENDCLASS.
 
 ### abendereferencing_operator.htm
 
-  
+---
+title: "Dereferencing Operator"
+description: |
+  The dereferencing operator can be used to access the content of a data object pointed to by a data reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_reference_type.htm): dref-> The dereferencing operator -> can be specified after a data reference variable(https:/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendereferencing_operator.htm"
+abapFile: "abendereferencing_operator.htm"
+keywords: ["select", "do", "if", "try", "data", "field-symbol", "abendereferencing", "operator"]
+---
 
 * * *
 
@@ -301,7 +361,17 @@ cl\_demo\_output=>display( ).
 
 ### abencomponent_chaining_selector.htm
 
-  
+---
+title: "Chainings"
+description: |
+  In cases where operands are composed of components that themselves contain components, the names of these components are composed of chainings with multiple component selectors. The following rules apply to these chained names(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchained_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponent_chaining_selector.htm"
+abapFile: "abencomponent_chaining_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencomponent", "chaining", "selector"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ArchiveLink"
+description: |
+  Service used to link applications of an AS ABAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm 'Glossary Entry') with archived documents.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarchivelink_glosry.htm"
+abapFile: "abenarchivelink_glosry.htm"
+keywords: ["do", "if", "try", "abenarchivelink", "glosry"]
+---
 
 * * *
 

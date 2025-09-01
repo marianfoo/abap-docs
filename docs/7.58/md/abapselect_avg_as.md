@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... AVG( DISTINCT col(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_columns.htm) AS dtype ) ... Effect Aggregate function AVG(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_agg_func.htm) in ABAP SQL with a data type dtype specified. The data
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_avg_as.htm"
+abapFile: "abapselect_avg_as.htm"
+keywords: ["select", "do", "if", "class", "data", "types", "abapselect", "avg"]
+---
 
 * * *
 

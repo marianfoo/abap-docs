@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  MODIFY  TABLE mesh_path(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path.htm) USING KEY keyname(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm) FROM wa TRANSPORTING comp1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_modify.htm"
+abapFile: "abenmesh_modify.htm"
+keywords: ["do", "if", "data", "types", "internal-table", "abenmesh", "modify"]
+---
 
 * * *
 

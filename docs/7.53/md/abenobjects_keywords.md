@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Keywords"
+description: |
+  The following list displays the keywords introduced specifically for ABAP objects. ALIASES(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapaliases.htm) Declares an alias name(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalias_glosry.htm 'Glossary Entry') CALL ME
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobjects_keywords.htm"
+abapFile: "abenobjects_keywords.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenobjects", "keywords"]
+---
 
 * * *
 

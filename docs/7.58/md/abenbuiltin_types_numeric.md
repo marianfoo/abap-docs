@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Numeric Types"
+description: |
+  The data objects of the numeric data types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_data_type_glosry.htm 'Glossary Entry') are used to store numeric values. Properties Type Length Standard Length Meaning Data Object b 1 byte Internal 1-byte integer type(https://help
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm"
+abapFile: "abenbuiltin_types_numeric.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuiltin", "numeric"]
+---
 
 * * *
 

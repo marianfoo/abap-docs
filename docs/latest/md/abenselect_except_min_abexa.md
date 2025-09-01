@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Difference with Aggregate Expression"
+description: |
+  This example demonstrates how a difference is created across a table using an aggregate expression. Source Code  Public class definition CLASS cl_demo_select_except_min DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  P
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_except_min_abexa.htm"
+abapFile: "abenselect_except_min_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenselect", "except", "min", "abexa"]
+---
 
 * * *
 

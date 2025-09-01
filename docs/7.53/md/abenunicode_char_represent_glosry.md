@@ -1,4 +1,14 @@
-  
+---
+title: "Unicode character representation"
+description: |
+  Character representation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_representation_glosry.htm 'Glossary Entry') defined for Unicode(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_glosry.htm 'Glossary Entry'). SAP supports the representations UTF-
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_char_represent_glosry.htm"
+abapFile: "abenunicode_char_represent_glosry.htm"
+keywords: ["do", "try", "abenunicode", "char", "represent", "glosry"]
+---
 
 * * *
 

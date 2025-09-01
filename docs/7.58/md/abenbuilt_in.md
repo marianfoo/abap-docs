@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Types, Data Objects, Functions, and Constructors"
+description: |
+  Each ABAP program provides a range of the following elements: -   Built-In Data Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_types.htm) -   Built-In Data Objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_objects.htm) -   Built-In Fu
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in.htm"
+abapFile: "abenbuilt_in.htm"
+keywords: ["do", "if", "data", "types", "abenbuilt"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Function Modules"
+description: |
+  Function modules are cross-program reusable procedures(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm 'Glossary Entry') that are organized into function groups(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_group_glosry.htm 'Glossary
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_functions.htm"
+abapFile: "abenabap_functions.htm"
+keywords: ["do", "try", "method", "class", "abenabap", "functions"]
+---
 
 * * *
 

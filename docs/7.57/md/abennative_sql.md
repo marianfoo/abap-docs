@@ -1,4 +1,14 @@
-  
+---
+title: "Native SQL"
+description: |
+  The term Native SQL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql_glosry.htm 'Glossary Entry') refers to all platform-dependent statements and calls that can be passed to the Native SQL interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sq
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql.htm"
+abapFile: "abennative_sql.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abennative", "sql"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Replacements for Obsolete Language Constructs in ABAP Objects"
+description: |
+  The ABAP language has been cleaned up in ABAP Objects. As part of this language cleanup, stricter syntax checks are performed for constructs that were previously allowed, or obsolete statements are no longer allowed at all. The stricter syntax checks usually produce syntax that is also recommended f
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoo_differences_obsolete.htm"
+abapFile: "abenoo_differences_obsolete.htm"
+keywords: ["do", "if", "class", "abenoo", "differences", "obsolete"]
+---
 
 * * *
 

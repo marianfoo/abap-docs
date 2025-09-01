@@ -1,4 +1,14 @@
-  
+---
+title: "work_process_glosry"
+description: |
+  work_process_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwork_process_glosry.htm"
+abapFile: "abenwork_process_glosry.htm"
+keywords: ["update", "do", "if", "try", "data", "types", "abenwork", "process", "glosry"]
+---
 
 * * *
 

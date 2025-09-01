@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BDL - Feature Tables"
+description: |
+  The following sections shows all available language elements of the RAP BDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm 'Glossary Entry') and their release dates. For further information on the release dates, see ABAP - ABAP Release News(https://help.sap.com
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_feature_table.htm"
+abapFile: "abenrap_feature_table.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenrap", "feature", "table"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ RAP BDL - Feature Tables
 
 The following sections shows all available language elements of the [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") and their release dates. For further information on the release dates, see [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm).
 
--   [BDL](#@@ITOC@@ABENRAP_FEATURE_TABLE_1)
-    -   [RAP Behavior Definitions](#@@ITOC@@ABENRAP_FEATURE_TABLE_2)
+-   [BDL](#abenrap-feature-table-1-----------rap-behavior-definitions---@ITOC@@ABENRAP_FEATURE_TABLE_2)
     -   [BDEF Extensions](#@@ITOC@@ABENRAP_FEATURE_TABLE_3)
 
 BDL   

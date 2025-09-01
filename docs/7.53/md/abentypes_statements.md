@@ -1,4 +1,14 @@
-  
+---
+title: "Declaring Data Types"
+description: |
+  In ABAP programs, data types local to the program can be defined. These types can be used for typing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_glosry.htm 'Glossary Entry') or declaring further data types or data objects according to their validity and visibility. The as
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentypes_statements.htm"
+abapFile: "abentypes_statements.htm"
+keywords: ["do", "try", "data", "types", "abentypes", "statements"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL"
+description: |
+  Former name for ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossary Entry').
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenopen_sql_glosry.htm"
+abapFile: "abenopen_sql_glosry.htm"
+keywords: ["do", "if", "try", "abenopen", "sql", "glosry"]
+---
 
 * * *
 

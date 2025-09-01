@@ -5,7 +5,17 @@ Included pages: 10
 
 ### abenerror_handling_gdl.htm
 
-  
+---
+title: "Error Handling"
+description: |
+  Error situations are always a possibility when a program is being executed. These can be caused by: -   internal errors produced by faulty implementations or incorrect use of services -   external errors produced by incorrect user input or unexpected resource bottlenecks ABAP offers various method f
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm"
+abapFile: "abenerror_handling_gdl.htm"
+keywords: ["do", "if", "method", "class", "abenerror", "handling", "gdl"]
+---
 
 * * *
 
@@ -48,7 +58,17 @@ Continue
 
 ### abenreaction_error_guidl.htm
 
-  
+---
+title: "Reaction to Error Situations"
+description: |
+  Background ABAP provides the following concepts that a program can use to properly react to different error situations: -   Exceptions Exceptions are events in the execution of an ABAP program that interrupt the program when it is not possible for the program to continue in a meaningful way. Excepti
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm"
+abapFile: "abenreaction_error_guidl.htm"
+keywords: ["select", "do", "if", "class", "exception-handling", "abenreaction", "error", "guidl"]
+---
 
 * * *
 
@@ -105,7 +125,17 @@ For contemporary programming that takes the [separation of concerns](https://hel
 
 ### abenclass_exception_guidl.htm
 
-  
+---
+title: "Classic and Class-Based Exceptions"
+description: |
+  Background For reasons of downward compatibility, there are two options for defining standalone catchable exceptions in ABAP: -   Classic Exceptions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_non_class.htm) These exceptions can only be declared in the interfaces of m
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm"
+abapFile: "abenclass_exception_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abenclass", "exception", "guidl"]
+---
 
 * * *
 
@@ -222,7 +252,17 @@ This simple example is perhaps not the most obvious demonstration of the great a
 
 ### abenexception_category_guidl.htm
 
-  
+---
+title: "Exception Categories"
+description: |
+  Background Each class-based exception belongs to one of three different exception categories, each of which define whether the exceptions need to be declared in procedure interfaces. The assignment of an exception to an exception class is realized (technically) using inheritance. All exception class
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm"
+abapFile: "abenexception_category_guidl.htm"
+keywords: ["do", "if", "case", "catch", "method", "class", "abenexception", "category", "guidl"]
+---
 
 * * *
 
@@ -276,7 +316,17 @@ The resumability of a class-based exception is not an attribute of the exception
 
 ### abenexception_texts_guidl.htm
 
-  
+---
+title: "Exception Texts"
+description: |
+  Background Each global exception class has a predefined exception text(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts.htm) that has the same name as the exception class. This text can be edited and further exception texts can be defined. The exception texts of an ex
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm"
+abapFile: "abenexception_texts_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenexception", "texts", "guidl"]
+---
 
 * * *
 
@@ -341,7 +391,17 @@ RAISE EXCEPTION TYPE cx\_system\_exception
 
 ### abenuse_exception_class_guidl.htm
 
-  
+---
+title: "Using Exception Classes"
+description: |
+  Background The concept of freely definable exception classes involves being able to create an exception class that adequately describes the exception situation in question. The description consists both of the name of the exception class, the associated exception texts, and their documentation. You
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm"
+abapFile: "abenuse_exception_class_guidl.htm"
+keywords: ["do", "if", "method", "class", "abenuse", "exception", "guidl"]
+---
 
 * * *
 
@@ -418,7 +478,17 @@ ENDCLASS.
 
 ### abenhandl_prop_except_guidl.htm
 
-  
+---
+title: "Handling and Propagating Exceptions"
+description: |
+  Background If a class-based exception is raised, it is propagated automatically between the call layers until the exception is handled or an interface is violated: -   If the exception is raised in a TRY block, the system searches for a suitable CATCH block to handle it. -   If the user leaves the p
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm"
+abapFile: "abenhandl_prop_except_guidl.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "class", "abenhandl", "prop", "except", "guidl"]
+---
 
 * * *
 
@@ -460,7 +530,17 @@ Forwarding the exceptions to higher software layers usually results in a general
 
 ### abencleanup_guidl.htm
 
-  
+---
+title: "Cleanups After Exceptions"
+description: |
+  Background Every TRY control structure can contain a CLEANUP block. If a class-based exception is raised in the TRY block of the same TRY control structure, but is handled in a CATCH block of an external TRY control structure, the CLEANUP block is executed before the context of the exception is dele
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm"
+abapFile: "abencleanup_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "catch", "class", "data", "exception-handling", "abencleanup", "guidl"]
+---
 
 * * *
 
@@ -519,7 +599,17 @@ ENDTRY.
 
 ### abenassertions_guidl.htm
 
-  
+---
+title: "Assertions"
+description: |
+  Background The ASSERT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassert.htm) statement is used to express an assertion in an ABAP program. Such an assertion is either always active or can be activated externally by assignment to a checkpoint group. When the program reaches an a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm"
+abapFile: "abenassertions_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenassertions", "guidl"]
+---
 
 * * *
 
@@ -573,7 +663,17 @@ ASSERT sy-subrc = 0.
 
 ### abenmessages_guidl.htm
 
-  
+---
+title: "Messages"
+description: |
+  Background Messages are texts that are created using a message maintenance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_maintenance_glosry.htm 'Glossary Entry'). They are stored in the system table T100. In ABAP programs, the statement MESSAGE(https://help.sap.com/doc/a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm"
+abapFile: "abenmessages_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "types", "exception-handling", "abenmessages", "guidl"]
+---
 
 * * *
 

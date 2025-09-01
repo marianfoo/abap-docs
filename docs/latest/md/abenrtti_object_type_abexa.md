@@ -1,4 +1,14 @@
-  
+---
+title: "Determining Object Types"
+description: |
+  This example demonstrates how the dynamic types of objects can be determined at runtime. Source Code  CCDEF CLASS conv_exc DEFINITION INHERITING FROM cx_static_check. ENDCLASS. CLASS c1 DEFINITION. ENDCLASS. CLASS c2 DEFINITION. ENDCLASS.  Public class definition CLASS cl_demo_rtti_object
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm"
+abapFile: "abenrtti_object_type_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenrtti", "object", "type", "abexa"]
+---
 
 * * *
 

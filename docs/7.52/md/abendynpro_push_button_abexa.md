@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Pushbuttons"
+description: |
+  The example shows how to process pushbuttons on screens. Source Code PROGRAM demo_dynpro_push_button . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output(8) TYPE c. CALL SCREEN 100. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok_code. CASE save_ok. WHEN 'BUTTON_EXIT'
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_push_button_abexa.htm"
+abapFile: "abendynpro_push_button_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "push", "button", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - System Fields"
+description: |
+  The sections below give an overview of the system fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_field_glosry.htm 'Glossary Entry') relevant for list processing. The list that is currently being created is called the 'current' list (like the current page, or current l
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_systemfields.htm"
+abapFile: "abenlist_systemfields.htm"
+keywords: ["select", "do", "if", "try", "class", "abenlist", "systemfields"]
+---
 
 * * *
 

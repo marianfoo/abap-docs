@@ -1,4 +1,14 @@
-  
+---
+title: "CDS tuning object"
+description: |
+  Tuning object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentuning_object_glosry.htm 'Glossary Entry') for CDS objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm 'Glossary Entry'). A CDS tuning object is a CDS object defined with CDS DD
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_object_glosry.htm"
+abapFile: "abencds_tuning_object_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "tuning", "object", "glosry"]
+---
 
 * * *
 

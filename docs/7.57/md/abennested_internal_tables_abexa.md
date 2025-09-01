@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_nested_internal_tables. CLASS table_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF t_address, street TYPE c LENGTH 20, city   TYPE c LENGTH 20, END OF t_address, t_address_tab TYPE STANDARD TABLE OF t_address WITH NON-UNIQUE KEY city. CLASS
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennested_internal_tables_abexa.htm"
+abapFile: "abennested_internal_tables_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "field-symbol", "abennested", "internal", "tables", "abexa"]
+---
 
 * * *
 

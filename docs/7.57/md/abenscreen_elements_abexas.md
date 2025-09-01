@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Status Icons(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_status_icons_abexa.htm) !Example(exa.gif 'Example') dynpro - Context Menus(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_context_menu_abexa.htm) !E
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm"
+abapFile: "abenscreen_elements_abexas.htm"
+keywords: ["do", "if", "abenscreen", "elements", "abexas"]
+---
 
 * * *
 

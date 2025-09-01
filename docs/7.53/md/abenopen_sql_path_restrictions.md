@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Restrictions for Path Expressions"
+description: |
+  In principle, the same restrictions apply to path expressions in ABAP SQL and the associations used there as when using a corresponding join expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_join.htm). For example, a path expression cannot be used together with the a
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path_restrictions.htm"
+abapFile: "abenopen_sql_path_restrictions.htm"
+keywords: ["select", "do", "if", "try", "data", "abenopen", "sql", "path", "restrictions"]
+---
 
 * * *
 

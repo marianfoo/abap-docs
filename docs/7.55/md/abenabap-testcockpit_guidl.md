@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Test Cockpit"
+description: |
+  Background ABAP Test Cockpit (ATC) is a framework that is integrated into ABAP Workbench and the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm 'Glossary Entry'); it simplifies considerably the handling of the tests required during develo
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap-testcockpit_guidl.htm"
+abapFile: "abenabap-testcockpit_guidl.htm"
+keywords: ["do", "if", "try", "abenabap", "testcockpit", "guidl"]
+---
 
 * * *
 

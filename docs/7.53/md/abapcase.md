@@ -1,4 +1,14 @@
-  
+---
+title: "CASE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_shortref.htm) Syntax CASE operand. WHEN operand1 OR operand2 OR operand3 .... statement_block1 ... WHEN OTHERS. statement_blockn ENDCASE. Effect Case Distin
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase.htm"
+abapFile: "abapcase.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abapcase"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "FUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction_shortref.htm) Syntax FUNCTION func. '--------------------------------------------------------- ' Local Interface: ' parameter_interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction.htm"
+abapFile: "abapfunction.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abapfunction"]
+---
 
 * * *
 

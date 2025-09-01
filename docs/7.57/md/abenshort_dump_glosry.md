@@ -1,4 +1,14 @@
-  
+---
+title: "short_dump_glosry"
+description: |
+  short_dump_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshort_dump_glosry.htm"
+abapFile: "abenshort_dump_glosry.htm"
+keywords: ["do", "if", "try", "abenshort", "dump", "glosry"]
+---
 
 * * *
 

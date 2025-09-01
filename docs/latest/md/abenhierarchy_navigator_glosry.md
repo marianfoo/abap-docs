@@ -1,4 +1,14 @@
-  
+---
+title: "hierarchy_navigator_glosry"
+description: |
+  hierarchy_navigator_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhierarchy_navigator_glosry.htm"
+abapFile: "abenhierarchy_navigator_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenhierarchy", "navigator", "glosry"]
+---
 
 * * *
 

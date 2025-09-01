@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abeninitializations.htm
 
-  
+---
+title: "Initializations"
+description: |
+  The following statements initialize data objects, which means they set the content of a data object to an initial value: -   CLEAR(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear.htm) -   FREE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_dataobject.htm
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitializations.htm"
+abapFile: "abeninitializations.htm"
+keywords: ["delete", "do", "try", "data", "internal-table", "abeninitializations"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abapclear.htm
 
-  
+---
+title: "CLEAR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear_shortref.htm) Syntax CLEAR dobj  WITH val IN CHARACTERBYTE MODE   WITH NULL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear_with_null.htm) . Addition:
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear.htm"
+abapFile: "abapclear.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapclear"]
+---
 
 * * *
 
@@ -128,7 +148,17 @@ Non-Handleable Exceptions
 
 ### abapfree_dataobject.htm
 
-  
+---
+title: "FREE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_shortref.htm) Syntax FREE dobj. Effect The statement FREE deletes all rows from an internal table and releases the memory area that the rows occupied. On other data objects, FREE works like the statement CLEAR(ht
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_dataobject.htm"
+abapFile: "abapfree_dataobject.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "internal-table", "abapfree", "dataobject"]
+---
 
 * * *
 

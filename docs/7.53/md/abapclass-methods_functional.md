@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS - RETURNING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-methods_shortref.htm) Syntax CLASS-METHODS meth DEFAULT IGNOREFAIL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_default.htm) IMPORTING parameters(https://help.sap.com/d
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-methods_functional.htm"
+abapFile: "abapclass-methods_functional.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapclass", "methods", "functional"]
+---
 
 * * *
 

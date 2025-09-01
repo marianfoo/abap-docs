@@ -1,4 +1,14 @@
-  
+---
+title: "internal_table_glosry"
+description: |
+  internal_table_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_glosry.htm"
+abapFile: "abeninternal_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abeninternal", "table", "glosry"]
+---
 
 * * *
 

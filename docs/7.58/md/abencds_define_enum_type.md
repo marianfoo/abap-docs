@@ -1,4 +1,14 @@
-  
+---
+title: "CDS TDL - DEFINE TYPE ENUM"
+description: |
+  Syntax @type_annot1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_anno.htm) @type_annot2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_anno.htm) ... DEFINE TYPE EnumType : BaseType ENUM  @enum_annot1 EnumCo
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm"
+abapFile: "abencds_define_enum_type.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "class", "data", "types", "abencds", "define", "enum", "type"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Screen"
+description: |
+  The statements for creating and maintaining screens(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm 'Glossary Entry') are not released for application programming and cannot be used in application programs. Internal Statements for Editing Dynpros(https://help.sap
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_generic_dynpro.htm"
+abapFile: "abenabap_generic_dynpro.htm"
+keywords: ["do", "try", "abenabap", "generic", "dynpro"]
+---
 
 * * *
 

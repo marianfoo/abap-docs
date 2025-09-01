@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation, Option for Invalid Values"
+description: |
+  This example demonstrates how ABAP types are mapped using invalid values. Source Code REPORT demo_st_noerror_option. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, call_transformation CHANGING writer TYPE REF TO cl_sxml_string_writer. CLASS-DATA: num      TYPE n LENGTH 8, pack
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_noerror_option_abexa.htm"
+abapFile: "abenst_noerror_option_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenst", "noerror", "option", "abexa"]
+---
 
 * * *
 

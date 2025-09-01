@@ -1,4 +1,14 @@
-  
+---
+title: "SYSTEM-CALL - Method Administration for the ABAP Class Library"
+description: |
+  This statement is intended solely for  Internal use within SAP Basis Development  Even within SAP Basis, it may be used only in programs within the ABAP+GUI dvelopment groups. Its use is subject to various restrictions, some of which may not be described in the documentation . This docum
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsystem-call_class_admin.htm"
+abapFile: "abapsystem-call_class_admin.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "abapsystem", "call", "admin"]
+---
 
 * * *
 

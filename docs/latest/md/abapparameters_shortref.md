@@ -1,4 +1,14 @@
-  
+---
+title: "PARAMETERS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters.htm) Syntax PARAMETERS  para(len)  para LENGTH len   TYPE type DECIMALS dec  LIKE dobj  LIKE (name)   OBLIGATORYNO-DIS
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters_shortref.htm"
+abapFile: "abapparameters_shortref.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapparameters", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "GET FEATURES"
+description: |
+  Obsolete Syntax GET  GLOBAL FEATURES   INSTANCE FEATURES    ENTITY bdef FROM keys REQUEST request RESULT result response    OF bdef ENTITY bdef1 FROM keys REQUEST request RESULT result ENTITY bdef2 FROM keys REQUEST request RESULT result ...
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm"
+abapFile: "abeneml_get_features.htm"
+keywords: ["do", "abeneml", "get", "features"]
+---
 
 * * *
 

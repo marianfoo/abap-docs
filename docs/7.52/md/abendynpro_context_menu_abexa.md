@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Context Menus"
+description: |
+  The example illustrates how context menus can be integrated into a program. Source Code REPORT demo_dynpro_context_menu. DATA: field1 TYPE i VALUE 10, field2 TYPE p DECIMALS 4. DATA: prog TYPE sy-repid, flag(1) TYPE c VALUE 'X'. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. prog = sy-repi
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_context_menu_abexa.htm"
+abapFile: "abendynpro_context_menu_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "abendynpro", "context", "menu", "abexa"]
+---
 
 * * *
 

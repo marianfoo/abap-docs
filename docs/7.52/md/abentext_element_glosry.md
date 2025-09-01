@@ -1,4 +1,14 @@
-  
+---
+title: "text_element_glosry"
+description: |
+  text_element_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_element_glosry.htm"
+abapFile: "abentext_element_glosry.htm"
+keywords: ["select", "do", "try", "abentext", "element", "glosry"]
+---
 
 * * *
 

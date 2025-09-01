@@ -1,4 +1,14 @@
-  
+---
+title: "MULTIPLY - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubtract_multiply_divide.htm) Syntax MULTIPLY dobj1 BY dobj2. Effect Obsolete: Multiplies the content of dobj1 with the content of dobj2 and assigns the result to dobj1.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmultiply_shortref.htm"
+abapFile: "abapmultiply_shortref.htm"
+keywords: ["do", "if", "abapmultiply", "shortref"]
+---
 
 * * *
 

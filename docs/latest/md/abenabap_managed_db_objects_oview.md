@@ -1,4 +1,14 @@
-  
+---
+title: "Overview of ABAP-Managed Database Objects"
+description: |
+  ABAP-managed database objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry') can be the following: -   An instance of a transparent table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransparent_table
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_managed_db_objects_oview.htm"
+abapFile: "abenabap_managed_db_objects_oview.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenabap", "managed", "objects", "oview"]
+---
 
 * * *
 

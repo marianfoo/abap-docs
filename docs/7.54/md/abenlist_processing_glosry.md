@@ -1,4 +1,14 @@
-  
+---
+title: "list_processing_glosry"
+description: |
+  list_processing_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_processing_glosry.htm"
+abapFile: "abenlist_processing_glosry.htm"
+keywords: ["do", "try", "abenlist", "processing", "glosry"]
+---
 
 * * *
 

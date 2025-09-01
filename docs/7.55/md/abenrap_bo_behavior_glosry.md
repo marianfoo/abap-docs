@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Business Object Behavior"
+description: |
+  RAP BO Behavior for short. The behavior of a RAP Business Object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm 'Glossary Entry') is defined in a CDS Behavior Definition(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosr
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm"
+abapFile: "abenrap_bo_behavior_glosry.htm"
+keywords: ["do", "try", "abenrap", "behavior", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - indicators"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_shortref.htm) Syntax ... INDICATORS NOT NULL STRUCTURE null_ind  (indicator_syntax) ... Alternatives: 1. ... INDICATORS NOT NULL STRUCTURE null_ind(#!ABAP_ALTERNATIVE_1@1@) 2. ...
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_indicators.htm"
+abapFile: "abapselect_indicators.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "internal-table", "abapselect", "indicators"]
+---
 
 * * *
 

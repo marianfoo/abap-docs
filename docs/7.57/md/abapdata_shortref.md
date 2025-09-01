@@ -1,4 +1,14 @@
-  
+---
+title: "DATA - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata.htm) Syntax DATA var(len) TYPE  abap_type LENGTH len DECIMALS dec  LINE OF type BOXED  REF TO type   STANDARD TABLE SOR
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_shortref.htm"
+abapFile: "abapdata_shortref.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapdata", "shortref"]
+---
 
 * * *
 

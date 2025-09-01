@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenrpm_handler_class.htm
 
-  
+---
+title: "Handler Class"
+description: |
+  Syntax CLASS lcl_handler_name DEFINITION INHERITING FROM cl_abap_behavior_handler ABSTRACT FINAL. PRIVATE SECTION. TYPES ... DATA ... CONSTANTS ... METHODS method_name FOR MODIFY IMPORTING create_import_parameter FOR CREATE entity_name create_import_parameter FOR C
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm"
+abapFile: "abenrpm_handler_class.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenrpm", "handler"]
+---
 
 * * *
 
@@ -153,7 +163,17 @@ Continue
 
 ### abenhandler_method_modify.htm
 
-  
+---
+title: "FOR MODIFY"
+description: |
+  Syntax METHODS method_name FOR MODIFY IMPORTING create_import_parameter FOR CREATE entity_name create_import_parameter FOR CREATE entity_nameassociation update_import_parameter FOR UPDATE entity_name delete_import_parameter FOR DELETE entity_name action_import_parameter FOR
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm"
+abapFile: "abenhandler_method_modify.htm"
+keywords: ["insert", "update", "delete", "loop", "do", "while", "if", "try", "method", "class", "data", "types", "abenhandler", "modify"]
+---
 
 * * *
 
@@ -464,7 +484,17 @@ ENDCLASS.
 
 ### abenhandler_method_read.htm
 
-  
+---
+title: "FOR READ"
+description: |
+  Syntax METHODS method_name FOR READ IMPORTING read_import_parameter   FOR READ entity_name RESULT read_export_parameter read_import_param_assoc FOR READ entity_name_assoc FULL   read_export_param_full RESULT read_export_param_assoc LINK   read_export_param_link
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm"
+abapFile: "abenhandler_method_read.htm"
+keywords: ["insert", "update", "loop", "do", "if", "try", "method", "class", "data", "types", "abenhandler", "read"]
+---
 
 * * *
 
@@ -615,7 +645,17 @@ ENDCLASS.
 
 ### abenhandler_method_lock.htm
 
-  
+---
+title: "FOR LOCK"
+description: |
+  Syntax METHODS method_name FOR LOCK IMPORTING lock_import_parameter FOR LOCK entity_name. ... CHANGING failed   TYPE DATA reported TYPE DATA. Effect The LOCK implements the handler that locks entities. However, the lock properties(https://help.sap.com/doc/abapdocu_754_index_htm
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm"
+abapFile: "abenhandler_method_lock.htm"
+keywords: ["insert", "update", "loop", "do", "if", "try", "method", "class", "data", "types", "abenhandler", "lock"]
+---
 
 * * *
 
@@ -717,7 +757,17 @@ ENDCLASS.
 
 ### abenrpm_handling_messages.htm
 
-  
+---
+title: "Example - Handling of Messages"
+description: |
+  Example For the sake of readability, the methods for handling the messages are implemented in the separate class zcl_messages. These methods are used to handle the messages in the methods of the handler class. Messages that come from the legacy business logic must be assigned to the messages of the
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm"
+abapFile: "abenrpm_handling_messages.htm"
+keywords: ["insert", "update", "loop", "do", "if", "method", "class", "data", "types", "abenrpm", "handling", "messages"]
+---
 
 * * *
 

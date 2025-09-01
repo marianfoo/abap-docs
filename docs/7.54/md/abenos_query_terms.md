@@ -1,4 +1,14 @@
-  
+---
+title: "Query Service Overview"
+description: |
+  A query is used to search for persistent objects in the database using conditions and to create the corresponding instances of the persistent class in the ABAP program. A query is implemented by an object (query object) that implements the interface IF_OS_QUERY and is created by a query manager. A
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm"
+abapFile: "abenos_query_terms.htm"
+keywords: ["do", "if", "method", "class", "data", "abenos", "query", "terms"]
+---
 
 * * *
 

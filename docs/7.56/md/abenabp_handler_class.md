@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Handler Class"
+description: |
+  Syntax CLASS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_definition.htm) lcl_handler DEFINITION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_op
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_class.htm"
+abapFile: "abenabp_handler_class.htm"
+keywords: ["do", "try", "method", "class", "abenabp", "handler"]
+---
 
 * * *
 

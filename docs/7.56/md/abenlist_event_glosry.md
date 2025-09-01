@@ -1,4 +1,14 @@
-  
+---
+title: "list_event_glosry"
+description: |
+  list_event_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_event_glosry.htm"
+abapFile: "abenlist_event_glosry.htm"
+keywords: ["select", "do", "try", "abenlist", "event", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... +- operand1 +-/DIVMOD(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarith_operators.htm) +- operand2 +-/DIVMOD(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarith_oper
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_arith.htm"
+abapFile: "abapcompute_arith.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abapcompute", "arith"]
+---
 
 * * *
 

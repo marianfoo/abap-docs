@@ -1,4 +1,14 @@
-  
+---
+title: "MESSAGE, RAISING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_shortref.htm) Syntax MESSAGE  msg(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm)  text(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm"
+abapFile: "abapmessage_raising.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "types", "exception-handling", "abapmessage", "raising"]
+---
 
 * * *
 

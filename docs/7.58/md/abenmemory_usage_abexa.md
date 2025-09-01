@@ -1,4 +1,14 @@
-  
+---
+title: "Deep Data Objects, Memory Consumption"
+description: |
+  The example illustrates the administrative costs of deep components with low data content. Source Code  CCDEF CLASS lcl DEFINITION. PUBLIC SECTION. DATA atab TYPE TABLE OF i. ENDCLASS.  Public class definition CLASS cl_demo_memory_usage DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CRE
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm"
+abapFile: "abenmemory_usage_abexa.htm"
+keywords: ["delete", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abenmemory", "usage", "abexa"]
+---
 
 * * *
 

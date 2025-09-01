@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Processing Input and Output Fields"
+description: |
+  The example shows how to process screen fields local in the program. Source Code PROGRAM demo_dynpro_input_output. DATA: input  TYPE i, output TYPE i, radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, box1(1) TYPE c, box2(1) TYPE c, box3(1) TYPE c. CALL SCREEN 100. MODULE init_screen_100 OU
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_in_out_field_abexa.htm"
+abapFile: "abendynpro_in_out_field_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "out", "field", "abexa"]
+---
 
 * * *
 

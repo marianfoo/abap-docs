@@ -1,4 +1,14 @@
-  
+---
+title: "LOB handle structure"
+description: |
+  The structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructure_glosry.htm 'Glossary Entry') of a special work area(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwork_area_glosry.htm 'Glossary Entry') to support streaming(https://help.sap.com/doc/abapdoc
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_handle_structure_glosry.htm"
+abapFile: "abenlob_handle_structure_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenlob", "handle", "structure", "glosry"]
+---
 
 * * *
 

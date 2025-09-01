@@ -1,4 +1,14 @@
-  
+---
+title: "spool_dialog_box_glosry"
+description: |
+  spool_dialog_box_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_dialog_box_glosry.htm"
+abapFile: "abenspool_dialog_box_glosry.htm"
+keywords: ["do", "if", "try", "abenspool", "dialog", "box", "glosry"]
+---
 
 * * *
 

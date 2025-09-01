@@ -1,4 +1,14 @@
-  
+---
+title: "Interface"
+description: |
+  Template for the public(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpublic_glosry.htm 'Glossary Entry') interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_glosry.htm 'Glossary Entry') of classes(https://help.sap.com/doc/abapdocu_752_index_htm/
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_oo_glosry.htm"
+abapFile: "abeninterface_oo_glosry.htm"
+keywords: ["do", "try", "method", "class", "abeninterface", "glosry"]
+---
 
 * * *
 

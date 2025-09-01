@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Actions and Functions, Projection BDEF"
+description: |
+  Syntax Forms New Action Definition internal(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_internal.htm)staticfactorystatic default factory action ( features: instance  global(https://help.sap.com/doc/abapdoc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_nonstandard_projection.htm"
+abapFile: "abenbdl_nonstandard_projection.htm"
+keywords: ["update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "nonstandard", "projection"]
+---
 
 * * *
 

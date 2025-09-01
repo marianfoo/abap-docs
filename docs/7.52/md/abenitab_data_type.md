@@ -1,4 +1,14 @@
-  
+---
+title: "Data Type of an Internal Table"
+description: |
+  A table type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_type_glosry.htm 'Glossary Entry') defined in ABAP Dictionary or using TYPES(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_itab.htm) or DATA(https://help.sap.com/doc/abapdocu_752_index_htm/7
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_data_type.htm"
+abapFile: "abenitab_data_type.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenitab", "type"]
+---
 
 * * *
 

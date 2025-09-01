@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_token_writer. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS sxml_demo IMPLEMENTATION. METHOD main. DATA(writer) = CAST if_sxml_writer( cl_sxml_string_writer=>create(  ) ). TRY. writer->open_element( name = 'texts' nsuri = 'http://www.sap.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensxml_rendering_abexa.htm"
+abapFile: "abensxml_rendering_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abensxml", "rendering", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - Language Elements"
+description: |
+  The following section summarizes the Behavior Definition Language (BDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_glosry.htm 'Glossary Entry')) language elements, arranged by topics. Header implementation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_language_elements.htm"
+abapFile: "abenbdl_language_elements.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "language", "elements"]
+---
 
 * * *
 

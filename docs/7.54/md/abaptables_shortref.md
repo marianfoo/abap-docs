@@ -1,4 +1,14 @@
-  
+---
+title: "TABLES - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables.htm) Syntax TABLES table_wa. Effect Declares an interface work area(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_work_area_glosry.htm 'Glossary Entry') table_wa for data transfer to and
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables_shortref.htm"
+abapFile: "abaptables_shortref.htm"
+keywords: ["do", "try", "data", "abaptables", "shortref"]
+---
 
 * * *
 

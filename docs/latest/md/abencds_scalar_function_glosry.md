@@ -1,4 +1,14 @@
-  
+---
+title: "CDS scalar function"
+description: |
+  CDS function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_function_glosry.htm 'Glossary Entry') that operates on a single input data set and returns a scalar (that means elementary(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenelementary_data_type
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm"
+abapFile: "abencds_scalar_function_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "scalar", "function", "glosry"]
+---
 
 * * *
 

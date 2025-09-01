@@ -1,4 +1,14 @@
-  
+---
+title: "CLOSE CURSOR - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclose_cursor.htm) Syntax CLOSE CURSOR @dbcur. Effect ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossary Entry') statement. Closes a database cursor(https://help
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclose_cursor_shortref.htm"
+abapFile: "abapclose_cursor_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapclose", "cursor", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP business service"
+description: |
+  BS for short. A RAP business service is a RESTful(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrestful_glosry.htm 'Glossary Entry') service in AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry'). It consists of a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_service_glosry.htm"
+abapFile: "abenbusiness_service_glosry.htm"
+keywords: ["do", "if", "try", "abenbusiness", "service", "glosry"]
+---
 
 * * *
 

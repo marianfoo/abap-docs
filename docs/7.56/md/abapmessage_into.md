@@ -1,4 +1,14 @@
-  
+---
+title: "MESSAGE, INTO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_shortref.htm) Syntax MESSAGE msg(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_msg.htm) WITH dobj1 ... dobj4(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapme
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_into.htm"
+abapFile: "abapmessage_into.htm"
+keywords: ["do", "if", "try", "data", "types", "abapmessage", "into"]
+---
 
 * * *
 

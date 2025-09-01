@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC extension"
+description: |
+  Object in ABAP Dictionary(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') that extends a DDIC database table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') or a DDIC structure
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_extension_glosry.htm"
+abapFile: "abenddic_extension_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "extension", "glosry"]
+---
 
 * * *
 

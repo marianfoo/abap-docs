@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - asJSON for Structures"
+description: |
+  This example demonstrates asJSON(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_asjson_abap_types_struc.htm) for a structure. Source Code REPORT demo_asjson_structures. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_json_asjson_struc_abexa.htm"
+abapFile: "abenabap_json_asjson_struc_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenabap", "json", "asjson", "struc", "abexa"]
+---
 
 * * *
 

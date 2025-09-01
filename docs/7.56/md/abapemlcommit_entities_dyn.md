@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT ENTITIES RESPONSES, Dynamic Form"
+description: |
+  Syntax COMMIT ENTITIES IN SIMULATION MODE RESPONSES OF dyn_tab response_param(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm). Additions: 1. ... IN SIMULATION MODE(#!ABAP_ADDITION_1@1@) 2. ... OF dyn_tab(#!ABAP_ADDITION_2@2@) Effect Trigger
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapemlcommit_entities_dyn.htm"
+abapFile: "abapemlcommit_entities_dyn.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "data", "internal-table", "abapemlcommit", "entities", "dyn"]
+---
 
 * * *
 

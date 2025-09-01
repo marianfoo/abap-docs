@@ -1,4 +1,14 @@
-  
+---
+title: "Internal System Fields"
+description: |
+  Internal system fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_field_glosry.htm 'Glossary Entry') are intended solely for internal use within the ABAP runtime environment and in the kernel. They must never be overwritten from within an ABAP program and they cannot eve
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields_internal.htm"
+abapFile: "abensystem_fields_internal.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abensystem", "fields", "internal"]
+---
 
 * * *
 

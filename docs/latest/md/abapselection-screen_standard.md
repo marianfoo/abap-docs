@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, Standard Selection Screens"
+description: |
+  Each executable program(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexecutable_program_glosry.htm 'Glossary Entry') contains a standard selection screen with the dynpro number(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_number_glosry.htm 'Gl
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_standard.htm"
+abapFile: "abapselection-screen_standard.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapselection", "screen", "standard"]
+---
 
 * * *
 

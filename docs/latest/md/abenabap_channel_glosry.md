@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Channels"
+description: |
+  Framework for event-based communication using messages between AS instances(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_instance_glosry.htm 'Glossary Entry') and with the Internet. There are ABAP Messaging Channels (AMC)(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_channel_glosry.htm"
+abapFile: "abenabap_channel_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "channel", "glosry"]
+---
 
 * * *
 

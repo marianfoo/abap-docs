@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - EXIT FROM SQL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_from_sql_shortref.htm) Obsolete Syntax EXIT FROM SQL. Effect This statement, which is forbidden in classes, is only executed during the processing of subroutines called using the obsolete addition PERFORMING(http
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_sql.htm"
+abapFile: "abapexit_sql.htm"
+keywords: ["do", "if", "class", "data", "abapexit", "sql"]
+---
 
 * * *
 

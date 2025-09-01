@@ -1,4 +1,14 @@
-  
+---
+title: "GENERATE SUBROUTINE POOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_shortref.htm) Syntax GENERATE SUBROUTINE POOL itab NAME prog error_handling(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subr_error_handling.htm). Effect This statement gen
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subroutine_pool.htm"
+abapFile: "abapgenerate_subroutine_pool.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapgenerate", "subroutine", "pool"]
+---
 
 * * *
 

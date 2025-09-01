@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... pcre(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_pcre_syntax.htm) xpath(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_xpath_syntax.htm) = regex ...  ) ... Effect pcrexpath$ is used to pass a regular expression(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex.htm"
+abapFile: "abenstring_functions_regex.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "abenstring", "functions", "regex"]
+---
 
 * * *
 

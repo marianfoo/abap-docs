@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, Time Zone Functions"
+description: |
+  Syntax ... ABAP_SYSTEM_TIMEZONE(clnt,on_error)  ABAP_USER_TIMEZONE(user,clnt,on_error) ... Variants: 1. ... ABAP_SYSTEM_TIMEZONE(clnt,on_error)(#!ABAP_VARIANT_1@1@) 2. ... ABAP_USER_TIMEZONE(user,clnt,on_error)(#!ABAP_VARIANT_2@2@) Effect In a CDS DDIC-based view(https://help.
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_timezone_functions_v1.htm"
+abapFile: "abencds_timezone_functions_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "timezone", "functions"]
+---
 
 * * *
 

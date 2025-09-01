@@ -1,4 +1,14 @@
-  
+---
+title: "Content"
+description: |
+  Background It is usually sufficient to examine the ABAP statements to find out what happens in an implementation. However, it much more difficult to find out why something happens. This is often only possible in a much wider context and requires a great deal of effort. Rule Make meaningful comments
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontent_guidl.htm"
+abapFile: "abencontent_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "abencontent", "guidl"]
+---
 
 * * *
 

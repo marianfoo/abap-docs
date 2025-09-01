@@ -1,4 +1,14 @@
-  
+---
+title: "ENDDO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdo_shortref.htm) Syntax ENDDO. Effect The statement ENDDO completes a loop started using DO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdo.htm).
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapenddo.htm"
+abapFile: "abapenddo.htm"
+keywords: ["loop", "do", "if", "abapenddo"]
+---
 
 * * *
 

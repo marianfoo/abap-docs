@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE, Internal Variant"
+description: |
+  This statement is for internal use only. It must not be used in application programs. -   DESCRIBE FIELD INTO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_field_into.htm) DESCRIBE FIELD INTO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_field_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendescribe_internal.htm"
+abapFile: "abendescribe_internal.htm"
+keywords: ["do", "if", "data", "abendescribe", "internal"]
+---
 
 * * *
 

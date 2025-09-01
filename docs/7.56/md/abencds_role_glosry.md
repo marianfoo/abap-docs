@@ -1,4 +1,14 @@
-  
+---
+title: "CDS role"
+description: |
+  A CDS object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_object_glosry.htm 'Glossary Entry') defined using the statement DEFINE ROLE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_role.htm) in a DCL source code(https://help.sap.com/doc/abapd
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_role_glosry.htm"
+abapFile: "abencds_role_glosry.htm"
+keywords: ["do", "try", "class", "abencds", "role", "glosry"]
+---
 
 * * *
 

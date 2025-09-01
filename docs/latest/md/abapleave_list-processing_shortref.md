@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE LIST-PROCESSING - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_list-processing.htm) Syntax LEAVE LIST-PROCESSING. Effect Exits list processing and continues processing with the PBO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpbo_glosry.htm 'Glossary E
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_list-processing_shortref.htm"
+abapFile: "abapleave_list-processing_shortref.htm"
+keywords: ["do", "if", "try", "abapleave", "list", "processing", "shortref"]
+---
 
 * * *
 

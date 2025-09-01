@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... hierarchy_function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_functions.htm) ... Effect A table function is a possible data source data_source(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) in a ABAP SQL query(h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_function.htm"
+abapFile: "abenselect_table_function.htm"
+keywords: ["select", "do", "if", "try", "data", "abenselect", "table", "function"]
+---
 
 * * *
 

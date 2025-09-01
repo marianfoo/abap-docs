@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... element1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm), element2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm), ...   ... Effect Defines the elements of a CDS view(https://help.sap.com/doc/ab
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm"
+abapFile: "abencds_f1_select_list.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "list"]
+---
 
 * * *
 

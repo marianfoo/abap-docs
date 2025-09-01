@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... oref IS NOT INSTANCE OF classintf Effect The predicate expression IS INSTANCE OF checks whether -   for a non-initial object reference variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_refer_variable_glosry.htm 'Glossary Entry') oref the dynamic ty
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm"
+abapFile: "abenlogexp_instance_of.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenlogexp", "instance"]
+---
 
 * * *
 

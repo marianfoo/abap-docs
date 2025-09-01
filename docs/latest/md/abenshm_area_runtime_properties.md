@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Runtime-Dependent Area Properties"
+description: |
+  The same points apply to runtime-dependent properties of an area as to dynamic area properties(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_area_dynamic_properties.htm), with the difference that they can be given default values by a developer but can also be changed with
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_area_runtime_properties.htm"
+abapFile: "abenshm_area_runtime_properties.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "abenshm", "area", "runtime", "properties"]
+---
 
 * * *
 

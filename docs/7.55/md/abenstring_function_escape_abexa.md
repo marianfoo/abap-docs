@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT  demo_escape_html. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: body     TYPE string, esc_body TYPE string. body = `<table border> ` && `<tr><td>11</td><td>12</td></tr> ` && `<tr><td>21</td><td>22</td></tr> ` && `
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_function_escape_abexa.htm"
+abapFile: "abenstring_function_escape_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abenstring", "function", "escape", "abexa"]
+---
 
 * * *
 

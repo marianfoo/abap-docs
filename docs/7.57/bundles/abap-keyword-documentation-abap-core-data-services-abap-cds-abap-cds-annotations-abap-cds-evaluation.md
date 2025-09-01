@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abencds_annotations_analysis.htm
 
-  
+---
+title: "ABAP CDS - Evaluation of Annotations"
+description: |
+  When an object defined in the CDS source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm 'Glossary Entry') is activated, the annotations defined in the CDS annotation syntax(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotati
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_analysis.htm"
+abapFile: "abencds_annotations_analysis.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abencds", "annotations", "analysis"]
+---
 
 * * *
 
@@ -20,14 +30,10 @@ ABAP CDS - Evaluation of Annotations
 
 When an object defined in the [CDS source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm "Glossary Entry") is activated, the annotations defined in the [CDS annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") there are saved in internal system tables. These tables can then be accessed to evaluate the data. This is done for every annotation with correct syntax regardless of name and value.
 
--   [System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_1)
--   [Metadata Extensions](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_2)
--   [Direct, Inherited, and Derived Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_3)
--   [Subannotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_4)
--   [Annotation Arrays](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_5)
--   [Null Values](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_6)
--   [Annotations for Translatable Texts](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_7)
--   [Performing the Evaluation](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_8)
+-   [System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE](#abencds-annotations-analysis-1-------metadata-extensions---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_2)
+-   [Direct, Inherited, and Derived Annotations](#abencds-annotations-analysis-3-------subannotations---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_4)
+-   [Annotation Arrays](#abencds-annotations-analysis-5-------null-values---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_6)
+-   [Annotations for Translatable Texts](#abencds-annotations-analysis-7-------performing-the-evaluation---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_8)
 
 System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE   
 
@@ -345,7 +351,17 @@ Continue
 
 ### abencds_semantics_annotation_abexa.htm
 
-  
+---
+title: "ABAP CDS, Evaluation of Annotations"
+description: |
+  This example demonstrates how semantics annotations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm) of DDL source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') are evaluated. Source Code
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm"
+abapFile: "abencds_semantics_annotation_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencds", "semantics", "annotation", "abexa"]
+---
 
 * * *
 

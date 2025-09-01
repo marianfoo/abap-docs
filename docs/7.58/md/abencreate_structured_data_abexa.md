@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Structured Data Objects"
+description: |
+  This example demonstrates how structured data objects are created. Source Code  Public class definition CLASS cl_demo_create_structured_data DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation C
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencreate_structured_data_abexa.htm"
+abapFile: "abencreate_structured_data_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "abencreate", "structured", "abexa"]
+---
 
 * * *
 

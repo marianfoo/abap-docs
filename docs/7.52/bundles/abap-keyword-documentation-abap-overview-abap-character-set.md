@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abencharacter_sets.htm
 
-  
+---
+title: "ABAP Character Set"
+description: |
+  Application Server ABAP supports only Unicode systems in the current release. -   Unicode systems are ABAP systems(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_system_glosry.htm 'Glossary Entry') based on Unicode character representation with a code page(https://help.sap.c
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_sets.htm"
+abapFile: "abencharacter_sets.htm"
+keywords: ["do", "if", "try", "data", "abencharacter", "sets"]
+---
 
 * * *
 
@@ -51,7 +61,17 @@ Continue
 
 ### abenunicode.htm
 
-  
+---
+title: "Switching to Unicode"
+description: |
+  Before Unicode support was introduced, many ABAP programmers assumed that one character corresponded to one byte. Therefore, before a non-Unicode system is converted to Unicode, ABAP programs must be changed wherever an explicit or implicit assumption is made about the internal length of a character
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode.htm"
+abapFile: "abenunicode.htm"
+keywords: ["do", "try", "data", "abenunicode"]
+---
 
 * * *
 

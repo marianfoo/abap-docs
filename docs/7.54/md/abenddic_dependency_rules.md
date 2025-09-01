@@ -1,4 +1,14 @@
-  
+---
+title: "Dependency Rules in ABAP Dictionary"
+description: |
+  A dependency rule is a dictionary object, an instance of which is created on an SAP HANA database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm 'Glossary Entry'). A dependency rule is defined for one or more database tables. From a relational expression of
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_dependency_rules.htm"
+abapFile: "abenddic_dependency_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenddic", "dependency", "rules"]
+---
 
 * * *
 

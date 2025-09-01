@@ -1,4 +1,14 @@
-  
+---
+title: "Reflexive Component Assignments"
+description: |
+  This example demonstrates assignments between components of a structure. Source Code  Public class definition CLASS cl_demo_crrspndng_reflexive DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreflexive_corresponding_abexa.htm"
+abapFile: "abenreflexive_corresponding_abexa.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abenreflexive", "corresponding", "abexa"]
+---
 
 * * *
 

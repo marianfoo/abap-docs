@@ -1,4 +1,14 @@
-  
+---
+title: "Logical HDI Container"
+description: |
+  Part of the definition of an ABAP-managed HDI container (AMHC)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamhc_glosry.htm 'Glossary Entry') to which a physical HDI container(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhdi_container_glosry.htm 'Glossary Entr
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_hdi_container_glosry.htm"
+abapFile: "abenlogical_hdi_container_glosry.htm"
+keywords: ["do", "try", "data", "abenlogical", "hdi", "container", "glosry"]
+---
 
 * * *
 

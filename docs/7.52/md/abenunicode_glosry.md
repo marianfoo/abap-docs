@@ -1,4 +1,14 @@
-  
+---
+title: "Unicode"
+description: |
+  Language-independent character set(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_set_glosry.htm 'Glossary Entry') for international data processing (www.unicode.org(http://www.unicode.org)). Subset of the UCS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_glosry.htm"
+abapFile: "abenunicode_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenunicode", "glosry"]
+---
 
 * * *
 

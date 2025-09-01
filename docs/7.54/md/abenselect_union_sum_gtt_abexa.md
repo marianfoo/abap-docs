@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Union with Global Temporary Table"
+description: |
+  This example demonstrates a union across a table and a global temporary table (GTT). Source Code REPORT demo_select_union_sum_gtt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrid TYPE sflight-carrid VALUE 'AA'. cl_demo_in
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_union_sum_gtt_abexa.htm"
+abapFile: "abenselect_union_sum_gtt_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "try", "method", "class", "data", "abenselect", "union", "sum", "gtt", "abexa"]
+---
 
 * * *
 

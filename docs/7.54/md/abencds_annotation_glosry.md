@@ -1,4 +1,14 @@
-  
+---
+title: "CDS annotation"
+description: |
+  A CDS annotation (or annotation for short) adds metadata to a CDS object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm 'Glossary Entry') that expands the syntax options of SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_glosry.htm 'Gl
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm"
+abapFile: "abencds_annotation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "annotation", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_template_ctrl_char DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_str_template_ctrl_char IMPLEMENTATION. METHOD main. out->wri
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_template_ctrlchar_abexa.htm"
+abapFile: "abenstring_template_ctrlchar_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenstring", "template", "ctrlchar", "abexa"]
+---
 
 * * *
 

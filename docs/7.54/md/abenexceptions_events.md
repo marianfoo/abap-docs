@@ -1,4 +1,14 @@
-  
+---
+title: "Class-Based Exceptions in Event Handlers"
+description: |
+  Class-based exceptions in event handlers(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_handler_glosry.htm 'Glossary Entry') are a special case of class-based exceptions in procedures(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_procedures.htm).
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_events.htm"
+abapFile: "abenexceptions_events.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "exception-handling", "abenexceptions", "events"]
+---
 
 * * *
 

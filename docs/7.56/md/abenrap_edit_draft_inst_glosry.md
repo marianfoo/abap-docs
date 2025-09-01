@@ -1,4 +1,14 @@
-  
+---
+title: "RAP edit-draft instance"
+description: |
+  Draft instance(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_draft_instance_glosry.htm 'Glossary Entry') that is produced by the draft action(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_draft_action_glosry.htm 'Glossary Entry') Edit. → More about(
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_edit_draft_inst_glosry.htm"
+abapFile: "abenrap_edit_draft_inst_glosry.htm"
+keywords: ["do", "try", "abenrap", "edit", "draft", "inst", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "archiving_parameter_glosry"
+description: |
+  archiving_parameter_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarchiving_parameter_glosry.htm"
+abapFile: "abenarchiving_parameter_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenarchiving", "parameter", "glosry"]
+---
 
 * * *
 

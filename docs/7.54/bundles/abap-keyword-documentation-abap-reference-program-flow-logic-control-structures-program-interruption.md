@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenwait.htm
 
-  
+---
+title: "Program Interruption"
+description: |
+  This section describes how programs are usually interrupted using the statement WAIT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwait_up_to.htm). A special variant(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwait_until.htm) is explained in the context of as
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwait.htm"
+abapFile: "abenwait.htm"
+keywords: ["do", "try", "abenwait"]
+---
 
 * * *
 
@@ -23,7 +33,17 @@ Continue
 
 ### abapwait_up_to.htm
 
-  
+---
+title: "WAIT UP TO"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwait_shortref.htm) Syntax WAIT UP TO sec SECONDS. Effect This statement interrupts the execution of the program by the number of seconds specified in sec. sec is a numerical expression position(https://help.sap.com/do
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwait_up_to.htm"
+abapFile: "abapwait_up_to.htm"
+keywords: ["update", "do", "if", "try", "data", "abapwait"]
+---
 
 * * *
 

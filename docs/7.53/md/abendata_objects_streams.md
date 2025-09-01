@@ -1,4 +1,14 @@
-  
+---
+title: "Streaming for Data Objects"
+description: |
+  The abstract superclasses for streaming(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstreaming_glosry.htm 'Glossary Entry') for data objects are: Streaming is possible for strings and internal tables: -   Streaming for Strings(https://help.sap.com/doc/abapdocu_753_index_htm/7.5
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_objects_streams.htm"
+abapFile: "abendata_objects_streams.htm"
+keywords: ["do", "try", "class", "data", "internal-table", "abendata", "objects", "streams"]
+---
 
 * * *
 

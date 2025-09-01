@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Handler Class and Methods"
+description: |
+  The following topics are covered: -   CL_ABAP_BEHAVIOR_HANDLER, RAP Handler Class(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_cl_abap_beh_handler.htm) -   METHODS, FOR, RAP Handler Methods(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_rap_be
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_handler_class.htm"
+abapFile: "abenabp_handler_class.htm"
+keywords: ["do", "if", "method", "class", "abenabp", "handler"]
+---
 
 * * *
 

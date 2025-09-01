@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Saving Persistent Objects"
+description: |
+  The ABAP statement COMMIT WORK must be executed to apply any changes to the instances of persistent classes to the actual persistent objects in the database. If an object-oriented transaction from the transaction service is not used explicitly, the statement COMMIT WORK must be specified explicitly.
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_persistence_commit.htm"
+abapFile: "abenos_persistence_commit.htm"
+keywords: ["update", "do", "if", "method", "class", "data", "abenos", "persistence", "commit"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "repository_object_glosry"
+description: |
+  repository_object_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_object_glosry.htm"
+abapFile: "abenrepository_object_glosry.htm"
+keywords: ["do", "case", "try", "class", "abenrepository", "object", "glosry"]
+---
 
 * * *
 

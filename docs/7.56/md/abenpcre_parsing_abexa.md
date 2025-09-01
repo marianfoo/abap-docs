@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_pcre_parsing. INCLUDE demo_pcre_parsing_helper_def. 'AST builder class, reacts on the callouts specified in the regex CLASS ast_builder DEFINITION. PUBLIC SECTION. INTERFACES if_abap_matcher_callout. METHODS: constructor, get_root RETURNING VALUE(root) TYPE REF TO ast_node. P
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpcre_parsing_abexa.htm"
+abapFile: "abenpcre_parsing_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenpcre", "parsing", "abexa"]
+---
 
 * * *
 

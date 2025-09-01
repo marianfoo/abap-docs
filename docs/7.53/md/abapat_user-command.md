@@ -1,4 +1,14 @@
-  
+---
+title: "AT USER-COMMAND"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_user-command_shortref.htm) Syntax AT USER-COMMAND. Effect This statement defines an event block whose event is raised by the ABAP runtime environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abena
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_user-command.htm"
+abapFile: "abapat_user-command.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "abapat", "user", "command"]
+---
 
 * * *
 

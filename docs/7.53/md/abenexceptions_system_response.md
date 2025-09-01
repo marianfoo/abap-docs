@@ -1,4 +1,14 @@
-  
+---
+title: "System Response after a Class-Based Exception"
+description: |
+  A class-based exception can be raised in a statement block for one of the following reasons: -   The exception is raised explicitly using the statement RAISE EXCEPTION(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception_class.htm) or the addition THROW(https://help.sap
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_system_response.htm"
+abapFile: "abenexceptions_system_response.htm"
+keywords: ["delete", "do", "while", "if", "case", "try", "catch", "class", "data", "exception-handling", "abenexceptions", "system", "response"]
+---
 
 * * *
 

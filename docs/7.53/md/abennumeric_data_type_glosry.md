@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric data type"
+description: |
+  Data types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm 'Glossary Entry') with data objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_object_glosry.htm 'Glossary Entry') that contain number values in platform-specific encoding. The
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm"
+abapFile: "abennumeric_data_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abennumeric", "type", "glosry"]
+---
 
 * * *
 

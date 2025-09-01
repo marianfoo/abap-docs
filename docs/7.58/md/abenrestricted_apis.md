@@ -1,4 +1,14 @@
-  
+---
+title: "Contract Rules for ABAP Released APIs"
+description: |
+  In ABAP Cloud(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cloud_glosry.htm 'Glossary Entry') changes and extensions to released APIs are strictly governed by release contracts(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrelease_contract_glosry.htm 'Glos
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrestricted_apis.htm"
+abapFile: "abenrestricted_apis.htm"
+keywords: ["do", "if", "try", "abenrestricted", "apis"]
+---
 
 * * *
 

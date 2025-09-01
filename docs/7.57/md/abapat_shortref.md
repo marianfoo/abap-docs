@@ -1,4 +1,14 @@
-  
+---
+title: "AT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_itab.htm) Syntax AT FIRST. ... ENDAT. AT field_groupi WITH field_groupj. ... ENDAT. AT NEW comp1. ... ENDAT. ... AT NEW comp2. ... ENDAT. ...  ...  ...
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_shortref.htm"
+abapFile: "abapat_shortref.htm"
+keywords: ["loop", "do", "if", "try", "data", "internal-table", "abapat", "shortref"]
+---
 
 * * *
 

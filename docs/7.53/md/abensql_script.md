@@ -1,4 +1,14 @@
-  
+---
+title: "Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository"
+description: |
+  When calling SQLScript procedures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_script_procedure_glosry.htm 'Glossary Entry') in the SAP HANA Repository(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_hana_repository_glosry.htm 'Glossary Entry'), the Nati
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_script.htm"
+abapFile: "abensql_script.htm"
+keywords: ["do", "try", "method", "data", "types", "abensql", "script"]
+---
 
 * * *
 

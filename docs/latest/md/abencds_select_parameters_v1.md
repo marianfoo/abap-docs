@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, CDS Parameter Passing"
+description: |
+  Syntax ... ( pname1 : act1, pname2 : act2, ... ) ... Effect Passes actual parameters act1, act2, ... to the input parameters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_param.htm) pname1, pname2, ... of a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_ht
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_parameters_v1.htm"
+abapFile: "abencds_select_parameters_v1.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abencds", "parameters"]
+---
 
 * * *
 

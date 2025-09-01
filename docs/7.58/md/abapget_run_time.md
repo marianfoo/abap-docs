@@ -1,4 +1,14 @@
-  
+---
+title: "GET RUN TIME"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_run_time_shortref.htm) Syntax GET RUN TIME FIELD rtime. Effect When GET RUN TIME is executed for the first time after an internal session(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_ses
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_run_time.htm"
+abapFile: "abapget_run_time.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "abapget", "run", "time"]
+---
 
 * * *
 

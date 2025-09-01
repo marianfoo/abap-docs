@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ENDCHAIN. Effect See CHAIN(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpchain.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpendchain.htm"
+abapFile: "dynpendchain.htm"
+keywords: ["do", "dynpendchain"]
+---
 
 * * *
 

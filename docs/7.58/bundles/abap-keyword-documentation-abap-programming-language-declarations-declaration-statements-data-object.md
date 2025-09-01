@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abapdata_itab.htm
 
-  
+---
+title: "DATA, TABLE OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_shortref.htm) Syntax DATA itab  TYPE STANDARDSORTEDHASHED TABLE OF REF TO type  LIKE STANDARDSORTEDHASHED TABLE OF dobj  tabkeys(https://help.sap.com/d
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_itab.htm"
+abapFile: "abapdata_itab.htm"
+keywords: ["select", "insert", "do", "if", "try", "data", "types", "internal-table", "abapdata", "itab"]
+---
 
 * * *
 
@@ -61,7 +71,17 @@ Continue
 
 ### abapdata_keydef.htm
 
-  
+---
+title: "DATA, tabkeys"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_shortref.htm) Syntax ...  WITH key(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_primary_key.htm)   WITH secondary_key1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_keydef.htm"
+abapFile: "abapdata_keydef.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapdata", "keydef"]
+---
 
 * * *
 
@@ -109,7 +129,17 @@ Continue
 
 ### abapdata_primary_key.htm
 
-  
+---
+title: "DATA, key"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_shortref.htm) Syntax ...  UNIQUE  NON-UNIQUE  KEY primary_key ALIAS alias_name COMPONENTS comp1 comp2 ...  DEFAULT KEY      EMPTY KEY  ... Alternativ
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_primary_key.htm"
+abapFile: "abapdata_primary_key.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapdata", "primary", "key"]
+---
 
 * * *
 
@@ -209,7 +239,17 @@ DATA unsorted\_carrier\_list
 
 ### abapdata_secondary_key.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... UNIQUE HASHEDUNIQUE SORTEDNON-UNIQUE SORTED KEY key_name ALIAS alias_name COMPONENTS comp1 comp2 ... Effect Definition of a secondary table key(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_table_key_glosry.htm 'Glossary Entry') of a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_secondary_key.htm"
+abapFile: "abapdata_secondary_key.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapdata", "secondary", "key"]
+---
 
 * * *
 
@@ -278,7 +318,17 @@ The program DEMO\_SECONDARY\_KEYS demonstrates the declaration and use of a seco
 
 ### abapdata_keydef.htm
 
-  
+---
+title: "DATA, tabkeys"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_shortref.htm) Syntax ...  WITH key(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_primary_key.htm)   WITH secondary_key1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_keydef.htm"
+abapFile: "abapdata_keydef.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapdata", "keydef"]
+---
 
 * * *
 

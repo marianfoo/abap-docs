@@ -1,4 +1,14 @@
-  
+---
+title: "update_module_glosry"
+description: |
+  update_module_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenupdate_module_glosry.htm"
+abapFile: "abenupdate_module_glosry.htm"
+keywords: ["update", "do", "try", "abenupdate", "module", "glosry"]
+---
 
 * * *
 

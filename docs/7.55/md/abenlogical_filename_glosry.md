@@ -1,4 +1,14 @@
-  
+---
+title: "logical_filename_glosry"
+description: |
+  logical_filename_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_filename_glosry.htm"
+abapFile: "abenlogical_filename_glosry.htm"
+keywords: ["do", "try", "data", "abenlogical", "filename", "glosry"]
+---
 
 * * *
 

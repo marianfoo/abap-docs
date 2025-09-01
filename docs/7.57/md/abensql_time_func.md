@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Generic time functions 1. ... IS_VALID( datetimeutclong )  EXTRACT_HOUR( timeutclong )  EXTRACT_MINUTE( timeutclong )  EXTRACT_SECOND( timeutclong ) ... Functions for TIMS 2. ... TIMS_IS_VALID( time ) ... -   Generic Time Functions(#abensql-time-func-1-------functio
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_time_func.htm"
+abapFile: "abensql_time_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "class", "data", "types", "abensql", "time", "func"]
+---
 
 * * *
 
@@ -23,8 +33,7 @@ Functions for TIMS
 
 2\. ... TIMS\_IS\_VALID( time ) ...
 
--   [Generic Time Functions](#@@ITOC@@ABENSQL_TIME_FUNC_1)
--   [Functions for TIMS](#@@ITOC@@ABENSQL_TIME_FUNC_2)
+-   [Generic Time Functions](#abensql-time-func-1-------functions-for-tims---@ITOC@@ABENSQL_TIME_FUNC_2)
 
 Effect
 

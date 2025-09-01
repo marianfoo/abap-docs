@@ -1,4 +1,14 @@
-  
+---
+title: "User"
+description: |
+  1. Defined in AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') by a user name(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_name_glosry.htm 'Glossary Entry') and a user master record(https://help.sap.com/doc/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_glosry.htm"
+abapFile: "abenuser_glosry.htm"
+keywords: ["do", "try", "abenuser", "glosry"]
+---
 
 * * *
 

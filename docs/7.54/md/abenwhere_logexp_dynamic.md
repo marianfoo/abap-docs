@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (cond_syntax) ... Effect A relational expression can be specified dynamically as a parenthesized data object cond_syntax that contains the syntax of a logical expression sql_cond(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasql_cond.htm) valid here or is initial when the
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_dynamic.htm"
+abapFile: "abenwhere_logexp_dynamic.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenwhere", "logexp", "dynamic"]
+---
 
 * * *
 

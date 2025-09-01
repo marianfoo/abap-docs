@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenother_programming_scrty.htm
 
-  
+---
+title: "Further Security Risks"
+description: |
+  -   Insufficient authorization checks(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthority_scrty.htm) -   User-specific program flow(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_dependent_scrty.htm) -   System-dependent program flow(https://help.sap.c
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenother_programming_scrty.htm"
+abapFile: "abenother_programming_scrty.htm"
+keywords: ["do", "if", "data", "abenother", "programming", "scrty"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenauthority_scrty.htm
 
-  
+---
+title: "Insufficient Authorization Checks"
+description: |
+  Adequate authorization checks are an important part of secure ABAP programming. In many statements, an appropriate authorization check is performed implicitly, for example: -   In CALL TRANSACTION(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) (with the additi
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthority_scrty.htm"
+abapFile: "abenauthority_scrty.htm"
+keywords: ["do", "if", "try", "class", "data", "abenauthority", "scrty"]
+---
 
 * * *
 
@@ -82,7 +102,17 @@ ENDIF.
 
 ### abenuser_dependent_scrty.htm
 
-  
+---
+title: "User-Dependent Program Flow"
+description: |
+  The use of user names in ABAP programs to control program behavior can be a security risk. In the worst case scenario, a back door can be created and used by developers to access unauthorized data or functions in systems where they do not have authorization. On the other hand, these can also be code
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_dependent_scrty.htm"
+abapFile: "abenuser_dependent_scrty.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenuser", "dependent", "scrty"]
+---
 
 * * *
 
@@ -129,7 +159,17 @@ ENDIF.
 
 ### abensystem_dependent_scrty.htm
 
-  
+---
+title: "System-Dependent Program Flow"
+description: |
+  The use of the following system fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_field_glosry.htm 'Glossary Entry') in ABAP programs to control program behavior can be a security risk: -   sy-host -   sy-sysid -   sy-mandt As a user-specific program flow(https://help.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_dependent_scrty.htm"
+abapFile: "abensystem_dependent_scrty.htm"
+keywords: ["do", "if", "case", "try", "data", "abensystem", "dependent", "scrty"]
+---
 
 * * *
 
@@ -154,7 +194,17 @@ It is possible to define additional system fields, for which this check is perfo
 
 ### abenclient_dependent_scrty.htm
 
-  
+---
+title: "Cross-Client Database Access"
+description: |
+  Each client(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_glosry.htm 'Glossary Entry') is a self-contained unit. The automatic client handling(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_glosry.htm 'Glossary Entry') function in ABAP SQL
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_dependent_scrty.htm"
+abapFile: "abenclient_dependent_scrty.htm"
+keywords: ["select", "do", "if", "try", "data", "abenclient", "dependent", "scrty"]
+---
 
 * * *
 
@@ -194,7 +244,17 @@ cl\_demo\_output=>display( customers2 ).
 
 ### abenobscure_code_scrty.htm
 
-  
+---
+title: "Obscuring ABAP Source Code"
+description: |
+  ABAP source code(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') is obscured if tasks that can be performed directly are instead performed across diversions that disguise the real purpose. One common form of obscured code is found when i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobscure_code_scrty.htm"
+abapFile: "abenobscure_code_scrty.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "field-symbol", "abenobscure", "code", "scrty"]
+---
 
 * * *
 

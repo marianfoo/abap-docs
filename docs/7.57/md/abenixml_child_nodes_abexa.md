@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_access_child_nodes. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. FINAL(ixml)           = cl_ixml=>create( ). FINAL(stream_factory) = ixml->create_stream_factory( ). FINAL(istream)        = stream_fa
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenixml_child_nodes_abexa.htm"
+abapFile: "abenixml_child_nodes_abexa.htm"
+keywords: ["select", "do", "while", "if", "method", "class", "data", "abenixml", "child", "nodes", "abexa"]
+---
 
 * * *
 

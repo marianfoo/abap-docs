@@ -1,4 +1,14 @@
-  
+---
+title: "Method"
+description: |
+  Procedure(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm 'Glossary Entry') that is declared as a component(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_glosry.htm 'Glossary Entry') of a class(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm"
+abapFile: "abenmethod_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenmethod", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Core Data Services (ABAP CDS)"
+description: |
+  The ABAP Core Data Services (ABAP CDS) are the implementation of the general CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_glosry.htm 'Glossary Entry') concept for AS ABAP. ABAP CDS makes it possible to define semantic data models on the standard database(https://help.sa
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm"
+abapFile: "abencds.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - System Entities"
+description: |
+  CDS system entities provide basic functionality and can be used in other CDS entities and in ABAP SQL. -   ABAP CDS - System Table Functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_system_table_functions.htm) ABAP CDS - System Table Functions(https://help.sap.com/
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_system_entities.htm"
+abapFile: "abencds_system_entities.htm"
+keywords: ["do", "if", "data", "abencds", "system", "entities"]
+---
 
 * * *
 

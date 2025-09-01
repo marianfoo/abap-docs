@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - Obsolete BDEF Derived Types"
+description: |
+  Syntax ... TYPE  TABLE  STRUCTURE  FOR LOCK bdef. Effect Special ABAP type that is used for internal tables and structures in the context of RAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_glosry.htm 'Glossary Entry') to enable the communication between
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_obsolete.htm"
+abapFile: "abapderived_types_obsolete.htm"
+keywords: ["do", "if", "try", "types", "internal-table", "abapderived", "obsolete"]
+---
 
 * * *
 

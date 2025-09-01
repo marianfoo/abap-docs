@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Syntax"
+description: |
+  The syntax of the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and the CDS DCL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_glosry.htm 'Glossary Entry') in ABAP CDS comprises elements of the general SQL(ht
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_syntax.htm"
+abapFile: "abencds_syntax.htm"
+keywords: ["do", "try", "data", "abencds", "syntax"]
+---
 
 * * *
 

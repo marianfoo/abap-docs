@@ -1,4 +1,14 @@
-  
+---
+title: "ASSIGN, ELSE UNASSIGN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_shortref.htm) Syntax ... ELSE UNASSIGN ... Effect This addition to the statement ASSIGN(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm) unassigns the field symbol if the assignment is
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_else_unassign.htm"
+abapFile: "abapassign_else_unassign.htm"
+keywords: ["do", "if", "case", "data", "field-symbol", "abapassign", "else", "unassign"]
+---
 
 * * *
 

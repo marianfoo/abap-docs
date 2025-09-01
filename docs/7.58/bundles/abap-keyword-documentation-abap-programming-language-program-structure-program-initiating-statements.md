@@ -5,7 +5,17 @@ Included pages: 9
 
 ### abenabap_program_statement.htm
 
-  
+---
+title: "Program-Initiating Statements"
+description: |
+  The program-initiating statements are: -   REPORT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport.htm) -   PROGRAM(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprogram.htm) -   FUNCTION-POOL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abap
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_statement.htm"
+abapFile: "abenabap_program_statement.htm"
+keywords: ["do", "if", "case", "try", "class", "types", "abenabap", "program", "statement"]
+---
 
 * * *
 
@@ -51,7 +61,17 @@ Continue
 
 ### abapreport.htm
 
-  
+---
+title: "REPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport_shortref.htm) Syntax REPORT rep list_options(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport_list_options.htm) MESSAGE-ID mid DEFINING DATABASE ldb(https://help.sap.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport.htm"
+abapFile: "abapreport.htm"
+keywords: ["do", "if", "try", "class", "data", "abapreport"]
+---
 
 * * *
 
@@ -116,7 +136,17 @@ Continue
 
 ### abapreport_list_options.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... NO STANDARD PAGE HEADING LINE-SIZE width LINE-COUNT page_lines(footer_lines) ... Additions: 1. ... NO STANDARD PAGE HEADING(#!ABAP_ADDITION_1@1@) 2. ... LINE-SIZE width(#!ABAP_ADDITION_2@2@) 3. ... LINE-COUNT page_lines(footer_lines)(#!ABAP_AD
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport_list_options.htm"
+abapFile: "abapreport_list_options.htm"
+keywords: ["select", "do", "if", "try", "abapreport", "list", "options"]
+---
 
 * * *
 
@@ -195,7 +225,17 @@ REPORT myreport LINE-COUNT 65(8) LINE-SIZE 132.
 
 ### abapreport.htm
 
-  
+---
+title: "REPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport_shortref.htm) Syntax REPORT rep list_options(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport_list_options.htm) MESSAGE-ID mid DEFINING DATABASE ldb(https://help.sap.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport.htm"
+abapFile: "abapreport.htm"
+keywords: ["do", "if", "try", "class", "data", "abapreport"]
+---
 
 * * *
 
@@ -260,7 +300,17 @@ Continue
 
 ### abapprogram.htm
 
-  
+---
+title: "PROGRAM"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprogram_shortref.htm) Syntax PROGRAM prog list_options(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport_list_options.htm) MESSAGE-ID mid REDUCED FUNCTIONALITY. Addition:
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprogram.htm"
+abapFile: "abapprogram.htm"
+keywords: ["loop", "do", "if", "try", "abapprogram"]
+---
 
 * * *
 
@@ -321,7 +371,17 @@ Hints
 
 ### abapfunction-pool.htm
 
-  
+---
+title: "FUNCTION-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfunction-pool_shortref.htm) Syntax FUNCTION-POOL fpool list_options(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport_list_options.htm) MESSAGE-ID mid. Addition: ... MESSAGE-ID mi
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfunction-pool.htm"
+abapFile: "abapfunction-pool.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapfunction", "pool"]
+---
 
 * * *
 
@@ -407,7 +467,17 @@ This addition specifies a message class mid that allows the use of short forms o
 
 ### abapclass-pool.htm
 
-  
+---
+title: "CLASS-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-pool_shortref.htm) Syntax CLASS-POOL MESSAGE-ID id. Addition: ... MESSAGE-ID mid(#!ABAP_ONE_ADD@1@) Effect The statement CLASS-POOL introduces a class pool(https://help.sap.com/doc/abapdocu_758_index_h
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-pool.htm"
+abapFile: "abapclass-pool.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abapclass", "pool"]
+---
 
 * * *
 
@@ -476,7 +546,17 @@ This addition specifies a message class mid that allows the use of short forms o
 
 ### abapinterface-pool.htm
 
-  
+---
+title: "INTERFACE-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterface-pool_shortref.htm) Syntax INTERFACE-POOL. Effect The statement INTERFACE-POOL introduces an interface pool(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_pool_glosry.htm 'Glossary E
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterface-pool.htm"
+abapFile: "abapinterface-pool.htm"
+keywords: ["do", "if", "try", "class", "abapinterface", "pool"]
+---
 
 * * *
 
@@ -518,7 +598,17 @@ The name of the master program of the interface pool of the global interface IF\
 
 ### abaptype-pool.htm
 
-  
+---
+title: "TYPE-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype-pool_shortref.htm) Syntax TYPE-POOL tpool. Effect The statement TYPE-POOL introduces a type pool(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm 'Glossary Entry') called tpool.
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype-pool.htm"
+abapFile: "abaptype-pool.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abaptype", "pool"]
+---
 
 * * *
 

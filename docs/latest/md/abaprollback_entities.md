@@ -1,4 +1,14 @@
-  
+---
+title: "ROLLBACK ENTITIES"
+description: |
+  Syntax ROLLBACK ENTITIES. Effect Rolls back all changes of the current RAP transaction(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_luw_glosry.htm 'Glossary Entry'). This includes data changes (for example, changes stored in the transactional buffer(https://help.sap.co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprollback_entities.htm"
+abapFile: "abaprollback_entities.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abaprollback", "entities"]
+---
 
 * * *
 

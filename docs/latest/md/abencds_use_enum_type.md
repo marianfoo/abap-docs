@@ -1,4 +1,14 @@
-  
+---
+title: "CDS TDL - Using CDS Enumerated Types"
+description: |
+  This section summarizes the use of CDS elements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_glosry.htm 'Glossary Entry') with an enumerated type. -   Declaration(#abencds-use-enum-type-1-------operand-positions-for-cds-elements-with-an-enumerated-type---@ITOC@
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_use_enum_type.htm"
+abapFile: "abencds_use_enum_type.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "use", "enum", "type"]
+---
 
 * * *
 
@@ -13,16 +23,11 @@ CDS TDL - Using CDS Enumerated Types
 
 This section summarizes the use of [CDS elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_glosry.htm "Glossary Entry") with an enumerated type.
 
--   [Declaration](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_1)
--   [Operand Positions for CDS Elements with an Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
-    -   [CDS Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_3)
-    -   [CDS Enumerated Constant](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
-    -   [CDS Enumerated Element](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_5)
--   [Case Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
--   [Cast Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_7)
--   [Comparisons](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
--   [Parameter Passing](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_9)
--   [Type Descriptions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
+-   [Declaration](#abencds-use-enum-type-1-------operand-positions-for-cds-elements-with-an-enumerated-type---@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
+    -   [CDS Enumerated Type](#abencds-use-enum-type-3-----------cds-enumerated-constant---@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
+    -   [CDS Enumerated Element](#abencds-use-enum-type-5-------case-expressions---@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
+-   [Cast Expressions](#abencds-use-enum-type-7-------comparisons---@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
+-   [Parameter Passing](#abencds-use-enum-type-9-------type-descriptions---@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
 
 Executable Example
 

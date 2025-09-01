@@ -1,4 +1,14 @@
-  
+---
+title: "Web Dynpro Explorer"
+description: |
+  ABAP Workbench(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') tool used to create Web Dynpros(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenweb_dynpro_glosry.htm 'Glossary Entry'). Called by choosing Create → Web Dynpro
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenweb_dynpro_explorer_glosry.htm"
+abapFile: "abenweb_dynpro_explorer_glosry.htm"
+keywords: ["do", "try", "abenweb", "dynpro", "explorer", "glosry"]
+---
 
 * * *
 

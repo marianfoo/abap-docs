@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenole2.htm
 
-  
+---
+title: "ABAP and OLE"
+description: |
+  ABAP can be used to edit automation objects whose functions are available in the presentation layer in the form of an OLE Automation server. Only automation objects for Windows are supported. Typical applications that offer an automation interface are Microsoft Office products Excel and Word, for wh
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenole2.htm"
+abapFile: "abenole2.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenole2"]
+---
 
 * * *
 
@@ -47,7 +57,17 @@ Continue
 
 ### abapcreate_object_ole2.htm
 
-  
+---
+title: "CREATE OBJECT - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_object_ole_shortref.htm) Syntax CREATE OBJECT ole class NO FLUSH QUEUE-ONLY. Extras: 1. ... NO FLUSH(#!ABAP_ADDITION_1@1@) 2. ... QUEUE-ONLY(#!ABAP_ADDITION_2@2@) Effect This statement creat
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_object_ole2.htm"
+abapFile: "abapcreate_object_ole2.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapcreate", "object", "ole2"]
+---
 
 * * *
 
@@ -131,7 +151,17 @@ CREATE OBJECT app 'Excel.Application' NO FLUSH.
 
 ### abapcall_method_ole2.htm
 
-  
+---
+title: "CALL METHOD - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_of_ole_shortref.htm) Syntax CALL METHOD OF ole meth = rc EXPORTING p1 = f1 p2 = f2 ... NO FLUSH QUEUE-ONLY. Extras: 1.... EXPORTING p1 = f1 p2 = f2 ...(#!ABAP_ADDITION_1@1@
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_ole2.htm"
+abapFile: "abapcall_method_ole2.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abapcall", "ole2"]
+---
 
 * * *
 
@@ -307,7 +337,17 @@ AT SELECTION-SCREEN.
 
 ### abapget_property.htm
 
-  
+---
+title: "GET PROPERTY - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_property_shortref.htm) Syntax GET PROPERTY OF ole attr = dobj NO FLUSH QUEUE-ONLY EXPORTING p1 = f1 p2 = f2 .... Extras: 1. ... NO FLUSH(#!ABAP_ADDITION_1@1@) 2. ... QUEUE-ONLY(#!ABAP_A
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_property.htm"
+abapFile: "abapget_property.htm"
+keywords: ["do", "if", "try", "data", "abapget", "property"]
+---
 
 * * *
 
@@ -392,7 +432,17 @@ GET PROPERTY OF app 'Visible' = vis.
 
 ### abapset_property.htm
 
-  
+---
+title: "SET PROPERTY - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_property_shortref.htm) Syntax SET PROPERTY OF ole attr = dobj NO FLUSH EXPORTING p1 = f1 p2 = f2 .... Extras: 1. ... NO FLUSH(#!ABAP_ADDITION_1@1@) 2. ... EXPORTING p1 = f1 p2 = f2 ...(#!ABAP_A
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_property.htm"
+abapFile: "abapset_property.htm"
+keywords: ["do", "try", "data", "abapset", "property"]
+---
 
 * * *
 
@@ -471,7 +521,17 @@ SET PROPERTY OF app 'Visible' = 1.
 
 ### abapfree_object.htm
 
-  
+---
+title: "FREE OBJECT - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_object_shortref.htm) Syntax FREE OBJECT ole NO FLUSH. Addition: ... NO FLUSH(#!ABAP_ONE_ADD@1@) Effect This statement releases the memory occupied by the object ole on the current AS Instance(https://he
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_object.htm"
+abapFile: "abapfree_object.htm"
+keywords: ["do", "try", "data", "abapfree", "object"]
+---
 
 * * *
 

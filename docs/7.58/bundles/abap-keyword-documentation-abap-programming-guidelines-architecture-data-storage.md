@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abendata_storage_gdl.htm
 
-  
+---
+title: "Data Storage"
+description: |
+  ABAP programs generally work with data imported from persistent memory media to the internal session(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm 'Glossary Entry') of the current program execution. This data is then available to the program as transien
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_storage_gdl.htm"
+abapFile: "abendata_storage_gdl.htm"
+keywords: ["do", "if", "try", "data", "abendata", "storage", "gdl"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenpersistent_data_storage_guidl.htm
 
-  
+---
+title: "Persistent Data Storage"
+description: |
+  Background ABAP programs can have both read and write access to data in the following persistent storage media: -   Relational database tables in databases -   Data clusters in special database tables -   Binary files or text files on the host computer(https://help.sap.com/doc/abapdocu_758_index_h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpersistent_data_storage_guidl.htm"
+abapFile: "abenpersistent_data_storage_guidl.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abenpersistent", "storage", "guidl"]
+---
 
 * * *
 
@@ -90,7 +110,17 @@ You must also be careful when using seemingly cross-system resources, such as th
 
 ### abendatabase_access_guidl.htm
 
-  
+---
+title: "Database Accesses"
+description: |
+  Background In ABAP, data in database tables can be accessed in the following ways: -   ABAP SQL Implemented by ABAP statements, ABAP SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql.htm) is a subset of the Structured Query Language (SQL) comprising the DML (Data Manipula
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_guidl.htm"
+abapFile: "abendatabase_access_guidl.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abendatabase", "access", "guidl"]
+---
 
 * * *
 
@@ -158,7 +188,17 @@ See the executable example [Currency Conversion with SQLScript](https://help.sap
 
 ### abenclient_handling_guidl.htm
 
-  
+---
+title: "Client Handling"
+description: |
+  Background A client indicates a data area in an AS ABAP database that contains independent application data. The application data of different clients use the same database tables, but are flagged with a three-figure client ID within these tables. When logging on to AS ABAP, this client ID must be e
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_handling_guidl.htm"
+abapFile: "abenclient_handling_guidl.htm"
+keywords: ["select", "do", "if", "try", "data", "abenclient", "handling", "guidl"]
+---
 
 * * *
 
@@ -217,7 +257,17 @@ SELECT SINGLE ...
 
 ### abenuse_shared_memory_guidl.htm
 
-  
+---
+title: "Using the Shared Memory"
+description: |
+  Background The shared memory of an AS instance is an highly important medium for buffering data with the goal of high-performance access. For this purpose, the shared memory can be used as follows: -   To buffer data from database tables implicitly using table buffering(https://help.sap.com/doc/ab
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_shared_memory_guidl.htm"
+abapFile: "abenuse_shared_memory_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "exception-handling", "abenuse", "shared", "memory", "guidl"]
+---
 
 * * *
 
@@ -298,7 +348,17 @@ ASSERT cl\_docu\_tables\_broker=>root->index\_html
 
 ### abenuse_shared_objects_guidl.htm
 
-  
+---
+title: "Using Shared Objects"
+description: |
+  Background Access to shared objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_shared_objects.htm) is regulated by lock mechanisms. The individual locks are stored as administrative information with the area instances in the shared memory and are set and evaluated when the
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_shared_objects_guidl.htm"
+abapFile: "abenuse_shared_objects_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenuse", "shared", "objects", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ST - length, minLength, maxLength, Specified Length"
+description: |
+  Syntax ... length='len' ... ... minLength='len' ... ... maxLength='len' ... Effect The attributes length, minLength, and maxLength can be used to specify a length len for tt:value(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_elementary.htm), tt:write(https://help.sa
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_length.htm"
+abapFile: "abenst_length.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "abenst", "length"]
+---
 
 * * *
 

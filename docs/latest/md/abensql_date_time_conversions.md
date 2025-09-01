@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TSTMP_TO_DATS( tstmp    = tstmp, tzone    = tzone, client   = client, on_error = on_error )  TSTMP_TO_TIMS( tstmp    = tstmp, tzone    = tzone, client   = client, on_error = on_error )  TSTMP_TO_DST(  tstmp    = tstmp, tzone    = tzone, client
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_date_time_conversions.htm"
+abapFile: "abensql_date_time_conversions.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "class", "data", "types", "abensql", "date", "time", "conversions"]
+---
 
 * * *
 

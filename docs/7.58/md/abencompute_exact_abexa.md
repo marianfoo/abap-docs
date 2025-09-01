@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_compute_exact DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: BEGIN OF o, div     TYPE string, result1 TYPE string, flag1   TYPE string, result2 TYPE string, flag2   TYPE
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencompute_exact_abexa.htm"
+abapFile: "abencompute_exact_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abencompute", "exact", "abexa"]
+---
 
 * * *
 

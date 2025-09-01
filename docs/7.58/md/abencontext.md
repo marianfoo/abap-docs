@@ -1,4 +1,14 @@
-  
+---
+title: "Contexts (Obsolete)"
+description: |
+  Contexts are repository objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm 'Glossary Entry') defined abstractly in the Context Builder(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext_builder_glosry.htm 'Glossary Entry') (tra
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext.htm"
+abapFile: "abencontext.htm"
+keywords: ["do", "if", "try", "class", "data", "abencontext"]
+---
 
 * * *
 

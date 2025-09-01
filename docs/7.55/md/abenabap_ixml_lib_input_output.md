@@ -1,4 +1,14 @@
-  
+---
+title: "Input Streams and Output Streams"
+description: |
+  Input streams are used for the input of XML data into the parser(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_ixml_lib_parse.htm) and output streams are used to pass XML data from the renderer(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_ixml_lib_ren
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_ixml_lib_input_output.htm"
+abapFile: "abenabap_ixml_lib_input_output.htm"
+keywords: ["do", "if", "method", "class", "data", "internal-table", "abenabap", "ixml", "lib", "input", "output"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 iXML - Streams and Documents
 
--   [Input Streams and Output Streams](#@@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_1)
-
--   [XML documents](#@@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_2)
+-   [Input Streams and Output Streams](#abenabap-ixml-lib-input-output-1--------xml-documents---@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_2)
 
 Input Streams and Output Streams
 

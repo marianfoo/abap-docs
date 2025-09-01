@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY, Standard Operations (Unmanaged)"
+description: |
+  This example demonstrates all standard operations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencrud_glosry.htm 'Glossary Entry') to modify and read from a simple unmanaged RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossar
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_op_u_abexa.htm"
+abapFile: "abeneml_modify_op_u_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abeneml", "modify", "abexa"]
+---
 
 * * *
 

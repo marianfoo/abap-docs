@@ -1,4 +1,14 @@
-  
+---
+title: "SET BLANK LINES"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_blank_lines_shortref.htm) Syntax SET BLANK LINES ONOFF. Effect This statement determines whether the blank lines created using WRITE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite-.h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_blank_lines.htm"
+abapFile: "abapset_blank_lines.htm"
+keywords: ["loop", "do", "if", "class", "data", "abapset", "blank", "lines"]
+---
 
 * * *
 

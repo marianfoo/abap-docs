@@ -1,4 +1,14 @@
-  
+---
+title: "Operand Positions for Functions and Expressions"
+description: |
+  -   Writing Positions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_positions_write.htm) -   Reading Positions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_positions_read.htm) Writing Positions for Functions and Expressions(https://help.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_positions.htm"
+abapFile: "abenexpression_positions.htm"
+keywords: ["do", "abenexpression", "positions"]
+---
 
 * * *
 

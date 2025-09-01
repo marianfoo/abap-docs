@@ -1,4 +1,14 @@
-  
+---
+title: "Expressions and Functions for String Processing"
+description: |
+  Expressions and functions for character string processing can be listed at many operand positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexpression_positions.htm). -   String expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute_stri
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_expr_func.htm"
+abapFile: "abenstring_processing_expr_func.htm"
+keywords: ["do", "if", "data", "abenstring", "processing", "expr", "func"]
+---
 
 * * *
 

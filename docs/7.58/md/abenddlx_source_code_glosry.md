@@ -1,4 +1,14 @@
-  
+---
+title: "DDLX source code"
+description: |
+  CDS source code(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_source_code_glosry.htm 'Glossary Entry') for CDS metadata extensions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_metadata_extension_glosry.htm 'Glossary Entry') in CDS DDLX(https://help.sa
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddlx_source_code_glosry.htm"
+abapFile: "abenddlx_source_code_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenddlx", "source", "code", "glosry"]
+---
 
 * * *
 

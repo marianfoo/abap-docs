@@ -1,4 +1,14 @@
-  
+---
+title: "RAP abstract behavior definition"
+description: |
+  RAP abstract BDEF or abstract BDEF for short. A RAP abstract behavior definition is a RAP behavior definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') of implementation type(https://help.sap.com/doc/abapdocu_758_index_htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_bdef_glosry.htm"
+abapFile: "abencds_abstract_bdef_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "abstract", "bdef", "glosry"]
+---
 
 * * *
 

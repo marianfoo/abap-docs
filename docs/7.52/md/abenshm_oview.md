@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Overview"
+description: |
+  Shared objects are instances of classes or anonymous data objects in shared memory(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_memory_glosry.htm 'Glossary Entry'). Named data objects can be stored as attributes of classes. The memory area of the shared memory for shared o
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_oview.htm"
+abapFile: "abenshm_oview.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenshm", "oview"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF Derived Type Components in the Context of Requesting Permissions"
+description: |
+  This example demonstrates the use of the various BDEF derived type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') components with a managed(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm) RAP BO(htt
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenderived_types_misc_abexa.htm"
+abapFile: "abenderived_types_misc_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenderived", "misc", "abexa"]
+---
 
 * * *
 

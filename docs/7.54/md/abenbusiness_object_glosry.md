@@ -1,4 +1,14 @@
-  
+---
+title: "Business Object"
+description: |
+  A business object in the ABAP RESTful Programming Model(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenr_a_p_glosry.htm 'Glossary Entry') provides following functions: -   A data model that defines the data structure explicitly (such as relations between datasets, data semantics, a
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm"
+abapFile: "abenbusiness_object_glosry.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbusiness", "object", "glosry"]
+---
 
 * * *
 

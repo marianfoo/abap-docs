@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') num_func - General Numeric Functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm) !Example(exa.gif 'Example') num_func - Integer Power Function ipow(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeni
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm"
+abapFile: "abennumerical_functions_abexas.htm"
+keywords: ["do", "if", "data", "abennumerical", "functions", "abexas"]
+---
 
 * * *
 

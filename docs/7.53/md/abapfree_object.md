@@ -1,4 +1,14 @@
-  
+---
+title: "FREE OBJECT - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_object_shortref.htm) Syntax FREE OBJECT ole NO FLUSH. Addition: ... NO FLUSH(#!ABAP_ONE_ADD@1@) Effect This statement releases the memory occupied by the object ole on the current AS Instance(https://he
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_object.htm"
+abapFile: "abapfree_object.htm"
+keywords: ["do", "try", "data", "abapfree", "object"]
+---
 
 * * *
 

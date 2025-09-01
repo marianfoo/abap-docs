@@ -1,4 +1,14 @@
-  
+---
+title: "FIELDS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfields_shortref.htm) Obsolete Syntax FIELDS dobj. Effect This statement, which is forbidden in classes, addresses a data object dobj of the program. A warning from the extended program check can be avoided if the d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfields.htm"
+abapFile: "abapfields.htm"
+keywords: ["do", "if", "try", "class", "data", "abapfields"]
+---
 
 * * *
 

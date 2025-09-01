@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_align_pad. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA pad TYPE c LENGTH 1. cl_demo_input=>request( CHANGING field = pad ). cl_demo_output=>new( )->write(  'Left'   WIDTH = 20 ALIGN = LEFT   P
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_template_align_abexa.htm"
+abapFile: "abenstring_template_align_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenstring", "template", "align", "abexa"]
+---
 
 * * *
 

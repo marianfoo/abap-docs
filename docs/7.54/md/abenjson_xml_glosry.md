@@ -1,4 +1,14 @@
-  
+---
+title: "JSON-XML"
+description: |
+  SAP-specific representation of JSON(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_glosry.htm 'Glossary Entry') data in XML(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenxml_glosry.htm 'Glossary Entry') format. JSON readers(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm"
+abapFile: "abenjson_xml_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenjson", "xml", "glosry"]
+---
 
 * * *
 

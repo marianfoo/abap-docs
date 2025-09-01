@@ -1,4 +1,14 @@
-  
+---
+title: "interface_work_area_glosry"
+description: |
+  interface_work_area_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterface_work_area_glosry.htm"
+abapFile: "abeninterface_work_area_glosry.htm"
+keywords: ["do", "try", "data", "abeninterface", "work", "area", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Comparison Type"
+description: |
+  If the comparison type is one of the numeric data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm), the numeric values are compared. Hints -   Since platform-dependent rounding errors may occur with data type f, a comparison for equality often do
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomparison_type.htm"
+abapFile: "abencomparison_type.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abencomparison", "type"]
+---
 
 * * *
 
@@ -13,10 +23,8 @@ rel\_exp - Comparison Rules for Comparison Types
 
 When operands with elementary data types are compared, the comparison is performed according to a comparison type that is determined by the involved operands, as described for [elementary data objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_operands_dobj.htm) and [calculation expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_expressions.htm). The comparison type can be one of the [built-in ABAP types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry"). When incompatible operands are compared, the operands that do not have the comparison type are converted to this type.
 
--   [Numeric Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_1)
--   [Character-Like Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_2)
--   [Byte-Like Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_3)
--   [Date/Time Type as Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_4)
+-   [Numeric Comparison Type](#abencomparison-type-1-------character-like-comparison-type---@ITOC@@ABENCOMPARISON_TYPE_2)
+-   [Byte-Like Comparison Type](#abencomparison-type-3-------date-time-type-as-comparison-type---@ITOC@@ABENCOMPARISON_TYPE_4)
 -   [Time Stamp Type as Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_5)
 
 Numeric Comparison Type   

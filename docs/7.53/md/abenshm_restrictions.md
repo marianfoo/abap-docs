@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Restrictions"
+description: |
+  At present, the following restrictions apply to shared objects: -   On 32-bit systems, only a limited amount of memory space is available for storing shared objects, due to the restricted address space. For this reason, shared objects can only be used on 32-bit systems under certain conditions. -
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_restrictions.htm"
+abapFile: "abenshm_restrictions.htm"
+keywords: ["do", "if", "class", "data", "types", "abenshm", "restrictions"]
+---
 
 * * *
 

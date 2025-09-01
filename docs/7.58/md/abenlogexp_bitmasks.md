@@ -1,4 +1,14 @@
-  
+---
+title: "Meaning"
+description: |
+  O Ones: True, if the bits that are 1 in operand2, are also 1 in operand1. If operand2 contains only zeros, the comparison expression is always true. Z Zeros: True, if the bits that are 1 in operand2 are 0 in operand1. If operand2 contains only zeros, the comparison expression is always true. M Mixed
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_bitmasks.htm"
+abapFile: "abenlogexp_bitmasks.htm"
+keywords: ["do", "if", "try", "data", "abenlogexp", "bitmasks"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CLASS-METHODS meth ... AMDP OPTIONS READ-ONLY CDS SESSION CLIENT clntCURRENT ... Additions: 1. ... READ-ONLY(#!ABAP_ADDITION_1@1@) 2. ... CDS SESSION CLIENT clntCURRENT(#!ABAP_ADDITION_2@2@) Effect The addition AMDP OPTIONS for METHODS(https://help.sap.com/doc/abapd
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods_amdp_options.htm"
+abapFile: "abapmethods_amdp_options.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abapmethods", "amdp", "options"]
+---
 
 * * *
 

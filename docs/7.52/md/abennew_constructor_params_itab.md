@@ -1,4 +1,14 @@
-  
+---
+title: "NEW - Internal Tables"
+description: |
+  Syntax ... NEW dtype#( let_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplet.htm) BASE itab FOR for_exp1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor.htm) FOR for_exp2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-U
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennew_constructor_params_itab.htm"
+abapFile: "abennew_constructor_params_itab.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abennew", "constructor", "params", "itab"]
+---
 
 * * *
 

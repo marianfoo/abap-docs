@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Indexes in Database Tables"
+description: |
+  An index in a DDIC database table helps to speed up the selection of rows. An index is a sorted copy of selected DDIC database table fields. An additional field contains a pointer to the actual table lines. Sorting enables faster access to the lines in the table, for example in binary searches. A DD
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_index.htm"
+abapFile: "abenddic_database_tables_index.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "data", "types", "abenddic", "database", "tables", "index"]
+---
 
 * * *
 
@@ -10,8 +20,7 @@ DDIC - Indexes in Database Tables
 
 An index in a DDIC database table helps to speed up the selection of rows. An index is a sorted copy of selected DDIC database table fields. An additional field contains a pointer to the actual table lines. Sorting enables faster access to the lines in the table, for example in binary searches. A DDIC database table has at least one [primary index](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprimary_index_glosry.htm "Glossary Entry") defined by its key fields. It can also have one or more optional [secondary indexes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_index_glosry.htm "Glossary Entry").
 
--   [Primary Index](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_1)
--   [Secondary Indexes](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_2)
+-   [Primary Index](#abenddic-database-tables-index-1-------secondary-indexes---@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_2)
 -   [Full Text Index](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_3)
 
 Primary Index

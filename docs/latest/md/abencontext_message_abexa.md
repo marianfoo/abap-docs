@@ -1,4 +1,14 @@
-  
+---
+title: "Contexts - Message Handling"
+description: |
+  This example demonstrates how messages can be handled in contexts. Source Code REPORT  demo_context_message. DATA: c_from TYPE spfli-cityfrom, c_to   TYPE spfli-cityto. CONTEXTS docu_test1. DATA: context_inst TYPE context_docu_test1. DATA: itab TYPE TABLE OF symsg, line LIKE LINE OF itab. SU
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontext_message_abexa.htm"
+abapFile: "abencontext_message_abexa.htm"
+keywords: ["do", "if", "data", "internal-table", "abencontext", "message", "abexa"]
+---
 
 * * *
 

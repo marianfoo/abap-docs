@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_html_from_mime. CLASS mime_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: mime_line(1022) TYPE x, mime_tab        TYPE STANDARD TABLE OF mime_line WITH EMPTY KEY. CLASS-METHODS get_mime_obj IMPORTING mime_url        TYPE csequence RETURNING VALUE(m
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_html_abexa.htm"
+abapFile: "abenmime_html_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmime", "html", "abexa"]
+---
 
 * * *
 

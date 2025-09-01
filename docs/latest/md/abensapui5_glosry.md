@@ -1,4 +1,14 @@
-  
+---
+title: "sapui5_glosry"
+description: |
+  sapui5_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensapui5_glosry.htm"
+abapFile: "abensapui5_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensapui5", "glosry"]
+---
 
 * * *
 

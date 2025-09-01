@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - COMMIT ENTITIES RESPONSES"
+description: |
+  Syntax COMMIT ENTITIES RESPONSES OF root_names FAILED   it_failed  DATA(it_failed) REPORTED it_reported  DATA(it_reported). Effect The statement COMMIT ENTITIES RESPONSES is a dynamic form of the COMMIT statement. The table root_names can be used to restrict which
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_dynamic.htm"
+abapFile: "abeneml_commit_dynamic.htm"
+keywords: ["do", "if", "data", "abeneml", "commit", "dynamic"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_find_regex. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA regobj TYPE REF TO cl_abap_regex. DATA(regex)    = `b.atb`. DATA(text)     = `Cathy's cat with the hat sat on Matt's mat.`. DATA standard TYPE cl_aba
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_abexa.htm"
+abapFile: "abenregex_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "method", "class", "data", "abenregex", "abexa"]
+---
 
 * * *
 

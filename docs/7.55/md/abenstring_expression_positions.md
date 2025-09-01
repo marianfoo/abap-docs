@@ -1,4 +1,14 @@
-  
+---
+title: "Character-Like Expression Positions"
+description: |
+  Character-like expression positions are read positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreading_position_glosry.htm 'Glossary Entry') where character-like data objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_data_object_glosry.htm 'Gl
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_expression_positions.htm"
+abapFile: "abenstring_expression_positions.htm"
+keywords: ["do", "if", "try", "method", "data", "abenstring", "expression", "positions"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abeninternal_table_interval_spcl.htm
 
-  
+---
+title: "Interval Join in Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm)
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -25,7 +35,17 @@ Continue
 
 ### abapprovide.htm
 
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -207,7 +227,17 @@ Continue
 
 ### abapendprovide.htm
 
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm).
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -230,7 +260,17 @@ The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.
 
 ### abapprovide.htm
 
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 

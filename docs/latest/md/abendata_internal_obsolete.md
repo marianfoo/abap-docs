@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Processing of Internal Data"
+description: |
+  -   Obsolete Assignments(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobsolete_assignments.htm) -   Obsolete Calculation Statements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomputing_obsolete.htm) -   Obsolete Character String and Byte String Pr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_internal_obsolete.htm"
+abapFile: "abendata_internal_obsolete.htm"
+keywords: ["do", "if", "data", "internal-table", "abendata", "internal", "obsolete"]
+---
 
 * * *
 

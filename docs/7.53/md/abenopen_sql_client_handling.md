@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Client Handling"
+description: |
+  ABAP SQL by default uses automatic client handling(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_glosry.htm 'Glossary Entry'). When a client-specific(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_dependence_glosry.htm 'Glossary Entry') dat
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_client_handling.htm"
+abapFile: "abenopen_sql_client_handling.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenopen", "sql", "client", "handling"]
+---
 
 * * *
 

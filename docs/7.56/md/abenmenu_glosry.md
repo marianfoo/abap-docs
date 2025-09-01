@@ -1,4 +1,14 @@
-  
+---
+title: "menu_glosry"
+description: |
+  menu_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmenu_glosry.htm"
+abapFile: "abenmenu_glosry.htm"
+keywords: ["do", "try", "abenmenu", "glosry"]
+---
 
 * * *
 

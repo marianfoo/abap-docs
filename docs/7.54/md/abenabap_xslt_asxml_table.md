@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  asXML, Mapping of Tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasxml_table_abexa.htm)
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_table.htm"
+abapFile: "abenabap_xslt_asxml_table.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenabap", "xslt", "asxml", "table"]
+---
 
 * * *
 

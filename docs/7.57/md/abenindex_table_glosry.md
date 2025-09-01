@@ -1,4 +1,14 @@
-  
+---
+title: "index_table_glosry"
+description: |
+  index_table_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenindex_table_glosry.htm"
+abapFile: "abenindex_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abenindex", "table", "glosry"]
+---
 
 * * *
 

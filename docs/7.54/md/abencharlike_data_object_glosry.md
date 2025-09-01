@@ -1,4 +1,14 @@
-  
+---
+title: "Character-like data object"
+description: |
+  Data object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm 'Glossary Entry') that can be interpreted as character-like if its content is appropriate. Alongside data objects with character-like data types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_data_object_glosry.htm"
+abapFile: "abencharlike_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencharlike", "object", "glosry"]
+---
 
 * * *
 

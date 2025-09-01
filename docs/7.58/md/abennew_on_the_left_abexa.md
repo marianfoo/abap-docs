@@ -1,4 +1,14 @@
-  
+---
+title: "Instance Operator NEW on the Left"
+description: |
+  Constructor expression with NEW on the left side of an expression. Source Code  Public class definition CLASS cl_demo_new_on_the_left DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS class DEFINITION. PUBL
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_on_the_left_abexa.htm"
+abapFile: "abennew_on_the_left_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abennew", "the", "left", "abexa"]
+---
 
 * * *
 

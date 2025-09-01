@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS, Annotation Array"
+description: |
+  This example shows how an annotation array(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenannotation_array_glosry.htm 'Glossary Entry') is evaluated in a piece of DDL source code. Source Code REPORT demo_cds_annotation_array. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_array_abexa.htm"
+abapFile: "abencds_annotation_array_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotation", "array", "abexa"]
+---
 
 * * *
 

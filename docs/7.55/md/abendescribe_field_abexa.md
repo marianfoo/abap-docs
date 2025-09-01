@@ -1,4 +1,14 @@
-  
+---
+title: "Determining Elementary Data Types"
+description: |
+  This example demonstrates how the attributes of elementary data types can be determined at runtime. Source Code REPORT  demo_describe_field. CLASS conv_exc DEFINITION INHERITING FROM cx_static_check. ENDCLASS. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLE
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendescribe_field_abexa.htm"
+abapFile: "abendescribe_field_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "field-symbol", "abendescribe", "field", "abexa"]
+---
 
 * * *
 

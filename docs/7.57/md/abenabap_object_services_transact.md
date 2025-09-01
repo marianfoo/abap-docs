@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Transaction Service"
+description: |
+  The transaction service implicitly or explicitly handles updates(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_glosry.htm 'Glossary Entry') of persistent objects created in the program or whose persistent attributes were changed. -   Transaction Service Overview(https://h
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_object_services_transact.htm"
+abapFile: "abenabap_object_services_transact.htm"
+keywords: ["update", "do", "if", "try", "data", "abenabap", "object", "services", "transact"]
+---
 
 * * *
 

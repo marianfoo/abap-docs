@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL engine"
+description: |
+  Part of the ABAP SQL Interface(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_interface_glosry.htm 'Glossary Entry') for processing ABAP SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm 'Glossary Entry') statements that read(https:
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_engine_glosry.htm"
+abapFile: "abenabap_sql_engine_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abenabap", "sql", "engine", "glosry"]
+---
 
 * * *
 

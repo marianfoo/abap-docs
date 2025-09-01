@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE, Lines"
+description: |
+  When a list is output using WRITE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite-.htm), the characters '-' and '' are replaced by suitable line elements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenline_element_glosry.htm 'Glossary Entry') if they are dis
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_lines.htm"
+abapFile: "abenwrite_lines.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenwrite", "lines"]
+---
 
 * * *
 

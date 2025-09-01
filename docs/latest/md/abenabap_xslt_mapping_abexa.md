@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_abap_xml_schema_map DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_abap_xml_schema_map IMPLEMENTATION. METHOD main. DATA: uuid
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_mapping_abexa.htm"
+abapFile: "abenabap_xslt_mapping_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenabap", "xslt", "mapping", "abexa"]
+---
 
 * * *
 

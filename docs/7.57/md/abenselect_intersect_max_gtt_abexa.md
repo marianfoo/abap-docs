@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Intersection with Global Temporary Table"
+description: |
+  This example demonstrates an intersection across a table and a global temporary table (GTT). Source Code REPORT DEMO_SELECT_INTERSECT_MAX_GTT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. INSERT demo_sflight_agg FROM ( SELECT carr
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_intersect_max_gtt_abexa.htm"
+abapFile: "abenselect_intersect_max_gtt_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenselect", "intersect", "max", "gtt", "abexa"]
+---
 
 * * *
 

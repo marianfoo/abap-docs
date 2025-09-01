@@ -1,4 +1,14 @@
-  
+---
+title: "RAP transactional framework"
+description: |
+  Part of the RAP framework(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_framework_glosry.htm 'Glossary Entry') that consists of the RAP transactional engine(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_transac_engine_glosry.htm 'Glossary Entry') and the
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactional_frame_glosry.htm"
+abapFile: "abentransactional_frame_glosry.htm"
+keywords: ["do", "if", "try", "abentransactional", "frame", "glosry"]
+---
 
 * * *
 

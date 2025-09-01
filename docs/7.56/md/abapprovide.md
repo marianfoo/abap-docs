@@ -1,4 +1,14 @@
-  
+---
+title: "PROVIDE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 10
 
 ### abenoperands_names.htm
 
-  
+---
+title: "Notations for Single Operands"
+description: |
+  A single operand, that is, an operand that is not an expression, can either be elementary or be a combination of components. Composite operands are: -   Structured data types or data objects (structure) -   Instances of classes (objects) -   Classes -   Interfaces As a consequence, names for operand
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_names.htm"
+abapFile: "abenoperands_names.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenoperands", "names"]
+---
 
 * * *
 
@@ -54,7 +64,17 @@ Continue
 
 ### abenstructure_component_selector.htm
 
-  
+---
+title: "Structure Component Selector"
+description: |
+  A component comp of a structured data type or a structure struct is accessed using the name struct-comp In this case, the character - is the structure component selector. A structured data type or a structure struct must be specified as follows to the left of the structure component selector: -   N
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructure_component_selector.htm"
+abapFile: "abenstructure_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenstructure", "component", "selector"]
+---
 
 * * *
 
@@ -87,7 +107,17 @@ DATA struc TYPE spfli.
 
 ### abenobject_component_selector.htm
 
-  
+---
+title: "Object Component Selector"
+description: |
+  -   Static Target(#abenobject-component-selector-1-------dynamic-target---@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2) Static Target A statically specified component comp of an object is accessed using the following name: ref->comp In this case, the character -> is the object component selector. A ref
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_component_selector.htm"
+abapFile: "abenobject_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "field-symbol", "abenobject", "component", "selector"]
+---
 
 * * *
 
@@ -97,8 +127,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 Object Component Selector
 
--   [Static Target](#@@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_1)
--   [Dynamic Target](#@@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2)
+-   [Static Target](#abenobject-component-selector-1-------dynamic-target---@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2)
 
 Static Target
 
@@ -182,7 +211,17 @@ cl\_demo\_output=>display( ).
 
 ### abenclass_component_selector.htm
 
-  
+---
+title: "Class Component Selector"
+description: |
+  A static component(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_component_glosry.htm 'Glossary Entry') comp of a class is accessed using the following name: class=>comp In this case, no instance of the class has to be created. The symbol => is the class component selector
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_component_selector.htm"
+abapFile: "abenclass_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenclass", "component", "selector"]
+---
 
 * * *
 
@@ -233,7 +272,17 @@ ENDCLASS.
 
 ### abeninterface_component_selector.htm
 
-  
+---
+title: "Interface Component Selector"
+description: |
+  A component comp of an interface is accessed using the following name: intf~comp In this case, the character ~ is the interface component selector. The name intf of an interface must be to the left of the interface component selector. The name comp of the component must be to the right of the interf
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninterface_component_selector.htm"
+abapFile: "abeninterface_component_selector.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abeninterface", "component", "selector"]
+---
 
 * * *
 
@@ -287,7 +336,17 @@ ENDCLASS.
 
 ### abendereferencing_operator.htm
 
-  
+---
+title: "Dereferencing Operator"
+description: |
+  The content of a data object pointed to by a data reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_reference_type.htm) is accessed using the dereferencing operator: dref-> The dereferencing operator -> can be specified after a data reference variable(https://hel
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendereferencing_operator.htm"
+abapFile: "abendereferencing_operator.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "data", "internal-table", "abendereferencing", "operator"]
+---
 
 * * *
 
@@ -330,7 +389,17 @@ cl\_demo\_output=>display( ).
 
 ### abencomponent_chaining_selector.htm
 
-  
+---
+title: "Chainings"
+description: |
+  If a deeply nested subcomponent is used at an operand position, the operand must be denoted as a chaining of all components leading to this subcomponent. This chaining contains a suitable component selector between each component. The following rules apply to such chained names(https://help.sap.co
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_chaining_selector.htm"
+abapFile: "abencomponent_chaining_selector.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencomponent", "chaining", "selector"]
+---
 
 * * *
 
@@ -395,7 +464,17 @@ ENDCLASS.
 
 ### abenoffset_length.htm
 
-  
+---
+title: "Syntax"
+description: |
+  dobj+off(len) <fs>+off(len) dref->+off(len) Effect An offset off can be appended directly with the character + to the identifier dobj of a data object, <fs> of a field symbol, or to a dereferenced data reference variable dref->. A length len can be
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length.htm"
+abapFile: "abenoffset_length.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abenoffset", "length"]
+---
 
 * * *
 
@@ -536,7 +615,17 @@ Continue
 
 ### abendata_process_fields_abexa.htm
 
-  
+---
+title: "Substrings"
+description: |
+  This example demonstrates how substrings can be accessed. Source Code REPORT demo_data_process_fields. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA time TYPE t VALUE '172545'. DATA: f1(8)  TYPE c VALUE 'ABCDEFGH', f2(20) TYPE c
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_process_fields_abexa.htm"
+abapFile: "abendata_process_fields_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abendata", "process", "fields", "abexa"]
+---
 
 * * *
 
@@ -617,7 +706,17 @@ In the fourth part, the WRITE TO statement is used. The first six places of the 
 
 ### abenoffset_length.htm
 
-  
+---
+title: "Syntax"
+description: |
+  dobj+off(len) <fs>+off(len) dref->+off(len) Effect An offset off can be appended directly with the character + to the identifier dobj of a data object, <fs> of a field symbol, or to a dereferenced data reference variable dref->. A length len can be
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length.htm"
+abapFile: "abenoffset_length.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abenoffset", "length"]
+---
 
 * * *
 

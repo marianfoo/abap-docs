@@ -1,4 +1,14 @@
-  
+---
+title: "FUNCTION - LIKE, STRUCTURE"
+description: |
+  Obsolete Syntax ...  LIKE struc-comp  LIKE struc STRUCTURE struc ... Effect Typing of interface parameters in the display of the properties of the interface parameters(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm) of a function module interf
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm"
+abapFile: "abapfunction_typing_obsolete.htm"
+keywords: ["do", "if", "try", "data", "types", "field-symbol", "abapfunction", "typing", "obsolete"]
+---
 
 * * *
 

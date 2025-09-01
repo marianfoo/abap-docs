@@ -1,4 +1,14 @@
-  
+---
+title: "Encapsulation"
+description: |
+  Background A program that is created based on the procedural programming model and that includes many procedures and global variables is usually difficult to understand because the numerous possible interdependencies of these publicly accessible variables and procedures are difficult to comprehend .
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenencapsulation_guidl.htm"
+abapFile: "abenencapsulation_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "abenencapsulation", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO augmentation"
+description: |
+  A RAP BO operation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') addition that must be implemented by an ABP handler method(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm 'Gloss
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_augmentation_glosry.htm"
+abapFile: "abenrap_bo_augmentation_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenrap", "augmentation", "glosry"]
+---
 
 * * *
 

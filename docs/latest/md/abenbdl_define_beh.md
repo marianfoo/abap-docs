@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Definition"
+description: |
+  Syntax define behavior for RootEntity alias AliasName external ExternalName implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_in_class_unique.htm) entity behavior characteristics(https://help.sap
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh.htm"
+abapFile: "abenbdl_define_beh.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenbdl", "define", "beh"]
+---
 
 * * *
 

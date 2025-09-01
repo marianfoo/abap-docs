@@ -1,4 +1,14 @@
-  
+---
+title: "FREE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfree_dataobject.htm) Syntax FREE dobj. Effect Initializes a data object dobj by assigning the type-dependent initial value(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_value_glosry.htm 'Glossary En
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfree_shortref.htm"
+abapFile: "abapfree_shortref.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abapfree", "shortref"]
+---
 
 * * *
 

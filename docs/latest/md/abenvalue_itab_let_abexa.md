@@ -1,4 +1,14 @@
-  
+---
+title: "VALUE, Operator with LET for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm) for internal tables with a LET expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm). Source Code  Public
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_let_abexa.htm"
+abapFile: "abenvalue_itab_let_abexa.htm"
+keywords: ["do", "if", "method", "class", "types", "internal-table", "abenvalue", "itab", "let", "abexa"]
+---
 
 * * *
 

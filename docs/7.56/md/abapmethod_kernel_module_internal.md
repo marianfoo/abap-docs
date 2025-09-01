@@ -1,4 +1,14 @@
-  
+---
+title: "METHOD, Internal Additions"
+description: |
+  These additions are for internal use only. Do not use them in application programs. Addition: ... ... BY KERNEL MODULE p1 ... Effect This addition to the statement METHOD defines the method meth as a kernel method(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkernel_methods.htm).
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethod_kernel_module_internal.htm"
+abapFile: "abapmethod_kernel_module_internal.htm"
+keywords: ["do", "if", "method", "class", "abapmethod", "kernel", "module", "internal"]
+---
 
 * * *
 

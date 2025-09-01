@@ -1,4 +1,14 @@
-  
+---
+title: "INCLUDE"
+description: |
+  Syntax INCLUDE METHODS. Effect This statement cannot be entered locally in an ABAP program using an ABAP Editor. Instead, it is generated automatically in the definition of a global class using the Class Builder tool in ABAP Workbench(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_methods.htm"
+abapFile: "abapinclude_methods.htm"
+keywords: ["do", "if", "try", "method", "class", "abapinclude", "methods"]
+---
 
 * * *
 

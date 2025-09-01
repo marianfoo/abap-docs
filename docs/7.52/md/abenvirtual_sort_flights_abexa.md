@@ -1,4 +1,14 @@
-  
+---
+title: "Virtual Sorting of Flight Data"
+description: |
+  This example demonstrates the virtual sorting of an internal table containing flight data. Source Code REPORT demo_virtual_sort_flights. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF flight, carrid   TYPE s_carr_id, connid   TYPE s_conn_id, cityfrom TYPE s_city, cityto   TYPE s_cit
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_flights_abexa.htm"
+abapFile: "abenvirtual_sort_flights_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "flights", "abexa"]
+---
 
 * * *
 

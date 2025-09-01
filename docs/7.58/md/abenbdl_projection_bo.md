@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Projection Behavior Definitions"
+description: |
+  RAP projection behavior definitions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_bdef_glosry.htm 'Glossary Entry') are created using the behavior definition language RAP BDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm 'Glossary Ent
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_projection_bo.htm"
+abapFile: "abenbdl_projection_bo.htm"
+keywords: ["do", "if", "try", "abenbdl", "projection"]
+---
 
 * * *
 

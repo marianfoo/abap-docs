@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenexceptions_pre_610.htm
 
-  
+---
+title: "Exceptions Before Class-Based Exceptions"
+description: |
+  Exceptions are class-based(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions.htm). Before the introduction of exception classes, there were the following types of exceptions: -   Exception situations detected by the system (and whose causes could be handled effectively by t
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_pre_610.htm"
+abapFile: "abenexceptions_pre_610.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "types", "exception-handling", "abenexceptions", "pre", "610"]
+---
 
 * * *
 
@@ -39,7 +49,17 @@ Continue
 
 ### abenexceptions_non_class.htm
 
-  
+---
+title: "Non-Class-Based Exceptions"
+description: |
+  Definition Non-class-based exceptions can be defined in the interfaces of function modules and methods. These exceptions are defined as follows: -   In methods of local classes, by assigning a name for the exception after the addition EXCEPTIONS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_non_class.htm"
+abapFile: "abenexceptions_non_class.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "exception-handling", "abenexceptions", "non"]
+---
 
 * * *
 
@@ -92,7 +112,17 @@ Continue
 
 ### abapraise_exception.htm
 
-  
+---
+title: "RAISE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapraise_shortref.htm) Syntax RAISE exception. Effect This statement raises the non-class-based exception(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_non_class.htm) exception. -   RAISE can
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapraise_exception.htm"
+abapFile: "abapraise_exception.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "exception-handling", "abapraise", "exception"]
+---
 
 * * *
 
@@ -173,7 +203,17 @@ Non-Handleable Exceptions
 
 ### abapmessage_raising.htm
 
-  
+---
+title: "MESSAGE - RAISING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage_shortref.htm) Syntax MESSAGE  msg(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage_msg.htm)  text(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage_text.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage_raising.htm"
+abapFile: "abapmessage_raising.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "types", "exception-handling", "abapmessage", "raising"]
+---
 
 * * *
 
@@ -239,7 +279,17 @@ When the message is called for the first time, an [information message](https://
 
 ### abenexceptions_non_class.htm
 
-  
+---
+title: "Non-Class-Based Exceptions"
+description: |
+  Definition Non-class-based exceptions can be defined in the interfaces of function modules and methods. These exceptions are defined as follows: -   In methods of local classes, by assigning a name for the exception after the addition EXCEPTIONS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_non_class.htm"
+abapFile: "abenexceptions_non_class.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "exception-handling", "abenexceptions", "non"]
+---
 
 * * *
 

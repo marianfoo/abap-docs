@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  DATA  var(len) TYPE abap_type DECIMALS dec  var TYPE abap_type LENGTH len DECIMALS dec  VALUE valIS INITIAL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_options.htm) READ-ONLY(http
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_simple.htm"
+abapFile: "abapdata_simple.htm"
+keywords: ["do", "if", "try", "data", "types", "abapdata", "simple"]
+---
 
 * * *
 

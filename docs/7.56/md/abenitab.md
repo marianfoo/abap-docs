@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables (itab)"
+description: |
+  -   Overview of Internal Tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_oview.htm) -   Processing Statements for Internal Tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_statements.htm) -   Expressions and Functions for Internal
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm"
+abapFile: "abenitab.htm"
+keywords: ["do", "class", "data", "internal-table", "abenitab"]
+---
 
 * * *
 

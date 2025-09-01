@@ -1,4 +1,14 @@
-  
+---
+title: "Number Formats"
+description: |
+  The format of numbers is specified by the column XDEZP of the database table T005X. The options in the table below are available for displaying decimal separators and thousands separators: XDEZP Decimal Separator Thousands Separator ' ' ',' '.' X '.' ',' Y ',' ' ' The setting for the decimal separat
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumber_formats.htm"
+abapFile: "abennumber_formats.htm"
+keywords: ["do", "if", "try", "data", "abennumber", "formats"]
+---
 
 * * *
 

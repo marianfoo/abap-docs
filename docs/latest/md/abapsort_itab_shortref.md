@@ -1,4 +1,14 @@
-  
+---
+title: "SORT itab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsort_itab.htm) Syntax SORT itab STABLE   ASCENDINGDESCENDING AS TEXT BY comp1 ASCENDINGDESCENDING AS TEXT comp2 ASCENDINGDESCENDING AS TEXT
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsort_itab_shortref.htm"
+abapFile: "abapsort_itab_shortref.htm"
+keywords: ["do", "if", "try", "internal-table", "abapsort", "itab", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Short Reference"
+description: |
+  Overview of all ABAP statements in alphabetical order. A ADD(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd_shortref.htm) ADD-CORRESPONDING(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd-corresponding_shortref.htm) ADD - THEN, UNTIL(https://hel
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shortref.htm"
+abapFile: "abenabap_shortref.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abenabap", "shortref"]
+---
 
 * * *
 

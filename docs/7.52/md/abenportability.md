@@ -1,4 +1,14 @@
-  
+---
+title: "Notes on the Portability of ABAP"
+description: |
+  The nature of the ABAP runtime environment guarantees that ABAP programs can be supported by many different systems. There are only a few cases in which the porting of programs to other platforms could cause problems. Native SQL and AMDP Database-specific statements in ADBC, between EXEC SQL and END
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenportability.htm"
+abapFile: "abenportability.htm"
+keywords: ["select", "delete", "do", "while", "if", "case", "try", "method", "data", "types", "abenportability"]
+---
 
 * * *
 

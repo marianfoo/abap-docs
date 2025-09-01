@@ -1,4 +1,14 @@
-  
+---
+title: "SQL"
+description: |
+  Short for Structured Query Language. Widely standardized language for accessing relational databases(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrelational_database_glosry.htm 'Glossary Entry'). Divided into DML(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendm
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_glosry.htm"
+abapFile: "abensql_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abensql", "glosry"]
+---
 
 * * *
 

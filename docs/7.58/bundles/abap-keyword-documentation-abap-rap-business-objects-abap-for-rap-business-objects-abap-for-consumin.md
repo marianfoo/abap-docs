@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenrpm_testing.htm
 
-  
+---
+title: "ABAP EML - Testing RAP Business Objects"
+description: |
+  The following topics are covered in this section: -   CREATE OBJECT, FOR TESTING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object_for_testing.htm) CREATE OBJECT, FOR TESTING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object_for_testing.htm)
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrpm_testing.htm"
+abapFile: "abenrpm_testing.htm"
+keywords: ["do", "if", "abenrpm", "testing"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abapcreate_object_for_testing.htm
 
-  
+---
+title: "CREATE OBJECT, FOR TESTING"
+description: |
+  Syntax CREATE OBJECT ... FOR TESTING. Effect RAP-specific variant of CREATE OBJECT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object.htm). For unit tests(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunit_test_glosry.htm 'Glossary Entry') of an ABAP b
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object_for_testing.htm"
+abapFile: "abapcreate_object_for_testing.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapcreate", "object", "for", "testing"]
+---
 
 * * *
 

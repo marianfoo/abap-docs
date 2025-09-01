@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL indicator"
+description: |
+  Substructure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubstructure_glosry.htm 'Glossary Entry') or component with a byte field type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_field_type_glosry.htm 'Glossary Entry') that can be used either
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_indicator_glosry.htm"
+abapFile: "abenabap_sql_indicator_glosry.htm"
+keywords: ["do", "while", "if", "try", "abenabap", "sql", "indicator", "glosry"]
+---
 
 * * *
 

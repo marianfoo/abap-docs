@@ -1,4 +1,14 @@
-  
+---
+title: "TEST-INJECTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptest-injection.htm) Syntax TEST-INJECTION seam. statement_block END-TEST-INJECTION. Effect Defines an injection(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninjection_glosry.htm 'Glossar
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptest-injection_shortref.htm"
+abapFile: "abaptest-injection_shortref.htm"
+keywords: ["do", "if", "try", "abaptest", "injection", "shortref"]
+---
 
 * * *
 

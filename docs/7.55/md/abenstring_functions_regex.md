@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... pcreregex = regex ...  ) ... Effect pcreregex is used to pass a regular expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_syntax.htm) to be searched for or compared to. regex is a character-like expression position(https://help.sap.com/doc/abapdocu_7
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_regex.htm"
+abapFile: "abenstring_functions_regex.htm"
+keywords: ["do", "while", "if", "try", "catch", "class", "data", "types", "abenstring", "functions", "regex"]
+---
 
 * * *
 

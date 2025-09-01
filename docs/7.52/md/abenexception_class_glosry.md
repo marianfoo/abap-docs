@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Class"
+description: |
+  Special class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry') that is the basis for treatable exceptions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentreatable_exception_glosry.htm 'Glossary Entry'). If an exception(https://he
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_class_glosry.htm"
+abapFile: "abenexception_class_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenexception", "glosry"]
+---
 
 * * *
 

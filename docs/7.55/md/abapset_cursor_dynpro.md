@@ -1,4 +1,14 @@
-  
+---
+title: "SET CURSOR, Dynpro"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_cursor_shortref.htm) Syntax SET CURSOR   FIELD field LINE line DISPLAY OFFSET off    col lin  . Alternatives: 1. ... FIELD field LINE line DISPLAY O
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_cursor_dynpro.htm"
+abapFile: "abapset_cursor_dynpro.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "abapset", "cursor", "dynpro"]
+---
 
 * * *
 

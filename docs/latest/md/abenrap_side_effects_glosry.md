@@ -1,4 +1,14 @@
-  
+---
+title: "RAP side effect"
+description: |
+  An optional part of a RAP behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') that defines interdependencies among BO properties that trigger a reload of the affected properties on the user interface. Introduc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_side_effects_glosry.htm"
+abapFile: "abenrap_side_effects_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "side", "effects", "glosry"]
+---
 
 * * *
 

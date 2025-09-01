@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  If optimization is deactivated, the runtime is related quadratically to the number of iterations, since the length of the string in the subtotal increases in proportion with the number of iterations and has to be copied to the result in every loop pass. Example In the following example, where an HTM
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_expr_perfo.htm"
+abapFile: "abenstring_expr_perfo.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "abenstring", "expr", "perfo"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in Release 7.51 applies to all ABAP SQL statements that use one of the following attributes introduced in Release 7.51(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-751-open_sql.htm): -   Statement WITH(https://help.sap.com/doc/abapdocu_7
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_751.htm"
+abapFile: "abenopensql_strict_mode_751.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abenopensql", "strict", "mode", "751"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 Strict Mode in Release 7.51
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_751_1)
-
--   [Rules for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_751_2)
+-   [Conditions for the Strict Mode](#abenopensql-strict-mode-751-1--------rules-for-the-strict-mode---@ITOC@@ABENOPENSQL_STRICT_MODE_751_2)
 
 Conditions for the Strict Mode
 

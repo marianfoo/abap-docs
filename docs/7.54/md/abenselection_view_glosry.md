@@ -1,4 +1,14 @@
-  
+---
+title: "selection_view_glosry"
+description: |
+  selection_view_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_view_glosry.htm"
+abapFile: "abenselection_view_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenselection", "view", "glosry"]
+---
 
 * * *
 

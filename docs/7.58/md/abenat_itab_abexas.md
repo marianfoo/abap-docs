@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Group Level Processing"
+description: |
+  -   Group Level Processing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenint_table_at_abexa.htm) -   Group Level Processing with Nested Groups(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenint_table_sum_abexa.htm) -   Group Level Processing for Unsorted Tables
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenat_itab_abexas.htm"
+abapFile: "abenat_itab_abexas.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abenat", "itab", "abexas"]
+---
 
 * * *
 

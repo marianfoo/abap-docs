@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_coalesce NO STANDARD PAGE HEADING. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVATE SECTION. CLASS-DATA: wa1 TYPE demo_join1, wa2 TYPE demo_join2, out TYPE REF TO if_demo_output. CLASS-DATA BEGIN OF wa. INCLUDE STRUCTURE wa1 AS wa1 R
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_coalesce_abexa.htm"
+abapFile: "abensql_expr_coalesce_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abensql", "expr", "coalesce", "abexa"]
+---
 
 * * *
 

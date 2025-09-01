@@ -1,4 +1,14 @@
-  
+---
+title: "RAP saver method"
+description: |
+  Special method in a RAP saver class(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_saver_class_glosry.htm 'Glossary Entry') of an ABAP behavior pool(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') that is called during
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_saver_method_glosry.htm"
+abapFile: "abenabp_saver_method_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenabp", "saver", "glosry"]
+---
 
 * * *
 

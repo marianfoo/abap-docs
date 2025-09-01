@@ -1,4 +1,14 @@
-  
+---
+title: "Access to XML Using Class Libraries"
+description: |
+  This example demonstrates parsing and rendering using an example class. Source Code  Public class definition CLASS cl_demo_cl_xml_access DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxml_access_abexa.htm"
+abapFile: "abenxml_access_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenxml", "access", "abexa"]
+---
 
 * * *
 

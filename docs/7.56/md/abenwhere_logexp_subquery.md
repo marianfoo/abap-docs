@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  FROM(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfrom_clause.htm) source FIELDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfields_clause.htm) select_clause(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_clause.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwhere_logexp_subquery.htm"
+abapFile: "abenwhere_logexp_subquery.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenwhere", "logexp", "subquery"]
+---
 
 * * *
 

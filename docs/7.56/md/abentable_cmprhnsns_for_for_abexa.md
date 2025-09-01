@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_table_comprh_nested. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, col1 TYPE i, col2 TYPE i, END OF line, BEGIN OF line1, col1 TYPE i, col2 TYPE STANDARD TABLE OF line WITH EMPTY KEY, END OF line1, it
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_cmprhnsns_for_for_abexa.htm"
+abapFile: "abentable_cmprhnsns_for_for_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "for", "abexa"]
+---
 
 * * *
 

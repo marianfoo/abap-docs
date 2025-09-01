@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Words, Overview"
+description: |
+  ABAP words are the vocabulary of the ABAP language. ABAP statements are composed of ABAP words, operands, and operators according to defined syntax rules. ABAP words are taken from the English language and are grouped into ABAP language elements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_words.htm"
+abapFile: "abenabap_words.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abenabap", "words"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Routines"
+description: |
+  A conversion routine (also known as a conversion exit) uses a self-written implementation to override standard conversions (where values are passed from an ABAP data object to a dynpro field or from a dynpro field to an ABAP data object and in the formatting of data using the statements WRITE(http
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_exits.htm"
+abapFile: "abenconversion_exits.htm"
+keywords: ["do", "if", "case", "try", "data", "abenconversion", "exits"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Conversion Routines
 
 A conversion routine (also known as a conversion exit) uses a self-written implementation to override standard conversions (where values are passed from an ABAP data object to a dynpro field or from a dynpro field to an ABAP data object and in the formatting of data using the statements [WRITE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite-.htm) and [WRITE TO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to.htm)).
 
--   [Properties of Conversion Routines](#@@ITOC@@ABENCONVERSION_EXITS_1)
-
--   [Executing Conversion Routines](#@@ITOC@@ABENCONVERSION_EXITS_2)
+-   [Properties of Conversion Routines](#abenconversion-exits-1--------executing-conversion-routines---@ITOC@@ABENCONVERSION_EXITS_2)
 
 -   [Function Modules for Conversion Routines](#@@ITOC@@ABENCONVERSION_EXITS_3)
 

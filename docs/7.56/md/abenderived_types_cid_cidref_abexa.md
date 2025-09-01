@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_MANAGED_ROOT_4 and its child entity DEMO_MANAGED_CHILD_4. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity demo_managed_root_4 as select from demo_tab_root_3 composition 1.. of demo_managed_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_cid_cidref_abexa.htm"
+abapFile: "abenderived_types_cid_cidref_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenderived", "cid", "cidref", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Expression Positions for Functions and Expressions"
+description: |
+  Among the operands(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) that can be specified at operand positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions.htm) are functions and expressions. These can be specified at expression po
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_positions.htm"
+abapFile: "abenexpression_positions.htm"
+keywords: ["do", "if", "try", "abenexpression", "positions"]
+---
 
 * * *
 

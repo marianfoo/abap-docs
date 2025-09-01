@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Framework-Specific Annotation Syntax"
+description: |
+  The following tables summarize the annotation syntax(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm 'Glossary Entry') of all framework-specific annotations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfrmwrk_annotation_glosry.htm
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk_tables.htm"
+abapFile: "abencds_annotations_frmwrk_tables.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "class", "data", "types", "abencds", "annotations", "frmwrk", "tables"]
+---
 
 * * *
 
@@ -13,22 +23,14 @@ ABAP CDS - Framework-Specific Annotation Syntax
 
 The following tables summarize the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") of all [framework-specific annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfrmwrk_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS. Any specified subannotations are shown using [chainings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_name.htm). If square brackets \[ \] are specified after a name in the column Annotation, this means that the annotation in front of the square brackets is an [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") (see [Executable Example](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_array_abexa.htm)). Any enumeration symbols in an annotation are specified in the column Enums. The column Default shows the default values applied to the evaluation when an annotation is specified without a value. The columns Text and MDE indicate whether the annotation values are translatable texts and whether the annotation can be specified in a [metadata extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"). The API column indicates whether the annotation is [released as an API](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreleased_api_glosry.htm "Glossary Entry"). The meanings of the framework-specific annotations are documented under CDS Annotations.
 
--   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_1)
--   [Aggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_2)
--   [Analytics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_3)
--   [AnalyticsDetails-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_4)
--   [Consumption-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_5)
--   [DefaultAggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_6)
--   [EnterpriseSearch-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_7)
--   [Event-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_8)
--   [Feature-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_9)
--   [GenericPersistency-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_10)
--   [Hierarchy-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_11)
--   [ObjectModel-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_12)
--   [OData-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_13)
--   [Search-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_14)
--   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_15)
--   [UI-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_16)
+-   [AccessControl-Annotations](#abencds-annotations-frmwrk-tables-1-------aggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_2)
+-   [Analytics-Annotations](#abencds-annotations-frmwrk-tables-3-------analyticsdetails-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_4)
+-   [Consumption-Annotations](#abencds-annotations-frmwrk-tables-5-------defaultaggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_6)
+-   [EnterpriseSearch-Annotations](#abencds-annotations-frmwrk-tables-7-------event-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_8)
+-   [Feature-Annotations](#abencds-annotations-frmwrk-tables-9-------genericpersistency-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_10)
+-   [Hierarchy-Annotations](#abencds-annotations-frmwrk-tables-11-------objectmodel-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_12)
+-   [OData-Annotations](#abencds-annotations-frmwrk-tables-13-------search-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_14)
+-   [Semantics-Annotations](#abencds-annotations-frmwrk-tables-15-------ui-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_16)
 -   [VDM-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_17)
 
 Hint

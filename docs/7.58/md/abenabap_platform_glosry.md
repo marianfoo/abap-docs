@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Platform"
+description: |
+  An ABAP Platform is a technical platform for products such as SAP S/4HANA(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_s4hana_glosry.htm 'Glossary Entry') or SAP BTP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_btp_glosry.htm 'Glossary Entry') that is
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform_glosry.htm"
+abapFile: "abenabap_platform_glosry.htm"
+keywords: ["do", "if", "try", "class", "types", "abenabap", "platform", "glosry"]
+---
 
 * * *
 

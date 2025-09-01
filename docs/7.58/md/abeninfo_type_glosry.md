@@ -1,4 +1,14 @@
-  
+---
+title: "info_type_glosry"
+description: |
+  info_type_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninfo_type_glosry.htm"
+abapFile: "abeninfo_type_glosry.htm"
+keywords: ["loop", "do", "if", "try", "types", "internal-table", "abeninfo", "type", "glosry"]
+---
 
 * * *
 

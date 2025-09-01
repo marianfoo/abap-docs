@@ -1,4 +1,14 @@
-  
+---
+title: "CDS analytical measure field"
+description: |
+  An analytical measure field is a field of an analytical cube view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_analytical_cube_glosry.htm 'Glossary Entry') or an analytical dimension view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anal_dim_
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_measure_glosry.htm"
+abapFile: "abencds_measure_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "measure", "glosry"]
+---
 
 * * *
 

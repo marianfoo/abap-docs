@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration of Variables with BDEF Derived Types"
+description: |
+  For modularization purposes, BDEF derived types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') can be used outside of the reserved handler methods by declaring variables, for example, in ABAP programs. The statements TYPES, DATA and CRE
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_declaration.htm"
+abapFile: "abapderived_types_declaration.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapderived", "declaration"]
+---
 
 * * *
 

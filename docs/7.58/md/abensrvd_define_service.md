@@ -1,4 +1,14 @@
-  
+---
+title: "CDS SDL - DEFINE SERVICE"
+description: |
+  Syntax @service_annot1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm) @service_annot2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm) ... DEFINE SERVICE service  PROVIDER CON
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm"
+abapFile: "abensrvd_define_service.htm"
+keywords: ["do", "if", "try", "data", "abensrvd", "define", "service"]
+---
 
 * * *
 

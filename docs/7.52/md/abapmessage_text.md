@@ -1,4 +1,14 @@
-  
+---
+title: "MESSAGE - text"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_shortref.htm) Syntax ... text TYPE mtype ... Effect This variant sends a character string in text as a message(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm 'Glossary Entry'
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_text.htm"
+abapFile: "abapmessage_text.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "field-symbol", "abapmessage", "text"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA dref"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_area_handle.htm). Effect Creates an anonymous data object with an impli
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_implicit.htm"
+abapFile: "abapcreate_data_implicit.htm"
+keywords: ["select", "do", "if", "try", "data", "abapcreate", "implicit"]
+---
 
 * * *
 

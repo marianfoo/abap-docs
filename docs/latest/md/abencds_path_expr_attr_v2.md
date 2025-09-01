@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  cardinality(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expr_card_v2.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expr_jointype_v2.htm) WHERE cds_cond(https://
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expr_attr_v2.htm"
+abapFile: "abencds_path_expr_attr_v2.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 

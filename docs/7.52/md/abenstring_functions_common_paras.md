@@ -1,4 +1,14 @@
-  
+---
+title: "Common Parameters of Character String Functions"
+description: |
+  The following parameters are used to achieve the same effect with multiple character string functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions.htm) and predicate functions for character-type arguments(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_common_paras.htm"
+abapFile: "abenstring_functions_common_paras.htm"
+keywords: ["do", "case", "data", "abenstring", "functions", "common", "paras"]
+---
 
 * * *
 

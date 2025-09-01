@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:create-object var='oref' class='class'> <tt:with-parameter name='para1' ref='node1'val='val1'var='var1' /> <tt:with-parameter name='para2' ref='node2'val='val2'var='var2' /> ... </tt:create-object> Effect The statement tt:create-object can be used to
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_create.htm"
+abapFile: "abenst_tt_create.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenst", "create"]
+---
 
 * * *
 

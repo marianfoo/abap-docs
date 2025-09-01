@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Tools for Dictionary Objects"
+description: |
+  Dictionary objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_object_glosry.htm 'Glossary Entry') are maintained using the ABAP Dictionary tool in ABAP Workbench and the ABAP development tools for Eclipse (ADT)(https://help.sap.com/doc/abapdocu_latest_index_ht
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_tools.htm"
+abapFile: "abenddic_tools.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddic", "tools"]
+---
 
 * * *
 
@@ -12,10 +22,8 @@ DDIC - Tools for Dictionary Objects
 
 [Dictionary objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_object_glosry.htm "Glossary Entry") are maintained using the ABAP Dictionary tool in ABAP Workbench and the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"). The ABAP Dictionary tool in ABAP Workbench and the ADT tools each cover parts of the set of dictionary objects, but most objects can be maintained using both methods.
 
--   [The ABAP Dictionary Tool in ABAP Workbench](#@@ITOC@@ABENDDIC_TOOLS_1)
--   [Tools in ADT](#@@ITOC@@ABENDDIC_TOOLS_2)
-    -   [Form-Based Tools](#@@ITOC@@ABENDDIC_TOOLS_3)
-    -   [Source-Code-Based Tools](#@@ITOC@@ABENDDIC_TOOLS_4)
+-   [The ABAP Dictionary Tool in ABAP Workbench](#abenddic-tools-1-------tools-in-adt---@ITOC@@ABENDDIC_TOOLS_2)
+    -   [Form-Based Tools](#abenddic-tools-3-----------source-code-based-tools---@ITOC@@ABENDDIC_TOOLS_4)
 
 The ABAP Dictionary Tool in ABAP Workbench   
 

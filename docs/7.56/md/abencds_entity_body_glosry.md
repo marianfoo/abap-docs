@@ -1,4 +1,14 @@
-  
+---
+title: "cds_entity_body_glosry"
+description: |
+  cds_entity_body_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_body_glosry.htm"
+abapFile: "abencds_entity_body_glosry.htm"
+keywords: ["do", "try", "abencds", "entity", "body", "glosry"]
+---
 
 * * *
 

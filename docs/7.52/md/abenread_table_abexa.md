@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Output Area"
+description: |
+  This example demonstrates how, and where to, the row contents of internal tables are read. Source Code REPORT demo_read_table_result. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF line, col1 TYPE i, col2 TYPE i, END OF
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenread_table_abexa.htm"
+abapFile: "abenread_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "field-symbol", "abenread", "table", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "serialization_glosry"
+description: |
+  serialization_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenserialization_glosry.htm"
+abapFile: "abenserialization_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenserialization", "glosry"]
+---
 
 * * *
 

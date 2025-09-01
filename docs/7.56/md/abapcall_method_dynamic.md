@@ -1,4 +1,14 @@
-  
+---
+title: "CALL METHOD"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_shortref.htm) Syntax CALL METHOD dynamic_meth(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_meth_ident_dyna.htm)  parameter_list(https://help.sap.com/doc/abapdocu_756_in
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_dynamic.htm"
+abapFile: "abapcall_method_dynamic.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abapcall", "dynamic"]
+---
 
 * * *
 

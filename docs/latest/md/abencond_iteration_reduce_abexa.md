@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Values with FOR and REDUCE"
+description: |
+  This example demonstrates conditional iterations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_conditional.htm) with the operator REDUCE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_reduce.htm). Source Code  Public class d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencond_iteration_reduce_abexa.htm"
+abapFile: "abencond_iteration_reduce_abexa.htm"
+keywords: ["do", "while", "if", "case", "method", "class", "data", "abencond", "iteration", "reduce", "abexa"]
+---
 
 * * *
 

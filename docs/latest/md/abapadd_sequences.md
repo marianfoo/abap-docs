@@ -1,4 +1,14 @@
-  
+---
+title: "ADD, THEN, UNTIL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd_then_from_shortref.htm) Obsolete Syntax ADD   dobj1 THEN dobj2 UNTIL dobj  TO result  GIVING result ACCORDING TO sel     dobj FROM pos1 TO pos GIVING result
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd_sequences.htm"
+abapFile: "abapadd_sequences.htm"
+keywords: ["select", "do", "if", "try", "catch", "class", "data", "abapadd", "sequences"]
+---
 
 * * *
 

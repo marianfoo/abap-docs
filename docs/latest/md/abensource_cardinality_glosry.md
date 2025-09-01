@@ -1,4 +1,14 @@
-  
+---
+title: "source_cardinality_glosry"
+description: |
+  source_cardinality_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_cardinality_glosry.htm"
+abapFile: "abensource_cardinality_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensource", "cardinality", "glosry"]
+---
 
 * * *
 

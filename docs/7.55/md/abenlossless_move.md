@@ -1,4 +1,14 @@
-  
+---
+title: "Lossless Assignments"
+description: |
+  A lossless assignment(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlossless_assignment_glosry.htm 'Glossary Entry') is an assignment between incompatible data types that is used to check whether the conversion(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconve
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlossless_move.htm"
+abapFile: "abenlossless_move.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abenlossless", "move"]
+---
 
 * * *
 

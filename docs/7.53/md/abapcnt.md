@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... cnt(field) .... Effect For the fields field1, field2, ... of the field groups of an extract dataset(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm 'Glossary Entry'), automatically data objects named cnt(field1), cnt(field2), ... of data type i are cre
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm"
+abapFile: "abapcnt.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapcnt"]
+---
 
 * * *
 

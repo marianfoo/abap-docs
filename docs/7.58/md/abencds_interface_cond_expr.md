@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - WHERE, Transactional Interface"
+description: |
+  Syntax ... WHERE cds_cond ... Effect Defines a WHERE condition for the result set of a CDS transactional interface(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_trans_interface_glosry.htm 'Glossary Entry'). When the transactional interface is accessed, the result set contains
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_interface_cond_expr.htm"
+abapFile: "abencds_interface_cond_expr.htm"
+keywords: ["do", "if", "try", "data", "abencds", "interface", "cond", "expr"]
+---
 
 * * *
 

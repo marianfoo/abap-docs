@@ -1,4 +1,14 @@
-  
+---
+title: "Validity of Date Fields and Time Fields"
+description: |
+  Date fields and time fields of the types d and t can contain any characters. -   Valid values for the type d, however, are only those digits that are allowed as dates according to the calendar rules in the format yyyymmdd: yyyy (year): 0001 to 9999, mm (month): 01 to 12, dd (day): 01 to 31. -   Vali
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchar_date_time_fields_validity.htm"
+abapFile: "abenchar_date_time_fields_validity.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenchar", "date", "time", "fields", "validity"]
+---
 
 * * *
 

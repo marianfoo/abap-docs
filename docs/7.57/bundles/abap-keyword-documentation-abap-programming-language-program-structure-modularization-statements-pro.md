@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenabap_functions.htm
 
-  
+---
+title: "Function Modules"
+description: |
+  Function modules are reusable cross-program procedures(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocedure_glosry.htm 'Glossary Entry') that are organized into function pools(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_pool_glosry.htm 'Glossary En
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_functions.htm"
+abapFile: "abenabap_functions.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabap", "functions"]
+---
 
 * * *
 
@@ -37,7 +47,17 @@ Continue
 
 ### abapfunction.htm
 
-  
+---
+title: "FUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction_shortref.htm) Syntax FUNCTION func. '--------------------------------------------------------- ' Local Interface: ' parameter_interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfu
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction.htm"
+abapFile: "abapfunction.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abapfunction"]
+---
 
 * * *
 
@@ -96,7 +116,17 @@ Continue
 
 ### abenfunction.htm
 
-  
+---
+title: "Function Module Interface"
+description: |
+  The parameter interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenparameter_interface_glosry.htm 'Glossary Entry') of a function module is defined in the Function Builder or in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenad
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm"
+abapFile: "abenfunction.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "types", "abenfunction"]
+---
 
 * * *
 
@@ -185,7 +215,17 @@ Continue
 
 ### abenfunction_parameters.htm
 
-  
+---
+title: "Properties of Interface Parameters"
+description: |
+  When an interface parameter p1, p2... is defined in the Function Builder, its properties are determined that are reflected in the syntax of parameters and table_parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptables_parameters_obsolete.htm). Syntax ...  VALUE(p1)
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_parameters.htm"
+abapFile: "abenfunction_parameters.htm"
+keywords: ["select", "insert", "do", "while", "if", "try", "method", "class", "data", "types", "internal-table", "abenfunction", "parameters"]
+---
 
 * * *
 
@@ -252,7 +292,17 @@ Within a function module, the [predicate expression](https://help.sap.com/doc/ab
 
 ### abenfunction.htm
 
-  
+---
+title: "Function Module Interface"
+description: |
+  The parameter interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenparameter_interface_glosry.htm 'Glossary Entry') of a function module is defined in the Function Builder or in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenad
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm"
+abapFile: "abenfunction.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "types", "abenfunction"]
+---
 
 * * *
 
@@ -341,7 +391,17 @@ Continue
 
 ### abapfunction.htm
 
-  
+---
+title: "FUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction_shortref.htm) Syntax FUNCTION func. '--------------------------------------------------------- ' Local Interface: ' parameter_interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfu
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction.htm"
+abapFile: "abapfunction.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abapfunction"]
+---
 
 * * *
 
@@ -400,7 +460,17 @@ Continue
 
 ### abapendfunction.htm
 
-  
+---
+title: "ENDFUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction_shortref.htm) Syntax ENDFUNCTION. Effect The statement ENDFUNCTION closes a function module introduced using FUNCTION(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction.htm).
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapendfunction.htm"
+abapFile: "abapendfunction.htm"
+keywords: ["do", "if", "abapendfunction"]
+---
 
 * * *
 

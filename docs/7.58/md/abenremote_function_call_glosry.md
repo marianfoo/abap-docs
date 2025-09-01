@@ -1,4 +1,14 @@
-  
+---
+title: "Remote Function Call"
+description: |
+  RFC for short. Call of a function module(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_module_glosry.htm 'Glossary Entry') using the RFC interface(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_interface_glosry.htm 'Glossary Entry') Calls be made in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenremote_function_call_glosry.htm"
+abapFile: "abenremote_function_call_glosry.htm"
+keywords: ["do", "if", "try", "abenremote", "function", "call", "glosry"]
+---
 
 * * *
 

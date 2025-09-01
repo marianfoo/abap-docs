@@ -1,4 +1,14 @@
-  
+---
+title: "Expressions"
+description: |
+  The following expressions can be constructed in certain operand positions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpression_positions.htm): -   Writer positions -   Declaration expressions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninline_declarations.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions.htm"
+abapFile: "abenexpressions.htm"
+keywords: ["do", "if", "try", "types", "abenexpressions"]
+---
 
 * * *
 

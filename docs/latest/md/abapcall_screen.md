@@ -1,4 +1,14 @@
-  
+---
+title: "CALL SCREEN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_screen_shortref.htm) Syntax CALL SCREEN dynnr STARTING AT col1 lin1 ENDING   AT col2 lin2. Addition: ... STARTING AT col1 lin1 ENDING AT col2 lin2(#!ABAP_ONE_ADD@1@) Effect This state
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_screen.htm"
+abapFile: "abapcall_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abapcall", "screen"]
+---
 
 * * *
 

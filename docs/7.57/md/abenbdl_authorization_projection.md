@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - authorization, Projection BDEF"
+description: |
+  Syntax Forms Declaration on entity level ... authorization ( global ) ( instance ) ( global,instance )  ... Declaration that can be used in the entity behavior body for an action ... authorization:none authorization:update ... Effect In a projection BDEF(https://help.sap.com/doc/abapdo
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_projection.htm"
+abapFile: "abenbdl_authorization_projection.htm"
+keywords: ["update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "authorization", "projection"]
+---
 
 * * *
 

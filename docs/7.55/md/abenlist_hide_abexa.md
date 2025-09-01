@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - HIDE Technology"
+description: |
+  This example demonstrates how to implement program-driven data passes for lists to the ABAP program using HIDE. Source Code REPORT demo_list_hide NO STANDARD PAGE HEADING. TABLES: spfli, sbook. DATA: num TYPE i, dat TYPE d. START-OF-SELECTION. num = 0. SET PF-STATUS 'FLIGHT'. GET spfli. num += 1.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_hide_abexa.htm"
+abapFile: "abenlist_hide_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "class", "data", "abenlist", "hide", "abexa"]
+---
 
 * * *
 

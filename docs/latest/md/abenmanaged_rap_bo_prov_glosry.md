@@ -1,4 +1,14 @@
-  
+---
+title: "managed_rap_bo_prov_glosry"
+description: |
+  managed_rap_bo_prov_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_prov_glosry.htm"
+abapFile: "abenmanaged_rap_bo_prov_glosry.htm"
+keywords: ["do", "if", "try", "abenmanaged", "rap", "prov", "glosry"]
+---
 
 * * *
 

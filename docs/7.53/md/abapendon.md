@@ -1,4 +1,14 @@
-  
+---
+title: "ENDON"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapon_change_of_shortref.htm) Obsolete Syntax ENDON. Effect The statement ENDON closes a statement block introduced using ON CHANGE OF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapon.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendon.htm"
+abapFile: "abapendon.htm"
+keywords: ["do", "abapendon"]
+---
 
 * * *
 

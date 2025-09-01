@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Statements with MAPPING FROM ENTITY"
+description: |
+  Syntax  INSERT ...(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_dbtab.htm)    MODIFY ...(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab.htm)    UPDATE ... INDICATORS SET STRUCTURE %control(https://help.sap.com/d
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmapping_from_entity.htm"
+abapFile: "abapmapping_from_entity.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abapmapping", "from", "entity"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE, pattern"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_shortref.htm) Syntax ... SUBSTRING substring  PCRE pcre(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_pcre_syntax.htm)REGEX regex_ref ... . Eff
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_pattern.htm"
+abapFile: "abapreplace_pattern.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "abapreplace", "pattern"]
+---
 
 * * *
 

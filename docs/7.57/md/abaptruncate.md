@@ -1,4 +1,14 @@
-  
+---
+title: "TRUNCATE DATASET"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptruncate_dataset_shortref.htm) Syntax TRUNCATE DATASET dset AT CURRENT POSITIONPOSITION pos. Additions: 1. ... CURRENT POSITION(#!ABAP_ADDITION_1@1@) 2. ... POSITION pos(#!ABAP_ADDITION_2@2@) Effect
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptruncate.htm"
+abapFile: "abaptruncate.htm"
+keywords: ["delete", "do", "while", "if", "try", "catch", "data", "abaptruncate"]
+---
 
 * * *
 

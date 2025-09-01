@@ -1,4 +1,14 @@
-  
+---
+title: "READ TABLE itab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table.htm) Syntax READ TABLE itab  FROM wa USING KEY key_name(name) WITH TABLE KEY key_name(name) COMPONENTS comp_name1(name1) = dobj1 comp_name2(name2)
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table_itab_shortref.htm"
+abapFile: "abapread_table_itab_shortref.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "field-symbol", "abapread", "table", "itab", "shortref"]
+---
 
 * * *
 

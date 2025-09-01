@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Overview"
+description: |
+  ABAP is the main programming language of the ABAP development environment (ABAP DE)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dev_envir_glosry.htm 'Glossary Entry') provided by an ABAP platform(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_oview.htm"
+abapFile: "abenabap_oview.htm"
+keywords: ["do", "try", "abenabap", "oview"]
+---
 
 * * *
 

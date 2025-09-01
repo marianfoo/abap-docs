@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abensap_lock.htm
 
-  
+---
+title: "SAP Locks"
+description: |
+  SAP locks must be maintained for the duration of SAP LUWs(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_luw_glosry.htm 'Glossary Entry'). For this reason, different work processes and possibly changing AS instances(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_lock.htm"
+abapFile: "abensap_lock.htm"
+keywords: ["update", "do", "if", "try", "data", "abensap", "lock"]
+---
 
 * * *
 
@@ -21,9 +31,7 @@ SAP locks are based on lock objects. These are defined in ABAP Dictionary and en
 
 When a lock object is created, two lock function modules are generated whose names consist of the prefixes ENQUEUE\_ and DEQUEUE\_ and the name of the lock object.
 
--   [Setting SAP Locks](#@@ITOC@@ABENSAP_LOCK_1)
-
--   [Releasing SAP Locks](#@@ITOC@@ABENSAP_LOCK_2)
+-   [Setting SAP Locks](#abensap-lock-1--------releasing-sap-locks---@ITOC@@ABENSAP_LOCK_2)
 
 More details can be found under SAP Lock Concept in the SAP Help Portal.
 
@@ -79,7 +87,17 @@ Continue
 
 ### abenenqueue_abexa.htm
 
-  
+---
+title: "SAP Locks, Set and Release"
+description: |
+  This example demonstrates how SAP locks are set and released (enqueue and dequeued). Source Code REPORT demo_transaction_enqueue MESSAGE-ID sabapdemos. TABLES  demo_conn. DATA sflight_tab TYPE TABLE OF sflight. DATA  text TYPE c LENGTH 8. DATA  ok_code TYPE sy-ucomm. CALL SCREEN 100. MODULE ini
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenqueue_abexa.htm"
+abapFile: "abenenqueue_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abenenqueue", "abexa"]
+---
 
 * * *
 

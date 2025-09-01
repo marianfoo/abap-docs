@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Data Source Matrix"
+description: |
+  The following tables show all possible data sources of all available CDS entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry'): -   Direct data sources defined after FROM. -   Association targets(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_source_matrix.htm"
+abapFile: "abencds_data_source_matrix.htm"
+keywords: ["do", "if", "try", "data", "abencds", "source", "matrix"]
+---
 
 * * *
 
@@ -18,8 +28,7 @@ The following tables show all possible data sources of all available [CDS entiti
 
 Content:
 
--   [Data Sources After FROM](#@@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_1)
--   [Association Targets of CDS Associations](#@@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_2)
+-   [Data Sources After FROM](#abencds-data-source-matrix-1-------association-targets-of-cds-associations---@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_2)
 -   [Association Targets of CDS Compositions](#@@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_3)
 
 Data Sources After FROM   

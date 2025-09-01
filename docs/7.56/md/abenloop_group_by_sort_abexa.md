@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_group_by_sort. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES itab TYPE STANDARD TABLE OF string WITH EMPTY KEY. DATA(itab) = VALUE itab( ( `d` ) ( `B` ) ( `D` ) ( `b` ) ( `a` ) ( `D` ) ( `a` ) (
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_sort_abexa.htm"
+abapFile: "abenloop_group_by_sort_abexa.htm"
+keywords: ["select", "loop", "do", "while", "case", "method", "class", "data", "types", "internal-table", "abenloop", "group", "sort", "abexa"]
+---
 
 * * *
 

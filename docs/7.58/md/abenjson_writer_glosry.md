@@ -1,4 +1,14 @@
-  
+---
+title: "JSON writer"
+description: |
+  XML writer(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_writer_glosry.htm 'Glossary Entry') that writes JSON(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm 'Glossary Entry') data. A JSON writer expects input for JSON-XML(https://help.sap.co
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_writer_glosry.htm"
+abapFile: "abenjson_writer_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenjson", "writer", "glosry"]
+---
 
 * * *
 

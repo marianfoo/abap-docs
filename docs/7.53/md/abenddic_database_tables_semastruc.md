@@ -1,4 +1,14 @@
-  
+---
+title: "Structure-Specific Semantic Attributes of Database Tables"
+description: |
+  The following semantic attributes are the same as those of a structure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures_sema.htm) in ABAP Dictionary: -   Short text -   Documentation -   Short text of table fields -   Output style of table fields -   Reference field f
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semastruc.htm"
+abapFile: "abenddic_database_tables_semastruc.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "semastruc"]
+---
 
 * * *
 

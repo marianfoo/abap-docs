@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION"
+description: |
+  Syntax @annotation_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) @annotation_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) ... define annotation Anno   : type
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm"
+abapFile: "abencds_f1_define_annotation.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencds", "define", "annotation"]
+---
 
 * * *
 

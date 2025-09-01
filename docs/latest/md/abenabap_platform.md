@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Platform"
+description: |
+  An ABAP Platform(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_platform_glosry.htm 'Glossary Entry') is a technical platform for SAP products such as SAP Business Technology Platform (SAP BTP)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_btp_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_platform.htm"
+abapFile: "abenabap_platform.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "platform"]
+---
 
 * * *
 
@@ -37,10 +47,8 @@ An ABAP Platform provides an [ABAP development environment (ABAP DE)](https://he
 
 There are mainly two usage types of ABAP Platforms that differ in their programming paradigms.
 
--   [ABAP Platform for ABAP Cloud](#@@ITOC@@ABENABAP_PLATFORM_1)
-    -   [SAP BTP ABAP Environment](#@@ITOC@@ABENABAP_PLATFORM_2)
-    -   [ABAP Platform Cloud](#@@ITOC@@ABENABAP_PLATFORM_3)
--   [ABAP Platform for Classic ABAP](#@@ITOC@@ABENABAP_PLATFORM_4)
+-   [ABAP Platform for ABAP Cloud](#abenabap-platform-1-----------sap-btp-abap-environment---@ITOC@@ABENABAP_PLATFORM_2)
+    -   [ABAP Platform Cloud](#abenabap-platform-3-------abap-platform-for-classic-abap---@ITOC@@ABENABAP_PLATFORM_4)
 
 Hint
 

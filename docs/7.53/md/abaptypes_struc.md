@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  TYPES BEGIN OF struc_type. ... TYPES comp ... TYPES comp TYPE struc_type BOXED(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_boxed.htm). INCLUDE TYPESTRUCTURE ...(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinclude_type.htm) ... TYPES END OF struc_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_struc.htm"
+abapFile: "abaptypes_struc.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abaptypes", "struc"]
+---
 
 * * *
 

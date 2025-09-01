@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE SHORTDUMP, message"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_shortref.htm) Syntax ...  MESSAGE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_exception_message.htm) tn(id)   ID mid TYPE mtype NUMBER num  WITH dobj1 ... dobj4
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_message.htm"
+abapFile: "abapraise_shortdump_message.htm"
+keywords: ["do", "if", "try", "class", "exception-handling", "abapraise", "shortdump", "message"]
+---
 
 * * *
 

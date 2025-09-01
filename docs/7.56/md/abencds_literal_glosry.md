@@ -1,4 +1,14 @@
-  
+---
+title: "CDS literal"
+description: |
+  Elementary CDS operand defined by direct character-like specification of a value in a CDS object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_object_glosry.htm 'Glossary Entry'). In general ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glo
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_literal_glosry.htm"
+abapFile: "abencds_literal_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "literal", "glosry"]
+---
 
 * * *
 

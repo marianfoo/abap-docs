@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Naming Rules for DDIC Views"
+description: |
+  The name of a view defined in the ABAP Dictionary must comply to the following rules: -   It can have a maximum of 16 characters. -   It must follow the naming rules for DDIC types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_types_names.htm), -   It must follow the special
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_view_names.htm"
+abapFile: "abenddic_view_names.htm"
+keywords: ["do", "try", "data", "types", "abenddic", "view", "names"]
+---
 
 * * *
 

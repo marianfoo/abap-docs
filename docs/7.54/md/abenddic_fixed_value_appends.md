@@ -1,4 +1,14 @@
-  
+---
+title: "Fixed Value Appends"
+description: |
+  Domains(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_domains.htm) delivered by SAP can be enhanced by partners and customers using appends known as fixed value appends, without making any modifications. The name of a fixed value append is subject to the same rules as the nam
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_fixed_value_appends.htm"
+abapFile: "abenddic_fixed_value_appends.htm"
+keywords: ["do", "if", "try", "class", "abenddic", "fixed", "value", "appends"]
+---
 
 * * *
 

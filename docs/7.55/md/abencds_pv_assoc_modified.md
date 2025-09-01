@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... _associationfilter AS _newAlias : REDIRECTED TO projection_view Additions: 1. ... filter(#!ABAP_ADDITION_1@1@) 2. ... AS alias(#!ABAP_ADDITION_2@2@) 3. ... REDIRECTED TO proj_view(#!ABAP_ADDITION_3@3@) Effect It is possible to modify existing associations in a C
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_pv_assoc_modified.htm"
+abapFile: "abencds_pv_assoc_modified.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "assoc", "modified"]
+---
 
 * * *
 

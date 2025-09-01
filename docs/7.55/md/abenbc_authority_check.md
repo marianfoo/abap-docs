@@ -1,4 +1,14 @@
-  
+---
+title: "Authorizations"
+description: |
+  Authorizations are a method used to protect functions or objects in AS ABAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenas_abap_glosry.htm 'Glossary Entry'). The programmer of a function determines where authorizations are checked and how. The user administrator determines which
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbc_authority_check.htm"
+abapFile: "abenbc_authority_check.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "abenbc", "authority", "check"]
+---
 
 * * *
 

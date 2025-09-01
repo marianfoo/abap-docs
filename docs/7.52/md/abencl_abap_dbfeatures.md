@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for Database Features"
+description: |
+  The method USE_FEATURES of the class CL_ABAP_DBFEATURES can be used to detect whether the current database or a database specified using a database connection(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_connection_glosry.htm 'Glossary Entry') supports particular feat
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_dbfeatures.htm"
+abapFile: "abencl_abap_dbfeatures.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abencl", "abap", "dbfeatures"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ICF - Calling an HTTP Service"
+description: |
+  This example demonstrates how an ICF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicf_glosry.htm 'Glossary Entry') HTTP service is called directly using a Web browser. Source Code  Public class definition CLASS cl_demo_http_service DEFINITION INHERITING FROM cl_demo_c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicf_service_abexa.htm"
+abapFile: "abenicf_service_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenicf", "service", "abexa"]
+---
 
 * * *
 

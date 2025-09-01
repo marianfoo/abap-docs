@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic Calls"
+description: |
+  In dynamic calls, the name of the called unit is specified as the content of a character-like data object. If some or all of this content originates outside of the calling program, there is a risk that units are called unintentionally. The only way of tackling this security risk is to perform a comp
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_call_scrty.htm"
+abapFile: "abendyn_call_scrty.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abendyn", "call", "scrty"]
+---
 
 * * *
 

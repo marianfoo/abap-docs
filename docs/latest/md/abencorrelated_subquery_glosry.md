@@ -1,4 +1,14 @@
-  
+---
+title: "correlated_subquery_glosry"
+description: |
+  correlated_subquery_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrelated_subquery_glosry.htm"
+abapFile: "abencorrelated_subquery_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencorrelated", "subquery", "glosry"]
+---
 
 * * *
 

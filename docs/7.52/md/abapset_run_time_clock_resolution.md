@@ -1,4 +1,14 @@
-  
+---
+title: "SET RUN TIME CLOCK RESOLUTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_clock_shortref.htm) Syntax SET RUN TIME CLOCK RESOLUTION HIGHLOW. Effect This statement specifies the precision with which the statement GET RUN TIME(https://help.sap.com/doc/abapdocu_752_index_h
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_clock_resolution.htm"
+abapFile: "abapset_run_time_clock_resolution.htm"
+keywords: ["do", "if", "try", "class", "data", "abapset", "run", "time", "clock", "resolution"]
+---
 
 * * *
 

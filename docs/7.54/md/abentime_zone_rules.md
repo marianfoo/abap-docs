@@ -1,4 +1,14 @@
-  
+---
+title: "Rules for Time Zones"
+description: |
+  Conversion of the UTC reference time to the local date and the local time zone, and vice versa, is based on a set of rules stored in AS ABAP system tables. Conversions of this kind are effected by: -   The statements CONVERT UTCLONG(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapco
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_zone_rules.htm"
+abapFile: "abentime_zone_rules.htm"
+keywords: ["do", "while", "if", "data", "abentime", "zone", "rules"]
+---
 
 * * *
 

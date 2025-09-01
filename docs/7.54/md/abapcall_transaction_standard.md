@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSACTION - standard"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction_shortref.htm) Syntax CALL TRANSACTION ta WITHWITHOUT AUTHORITY-CHECK(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction_authority.htm) AND SKIP FIRST SCREEN. Ad
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction_standard.htm"
+abapFile: "abapcall_transaction_standard.htm"
+keywords: ["do", "if", "try", "catch", "data", "abapcall", "transaction", "standard"]
+---
 
 * * *
 

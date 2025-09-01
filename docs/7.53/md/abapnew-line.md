@@ -1,4 +1,14 @@
-  
+---
+title: "NEW-LINE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-line_shortref.htm) Syntax NEW-LINE NO-SCROLLINGSCROLLING. Extras: 1. ... NO-SCROLLING(#!ABAP_ADDITION_1@1@) 2. ... SCROLLING(#!ABAP_ADDITION_2@2@) Effect This statement sets the list cursor(https:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-line.htm"
+abapFile: "abapnew-line.htm"
+keywords: ["do", "if", "try", "class", "abapnew", "line"]
+---
 
 * * *
 

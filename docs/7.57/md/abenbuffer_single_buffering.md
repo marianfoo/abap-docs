@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Single Record Buffering"
+description: |
+  Only those rows are buffered that are actually accessed. This requires less space in the buffer than when using generic or full buffering. On the other hand, more administration work is required and significantly more direct database accesses. If a WHERE(https://help.sap.com/doc/abapdocu_757_index
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuffer_single_buffering.htm"
+abapFile: "abenbuffer_single_buffering.htm"
+keywords: ["select", "do", "if", "data", "types", "abenbuffer", "single", "buffering"]
+---
 
 * * *
 

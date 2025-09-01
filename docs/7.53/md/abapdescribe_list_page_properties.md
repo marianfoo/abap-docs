@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... LINE-SIZE width LINE-COUNT page_lines LINES lines FIRST-LINE first_line TOP-LINES top_lines TITLE-LINES title_lines HEAD-LINES header_lines END-LINES footer_lines ... Extras: 1. ... LINE-SIZE width(#!ABAP_ADDITION_1@1@) 2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_list_page_properties.htm"
+abapFile: "abapdescribe_list_page_properties.htm"
+keywords: ["insert", "do", "try", "class", "data", "abapdescribe", "list", "page", "properties"]
+---
 
 * * *
 

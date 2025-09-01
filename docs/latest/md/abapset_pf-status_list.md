@@ -1,4 +1,14 @@
-  
+---
+title: "SET PF-STATUS, List"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_pf-status_shortref.htm) Syntax SET PF-STATUS status OF PROGRAM prog EXCLUDING fcode IMMEDIATELY. Additions: 1. ... OF PROGRAM prog(#!ABAP_ADDITION_1@1@) 2. ... EXCLUDING fcode(#!AB
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_pf-status_list.htm"
+abapFile: "abapset_pf-status_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapset", "status", "list"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Activation variant"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm 'Glossary Entry') containing activation settings for activatable checkpoints(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenactivatable_checkpoint_glosry.htm 'Glossary En
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenactivation_variant_glosry.htm"
+abapFile: "abenactivation_variant_glosry.htm"
+keywords: ["do", "try", "abenactivation", "variant", "glosry"]
+---
 
 * * *
 

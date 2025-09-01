@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Write Accesses"
+description: |
+  Write accesses include inserting, modifying, and deleting content in database tables. All write accesses can be made as individual accesses or as mass access. If multiple rows of a database table are to be changed, mass access using internal tables generally gives better performance than individual
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_writing.htm"
+abapFile: "abenopen_sql_writing.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "class", "data", "internal-table", "abenopen", "sql", "writing"]
+---
 
 * * *
 

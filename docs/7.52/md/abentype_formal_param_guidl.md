@@ -1,4 +1,14 @@
-  
+---
+title: "Typing of Formal Parameters"
+description: |
+  Background The typing of formal parameters can be full or generic. Formal parameters of methods must be, and formal parameters of function modules and subroutines should be, explicitly typed using the TYPE or LIKE addition. When you connect actual parameters to formal parameters, the system checks w
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_formal_param_guidl.htm"
+abapFile: "abentype_formal_param_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "field-symbol", "abentype", "formal", "param", "guidl"]
+---
 
 * * *
 

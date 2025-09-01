@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, TYPE, LIKE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_shortref.htm) Syntax DATA var  TYPE LINE OF type  LIKE LINE OF dobj  VALUE  valIS INITIAL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_referring.htm"
+abapFile: "abapdata_referring.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapdata", "referring"]
+---
 
 * * *
 

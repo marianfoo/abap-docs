@@ -1,4 +1,14 @@
-  
+---
+title: "UNASSIGN - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunassign.htm) Syntax UNASSIGN. Effect Initializes the field symbol <fs>.
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunassign_shortref.htm"
+abapFile: "abapunassign_shortref.htm"
+keywords: ["do", "field-symbol", "abapunassign", "shortref"]
+---
 
 * * *
 

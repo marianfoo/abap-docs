@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... dobj+off(len)  ... Effect In the static variant for the memory area, a data object dobj with an optional offset/length +off(len) can be specified in accordance with the rules described in the section Data Objects in Operand Positions(https://help.sap.com/doc/abapdocu_756_index_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area_static_dobj.htm"
+abapFile: "abapassign_mem_area_static_dobj.htm"
+keywords: ["do", "if", "case", "try", "data", "field-symbol", "abapassign", "mem", "area", "static", "dobj"]
+---
 
 * * *
 

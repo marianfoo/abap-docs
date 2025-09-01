@@ -1,4 +1,14 @@
-  
+---
+title: "Editing Strings"
+description: |
+  The display of the data types string and xstring can now be scrolled. The cursor can be positioned on the string by double-clicking it. It is also possible to declare strings as watchpoints. Modification 2 Enhancements in ABAP Objects Static attributes(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennwes-46-debugger.htm"
+abapFile: "abennwes-46-debugger.htm"
+keywords: ["do", "if", "try", "data", "types", "abennwes", "debugger"]
+---
 
 * * *
 

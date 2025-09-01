@@ -1,4 +1,14 @@
-  
+---
+title: "Comparison with Selection Table"
+description: |
+  This example demonstrates how selection tables are evaluated in a comparison expression. Source Code REPORT demo_logical_expr_seltab_1 . DATA wa_carrid TYPE spfli-carrid. SELECT-OPTIONS airline FOR wa_carrid. WRITE: 'Inside', 'Outside'. SKIP. SELECT carrid FROM spfli INTO @wa_carrid. IF wa_c
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_in_abexa.htm"
+abapFile: "abenlog_exp_in_abexa.htm"
+keywords: ["select", "loop", "do", "if", "data", "types", "abenlog", "exp", "abexa"]
+---
 
 * * *
 

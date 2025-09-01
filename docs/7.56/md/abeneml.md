@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - Consuming RAP BOs"
+description: |
+  The ABAP Entity Manipulation Language (EML)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenaeml_glosry.htm 'Glossary Entry') is a subset of ABAP for accessing RAP business objects (RAP BOs). EML statements allow the data content of a RAP BO (transactional buffer) to be read or modi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm"
+abapFile: "abeneml.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abeneml"]
+---
 
 * * *
 

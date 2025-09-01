@@ -1,4 +1,14 @@
-  
+---
+title: "CDS-based BOPF business object"
+description: |
+  CDS-based BOPF BO for short. Business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') in the context of the Business Object Processing Framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbo_processi
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bopf_bo_glosry.htm"
+abapFile: "abencds_bopf_bo_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "bopf", "glosry"]
+---
 
 * * *
 

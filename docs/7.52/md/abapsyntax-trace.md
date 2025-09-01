@@ -1,4 +1,14 @@
-  
+---
+title: "SYNTAX-TRACE"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax SYNTAX-TRACE  ON ...  OFF . Variants: 1. SYNTAX-TRACE ON.(#!ABAP_VARIANT_1@1@) 2. SYNTAX-TRACE ON OPTION CODING.(#!ABAP_VARIANT_2@2@) 3. SYNTAX-TRACE ON OPTION CLASS.(#!ABAP_V
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-trace.htm"
+abapFile: "abapsyntax-trace.htm"
+keywords: ["select", "do", "if", "try", "class", "abapsyntax", "trace"]
+---
 
 * * *
 

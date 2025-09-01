@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   When working with DOM, it is important to know the difference between the nodes in DOM and the elements of the represented XML data. Each part of an XML document is represented by a separate node. A single element in XML data in DOM consists of multiple nodes for tags, content and so on, which c
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_dom_access.htm"
+abapFile: "abenabap_ixml_lib_dom_access.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "ixml", "lib", "dom", "access"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Inheritance"
+description: |
+  Both interface methods and redefined methods inherited from superclasses can become AMDP methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_methods.htm) in the implementation, provided that their prerequisites are met and the class contains the corresponding tag inter
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_inheritance.htm"
+abapFile: "abenamdp_inheritance.htm"
+keywords: ["do", "if", "method", "class", "data", "abenamdp", "inheritance"]
+---
 
 * * *
 

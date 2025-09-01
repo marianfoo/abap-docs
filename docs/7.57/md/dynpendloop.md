@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ENDLOOP. Effect See LOOP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynploop.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpendloop.htm"
+abapFile: "dynpendloop.htm"
+keywords: ["loop", "do", "if", "dynpendloop"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric operand position"
+description: |
+  Operand position(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperand_position_glosry.htm 'Glossary Entry') with numeric operand type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperand_type_glosry.htm 'Glossary Entry'), in which a numeric data object(https
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_position_glosry.htm"
+abapFile: "abennumerical_position_glosry.htm"
+keywords: ["do", "if", "try", "data", "abennumerical", "position", "glosry"]
+---
 
 * * *
 

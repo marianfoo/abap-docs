@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... BINTOHEX( sql_exp )  HEXTOBIN( sql_exp )  TO_CLOB( sql_exp )  TO_BLOB( sql_exp ) ... Variants: 1a. ... BINTOHEX( sql_exp )(#!ABAP_VARIANT_1A@1@) 1b. ... HEXTOBIN( sql_exp )(#!ABAP_VARIANT_1B@2@) 2a. ... TO_CLOB( sql_exp )(#!ABAP_VARIANT_2A@3@) 2b. ... TO_BLOB( sql_exp
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_type_conv_func.htm"
+abapFile: "abensql_type_conv_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abensql", "type", "conv", "func"]
+---
 
 * * *
 

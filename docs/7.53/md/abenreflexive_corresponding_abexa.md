@@ -1,4 +1,14 @@
-  
+---
+title: "Reflexive Component Assignments"
+description: |
+  This example demonstrates assignments between components of a structure. Source Code REPORT demo_corresponding_reflexive. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF t_str1, a1 TYPE i, a2 TYPE i, a3 TYPE i, a4 TYPE i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreflexive_corresponding_abexa.htm"
+abapFile: "abenreflexive_corresponding_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abenreflexive", "corresponding", "abexa"]
+---
 
 * * *
 

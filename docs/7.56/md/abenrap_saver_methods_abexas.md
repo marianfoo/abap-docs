@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for RAP Saver Methods"
+description: |
+  !Example(exa.gif 'Example') Example for RAP Saver Methods(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_saver_class_abexa.htm) !Example(exa.gif 'Example') Example for RAP Saver Methods (Late Numbering)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_sa
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_saver_methods_abexas.htm"
+abapFile: "abenrap_saver_methods_abexas.htm"
+keywords: ["do", "if", "method", "class", "abenrap", "saver", "methods", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ST - option, Mapping Rules"
+description: |
+  Syntax ... option='...,...' Effect The attribute option can be used to override the associated mapping rule from and to asXML(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml.htm) for certain data types (the rule is defined by the data type). The possible options can
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option.htm"
+abapFile: "abenst_option.htm"
+keywords: ["do", "if", "data", "types", "abenst", "option"]
+---
 
 * * *
 

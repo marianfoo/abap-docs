@@ -1,4 +1,14 @@
-  
+---
+title: "LET Expression"
+description: |
+  This example demonstrates a LET expression in a constructor expression. Source Code REPORT demo_let_it_be. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES text TYPE STANDARD TABLE OF string WITH EMPTY KEY. cl_demo_output=>new( )
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlet_abexa.htm"
+abapFile: "abenlet_abexa.htm"
+keywords: ["select", "do", "method", "class", "types", "internal-table", "abenlet", "abexa"]
+---
 
 * * *
 

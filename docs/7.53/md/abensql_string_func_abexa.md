@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, String Functions"
+description: |
+  This example demonstrates string functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_string_func.htm) in SQL expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm). Source Code REPORT demo_sql_function_string. CLASS demo DEFINITION. P
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_string_func_abexa.htm"
+abapFile: "abensql_string_func_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "method", "class", "data", "abensql", "string", "func", "abexa"]
+---
 
 * * *
 

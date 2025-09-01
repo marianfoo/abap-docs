@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation, Mapping of XML Fragments"
+description: |
+  The example demonstrates the mapping of XML fragments using ST. Source Code REPORT demo_st_xsdany. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA out TYPE REF TO if_demo_output. CLASS-METHODS prepare_fragment RETURNING VALUE(xml) TYPE xsdany. CLASS-METHOD
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_xsdany_abexa.htm"
+abapFile: "abenst_xsdany_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenst", "xsdany", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  C2 Contract Rules for Providing CDS Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc2_provider_rules_cds_type.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc2_provider_rules.htm"
+abapFile: "abenc2_provider_rules.htm"
+keywords: ["delete", "do", "if", "class", "types", "abenc2", "provider", "rules"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "date_type_glosry"
+description: |
+  date_type_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendate_type_glosry.htm"
+abapFile: "abendate_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "abendate", "type", "glosry"]
+---
 
 * * *
 

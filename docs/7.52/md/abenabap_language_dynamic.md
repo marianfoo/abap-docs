@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic Program Editing"
+description: |
+  In addition to static program development in the ABAP Workbench(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm 'Glossary Entry'), the following components of ABAP programs can be edited and generated using language elements: -   ABAP source code(https://
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm"
+abapFile: "abenabap_language_dynamic.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenabap", "language", "dynamic"]
+---
 
 * * *
 

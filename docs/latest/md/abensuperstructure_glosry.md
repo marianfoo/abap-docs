@@ -1,4 +1,14 @@
-  
+---
+title: "superstructure_glosry"
+description: |
+  superstructure_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensuperstructure_glosry.htm"
+abapFile: "abensuperstructure_glosry.htm"
+keywords: ["do", "if", "try", "abensuperstructure", "glosry"]
+---
 
 * * *
 

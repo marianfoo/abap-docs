@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Sort Conditions"
+description: |
+  A sort condition is a list of attributes attr that specifies the direction in which they are sorted. Only attributes with an elementary type can be specified. For each attribute, an order must be specified, either ascending or descending. and this information is placed after the attribute. Only publ
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_sort_cond.htm"
+abapFile: "abenos_query_sort_cond.htm"
+keywords: ["do", "if", "method", "data", "abenos", "query", "sort", "cond"]
+---
 
 * * *
 

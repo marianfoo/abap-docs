@@ -1,4 +1,14 @@
-  
+---
+title: "Optimization of the WHERE Condition"
+description: |
+  The statements LOOP AT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm), DELETE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab.htm), and MODIFY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab.htm) can be spe
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_where_optimization.htm"
+abapFile: "abenitab_where_optimization.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abenitab", "where", "optimization"]
+---
 
 * * *
 
@@ -36,9 +46,7 @@ If there are no relational expressions or too few to meet both of these prerequi
 
 The following sections describe exactly when an access can be optimized.
 
--   [Prerequisites for the Optimization of Hash Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
-
--   [Prerequisites for the Optimization of Sorted Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
+-   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1--------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
 
 -   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
 

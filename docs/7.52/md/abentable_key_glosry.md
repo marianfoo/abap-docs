@@ -1,4 +1,14 @@
-  
+---
+title: "Table Key"
+description: |
+  Columns of an internal table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entry') or of a database table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_table_glosry.htm 'Glossary Entry') whose content identifies table
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_key_glosry.htm"
+abapFile: "abentable_key_glosry.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abentable", "key", "glosry"]
+---
 
 * * *
 

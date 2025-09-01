@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenequals_operator.htm
 
-  
+---
+title: "Syntax"
+description: |
+  lhs = rhs. Effect If the character = is specified in a statement between a left side lhs (or 'left hand side') and a right side rhs (or 'right hand side'), it works like an assignment operator(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassignment_operator_glosry.htm 'Glossary
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm"
+abapFile: "abenequals_operator.htm"
+keywords: ["do", "if", "try", "method", "data", "abenequals", "operator"]
+---
 
 * * *
 
@@ -66,7 +76,17 @@ Continue
 
 ### abapmove.htm
 
-  
+---
+title: "Syntax"
+description: |
+  destination = dobj. Effect In the simplest assignment case, a data object dobj is on the right side of the assignment operator =(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm) and can be specified as described under Read Positions(https://help.sap.com/doc/ab
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove.htm"
+abapFile: "abapmove.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "method", "data", "types", "internal-table", "field-symbol", "abapmove"]
+---
 
 * * *
 
@@ -166,7 +186,17 @@ Uncatchable Exceptions
 
 ### abenequals_return_values.htm
 
-  
+---
+title: "Syntax"
+description: |
+  destination = meth( )(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_functional.htm)  func( )(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions_syntax.htm)  constr_expr(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_return_values.htm"
+abapFile: "abenequals_return_values.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "internal-table", "abenequals", "return", "values"]
+---
 
 * * *
 
@@ -224,7 +254,17 @@ cl\_demo\_output=>new(
 
 ### abenequals_calc_expr.htm
 
-  
+---
+title: "Continue"
+description: |
+  =, Arithmetic Expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm) =, String Expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_string_expr.htm) =, Bit Expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/e
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_calc_expr.htm"
+abapFile: "abenequals_calc_expr.htm"
+keywords: ["do", "try", "data", "abenequals", "calc", "expr"]
+---
 
 * * *
 
@@ -248,7 +288,17 @@ Continue
 
 ### abenequals_arith_expr.htm
 
-  
+---
+title: "Syntax"
+description: |
+  result = arith_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_arith.htm). Effect If an arithmetic expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry') arith_exp(https://help.sap.com/doc/abapdo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm"
+abapFile: "abenequals_arith_expr.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "field-symbol", "abenequals", "arith", "expr"]
+---
 
 * * *
 
@@ -310,7 +360,17 @@ DATA(result6) = CONV pack16(  1 \* number2 ). "p, length 16
 
 ### abenequals_string_expr.htm
 
-  
+---
+title: "Syntax"
+description: |
+  result = string_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_string.htm). Effect If a string expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_expression_glosry.htm 'Glossary Entry') string_exp(https://help.sap.com/doc/abapdocu_756
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_string_expr.htm"
+abapFile: "abenequals_string_expr.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "types", "abenequals", "string", "expr"]
+---
 
 * * *
 
@@ -356,7 +416,17 @@ number = 1 && 2.
 
 ### abenequals_bit_expr.htm
 
-  
+---
+title: "Syntax"
+description: |
+  result = bit_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_bit.htm). Effect If a bit expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_expression_glosry.htm 'Glossary Entry') bit_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_bit_expr.htm"
+abapFile: "abenequals_bit_expr.htm"
+keywords: ["do", "if", "try", "method", "data", "abenequals", "bit", "expr"]
+---
 
 * * *
 
@@ -394,7 +464,17 @@ cl\_demo\_output=>display( result2 ).
 
 ### abenequals_calc_expr.htm
 
-  
+---
+title: "Continue"
+description: |
+  =, Arithmetic Expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm) =, String Expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_string_expr.htm) =, Bit Expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/e
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_calc_expr.htm"
+abapFile: "abenequals_calc_expr.htm"
+keywords: ["do", "try", "data", "abenequals", "calc", "expr"]
+---
 
 * * *
 

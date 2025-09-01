@@ -1,4 +1,14 @@
-  
+---
+title: "Processing function"
+description: |
+  Predefined function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_function_glosry.htm 'Glossary Entry') for general processing
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocess_function_glosry.htm"
+abapFile: "abenprocess_function_glosry.htm"
+keywords: ["do", "try", "abenprocess", "function", "glosry"]
+---
 
 * * *
 

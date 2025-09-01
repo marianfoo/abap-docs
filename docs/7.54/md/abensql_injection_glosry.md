@@ -1,4 +1,14 @@
-  
+---
+title: "SQL injection"
+description: |
+  Injection of malicious SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_glosry.htm 'Glossary Entry') statements by an attacker. SQL injections are possible whenever programs use external statements (or parts of statements) that are then are passed to the database system(htt
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm"
+abapFile: "abensql_injection_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abensql", "injection", "glosry"]
+---
 
 * * *
 

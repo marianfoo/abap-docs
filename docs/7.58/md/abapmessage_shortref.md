@@ -1,4 +1,14 @@
-  
+---
+title: "MESSAGE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) Syntax MESSAGE  tn  tn(id)   ID mid TYPE mtype NUMBER num   oref TYPE mtype  text TYPE mtype    DISPLAY LIKE dtype RAISING exception   INTO text
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_shortref.htm"
+abapFile: "abapmessage_shortref.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmessage", "shortref"]
+---
 
 * * *
 

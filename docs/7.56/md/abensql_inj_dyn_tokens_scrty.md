@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Injections Using Dynamic Tokens"
+description: |
+  The ABAP SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm 'Glossary Entry') syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_inj_dyn_tokens_scrty.htm"
+abapFile: "abensql_inj_dyn_tokens_scrty.htm"
+keywords: ["select", "update", "do", "if", "try", "catch", "method", "class", "data", "abensql", "inj", "dyn", "tokens", "scrty"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ SQL Injections Using Dynamic Tokens
 
 The [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm "Glossary Entry") syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of these data objects originates from outside of the program, there is a risk of one of the following SQL injections:
 
--   [Access to Non-Permitted Database Tables](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_1)
--   [Access to Non-Permitted Table Columns](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_2)
--   [Manipulation of the Dynamic WHERE Condition](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_3)
--   [Manipulation of a Dynamic Change Expression](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_4)
+-   [Access to Non-Permitted Database Tables](#abensql-inj-dyn-tokens-scrty-1-------access-to-non-permitted-table-columns---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_2)
+-   [Manipulation of the Dynamic WHERE Condition](#abensql-inj-dyn-tokens-scrty-3-------manipulation-of-a-dynamic-change-expression---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_4)
 
 Hint
 

@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Inheritance of Persistent Classes"
+description: |
+  Persistent classes can have subclasses. These subclasses are also persistent classes, in that they inherit the persistence mapping of the superclass to the database table or tables. The persistence mapping of the superclass is defined in the subclass. If not, the general polymorphic principle of inh
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenos_persistence_inheritance.htm"
+abapFile: "abenos_persistence_inheritance.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "abenos", "persistence", "inheritance"]
+---
 
 * * *
 

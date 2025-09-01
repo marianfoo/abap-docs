@@ -1,4 +1,14 @@
-  
+---
+title: "parameter_transaction_glosry"
+description: |
+  parameter_transaction_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenparameter_transaction_glosry.htm"
+abapFile: "abenparameter_transaction_glosry.htm"
+keywords: ["do", "if", "try", "abenparameter", "transaction", "glosry"]
+---
 
 * * *
 

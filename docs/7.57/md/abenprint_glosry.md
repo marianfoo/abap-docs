@@ -1,4 +1,14 @@
-  
+---
+title: "print_glosry"
+description: |
+  print_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_glosry.htm"
+abapFile: "abenprint_glosry.htm"
+keywords: ["do", "if", "try", "abenprint", "glosry"]
+---
 
 * * *
 

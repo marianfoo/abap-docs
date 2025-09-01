@@ -1,4 +1,14 @@
-  
+---
+title: "RAP in ABAP"
+description: |
+  Work in progress  See also ABAP RESTful Programming Model(https://help.sap.com/viewer/c0d02c4330c34b3abca88bdd57eaccfc/Cloud/en-US/3b77569ca8ee4226bdab4fcebd6f6ea6.html) ABAP RAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm 'Glossary Entry') is an ABAP
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm"
+abapFile: "abenrestful_abap_programming.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenrestful", "abap", "programming"]
+---
 
 * * *
 

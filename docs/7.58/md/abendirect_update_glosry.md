@@ -1,4 +1,14 @@
-  
+---
+title: "direct_update_glosry"
+description: |
+  direct_update_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendirect_update_glosry.htm"
+abapFile: "abendirect_update_glosry.htm"
+keywords: ["insert", "update", "do", "if", "try", "internal-table", "abendirect", "glosry"]
+---
 
 * * *
 

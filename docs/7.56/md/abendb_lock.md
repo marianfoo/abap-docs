@@ -1,4 +1,14 @@
-  
+---
+title: "Database Locks"
+description: |
+  Simultaneous access by multiple transactions to the same dataset requires database locks to manage and synchronize access in each database. The tasks of this mechanism are to: -   protect data objects currently being changed or read by a transaction from being changed by other transactions at the sa
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_lock.htm"
+abapFile: "abendb_lock.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "data", "types", "abendb", "lock"]
+---
 
 * * *
 
@@ -15,10 +25,8 @@ Simultaneous access by multiple transactions to the same dataset requires databa
 
 The following sections are a short discussion of the properties of database locks:
 
--   [Setting Locks](#@@ITOC@@ABENDB_LOCK_1)
--   [Locked Objects](#@@ITOC@@ABENDB_LOCK_2)
--   [Lock Mode](#@@ITOC@@ABENDB_LOCK_3)
--   [Lock Duration](#@@ITOC@@ABENDB_LOCK_4)
+-   [Setting Locks](#abendb-lock-1-------locked-objects---@ITOC@@ABENDB_LOCK_2)
+-   [Lock Mode](#abendb-lock-3-------lock-duration---@ITOC@@ABENDB_LOCK_4)
 
 Setting Locks
 

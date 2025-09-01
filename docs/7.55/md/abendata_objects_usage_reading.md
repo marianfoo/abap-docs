@@ -1,4 +1,14 @@
-  
+---
+title: "Read Positions"
+description: |
+  At a read position, the content of an operand is read but not changed when the statement is executed. Data objects can be specified as follows at read positions: -   Specification of a literal(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliteral_glosry.htm 'Glossary Entry'). -
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_reading.htm"
+abapFile: "abendata_objects_usage_reading.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "usage", "reading"]
+---
 
 * * *
 

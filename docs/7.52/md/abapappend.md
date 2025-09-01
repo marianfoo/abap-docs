@@ -1,4 +1,14 @@
-  
+---
+title: "APPEND"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_shortref.htm) Syntax APPEND line_spec(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_linespec.htm) TO itab SORTED BY comp  result(https://help.sap.com/doc/abapdocu_752_inde
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend.htm"
+abapFile: "abapappend.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abapappend"]
+---
 
 * * *
 

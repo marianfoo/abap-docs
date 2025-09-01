@@ -1,4 +1,14 @@
-  
+---
+title: "Tools for Classic ABAP Dictionary"
+description: |
+  Classic objects in ABAP Dictionary(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) can be edited using the ABAP Dictionary tool in ABAP Workbench or using the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenad
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_tools.htm"
+abapFile: "abenddic_tools.htm"
+keywords: ["do", "try", "class", "data", "abenddic", "tools"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Tools for Classic ABAP Dictionary
 
 [Classic objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) can be edited using the ABAP Dictionary tool in ABAP Workbench or using the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadt_glosry.htm "Glossary Entry"). The ABAP Dictionary tool in ABAP Workbench covers all classic objects and their attributes. The ADT tools, on the other hand, currently only cover some of these objects.
 
--   [The ABAP Dictionary Tool in ABAP Workbench](#@@ITOC@@ABENDDIC_TOOLS_1)
+-   [The ABAP Dictionary Tool in ABAP Workbench](#abenddic-tools-1--------tools-in-adt---@ITOC@@ABENDDIC_TOOLS_2)
 
--   [Tools in ADT](#@@ITOC@@ABENDDIC_TOOLS_2)
-
--   [Form-Based Tools](#@@ITOC@@ABENDDIC_TOOLS_3)
-
--   [Source-code-based tools](#@@ITOC@@ABENDDIC_TOOLS_4)
+-   [Form-Based Tools](#abenddic-tools-3--------source-code-based-tools---@ITOC@@ABENDDIC_TOOLS_4)
 
 The ABAP Dictionary Tool in ABAP Workbench
 

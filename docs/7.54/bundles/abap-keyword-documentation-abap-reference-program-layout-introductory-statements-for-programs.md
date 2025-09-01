@@ -5,7 +5,17 @@ Included pages: 9
 
 ### abenabap_program_statement.htm
 
-  
+---
+title: "Introductory Statements for Programs"
+description: |
+  The introductory statements for programs are: -   REPORT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm) -   PROGRAM(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm) -   FUNCTION-POOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm"
+abapFile: "abenabap_program_statement.htm"
+keywords: ["do", "if", "case", "try", "class", "types", "abenabap", "program", "statement"]
+---
 
 * * *
 
@@ -55,7 +65,17 @@ Continue
 
 ### abapreport.htm
 
-  
+---
+title: "REPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_shortref.htm) Syntax REPORT rep list_options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) MESSAGE-ID mid DEFINING DATABASE ldb(https://help.sap.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm"
+abapFile: "abapreport.htm"
+keywords: ["do", "if", "try", "class", "data", "abapreport"]
+---
 
 * * *
 
@@ -120,7 +140,17 @@ Continue
 
 ### abapreport_list_options.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... NO STANDARD PAGE HEADING LINE-SIZE width LINE-COUNT page_lines(footer_lines) ... Extras: 1. ... NO STANDARD PAGE HEADING(#!ABAP_ADDITION_1@1@) 2. ... LINE-SIZE width(#!ABAP_ADDITION_2@2@) 3. ... LINE-COUNT page_lines(footer_lines)(#!ABAP_ADDIT
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm"
+abapFile: "abapreport_list_options.htm"
+keywords: ["select", "do", "if", "try", "abapreport", "list", "options"]
+---
 
 * * *
 
@@ -200,7 +230,17 @@ REPORT z\_myreport LINE-COUNT 65(8) LINE-SIZE 132.
 
 ### abapreport.htm
 
-  
+---
+title: "REPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_shortref.htm) Syntax REPORT rep list_options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) MESSAGE-ID mid DEFINING DATABASE ldb(https://help.sap.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm"
+abapFile: "abapreport.htm"
+keywords: ["do", "if", "try", "class", "data", "abapreport"]
+---
 
 * * *
 
@@ -265,7 +305,17 @@ Continue
 
 ### abapprogram.htm
 
-  
+---
+title: "PROGRAM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram_shortref.htm) Syntax PROGRAM prog list_options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) MESSAGE-ID mid REDUCED FUNCTIONALITY. Addition:
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm"
+abapFile: "abapprogram.htm"
+keywords: ["loop", "do", "if", "try", "types", "abapprogram"]
+---
 
 * * *
 
@@ -335,7 +385,17 @@ Notes
 
 ### abapfunction-pool.htm
 
-  
+---
+title: "FUNCTION-POOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool_shortref.htm) Syntax FUNCTION-POOL fpool list_options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) MESSAGE-ID mid. Effect The statement FUNCTIO
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool.htm"
+abapFile: "abapfunction-pool.htm"
+keywords: ["do", "try", "method", "class", "data", "abapfunction", "pool"]
+---
 
 * * *
 
@@ -411,7 +471,17 @@ INCLUDE labap\_docud01.               " Classes for Docu Display
 
 ### abapclass-pool.htm
 
-  
+---
+title: "CLASS-POOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool_shortref.htm) Syntax CLASS-POOL MESSAGE-ID id. Effect The statement CLASS-POOL introduces a class pool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_pool_glosry.htm 'Glossary
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool.htm"
+abapFile: "abapclass-pool.htm"
+keywords: ["do", "if", "try", "class", "abapclass", "pool"]
+---
 
 * * *
 
@@ -448,7 +518,17 @@ The name of the master program of the class pool of the global class CL\_ABAP\_B
 
 ### abapinterface-pool.htm
 
-  
+---
+title: "INTERFACE-POOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool_shortref.htm) Syntax INTERFACE-POOL. Effect The statement INTERFACE-POOL introduces an interface pool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_pool_glosry.htm 'Glossary E
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool.htm"
+abapFile: "abapinterface-pool.htm"
+keywords: ["do", "if", "try", "class", "abapinterface", "pool"]
+---
 
 * * *
 
@@ -485,7 +565,17 @@ The name of the master program of the interface pool of the global interface IF\
 
 ### abaptype-pool.htm
 
-  
+---
+title: "TYPE-POOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool_shortref.htm) Syntax TYPE-POOL tpool. Effect The statement TYPE-POOL introduces a type group(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_group_1_glosry.htm 'Glossary Entry') called tp
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool.htm"
+abapFile: "abaptype-pool.htm"
+keywords: ["do", "try", "class", "data", "types", "abaptype", "pool"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Input Help from ABAP Dictionary"
+description: |
+  This example demonstrates how input helps from ABAP Dictionary can be used. Source Code REPORT demo_dynpro_f4_help_dictionary. TABLES demof4help. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. Description The static next dynpro number of dynpro 100 is 100. The input fields are a
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_f4_help_dic_abexa.htm"
+abapFile: "abendynpro_f4_help_dic_abexa.htm"
+keywords: ["select", "do", "if", "data", "types", "abendynpro", "help", "dic", "abexa"]
+---
 
 * * *
 

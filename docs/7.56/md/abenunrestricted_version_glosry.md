@@ -1,4 +1,14 @@
-  
+---
+title: "unrestricted_version_glosry"
+description: |
+  unrestricted_version_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunrestricted_version_glosry.htm"
+abapFile: "abenunrestricted_version_glosry.htm"
+keywords: ["do", "try", "abenunrestricted", "version", "glosry"]
+---
 
 * * *
 

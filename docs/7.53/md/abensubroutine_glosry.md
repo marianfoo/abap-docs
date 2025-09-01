@@ -1,4 +1,14 @@
-  
+---
+title: "subroutine_glosry"
+description: |
+  subroutine_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_glosry.htm"
+abapFile: "abensubroutine_glosry.htm"
+keywords: ["do", "try", "class", "abensubroutine", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_strings. DATA: string1 TYPE string, string2 TYPE string, char1   TYPE c LENGTH 10, char2   TYPE c LENGTH 100. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA  len TYPE i. string1 = `123       `. string2 = `1234
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_strings_abexa.htm"
+abapFile: "abendynpro_strings_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abendynpro", "strings", "abexa"]
+---
 
 * * *
 

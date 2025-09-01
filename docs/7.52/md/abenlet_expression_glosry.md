@@ -1,4 +1,14 @@
-  
+---
+title: "LET expression"
+description: |
+  A LET expression is a subexpression of a constructor expression(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_glosry.htm 'Glossary Entry') that declares variables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvariable_glosry.htm 'Glossary
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlet_expression_glosry.htm"
+abapFile: "abenlet_expression_glosry.htm"
+keywords: ["do", "try", "field-symbol", "abenlet", "expression", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "System Command Injections"
+description: |
+  A system command injection(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensyst_comm_injection_glosry.htm 'Glossary Entry') is a attack method that can result from insufficiently secure input from outside. A system command injection forwards malicious operating system statemen
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensys_comm_injections_scrty.htm"
+abapFile: "abensys_comm_injections_scrty.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abensys", "comm", "injections", "scrty"]
+---
 
 * * *
 

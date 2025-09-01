@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - BDEF Projection Extension, Node Extension"
+description: |
+  This example demonstrates how the behavior of a projection BDEF is extended by means of a projection BDEF extension. Original Base RAP BO Data model The CDS data model consists of one root node without child entities: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label: 'CDS view en
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_entity_proj_ext_abexa.htm"
+abapFile: "abenbdl_entity_proj_ext_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "entity", "proj", "ext", "abexa"]
+---
 
 * * *
 

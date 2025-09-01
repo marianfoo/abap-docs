@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  An example of a program that uses SPA/GPA parameters is the user maintenance (transaction SU01). In this transaction, user-specific parameters can be entered on the Parameters tab page, which are then set when the user logs on to AS ABAP(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa.htm"
+abapFile: "abenspa_gpa.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "abenspa", "gpa"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ SPA/GPA Parameters in the User Memory
 
 The [user memory](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuser_memory_glosry.htm "Glossary Entry") is a user-specific [memory area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmemory_organization.htm) of the current [AS instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_instance_glosry.htm "Glossary Entry"), which can be accessed by all [ABAP sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_session_glosry.htm "Glossary Entry") of a user session simultaneously. ABAP programs have access to SPA/GPA parameters stored in the user memory (also referred to as SET/GET parameters).
 
--   [Properties of SPA/GPA parameters](#@@ITOC@@ABENSPA_GPA_1)
--   [SPA/GPA Parameters and ABAP Programs](#@@ITOC@@ABENSPA_GPA_2)
--   [Managing SPA/GPA Parameters](#@@ITOC@@ABENSPA_GPA_3)
--   [SPA/GPA Parameters and Dynpro Fields](#@@ITOC@@ABENSPA_GPA_4)
+-   [Properties of SPA/GPA parameters](#abenspa-gpa-1-------spa-gpa-parameters-and-abap-programs---@ITOC@@ABENSPA_GPA_2)
+-   [Managing SPA/GPA Parameters](#abenspa-gpa-3-------spa-gpa-parameters-and-dynpro-fields---@ITOC@@ABENSPA_GPA_4)
 
 Properties of SPA/GPA parameters
 

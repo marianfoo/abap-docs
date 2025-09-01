@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Area Instance Versions"
+description: |
+  Shared objects are stored and managed in area instance versions. In an ABAP program, area instance versions and thus shared objects are accessed exclusively by means of area handles. Area locks are set and area instance versions can acquire different states. -   Area Handles(https://help.sap.com/d
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_instance_access.htm"
+abapFile: "abenshm_area_instance_access.htm"
+keywords: ["do", "if", "class", "abenshm", "area", "instance", "access"]
+---
 
 * * *
 

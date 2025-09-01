@@ -1,4 +1,14 @@
-  
+---
+title: "DO, VARYING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo_shortref.htm) Obsolete Syntax DO ... VARYING dobj FROM dobj1 NEXT dobj2 RANGE range VARYING .... statement_block ENDDO. Effect The addition VARYING assigns a new value to a variable dobj for
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo_varying.htm"
+abapFile: "abapdo_varying.htm"
+keywords: ["loop", "do", "while", "if", "case", "try", "catch", "class", "data", "types", "abapdo", "varying"]
+---
 
 * * *
 

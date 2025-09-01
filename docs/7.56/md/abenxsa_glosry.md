@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA XSA"
+description: |
+  Short for SAP HANA Extended Application Services Advanced Model. Current version of XS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxs_glosry.htm 'Glossary Entry') and successor to XSC(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxsc_glosry.htm 'Glossary Entry
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxsa_glosry.htm"
+abapFile: "abenxsa_glosry.htm"
+keywords: ["do", "try", "abenxsa", "glosry"]
+---
 
 * * *
 

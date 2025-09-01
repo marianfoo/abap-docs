@@ -1,4 +1,14 @@
-  
+---
+title: "test_include_glosry"
+description: |
+  test_include_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentest_include_glosry.htm"
+abapFile: "abentest_include_glosry.htm"
+keywords: ["do", "if", "try", "class", "abentest", "include", "glosry"]
+---
 
 * * *
 

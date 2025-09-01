@@ -1,4 +1,14 @@
-  
+---
+title: "GUI control"
+description: |
+  Component of the presentation view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpresentation_layer_glosry.htm 'Glossary Entry') in AS ABAP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry'). Examples of GUI controls are the P
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengui_control_glosry.htm"
+abapFile: "abengui_control_glosry.htm"
+keywords: ["do", "try", "class", "abengui", "control", "glosry"]
+---
 
 * * *
 

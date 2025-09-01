@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... val = text ...  ) ... Effect The operand text passes the text string to be processed by the function to the named argument val. text is an extended character-like expression position(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm 'Glossar
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm"
+abapFile: "abenstring_functions_val.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenstring", "functions", "val"]
+---
 
 * * *
 

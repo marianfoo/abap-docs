@@ -1,4 +1,14 @@
-  
+---
+title: "next_dynpro_glosry"
+description: |
+  next_dynpro_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennext_dynpro_glosry.htm"
+abapFile: "abennext_dynpro_glosry.htm"
+keywords: ["do", "if", "try", "abennext", "dynpro", "glosry"]
+---
 
 * * *
 

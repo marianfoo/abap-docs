@@ -1,4 +1,14 @@
-  
+---
+title: "Statements in the Screen Flow Logic"
+description: |
+  The screen flow logic is the procedural part of a screen(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm 'Glossary Entry'). It is created using an ABAP-like programming language in Screen Painter(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscre
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm"
+abapFile: "abenabap_dynpros_dynpro_statements.htm"
+keywords: ["loop", "do", "try", "data", "abenabap", "dynpros", "dynpro", "statements"]
+---
 
 * * *
 

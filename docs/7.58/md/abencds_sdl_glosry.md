@@ -1,4 +1,14 @@
-  
+---
+title: "CDS SDL"
+description: |
+  The Service Definition Language of ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS SDL contains language elements for CDS service definitions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definition_g
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sdl_glosry.htm"
+abapFile: "abencds_sdl_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "sdl", "glosry"]
+---
 
 * * *
 

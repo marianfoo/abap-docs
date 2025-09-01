@@ -1,4 +1,14 @@
-  
+---
+title: "Evaluating Date Fields and Time Fields"
+description: |
+  This example demonstrates calculations with date and time fields. Source Code  Public class definition CLASS cl_demo_data_date_time DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_time_abexa.htm"
+abapFile: "abendate_time_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abendate", "time", "abexa"]
+---
 
 * * *
 

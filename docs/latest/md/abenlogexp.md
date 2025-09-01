@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...   rel_exp  NOT log_exp ANDOREQUIV log_exp ... Effect A logical expression formulates a condition for operands. The result of a logical expression log_exp is a truth value(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentruth_value_glosry.htm 'Gl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm"
+abapFile: "abenlogexp.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "internal-table", "abenlogexp"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "INPUT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinput.htm) Syntax INPUT. Effect Obsolete: Creates an input area in a list.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinput_shortref.htm"
+abapFile: "abapinput_shortref.htm"
+keywords: ["do", "if", "abapinput", "shortref"]
+---
 
 * * *
 

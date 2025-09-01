@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL indicator"
+description: |
+  Substructure(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubstructure_glosry.htm 'Glossary Entry') or component with a byte field type x that can be used either in read statements as a null indicator(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_indicator
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_indicator_glosry.htm"
+abapFile: "abenabap_sql_indicator_glosry.htm"
+keywords: ["do", "while", "if", "try", "abenabap", "sql", "indicator", "glosry"]
+---
 
 * * *
 

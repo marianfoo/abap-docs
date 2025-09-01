@@ -1,4 +1,14 @@
-  
+---
+title: "Unsupported Language Elements"
+description: |
+  The following language elements exist for reasons of downward compatibility only but are not supported. -   MARK(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmark.htm) MARK(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmark.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunsupported_obsolete.htm"
+abapFile: "abenunsupported_obsolete.htm"
+keywords: ["do", "if", "abenunsupported", "obsolete"]
+---
 
 * * *
 

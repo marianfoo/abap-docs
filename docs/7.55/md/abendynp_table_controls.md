@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - LOOP, WITH CONTROL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynploop.htm) dynpro - Examples of Table Controls(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_control_abexas.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_table_controls.htm"
+abapFile: "abendynp_table_controls.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "abendynp", "table", "controls"]
+---
 
 * * *
 

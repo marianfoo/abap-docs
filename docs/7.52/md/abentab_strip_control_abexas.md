@@ -1,4 +1,14 @@
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Screens, Tabstrips with scrolling in the SAP GUI(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_con
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 

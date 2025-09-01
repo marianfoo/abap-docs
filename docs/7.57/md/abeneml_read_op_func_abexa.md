@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - READ, Operation Executing Functions"
+description: |
+  This example demonstrates how a READ statement can be used to access a managed RAP BO and execute a function. In this case, a selected set of fields is read from a RAP BO entity by executing a function. Data model The CDS data model consists of the root entity DEMO_SPFLI_FLIGHTS and its child enti
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_read_op_func_abexa.htm"
+abapFile: "abeneml_read_op_func_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abeneml", "read", "func", "abexa"]
+---
 
 * * *
 

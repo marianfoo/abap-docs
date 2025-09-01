@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Identity Transformation with JSON Writer as Target"
+description: |
+  This example demonstrates various XML sources for identity transformations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenid_trafo_glosry.htm 'Glossary Entry') with a JSON writer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjson_writer_glosry.htm 'Glossary Entry
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjson_trafo_id_abexa.htm"
+abapFile: "abenjson_trafo_id_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenjson", "trafo", "abexa"]
+---
 
 * * *
 

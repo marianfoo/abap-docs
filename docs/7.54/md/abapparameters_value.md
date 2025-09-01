@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid VALUE CHECK ... Extras: 1. ... DEFAULT val(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITION_2@2@) 3. ... MATCHCODE OBJECT search_help(#!ABAP_ADDITION_3@3@) 4. ... MEMORY
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_value.htm"
+abapFile: "abapparameters_value.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapparameters", "value"]
+---
 
 * * *
 

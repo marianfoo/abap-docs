@@ -1,4 +1,14 @@
-  
+---
+title: "most_significant_bit_glosry"
+description: |
+  most_significant_bit_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmost_significant_bit_glosry.htm"
+abapFile: "abenmost_significant_bit_glosry.htm"
+keywords: ["do", "if", "try", "abenmost", "significant", "bit", "glosry"]
+---
 
 * * *
 

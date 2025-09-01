@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  LOOP AT itab INTO wa CURSOR top_line FROM n1 TO n2 WITH CONTROL contrl. ... ENDLOOP. Variants: 1. LOOP WITH CONTROL contrl.(#!ABAP_VARIANT_1@1@) 2. LOOP AT itab CURSOR cur INTO wa(#!ABAP_VARIANT_2@2@) CURSOR top_line FROM n1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynploop.htm"
+abapFile: "dynploop.htm"
+keywords: ["loop", "do", "while", "if", "case", "try", "method", "data", "internal-table", "dynploop"]
+---
 
 * * *
 

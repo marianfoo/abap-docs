@@ -1,4 +1,14 @@
-  
+---
+title: "Possible Database Connections"
+description: |
+  When ABAP SQL, Native SQL, or AMDP is used in an ABAP program, the database interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_interface_glosry.htm 'Glossary Entry') uses a database connection(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_types.htm"
+abapFile: "abendb_connections_types.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "data", "types", "abendb", "connections"]
+---
 
 * * *
 
@@ -13,24 +23,8 @@ Possible Database Connections
 
 When ABAP SQL, Native SQL, or AMDP is used in an ABAP program, the [database interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_interface_glosry.htm "Glossary Entry") uses a [database connection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_connection_glosry.htm "Glossary Entry") of the current [work process](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwork_process_glosry.htm "Glossary Entry") to access a database. Every work process always has a standard connection to the standard database. In addition, secondary connections to other databases or database schemas can be defined. Service connections can also still be opened to the standard database.
 
--   [Standard Connection](#@@ITOC@@ABENDB_CONNECTIONS_TYPES_1)
--   [Secondary Connections](#@@ITOC@@ABENDB_CONNECTIONS_TYPES_2)
--   [Service Connections to the Standard Database](#@@ITOC@@ABENDB_CONNECTIONS_TYPES_3)
-
-Standard Connection   
-
-Each AS ABAP work process always has a standard connection to the [standard database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_db_glosry.htm "Glossary Entry") and this connection cannot be closed. It is shared by all [internal sessions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry"). If the standard connection is used, the work process acts as a [database user](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_user_glosry.htm "Glossary Entry") to which the [ABAP database schema](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is assigned.
-
--   By default, [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_glosry.htm "Glossary Entry"), [Native SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_glosry.htm "Glossary Entry"), and [AMDP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_glosry.htm "Glossary Entry") all use the standard connection to access the ABAP database schema of the standard AS ABAP database.
--   In all places where a database connection can be specified explicitly in ABAP, the standard connection can also be specified using the predefined name DEFAULT.
-
-Example
-
-Specifies the standard connection explicitly in ABAP SQL. It would not be necessary to specify the connection in the statements DELETE and INSERT. The statement [COMMIT CONNECTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_rollback_connection.htm), however, makes an explicit [database commit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_commit_glosry.htm "Glossary Entry") possible on the standard connection.
-
-DELETE FROM demo\_update CONNECTION default.
-INSERT demo\_update CONNECTION default
-  FROM @( VALUE #( id = 'X'  col1 = 1 col2 = 2 col3 = 3 col4 = 4 ) ).
+-   [Standard Connection](#abendb-connections-types-1-------secondary-connections---@ITOC@@ABENDB_CONNECTIONS_TYPES_2)
+-   [Service Connections to the Standard Database](#abendb-connections-types-3---standard-connection-----each-as-abap-work-process-always-has-a-standard-connection-to-the--standard-database--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenstandard-db-glosry-htm--glossary-entry---and-this-connection-cannot-be-closed--it-is-shared-by-all--internal-sessions--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abeninternal-session-glosry-htm--glossary-entry----if-the-standard-connection-is-used--the-work-process-acts-as-a--database-user--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abendatabase-user-glosry-htm--glossary-entry---to-which-the--abap-database-schema--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-db-schema-glosry-htm--glossary-entry---is-assigned-------by-default---abap-sql--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-sql-glosry-htm--glossary-entry-----native-sql--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-sql-glosry-htm--glossary-entry----and--amdp--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenamdp-glosry-htm--glossary-entry---all-use-the-standard-connection-to-access-the-abap-database-schema-of-the-standard-as-abap-database------in-all-places-where-a-database-connection-can-be-specified-explicitly-in-abap--the-standard-connection-can-also-be-specified-using-the-predefined-name-default---example--specifies-the-standard-connection-explicitly-in-abap-sql--it-would-not-be-necessary-to-specify-the-connection-in-the-statements-delete-and-insert--the-statement--commit-connection--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abapcommit-rollback-connection-htm---however--makes-an-explicit--database-commit--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abendatabase-commit-glosry-htm--glossary-entry---possible-on-the-standard-connection---delete-from-demo--update-connection-default--insert-demo--update-connection-default---from-( VALUE #( id = 'X'  col1 = 1 col2 = 2 col3 = 3 col4 = 4 ) ).
 COMMIT CONNECTION default.
 
 Secondary Connections   

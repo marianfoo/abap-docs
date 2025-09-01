@@ -1,4 +1,14 @@
-  
+---
+title: "FIELDS id,"
+description: |
+  parent, name, hierarchy_rank, hierarchy_tree_size, hierarchy_parent_rank, hierarchy_level, hierarchy_is_cycle, hierarchy_is_orphan, node_id, parent_id INTO TABLE @DATA(cds_result). And although we did not define any hierarchy attributes in the element list of the CDS hierarchy, we can a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm"
+abapFile: "abapsheet_abap_sql_hierarchies.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "abapsheet", "abap", "sql", "hierarchies"]
+---
 
 * * *
 
@@ -10,50 +20,12 @@ ABAP SQL: Working with Hierarchies
 
 This cheat sheet summarizes the possibilities, ABAP SQL offers together with ABAP CDS for working with [hierarchical data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhierarchy_glosry.htm "Glossary Entry") that are stored in database tables. Hierarchical data in database tables means, that lines of one or more database tables are connected by [parent-child relationships](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpcr_glosry.htm "Glossary Entry"). There are many use cases, where hierarchical data play a role and where accessing information about the hierarchical relationship is important. For example, a common task can be to find out the descendants or ancestors of a given hierarchy node or to aggregate values of subtrees.
 
--   [Overview](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_1)
--   [SQL Hierarchies](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_2)
--   [Creating SQL Hierarchies](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_3)
-    -   [ABAP CDS Hierarchies](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_4)
-    -   [ABAP SQL Hierarchy Generator HIERARCHY](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_5)
-    -   [ABAP CTE Hierarchies](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_6)
--   [Hierarchy Navigators](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_7)
-    -   [Hierarchy Node Navigator HIERARCHY\_DESCENDANTS](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_8)
-    -   [Hierarchy Node Navigator HIERARCHY\_ANCESTORS](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_9)
-    -   [Hierarchy Node Navigator HIERARCHY\_SIBLINGS](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_10)
-    -   [Hierarchy Aggregate Navigators](#@@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_11)
-
-Overview
-
-In former times you had to load the data from the database into internal tables and program it all by yourself (if you did not find an appropriate API). In between, [meshes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_glosry.htm "Glossary Entry") offered some features for working with hierarchies, as shown in this [example](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_for_reflex_sngl_abexa.htm), but have not found wide distribution.
-
-Meanwhile, the standard AS ABAP database is a SAP HANA database that offers a lot of helpful features. Among others, you find a set of hierarchy functions there, that allow you to deal with hierarchical data directly on the database and that you can look up in the [SAP HANA documentation](https://help.sap.com/viewer/4fe29514fd584807ac9f2a04f6754767/2.0.04/en-US/b4b0eec1968f41a099c828a4a6c8ca0f.html). Now you might expect that you must use [AMDP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp.htm) in order to access these functions from your ABAP programs, but no need to do so! ABAP SQL and ABAP CDS support hierarchies directly by wrapping the HANA built-in functions without any loss of performance. You can stay in the comfortable ABAP world and nevertheless have access to most modern features. All you have to do, is to understand some concepts and learn some additional syntax and then you can start right away.
-
-SQL Hierarchies
-
-With [SQL hierarchy](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_hierarchy_glosry.htm "Glossary Entry") we denote a special [hierarchical data source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy_data.htm) that you can use in the FROM clause of ABAP SQL queries. A SQL hierarchy is a tabular set of rows which form the hierarchy nodes of a hierarchy and which contains additionally [hierarchy columns](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhierarchy_column_glosry.htm "Glossary Entry") that contain hierarchy attributes with hierarchy-specific information for each row. For creating a SQL hierarchy, you need the following:
-
--   Data Source
-    
-    This can be any data source you can access normally in an ABAP SQL query, as most commonly a database table or a CDS view, but also a CTE (common table expression). The structure and contents of the data source should be able to represent hierarchical data.
-    
--   Parent-child Relation
-    
-    A parent-child relation must be defined between two or more columns of the data source. From the parent-child relationship and the actual data of the data source, the SQL hierarchy consisting of parent nodes and child nodes can be created. The parent-child relation must be defined by a self-association which we call hierarchy association. This can be achieved with CDS associations or CTE associations. A data source exposing a hierarchy association can be used as a hierarchy source for creating a SQL hierarchy.
-    
--   Hierarchy Creation
-    
-    From a hierarchy source, that is a data source exposing a hierarchy association, a SQL hierarchy can be created. This can be done either by defining a CDS hierarchy outside an ABAP program or with the hierarchy generator of ABAP SQL directly in the FROM clause of an ABAP SQL query inside an ABAP program.
-    
-
-The following topics show you step-by-step how SQL hierarchies can be created and accessed.
-
-Creating SQL Hierarchies
-
-ABAP CDS Hierarchies
-
-With [CDS hierarchies](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhierarchy_column_glosry.htm "Glossary Entry"), you outsource the hierarchy data source and the creation of the SQL hierarchy from your ABAP program to ABAP CDS. There the hierarchy is a fully fledged CDS entity, it s reusable in different programs or in other CDS entities (views) and can be part of your data model including access control using CDS DCL. For a CDS hierarchy, the hierarchy source cannot be anything else but a CDS view that exposes a [hierarchy association](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhierarchy_association_glosry.htm "Glossary Entry"). Here is a very simple example for that:
-
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
+-   [Overview](#abapsheet-abap-sql-hierarchies-1-------sql-hierarchies---@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_2)
+-   [Creating SQL Hierarchies](#abapsheet-abap-sql-hierarchies-3-----------abap-cds-hierarchies---@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_4)
+    -   [ABAP SQL Hierarchy Generator HIERARCHY](#abapsheet-abap-sql-hierarchies-5-----------abap-cte-hierarchies---@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_6)
+-   [Hierarchy Navigators](#abapsheet-abap-sql-hierarchies-7-----------hierarchy-node-navigator-hierarchy--descendants---@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_8)
+    -   [Hierarchy Node Navigator HIERARCHY\_ANCESTORS](#abapsheet-abap-sql-hierarchies-9-----------hierarchy-node-navigator-hierarchy--siblings---@ITOC@@ABAPSHEET_ABAP_SQL_HIERARCHIES_10)
+    -   [Hierarchy Aggregate Navigators](#abapsheet-abap-sql-hierarchies-11---overview--in-former-times-you-had-to-load-the-data-from-the-database-into-internal-tables-and-program-it-all-by-yourself--if-you-did-not-find-an-appropriate-api---in-between---meshes--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenmesh-glosry-htm--glossary-entry---offered-some-features-for-working-with-hierarchies--as-shown-in-this--example--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenmesh-for-reflex-sngl-abexa-htm---but-have-not-found-wide-distribution---meanwhile--the-standard-as-abap-database-is-a-sap-hana-database-that-offers-a-lot-of-helpful-features--among-others--you-find-a-set-of-hierarchy-functions-there--that-allow-you-to-deal-with-hierarchical-data-directly-on-the-database-and-that-you-can-look-up-in-the--sap-hana-documentation--https---help-sap-com-viewer-4fe29514fd584807ac9f2a04f6754767-2-0-04-en-us-b4b0eec1968f41a099c828a4a6c8ca0f-html---now-you-might-expect-that-you-must-use--amdp--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenamdp-htm--in-order-to-access-these-functions-from-your-abap-programs--but-no-need-to-do-so--abap-sql-and-abap-cds-support-hierarchies-directly-by-wrapping-the-hana-built-in-functions-without-any-loss-of-performance--you-can-stay-in-the-comfortable-abap-world-and-nevertheless-have-access-to-most-modern-features--all-you-have-to-do--is-to-understand-some-concepts-and-learn-some-additional-syntax-and-then-you-can-start-right-away---sql-hierarchies--with--sql-hierarchy--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abensql-hierarchy-glosry-htm--glossary-entry---we-denote-a-special--hierarchical-data-source--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenselect-hierarchy-data-htm--that-you-can-use-in-the-from-clause-of-abap-sql-queries--a-sql-hierarchy-is-a-tabular-set-of-rows-which-form-the-hierarchy-nodes-of-a-hierarchy-and-which-contains-additionally--hierarchy-columns--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenhierarchy-column-glosry-htm--glossary-entry---that-contain-hierarchy-attributes-with-hierarchy-specific-information-for-each-row--for-creating-a-sql-hierarchy--you-need-the-following-------data-source----------this-can-be-any-data-source-you-can-access-normally-in-an-abap-sql-query--as-most-commonly-a-database-table-or-a-cds-view--but-also-a-cte--common-table-expression---the-structure-and-contents-of-the-data-source-should-be-able-to-represent-hierarchical-data-----------parent-child-relation----------a-parent-child-relation-must-be-defined-between-two-or-more-columns-of-the-data-source--from-the-parent-child-relationship-and-the-actual-data-of-the-data-source--the-sql-hierarchy-consisting-of-parent-nodes-and-child-nodes-can-be-created--the-parent-child-relation-must-be-defined-by-a-self-association-which-we-call-hierarchy-association--this-can-be-achieved-with-cds-associations-or-cte-associations--a-data-source-exposing-a-hierarchy-association-can-be-used-as-a-hierarchy-source-for-creating-a-sql-hierarchy-----------hierarchy-creation----------from-a-hierarchy-source--that-is-a-data-source-exposing-a-hierarchy-association--a-sql-hierarchy-can-be-created--this-can-be-done-either-by-defining-a-cds-hierarchy-outside-an-abap-program-or-with-the-hierarchy-generator-of-abap-sql-directly-in-the-from-clause-of-an-abap-sql-query-inside-an-abap-program--------the-following-topics-show-you-step-by-step-how-sql-hierarchies-can-be-created-and-accessed---creating-sql-hierarchies--abap-cds-hierarchies--with--cds-hierarchies--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenhierarchy-column-glosry-htm--glossary-entry----you-outsource-the-hierarchy-data-source-and-the-creation-of-the-sql-hierarchy-from-your-abap-program-to-abap-cds--there-the-hierarchy-is-a-fully-fledged-cds-entity--it-s-reusable-in-different-programs-or-in-other-cds-entities--views--and-can-be-part-of-your-data-model-including-access-control-using-cds-dcl--for-a-cds-hierarchy--the-hierarchy-source-cannot-be-anything-else-but-a-cds-view-that-exposes-a--hierarchy-association--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenhierarchy-association-glosry-htm--glossary-entry----here-is-a-very-simple-example-for-that---AccessControl.authorizationCheck: #NOT\_REQUIRED
 define view entity DEMO\_CDS\_SIMPLE\_TREE\_VIEW
   as select from demo\_simple\_tree
   association \[1..1\] to DEMO\_CDS\_SIMPLE\_TREE\_VIEW as \_tree  

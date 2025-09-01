@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenddic_database_tables_forkeyrel.htm
 
-  
+---
+title: "DDIC - Foreign Key Dependencies"
+description: |
+  A foreign key dependency is a semantic dependency between two DDIC database tables, namely a foreign key table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenforeign_key_table_glosry.htm 'Glossary Entry') and a check table(https://help.sap.com/doc/abapdocu_latest_index_htm/l
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkeyrel.htm"
+abapFile: "abenddic_database_tables_forkeyrel.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "database", "tables", "forkeyrel"]
+---
 
 * * *
 
@@ -37,7 +47,17 @@ Continue
 
 ### abenddic_database_tables_checktab.htm
 
-  
+---
+title: "DDIC - Check Table"
+description: |
+  Table fields of a DDIC database table whose data type is determined by a DDIC data element(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm 'Glossary Entry') can be assigned a check table. The value table(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_checktab.htm"
+abapFile: "abenddic_database_tables_checktab.htm"
+keywords: ["insert", "delete", "do", "if", "try", "data", "abenddic", "database", "tables", "checktab"]
+---
 
 * * *
 
@@ -62,7 +82,17 @@ Hints
 
 ### abenddic_database_tables_forkey.htm
 
-  
+---
+title: "DDIC - Foreign Keys"
+description: |
+  A foreign key consists of one or more foreign key fields(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenforeign_key_field_glosry.htm 'Glossary Entry') of a foreign key table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenforeign_key_table_glosry.htm 'Glo
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkey.htm"
+abapFile: "abenddic_database_tables_forkey.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "database", "tables", "forkey"]
+---
 
 * * *
 
@@ -149,7 +179,17 @@ Foreign keys can have the following properties:
 
 ### abenddic_deprecation.htm
 
-  
+---
+title: "DDIC - Flagging of Deprecated Data in Check Tables"
+description: |
+  Rows in check tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid. If the check on deprecated data is active, the flag modifies the input check(https://help.sap.com/doc/abapdocu_latest_index_htm/lat
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm"
+abapFile: "abenddic_deprecation.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "deprecation"]
+---
 
 * * *
 
@@ -212,7 +252,17 @@ Continue
 
 ### abenddic_deprecation_abexa.htm
 
-  
+---
+title: "DDIC - Flagging of Deprecated Data in Check Tables"
+description: |
+  This example demonstrates how deprecated data is flagged in check tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm). Source Code REPORT demo_dynpro_deprecation. TABLES demo_depr_struc. DATA depr_flag TYPE abap_bool VALUE 'X'. START-OF-SELECTION.
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation_abexa.htm"
+abapFile: "abenddic_deprecation_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "data", "types", "abenddic", "deprecation", "abexa"]
+---
 
 * * *
 
@@ -274,7 +324,17 @@ If the checkbox Check deprecated data is not selected, no warnings or error mess
 
 ### abenddic_deprecation.htm
 
-  
+---
+title: "DDIC - Flagging of Deprecated Data in Check Tables"
+description: |
+  Rows in check tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid. If the check on deprecated data is active, the flag modifies the input check(https://help.sap.com/doc/abapdocu_latest_index_htm/lat
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm"
+abapFile: "abenddic_deprecation.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "deprecation"]
+---
 
 * * *
 

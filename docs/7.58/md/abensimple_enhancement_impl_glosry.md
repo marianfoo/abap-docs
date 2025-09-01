@@ -1,4 +1,14 @@
-  
+---
+title: "simple_enhancement_impl_glosry"
+description: |
+  simple_enhancement_impl_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensimple_enhancement_impl_glosry.htm"
+abapFile: "abensimple_enhancement_impl_glosry.htm"
+keywords: ["do", "if", "try", "abensimple", "enhancement", "impl", "glosry"]
+---
 
 * * *
 

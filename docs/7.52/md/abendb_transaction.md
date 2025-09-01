@@ -1,4 +1,14 @@
-  
+---
+title: "Database LUW"
+description: |
+  A database LUW(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenluw_glosry.htm 'Glossary Entry') (also called a database transaction) is a non-separable sequence of database operations that ends in a database commit(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendat
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_transaction.htm"
+abapFile: "abendb_transaction.htm"
+keywords: ["update", "do", "if", "try", "data", "abendb", "transaction"]
+---
 
 * * *
 

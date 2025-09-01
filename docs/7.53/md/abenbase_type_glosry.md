@@ -1,4 +1,14 @@
-  
+---
+title: "base_type_glosry"
+description: |
+  base_type_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm"
+abapFile: "abenbase_type_glosry.htm"
+keywords: ["do", "try", "data", "abenbase", "type", "glosry"]
+---
 
 * * *
 

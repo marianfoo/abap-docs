@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Predefined Data Objects"
+description: |
+  -   Obsolete System Fields(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_fields_obsolete.htm) -   The predefined structure screen(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_structure_obsolete.htm) Obsolete System Fields(https://help.sap.com/do
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_obsolete.htm"
+abapFile: "abenbuilt_in_obsolete.htm"
+keywords: ["do", "data", "abenbuilt", "obsolete"]
+---
 
 * * *
 

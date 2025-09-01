@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE SHORTDUMP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_shortref.htm) Syntax RAISE SHORTDUMP  TYPE cx_class  message(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm) EXPORTING p1 = a1 p2 = a2 ...
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm"
+abapFile: "abapraise_shortdump.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abapraise", "shortdump"]
+---
 
 * * *
 

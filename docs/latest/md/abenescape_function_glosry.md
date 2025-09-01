@@ -1,4 +1,14 @@
-  
+---
+title: "escape_function_glosry"
+description: |
+  escape_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenescape_function_glosry.htm"
+abapFile: "abenescape_function_glosry.htm"
+keywords: ["do", "if", "try", "abenescape", "function", "glosry"]
+---
 
 * * *
 

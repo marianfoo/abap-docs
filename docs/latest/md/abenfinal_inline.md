@@ -1,4 +1,14 @@
-  
+---
+title: "FINAL, Inline Declaration for Immutable Variables"
+description: |
+  Syntax ... FINAL(var) ... Effect Declaration of an immutable variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenimmutable_variable_glosry.htm 'Glossary Entry'). A declaration expression with the declaration operator FINAL in general works in the same way as an inline decl
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfinal_inline.htm"
+abapFile: "abenfinal_inline.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "catch", "method", "data", "internal-table", "abenfinal", "inline"]
+---
 
 * * *
 

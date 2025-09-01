@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TABLE itab  FROM wa USING KEY keyname(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenkeyname.htm)    WITH TABLE KEY  keyname(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenkeyname.htm) COMPONENTS comp_name1(name1) = operan
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_key.htm"
+abapFile: "abapdelete_itab_key.htm"
+keywords: ["select", "delete", "loop", "do", "while", "if", "case", "try", "class", "data", "types", "internal-table", "abapdelete", "itab", "key"]
+---
 
 * * *
 

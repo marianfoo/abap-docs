@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric data object"
+description: |
+  Data object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm 'Glossary Entry') that can be interpreted numerically if the content is appropriate. As well as data objects with numeric data types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennu
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_data_object_glosry.htm"
+abapFile: "abennumeric_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abennumeric", "object", "glosry"]
+---
 
 * * *
 

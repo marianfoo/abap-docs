@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN INCLUDE SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_incl_shortref.htm) Syntax SELECTION-SCREEN INCLUDE SELECT-OPTIONS selcrit OBLIGATORY OFF NO INTERVALS OFF NO-EXTENSION OFF MODIF ID modid ID i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_include_selop.htm"
+abapFile: "abapselection-screen_include_selop.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "include", "selop"]
+---
 
 * * *
 

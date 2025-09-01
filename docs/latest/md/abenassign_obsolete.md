@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Object Creation"
+description: |
+  This section describes the creation of a local data object with the statement ASSIGN LOCAL COPY(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_local_copy.htm). ASSIGN LOCAL COPY(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_local_copy.htm)
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassign_obsolete.htm"
+abapFile: "abenassign_obsolete.htm"
+keywords: ["do", "if", "data", "abenassign", "obsolete"]
+---
 
 * * *
 

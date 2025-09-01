@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - GROUP BY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm) Syntax ... GROUP BY   col1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), col2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sq
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgroupby_clause.htm"
+abapFile: "abapgroupby_clause.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abapgroupby", "clause"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Window Expressions"
+description: |
+  This example demonstrates simple window expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm). Source Code REPORT demo_select_over. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD ma
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_abexa.htm"
+abapFile: "abensql_expr_over_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "method", "class", "data", "types", "abensql", "expr", "over", "abexa"]
+---
 
 * * *
 

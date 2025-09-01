@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Interface"
+description: |
+  The RFC interface is required to execute a remote function call. The RFC interface performs the following services: -   Calling and controlling the communication routines that are needed to communicate with the remote system -   Logging on to and log off from the remote system and authorization chec
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_interface.htm"
+abapFile: "abenrfc_interface.htm"
+keywords: ["do", "if", "try", "data", "types", "abenrfc", "interface"]
+---
 
 * * *
 

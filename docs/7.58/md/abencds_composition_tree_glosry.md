@@ -1,4 +1,14 @@
-  
+---
+title: "CDS composition tree"
+description: |
+  A tree-like hierarchical structure of a RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry') that consists of parent entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenparent_entity_glosry.htm 'Glossary Entry'
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_composition_tree_glosry.htm"
+abapFile: "abencds_composition_tree_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "composition", "tree", "glosry"]
+---
 
 * * *
 

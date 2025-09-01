@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Client Handling in CDS View Entities"
+description: |
+  For a CDS view entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm 'Glossary Entry'), client handling is done implicitly and automatically by filtering the client session variable(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensession_vari
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_client_handling.htm"
+abapFile: "abencds_v2_view_client_handling.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "abencds", "view", "client", "handling"]
+---
 
 * * *
 
@@ -12,92 +22,8 @@ For a [CDS view entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-
 
 You cannot manipulate this. Client handling annotations are not available.
 
--   [Determining Client Dependency](#@@ITOC@@ABENCDS_V2_VIEW_CLIENT_HANDLING_1)
--   [Determining Client Handling](#@@ITOC@@ABENCDS_V2_VIEW_CLIENT_HANDLING_2)
--   [Properties of Client-Dependent CDS View Entities](#@@ITOC@@ABENCDS_V2_VIEW_CLIENT_HANDLING_3)
-
-Determining Client Dependency
-
-The [client dependency](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclient_dependency_glosry.htm "Glossary Entry") of a view is determined by the [data sources](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_source_v2.htm) used:
-
--   If one of the data sources used in the view is client-dependent, the view is [client-dependent](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclient_dependent_glosry.htm "Glossary Entry").
--   If none of the data sources used in the view is client-dependent, the view is [client-independent](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclient_independent_glosry.htm "Glossary Entry").
-
-Determining Client Handling
-
-If a CDS view entity is client-dependent, the client handling is performed by filtering the client [session variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_session_variable_v2.htm). The session variable algorithm expands the [joins](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjoin_glosry.htm "Glossary Entry") of the view entity implicitly as shown in the following table. This applies to joins specified explicitly using JOIN, as well as to instances of joins created when using [SQL path expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_path_expression_glosry.htm "Glossary Entry").
-
-Left Side
-
-Right Side
-
-INNER JOIN
-
-LEFT OUTER JOIN
-
-RIGHT OUTER JOIN
-
-CROSS JOIN
-
-Client-dependent
-
-Client-dependent
-
-Compares the client columns in the ON condition
-
-Compares the client columns in the ON condition
-
-Compares the client columns in the ON condition
-
-Transforms the cross join to an inner join using an ON condition for the client columns
-
-Client-independent
-
-Client-dependent
-
-\-
-
-Compares the client column with the value of the [session variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_session_variable_v2.htm) in the ON condition
-
-\-
-
-\-
-
-Client-dependent
-
-Client-independent
-
-\-
-
-\-
-
-Compares the client column with the value of the [session variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_session_variable_v2.htm) in the ON condition
-
-\-
-
-Client-independent
-
-Client-independent
-
-\-
-
-\-
-
-\-
-
-\-
-
-In addition, when client-dependent database tables are accessed, [WHERE\-clauses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_where_clause_v2.htm) with comparisons of the client columns with the [session variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_session_variable_v2.htm) are added to the view implicitly. If only client-dependent [CDS entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry") are accessed, however, no clauses are added.
-
-It is not possible to access the data of different clients in a single read.
-
-The addition [USING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_client.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) for switching [implicit client handling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_client_handling.htm) is not allowed for CDS view entities. The obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_client_obsolete.htm) is not allowed either.
-
-Example
-
-The following CDS view entity DEMO\_CDS\_CLIENT\_HANDLING defines different kinds of [joins](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjoin_glosry.htm "Glossary Entry") ([left outer join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleft_outer_join_glosry.htm "Glossary Entry"), [inner join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninner_join_glosry.htm "Glossary Entry"), and [right outer join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenright_outer_join_glosry.htm "Glossary Entry")) between a client-independent database table (T000) and a client-dependent database table (DEMO\_SALES\_ORDER). It also defines and uses an [association](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_association_glosry.htm "Glossary Entry") between the same client-independent database table (T000) and the same client-dependent database table (DEMO\_SALES\_ORDER).
-
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
+-   [Determining Client Dependency](#abencds-v2-view-client-handling-1-------determining-client-handling---@ITOC@@ABENCDS_V2_VIEW_CLIENT_HANDLING_2)
+-   [Properties of Client-Dependent CDS View Entities](#abencds-v2-view-client-handling-3---determining-client-dependency--the--client-dependency--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenclient-dependency-glosry-htm--glossary-entry---of-a-view-is-determined-by-the--data-sources--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-data-source-v2-htm--used-------if-one-of-the-data-sources-used-in-the-view-is-client-dependent--the-view-is--client-dependent--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenclient-dependent-glosry-htm--glossary-entry--------if-none-of-the-data-sources-used-in-the-view-is-client-dependent--the-view-is--client-independent--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenclient-independent-glosry-htm--glossary-entry-----determining-client-handling--if-a-cds-view-entity-is-client-dependent--the-client-handling-is-performed-by-filtering-the-client--session-variable--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abensession-variable-glosry-htm--glossary-entry-----session-client--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-session-variable-v2-htm---the-session-variable-algorithm-expands-the--joins--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenjoin-glosry-htm--glossary-entry---of-the-view-entity-implicitly-as-shown-in-the-following-table--this-applies-to-joins-specified-explicitly-using-join--as-well-as-to-instances-of-joins-created-when-using--sql-path-expressions--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abensql-path-expression-glosry-htm--glossary-entry-----left-side--right-side--inner-join--left-outer-join--right-outer-join--cross-join--client-dependent--client-dependent--compares-the-client-columns-in-the-on-condition--compares-the-client-columns-in-the-on-condition--compares-the-client-columns-in-the-on-condition--transforms-the-cross-join-to-an-inner-join-using-an-on-condition-for-the-client-columns--client-independent--client-dependent------compares-the-client-column-with-the-value-of-the--session-variable--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abensession-variable-glosry-htm--glossary-entry-----session-client--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-session-variable-v2-htm--in-the-on-condition----------client-dependent--client-independent----------compares-the-client-column-with-the-value-of-the--session-variable--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abensession-variable-glosry-htm--glossary-entry-----session-client--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-session-variable-v2-htm--in-the-on-condition------client-independent--client-independent------------------in-addition--when-client-dependent-database-tables-are-accessed---where--clauses--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-where-clause-v2-htm--with-comparisons-of-the-client-columns-with-the--session-variable--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abensession-variable-glosry-htm--glossary-entry-----session-client--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-session-variable-v2-htm--are-added-to-the-view-implicitly--if-only-client-dependent--cds-entities--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-entity-glosry-htm--glossary-entry---are-accessed--however--no-clauses-are-added---it-is-not-possible-to-access-the-data-of-different-clients-in-a-single-read---the-addition--using--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abapselect-client-htm--of-the-statement--select--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abapselect-htm--for-switching--implicit-client-handling--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenabap-sql-client-handling-htm--is-not-allowed-for-cds-view-entities--the-obsolete-addition--client-specified--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abapselect-client-obsolete-htm--is-not-allowed-either---example--the-following-cds-view-entity-demo--cds--client--handling-defines-different-kinds-of--joins--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenjoin-glosry-htm--glossary-entry-----left-outer-join--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenleft-outer-join-glosry-htm--glossary-entry-----inner-join--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abeninner-join-glosry-htm--glossary-entry----and--right-outer-join--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenright-outer-join-glosry-htm--glossary-entry----between-a-client-independent-database-table--t000--and-a-client-dependent-database-table--demo--sales--order---it-also-defines-and-uses-an--association--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-association-glosry-htm--glossary-entry---between-the-same-client-independent-database-table--t000--and-the-same-client-dependent-database-table--demo--sales--order----AccessControl.authorizationCheck: #NOT\_REQUIRED
 @EndUserText.label: 'CDS View entity\_client handling'
 define view entity DEMO\_CDS\_CLIENT\_HANDLING
   as select from

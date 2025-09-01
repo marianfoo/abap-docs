@@ -1,4 +1,14 @@
-  
+---
+title: "CDS view extension"
+description: |
+  Transportable extension of a CDS view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm 'Glossary Entry') defined in DDL source code(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') in CDS DDL(https://h
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_extend_glosry.htm"
+abapFile: "abencds_view_extend_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "view", "extend", "glosry"]
+---
 
 * * *
 

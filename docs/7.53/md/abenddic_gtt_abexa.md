@@ -1,4 +1,14 @@
-  
+---
+title: "Global Temporary Tables, Access"
+description: |
+  This example demonstrates how global temporary tables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_gtt.htm) in ABAP Dictionary are accessed. Source Code REPORT demo_gtt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMEN
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_gtt_abexa.htm"
+abapFile: "abenddic_gtt_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenddic", "gtt", "abexa"]
+---
 
 * * *
 

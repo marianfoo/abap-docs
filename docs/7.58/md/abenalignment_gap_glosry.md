@@ -1,4 +1,14 @@
-  
+---
+title: "alignment_gap_glosry"
+description: |
+  alignment_gap_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalignment_gap_glosry.htm"
+abapFile: "abenalignment_gap_glosry.htm"
+keywords: ["insert", "do", "if", "try", "abenalignment", "gap", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "table_function_glosry"
+description: |
+  table_function_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_function_glosry.htm"
+abapFile: "abentable_function_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abentable", "function", "glosry"]
+---
 
 * * *
 

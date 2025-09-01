@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave-.htm) Syntax LEAVE. Effect Obsolete: Exits a program as specified by the program call.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_shortref.htm"
+abapFile: "abapleave_shortref.htm"
+keywords: ["do", "if", "abapleave", "shortref"]
+---
 
 * * *
 

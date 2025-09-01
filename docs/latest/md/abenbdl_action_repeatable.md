@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - repeatable"
+description: |
+  Syntax ... repeatable ... Effect Defines a non-factory RAP action(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_action_glosry.htm 'Glossary Entry') or a RAP function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_function_glosry.htm 'Glossary En
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_repeatable.htm"
+abapFile: "abenbdl_action_repeatable.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "types", "abenbdl", "action", "repeatable"]
+---
 
 * * *
 

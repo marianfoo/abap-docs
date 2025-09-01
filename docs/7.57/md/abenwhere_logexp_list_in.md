@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( operand1, operand2, ... ) IN  ( ( operand11, operand21, ... ), ( operand12, operand22, ... ) )    ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_subquery.htm) UNIONINTERSECTEXCEPT .
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_list_in.htm"
+abapFile: "abenwhere_logexp_list_in.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenwhere", "logexp", "list"]
+---
 
 * * *
 

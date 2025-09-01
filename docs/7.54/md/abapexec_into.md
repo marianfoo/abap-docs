@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - INTO"
+description: |
+  Syntax EXEC SQL. SELECT ... INTO STRUCTURE :host1 , host2 ... ENDEXEC. Effect In a native SELECT or FETCH statement specified between EXEC and ENDEXEC, an INTO clause can be specified to pass the read data to host variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aba
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm"
+abapFile: "abapexec_into.htm"
+keywords: ["select", "do", "if", "case", "data", "field-symbol", "abapexec", "into"]
+---
 
 * * *
 

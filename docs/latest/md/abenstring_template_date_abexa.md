@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_template_date_form DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: fixvals TYPE ddfixvalues, fixval  LIKE LINE OF fixvals. METHODS: setup, teardown, check_system.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_template_date_abexa.htm"
+abapFile: "abenstring_template_date_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenstring", "template", "date", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - WHERE, Analytical Query"
+description: |
+  Syntax ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v2.htm) ... Effect Defines a WHERE condition for the result set of a CDS analytical projection view(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_analytical_p
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_where_apv.htm"
+abapFile: "abencds_where_apv.htm"
+keywords: ["do", "if", "try", "data", "abencds", "where", "apv"]
+---
 
 * * *
 

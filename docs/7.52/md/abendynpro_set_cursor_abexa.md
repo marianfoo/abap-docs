@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Determinig the Cursor Position"
+description: |
+  The example shows how to determine the cursor position on screens. Source Code REPORT demo_dynpro_set_cursor. DATA:  field1(14) TYPE c, field2(14) TYPE c, field3(14) TYPE c, name(10) TYPE c. SELECTION-SCREEN BEGIN OF BLOCK bloc WITH FRAME. PARAMETERS: def RADIOBUTTON GROUP rad, txt RADIOBUTTON GR
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_set_cursor_abexa.htm"
+abapFile: "abendynpro_set_cursor_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "set", "cursor", "abexa"]
+---
 
 * * *
 

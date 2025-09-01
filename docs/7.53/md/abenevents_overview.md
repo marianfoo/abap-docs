@@ -1,4 +1,14 @@
-  
+---
+title: "Events"
+description: |
+  Events are generally characterized by occurring at a particular point in time. When an event is raised, other actions can be executed as a consequence. Examples of when events can be raised include changes in the status of an object, such as when a booking is canceled or a new account or account obj
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevents_overview.htm"
+abapFile: "abenevents_overview.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "abenevents", "overview"]
+---
 
 * * *
 

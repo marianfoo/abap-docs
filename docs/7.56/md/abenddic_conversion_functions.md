@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Conversion Functions"
+description: |
+  The following table shows the conversion functions that can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm 'Glossary Entry').
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_conversion_functions.htm"
+abapFile: "abenddic_conversion_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "conversion", "functions"]
+---
 
 * * *
 

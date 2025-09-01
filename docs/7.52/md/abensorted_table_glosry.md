@@ -1,4 +1,14 @@
-  
+---
+title: "Sorted table"
+description: |
+  Table category(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_category_glosry.htm 'Glossary Entry') of an internal table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entry') that is managed using a primary table index(
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_table_glosry.htm"
+abapFile: "abensorted_table_glosry.htm"
+keywords: ["do", "try", "data", "types", "internal-table", "abensorted", "table", "glosry"]
+---
 
 * * *
 

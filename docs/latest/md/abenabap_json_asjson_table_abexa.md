@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - asJSON for Internal Tables"
+description: |
+  This example demonstrates asJSON(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asjson_abap_types_table.htm) for internal tables. Source Code  Public class definition CLASS cl_demo_asjson_tables DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUB
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_asjson_table_abexa.htm"
+abapFile: "abenabap_json_asjson_table_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abenabap", "json", "asjson", "table", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "c1_provider_rules_cds"
+description: |
+  c1_provider_rules_cds - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc1_provider_rules_cds.htm"
+abapFile: "abenc1_provider_rules_cds.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenc1", "provider", "rules", "cds"]
+---
 
 * * *
 

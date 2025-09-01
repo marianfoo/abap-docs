@@ -1,4 +1,14 @@
-  
+---
+title: "CDS transactional query"
+description: |
+  CDS projection view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') that is intended for modelling transactional queries. A transactional query is typically used in the context of the ABAP RESTful Application Programming Model(https
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_transactional_pv_glosry.htm"
+abapFile: "abencds_transactional_pv_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "transactional", "glosry"]
+---
 
 * * *
 

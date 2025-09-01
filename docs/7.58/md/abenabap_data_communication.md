@@ -1,4 +1,14 @@
-  
+---
+title: "Data Interfaces and Communication Interfaces"
+description: |
+  This section describes ABAP statements and programming interfaces for communication with other systems and programs and their associated data exchange formats. -   Service Bindings(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_bindings.htm) -   RFC - Remote Function C
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm"
+abapFile: "abenabap_data_communication.htm"
+keywords: ["do", "if", "method", "class", "data", "abenabap", "communication"]
+---
 
 * * *
 

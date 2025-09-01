@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Client Handling"
+description: |
+  This example demonstrates client handling in the statement WITH(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith.htm). Source Code  Public class definition CLASS cl_demo_cte_client_handling DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwith_client_handling_abexa.htm"
+abapFile: "abenwith_client_handling_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenwith", "client", "handling", "abexa"]
+---
 
 * * *
 

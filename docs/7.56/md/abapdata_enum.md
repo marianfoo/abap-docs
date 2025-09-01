@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, TYPE, LIKE enum"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_shortref.htm) Syntax DATA enum_var  TYPE enum_type  LIKE enum_dobj  VALUE valIS INITIAL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_options.htm)
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_enum.htm"
+abapFile: "abapdata_enum.htm"
+keywords: ["do", "try", "data", "types", "abapdata", "enum"]
+---
 
 * * *
 

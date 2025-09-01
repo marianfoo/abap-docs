@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code Modularization"
+description: |
+  Background The unit in the ABAP environment that corresponds to a source code file capable of being inserted into another program is known as an include program. Include programs are used for source code modularization and are inserted into master programs for this purpose. Include programs are not
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_modular_guidl.htm"
+abapFile: "abensource_code_modular_guidl.htm"
+keywords: ["insert", "do", "if", "method", "class", "abensource", "code", "modular", "guidl"]
+---
 
 * * *
 

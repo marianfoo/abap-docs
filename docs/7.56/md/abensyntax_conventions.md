@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Conventions"
+description: |
+  The ABAP keyword documentation documents use the following syntax conventions: -   ABAP words are displayed in uppercase letters. Example: APPEND, NON-UNIQUE, INTO -   Operands are displayed in lowercase letters. Example: dobj, dbtab -   Parts of statements whose syntax diagrams are displayed elsewh
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyntax_conventions.htm"
+abapFile: "abensyntax_conventions.htm"
+keywords: ["do", "if", "case", "abensyntax", "conventions"]
+---
 
 * * *
 

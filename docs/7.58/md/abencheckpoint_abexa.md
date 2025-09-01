@@ -1,4 +1,14 @@
-  
+---
+title: "Checkpoints and Checkpoint Groups"
+description: |
+  This example demonstrates the various checkpoints(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheckpoint_glosry.htm 'Glossary Entry') and their binding to a checkpoint group(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheckpoint_group_glosry.htm 'Glossary En
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheckpoint_abexa.htm"
+abapFile: "abencheckpoint_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "abencheckpoint", "abexa"]
+---
 
 * * *
 

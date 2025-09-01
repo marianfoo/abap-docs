@@ -1,4 +1,14 @@
-  
+---
+title: "This example demonstrates how a global exception class is associated with a message"
+description: |
+  Source Code REPORT demo_raise_message_global. CLASS msg_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS meth EXCEPTIONS exception. ENDCLASS. CLASS msg_demo IMPLEMENTATION. METHOD main. TRY. meth( EXCEPTIONS exception = 4 ). IF sy-subrc <> 0. RAISE EXCEPTION T
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenraise_message_global_abexa.htm"
+abapFile: "abenraise_message_global_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abenraise", "message", "global", "abexa"]
+---
 
 * * *
 

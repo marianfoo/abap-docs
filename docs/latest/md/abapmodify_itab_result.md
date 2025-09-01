@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY itab, result"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_itab_shortref.htm) Syntax ...  ASSIGNING <fs> CASTING ELSE UNASSIGN   REFERENCE INTO dref . Effect These additions are possible only when modifying single lines(https://help.
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_itab_result.htm"
+abapFile: "abapmodify_itab_result.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "internal-table", "field-symbol", "abapmodify", "itab", "result"]
+---
 
 * * *
 

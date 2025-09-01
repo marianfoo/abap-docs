@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP operand"
+description: |
+  Syntax element of an ABAP statement(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_statement_glosry.htm 'Glossary Entry') at an operand position(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_position_glosry.htm 'Glossary Entry'). Specified as a data
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_operand_glosry.htm"
+abapFile: "abenabap_operand_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "field-symbol", "abenabap", "operand", "glosry"]
+---
 
 * * *
 

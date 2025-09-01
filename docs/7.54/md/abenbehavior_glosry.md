@@ -1,4 +1,14 @@
-  
+---
+title: "Business Object Behavior"
+description: |
+  Short: Behavior An artifact in the ABAP RESTful Programming Model(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) that combines ABAP Core Data Services (ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm)), Behavior Defini
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_glosry.htm"
+abapFile: "abenbehavior_glosry.htm"
+keywords: ["do", "if", "data", "abenbehavior", "glosry"]
+---
 
 * * *
 

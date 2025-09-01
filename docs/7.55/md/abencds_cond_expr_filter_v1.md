@@ -1,4 +1,14 @@
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 

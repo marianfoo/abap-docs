@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Built-In Data Types"
+description: |
+  The built-in data types in ABAP Dictionary are used as follows: -   To construct user-defined DDIC data types (DDIC data elements, DDIC structures, including DDIC database tables and DDIC views, and DDIC table types) in the ABAP Dictionary. They can also be used in CDS DDL(https://help.sap.com/doc
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types_intro.htm"
+abapFile: "abenddic_builtin_types_intro.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "builtin", "intro"]
+---
 
 * * *
 

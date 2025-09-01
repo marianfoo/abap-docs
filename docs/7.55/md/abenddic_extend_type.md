@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dictionary DDL for Structure Enhancements"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm 'Glossary Entry'), a structure or DDIC database table can be given a source-code-based enhancement known as an append structure in Dictionary DDL(https://help.sap.com/doc/abapdocu_75
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm"
+abapFile: "abenddic_extend_type.htm"
+keywords: ["do", "try", "data", "abenddic", "extend", "type"]
+---
 
 * * *
 

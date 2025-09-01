@@ -1,4 +1,14 @@
-  
+---
+title: "assertion_glosry"
+description: |
+  assertion_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassertion_glosry.htm"
+abapFile: "abenassertion_glosry.htm"
+keywords: ["do", "if", "try", "abenassertion", "glosry"]
+---
 
 * * *
 

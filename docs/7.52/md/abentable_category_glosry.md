@@ -1,4 +1,14 @@
-  
+---
+title: "table_category_glosry"
+description: |
+  table_category_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_category_glosry.htm"
+abapFile: "abentable_category_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abentable", "category", "glosry"]
+---
 
 * * *
 

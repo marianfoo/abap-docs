@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dictionary DDL for Structure Definitions"
+description: |
+  A structure can be displayed and modified using dictionary DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry') in the ABAP development tools for Eclipse (ADT)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_g
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_structure.htm"
+abapFile: "abenddic_define_structure.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "define", "structure"]
+---
 
 * * *
 

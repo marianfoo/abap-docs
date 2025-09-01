@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  (lock, authorization, etag) dependent by _assoc Effect The following three statements can be summarized in one statement: -   lock dependent by _assoc -   authorization dependent by _assoc -   etag dependent by _assoc This syntax short form can be used if the RAP authori
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_short_syntax.htm"
+abapFile: "abenbdl_short_syntax.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "short", "syntax"]
+---
 
 * * *
 

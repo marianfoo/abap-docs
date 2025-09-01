@@ -1,4 +1,14 @@
-  
+---
+title: "CDS quantity field"
+description: |
+  Component of a CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') of data type QUAN, DECFLOAT16, DECFLOAT34, DEC, FLTP, INT1, INT2, or INT4 in ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.ht
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_glosry.htm"
+abapFile: "abencds_quantity_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "quantity", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "decfloat_arith_glosry"
+description: |
+  decfloat_arith_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecfloat_arith_glosry.htm"
+abapFile: "abendecfloat_arith_glosry.htm"
+keywords: ["do", "if", "try", "abendecfloat", "arith", "glosry"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenaddress_obsolet.htm
 
-  
+---
+title: "Declaration and Loading"
+description: |
+  -   TYPE-POOLS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptype-pools.htm) -   CLASS, INTERFACE - LOAD(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_interface_load.htm) -   FIELDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfields.ht
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaddress_obsolet.htm"
+abapFile: "abenaddress_obsolet.htm"
+keywords: ["do", "class", "abenaddress", "obsolet"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abaptype-pools.htm
 
-  
+---
+title: "TYPE-POOLS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptype-pools_shortref.htm) Obsolete Syntax TYPE-POOLS tpool. Effect This statement is obsolete. It is checked for accurate syntax but otherwise ignored by ABAP Compiler. The statement TYPE-POOLS was required in the past t
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptype-pools.htm"
+abapFile: "abaptype-pools.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "abaptype", "pools"]
+---
 
 * * *
 
@@ -66,7 +86,17 @@ Notes
 
 ### abapclass_interface_load.htm
 
-  
+---
+title: "CLASS, INTERFACE - LOAD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_deferred_load_shortref.htm) Obsolete Syntax CLASS class DEFINITION LOAD. INTERFACE intf LOAD. Effect The variants of the statements CLASS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass.htm)
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_interface_load.htm"
+abapFile: "abapclass_interface_load.htm"
+keywords: ["do", "if", "class", "types", "abapclass", "interface", "load"]
+---
 
 * * *
 
@@ -96,7 +126,17 @@ These variants of the statements CLASS and INTERFACE can also be used in context
 
 ### abapfields.htm
 
-  
+---
+title: "FIELDS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfields_shortref.htm) Obsolete Syntax FIELDS dobj. Effect This statement (forbidden in classes) addresses a data object dobj of the program. A warning from the extended program check can be avoided if the data object dob
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfields.htm"
+abapFile: "abapfields.htm"
+keywords: ["do", "if", "try", "class", "data", "abapfields"]
+---
 
 * * *
 

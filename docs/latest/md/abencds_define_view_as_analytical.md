@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE TRANSIENT VIEW ENTITY AS PROJECTION ON, Analytical Query"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) ... @AccessControl.authorizationCheck: #NO
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_as_analytical.htm"
+abapFile: "abencds_define_view_as_analytical.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "view", "analytical"]
+---
 
 * * *
 

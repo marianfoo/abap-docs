@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... HIERARCHY_DESCENDANTS( ... )  HIERARCHY_ANCESTORS( ... )  HIERARCHY_SIBLINGS( ... ) Effect Not yet documented.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_access.htm"
+abapFile: "abenselect_hierarchy_access.htm"
+keywords: ["select", "do", "data", "abenselect", "hierarchy", "access"]
+---
 
 * * *
 

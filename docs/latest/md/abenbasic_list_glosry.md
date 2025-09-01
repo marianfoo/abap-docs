@@ -1,4 +1,14 @@
-  
+---
+title: "basic_list_glosry"
+description: |
+  basic_list_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbasic_list_glosry.htm"
+abapFile: "abenbasic_list_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenbasic", "list", "glosry"]
+---
 
 * * *
 

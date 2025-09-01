@@ -1,4 +1,14 @@
-  
+---
+title: "direct_update_glosry"
+description: |
+  direct_update_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendirect_update_glosry.htm"
+abapFile: "abendirect_update_glosry.htm"
+keywords: ["insert", "update", "do", "if", "try", "internal-table", "abendirect", "glosry"]
+---
 
 * * *
 

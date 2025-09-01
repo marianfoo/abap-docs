@@ -1,4 +1,14 @@
-  
+---
+title: "Rounding Errors"
+description: |
+  Background In the case of assignments between floating point numbers (types f, decfloat16, decfloat34) and fixed point numbers (types i and p), rounding errors usually occur that produce an incorrect value. However, values of type p (and also decfloat16 and decfloat34) assigned to type f are not alw
+version: "7.52"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrounding_error_guidl.htm"
+abapFile: "abenrounding_error_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abenrounding", "error", "guidl"]
+---
 
 * * *
 

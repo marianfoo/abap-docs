@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping BETWEEN pfcg_mapping_field_definition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_mapping_spcl
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["do", "if", "try", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 

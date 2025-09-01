@@ -1,4 +1,14 @@
-  
+---
+title: "system_client_glosry"
+description: |
+  system_client_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_client_glosry.htm"
+abapFile: "abensystem_client_glosry.htm"
+keywords: ["do", "if", "try", "abensystem", "client", "glosry"]
+---
 
 * * *
 

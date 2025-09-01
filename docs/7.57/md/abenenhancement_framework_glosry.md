@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Enhancement Framework"
+description: |
+  Framework for enhancing(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_glosry.htm 'Glossary Entry') repository objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm 'Glossary Entry'). The ABAP Enhancement Framework compris
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_framework_glosry.htm"
+abapFile: "abenenhancement_framework_glosry.htm"
+keywords: ["do", "if", "try", "abenenhancement", "framework", "glosry"]
+---
 
 * * *
 

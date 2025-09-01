@@ -1,4 +1,14 @@
-  
+---
+title: "data_aging_glosry"
+description: |
+  data_aging_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_aging_glosry.htm"
+abapFile: "abendata_aging_glosry.htm"
+keywords: ["do", "try", "data", "abendata", "aging", "glosry"]
+---
 
 * * *
 

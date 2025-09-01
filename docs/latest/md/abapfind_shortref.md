@@ -1,4 +1,14 @@
-  
+---
+title: "FIND - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) Syntax FIND FIRST OCCURRENCEALL OCCURRENCES OF SUBSTRING substring  PCREREGEX regex IN  SECTION OFFSET off LENGTH len OF dobj
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_shortref.htm"
+abapFile: "abapfind_shortref.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abapfind", "shortref"]
+---
 
 * * *
 

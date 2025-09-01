@@ -1,4 +1,14 @@
-  
+---
+title: "local_date_glosry"
+description: |
+  local_date_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlocal_date_glosry.htm"
+abapFile: "abenlocal_date_glosry.htm"
+keywords: ["do", "if", "try", "abenlocal", "date", "glosry"]
+---
 
 * * *
 

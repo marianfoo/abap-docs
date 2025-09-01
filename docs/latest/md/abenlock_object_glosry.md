@@ -1,4 +1,14 @@
-  
+---
+title: "lock_object_glosry"
+description: |
+  lock_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlock_object_glosry.htm"
+abapFile: "abenlock_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenlock", "object", "glosry"]
+---
 
 * * *
 

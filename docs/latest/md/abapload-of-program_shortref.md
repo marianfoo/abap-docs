@@ -1,4 +1,14 @@
-  
+---
+title: "LOAD-OF-PROGRAM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program.htm) Syntax LOAD-OF-PROGRAM. Effect Initializes an event block whose event is raised in an internal session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.ht
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program_shortref.htm"
+abapFile: "abapload-of-program_shortref.htm"
+keywords: ["do", "if", "try", "abapload", "program", "shortref"]
+---
 
 * * *
 

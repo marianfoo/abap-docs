@@ -1,4 +1,14 @@
-  
+---
+title: "Full Text Index"
+description: |
+  Specific secondary table index(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_index_glosry.htm 'Glossary Entry') of the SAP HANA database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm 'Glossary Entry') for text searches.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfull_text_index_glosry.htm"
+abapFile: "abenfull_text_index_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenfull", "text", "index", "glosry"]
+---
 
 * * *
 

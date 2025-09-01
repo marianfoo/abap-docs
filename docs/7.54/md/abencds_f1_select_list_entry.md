@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, element"
+description: |
+  Syntax ...  @element_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotations.htm) @element_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotations.htm) ... KEY   association(htt
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_entry.htm"
+abapFile: "abencds_f1_select_list_entry.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "class", "data", "abencds", "list", "entry"]
+---
 
 * * *
 

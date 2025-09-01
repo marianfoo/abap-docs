@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.enhancementCategory : enh_cat Effect Mandatory annotations for specifying structure properties in the definition of a DDIC structure using the statement DEFINE STRUCTURE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_structure
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_props.htm"
+abapFile: "abenddicddl_define_struct_props.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "props"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The PCRE syntax is more powerful than the POSIX syntax. Furthermore, PCRE regular expressions generally perform better than the POSIX regular expressions supported by ABAP. -   Creating objects of class CL_ABAP_REGEX with the operator NEW(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax.htm"
+abapFile: "abenregex_posix_syntax.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenregex", "posix", "syntax"]
+---
 
 * * *
 

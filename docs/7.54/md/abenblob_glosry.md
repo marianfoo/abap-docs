@@ -1,4 +1,14 @@
-  
+---
+title: "BLOB"
+description: |
+  Binary Large Object. Term for a database field(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_field_glosry.htm 'Glossary Entry') of the RAWSTRING(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) data type. → More(https://help.sap.c
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenblob_glosry.htm"
+abapFile: "abenblob_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenblob", "glosry"]
+---
 
 * * *
 

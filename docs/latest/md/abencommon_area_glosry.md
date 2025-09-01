@@ -1,4 +1,14 @@
-  
+---
+title: "common_area_glosry"
+description: |
+  common_area_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommon_area_glosry.htm"
+abapFile: "abencommon_area_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencommon", "area", "glosry"]
+---
 
 * * *
 

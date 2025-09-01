@@ -1,4 +1,14 @@
-  
+---
+title: "member_loop_glosry"
+description: |
+  member_loop_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmember_loop_glosry.htm"
+abapFile: "abenmember_loop_glosry.htm"
+keywords: ["loop", "do", "if", "try", "abenmember", "glosry"]
+---
 
 * * *
 

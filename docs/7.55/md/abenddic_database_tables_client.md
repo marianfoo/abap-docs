@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Client Dependency of Database Tables"
+description: |
+  If the first column of a DDIC database table is a key field with the built-in type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) CLNT, the table is client-dependent. In this case, the column contains the client ID(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_client.htm"
+abapFile: "abenddic_database_tables_client.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "client"]
+---
 
 * * *
 

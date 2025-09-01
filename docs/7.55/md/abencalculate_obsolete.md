@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Calculations"
+description: |
+  -   MINIMUM(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapminimum.htm) -   MAXIMUM(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmaximum.htm) -   SUMMING(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsumming.htm) MINIMUM(https://help.sap.com
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalculate_obsolete.htm"
+abapFile: "abencalculate_obsolete.htm"
+keywords: ["do", "abencalculate", "obsolete"]
+---
 
 * * *
 

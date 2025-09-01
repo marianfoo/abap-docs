@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Body"
+description: |
+  Syntax ... field characteristics(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_char.htm) field numbering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_numbering.htm) RAP BO operations(https://help.sap.com/doc/abapdocu
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_body.htm"
+abapFile: "abenbdl_body.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "body"]
+---
 
 * * *
 

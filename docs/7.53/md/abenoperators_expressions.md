@@ -1,4 +1,14 @@
-  
+---
+title: "Operators and Expressions"
+description: |
+  Generally, an operator joins two operands as an expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpressions.htm) or constructs an expression together with an operand. When a statement containing expressions like this is executed, the result of the expression is determined
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperators_expressions.htm"
+abapFile: "abenoperators_expressions.htm"
+keywords: ["do", "abenoperators", "expressions"]
+---
 
 * * *
 

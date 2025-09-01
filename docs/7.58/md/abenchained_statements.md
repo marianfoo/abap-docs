@@ -1,4 +1,14 @@
-  
+---
+title: "Chained Statements"
+description: |
+  Syntax initial_part: remaining_part1, remaining_part2, ... . Consecutive statements that have the same initial part can be combined into in a single chained statement as follows: -   The identical initial part initial_part is specified once and closed with a colon (:). -   The remaining parts re
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statements.htm"
+abapFile: "abenchained_statements.htm"
+keywords: ["update", "do", "if", "try", "data", "abenchained", "statements"]
+---
 
 * * *
 

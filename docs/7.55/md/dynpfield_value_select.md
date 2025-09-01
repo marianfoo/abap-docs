@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  Variants: 1. FIELD f VALUES (NOT val1, NOT val2, ...(#!ABAP_VARIANT_1@1@) NOT BETWEEN vali AND valj, ...). 2. FIELD f SELECT (#!ABAP_VARIANT_2@2@) FROM dbtab WHERE col1 = f1 AND col2 = f2 ... INTO wa WHENEVER NOT FOUND SEND E
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynpfield_value_select.htm"
+abapFile: "dynpfield_value_select.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "dynpfield", "value"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Runtime Measurement of Database Reads"
+description: |
+  The example demonstrates how to use the statement GET RUN TIME FIELD statement at runtime. Source Code REPORT demo_get_run_time. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: t1 TYPE i, t2 TYPE i, t  TYPE p DECIMALS 2. DATA n TY
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenget_run_time_abexa.htm"
+abapFile: "abenget_run_time_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenget", "run", "time", "abexa"]
+---
 
 * * *
 

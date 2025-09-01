@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Examples of Window Expressions"
+description: |
+  !Example(exa.gif 'Example') SQL Expressions, Window Expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_abexa.htm) !Example(exa.gif 'Example') SQL Expressions, Window Expressions Without Partition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_abexas.htm"
+abapFile: "abensql_expr_over_abexas.htm"
+keywords: ["select", "do", "if", "data", "abensql", "expr", "over", "abexas"]
+---
 
 * * *
 

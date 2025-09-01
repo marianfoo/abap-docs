@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_hierarchy_desc_with. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS fill_table. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(level) = 3. cl_demo_input=>request( CHANGING field = level ). fill_table( ). SELECT FROM demo_cds_par
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhier_desc_agg_with_abexa.htm"
+abapFile: "abenhier_desc_agg_with_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenhier", "desc", "agg", "with", "abexa"]
+---
 
 * * *
 

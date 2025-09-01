@@ -1,4 +1,14 @@
-  
+---
+title: "Include Structures"
+description: |
+  Components of a structure can be defined by including the components of other structures in ABAP Dictionary, such as database tables or views. These included structures are known as include structures (or includes for short). From a technical perspective, the structure in which an include structure
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_include_structure.htm"
+abapFile: "abenddic_include_structure.htm"
+keywords: ["select", "insert", "do", "if", "try", "class", "data", "types", "abenddic", "include", "structure"]
+---
 
 * * *
 

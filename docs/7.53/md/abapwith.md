@@ -1,4 +1,14 @@
-  
+---
+title: "WITH"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm) Syntax WITH +cte1( name1, name2, ... ) AS ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_subquery.htm) UNION ...(https://help.sap.com/do
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm"
+abapFile: "abapwith.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "abapwith"]
+---
 
 * * *
 

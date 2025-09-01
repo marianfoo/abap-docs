@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - AMDP Methods in Interfaces and Superclasses"
+description: |
+  This example demonstrates how AMDP methods are implemented from interfaces and superclasses. Source Code REPORT demo_amdp_polymorphism. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: iref TYPE REF TO if_demo_amdp_interface, cre
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_polymorphism_abexa.htm"
+abapFile: "abenamdp_polymorphism_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "polymorphism", "abexa"]
+---
 
 * * *
 

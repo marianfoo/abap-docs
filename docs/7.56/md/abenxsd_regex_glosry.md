@@ -1,4 +1,14 @@
-  
+---
+title: "XSD regular expression"
+description: |
+  Regular expressions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregular_expression_glosry.htm 'Glossary Entry') using the syntax and semantics described under Regular expressions in XSD 1.0 and 1.1(https://www.w3.org/XML/2008/03/xsdl-regex/re.xml). ABAP supports XSD syntax(h
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxsd_regex_glosry.htm"
+abapFile: "abenxsd_regex_glosry.htm"
+keywords: ["do", "try", "abenxsd", "regex", "glosry"]
+---
 
 * * *
 

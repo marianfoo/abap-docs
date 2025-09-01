@@ -1,4 +1,14 @@
-  
+---
+title: "HANA tuning object"
+description: |
+  Tuning object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentuning_object_glosry.htm 'Glossary Entry') that defines technical settings for a repository object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm 'Glossary Entry') on the SA
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_tuning_object_glosry.htm"
+abapFile: "abenhana_tuning_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenhana", "tuning", "object", "glosry"]
+---
 
 * * *
 

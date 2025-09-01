@@ -1,4 +1,14 @@
-  
+---
+title: "SHIFT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapshift.htm) Syntax SHIFT dobj    BY num PLACES  UP TO substring  LEFTRIGHT CIRCULAR    LEFT DELETING LEADING  RIGHT DELETING TRAILING mask  IN
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapshift_shortref.htm"
+abapFile: "abapshift_shortref.htm"
+keywords: ["insert", "do", "if", "abapshift", "shortref"]
+---
 
 * * *
 

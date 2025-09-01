@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSFORMATION, OPTIONS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transformation_shortref.htm) Syntax ... OPTIONS clear              = val data_refs          = val initial_components = val technical_types    = val value_handling     =
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transformation_options.htm"
+abapFile: "abapcall_transformation_options.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapcall", "transformation", "options"]
+---
 
 * * *
 

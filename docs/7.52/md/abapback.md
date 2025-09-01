@@ -1,4 +1,14 @@
-  
+---
+title: "BACK"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapback_shortref.htm) Syntax BACK. Effect This statement positions the list cursor(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_cursor_glosry.htm 'Glossary Entry') on the first place of the first l
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapback.htm"
+abapFile: "abapback.htm"
+keywords: ["do", "if", "try", "class", "data", "abapback"]
+---
 
 * * *
 

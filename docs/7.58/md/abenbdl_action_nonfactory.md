@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - action, Non-Factory"
+description: |
+  Syntax internal(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_internal.htm) static(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_static.htm) repeatable(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_repeat
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_nonfactory.htm"
+abapFile: "abenbdl_action_nonfactory.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "action", "nonfactory"]
+---
 
 * * *
 

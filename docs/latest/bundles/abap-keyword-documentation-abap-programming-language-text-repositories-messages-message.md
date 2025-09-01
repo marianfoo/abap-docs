@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abapmessage.htm
 
-  
+---
+title: "MESSAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_shortref.htm) Syntax MESSAGE  msg(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_msg.htm)   text(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapme
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage.htm"
+abapFile: "abapmessage.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abapmessage"]
+---
 
 * * *
 
@@ -150,7 +160,17 @@ Continue
 
 ### abapmessage_msg.htm
 
-  
+---
+title: "MESSAGE, msg"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_shortref.htm) Syntax ...  tn    tn(id)    ID mid TYPE mtype NUMBER num    oref TYPE mtype  ... Alternatives: 1. ... tn ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... tn(id
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_msg.htm"
+abapFile: "abapmessage_msg.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "field-symbol", "abapmessage", "msg"]
+---
 
 * * *
 
@@ -318,7 +338,17 @@ Executable Examples
 
 ### abapmessage_text.htm
 
-  
+---
+title: "MESSAGE, text"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_shortref.htm) Syntax ... text TYPE mtype ... Effect This variant sends a character string in text as a message(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_glosry.htm 'Gloss
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_text.htm"
+abapFile: "abapmessage_text.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "field-symbol", "abapmessage", "text"]
+---
 
 * * *
 
@@ -363,7 +393,17 @@ ENDTRY.
 
 ### abapmessage_into.htm
 
-  
+---
+title: "MESSAGE, INTO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_shortref.htm) Syntax MESSAGE msg(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_msg.htm) WITH dobj1 ... dobj4(https://help.sap.com/doc/abapdocu_latest_index_htm/late
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmessage_into.htm"
+abapFile: "abapmessage_into.htm"
+keywords: ["do", "if", "try", "data", "types", "abapmessage", "into"]
+---
 
 * * *
 

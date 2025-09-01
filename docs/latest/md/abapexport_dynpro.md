@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax EXPORT DYNPRO h f e m ID id. Effect Exports the dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary Entry') with the name in the id. The dynpro informatio
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_dynpro.htm"
+abapFile: "abapexport_dynpro.htm"
+keywords: ["do", "if", "try", "internal-table", "abapexport", "dynpro"]
+---
 
 * * *
 

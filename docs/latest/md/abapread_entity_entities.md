@@ -1,4 +1,14 @@
-  
+---
+title: "READ ENTITY, ENTITIES"
+description: |
+  Syntax Forms READ ENTITY, Short Form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_short.htm) 1. READ ENTITY  IN LOCAL MODE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities.htm"
+abapFile: "abapread_entity_entities.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "abapread", "entity", "entities"]
+---
 
 * * *
 

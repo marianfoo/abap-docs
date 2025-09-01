@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... USING SELECTION-SCREEN dynnr VIA SELECTION-SCREEN selscreen_parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit_selscreen_parameters.htm)... Additions: 1. ... USING SELECTION-SCREEN dynnr(#!ABAP_ADDITION_1@1@) 2. ... VIA SELECTION-SCRE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit_interface.htm"
+abapFile: "abapsubmit_interface.htm"
+keywords: ["select", "do", "if", "try", "catch", "data", "abapsubmit", "interface"]
+---
 
 * * *
 

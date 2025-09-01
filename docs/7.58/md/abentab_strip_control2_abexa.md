@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODULE can
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 

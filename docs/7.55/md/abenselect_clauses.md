@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, clauses"
+description: |
+  This section describes the possible clauses and additions, which are possible for the SELECT statements of main queries(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmainquery_glosry.htm 'Glossary Entry') and subqueries(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_clauses.htm"
+abapFile: "abenselect_clauses.htm"
+keywords: ["select", "do", "try", "data", "abenselect", "clauses"]
+---
 
 * * *
 

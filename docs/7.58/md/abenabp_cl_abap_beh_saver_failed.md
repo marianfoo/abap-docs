@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  Syntax for unmanaged(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_impl_type.htm) scenarios. The adjust_numbers method is only available for late numbering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_late_numbering.htm) scenarios. See more methods tha
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_cl_abap_beh_saver_failed.htm"
+abapFile: "abenabp_cl_abap_beh_saver_failed.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenabp", "abap", "beh", "saver", "failed"]
+---
 
 * * *
 

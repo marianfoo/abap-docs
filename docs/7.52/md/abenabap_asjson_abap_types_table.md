@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   An internal table that does not have an associated JSON object component in deserializations retains its previous value. If an empty array is assigned to an internal table, it is set to its type-dependent initial value (which means it is emptied). To initialize the internal table in either case,
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson_abap_types_table.htm"
+abapFile: "abenabap_asjson_abap_types_table.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenabap", "asjson", "abap", "table"]
+---
 
 * * *
 

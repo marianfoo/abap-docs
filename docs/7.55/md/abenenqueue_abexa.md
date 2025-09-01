@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Locks, Set and Release"
+description: |
+  This example demonstrates how SAP locks are set and released (enqueue and dequeued). Source Code REPORT demo_transaction_enqueue MESSAGE-ID sabapdemos. TABLES  demo_conn. DATA sflight_tab TYPE TABLE OF sflight. DATA  text TYPE c LENGTH 8. DATA  ok_code TYPE sy-ucomm. CALL SCREEN 100. MODULE ini
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenqueue_abexa.htm"
+abapFile: "abenenqueue_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abenenqueue", "abexa"]
+---
 
 * * *
 

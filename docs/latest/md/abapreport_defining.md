@@ -1,4 +1,14 @@
-  
+---
+title: "REPORT, DEFINING DATABASE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_shortref.htm) Obsolete Syntax ...   DEFINING DATABASE ldb  ... Effect This addition of the statement REPORT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport.htm) shows tha
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_defining.htm"
+abapFile: "abapreport_defining.htm"
+keywords: ["do", "if", "try", "data", "abapreport", "defining"]
+---
 
 * * *
 

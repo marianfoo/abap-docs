@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselection-screen_modif_id.htm) ... Additions: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPL
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 

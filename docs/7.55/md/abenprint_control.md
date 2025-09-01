@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Spool Control"
+description: |
+  Configuring the Upper and Left Margins The statement SET MARGIN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_margin.htm) can be used to define the upper and left margins of a spool list. Archiving Information in Spool Lists When spooling is active, the statement PRINT-CONTRO
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprint_control.htm"
+abapFile: "abenprint_control.htm"
+keywords: ["do", "class", "abenprint", "control"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Program Type and Program Attributes"
+description: |
+  As soon as an ABAP program is created, important decisions must be made about its robustness and maintainability by selecting its program type and attributes. Among other things, the program type and program attributes determine how strict the syntax check is. Another important property of a program
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_type_features_guidl.htm"
+abapFile: "abenprogr_type_features_guidl.htm"
+keywords: ["select", "do", "if", "abenprogr", "type", "features", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, CLIENT SPECIFIED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_shortref.htm) Obsolete Syntax TYPES dtype TYPE cds_entity CLIENT SPECIFIED clnt. Effect With the addition CLIENT SPECIFIED the statement TYPES defines a structured type constructed from all components of a CDS e
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_client_specified.htm"
+abapFile: "abaptypes_client_specified.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "types", "internal-table", "abaptypes", "client", "specified"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP-Managed Database Objects"
+description: |
+  By default, an AS ABAP(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') operates with data saved in the ABAP database schema(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_db_schema_glosry.htm 'Glossary Entry') in its s
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects.htm"
+abapFile: "abenabap_managed_db_objects.htm"
+keywords: ["do", "try", "data", "abenabap", "managed", "objects"]
+---
 
 * * *
 

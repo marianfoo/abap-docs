@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Obsolete input checks are possible using the additions VALUES(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield_value_select.htm) and SELECT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield_value_select.htm) of the dynpro logic statement FIELD(https://hel
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm"
+abapFile: "abenabap_dynpros_checks.htm"
+keywords: ["select", "do", "abenabap", "dynpros", "checks"]
+---
 
 * * *
 

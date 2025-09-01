@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... SINGLE FOR UPDATE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_single.htm)  FROM(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm) source FIELDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfields_c
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith_mainquery.htm"
+abapFile: "abapwith_mainquery.htm"
+keywords: ["select", "update", "loop", "do", "if", "case", "data", "internal-table", "abapwith", "mainquery"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS access control"
+description: |
+  Implicit restriction applied to a selection of CDS entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') when accessing objects with ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Gl
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm"
+abapFile: "abencds_access_control_glosry.htm"
+keywords: ["select", "do", "if", "try", "abencds", "access", "control", "glosry"]
+---
 
 * * *
 

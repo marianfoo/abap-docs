@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Control Framework"
+description: |
+  The controls on the presentation server and the ABAP application programs on the application server communicate using the SAP Control Framework(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_framework_glosry.htm 'Glossary Entry') (Help Portal Documentation(https://help.sa
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_custom_controls.htm"
+abapFile: "abendynpro_custom_controls.htm"
+keywords: ["do", "if", "try", "method", "class", "abendynpro", "custom", "controls"]
+---
 
 * * *
 

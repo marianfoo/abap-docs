@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  itab - Table Expressions (table_exp)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) itab - Table Functions (table_func)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_functions.htm) FOR, Table Iterations(https://help.sap.com/doc/ab
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_expr_func.htm"
+abapFile: "abentable_processing_expr_func.htm"
+keywords: ["do", "data", "internal-table", "abentable", "processing", "expr", "func"]
+---
 
 * * *
 

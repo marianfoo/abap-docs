@@ -1,4 +1,14 @@
-  
+---
+title: "Obscuring ABAP Source Code"
+description: |
+  ABAP source code(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') is obscured if tasks that can be performed directly are instead performed across diversions that disguise the real purpose. One common form of obscured code is found when i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobscure_code_scrty.htm"
+abapFile: "abenobscure_code_scrty.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "field-symbol", "abenobscure", "code", "scrty"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS, IMPORTING, EXPORTING, CHANGING, RAISING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-methods_shortref.htm) Syntax CLASS-METHODS meth DEFAULT IGNOREFAIL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_default.htm) IMPORTING parameters(https://help.sap.com/d
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-methods_general.htm"
+abapFile: "abapclass-methods_general.htm"
+keywords: ["do", "if", "try", "method", "class", "abapclass", "methods", "general"]
+---
 
 * * *
 

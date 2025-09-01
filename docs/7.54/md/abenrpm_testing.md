@@ -1,4 +1,14 @@
-  
+---
+title: "Test"
+description: |
+  CREATE-OBJECT-FOR-TESTING(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_create_object_for_testing.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_testing.htm"
+abapFile: "abenrpm_testing.htm"
+keywords: ["do", "abenrpm", "testing"]
+---
 
 * * *
 

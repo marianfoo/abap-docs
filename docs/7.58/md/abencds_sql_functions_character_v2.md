@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, String Functions"
+description: |
+  The following table shows the possible SQL functions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_functions_v2.htm) for character strings in a CDS view entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm 'Glossary Entry'), plus t
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_functions_character_v2.htm"
+abapFile: "abencds_sql_functions_character_v2.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "class", "data", "types", "abencds", "sql", "functions", "character"]
+---
 
 * * *
 

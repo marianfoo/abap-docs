@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - CREATING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_shortref.htm) Syntax ... CREATING   READERLOCATOR FOR  COLUMNS blob1 blob2 ... clob1 clob2 ...    ALL OTHER BLOBCLOB COLUMNS  READERLOCATOR FOR ...
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_creating.htm"
+abapFile: "abapselect_creating.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "creating"]
+---
 
 * * *
 

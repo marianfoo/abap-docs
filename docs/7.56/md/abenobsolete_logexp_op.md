@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Comparison Operators"
+description: |
+  The left side of the following table shows obsolete comparison operators(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomp_operator_glosry.htm 'Glossary Entry') that can now only be used outside of classes. This applies to comparisons -   in comparison expressions(https://help.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_logexp_op.htm"
+abapFile: "abenobsolete_logexp_op.htm"
+keywords: ["do", "try", "class", "abenobsolete", "logexp"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Daemon Framework"
+description: |
+  ADF for short. A framework for using ABAP Daemons(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_glosry.htm 'Glossary Entry'), based on classes(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_glosry.htm 'Glossary Entry') and interfaces(https://h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_framework_glosry.htm"
+abapFile: "abenabap_daemon_framework_glosry.htm"
+keywords: ["do", "try", "class", "abenabap", "daemon", "framework", "glosry"]
+---
 
 * * *
 

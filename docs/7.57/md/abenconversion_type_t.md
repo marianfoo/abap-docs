@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type t"
+description: |
+  The conversion rules are designed in such a way that, when data objects of time type t(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_types_date_time.htm) are assigned to character-like data objects, they behave like character-like objects and numerically in assignments to
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_t.htm"
+abapFile: "abenconversion_type_t.htm"
+keywords: ["insert", "do", "if", "try", "catch", "data", "types", "abenconversion", "type"]
+---
 
 * * *
 
@@ -15,10 +25,8 @@ The conversion rules are designed in such a way that, when data objects of time 
 
 Although the conversion rules actually allow the assignment of time fields that contain invalid data, this is not recommended.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_T_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_T_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_T_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_T_4)
+-   [Numeric Target Fields](#abenconversion-type-t-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_T_2)
+-   [Byte-Like Target Fields](#abenconversion-type-t-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_T_4)
 
 Numeric Target Fields   
 

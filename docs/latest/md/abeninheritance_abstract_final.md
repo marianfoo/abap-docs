@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Abstract and Final Methods and Classes"
+description: |
+  Abstract and final methods or classes can be defined using the additions ABSTRACT and FINAL of the statements METHODS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods.htm) and CLASS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass.htm). Abstrac
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abstract_final.htm"
+abapFile: "abeninheritance_abstract_final.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "abstract", "final"]
+---
 
 * * *
 

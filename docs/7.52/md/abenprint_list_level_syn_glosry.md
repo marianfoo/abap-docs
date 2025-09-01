@@ -1,4 +1,14 @@
-  
+---
+title: "print_list_level_syn_glosry"
+description: |
+  print_list_level_syn_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprint_list_level_syn_glosry.htm"
+abapFile: "abenprint_list_level_syn_glosry.htm"
+keywords: ["do", "try", "abenprint", "list", "level", "syn", "glosry"]
+---
 
 * * *
 

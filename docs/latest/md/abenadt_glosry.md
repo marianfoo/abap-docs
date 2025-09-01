@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP development tools for Eclipse"
+description: |
+  ADT for short. Eclipse-based tools for editing repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') of the ABAP Repository(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_repository_glosry.h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm"
+abapFile: "abenadt_glosry.htm"
+keywords: ["do", "if", "case", "try", "abenadt", "glosry"]
+---
 
 * * *
 

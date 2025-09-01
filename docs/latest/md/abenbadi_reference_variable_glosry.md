@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI reference variable"
+description: |
+  Special object reference variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_refer_variable_glosry.htm 'Glossary Entry') that is declared with reference to a BAdI(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbadi_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbadi_reference_variable_glosry.htm"
+abapFile: "abenbadi_reference_variable_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenbadi", "reference", "variable", "glosry"]
+---
 
 * * *
 

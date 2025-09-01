@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Control Structures"
+description: |
+  This section describes control structures that should no longer be used: -   Statements between CASE and WHEN(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_when_obsolete.htm) -   ON CHANGE OF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapon.htm) -
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobsolete_control_structures.htm"
+abapFile: "abenobsolete_control_structures.htm"
+keywords: ["do", "while", "if", "case", "abenobsolete", "control", "structures"]
+---
 
 * * *
 

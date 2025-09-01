@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - draft table"
+description: |
+  Syntax ... draft table DraftTableName ... Effect This addition is only relevant for draft-enabled RAP BOs and for these, it is mandatory. It specifies the DDIC database table(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') used to store dra
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_table.htm"
+abapFile: "abenbdl_draft_table.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "abenbdl", "draft", "table"]
+---
 
 * * *
 

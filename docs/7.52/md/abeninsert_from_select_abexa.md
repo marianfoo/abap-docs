@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, FROM SELECT"
+description: |
+  This example demonstrates the statement INSERT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm) with the addition FROM SELECT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_source.htm). Source Code REPORT demo_insert_from_select. CLASS de
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninsert_from_select_abexa.htm"
+abapFile: "abeninsert_from_select_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abeninsert", "from", "abexa"]
+---
 
 * * *
 

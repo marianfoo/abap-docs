@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, clauses"
+description: |
+  Syntax ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_where_clause_v2.htm) GROUP BY field1, field2, ...(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v2.htm) HAVING cds_cond(https://help.sap.com/doc/abap
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_clauses_v2.htm"
+abapFile: "abencds_select_clauses_v2.htm"
+keywords: ["select", "do", "try", "data", "abencds", "clauses"]
+---
 
 * * *
 

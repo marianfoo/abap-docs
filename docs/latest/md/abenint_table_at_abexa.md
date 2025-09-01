@@ -1,4 +1,14 @@
-  
+---
+title: "Group Level Processing"
+description: |
+  This example demonstrates group level processing in internal tables. Source Code  Public class definition CLASS cl_demo_int_tbls_at DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. TYPES: BEGIN OF line, col1 TYPE c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenint_table_at_abexa.htm"
+abapFile: "abenint_table_at_abexa.htm"
+keywords: ["loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenint", "table", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... func( arg ) ... Effect The argument of a floating point function must be a single data object outside an arithmetic expression and can be an arithmetic expression itself within an arithmetic expression. Effect of the floating point functions: Function func Meaning Definition Range acos arccosine
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_functions.htm"
+abapFile: "abenfloating_point_functions.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "internal-table", "abenfloating", "point", "functions"]
+---
 
 * * *
 

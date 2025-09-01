@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  MAX( ALLDISTINCT operand )  MIN( ALLDISTINCT operand )  AVG( ALLDISTINCT operand AS dtype(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_avg_as_v2.htm) )  SUM( ALLDISTINCT operand )  COUNT( DISTINCT operand )  C
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v2.htm"
+abapFile: "abencds_aggregate_functions_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "aggregate", "functions"]
+---
 
 * * *
 

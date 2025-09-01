@@ -1,4 +1,14 @@
-  
+---
+title: "Native SQL interface"
+description: |
+  Part of the database interface(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_interface_glosry.htm 'Glossary Entry') responsible for Native SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennative_sql_glosry.htm 'Glossary Entry') statements. The Native S
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennative_sql_interface_glosry.htm"
+abapFile: "abennative_sql_interface_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abennative", "sql", "interface", "glosry"]
+---
 
 * * *
 

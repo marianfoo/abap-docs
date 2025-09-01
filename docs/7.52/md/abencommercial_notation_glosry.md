@@ -1,4 +1,14 @@
-  
+---
+title: "Commercial Notation"
+description: |
+  Displays a number as a sequence of digits, with a decimal separator(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecimal_point_separat_glosry.htm 'Glossary Entry') if applicable, displaying the plus or minus sign after the digits. das Vorzeichen hinter den Ziffern angegeben ist.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencommercial_notation_glosry.htm"
+abapFile: "abencommercial_notation_glosry.htm"
+keywords: ["do", "if", "try", "abencommercial", "notation", "glosry"]
+---
 
 * * *
 

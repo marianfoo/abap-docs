@@ -1,4 +1,14 @@
-  
+---
+title: "CDS TDL"
+description: |
+  The Type Definition Language in ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS TDL contains language elements for CDS user-defined types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_user_defined_type_glosry
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_tdl_glosry.htm"
+abapFile: "abencds_tdl_glosry.htm"
+keywords: ["do", "if", "try", "types", "abencds", "tdl", "glosry"]
+---
 
 * * *
 

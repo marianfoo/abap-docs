@@ -1,4 +1,14 @@
-  
+---
+title: "tag_interface_glosry"
+description: |
+  tag_interface_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentag_interface_glosry.htm"
+abapFile: "abentag_interface_glosry.htm"
+keywords: ["do", "if", "try", "class", "abentag", "interface", "glosry"]
+---
 
 * * *
 

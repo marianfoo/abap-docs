@@ -1,4 +1,14 @@
-  
+---
+title: "substring_function_glosry"
+description: |
+  substring_function_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubstring_function_glosry.htm"
+abapFile: "abensubstring_function_glosry.htm"
+keywords: ["do", "if", "try", "abensubstring", "function", "glosry"]
+---
 
 * * *
 

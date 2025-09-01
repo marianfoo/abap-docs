@@ -1,4 +1,14 @@
-  
+---
+title: "packed_number_literal_glosry"
+description: |
+  packed_number_literal_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpacked_number_literal_glosry.htm"
+abapFile: "abenpacked_number_literal_glosry.htm"
+keywords: ["do", "if", "try", "abenpacked", "number", "literal", "glosry"]
+---
 
 * * *
 

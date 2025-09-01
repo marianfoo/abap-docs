@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Daemon class"
+description: |
+  Global subclass of CL_ABAP_DAEMON_EXT_BASE. The instances of an ABAP Daemon class are ABAP Daemons(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_glosry.htm 'Glossary Entry') created by the ABAP Daemon framework(https://help.sap.com/doc/abapdocu_752_index_htm/7.52
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_class_glosry.htm"
+abapFile: "abenabap_daemon_class_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenabap", "daemon", "glosry"]
+---
 
 * * *
 

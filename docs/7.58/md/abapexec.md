@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec_sql_shortref.htm) Syntax EXEC SQL. ... ENDEXEC. Effect These statements define an area in an ABAP program in which one or more Native SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec.htm"
+abapFile: "abapexec.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "class", "data", "abapexec"]
+---
 
 * * *
 

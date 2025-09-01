@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Technical Attributes of Data Elements"
+description: |
+  A data element describes an elementary data type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_type_glosry.htm 'Glossary Entry') with th
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements_tech.htm"
+abapFile: "abenddic_data_elements_tech.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "elements", "tech"]
+---
 
 * * *
 

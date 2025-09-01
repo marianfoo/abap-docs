@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Comparison of SQLScript with ABAP SQL"
+description: |
+  This example demonstrates the performance of SQL in AMDP when compared with ABAP SQL. Source Code REPORT demo_amdp_vs_abap_sql. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). IF NOT cl_abap_dbf
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_vs_abap_sql_abexa.htm"
+abapFile: "abenamdp_vs_abap_sql_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "abap", "sql", "abexa"]
+---
 
 * * *
 

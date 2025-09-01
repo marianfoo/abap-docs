@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - SINGLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_shortref.htm) Syntax ... SINGLE FOR UPDATE ... Addition: ... FOR UPDATE(#!ABAP_ONE_ADD@1@) Effect The ABAP-specific addition SINGLE makes the results set of a query(https://help.sap.com/doc/abapdocu_7
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_single.htm"
+abapFile: "abapselect_single.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "data", "internal-table", "abapselect", "single"]
+---
 
 * * *
 

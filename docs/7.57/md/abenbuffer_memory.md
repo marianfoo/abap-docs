@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Buffer Management"
+description: |
+  -   Storage in the Memory(#abenbuffer-memory-1-------buffer-monitor---@ITOC@@ABENBUFFER_MEMORY_2) Storage in the Memory Table buffering takes place in the shared memory(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshared_memory_glosry.htm 'Glossary Entry') of each AS instance.
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuffer_memory.htm"
+abapFile: "abenbuffer_memory.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abenbuffer", "memory"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Table Buffering - Buffer Management
 
--   [Storage in the Memory](#@@ITOC@@ABENBUFFER_MEMORY_1)
--   [Buffer Monitor](#@@ITOC@@ABENBUFFER_MEMORY_2)
+-   [Storage in the Memory](#abenbuffer-memory-1-------buffer-monitor---@ITOC@@ABENBUFFER_MEMORY_2)
 
 Storage in the Memory   
 

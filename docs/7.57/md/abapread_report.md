@@ -1,4 +1,14 @@
-  
+---
+title: "READ REPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_report_shortref.htm) Syntax READ REPORT prog INTO itab MAXIMUM WIDTH INTO wid. Addition: ... MAXIMUM WIDTH INTO wid(#!ABAP_ONE_ADD@1@) Effect This statement reads the source code of the program specified
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_report.htm"
+abapFile: "abapread_report.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "catch", "class", "data", "internal-table", "abapread", "report"]
+---
 
 * * *
 

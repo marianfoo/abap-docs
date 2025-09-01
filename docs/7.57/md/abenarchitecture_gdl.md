@@ -1,4 +1,14 @@
-  
+---
+title: "Architecture"
+description: |
+  The guidelines in this section give you advice on how to use the ABAP programming language and are not designed as general guidelines for the architecture or programming model of application programs on AS ABAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm 'Glos
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarchitecture_gdl.htm"
+abapFile: "abenarchitecture_gdl.htm"
+keywords: ["select", "do", "if", "try", "data", "abenarchitecture", "gdl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Logging Database Tables"
+description: |
+  If logging is activated, any changes to table entries are logged in the log table DBTABLOG. This also require the profile parameter rec/client to be set accordingly. This profile parameter can have the following values: -   ALL Logging is cross-client. -   clnt1, clnt2, ... Changes are logged only i
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_protocol.htm"
+abapFile: "abenddic_database_tables_protocol.htm"
+keywords: ["insert", "update", "do", "if", "method", "class", "data", "types", "abenddic", "database", "tables", "protocol"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, ORDER BY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_shortref.htm) Syntax ... ORDER BY  PRIMARY KEY    col1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_columns.htm)a1 ASCENDINGDESCENDING NULLS
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaporderby_clause.htm"
+abapFile: "abaporderby_clause.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abaporderby", "clause"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, field"
+description: |
+  Syntax ... entity.fieldalias.field ... Effect Field of a data source(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v2.htm) entity of the current CDS view entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.h
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_field_v2.htm"
+abapFile: "abencds_field_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "field"]
+---
 
 * * *
 

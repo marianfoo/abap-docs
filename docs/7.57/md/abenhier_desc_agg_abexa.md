@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_hierarchy_descendants_agg. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS fill_table. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(level) = 2. cl_demo_input=>request( CHANGING field = level ). DATA itab TYPE SORTED TABLE OF demo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhier_desc_agg_abexa.htm"
+abapFile: "abenhier_desc_agg_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abenhier", "desc", "agg", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP object"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that is defined in the RAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarap_glosry.htm 'Glossary Entry') context. Examples are CDS behavior definiti
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_object_glosry.htm"
+abapFile: "abencds_rap_object_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "rap", "object", "glosry"]
+---
 
 * * *
 

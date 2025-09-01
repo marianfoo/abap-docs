@@ -1,4 +1,14 @@
-  
+---
+title: "WAIT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 

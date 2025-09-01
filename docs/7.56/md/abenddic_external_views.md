@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - External Views"
+description: |
+  A DDIC external view is a special DDIC view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_view_glosry.htm 'Glossary Entry') that defines(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexternal_views.htm) an SAP HANA view(https://help.sap.com/doc/abapdocu_7
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_external_views.htm"
+abapFile: "abenddic_external_views.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "data", "types", "abenddic", "external", "views"]
+---
 
 * * *
 

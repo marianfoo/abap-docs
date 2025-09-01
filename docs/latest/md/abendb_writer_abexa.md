@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Writer Stream, Fill Database Table"
+description: |
+  The example demonstrates how data can be written to a DDIC database table using a writer stream(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwriter_stream_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_db_writer DEFINITION INHERITING FR
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_writer_abexa.htm"
+abapFile: "abendb_writer_abexa.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abendb", "writer", "abexa"]
+---
 
 * * *
 

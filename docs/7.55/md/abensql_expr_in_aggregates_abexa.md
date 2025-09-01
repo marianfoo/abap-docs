@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_in_aggregates. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). SELECT char1, char2, num1, num2, num1 + num2 AS sum, num1  num2 AS product FROM demo_expr
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_in_aggregates_abexa.htm"
+abapFile: "abensql_expr_in_aggregates_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abensql", "expr", "aggregates", "abexa"]
+---
 
 * * *
 

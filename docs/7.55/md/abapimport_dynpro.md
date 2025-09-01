@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax IMPORT DYNPRO h f e m ID id. Effect The dynpro(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm 'Glossary Entry') specified in the structure id is imported. To enable this,
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapimport_dynpro.htm"
+abapFile: "abapimport_dynpro.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapimport", "dynpro"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SET UPDATE TASK LOCAL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_update_task_shortref.htm) Syntax SET UPDATE TASK LOCAL. Effect This statement switches on the local update(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_update_glosry.htm 'Glossary Entry').
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_update_task_local.htm"
+abapFile: "abapset_update_task_local.htm"
+keywords: ["update", "do", "if", "try", "data", "abapset", "task", "local"]
+---
 
 * * *
 

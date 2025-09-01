@@ -1,4 +1,14 @@
-  
+---
+title: "INCLUDE - TYPE, STRUCTURE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinclude_type.htm) Syntax INCLUDE  TYPE struc_type  STRUCTURE struc  AS name RENAMING WITH SUFFIX suffix. Effect Includes all components of the structured type struc_type or the structure
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinclude_type_shortref.htm"
+abapFile: "abapinclude_type_shortref.htm"
+keywords: ["do", "abapinclude", "type", "shortref"]
+---
 
 * * *
 

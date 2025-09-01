@@ -1,4 +1,14 @@
-  
+---
+title: "Secondary table keys"
+description: |
+  Up to 15 secondary table keys(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_key_glosry.htm 'Glossary Entry') can be created for each internal table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entry'). Both sorted keys
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm"
+abapFile: "abensecondary_table_key_glosry.htm"
+keywords: ["do", "if", "case", "try", "internal-table", "abensecondary", "table", "key", "glosry"]
+---
 
 * * *
 

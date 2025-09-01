@@ -1,4 +1,14 @@
-  
+---
+title: "enumerated_value_glosry"
+description: |
+  enumerated_value_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_value_glosry.htm"
+abapFile: "abenenumerated_value_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenenumerated", "value", "glosry"]
+---
 
 * * *
 

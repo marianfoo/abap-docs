@@ -1,4 +1,14 @@
-  
+---
+title: "Setting Associations for Mesh Paths"
+description: |
+  This example demonstrates how associations are set for mesh paths. Source Code REPORT demo_mesh_set_assoc_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, t_itab1 TYPE SORTED
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_set_association_abexa.htm"
+abapFile: "abenmesh_set_association_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "method", "class", "data", "types", "field-symbol", "abenmesh", "set", "association", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ST - xsd-type, Validation"
+description: |
+  Syntax ... xsd-type='type' xsd-maxInclusive='max' xsd-maxExclusive ='max' xsd-minInclusive='min' xsd-minExclusive ='min' xsd-totalDigits='dgts' xsd-fractionDigits='dgts' ... Effect These attributes can be used with tt:value(https://help.sap.com/doc/a
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_xsd_type.htm"
+abapFile: "abenst_xsd_type.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "types", "abenst", "xsd", "type"]
+---
 
 * * *
 

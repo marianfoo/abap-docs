@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenbadi_enhancement.htm
 
-  
+---
+title: "Enhancements Using BAdIs"
+description: |
+  BAdIs are part of the enhancements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenhancement_glosry.htm 'Glossary Entry') made available by the ABAP Enhancement Framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenhancement_framework_glosry.htm 'G
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbadi_enhancement.htm"
+abapFile: "abenbadi_enhancement.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenbadi", "enhancement"]
+---
 
 * * *
 
@@ -54,7 +64,17 @@ Continue
 
 ### abapget_badi.htm
 
-  
+---
+title: "GET BADI"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_badi_shortref.htm) Syntax GET BADI  badi FILTERS f1 = x1 f2 = x2 ...    badi TYPE (name)  FILTERS f1 = x1 f2 = x2 ...  FILTER-TABLE ftab  CONTEXT con. Addit
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_badi.htm"
+abapFile: "abapget_badi.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abapget", "badi"]
+---
 
 * * *
 
@@ -196,7 +216,17 @@ CX\_BADI\_UNKNOWN\_ERROR
 
 ### abapcall_badi.htm
 
-  
+---
+title: "CALL BADI"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_badi_shortref.htm) Syntax CALL BADI  badi->meth parameter_list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameters.htm)    badi->(meth_name) parameter
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_badi.htm"
+abapFile: "abapcall_badi.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abapcall", "badi"]
+---
 
 * * *
 

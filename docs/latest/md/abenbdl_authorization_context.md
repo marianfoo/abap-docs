@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Authorization Context"
+description: |
+  Syntax Forms Full Authorization Context(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_def_own_auth_context.htm) 1. define own authorization context by privileged mode;  define own authorization context by privileged mode and AuthObject1(https://help.sap.com/doc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization_context.htm"
+abapFile: "abenbdl_authorization_context.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "authorization", "context"]
+---
 
 * * *
 

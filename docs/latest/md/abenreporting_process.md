@@ -1,4 +1,14 @@
-  
+---
+title: "Flow of an Executable Program After SUBMIT"
+description: |
+  The statement SUBMIT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubmit.htm) loads the called program into a separate internal session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm 'Glossary Entry') and starts a sequence o
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreporting_process.htm"
+abapFile: "abenreporting_process.htm"
+keywords: ["select", "do", "if", "try", "data", "abenreporting", "process"]
+---
 
 * * *
 

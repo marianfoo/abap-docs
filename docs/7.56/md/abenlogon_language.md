@@ -1,4 +1,14 @@
-  
+---
+title: "Logon Language"
+description: |
+  The logon language(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogon_language_glosry.htm 'Glossary Entry') is defined when an ABAP user(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_user_glosry.htm 'Glossary Entry') logs on(https://help.sap.com/doc/abap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogon_language.htm"
+abapFile: "abenlogon_language.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "abenlogon", "language"]
+---
 
 * * *
 

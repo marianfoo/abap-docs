@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... $session.vname ... Effect Specifies a session variable(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensession_variable_glosry.htm 'Glossary Entry') vname in an operand position in a SELECT statement(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_sta
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_session_variable_v2.htm"
+abapFile: "abencds_session_variable_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abencds", "session", "variable"]
+---
 
 * * *
 

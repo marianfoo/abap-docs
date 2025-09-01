@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... proj_element1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_view_element.htm), proj_element2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_view_element.htm), virtual_element1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_view_element_list.htm"
+abapFile: "abencds_proj_view_element_list.htm"
+keywords: ["do", "if", "try", "data", "abencds", "proj", "view", "element", "list"]
+---
 
 * * *
 

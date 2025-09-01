@@ -1,4 +1,14 @@
-  
+---
+title: "CONDENSE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcondense.htm) Syntax CONDENSE text NO-GAPS. Effect Condenses the character string in text by removing leading and trailing blanks and replaces multiple consecutive blanks with a single blank. Addition -   NO-GAPS
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcondense_shortref.htm"
+abapFile: "abapcondense_shortref.htm"
+keywords: ["do", "if", "abapcondense", "shortref"]
+---
 
 * * *
 

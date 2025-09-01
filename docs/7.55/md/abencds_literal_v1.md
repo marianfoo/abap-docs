@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, literal"
+description: |
+  Syntax ... #:domain.'character_literal'numeric_literal ... Addition: ... #:domain.(#!ABAP_ONE_ADD@1@) Effect Literal in a SELECT statement(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_statement_v1.htm) of a CDS DDIC-based view(https://help.sap.co
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_literal_v1.htm"
+abapFile: "abencds_literal_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "literal"]
+---
 
 * * *
 

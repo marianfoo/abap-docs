@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE SECTION OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_shortref.htm) Syntax REPLACE SECTION OFFSET off LENGTH len OF dobj WITH new IN CHARACTERBYTE MODE. Addition: ... IN CHARACTERBYTE MODE(#!ABAP_ONE_ADD@1@) Effect I
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_in_position.htm"
+abapFile: "abapreplace_in_position.htm"
+keywords: ["do", "if", "catch", "data", "abapreplace", "position"]
+---
 
 * * *
 

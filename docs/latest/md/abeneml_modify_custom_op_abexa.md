@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY, Nonstandard Operations"
+description: |
+  This example demonstrates This example demonstrates how a MODIFY statement can be used to access a managed RAP BO and execute an action. The scenario is a simple calculation based on existing values in two columns of a table whose result is inserted in another column. Data model The CDS data model c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_custom_op_abexa.htm"
+abapFile: "abeneml_modify_custom_op_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "types", "abeneml", "modify", "custom", "abexa"]
+---
 
 * * *
 

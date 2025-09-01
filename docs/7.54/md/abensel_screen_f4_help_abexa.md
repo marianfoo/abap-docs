@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens, Input Help"
+description: |
+  The example demonstrates a self-defined F4 help on selection screens. Source Code REPORT demo_selection_screen_f4. PARAMETERS: p_carr_1 TYPE spfli-carrid, p_carr_2 TYPE spfli-carrid. AT SELECTION-SCREEN ON VALUE-REQUEST FOR p_carr_2. CALL SCREEN 100 STARTING AT 10 5 ENDING   AT 50 10. MODUL
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_f4_help_abexa.htm"
+abapFile: "abensel_screen_f4_help_abexa.htm"
+keywords: ["select", "do", "while", "if", "data", "abensel", "screen", "help", "abexa"]
+---
 
 * * *
 

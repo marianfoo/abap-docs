@@ -1,4 +1,14 @@
-  
+---
+title: "c1_provider_rules_cds_type"
+description: |
+  c1_provider_rules_cds_type - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_type.htm"
+abapFile: "abenc1_provider_rules_cds_type.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "types", "abenc1", "provider", "rules", "cds", "type"]
+---
 
 * * *
 

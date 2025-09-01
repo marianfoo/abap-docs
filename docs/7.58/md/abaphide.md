@@ -1,4 +1,14 @@
-  
+---
+title: "HIDE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaphide_shortref.htm) Syntax HIDE dobj. Effect This statement stores the content of a variable dobj together with the current list line whose line number is contained in sy-linno in the hide area(https://help.sap.com/doc
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaphide.htm"
+abapFile: "abaphide.htm"
+keywords: ["select", "do", "if", "try", "catch", "class", "data", "internal-table", "field-symbol", "abaphide"]
+---
 
 * * *
 

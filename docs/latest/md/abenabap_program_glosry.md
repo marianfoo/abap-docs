@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP program"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that contains ABAP source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') and has a program
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_program_glosry.htm"
+abapFile: "abenabap_program_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "program", "glosry"]
+---
 
 * * *
 

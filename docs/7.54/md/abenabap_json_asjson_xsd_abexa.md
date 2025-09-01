@@ -1,4 +1,14 @@
-  
+---
+title: "JSON, asJSON for Additional XML Schema Data Types"
+description: |
+  This example demonstrates asJSON(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_table.htm) for additional XML Schema Data Types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_schema.htm). Source Code REPORT demo_asjson_other_x
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_asjson_xsd_abexa.htm"
+abapFile: "abenabap_json_asjson_xsd_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenabap", "json", "asjson", "xsd", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data source"
+description: |
+  In a ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry') query(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_glosry.htm 'Glossary Entry') or a query in ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_source_glosry.htm"
+abapFile: "abendata_source_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abendata", "source", "glosry"]
+---
 
 * * *
 

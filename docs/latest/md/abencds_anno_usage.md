@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Specifying Annotations"
+description: |
+  CDS entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') and CDS roles(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_role_glosry.htm 'Glossary Entry') plus CDS annotation definitions(https://help.sap.com/
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_usage.htm"
+abapFile: "abencds_anno_usage.htm"
+keywords: ["do", "if", "try", "data", "abencds", "anno", "usage"]
+---
 
 * * *
 

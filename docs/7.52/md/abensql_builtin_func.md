@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... sql_func( ... )(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_builtin_functions.htm) ... Effect Calls a built-in function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_builtin_functions.htm) as an SQL expression in Open SQL. The result is
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_builtin_func.htm"
+abapFile: "abensql_builtin_func.htm"
+keywords: ["select", "do", "data", "abensql", "builtin", "func"]
+---
 
 * * *
 

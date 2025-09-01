@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Database Access"
+description: |
+  -   Obsolete Access to CDS Views in Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_cds_obsolete.htm) -   Obsolete Short Forms in Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_obsolete.htm) -   Obsolete Syntax Forms in Open SQL
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_obsolete.htm"
+abapFile: "abendatabase_access_obsolete.htm"
+keywords: ["do", "data", "abendatabase", "access", "obsolete"]
+---
 
 * * *
 

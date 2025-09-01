@@ -1,4 +1,14 @@
-  
+---
+title: "Character String Templates, Time Stamp Formats"
+description: |
+  The example demonstrates the various time stamp formats for embedded expressions. Source Code REPORT demo_string_template_utc_frmt. PARAMETERS timefm TYPE t005x-timefm DEFAULT '0' AS LISTBOX VISIBLE LENGTH 40. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. PRIVATE SECTION. CONSTANTS
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_template_utc_abexa.htm"
+abapFile: "abenstring_template_utc_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenstring", "template", "utc", "abexa"]
+---
 
 * * *
 

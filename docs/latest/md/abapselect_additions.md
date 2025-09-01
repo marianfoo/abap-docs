@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... PRIVILEGED ACCESS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_privileged_access.htm) UP TO n ROWS OFFSET o(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_up_to_offset.htm) BYPASSING BUFFER(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm"
+abapFile: "abapselect_additions.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselect", "additions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA, Cached Views"
+description: |
+  This example demonstrates ABAP SQL access to a cached view(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views.htm) on the SAP HANA database. Source Code  Public class definition CLASS cl_demo_select_cached_view DEFINITION INHERITING FROM cl_demo_classrun PUBLI
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm"
+abapFile: "abenhana_cached_views_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "cached", "views", "abexa"]
+---
 
 * * *
 

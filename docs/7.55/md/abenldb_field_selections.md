@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Field Selections"
+description: |
+  The statement SELECTION-SCREEN FIELD SELECTION FOR NODETABLE node(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselection-screen_ldb_field.htm) specifies a node node of a logical database in the selection include for field selections. This means that individual columns can be n
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb_field_selections.htm"
+abapFile: "abenldb_field_selections.htm"
+keywords: ["select", "do", "if", "data", "internal-table", "abenldb", "field", "selections"]
+---
 
 * * *
 

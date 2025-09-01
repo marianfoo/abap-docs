@@ -1,4 +1,14 @@
-  
+---
+title: "SQLScript function"
+description: |
+  A database function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_function_glosry.htm 'Glossary Entry') in the SAP HANA database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm 'Glossary Entry') programmed in the language SQL Scr
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_script_function_glosry.htm"
+abapFile: "abensql_script_function_glosry.htm"
+keywords: ["do", "try", "method", "class", "data", "abensql", "script", "function", "glosry"]
+---
 
 * * *
 

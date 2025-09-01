@@ -1,4 +1,14 @@
-  
+---
+title: "Data Type for Truth Values"
+description: |
+  Background Truth values are results of logical expressions. A truth value is either true or false. ABAP does not yet support Boolean data types and thus does not support data objects for truth values. Therefore, the result of a logical expression cannot be assigned directly to a data object. It has
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataobjects_true_value_guidl.htm"
+abapFile: "abendataobjects_true_value_guidl.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abendataobjects", "true", "value", "guidl"]
+---
 
 * * *
 

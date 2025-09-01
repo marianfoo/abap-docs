@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Mapping of XML Fragments"
+description: |
+  The example demonstrates the mapping of XML fragments using ST. Source Code  Public class definition CLASS cl_demo_st_xsdany DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS prepare_fragment RETURNING VALUE(
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_xsdany_abexa.htm"
+abapFile: "abenst_xsdany_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenst", "xsdany", "abexa"]
+---
 
 * * *
 

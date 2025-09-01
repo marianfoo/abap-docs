@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Result of the Initial Mesh Association"
+description: |
+  An initial mesh association with the syntax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path.htm) ...rnode_associ(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_assoc.htm) source cond(https://help.sap.com/doc/abapdocu_754_index_htm/7.5
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_result_init_assoc.htm"
+abapFile: "abenmesh_path_result_init_assoc.htm"
+keywords: ["do", "if", "data", "types", "abenmesh", "path", "result", "init", "assoc"]
+---
 
 * * *
 

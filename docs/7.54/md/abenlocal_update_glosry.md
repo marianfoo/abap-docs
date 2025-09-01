@@ -1,4 +1,14 @@
-  
+---
+title: "local_update_glosry"
+description: |
+  local_update_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocal_update_glosry.htm"
+abapFile: "abenlocal_update_glosry.htm"
+keywords: ["update", "do", "try", "abenlocal", "glosry"]
+---
 
 * * *
 

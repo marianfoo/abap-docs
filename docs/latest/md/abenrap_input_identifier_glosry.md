@@ -1,4 +1,14 @@
-  
+---
+title: "RAP input identifier"
+description: |
+  Structure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_glosry.htm 'Glossary Entry') that is imported into implementation methods in the ABAP behavior pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_input_identifier_glosry.htm"
+abapFile: "abenrap_input_identifier_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenrap", "input", "identifier", "glosry"]
+---
 
 * * *
 

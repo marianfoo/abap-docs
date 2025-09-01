@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Batch Input"
+description: |
+  As in dialog processing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_message_dialog.htm), messages in batch input(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbatch_input_glosry.htm 'Glossary Entry') can be converted to another message type depe
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_message_batch_input.htm"
+abapFile: "abenabap_message_batch_input.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "message", "batch", "input"]
+---
 
 * * *
 

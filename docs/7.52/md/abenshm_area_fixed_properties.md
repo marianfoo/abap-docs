@@ -1,4 +1,14 @@
-  
+---
+title: "Areas - Fixed Area Properties"
+description: |
+  Like basic properties(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_basic_properties.htm), fixed properties of an area can be only be changed by developers. When the fixed properties of an area are changed at runtime, all area instances of the area are set to the state(
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_fixed_properties.htm"
+abapFile: "abenshm_area_fixed_properties.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abenshm", "area", "fixed", "properties"]
+---
 
 * * *
 

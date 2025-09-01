@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_reduce_method_call DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS to_string IMPORTING wa          TYPE scarr RETURNING VALUE(text) TYPE string. ENDCLASS.  Public c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_method_call_abexa.htm"
+abapFile: "abenreduce_method_call_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenreduce", "call", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Special Declarations"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   INFOTYPES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinfotypes.htm) INFOTYPES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinfo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclarations_spcl.htm"
+abapFile: "abendeclarations_spcl.htm"
+keywords: ["do", "if", "types", "abendeclarations", "spcl"]
+---
 
 * * *
 

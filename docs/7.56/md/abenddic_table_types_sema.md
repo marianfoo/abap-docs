@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Semantic Attributes of Table Types"
+description: |
+  Table types in the ABAP Dictionary can be given the following semantic attributes: -   Short text of the table type Each table type is assigned a short descriptive text that must be specified when it is created. -   Documentation A table type can be assigned documentation that can be read as require
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types_sema.htm"
+abapFile: "abenddic_table_types_sema.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "table", "sema"]
+---
 
 * * *
 

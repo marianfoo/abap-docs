@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  asXML - Mapping of Elementary ABAP Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_asxml_elementary.htm) asXML - Mapping of Structures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_asxml_structure.htm) asXML - Mapping of Intern
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_asxml_named.htm"
+abapFile: "abenabap_xslt_asxml_named.htm"
+keywords: ["do", "if", "data", "types", "internal-table", "abenabap", "xslt", "asxml", "named"]
+---
 
 * * *
 

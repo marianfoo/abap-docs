@@ -1,4 +1,14 @@
-  
+---
+title: "Parallel Asynchronous RFC"
+description: |
+  This example demonstrates parallel asynchronous RFC processing. Source Code REPORT demo_parallel_rfc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, callbback_meth IMPORTING p_task TYPE clike. PRIVATE SECTION. TYPES: BEGIN OF task_type, name TYPE string, dest TYPE string, END OF ta
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenparallel_rfc_abexa.htm"
+abapFile: "abenparallel_rfc_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenparallel", "rfc", "abexa"]
+---
 
 * * *
 

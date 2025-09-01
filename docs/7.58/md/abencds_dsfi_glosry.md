@@ -1,4 +1,14 @@
-  
+---
+title: "CDS scalar function implementation reference"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that binds a CDS scalar function(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_function_glosry.htm 'Glossary Entry') to a runtime environmen
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dsfi_glosry.htm"
+abapFile: "abencds_dsfi_glosry.htm"
+keywords: ["do", "if", "case", "try", "method", "abencds", "dsfi", "glosry"]
+---
 
 * * *
 

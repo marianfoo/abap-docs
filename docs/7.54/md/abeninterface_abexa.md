@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects, Interfaces"
+description: |
+  This example demonstrates the use of interfaces. Source Code REPORT demo_interface. INTERFACE status. METHODS write. ENDINTERFACE. CLASS counter DEFINITION. PUBLIC SECTION. INTERFACES status. METHODS increment. PRIVATE SECTION. DATA count TYPE i. ENDCLASS. CLASS counter IMPLEMENTATION. METHOD statu
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_abexa.htm"
+abapFile: "abeninterface_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "internal-table", "abeninterface", "abexa"]
+---
 
 * * *
 

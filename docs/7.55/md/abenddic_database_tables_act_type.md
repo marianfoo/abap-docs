@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Activation Type of Database Tables"
+description: |
+  The activation type defines whether a DDIC database table can be activated interactively in an ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_tools.htm) or whether the ABAP runtime environment needs to be used instead. This setting is not relevant for DDIC
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_act_type.htm"
+abapFile: "abenddic_database_tables_act_type.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "database", "tables", "act", "type"]
+---
 
 * * *
 

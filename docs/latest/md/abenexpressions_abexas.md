@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Expression-Oriented Programming"
+description: |
+  -   Expression-Orientation - Jawbreaker Game(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenjaw_breaker_abexa.htm) -   Expression-Orientation - Minesweeper Game(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmine_sweeper_abexa.htm) -   Expression-Orient
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexpressions_abexas.htm"
+abapFile: "abenexpressions_abexas.htm"
+keywords: ["do", "if", "abenexpressions", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - OutputParameter"
+description: |
+  Syntax ... deep result selective cardinalityx  $self  entity OutputParameterEntity  ResultParameterStructure external 'extname'  Additions: 1. ... deep(#!ABAP_ADDITION_1@1@) 2. ... selective(#!ABAP_ADDITION_2@2@) 3. ... cardinality(#!ABAP_ADDITION
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_output_para.htm"
+abapFile: "abenbdl_action_output_para.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenbdl", "action", "output", "para"]
+---
 
 * * *
 

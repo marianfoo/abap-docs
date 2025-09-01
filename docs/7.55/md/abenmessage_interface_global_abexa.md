@@ -1,4 +1,14 @@
-  
+---
+title: "This example demonstrates how a global exception class is associated with a message"
+description: |
+  Source Code REPORT demo_message_oref_global. CLASS msg_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS meth RAISING cx_demo_t100. ENDCLASS. CLASS msg_demo IMPLEMENTATION. METHOD main. TRY. meth( ). CATCH cx_demo_t100 INTO DATA(oref). cl_demo_output=>dis
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmessage_interface_global_abexa.htm"
+abapFile: "abenmessage_interface_global_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenmessage", "interface", "global", "abexa"]
+---
 
 * * *
 

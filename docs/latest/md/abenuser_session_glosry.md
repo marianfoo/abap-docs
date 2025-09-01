@@ -1,4 +1,14 @@
-  
+---
+title: "user_session_glosry"
+description: |
+  user_session_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_session_glosry.htm"
+abapFile: "abenuser_session_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenuser", "session", "glosry"]
+---
 
 * * *
 

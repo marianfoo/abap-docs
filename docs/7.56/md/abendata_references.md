@@ -1,4 +1,14 @@
-  
+---
+title: "References"
+description: |
+  References are pointers to instances. Pointers to data objects are data references(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_reference_glosry.htm 'Glossary Entry'). Pointers to instances of classes are object references(https://help.sap.com/doc/abapdocu_756_index_htm/7.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_references.htm"
+abapFile: "abendata_references.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abendata", "references"]
+---
 
 * * *
 

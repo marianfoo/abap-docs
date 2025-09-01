@@ -1,4 +1,14 @@
-  
+---
+title: "Function Modules"
+description: |
+  The following language constructs should no longer be used when creating function modules: -   Table parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_parameters_obsolete.htm) -   Obsolete typing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfuncti
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_modules_obsolete.htm"
+abapFile: "abenfunction_modules_obsolete.htm"
+keywords: ["do", "abenfunction", "modules", "obsolete"]
+---
 
 * * *
 

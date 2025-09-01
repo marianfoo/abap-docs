@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Obsolete Client Handling in Table Functions"
+description: |
+  Before the annotation @ClientHandling.type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm) with the values #CLIENT_DEPENDENT and #CLIENT_INDEPENDENT was introduced, the client dependency(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_func_client_handling_obs.htm"
+abapFile: "abencds_func_client_handling_obs.htm"
+keywords: ["do", "if", "data", "abencds", "func", "client", "handling", "obs"]
+---
 
 * * *
 

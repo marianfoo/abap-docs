@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - filter, Transactional Query"
+description: |
+  Syntax ... cardinality: cds_cond  ... Effect Specifies a filter for an association from the projected entity that is exposed or redefined in a CDS projection view. The filter is specified in square brackets   when the association is exposed in the projection list. The filter can con
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_pv_assoc_modified.htm"
+abapFile: "abencds_pv_assoc_modified.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "assoc", "modified"]
+---
 
 * * *
 

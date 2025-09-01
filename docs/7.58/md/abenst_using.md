@@ -1,4 +1,14 @@
-  
+---
+title: "ST - using, Preconditions"
+description: |
+  Syntax ... using='...' ... Effect The following preconditions can be specified for the content of the attribute using of an element tt:cond(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_cond.htm): Precondition Meaning exist(node) Met if an ABAP data object is bound to the no
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_using.htm"
+abapFile: "abenst_using.htm"
+keywords: ["do", "if", "case", "try", "data", "abenst", "using"]
+---
 
 * * *
 

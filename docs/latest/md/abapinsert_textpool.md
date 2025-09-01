@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT TEXTPOOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_textpool_shortref.htm) Syntax INSERT TEXTPOOL prog FROM itab LANGUAGE lang. Effect This statement places the content of table itab into the repository(https://help.sap.com/doc/abapdocu_latest_index_htm/lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_textpool.htm"
+abapFile: "abapinsert_textpool.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abapinsert", "textpool"]
+---
 
 * * *
 

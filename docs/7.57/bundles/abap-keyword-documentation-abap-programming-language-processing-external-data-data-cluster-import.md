@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abapimport_data_cluster.htm
 
-  
+---
+title: "IMPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_shortref.htm) Syntax IMPORT parameter_list(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_parameterlist.htm) FROM medium(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abap
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_data_cluster.htm"
+abapFile: "abapimport_data_cluster.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abapimport", "cluster"]
+---
 
 * * *
 
@@ -76,7 +86,17 @@ Continue
 
 ### abapimport_parameterlist.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... p1 = dobj1 p2 = dobj2 ...  p1 TO dobj1  p2 TO dobj2 ...  (ptab) ... Additions: 1. ... p1 = dobj1 p2 = dobj2 ...(#!ABAP_ADDITION_1@1@) 2. ... p1 TO dobj1 p2 TO dobj2 ...(#!ABAP_ADDITION_2@2@) 3. ... (ptab)(#!ABAP_ADDITION_3@3@) Effect A data cluster(https://help.sap.c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_parameterlist.htm"
+abapFile: "abapimport_parameterlist.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abapimport", "parameterlist"]
+---
 
 * * *
 
@@ -213,7 +233,17 @@ cl\_demo\_output=>display( |{ num1 }, { num2 }, { num3 }| ).
 
 ### abapimport_medium.htm
 
-  
+---
+title: "IMPORT, medium"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_shortref.htm) Syntax ...  DATA BUFFER xstr    INTERNAL TABLE itab    MEMORY ID id    DATABASE      dbtab(ar) TO wa CLIENT cl ID id    SHARED MEMORY dbtab(ar)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_medium.htm"
+abapFile: "abapimport_medium.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapimport", "medium"]
+---
 
 * * *
 
@@ -363,7 +393,17 @@ cl\_demo\_output=>new(
 
 ### abapimport_conversion.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...    ACCEPTING PADDING ACCEPTING TRUNCATION  IGNORING STRUCTURE BOUNDARIES  IGNORING CONVERSION ERRORS REPLACEMENT CHARACTER rc   IN CHAR-TO-HEX MODE  CODE PAGE INTO cp ENDIAN INTO endian. Additions: 1.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_conversion.htm"
+abapFile: "abapimport_conversion.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abapimport", "conversion"]
+---
 
 * * *
 
@@ -726,7 +766,17 @@ IMPORT para = f2 FROM DATABASE demo\_indx\_blob(hk) ID 'HK'
 
 ### abenimport_text_language.htm
 
-  
+---
+title: "IMPORT, Text Language Rule"
+description: |
+  The rule described in this section is relevant only in cases where structures defined in the ABAP Dictionary in a Unicode system(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunicode_system_glosry.htm 'Glossary Entry') are imported from the database and these same structures were
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenimport_text_language.htm"
+abapFile: "abenimport_text_language.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenimport", "text", "language"]
+---
 
 * * *
 
@@ -769,7 +819,17 @@ Structures and internal tables with a structured line type that is based on type
 
 ### abapimport_internal.htm
 
-  
+---
+title: "IMPORT, Internal Additions"
+description: |
+  These additions are for internal use only. Do not use them in application programs. Additions: 1. ... FROM LOGFILE ID key(#!ABAP_ADDITION_1@1@) 2. ... USING subr(prog)(#!ABAP_ADDITION_2@2@) Addition 1 ... FROM LOGFILE ID key Effect Imports data objects from update data records. key exp
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_internal.htm"
+abapFile: "abapimport_internal.htm"
+keywords: ["select", "update", "do", "if", "data", "internal-table", "abapimport", "internal"]
+---
 
 * * *
 
@@ -840,7 +900,17 @@ ENDFORM.
 
 ### abenrabax_import_from_database.htm
 
-  
+---
+title: "Exceptions in IMPORT"
+description: |
+  Catchable Exceptions CX_SY_CONVERSION_CODEPAGE -   Cause: Error in conversion. Runtime error: CONNE_IMPORT_CONVERSION_ERROR CX_SY_IMPORT_MISMATCH_ERROR -   Cause: A component of a structured dataset has an incorrect decimal place. Runtime error: CONNE_IMPORT_WRONG_COMP_DECS -   Cause:
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrabax_import_from_database.htm"
+abapFile: "abenrabax_import_from_database.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "abenrabax", "import", "from", "database"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Unicode program"
+description: |
+  → Standard ABAP (Unicode)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_program_glosry.htm 'Glossary Entry')
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuc_prog_glosry.htm"
+abapFile: "abenuc_prog_glosry.htm"
+keywords: ["do", "try", "abenuc", "prog", "glosry"]
+---
 
 * * *
 

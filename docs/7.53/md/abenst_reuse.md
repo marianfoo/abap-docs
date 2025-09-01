@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Reusing ST Programs"
+description: |
+  -   tt:call, Call Transformations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_call.htm) -   tt:include, Including Transformations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_include.htm) ST - tt:call, Calling Transformations(https://help.sap.co
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_reuse.htm"
+abapFile: "abenst_reuse.htm"
+keywords: ["do", "data", "abenst", "reuse"]
+---
 
 * * *
 

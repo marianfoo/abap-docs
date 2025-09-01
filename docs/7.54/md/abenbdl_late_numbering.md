@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - DEFINE BEHAVIOR, late numbering"
+description: |
+  Syntax ... late numbering in place Effect Late numbering is a concept for gapless assignments of unique keys when creating new entity instances. New entity instances are given their final key shortly before the business object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aben
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_late_numbering.htm"
+abapFile: "abenbdl_late_numbering.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "late", "numbering"]
+---
 
 * * *
 

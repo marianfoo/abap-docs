@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type n"
+description: |
+  The conversion rules are designed in such a way that when data objects of type n(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_character.htm) are assigned to character-like data objects they behave character-like, and when assigned to numeric data objects they behave
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_n.htm"
+abapFile: "abenconversion_type_n.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenconversion", "type"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Source Field Type n
 
 The conversion rules are designed in such a way that when data objects of type [n](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_character.htm) are assigned to character-like data objects they behave character-like, and when assigned to numeric data objects they behave numeric. Valid data for data objects of type n is in the form of pure digit sequences. When assigning valid data to numeric data objects, the numeric value of the digit sequence is assigned to the target object. The conversion rules, however, also allow the assignment of numeric text fields that contain invalid data. The latter is not recommended.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_1)
+-   [Numeric Target Fields](#abenconversion-type-n-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_N_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_4)
+-   [Byte-Like Target Fields](#abenconversion-type-n-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_N_4)
 
 Numeric Target Fields
 

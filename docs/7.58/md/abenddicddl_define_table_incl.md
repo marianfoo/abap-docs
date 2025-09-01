@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE TABLE, include"
+description: |
+  Syntax KEY group : INCLUDE struct WITH SUFFIX suffix NOT NULL ... extend(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_758_inde
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_incl.htm"
+abapFile: "abenddicddl_define_table_incl.htm"
+keywords: ["insert", "do", "if", "try", "data", "abenddicddl", "define", "table", "incl"]
+---
 
 * * *
 

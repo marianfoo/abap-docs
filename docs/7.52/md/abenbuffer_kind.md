@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Buffering Types"
+description: |
+  There are three buffering types that can be configured(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_buffer.htm) for a database table or database view in ABAP Dictionary: -   Single record buffering(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuffer_kind.htm"
+abapFile: "abenbuffer_kind.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbuffer", "kind"]
+---
 
 * * *
 

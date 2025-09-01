@@ -1,4 +1,14 @@
-  
+---
+title: "Selecting the Table Category"
+description: |
+  Background The table category specifies the internal administration for an internal table and the primary access type: -   Standard tables that are managed with a primary table index. When inserting or deleting table rows, only the table index is reorganized, but not the remaining table rows. If row
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_table_type_guidl.htm"
+abapFile: "abenselect_table_type_guidl.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenselect", "table", "type", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Checking Structures"
+description: |
+  The operator EXACT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_exact.htm) can only be used to convert structures to compatible(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencompatibility.htm) structures. Full compatibility is not require
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmove_exact_structure.htm"
+abapFile: "abenmove_exact_structure.htm"
+keywords: ["do", "if", "try", "data", "types", "abenmove", "exact", "structure"]
+---
 
 * * *
 

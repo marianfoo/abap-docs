@@ -1,4 +1,14 @@
-  
+---
+title: "embedded_expression_glosry"
+description: |
+  embedded_expression_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenembedded_expression_glosry.htm"
+abapFile: "abenembedded_expression_glosry.htm"
+keywords: ["do", "try", "abenembedded", "expression", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Assignments Between Data Reference Variables"
+description: |
+  Data reference variables are either fully typed or typed with the generic type data. -   Up Casts in Data References(#abenconversion-references-data-1--------down-casts-in-data-references---@ITOC@@ABENCONVERSION_REFERENCES_DATA_2) Up Casts in Data References An up cast(https://help.sap.com/doc/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_references_data.htm"
+abapFile: "abenconversion_references_data.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "types", "abenconversion", "references"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Assignments Between Data Reference Variables
 
 Data reference variables are either fully typed or typed with the generic type data.
 
--   [Up Casts in Data References](#@@ITOC@@ABENCONVERSION_REFERENCES_DATA_1)
-
--   [Down Casts in Data References](#@@ITOC@@ABENCONVERSION_REFERENCES_DATA_2)
+-   [Up Casts in Data References](#abenconversion-references-data-1--------down-casts-in-data-references---@ITOC@@ABENCONVERSION_REFERENCES_DATA_2)
 
 Up Casts in Data References
 

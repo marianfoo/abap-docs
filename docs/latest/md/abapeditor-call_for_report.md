@@ -1,4 +1,14 @@
-  
+---
+title: "EDITOR-CALL FOR REPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR REPORT prog DISPLAY-MODE. Addition: ... DISPLAY-MODE(#!ABAP_ONE_ADD@1@) Effect This statement starts the ABAP Editor for the source code of the pr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_report.htm"
+abapFile: "abapeditor-call_for_report.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapeditor", "call", "for", "report"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "EXACT, Lossless Operator"
+description: |
+  Syntax ... EXACT type( let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) dobj ) ... Effect A constructor expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expressions.htm) with the lossless operator EXACT perfor
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_exact.htm"
+abapFile: "abenconstructor_expression_exact.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenconstructor", "expression", "exact"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Sharing Between Dynamic Data Objects"
+description: |
+  When reference variables are assigned, only the references are copied. After an assignment, source and target variables point to exactly the same data object or the same instance of a class (to the header). Sharing takes place internally when assignments(https://help.sap.com/doc/abapdocu_753_index
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmemory_consumption_3.htm"
+abapFile: "abenmemory_consumption_3.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 

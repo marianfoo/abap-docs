@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Overview"
+description: |
+  The following sections are short introductions to RFC topics. For more information, see the RFC(https://help.sap.com/docs/ABAP_PLATFORM_NEW/753088fc00704d0a80e7fbd6803c8adb/4888068AD9134076E10000000A42189D) documentation on the SAP Help Portal. -   Introduction to RFC(https://help.sap.com/doc/ab
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_intro_oview.htm"
+abapFile: "abenrfc_intro_oview.htm"
+keywords: ["do", "if", "data", "abenrfc", "intro", "oview"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_758_ind
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 

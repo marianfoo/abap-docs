@@ -1,4 +1,14 @@
-  
+---
+title: "Projection Views"
+description: |
+  A projection view is a special view for hiding fields from a single basis table. An SQL view is not created on the database. No selection conditions can be specified for a projection view. The structure type defined using the view fields of the projection view can be referenced in ABAP programs usin
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_projection_views.htm"
+abapFile: "abenddic_projection_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "class", "data", "abenddic", "projection", "views"]
+---
 
 * * *
 

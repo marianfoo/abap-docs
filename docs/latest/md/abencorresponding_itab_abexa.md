@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator for Internal Tables"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expr_corresponding.htm) for internal tables. Source Code  Public class definition CLASS cl_demo_crrspndng_itab DEFINITION INHERITING FROM cl_demo_classrun PUBLIC
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_itab_abexa.htm"
+abapFile: "abencorresponding_itab_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abencorresponding", "itab", "abexa"]
+---
 
 * * *
 

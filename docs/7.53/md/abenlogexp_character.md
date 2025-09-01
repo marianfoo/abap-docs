@@ -1,4 +1,14 @@
-  
+---
+title: "Comparisons with Numeric Data Types"
+description: |
+  - string, c, n decfloat16, decfloat34 decfloat34 f f p p int8 int8 i, s, b i Value Ranges and Length Adjustments -   When the types string and c are compared with packed numbers of the type p, the comparison type p has 31 places plus the number of decimal places of the operand of type p. This can r
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_character.htm"
+abapFile: "abenlogexp_character.htm"
+keywords: ["do", "if", "try", "data", "types", "abenlogexp", "character"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ rel\_exp - Comparison Type of Character-Like Data Objects
 
 The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between character-like data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomparison_type.htm) determine how the comparison is performed. If no comparison type is specified for a combination, then no comparison is possible.
 
--   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_1)
+-   [Comparisons with Numeric Data Types](#abenlogexp-character-1--------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_CHARACTER_2)
 
--   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_2)
-
--   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_3)
-
--   [Comparisons with Date/Time Types](#@@ITOC@@ABENLOGEXP_CHARACTER_4)
+-   [Comparisons with Byte-Like Data Types](#abenlogexp-character-3--------comparisons-with-date-time-types---@ITOC@@ABENLOGEXP_CHARACTER_4)
 
 Comparisons with Numeric Data Types
 

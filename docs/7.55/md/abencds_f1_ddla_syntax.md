@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DDL for Annotation Definitions"
+description: |
+  Alongside the DDL statements for data definitions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm), the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') in ABAP CDS makes it possible to define CDS an
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm"
+abapFile: "abencds_f1_ddla_syntax.htm"
+keywords: ["do", "try", "data", "abencds", "ddla", "syntax"]
+---
 
 * * *
 

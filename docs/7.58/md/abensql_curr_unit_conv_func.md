@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... UNIT_CONVERSION( p1 = a1, p2 = a2, ... )    CURRENCY_CONVERSION( p1 = a1, p2 = a2, ... ) ... Variants: 1. ... UNIT_CONVERSION( p1 = a1, p2 = a2, ... )(#!ABAP_VARIANT_1@1@) 2. ... CURRENCY_CONVERSION( p1 = a1, p2 = a2, ... )(#!ABAP_VARIANT_2@2@) Effect Functions for converting between
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_curr_unit_conv_func.htm"
+abapFile: "abensql_curr_unit_conv_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "class", "data", "types", "abensql", "curr", "unit", "conv", "func"]
+---
 
 * * *
 

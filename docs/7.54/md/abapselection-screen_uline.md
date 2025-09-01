@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN - ULINE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_shortref.htm) Syntax SELECTION-SCREEN ULINE /posPOS_LOWPOS_HIGH(len) MODIF IDmodid(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_m
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_uline.htm"
+abapFile: "abapselection-screen_uline.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "uline"]
+---
 
 * * *
 

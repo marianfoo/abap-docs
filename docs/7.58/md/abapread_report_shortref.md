@@ -1,4 +1,14 @@
-  
+---
+title: "READ REPORT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_report.htm) Syntax READ REPORT prog INTO itab MAXIMUM WIDTH INTO wid. Effect Imports the source code of the ABAP program prog into the internal table itab. Addition -   MAXIMUM WIDTH INTO wid Returns the number o
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_report_shortref.htm"
+abapFile: "abapread_report_shortref.htm"
+keywords: ["do", "if", "internal-table", "abapread", "report", "shortref"]
+---
 
 * * *
 

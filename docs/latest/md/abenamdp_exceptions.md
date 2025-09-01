@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Exception Classes"
+description: |
+  The names of the exception classes of the exceptions that can be handled when an AMDP procedure implementation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_procedure_methods.htm) is called start with the prefix CX_AMDP. The exceptions are all in the category CX_DYNAMI
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_exceptions.htm"
+abapFile: "abenamdp_exceptions.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenamdp", "exceptions"]
+---
 
 * * *
 

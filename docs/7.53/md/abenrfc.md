@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Remote Function Call"
+description: |
+  This section describes the ABAP language elements for RFC. -   RFC Overview(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_intro_oview.htm) -   RFC - CALL FUNCTION(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_destination-.htm) RFC Overview(ht
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc.htm"
+abapFile: "abenrfc.htm"
+keywords: ["do", "data", "abenrfc"]
+---
 
 * * *
 

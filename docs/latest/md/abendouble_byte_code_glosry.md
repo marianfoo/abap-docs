@@ -1,4 +1,14 @@
-  
+---
+title: "double_byte_code_glosry"
+description: |
+  double_byte_code_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendouble_byte_code_glosry.htm"
+abapFile: "abendouble_byte_code_glosry.htm"
+keywords: ["do", "if", "try", "abendouble", "byte", "code", "glosry"]
+---
 
 * * *
 

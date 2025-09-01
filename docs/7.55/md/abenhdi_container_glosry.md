@@ -1,4 +1,14 @@
-  
+---
+title: "HDI container"
+description: |
+  An HDI container is a database schema(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_schema_glosry.htm 'Glossary Entry') of the SAP HANA database(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm 'Glossary Entry') for HDI objects(h
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhdi_container_glosry.htm"
+abapFile: "abenhdi_container_glosry.htm"
+keywords: ["do", "try", "data", "abenhdi", "container", "glosry"]
+---
 
 * * *
 

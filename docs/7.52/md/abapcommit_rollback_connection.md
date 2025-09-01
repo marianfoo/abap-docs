@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT, ROLLBACK CONNECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommit_connection_shortref.htm) Syntax COMMITROLLBACK CONNECTION con(con_syntax). Effect This COMMIT or ROLLBACK statement performs a database commit(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abe
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommit_rollback_connection.htm"
+abapFile: "abapcommit_rollback_connection.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "data", "abapcommit", "rollback", "connection"]
+---
 
 * * *
 

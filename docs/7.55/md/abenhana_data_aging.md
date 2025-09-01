@@ -1,4 +1,14 @@
-  
+---
+title: "Data Aging in SAP HANA"
+description: |
+  The data aging concept makes it possible to distinguish between current ('HOT') data and old ('COLD') data within SAP HANA database(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm 'Glossary Entry') tables. Application programmers define which data is current
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_data_aging.htm"
+abapFile: "abenhana_data_aging.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abenhana", "aging"]
+---
 
 * * *
 

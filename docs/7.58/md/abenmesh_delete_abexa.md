@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Deleting Multiple Lines in Mesh Paths"
+description: |
+  This example demonstrates how multiple lines are deleted in mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_delete_numbers DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TY
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_delete_abexa.htm"
+abapFile: "abenmesh_delete_abexa.htm"
+keywords: ["insert", "delete", "do", "if", "method", "class", "data", "types", "abenmesh", "abexa"]
+---
 
 * * *
 

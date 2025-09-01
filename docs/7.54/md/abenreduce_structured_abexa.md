@@ -1,4 +1,14 @@
-  
+---
+title: "Table Reductions, Structured Result"
+description: |
+  This example demonstrates a reduction of the columns of a table to a structure. Source Code REPORT demo_reduce_structured. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line, id  TYPE string, num TYPE i, END OF line, BEGIN OF resul
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreduce_structured_abexa.htm"
+abapFile: "abenreduce_structured_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenreduce", "structured", "abexa"]
+---
 
 * * *
 

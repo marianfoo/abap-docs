@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Pushbuttons"
+description: |
+  This example demonstrates how pushbuttons on dynpros can be processed. Source Code PROGRAM demo_dynpro_push_button . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output(8) TYPE c. CALL SCREEN 100. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok_code. CASE save_ok. WHEN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_push_button_abexa.htm"
+abapFile: "abendynpro_push_button_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "push", "button", "abexa"]
+---
 
 * * *
 

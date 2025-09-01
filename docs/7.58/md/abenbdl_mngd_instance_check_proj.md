@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - with managed instance filter"
+description: |
+  Syntax ... with managed instance filter; ... Effect Optional addition for projection BDEFs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_bdef_glosry.htm 'Glossary Entry') and interface BDEFs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_interface_bd
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_mngd_instance_check_proj.htm"
+abapFile: "abenbdl_mngd_instance_check_proj.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "data", "abenbdl", "mngd", "instance", "check", "proj"]
+---
 
 * * *
 

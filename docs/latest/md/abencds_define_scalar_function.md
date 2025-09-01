@@ -1,4 +1,14 @@
-  
+---
+title: "CDS FDL - DEFINE SCALAR FUNCTION"
+description: |
+  Syntax DEFINE SCALAR FUNCTION ScalarFunction WITH PARAMETERS pname1 : typing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm) , pname2 : typing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm), ..
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm"
+abapFile: "abencds_define_scalar_function.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "define", "scalar", "function"]
+---
 
 * * *
 

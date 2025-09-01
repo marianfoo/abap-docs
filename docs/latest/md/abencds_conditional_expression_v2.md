@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... rel_expr  NOT cds_cond ANDOR cds_cond ... Effect Logical expression cds_cond for formulating a condition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_glosry.htm 'Glossary Entry') in a CDS view entity(https://help.sap.com/doc/abapdocu_la
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conditional_expression_v2.htm"
+abapFile: "abencds_conditional_expression_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "conditional", "expression"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "INITIALIZATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization_shortref.htm) Syntax INITIALIZATION. Effect This event keyword defines an event block for initializing an executable program. The associated event is raised by the ABAP runtime framework(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization.htm"
+abapFile: "abapinitialization.htm"
+keywords: ["select", "do", "if", "try", "data", "abapinitialization"]
+---
 
 * * *
 

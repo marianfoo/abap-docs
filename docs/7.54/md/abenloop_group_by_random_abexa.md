@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Random Grouping with LOOP"
+description: |
+  This example demonstrates a construction of the group key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengroup_key_glosry.htm 'Glossary Entry') that does not depend on the table rows. Source Code REPORT demo_loop_group_by_random. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-MET
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_group_by_random_abexa.htm"
+abapFile: "abenloop_group_by_random_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "internal-table", "abenloop", "group", "random", "abexa"]
+---
 
 * * *
 

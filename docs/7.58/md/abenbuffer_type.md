@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Buffering Types"
+description: |
+  The following buffering types can be defined for a DDIC database table, DDIC database view or CDS view entity: -   Table Buffering - Single Record Buffering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuffer_single_buffering.htm) -   Table Buffering - Generic Buffering(https:/
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuffer_type.htm"
+abapFile: "abenbuffer_type.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbuffer", "type"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Data Types and Constants of Classes"
+description: |
+  -   Data Types(#abenclass-types-constants-1-----------standalone-types---@ITOC@@ABENCLASS_TYPES_CONSTANTS_2) -   Bound Data Types(#abenclass-types-constants-3-------constants---@ITOC@@ABENCLASS_TYPES_CONSTANTS_4) Data Types Standalone Types The TYPES(https://help.sap.com/doc/abapdocu_758_index
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_types_constants.htm"
+abapFile: "abenclass_types_constants.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenclass", "constants"]
+---
 
 * * *
 
@@ -11,10 +21,8 @@ n%20for%20improvement:)
 
 ABAP Objects - Data Types and Constants of Classes
 
--   [Data Types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_1)
-    -   [Standalone Types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_2)
-    -   [Bound Data Types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_3)
--   [Constants](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_4)
+-   [Data Types](#abenclass-types-constants-1-----------standalone-types---@ITOC@@ABENCLASS_TYPES_CONSTANTS_2)
+    -   [Bound Data Types](#abenclass-types-constants-3-------constants---@ITOC@@ABENCLASS_TYPES_CONSTANTS_4)
 
 Data Types   
 

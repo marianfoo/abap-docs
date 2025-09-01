@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - EXTEND VIEW"
+description: |
+  Syntax @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_extend_view_annotations.htm) @extens
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 

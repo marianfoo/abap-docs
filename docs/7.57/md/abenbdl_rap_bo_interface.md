@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - CDS Interface Behavior Definition"
+description: |
+  A CDS interface behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_interface_bdef_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry') is created using the behavior defini
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo_interface.htm"
+abapFile: "abenbdl_rap_bo_interface.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "rap", "interface"]
+---
 
 * * *
 

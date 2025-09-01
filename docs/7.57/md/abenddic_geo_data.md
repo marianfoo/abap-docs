@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Geodata Types"
+description: |
+  The geodata type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeo_data_type_glosry.htm 'Glossary Entry') GEOM_EWKB(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) is a built-in data type in ABAP Dictionary that describes the geometric pos
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_geo_data.htm"
+abapFile: "abenddic_geo_data.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "geo"]
+---
 
 * * *
 

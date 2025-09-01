@@ -1,4 +1,14 @@
-  
+---
+title: "User Dialogs"
+description: |
+  This example demonstrates the classic user dialogs selection screen, dynpro, message, and list. Source Code REPORT demo_hello_world. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 1100. PARAMETERS input(12) TYPE c DEFAULT 'Hello World!'. SELEC
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_abexa.htm"
+abapFile: "abenscreen_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "abenscreen", "abexa"]
+---
 
 * * *
 

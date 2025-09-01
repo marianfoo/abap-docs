@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, association"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_begin_of_mesh_shortref.htm) Syntax ... ASSOCIATION _assoc TO node ON tcomp1 = scomp1 AND tcomp2 = scomp2 AND ...  USING KEY key_name ... Additions: 1. ... ON tcomp1 = scomp1 AND tco
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_mesh_association.htm"
+abapFile: "abaptypes_mesh_association.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abaptypes", "mesh", "association"]
+---
 
 * * *
 

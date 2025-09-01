@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... $projection.reuse_exp ... Effect $projection.reuse_exp reuses expressions defined in the SELECT list select_list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_v2.htm) of a CDS view entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_reusable_expression_v2.htm"
+abapFile: "abencds_reusable_expression_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "reusable", "expression"]
+---
 
 * * *
 

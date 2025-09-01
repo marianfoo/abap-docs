@@ -1,4 +1,14 @@
-  
+---
+title: "Error Handling"
+description: |
+  Error situations are always a possibility when a program is being executed. These can be caused by: -   internal errors produced by faulty implementations or incorrect use of services -   external errors produced by incorrect user input or unexpected resource bottlenecks ABAP offers various method f
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenerror_handling_gdl.htm"
+abapFile: "abenerror_handling_gdl.htm"
+keywords: ["do", "if", "method", "class", "abenerror", "handling", "gdl"]
+---
 
 * * *
 

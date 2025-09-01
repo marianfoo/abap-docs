@@ -1,4 +1,14 @@
-  
+---
+title: "access_rule_glosry"
+description: |
+  access_rule_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaccess_rule_glosry.htm"
+abapFile: "abenaccess_rule_glosry.htm"
+keywords: ["do", "try", "abenaccess", "rule", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DCL Statements"
+description: |
+  The data control language CDS DCL in ABAP CDS follows the general CDS syntax rules(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_general_syntax_rules.htm) and comprises the following statements for the definition of CDS roles(https://help.sap.com/doc/abapdocu_754_index_htm/7
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_syntax.htm"
+abapFile: "abencds_f1_dcl_syntax.htm"
+keywords: ["do", "try", "data", "abencds", "dcl", "syntax"]
+---
 
 * * *
 

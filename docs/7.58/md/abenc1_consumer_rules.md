@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for Consuming Elementary Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_elem.htm) C1 Contract Rules for Consuming Structures(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_struct.htm) Example: Consumptio
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm"
+abapFile: "abenc1_consumer_rules.htm"
+keywords: ["do", "if", "types", "abenc1", "consumer", "rules"]
+---
 
 * * *
 

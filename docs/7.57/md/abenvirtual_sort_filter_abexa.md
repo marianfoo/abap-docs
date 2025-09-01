@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_virtual_sort_filter. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES itab TYPE STANDARD TABLE OF i WITH EMPTY KEY. FINAL(rnd) = cl_abap_random_int=>create( seed = + sy-uzeit min  = 1 max  = 10 ). FINAL(itab) = VALUE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvirtual_sort_filter_abexa.htm"
+abapFile: "abenvirtual_sort_filter_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "filter", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenrap_events.htm
 
-  
+---
+title: "ABAP for RAP Business Events"
+description: |
+  The following topics are covered in this section: -   CLASS, FOR EVENTS OF, RAP Event Handler Class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_for_events.htm) -   CL_ABAP_BEHAVIOR_EVENT_HANDLER(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_b
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_events.htm"
+abapFile: "abenrap_events.htm"
+keywords: ["do", "if", "method", "class", "abenrap", "events"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenclass_for_events.htm
 
-  
+---
+title: "CLASS, FOR EVENTS OF, RAP Event Handler Class"
+description: |
+  Syntax CLASS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) cl_event_handler DEFINITION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) PUBLIC  ABSTRACT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/a
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_for_events.htm"
+abapFile: "abenclass_for_events.htm"
+keywords: ["do", "if", "try", "method", "class", "abenclass", "for", "events"]
+---
 
 * * *
 
@@ -80,7 +100,17 @@ The example [Local Consumption of RAP Business Events](https://help.sap.com/doc/
 
 ### abencl_abap_behavior_event_handler.htm
 
-  
+---
+title: "Syntax"
+description: |
+  CLASS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) lhe_event DEFINITION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_options.htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_behavior_event_handler.htm"
+abapFile: "abencl_abap_behavior_event_handler.htm"
+keywords: ["do", "if", "try", "method", "class", "abencl", "abap", "behavior", "event", "handler"]
+---
 
 * * *
 
@@ -118,7 +148,17 @@ The example [Local Consumption of RAP Business Events](https://help.sap.com/doc/
 
 ### abenmethod_for_entity_event.htm
 
-  
+---
+title: "METHODS, FOR ENTITY EVENT"
+description: |
+  Syntax RAP event handler method definitions: METHODS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods.htm) meth FINAL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) FOR ENTITY EVENT IMPORTING(https://help.sap.com/doc
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_for_entity_event.htm"
+abapFile: "abenmethod_for_entity_event.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenmethod", "for", "entity", "event"]
+---
 
 * * *
 
@@ -187,7 +227,17 @@ The example [Local Consumption of RAP Business Events](https://help.sap.com/doc/
 
 ### abapraise_entity_event.htm
 
-  
+---
+title: "RAISE ENTITY EVENT"
+description: |
+  Syntax RAISE ENTITY EVENT bdef~evt FROM tab. Effect Raises a RAP business event(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_entity_event_glosry.htm 'Glossary Entry'). The statement can only be used in ABAP behavior pools(https://help.sap.com/doc/abapdocu_758_index_htm/7.58
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_entity_event.htm"
+abapFile: "abapraise_entity_event.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapraise", "entity", "event"]
+---
 
 * * *
 
@@ -252,7 +302,17 @@ The example [Local Consumption of RAP Business Events](https://help.sap.com/doc/
 
 ### abenrap_events_local_consume_abexa.htm
 
-  
+---
+title: "Local Consumption of RAP Business Events"
+description: |
+  This example demonstrates the local consumption of RAP business events(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_entity_event_glosry.htm 'Glossary Entry') using a managed RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmanaged_rap_bo_gl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_events_local_consume_abexa.htm"
+abapFile: "abenrap_events_local_consume_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abenrap", "events", "local", "consume", "abexa"]
+---
 
 * * *
 

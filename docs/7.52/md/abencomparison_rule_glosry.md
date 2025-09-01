@@ -1,4 +1,14 @@
-  
+---
+title: "Comparison rule"
+description: |
+  Rule how to conduct comparisons(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_glosry.htm 'Glossary Entry') between data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm 'Glossary Entry') or expressions(https://help.sap.co
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_rule_glosry.htm"
+abapFile: "abencomparison_rule_glosry.htm"
+keywords: ["do", "try", "data", "abencomparison", "rule", "glosry"]
+---
 
 * * *
 

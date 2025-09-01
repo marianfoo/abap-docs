@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Cast Expression"
+description: |
+  This example demonstrates cast expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_cast.htm) in ABAP SQL. Source Code REPORT demo_sql_expr_cast. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DELETE FROM de
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expr_cast_abexa.htm"
+abapFile: "abensql_expr_cast_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abensql", "expr", "cast", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Window Functions LEAD and LAG"
+description: |
+  This example demonstrates window expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) with the window functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwindow_function_glosry.htm 'Glossary Entry') LEAD(https://help.sap.com/doc/abapd
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_lead_lag_abexa.htm"
+abapFile: "abensql_expr_over_lead_lag_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "types", "abensql", "expr", "over", "lead", "lag", "abexa"]
+---
 
 * * *
 

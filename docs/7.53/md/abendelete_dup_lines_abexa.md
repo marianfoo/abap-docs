@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Deleting Duplicate Rows"
+description: |
+  This example demonstrates how adjacent duplicate rows in internal tables can be deleted. Source Code REPORT demo_int_tables_delete_adjacen. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF line, col1 TYPE i, col2 TYPE c L
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendelete_dup_lines_abexa.htm"
+abapFile: "abendelete_dup_lines_abexa.htm"
+keywords: ["select", "delete", "do", "if", "method", "class", "data", "internal-table", "abendelete", "dup", "lines", "abexa"]
+---
 
 * * *
 

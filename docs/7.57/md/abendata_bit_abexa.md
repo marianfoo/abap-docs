@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_data_bit. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF t_spfli, carrid    TYPE spfli-carrid, cityfrom  TYPE spfli-cityfrom, END OF t_spfli. DATA: frankfurt TYPE x LENGTH 4, frisco    TYPE x LENGTH 4, inte
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_bit_abexa.htm"
+abapFile: "abendata_bit_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abendata", "bit", "abexa"]
+---
 
 * * *
 

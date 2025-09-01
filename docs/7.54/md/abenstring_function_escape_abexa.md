@@ -1,4 +1,14 @@
-  
+---
+title: "String Functions, escape for HTML"
+description: |
+  This example demonstrates the string function escape(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_functions.htm) for HTML. Source Code REPORT  demo_escape_html. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. D
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_function_escape_abexa.htm"
+abapFile: "abenstring_function_escape_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abenstring", "function", "escape", "abexa"]
+---
 
 * * *
 

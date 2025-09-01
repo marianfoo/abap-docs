@@ -1,4 +1,14 @@
-  
+---
+title: "CCIMP include"
+description: |
+  Include program(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninclude_program_glosry.htm 'Glossary Entry') of a class pool(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_pool_glosry.htm 'Glossary Entry') that is included behind the declaration part(https:
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenccimp_glosry.htm"
+abapFile: "abenccimp_glosry.htm"
+keywords: ["do", "try", "class", "types", "abenccimp", "glosry"]
+---
 
 * * *
 

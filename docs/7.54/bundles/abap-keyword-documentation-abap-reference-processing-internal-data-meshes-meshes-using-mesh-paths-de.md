@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenmesh_delete.htm
 
-  
+---
+title: "Syntax"
+description: |
+  DELETE  TABLE mesh_path(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path.htm) table_key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_itab_key.htm)    mesh_path(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_pa
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_delete.htm"
+abapFile: "abenmesh_delete.htm"
+keywords: ["delete", "do", "if", "data", "types", "internal-table", "abenmesh"]
+---
 
 * * *
 
@@ -86,7 +96,17 @@ Continue
 
 ### abenmesh_delete_table_abexa.htm
 
-  
+---
+title: "Deleting Single Rows in Mesh Paths"
+description: |
+  This example demonstrates how single rows are deleted in mesh paths. Source Code REPORT demo_mesh_delete_table_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, t_itab1 TYPE SO
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_delete_table_abexa.htm"
+abapFile: "abenmesh_delete_table_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abenmesh", "table", "abexa"]
+---
 
 * * *
 
@@ -191,7 +211,17 @@ The row of node mesh-node2, identified starting with the third row of node mesh-
 
 ### abenmesh_delete_abexa.htm
 
-  
+---
+title: "Deleting Multiple Rows in Mesh Paths"
+description: |
+  This example demonstrates how multiple rows are deleted in mesh paths. Source Code REPORT demo_mesh_delete_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, t_itab1 TYPE SORTED
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_delete_abexa.htm"
+abapFile: "abenmesh_delete_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abenmesh", "abexa"]
+---
 
 * * *
 

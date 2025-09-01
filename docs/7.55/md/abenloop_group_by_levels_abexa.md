@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_group_by_levels. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF line, col1 TYPE c LENGTH 1, col2 TYPE i, col3 TYPE i, END OF line. CLASS-METHODS sum IMPORTING line       TYPE line base       TYPE line RETURNING VALUE(sum) TYPE line. E
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenloop_group_by_levels_abexa.htm"
+abapFile: "abenloop_group_by_levels_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "types", "internal-table", "abenloop", "group", "levels", "abexa"]
+---
 
 * * *
 

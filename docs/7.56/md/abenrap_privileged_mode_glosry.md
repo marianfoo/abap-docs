@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF privileged mode"
+description: |
+  With BDEF privileged mode, RAP BO consumers(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_consumer_glosry.htm 'Glossary Entry') can circumvent authorization checks(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_check_glosry.htm 'Glossary Entr
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_privileged_mode_glosry.htm"
+abapFile: "abenrap_privileged_mode_glosry.htm"
+keywords: ["do", "try", "abenrap", "privileged", "mode", "glosry"]
+---
 
 * * *
 

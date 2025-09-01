@@ -1,4 +1,14 @@
-  
+---
+title: "Type Mapping for ABAP EML"
+description: |
+  -   CORRESPONDING, Type mapping for ABAP EML(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_corresponding.htm) -   SET NAMES(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_names.htm) -   SET FLAGS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-U
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_type_mapping.htm"
+abapFile: "abapeml_type_mapping.htm"
+keywords: ["do", "abapeml", "type", "mapping"]
+---
 
 * * *
 

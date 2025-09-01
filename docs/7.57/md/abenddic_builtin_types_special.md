@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Special Dictionary Types"
+description: |
+  -   Date types and time types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_date_time_types.htm) -   Special character-like types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_special_character_types.htm) -   Currency fields(https://help.sap.com/doc/
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_special.htm"
+abapFile: "abenddic_builtin_types_special.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "builtin", "special"]
+---
 
 * * *
 

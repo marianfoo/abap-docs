@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Body, Projection BDEF"
+description: |
+  Syntax ... field characteristics(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_projection.htm); use(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_use_projection.htm); actions and functions(https://help.sap.com/doc/abapdocu_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_body_projection.htm"
+abapFile: "abenbdl_body_projection.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "body", "projection"]
+---
 
 * * *
 

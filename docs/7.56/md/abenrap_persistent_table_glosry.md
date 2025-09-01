@@ -1,4 +1,14 @@
-  
+---
+title: "RAP persistent table"
+description: |
+  DDIC database table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') a RAP BO(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry') is based on. For transactional changes of RAP persistent table
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_persistent_table_glosry.htm"
+abapFile: "abenrap_persistent_table_glosry.htm"
+keywords: ["do", "try", "data", "abenrap", "persistent", "table", "glosry"]
+---
 
 * * *
 

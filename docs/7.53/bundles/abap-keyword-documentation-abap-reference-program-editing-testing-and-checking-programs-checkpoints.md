@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abencheckpoints.htm
 
-  
+---
+title: "Checkpoints"
+description: |
+  Checkpoints define points in a program at which the state of the program can be tested during program execution. Checkpoints are either conditional and unconditional. Conditional checkpoints are defined by assertions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassertion_glosry.h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheckpoints.htm"
+abapFile: "abencheckpoints.htm"
+keywords: ["do", "if", "try", "abencheckpoints"]
+---
 
 * * *
 
@@ -38,7 +48,17 @@ Continue
 
 ### abapassert.htm
 
-  
+---
+title: "ASSERT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassert_shortref.htm) Syntax ASSERT  ID group SUBKEY sub FIELDS val1 val2 ... CONDITION  log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm). Extras: 1.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassert.htm"
+abapFile: "abapassert.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "data", "types", "internal-table", "abapassert"]
+---
 
 * * *
 
@@ -223,7 +243,17 @@ CALL SCREEN 100.
 
 ### abapbreak-point.htm
 
-  
+---
+title: "BREAK-POINT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapbreak-point_shortref.htm) Syntax BREAK-POINT  ID group  log_text . Extras: 1. ... ID group(#!ABAP_ADDITION_1@1@) 2. ... log_text(#!ABAP_ADDITION_2@2@) Effect This statement defines a br
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapbreak-point.htm"
+abapFile: "abapbreak-point.htm"
+keywords: ["select", "insert", "update", "loop", "do", "if", "case", "try", "data", "types", "abapbreak", "point"]
+---
 
 * * *
 
@@ -358,7 +388,17 @@ Continue
 
 ### abapbreak-point_internal.htm
 
-  
+---
+title: "BREAK-POINT - interner Zusatz"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... AT NEXT APPLICATION STATEMENT Effect This addition can be optionally entered after log_text, but not together with the addition ID. It is only useful in system programs, system modules, system subprog
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapbreak-point_internal.htm"
+abapFile: "abapbreak-point_internal.htm"
+keywords: ["do", "if", "abapbreak", "point", "internal"]
+---
 
 * * *
 
@@ -389,7 +429,17 @@ If system debugging is not activated and the addition AT NEXT APPLICATION STATEM
 
 ### abapbreak-point.htm
 
-  
+---
+title: "BREAK-POINT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapbreak-point_shortref.htm) Syntax BREAK-POINT  ID group  log_text . Extras: 1. ... ID group(#!ABAP_ADDITION_1@1@) 2. ... log_text(#!ABAP_ADDITION_2@2@) Effect This statement defines a br
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapbreak-point.htm"
+abapFile: "abapbreak-point.htm"
+keywords: ["select", "insert", "update", "loop", "do", "if", "case", "try", "data", "types", "abapbreak", "point"]
+---
 
 * * *
 
@@ -524,7 +574,17 @@ Continue
 
 ### abaplog-point.htm
 
-  
+---
+title: "LOG-POINT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplog-point_shortref.htm) Syntax LOG-POINT ID group SUBKEY sub FIELDS val1 val2 .... Extras: 1. ... ID group(#!ABAP_ADDITION_1@1@) 2. ... SUBKEY sub(#!ABAP_ADDITION_2@2@) 3. ... FIELDS val1 val2 ..
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplog-point.htm"
+abapFile: "abaplog-point.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abaplog", "point"]
+---
 
 * * *
 
@@ -605,7 +665,17 @@ LOG-POINT ID demo\_checkpoint\_group
 
 ### abencheckpoint_abexa.htm
 
-  
+---
+title: "Checkpoints and Checkpoint Groups"
+description: |
+  This example demonstrates the various checkpoints(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheckpoint_glosry.htm 'Glossary Entry') and their binding to a checkpoint group(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheckpoint_group_glosry.htm 'Glossary En
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheckpoint_abexa.htm"
+abapFile: "abencheckpoint_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "abencheckpoint", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (authorization:global) ... Effect The RAP BO operation addition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_operations_additions.htm) authorization:global replaces the authorization control(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorizatio
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth_global.htm"
+abapFile: "abenbdl_actions_auth_global.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "abenbdl", "actions", "auth", "global"]
+---
 
 * * *
 

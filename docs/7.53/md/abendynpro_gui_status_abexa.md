@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, GUI Status, and Function Codes"
+description: |
+  This example demonstrates how to set the GUI status and evaluate function codes. Source Code PROGRAM demo_dynpro_gui_status. DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output  LIKE ok_code. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. SET TITLEBAR '1
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_gui_status_abexa.htm"
+abapFile: "abendynpro_gui_status_abexa.htm"
+keywords: ["do", "case", "data", "abendynpro", "gui", "status", "abexa"]
+---
 
 * * *
 

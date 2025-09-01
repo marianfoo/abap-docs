@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - System Table Functions"
+description: |
+  CDS system table functions are system entities realized as CDS table functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_functions.htm). -   SERIES_GENERATE_, Series Generators(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.h
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm"
+abapFile: "abencds_system_table_functions.htm"
+keywords: ["do", "if", "data", "abencds", "system", "table", "functions"]
+---
 
 * * *
 

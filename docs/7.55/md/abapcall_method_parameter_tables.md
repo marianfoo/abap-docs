@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETER-TABLE ptab EXCEPTION-TABLE etab. Additions: 1. ... PARAMETER-TABLE ptab(#!ABAP_ADDITION_1@1@) 2. ... EXCEPTION-TABLE etab(#!ABAP_ADDITION_2@2@) Effect In dynamic method calls(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_dynamic.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_parameter_tables.htm"
+abapFile: "abapcall_method_parameter_tables.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abapcall", "parameter", "tables"]
+---
 
 * * *
 

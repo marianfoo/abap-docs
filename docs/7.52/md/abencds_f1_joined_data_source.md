@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, JOIN"
+description: |
+  Syntax ...  INNER JOIN  LEFTRIGHT OUTER TO ONEMANY JOIN  CROSS JOIN  data_source(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) ON cond_expr(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/aben
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm"
+abapFile: "abencds_f1_joined_data_source.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "joined", "source"]
+---
 
 * * *
 

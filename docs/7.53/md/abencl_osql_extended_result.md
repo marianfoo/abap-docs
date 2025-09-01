@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_cached_views_abexa.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 

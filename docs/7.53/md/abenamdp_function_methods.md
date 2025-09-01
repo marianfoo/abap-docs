@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Function Implementations"
+description: |
+  An AMDP function implementation is an AMDP method for implementing an AMDP function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_function_glosry.htm 'Glossary Entry') as a database function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_function_gl
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_function_methods.htm"
+abapFile: "abenamdp_function_methods.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenamdp", "function", "methods"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ AMDP - Function Implementations
 
 An AMDP function implementation is an AMDP method for implementing an [AMDP function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_function_glosry.htm "Glossary Entry") as a [database function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_function_glosry.htm "Glossary Entry"). An AMDP function implementation is indicated as an AMDP method in the implementation part of the class using the addition [BY DATABASE FUNCTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethod_by_db_proc.htm) of the statement METHOD. There are [AMDP table functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_table_function_glosry.htm "Glossary Entry") and [AMDP scalar funktions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_table_function_glosry.htm "Glossary Entry").
 
--   [AMDP Table Functions](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_1)
+-   [AMDP Table Functions](#abenamdp-function-methods-1--------amdp-table-functions-for-amdp-methods---@ITOC@@ABENAMDP_FUNCTION_METHODS_2)
 
--   [AMDP table functions for AMDP methods](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_2)
-
--   [AMDP Table Functions for CDS Table Functions](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_3)
-
--   [AMDP Scalar Functions](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_4)
+-   [AMDP Table Functions for CDS Table Functions](#abenamdp-function-methods-3--------amdp-scalar-functions---@ITOC@@ABENAMDP_FUNCTION_METHODS_4)
 
 AMDP Table Functions
 

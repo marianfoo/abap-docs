@@ -1,4 +1,14 @@
-  
+---
+title: "Visibility Sections in Classes"
+description: |
+  The declaration part(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_section_glosry.htm 'Glossary Entry') of a class can be split into up to four different visibility sections. These sections define the external visibility of the class components(https://help.sap.com/d
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_visibility.htm"
+abapFile: "abenclass_visibility.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenclass", "visibility"]
+---
 
 * * *
 

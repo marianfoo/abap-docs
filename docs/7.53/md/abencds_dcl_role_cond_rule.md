@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  GRANT SELECT ON cds_entity WHERE cond_expr(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_role_cond_expr.htm); Effect Conditional access rule in the statement DEFINE ROLE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_role.htm) of the CDS
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_role_cond_rule.htm"
+abapFile: "abencds_dcl_role_cond_rule.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "dcl", "role", "cond", "rule"]
+---
 
 * * *
 

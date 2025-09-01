@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FOR wa<fs> IN itab INDEX INTO idx  cond(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_cond.htm) let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm)  ... Addition: ... INDEX INTO idx(#!ABAP_ONE_ADD@1@) Ef
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_in_itab.htm"
+abapFile: "abenfor_in_itab.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abenfor", "itab"]
+---
 
 * * *
 

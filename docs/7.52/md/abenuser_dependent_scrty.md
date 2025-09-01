@@ -1,4 +1,14 @@
-  
+---
+title: "User-Dependent Program Flow"
+description: |
+  The use of user names in ABAP programs to control program behavior can be a security risk. In the worst case scenario, a back door can be created and used by developers to access unauthorized data or functions in systems where they do not have authorization. On the other hand, these can also be code
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_dependent_scrty.htm"
+abapFile: "abenuser_dependent_scrty.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenuser", "dependent", "scrty"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "nested_structure_glosry"
+description: |
+  nested_structure_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennested_structure_glosry.htm"
+abapFile: "abennested_structure_glosry.htm"
+keywords: ["do", "if", "try", "abennested", "structure", "glosry"]
+---
 
 * * *
 

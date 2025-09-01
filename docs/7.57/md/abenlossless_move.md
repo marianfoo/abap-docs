@@ -1,4 +1,14 @@
-  
+---
+title: "Lossless Assignments"
+description: |
+  In a lossless assignment(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlossless_assignment_glosry.htm 'Glossary Entry'), the assigned content is checked to see whether the assignment is lossless before converting(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencon
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlossless_move.htm"
+abapFile: "abenlossless_move.htm"
+keywords: ["do", "if", "case", "try", "data", "abenlossless", "move"]
+---
 
 * * *
 

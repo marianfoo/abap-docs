@@ -1,4 +1,14 @@
-  
+---
+title: "Statements in Logical Databases"
+description: |
+  The following statements or additions for statements can be used in logical databases only. If you no longer create logical databases, then you no longer require these statements. Database programm The database program of a logical database provides other programs with data about interface work area
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_statements.htm"
+abapFile: "abenldb_statements.htm"
+keywords: ["select", "do", "if", "try", "data", "abenldb", "statements"]
+---
 
 * * *
 

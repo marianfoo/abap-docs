@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - with privileged mode, Extension"
+description: |
+  Syntax ... with privileged mode disabling ContextName; ... Effect Enables BDEF privileged mode(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_privileged_mode_glosry.htm 'Glossary Entry') for an extended RAP BO. BDEF privileged mode is a prerequisite for using the addition PRIV
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode_extension.htm"
+abapFile: "abenbdl_privileged_mode_extension.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "privileged", "mode", "extension"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenbc_authority_check.htm
 
-  
+---
+title: "Authorizations"
+description: |
+  Authorizations are a method used to protect functions or objects in AS ABAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenas_abap_glosry.htm 'Glossary Entry'). The programmer of a function determines where authorizations are checked and how. The user administrator determines which
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbc_authority_check.htm"
+abapFile: "abenbc_authority_check.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "abenbc", "authority", "check"]
+---
 
 * * *
 
@@ -77,7 +87,17 @@ Continue
 
 ### abapauthority-check.htm
 
-  
+---
+title: "AUTHORITY-CHECK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapauthority-check_shortref.htm) Syntax AUTHORITY-CHECK OBJECT auth_obj FOR USER user ID id1 FIELD val1DUMMY ID id2 FIELD val2DUMMY ... ID id10 FIELD val10DUMMY. Addition
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapauthority-check.htm"
+abapFile: "abapauthority-check.htm"
+keywords: ["select", "update", "loop", "do", "if", "case", "try", "class", "data", "abapauthority", "check"]
+---
 
 * * *
 

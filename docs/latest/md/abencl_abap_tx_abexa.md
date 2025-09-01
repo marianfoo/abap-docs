@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_cl_abap_tx DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. DATA input TYPE i. PRIVATE SECTION. METHODS get_html RETURNING VALUE(html) TYPE string. ENDCLASS.  Public class implementation CLA
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_tx_abexa.htm"
+abapFile: "abencl_abap_tx_abexa.htm"
+keywords: ["delete", "do", "if", "case", "method", "class", "data", "abencl", "abap", "abexa"]
+---
 
 * * *
 

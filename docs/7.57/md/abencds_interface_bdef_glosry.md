@@ -1,4 +1,14 @@
-  
+---
+title: "CDS interface behavior definition"
+description: |
+  Interface BDEF for short. A component of a RAP BO interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_interface_glosry.htm 'Glossary Entry'). It defines the behavior that is included in the interface. A RAP BO interface behavior definition is represented by a CDS behav
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_interface_bdef_glosry.htm"
+abapFile: "abencds_interface_bdef_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "interface", "bdef", "glosry"]
+---
 
 * * *
 

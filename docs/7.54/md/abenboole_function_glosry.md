@@ -1,4 +1,14 @@
-  
+---
+title: "Boolean function"
+description: |
+  Logical function(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogic_function_glosry.htm 'Glossary Entry') that analyzes a logical expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_expression_glosry.htm 'Glossary Entry') and returns the truth val
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboole_function_glosry.htm"
+abapFile: "abenboole_function_glosry.htm"
+keywords: ["do", "try", "abenboole", "function", "glosry"]
+---
 
 * * *
 

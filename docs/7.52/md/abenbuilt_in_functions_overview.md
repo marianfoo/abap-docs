@@ -1,4 +1,14 @@
-  
+---
+title: "Predefined Functions - Overview"
+description: |
+  The following tables show the predefined functions by purpose. Predefined functions are generally processing functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocess_function_glosry.htm 'Glossary Entry') or description functions(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions_overview.htm"
+abapFile: "abenbuilt_in_functions_overview.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "abenbuilt", "functions", "overview"]
+---
 
 * * *
 

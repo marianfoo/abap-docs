@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenabap_field_symbols.htm
 
-  
+---
+title: "Field Symbols"
+description: |
+  Field symbols are declared using the statement FIELD-SYMBOLS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols.htm) or the declaration operator FIELD-SYMBOL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield-symbol_inline.htm) and are either
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_field_symbols.htm"
+abapFile: "abenabap_field_symbols.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "field-symbol", "abenabap", "field", "symbols"]
+---
 
 * * *
 
@@ -38,7 +48,17 @@ Continue
 
 ### abapfield-symbols.htm
 
-  
+---
+title: "FIELD-SYMBOLS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_shortref.htm) Syntax FIELD-SYMBOLS <fs>  typing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_syntax.htm)  obsolete_typing(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols.htm"
+abapFile: "abapfield-symbols.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "internal-table", "field-symbol", "abapfield", "symbols"]
+---
 
 * * *
 

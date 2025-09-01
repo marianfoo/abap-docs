@@ -1,4 +1,14 @@
-  
+---
+title: "Avoiding Invalid Values"
+description: |
+  Background For performance reasons, the ABAP runtime framework does not check whether the target field contains a valid value after each and every assignment. Particularly for target fields of the character-like data type n and the date/time types d and t, the conversion rules allow any alphanumeric
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenavoiding_invalid_values_guidl.htm"
+abapFile: "abenavoiding_invalid_values_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abenavoiding", "invalid", "values", "guidl"]
+---
 
 * * *
 

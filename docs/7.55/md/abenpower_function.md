@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ipow( base = arg exp = n ) ... Effect This function powers the argument arg passed to base with the exponent n passed to exp. The arguments arg and n are numeric expression positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_expr_position_glosry.htm 'Glossary Ent
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpower_function.htm"
+abapFile: "abenpower_function.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenpower", "function"]
+---
 
 * * *
 

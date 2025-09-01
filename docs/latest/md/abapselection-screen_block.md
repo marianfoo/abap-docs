@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, BLOCK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_bob_shortref.htm) Syntax SELECTION-SCREEN BEGIN OF BLOCK block WITH FRAME TITLE title NO INTERVALS. ... SELECTION-SCREEN END OF BLOCK block. Additions: 1. ... WITH FRAME
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_block.htm"
+abapFile: "abapselection-screen_block.htm"
+keywords: ["select", "do", "if", "try", "abapselection", "screen", "block"]
+---
 
 * * *
 

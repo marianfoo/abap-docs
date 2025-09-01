@@ -1,4 +1,14 @@
-  
+---
+title: "client_identifier_glosry"
+description: |
+  client_identifier_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_identifier_glosry.htm"
+abapFile: "abenclient_identifier_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenclient", "identifier", "glosry"]
+---
 
 * * *
 

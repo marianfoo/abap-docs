@@ -1,4 +1,14 @@
-  
+---
+title: "Exiting Procedures"
+description: |
+  Background You can exit procedures in the usual way using the END... statement or by using one of the following statements: -   RETURN -   EXIT -   CHECK log_exp These statements end a procedure properly, that is, the system passes output parameters for which passing by value is specified and retur
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexit_procedure_guidl.htm"
+abapFile: "abenexit_procedure_guidl.htm"
+keywords: ["update", "loop", "do", "if", "case", "try", "method", "abenexit", "procedure", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete User Dialogs"
+description: |
+  Various UI technologies are available in the ABAP environment: -   Classic SAP GUI technologies -   Classic dynpros(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros.htm) -   Selection screens(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselection_scre
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_obsolete.htm"
+abapFile: "abengui_obsolete.htm"
+keywords: ["select", "do", "if", "try", "class", "abengui", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - System Classes and Interfaces"
+description: |
+  This documentation is only available internally at SAP.
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_system_classes.htm"
+abapFile: "abencds_system_classes.htm"
+keywords: ["do", "if", "class", "data", "abencds", "system", "classes"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "table_control_glosry"
+description: |
+  table_control_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_control_glosry.htm"
+abapFile: "abentable_control_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentable", "control", "glosry"]
+---
 
 * * *
 

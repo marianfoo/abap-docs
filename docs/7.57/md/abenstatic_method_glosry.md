@@ -1,4 +1,14 @@
-  
+---
+title: "static_method_glosry"
+description: |
+  static_method_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_method_glosry.htm"
+abapFile: "abenstatic_method_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenstatic", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Example"
+description: |
+  This example demonstrates how shared objects are used. Source Code  Public class definition CLASS cl_demo_shared_objects DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS demo_flight_list_handler DEFINITION
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm"
+abapFile: "abenshared_objects_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenshared", "objects", "abexa"]
+---
 
 * * *
 

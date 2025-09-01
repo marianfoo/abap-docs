@@ -1,4 +1,14 @@
-  
+---
+title: "s4_hana_cloud_abap_env_glosry"
+description: |
+  s4_hana_cloud_abap_env_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abens4_hana_cloud_abap_env_glosry.htm"
+abapFile: "abens4_hana_cloud_abap_env_glosry.htm"
+keywords: ["do", "if", "try", "abens4", "hana", "cloud", "abap", "env", "glosry"]
+---
 
 * * *
 

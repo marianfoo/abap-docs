@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  A bit expression cannot be specified as the operand of a predicate expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicate_expression_glosry.htm 'Glossary Entry'). Example This example shows the different ways lengths are handled in comparisons between byte fields
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_expr_bit.htm"
+abapFile: "abenlogexp_rules_expr_bit.htm"
+keywords: ["do", "if", "try", "data", "types", "abenlogexp", "rules", "expr", "bit"]
+---
 
 * * *
 

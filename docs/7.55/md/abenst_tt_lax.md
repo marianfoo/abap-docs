@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... tt:lax='on''off''deep-on''deep-off' ... Effect When deserializing literal XML elements, the optional attribute tt:lax can be used to control whether the name of an element is respected. -   If tt:lax is specified with the value ″off″, the inbound XML stream must contain an element of th
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_lax.htm"
+abapFile: "abenst_tt_lax.htm"
+keywords: ["do", "if", "data", "abenst", "lax"]
+---
 
 * * *
 

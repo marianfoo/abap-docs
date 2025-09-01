@@ -1,4 +1,14 @@
-  
+---
+title: "ENDSELECT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_shortref.htm) Syntax ENDSELECT. Effect The Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm 'Glossary Entry') statement ENDSELECT closes a loop started using SELECT(
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendselect.htm"
+abapFile: "abapendselect.htm"
+keywords: ["select", "loop", "do", "try", "data", "abapendselect"]
+---
 
 * * *
 

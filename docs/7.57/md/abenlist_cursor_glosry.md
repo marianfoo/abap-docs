@@ -1,4 +1,14 @@
-  
+---
+title: "list_cursor_glosry"
+description: |
+  list_cursor_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_cursor_glosry.htm"
+abapFile: "abenlist_cursor_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenlist", "cursor", "glosry"]
+---
 
 * * *
 

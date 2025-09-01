@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP programming model for SAP Fiori"
+description: |
+  Obsolete programming model for SAP HANA-optimized Fiori apps based on the AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry'). Its successor is the ABAP RESTful Application Programming Model (RAP)(https://help.sap.com/doc/abapdocu_late
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pm_for_fiori_glosry.htm"
+abapFile: "abenabap_pm_for_fiori_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "for", "fiori", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "calculation_length_glosry"
+description: |
+  calculation_length_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_length_glosry.htm"
+abapFile: "abencalculation_length_glosry.htm"
+keywords: ["do", "try", "data", "types", "abencalculation", "length", "glosry"]
+---
 
 * * *
 

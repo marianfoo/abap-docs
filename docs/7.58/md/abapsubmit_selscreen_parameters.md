@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... USING SELECTION-SET variant USING SELECTION-SETS OF PROGRAM prog WITH SELECTION-TABLE rspar WITH expr_syntax1 WITH expr_syntax2 ... WITH FREE SELECTIONS texpr ... Additions: 1. ... USING SELECTION-SET variant(#!ABAP_ADDITION_1@1@) 2. ... USING SELEC
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubmit_selscreen_parameters.htm"
+abapFile: "abapsubmit_selscreen_parameters.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapsubmit", "selscreen", "parameters"]
+---
 
 * * *
 

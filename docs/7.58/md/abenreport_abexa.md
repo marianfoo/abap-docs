@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Linkage with a Program"
+description: |
+  This example demonstrates how a logical database is linked with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'. carr
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "if", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 

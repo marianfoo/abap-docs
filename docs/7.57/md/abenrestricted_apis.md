@@ -1,4 +1,14 @@
-  
+---
+title: "Contract Rules for Released APIs"
+description: |
+  In strict ABAP development environments(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstrict_abap_dev_envir_glosry.htm 'Glossary Entry') changes and extensions to released APIs are strictly governed by release contracts(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrestricted_apis.htm"
+abapFile: "abenrestricted_apis.htm"
+keywords: ["do", "if", "try", "abenrestricted", "apis"]
+---
 
 * * *
 

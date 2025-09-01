@@ -1,4 +1,14 @@
-  
+---
+title: "GET BIT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_bit_shortref.htm) Syntax GET BIT bitpos OF byte_string INTO val. Effect This statement reads the bit at the bit position bitpos of the data object byte_string and assigns its value to the target field val. va
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_bit.htm"
+abapFile: "abapget_bit.htm"
+keywords: ["loop", "do", "while", "if", "try", "catch", "data", "types", "internal-table", "abapget", "bit"]
+---
 
 * * *
 

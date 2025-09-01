@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Access to Database Functions"
+description: |
+  This example demonstrates how a database function is accessed using static Native SQL. Source Code REPORT demo_exec_sql_db_function. 'This program uses platform dependent Native SQL. 'It may not work for every database system. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS.
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_db_function_abexa.htm"
+abapFile: "abenexec_sql_db_function_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenexec", "sql", "function", "abexa"]
+---
 
 * * *
 

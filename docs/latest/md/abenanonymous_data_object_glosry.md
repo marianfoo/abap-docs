@@ -1,4 +1,14 @@
-  
+---
+title: "anonymous_data_object_glosry"
+description: |
+  anonymous_data_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenanonymous_data_object_glosry.htm"
+abapFile: "abenanonymous_data_object_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "field-symbol", "abenanonymous", "object", "glosry"]
+---
 
 * * *
 

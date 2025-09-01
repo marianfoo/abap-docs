@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, TYPE, LIKE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_shortref.htm) Syntax TYPES dtype  TYPE LINE OF type  LIKE LINE OF dobj  . Addition: ... LINE OF ...(#!ABAP_ONE_ADD@1@) Effect By specifying a data type type or a data object
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_referring.htm"
+abapFile: "abaptypes_referring.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abaptypes", "referring"]
+---
 
 * * *
 

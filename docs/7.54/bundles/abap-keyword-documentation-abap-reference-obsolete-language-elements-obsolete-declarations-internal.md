@@ -5,7 +5,17 @@ Included pages: 9
 
 ### abenitab_declare_obsolete.htm
 
-  
+---
+title: "Internal Tables"
+description: |
+  -   TYPES - OCCURS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_occurs.htm) -   DATA - OCCURS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_occurs.htm) -   TABLE LINE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptable_line.htm) -
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_declare_obsolete.htm"
+abapFile: "abenitab_declare_obsolete.htm"
+keywords: ["do", "data", "types", "internal-table", "abenitab", "declare", "obsolete"]
+---
 
 * * *
 
@@ -32,7 +42,17 @@ Continue
 
 ### abaptypes_occurs.htm
 
-  
+---
+title: "TYPES - OCCURS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_occurs_shortref.htm) Obsolete Syntax TYPES dtype  TYPE REF TO type  LIKE REF TO dobj  OCCURS n. Effect This statement is forbidden in classes. The statement has the same functi
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_occurs.htm"
+abapFile: "abaptypes_occurs.htm"
+keywords: ["do", "try", "class", "types", "internal-table", "abaptypes", "occurs"]
+---
 
 * * *
 
@@ -61,7 +81,17 @@ TYPES dtype *{* *{*TYPE STANDARD TABLE OF *\[*REF TO*\]* type*}*
 
 ### abapdata_occurs.htm
 
-  
+---
+title: "DATA - OCCURS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_occurs_shortref.htm) Obsolete Syntax DATA itab  TYPE REF TO type  LIKE REF TO dobj  OCCURS n WITH HEADER LINE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-U
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_occurs.htm"
+abapFile: "abapdata_occurs.htm"
+keywords: ["do", "try", "class", "data", "internal-table", "abapdata", "occurs"]
+---
 
 * * *
 
@@ -94,7 +124,17 @@ The use of the addition [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_754
 
 ### abaptable_line.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  TYPES(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_itab.htm) ... WITH(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_keydef.htm) ... KEY(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_primary_key.htm) TABLE LINE. DATA(https:
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptable_line.htm"
+abapFile: "abaptable_line.htm"
+keywords: ["do", "if", "class", "data", "types", "internal-table", "abaptable", "line"]
+---
 
 * * *
 
@@ -129,7 +169,17 @@ TYPES itab TYPE SORTED TABLE OF i WITH UNIQUE KEY table\_line.
 
 ### abenitab_header_line.htm
 
-  
+---
+title: "Internal Tables with Header Line"
+description: |
+  Outside classes, and if it is not a component of a structure or row in another internal table, it is still possible to create an internal table with a header line. -   Declaration of Header Lines(#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2) -   Use(#
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm"
+abapFile: "abenitab_header_line.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenitab", "header", "line"]
+---
 
 * * *
 
@@ -141,9 +191,7 @@ Internal Tables with Header Line
 
 Outside classes, and if it is not a component of a structure or row in another internal table, it is still possible to create an internal table with a header line.
 
--   [Declaration of Header Lines](#@@ITOC@@ABENITAB_HEADER_LINE_1)
-
--   [Properties of Header Lines](#@@ITOC@@ABENITAB_HEADER_LINE_2)
+-   [Declaration of Header Lines](#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2)
 
 -   [Use](#@@ITOC@@ABENITAB_HEADER_LINE_3)
 
@@ -253,7 +301,17 @@ Continue
 
 ### abapdata_header_line.htm
 
-  
+---
+title: "DATA - HEADER LINE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata.htm) Obsolete Syntax ... WITH HEADER LINE ... Effect This addition of the statements DATA TABLE OF(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_itab.htm), DATA RANGE OF(https://help.sap.c
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_header_line.htm"
+abapFile: "abapdata_header_line.htm"
+keywords: ["loop", "do", "if", "try", "class", "data", "types", "internal-table", "abapdata", "header", "line"]
+---
 
 * * *
 
@@ -290,7 +348,17 @@ Notes
 
 ### abapdata_begin_of_occurs.htm
 
-  
+---
+title: "DATA - BEGIN OF OCCURS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_begin_of_shortref.htm) Obsolete Syntax DATA BEGIN OF itab OCCURS n. ... DATA END OF itab VALID BETWEEN intlim1 AND intlim2. Addition: ... VALID BETWEEN intlim1 AND intlim2(#!ABAP_ONE_ADD@1@) Effect This v
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_begin_of_occurs.htm"
+abapFile: "abapdata_begin_of_occurs.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abapdata", "begin", "occurs"]
+---
 
 * * *
 
@@ -344,7 +412,17 @@ The VALID BETWEEN addition of the DATA END OF statement is only important if the
 
 ### abapranges.htm
 
-  
+---
+title: "RANGES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges_shortref.htm) Obsolete Syntax RANGES range_tab FOR dobj OCCURS n. Effect Obsolete declaration of a ranges table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenranges_table_glosry.htm 'G
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges.htm"
+abapFile: "abapranges.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapranges"]
+---
 
 * * *
 
@@ -382,7 +460,17 @@ Notes
 
 ### abenitab_header_line.htm
 
-  
+---
+title: "Internal Tables with Header Line"
+description: |
+  Outside classes, and if it is not a component of a structure or row in another internal table, it is still possible to create an internal table with a header line. -   Declaration of Header Lines(#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2) -   Use(#
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm"
+abapFile: "abenitab_header_line.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenitab", "header", "line"]
+---
 
 * * *
 
@@ -394,9 +482,7 @@ Internal Tables with Header Line
 
 Outside classes, and if it is not a component of a structure or row in another internal table, it is still possible to create an internal table with a header line.
 
--   [Declaration of Header Lines](#@@ITOC@@ABENITAB_HEADER_LINE_1)
-
--   [Properties of Header Lines](#@@ITOC@@ABENITAB_HEADER_LINE_2)
+-   [Declaration of Header Lines](#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2)
 
 -   [Use](#@@ITOC@@ABENITAB_HEADER_LINE_3)
 

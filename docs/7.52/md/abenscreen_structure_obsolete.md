@@ -1,4 +1,14 @@
-  
+---
+title: "The predefined structure screen"
+description: |
+  In dynpro(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm 'Glossary Entry') processing in dialog modules, the predefined data object screen of the data type SCREEN from ABAP Dictionary is available. It can be addressed explicitly there and implicitly in obsolete sh
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_structure_obsolete.htm"
+abapFile: "abenscreen_structure_obsolete.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenscreen", "structure", "obsolete"]
+---
 
 * * *
 

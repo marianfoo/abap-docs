@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  col  dobj    operand1 +-/ operand2 +-/ operand3 ...     func( arg1, arg2... )    cast( operand AS dtype )    operand1 && operand2 &&  operand3 ...     coalesce( arg1, arg2 )    CASE ... W
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_exp_shortref.htm"
+abapFile: "abensql_exp_shortref.htm"
+keywords: ["do", "if", "case", "data", "abensql", "exp", "shortref"]
+---
 
 * * *
 

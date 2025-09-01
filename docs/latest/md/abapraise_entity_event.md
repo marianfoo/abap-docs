@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE ENTITY EVENT"
+description: |
+  Syntax RAISE ENTITY EVENT bdef~evt FROM tab. Effect Raises a RAP business event(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_entity_event_glosry.htm 'Glossary Entry'). The statement can only be used in ABAP behavior pools(https://help.sap.com/doc/abapdocu_latest_index_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_entity_event.htm"
+abapFile: "abapraise_entity_event.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapraise", "entity", "event"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - COMMIT ENTITIES IN SIMULATION MODE"
+description: |
+  This example demonstrates the COMMIT ENTITIES IN SIMULATION MODE statement. Data model The CDS data model consists of the root entity DEMO_CDS_UPDATE. Behavior definition The RAP behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommit_entities_sim_mod_abexa.htm"
+abapFile: "abencommit_entities_sim_mod_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "abencommit", "entities", "sim", "mod", "abexa"]
+---
 
 * * *
 

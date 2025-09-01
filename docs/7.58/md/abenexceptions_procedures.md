@@ -1,4 +1,14 @@
-  
+---
+title: "Class-Based Exceptions in Procedures"
+description: |
+  If a class-based exception is not handled in a procedure(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocedure_glosry.htm 'Glossary Entry'), the system attempts to propagate(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_system_response.htm) it to th
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_procedures.htm"
+abapFile: "abenexceptions_procedures.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "exception-handling", "abenexceptions", "procedures"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP ETag master entity"
+description: |
+  RAP BO entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') that has its own ETag(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_etag_glosry.htm 'Glossary Entry') field defined using the keyword etag master MasterFi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_etag_ma_ent_glosry.htm"
+abapFile: "abenrap_etag_ma_ent_glosry.htm"
+keywords: ["do", "try", "abenrap", "etag", "ent", "glosry"]
+---
 
 * * *
 

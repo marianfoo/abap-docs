@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapupdate.htm) Syntax UPDATE dbtabview(target_syntax) USING CLIENT clnt  CLIENT SPECIFIED CONNECTION con(con_syntax)   SET col1 = fcol1 = col1 + fcol1 = col1 - f
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapupdate_shortref.htm"
+abapFile: "abapupdate_shortref.htm"
+keywords: ["insert", "update", "do", "if", "try", "class", "data", "internal-table", "abapupdate", "shortref"]
+---
 
 * * *
 

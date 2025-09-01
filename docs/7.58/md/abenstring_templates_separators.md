@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... n ... r ... t ... Effect String templates interpret the character combinations n, r, and t as control characters(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm 'Glossary Entry'). Control Character Meaning Hexadecimal value (UTF-8) n Li
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_templates_separators.htm"
+abapFile: "abenstring_templates_separators.htm"
+keywords: ["insert", "do", "if", "try", "class", "data", "abenstring", "templates", "separators"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "fixed_value_append_glosry"
+description: |
+  fixed_value_append_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfixed_value_append_glosry.htm"
+abapFile: "abenfixed_value_append_glosry.htm"
+keywords: ["do", "if", "try", "abenfixed", "value", "append", "glosry"]
+---
 
 * * *
 

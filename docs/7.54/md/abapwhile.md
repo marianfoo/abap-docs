@@ -1,4 +1,14 @@
-  
+---
+title: "WHILE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwhile_shortref.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm) statement_block ENDWHILE. Effect Conditional loop. The statements WHILE and ENDWHILE define
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwhile.htm"
+abapFile: "abapwhile.htm"
+keywords: ["loop", "do", "while", "if", "try", "data", "internal-table", "abapwhile"]
+---
 
 * * *
 

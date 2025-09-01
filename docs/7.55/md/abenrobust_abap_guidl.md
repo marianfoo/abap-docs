@@ -1,4 +1,14 @@
-  
+---
+title: "Robust ABAP"
+description: |
+  The recommendations and rules explained in this section are intended to help you create reliable and robust ABAP programs, which behave as expected for both the developers and the program maintenance technicians. -   Data Types and Data Objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrobust_abap_guidl.htm"
+abapFile: "abenrobust_abap_guidl.htm"
+keywords: ["do", "data", "types", "internal-table", "abenrobust", "abap", "guidl"]
+---
 
 * * *
 

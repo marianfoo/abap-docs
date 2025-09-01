@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Common Table Expressions"
+description: |
+  This example demonstrates how common table expressions are used in the statement WITH(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith.htm). Source Code REPORT demo_cte. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF struct, carrname TYPE scarr-carrname, connid   TYPE s
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwith_cte_abexa.htm"
+abapFile: "abenwith_cte_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "abenwith", "cte", "abexa"]
+---
 
 * * *
 

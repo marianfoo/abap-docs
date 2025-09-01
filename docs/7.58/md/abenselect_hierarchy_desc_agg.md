@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... HIERARCHY_DESCENDANTS_AGGREGATE( SOURCE hierarchy(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_hierarchy.htm) AS tabalias JOIN data_source(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_data_source.htm) AS tabalias ON sq
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_hierarchy_desc_agg.htm"
+abapFile: "abenselect_hierarchy_desc_agg.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abenselect", "hierarchy", "desc", "agg"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Test Seams"
+description: |
+  Test seams are language constructs designed especially for unit tests(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunit_test_glosry.htm 'Glossary Entry') and are implemented using the following statements: -   TEST-SEAM - END-TEST-SEAM(https://help.sap.com/doc/abapdocu_758_inde
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_seams.htm"
+abapFile: "abentest_seams.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "abentest", "seams"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  Syntax EXTEND VIEW ENTITY cds_view_entity  projection_view WITH association1 association2 ...  select_list_extension  GROUP BY field1, field2, ...   EXCEPT  INTERSECT  UNION ALL   ...  ; Additions: 1. ... GROUP BY field1, field2, ...(#!ABA
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["select", "delete", "do", "if", "try", "class", "data", "types", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 

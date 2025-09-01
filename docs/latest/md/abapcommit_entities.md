@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT ENTITIES"
+description: |
+  Syntax Forms COMMIT ENTITIES, Short Form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapemlcommit_entities_short.htm) 1. COMMIT ENTITIES IN SIMULATION MODE RESPONSES response_param(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm"
+abapFile: "abapcommit_entities.htm"
+keywords: ["update", "loop", "do", "if", "case", "try", "method", "class", "data", "abapcommit", "entities"]
+---
 
 * * *
 

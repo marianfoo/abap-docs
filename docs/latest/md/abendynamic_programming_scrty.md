@@ -1,4 +1,14 @@
-  
+---
+title: "Security Risks Caused by Input from Outside"
+description: |
+  Most security issues in ABAP programs are caused by because input injected into a program from outside, that is -   from a user interface -   from a parameter interface -   from a persistent repository, is used wrongly or carelessly. More specifically, security risks arise here whenever full stateme
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm"
+abapFile: "abendynamic_programming_scrty.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "internal-table", "abendynamic", "programming", "scrty"]
+---
 
 * * *
 

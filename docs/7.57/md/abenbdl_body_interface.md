@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Entity Behavior Body, Interface BDEF"
+description: |
+  Syntax ... use(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_use_projection.htm); field ( suppress ) fieldName(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_char.htm); ... Effect In the entity behavior body(https://help.sap.com/do
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body_interface.htm"
+abapFile: "abenbdl_body_interface.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "types", "abenbdl", "body", "interface"]
+---
 
 * * *
 

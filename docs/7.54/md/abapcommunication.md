@@ -1,4 +1,14 @@
-  
+---
+title: "COMMUNICATION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommunication_shortref.htm) Obsolete Syntax COMMUNICATION comstep(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommunication_comstep.htm) ID id  cpic_options(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommunication.htm"
+abapFile: "abapcommunication.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "types", "abapcommunication"]
+---
 
 * * *
 

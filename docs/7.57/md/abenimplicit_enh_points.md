@@ -1,4 +1,14 @@
-  
+---
+title: "Implicit Enhancement Options"
+description: |
+  In addition to enhancement options(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_point_glosry.htm 'Glossary Entry') that can be created explicitly using ENHANCEMENT-POINT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapenhancement-point.htm) and ENHAN
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenimplicit_enh_points.htm"
+abapFile: "abenimplicit_enh_points.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abenimplicit", "enh", "points"]
+---
 
 * * *
 

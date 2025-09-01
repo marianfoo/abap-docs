@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, COMPOSITION"
+description: |
+  Syntax ... COMPOSITION  cardinality(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cardinality_v2.htm) OF target AS _compos ... Effect Defines a to-child association(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abento_child_ass
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_v2.htm"
+abapFile: "abencds_composition_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "composition"]
+---
 
 * * *
 

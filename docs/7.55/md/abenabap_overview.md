@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Programming Language, Overview"
+description: |
+  ABAP is a programming language developed by SAP for the development of business applications in the SAP environment. The ABAP Objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_objects_glosry.htm 'Glossary Entry') component allows for object-oriented programming. -   ABAP
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_overview.htm"
+abapFile: "abenabap_overview.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abenabap", "overview"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ ABAP Programming Language, Overview
 
 ABAP is a programming language developed by SAP for the development of business applications in the SAP environment. The [ABAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_objects_glosry.htm "Glossary Entry") component allows for object-oriented programming.
 
--   [ABAP on the Application Server ABAP](#@@ITOC@@ABENABAP_OVERVIEW_1)
+-   [ABAP on the Application Server ABAP](#abenabap-overview-1--------programming-models---@ITOC@@ABENABAP_OVERVIEW_2)
 
--   [Programming Models](#@@ITOC@@ABENABAP_OVERVIEW_2)
-
--   [Database Access](#@@ITOC@@ABENABAP_OVERVIEW_3)
-
--   [Special Characteristics](#@@ITOC@@ABENABAP_OVERVIEW_4)
+-   [Database Access](#abenabap-overview-3--------special-characteristics---@ITOC@@ABENABAP_OVERVIEW_4)
 
 -   [Multilingualism](#@@ITOC@@ABENABAP_OVERVIEW_5)
 

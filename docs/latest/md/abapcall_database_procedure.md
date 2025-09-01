@@ -1,4 +1,14 @@
-  
+---
+title: "CALL DATABASE PROCEDURE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_db_procedure_shortref.htm) Syntax CALL DATABASE PROCEDURE   proxy       CONNECTION con(con_syntax) parameter_list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_db_p
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_database_procedure.htm"
+abapFile: "abapcall_database_procedure.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapcall", "database", "procedure"]
+---
 
 * * *
 

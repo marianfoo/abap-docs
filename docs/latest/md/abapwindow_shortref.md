@@ -1,4 +1,14 @@
-  
+---
+title: "WINDOW - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 

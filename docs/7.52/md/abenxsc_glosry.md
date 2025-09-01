@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA XSC"
+description: |
+  SAP HANA Extended Application Services Classic Model. Earlier version of XS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxs_glosry.htm 'Glossary Entry') and predecessor to XSC(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsa_glosry.htm 'Glossary Entry'). XSC o
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsc_glosry.htm"
+abapFile: "abenxsc_glosry.htm"
+keywords: ["do", "try", "class", "abenxsc", "glosry"]
+---
 
 * * *
 

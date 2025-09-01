@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO draft action"
+description: |
+  Draft actions are specific actions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_action_glosry.htm 'Glossary Entry') whose implementation is provided by the RAP managed draft provider(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_man_draft_provider_glosr
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_draft_action_glosry.htm"
+abapFile: "abenrap_bo_draft_action_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "draft", "action", "glosry"]
+---
 
 * * *
 

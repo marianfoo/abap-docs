@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Declarations"
+description: |
+  -   Data Types and Data Objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_data_obsolete.htm) -   Declaration and Loading(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenaddress_obsolet.htm) -   Interface Work Areas(https://help.sap.com/doc/abapdocu_757
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_declarations.htm"
+abapFile: "abenobsolete_declarations.htm"
+keywords: ["do", "if", "data", "types", "internal-table", "field-symbol", "abenobsolete", "declarations"]
+---
 
 * * *
 

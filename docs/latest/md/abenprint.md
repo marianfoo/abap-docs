@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Spool"
+description: |
+  The spooling of lists means the list output is not passed to the list buffer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_buffer_glosry.htm 'Glossary Entry') for screen lists(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_list_glosry.htm 'G
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint.htm"
+abapFile: "abenprint.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "abenprint"]
+---
 
 * * *
 

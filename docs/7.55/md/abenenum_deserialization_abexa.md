@@ -1,4 +1,14 @@
-  
+---
+title: "Enums, Deserialization"
+description: |
+  This example demonstrates how a dynamically created XML file is deserialized to an enumerated object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_object_glosry.htm 'Glossary Entry'). Source Code REPORT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLAS
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenum_deserialization_abexa.htm"
+abapFile: "abenenum_deserialization_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenenum", "deserialization", "abexa"]
+---
 
 * * *
 

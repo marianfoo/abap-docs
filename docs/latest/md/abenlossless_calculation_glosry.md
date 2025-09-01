@@ -1,4 +1,14 @@
-  
+---
+title: "lossless_calculation_glosry"
+description: |
+  lossless_calculation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_calculation_glosry.htm"
+abapFile: "abenlossless_calculation_glosry.htm"
+keywords: ["do", "if", "try", "abenlossless", "calculation", "glosry"]
+---
 
 * * *
 

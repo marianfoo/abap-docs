@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapformat.htm
 
-  
+---
+title: "FORMAT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapformat_shortref.htm) Syntax FORMAT COLOR       =color ONOFF= col INTENSIFIED ONOFF= flag INVERSE     ONOFF= fl
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapformat.htm"
+abapFile: "abapformat.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapformat"]
+---
 
 * * *
 
@@ -351,7 +361,17 @@ Continue
 
 ### abenlist_format_color2_abexa.htm
 
-  
+---
+title: "Lists, Supported Colors"
+description: |
+  This example demonstrates which colors are available for list formatting. Source Code REPORT demo_list_format_color_1 . DATA i TYPE i VALUE 0. DATA col(15) TYPE c. WHILE i < 8. CASE i. WHEN 0. col = 'COL_BACKGROUND '. WHEN 1. col = 'COL_HEADING    '. WHEN 2. col = 'COL_NORMAL     '. WHEN 3. c
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_format_color2_abexa.htm"
+abapFile: "abenlist_format_color2_abexa.htm"
+keywords: ["do", "while", "if", "case", "class", "data", "abenlist", "format", "color2", "abexa"]
+---
 
 * * *
 

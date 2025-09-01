@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic data object"
+description: |
+  Data object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm 'Glossary Entry') in which all properties apart from the memory consumption are defined statically by the data type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.ht
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_data_object_glosry.htm"
+abapFile: "abendynamic_data_object_glosry.htm"
+keywords: ["do", "try", "data", "internal-table", "abendynamic", "object", "glosry"]
+---
 
 * * *
 

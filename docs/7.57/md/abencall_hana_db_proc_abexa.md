@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA, Call Database Procedure"
+description: |
+  This example demonstrates how a database procedure in the SAP HANA database can be called. Source Code REPORT demo_call_hana_db_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). IF NOT cl
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_hana_db_proc_abexa.htm"
+abapFile: "abencall_hana_db_proc_abexa.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "hana", "proc", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Statements with the Addition MAPPING FROM ENTITY"
+description: |
+  This example demonstrates ABAP SQL statements using the additions MAPPING FROM ENTITY. The internal tables and work areas used in the example are typed with BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). These t
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_mapping_from_entity_abexa.htm"
+abapFile: "abensql_mapping_from_entity_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abensql", "mapping", "from", "entity", "abexa"]
+---
 
 * * *
 

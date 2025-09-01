@@ -1,4 +1,14 @@
-  
+---
+title: "Child entity example"
+description: |
+  Example In the business object's structure, the CDS view /DMO/I_Booking represents a child entity of the root entity Travel that can be used to create and edit flight bookings. The child entity Booking is used to manage the following flight booking data: trip ID, booking ID and date, customer numbe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_cds_entity.htm"
+abapFile: "abenbdl_example_cds_entity.htm"
+keywords: ["select", "do", "if", "data", "abenbdl", "example", "cds", "entity"]
+---
 
 * * *
 

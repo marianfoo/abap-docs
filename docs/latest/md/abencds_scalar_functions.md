@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Scalar Functions"
+description: |
+  A CDS scalar function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm 'Glossary Entry') is defined in the FDL source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfdl_source_code_glosry.htm 'Glossary Entry') of a CDS
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm"
+abapFile: "abencds_scalar_functions.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "data", "internal-table", "abencds", "scalar", "functions"]
+---
 
 * * *
 

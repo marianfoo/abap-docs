@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Statements in List Processing"
+description: |
+  Classic lists(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) should no longer be used in productive application programs. SAP List Viewer (ALV) should be used instead of classic lists. If classic lists are still used for any reason, then the following construc
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlists_obsolete.htm"
+abapFile: "abenlists_obsolete.htm"
+keywords: ["do", "if", "class", "abenlists", "obsolete"]
+---
 
 * * *
 

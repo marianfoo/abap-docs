@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenorganization_of_modules.htm
 
-  
+---
+title: "ABAP Programs in AS ABAP"
+description: |
+  ABAP programs are executed in AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry'). The execution of the programs is organized in sessions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensession_glosry.htm 'Glossary Entry'
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenorganization_of_modules.htm"
+abapFile: "abenorganization_of_modules.htm"
+keywords: ["do", "if", "try", "abenorganization", "modules"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abenmemory_organization.htm
 
-  
+---
+title: "Sessions and Memory Areas"
+description: |
+  This section describes the sessions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensession_glosry.htm 'Glossary Entry') in AS ABAP where ABAP programs are executed and the associated memory areas that can be accessed by an ABAP program. For a more general and technically more detai
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_organization.htm"
+abapFile: "abenmemory_organization.htm"
+keywords: ["do", "if", "try", "class", "data", "abenmemory", "organization"]
+---
 
 * * *
 
@@ -47,13 +67,9 @@ The following figure shows the general organization of sessions for ABAP program
 
 ![Figure](abdoc_memory1.gif)
 
--   [Application Server](#@@ITOC@@ABENMEMORY_ORGANIZATION_1)
+-   [Application Server](#abenmemory-organization-1--------user-session---@ITOC@@ABENMEMORY_ORGANIZATION_2)
 
--   [User Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_2)
-
--   [ABAP Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_3)
-
--   [Internal Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_4)
+-   [ABAP Session](#abenmemory-organization-3--------internal-session---@ITOC@@ABENMEMORY_ORGANIZATION_4)
 
 Application Server
 
@@ -114,7 +130,17 @@ Instances of classes, with the exception of [shared objects](https://help.sap.co
 
 ### abenuser_sessions.htm
 
-  
+---
+title: "User Sessions"
+description: |
+  Each time an ABAP program is executed, it is in an internal session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm 'Glossary Entry') in an ABAP session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_session_glosry.htm 'Glossary Ent
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_sessions.htm"
+abapFile: "abenuser_sessions.htm"
+keywords: ["select", "update", "do", "if", "try", "method", "class", "data", "types", "abenuser", "sessions"]
+---
 
 * * *
 
@@ -185,7 +211,17 @@ From a user session, it is possible to open further user sessions on the same ap
 
 ### abeninternal_session.htm
 
-  
+---
+title: "Programs in the Internal Session"
+description: |
+  The following figure shows the memory organization within an internal session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm 'Glossary Entry'): !Figure(abdoc_memory2.gif) -   Program Groups(#abeninternal-session-1--------main-program-group---@ITOC@@A
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session.htm"
+abapFile: "abeninternal_session.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abeninternal", "session"]
+---
 
 * * *
 
@@ -199,21 +235,13 @@ The following figure shows the memory organization within an [internal session](
 
 ![Figure](abdoc_memory2.gif)
 
--   [Program Groups](#@@ITOC@@ABENINTERNAL_SESSION_1)
+-   [Program Groups](#abeninternal-session-1--------main-program-group---@ITOC@@ABENINTERNAL_SESSION_2)
 
--   [Main Program Group](#@@ITOC@@ABENINTERNAL_SESSION_2)
+-   [Additional Program Group](#abeninternal-session-3--------main-program-of-a-program-group---@ITOC@@ABENINTERNAL_SESSION_4)
 
--   [Additional Program Group](#@@ITOC@@ABENINTERNAL_SESSION_3)
+-   [Programs Loaded into a Program Group](#abeninternal-session-5--------data-objects---@ITOC@@ABENINTERNAL_SESSION_6)
 
--   [Main Program of a Program Group](#@@ITOC@@ABENINTERNAL_SESSION_4)
-
--   [Programs Loaded into a Program Group](#@@ITOC@@ABENINTERNAL_SESSION_5)
-
--   [Data Objects](#@@ITOC@@ABENINTERNAL_SESSION_6)
-
--   [Instances of Classes](#@@ITOC@@ABENINTERNAL_SESSION_7)
-
--   [Interface Work Areas](#@@ITOC@@ABENINTERNAL_SESSION_8)
+-   [Instances of Classes](#abeninternal-session-7--------interface-work-areas---@ITOC@@ABENINTERNAL_SESSION_8)
 
 -   [Dynpros, Lists, and GUI Statuses](#@@ITOC@@ABENINTERNAL_SESSION_9)
 

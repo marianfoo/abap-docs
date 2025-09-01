@@ -1,4 +1,14 @@
-  
+---
+title: "Bound Data Type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm 'Glossary Entry') that only exists as a property of a data object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm 'Glossary Entry'). See also Stand-Alone Data Type
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_data_type_glosry.htm"
+abapFile: "abenbound_data_type_glosry.htm"
+keywords: ["do", "try", "data", "abenbound", "type", "glosry"]
+---
 
 * * *
 

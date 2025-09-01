@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Databases - Statements"
+description: |
+  The following statements are directly related to logical databases. If logical databases are no longer used, these statements are no longer required. -   Interface Work Areas for Logical Databases(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenldb_interfaces.htm) -   Statements in
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenldb_abap_statements.htm"
+abapFile: "abenldb_abap_statements.htm"
+keywords: ["do", "if", "data", "abenldb", "abap", "statements"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_step_examples. CLASS purchase_orders_demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF customer_purchase, cust_id    TYPE c LENGTH 8, cust_name  TYPE string, item_id    TYPE c LENGTH 9, purch_date TYPE datn, proc_date  TYPE datn, END OF customer_purchase, customer_purchases TY
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_step_examples_abexa.htm"
+abapFile: "abenloop_step_examples_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abenloop", "step", "examples", "abexa"]
+---
 
 * * *
 

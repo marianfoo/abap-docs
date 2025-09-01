@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Tree Structure of the Data Nodes"
+description: |
+  The starting points of any addressing of ABAP data in an ST program are the data roots of the main template(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_template_main.htm) declared using tt:root(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_root.htm
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_trees.htm"
+abapFile: "abenst_trees.htm"
+keywords: ["do", "data", "abenst", "trees"]
+---
 
 * * *
 

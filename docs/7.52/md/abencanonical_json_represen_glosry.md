@@ -1,4 +1,14 @@
-  
+---
+title: "Canonical JSON representation"
+description: |
+  Format of JSON(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_glosry.htm 'Glossary Entry') data, which is created during the serialization(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenserialization_glosry.htm 'Glossary Entry') of ABAP data by an identity t
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencanonical_json_represen_glosry.htm"
+abapFile: "abencanonical_json_represen_glosry.htm"
+keywords: ["do", "try", "data", "abencanonical", "json", "represen", "glosry"]
+---
 
 * * *
 

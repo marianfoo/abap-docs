@@ -1,4 +1,14 @@
-  
+---
+title: "Anonymous Containers"
+description: |
+  Background Anonymous containers are character-like or byte-like data objects of type c or string type (or x/xstring type). Data objects of other types (especially structures) are assigned using casting(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm 'Guideline
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunknown_container_guidl.htm"
+abapFile: "abenunknown_container_guidl.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenunknown", "container", "guidl"]
+---
 
 * * *
 

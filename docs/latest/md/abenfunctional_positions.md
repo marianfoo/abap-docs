@@ -1,4 +1,14 @@
-  
+---
+title: "Functional Operand Positions"
+description: |
+  Functional operand positions are read positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenread_position_glosry.htm 'Glossary Entry') that expect appropriate data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_object_glosry.htm 'Glossary
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_positions.htm"
+abapFile: "abenfunctional_positions.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "method", "data", "internal-table", "abenfunctional", "positions"]
+---
 
 * * *
 

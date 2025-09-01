@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP runtime framework"
+description: |
+  Also called ABAP runtime environment. Hardware- and operating system-independent platform (virtual machine) of an ABAP program(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_glosry.htm 'Glossary Entry'). Processes of the ABAP runtime framework control the execution of
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm"
+abapFile: "abenabap_runtime_frmwk_glosry.htm"
+keywords: ["do", "try", "abenabap", "runtime", "frmwk", "glosry"]
+---
 
 * * *
 

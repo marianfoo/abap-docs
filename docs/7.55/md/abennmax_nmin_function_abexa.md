@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_nmax_nmin. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: a TYPE i VALUE 1, b TYPE i VALUE 0, c TYPE i VALUE 0. cl_demo_input=>new( )->add_text( `Parabola:` )->add_field( CHANGING field = a )->add_field( CHANGIN
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennmax_nmin_function_abexa.htm"
+abapFile: "abennmax_nmin_function_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abennmax", "nmin", "function", "abexa"]
+---
 
 * * *
 

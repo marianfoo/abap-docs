@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenoperands_data_objects.htm
 
-  
+---
+title: "Data Objects in Operand Positions"
+description: |
+  When using data objects in operand positions, read positions and write positions must be distinguished. The data type and content of the specified data objects must also be appropriate for the operand position. -   Read Positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperands_data_objects.htm"
+abapFile: "abenoperands_data_objects.htm"
+keywords: ["do", "if", "data", "abenoperands", "objects"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abendata_objects_usage_reading.htm
 
-  
+---
+title: "Read Positions"
+description: |
+  At a read position, the content of an operand is read but not changed when the statement is executed. Data objects can be specified as follows at read positions: -   Specification of a literal(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliteral_glosry.htm 'Glossary Entry'). -
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_reading.htm"
+abapFile: "abendata_objects_usage_reading.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "usage", "reading"]
+---
 
 * * *
 
@@ -76,7 +96,17 @@ Hints
 
 ### abendata_objects_usage_writing.htm
 
-  
+---
+title: "Write Positions"
+description: |
+  At a write position, the content of an operand is changed when the statement is executed. Only modifiable data objects (that is, no literals, text symbols, constants, or non-modifiable formal parameters) can be specified as follows at write positions: -   Specification of a visible data object(htt
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_writing.htm"
+abapFile: "abendata_objects_usage_writing.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "usage", "writing"]
+---
 
 * * *
 
@@ -107,7 +137,17 @@ Hints
 
 ### abenoffset_length.htm
 
-  
+---
+title: "Substring Access"
+description: |
+  In operand positions, it is only possible to access subareas of certain data objects by specifying an offset or length: Syntax dobj+off(len) <fs>+off(len) dref->+off(len) Effect An offset or length specification is directly appended directly to the i
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_length.htm"
+abapFile: "abenoffset_length.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "field-symbol", "abenoffset", "length"]
+---
 
 * * *
 
@@ -265,7 +305,17 @@ Continue
 
 ### abendata_process_fields_abexa.htm
 
-  
+---
+title: "Substrings"
+description: |
+  This example demonstrates how substrings can be accessed. Source Code REPORT demo_data_process_fields. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA time TYPE t VALUE '172545'. DATA: f1(8)  TYPE c VALUE 'ABCDEFGH', f2(20) TYPE c
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_process_fields_abexa.htm"
+abapFile: "abendata_process_fields_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abendata", "process", "fields", "abexa"]
+---
 
 * * *
 
@@ -346,7 +396,17 @@ In the fourth part, the WRITE TO statement is used. The first six digits of the 
 
 ### abenoffset_length.htm
 
-  
+---
+title: "Substring Access"
+description: |
+  In operand positions, it is only possible to access subareas of certain data objects by specifying an offset or length: Syntax dobj+off(len) <fs>+off(len) dref->+off(len) Effect An offset or length specification is directly appended directly to the i
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_length.htm"
+abapFile: "abenoffset_length.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "field-symbol", "abenoffset", "length"]
+---
 
 * * *
 

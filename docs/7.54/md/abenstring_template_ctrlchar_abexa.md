@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Control Characters"
+description: |
+  The example demonstrates the formatting of a text using control characters. Source Code REPORT demo_string_template_ctrl_char. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. cl_demo_output=>display( First line.rttabttabttab
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_template_ctrlchar_abexa.htm"
+abapFile: "abenstring_template_ctrlchar_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abenstring", "template", "ctrlchar", "abexa"]
+---
 
 * * *
 

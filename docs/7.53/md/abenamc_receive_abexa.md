@@ -1,4 +1,14 @@
-  
+---
+title: "AMC, Receiving Messages"
+description: |
+  This example demonstrates how messages are received using AMC(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_glosry.htm 'Glossary Entry'). Source Code REPORT demo_receive_amc. CLASS message_receiver DEFINITION. PUBLIC SECTION. INTERFACES: if_amc_message_receiver_text, if
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_receive_abexa.htm"
+abapFile: "abenamc_receive_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abenamc", "receive", "abexa"]
+---
 
 * * *
 

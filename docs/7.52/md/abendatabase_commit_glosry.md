@@ -1,4 +1,14 @@
-  
+---
+title: "Database commit"
+description: |
+  End of a database LUW(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_luw_glosry.htm 'Glossary Entry'), in which changed data records are written to the database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_glosry.htm 'Glossary Entry'). All chan
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_commit_glosry.htm"
+abapFile: "abendatabase_commit_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "commit", "glosry"]
+---
 
 * * *
 

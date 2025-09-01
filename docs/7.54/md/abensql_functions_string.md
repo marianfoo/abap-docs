@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Functions for Strings"
+description: |
+  The following table shows the SQL functions for strings supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). Th
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_string.htm"
+abapFile: "abensql_functions_string.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abensql", "functions", "string"]
+---
 
 * * *
 

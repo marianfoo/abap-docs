@@ -1,4 +1,14 @@
-  
+---
+title: "JSON, asJSON (General)"
+description: |
+  This example demonstrates asJSON(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_general.htm) for a text string. Source Code REPORT demo_json_elementary_trafo. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_hello_json_abexa.htm"
+abapFile: "abenabap_hello_json_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenabap", "hello", "json", "abexa"]
+---
 
 * * *
 

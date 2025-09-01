@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - function"
+description: |
+  Syntax internal(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_internal.htm)  static(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_static.htm) repeatable(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_repea
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_function.htm"
+abapFile: "abenbdl_function.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "function"]
+---
 
 * * *
 

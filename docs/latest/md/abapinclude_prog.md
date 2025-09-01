@@ -1,4 +1,14 @@
-  
+---
+title: "INCLUDE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinclude_shortref.htm) Syntax INCLUDE incl IF FOUND. Addition: ... IF FOUND(#!ABAP_ONE_ADD@1@) Effect The statement INCLUDE includes the include program(https://help.sap.com/doc/abapdocu_latest_index_htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinclude_prog.htm"
+abapFile: "abapinclude_prog.htm"
+keywords: ["do", "if", "try", "class", "data", "abapinclude", "prog"]
+---
 
 * * *
 

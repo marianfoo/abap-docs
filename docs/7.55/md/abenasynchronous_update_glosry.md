@@ -1,4 +1,14 @@
-  
+---
+title: "asynchronous_update_glosry"
+description: |
+  asynchronous_update_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasynchronous_update_glosry.htm"
+abapFile: "abenasynchronous_update_glosry.htm"
+keywords: ["update", "do", "try", "abenasynchronous", "glosry"]
+---
 
 * * *
 

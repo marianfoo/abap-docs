@@ -1,4 +1,14 @@
-  
+---
+title: "llang_glosry"
+description: |
+  llang_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenllang_glosry.htm"
+abapFile: "abenllang_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenllang", "glosry"]
+---
 
 * * *
 

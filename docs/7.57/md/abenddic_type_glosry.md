@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_type_glosry.htm 'Glossary Entry') defined as a global type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenglobal_type_glosry.htm 'Glossary Entry') in the ABAP Dictionary(https://help.sap.com/doc/abapd
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_type_glosry.htm"
+abapFile: "abenddic_type_glosry.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "types", "abenddic", "type", "glosry"]
+---
 
 * * *
 

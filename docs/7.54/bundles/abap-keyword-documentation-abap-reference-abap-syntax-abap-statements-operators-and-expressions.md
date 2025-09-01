@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenoperators_expressions.htm
 
-  
+---
+title: "Operators and Expressions"
+description: |
+  Normally an operater links two operands with an expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm) or forms an expression with an operand. During the execution of a statement containing such expressions, the result of the expression is determined (operation)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm"
+abapFile: "abenoperators_expressions.htm"
+keywords: ["do", "abenoperators", "expressions"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abenoperators.htm
 
-  
+---
+title: "Operators"
+description: |
+  ABAP contains the following operators: -   Operators that perform special operations in operand positions: -   Declaration Operators(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declarations.htm) The declaration operators DATA and FIELD-SYMBOL declare variables or field sy
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm"
+abapFile: "abenoperators.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "field-symbol", "abenoperators"]
+---
 
 * * *
 
@@ -77,7 +97,17 @@ ABAP contains the following operators:
 
 ### abenexpressions.htm
 
-  
+---
+title: "Expressions"
+description: |
+  The following expressions can be constructed in certain operand positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm): -   Writer positions -   Declaration expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declarations.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm"
+abapFile: "abenexpressions.htm"
+keywords: ["do", "if", "try", "types", "abenexpressions"]
+---
 
 * * *
 
@@ -132,7 +162,17 @@ The ABAP expressions above can be used as [host expressions](https://help.sap.co
 
 ### abenexpressions_abexas.htm
 
-  
+---
+title: "Examples of Expression-Oriented Programming"
+description: |
+  !Example(exa.gif 'Example') Jawbreaker(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm) !Example(exa.gif 'Example') Minesweeper(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm) !Example(exa.gif 'Example') 2048 Game
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm"
+abapFile: "abenexpressions_abexas.htm"
+keywords: ["do", "if", "abenexpressions", "abexas"]
+---
 
 * * *
 
@@ -150,7 +190,17 @@ Continue
 
 ### abenjaw_breaker_abexa.htm
 
-  
+---
+title: "Jawbreaker"
+description: |
+  Expression-oriented implementation of a Jawbreaker game. Source Code PROGRAM demo_jawbreaker_html_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: t_vector TYPE STANDARD TABLE OF i WITH EMPTY KEY, t_matrix TYPE STANDARD TABLE OF t_vector WITH E
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm"
+abapFile: "abenjaw_breaker_abexa.htm"
+keywords: ["select", "delete", "do", "if", "method", "class", "data", "types", "abenjaw", "breaker", "abexa"]
+---
 
 * * *
 
@@ -306,7 +356,17 @@ To play the game, use the left mouse button to remove adjacent blocks with the s
 
 ### abenmine_sweeper_abexa.htm
 
-  
+---
+title: "Minesweeper"
+description: |
+  Expression-oriented implementation of a Minesweeper game. Source Code PROGRAM demo_minesweeper_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: BEGIN OF t_cell, bomb  TYPE abap_bool,  ' cell contains bomb y/n bombs TYPE i,          ' # of neighbo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm"
+abapFile: "abenmine_sweeper_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenmine", "sweeper", "abexa"]
+---
 
 * * *
 
@@ -512,7 +572,17 @@ To play the game, use the left and right mouse buttons to enter or select fields
 
 ### abengame_2048_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_game_2048_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: BEGIN OF t_cell, value TYPE i, id    TYPE string, born  TYPE i, END OF t_cell, t_cells  TYPE STANDARD TABLE OF t_cell  WITH EMPTY KEY, t_field  TYPE STANDARD TABLE OF t_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengame_2048_abexa.htm"
+abapFile: "abengame_2048_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "method", "class", "data", "types", "abengame", "2048", "abexa"]
+---
 
 * * *
 
@@ -771,7 +841,17 @@ To play the game, use the arrow keys on the keyboard to move all tiles in one of
 
 ### abenexpressions_abexas.htm
 
-  
+---
+title: "Examples of Expression-Oriented Programming"
+description: |
+  !Example(exa.gif 'Example') Jawbreaker(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm) !Example(exa.gif 'Example') Minesweeper(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm) !Example(exa.gif 'Example') 2048 Game
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm"
+abapFile: "abenexpressions_abexas.htm"
+keywords: ["do", "if", "abenexpressions", "abexas"]
+---
 
 * * *
 

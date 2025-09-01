@@ -1,4 +1,14 @@
-  
+---
+title: "Program Type and Program Properties"
+description: |
+  As soon as an ABAP program is created, important decisions must be made about its robustness and maintainability by selecting its program type and properties. Among other things, the program type and program properties determine how strict the syntax check is. Another important property of a program
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogr_type_features_gdl.htm"
+abapFile: "abenprogr_type_features_gdl.htm"
+keywords: ["select", "do", "if", "abenprogr", "type", "features", "gdl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_loop_grp_by_levels DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. TYPES: BEGIN OF line, col1 TYPE c LENGTH 1, col2 TYPE i, col3 TYPE i, END OF line. METHODS sum IMPORTING li
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_group_by_levels_abexa.htm"
+abapFile: "abenloop_group_by_levels_abexa.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenloop", "group", "levels", "abexa"]
+---
 
 * * *
 

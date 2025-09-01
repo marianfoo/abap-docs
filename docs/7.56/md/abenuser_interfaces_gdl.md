@@ -1,4 +1,14 @@
-  
+---
+title: "User Interfaces"
+description: |
+  The user interface is the interface between a (human) user and a machine, in this case between the user and the ABAP program that is running. In the ABAP environment, graphical user interfaces (GUIs) are used which can be operated using a keyboard, mouse, or other input devices. They are based on as
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuser_interfaces_gdl.htm"
+abapFile: "abenuser_interfaces_gdl.htm"
+keywords: ["select", "do", "case", "class", "abenuser", "interfaces", "gdl"]
+---
 
 * * *
 

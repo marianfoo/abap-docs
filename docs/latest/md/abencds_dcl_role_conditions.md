@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - DEFINE ROLE, condition"
+description: |
+  Syntax ... literal_condition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_literal.htm)  pfcg_condition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_pfcg.htm)  aspect_condition(https://help.sap.com/doc/abapdocu_lates
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_conditions.htm"
+abapFile: "abencds_dcl_role_conditions.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "dcl", "role", "conditions"]
+---
 
 * * *
 

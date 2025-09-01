@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  Input Helps in Dialog Modules(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_f4_help_dial_abexa.htm)
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_value_help_mod.htm"
+abapFile: "abenabap_dynpros_value_help_mod.htm"
+keywords: ["select", "update", "do", "if", "try", "data", "types", "abenabap", "dynpros", "value", "help", "mod"]
+---
 
 * * *
 

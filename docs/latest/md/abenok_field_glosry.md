@@ -1,4 +1,14 @@
-  
+---
+title: "OK field"
+description: |
+  Twenty-character dynpro field(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_field_glosry.htm 'Glossary Entry') that is not linked to a screen element(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_element_glosry.htm 'Glossary Entry'). When
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenok_field_glosry.htm"
+abapFile: "abenok_field_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenok", "field", "glosry"]
+---
 
 * * *
 

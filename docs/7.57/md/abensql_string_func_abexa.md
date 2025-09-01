@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_function_string. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DELETE FROM demo_expressions. INSERT demo_expressions FROM TABLE @( VALUE #( ( id = 'X' char1 = ' 0123' char2 = 'aAaA' ) ) ). SELECT SINGLE char1 AS text
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_string_func_abexa.htm"
+abapFile: "abensql_string_func_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abensql", "string", "func", "abexa"]
+---
 
 * * *
 

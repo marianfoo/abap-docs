@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Typed Literals"
+description: |
+  Syntax ... dtype`...` Effect Typed literals(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyped_literal_glosry.htm 'Glossary Entry') can be created for all built-in ABAP Dictionary types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) wit
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_typed_literals.htm"
+abapFile: "abenabap_sql_typed_literals.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenabap", "sql", "typed", "literals"]
+---
 
 * * *
 
@@ -29,12 +39,9 @@ Hints
 
 Typed literals can be split into the following categories:
 
--   [Typed Numeric Literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_1)
--   [Typed Character Literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_2)
--   [Typed Byte Literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_3)
--   [Typed Literals for Character-Like Types with Special Semantics](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_4)
--   [Typed Date and Time Literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_5)
--   [Typed Currency and Quantity Literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_6)
+-   [Typed Numeric Literals](#abenabap-sql-typed-literals-1-------typed-character-literals---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_2)
+-   [Typed Byte Literals](#abenabap-sql-typed-literals-3-------typed-literals-for-character-like-types-with-special-semantics---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_4)
+-   [Typed Date and Time Literals](#abenabap-sql-typed-literals-5-------typed-currency-and-quantity-literals---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_6)
 
 Typed Numeric Literals   
 

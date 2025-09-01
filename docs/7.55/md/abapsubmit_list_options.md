@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... LINE-SIZE width LINE-COUNT page_lines  EXPORTING LIST TO MEMORY  TO SAP-SPOOL spool_options(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsubmit_print_parameters.htm)  ... Additions: 1. ... LINE-SIZE width(#!ABAP_ADDITION_1@1@) 2
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsubmit_list_options.htm"
+abapFile: "abapsubmit_list_options.htm"
+keywords: ["select", "insert", "do", "while", "if", "try", "data", "internal-table", "abapsubmit", "list", "options"]
+---
 
 * * *
 

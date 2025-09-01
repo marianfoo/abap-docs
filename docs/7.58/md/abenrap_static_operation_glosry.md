@@ -1,4 +1,14 @@
-  
+---
+title: "rap_static_operation_glosry"
+description: |
+  rap_static_operation_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_static_operation_glosry.htm"
+abapFile: "abenrap_static_operation_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "static", "operation", "glosry"]
+---
 
 * * *
 

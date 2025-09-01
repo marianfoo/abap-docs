@@ -1,4 +1,14 @@
-  
+---
+title: "Automatic Input Checks"
+description: |
+  In the PAI event, the dynpro makes a series of automatic input checks. These checks take place before data transports to the ABAP program and before the dynpro flow logic is processed. Before these automatic input checks, a single dialog module can be called using an unconditional module call and wi
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks_auto.htm"
+abapFile: "abenabap_dynpros_checks_auto.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "dynpros", "checks", "auto"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Structures"
+description: |
+  -   Filling a Structure(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm) -   Structure from ABAP Dictionary(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm) !Example(exa.gif 'Example') Filling a Structure
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm"
+abapFile: "abenstructure_abexas.htm"
+keywords: ["do", "if", "data", "types", "abenstructure", "abexas"]
+---
 
 * * *
 

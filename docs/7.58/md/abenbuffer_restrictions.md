@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Restrictions"
+description: |
+  Only transparent tables(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransparent_table_glosry.htm 'Glossary Entry') can be buffered. Global temporary tables(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_temporary_table_glosry.htm 'Glossary Entry') cannot
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuffer_restrictions.htm"
+abapFile: "abenbuffer_restrictions.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "abenbuffer", "restrictions"]
+---
 
 * * *
 

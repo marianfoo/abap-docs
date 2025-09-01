@@ -1,4 +1,14 @@
-  
+---
+title: "SET DATASET - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_dataset.htm) Syntax SET DATASET dest POSITION posEND OF FILE ATTRIBUTES attr. Effect Determines the attributes of a file opened using OPEN DATASET. Additions -   POSITION posEND OF
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_dataset_shortref.htm"
+abapFile: "abapset_dataset_shortref.htm"
+keywords: ["do", "if", "data", "abapset", "dataset", "shortref"]
+---
 
 * * *
 

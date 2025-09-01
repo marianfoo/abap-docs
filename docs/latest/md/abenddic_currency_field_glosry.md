@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC currency field"
+description: |
+  Component of a DDIC structure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_structure_glosry.htm 'Glossary Entry'), or DDIC database table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_db_table_glosry.htm 'Glossary Entry'), or DDIC view(htt
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_currency_field_glosry.htm"
+abapFile: "abenddic_currency_field_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "currency", "field", "glosry"]
+---
 
 * * *
 

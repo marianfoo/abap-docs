@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_enum_para_pass DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . PRIVATE SECTION. METHODS meth IMPORTING VALUE(psimple) TYPE simple VALUE(penum)   TYPE demo_cds_enum_weekday . ENDCLASS.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_formal_para_abexa.htm"
+abapFile: "abenenum_formal_para_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "field-symbol", "abenenum", "formal", "para", "abexa"]
+---
 
 * * *
 

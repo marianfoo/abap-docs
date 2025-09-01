@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_line_index DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. DATA flight_tab TYPE STANDARD TABLE OF spfli WITH EMPTY KEY WITH UNIQUE HASHED KEY id COMPONENT
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_index_abexa.htm"
+abapFile: "abenline_index_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "internal-table", "abenline", "index", "abexa"]
+---
 
 * * *
 

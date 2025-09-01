@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... cds_hierarchysql_para(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_parameters.htm) ... Effect Specifies a CDS hierarchy(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_hierarchy_glosry.htm 'Glossary Entry') cds_hierarchy as a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_cds_hierarchy.htm"
+abapFile: "abenselect_cds_hierarchy.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenselect", "cds", "hierarchy"]
+---
 
 * * *
 

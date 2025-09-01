@@ -1,4 +1,14 @@
-  
+---
+title: "RANGES - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapranges.htm) Syntax RANGES rtab FOR dobj OCCURS n. Effect Obsolete: Creates a ranges table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenranges_table_glosry.htm 'Glossary Entry') with the l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapranges_shortref.htm"
+abapFile: "abapranges_shortref.htm"
+keywords: ["do", "if", "try", "abapranges", "shortref"]
+---
 
 * * *
 

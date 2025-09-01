@@ -1,4 +1,14 @@
-  
+---
+title: "Time Stamp Fields with Time Stamp Type"
+description: |
+  ABAP contains the built-in ABAP type utclong(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_types_date_time.htm) for time stamps with a precision of 100 nanoseconds. A data object of this time stamp type is a time stamp field. Each valid value of a time stamp field is a UT
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutclong.htm"
+abapFile: "abenutclong.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "abenutclong"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ Time Stamp Fields with Time Stamp Type
 
 ABAP contains the built-in ABAP type [utclong](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_types_date_time.htm) for time stamps with a precision of 100 nanoseconds. A data object of this time stamp type is a time stamp field. Each valid value of a time stamp field is a [UTC time stamp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutc_timestamp_glosry.htm "Glossary Entry") and represents a unique time in [UTC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutc_glosry.htm "Glossary Entry") reference time. In accordance with the POSIX standard, [leap seconds](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleap_second_glosry.htm "Glossary Entry") are not supported, that is, each day has exactly 86400 seconds.
 
--   [Access to Time Stamp Fields](#@@ITOC@@ABENUTCLONG_1)
--   [Initial Value of a Time Stamp Field](#@@ITOC@@ABENUTCLONG_2)
+-   [Access to Time Stamp Fields](#abenutclong-1-------initial-value-of-a-time-stamp-field---@ITOC@@ABENUTCLONG_2)
 -   [Internal Representation of a Time Stamp in a Time Stamp Field](#@@ITOC@@ABENUTCLONG_3)
 
 Access to Time Stamp Fields   

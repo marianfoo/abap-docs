@@ -1,4 +1,14 @@
-  
+---
+title: "Operands"
+description: |
+  Typical ABAP operands(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_operand_glosry.htm 'Glossary Entry') are: -   Data objects of the same ABAP program Data objects in operand positions are modified (write positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm"
+abapFile: "abenoperands.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenoperands"]
+---
 
 * * *
 

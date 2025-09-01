@@ -1,4 +1,14 @@
-  
+---
+title: "dynpro_number_glosry"
+description: |
+  dynpro_number_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_number_glosry.htm"
+abapFile: "abendynpro_number_glosry.htm"
+keywords: ["do", "if", "try", "abendynpro", "number", "glosry"]
+---
 
 * * *
 

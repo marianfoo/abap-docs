@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Input Help in Dialog Modules"
+description: |
+  This example demonstrates how input helps can be implemented in dialog modules. Source Code REPORT demo_dynpro_f4_help_module . TYPES: BEGIN OF values, carrid TYPE spfli-carrid, connid TYPE spfli-connid, END OF values. DATA: carrier(3) TYPE c, connection(4) TYPE c. DATA: progname TYPE sy-repid,
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dial_abexa.htm"
+abapFile: "abendynpro_f4_help_dial_abexa.htm"
+keywords: ["select", "do", "if", "data", "types", "internal-table", "abendynpro", "help", "dial", "abexa"]
+---
 
 * * *
 

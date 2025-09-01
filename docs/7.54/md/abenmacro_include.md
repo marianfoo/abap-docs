@@ -1,4 +1,14 @@
-  
+---
+title: "Inserting Macros"
+description: |
+  Syntax macro p1 p2 ... . Effect If a macro is executed as the first word in an ABAP statement instead of a valid ABAP keyword(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_keyword_glosry.htm 'Glossary Entry'), its content is included at this position in the source cod
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacro_include.htm"
+abapFile: "abenmacro_include.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "abenmacro", "include"]
+---
 
 * * *
 

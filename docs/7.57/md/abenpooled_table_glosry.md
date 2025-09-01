@@ -1,4 +1,14 @@
-  
+---
+title: "pooled_table_glosry"
+description: |
+  pooled_table_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpooled_table_glosry.htm"
+abapFile: "abenpooled_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenpooled", "table", "glosry"]
+---
 
 * * *
 

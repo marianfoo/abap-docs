@@ -1,4 +1,14 @@
-  
+---
+title: "API Classifications"
+description: |
+  Released APIs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreleased_api_glosry.htm 'Glossary Entry') can contain classifications to ensure transactional consistency within the SAP LUW(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw_glosry.htm 'G
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapapi_classification.htm"
+abapFile: "abapapi_classification.htm"
+keywords: ["select", "update", "do", "if", "try", "method", "class", "data", "types", "abapapi", "classification"]
+---
 
 * * *
 

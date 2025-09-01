@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Leave"
+description: |
+  This section describes how to leave(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm) a program with the LEAVE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave-.htm) statement and no further additions. LEAVE(https://help.sap.com/doc/abap
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_leave.htm"
+abapFile: "abenobsolete_leave.htm"
+keywords: ["do", "abenobsolete", "leave"]
+---
 
 * * *
 

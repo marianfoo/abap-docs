@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Tabular Data Objects"
+description: |
+  The example demonstrates the creation of tabular data objects Source Code  Public class definition CLASS cl_demo_create_tabular_data DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencreate_tabular_data_abexa.htm"
+abapFile: "abencreate_tabular_data_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencreate", "tabular", "abexa"]
+---
 
 * * *
 

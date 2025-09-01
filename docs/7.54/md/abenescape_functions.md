@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... escape( val = text(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions_val.htm) format = format ) ... Effect This function gets the content of the character string in text(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions_val.htm), an
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_functions.htm"
+abapFile: "abenescape_functions.htm"
+keywords: ["insert", "do", "if", "case", "try", "method", "class", "data", "abenescape", "functions"]
+---
 
 * * *
 
@@ -22,17 +32,11 @@ format expects data objects of the type i. An invalid value for format raises an
 
 This function can be specified in [general](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and [character-like expression positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). The return code has the type string.
 
--   [Rules for Markup Languages (Including JavaScript)](#@@ITOC@@ABENESCAPE_FUNCTIONS_1)
+-   [Rules for Markup Languages (Including JavaScript)](#abenescape-functions-1--------rules-for-url-uris---@ITOC@@ABENESCAPE_FUNCTIONS_2)
 
--   [Rules for URL/URIs](#@@ITOC@@ABENESCAPE_FUNCTIONS_2)
+-   [Rules for JSON](#abenescape-functions-3--------rules-for-regular-expressions---@ITOC@@ABENESCAPE_FUNCTIONS_4)
 
--   [Rules for JSON](#@@ITOC@@ABENESCAPE_FUNCTIONS_3)
-
--   [Rules for Regular Expressions](#@@ITOC@@ABENESCAPE_FUNCTIONS_4)
-
--   [Rules for String Templates](#@@ITOC@@ABENESCAPE_FUNCTIONS_5)
-
--   [Rules for Cross Site Scripting](#@@ITOC@@ABENESCAPE_FUNCTIONS_6)
+-   [Rules for String Templates](#abenescape-functions-5--------rules-for-cross-site-scripting---@ITOC@@ABENESCAPE_FUNCTIONS_6)
 
 Rules for Markup Languages (Including JavaScript)
 

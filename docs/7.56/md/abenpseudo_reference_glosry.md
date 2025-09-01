@@ -1,4 +1,14 @@
-  
+---
+title: "pseudo_reference_glosry"
+description: |
+  pseudo_reference_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpseudo_reference_glosry.htm"
+abapFile: "abenpseudo_reference_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenpseudo", "reference", "glosry"]
+---
 
 * * *
 

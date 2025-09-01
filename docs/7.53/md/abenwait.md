@@ -1,4 +1,14 @@
-  
+---
+title: "Program Interruption"
+description: |
+  This section describes how programs are usually interrupted using the statement WAIT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm). A special variant(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_until.htm) is explained in the context of as
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait.htm"
+abapFile: "abenwait.htm"
+keywords: ["do", "try", "abenwait"]
+---
 
 * * *
 

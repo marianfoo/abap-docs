@@ -1,4 +1,14 @@
-  
+---
+title: "Serializes and deserializes elementary data objects"
+description: |
+  Source Code  Public class definition CLASS cl_demo_st_value DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_st_value IMPLEMENTATION. METHOD main. DATA: dat TYPE d, tim TYPE t
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_value_abexa.htm"
+abapFile: "abenst_value_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenst", "value", "abexa"]
+---
 
 * * *
 

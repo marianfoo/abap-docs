@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DDIC-Based Entities (Obsolete)"
+description: |
+  It is still possible, but not recommended, to create DDIC-based entities. SAP recommends creating CDS view entities instead of CDS DDIC-based views. A CDS DDIC-based entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddic_based_entity_glosry.htm 'Glossary Entry') is a CDS e
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddic_entity.htm"
+abapFile: "abencds_ddic_entity.htm"
+keywords: ["select", "delete", "do", "if", "try", "class", "data", "abencds", "ddic", "entity"]
+---
 
 * * *
 

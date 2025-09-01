@@ -1,4 +1,14 @@
-  
+---
+title: "export_import_table_glosry"
+description: |
+  export_import_table_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm"
+abapFile: "abenexport_import_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenexport", "import", "table", "glosry"]
+---
 
 * * *
 

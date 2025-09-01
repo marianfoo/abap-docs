@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Functions, Syntax"
+description: |
+  -   Functions with an Unnamed Argument(#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2) In functions with named arguments, there is usually a main argument val and with the option of further also optional arguments. The following sect
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_functions_syntax.htm"
+abapFile: "abenbuilt_in_functions_syntax.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenbuilt", "functions", "syntax"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Built-In Functions, Syntax
 
--   [Functions with an Unnamed Argument](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_1)
-
--   [Functions with Named Arguments](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
+-   [Functions with an Unnamed Argument](#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
 
 In functions with named arguments, there is usually a main argument val and with the option of further also optional arguments. The following sections show the general syntax for calling built-in functions.
 

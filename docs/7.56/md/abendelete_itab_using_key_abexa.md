@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_delete_table_using_key. CLASS measure DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF tline, col1 TYPE i, col2 TYPE i, END OF tline, itab LIKE HASHED TABLE OF tline WITH UNIQUE KEY primary_key COMPONENTS col1 WITH NON-UNIQUE SORTED KEY secondary
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendelete_itab_using_key_abexa.htm"
+abapFile: "abendelete_itab_using_key_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abendelete", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

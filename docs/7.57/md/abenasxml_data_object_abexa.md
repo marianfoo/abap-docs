@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_asxml_data_object. CLASS serializable DEFINITION. PUBLIC SECTION. ENDCLASS. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA dref   TYPE REF TO decfloat34. DATA xmlstr TYPE xstring. CREATE DATA dref. dref-> = '1.23456'
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasxml_data_object_abexa.htm"
+abapFile: "abenasxml_data_object_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenasxml", "object", "abexa"]
+---
 
 * * *
 

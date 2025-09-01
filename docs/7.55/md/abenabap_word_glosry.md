@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP word"
+description: |
+  Word of the ABAP programming language. ABAP words are the tokens(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentoken_glosry.htm 'Glossary Entry') of an ABAP statement(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_statement_glosry.htm 'Glossary Entry') and e
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_word_glosry.htm"
+abapFile: "abenabap_word_glosry.htm"
+keywords: ["do", "try", "abenabap", "word", "glosry"]
+---
 
 * * *
 

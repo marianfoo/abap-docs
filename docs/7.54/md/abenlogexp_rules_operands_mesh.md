@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  After mesh1 has been assigned to mesh2, both meshes are the same. After the number of rows of component node2 has been increased in mesh2, this mesh is larger than mesh1. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TABLE OF line1 WITH UNIQUE KEY col1, BEGIN OF line2, col1
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_rules_operands_mesh.htm"
+abapFile: "abenlogexp_rules_operands_mesh.htm"
+keywords: ["do", "data", "types", "internal-table", "abenlogexp", "rules", "operands", "mesh"]
+---
 
 * * *
 

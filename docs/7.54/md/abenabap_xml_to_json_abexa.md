@@ -1,4 +1,14 @@
-  
+---
+title: "JSON, Create from XML Data"
+description: |
+  Transforms XML data to JSON. Source Code REPORT kellerh_xml_to_json. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF node, node_type TYPE if_sxml_node=>node_type, name      TYPE string, value     TYPE string, array
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_to_json_abexa.htm"
+abapFile: "abenabap_xml_to_json_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenabap", "xml", "json", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - SQL Functions for Strings"
+description: |
+  The following table shows the SQL functions for strings that can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm 'Glossary Entr
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_functions_string.htm"
+abapFile: "abensql_functions_string.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abensql", "functions", "string"]
+---
 
 * * *
 

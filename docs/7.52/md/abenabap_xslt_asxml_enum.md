@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  The example shows the serialization of an enumerated variable planet to XML. Then, the name of the value VENUS is replaced by JUPITER and the result is deserialized to planet. planet then contains the value 4. A deserialization of the XML value earth, on the other hand, fails, because the name has t
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_enum.htm"
+abapFile: "abenabap_xslt_asxml_enum.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abenabap", "xslt", "asxml", "enum"]
+---
 
 * * *
 

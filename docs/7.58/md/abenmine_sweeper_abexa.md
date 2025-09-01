@@ -1,4 +1,14 @@
-  
+---
+title: "Expression-Orientation - Minesweeper Game"
+description: |
+  Expression-oriented implementation of a Minesweeper game. Source Code  Public class definition CLASS cl_demo_minesweeper_740 DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC FINAL. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS game DEFINITION. PUBLIC SECT
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmine_sweeper_abexa.htm"
+abapFile: "abenmine_sweeper_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenmine", "sweeper", "abexa"]
+---
 
 * * *
 

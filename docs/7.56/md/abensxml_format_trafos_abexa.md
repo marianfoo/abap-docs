@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_xml_to_binary_to_xop. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS sxml_demo IMPLEMENTATION. METHOD main. 'XML 1.0 DATA(xml_reader) = cl_sxml_string_reader=>create( cl_abap_conv_codepage=>create_out( )->convert( `<text><!-- comment
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensxml_format_trafos_abexa.htm"
+abapFile: "abensxml_format_trafos_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensxml", "format", "trafos", "abexa"]
+---
 
 * * *
 

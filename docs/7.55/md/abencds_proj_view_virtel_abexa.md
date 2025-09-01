@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_consume_bs_proj_view_virt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(service_binding) = `DEMO_SB_SALES_PV_SO_EXP`. DATA(entity)          = `DEMO_SALES_PV_SO_EXP`. SELECT  FROM demo_sales_pv_so
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_virtel_abexa.htm"
+abapFile: "abencds_proj_view_virtel_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "abencds", "proj", "view", "virtel", "abexa"]
+---
 
 * * *
 

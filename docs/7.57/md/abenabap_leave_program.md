@@ -1,4 +1,14 @@
-  
+---
+title: "Exiting Programs"
+description: |
+  This section describes the statement LEAVE PROGRAM(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapleave_program.htm) used for exiting programs. Apart from LEAVE PROGRAM, the following statements are also used to exit programs that calls other programs without returning to the calle
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_leave_program.htm"
+abapFile: "abenabap_leave_program.htm"
+keywords: ["update", "do", "if", "try", "abenabap", "leave", "program"]
+---
 
 * * *
 

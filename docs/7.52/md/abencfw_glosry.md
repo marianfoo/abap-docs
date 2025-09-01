@@ -1,4 +1,14 @@
-  
+---
+title: "CFW"
+description: |
+  → Control Framework(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_framework_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencfw_glosry.htm"
+abapFile: "abencfw_glosry.htm"
+keywords: ["do", "try", "abencfw", "glosry"]
+---
 
 * * *
 

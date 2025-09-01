@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE ABSTRACT ENTITY, to-parent association"
+description: |
+  Syntax ... ASSOCIATION TO PARENT target ON $projection.cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Defines a CDS to-parent association(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_assoc
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_absent_to_parent_assoc.htm"
+abapFile: "abencds_absent_to_parent_assoc.htm"
+keywords: ["do", "if", "try", "data", "abencds", "absent", "parent", "assoc"]
+---
 
 * * *
 

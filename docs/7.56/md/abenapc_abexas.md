@@ -1,4 +1,14 @@
-  
+---
+title: "APC - Examples"
+description: |
+  !Example(exa.gif 'Example') APC - AS ABAP as WebSocket Server(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapc_abexa.htm) !Example(exa.gif 'Example') APC - AS ABAP as WebSocket Client(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapc_ws_client_abexa.htm) !
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapc_abexas.htm"
+abapFile: "abenapc_abexas.htm"
+keywords: ["do", "if", "data", "abenapc", "abexas"]
+---
 
 * * *
 

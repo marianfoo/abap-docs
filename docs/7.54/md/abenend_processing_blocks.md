@@ -1,4 +1,14 @@
-  
+---
+title: "Regular Exiting of a Processing Block"
+description: |
+  A processing block is exited in a regular when reaching its end. For processing blocks that are concluded using an END statement, this is the end. Event blocks that are not concluded explicitly with a statement have an implicit conclusion after their last statement. Depending on the processing block
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm"
+abapFile: "abenend_processing_blocks.htm"
+keywords: ["select", "do", "try", "method", "class", "abenend", "processing", "blocks"]
+---
 
 * * *
 

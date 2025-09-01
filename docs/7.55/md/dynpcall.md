@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubscreen_glosr
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 

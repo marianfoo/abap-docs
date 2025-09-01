@@ -1,4 +1,14 @@
-  
+---
+title: "Comparisons with Numeric Data Types"
+description: |
+  - d,t decfloat16, decfloat34 decfloat34 f f p p int8 int8 i, s, b i Example During the comparisons, the content of the system field sy-datlo is converted to the number of days since 01.01.0001 and compared with the content of days. DATA(days) = CONV decfloat34( sy-datlo ). cl_demo_input=>request(
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_date_time.htm"
+abapFile: "abenlogexp_date_time.htm"
+keywords: ["do", "if", "try", "data", "types", "abenlogexp", "date", "time"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ rel\_exp - Comparison Type of Date Fields and Time Fields
 
 The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between date/time types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_type.htm) determine how the comparison is performed. If no comparison type is specified for a combination, no comparison is possible.
 
--   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_1)
+-   [Comparisons with Numeric Data Types](#abenlogexp-date-time-1--------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_DATE_TIME_2)
 
--   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_2)
-
--   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_3)
-
--   [Comparisons with Date/Time Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_4)
+-   [Comparisons with Byte-Like Data Types](#abenlogexp-date-time-3--------comparisons-with-date-time-types---@ITOC@@ABENLOGEXP_DATE_TIME_4)
 
 Comparisons with Numeric Data Types
 

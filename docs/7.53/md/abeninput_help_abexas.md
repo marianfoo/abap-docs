@@ -1,4 +1,14 @@
-  
+---
+title: "Field and Input Helps - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Field Help(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_f1_help_abexa.htm) !Example(exa.gif 'Example') Dynpros, Input Help from ABAP Dictionary(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_f4_help_dic_abex
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninput_help_abexas.htm"
+abapFile: "abeninput_help_abexas.htm"
+keywords: ["do", "if", "abeninput", "help", "abexas"]
+---
 
 * * *
 

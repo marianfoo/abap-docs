@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... num_func( arg ) ... Effect Floating point function for which a floating point number(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfloating_point_number_glosry.htm 'Glossary Entry') is expected as an unnamed argument. Floating point functions are overloaded so that the return
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfloating_point_functions.htm"
+abapFile: "abenfloating_point_functions.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "internal-table", "abenfloating", "point", "functions"]
+---
 
 * * *
 

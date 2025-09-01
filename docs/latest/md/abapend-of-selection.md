@@ -1,4 +1,14 @@
-  
+---
+title: "END-OF-SELECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-selection_shortref.htm) Obsolete Syntax END-OF-SELECTION. Effect The statement END-OF-SELECTION is only intended for use in executable programs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-selection.htm"
+abapFile: "abapend-of-selection.htm"
+keywords: ["select", "do", "if", "try", "data", "abapend", "selection"]
+---
 
 * * *
 

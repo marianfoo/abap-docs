@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Table Views"
+description: |
+  A DDIC table view is a repository object in ABAP Dictionary defined for existing DDIC database tables and their fields in the form-based ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_tools.htm) in ABAP Workbench(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_views.htm"
+abapFile: "abenddic_table_views.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "data", "types", "abenddic", "table", "views"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP Function Implementation"
+description: |
+  AMDP method(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_method_glosry.htm 'Glossary Entry') with return value(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_glosry.htm 'Glossary Entry') indicated by BY DATABASE FUNCTION(https://help.sap.com/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_function_method_glosry.htm"
+abapFile: "abenamdp_function_method_glosry.htm"
+keywords: ["do", "try", "method", "class", "data", "abenamdp", "function", "glosry"]
+---
 
 * * *
 

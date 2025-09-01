@@ -1,4 +1,14 @@
-  
+---
+title: "SUMMING - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsumming.htm) Syntax SUMMING dobj. Effect Obsolete: After the statement SUMMING, adds the value of dobj to the content of sum_dobj after each WRITE statement.
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsumming_shortref.htm"
+abapFile: "abapsumming_shortref.htm"
+keywords: ["do", "abapsumming", "shortref"]
+---
 
 * * *
 

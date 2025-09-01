@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_access_names DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_ixml_access_names IMPLEMENTATION. METHOD main. DATA source_tab TYP
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_node_names_abexa.htm"
+abapFile: "abenixml_node_names_abexa.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenixml", "node", "names", "abexa"]
+---
 
 * * *
 

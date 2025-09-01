@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Service Definitions"
+description: |
+  A CDS service definition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') exposes CDS entities(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm 'Glossary Entry') for a business service(https:/
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_service_definitions.htm"
+abapFile: "abencds_service_definitions.htm"
+keywords: ["do", "try", "data", "abencds", "service", "definitions"]
+---
 
 * * *
 

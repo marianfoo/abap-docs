@@ -1,4 +1,14 @@
-  
+---
+title: "FIELD - Handling of Messages from the PAI Event"
+description: |
+  If the statement FIELD(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield.htm) in the event block for PAI(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpai_glosry.htm 'Glossary Entry') is associated(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/d
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_messages.htm"
+abapFile: "abendynp_field_messages.htm"
+keywords: ["do", "if", "try", "abendynp", "field", "messages"]
+---
 
 * * *
 

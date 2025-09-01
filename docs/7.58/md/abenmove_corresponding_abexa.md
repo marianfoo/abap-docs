@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE-CORRESPONDING for Internal Tables"
+description: |
+  This example demonstrates the statement MOVE-CORRESPONDING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding.htm) for internal tables. Source Code  Public class definition CLASS cl_demo_move_crrspndng_itab DEFINITION INHERITING FROM cl_demo_classrun PUBLIC C
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmove_corresponding_abexa.htm"
+abapFile: "abenmove_corresponding_abexa.htm"
+keywords: ["delete", "do", "if", "method", "class", "data", "types", "internal-table", "abenmove", "corresponding", "abexa"]
+---
 
 * * *
 

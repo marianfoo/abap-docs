@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY dbtab - source"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_dbtab_shortref.htm) Syntax ... @waTABLE @itab ... Alternatives: 1. ...  @wa(#!ABAP_ALTERNATIVE_1@1@) 2. ... TABLE @itab(#!ABAP_ALTERNATIVE_2@2@) Effect A non-table-like data object wa or an interna
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_source.htm"
+abapFile: "abapmodify_source.htm"
+keywords: ["insert", "update", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapmodify", "source"]
+---
 
 * * *
 

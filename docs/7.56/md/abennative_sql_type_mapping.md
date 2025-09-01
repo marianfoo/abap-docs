@@ -1,4 +1,14 @@
-  
+---
+title: "Native SQL - Mapping of ABAP Types"
+description: |
+  In Native SQL, data can be transferred from the database to ABAP data objects in reads and vice versa in writes. -   In ADBC(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc.htm), ABAP data objects are bound using data references. -   ABAP data objects are specified as host var
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennative_sql_type_mapping.htm"
+abapFile: "abennative_sql_type_mapping.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "data", "types", "abennative", "sql", "type", "mapping"]
+---
 
 * * *
 

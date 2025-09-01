@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for BDEF Derived Type Components"
+description: |
+  -   BDEF Derived Type Components in the Context of Requesting Permissions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_types_misc_abexa.htm) -   Display BDEF Derived Type Components(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_display_der
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_types_abexas.htm"
+abapFile: "abenderived_types_abexas.htm"
+keywords: ["do", "if", "data", "types", "abenderived", "abexas"]
+---
 
 * * *
 

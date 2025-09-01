@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - query"
+description: |
+  Syntax ... query DraftQueryView Effect Defines a draft query view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendraft_query_view_glosry.htm 'Glossary Entry') DraftQueryView for a RAP draft table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendraft_table
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_query_view.htm"
+abapFile: "abenbdl_draft_query_view.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "draft", "query", "view"]
+---
 
 * * *
 

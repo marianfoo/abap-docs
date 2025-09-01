@@ -1,4 +1,14 @@
-  
+---
+title: "Videos, How to Use the ABAP Keyword Documentation"
+description: |
+  The ABAP Keyword Documentation is available in SAP GUI, in ABAP development tools for Eclipse (ADT)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm 'Glossary Entry'), and on SAP Help Portal. In each of these channels, the content and functionality is slightly dif
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_tutorials.htm"
+abapFile: "abenabap_tutorials.htm"
+keywords: ["do", "if", "try", "abenabap", "tutorials"]
+---
 
 * * *
 

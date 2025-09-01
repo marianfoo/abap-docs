@@ -1,4 +1,14 @@
-  
+---
+title: "APC handler class"
+description: |
+  Global class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_class_glosry.htm 'Glossary Entry') in which the handling of a query sent to an ABAP push channel(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_push_channel_glosry.htm 'Glossary Entry') in AS
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc_handler_class_glosry.htm"
+abapFile: "abenapc_handler_class_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenapc", "handler", "glosry"]
+---
 
 * * *
 

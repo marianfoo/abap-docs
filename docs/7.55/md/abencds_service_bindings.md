@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Service Bindings"
+description: |
+  A service binding is a repository object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_object_glosry.htm 'Glossary Entry') defined in a form-based ABAP Development Tool (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm 'Glossary Entry
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_service_bindings.htm"
+abapFile: "abencds_service_bindings.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abencds", "service", "bindings"]
+---
 
 * * *
 

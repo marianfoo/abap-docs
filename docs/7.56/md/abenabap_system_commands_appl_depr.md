@@ -1,4 +1,14 @@
-  
+---
+title: "Unwanted Calls of Operating System Statements"
+description: |
+  In addition to calls of function modules in the SXPG framework(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_sxpg.htm), operating system statements for the host computer(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhost_computer_glosry
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_depr.htm"
+abapFile: "abenabap_system_commands_appl_depr.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "abenabap", "system", "commands", "appl", "depr"]
+---
 
 * * *
 

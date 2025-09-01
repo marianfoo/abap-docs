@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_case. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: output  TYPE TABLE OF string, formats TYPE abap_attrdescr_tab, format  LIKE LINE OF formats. FIELD-SYMBOLS <case> LIKE cl_abap_format=>c_raw. f
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_template_case_abexa.htm"
+abapFile: "abenstring_template_case_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "method", "class", "data", "abenstring", "template", "abexa"]
+---
 
 * * *
 

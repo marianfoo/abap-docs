@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... RETURNCODE rc LENGTH leng RECEIVED rec HOLD. Additions: 1. ... RETURNCODE  rc(#!ABAP_ADDITION_1@1@) 2. ... LENGTH leng(#!ABAP_ADDITION_2@2@) 3. ... RECEIVED rec(#!ABAP_ADDITION_3@3@) 4. ... HOLD(#!ABAP_ADDITION_4@4@) Effect Further additions for the st
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_options.htm"
+abapFile: "abapcommunication_options.htm"
+keywords: ["do", "if", "case", "try", "data", "abapcommunication", "options"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - extensible"
+description: |
+  Syntax ... extensible  with validations on save with determinations on save with determinations on modify  ... Effect The addition extensible can be used to allow BDEF extensions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_extension.htm). If
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_extensible.htm"
+abapFile: "abenbdl_extensible.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "extensible"]
+---
 
 * * *
 

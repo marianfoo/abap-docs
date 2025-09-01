@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Source Type"
+description: |
+  Source Types INT1, INT2, INT4, INT8, DEC, CURR, QUAN, DECFLOAT16, and DECFLOAT34 -   Numeric target type -   Possible target types for all numeric source types: INT1, INT2, INT4, INT8, DEC, QUAN, DECFLOAT16, and DECFLOAT34. -   Possible target types for all numeric source types except DECFLOAT16 and
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_rules_v2.htm"
+abapFile: "abencds_cast_expression_rules_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "cast", "expression", "rules"]
+---
 
 * * *
 
@@ -13,12 +23,9 @@ CDS DDL - CDS View Entity, cast\_expr, Conversion Rules
 
 The following sections describe the conversion rules for [cast expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v2.htm) in [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry").
 
--   [Numeric Source Type](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_1)
-    -   [Source Types INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_2)
--   [Character-Like Source Type](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_3)
-    -   [Source Types CHAR and SSTRING](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_4)
-    -   [Source Type NUMC](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_5)
-    -   [Source Types DATS and TIMS](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_6)
+-   [Numeric Source Type](#abencds-cast-expression-rules-v2-1-----------source-types-int1--int2--int4--int8--dec---@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_2)
+-   [Character-Like Source Type](#abencds-cast-expression-rules-v2-3-----------source-types-char-and-sstring---@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_4)
+    -   [Source Type NUMC](#abencds-cast-expression-rules-v2-5-----------source-types-dats-and-tims---@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_6)
     -   [Source Types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_7)
 
 Data types that cannot be converted to each other are not mentioned here. In these cases, casts are either not possible or casting can only be done between operands of the same type. If the source type and the target type are technically identical, the content is transferred without being converted.

@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - System Interfaces"
+description: |
+  -   IF_T100_MESSAGE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenif_t100_message.htm) -   IF_T100_DYN_MSG(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenif_t100_dyn_msg.htm) Hint The system interfaces for messages are designed mainly for exception texts(h
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmessage_interfaces.htm"
+abapFile: "abenmessage_interfaces.htm"
+keywords: ["do", "if", "class", "abenmessage", "interfaces"]
+---
 
 * * *
 

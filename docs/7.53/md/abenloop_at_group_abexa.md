@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP, Output Behavior"
+description: |
+  This example demonstrates the different output behavior in groupings of internal tables. Source Code REPORT demo_loop_at_group_syntax. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new(
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_at_group_abexa.htm"
+abapFile: "abenloop_at_group_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenloop", "group", "abexa"]
+---
 
 * * *
 

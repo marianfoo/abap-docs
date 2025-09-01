@@ -1,4 +1,14 @@
-  
+---
+title: "Internal SAP Documentation"
+description: |
+  This documentation is only available internally at SAP.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenllang_internal.htm"
+abapFile: "abenllang_internal.htm"
+keywords: ["do", "data", "abenllang", "internal"]
+---
 
 * * *
 

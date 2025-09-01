@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for the File Interface"
+description: |
+  The static methods of the class CL_ABAP_FILE_UTILITIES -   provide information about files on the application server -   create a file with a UTF 8 byte order mark
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_file_utilities.htm"
+abapFile: "abencl_abap_file_utilities.htm"
+keywords: ["do", "method", "class", "data", "abencl", "abap", "file", "utilities"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... log_exp1 AND log_exp2 AND log_exp3 ... Effect The joining of multiple logical expressions log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) using AND creates a new logical expression that is true when all logical expressions log_exp are true. If one of the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_and.htm"
+abapFile: "abenlogexp_and.htm"
+keywords: ["do", "if", "try", "abenlogexp", "and"]
+---
 
 * * *
 

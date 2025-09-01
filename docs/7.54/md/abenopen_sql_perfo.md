@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Performance Notes"
+description: |
+  The performance of a program is often determined by the efficiency of its database reads. In a client/server environment, each database read places a load on both the database system and the connection between the database system and the AS ABAP. This load must be kept as low as possible if programs
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_perfo.htm"
+abapFile: "abenopen_sql_perfo.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "data", "internal-table", "abenopen", "sql", "perfo"]
+---
 
 * * *
 

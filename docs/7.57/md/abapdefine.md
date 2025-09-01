@@ -1,4 +1,14 @@
-  
+---
+title: "DEFINE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdefine_shortref.htm) Syntax DEFINE macro. ... &1 ... &9 ... END-OF-DEFINITION. Effect The statement DEFINE defines a macro(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacro_glosry.htm 'Glossary Entr
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdefine.htm"
+abapFile: "abapdefine.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abapdefine"]
+---
 
 * * *
 

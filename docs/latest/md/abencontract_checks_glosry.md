@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP contract checks"
+description: |
+  ABAP contract checks summarize the following checks: -   RAP BO contract(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_contract_glosry.htm 'Glossary Entry') checks: Check for violations of RAP BO consumer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-U
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontract_checks_glosry.htm"
+abapFile: "abencontract_checks_glosry.htm"
+keywords: ["do", "if", "try", "abencontract", "checks", "glosry"]
+---
 
 * * *
 

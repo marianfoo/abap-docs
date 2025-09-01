@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE EXCEPTION - message"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception_shortref.htm) Syntax ...  MESSAGE tn(id)   ID mid TYPE mtype NUMBER num  WITH dobj1 ... dobj4    USING MESSAGE  ... Variants: 1. ... MESSAGE msg ...(#!ABAP_VARIANT_1@1@
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception_message.htm"
+abapFile: "abapraise_exception_message.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "exception-handling", "abapraise", "exception", "message"]
+---
 
 * * *
 
@@ -34,9 +44,7 @@ Effect
 
 The addition tn(id) or ID mid TYPE mtype NUMBER num is used to specify the [message type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_type_glosry.htm "Glossary Entry"), the [message class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_class_glosry.htm "Glossary Entry"), and the [message number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_number_glosry.htm "Glossary Entry") of a message [msg](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_msg.htm) for the table T100, statically or dynamically. This is done in the same way as in the statement [MESSAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm). Also like in [MESSAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm), the optional addition WITH can be used to fill the placeholders of a message. The exception class of the raised exception must include one of the [system interfaces for messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_interfaces.htm):
 
--   [Using IF\_T100\_DYN\_MSG](#@@ITOC@@ABAPRAISE_EXCEPTION_MESSAGE_1)
-
--   [Using IF\_T100\_MESSAGE](#@@ITOC@@ABAPRAISE_EXCEPTION_MESSAGE_2)
+-   [Using IF\_T100\_DYN\_MSG](#abapraise-exception-message-1--------using-if--t100--message---@ITOC@@ABAPRAISE_EXCEPTION_MESSAGE_2)
 
 The addition MESSAGE fills the attributes of these interfaces with values. This assignment is made after the instance constructor is executed. This overwrites any values assigned to these attributes when the exception object was constructed.
 

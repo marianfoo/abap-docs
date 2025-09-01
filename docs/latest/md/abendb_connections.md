@@ -1,4 +1,14 @@
-  
+---
+title: "Database Connections"
+description: |
+  An AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry') uses database connections to access databases. A database connection defines the address of the database system (database host), the database user(https://help.sap.com/doc/abapdocu
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_connections.htm"
+abapFile: "abendb_connections.htm"
+keywords: ["do", "if", "try", "data", "types", "abendb", "connections"]
+---
 
 * * *
 

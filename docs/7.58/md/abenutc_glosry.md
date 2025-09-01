@@ -1,4 +1,14 @@
-  
+---
+title: "UTC"
+description: |
+  Short for Coordinated Universal Time. Basis for representing worldwide time data. The UTC reference time is not a local time zone, but a general reference time based on atomic time standards, from which the times of all local time zones are derived. UTC is defined in such a way that it corresponds t
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenutc_glosry.htm"
+abapFile: "abenutc_glosry.htm"
+keywords: ["do", "if", "data", "abenutc", "glosry"]
+---
 
 * * *
 

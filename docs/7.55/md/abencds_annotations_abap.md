@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - ABAP Annotations"
+description: |
+  ABAP annotations are SAP annotations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that are evaluated by the ABAP runtime environment. The following sections show the associated annotation definitions(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap.htm"
+abapFile: "abencds_annotations_abap.htm"
+keywords: ["do", "try", "data", "abencds", "annotations", "abap"]
+---
 
 * * *
 

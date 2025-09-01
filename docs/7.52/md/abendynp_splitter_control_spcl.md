@@ -1,4 +1,14 @@
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Databases - Components"
+description: |
+  The main features of a logical database are -   a hierarchical structure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_structure.htm) The structure defines the data view of the logical database. It generally inherits the given hierarchy of database tables defined by foreign ke
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_oview.htm"
+abapFile: "abenldb_oview.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "oview"]
+---
 
 * * *
 

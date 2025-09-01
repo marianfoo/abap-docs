@@ -1,4 +1,14 @@
-  
+---
+title: "Authorization group"
+description: |
+  Program attribute(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_glosry.htm 'Glossary Entry') that allows the combining of different programs into groups for shared authorization checks(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenauthorization
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenauthorization_group_glosry.htm"
+abapFile: "abenauthorization_group_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenauthorization", "group", "glosry"]
+---
 
 * * *
 

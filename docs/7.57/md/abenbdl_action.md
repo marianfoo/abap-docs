@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - action"
+description: |
+  Syntax Forms non-factory actions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_nonfactory.htm) 1.  internal(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_internal.htm)static action ( features: instance  global(h
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action.htm"
+abapFile: "abenbdl_action.htm"
+keywords: ["update", "do", "if", "try", "method", "data", "abenbdl", "action"]
+---
 
 * * *
 

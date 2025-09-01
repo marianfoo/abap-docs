@@ -1,4 +1,14 @@
-  
+---
+title: "Interface Parameters in Methods"
+description: |
+  The interface parameters in methods are input parameters (IMPORTING and CHANGING parameters) and output parameters (EXPORTING, CHANGING, and RETURNING parameters). Declarations using the statements -   METHODS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods.htm) -   CLASS-M
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_parameters.htm"
+abapFile: "abenmethod_parameters.htm"
+keywords: ["do", "if", "try", "method", "class", "abenmethod", "parameters"]
+---
 
 * * *
 

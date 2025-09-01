@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenddic_obsolete.htm
 
-  
+---
+title: "Obsolete Dictionary Objects"
+description: |
+  The dictionary objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_object_glosry.htm 'Glossary Entry') described in this subnode are obsolete and are only available for reasons of compatibility with older releases. -   DDIC - External Views (Obsolete)(https://help.s
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_obsolete.htm"
+abapFile: "abenddic_obsolete.htm"
+keywords: ["do", "if", "try", "abenddic", "obsolete"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abenddic_external_views.htm
 
-  
+---
+title: "DDIC - External Views (Obsolete)"
+description: |
+  Note: SAP HANA XSA(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxsa_glosry.htm 'Glossary Entry') replaces SAP HANA XSC(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxsc_glosry.htm 'Glossary Entry'). The access methods(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_external_views.htm"
+abapFile: "abenddic_external_views.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "data", "types", "abenddic", "external", "views"]
+---
 
 * * *
 

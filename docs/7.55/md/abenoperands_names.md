@@ -1,4 +1,14 @@
-  
+---
+title: "Names for Single Operands"
+description: |
+  A single operand, that is, an operand that is not an expression, can either be elementary or be a combination of components. Linked operands are: -   Structured data types or data objects (structure) -   Instances of classes (objects) -   Classes -   Interfaces As a consequence, names for operands a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperands_names.htm"
+abapFile: "abenoperands_names.htm"
+keywords: ["select", "do", "try", "class", "data", "types", "abenoperands", "names"]
+---
 
 * * *
 

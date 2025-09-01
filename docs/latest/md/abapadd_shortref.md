@@ -1,4 +1,14 @@
-  
+---
+title: "ADD - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd.htm) Syntax ADD dobj1 TO dobj2. Effect Obsolete: Adds the content of a numeric data object dobj1 to the content of a numeric data object dobj2 and assigns the result to dobj2.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd_shortref.htm"
+abapFile: "abapadd_shortref.htm"
+keywords: ["do", "if", "data", "abapadd", "shortref"]
+---
 
 * * *
 

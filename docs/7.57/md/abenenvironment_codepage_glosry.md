@@ -1,4 +1,14 @@
-  
+---
+title: "environment_codepage_glosry"
+description: |
+  environment_codepage_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenvironment_codepage_glosry.htm"
+abapFile: "abenenvironment_codepage_glosry.htm"
+keywords: ["do", "if", "try", "abenenvironment", "codepage", "glosry"]
+---
 
 * * *
 

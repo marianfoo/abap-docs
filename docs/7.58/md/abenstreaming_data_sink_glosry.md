@@ -1,4 +1,14 @@
-  
+---
+title: "streaming_data_sink_glosry"
+description: |
+  streaming_data_sink_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming_data_sink_glosry.htm"
+abapFile: "abenstreaming_data_sink_glosry.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abenstreaming", "sink", "glosry"]
+---
 
 * * *
 

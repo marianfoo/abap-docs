@@ -1,4 +1,14 @@
-  
+---
+title: "Character String Functions, cmax, cmin, and segment"
+description: |
+  This example demonstrates the extremum functions cmax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencmax_cmin_functions.htm) and cmin(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennmax_nmin_functions.htm), plus the segment function segment(https://help.sap.com
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencmax_cmin_function_abexa.htm"
+abapFile: "abencmax_cmin_function_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "abencmax", "cmin", "function", "abexa"]
+---
 
 * * *
 

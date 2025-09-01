@@ -1,4 +1,14 @@
-  
+---
+title: "SAP LUW, Examples"
+description: |
+  !Example(exa.gif 'Example') SAP LUW, UPDATE TASK(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_update_task_abexa.htm) !Example(exa.gif 'Example') SAP LUW, ON COMMIT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_on_commit_abexa.htm) !Example
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_abexas.htm"
+abapFile: "abensap_luw_abexas.htm"
+keywords: ["update", "do", "if", "data", "abensap", "luw", "abexas"]
+---
 
 * * *
 

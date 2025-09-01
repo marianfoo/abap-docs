@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACE, DEFERRED, LOAD - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface_deferred.htm) Syntax INTERFACE intf DEFERRED PUBLIC  LOAD. Effect Makes an interface public. Additions -   DEFERRED PUBLIC Makes a local or global interface public before its actual dec
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface_deferred_lo_shortref.htm"
+abapFile: "abapinterface_deferred_lo_shortref.htm"
+keywords: ["do", "if", "class", "abapinterface", "deferred", "shortref"]
+---
 
 * * *
 

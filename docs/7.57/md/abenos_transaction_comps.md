@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Components of the Transaction Service"
+description: |
+  An object-oriented transaction is represented by a transaction object that is managed by a transaction manger, which is also an object. The transaction manager represents the transaction service with respect to the ABAP program. To create a transaction manager, the static method GET_TRANSACTION_MA
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenos_transaction_comps.htm"
+abapFile: "abenos_transaction_comps.htm"
+keywords: ["update", "do", "if", "method", "class", "data", "abenos", "transaction", "comps"]
+---
 
 * * *
 
@@ -17,10 +27,8 @@ To create a transaction manager, the static method GET\_TRANSACTION\_MANAGER of 
 
 An ABAP program does not work with the Transaction Manager and the transaction using class reference variables. Instead the program accesses the Transaction Manager and the transaction using the interfaces IF\_OS\_TRANSACTION\_MANAGER and IF\_OS\_TRANSACTION.
 
--   [Relevant Methods of the System Service](#@@ITOC@@ABENOS_TRANSACTION_COMPS_1)
--   [Methods of the Transaction Manager](#@@ITOC@@ABENOS_TRANSACTION_COMPS_2)
--   [Methods of a Transaction](#@@ITOC@@ABENOS_TRANSACTION_COMPS_3)
--   [Events of a Transaction](#@@ITOC@@ABENOS_TRANSACTION_COMPS_4)
+-   [Relevant Methods of the System Service](#abenos-transaction-comps-1-------methods-of-the-transaction-manager---@ITOC@@ABENOS_TRANSACTION_COMPS_2)
+-   [Methods of a Transaction](#abenos-transaction-comps-3-------events-of-a-transaction---@ITOC@@ABENOS_TRANSACTION_COMPS_4)
 
 Relevant Methods of the System Service   
 

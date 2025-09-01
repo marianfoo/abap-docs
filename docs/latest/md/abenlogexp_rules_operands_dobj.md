@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  When converting between directly specified elementary data objects with different data types, all exceptions listed here(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm) can be raised. In comparisons, these are either handled implicitly or produce a ru
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_operands_dobj.htm"
+abapFile: "abenlogexp_rules_operands_dobj.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "abenlogexp", "rules", "operands", "dobj"]
+---
 
 * * *
 

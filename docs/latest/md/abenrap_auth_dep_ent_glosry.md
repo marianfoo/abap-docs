@@ -1,4 +1,14 @@
-  
+---
+title: "RAP authorization dependent entity"
+description: |
+  RAP BO entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') that uses the authorization control(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_auth_control_glosry.htm 'Glossary Entry') that is defined on it
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_auth_dep_ent_glosry.htm"
+abapFile: "abenrap_auth_dep_ent_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "auth", "dep", "ent", "glosry"]
+---
 
 * * *
 

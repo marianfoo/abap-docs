@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Time Functions"
+description: |
+  Syntax ... TIMS_IS_VALID(time) ... Variants: 1. ... TIMS_IS_VALID(time)(#!ABAP_VARIANT_1@1@) Effect In a CDS view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm 'Glossary Entry'), these functions execute operations with arguments of the built-in data type
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_time_functions.htm"
+abapFile: "abencds_f1_time_functions.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "time", "functions"]
+---
 
 * * *
 

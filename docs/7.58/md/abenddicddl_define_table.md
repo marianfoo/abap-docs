@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE TABLE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_props.htm) ext_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_ext_annos.htm) table_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-U
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table.htm"
+abapFile: "abenddicddl_define_table.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddicddl", "define", "table"]
+---
 
 * * *
 

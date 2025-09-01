@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenddic_database_tables_gtt.htm
 
-  
+---
+title: "DDIC - Global Temporary Tables"
+description: |
+  Global temporary tables (GTTs) are special transparent tables(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransparent_table_glosry.htm 'Glossary Entry') used as repositories for temporary data. This data exists only within a database LUW(https://help.sap.com/doc/abapdocu_755_i
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_gtt.htm"
+abapFile: "abenddic_database_tables_gtt.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenddic", "database", "tables", "gtt"]
+---
 
 * * *
 
@@ -81,7 +91,17 @@ Continue
 
 ### abenddic_gtt_abexa.htm
 
-  
+---
+title: "DDIC - Global Temporary Tables, Access"
+description: |
+  This example demonstrates how global temporary tables(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_gtt.htm) in ABAP Dictionary are accessed. Source Code REPORT demo_gtt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMEN
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_gtt_abexa.htm"
+abapFile: "abenddic_gtt_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenddic", "gtt", "abexa"]
+---
 
 * * *
 

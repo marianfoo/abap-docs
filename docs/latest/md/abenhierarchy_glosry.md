@@ -1,4 +1,14 @@
-  
+---
+title: "See also"
+description: |
+  -   SQL hierarchy(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_hierarchy_glosry.htm 'Glossary Entry') -   CDS hierarchy(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_hierarchy_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhierarchy_glosry.htm"
+abapFile: "abenhierarchy_glosry.htm"
+keywords: ["do", "if", "try", "abenhierarchy", "glosry"]
+---
 
 * * *
 

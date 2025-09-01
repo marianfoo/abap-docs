@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION, type"
+description: |
+  Syntax ... dtype enum  SYMBOL1; SYMBOL2; ...  default val#SYMBOL Effect Defines the annotation values(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenannotation_value_glosry.htm 'Glossary Entry') to be specified when a CDS annotation(https://help.sap.com/doc/a
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_annotation_type.htm"
+abapFile: "abencds_f1_define_annotation_type.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "define", "annotation", "type"]
+---
 
 * * *
 

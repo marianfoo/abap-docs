@@ -1,4 +1,14 @@
-  
+---
+title: "AMC - Receiving Messages"
+description: |
+  This example demonstrates how messages are received using AMC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_receive_amc DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_receive_abexa.htm"
+abapFile: "abenamc_receive_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abenamc", "receive", "abexa"]
+---
 
 * * *
 

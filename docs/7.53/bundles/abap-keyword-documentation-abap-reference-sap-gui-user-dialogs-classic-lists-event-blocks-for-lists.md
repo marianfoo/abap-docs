@@ -5,7 +5,17 @@ Included pages: 10
 
 ### abenabap_lists_interactive.htm
 
-  
+---
+title: "Event Blocks for Lists"
+description: |
+  List events appear during the creation of a list, and following certain user actions on a displayed list. They used to process lists in the ABAP program. We differentiate between events during list creation, and interactive list events for processing user actions in a displayed list. The events duri
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_lists_interactive.htm"
+abapFile: "abenabap_lists_interactive.htm"
+keywords: ["select", "do", "if", "class", "abenabap", "lists", "interactive"]
+---
 
 * * *
 
@@ -54,7 +64,17 @@ Continue
 
 ### abaptop-of-page.htm
 
-  
+---
+title: "TOP-OF-PAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptop-of-page_shortref.htm) Syntax TOP-OF-PAGE DURING LINE-SELECTION. Addition: ... DURING LINE-SELECTION(#!ABAP_ONE_ADD@1@) Effect This statement defines an event block whose event is raised by the ABAP runtim
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptop-of-page.htm"
+abapFile: "abaptop-of-page.htm"
+keywords: ["select", "do", "if", "try", "class", "abaptop", "page"]
+---
 
 * * *
 
@@ -96,7 +116,17 @@ Continue
 
 ### abenlist_top_of_page_abexa.htm
 
-  
+---
+title: "Lists, Page Header"
+description: |
+  The example shows how to define the page header at the TOP-OF-PAGE event. Source Code REPORT demo_list_top_of_page NO STANDARD PAGE HEADING LINE-SIZE 80 LINE-COUNT 7. DATA: h1(10) TYPE c VALUE '    Number', h2(10) TYPE c VALUE '    Square', h3(10) TYPE c VALUE '      Cube', n1 TYPE i, n2 TYPE i,
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_top_of_page_abexa.htm"
+abapFile: "abenlist_top_of_page_abexa.htm"
+keywords: ["select", "do", "if", "class", "data", "abenlist", "top", "page", "abexa"]
+---
 
 * * *
 
@@ -141,7 +171,17 @@ The different output positions of the individual fields result from the ABAP def
 
 ### abaptop-of-page.htm
 
-  
+---
+title: "TOP-OF-PAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptop-of-page_shortref.htm) Syntax TOP-OF-PAGE DURING LINE-SELECTION. Addition: ... DURING LINE-SELECTION(#!ABAP_ONE_ADD@1@) Effect This statement defines an event block whose event is raised by the ABAP runtim
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptop-of-page.htm"
+abapFile: "abaptop-of-page.htm"
+keywords: ["select", "do", "if", "try", "class", "abaptop", "page"]
+---
 
 * * *
 
@@ -183,7 +223,17 @@ Continue
 
 ### abapend-of-page.htm
 
-  
+---
+title: "END-OF-PAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-page_shortref.htm) Syntax END-OF-PAGE. Effect This statement defines an event block triggered by the ABAP runtime environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_runtime_envir_gl
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-page.htm"
+abapFile: "abapend-of-page.htm"
+keywords: ["select", "loop", "do", "if", "try", "class", "data", "types", "abapend", "page"]
+---
 
 * * *
 
@@ -245,7 +295,17 @@ START-OF-SELECTION.
 
 ### abapat_list_event.htm
 
-  
+---
+title: "Syntax"
+description: |
+  AT  LINE-SELECTION(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_line-selection.htm)  USER-COMMAND(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_user-command.htm)  PFnn(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_pfnn.htm). Ef
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_list_event.htm"
+abapFile: "abapat_list_event.htm"
+keywords: ["select", "do", "if", "class", "data", "abapat", "list", "event"]
+---
 
 * * *
 
@@ -324,7 +384,17 @@ Continue
 
 ### abapat_line-selection.htm
 
-  
+---
+title: "AT LINE-SELECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_line-selection_shortref.htm) Syntax AT LINE-SELECTION. Effect This statement defines an event block whose event is raised by the ABAP runtime environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/a
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_line-selection.htm"
+abapFile: "abapat_line-selection.htm"
+keywords: ["select", "do", "if", "try", "class", "abapat", "line", "selection"]
+---
 
 * * *
 
@@ -366,7 +436,17 @@ AT LINE-SELECTION.
 
 ### abapat_user-command.htm
 
-  
+---
+title: "AT USER-COMMAND"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_user-command_shortref.htm) Syntax AT USER-COMMAND. Effect This statement defines an event block whose event is raised by the ABAP runtime environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abena
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_user-command.htm"
+abapFile: "abapat_user-command.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "abapat", "user", "command"]
+---
 
 * * *
 
@@ -565,7 +645,17 @@ AT USER-COMMAND.
 
 ### abapat_list_event.htm
 
-  
+---
+title: "Syntax"
+description: |
+  AT  LINE-SELECTION(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_line-selection.htm)  USER-COMMAND(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_user-command.htm)  PFnn(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_pfnn.htm). Ef
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_list_event.htm"
+abapFile: "abapat_list_event.htm"
+keywords: ["select", "do", "if", "class", "data", "abapat", "list", "event"]
+---
 
 * * *
 
@@ -644,7 +734,17 @@ Continue
 
 ### abapset_user-command.htm
 
-  
+---
+title: "SET USER-COMMAND"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_user-command_shortref.htm) Syntax SET USER-COMMAND fcode. Effect Raises a list event with a function code specified in fcode. fcode must be a character-like data object(https://help.sap.com/doc/abapdocu_753_index_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_user-command.htm"
+abapFile: "abapset_user-command.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abapset", "user", "command"]
+---
 
 * * *
 

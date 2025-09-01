@@ -1,4 +1,14 @@
-  
+---
+title: "Call Dialog Module"
+description: |
+  The example shows how to call a dialog module. Source Code REPORT demo_dialog_module. DATA spfli_wa TYPE spfli. spfli_wa-carrid = 'LH'. spfli_wa-connid = '0400'. START-OF-SELECTION. CALL DIALOG 'DEMO_DIALOG_MODULE' EXPORTING spfli-carrid FROM spfli_wa-carrid spfli-connid FROM spfli_wa-conni
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_dialog_abexa.htm"
+abapFile: "abencall_dialog_abexa.htm"
+keywords: ["select", "do", "try", "data", "abencall", "dialog", "abexa"]
+---
 
 * * *
 

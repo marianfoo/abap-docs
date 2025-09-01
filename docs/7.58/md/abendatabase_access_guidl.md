@@ -1,4 +1,14 @@
-  
+---
+title: "Database Accesses"
+description: |
+  Background In ABAP, data in database tables can be accessed in the following ways: -   ABAP SQL Implemented by ABAP statements, ABAP SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql.htm) is a subset of the Structured Query Language (SQL) comprising the DML (Data Manipula
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_guidl.htm"
+abapFile: "abendatabase_access_guidl.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abendatabase", "access", "guidl"]
+---
 
 * * *
 

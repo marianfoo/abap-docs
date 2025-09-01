@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Working with Hierarchies"
+description: |
+  This example is the basis for the code snippets shown under Working with Hierarchies(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm). Source Code REPORT demo_sql_hierachies. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, m
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_abap_sql_hiera_abexa.htm"
+abapFile: "abensheet_abap_sql_hiera_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "method", "class", "data", "types", "abensheet", "abap", "sql", "hiera", "abexa"]
+---
 
 * * *
 

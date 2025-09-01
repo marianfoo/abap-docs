@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  rel_exp - Comparison Operators for All Data Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_compare_all.htm) rel_exp - Comparison Operators for Character-Like Data Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_strings.htm) re
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_op.htm"
+abapFile: "abenlogexp_op.htm"
+keywords: ["select", "do", "if", "data", "types", "abenlogexp"]
+---
 
 * * *
 

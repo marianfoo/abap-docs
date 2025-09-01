@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Texts"
+description: |
+  Background Each global exception class has a predefined exception text(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_texts.htm) that has the same name as the exception class. This text can be edited and further exception texts can be defined. The exception texts of an ex
+version: "7.55"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_texts_guidl.htm"
+abapFile: "abenexception_texts_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenexception", "texts", "guidl"]
+---
 
 * * *
 

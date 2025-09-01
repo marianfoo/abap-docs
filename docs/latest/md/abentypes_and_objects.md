@@ -1,4 +1,14 @@
-  
+---
+title: "Data Types and Data Objects"
+description: |
+  ABAP distinguishes between types and objects. Types are purely descriptions, to which no data memory is attached apart from administrative information. Objects are instances of types and occupy memory space. A type characterizes the technical properties of all objects of the relevant type. The follo
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentypes_and_objects.htm"
+abapFile: "abentypes_and_objects.htm"
+keywords: ["do", "if", "try", "data", "types", "abentypes", "and", "objects"]
+---
 
 * * *
 

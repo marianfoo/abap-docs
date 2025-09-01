@@ -1,4 +1,14 @@
-  
+---
+title: "RAP total ETag"
+description: |
+  A field of a draft-enabled RAP BO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendraft_rap_bo_glosry.htm 'Glossary Entry') that enables optimistic concurrency checks(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoptimistic_conc_control_glosry.htm 'Glossary Entry'
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_total_etag_glosry.htm"
+abapFile: "abenrap_total_etag_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "total", "etag", "glosry"]
+---
 
 * * *
 

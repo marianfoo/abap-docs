@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...    ACCEPTING PADDING ACCEPTING TRUNCATION  IGNORING STRUCTURE BOUNDARIES  IGNORING CONVERSION ERRORS REPLACEMENT CHARACTER rc   IN CHAR-TO-HEX MODE  CODE PAGE INTO cp ENDIAN INTO endian. Extras: 1. ..
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_conversion.htm"
+abapFile: "abapimport_conversion.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abapimport", "conversion"]
+---
 
 * * *
 

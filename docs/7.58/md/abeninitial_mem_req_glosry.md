@@ -1,4 +1,14 @@
-  
+---
+title: "initial_mem_req_glosry"
+description: |
+  initial_mem_req_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_mem_req_glosry.htm"
+abapFile: "abeninitial_mem_req_glosry.htm"
+keywords: ["do", "if", "try", "internal-table", "abeninitial", "mem", "req", "glosry"]
+---
 
 * * *
 

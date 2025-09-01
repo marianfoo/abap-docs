@@ -1,4 +1,14 @@
-  
+---
+title: "Locator, Access to Column Content"
+description: |
+  The example demonstrates how to access texts in the database by using locators(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocator_glosry.htm 'Glossary Entry'). Source Code REPORT demo_db_locator. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_locator_abexa.htm"
+abapFile: "abendb_locator_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "abendb", "locator", "abexa"]
+---
 
 * * *
 

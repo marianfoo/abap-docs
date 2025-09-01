@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - using interface, Extension"
+description: |
+  Syntax Forms General Specification on Header Level ... using interface InterfaceBdef; Specification for Extension Nodes on Entity Level ... using CDSInterface; Variants: 1. ... using interface InterfaceBdef;(#!ABAP_VARIANT_1@1@) 2. ... using CDSInterface;(#!ABAP_VARIANT_2@2@) Effect RAP busin
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_using_interface.htm"
+abapFile: "abenbdl_using_interface.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "class", "data", "types", "abenbdl", "using", "interface"]
+---
 
 * * *
 

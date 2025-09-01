@@ -1,4 +1,14 @@
-  
+---
+title: "RAP read operation"
+description: |
+  RAP BO operation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') that retrieves data of a RAP BO entity instance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry') from the R
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_read_operation_glosry.htm"
+abapFile: "abenrap_read_operation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "read", "operation", "glosry"]
+---
 
 * * *
 

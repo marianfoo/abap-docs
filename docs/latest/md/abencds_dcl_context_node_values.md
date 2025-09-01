@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  CDS DCL - CONTEXT_NODE_VALUES, Use(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_cnv_variants.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_context_node_values.htm"
+abapFile: "abencds_dcl_context_node_values.htm"
+keywords: ["do", "if", "data", "abencds", "dcl", "context", "node", "values"]
+---
 
 * * *
 

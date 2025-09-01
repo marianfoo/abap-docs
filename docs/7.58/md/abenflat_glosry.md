@@ -1,4 +1,14 @@
-  
+---
+title: "flat_glosry"
+description: |
+  flat_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenflat_glosry.htm"
+abapFile: "abenflat_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenflat", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_read_table_result DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_read_table_result IMPLEMENTATION. METHOD main. DATA: BEGIN OF line,
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenread_table_abexa.htm"
+abapFile: "abenread_table_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "internal-table", "field-symbol", "abenread", "table", "abexa"]
+---
 
 * * *
 

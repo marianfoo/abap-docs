@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN INCLUDE PARAMETERS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_incl_shortref.htm) Syntax SELECTION-SCREEN INCLUDE PARAMETERS para OBLIGATORY OFF MODIF ID modid ID id. Effect The addition PARAMETERS creates the screen elements for the
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_include_param.htm"
+abapFile: "abapselection-screen_include_param.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "include", "param"]
+---
 
 * * *
 

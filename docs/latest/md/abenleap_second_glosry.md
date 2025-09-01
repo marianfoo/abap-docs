@@ -1,4 +1,14 @@
-  
+---
+title: "leap_second_glosry"
+description: |
+  leap_second_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenleap_second_glosry.htm"
+abapFile: "abenleap_second_glosry.htm"
+keywords: ["do", "if", "try", "abenleap", "second", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABP - Saver Class"
+description: |
+  Work in progress  Syntax CLASS lcl_saver_name DEFINITION INHERITING FROM cl_abap_behavior_saver ABSTRACT FINAL. PROTECTED SECTION. METHODS finalize          REDEFINITION. METHODS check_before_save REDEFINITION. METHODS adjust_numbers    REDEFINITION. METHODS save
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_saver_class.htm"
+abapFile: "abenabp_saver_class.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenabp", "saver"]
+---
 
 * * *
 

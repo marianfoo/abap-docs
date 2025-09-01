@@ -1,4 +1,14 @@
-  
+---
+title: "ENDWHILE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhile_shortref.htm) Syntax ENDWHILE. Effect The statement ENDWHILE closes a loop introduced using WHILE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhile.htm).
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendwhile.htm"
+abapFile: "abapendwhile.htm"
+keywords: ["loop", "do", "while", "abapendwhile"]
+---
 
 * * *
 

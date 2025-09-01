@@ -1,4 +1,14 @@
-  
+---
+title: "General Rules for Elementary Data Types"
+description: |
+  Elementary data types can be released as follows: -   In ABAP Dictionary and ABAP CDS based on DDIC built-in data types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) -   Standalone as DDIC domains or data elements -   Component types of DDIC structures or d
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm"
+abapFile: "abenc1_provider_rules.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenc1", "provider", "rules"]
+---
 
 * * *
 
@@ -12,10 +22,8 @@ Generally, a repository object that is classified with the C1 contract must not 
 
 The following sections show the most important rules that a C1 contract imposes on different kinds of repository objects.
 
--   [General Rules for Elementary Data Types](#@@ITOC@@ABENC1_PROVIDER_RULES_1)
--   [Dictionary Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_2)
--   [ABAP CDS Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_3)
--   [Objects implemented in ABAP](#@@ITOC@@ABENC1_PROVIDER_RULES_4)
+-   [General Rules for Elementary Data Types](#abenc1-provider-rules-1-------dictionary-objects---@ITOC@@ABENC1_PROVIDER_RULES_2)
+-   [ABAP CDS Objects](#abenc1-provider-rules-3-------objects-implemented-in-abap---@ITOC@@ABENC1_PROVIDER_RULES_4)
 
 General Rules for Elementary Data Types
 

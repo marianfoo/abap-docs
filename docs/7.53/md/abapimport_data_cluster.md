@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_shortref.htm) Syntax IMPORT parameter_list(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_parameterlist.htm) FROM medium(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abap
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_data_cluster.htm"
+abapFile: "abapimport_data_cluster.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abapimport", "cluster"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_hierarchy_ancestors_agg. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS fill_table. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(start_id) = 'A '. DATA(end_id1)  = 'F1'. DATA(end_id2)  = 'D2'. cl_demo_input=>new( )->add_field
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhier_ancs_agg_abexa.htm"
+abapFile: "abenhier_ancs_agg_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenhier", "ancs", "agg", "abexa"]
+---
 
 * * *
 

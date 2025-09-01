@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols"
+description: |
+  Field symbols are declared using the statement FIELD-SYMBOLS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols.htm) or the declaration operator FIELD-SYMBOL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield-symbol_inline.htm) and are either
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_field_symbols.htm"
+abapFile: "abenabap_field_symbols.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "field-symbol", "abenabap", "field", "symbols"]
+---
 
 * * *
 

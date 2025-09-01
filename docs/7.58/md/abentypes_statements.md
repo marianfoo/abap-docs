@@ -1,4 +1,14 @@
-  
+---
+title: "Data Types"
+description: |
+  Data types are templates for creating data objects. Data types can be defined independently in an ABAP program or in the ABAP Dictionary. Data types can also be non-independent as properties of data objects. Data types do not use any memory space for work data but may require memory for administrati
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_statements.htm"
+abapFile: "abentypes_statements.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abentypes", "statements"]
+---
 
 * * *
 

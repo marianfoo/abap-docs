@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Functions, Overview"
+description: |
+  The following tables summarize the built-in functions by purpose. Built-in functions are generally processing functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocess_function_glosry.htm 'Glossary Entry') or description functions(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm"
+abapFile: "abenbuilt_in_functions_overview.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "abenbuilt", "functions", "overview"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Multiple selection"
+description: |
+  Selection criterion(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_criterion_glosry.htm 'Glossary Entry') used to fill the selection table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_table_glosry.htm 'Glossary Entry') with more than one row.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmultiple_selection_glosry.htm"
+abapFile: "abenmultiple_selection_glosry.htm"
+keywords: ["select", "do", "try", "abenmultiple", "selection", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "parameter_cat_glosry"
+description: |
+  parameter_cat_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparameter_cat_glosry.htm"
+abapFile: "abenparameter_cat_glosry.htm"
+keywords: ["do", "if", "try", "abenparameter", "cat", "glosry"]
+---
 
 * * *
 

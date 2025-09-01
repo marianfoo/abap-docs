@@ -1,4 +1,14 @@
-  
+---
+title: "COLLECT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcollect_shortref.htm) Syntax COLLECT wa INTO itab result(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcollect_itab_result.htm). Effect This statement inserts the content of a work a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcollect.htm"
+abapFile: "abapcollect.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abapcollect"]
+---
 
 * * *
 

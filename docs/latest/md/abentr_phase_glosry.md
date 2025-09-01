@@ -1,4 +1,14 @@
-  
+---
+title: "tr_phase_glosry"
+description: |
+  tr_phase_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentr_phase_glosry.htm"
+abapFile: "abentr_phase_glosry.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abentr", "phase", "glosry"]
+---
 
 * * *
 

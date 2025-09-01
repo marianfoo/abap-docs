@@ -1,4 +1,14 @@
-  
+---
+title: "RAP authorization master entity"
+description: |
+  RAP BO entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') that has its own authorization implementation. The implementation is used when requesting access to the authorization master entity or to any of its authorization dependent enti
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_auth_ma_ent_glosry.htm"
+abapFile: "abenrap_auth_ma_ent_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "auth", "ent", "glosry"]
+---
 
 * * *
 

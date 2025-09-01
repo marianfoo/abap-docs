@@ -1,4 +1,14 @@
-  
+---
+title: "String Functions, distance"
+description: |
+  The example demonstrates the string function distance(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendistance_functions.htm). Source Code REPORT demo_string_distance. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_function_distance_abexa.htm"
+abapFile: "abenstring_function_distance_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "abenstring", "function", "distance", "abexa"]
+---
 
 * * *
 

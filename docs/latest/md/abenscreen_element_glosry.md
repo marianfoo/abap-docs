@@ -1,4 +1,14 @@
-  
+---
+title: "screen_element_glosry"
+description: |
+  screen_element_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_element_glosry.htm"
+abapFile: "abenscreen_element_glosry.htm"
+keywords: ["do", "if", "try", "abenscreen", "element", "glosry"]
+---
 
 * * *
 

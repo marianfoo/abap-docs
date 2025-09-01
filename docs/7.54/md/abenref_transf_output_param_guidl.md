@@ -1,4 +1,14 @@
-  
+---
+title: "Pass By Reference for Output Parameters"
+description: |
+  Background When parameters are passed to a procedure by reference, this procedure directly uses the data object that has been passed as a parameter. Its value is consequently determined by the calling program of the procedure. Particular notice must be made of this behavior for EXPORTING parameters,
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenref_transf_output_param_guidl.htm"
+abapFile: "abenref_transf_output_param_guidl.htm"
+keywords: ["insert", "delete", "do", "if", "method", "class", "data", "internal-table", "abenref", "transf", "output", "param", "guidl"]
+---
 
 * * *
 

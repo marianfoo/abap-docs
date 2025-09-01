@@ -1,4 +1,14 @@
-  
+---
+title: "static_box_glosry"
+description: |
+  static_box_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_box_glosry.htm"
+abapFile: "abenstatic_box_glosry.htm"
+keywords: ["do", "try", "class", "data", "types", "abenstatic", "box", "glosry"]
+---
 
 * * *
 

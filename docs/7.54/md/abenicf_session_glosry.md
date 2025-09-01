@@ -1,4 +1,14 @@
-  
+---
+title: "ICF session"
+description: |
+  User session(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_session_glosry.htm 'Glossary Entry') for ICF processing(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_processing_glosry.htm 'Glossary Entry'). An ICF session is opened by ICF(https://help.sap.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_session_glosry.htm"
+abapFile: "abenicf_session_glosry.htm"
+keywords: ["do", "try", "abenicf", "session", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_width. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES result TYPE STANDARD TABLE OF string WITH EMPTY KEY. cl_demo_output=>write( VALUE result( FOR j = 1 UNTIL j > strlen( sy-abcde ) (  substring(
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_template_width_abexa.htm"
+abapFile: "abenstring_template_width_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenstring", "template", "width", "abexa"]
+---
 
 * * *
 

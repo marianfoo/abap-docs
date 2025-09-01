@@ -1,4 +1,14 @@
-  
+---
+title: "Behavior Definitions"
+description: |
+  A business object behavior definition (behavior definition for short) is an ABAP repository object (a source text artifact) that represents the behavior of the business object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') in the context
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_definitions.htm"
+abapFile: "abenabap_behavior_definitions.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "behavior", "definitions"]
+---
 
 * * *
 

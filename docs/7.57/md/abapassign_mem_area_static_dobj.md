@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... dobj+off(len)  ... Effect Static variant for specifying the memory area mem_area(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area.htm) of the statement ASSIGN(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm). In the sta
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_static_dobj.htm"
+abapFile: "abapassign_mem_area_static_dobj.htm"
+keywords: ["do", "if", "case", "try", "data", "field-symbol", "abapassign", "mem", "area", "static", "dobj"]
+---
 
 * * *
 

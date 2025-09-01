@@ -1,4 +1,14 @@
-  
+---
+title: "Other RAP-Supporting ABAP Language Elements"
+description: |
+  -   BDEF Derived Types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm) -   Type Mapping for ABAP EML(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_type_mapping.htm) ABAP for RAP, BDEF Derived Types(https://help.sap.com/doc/abapdocu_756
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm"
+abapFile: "abenabap_rap_other.htm"
+keywords: ["do", "types", "abenabap", "rap", "other"]
+---
 
 * * *
 

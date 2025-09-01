@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-DATA"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass-data_shortref.htm) Syntax CLASS-DATA attr options(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata.htm). Effect The statement CLASS-DATA can only be used in the declaration part of a c
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass-data.htm"
+abapFile: "abapclass-data.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abapclass"]
+---
 
 * * *
 

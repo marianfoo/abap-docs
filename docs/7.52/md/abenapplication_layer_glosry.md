@@ -1,4 +1,14 @@
-  
+---
+title: "Application layer"
+description: |
+  Software layer of an AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') in which application programs are executed. The application layer is realized from exactly one message server(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_layer_glosry.htm"
+abapFile: "abenapplication_layer_glosry.htm"
+keywords: ["do", "try", "abenapplication", "layer", "glosry"]
+---
 
 * * *
 

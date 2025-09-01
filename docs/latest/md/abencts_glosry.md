@@ -1,4 +1,14 @@
-  
+---
+title: "Change and Transport System"
+description: |
+  Abbreviated to CTS. The Change and Transport System includes all AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry') tools used to manage and transport repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencts_glosry.htm"
+abapFile: "abencts_glosry.htm"
+keywords: ["do", "if", "try", "abencts", "glosry"]
+---
 
 * * *
 

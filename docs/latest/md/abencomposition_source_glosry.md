@@ -1,4 +1,14 @@
-  
+---
+title: "composition_source_glosry"
+description: |
+  composition_source_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomposition_source_glosry.htm"
+abapFile: "abencomposition_source_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencomposition", "source", "glosry"]
+---
 
 * * *
 

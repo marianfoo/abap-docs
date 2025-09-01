@@ -1,4 +1,14 @@
-  
+---
+title: "Rabax"
+description: |
+  Short for Runtime exit. Rabax is an internal SAP term describing a program crash after a runtime error(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenruntime_error_glosry.htm 'Glossary Entry'). The corresponding ABAP kernel(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrabax_glosry.htm"
+abapFile: "abenrabax_glosry.htm"
+keywords: ["do", "if", "try", "abenrabax", "glosry"]
+---
 
 * * *
 

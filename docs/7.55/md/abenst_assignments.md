@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Value Assignments"
+description: |
+  -   tt:assign, Value Assignment(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_assign.htm) -   tt:cast, Down Cast(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_cast.htm) -   tt:clear, Initialization(https://help.sap.com/doc/abapdocu_755_index_htm/7.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_assignments.htm"
+abapFile: "abenst_assignments.htm"
+keywords: ["do", "if", "data", "abenst", "assignments"]
+---
 
 * * *
 

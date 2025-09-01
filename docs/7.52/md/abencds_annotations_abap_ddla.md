@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - ABAP Annotation Definitions"
+description: |
+  The following DDLA source code(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddla_source_code_glosry.htm 'Glossary Entry') shows the CDS annotation definitions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in all
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_abap_ddla.htm"
+abapFile: "abencds_annotations_abap_ddla.htm"
+keywords: ["do", "try", "data", "abencds", "annotations", "abap", "ddla"]
+---
 
 * * *
 
@@ -16,33 +26,19 @@ The following [DDLA source code](https://help.sap.com/doc/abapdocu_752_index_htm
 
 The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
 
--   [AbapAnnotation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_1)
+-   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
 
--   [AbapCatalog-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
+-   [AccessControl-Annotations](#abencds-annotations-abap-ddla-3--------clientdependent-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_4)
 
--   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_3)
+-   [ClientHandling-Annotations](#abencds-annotations-abap-ddla-5--------dataaging-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_6)
 
--   [ClientDependent-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_4)
+-   [EndUserText-Annotations](#abencds-annotations-abap-ddla-7--------environment-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_8)
 
--   [ClientHandling-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_5)
+-   [LanguageDependency-Annotations](#abencds-annotations-abap-ddla-9--------mappingrole-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_10)
 
--   [DataAging-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_6)
+-   [Metadata-Annotations](#abencds-annotations-abap-ddla-11--------metadataextension-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_12)
 
--   [EndUserText-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_7)
-
--   [Environment-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_8)
-
--   [LanguageDependency-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_9)
-
--   [MappingRole-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_10)
-
--   [Metadata-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_11)
-
--   [MetadataExtension-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_12)
-
--   [Scope\[ \]-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_13)
-
--   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_14)
+-   [Scope\[ \]-Annotations](#abencds-annotations-abap-ddla-13--------semantics-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_14)
 
 Note
 

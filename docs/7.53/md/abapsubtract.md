@@ -1,4 +1,14 @@
-  
+---
+title: "SUBTRACT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract_shortref.htm) Syntax SUBTRACT dobj1 FROM dobj2. Effect This statement has the same effect as the statement dobj2 = dobj2 - dobj1.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_ex
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract.htm"
+abapFile: "abapsubtract.htm"
+keywords: ["do", "if", "try", "data", "abapsubtract"]
+---
 
 * * *
 

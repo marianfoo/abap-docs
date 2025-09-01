@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration of Data Types and Constants"
+description: |
+  Background Data types and constants can be declared in the following contexts: -   Cross-program -   in the ABAP Dictionary -   in global classes and interfaces -   in type pools -   Local program -   in the global declaration part of a program -   in global classes and interfaces -   in procedures
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_dtypes_const_guidl.htm"
+abapFile: "abendeclaration_dtypes_const_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "abendeclaration", "dtypes", "const", "guidl"]
+---
 
 * * *
 

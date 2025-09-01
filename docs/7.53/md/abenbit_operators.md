@@ -1,4 +1,14 @@
-  
+---
+title: "BIT-NOT x"
+description: |
+  x BIT-AND y x BIT-XOR y x BIT-OR y 0 0 1 0 0 0 0 1 1 0 1 1 1 0 0 0 1 1 1 1 0 1 0 1 The order of the columns in the table reflects the priority of the bit operators. The operator BIT-NOT has the highest, and BIT-OR the lowest priority. Within one level of parentheses(https://help.sap.com/doc/abapdo
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbit_operators.htm"
+abapFile: "abenbit_operators.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbit", "operators"]
+---
 
 * * *
 

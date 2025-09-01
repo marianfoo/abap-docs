@@ -1,4 +1,14 @@
-  
+---
+title: "Business Add-In"
+description: |
+  → BAdI(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbadi_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_add-in_glosry.htm"
+abapFile: "abenbusiness_add-in_glosry.htm"
+keywords: ["do", "if", "try", "abenbusiness", "add", "glosry"]
+---
 
 * * *
 

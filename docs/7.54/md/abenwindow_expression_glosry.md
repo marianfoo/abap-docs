@@ -1,4 +1,14 @@
-  
+---
+title: "window_expression_glosry"
+description: |
+  window_expression_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwindow_expression_glosry.htm"
+abapFile: "abenwindow_expression_glosry.htm"
+keywords: ["select", "do", "try", "abenwindow", "expression", "glosry"]
+---
 
 * * *
 

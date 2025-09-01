@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Abstract Behavior Definitions"
+description: |
+  RAP abstract behavior definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_bdef_glosry.htm 'Glossary Entry') are created using the behavior definition language RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddl_glosry.htm '
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_abstract.htm"
+abapFile: "abenbdl_abstract.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "class", "abenbdl", "abstract"]
+---
 
 * * *
 

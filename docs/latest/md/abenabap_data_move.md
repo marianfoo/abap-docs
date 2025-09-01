@@ -1,4 +1,14 @@
-  
+---
+title: "Special Assignments"
+description: |
+  This section handles statements for special assignments: -   The assignment operator =(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove_multiples.htm) for multiple assignments -   UNPACK(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunpack.htm) for
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_move.htm"
+abapFile: "abenabap_data_move.htm"
+keywords: ["do", "if", "data", "abenabap", "move"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT-OPTIONS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name) OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid DEFAULT val1 TO va
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm"
+abapFile: "abapselect-options_shortref.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abapselect", "options", "shortref"]
+---
 
 * * *
 

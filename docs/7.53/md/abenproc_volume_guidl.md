@@ -1,4 +1,14 @@
-  
+---
+title: "Procedure Volume"
+description: |
+  Background The procedure volume is the number of executable ABAP statements in a procedure (method(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm 'Guideline')). In theory, this number has no upper limit and is only limited by the maximum program si
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenproc_volume_guidl.htm"
+abapFile: "abenproc_volume_guidl.htm"
+keywords: ["do", "if", "case", "method", "data", "abenproc", "volume", "guidl"]
+---
 
 * * *
 

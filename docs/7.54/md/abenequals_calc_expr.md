@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  =, Arithmetic Expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_arith_expr.htm) =, String Expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_string_expr.htm) =, Bit Expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_calc_expr.htm"
+abapFile: "abenequals_calc_expr.htm"
+keywords: ["do", "try", "data", "abenequals", "calc", "expr"]
+---
 
 * * *
 

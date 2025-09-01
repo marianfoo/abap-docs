@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_concatenation DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_str_concatenation IMPLEMENTATION. METHOD main. DATA(n) = 10000. cl_d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_concatenation_abexa.htm"
+abapFile: "abenstring_concatenation_abexa.htm"
+keywords: ["loop", "do", "if", "case", "method", "class", "data", "abenstring", "concatenation", "abexa"]
+---
 
 * * *
 

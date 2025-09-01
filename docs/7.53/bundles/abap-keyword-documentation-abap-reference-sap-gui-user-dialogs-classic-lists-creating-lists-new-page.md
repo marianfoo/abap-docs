@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abapnew-page.htm
 
-  
+---
+title: "NEW-PAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_shortref.htm) Syntax NEW-PAGE page_options(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_options.htm)  spool_options(https://help.sap.com/doc/abapdocu_753_index_htm/7
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page.htm"
+abapFile: "abapnew-page.htm"
+keywords: ["insert", "do", "if", "try", "class", "abapnew", "page"]
+---
 
 * * *
 
@@ -43,7 +53,17 @@ Continue
 
 ### abapnew-page_options.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... WITH-TITLENO-TITLE WITH-HEADINGNO-HEADING LINE-COUNT page_lines LINE-SIZE width NO-TOPOFPAGE ... Extras: 1. ... WITH-TITLENO-TITLE(#!ABAP_ADDITION_1@1@) 2. ... WITH-HEADINGNO-HEADING(#!ABAP_ADDITION_2@2@) 3. ... LINE-COUNT page_lines
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_options.htm"
+abapFile: "abapnew-page_options.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapnew", "page", "options"]
+---
 
 * * *
 
@@ -184,7 +204,17 @@ TOP-OF-PAGE.
 
 ### abapnew-page_print.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  PRINT ON NEW-SECTION PARAMETERS pri_params ARCHIVE PARAMETERS arc_params NO DIALOG    PRINT OFF  ... Extras: 1. ... PRINT ON NEW-SECTION(#!ABAP_ADDITION_1@1@) 2. ... PARAMETERS pri_params(#!ABAP_ADDITION_2@2@) 3. ... ARCHIVE PARAMETERS arc_para
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm"
+abapFile: "abapnew-page_print.htm"
+keywords: ["select", "do", "while", "if", "try", "catch", "class", "data", "types", "abapnew", "page", "print"]
+---
 
 * * *
 

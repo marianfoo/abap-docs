@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO service projection entity"
+description: |
+  A component of a RAP BO service projection. It describes the RAP data model(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_data_model_glosry.htm 'Glossary Entry') that is included in the service projection. The RAP BO service projection entity is represented by a CDS projectio
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_service_entity_glosry.htm"
+abapFile: "abenrap_bo_service_entity_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "service", "entity", "glosry"]
+---
 
 * * *
 

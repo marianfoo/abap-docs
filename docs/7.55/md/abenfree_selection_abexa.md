@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Free Selections"
+description: |
+  This example demonstrates how a free selection is used in a program. Source Code REPORT demo_free_selections. PARAMETERS dbtab TYPE tabname DEFAULT 'SPFLI'. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS check_existence_and_authority RETURNING VALUE(ch
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfree_selection_abexa.htm"
+abapFile: "abenfree_selection_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenfree", "selection", "abexa"]
+---
 
 * * *
 

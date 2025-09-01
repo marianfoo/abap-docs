@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  literal_text(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates_literals.htm) embedded_expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates_expressions.htm) control_characters(https://help.sap.com/doc/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates.htm"
+abapFile: "abenstring_templates.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "abenstring", "templates"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "sorted_key_glosry"
+description: |
+  sorted_key_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensorted_key_glosry.htm"
+abapFile: "abensorted_key_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abensorted", "key", "glosry"]
+---
 
 * * *
 

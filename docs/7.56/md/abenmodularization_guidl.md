@@ -1,4 +1,14 @@
-  
+---
+title: "Modularization"
+description: |
+  Background The main programming model that was propagated before the implementation of ABAP Objects was structured programming: -   In this model, the programs are split into procedures as appropriate. -   Sequences, branches, and loops are the only control structures allowed. The implementation of
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodularization_guidl.htm"
+abapFile: "abenmodularization_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "class", "data", "internal-table", "abenmodularization", "guidl"]
+---
 
 * * *
 

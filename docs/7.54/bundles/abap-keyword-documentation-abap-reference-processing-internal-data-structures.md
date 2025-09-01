@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abendata_objects_structure.htm
 
-  
+---
+title: "Structures"
+description: |
+  Structures are data objects (comprised of components of any data type) that are saved one after the other in the memory. The data type of a structure is a structured(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructured_type_glosry.htm 'Glossary Entry') type or a structure defi
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_structure.htm"
+abapFile: "abendata_objects_structure.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "structure"]
+---
 
 * * *
 
@@ -19,58 +29,11 @@ Structures are data objects (comprised of components of any data type) that are 
 
 In a program, a structured type or structure is created using the additions [BEGIN OF ... END OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_struc.htm) of the statements TYPES, DATA, and so on. Types can be created dynamically using the [RTTC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") methods. In ABAP Dictionary, structures appear as [standalone data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_structures.htm), as types of [database tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm), of [classic views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_views.htm) or of [CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm).
 
--   [Types of Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_1)
+-   [Types of Structures](#abendata-objects-structure-1--------using-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
 
--   [Using Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
+-   [Using Deep Structures](#abendata-objects-structure-3--------using-deep-abap-dictionary-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
 
--   [Using Deep Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_3)
-
--   [Using Deep ABAP Dictionary Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
-
--   [Boxed Components](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_5)
-
-Programming Guidelines
-
--   [Names of Structure Components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstruc_comp_names_guidl.htm "Guideline")
-    
--   [Do not include components from structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenincluding_structures_guidl.htm "Guideline")
-    
-
-Types of Structures
-
-Structures are named as follows (depending on the type of the component):
-
--   Flat structures do not contain any [deep](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeep_glosry.htm "Glossary Entry") components. They only contain components with flat data types, such as elementary types c, n, d, t, decfloat16, decfloat34, f, i, int8, p, x, utclong, plus b, s, or structures with these types.
-
--   Flat character-like structures are flat structures that contain only [character-like](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") components.
-
--   Nested structures contain at least one [substructure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubstructure_glosry.htm "Glossary Entry"). A nested structure is flat or character-like, depending on the attributes of all components.
-
--   Deep structures contain at least one [deep](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeep_glosry.htm "Glossary Entry") component, at any nesting level. Possible deep components include strings, internal tables, boxed components, data or object references.
-
-A structure that contains static or dynamic components is (formally) a [static](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_data_object_glosry.htm "Glossary Entry") or [dynamic data object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"), respectively.
-
-The following figure illustrates a deep structure.
-
-![Figure](abdoc_deep_structure.gif)
-
-Note
-
-The term "nested structure" must not be confused with the term "deep structure". A nested structure is flat if it only contains flat components and subcomponents. A nested structure is deep when it has at least one deep component or subcomponent.
-
-Example
-
-Nested structure. The substructure is created using a reference to the dictionary structure SCARR for the second component. The components are accessed using the structure component selector (\-).
-
-DATA:
-  BEGIN OF struct,
-    name  TYPE c LENGTH 10 VALUE 'SCARR',
-    scarr TYPE scarr,
-  END OF struct.
-SELECT SINGLE \*
-       FROM scarr
-       WHERE carrid = 'LH'
-       INTO CORRESPONDING FIELDS OF @struct-scarr.
+-   [Boxed Components](#abendata-objects-structure-5---programming-guidelines-------names-of-structure-components--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenstruc-comp-names-guidl-htm--guideline-------------do-not-include-components-from-structures--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenincluding-structures-guidl-htm--guideline---------types-of-structures--structures-are-named-as-follows--depending-on-the-type-of-the-component--------flat-structures-do-not-contain-any--deep--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abendeep-glosry-htm--glossary-entry---components--they-only-contain-components-with-flat-data-types--such-as-elementary-types-c--n--d--t--decfloat16--decfloat34--f--i--int8--p--x--utclong--plus-b--s--or-structures-with-these-types-------flat-character-like-structures-are-flat-structures-that-contain-only--character-like--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencharlike-data-object-glosry-htm--glossary-entry---components-------nested-structures-contain-at-least-one--substructure--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensubstructure-glosry-htm--glossary-entry----a-nested-structure-is-flat-or-character-like--depending-on-the-attributes-of-all-components-------deep-structures-contain-at-least-one--deep--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abendeep-glosry-htm--glossary-entry---component--at-any-nesting-level--possible-deep-components-include-strings--internal-tables--boxed-components--data-or-object-references---a-structure-that-contains-static-or-dynamic-components-is--formally--a--static--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenstatic-data-object-glosry-htm--glossary-entry---or--dynamic-data-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abendynamic-data-object-glosry-htm--glossary-entry----respectively---the-following-figure-illustrates-a-deep-structure-----figure--abdoc-deep-structure-gif---note--the-term--nested-structure--must-not-be-confused-with-the-term--deep-structure---a-nested-structure-is-flat-if-it-only-contains-flat-components-and-subcomponents--a-nested-structure-is-deep-when-it-has-at-least-one-deep-component-or-subcomponent---example--nested-structure--the-substructure-is-created-using-a-reference-to-the-dictionary-structure-scarr-for-the-second-component--the-components-are-accessed-using-the-structure-component-selector--------data----begin-of-struct------name--type-c-length-10-value--scarr-------scarr-type-scarr----end-of-struct--select-single-----------from-scarr--------where-carrid----lh---------into-corresponding-fields-of-struct-scarr.
 cl\_demo\_output=>new(
 )->write\_data( struct-name
 )->write\_data( struct-scarr-carrid
@@ -200,7 +163,17 @@ Continue
 
 ### abenboxed_components.htm
 
-  
+---
+title: "Boxed Components"
+description: |
+  Boxed components are structures that are not saved in the higher-level context itself. Instead, an internal reference that points to the actual structure is stored in place of the structure. A boxed component is always a deep(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeep_glos
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboxed_components.htm"
+abapFile: "abenboxed_components.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenboxed", "components"]
+---
 
 * * *
 
@@ -238,7 +211,17 @@ Continue
 
 ### abenstatic_boxes.htm
 
-  
+---
+title: "Static Boxes"
+description: |
+  Static boxes are boxed component(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboxed_components.htm)s whose components are known statically and which are subject to initial value sharing(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_value_sharing_glosry.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_boxes.htm"
+abapFile: "abenstatic_boxes.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abenstatic", "boxes"]
+---
 
 * * *
 
@@ -297,7 +280,17 @@ TYPES:
 
 ### abenboxed_components.htm
 
-  
+---
+title: "Boxed Components"
+description: |
+  Boxed components are structures that are not saved in the higher-level context itself. Instead, an internal reference that points to the actual structure is stored in place of the structure. A boxed component is always a deep(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeep_glos
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboxed_components.htm"
+abapFile: "abenboxed_components.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenboxed", "components"]
+---
 
 * * *
 
@@ -335,7 +328,17 @@ Continue
 
 ### abenstructure_abexas.htm
 
-  
+---
+title: "Examples of structures"
+description: |
+  !Example(exa.gif 'Example') Filling a Structure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_filling_abexa.htm) !Example(exa.gif 'Example') Structure from ABAP Dictionary(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendictionary_structure_abexa.htm
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_abexas.htm"
+abapFile: "abenstructure_abexas.htm"
+keywords: ["do", "if", "data", "abenstructure", "abexas"]
+---
 
 * * *
 
@@ -352,7 +355,17 @@ Continue
 
 ### abenstructure_filling_abexa.htm
 
-  
+---
+title: "Filling a Structure"
+description: |
+  The example demonstrates the filling of a nested structure. Source Code REPORT demo_structure_filling. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF name_type, title   TYPE string, prename TYPE string, surname TYPE string, END OF name_type, BEGIN OF street_type, name   TYPE string, num
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_filling_abexa.htm"
+abapFile: "abenstructure_filling_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenstructure", "filling", "abexa"]
+---
 
 * * *
 
@@ -436,7 +449,17 @@ The content of the two structures is the same. The value operator VALUE can be u
 
 ### abendictionary_structure_abexa.htm
 
-  
+---
+title: "Structure from ABAP Dictionary"
+description: |
+  This example demonstrates a structure from the ABAP Dictionary and its use. Source Code REPORT demo_dictionary_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrier TYPE scarr. carrier-carrid = 'UA'. cl_demo_input=>re
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendictionary_structure_abexa.htm"
+abapFile: "abendictionary_structure_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abendictionary", "structure", "abexa"]
+---
 
 * * *
 
@@ -476,7 +499,17 @@ Structure types of the ABAP Dictionary are typically used in ABAP programs to de
 
 ### abenstructure_abexas.htm
 
-  
+---
+title: "Examples of structures"
+description: |
+  !Example(exa.gif 'Example') Filling a Structure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_filling_abexa.htm) !Example(exa.gif 'Example') Structure from ABAP Dictionary(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendictionary_structure_abexa.htm
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_abexas.htm"
+abapFile: "abenstructure_abexas.htm"
+keywords: ["do", "if", "data", "abenstructure", "abexas"]
+---
 
 * * *
 

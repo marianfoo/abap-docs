@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion of Integer Numbers to Bytes"
+description: |
+  This example demonstrates the conversion of integers into byte fields and byte strings. Source Code  Public class definition CLASS cl_demo_int_to_hex DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. TYPES: BEGIN OF
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_int_to_hex_abexa.htm"
+abapFile: "abenconversion_int_to_hex_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "abenconversion", "int", "hex", "abexa"]
+---
 
 * * *
 

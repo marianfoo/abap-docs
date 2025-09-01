@@ -1,4 +1,14 @@
-  
+---
+title: "Trailing Blanks in Character String Processing"
+description: |
+  Statements for character string processing generally preserve leading blanks for operands of data types with fixed lengths (c, n, d, and t or character-like structures) and cut off trailing blanks. Exceptions to this rule are explained in the affected statements. All blanks are generally preserved f
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_trail_blanks.htm"
+abapFile: "abenstring_processing_trail_blanks.htm"
+keywords: ["do", "if", "try", "data", "types", "abenstring", "processing", "trail", "blanks"]
+---
 
 * * *
 

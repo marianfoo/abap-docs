@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:assign to-ref='node'to-var='variable' ref='node'val='value'var='variable' /> Effect The statement tt:assign is used to assign a value to a data root(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_root.htm), a variable(https://help.sap.com/doc/ab
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_assign.htm"
+abapFile: "abenst_tt_assign.htm"
+keywords: ["insert", "do", "if", "case", "data", "internal-table", "abenst", "assign"]
+---
 
 * * *
 

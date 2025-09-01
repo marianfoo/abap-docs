@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Procedures and Functions in a Nutshell"
+description: |
+  This example demonstrates AMDP procedures and functions. Source Code  Public class definition CLASS cl_demo_cs_amdp DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. INTERFACES if_amdp_marker_hdb. METHODS main REDEFINITION. 'Various internal table type speci
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensheet_amdp_abexa.htm"
+abapFile: "abensheet_amdp_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abensheet", "amdp", "abexa"]
+---
 
 * * *
 

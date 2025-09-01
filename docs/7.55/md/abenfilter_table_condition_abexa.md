@@ -1,4 +1,14 @@
-  
+---
+title: "FILTER, Filterings with Table Filter"
+description: |
+  This example demonstrates various types of table filtering(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 

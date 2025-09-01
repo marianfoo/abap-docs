@@ -1,4 +1,14 @@
-  
+---
+title: "Alternative Spellings"
+description: |
+  Some ABAP statements can be written with different spellings, but interpreted by the compiler in the same way. To make programming easier to understand, however, spellings should be kept the same, with alternative spelling used only in special situations. -   Alternative Language Constructs(https:
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalternative_spelling_guidl.htm"
+abapFile: "abenalternative_spelling_guidl.htm"
+keywords: ["do", "if", "method", "abenalternative", "spelling", "guidl"]
+---
 
 * * *
 

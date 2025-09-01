@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abapget_cursor_dynpro.htm
 
-  
+---
+title: "GET CURSOR - Dynpro"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_shortref.htm) Syntax GET CURSOR  FIELD field  field_properties(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_field.htm)   LINE line  . Effect If thi
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_dynpro.htm"
+abapFile: "abapget_cursor_dynpro.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapget", "cursor", "dynpro"]
+---
 
 * * *
 
@@ -53,7 +63,17 @@ Continue
 
 ### abapget_cursor_field.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... VALUE val LENGTH len OFFSET off LINE lin AREA area. Extras: 1. ... VALUE val(#!ABAP_ADDITION_1@1@) 2. ... LENGTH len(#!ABAP_ADDITION_2@2@) 3. ... OFFSET off(#!ABAP_ADDITION_3@3@) 4. ... LINE lin(#!ABAP_ADDITION_4@4@) 5. ... AREA area(#!ABAP_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_field.htm"
+abapFile: "abapget_cursor_field.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapget", "cursor", "field"]
+---
 
 * * *
 
@@ -124,7 +144,17 @@ If the screen element on which the cursor is positioned is within a [table contr
 
 ### abendynpro_get_cursor_abexa.htm
 
-  
+---
+title: "Screens, Determining the Cursor Position"
+description: |
+  The example shows how to determine the cursor position on screens. Source Code PROGRAM demo_dynpro_get_cursor . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code. DATA: input_output(20) TYPE c, fld(20) TYPE c, off     TYPE i, val(20) TYPE c, len     TYPE i. CALL SCREEN 100. MODULE init_scree
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_get_cursor_abexa.htm"
+abapFile: "abendynpro_get_cursor_abexa.htm"
+keywords: ["select", "do", "case", "data", "abendynpro", "get", "cursor", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Additional Program Group"
+description: |
+  Program group(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_group_glosry.htm 'Glossary Entry') in an internal session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm 'Glossary Entry'). Created when a function group(https://hel
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadditional_prog_group_glosry.htm"
+abapFile: "abenadditional_prog_group_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenadditional", "prog", "group", "glosry"]
+---
 
 * * *
 

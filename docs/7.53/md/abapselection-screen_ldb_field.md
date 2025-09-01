@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN FIELD SELECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_fiel_shortref.htm) Obsolete Syntax SELECTION-SCREEN FIELD SELECTION FOR NODETABLE node ID id. Effect This variant of statement SELECTION-SCREEN(https://help.sap.com/doc/abapdocu_753_i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_ldb_field.htm"
+abapFile: "abapselection-screen_ldb_field.htm"
+keywords: ["select", "do", "while", "if", "try", "data", "types", "internal-table", "abapselection", "screen", "ldb", "field"]
+---
 
 * * *
 

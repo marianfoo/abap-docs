@@ -1,4 +1,14 @@
-  
+---
+title: "Endian"
+description: |
+  → Byte order(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_order_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenendian_glosry.htm"
+abapFile: "abenendian_glosry.htm"
+keywords: ["do", "try", "abenendian", "glosry"]
+---
 
 * * *
 

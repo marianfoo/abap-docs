@@ -1,4 +1,14 @@
-  
+---
+title: "Semantic Attributes of Data Elements"
+description: |
+  The semantic attributes of data elements are mainly significant when they are used as types of fields on user interfaces such as dynpro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') (or Web Dynpro(https://help.sap.com/doc/abapdocu_753_index_ht
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_elements_sema.htm"
+abapFile: "abenddic_data_elements_sema.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "elements", "sema"]
+---
 
 * * *
 

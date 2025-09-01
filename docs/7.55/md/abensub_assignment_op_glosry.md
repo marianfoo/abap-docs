@@ -1,4 +1,14 @@
-  
+---
+title: "sub_assignment_op_glosry"
+description: |
+  sub_assignment_op_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_assignment_op_glosry.htm"
+abapFile: "abensub_assignment_op_glosry.htm"
+keywords: ["do", "try", "abensub", "assignment", "glosry"]
+---
 
 * * *
 

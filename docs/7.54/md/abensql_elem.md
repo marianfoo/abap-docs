@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... col(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm)  literal(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql_host_literals.htm)  @dobj(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_variables.h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_elem.htm"
+abapFile: "abensql_elem.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "types", "field-symbol", "abensql", "elem"]
+---
 
 * * *
 

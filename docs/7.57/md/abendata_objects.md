@@ -1,4 +1,14 @@
-  
+---
+title: "Data Objects"
+description: |
+  Data objects are instances of data types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_types.htm) and contain the concrete data that a program uses at runtime. This is done by specifying data objects in operand positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_objects.htm"
+abapFile: "abendata_objects.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abendata", "objects"]
+---
 
 * * *
 
@@ -13,10 +23,8 @@ Data Objects
 
 Data objects are instances of [data types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_types.htm) and contain the concrete data that a program uses at runtime. This is done by specifying [data objects in operand positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_data_objects.htm).
 
--   [Creating and Addressing Data Objects](#@@ITOC@@ABENDATA_OBJECTS_1)
--   [Data Types of Data Objects](#@@ITOC@@ABENDATA_OBJECTS_2)
--   [Variable and Constant Data Objects](#@@ITOC@@ABENDATA_OBJECTS_3)
--   [Static and Dynamic Data Objects](#@@ITOC@@ABENDATA_OBJECTS_4)
+-   [Creating and Addressing Data Objects](#abendata-objects-1-------data-types-of-data-objects---@ITOC@@ABENDATA_OBJECTS_2)
+-   [Variable and Constant Data Objects](#abendata-objects-3-------static-and-dynamic-data-objects---@ITOC@@ABENDATA_OBJECTS_4)
 -   [Flat and Deep Data Objects](#@@ITOC@@ABENDATA_OBJECTS_5)
 
 Creating and Addressing Data Objects   

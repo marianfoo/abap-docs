@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY itab - result"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab_shortref.htm) Syntax ...  ASSIGNING <fs> CASTING    REFERENCE INTO dref . Effect These additions are possible only when modifying single rows(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab_result.htm"
+abapFile: "abapmodify_itab_result.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "internal-table", "field-symbol", "abapmodify", "itab", "result"]
+---
 
 * * *
 

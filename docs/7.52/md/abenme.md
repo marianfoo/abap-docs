@@ -1,4 +1,14 @@
-  
+---
+title: "The Self-Reference me"
+description: |
+  Within the implementation of every instance method, an implicitly created local reference variable called me is available, which points to the instance in which the method is currently being executed. me is handled like a local constant, which means that the value of me cannot be modified in an inst
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenme.htm"
+abapFile: "abenme.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenme"]
+---
 
 * * *
 

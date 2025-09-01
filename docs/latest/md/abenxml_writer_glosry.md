@@ -1,4 +1,14 @@
-  
+---
+title: "XML writer"
+description: |
+  Instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_glosry.htm 'Glossary Entry') of a class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_glosry.htm 'Glossary Entry') of the sXML Library(https://help.sap.com/doc/abapdocu_latest_inde
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxml_writer_glosry.htm"
+abapFile: "abenxml_writer_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenxml", "writer", "glosry"]
+---
 
 * * *
 

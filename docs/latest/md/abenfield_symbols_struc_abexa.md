@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Cast Structures"
+description: |
+  This example demonstrates how field symbols are cast. Source Code  Public class definition CLASS cl_demo_fld_smbls_structure DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_f
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_struc_abexa.htm"
+abapFile: "abenfield_symbols_struc_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "field-symbol", "abenfield", "symbols", "struc", "abexa"]
+---
 
 * * *
 

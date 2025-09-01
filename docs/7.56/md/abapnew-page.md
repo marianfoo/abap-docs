@@ -1,4 +1,14 @@
-  
+---
+title: "NEW-PAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page_shortref.htm) Syntax NEW-PAGE page_options(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page_options.htm)  spool_options(https://help.sap.com/doc/abapdocu_756_index_htm/7
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page.htm"
+abapFile: "abapnew-page.htm"
+keywords: ["insert", "do", "if", "try", "class", "abapnew", "page"]
+---
 
 * * *
 

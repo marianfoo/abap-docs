@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Deleting Single Lines in Mesh Paths"
+description: |
+  This example demonstrates how single lines are deleted in mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_dlt_table_nmbrs DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TY
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_delete_table_abexa.htm"
+abapFile: "abenmesh_delete_table_abexa.htm"
+keywords: ["insert", "delete", "do", "if", "method", "class", "data", "types", "abenmesh", "table", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  dref->(comp_name)    COMPONENT comp OF STRUCTURE struc  ... Alternatives: 1. ... dref->(comp_name)(#!ABAP_ALTERNATIVE_1@1@) 2. ... COMPONENT comp OF STRUCTURE struc(#!ABAP_ALTERNATIVE_2@2@) Effect These alternatives for specifying the memory area mem_area(https://help.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_dynamic_components.htm"
+abapFile: "abapassign_dynamic_components.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abapassign", "dynamic", "components"]
+---
 
 * * *
 

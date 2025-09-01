@@ -1,4 +1,14 @@
-  
+---
+title: "CHANGING-Parameter"
+description: |
+  Work in progress  Syntax CHANGING  failed    TYPE DATA mapped    TYPE DATA reported  TYPE DATA. Effect When implementing a business object provider, the implicit output parameters failed, mapped and reported are used for errors, mapping and messages in the method signature of a handler class(
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchanging_type_data.htm"
+abapFile: "abenchanging_type_data.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenchanging", "type"]
+---
 
 * * *
 

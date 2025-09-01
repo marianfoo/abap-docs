@@ -1,4 +1,14 @@
-  
+---
+title: "Memory Consumption of Dynamic Memory Objects"
+description: |
+  Background In dynamic objects, the actual data is addressed using a reference. This means that dynamic memory objects are always deep objects. Possible dynamic memory objects are: -   Table bodies of internal tables addressed using internal table references -   Text strings or byte strings addressed
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmem_cons_dyn_mem_obj_guidl.htm"
+abapFile: "abenmem_cons_dyn_mem_obj_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmem", "cons", "dyn", "mem", "obj", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "screen_painter_glosry"
+description: |
+  screen_painter_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_painter_glosry.htm"
+abapFile: "abenscreen_painter_glosry.htm"
+keywords: ["do", "if", "try", "abenscreen", "painter", "glosry"]
+---
 
 * * *
 

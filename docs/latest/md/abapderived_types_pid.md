@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %pid is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') and of type ABP_BEHV_PID. It is used as a preliminary ID for RAP BO instances(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_pid.htm"
+abapFile: "abapderived_types_pid.htm"
+keywords: ["insert", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abapderived", "pid"]
+---
 
 * * *
 

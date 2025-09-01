@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenbdl_example.htm
 
-  
+---
+title: "ABAP BDL - Example"
+description: |
+  Example In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The underlying business object for managing flight trips can be given an ali
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm"
+abapFile: "abenbdl_example.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "abenbdl", "example"]
+---
 
 * * *
 
@@ -58,7 +68,17 @@ Continue
 
 ### abenbdl_example_root_entity.htm
 
-  
+---
+title: "Root entities example"
+description: |
+  Example The CDS view /DMO/I_Travel represents the root node of the business object. The root node Travel is used to manage general flight booking data such as the trip ID, agency ID, customer number, start and end dates of a trip, booking fee, total price, currency, trip description, trip status, a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_root_entity.htm"
+abapFile: "abenbdl_example_root_entity.htm"
+keywords: ["select", "do", "if", "data", "abenbdl", "example", "root", "entity"]
+---
 
 * * *
 
@@ -147,7 +167,17 @@ define root view /DMO/I\_Travel
 
 ### abenbdl_example_cds_entity.htm
 
-  
+---
+title: "Child entity example"
+description: |
+  Example In the business object's structure, the CDS view /DMO/I_Booking represents a child entity of the root entity Travel that can be used to create and edit flight bookings. The child entity Booking is used to manage the following flight booking data: trip ID, booking ID and date, customer numbe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_cds_entity.htm"
+abapFile: "abenbdl_example_cds_entity.htm"
+keywords: ["select", "do", "if", "data", "abenbdl", "example", "cds", "entity"]
+---
 
 * * *
 
@@ -235,7 +265,17 @@ define view /DMO/I\_Booking
 
 ### abenbdl_example_data.htm
 
-  
+---
+title: "Other entity examples"
+description: |
+  Example CDS entity Agency The CDS view /DMO/I_Agency represents travel agency data, for example, the address and contact information. The relevant agency data is saved in the database table /DMO/AGENCY. The flight data scenario defines a 1:n cardinality between the entities Agency and Travel. @Abap
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_data.htm"
+abapFile: "abenbdl_example_data.htm"
+keywords: ["select", "do", "try", "data", "abenbdl", "example"]
+---
 
 * * *
 

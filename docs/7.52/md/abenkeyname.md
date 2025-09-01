@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables - keyname"
+description: |
+  The name of the table key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_key_glosry.htm 'Glossary Entry') can be specified in a range of statements and in table expressions for the editing of internal tables. The table key name can used to access a table row or to control pro
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkeyname.htm"
+abapFile: "abenkeyname.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenkeyname"]
+---
 
 * * *
 

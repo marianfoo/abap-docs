@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - Annotation Syntax, arrelem"
+description: |
+  Syntax ...  value1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax_value.htm) subannos1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax_subanno.htm), value2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax_array.htm"
+abapFile: "abencds_annotations_syntax_array.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abencds", "annotations", "syntax", "array"]
+---
 
 * * *
 

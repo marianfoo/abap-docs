@@ -1,4 +1,14 @@
-  
+---
+title: "Behavior Definition Language"
+description: |
+  → CDS BDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm 'Glossary Entry')
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_glosry.htm"
+abapFile: "abenbdl_glosry.htm"
+keywords: ["do", "if", "try", "abenbdl", "glosry"]
+---
 
 * * *
 

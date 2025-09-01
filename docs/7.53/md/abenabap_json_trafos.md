@@ -1,4 +1,14 @@
-  
+---
+title: "Transformations for JSON"
+description: |
+  The transformations for XML(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) that can be called from ABAP, namely XSL transformations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxsl_transformation_1_glosry.htm 'Glossary Entry') and simple tr
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos.htm"
+abapFile: "abenabap_json_trafos.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abenabap", "json", "trafos"]
+---
 
 * * *
 

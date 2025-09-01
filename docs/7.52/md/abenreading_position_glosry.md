@@ -1,4 +1,14 @@
-  
+---
+title: "reading_position_glosry"
+description: |
+  reading_position_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreading_position_glosry.htm"
+abapFile: "abenreading_position_glosry.htm"
+keywords: ["do", "try", "data", "abenreading", "position", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE itab - index"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_itab_shortref.htm) Syntax ...    itab INDEX idx USING KEY keyname(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkeyname.htm)    itab USING KEY loop_key ... Alter
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_itab_index.htm"
+abapFile: "abapdelete_itab_index.htm"
+keywords: ["select", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abapdelete", "itab", "index"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenfunction_modules_obsolete.htm
 
-  
+---
+title: "Function Modules"
+description: |
+  The following language constructs should no longer be used when creating function modules: -   Table parameters(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm) -   Obsolete typing(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfuncti
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm"
+abapFile: "abenfunction_modules_obsolete.htm"
+keywords: ["do", "abenfunction", "modules", "obsolete"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abaptables_parameters_obsolete.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... TABLES p1  TYPE itab_type   STRUCTURE struc(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm) OPTIONAL p2  TYPE itab_type   STRUCTURE struc(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm"
+abapFile: "abaptables_parameters_obsolete.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abaptables", "parameters", "obsolete"]
+---
 
 * * *
 
@@ -76,7 +96,17 @@ Continue
 
 ### abentables_parameters_restrictions.htm
 
-  
+---
+title: "Exceptions when Accessing TABLES Parameters"
+description: |
+  In some variants of statements, which use a work area to access internal tables, the work area must be compatible with the row type of the internal table. This is checked statically by the syntax check. In the case of TABLES parameters typed using the obsolete addition STRUCTURE(https://help.sap.c
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm"
+abapFile: "abentables_parameters_restrictions.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abentables", "parameters", "restrictions"]
+---
 
 * * *
 
@@ -111,7 +141,17 @@ This exception is particularly likely if the [header line](https://help.sap.com/
 
 ### abaptables_parameters_obsolete.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... TABLES p1  TYPE itab_type   STRUCTURE struc(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm) OPTIONAL p2  TYPE itab_type   STRUCTURE struc(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm"
+abapFile: "abaptables_parameters_obsolete.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abaptables", "parameters", "obsolete"]
+---
 
 * * *
 
@@ -156,7 +196,17 @@ Continue
 
 ### abapfunction_typing_obsolete.htm
 
-  
+---
+title: "FUNCTION - LIKE, STRUCTURE"
+description: |
+  Obsolete Syntax ...  LIKE struc-comp  LIKE struc STRUCTURE struc ... Effect Typing of interface parameters in the display of the properties of the interface parameters(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm) of a function module interf
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm"
+abapFile: "abapfunction_typing_obsolete.htm"
+keywords: ["do", "if", "try", "data", "types", "field-symbol", "abapfunction", "typing", "obsolete"]
+---
 
 * * *
 
@@ -190,7 +240,17 @@ Notes
 
 ### abenglobal_parameters_obsolete.htm
 
-  
+---
+title: "Global Parameters"
+description: |
+  The formal parameters of the interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) of a function module can be made known globally by choosing Edit → Interface → Globalize Parameters in Function Builder. Then the field Global is selected in the properties of the fu
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm"
+abapFile: "abenglobal_parameters_obsolete.htm"
+keywords: ["select", "do", "while", "if", "case", "data", "field-symbol", "abenglobal", "parameters", "obsolete"]
+---
 
 * * *
 

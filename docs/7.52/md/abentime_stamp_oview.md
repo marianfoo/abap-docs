@@ -1,4 +1,14 @@
-  
+---
+title: "Time Stamps - Overview"
+description: |
+  -   Representation of Time Stamps(#abentime-stamp-oview-1--------access-to-time-stamps---@ITOC@@ABENTIME_STAMP_OVIEW_2) -   Notes on Handling Time Stamps(#abentime-stamp-oview-3--------examples---@ITOC@@ABENTIME_STAMP_OVIEW_4) Representation of Time Stamps Time stamps(https://help.sap.com/doc/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_oview.htm"
+abapFile: "abentime_stamp_oview.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abentime", "stamp", "oview"]
+---
 
 * * *
 
@@ -8,13 +18,9 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Time Stamps - Overview
 
--   [Representation of Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_1)
+-   [Representation of Time Stamps](#abentime-stamp-oview-1--------access-to-time-stamps---@ITOC@@ABENTIME_STAMP_OVIEW_2)
 
--   [Access to Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_2)
-
--   [Notes on Handling Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_3)
-
--   [Examples](#@@ITOC@@ABENTIME_STAMP_OVIEW_4)
+-   [Notes on Handling Time Stamps](#abentime-stamp-oview-3--------examples---@ITOC@@ABENTIME_STAMP_OVIEW_4)
 
 Representation of Time Stamps
 

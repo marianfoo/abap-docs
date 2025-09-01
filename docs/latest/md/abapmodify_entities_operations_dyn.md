@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY ENTITIES OPERATIONS, Dynamic Form"
+description: |
+  Syntax MODIFY ENTITIES  IN LOCAL MODE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm) OPERATIONS op_tab response_param(https://help.sap.com/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entities_operations_dyn.htm"
+abapFile: "abapmodify_entities_operations_dyn.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "data", "internal-table", "abapmodify", "entities", "operations", "dyn"]
+---
 
 * * *
 

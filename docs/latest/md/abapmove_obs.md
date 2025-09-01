@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove_shortref.htm) Obsolete Syntax MOVE EXACT source  TO destination          source ?TO destination. Variants: 1. MOVE EXACT source TO destination.(#!ABAP_VARIANT_1@1@) 2. MOVE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove_obs.htm"
+abapFile: "abapmove_obs.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abapmove", "obs"]
+---
 
 * * *
 

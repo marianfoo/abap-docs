@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, HTML from the MIME Repository"
+description: |
+  This example demonstrates how a HTML file is displayed from the MIME repository. Source Code REPORT demo_html_from_mime. CLASS mime_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: mime_line(1022) TYPE x, mime_tab        TYPE STANDARD TABLE OF mime_line WITH EMPTY
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmime_html_abexa.htm"
+abapFile: "abenmime_html_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmime", "html", "abexa"]
+---
 
 * * *
 

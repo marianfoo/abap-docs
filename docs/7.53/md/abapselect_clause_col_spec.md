@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... col(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm)  agg_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_aggregate.htm)  sql_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) Alternatives:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_clause_col_spec.htm"
+abapFile: "abapselect_clause_col_spec.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapselect", "clause", "col", "spec"]
+---
 
 * * *
 

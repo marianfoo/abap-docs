@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - ancestor association"
+description: |
+  Syntax ...  ancestor association _Assoc; abbreviation _newName without response with draft; Effect Declares an association(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_glosry.htm 'Glossary Entry') as an ancestor associat
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_ancestor_ext.htm"
+abapFile: "abenbdl_ancestor_ext.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "types", "abenbdl", "ancestor", "ext"]
+---
 
 * * *
 

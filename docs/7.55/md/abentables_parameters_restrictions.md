@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions when Accessing TABLES Parameters"
+description: |
+  In some variants of statements, which use a work area to access internal tables, the work area must be compatible with the line type of the internal table. This is checked statically by the syntax check. In the case of TABLES parameters typed using the obsolete addition STRUCTURE(https://help.sap.
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentables_parameters_restrictions.htm"
+abapFile: "abentables_parameters_restrictions.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abentables", "parameters", "restrictions"]
+---
 
 * * *
 

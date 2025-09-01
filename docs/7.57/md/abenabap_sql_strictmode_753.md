@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in Release 7.53 applies to all ABAP SQL statements that use one of the following properties introduced in Release 7.53(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-753-abap_sql.htm): -   Use of one of the new date/time functions(https://
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_753.htm"
+abapFile: "abenabap_sql_strictmode_753.htm"
+keywords: ["select", "insert", "do", "if", "data", "abenabap", "sql", "strictmode", "753"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP SQL - Strict Mode in Release 7.53
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_753_1)
--   [Rules for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_753_2)
+-   [Conditions for the Strict Mode](#abenabap-sql-strictmode-753-1-------rules-for-the-strict-mode---@ITOC@@ABENABAP_SQL_STRICTMODE_753_2)
 
 Conditions for the Strict Mode   
 

@@ -1,4 +1,14 @@
-  
+---
+title: "deadlock_glosry"
+description: |
+  deadlock_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeadlock_glosry.htm"
+abapFile: "abendeadlock_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendeadlock", "glosry"]
+---
 
 * * *
 

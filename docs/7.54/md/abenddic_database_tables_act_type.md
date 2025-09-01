@@ -1,4 +1,14 @@
-  
+---
+title: "Activation Type of Database Tables"
+description: |
+  The activation type defines whether a database table can be activated interactively in an ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_tools.htm) or whether the ABAP runtime environment needs to be used instead. This setting is not relevant for database
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_act_type.htm"
+abapFile: "abenddic_database_tables_act_type.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "act", "type"]
+---
 
 * * *
 

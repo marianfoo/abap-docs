@@ -1,4 +1,14 @@
-  
+---
+title: "client_dependent_glosry"
+description: |
+  client_dependent_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_dependent_glosry.htm"
+abapFile: "abenclient_dependent_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenclient", "dependent", "glosry"]
+---
 
 * * *
 

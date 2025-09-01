@@ -1,4 +1,14 @@
-  
+---
+title: "Reading Internal Tables"
+description: |
+  -   READ TABLE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table.htm) -   LOOP AT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab_variants.htm) Filling Internal Tables -   INSERT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abap
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_processing_statements.htm"
+abapFile: "abentable_processing_statements.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "data", "internal-table", "abentable", "processing", "statements"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Behavior Definition Header, Interface BDEF"
+description: |
+  Syntax implementation type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_impl_type.htm); extensible; with managed instance filter;(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_mngd_instance_check_proj.htm) use draft;(http
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_bo_interface_header.htm"
+abapFile: "abenbdl_bo_interface_header.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "types", "abenbdl", "interface", "header"]
+---
 
 * * *
 

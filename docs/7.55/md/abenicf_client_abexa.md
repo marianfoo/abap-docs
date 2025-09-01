@@ -1,4 +1,14 @@
-  
+---
+title: "ICF - ABAP as HTTP Client"
+description: |
+  This example demonstrates an ICF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_glosry.htm 'Glossary Entry') client object. Source Code REPORT demo_http_client. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA q
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_client_abexa.htm"
+abapFile: "abenicf_client_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenicf", "client", "abexa"]
+---
 
 * * *
 

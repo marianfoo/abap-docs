@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Short Forms in ABAP SQL"
+description: |
+  The following obsolete short forms of ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossary Entry') statements are based on implicit use of a table work area(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_work_area_g
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_short_forms_obsolete.htm"
+abapFile: "abenabap_sql_short_forms_obsolete.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "data", "abenabap", "sql", "short", "forms", "obsolete"]
+---
 
 * * *
 

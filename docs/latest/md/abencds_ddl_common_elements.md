@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Common DDL Elements"
+description: |
+  The following language elements can be used in various CDS entities: -   Entity annotations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) -   Input parameters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_param.htm
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddl_common_elements.htm"
+abapFile: "abencds_ddl_common_elements.htm"
+keywords: ["do", "if", "data", "abencds", "ddl", "common", "elements"]
+---
 
 * * *
 

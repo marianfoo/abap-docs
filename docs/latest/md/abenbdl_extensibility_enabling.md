@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - BDEF Extension, Extensibility Enabling"
+description: |
+  RAP behavior definitions must be explicitly enabled to allow for behavior extensibility. They must fulfill technical requirements and explicitly allow extensions. Otherwise, their behavior must not be extended. The following sections describe how to enable RAP behavior definitions of type managed(
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extensibility_enabling.htm"
+abapFile: "abenbdl_extensibility_enabling.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "extensibility", "enabling"]
+---
 
 * * *
 

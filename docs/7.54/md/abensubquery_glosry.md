@@ -1,4 +1,14 @@
-  
+---
+title: "subquery_glosry"
+description: |
+  subquery_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubquery_glosry.htm"
+abapFile: "abensubquery_glosry.htm"
+keywords: ["select", "insert", "do", "if", "try", "data", "abensubquery", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC, Parameter Binding"
+description: |
+  The example demonstrates the binding of parameters in ADBC. Source Code REPORT demo_adbc_ddl_dml_binding. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_dml_ddl_binding_abexa.htm"
+abapFile: "abenadbc_dml_ddl_binding_abexa.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "binding", "abexa"]
+---
 
 * * *
 

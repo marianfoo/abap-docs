@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - L for the SAP HANA Database"
+description: |
+  This function is only for internal use within SAP. Customers and partners are not allowed to use this function. L(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenllang_glosry.htm 'Glossary Entry') is a low-level programming language used for programming L procedures(https://help.s
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_hdb_l_internal.htm"
+abapFile: "abenamdp_hdb_l_internal.htm"
+keywords: ["do", "if", "try", "method", "data", "abenamdp", "hdb", "internal"]
+---
 
 * * *
 

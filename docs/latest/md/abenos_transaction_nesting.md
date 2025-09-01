@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Nesting and Chaining Transactions"
+description: |
+  Role of the Top Level Transaction The top level transaction is the transaction of the uppermost level. All transactions started during the top level transaction are subtransactions and do not lead to a COMMIT WORK when they end. The transaction mode determines how the top level transaction is create
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_transaction_nesting.htm"
+abapFile: "abenos_transaction_nesting.htm"
+keywords: ["update", "do", "if", "case", "method", "data", "abenos", "transaction", "nesting"]
+---
 
 * * *
 

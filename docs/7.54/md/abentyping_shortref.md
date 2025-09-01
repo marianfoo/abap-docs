@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  TYPE generic_type    LIKE  <generic_fs>generic_para    TYPE LINE OF complete_type  REF TO datacomplete_typeclassintf    LIKE LINE OF dobj  REF TO dobj  ... Effect Typing of field symbols or for
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_shortref.htm"
+abapFile: "abentyping_shortref.htm"
+keywords: ["do", "class", "data", "internal-table", "field-symbol", "abentyping", "shortref"]
+---
 
 * * *
 

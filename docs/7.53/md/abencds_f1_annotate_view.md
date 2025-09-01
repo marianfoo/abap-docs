@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_entit
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 

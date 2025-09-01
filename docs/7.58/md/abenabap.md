@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Keyword Documentation"
+description: |
+  This documentation describes the syntax and semantics of the keywords of programming languages provided by SAP on an Application Server ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm 'Glossary Entry') (AS ABAP) of an ABAP system(https://help.sap.com/doc/ab
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm"
+abapFile: "abenabap.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenabap"]
+---
 
 * * *
 

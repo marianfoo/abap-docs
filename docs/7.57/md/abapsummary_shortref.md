@@ -1,4 +1,14 @@
-  
+---
+title: "SUMMARY - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsummary.htm) Syntax SUMMARY. Effect Obsolete: Sets the intensity of the background color of a list.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsummary_shortref.htm"
+abapFile: "abapsummary_shortref.htm"
+keywords: ["do", "if", "abapsummary", "shortref"]
+---
 
 * * *
 

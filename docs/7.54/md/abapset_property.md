@@ -1,4 +1,14 @@
-  
+---
+title: "SET PROPERTY - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_property_shortref.htm) Syntax SET PROPERTY OF ole attr = dobj NO FLUSH EXPORTING p1 = f1 p2 = f2 .... Extras: 1. ... NO FLUSH(#!ABAP_ADDITION_1@1@) 2. ... EXPORTING p1 = f1 p2 = f2 ...(#!ABAP_A
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_property.htm"
+abapFile: "abapset_property.htm"
+keywords: ["do", "try", "data", "abapset", "property"]
+---
 
 * * *
 

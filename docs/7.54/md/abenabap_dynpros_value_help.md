@@ -1,4 +1,14 @@
-  
+---
+title: "Input Help"
+description: |
+  Dynpros use input helps to support interactive input. This can be done in three different ways. -   Input helps from ABAP Dictionary(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_auto.htm) The associated search help(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm"
+abapFile: "abenabap_dynpros_value_help.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpros", "value", "help"]
+---
 
 * * *
 

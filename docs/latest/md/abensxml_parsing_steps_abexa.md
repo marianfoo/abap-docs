@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_token_rdr_steps DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA parser TYPE REF TO if_sxml_reader. DATA: BEGIN OF wa, method    TYPE string, node_type TYPE strin
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_parsing_steps_abexa.htm"
+abapFile: "abensxml_parsing_steps_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abensxml", "parsing", "steps", "abexa"]
+---
 
 * * *
 

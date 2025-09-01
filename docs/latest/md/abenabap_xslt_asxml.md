@@ -1,4 +1,14 @@
-  
+---
+title: "Canonical XML Representation (asXML)"
+description: |
+  The canonical XML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxml_glosry.htm 'Glossary Entry') representation asXML is the format of XML data that results from a serialization of ABAP data using XSLT programs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_asxml.htm"
+abapFile: "abenabap_xslt_asxml.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenabap", "xslt", "asxml"]
+---
 
 * * *
 

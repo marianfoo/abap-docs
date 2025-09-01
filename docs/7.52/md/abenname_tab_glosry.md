@@ -1,4 +1,14 @@
-  
+---
+title: "Nametab"
+description: |
+  → Name Table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenname_table_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenname_tab_glosry.htm"
+abapFile: "abenname_tab_glosry.htm"
+keywords: ["do", "try", "abenname", "tab", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "pass_kind_glosry"
+description: |
+  pass_kind_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_kind_glosry.htm"
+abapFile: "abenpass_kind_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenpass", "kind", "glosry"]
+---
 
 * * *
 

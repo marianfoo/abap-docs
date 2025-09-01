@@ -1,4 +1,14 @@
-  
+---
+title: "Database Tables"
+description: |
+  In ABAP Dictionary, the term 'database table' (or table for short) is the database-independent definition of a database table. -   A database table is a two-dimensional matrix which consists of rows and columns (fields). -   A field or combination of fields that uniquely identifies every row in a ta
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm"
+abapFile: "abenddic_database_tables.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables"]
+---
 
 * * *
 

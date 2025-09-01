@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - augment, Projection BDEF"
+description: |
+  Syntax Forms Augmenting Operations ... augment ... Augmenting Fields ... modify ... ... Alternatives: 1. ... augment ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... modify ... ...(#!ABAP_ALTERNATIVE_2@2@) Effect With the operation augmentation, it is possible to add data or modify incoming requests on the
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_augment_projection.htm"
+abapFile: "abenbdl_augment_projection.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "augment", "projection"]
+---
 
 * * *
 

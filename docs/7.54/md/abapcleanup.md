@@ -1,4 +1,14 @@
-  
+---
+title: "CLEANUP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptry_shortref.htm) Syntax CLEANUP INTO oref. Addition: ... INTO oref(#!ABAP_ONE_ADD@1@) Effect Introduces a statement block of a TRY(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptry.htm) con
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcleanup.htm"
+abapFile: "abapcleanup.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "catch", "class", "data", "types", "exception-handling", "abapcleanup"]
+---
 
 * * *
 

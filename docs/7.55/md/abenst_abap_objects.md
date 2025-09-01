@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Access to ABAP Objects from ST"
+description: |
+  Classes and objects in ABAP Objects can be accessed as follows in ST programs: -   tt:call-method, call static methods(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_call-method_static.htm) -   tt:call-method, call instance methods(https://help.sap.com/doc/abapdocu_755_inde
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_abap_objects.htm"
+abapFile: "abenst_abap_objects.htm"
+keywords: ["do", "if", "method", "class", "data", "abenst", "abap", "objects"]
+---
 
 * * *
 

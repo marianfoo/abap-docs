@@ -1,4 +1,14 @@
-  
+---
+title: "API of the iXML Library"
+description: |
+  iXML Library provides an API for handling XML documents in DOM(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendom_glosry.htm 'Glossary Entry') format. This API enables -   XML data to be parsed to DOM format, -   reads and writes to be performed on XML documents in DOM format, incl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm"
+abapFile: "abenabap_ixml_lib.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "internal-table", "abenabap", "ixml", "lib"]
+---
 
 * * *
 
@@ -10,8 +20,7 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 iXML Library
 
--   [API of the iXML Library](#@@ITOC@@ABENABAP_IXML_LIB_1)
--   [Access to iXML Library.](#@@ITOC@@ABENABAP_IXML_LIB_2)
+-   [API of the iXML Library](#abenabap-ixml-lib-1-------access-to-ixml-library----@ITOC@@ABENABAP_IXML_LIB_2)
 -   [Services in the iXML Library](#@@ITOC@@ABENABAP_IXML_LIB_3)
 
 API of the iXML Library   

@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - ABAP Database Connectivity"
+description: |
+  ADBC is an API for the Native SQL interface(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_interface_glosry.htm 'Glossary Entry') of the AS ABAP that is based on ABAP Objects. The ADBC methods can be used to pass Native SQL(https://help.sap.com/doc/abapdocu_754_index_h
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm"
+abapFile: "abenadbc.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "internal-table", "abenadbc"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "database_rollback_glosry"
+description: |
+  database_rollback_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_rollback_glosry.htm"
+abapFile: "abendatabase_rollback_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "rollback", "glosry"]
+---
 
 * * *
 

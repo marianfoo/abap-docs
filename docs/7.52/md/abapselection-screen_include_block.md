@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN INCLUDE BLOCKS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_incl_shortref.htm) Syntax SELECTION-SCREEN INCLUDE BLOCKS block ID id. Effect The addition BLOCKS creates a block block on the current selection screen(https://help.sap.com/doc/abapdocu_752_in
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_include_block.htm"
+abapFile: "abapselection-screen_include_block.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "include", "block"]
+---
 
 * * *
 

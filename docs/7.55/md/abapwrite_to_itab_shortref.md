@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the line of the internal table itab with the index idx. Add
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 

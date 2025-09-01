@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Examples of Aggregate Expressions"
+description: |
+  !Example(exa.gif 'Example') SQL Expression, Aggregate Function string_agg(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_string_agg_abexa.htm) !Example(exa.gif 'Example') SQL Expressions, Use in Aggregate Expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_agg_expr_abexas.htm"
+abapFile: "abensql_agg_expr_abexas.htm"
+keywords: ["select", "do", "if", "data", "abensql", "agg", "expr", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "table_comprehension_glosry"
+description: |
+  table_comprehension_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_comprehension_glosry.htm"
+abapFile: "abentable_comprehension_glosry.htm"
+keywords: ["do", "try", "internal-table", "abentable", "comprehension", "glosry"]
+---
 
 * * *
 

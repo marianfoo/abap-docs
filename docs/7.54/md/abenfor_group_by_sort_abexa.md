@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Table, Grouping with FOR for Sorts"
+description: |
+  This example demonstrates sorts with FOR expressions. Source Code REPORT demo_for_groups_by_sort. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES itab TYPE STANDARD TABLE OF string WITH EMPTY KEY. DATA(itab) = VALUE itab( ( `d`
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_group_by_sort_abexa.htm"
+abapFile: "abenfor_group_by_sort_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "types", "internal-table", "abenfor", "group", "sort", "abexa"]
+---
 
 * * *
 

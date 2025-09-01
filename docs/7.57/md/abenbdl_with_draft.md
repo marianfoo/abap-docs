@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - with draft"
+description: |
+  Syntax ... with draft; ... Effect The addition with draft enables RAP draft handling(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_draft_handling_glosry.htm 'Glossary Entry') for a business object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbusiness_object
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_with_draft.htm"
+abapFile: "abenbdl_with_draft.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "with", "draft"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abaploop_at_screen.htm
 
-  
+---
+title: "LOOP AT SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_screen_shortref.htm) Syntax LOOP AT SCREEN INTO wa. ... ENDLOOP. Effect The statements LOOP AT SCREEN ... ENDLOOP define a loop around a statement block. For every screen element of the current dynpro to which a
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_screen.htm"
+abapFile: "abaploop_at_screen.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "internal-table", "abaploop", "screen"]
+---
 
 * * *
 
@@ -59,7 +69,17 @@ Continue
 
 ### abenscreen.htm
 
-  
+---
+title: "The Structure SCREEN"
+description: |
+  Most components of the structure SCREEN from ABAP Dictionary correspond to the attributes of a screen element on a dynpro. Data objects with the data type SCREEN can be used as a work area in the following ABAP statements: -   in LOOP AT SCREEN(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen.htm"
+abapFile: "abenscreen.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenscreen"]
+---
 
 * * *
 
@@ -306,7 +326,17 @@ If the component request has the value 1 for a dynpro field at PAI time, those d
 
 ### abapmodify_screen.htm
 
-  
+---
+title: "MODIFY SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_screen_shortref.htm) Syntax MODIFY SCREEN FROM wa. Effect This statement can be used in the statement block after LOOP AT SCREEN(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_screen.htm
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_screen.htm"
+abapFile: "abapmodify_screen.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "abapmodify", "screen"]
+---
 
 * * *
 
@@ -381,7 +411,17 @@ The program DEMO\_DYNPRO\_MODIFY\_SCREEN demonstrates all possible dynamic scree
 
 ### abendynpro_mod_simple_abexa.htm
 
-  
+---
+title: "Screens, Dynamic Screen Modification"
+description: |
+  The example shows how to modify screen fields at runtime. Source Code REPORT demo_dynpro_modify_simple . DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA flag(1) TYPE c. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. LOOP AT SCREEN INTO DATA(screen_wa). IF sc
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_mod_simple_abexa.htm"
+abapFile: "abendynpro_mod_simple_abexa.htm"
+keywords: ["loop", "do", "if", "case", "data", "abendynpro", "mod", "simple", "abexa"]
+---
 
 * * *
 

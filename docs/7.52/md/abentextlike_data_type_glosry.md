@@ -1,4 +1,14 @@
-  
+---
+title: "Text-like data type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm 'Glossary Entry') whose data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm 'Glossary Entry') contain texts. The associated predefined data types(https:/
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentextlike_data_type_glosry.htm"
+abapFile: "abentextlike_data_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "abentextlike", "type", "glosry"]
+---
 
 * * *
 

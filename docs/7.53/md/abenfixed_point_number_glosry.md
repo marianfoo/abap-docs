@@ -1,4 +1,14 @@
-  
+---
+title: "fixed_point_number_glosry"
+description: |
+  fixed_point_number_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixed_point_number_glosry.htm"
+abapFile: "abenfixed_point_number_glosry.htm"
+keywords: ["do", "try", "data", "abenfixed", "point", "number", "glosry"]
+---
 
 * * *
 

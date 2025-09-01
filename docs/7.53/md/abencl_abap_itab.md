@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for Internal Tables"
+description: |
+  The class CL_ABAP_ITAB_UTILITIES contains the following methods: -   FLUSH_ITAB_KEY and FLUSH_ITAB_KEYS can be used to update individual secondary table keys(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_table_key_glosry.htm 'Glossary Entry') or all secondary tabl
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_itab.htm"
+abapFile: "abencl_abap_itab.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "internal-table", "abencl", "abap", "itab"]
+---
 
 * * *
 

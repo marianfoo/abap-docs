@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, Exposing CDS Associations"
+description: |
+  This example demonstrates how CDS associations are exposed(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_list_association_v1.htm) in the SELECT list of a CDS view. Source Code  Public class definition CLASS cl_demo_cds_expose_assctns DEFINITION INHERITING FROM cl
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_expose_assoc_v1_abexa.htm"
+abapFile: "abencds_expose_assoc_v1_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abencds", "expose", "assoc", "abexa"]
+---
 
 * * *
 

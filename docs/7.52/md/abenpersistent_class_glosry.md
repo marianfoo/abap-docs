@@ -1,4 +1,14 @@
-  
+---
+title: "persistent_class_glosry"
+description: |
+  persistent_class_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpersistent_class_glosry.htm"
+abapFile: "abenpersistent_class_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenpersistent", "glosry"]
+---
 
 * * *
 

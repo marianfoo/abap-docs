@@ -1,4 +1,14 @@
-  
+---
+title: "Functions and Expressions in Operand Positions"
+description: |
+  Functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_glosry.htm 'Glossary Entry') and expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_glosry.htm 'Glossary Entry') can be specified in certain reading positions(https://help.sap.c
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_expressions.htm"
+abapFile: "abenoperands_expressions.htm"
+keywords: ["do", "if", "try", "abenoperands", "expressions"]
+---
 
 * * *
 

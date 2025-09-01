@@ -1,4 +1,14 @@
-  
+---
+title: "day_time_glosry"
+description: |
+  day_time_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenday_time_glosry.htm"
+abapFile: "abenday_time_glosry.htm"
+keywords: ["do", "try", "abenday", "time", "glosry"]
+---
 
 * * *
 

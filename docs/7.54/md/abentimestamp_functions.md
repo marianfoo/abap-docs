@@ -1,4 +1,14 @@
-  
+---
+title: "Time Stamp Functions"
+description: |
+  The following built-in functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredefined_function_glosry.htm 'Glossary Entry') for editing time stamps in time stamp fields are available: -   utclong_current(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutclong
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_functions.htm"
+abapFile: "abentimestamp_functions.htm"
+keywords: ["do", "if", "try", "data", "abentimestamp", "functions"]
+---
 
 * * *
 

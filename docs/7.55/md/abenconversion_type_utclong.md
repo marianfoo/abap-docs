@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type utclong"
+description: |
+  -   Numeric Target Fields(#abenconversion-type-utclong-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_UTCLONG_2) -   Byte-Like Target Fields(#abenconversion-type-utclong-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_UTCLONG_4) Numeric Target Fields T
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_utclong.htm"
+abapFile: "abenconversion_type_utclong.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenconversion", "type", "utclong"]
+---
 
 * * *
 
@@ -8,13 +18,9 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Source Field Type utclong
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_1)
+-   [Numeric Target Fields](#abenconversion-type-utclong-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_UTCLONG_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_4)
+-   [Byte-Like Target Fields](#abenconversion-type-utclong-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_UTCLONG_4)
 
 Numeric Target Fields
 

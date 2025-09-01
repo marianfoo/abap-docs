@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, UPDATE, MODIFY, DELETE dbtab - connection"
+description: |
+  Syntax ... CONNECTION con(con_syntax) ... Effect The ABAP SQL statement is executed on the specified database connection(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_connection_glosry.htm 'Glossary Entry'). The database connection can be specified as follows: -   con
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapiumd_conn.htm"
+abapFile: "abapiumd_conn.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "data", "abapiumd", "conn"]
+---
 
 * * *
 

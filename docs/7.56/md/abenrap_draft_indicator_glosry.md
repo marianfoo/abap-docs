@@ -1,4 +1,14 @@
-  
+---
+title: "RAP draft indicator"
+description: |
+  BDEF derived type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') component that is used to indicate whether a RAP BO instance(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm 'Glossary Entry')
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_draft_indicator_glosry.htm"
+abapFile: "abenrap_draft_indicator_glosry.htm"
+keywords: ["do", "try", "types", "abenrap", "draft", "indicator", "glosry"]
+---
 
 * * *
 

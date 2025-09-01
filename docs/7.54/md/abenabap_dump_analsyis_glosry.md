@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP dump analysis"
+description: |
+  A tool for listing and analyzing runtime errors(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenruntime_error_glosry.htm 'Glossary Entry') that occurred in AS ABAP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') and that can
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dump_analsyis_glosry.htm"
+abapFile: "abenabap_dump_analsyis_glosry.htm"
+keywords: ["do", "try", "abenabap", "dump", "analsyis", "glosry"]
+---
 
 * * *
 

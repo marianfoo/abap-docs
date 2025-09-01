@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  SET HANDLER handler1 handler2 ... ACTIVATION act. Addition: ... ACTIVATION act(#!ABAP_ONE_ADD@1@) Effect This statement registers the event handlers(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_handler_glosry.htm 'Glossary Entry') handler1 handler2 ... for the ass
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_handler_static.htm"
+abapFile: "abapset_handler_static.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "abapset", "handler", "static"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY SCREEN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_screen_shortref.htm) Syntax MODIFY SCREEN FROM wa. Effect This statement can be used in the statement block after LOOP AT SCREEN(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_screen.htm
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_screen.htm"
+abapFile: "abapmodify_screen.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "abapmodify", "screen"]
+---
 
 * * *
 

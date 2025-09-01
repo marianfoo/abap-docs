@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapcreate_data_reference.htm
 
-  
+---
+title: "CREATE DATA - REF TO"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_area_handle.htm) TYPE REF TO type(name). Effect The addition T
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_reference.htm"
+abapFile: "abapcreate_data_reference.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abapcreate", "reference"]
+---
 
 * * *
 
@@ -58,7 +68,17 @@ Continue
 
 ### abencreate_reference_abexa.htm
 
-  
+---
+title: "Creating Reference Variables"
+description: |
+  This example demonstrates how to create a reference variable. Source Code REPORT demo_create_reference. INTERFACE intf. CONSTANTS attr TYPE string VALUE `Interface constant`. ENDINTERFACE. CLASS cls DEFINITION. PUBLIC SECTION. INTERFACES intf. ENDCLASS. CLASS demo DEFINITION. PUBLIC SECTION. CLA
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_reference_abexa.htm"
+abapFile: "abencreate_reference_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "field-symbol", "abencreate", "reference", "abexa"]
+---
 
 * * *
 

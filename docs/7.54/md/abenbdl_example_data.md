@@ -1,4 +1,14 @@
-  
+---
+title: "Other entity examples"
+description: |
+  Example CDS entity Agency The CDS view /DMO/I_Agency represents travel agency data, for example, the address and contact information. The relevant agency data is saved in the database table /DMO/AGENCY. The flight data scenario defines a 1:n cardinality between the entities Agency and Travel. @Abap
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_data.htm"
+abapFile: "abenbdl_example_data.htm"
+keywords: ["select", "do", "try", "data", "abenbdl", "example"]
+---
 
 * * *
 

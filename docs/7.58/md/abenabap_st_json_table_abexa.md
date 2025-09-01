@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Simple Transformation for Internal Tables"
+description: |
+  The example demonstrates the Simple Transformation of an internal table to JSON data(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_oview.htm). Source Code  Public class definition CLASS cl_demo_st_json_table DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PU
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_st_json_table_abexa.htm"
+abapFile: "abenabap_st_json_table_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "json", "table", "abexa"]
+---
 
 * * *
 

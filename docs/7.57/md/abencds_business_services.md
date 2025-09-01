@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - RAP Business Services (BS)"
+description: |
+  A business service(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbusiness_service_glosry.htm 'Glossary Entry') is a RESTful(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrestful_glosry.htm 'Glossary Entry') service provided by AS ABAP(https://help.sap.com/doc/
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_business_services.htm"
+abapFile: "abencds_business_services.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "business", "services"]
+---
 
 * * *
 

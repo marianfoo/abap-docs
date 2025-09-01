@@ -1,4 +1,14 @@
-  
+---
+title: "RAP instance transition message"
+description: |
+  A transition message(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_trans_mes_glosry.htm 'Glossary Entry') that refers to an instance(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry') of a business object entity and
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_rap_trans_mes_glosry.htm"
+abapFile: "abeninstance_rap_trans_mes_glosry.htm"
+keywords: ["do", "try", "abeninstance", "rap", "trans", "mes", "glosry"]
+---
 
 * * *
 

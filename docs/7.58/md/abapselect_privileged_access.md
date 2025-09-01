@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, PRIVILEGED ACCESS"
+description: |
+  Syntax ... PRIVILEGED ACCESS ... Effect The addition PRIVILEGED ACCESS disables CDS access control(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_access_control_glosry.htm 'Glossary Entry') for all CDS entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencd
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_privileged_access.htm"
+abapFile: "abapselect_privileged_access.htm"
+keywords: ["select", "update", "do", "if", "try", "class", "data", "abapselect", "privileged", "access"]
+---
 
 * * *
 

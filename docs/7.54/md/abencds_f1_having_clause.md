@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, HAVING"
+description: |
+  Syntax ... HAVING cond_expr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conditional_expression.htm) ... Effect Defines a HAVING condition for the results set of a CDS view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm 'Glossary Entr
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_having_clause.htm"
+abapFile: "abencds_f1_having_clause.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "having", "clause"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "switch_german_glosry"
+description: |
+  switch_german_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenswitch_german_glosry.htm"
+abapFile: "abenswitch_german_glosry.htm"
+keywords: ["do", "case", "try", "abenswitch", "german", "glosry"]
+---
 
 * * *
 

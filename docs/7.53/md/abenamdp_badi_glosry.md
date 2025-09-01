@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP BAdI"
+description: |
+  Special BAdI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbadi_glosry.htm 'Glossary Entry') for AMDP procedure implementations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_procedure_method_glosry.htm 'Glossary Entry'). When the associated AMDP procedure
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_badi_glosry.htm"
+abapFile: "abenamdp_badi_glosry.htm"
+keywords: ["do", "try", "method", "abenamdp", "badi", "glosry"]
+---
 
 * * *
 

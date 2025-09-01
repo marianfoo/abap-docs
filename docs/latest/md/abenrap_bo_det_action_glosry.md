@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO determine action"
+description: |
+  Determine actions are specific RAP actions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_action_glosry.htm 'Glossary Entry') that execute determinations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_determination_glosry.htm 'Glossary Entry') an
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_det_action_glosry.htm"
+abapFile: "abenrap_bo_det_action_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "det", "action", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL, Parameter Passing to a CDS View"
+description: |
+  This example demonstrates a read performed on a CDS view(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm 'Glossary Entry') using parameter passing. Source Code REPORT demo_cds_parameters. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLAS
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_cds_para_abexa.htm"
+abapFile: "abenselect_cds_para_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "abenselect", "cds", "para", "abexa"]
+---
 
 * * *
 

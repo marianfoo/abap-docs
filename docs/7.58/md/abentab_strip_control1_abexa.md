@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. MODULE us
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Conversion Exits"
+description: |
+  conversion exit(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_exit_glosry.htm 'Glossary Entry') are implemented in conversion routines(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_routine_glosry.htm 'Glossary Entry') (function mo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_message_exit.htm"
+abapFile: "abenabap_message_exit.htm"
+keywords: ["do", "if", "try", "catch", "types", "abenabap", "message", "exit"]
+---
 
 * * *
 

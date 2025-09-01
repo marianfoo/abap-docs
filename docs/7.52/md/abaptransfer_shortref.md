@@ -1,4 +1,14 @@
-  
+---
+title: "TRANSFER - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptransfer.htm) Syntax TRANSFER dobj TO dset LENGTH len NO END OF LINE. Effect Transfers the data of the data object dobj to the file specified in dset. Additions -   LENGTH len Restricts the number of character
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptransfer_shortref.htm"
+abapFile: "abaptransfer_shortref.htm"
+keywords: ["do", "if", "data", "abaptransfer", "shortref"]
+---
 
 * * *
 

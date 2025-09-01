@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenexception_abexas.htm
 
-  
+---
+title: "Examples of Exceptions"
+description: |
+  !Example(exa.gif 'Example') Exceptions, RAISE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenraise_abexa.htm) !Example(exa.gif 'Example') Exceptions, TRY(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentry_abexa.htm) !Example(exa.gif 'Example') Exceptions, C
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexception_abexas.htm"
+abapFile: "abenexception_abexas.htm"
+keywords: ["do", "if", "try", "catch", "class", "exception-handling", "abenexception", "abexas"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abenraise_abexa.htm
 
-  
+---
+title: "Exceptions, RAISE"
+description: |
+  This example demonstrates the statement RAISE EXCEPTION. Source Code REPORT demo_raise_exception. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: oref    TYPE REF TO cx_demo_constructor, text     TYPE string, position TYPE i. TRY
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenraise_abexa.htm"
+abapFile: "abenraise_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abenraise", "abexa"]
+---
 
 * * *
 
@@ -85,7 +105,17 @@ The output of the line number in which the exception was raised indicates that, 
 
 ### abentry_abexa.htm
 
-  
+---
+title: "Exceptions, TRY"
+description: |
+  This example demonstrates the TRY control structure. Source Code REPORT demo_try. CLASS try_demo DEFINITION. PUBLIC SECTION. CLASS-DATA: result TYPE p LENGTH 8 DECIMALS 2, oref   TYPE REF TO cx_root, text   TYPE string. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA number TYPE i. CLASS-DATA out
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentry_abexa.htm"
+abapFile: "abentry_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abentry", "abexa"]
+---
 
 * * *
 
@@ -168,7 +198,17 @@ Description  
 
 ### abencatch_exception_abexa.htm
 
-  
+---
+title: "Exceptions, CATCH"
+description: |
+  This example demonstrates how class-based exceptions are caught. Source Code REPORT demo_catch_exception. FINAL(in) = cl_demo_input=>new( ). DATA: resumable     TYPE abap_bool VALUE abap_false, before_unwind TYPE abap_bool VALUE abap_false, resume        TYPE abap_bool VALUE abap_false. i
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencatch_exception_abexa.htm"
+abapFile: "abencatch_exception_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "exception-handling", "abencatch", "exception", "abexa"]
+---
 
 * * *
 

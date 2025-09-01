@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abeninterface_areas_obsolete.htm
 
-  
+---
+title: "Interface Work Areas"
+description: |
+  Interface work areas are created only once for each program group(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_group_glosry.htm 'Glossary Entry') and shared by the main program(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmain_program_glosry.htm 'Gloss
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_areas_obsolete.htm"
+abapFile: "abeninterface_areas_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abeninterface", "areas", "obsolete"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abapdata_common.htm
 
-  
+---
+title: "DATA - COMMON PART"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_common_part_shortref.htm) Obsolete Syntax DATA BEGIN OF COMMON PART name. ... DATA ... ... DATA END OF COMMON PART name. Effect This variant of the statement DATA(https://help.sap.com/doc/abapdocu
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_common.htm"
+abapFile: "abapdata_common.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abapdata", "common"]
+---
 
 * * *
 
@@ -105,7 +125,17 @@ ENDFORM.
 
 ### abaptables_asterisk.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  TABLES table_wa. Effect This statement declares an additional table work area(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_work_area_glosry.htm 'Glossary Entry') table_wa, whose data type, like that of the regular TABLES(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_asterisk.htm"
+abapFile: "abaptables_asterisk.htm"
+keywords: ["select", "do", "try", "class", "data", "types", "abaptables", "asterisk"]
+---
 
 * * *
 

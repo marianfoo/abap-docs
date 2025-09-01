@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Semantic Properties of Domains"
+description: |
+  Domains can be given the following semantic properties: -   Short text Each domain is assigned a descriptive short text that must be specified when it is created. -   Documentation A domain can be assigned documentation that can be read as required. -   Output properties The output properties affect
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains_sema.htm"
+abapFile: "abenddic_domains_sema.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "domains", "sema"]
+---
 
 * * *
 

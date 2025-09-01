@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CASE operand WHEN operand1 THEN result1 WHEN operand2 THEN result2 ... ELSE resultn END ... Effect Simple case distinction(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_case.htm) (simple case) in Open SQL. This SQL expression compares the values of operand
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_simple_case.htm"
+abapFile: "abensql_simple_case.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abensql", "simple"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, indicators"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_shortref.htm) Syntax ... INDICATORS NOT NULL STRUCTURE null_ind  NOT NULL BITFIELD null_ind  (indicator_syntax) ... Alternatives: 1. ... INDICATORS NOT NULL STRUCTUR
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_indicators.htm"
+abapFile: "abapselect_indicators.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapselect", "indicators"]
+---
 
 * * *
 

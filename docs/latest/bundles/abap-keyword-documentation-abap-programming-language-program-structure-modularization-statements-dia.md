@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abendialog_module.htm
 
-  
+---
+title: "Dialog Modules"
+description: |
+  Dialog modules help prepare and process screens(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_glosry.htm 'Glossary Entry') of dynpros(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary Entry'). No local data types and data
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendialog_module.htm"
+abapFile: "abendialog_module.htm"
+keywords: ["do", "if", "try", "data", "types", "abendialog", "module"]
+---
 
 * * *
 
@@ -32,7 +42,17 @@ Continue
 
 ### abapmodule.htm
 
-  
+---
+title: "MODULE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule_shortref.htm) Syntax MODULE mod OUTPUTINPUT. ... ENDMODULE. Addition: ... OUTPUTINPUT(#!ABAP_ONE_ADD@1@) Effect The statement MODULE defines a dialog module(https://help.sap.c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule.htm"
+abapFile: "abapmodule.htm"
+keywords: ["do", "if", "try", "method", "data", "abapmodule"]
+---
 
 * * *
 
@@ -85,7 +105,17 @@ ENDMODULE.
 
 ### abapendmodule.htm
 
-  
+---
+title: "ENDMODULE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule_shortref.htm) Syntax ENDMODULE. Effect The statement ENDMODULE closes a module definition introduced using MODULE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule.htm).
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendmodule.htm"
+abapFile: "abapendmodule.htm"
+keywords: ["do", "if", "abapendmodule"]
+---
 
 * * *
 

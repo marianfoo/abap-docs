@@ -1,4 +1,14 @@
-  
+---
+title: "tenant_isolation_glosry"
+description: |
+  tenant_isolation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentenant_isolation_glosry.htm"
+abapFile: "abentenant_isolation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentenant", "isolation", "glosry"]
+---
 
 * * *
 

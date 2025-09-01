@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Buffer Synchronization"
+description: |
+  -   Invalidating and Updating(#abenbuffer-synchro-1--------displacement---@ITOC@@ABENBUFFER_SYNCHRO_2) -   Resetting the Buffer(#@@ITOC@@ABENBUFFER_SYNCHRO_3) Invalidating and Updating A buffered table or DDIC database view usually exists in the table buffers(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuffer_synchro.htm"
+abapFile: "abenbuffer_synchro.htm"
+keywords: ["update", "delete", "do", "while", "if", "case", "try", "method", "data", "abenbuffer", "synchro"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Table Buffering - Buffer Synchronization
 
--   [Invalidating and Updating](#@@ITOC@@ABENBUFFER_SYNCHRO_1)
-
--   [Displacement](#@@ITOC@@ABENBUFFER_SYNCHRO_2)
+-   [Invalidating and Updating](#abenbuffer-synchro-1--------displacement---@ITOC@@ABENBUFFER_SYNCHRO_2)
 
 -   [Resetting the Buffer](#@@ITOC@@ABENBUFFER_SYNCHRO_3)
 

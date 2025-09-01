@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  string_template(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates.htm)    operand1 &&(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_operators.htm) operand2 &&(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-U
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string.htm"
+abapFile: "abapcompute_string.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "types", "abapcompute", "string"]
+---
 
 * * *
 

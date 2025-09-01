@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_shortref.htm) Syntax EXPORT parameter_list(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster_param.htm) TO medium(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm"
+abapFile: "abapexport_data_cluster.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abapexport", "cluster"]
+---
 
 * * *
 

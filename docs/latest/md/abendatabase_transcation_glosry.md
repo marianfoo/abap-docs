@@ -1,4 +1,14 @@
-  
+---
+title: "database_transcation_glosry"
+description: |
+  database_transcation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_transcation_glosry.htm"
+abapFile: "abendatabase_transcation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendatabase", "transcation", "glosry"]
+---
 
 * * *
 

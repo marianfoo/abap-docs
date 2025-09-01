@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  itab - Examples of Virtual Sorts(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvirtual_sort_abexas.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_abap_itab.htm"
+abapFile: "abencl_abap_itab.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "internal-table", "abencl", "abap", "itab"]
+---
 
 * * *
 

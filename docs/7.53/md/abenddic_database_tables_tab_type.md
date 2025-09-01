@@ -1,4 +1,14 @@
-  
+---
+title: "Table Category of Database Tables"
+description: |
+  -   Transparent tables(#abenddic-database-tables-tab-type-1--------global-temporary-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_2) Transparent tables The default table category is the transparent table. In transparent tables, the database object has an identically named variant with the same
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_tab_type.htm"
+abapFile: "abenddic_database_tables_tab_type.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "database", "tables", "tab", "type"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Table Category of Database Tables
 
--   [Transparent tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_1)
-
--   [Global temporary tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_2)
+-   [Transparent tables](#abenddic-database-tables-tab-type-1--------global-temporary-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_2)
 
 Transparent tables
 

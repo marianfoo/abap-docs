@@ -1,4 +1,14 @@
-  
+---
+title: "business_object_glosry"
+description: |
+  business_object_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbusiness_object_glosry.htm"
+abapFile: "abenbusiness_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbusiness", "object", "glosry"]
+---
 
 * * *
 

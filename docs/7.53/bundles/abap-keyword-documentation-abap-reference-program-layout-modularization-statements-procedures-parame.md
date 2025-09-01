@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenformal_parameters_oview.htm
 
-  
+---
+title: "Parameter Interface of Procedures"
+description: |
+  The parameter interface of a procedure consists of formal parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameter_glosry.htm 'Glossary Entry') and specifies the exceptions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_glosry.htm 'Glos
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameters_oview.htm"
+abapFile: "abenformal_parameters_oview.htm"
+keywords: ["select", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenformal", "parameters", "oview"]
+---
 
 * * *
 
@@ -102,7 +112,17 @@ Continue
 
 ### abenprocedure_param_abexa.htm
 
-  
+---
+title: "Pass by Parameter"
+description: |
+  This example demonstrates the difference between passing a parameter in a procedure by value or by reference. Source Code REPORT demo_procedure_param. CLASS demo_fibb DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF line, x TYPE i, y TYPE i, range TYPE i, END OF line. CLASS-DATA: param TYPE STANDARD T
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_param_abexa.htm"
+abapFile: "abenprocedure_param_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenprocedure", "param", "abexa"]
+---
 
 * * *
 

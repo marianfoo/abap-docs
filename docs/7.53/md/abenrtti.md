@@ -1,4 +1,14 @@
-  
+---
+title: "RTTS - Runtime Type Services"
+description: |
+  The RTTS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_services_glosry.htm 'Glossary Entry') are implemented using a hierarchy of type description classes(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_class_glosry.htm 'Glossary Entry') that co
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrtti.htm"
+abapFile: "abenrtti.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenrtti"]
+---
 
 * * *
 

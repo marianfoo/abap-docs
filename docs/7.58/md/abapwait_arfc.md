@@ -1,4 +1,14 @@
-  
+---
+title: "WAIT FOR ASYNCHRONOUS TASKS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_shortref.htm) Syntax WAIT FOR ASYNCHRONOUS TASKS MESSAGING CHANNELS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_amc.htm) PUSH CHANNELS(https://help.sap.com/doc/abapdocu_758_i
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_arfc.htm"
+abapFile: "abapwait_arfc.htm"
+keywords: ["update", "do", "while", "if", "try", "catch", "method", "data", "abapwait", "arfc"]
+---
 
 * * *
 

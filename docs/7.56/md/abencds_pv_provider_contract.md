@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - PROVIDER CONTRACT"
+description: |
+  Syntax ... PROVIDER CONTRACT  TRANSACTIONAL_QUERY  ...    ... Alternatives: 1. ... PROVIDER CONTRACT(#!ABAP_ALTERNATIVE_1@1@) 2. ...  (#!ABAP_ALTERNATIVE_2@2@) Effect The provider contract specifies the scenario in which a CDS projection view is used. The scenario determi
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_pv_provider_contract.htm"
+abapFile: "abencds_pv_provider_contract.htm"
+keywords: ["do", "if", "try", "data", "abencds", "provider", "contract"]
+---
 
 * * *
 

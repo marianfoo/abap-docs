@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in Release 7.40, SP08 applies to all ABAP SQL statements that use one of the following features introduced in Release 7.40 SP08(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp08-abap_sql.htm): -   Columns dbtab~ specified in the SEL
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_strictmode_740_sp08.htm"
+abapFile: "abenabap_sql_strictmode_740_sp08.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenabap", "sql", "strictmode", "740", "sp08"]
+---
 
 * * *
 
@@ -8,8 +18,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 ABAP SQL - Strict Mode in Release 7.40, SP08
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_740_SP08_1)
--   [Rules for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_740_SP08_2)
+-   [Conditions for the Strict Mode](#abenabap-sql-strictmode-740-sp08-1-------rules-for-the-strict-mode---@ITOC@@ABENABAP_SQL_STRICTMODE_740_SP08_2)
 
 Conditions for the Strict Mode
 

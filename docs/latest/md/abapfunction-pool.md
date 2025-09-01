@@ -1,4 +1,14 @@
-  
+---
+title: "FUNCTION-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction-pool_shortref.htm) Syntax FUNCTION-POOL fpool list_options(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_list_options.htm) MESSAGE-ID mid. Addition: ... MES
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction-pool.htm"
+abapFile: "abapfunction-pool.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapfunction", "pool"]
+---
 
 * * *
 

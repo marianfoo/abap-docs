@@ -1,4 +1,14 @@
-  
+---
+title: "Meaning"
+description: |
+  =, EQ Equal: True, if the value of operand1 is equal to the value of operand2. <>, NE Not Equal: True, if the value of operand1 is not equal to the value of operand2. <, LT Less Than: True, if the value of operand1 is less than the value of operand2. >, GT Greater Than: True, if the value of opera
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_any_operand.htm"
+abapFile: "abenlogexp_any_operand.htm"
+keywords: ["loop", "do", "if", "try", "class", "data", "types", "abenlogexp", "any", "operand"]
+---
 
 * * *
 

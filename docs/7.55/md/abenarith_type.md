@@ -1,4 +1,14 @@
-  
+---
+title: "Determining the Calculation Type"
+description: |
+  The calculation type corresponds to one of the numeric data types i, int8, p, f, or decfloat34. It is determined by the following hierarchy, and in this order of decreasing priority: 1.  If one of the data types involved is decfloat16 or decfloat34, the calculation type is decfloat34. 2.  If one of
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarith_type.htm"
+abapFile: "abenarith_type.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "method", "data", "types", "field-symbol", "abenarith", "type"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ arith\_exp - Calculation Type and Calculation Rules
 
 An arithmetic expression is assigned a calculation type that defines the calculation rules for the arithmetic expression. The calculation type is determined at program runtime from the data types involved that can be identified. The calculation type only needs to be determined statically if the target field is an [inline declaration](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninline_declaration_glosry.htm "Glossary Entry"), where generically type operands are included using a [standard type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_type_glosry.htm "Glossary Entry").
 
--   [Determining the Calculation Type](#@@ITOC@@ABENARITH_TYPE_1)
-
--   [Calculation Rules for Calculation Type](#@@ITOC@@ABENARITH_TYPE_2)
+-   [Determining the Calculation Type](#abenarith-type-1--------calculation-rules-for-calculation-type---@ITOC@@ABENARITH_TYPE_2)
 
 -   [Handling the Result](#@@ITOC@@ABENARITH_TYPE_3)
 

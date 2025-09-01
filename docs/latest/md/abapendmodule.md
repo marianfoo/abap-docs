@@ -1,4 +1,14 @@
-  
+---
+title: "ENDMODULE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule_shortref.htm) Syntax ENDMODULE. Effect The statement ENDMODULE closes a module definition introduced using MODULE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule.htm).
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendmodule.htm"
+abapFile: "abapendmodule.htm"
+keywords: ["do", "if", "abapendmodule"]
+---
 
 * * *
 

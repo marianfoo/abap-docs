@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, ROOT"
+description: |
+  Syntax ... ROOT ... Effect The addition ROOT defines the CDS view entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') view_entity as the root entity of a RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_root_view_v2.htm"
+abapFile: "abencds_define_root_view_v2.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "root", "view"]
+---
 
 * * *
 

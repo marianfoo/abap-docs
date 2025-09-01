@@ -1,4 +1,14 @@
-  
+---
+title: "object_component_select_glosry"
+description: |
+  object_component_select_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_component_select_glosry.htm"
+abapFile: "abenobject_component_select_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenobject", "component", "glosry"]
+---
 
 * * *
 

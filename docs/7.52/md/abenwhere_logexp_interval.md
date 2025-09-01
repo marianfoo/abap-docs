@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT BETWEEN operand1 AND operand2 ... Effect This relational expression is true if the content of the operand operand is (is not) between the values of the operands operand1 and operand2. -   Columns(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_column
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_interval.htm"
+abapFile: "abenwhere_logexp_interval.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenwhere", "logexp", "interval"]
+---
 
 * * *
 

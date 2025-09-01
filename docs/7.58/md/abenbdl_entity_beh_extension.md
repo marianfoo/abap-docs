@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... Adding Elements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_new_elem_ext.htm) Extending Elements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_ext_elem_ext.htm) ... Effect Defines the behavior extension body(https://help.sap.com/d
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_entity_beh_extension.htm"
+abapFile: "abenbdl_entity_beh_extension.htm"
+keywords: ["do", "if", "try", "abenbdl", "entity", "beh", "extension"]
+---
 
 * * *
 

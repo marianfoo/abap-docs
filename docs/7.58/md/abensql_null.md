@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... NULL ... Effect Special null expression in ABAP SQL. The operand NULL represents the null value(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennull_value_glosry.htm 'Glossary Entry'). Null expressions are context-dependent and the type of NULL is determined by the context(htt
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_null.htm"
+abapFile: "abensql_null.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abensql", "null"]
+---
 
 * * *
 

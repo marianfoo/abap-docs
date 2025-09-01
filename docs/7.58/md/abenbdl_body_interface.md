@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Body, Interface BDEF"
+description: |
+  Syntax ... use(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_use_projection.htm); Field Characteristics(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_interface.htm); ... Effect In the entity behavior body(https://help.sap.com/doc/
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_body_interface.htm"
+abapFile: "abenbdl_body_interface.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "types", "abenbdl", "body", "interface"]
+---
 
 * * *
 

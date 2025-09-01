@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The scope of the save transactional phase extends to the end of the internal session(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm 'Glossary Entry'). Other than ending the internal session, there is no way to reset the transactional phase. -   The c
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_tx.htm"
+abapFile: "abaprap_cl_abap_tx.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abaprap", "abap"]
+---
 
 * * *
 

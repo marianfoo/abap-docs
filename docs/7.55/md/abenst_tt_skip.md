@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:skip name='name' count='cnt'/> Effect The statement tt.skip allows XML elements to be skipped in deserializations. The statement can be located anywhere in a template. Serialization In serializations, tt:skip is ignored. Deserialization In deserializations, tt:skip has the follow
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_skip.htm"
+abapFile: "abenst_tt_skip.htm"
+keywords: ["do", "if", "data", "abenst", "skip"]
+---
 
 * * *
 

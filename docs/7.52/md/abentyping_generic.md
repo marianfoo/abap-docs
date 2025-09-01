@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  TYPE generic_type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types_generic.htm)    LIKE <generic_fs>generic_para  ... Effect To generically type a formal parameter or a field symbol, -   specify any generic ABAP type generic_type(https://he
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_generic.htm"
+abapFile: "abentyping_generic.htm"
+keywords: ["loop", "do", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abentyping", "generic"]
+---
 
 * * *
 

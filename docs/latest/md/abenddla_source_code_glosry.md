@@ -1,4 +1,14 @@
-  
+---
+title: "DDLA source code"
+description: |
+  CDS source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_source_code_glosry.htm 'Glossary Entry') for CDS annotation definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in CDS DDLA(https
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddla_source_code_glosry.htm"
+abapFile: "abenddla_source_code_glosry.htm"
+keywords: ["do", "if", "try", "abenddla", "source", "code", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 

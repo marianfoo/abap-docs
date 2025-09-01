@@ -1,4 +1,14 @@
-  
+---
+title: "Naming Conventions and Namespaces"
+description: |
+  -   Naming Conventions(#abennaming-conventions-1--------namespaces---@ITOC@@ABENNAMING_CONVENTIONS_2) -   Reserved Names(#@@ITOC@@ABENNAMING_CONVENTIONS_3) Naming Conventions The following conventions apply to the names of all definable objects within ABAP programs, such as data types, data obje
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennaming_conventions.htm"
+abapFile: "abennaming_conventions.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abennaming", "conventions"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Naming Conventions and Namespaces
 
--   [Naming Conventions](#@@ITOC@@ABENNAMING_CONVENTIONS_1)
-
--   [Namespaces](#@@ITOC@@ABENNAMING_CONVENTIONS_2)
+-   [Naming Conventions](#abennaming-conventions-1--------namespaces---@ITOC@@ABENNAMING_CONVENTIONS_2)
 
 -   [Reserved Names](#@@ITOC@@ABENNAMING_CONVENTIONS_3)
 

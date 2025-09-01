@@ -1,4 +1,14 @@
-  
+---
+title: "AUTHORITY-CHECK"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapauthority-check_shortref.htm) Syntax AUTHORITY-CHECK OBJECT auth_obj FOR USER user ID id1 FIELD val1DUMMY ID id2 FIELD val2DUMMY ... ID id10 FIELD val10DUMMY. Addition
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapauthority-check.htm"
+abapFile: "abapauthority-check.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "class", "data", "abapauthority", "check"]
+---
 
 * * *
 

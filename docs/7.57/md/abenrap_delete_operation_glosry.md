@@ -1,4 +1,14 @@
-  
+---
+title: "RAP delete operation"
+description: |
+  A RAP modify operation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_modify_operation_glosry.htm 'Glossary Entry') that deletes RAP BO entity instances(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry'). → More abo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_delete_operation_glosry.htm"
+abapFile: "abenrap_delete_operation_glosry.htm"
+keywords: ["delete", "do", "if", "try", "abenrap", "operation", "glosry"]
+---
 
 * * *
 

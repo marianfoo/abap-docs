@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_raise_error_msg_shrt DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_raise_error_msg_shrt IMPLEMENTATION. METHOD main. TRY. CALL FU
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_error_message_shrt_abexa.htm"
+abapFile: "abenraise_error_message_shrt_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "exception-handling", "abenraise", "error", "message", "shrt", "abexa"]
+---
 
 * * *
 

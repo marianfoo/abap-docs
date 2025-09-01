@@ -1,4 +1,14 @@
-  
+---
+title: "Table-Specific Semantic Attributes of Database Tables"
+description: |
+  The following semantic attributes are provided specifically for database tables. -   Key fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_key.htm) -   Client dependency(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_c
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm"
+abapFile: "abenddic_database_tables_semasspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "semasspec"]
+---
 
 * * *
 

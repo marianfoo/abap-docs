@@ -1,4 +1,14 @@
-  
+---
+title: "SQL functions for UUIDs"
+description: |
+  The following table shows the SQL functions for UUIDs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm 'Glossary Entry') that are supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_uuid.htm"
+abapFile: "abensql_functions_uuid.htm"
+keywords: ["do", "try", "abensql", "functions", "uuid"]
+---
 
 * * *
 

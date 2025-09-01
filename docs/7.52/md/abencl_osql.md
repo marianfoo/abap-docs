@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - System Classes"
+description: |
+  To extend the Open SQL language, the following system classes are available: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_osql_extended_result.htm) handles extended results -   CL_OSQL_REPLACE(https://help.sap.com/doc/abapdocu_752_index_htm/7
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 

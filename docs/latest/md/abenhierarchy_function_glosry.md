@@ -1,4 +1,14 @@
-  
+---
+title: "hierarchy_function_glosry"
+description: |
+  hierarchy_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhierarchy_function_glosry.htm"
+abapFile: "abenhierarchy_function_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenhierarchy", "function", "glosry"]
+---
 
 * * *
 

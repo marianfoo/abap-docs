@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT ENTITIES, IN SIMULATION MODE"
+description: |
+  Syntax COMMIT ENTITIES ... IN SIMULATION MODE ... Effect Optional addition of COMMIT ENTITIES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) statements that allows a RAP transaction to be checked. It processes the RAP early save phase(https://help.sap.co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities_simulation.htm"
+abapFile: "abapcommit_entities_simulation.htm"
+keywords: ["do", "while", "if", "case", "try", "data", "abapcommit", "entities", "simulation"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "db_object_glosry"
+description: |
+  db_object_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_object_glosry.htm"
+abapFile: "abendb_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendb", "object", "glosry"]
+---
 
 * * *
 

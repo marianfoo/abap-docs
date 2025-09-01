@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Naming Rules for Data Types"
+description: |
+  The name of a data type defined in the ABAP Dictionary must comply to the following rules: -   It can have a maximum of 30 characters. -   I can consist of letters, digits and underscores. -   It must start with a letter. -   It can be introduced using a namespace prefix(https://help.sap.com/doc/a
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_types_names.htm"
+abapFile: "abenddic_types_names.htm"
+keywords: ["do", "case", "try", "data", "types", "abenddic", "names"]
+---
 
 * * *
 

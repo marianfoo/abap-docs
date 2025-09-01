@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abencl_abap_itab.htm
 
-  
+---
+title: "System Class for Internal Tables"
+description: |
+  The class CL_ABAP_ITAB_UTILITIES contains the following methods: -   FLUSH_ITAB_KEY and FLUSH_ITAB_KEYS can be used to update individual secondary table keys(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm 'Glossary Entry') or all secondary tabl
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_itab.htm"
+abapFile: "abencl_abap_itab.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "internal-table", "abencl", "abap", "itab"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abenvirtual_sort_abexas.htm
 
-  
+---
+title: "Examples of Virtual Sorting of Internal Tables"
+description: |
+  !Example(exa.gif 'Example') Virtual Sorting of an Internal Table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_simple_abexa.htm) !Example(exa.gif 'Example') Virtual Sorting of Two Internal Tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvir
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_abexas.htm"
+abapFile: "abenvirtual_sort_abexas.htm"
+keywords: ["do", "if", "class", "data", "internal-table", "abenvirtual", "sort", "abexas"]
+---
 
 * * *
 
@@ -52,7 +72,17 @@ Continue
 
 ### abenvirtual_sort_simple_abexa.htm
 
-  
+---
+title: "Virtual Sorting of an Internal Table"
+description: |
+  This example demonstrates the virtual sorting of a single internal table. Source Code REPORT demo_virtual_sort_simple. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, col1 TYPE i, col2 TYPE i, col3 TYPE string, col
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_simple_abexa.htm"
+abapFile: "abenvirtual_sort_simple_abexa.htm"
+keywords: ["select", "do", "case", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "simple", "abexa"]
+---
 
 * * *
 
@@ -142,7 +172,17 @@ An internal table filled with random numbers and letters is sorted virtually usi
 
 ### abenvirtual_sort_combined_abexa.htm
 
-  
+---
+title: "Virtual Sorting of Two Internal Tables"
+description: |
+  This example demonstrates the virtual sorting of two internal tables. Source Code REPORT demo_virtual_sort_combined. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, itab1 TY
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_combined_abexa.htm"
+abapFile: "abenvirtual_sort_combined_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "combined", "abexa"]
+---
 
 * * *
 
@@ -246,7 +286,17 @@ An internal table itab1 containing random numbers and an internal table itab2 co
 
 ### abenvirtual_sort_filter_abexa.htm
 
-  
+---
+title: "Virtual Sorting of an Internal Table with Filters"
+description: |
+  This example demonstrates the virtual sorting of an internal table with row filtering. Source Code REPORT demo_virtual_sort_filter. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES itab TYPE STANDARD TABLE OF i WITH EMPTY KEY. DATA
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_filter_abexa.htm"
+abapFile: "abenvirtual_sort_filter_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "filter", "abexa"]
+---
 
 * * *
 
@@ -299,7 +349,17 @@ An internal table filled with random numbers is sorted in ascending order by its
 
 ### abenvirtual_sort_flights_abexa.htm
 
-  
+---
+title: "Virtual Sorting of Flight Data"
+description: |
+  This example demonstrates the virtual sorting of an internal table containing flight data. Source Code REPORT demo_virtual_sort_flights. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF flight, carrid   TYPE s_carr_id, connid   TYPE s_conn_id, cityfrom TYPE s_city, cityto   TYPE s_cit
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_flights_abexa.htm"
+abapFile: "abenvirtual_sort_flights_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "flights", "abexa"]
+---
 
 * * *
 
@@ -421,7 +481,17 @@ It is sorted once in ascending order and once in descending order. This does not
 
 ### abenvirtual_sort_abexas.htm
 
-  
+---
+title: "Examples of Virtual Sorting of Internal Tables"
+description: |
+  !Example(exa.gif 'Example') Virtual Sorting of an Internal Table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_simple_abexa.htm) !Example(exa.gif 'Example') Virtual Sorting of Two Internal Tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvir
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_abexas.htm"
+abapFile: "abenvirtual_sort_abexas.htm"
+keywords: ["do", "if", "class", "data", "internal-table", "abenvirtual", "sort", "abexas"]
+---
 
 * * *
 

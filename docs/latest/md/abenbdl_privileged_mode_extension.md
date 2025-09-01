@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - with privileged mode, Extension"
+description: |
+  Syntax ... with privileged mode disabling ContextName; ... Effect Enables BDEF privileged mode(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_privileged_mode_glosry.htm 'Glossary Entry') for an extended RAP BO. BDEF privileged mode is a prerequisite for using the addition
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_privileged_mode_extension.htm"
+abapFile: "abenbdl_privileged_mode_extension.htm"
+keywords: ["delete", "do", "if", "try", "abenbdl", "privileged", "mode", "extension"]
+---
 
 * * *
 

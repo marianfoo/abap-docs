@@ -1,4 +1,14 @@
-  
+---
+title: "Persistent Object References"
+description: |
+  At runtime, the persistence service works with the instances of persistent classes, which are generally addressed and kept alive using references (as in ABAP Objects). If a reference to a persistent object is to be persisted beyond the runtime of an ABAP program (for example, to work with the same o
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenos_persistence_refs.htm"
+abapFile: "abenos_persistence_refs.htm"
+keywords: ["do", "while", "if", "class", "data", "abenos", "persistence", "refs"]
+---
 
 * * *
 

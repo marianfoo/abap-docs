@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Byte-Like Types"
+description: |
+  The data objects of the byte-like data types are used to record byte strings. Properties Type Length Standard Length Name x 1 to 524,287 bytes 1 byte Byte field(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbyte_field_glosry.htm 'Glossary Entry') xstring Variable Byte string(htt
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_byte.htm"
+abapFile: "abenbuiltin_types_byte.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenbuiltin", "byte"]
+---
 
 * * *
 

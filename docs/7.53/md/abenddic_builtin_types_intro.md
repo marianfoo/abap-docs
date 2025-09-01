@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Data Types in ABAP Dictionary"
+description: |
+  The built-in data types in ABAP Dictionary are used as follows: -   They are used to construct the actual data types (data elements, structures (including database tables and views), table types, and CDS entities) in ABAP Dictionary. In ABAP, however, they cannot be addressed directly using only the
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm"
+abapFile: "abenddic_builtin_types_intro.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "builtin", "intro"]
+---
 
 * * *
 

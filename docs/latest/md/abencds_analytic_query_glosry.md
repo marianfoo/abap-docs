@@ -1,4 +1,14 @@
-  
+---
+title: "CDS analytical query"
+description: |
+  → CDS analytical projection view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_analytical_pv_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_analytic_query_glosry.htm"
+abapFile: "abencds_analytic_query_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "analytic", "query", "glosry"]
+---
 
 * * *
 

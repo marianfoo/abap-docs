@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Text Language of Database Tables"
+description: |
+  One field of type LANG(abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_7) (language key) can be labeled as the text language(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_language_glosry.htm 'Glossary Entry') of a DDIC database table. The text language is used whe
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dbtab_text_language.htm"
+abapFile: "abenddic_dbtab_text_language.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "dbtab", "text", "language"]
+---
 
 * * *
 

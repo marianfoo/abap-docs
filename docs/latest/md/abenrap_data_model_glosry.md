@@ -1,4 +1,14 @@
-  
+---
+title: "RAP data model"
+description: |
+  Part of a RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') that defines the data that is used in the RAP BO. It consists of RAP BO entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_glosry.htm '
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_data_model_glosry.htm"
+abapFile: "abenrap_data_model_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "model", "glosry"]
+---
 
 * * *
 

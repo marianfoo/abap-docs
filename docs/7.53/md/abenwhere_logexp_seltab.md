@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT IN @seltab ... Effect This relational expression is true if the value of the operand operand is (not) in the results set described in the rows of the ranges table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm 'Glossary Entry') seltab
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_seltab.htm"
+abapFile: "abenwhere_logexp_seltab.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "class", "data", "internal-table", "abenwhere", "logexp", "seltab"]
+---
 
 * * *
 

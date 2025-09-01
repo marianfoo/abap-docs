@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, SELECT, UNION"
+description: |
+  Syntax ... UNION ALL select_statement(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_statement_v1.htm) ... Effect Creates the union of rows in the result sets of two SELECT statements(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_st
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm"
+abapFile: "abencds_union_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "internal-table", "abencds", "union"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO extension"
+description: |
+  A repository object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that extends a RAP BO(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). Examples are BDEF extensions(https://help.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_extension_glosry.htm"
+abapFile: "abenrap_bo_extension_glosry.htm"
+keywords: ["do", "try", "abenrap", "extension", "glosry"]
+---
 
 * * *
 

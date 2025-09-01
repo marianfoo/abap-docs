@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Database Access"
+description: |
+  -   Obsolete ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_obsolete.htm) -   Obsolete Native SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql_obsolete.htm) -   Obsolete Access Statements(https://help.sap.com/doc/abapdocu
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_access_obsolete.htm"
+abapFile: "abendatabase_access_obsolete.htm"
+keywords: ["do", "if", "data", "abendatabase", "access", "obsolete"]
+---
 
 * * *
 

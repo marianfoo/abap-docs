@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Deleting Rows Using the Index"
+description: |
+  This example demonstrates how rows can be deleted from internal tables using the index. Source Code REPORT demo_int_tables_delete_ind_1. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA itab TYPE SORTED TABLE OF i WITH UNIQUE KEY
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendelete_line_idx_abexa.htm"
+abapFile: "abendelete_line_idx_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "method", "class", "data", "internal-table", "abendelete", "line", "idx", "abexa"]
+---
 
 * * *
 

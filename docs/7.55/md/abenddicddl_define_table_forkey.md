@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  WITH FOREIGN KEY n,m check_table WHERE check_field1 = dbtab.field1 AND check_field2 = dbtab.field2 ... ... Effect Assigns a check table(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_checktab.htm) to a table field(https://help.sap.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_forkey.htm"
+abapFile: "abenddicddl_define_table_forkey.htm"
+keywords: ["do", "if", "try", "data", "abenddicddl", "define", "table", "forkey"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS - DEFINITION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass_shortref.htm) Syntax CLASS class DEFINITION class_options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass_options.htm). PUBLIC SECTION(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass_definition.htm"
+abapFile: "abapclass_definition.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abapclass", "definition"]
+---
 
 * * *
 

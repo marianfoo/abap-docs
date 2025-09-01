@@ -1,4 +1,14 @@
-  
+---
+title: "write_lock_glosry"
+description: |
+  write_lock_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_lock_glosry.htm"
+abapFile: "abenwrite_lock_glosry.htm"
+keywords: ["do", "try", "abenwrite", "lock", "glosry"]
+---
 
 * * *
 

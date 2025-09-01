@@ -1,4 +1,14 @@
-  
+---
+title: "Character and Byte String Processing - Overview"
+description: |
+  -   Character and byte strings(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_strings.htm) -   Operands in character and byte string processing(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_operands.htm) -   Closing space in c
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_oview.htm"
+abapFile: "abenstring_processing_oview.htm"
+keywords: ["do", "data", "abenstring", "processing", "oview"]
+---
 
 * * *
 

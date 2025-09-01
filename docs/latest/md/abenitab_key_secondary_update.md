@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  The example for Deletion Using Table Keys(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendelete_itab_using_key_abexa.htm) demonstrates the runtimes that are required to create the secondary key and when they occur.
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_update.htm"
+abapFile: "abenitab_key_secondary_update.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abenitab", "key", "secondary"]
+---
 
 * * *
 

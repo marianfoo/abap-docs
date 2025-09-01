@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ONLY  GLOBAL  GLOBAL FEATURES  GLOBAL AUTHORIZATION  INSTANCE  INSTANCE FEATURES  INSTANCE AUTHORIZATION  FEATURES  AUTHORIZATION  (dyn_spec)  ... Effect The only_clause specifies which control characteristics (instance/global and features/authorization aspects) a
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_permissions_only_clause.htm"
+abapFile: "abapget_permissions_only_clause.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abapget", "permissions", "only", "clause"]
+---
 
 * * *
 

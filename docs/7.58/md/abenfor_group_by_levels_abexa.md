@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_for_grps_by_levels DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. TYPES: BEGIN OF line, col1 TYPE c LENGTH 1, col2 TYPE i, col3 TYPE i, END OF line, i_tab TYPE HASHED TABLE
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_group_by_levels_abexa.htm"
+abapFile: "abenfor_group_by_levels_abexa.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "levels", "abexa"]
+---
 
 * * *
 

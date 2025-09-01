@@ -1,4 +1,14 @@
-  
+---
+title: "basic_arith_oper_glosry"
+description: |
+  basic_arith_oper_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbasic_arith_oper_glosry.htm"
+abapFile: "abenbasic_arith_oper_glosry.htm"
+keywords: ["do", "try", "abenbasic", "arith", "oper", "glosry"]
+---
 
 * * *
 

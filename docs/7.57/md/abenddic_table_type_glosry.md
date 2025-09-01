@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC table type"
+description: |
+  Table type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_type_glosry.htm 'Glossary Entry') for an internal table(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_table_glosry.htm 'Glossary Entry') defined as a DDIC type(https://help.sap.com/doc/aba
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_type_glosry.htm"
+abapFile: "abenddic_table_type_glosry.htm"
+keywords: ["do", "if", "try", "types", "internal-table", "abenddic", "table", "type", "glosry"]
+---
 
 * * *
 

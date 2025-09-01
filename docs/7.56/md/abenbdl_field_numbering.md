@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - field numbering"
+description: |
+  Syntax ... field(numbering:managed) Field1, Field2, ...; Effect Defines managed internal numbering(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_int_numbering_glosry.htm 'Glossary Entry') for a RAP BO field(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_b
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_numbering.htm"
+abapFile: "abenbdl_field_numbering.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "data", "abenbdl", "field", "numbering"]
+---
 
 * * *
 

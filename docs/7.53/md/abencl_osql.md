@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Sorting Internal Tables with Secondary Keys"
+description: |
+  This example demonstrates how tables with secondary table keys are sorted. Source Code  Public class definition CLASS cl_demo_int_tbls_sort_sec_key DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class impleme
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensort_itab_sec_key_abexa.htm"
+abapFile: "abensort_itab_sec_key_abexa.htm"
+keywords: ["loop", "do", "if", "method", "class", "data", "internal-table", "abensort", "itab", "sec", "key", "abexa"]
+---
 
 * * *
 

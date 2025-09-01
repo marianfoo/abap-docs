@@ -1,4 +1,14 @@
-  
+---
+title: "CDS service definition"
+description: |
+  A CDS service definition is a RAP object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_rap_object_glosry.htm 'Glossary Entry') that exposes CDS entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_object_glosry.htm 'Glossary Entry') for a bu
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_service_definition_glosry.htm"
+abapFile: "abencds_service_definition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "service", "definition", "glosry"]
+---
 
 * * *
 

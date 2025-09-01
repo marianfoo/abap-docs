@@ -1,4 +1,14 @@
-  
+---
+title: "Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository (Obsolete)"
+description: |
+  Note: SAP HANA XSA(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxsa_glosry.htm 'Glossary Entry') replaces SAP HANA XSC(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxsc_glosry.htm 'Glossary Entry'). The access methods(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_script.htm"
+abapFile: "abensql_script.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abensql", "script"]
+---
 
 * * *
 

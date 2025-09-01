@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for RAP Business Objects"
+description: |
+  Work in progress  This section describes the ABAP language elements for RAP business objects (BOs)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). A RAP business object comprises both CDS parts and ABAP parts: -   CDS parts(https://help.sa
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm"
+abapFile: "abenabap_business_objects.htm"
+keywords: ["do", "try", "data", "abenabap", "business", "objects"]
+---
 
 * * *
 

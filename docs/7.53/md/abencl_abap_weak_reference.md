@@ -1,4 +1,14 @@
-  
+---
+title: "Weak References"
+description: |
+  An object in the system class CL_ABAP_WEAK_REFERENCE represents a weak reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenweak_reference_glosry.htm 'Glossary Entry') to an object in a class. Unlike regular object references(https://help.sap.com/doc/abapdocu_753_index_htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_weak_reference.htm"
+abapFile: "abencl_abap_weak_reference.htm"
+keywords: ["select", "delete", "do", "if", "try", "method", "class", "data", "types", "abencl", "abap", "weak", "reference"]
+---
 
 * * *
 

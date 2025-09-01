@@ -1,4 +1,14 @@
-  
+---
+title: "main_mode_glosry"
+description: |
+  main_mode_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmain_mode_glosry.htm"
+abapFile: "abenmain_mode_glosry.htm"
+keywords: ["do", "try", "abenmain", "mode", "glosry"]
+---
 
 * * *
 

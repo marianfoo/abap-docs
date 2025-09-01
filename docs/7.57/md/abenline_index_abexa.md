@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVATE SECTION. CLASS-DATA flight_tab TYPE STANDARD TABLE OF spfli WITH EMPTY KEY WITH UNIQUE HASHED KEY id COMPONENTS carrid connid WITH NON-UNIQUE SORTED KEY cities COMPONENTS cityfrom cityto. ENDCLASS. CLASS
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenline_index_abexa.htm"
+abapFile: "abenline_index_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "internal-table", "abenline", "index", "abexa"]
+---
 
 * * *
 

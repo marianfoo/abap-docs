@@ -1,4 +1,14 @@
-  
+---
+title: "area_instance_glosry"
+description: |
+  area_instance_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarea_instance_glosry.htm"
+abapFile: "abenarea_instance_glosry.htm"
+keywords: ["do", "try", "abenarea", "instance", "glosry"]
+---
 
 * * *
 

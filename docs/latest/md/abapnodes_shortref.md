@@ -1,4 +1,14 @@
-  
+---
+title: "NODES - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapnodes.htm) Syntax NODES node TYPE type. Effect Declares an interface work area(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_work_area_glosry.htm 'Glossary Entry') node for data
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapnodes_shortref.htm"
+abapFile: "abapnodes_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapnodes", "shortref"]
+---
 
 * * *
 

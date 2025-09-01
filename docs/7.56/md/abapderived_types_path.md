@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %path is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used as a component of the reported(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm) response parame
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_path.htm"
+abapFile: "abapderived_types_path.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "types", "abapderived", "path"]
+---
 
 * * *
 

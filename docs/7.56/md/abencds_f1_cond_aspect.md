@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (element1 , element2, ... ) = ASPECT aspect FILTER BY ( aspect filter ) ... Addition: ... FILTER BY(#!ABAP_ONE_ADD@1@) Effect Aspect condition as part of an access condition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenaccess_condition_glosry.htm 'Glossary E
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_aspect.htm"
+abapFile: "abencds_f1_cond_aspect.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "abencds", "cond", "aspect"]
+---
 
 * * *
 

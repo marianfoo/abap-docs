@@ -1,4 +1,14 @@
-  
+---
+title: "Areas - Dynamic Area Properties"
+description: |
+  The dynamic properties of an area are ignored when the area class(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarea_class_glosry.htm 'Glossary Entry') is generated. These properties can be changed by developers only. When the dynamic properties of an area are changed dynamically
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_area_dynamic_properties.htm"
+abapFile: "abenshm_area_dynamic_properties.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "types", "abenshm", "area", "dynamic", "properties"]
+---
 
 * * *
 

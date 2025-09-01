@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Examples"
+description: |
+  !Example(exa.gif 'Example') EXEC SQL, Use(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm) !Example(exa.gif 'Example') EXEC SQL, Accessing a Database Function(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm"
+abapFile: "abenexec_sql_abexas.htm"
+keywords: ["do", "if", "data", "abenexec", "sql", "abexas"]
+---
 
 * * *
 

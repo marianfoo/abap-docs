@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Class Events"
+description: |
+  In ABAP Objects, events(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenevents_overview.htm) are declared as components of classes. There is a distinction between instance events and static events. Triggers and handlers can be objects and classes, depending on whether they are insta
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_events.htm"
+abapFile: "abenclass_events.htm"
+keywords: ["do", "try", "method", "class", "abenclass", "events"]
+---
 
 * * *
 

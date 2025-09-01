@@ -1,4 +1,14 @@
-  
+---
+title: "Using Dynamic Data Objects"
+description: |
+  Background Dynamic data objects are a subgroup of dynamic memory objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmem_cons_dyn_mem_obj_guidl.htm 'Guideline') and simply consist of: -   Strings -   Internal tables The data type statically defines all properties for dynami
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_dyn_data_object_guidl.htm"
+abapFile: "abenuse_dyn_data_object_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "class", "data", "types", "internal-table", "abenuse", "dyn", "object", "guidl"]
+---
 
 * * *
 

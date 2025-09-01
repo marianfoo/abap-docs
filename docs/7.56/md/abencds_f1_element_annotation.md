@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_756_in
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm"
+abapFile: "abencds_f1_element_annotation.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "element", "annotation"]
+---
 
 * * *
 
@@ -37,46 +47,9 @@ Element annotations can be specified before and after the element:
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
--   [API Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_1)
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
--   [Environment Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_3)
--   [Semantics Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_4)
--   [ObjectModel Annotation](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_5)
-
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
-
-Hint
-
-For each element annotation that is not part of an [annotation array](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_array_glosry.htm "Glossary Entry") the special value [null](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax_value.htm) can be specified without quotation marks. This means that the annotations are ignored in the [evaluation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_analysis.htm) with class CL\_DD\_DDL\_ANNOTATION\_SERVICE by default.
-
-API Annotations
-
-Defines the release of the element in the restricted [ABAP language versions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_version_glosry.htm "Glossary Entry").
-
-Annotation
-
-Meaning
-
-Annotation Values
-
-Default Value if Not Used
-
-Default Value if Used Without Value
-
-API.element.releaseState
-
-In a CDS entity released using a [release contract](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrelease_contract_glosry.htm "Glossary Entry"), overrides the release of individual elements.
-
-#DEPRECATED:
-The element should no longer be used. If accessed, the element produces a syntax check warning in restricted [ABAP language versions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_version_glosry.htm "Glossary Entry").
-
-\-
-
-\-
-
-API.element.successor
-
-Name of a successor that replaces an element forbidden using @API.element.releaseState:#DEPRECATED.
+-   [API Annotations](#abencds-f1-element-annotation-1-------endusertext-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
+-   [Environment Annotations](#abencds-f1-element-annotation-3-------semantics-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_4)
+-   [ObjectModel Annotation](#abencds-f1-element-annotation-5---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--for-each-element-annotation-that-is-not-part-of-an--annotation-array--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenannotation-array-glosry-htm--glossary-entry---the-special-value--null--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-annotations-syntax-value-htm--can-be-specified-without-quotation-marks--this-means-that-the-annotations-are-ignored-in-the--evaluation--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-annotations-analysis-htm--with-class-cl--dd--ddl--annotation--service-by-default---api-annotations--defines-the-release-of-the-element-in-the-restricted--abap-language-versions--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenabap-version-glosry-htm--glossary-entry-----annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--api-element-releasestate--in-a-cds-entity-released-using-a--release-contract--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenrelease-contract-glosry-htm--glossary-entry----overrides-the-release-of-individual-elements----deprecated--the-element-should-no-longer-be-used--if-accessed--the-element-produces-a-syntax-check-warning-in-restricted--abap-language-versions--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abenabap-version-glosry-htm--glossary-entry-------------api-element-successor--name-of-a-successor-that-replaces-an-element-forbidden-using-API.element.releaseState:#DEPRECATED.
 
 Name of an element of the type [ElementRef](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation_type.htm).
 

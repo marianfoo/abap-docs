@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS"
+description: |
+  The following table shows the built-in Dictionary types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) that can be used in ABAP CDS and their notation in ABAP CDS. The third column indicates whether a data type can be used for typing(https://help.sap.com/d
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_overview_builtin_types.htm"
+abapFile: "abencds_overview_builtin_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "overview", "builtin"]
+---
 
 * * *
 

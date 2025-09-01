@@ -1,4 +1,14 @@
-  
+---
+title: "branch_1_glosry"
+description: |
+  branch_1_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbranch_1_glosry.htm"
+abapFile: "abenbranch_1_glosry.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "abenbranch", "glosry"]
+---
 
 * * *
 

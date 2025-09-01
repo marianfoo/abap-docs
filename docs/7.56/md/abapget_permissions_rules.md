@@ -1,4 +1,14 @@
-  
+---
+title: "GET PERMISSIONS, Guidelines"
+description: |
+  When using GET PERMISSIONS statements, the following aspects must be taken into consideration: -   Permission result consolidation and best practices -   RAP BO provider guidelines -   RAP BO consumer guidelines -   Best practices for authorization Permission result consolidation and best practices
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_permissions_rules.htm"
+abapFile: "abapget_permissions_rules.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "data", "abapget", "permissions", "rules"]
+---
 
 * * *
 

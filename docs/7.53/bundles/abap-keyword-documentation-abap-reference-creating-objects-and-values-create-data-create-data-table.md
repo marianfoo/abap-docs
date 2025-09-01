@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapcreate_data_itab.htm
 
-  
+---
+title: "CREATE DATA - TABLE OF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_area_handle.htm)  TYPE STANDARDSORTEDHASHED TABLE O
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_itab.htm"
+abapFile: "abapcreate_data_itab.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapcreate", "itab"]
+---
 
 * * *
 
@@ -80,7 +90,17 @@ Continue
 
 ### abencreate_tabular_data_abexa.htm
 
-  
+---
+title: "Creating Tabular Data Objects"
+description: |
+  The example demonstrates the creation of tabular data objects Source Code REPORT demo_create_tabular_data. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA dref TYPE REF TO data. DATA: dbtab TYPE tabname VALUE 'SPFLI', rows  TYPE i
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_tabular_data_abexa.htm"
+abapFile: "abencreate_tabular_data_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abencreate", "tabular", "abexa"]
+---
 
 * * *
 

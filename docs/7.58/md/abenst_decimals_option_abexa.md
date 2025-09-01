@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Option for Decimal Places"
+description: |
+  This example demonstrates the representation of numeric ABAP types and the time stamp type utclong with specifications for decimal places. Source Code  Public class definition CLASS cl_demo_st_decimals_option DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. M
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_decimals_option_abexa.htm"
+abapFile: "abenst_decimals_option_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenst", "decimals", "option", "abexa"]
+---
 
 * * *
 

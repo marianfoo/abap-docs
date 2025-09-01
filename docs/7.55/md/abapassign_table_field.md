@@ -1,4 +1,14 @@
-  
+---
+title: "ASSIGN, TABLE FIELD"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_shortref.htm) Obsolete Syntax ASSIGN TABLE FIELD (name). Effect This variant of the dynamic specification(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_dynamic_dobj.htm) of the
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_table_field.htm"
+abapFile: "abapassign_table_field.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abapassign", "table", "field"]
+---
 
 * * *
 

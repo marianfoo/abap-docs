@@ -1,4 +1,14 @@
-  
+---
+title: "Text Repositories"
+description: |
+  The following types of persistent texts can be accessed in ABAP programs: -   Text pools(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_pool.htm) -   Messages(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_messages.htm) These texts can be translated into
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_texts.htm"
+abapFile: "abenabap_texts.htm"
+keywords: ["do", "if", "try", "types", "abenabap", "texts"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Checkboxes and Radio Buttons"
+description: |
+  The example shows how to process checkboxes and radio buttons on screens. Source Code PROGRAM demo_dynpro_check_radio . DATA: radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, field1(10) TYPE c, field2(10) TYPE c, field3(10) TYPE c, box TYPE c. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-u
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_radio_button_abexa.htm"
+abapFile: "abendynpro_radio_button_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "radio", "button", "abexa"]
+---
 
 * * *
 

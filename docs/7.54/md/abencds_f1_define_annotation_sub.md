@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE ANNOTATION, subannos"
+description: |
+  Syntax ... @annotation_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) @annotation_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) ... subAnno1: type(https://help.sap.co
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation_sub.htm"
+abapFile: "abencds_f1_define_annotation_sub.htm"
+keywords: ["do", "if", "try", "abencds", "define", "annotation", "sub"]
+---
 
 * * *
 

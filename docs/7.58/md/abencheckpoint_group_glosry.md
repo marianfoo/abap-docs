@@ -1,4 +1,14 @@
-  
+---
+title: "checkpoint_group_glosry"
+description: |
+  checkpoint_group_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheckpoint_group_glosry.htm"
+abapFile: "abencheckpoint_group_glosry.htm"
+keywords: ["do", "if", "try", "abencheckpoint", "group", "glosry"]
+---
 
 * * *
 

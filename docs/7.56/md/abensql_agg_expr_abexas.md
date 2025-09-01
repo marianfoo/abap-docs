@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') sql_agg - Aggregate Function string_agg(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_string_agg_abexa.htm) !Example(exa.gif 'Example') sql_agg - Use in Aggregate Expressions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_agg_expr_abexas.htm"
+abapFile: "abensql_agg_expr_abexas.htm"
+keywords: ["select", "do", "if", "data", "abensql", "agg", "expr", "abexas"]
+---
 
 * * *
 

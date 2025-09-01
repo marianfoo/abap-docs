@@ -1,4 +1,14 @@
-  
+---
+title: "Converting a Classic Exception to a Class-Based Exception"
+description: |
+  The example demonstrates the short form of the statement RAISE EXCEPTION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm) with the addition MESSAGE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm). Source Code
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenraise_message_glbl_shrt_abexa.htm"
+abapFile: "abenraise_message_glbl_shrt_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "exception-handling", "abenraise", "message", "glbl", "shrt", "abexa"]
+---
 
 * * *
 

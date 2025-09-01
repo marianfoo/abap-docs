@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, association"
+description: |
+  Syntax ... ASSOCIATION  min..max  TO target ON cds_cond  WITH DEFAULT FILTER cds_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v1.htm)  ... Additions: 1. ... min..max(#!ABAP_ADDITION_1@1@) 2. ... ON cds_cond(#!ABAP_A
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_custom_association.htm"
+abapFile: "abencds_f1_custom_association.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "custom", "association"]
+---
 
 * * *
 

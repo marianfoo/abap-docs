@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACE, components"
+description: |
+  The following declaration statements are possible in interfaces for components: -   TYPES(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes.htm), DATA(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata.htm), CLASS-DATA(https://help.sap.com/doc/abapdocu_756_i
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninterface_component.htm"
+abapFile: "abeninterface_component.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abeninterface", "component"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - GET FEATURES"
+description: |
+  Work in progress  ABAP EML - GET FEATURES DYN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features_dyn.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm"
+abapFile: "abeneml_get_features.htm"
+keywords: ["do", "abeneml", "get", "features"]
+---
 
 * * *
 

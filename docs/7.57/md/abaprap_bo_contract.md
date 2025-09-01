@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Business Object Contract - Overview"
+description: |
+  The RAP business object contract defines a set of rules and guidelines for the RAP BO provider(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry') and consumer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_g
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprap_bo_contract.htm"
+abapFile: "abaprap_bo_contract.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "method", "data", "types", "abaprap", "contract"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "function_code_glosry"
+description: |
+  function_code_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_code_glosry.htm"
+abapFile: "abenfunction_code_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenfunction", "code", "glosry"]
+---
 
 * * *
 

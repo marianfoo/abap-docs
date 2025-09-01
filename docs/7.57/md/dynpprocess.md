@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  PROCESS  BEFORE OUTPUT  AFTER INPUT  ON HELP-REQUEST  ON VALUE-REQUEST . Alternatives: 1. ... BEFORE OUTPUT.(#!ABAP_ALTERNATIVE_1@1@) 2. ... AFTER INPUT.(#!ABAP_ALTERNATIVE_2@2@) 3. ... ON HELP-REQUEST.(#!ABAP_ALTERNATIVE_3@3@) 4. ... ON VALUE-REQUES
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpprocess.htm"
+abapFile: "dynpprocess.htm"
+keywords: ["select", "do", "while", "if", "try", "data", "dynpprocess"]
+---
 
 * * *
 

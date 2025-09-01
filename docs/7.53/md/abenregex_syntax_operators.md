@@ -1,4 +1,14 @@
-  
+---
+title: "Character String Patterns"
+description: |
+  Character strings are represented by chainings or operators. -   Chainings(#abenregex-syntax-operators-1--------operators-for-character-strings---@ITOC@@ABENREGEX_SYNTAX_OPERATORS_2) -   Chaining Operators(#abenregex-syntax-operators-3--------alternatives---@ITOC@@ABENREGEX_SYNTAX_OPERATORS_4) -
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_syntax_operators.htm"
+abapFile: "abenregex_syntax_operators.htm"
+keywords: ["do", "if", "method", "class", "data", "abenregex", "syntax", "operators"]
+---
 
 * * *
 
@@ -10,21 +20,13 @@ Character String Patterns
 
 Character strings are represented by chainings or operators.
 
--   [Chainings](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_1)
+-   [Chainings](#abenregex-syntax-operators-1--------operators-for-character-strings---@ITOC@@ABENREGEX_SYNTAX_OPERATORS_2)
 
--   [Operators for Character Strings](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_2)
+-   [Chaining Operators](#abenregex-syntax-operators-3--------alternatives---@ITOC@@ABENREGEX_SYNTAX_OPERATORS_4)
 
--   [Chaining Operators](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_3)
+-   [Subgroups](#abenregex-syntax-operators-5--------subgroups-with-registration---@ITOC@@ABENREGEX_SYNTAX_OPERATORS_6)
 
--   [Alternatives](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_4)
-
--   [Subgroups](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_5)
-
--   [Subgroups with Registration](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_6)
-
--   [Literal Characters](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_7)
-
--   [Reserved Enhancements](#@@ITOC@@ABENREGEX_SYNTAX_OPERATORS_8)
+-   [Literal Characters](#abenregex-syntax-operators-7--------reserved-enhancements---@ITOC@@ABENREGEX_SYNTAX_OPERATORS_8)
 
 Chainings
 

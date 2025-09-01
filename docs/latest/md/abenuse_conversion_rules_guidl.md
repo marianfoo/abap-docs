@@ -1,4 +1,14 @@
-  
+---
+title: "Using Conversion Rules"
+description: |
+  Background ABAP contains numerous conversion rules for assignments between data objects of different data types. These rules relate to assignments between: -   Elementary data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm) -   Elementary dat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm"
+abapFile: "abenuse_conversion_rules_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "internal-table", "abenuse", "conversion", "rules", "guidl"]
+---
 
 * * *
 

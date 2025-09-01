@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, FOR ALL ENTRIES"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_shortref.htm) Syntax ... FOR ALL ENTRIES IN @itab WHERE ... col operator(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwhere_logexp_compare.htm) @itab-comp ... Effect If the addition FOR ALL EN
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwhere_all_entries.htm"
+abapFile: "abenwhere_all_entries.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenwhere", "all", "entries"]
+---
 
 * * *
 

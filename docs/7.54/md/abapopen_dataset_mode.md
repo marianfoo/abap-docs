@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET - mode"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_dataset_shortref.htm) Syntax ... BINARY MODE  TEXT MODE encoding(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_dataset_encoding.htm) linefeed(https://help.sap.com/doc/abapd
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_dataset_mode.htm"
+abapFile: "abapopen_dataset_mode.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "data", "abapopen", "dataset", "mode"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ADF - Simple ABAP Daemon"
+description: |
+  This example demonstrates a mini ABAP daemon(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_abap_simple_daemon DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBL
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_mini_daemon_abexa.htm"
+abapFile: "abenabap_mini_daemon_abexa.htm"
+keywords: ["do", "while", "if", "try", "catch", "method", "class", "data", "abenabap", "mini", "daemon", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CONTEXTS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontexts_shortref.htm) Obsolete Syntax CONTEXTS con. Effect This statement can be specified in the global declaration part of a program or in the local declaration part of a procedure(https://help.sap.com/doc/abapdocu
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontexts.htm"
+abapFile: "abapcontexts.htm"
+keywords: ["do", "if", "try", "data", "abapcontexts"]
+---
 
 * * *
 

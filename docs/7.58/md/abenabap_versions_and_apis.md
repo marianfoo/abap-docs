@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Language Versions, Release Contracts and Released APIs"
+description: |
+  ABAP supports two main programming paradigms: -   ABAP Cloud(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cloud_glosry.htm 'Glossary Entry') -   Classic ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_abap_glosry.htm 'Glossary Entry') While in c
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_and_apis.htm"
+abapFile: "abenabap_versions_and_apis.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abenabap", "versions", "and", "apis"]
+---
 
 * * *
 
@@ -18,8 +28,7 @@ ABAP supports two main programming paradigms:
 
 While in classic ABAP there is unrestricted access to an [ABAP Platform](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform_glosry.htm "Glossary Entry"), in ABAP Cloud there are restrictions regarding ABAP language versions and access to APIs explained in the following topics.
 
--   [ABAP Language Versions](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_1)
--   [Release Contracts](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
+-   [ABAP Language Versions](#abenabap-versions-and-apis-1-------release-contracts---@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
 -   [Released APIs](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_3)
 
 ABAP Language Versions   

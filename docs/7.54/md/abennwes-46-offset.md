@@ -1,4 +1,14 @@
-  
+---
+title: "nwes-46-offset"
+description: |
+  nwes-46-offset - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennwes-46-offset.htm"
+abapFile: "abennwes-46-offset.htm"
+keywords: ["do", "if", "abennwes", "offset"]
+---
 
 * * *
 

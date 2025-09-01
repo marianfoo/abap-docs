@@ -1,4 +1,14 @@
-  
+---
+title: "Set Operations with Bit Sequences"
+description: |
+  This example demonstrates how bit operators are used. Source Code REPORT demo_data_bit. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF t_spfli, carrid    TYPE spfli-carrid, cityfrom  TYPE spfli-cityfrom, END OF t_spfli
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_bit_abexa.htm"
+abapFile: "abendata_bit_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abendata", "bit", "abexa"]
+---
 
 * * *
 

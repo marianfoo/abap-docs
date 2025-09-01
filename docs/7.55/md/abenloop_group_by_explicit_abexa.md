@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_at_group_by_expl. CLASS demo_group_by DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVATE SECTION. CLASS-DATA: numbers TYPE TABLE OF i WITH EMPTY KEY, out     TYPE REF TO if_demo_output, limit1  TYPE i VALUE 3, limit2  TYPE i VALUE 6. CLASS-METHODS:
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenloop_group_by_explicit_abexa.htm"
+abapFile: "abenloop_group_by_explicit_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenloop", "group", "explicit", "abexa"]
+---
 
 * * *
 

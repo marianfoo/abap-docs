@@ -1,4 +1,14 @@
-  
+---
+title: "Accessing Class Components"
+description: |
+  When accessing class components, there is a difference between access from inside and outside the same class. When a component is accessed from inside, that is within a method of the same class, the name of the component is sufficient. When a component is accessed from outside, the object (for insta
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_components_addressing.htm"
+abapFile: "abenclass_components_addressing.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "internal-table", "field-symbol", "abenclass", "components", "addressing"]
+---
 
 * * *
 

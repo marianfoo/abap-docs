@@ -1,4 +1,14 @@
-  
+---
+title: "non_blocking_model_glosry"
+description: |
+  non_blocking_model_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_blocking_model_glosry.htm"
+abapFile: "abennon_blocking_model_glosry.htm"
+keywords: ["do", "if", "try", "abennon", "blocking", "model", "glosry"]
+---
 
 * * *
 

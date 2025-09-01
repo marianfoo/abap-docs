@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abensystem-exceptions.htm
 
-  
+---
+title: "Obsolete Catchable Runtime Errors"
+description: |
+  Before class-based exceptions were introduced, exceptions for exception situations of the runtime framework that could be successfully handled in the program were defined exclusively as catchable runtime errors and could be handled using the statement CATCH SYSTEM-EXCEPTIONS. All catchable runtime e
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem-exceptions.htm"
+abapFile: "abensystem-exceptions.htm"
+keywords: ["do", "catch", "class", "abensystem", "exceptions"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenueb-abfb-sysexc.htm
 
-  
+---
+title: "Alphabetical Overview of Catchable Runtime Errors"
+description: |
+  The following is an alphabetical list of the obsolete catchable runtime errors. For each catchable runtime error, the associated predefined exception class(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_exception_classes.htm) used to handle the corresponding runtime error is s
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenueb-abfb-sysexc.htm"
+abapFile: "abenueb-abfb-sysexc.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abenueb", "abfb", "sysexc"]
+---
 
 * * *
 
@@ -802,7 +822,17 @@ Exception class: CX\_SY\_LOCALIZATION\_ERROR
 
 ### abensysexc-errkl.htm
 
-  
+---
+title: "Assignment of Catchable Runtime Errors to Exception Groups"
+description: |
+  Most of the obsolete catchable runtime errors are assigned to exception groups. Using the name of an exception group, all catchable runtime errors of the group can be caught simultaneously using CATCH SYSTEM-EXCEPTIONS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_sys.htm).
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensysexc-errkl.htm"
+abapFile: "abensysexc-errkl.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abensysexc", "errkl"]
+---
 
 * * *
 
@@ -1494,7 +1524,17 @@ CX\_SY\_REPLACE\_INFINITE\_LOOP
 
 ### abapcatch_sys.htm
 
-  
+---
+title: "CATCH SYSTEM-EXCEPTIONS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax CATCH SYSTEM-EXCEPTIONS exc1 = n1 exc2 = n2... OTHERS = n_others. statement_block ENDCATCH. Effect Handling catchable runtime errors(https://
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_sys.htm"
+abapFile: "abapcatch_sys.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abapcatch", "sys"]
+---
 
 * * *
 
@@ -1556,7 +1596,17 @@ Continue
 
 ### abapendcatch.htm
 
-  
+---
+title: "ENDCATCH"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax ENDCATCH. Effect The statement ENDCATCH closes a control structure introduced by CATCH SYSTEM-EXCEPTIONS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/aba
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendcatch.htm"
+abapFile: "abapendcatch.htm"
+keywords: ["do", "catch", "abapendcatch"]
+---
 
 * * *
 
@@ -1579,7 +1629,17 @@ The statement ENDCATCH closes a control structure introduced by [CATCH SYSTEM-EX
 
 ### abapcatch_sys.htm
 
-  
+---
+title: "CATCH SYSTEM-EXCEPTIONS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax CATCH SYSTEM-EXCEPTIONS exc1 = n1 exc2 = n2... OTHERS = n_others. statement_block ENDCATCH. Effect Handling catchable runtime errors(https://
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_sys.htm"
+abapFile: "abapcatch_sys.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abapcatch", "sys"]
+---
 
 * * *
 

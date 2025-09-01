@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Assignment Rules"
+description: |
+  The following assignment rules apply to assignments of the result fields of the result set of a standalone SELECT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm), WITH(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith.htm), or FETCH(https://help.sap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_into_conversion.htm"
+abapFile: "abenselect_into_conversion.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "class", "data", "types", "abenselect", "into", "conversion"]
+---
 
 * * *
 
@@ -10,8 +20,7 @@ SELECT, Assignment Rules
 
 The following assignment rules apply to assignments of the result fields of the result set of a standalone [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm), [WITH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith.htm), or [FETCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfetch.htm) statement to the target fields defined in the [INTO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinto_clause.htm) clause.
 
--   [Prerequisites](#@@ITOC@@ABENSELECT_INTO_CONVERSION_1)
--   [Rules](#@@ITOC@@ABENSELECT_INTO_CONVERSION_2)
+-   [Prerequisites](#abenselect-into-conversion-1-------rules---@ITOC@@ABENSELECT_INTO_CONVERSION_2)
 
 Prerequisites
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Mathematical Notation"
+description: |
+  Representation of a number as a digit sequence with possible decimal separators(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecimal_point_separat_glosry.htm 'Glossary Entry') where the plus/minus sign is specified in front of the digits. → More(https://help.sap.com/doc/abapdoc
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmathematical_notation_glosry.htm"
+abapFile: "abenmathematical_notation_glosry.htm"
+keywords: ["do", "if", "try", "abenmathematical", "notation", "glosry"]
+---
 
 * * *
 

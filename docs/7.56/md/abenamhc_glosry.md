@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP-managed HDI container"
+description: |
+  AMHC for short. Special HDI container(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhdi_container_glosry.htm 'Glossary Entry') managed by AS ABAP(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm 'Glossary Entry'). An AMHC is created and changed u
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamhc_glosry.htm"
+abapFile: "abenamhc_glosry.htm"
+keywords: ["do", "try", "data", "abenamhc", "glosry"]
+---
 
 * * *
 

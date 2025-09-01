@@ -1,4 +1,14 @@
-  
+---
+title: "Virtual Sorting of an Internal Table with Filters"
+description: |
+  This example demonstrates the virtual sorting of an internal table with row filtering. Source Code REPORT demo_virtual_sort_filter. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES itab TYPE STANDARD TABLE OF i WITH EMPTY KEY. DATA
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_filter_abexa.htm"
+abapFile: "abenvirtual_sort_filter_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "filter", "abexa"]
+---
 
 * * *
 

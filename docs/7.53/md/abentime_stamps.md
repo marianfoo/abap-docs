@@ -1,4 +1,14 @@
-  
+---
+title: "Time Stamp"
+description: |
+  This section describes how non-time-zone-specific time stamps(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_glosry.htm 'Glossary Entry') are represented and the statements used to access them. -   Time Stamps - Overview(https://help.sap.com/doc/abapdocu_753_index_htm/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamps.htm"
+abapFile: "abentime_stamps.htm"
+keywords: ["do", "if", "try", "class", "data", "abentime", "stamps"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Stability Rules After Release"
+description: |
+  -   The object in question must not be deleted and the release contract must not be removed. -   Client-dependent views must not be changed into client-independent views after C0 release. -   The provider contract(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_provider_contr
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_provider_rules_cds.htm"
+abapFile: "abenc0_provider_rules_cds.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abenc0", "provider", "rules", "cds"]
+---
 
 * * *
 
@@ -13,10 +23,8 @@ C0 Contract Rules for Providers of CDS Entities
 
 Currently, [CDS view entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), [CDS projection views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_projection_view_glosry.htm "Glossary Entry"), [CDS abstract entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry"), and [CDS custom entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be released under the C0 contract for extensibility. The following sections show the most important C0 contract rules for these entities.
 
--   [Prerequisites for a C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_1)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
--   [Restrictions](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
+-   [Prerequisites for a C0 Release](#abenc0-provider-rules-cds-1-------stability-rules-after-release---@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
+-   [Restrictions](#abenc0-provider-rules-cds-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
 
 Prerequisites for a C0 Release   
 

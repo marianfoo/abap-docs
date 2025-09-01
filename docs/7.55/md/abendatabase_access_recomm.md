@@ -1,4 +1,14 @@
-  
+---
+title: "Rules for Accessing ABAP-Managed Database Objects"
+description: |
+  The preceding sections -   show an overview of ABAP-managed database objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_oview.htm) -   summarize how ABAP-managed database objects are accessed(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/a
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_access_recomm.htm"
+abapFile: "abendatabase_access_recomm.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "method", "data", "types", "abendatabase", "access", "recomm"]
+---
 
 * * *
 
@@ -16,17 +26,11 @@ The preceding sections
 
 The following rules for accessing ABAP-managed database objects are based on these two points.
 
--   [Basic Rule](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_1)
+-   [Basic Rule](#abendatabase-access-recomm-1--------rules-for-valid-use---@ITOC@@ABENDATABASE_ACCESS_RECOMM_2)
 
--   [Rules for Valid Use](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_2)
+-   [ABAP SQL](#abendatabase-access-recomm-3--------amdp---@ITOC@@ABENDATABASE_ACCESS_RECOMM_4)
 
--   [ABAP SQL](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_3)
-
--   [AMDP](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_4)
-
--   [ABAP-Managed Native SQL](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_5)
-
--   [Mixed Access](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_6)
+-   [ABAP-Managed Native SQL](#abendatabase-access-recomm-5--------mixed-access---@ITOC@@ABENDATABASE_ACCESS_RECOMM_6)
 
 Basic Rule
 

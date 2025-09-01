@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP File Interface"
+description: |
+  The statements of the ABAP file interface enable ABAP statements to edit files on the computers of the current application server(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm 'Glossary Entry'). Methods of the global class CL_GUI_FRONTEND_SERVICES
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_files.htm"
+abapFile: "abenabap_language_files.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "language", "files"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI Object"
+description: |
+  Instance of a BAdI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbadi_glosry.htm 'Glossary Entry'). BAdI objects are addressed using only those BAdI reference variables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbadi_reference_variable_glosry.htm 'Glossary En
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbadi_object_glosry.htm"
+abapFile: "abenbadi_object_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenbadi", "object", "glosry"]
+---
 
 * * *
 

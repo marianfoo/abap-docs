@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  1. ... substring( val = text(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm)  off = off(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_off_len.htm) len = len(https://help.sap.com/doc/abapdocu_753_index_htm/7
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubstring_functions.htm"
+abapFile: "abensubstring_functions.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abensubstring", "functions"]
+---
 
 * * *
 

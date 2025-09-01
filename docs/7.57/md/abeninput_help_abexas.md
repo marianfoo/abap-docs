@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Field Help(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f1_help_abexa.htm) !Example(exa.gif 'Example') dynpro - Input Helps in the ABAP Dictionary(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f4_help_dic_a
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_help_abexas.htm"
+abapFile: "abeninput_help_abexas.htm"
+keywords: ["do", "if", "abeninput", "help", "abexas"]
+---
 
 * * *
 

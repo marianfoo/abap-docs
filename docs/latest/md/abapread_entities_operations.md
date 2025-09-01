@@ -1,4 +1,14 @@
-  
+---
+title: "READ ENTITIES OPERATIONS, Dynamic Form"
+description: |
+  Syntax READ ENTITIES  IN LOCAL MODE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm) OPERATIONS op_tab response_param(https://help.sap.com/do
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entities_operations.htm"
+abapFile: "abapread_entities_operations.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abapread", "entities", "operations"]
+---
 
 * * *
 

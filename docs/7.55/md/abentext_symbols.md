@@ -1,4 +1,14 @@
-  
+---
+title: "Text Symbols"
+description: |
+  A text symbol is a named data object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennamed_data_object_glosry.htm 'Glossary Entry') of an ABAP program(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_glosry.htm 'Glossary Entry') that is not declared in t
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_symbols.htm"
+abapFile: "abentext_symbols.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abentext", "symbols"]
+---
 
 * * *
 

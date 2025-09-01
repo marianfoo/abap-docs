@@ -1,4 +1,14 @@
-  
+---
+title: "read_write_position_glosry"
+description: |
+  read_write_position_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenread_write_position_glosry.htm"
+abapFile: "abenread_write_position_glosry.htm"
+keywords: ["do", "if", "try", "abenread", "write", "position", "glosry"]
+---
 
 * * *
 

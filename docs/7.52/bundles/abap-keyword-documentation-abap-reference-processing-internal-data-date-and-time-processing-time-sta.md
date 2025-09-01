@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abentime_stamps.htm
 
-  
+---
+title: "Time Stamp"
+description: |
+  This section describes how non-time-zone-specific time stamps(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_glosry.htm 'Glossary Entry') are represented and the statements used to access them. -   Time Stamps - Overview(https://help.sap.com/doc/abapdocu_752_index_htm/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamps.htm"
+abapFile: "abentime_stamps.htm"
+keywords: ["do", "if", "try", "class", "data", "abentime", "stamps"]
+---
 
 * * *
 
@@ -38,7 +48,17 @@ Continue
 
 ### abentime_stamp_oview.htm
 
-  
+---
+title: "Time Stamps - Overview"
+description: |
+  -   Representation of Time Stamps(#abentime-stamp-oview-1--------access-to-time-stamps---@ITOC@@ABENTIME_STAMP_OVIEW_2) -   Notes on Handling Time Stamps(#abentime-stamp-oview-3--------examples---@ITOC@@ABENTIME_STAMP_OVIEW_4) Representation of Time Stamps Time stamps(https://help.sap.com/doc/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_oview.htm"
+abapFile: "abentime_stamp_oview.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abentime", "stamp", "oview"]
+---
 
 * * *
 
@@ -48,13 +68,9 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Time Stamps - Overview
 
--   [Representation of Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_1)
+-   [Representation of Time Stamps](#abentime-stamp-oview-1--------access-to-time-stamps---@ITOC@@ABENTIME_STAMP_OVIEW_2)
 
--   [Access to Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_2)
-
--   [Notes on Handling Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_3)
-
--   [Examples](#@@ITOC@@ABENTIME_STAMP_OVIEW_4)
+-   [Notes on Handling Time Stamps](#abentime-stamp-oview-3--------examples---@ITOC@@ABENTIME_STAMP_OVIEW_4)
 
 Representation of Time Stamps
 
@@ -181,7 +197,17 @@ cl\_demo\_output=>display( ts ).
 
 ### abapget_time-stamp.htm
 
-  
+---
+title: "GET TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time_stamp_shortref.htm) Syntax GET TIME STAMP FIELD time_stamp. Effect This statement creates a (https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenposix_timestamp_glosry.htm 'Glossary Entry')POSIX
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time-stamp.htm"
+abapFile: "abapget_time-stamp.htm"
+keywords: ["do", "if", "try", "data", "abapget", "time", "stamp"]
+---
 
 * * *
 
@@ -236,7 +262,17 @@ Non-Handleable Exceptions
 
 ### abapconvert_time-stamp.htm
 
-  
+---
+title: "CONVERT TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_time_stamp_shortref.htm) Syntax CONVERT TIME STAMP time_stamp TIME ZONE tz INTO DATE dat TIME tim DAYLIGHT SAVING TIME dst. Effect This statement interprets the content of time_stamp as
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_time-stamp.htm"
+abapFile: "abapconvert_time-stamp.htm"
+keywords: ["do", "if", "try", "data", "types", "abapconvert", "time", "stamp"]
+---
 
 * * *
 
@@ -369,7 +405,17 @@ Non-Handleable Exceptions
 
 ### abapconvert_date_time-stamp.htm
 
-  
+---
+title: "CONVERT INTO TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_time_stamp_shortref.htm) Syntax CONVERT DATE dat TIME tim DAYLIGHT SAVING TIME dst INTO TIME STAMP time_stamp TIME ZONE tz. Effect This statements converts a date specified in dat, a time specif
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_date_time-stamp.htm"
+abapFile: "abapconvert_date_time-stamp.htm"
+keywords: ["do", "if", "try", "data", "types", "abapconvert", "date", "time", "stamp"]
+---
 
 * * *
 
@@ -487,7 +533,17 @@ Non-Handleable Exceptions
 
 ### abencl_abap_tstmp.htm
 
-  
+---
+title: "System Class for Time Stamps"
+description: |
+  The class CL_ABAP_TSTMP is used to calculate and convert time stamps(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_oview.htm). Important methods include: -   The method ADD or SUBTRACTSECS adds or subtracts seconds from time stamps. -   The method TD_SUBTRACT calcula
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_tstmp.htm"
+abapFile: "abencl_abap_tstmp.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "tstmp"]
+---
 
 * * *
 
@@ -520,7 +576,17 @@ cl\_demo\_output=>display( |{ ts1 TIMESTAMP = ISO
 
 ### abenconvert_time_stamp_abexa.htm
 
-  
+---
+title: "Converting Time Stamps"
+description: |
+  This example demonstrates the statements CONVERT TIME STAMP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_time-stamp.htm) and CONVERT INTO TIME STAMP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_date_time-stamp.htm). Source Code REPORT demo_con
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconvert_time_stamp_abexa.htm"
+abapFile: "abenconvert_time_stamp_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "abenconvert", "time", "stamp", "abexa"]
+---
 
 * * *
 

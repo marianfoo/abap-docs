@@ -1,4 +1,14 @@
-  
+---
+title: "Unnecessary Length Specifications"
+description: |
+  Obsolete Syntax ... dtype(len)dobj(len) TYPE dfit ... Effect Length specifications in declarations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_declarations.htm) using the statements TYPES, DATA, STATICS, and CONSTANTS and the built-in ABAP types d, f, i, and t a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclaration_wrong_length.htm"
+abapFile: "abendeclaration_wrong_length.htm"
+keywords: ["do", "if", "class", "data", "types", "abendeclaration", "wrong", "length"]
+---
 
 * * *
 

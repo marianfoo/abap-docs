@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - extensible"
+description: |
+  Syntax ... extensible  with validations on save; with determinations on save; with determinations on modify; with additional save;  ... Effect The addition extensible can be used to allow BDEF extensions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensible.htm"
+abapFile: "abenbdl_extensible.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "extensible"]
+---
 
 * * *
 

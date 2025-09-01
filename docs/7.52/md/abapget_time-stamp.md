@@ -1,4 +1,14 @@
-  
+---
+title: "GET TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time_stamp_shortref.htm) Syntax GET TIME STAMP FIELD time_stamp. Effect This statement creates a (https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenposix_timestamp_glosry.htm 'Glossary Entry')POSIX
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time-stamp.htm"
+abapFile: "abapget_time-stamp.htm"
+keywords: ["do", "if", "try", "data", "abapget", "time", "stamp"]
+---
 
 * * *
 

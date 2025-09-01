@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Event Blocks"
+description: |
+  List events occur during the creation of a list and following certain user actions on a displayed list. They are used to process lists in the ABAP program. Events are distinguished between those that occur when lists are created and interactive list events for processing user actions in a displayed
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm"
+abapFile: "abenabap_lists_interactive.htm"
+keywords: ["select", "do", "if", "class", "abenabap", "lists", "interactive"]
+---
 
 * * *
 

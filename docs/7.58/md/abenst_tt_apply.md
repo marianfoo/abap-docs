@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:apply name='tmpl' ref='node'> <tt:with-root name='root1' ref='node1' /> <tt:with-root name='root2' ref='node2' /> ... <tt:with-parameter name='para1' ref='node1'val='val1'var='var1' /> <tt:with-parameter name='para2' ref='node2'val='val2'
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_apply.htm"
+abapFile: "abenst_tt_apply.htm"
+keywords: ["do", "if", "case", "data", "types", "abenst", "apply"]
+---
 
 * * *
 

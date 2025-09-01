@@ -1,4 +1,14 @@
-  
+---
+title: "Enhancement Category of Structures"
+description: |
+  ABAP Dictionary structures and database tables that are delivered by SAP can be enhanced using customizing includes(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencustomizing_include_glosry.htm 'Glossary Entry') or append structures(https://help.sap.com/doc/abapdocu_753_index_htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures_enh_cat.htm"
+abapFile: "abenddic_structures_enh_cat.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "enh", "cat"]
+---
 
 * * *
 

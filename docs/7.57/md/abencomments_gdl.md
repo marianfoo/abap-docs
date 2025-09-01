@@ -1,4 +1,14 @@
-  
+---
+title: "Comments"
+description: |
+  Comments do not affect how a program is executed and are ignored by the computer. People who work with the source code, however, benefit greatly from comments, since they make the code easier to understand. There are two categories of comments in ABAP: -   Comment lines A comment line contains a com
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomments_gdl.htm"
+abapFile: "abencomments_gdl.htm"
+keywords: ["do", "if", "abencomments", "gdl"]
+---
 
 * * *
 

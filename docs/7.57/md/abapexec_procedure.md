@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - EXECUTE PROCEDURE"
+description: |
+  Syntax EXEC SQL. EXECUTE PROCEDURE proc ( IN    p_in1,    IN    p_in2, ... OUT   p_out1,   OUT   p_out2, ... INOUT p_inout1, INOUT p_inout2, ... ) ENDEXEC. Effect In database systems, procedures can be defined as stored procedures(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/ab
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexec_procedure.htm"
+abapFile: "abapexec_procedure.htm"
+keywords: ["update", "do", "if", "try", "catch", "data", "abapexec", "procedure"]
+---
 
 * * *
 

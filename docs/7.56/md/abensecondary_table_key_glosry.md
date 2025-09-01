@@ -1,4 +1,14 @@
-  
+---
+title: "secondary_table_key_glosry"
+description: |
+  secondary_table_key_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm"
+abapFile: "abensecondary_table_key_glosry.htm"
+keywords: ["do", "if", "try", "internal-table", "abensecondary", "table", "key", "glosry"]
+---
 
 * * *
 

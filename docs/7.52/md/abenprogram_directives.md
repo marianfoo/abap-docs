@@ -1,4 +1,14 @@
-  
+---
+title: "Program Directives"
+description: |
+  The ABAP program directives(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') enable source-code-based development objects to be documented or modify the check results of various check tools. -   ABAP Doc(https://help.sap.com/doc/abapdo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm"
+abapFile: "abenprogram_directives.htm"
+keywords: ["do", "if", "try", "abenprogram", "directives"]
+---
 
 * * *
 

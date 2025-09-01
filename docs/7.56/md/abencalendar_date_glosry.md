@@ -1,4 +1,14 @@
-  
+---
+title: "calendar_date_glosry"
+description: |
+  calendar_date_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalendar_date_glosry.htm"
+abapFile: "abencalendar_date_glosry.htm"
+keywords: ["do", "try", "abencalendar", "date", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Remove Columns from the SELECT List"
+description: |
+  This example demonstrates how all columns except some specific ones can be read with a dynamic token. Source Code REPORT demo_select_except_columns. CLASS select_list DEFINITION. PUBLIC SECTION. METHODS: constructor IMPORTING dbtab  TYPE string except TYPE string, get_token   RETURNING VALUE(to
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_except_columns_abexa.htm"
+abapFile: "abenselect_except_columns_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "method", "class", "data", "abenselect", "except", "columns", "abexa"]
+---
 
 * * *
 

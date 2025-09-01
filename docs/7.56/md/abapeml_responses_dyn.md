@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FAILED failed MAPPED mapped REPORTED reported ... Effect Used to specify response parameters to get information on failures, mapping information and to send error messages. All variants can be used together where possible. In the context of the following dynamic forms of
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_responses_dyn.htm"
+abapFile: "abapeml_responses_dyn.htm"
+keywords: ["do", "if", "data", "internal-table", "abapeml", "responses", "dyn"]
+---
 
 * * *
 

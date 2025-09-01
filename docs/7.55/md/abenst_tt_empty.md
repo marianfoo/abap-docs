@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:empty /> Effect In conditioned transformations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_cond.htm), it is possible to express empty template content explicitly using tt:empty: The element is allowed only within an element tt:s-d-cond(https://help.sap.com
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_empty.htm"
+abapFile: "abenst_tt_empty.htm"
+keywords: ["do", "data", "abenst", "empty"]
+---
 
 * * *
 

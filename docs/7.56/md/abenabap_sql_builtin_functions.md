@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Certain SQL functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuffer_expressions.htm) can be executed in the table buffer(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_buffer_glosry.htm 'Glossary Entry'). If any other built-in functions are used, ta
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_builtin_functions.htm"
+abapFile: "abenabap_sql_builtin_functions.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "sql", "builtin", "functions"]
+---
 
 * * *
 

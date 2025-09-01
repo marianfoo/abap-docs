@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for UUIDs"
+description: |
+  The methods CREATE_... of the class CL_SYSTEM_UUID create UUIDs(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuuid_glosry.htm 'Glossary Entry') with a length of 16 bytes in the following formats: -   16-character byte-like representation -   22-character character-like represen
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_system_uuid.htm"
+abapFile: "abencl_system_uuid.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abencl", "system", "uuid"]
+---
 
 * * *
 

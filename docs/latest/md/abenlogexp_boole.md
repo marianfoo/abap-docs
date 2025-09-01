@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   If multiple logical expressions are combined, the explicit and implicit parentheses always produce exactly one logical expression that is either true or false. -   The smallest unit of a combined logical expression is always a relational expression(https://help.sap.com/doc/abapdocu_latest_inde
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_boole.htm"
+abapFile: "abenlogexp_boole.htm"
+keywords: ["do", "if", "try", "method", "field-symbol", "abenlogexp", "boole"]
+---
 
 * * *
 

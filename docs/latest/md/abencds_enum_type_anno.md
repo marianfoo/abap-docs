@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm"
+abapFile: "abencds_enum_type_anno.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abencds", "enum", "type", "anno"]
+---
 
 * * *
 
@@ -21,10 +31,8 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/lat
 
 The first column of the table below shows the name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is set implicitly if the annotation is not used explicitly. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_1)
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_2)
--   [ObjectModel Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_3)
--   [Inheritance of Annotations](#@@ITOC@@ABENCDS_ENUM_TYPE_ANNO_4)
+-   [AbapCatalog Annotations](#abencds-enum-type-anno-1-------endusertext-annotations---@ITOC@@ABENCDS_ENUM_TYPE_ANNO_2)
+-   [ObjectModel Annotations](#abencds-enum-type-anno-3-------inheritance-of-annotations---@ITOC@@ABENCDS_ENUM_TYPE_ANNO_4)
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 

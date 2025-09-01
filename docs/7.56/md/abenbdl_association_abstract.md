@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - associations, abstract BDEF"
+description: |
+  Syntax ... association _Assoc with hierarchy; Effect Includes a CDS association(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_association_glosry.htm 'Glossary Entry') in the hierarchical BDEF derived type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/ab
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association_abstract.htm"
+abapFile: "abenbdl_association_abstract.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenbdl", "association", "abstract"]
+---
 
 * * *
 

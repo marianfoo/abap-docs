@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Conversion Functions"
+description: |
+  ABAP SQL supports the following conversion functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_conversion_functions.htm): -   Type conversion functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_type_conv_func.htm) sql_exp - Type Conversion Fun
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_conversion_functions.htm"
+abapFile: "abenopen_sql_conversion_functions.htm"
+keywords: ["do", "data", "abenopen", "sql", "conversion", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Structure-Specific Technical Properties of Database Tables"
+description: |
+  The following technical properties are mostly the same as those of a DDIC structure(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures_tech.htm) in ABAP Dictionary: -   Table fields (columns) A table field is a component of the structure of the DDIC database table and d
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techstruc.htm"
+abapFile: "abenddic_database_tables_techstruc.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "techstruc"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Index Function"
+description: |
+  The example demonstrates the table function line_index(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_index_function.htm). Source Code REPORT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVATE SECTION. CLASS-DATA flight_tab TYPE STANDARD
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_index_abexa.htm"
+abapFile: "abenline_index_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "internal-table", "abenline", "index", "abexa"]
+---
 
 * * *
 

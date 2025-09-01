@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Syntax"
+description: |
+  Work in progress  The syntax of the Behavior Definition Language (BDL) is oriented to the Data Definition Language(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_glosry.htm 'Glossary Entry') (DDL) used to define CDS entities. The artifacts in question have some technical d
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm"
+abapFile: "abenbdl_syntax.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "syntax"]
+---
 
 * * *
 

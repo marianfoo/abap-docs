@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Target Fields"
+description: |
+  Target Conversion i, int8, (b, s) In an assignment is made to the same data type, the content is passed unconverted. Otherwise, the value of the integer is converted to the internal representation i, int8, (b, s). If the value range(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenva
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_ibs.htm"
+abapFile: "abenconversion_type_ibs.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abenconversion", "type", "ibs"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Source Field Type i, int8, (b, s)
 
 Types [b](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_numeric.htm) and [s](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_numeric.htm) are internal and cannot be specified directly in ABAP statements. Self-defined data types and data objects in ABAP programs have the data type b or s if they are defined with reference to data elements of the ABAP Dictionary, which have the [external data types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexternal_data_type_glosry.htm "Glossary Entry") INT1 or INT2.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_1)
+-   [Numeric Target Fields](#abenconversion-type-ibs-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_IBS_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_4)
+-   [Byte-Like Target Fields](#abenconversion-type-ibs-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_IBS_4)
 
 Numeric Target Fields
 

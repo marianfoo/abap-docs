@@ -1,4 +1,14 @@
-  
+---
+title: "Extended Functional Operand Positions"
+description: |
+  Extended functional operand positions are functional operand positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_positions.htm) in which certain built-in functions can be specified alongside data objects, functional method calls(https://help.sap.com/doc/abapd
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_functional_positions.htm"
+abapFile: "abenextended_functional_positions.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "internal-table", "abenextended", "functional", "positions"]
+---
 
 * * *
 

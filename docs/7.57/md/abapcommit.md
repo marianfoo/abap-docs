@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT WORK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_shortref.htm) Syntax COMMIT WORK AND WAIT. Effect The statement COMMIT WORK closes the current SAP LUW(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_luw_glosry.htm 'Glossary Entry')
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit.htm"
+abapFile: "abapcommit.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "catch", "class", "data", "abapcommit"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "tab_title_glosry"
+description: |
+  tab_title_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentab_title_glosry.htm"
+abapFile: "abentab_title_glosry.htm"
+keywords: ["select", "do", "try", "abentab", "title", "glosry"]
+---
 
 * * *
 

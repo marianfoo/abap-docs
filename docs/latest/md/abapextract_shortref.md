@@ -1,4 +1,14 @@
-  
+---
+title: "EXTRACT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapextract.htm) Syntax EXTRACT  header  field_group . Effect Obsolete: Attaches a field group(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_group_glosry.htm 'Glossary Entry'), decla
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapextract_shortref.htm"
+abapFile: "abapextract_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapextract", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SQL function"
+description: |
+  Built-in database platform function that can be used in SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_glosry.htm 'Glossary Entry'). In ABAP SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_functions.htm) and in the CDS DDL(https://help.sap.co
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_function_glosry.htm"
+abapFile: "abensql_function_glosry.htm"
+keywords: ["do", "try", "data", "abensql", "function", "glosry"]
+---
 
 * * *
 

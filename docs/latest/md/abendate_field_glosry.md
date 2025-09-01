@@ -1,4 +1,14 @@
-  
+---
+title: "date_field_glosry"
+description: |
+  date_field_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_field_glosry.htm"
+abapFile: "abendate_field_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abendate", "field", "glosry"]
+---
 
 * * *
 

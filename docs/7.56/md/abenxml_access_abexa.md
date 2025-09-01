@@ -1,4 +1,14 @@
-  
+---
+title: "Access to XML using Class Libraries"
+description: |
+  This example demonstrates parsing and rendering using an example class. Source Code REPORT demo_xml_access. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). SELECT FROM scarr FIELDS  INTO TABLE @DAT
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxml_access_abexa.htm"
+abapFile: "abenxml_access_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "internal-table", "abenxml", "access", "abexa"]
+---
 
 * * *
 

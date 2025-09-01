@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - DDL and DML Statements"
+description: |
+  The CL_SQL_STATEMENT class provides the following instance methods for executing DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddl_glosry.htm 'Glossary Entry') and DML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendml_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_ddl_dml.htm"
+abapFile: "abenadbc_ddl_dml.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenadbc", "ddl", "dml"]
+---
 
 * * *
 

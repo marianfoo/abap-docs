@@ -1,4 +1,14 @@
-  
+---
+title: "Application Server"
+description: |
+  Abbreviated as AS. Part of SAP NetWeaver(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_netweaver_glosry.htm 'Glossary Entry') used to execute SAP applications. The Application Server supports Internet protocols (HTTP/HTTPS/SMTP, WebSocket protocol, and TCP) as well as XML(ht
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_app_server_glosry.htm"
+abapFile: "abensap_nw_app_server_glosry.htm"
+keywords: ["do", "try", "data", "abensap", "app", "server", "glosry"]
+---
 
 * * *
 

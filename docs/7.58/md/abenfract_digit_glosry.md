@@ -1,4 +1,14 @@
-  
+---
+title: "fract_digit_glosry"
+description: |
+  fract_digit_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfract_digit_glosry.htm"
+abapFile: "abenfract_digit_glosry.htm"
+keywords: ["do", "if", "try", "abenfract", "digit", "glosry"]
+---
 
 * * *
 

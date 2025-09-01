@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... num_func( arg ) ... Effect General numeric functions for exactly one unnamed argument with any numeric data type. These functions are overloaded with the effect that the return value can have different numeric types. The argument of a general numeric function must be a single data object outsid
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_functions.htm"
+abapFile: "abennumerical_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abennumerical", "functions"]
+---
 
 * * *
 

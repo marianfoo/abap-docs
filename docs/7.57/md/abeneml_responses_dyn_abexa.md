@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - Responses (Dynamic Forms of ABAP EML Statements)"
+description: |
+  This example demonstrates responses for the dynamic form of the ABAP EML MODIFY and READ statements with a simple managed RAP BO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). Data model The CDS data model consists of the root entity DEMO_MANAG
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_responses_dyn_abexa.htm"
+abapFile: "abeneml_responses_dyn_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abeneml", "responses", "dyn", "abexa"]
+---
 
 * * *
 

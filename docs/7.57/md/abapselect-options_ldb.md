@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ...  HELP-REQUEST   FOR LOWHIGH    VALUE-REQUEST  FOR LOWHIGH   ... Additions: 1. ... HELP-REQUEST  FOR LOWHIGH (#!ABAP_ADDITION_1@1@) 2. ... VALUE-REQUEST  FOR LOWHIGH (#!ABAP_ADDITION_2@2@) Effect These addit
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_ldb.htm"
+abapFile: "abapselect-options_ldb.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselect", "options", "ldb"]
+---
 
 * * *
 

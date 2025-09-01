@@ -1,4 +1,14 @@
-  
+---
+title: "Classic Lists"
+description: |
+  A classical list is a medium used for the structured and formatted output of data. List output is either written to a list buffer(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_buffer_glosry.htm 'Glossary Entry') as a screen list(https://help.sap.com/doc/abapdocu_755_index_h
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpro_list.htm"
+abapFile: "abenabap_dynpro_list.htm"
+keywords: ["do", "try", "class", "data", "abenabap", "dynpro", "list"]
+---
 
 * * *
 

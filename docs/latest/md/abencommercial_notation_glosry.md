@@ -1,4 +1,14 @@
-  
+---
+title: "commercial_notation_glosry"
+description: |
+  commercial_notation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommercial_notation_glosry.htm"
+abapFile: "abencommercial_notation_glosry.htm"
+keywords: ["do", "if", "try", "abencommercial", "notation", "glosry"]
+---
 
 * * *
 

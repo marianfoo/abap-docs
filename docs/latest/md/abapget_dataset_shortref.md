@@ -1,4 +1,14 @@
-  
+---
+title: "GET DATASET - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_dataset.htm) Syntax GET DATASET dset POSITION pos ATTRIBUTES attr. Effect Defines the attributes of a file opened using OPEN DATASET. Additions -   POSITION pos Gets the current position of the file p
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_dataset_shortref.htm"
+abapFile: "abapget_dataset_shortref.htm"
+keywords: ["do", "if", "data", "abapget", "dataset", "shortref"]
+---
 
 * * *
 

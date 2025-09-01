@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abeninline_declarations.htm
 
-  
+---
+title: "Inline Declarations"
+description: |
+  An inline declaration is performed using a declaration operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_operator_glosry.htm 'Glossary Entry') in a declaration expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_expres
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninline_declarations.htm"
+abapFile: "abeninline_declarations.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abeninline", "declarations"]
+---
 
 * * *
 
@@ -42,7 +52,17 @@ Continue
 
 ### abendata_inline.htm
 
-  
+---
+title: "DATA, Inline Declaration for Variables"
+description: |
+  Syntax ... DATA(var) ... Effect A declaration expression with the declaration operator DATA declares a variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvariable_glosry.htm 'Glossary Entry') var that is used as an operand in the current write position(https://help.sap.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_inline.htm"
+abapFile: "abendata_inline.htm"
+keywords: ["loop", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abendata", "inline"]
+---
 
 * * *
 
@@ -114,7 +134,17 @@ DATA(data) = '2'.
 
 ### abenfinal_inline.htm
 
-  
+---
+title: "FINAL, Inline Declaration for Immutable Variables"
+description: |
+  Syntax ... FINAL(var) ... Effect Declaration of an immutable variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenimmutable_variable_glosry.htm 'Glossary Entry'). A declaration expression with the declaration operator FINAL in general works in the same way as an inline decl
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfinal_inline.htm"
+abapFile: "abenfinal_inline.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "catch", "method", "data", "internal-table", "abenfinal", "inline"]
+---
 
 * * *
 
@@ -178,7 +208,17 @@ FINAL(html) = cl\_demo\_output=>get( itab ).
 
 ### abenfield-symbol_inline.htm
 
-  
+---
+title: "FIELD-SYMBOL, Inline Declaration for Field Symbols"
+description: |
+  Syntax ... FIELD-SYMBOL(<fs>) ... Effect A declaration expression with the declaration operator FIELD-SYMBOL declares a field symbol(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbol_glosry.htm 'Glossary Entry') <fs> to which a memory area is assigned in the current
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield-symbol_inline.htm"
+abapFile: "abenfield-symbol_inline.htm"
+keywords: ["loop", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenfield", "symbol", "inline"]
+---
 
 * * *
 

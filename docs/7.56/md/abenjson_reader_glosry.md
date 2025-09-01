@@ -1,4 +1,14 @@
-  
+---
+title: "JSON reader"
+description: |
+  XML(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxml_reader_glosry.htm 'Glossary Entry') reader that accesses JSON(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjson_glosry.htm 'Glossary Entry') data. A JSON reader handles the JSON data internally like JSON-XM
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjson_reader_glosry.htm"
+abapFile: "abenjson_reader_glosry.htm"
+keywords: ["do", "try", "data", "abenjson", "reader", "glosry"]
+---
 
 * * *
 

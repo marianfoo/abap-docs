@@ -1,4 +1,14 @@
-  
+---
+title: "ST - check, Conditions"
+description: |
+  Syntax ... s-d-check ='...' ... Effect The following conditions can be specified for the content of the attribute s-d-check of an element tt:cond(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_cond.htm) or tt:cond-var(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_check.htm"
+abapFile: "abenst_check.htm"
+keywords: ["do", "if", "data", "abenst", "check"]
+---
 
 * * *
 

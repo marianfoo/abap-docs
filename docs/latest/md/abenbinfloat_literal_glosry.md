@@ -1,4 +1,14 @@
-  
+---
+title: "binfloat_literal_glosry"
+description: |
+  binfloat_literal_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbinfloat_literal_glosry.htm"
+abapFile: "abenbinfloat_literal_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbinfloat", "literal", "glosry"]
+---
 
 * * *
 

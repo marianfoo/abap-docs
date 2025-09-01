@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO entity"
+description: |
+  Also RAP BO node. CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') for which behavior is defined in a RAP behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_glosry.htm"
+abapFile: "abenrap_bo_entity_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "entity", "glosry"]
+---
 
 * * *
 

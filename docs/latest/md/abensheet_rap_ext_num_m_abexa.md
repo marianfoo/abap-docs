@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_CS_RAP_RO_M and its child entity DEMO_CS_RAP_CH_M. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity demo_cs_rap_ro_m as select from demo_cs_rap_tab1 composition 0.. of demo_cs_rap_ch_m
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensheet_rap_ext_num_m_abexa.htm"
+abapFile: "abensheet_rap_ext_num_m_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "abensheet", "rap", "ext", "num", "abexa"]
+---
 
 * * *
 

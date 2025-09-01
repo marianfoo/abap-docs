@@ -1,4 +1,14 @@
-  
+---
+title: "external_view_glosry"
+description: |
+  external_view_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexternal_view_glosry.htm"
+abapFile: "abenexternal_view_glosry.htm"
+keywords: ["do", "if", "try", "abenexternal", "view", "glosry"]
+---
 
 * * *
 

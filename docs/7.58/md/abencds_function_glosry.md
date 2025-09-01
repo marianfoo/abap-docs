@@ -1,4 +1,14 @@
-  
+---
+title: "CDS function"
+description: |
+  Function in ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry') that can be used in operand positions of CDS entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry'). A CDS function c
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_function_glosry.htm"
+abapFile: "abencds_function_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "function", "glosry"]
+---
 
 * * *
 

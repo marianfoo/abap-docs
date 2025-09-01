@@ -1,4 +1,14 @@
-  
+---
+title: "control_level_processin_glosry"
+description: |
+  control_level_processin_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_level_processin_glosry.htm"
+abapFile: "abencontrol_level_processin_glosry.htm"
+keywords: ["loop", "do", "try", "internal-table", "abencontrol", "level", "processin", "glosry"]
+---
 
 * * *
 

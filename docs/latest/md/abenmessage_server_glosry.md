@@ -1,4 +1,14 @@
-  
+---
+title: "message_server_glosry"
+description: |
+  message_server_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_server_glosry.htm"
+abapFile: "abenmessage_server_glosry.htm"
+keywords: ["do", "if", "try", "abenmessage", "server", "glosry"]
+---
 
 * * *
 

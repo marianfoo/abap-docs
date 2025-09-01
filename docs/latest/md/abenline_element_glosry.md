@@ -1,4 +1,14 @@
-  
+---
+title: "line_element_glosry"
+description: |
+  line_element_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenline_element_glosry.htm"
+abapFile: "abenline_element_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenline", "element", "glosry"]
+---
 
 * * *
 

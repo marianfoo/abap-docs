@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - persistent table"
+description: |
+  Syntax ... persistent table TableName ... Effect DDIC database table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') a RAP BO(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry') is based on.
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_persistent_table.htm"
+abapFile: "abenbdl_persistent_table.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abenbdl", "persistent", "table"]
+---
 
 * * *
 

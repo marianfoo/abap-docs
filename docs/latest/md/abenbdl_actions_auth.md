@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (authorization:none) ... Effect The RAP BO operation addition authorization:none excludes the operation in question from authorization checks(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization.htm). As a prerequisite, authorization control(https://help.sap.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth.htm"
+abapFile: "abenbdl_actions_auth.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "abenbdl", "actions", "auth"]
+---
 
 * * *
 

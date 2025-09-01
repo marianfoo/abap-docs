@@ -1,4 +1,14 @@
-  
+---
+title: "SET PF-STATUS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_pf-status_dynpro.htm) Syntax SET PF-STATUS status OF PROGRAM prog EXCLUDING fcode IMMEDIATELY. Effect Sets the GUI status(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_status
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_pf-status_shortref.htm"
+abapFile: "abapset_pf-status_shortref.htm"
+keywords: ["do", "if", "try", "internal-table", "abapset", "status", "shortref"]
+---
 
 * * *
 

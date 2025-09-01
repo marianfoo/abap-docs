@@ -1,4 +1,14 @@
-  
+---
+title: "BSP"
+description: |
+  → Business Server Pages(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_server_pages_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbsp_glosry.htm"
+abapFile: "abenbsp_glosry.htm"
+keywords: ["do", "if", "try", "abenbsp", "glosry"]
+---
 
 * * *
 

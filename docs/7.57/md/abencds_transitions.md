@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Changing the Type of a CDS Entity"
+description: |
+  A CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') can be changed into another type of CDS entity by replacing the source code. This can be done even after the respective CDS entity has been activated and transported. Example: You ha
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_transitions.htm"
+abapFile: "abencds_transitions.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "transitions"]
+---
 
 * * *
 

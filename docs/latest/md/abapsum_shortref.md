@@ -1,4 +1,14 @@
-  
+---
+title: "SUM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsum.htm) Syntax SUM. Effect Adds the numeric components of a group level during group level processing for an internal table.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsum_shortref.htm"
+abapFile: "abapsum_shortref.htm"
+keywords: ["do", "if", "internal-table", "abapsum", "shortref"]
+---
 
 * * *
 

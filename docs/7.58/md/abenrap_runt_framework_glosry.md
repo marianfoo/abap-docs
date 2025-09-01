@@ -1,4 +1,14 @@
-  
+---
+title: "RAP runtime framework"
+description: |
+  Part of the RAP framework(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_framework_glosry.htm 'Glossary Entry') that is provided by the ABAP runtime framework(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_runtime_frmwk_glosry.htm 'Glossary Entry') for co
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_runt_framework_glosry.htm"
+abapFile: "abenrap_runt_framework_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "runt", "framework", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 

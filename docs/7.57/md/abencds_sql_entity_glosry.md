@@ -1,4 +1,14 @@
-  
+---
+title: "CDS SQL entity"
+description: |
+  CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') for which an artifact is created on the database and which can be used as data source in ABAP SQL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_glosry.htm '
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_sql_entity_glosry.htm"
+abapFile: "abencds_sql_entity_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "sql", "entity", "glosry"]
+---
 
 * * *
 

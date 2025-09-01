@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP user"
+description: |
+  In the context of an AS ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm 'Glossary Entry') also user for short. 1.  Defined in the AS ABAP by a user name(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_name_glosry.htm 'Glossary Entry') an
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_user_glosry.htm"
+abapFile: "abenabap_user_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "user", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function.htm) Syntax CALL FUNCTION func  IN UPDATE TASK    STARTING NEW TASK task  IN BACKGROUND TASK AS SEPARATE UNIT  DESTINATION dest   IN BACKGROUN
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_shortref.htm"
+abapFile: "abapcall_function_shortref.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "internal-table", "abapcall", "function", "shortref"]
+---
 
 * * *
 

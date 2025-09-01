@@ -1,4 +1,14 @@
-  
+---
+title: "Reduce Operator, Type Inference"
+description: |
+  This example demonstrates a type inference for the conversion operator REDUCE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_reduce.htm). Source Code REPORT demo_reduce_type_inference. CLASS demo DEFINITION. PUBLIC SECTION. TYPES c10 TYPE c LENGTH 10. CLAS
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreduce_type_inference_abexa.htm"
+abapFile: "abenreduce_type_inference_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abenreduce", "type", "inference", "abexa"]
+---
 
 * * *
 

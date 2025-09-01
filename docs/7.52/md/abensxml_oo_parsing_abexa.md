@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_oo_reader. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS sxml_demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( )->begin_section( `XML-Data` ). DATA(xml) = cl_abap_codepage=>convert_to( `<?xml version='1.0'?>` && `<o
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensxml_oo_parsing_abexa.htm"
+abapFile: "abensxml_oo_parsing_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "abensxml", "parsing", "abexa"]
+---
 
 * * *
 

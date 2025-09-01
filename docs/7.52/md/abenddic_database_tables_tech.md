@@ -1,4 +1,14 @@
-  
+---
+title: "Technical Attributes of Database Tables"
+description: |
+  The technical attributes of a database table include the attributes of its structure and attributes specific to the table. -   Technical attributes of the structure of a database table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techstruc.htm) -   Specific
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tech.htm"
+abapFile: "abenddic_database_tables_tech.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "tech"]
+---
 
 * * *
 

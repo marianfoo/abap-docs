@@ -1,4 +1,14 @@
-  
+---
+title: "Using System Fields on the User Interface"
+description: |
+  Background As system fields are defined using the syst structure in ABAP Dictionary, you can technically use them to define input fields in dynpros or in Web Dynpro. Rule Do not use system fields on the user interface Never use system field types to define input or output fields for dynpros or selec
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_ui_guidl.htm"
+abapFile: "abenuse_ui_guidl.htm"
+keywords: ["select", "do", "class", "data", "types", "abenuse", "guidl"]
+---
 
 * * *
 

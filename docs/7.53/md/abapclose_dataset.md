@@ -1,4 +1,14 @@
-  
+---
+title: "CLOSE DATASET"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclose_dataset_shortref.htm) Syntax CLOSE DATASET dset. Effect This statement closes the file specified in dset. dset expects a character-like data object containing the physical name(https://help.sap.com/doc/abapdocu_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclose_dataset.htm"
+abapFile: "abapclose_dataset.htm"
+keywords: ["do", "if", "try", "data", "abapclose", "dataset"]
+---
 
 * * *
 

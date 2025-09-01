@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Examples"
+description: |
+  !Example(exa.gif 'Example') ABAP Objects - Overview(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_objects_abexa.htm) !Example(exa.gif 'Example') ABAP Objects - Classes(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_abexa.htm) !Example(exa.gif 'Ex
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_objects_abexas.htm"
+abapFile: "abenabap_objects_abexas.htm"
+keywords: ["do", "if", "class", "abenabap", "objects", "abexas"]
+---
 
 * * *
 

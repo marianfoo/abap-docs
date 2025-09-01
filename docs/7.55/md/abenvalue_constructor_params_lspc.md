@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... line  LINES OF itab FROM idx1 TO idx2 USING KEY keyname ... Alternatives: 1. ... line(#!ABAP_ALTERNATIVE_1@1@) 2. ... LINES OF jtab FROM idx1 TO idx2 USING KEY keyname(#!ABAP_ALTERNATIVE_2@2@) Effect Specification of one or more line
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_lspc.htm"
+abapFile: "abenvalue_constructor_params_lspc.htm"
+keywords: ["insert", "delete", "do", "while", "if", "try", "catch", "method", "data", "types", "internal-table", "abenvalue", "constructor", "params", "lspc"]
+---
 
 * * *
 

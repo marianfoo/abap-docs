@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP and FOR"
+description: |
+  This example demonstrates aggregates using table reductions. Source Code REPORT demo_loop_group_by_for. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, initialize. PRIVATE SECTION. TYPES: BEGIN OF line, key TYPE i, num TYPE i, END OF line, itab TYPE STANDARD TABLE OF line WITH EMPTY
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_for_abexa.htm"
+abapFile: "abenloop_group_by_for_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenloop", "group", "for", "abexa"]
+---
 
 * * *
 

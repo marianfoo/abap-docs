@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, element"
+description: |
+  Syntax ...  @element_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_annotations_v2.htm) @element_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_annotations_v2.htm) ... KEY    field(h
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_entry_v2.htm"
+abapFile: "abencds_select_list_entry_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "list", "entry"]
+---
 
 * * *
 

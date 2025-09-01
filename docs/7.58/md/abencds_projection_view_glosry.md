@@ -1,4 +1,14 @@
-  
+---
+title: "CDS projection view"
+description: |
+  A special CDS view entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') that is based on another CDS view entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') (called projected en
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_projection_view_glosry.htm"
+abapFile: "abencds_projection_view_glosry.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abencds", "projection", "view", "glosry"]
+---
 
 * * *
 

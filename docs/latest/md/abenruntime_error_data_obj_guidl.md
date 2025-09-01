@@ -1,4 +1,14 @@
-  
+---
+title: "Runtime Errors when Accessing Data Objects"
+description: |
+  Background Using data objects can cause runtime errors if the data object contains unsuitable content or the access to the data object is unsuitable. Examples: -   Assigning values outside the value range of a target variable -   Using values that cannot be converted to the required type. In other w
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_data_obj_guidl.htm"
+abapFile: "abenruntime_error_data_obj_guidl.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "exception-handling", "abenruntime", "error", "obj", "guidl"]
+---
 
 * * *
 

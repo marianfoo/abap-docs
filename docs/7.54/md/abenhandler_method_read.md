@@ -1,4 +1,14 @@
-  
+---
+title: "FOR READ"
+description: |
+  Syntax METHODS method_name FOR READ IMPORTING read_import_parameter   FOR READ entity_name RESULT read_export_parameter read_import_param_assoc FOR READ entity_name_assoc FULL   read_export_param_full RESULT read_export_param_assoc LINK   read_export_param_link
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm"
+abapFile: "abenhandler_method_read.htm"
+keywords: ["insert", "update", "loop", "do", "if", "try", "method", "class", "data", "types", "abenhandler", "read"]
+---
 
 * * *
 

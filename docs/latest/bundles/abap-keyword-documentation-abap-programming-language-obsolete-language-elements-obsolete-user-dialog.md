@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abentexteditor.htm
 
-  
+---
+title: "Obsolete Editor Calls"
+description: |
+  The following statements trigger calls of editors integrated into GUI windows(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengui_window_glosry.htm 'Glossary Entry'). -   EDITOR-CALL FOR itab.(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentexteditor.htm"
+abapFile: "abentexteditor.htm"
+keywords: ["do", "if", "try", "abentexteditor"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abapeditor-call_for_itab.htm
 
-  
+---
+title: "EDITOR-CALL FOR itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR itab TITLE title DISPLAY-MODEBACKUP INTO jtab. Additions: 1. ... TITLE title(#!ABAP_ADDITION_1@1@) 2. ... DISPLAY-MODE(
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_itab.htm"
+abapFile: "abapeditor-call_for_itab.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abapeditor", "call", "for", "itab"]
+---
 
 * * *
 
@@ -128,7 +148,17 @@ ENDIF.
 
 ### abapeditor-call_for_report.htm
 
-  
+---
+title: "EDITOR-CALL FOR REPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR REPORT prog DISPLAY-MODE. Addition: ... DISPLAY-MODE(#!ABAP_ONE_ADD@1@) Effect This statement starts the ABAP Editor for the source code of the pr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_report.htm"
+abapFile: "abapeditor-call_for_report.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapeditor", "call", "for", "report"]
+---
 
 * * *
 

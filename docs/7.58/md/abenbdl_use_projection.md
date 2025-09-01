@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - use, Projection BDEF"
+description: |
+  Syntax ... use create ( augment(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_augment_projection.htm), precheck(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_precheck.htm))  use update ( augment(https://help.sap.com/doc/abapdocu_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_use_projection.htm"
+abapFile: "abenbdl_use_projection.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "use", "projection"]
+---
 
 * * *
 

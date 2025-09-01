@@ -1,4 +1,14 @@
-  
+---
+title: "GET CURSOR - List"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_cursor_shortref.htm) Syntax GET CURSOR  FIELD field  field_properties(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_cursor_list_field.htm)  LINE line  line_proper
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_cursor_list.htm"
+abapFile: "abapget_cursor_list.htm"
+keywords: ["do", "if", "class", "data", "field-symbol", "abapget", "cursor", "list"]
+---
 
 * * *
 

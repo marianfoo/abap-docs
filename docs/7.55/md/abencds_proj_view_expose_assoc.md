@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... association filter(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_pv_assoc_modified.htm) AS alias : REDIRECTED TO projection_view  composition filter(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_pv_assoc
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_expose_assoc.htm"
+abapFile: "abencds_proj_view_expose_assoc.htm"
+keywords: ["do", "if", "try", "data", "abencds", "proj", "view", "expose", "assoc"]
+---
 
 * * *
 

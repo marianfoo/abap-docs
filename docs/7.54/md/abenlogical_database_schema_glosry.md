@@ -1,4 +1,14 @@
-  
+---
+title: "logical_database_schema_glosry"
+description: |
+  logical_database_schema_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_schema_glosry.htm"
+abapFile: "abenlogical_database_schema_glosry.htm"
+keywords: ["do", "try", "data", "abenlogical", "database", "schema", "glosry"]
+---
 
 * * *
 

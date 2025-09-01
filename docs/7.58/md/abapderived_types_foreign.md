@@ -1,4 +1,14 @@
-  
+---
+title: "Type"
+description: |
+  The subcomponents of %foreign are internal tables of type TYPE TABLE FOR REPORTED LATE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_table_for.htm). Where used -   TYPE RESPONSE FOR REPORTED LATE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_response_f
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_foreign.htm"
+abapFile: "abapderived_types_foreign.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "method", "class", "types", "internal-table", "abapderived", "foreign"]
+---
 
 * * *
 

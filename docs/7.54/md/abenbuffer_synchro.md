@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Buffer Synchronization"
+description: |
+  -   Invalidating and Updating(#abenbuffer-synchro-1--------eviction---@ITOC@@ABENBUFFER_SYNCHRO_2) -   Resetting the Buffer(#@@ITOC@@ABENBUFFER_SYNCHRO_3) Invalidating and Updating One buffered table or database view usually exists in the table buffers(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuffer_synchro.htm"
+abapFile: "abenbuffer_synchro.htm"
+keywords: ["update", "delete", "do", "while", "if", "case", "try", "method", "data", "abenbuffer", "synchro"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 Table Buffering - Buffer Synchronization
 
--   [Invalidating and Updating](#@@ITOC@@ABENBUFFER_SYNCHRO_1)
-
--   [Eviction](#@@ITOC@@ABENBUFFER_SYNCHRO_2)
+-   [Invalidating and Updating](#abenbuffer-synchro-1--------eviction---@ITOC@@ABENBUFFER_SYNCHRO_2)
 
 -   [Resetting the Buffer](#@@ITOC@@ABENBUFFER_SYNCHRO_3)
 

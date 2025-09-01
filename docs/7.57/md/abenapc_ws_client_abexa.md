@@ -1,4 +1,14 @@
-  
+---
+title: "APC - AS ABAP as WebSocket Client"
+description: |
+  This example demonstrates AS ABAP as a WebSocket client. Source Code REPORT demo_apc_client. CLASS apc_handler DEFINITION FINAL. PUBLIC SECTION. INTERFACES if_apc_wsp_event_handler_pcp. DATA       message TYPE string. ENDCLASS. CLASS apc_handler IMPLEMENTATION. METHOD if_apc_wsp_event_h
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenapc_ws_client_abexa.htm"
+abapFile: "abenapc_ws_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "client", "abexa"]
+---
 
 * * *
 

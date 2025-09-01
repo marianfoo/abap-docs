@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_gui_status. DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output  LIKE ok_code. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. SET TITLEBAR '100'. ENDMODULE. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok_code. CASE s
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_gui_status_abexa.htm"
+abapFile: "abendynpro_gui_status_abexa.htm"
+keywords: ["do", "case", "data", "abendynpro", "gui", "status", "abexa"]
+---
 
 * * *
 

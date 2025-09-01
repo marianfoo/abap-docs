@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Web Application Server"
+description: |
+  Abbreviated as SAP Web AS. Name used for the Application Server(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_app_server_glosry.htm 'Glossary Entry') of SAP NetWeaver(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_netweaver_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_was_glosry.htm"
+abapFile: "abensap_was_glosry.htm"
+keywords: ["do", "try", "abensap", "was", "glosry"]
+---
 
 * * *
 

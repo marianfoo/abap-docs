@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenselection_screen_events.htm
 
-  
+---
+title: "Selection Screen Processing"
+description: |
+  Selection screen processing packages the dynpro flow logic(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry') together with the sending of the selection screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_scre
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_events.htm"
+abapFile: "abenselection_screen_events.htm"
+keywords: ["select", "loop", "do", "if", "try", "abenselection", "screen", "events"]
+---
 
 * * *
 
@@ -49,7 +59,17 @@ Continue
 
 ### abapat_selection-screen.htm
 
-  
+---
+title: "AT SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_shortref.htm) Syntax AT SELECTION-SCREEN selscreen_event(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm). Effect This statement defines event blocks
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm"
+abapFile: "abapat_selection-screen.htm"
+keywords: ["select", "do", "if", "try", "data", "abapat", "selection", "screen"]
+---
 
 * * *
 
@@ -87,7 +107,17 @@ Continue
 
 ### abapat_selection-screen_events.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  OUTPUT    ON paraselcrit    ON END OF selcrit    ON BLOCK block    ON RADIOBUTTON GROUP group       ON HELP-REQUESTVALUE-REQUEST FOR paraselcrit-lowselcrit-high    ON EXIT-COMMAND . Alternatives:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm"
+abapFile: "abapat_selection-screen_events.htm"
+keywords: ["select", "update", "loop", "do", "if", "try", "data", "abapat", "selection", "screen", "events"]
+---
 
 * * *
 
@@ -287,7 +317,17 @@ Continue
 
 ### abensel_screen_at_sel_on_abexa.htm
 
-  
+---
+title: "Selection Screens, Block Processing and Radio Button Processing"
+description: |
+  This example demonstrates how blocks and radio buttons are processed in selection screens. Source Code REPORT demo_at_selection_on_block . SELECTION-SCREEN BEGIN OF BLOCK part1 WITH FRAME. PARAMETERS: number1 TYPE i, number2 TYPE i, number3 TYPE i. SELECTION-SCREEN END OF BLOCK part1. SELECTION-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_at_sel_on_abexa.htm"
+abapFile: "abensel_screen_at_sel_on_abexa.htm"
+keywords: ["select", "do", "if", "abensel", "screen", "sel", "abexa"]
+---
 
 * * *
 
@@ -333,7 +373,17 @@ If the user does not change the radio buttons of group rad, a warning appears.
 
 ### abensel_screen_f1_help_abexa.htm
 
-  
+---
+title: "Selection Screens, Field Help"
+description: |
+  The example shows a self-defined F1 help on selection screens. Source Code REPORT demo_selection_screen_f1. PARAMETERS: p_carr_1 TYPE s_carr_id, p_carr_2 TYPE spfli-carrid. AT SELECTION-SCREEN ON HELP-REQUEST FOR p_carr_2. CALL SCREEN 100 STARTING AT 10 5 ENDING   AT 60 10. Description Th
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f1_help_abexa.htm"
+abapFile: "abensel_screen_f1_help_abexa.htm"
+keywords: ["select", "do", "while", "data", "abensel", "screen", "help", "abexa"]
+---
 
 * * *
 
@@ -361,7 +411,17 @@ This program declares a selection screen with two parameters both referring to t
 
 ### abensel_screen_f4_help_abexa.htm
 
-  
+---
+title: "Selection Screens, Input Help"
+description: |
+  The example demonstrates a self-defined F4 help on selection screens. Source Code REPORT demo_selection_screen_f4. PARAMETERS: p_carr_1 TYPE spfli-carrid, p_carr_2 TYPE spfli-carrid. AT SELECTION-SCREEN ON VALUE-REQUEST FOR p_carr_2. CALL SCREEN 100 STARTING AT 10 5 ENDING   AT 50 10. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f4_help_abexa.htm"
+abapFile: "abensel_screen_f4_help_abexa.htm"
+keywords: ["select", "do", "while", "if", "data", "abensel", "screen", "help", "abexa"]
+---
 
 * * *
 
@@ -422,7 +482,17 @@ The dialog module value\_list suppresses the display of the screen layout of dyn
 
 ### abapat_selection-screen_events.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  OUTPUT    ON paraselcrit    ON END OF selcrit    ON BLOCK block    ON RADIOBUTTON GROUP group       ON HELP-REQUESTVALUE-REQUEST FOR paraselcrit-lowselcrit-high    ON EXIT-COMMAND . Alternatives:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm"
+abapFile: "abapat_selection-screen_events.htm"
+keywords: ["select", "update", "loop", "do", "if", "try", "data", "abapat", "selection", "screen", "events"]
+---
 
 * * *
 
@@ -622,7 +692,17 @@ Continue
 
 ### abapat_selection-screen.htm
 
-  
+---
+title: "AT SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_shortref.htm) Syntax AT SELECTION-SCREEN selscreen_event(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm). Effect This statement defines event blocks
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm"
+abapFile: "abapat_selection-screen.htm"
+keywords: ["select", "do", "if", "try", "data", "abapat", "selection", "screen"]
+---
 
 * * *
 

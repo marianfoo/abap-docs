@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_shortref.htm) Obsolete Syntax LEAVE. Effect The statement LEAVE without additions is context-specific: -   In list processing (when the list processor(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave-.htm"
+abapFile: "abapleave-.htm"
+keywords: ["do", "if", "try", "abapleave"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - SET LOCKS"
+description: |
+  Syntax SET LOCKS OF root_name ENTITY entity_1_name FROM lt1 ENTITY entity_2_name FROM lt2 ... FAILED   it_failed REPORTED it_reported. SET LOCKS ENTITY entity_name FROM lt FAILED it_failed REPORTED it_reported. Effect The explicit locking of instance
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks.htm"
+abapFile: "abeneml_set_locks.htm"
+keywords: ["do", "if", "method", "data", "types", "abeneml", "set", "locks"]
+---
 
 * * *
 

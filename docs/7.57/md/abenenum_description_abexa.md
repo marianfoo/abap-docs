@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_describe_enums. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). TYPES: BEGIN OF ENUM size, s, m, l, xl, xxl, END OF ENUM size. FINAL(size) = VALUE size( ). out->begin_section( 'DESCRIBE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenum_description_abexa.htm"
+abapFile: "abenenum_description_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenenum", "description", "abexa"]
+---
 
 * * *
 

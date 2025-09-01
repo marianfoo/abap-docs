@@ -1,4 +1,14 @@
-  
+---
+title: "transaction_code_glosry"
+description: |
+  transaction_code_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_code_glosry.htm"
+abapFile: "abentransaction_code_glosry.htm"
+keywords: ["do", "try", "method", "types", "abentransaction", "code", "glosry"]
+---
 
 * * *
 

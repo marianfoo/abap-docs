@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Functions - Syntax"
+description: |
+  -   Functions with an Unnamed Argument(#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2) -   Obscuring with Methods(#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_3) In functions with named arguments, there is usually a main argument val and
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions_syntax.htm"
+abapFile: "abenbuilt_in_functions_syntax.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuilt", "functions", "syntax"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Built-In Functions - Syntax
 
--   [Functions with an Unnamed Argument](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_1)
-
--   [Functions with Named Arguments](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
+-   [Functions with an Unnamed Argument](#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
 
 -   [Obscuring with Methods](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_3)
 

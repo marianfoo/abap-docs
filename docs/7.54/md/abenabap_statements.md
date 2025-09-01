@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Statements"
+description: |
+  ABAP statements consist of the following tokens(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentoken_glosry.htm 'Glossary Entry') and end with a period (.). -   ABAP words(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_words.htm) -   Operands(https://help.s
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm"
+abapFile: "abenabap_statements.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "abenabap", "statements"]
+---
 
 * * *
 

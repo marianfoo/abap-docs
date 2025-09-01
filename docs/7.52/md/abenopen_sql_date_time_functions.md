@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Date Functions and Time Functions"
+description: |
+  Open SQL supports the following date functions and time functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_date_time_functions.htm): -   Date functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_date_func.htm) This translation does not reflect t
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_date_time_functions.htm"
+abapFile: "abenopen_sql_date_time_functions.htm"
+keywords: ["do", "data", "abenopen", "sql", "date", "time", "functions"]
+---
 
 * * *
 

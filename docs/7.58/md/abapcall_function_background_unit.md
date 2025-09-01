@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION IN BACKGROUND UNIT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_shortref.htm) Syntax CALL FUNCTION func IN BACKGROUND UNIT oref parameter_list(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_background_para.htm). Effect Background Remote
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_background_unit.htm"
+abapFile: "abapcall_function_background_unit.htm"
+keywords: ["update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abapcall", "function", "background", "unit"]
+---
 
 * * *
 

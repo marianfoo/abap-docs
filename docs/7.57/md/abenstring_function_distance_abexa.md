@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_distance. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: word    TYPE c LENGTH 30 VALUE 'CALL METHOD', percent TYPE i VALUE 50. cl_demo_input=>add_field( CHANGING field = word ). cl_demo_input=>request(   C
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_function_distance_abexa.htm"
+abapFile: "abenstring_function_distance_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "abenstring", "function", "distance", "abexa"]
+---
 
 * * *
 

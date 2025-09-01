@@ -1,4 +1,14 @@
-  
+---
+title: "SXPG Framework for Operating System Statements"
+description: |
+  The only recommended method for executing operating system statements from ABAP on the operating system of the host computer(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance or another server is to use the SXPG fra
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_system_commands_appl_sxpg.htm"
+abapFile: "abenabap_system_commands_appl_sxpg.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abenabap", "system", "commands", "appl", "sxpg"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP data model extension"
+description: |
+  An append structure(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenappend_structure_glosry.htm 'Glossary Entry') for DDIC database tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') and a CDS entity extension(https:/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_data_model_ext_glosry.htm"
+abapFile: "abenrap_data_model_ext_glosry.htm"
+keywords: ["do", "try", "data", "abenrap", "model", "ext", "glosry"]
+---
 
 * * *
 

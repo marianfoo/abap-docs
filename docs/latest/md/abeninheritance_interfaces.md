@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Inheritance and Interfaces"
+description: |
+  Interfaces(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfac.htm) are standalone constructs in ABAP Objects that support polymorphism(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpolymorphism_glosry.htm 'Glossary Entry') in classes. The polymorph
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_interfaces.htm"
+abapFile: "abeninheritance_interfaces.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abeninheritance", "interfaces"]
+---
 
 * * *
 

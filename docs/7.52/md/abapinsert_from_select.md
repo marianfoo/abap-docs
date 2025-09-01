@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  FROM(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm) source FIELDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfields_clause.htm) select_clause(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause.htm)
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_from_select.htm"
+abapFile: "abapinsert_from_select.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abapinsert", "from"]
+---
 
 * * *
 

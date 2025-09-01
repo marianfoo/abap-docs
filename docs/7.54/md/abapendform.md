@@ -1,4 +1,14 @@
-  
+---
+title: "ENDFORM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapform_shortref.htm) Obsolete Syntax ENDFORM. Effect The statement ENDFORM closes a subroutine definition introduced using FORM(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapform.htm).
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendform.htm"
+abapFile: "abapendform.htm"
+keywords: ["do", "abapendform"]
+---
 
 * * *
 

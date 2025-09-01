@@ -1,4 +1,14 @@
-  
+---
+title: "status_bar_glosry"
+description: |
+  status_bar_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatus_bar_glosry.htm"
+abapFile: "abenstatus_bar_glosry.htm"
+keywords: ["do", "if", "try", "abenstatus", "bar", "glosry"]
+---
 
 * * *
 

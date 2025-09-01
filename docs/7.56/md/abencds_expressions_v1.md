@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, Expressions"
+description: |
+  Syntax ... arith_expr(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_arithmetic_expression_v1.htm)  aggr_expr(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm)  case_expr(https://help.sap.com/doc/abapdocu_756_index_htm/7
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_expressions_v1.htm"
+abapFile: "abencds_expressions_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "expressions"]
+---
 
 * * *
 

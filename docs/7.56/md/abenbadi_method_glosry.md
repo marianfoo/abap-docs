@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI method"
+description: |
+  Method(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_glosry.htm 'Glossary Entry') of a BAdI interface(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbadi_interface_glosry.htm 'Glossary Entry'). A BAdI method is implemented in BAdI implementations(https:/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbadi_method_glosry.htm"
+abapFile: "abenbadi_method_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenbadi", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "system_table_glosry"
+description: |
+  system_table_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_table_glosry.htm"
+abapFile: "abensystem_table_glosry.htm"
+keywords: ["do", "try", "data", "abensystem", "table", "glosry"]
+---
 
 * * *
 

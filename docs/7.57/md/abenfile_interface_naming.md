@@ -1,4 +1,14 @@
-  
+---
+title: "Physical and Logical File Names"
+description: |
+  -   Physical File Names(#abenfile-interface-naming-1-------logical-file-names-and-logical-paths---@ITOC@@ABENFILE_INTERFACE_NAMING_2) Physical File Names Files are addressed directly in all the statements of the file interface by using the platform-dependent physical file name by which they are kn
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_naming.htm"
+abapFile: "abenfile_interface_naming.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenfile", "interface", "naming"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 Physical and Logical File Names
 
--   [Physical File Names](#@@ITOC@@ABENFILE_INTERFACE_NAMING_1)
--   [Logical File Names and Logical Paths](#@@ITOC@@ABENFILE_INTERFACE_NAMING_2)
+-   [Physical File Names](#abenfile-interface-naming-1-------logical-file-names-and-logical-paths---@ITOC@@ABENFILE_INTERFACE_NAMING_2)
 
 Physical File Names   
 

@@ -1,4 +1,14 @@
-  
+---
+title: "trfc_1_glosry"
+description: |
+  trfc_1_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrfc_1_glosry.htm"
+abapFile: "abentrfc_1_glosry.htm"
+keywords: ["do", "try", "abentrfc", "glosry"]
+---
 
 * * *
 

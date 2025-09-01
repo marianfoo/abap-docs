@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_declare_enums DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS.  Public class implementation CLASS cl_demo_declare_enums IMPLEMENTATION. METHOD main. out->next_section( 'ABAP En
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_declaration_abexa.htm"
+abapFile: "abenenum_declaration_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenenum", "declaration", "abexa"]
+---
 
 * * *
 

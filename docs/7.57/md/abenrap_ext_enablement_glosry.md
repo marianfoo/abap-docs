@@ -1,4 +1,14 @@
-  
+---
+title: "RAP extensibility enablement"
+description: |
+  Preparing a RAP business object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm 'Glossary Entry') to fulfill all technical requirements for extensibility. This may include preparing the RAP data model for extensibility by means of extensibility annotations and prep
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_ext_enablement_glosry.htm"
+abapFile: "abenrap_ext_enablement_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "ext", "enablement", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "selection_include_glosry"
+description: |
+  selection_include_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_include_glosry.htm"
+abapFile: "abenselection_include_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenselection", "include", "glosry"]
+---
 
 * * *
 

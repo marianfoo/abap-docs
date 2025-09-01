@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Managed Database Procedures"
+description: |
+  AMDP for short. Class-based framework for managing and calling stored procedures(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstored_procedure_glosry.htm 'Glossary Entry') or database procedures(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_procedure_g
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_managed_db_proc_glosry.htm"
+abapFile: "abenabap_managed_db_proc_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenabap", "managed", "proc", "glosry"]
+---
 
 * * *
 

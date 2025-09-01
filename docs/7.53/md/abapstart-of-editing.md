@@ -1,4 +1,14 @@
-  
+---
+title: "START-OF-EDITING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstart-of-editing_shortref.htm) Obsolete Syntax START-OF-EDITING. Effect The statement START-OF-EDITING defines an event block(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_block_glosry.htm 'Glos
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstart-of-editing.htm"
+abapFile: "abapstart-of-editing.htm"
+keywords: ["select", "do", "try", "abapstart", "editing"]
+---
 
 * * *
 

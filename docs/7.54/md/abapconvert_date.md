@@ -1,4 +1,14 @@
-  
+---
+title: "CONVERT - DATE, INVERTED-DATE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_shortref.htm) Obsolete Syntax CONVERT  DATE dat1 INTO INVERTED-DATE dat2  INVERTED-DATE dat1 INTO DATE dat2 . Effect These variants of the statement CONVERT are not permitted in classes
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date.htm"
+abapFile: "abapconvert_date.htm"
+keywords: ["select", "loop", "do", "if", "try", "class", "data", "internal-table", "abapconvert", "date"]
+---
 
 * * *
 

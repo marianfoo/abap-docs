@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - SQL Function UPPER"
+description: |
+  This example demonstrates the SQL function UPPER in ABAP SQL and ABAP CDS. Source Code  Public class definition CLASS cl_demo_sql_upper DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS c
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_function_upper_abexa.htm"
+abapFile: "abensql_function_upper_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abensql", "function", "upper", "abexa"]
+---
 
 * * *
 

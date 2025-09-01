@@ -1,4 +1,14 @@
-  
+---
+title: "Message Class"
+description: |
+  Identifier that groups messages(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm 'Glossary Entry') in an application area. → More(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_storing.htm)
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_class_glosry.htm"
+abapFile: "abenmessage_class_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenmessage", "glosry"]
+---
 
 * * *
 

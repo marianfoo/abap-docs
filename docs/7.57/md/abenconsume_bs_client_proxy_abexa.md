@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Consuming Business Services with OData Client Proxy"
+description: |
+  This example demonstrates how the OData data of business services can be consumed in ABAP using an OData Client Proxy. Source Code REPORT demo_consume_bs_client_proxy. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA scarr_spfli T
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconsume_bs_client_proxy_abexa.htm"
+abapFile: "abenconsume_bs_client_proxy_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenconsume", "client", "proxy", "abexa"]
+---
 
 * * *
 

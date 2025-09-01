@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN INCLUDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_incl_shortref.htm) Syntax Forms Include parameters(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_include_param.htm) 1. SELECTION-SCREEN INCLUDE PARAMETERS para O
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_include.htm"
+abapFile: "abapselection-screen_include.htm"
+keywords: ["select", "do", "if", "try", "abapselection", "screen", "include"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Full Buffering"
+description: |
+  When a row is read, all rows in the table or view are loaded to the table buffer(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_buffer_glosry.htm 'Glossary Entry'). The buffered table or view is either entirely in the buffer or not at all. In the buffer, the buffered data rec
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuffer_complete_buffering.htm"
+abapFile: "abenbuffer_complete_buffering.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenbuffer", "complete", "buffering"]
+---
 
 * * *
 

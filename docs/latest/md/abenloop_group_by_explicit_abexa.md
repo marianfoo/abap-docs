@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_loop_at_group_by_expl DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. DATA: numbers TYPE TABLE OF i WITH EMPTY KEY, limit1  TYPE i VALUE 3, limit2  TYPE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_group_by_explicit_abexa.htm"
+abapFile: "abenloop_group_by_explicit_abexa.htm"
+keywords: ["insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenloop", "group", "explicit", "abexa"]
+---
 
 * * *
 

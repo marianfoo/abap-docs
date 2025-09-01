@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Block Processing and Radio Button Processing"
+description: |
+  This example demonstrates how blocks and radio buttons are processed in selection screens. Source Code REPORT demo_at_selection_on_block . SELECTION-SCREEN BEGIN OF BLOCK part1 WITH FRAME. PARAMETERS: number1 TYPE i, number2 TYPE i, number3 TYPE i. SELECTION-SCREEN END OF BLOCK part1. SELECTION-
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensel_screen_at_sel_on_abexa.htm"
+abapFile: "abensel_screen_at_sel_on_abexa.htm"
+keywords: ["select", "do", "if", "abensel", "screen", "sel", "abexa"]
+---
 
 * * *
 

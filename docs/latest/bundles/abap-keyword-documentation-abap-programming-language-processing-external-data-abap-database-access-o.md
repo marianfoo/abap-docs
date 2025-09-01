@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenabap_object_services_query.htm
 
-  
+---
+title: "OS - Query Service"
+description: |
+  The query service makes it possible to search for and load persistent objects using logical expressions. -   Query Service Overview(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_terms.htm) -   Query Service Components(https://help.sap.com/doc/abapdocu_latest_index_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services_query.htm"
+abapFile: "abenabap_object_services_query.htm"
+keywords: ["do", "if", "data", "abenabap", "object", "services", "query"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abenos_query_terms.htm
 
-  
+---
+title: "OS - Query Service, Overview"
+description: |
+  A query is used to search for persistent objects in the database using conditions and to create the corresponding instances of the persistent class in the ABAP program. A query is implemented by an object (query object) that implements the interface IF_OS_QUERY and is created by a query manager. A
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_terms.htm"
+abapFile: "abenos_query_terms.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenos", "query", "terms"]
+---
 
 * * *
 
@@ -63,7 +83,17 @@ When the result set of a query is determined, the changes that are made to persi
 
 ### abenos_query_comps.htm
 
-  
+---
+title: "OS - Components of the Query Service"
+description: |
+  A query is represented by a query object, which is managed by a query manager (also an object). The query manager represents the query service with respect to the ABAP program. To create a query manager, the static method GET_QUERY_MANAGER of the general system service class CL_OS_SYSTEM is requ
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_comps.htm"
+abapFile: "abenos_query_comps.htm"
+keywords: ["do", "if", "method", "class", "data", "abenos", "query", "comps"]
+---
 
 * * *
 
@@ -215,7 +245,17 @@ Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY  
 
 ### abenos_query_filter_cond.htm
 
-  
+---
+title: "OS - Query Conditions"
+description: |
+  A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condit
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_filter_cond.htm"
+abapFile: "abenos_query_filter_cond.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenos", "query", "filter", "cond"]
+---
 
 * * *
 
@@ -229,10 +269,8 @@ OS - Query Conditions
 
 A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condition, a query condition is made up of elementary comparisons that can be combined using the Boolean operators AND, OR, and NOT, where grouping using parentheses is supported.
 
--   [Comparison Operators](#@@ITOC@@ABENOS_QUERY_FILTER_COND_1)
--   [LIKE](#@@ITOC@@ABENOS_QUERY_FILTER_COND_2)
--   [IS NULL](#@@ITOC@@ABENOS_QUERY_FILTER_COND_3)
--   [EQUALSREF](#@@ITOC@@ABENOS_QUERY_FILTER_COND_4)
+-   [Comparison Operators](#abenos-query-filter-cond-1-------like---@ITOC@@ABENOS_QUERY_FILTER_COND_2)
+-   [IS NULL](#abenos-query-filter-cond-3-------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
 -   [AND, OR, NOT](#@@ITOC@@ABENOS_QUERY_FILTER_COND_5)
 
 When a query is executed using a class agent, the query is bound exactly to its persistent class. The attributes specified in a query condition must exist in the persistent class as public persistent attributes. If not, an exception is raised. On the other hand, a query that has been created can certainly be executed consecutively by class agents of different persistent classes, as long as the specified attributes exist. When a query is executed, a SELECT statement is created internally with a WHERE condition, in which the attributes are replaced by concrete column identifiers and the free parameters are replaced by current values.
@@ -293,7 +331,17 @@ name LIKE PAR1 AND age > '45' AND age < '65'
 
 ### abenos_query_sort_cond.htm
 
-  
+---
+title: "OS - Sort Conditions"
+description: |
+  A sort condition is a list of attributes attr that specifies the direction in which they are to be sorted. Only attributes with an elementary type can be specified. For each attribute, an order must be specified, either ascending or descending. This information is placed after the attribute. Only pu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_sort_cond.htm"
+abapFile: "abenos_query_sort_cond.htm"
+keywords: ["do", "if", "method", "data", "abenos", "query", "sort", "cond"]
+---
 
 * * *
 
@@ -326,7 +374,17 @@ price ASCENDING date DESCENDING
 
 ### abenos_query_abexa.htm
 
-  
+---
+title: "OS - Query Service"
+description: |
+  This example demonstrates how an object-oriented query is used. Source Code  Public class definition CLASS cl_demo_query_service DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_abexa.htm"
+abapFile: "abenos_query_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenos", "query", "abexa"]
+---
 
 * * *
 

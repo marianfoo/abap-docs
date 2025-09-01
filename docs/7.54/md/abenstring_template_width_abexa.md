@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Length"
+description: |
+  This example demonstrates how to specify a length for embedded expressions. Source Code REPORT demo_string_template_width. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES result TYPE STANDARD TABLE OF string WITH EMPTY KEY. cl_de
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_template_width_abexa.htm"
+abapFile: "abenstring_template_width_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "abenstring", "template", "width", "abexa"]
+---
 
 * * *
 

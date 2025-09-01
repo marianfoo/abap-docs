@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Data Types"
+description: |
+  ABAP supports the numeric data types i(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm), int8(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm), p(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbui
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumber_types.htm"
+abapFile: "abennumber_types.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abennumber"]
+---
 
 * * *
 
@@ -14,10 +24,8 @@ ABAP supports the numeric data types [i](https://help.sap.com/doc/abapdocu_758_i
 
 The numeric data types are used to store numeric values and are intended for calculations. Calculations with fields of the types i, int8, and type f can more or less be mapped directly to the machine commands of the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry"). In contrast, calculations with packed numbers of type p are implemented in the kernel of the ABAP runtime framework and are therefore somewhat slower. Operations using the decimal floating point numbers decfloat16 and decfloat34 are executed using a library integrated into the ABAP kernel until they are supported by the hardware of the host computer.
 
--   [Integer Numbers](#@@ITOC@@ABENNUMBER_TYPES_1)
--   [Packed Numbers](#@@ITOC@@ABENNUMBER_TYPES_2)
--   [Floating Point Numbers](#@@ITOC@@ABENNUMBER_TYPES_3)
-    -   [Decimal Floating Point Numbers](#@@ITOC@@ABENNUMBER_TYPES_4)
+-   [Integer Numbers](#abennumber-types-1-------packed-numbers---@ITOC@@ABENNUMBER_TYPES_2)
+-   [Floating Point Numbers](#abennumber-types-3-----------decimal-floating-point-numbers---@ITOC@@ABENNUMBER_TYPES_4)
     -   [Binary Floating Point Numbers](#@@ITOC@@ABENNUMBER_TYPES_5)
 
 The common generic type of the numeric data types is numeric.

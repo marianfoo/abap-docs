@@ -1,4 +1,14 @@
-  
+---
+title: "Example for RAP Saver Methods"
+description: |
+  This example demonstrates RAP saver methods within a RAP saver class using a simple unmanaged RAP BO. Data model The CDS data model consists of the root entity DEMO_UNMANAGED_ROOT and its child entity DEMO_UNMANAGED_CHILD. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define roo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_class_abexa.htm"
+abapFile: "abenabp_saver_class_abexa.htm"
+keywords: ["select", "update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "abenabp", "saver", "abexa"]
+---
 
 * * *
 

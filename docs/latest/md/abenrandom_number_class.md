@@ -1,4 +1,14 @@
-  
+---
+title: "Random Numbers"
+description: |
+  The class CL_ABAP_RANDOM calls the pseudo random number generator Mersenne Twister for different numeric types. For the one-dimensional case, the following special classes generate random numbers for the different numeric types: -   CL_ABAP_RANDOM_INT for type i -   CL_ABAP_RANDOM_INT8 for t
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrandom_number_class.htm"
+abapFile: "abenrandom_number_class.htm"
+keywords: ["do", "if", "case", "class", "data", "types", "abenrandom", "number"]
+---
 
 * * *
 

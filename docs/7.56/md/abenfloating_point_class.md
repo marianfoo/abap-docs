@@ -1,4 +1,14 @@
-  
+---
+title: "Constants for Minimum and Maximum Values"
+description: |
+  The class CL_ABAP_MATH contains constants with the limits of the value ranges built-in numeric types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_types_numeric.htm). Example Display of the minimum and maximum values of numeric types. cl_demo_output=>display( i:
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfloating_point_class.htm"
+abapFile: "abenfloating_point_class.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenfloating", "point"]
+---
 
 * * *
 
@@ -8,10 +18,8 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 System Class CL\_ABAP\_MATH
 
--   [Constants for Minimum and Maximum Values](#@@ITOC@@ABENFLOATING_POINT_CLASS_1)
--   [Operations with Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_2)
-    -   [Rounding Binary Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_3)
-    -   [Operations with Decimal Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_4)
+-   [Constants for Minimum and Maximum Values](#abenfloating-point-class-1-------operations-with-floating-point-numbers---@ITOC@@ABENFLOATING_POINT_CLASS_2)
+    -   [Rounding Binary Floating Point Numbers](#abenfloating-point-class-3-----------operations-with-decimal-floating-point-numbers---@ITOC@@ABENFLOATING_POINT_CLASS_4)
 
 Constants for Minimum and Maximum Values
 

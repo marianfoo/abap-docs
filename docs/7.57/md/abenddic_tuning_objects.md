@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Tuning Objects"
+description: |
+  DDIC tuning objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_tuning_object_glosry.htm 'Glossary Entry') define technical settings or tunings for dictionary objects. -   DDIC - Dependency Rules(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_dependen
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_tuning_objects.htm"
+abapFile: "abenddic_tuning_objects.htm"
+keywords: ["do", "if", "try", "abenddic", "tuning", "objects"]
+---
 
 * * *
 

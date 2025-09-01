@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS - FOR TABLE FUNCTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-methods_shortref.htm) Syntax CLASS-METHODS meth FOR TABLE FUNCTION cds_entity. Effect This statement declares the static method(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_method_glosr
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-methods_for_tabfunc.htm"
+abapFile: "abapclass-methods_for_tabfunc.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abapclass", "methods", "for", "tabfunc"]
+---
 
 * * *
 

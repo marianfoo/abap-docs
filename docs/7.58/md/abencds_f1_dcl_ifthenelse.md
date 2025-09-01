@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... IF ( condition ) THEN  condition  ELSE  condition  ... Effect The condition condition in the IF branch is evaluated in the application server. If the result is true, the if_then_else is replaced by the condition in the THEN branch, otherwise by the condition in the ELSE branch. Hints -   T
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_ifthenelse.htm"
+abapFile: "abencds_f1_dcl_ifthenelse.htm"
+keywords: ["select", "do", "if", "data", "abencds", "dcl", "ifthenelse"]
+---
 
 * * *
 

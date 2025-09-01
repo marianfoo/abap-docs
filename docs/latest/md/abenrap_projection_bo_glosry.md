@@ -1,4 +1,14 @@
-  
+---
+title: "RAP projection business object"
+description: |
+  A RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') that is defined in a RAP projection behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_bdef_glosry.htm 'Glossary Entry'). It
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_projection_bo_glosry.htm"
+abapFile: "abenrap_projection_bo_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "projection", "glosry"]
+---
 
 * * *
 

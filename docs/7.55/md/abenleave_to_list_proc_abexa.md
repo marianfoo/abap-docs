@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Call from Dynpro Processing"
+description: |
+  This example shows how to switch from dynpro processing to list processing. Source Code REPORT demo_leave_to_list_processing . TABLES demo_conn. DATA: wa_spfli TYPE spfli, flightdate TYPE sflight-fldate. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODUL
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenleave_to_list_proc_abexa.htm"
+abapFile: "abenleave_to_list_proc_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "class", "data", "abenleave", "list", "proc", "abexa"]
+---
 
 * * *
 

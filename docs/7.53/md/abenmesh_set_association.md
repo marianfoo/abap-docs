@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  SET ASSOCIATION mesh_path(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm)  = wa       LIKE wa    INITIAL . Extras: 1. ... = wa(#!ABAP_ADDITION_1@1@) 2. ... LIKE wa(#!ABAP_ADDITION_2@2@) 3. ... INITIAL(#!ABAP_ADDITION_3@3@) Effect Sets
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_set_association.htm"
+abapFile: "abenmesh_set_association.htm"
+keywords: ["insert", "do", "if", "data", "types", "field-symbol", "abenmesh", "set", "association"]
+---
 
 * * *
 

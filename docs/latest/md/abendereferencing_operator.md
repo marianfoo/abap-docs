@@ -1,4 +1,14 @@
-  
+---
+title: "Dereferencing Operator"
+description: |
+  The content of a data object pointed to by a data reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_type.htm) is accessed using the dereferencing operator: dref-> The dereferencing operator -> can be specified after a data reference variable(https:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendereferencing_operator.htm"
+abapFile: "abendereferencing_operator.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "data", "types", "internal-table", "field-symbol", "abendereferencing", "operator"]
+---
 
 * * *
 

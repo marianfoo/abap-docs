@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, to-parent association"
+description: |
+  Syntax ... ASSOCIATION TO PARENT target ON $projection.cds_cond(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conditional_expression_v2.htm) ... Effect Defines a CDS to-parent association(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abento_parent_association_g
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_custom_tp_association.htm"
+abapFile: "abencds_f1_custom_tp_association.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "custom", "association"]
+---
 
 * * *
 

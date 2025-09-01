@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - COMMIT ENTITIES BEGIN, END with CONVERT KEY OF"
+description: |
+  This example demonstrates the COMMIT ENTITIES variant COMMIT ENTITIES ... END including CONVERT KEY OF with a simple unmanaged RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm 'Glossary Entry'). Data model The CDS data model consists of the roo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommit_entities_beginend_abexa.htm"
+abapFile: "abencommit_entities_beginend_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abencommit", "entities", "beginend", "abexa"]
+---
 
 * * *
 

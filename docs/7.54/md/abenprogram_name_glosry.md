@@ -1,4 +1,14 @@
-  
+---
+title: "program_name_glosry"
+description: |
+  program_name_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_name_glosry.htm"
+abapFile: "abenprogram_name_glosry.htm"
+keywords: ["do", "if", "try", "abenprogram", "name", "glosry"]
+---
 
 * * *
 

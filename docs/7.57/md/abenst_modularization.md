@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Modularization with Subtemplates"
+description: |
+  An ST program can contain any number of templates that are defined with tt:template. All templates but the main template(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_main.htm) are subtemplates that can be called in the main template. -   tt:template, tt:context, C
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_modularization.htm"
+abapFile: "abenst_modularization.htm"
+keywords: ["do", "if", "data", "abenst", "modularization"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Scopes for Annotations"
+description: |
+  Annotations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations.htm) can be specified for the following scopes in source code in ABAP CDS: The annotation @Scope(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm) is used in the
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_scopes.htm"
+abapFile: "abencds_annotations_scopes.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "annotations", "scopes"]
+---
 
 * * *
 

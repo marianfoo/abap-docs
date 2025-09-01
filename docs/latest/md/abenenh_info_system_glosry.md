@@ -1,4 +1,14 @@
-  
+---
+title: "Enhancement Information System"
+description: |
+  Tool of the ABAP Workbench(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') for the search for enhancements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenhancement_glosry.htm 'Glossary Entry') made with the A
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenh_info_system_glosry.htm"
+abapFile: "abenenh_info_system_glosry.htm"
+keywords: ["do", "if", "try", "abenenh", "info", "system", "glosry"]
+---
 
 * * *
 

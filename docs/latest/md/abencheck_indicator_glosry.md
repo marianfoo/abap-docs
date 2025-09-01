@@ -1,4 +1,14 @@
-  
+---
+title: "check_indicator_glosry"
+description: |
+  check_indicator_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheck_indicator_glosry.htm"
+abapFile: "abencheck_indicator_glosry.htm"
+keywords: ["do", "if", "try", "abencheck", "indicator", "glosry"]
+---
 
 * * *
 

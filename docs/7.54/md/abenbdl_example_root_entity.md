@@ -1,4 +1,14 @@
-  
+---
+title: "Root entities example"
+description: |
+  Example The CDS view /DMO/I_Travel represents the root node of the business object. The root node Travel is used to manage general flight booking data such as the trip ID, agency ID, customer number, start and end dates of a trip, booking fee, total price, currency, trip description, trip status, a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_root_entity.htm"
+abapFile: "abenbdl_example_root_entity.htm"
+keywords: ["select", "do", "if", "data", "abenbdl", "example", "root", "entity"]
+---
 
 * * *
 

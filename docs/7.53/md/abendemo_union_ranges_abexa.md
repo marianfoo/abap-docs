@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Union for Building a Ranges Table"
+description: |
+  This example demonstrates how a ranges table is built using unions. Source Code REPORT demo_union_ranges. CLASS test_union DEFINITION DEFERRED. CLASS demo_union DEFINITION FRIENDS test_union. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CONSTANTS package TYPE tadir-devclass VALUE 'SABAP
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendemo_union_ranges_abexa.htm"
+abapFile: "abendemo_union_ranges_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abendemo", "union", "ranges", "abexa"]
+---
 
 * * *
 

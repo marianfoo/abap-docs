@@ -1,4 +1,14 @@
-  
+---
+title: "Data Types and Data Objects"
+description: |
+  This section describes the declaration of data types and data objects. Data Types Data types are templates for creating data objects. Data types can be defined independently in the ABAP program or in the ABAP Dictionary. Data types can also be non-independent as properties of data objects. Data type
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentypes_and_objects.htm"
+abapFile: "abentypes_and_objects.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abentypes", "and", "objects"]
+---
 
 * * *
 

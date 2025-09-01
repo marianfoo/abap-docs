@@ -1,4 +1,14 @@
-  
+---
+title: "Interface Component Selector"
+description: |
+  A component comp of an interface is accessed using the following name: intf~comp In this case, the character ~ is the interface component selector. The name intf of an interface must be on the left of the interface component selector. The name comp of the component must be on the right of the interf
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_component_selector.htm"
+abapFile: "abeninterface_component_selector.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abeninterface", "component", "selector"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Operations for Associations"
+description: |
+  Syntax ... internal(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_internal.htm) association _Assoc abbreviation _newName without response  internal(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_internal.htm) create
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_association.htm"
+abapFile: "abenbdl_association.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "association"]
+---
 
 * * *
 

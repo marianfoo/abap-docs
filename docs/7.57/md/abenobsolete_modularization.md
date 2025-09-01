@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Modularization"
+description: |
+  -   Subroutines(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_subroutines.htm) -   Function Modules(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_modules_obsolete.htm) -   Event Blocks(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/ab
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_modularization.htm"
+abapFile: "abenobsolete_modularization.htm"
+keywords: ["do", "if", "data", "abenobsolete", "modularization"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - DEFINE ROLE, Data Types"
+description: |
+  The operand specified on the left side of a condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm) of an access rule(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_rules.htm) of a CDS role(https://help.sap.com/doc/abap
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_cond_data_types.htm"
+abapFile: "abencds_f1_dcl_cond_data_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "dcl", "cond"]
+---
 
 * * *
 

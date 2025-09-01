@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE DISTANCE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_distance_shortref.htm) Syntax DESCRIBE DISTANCE BETWEEN dobj1 AND dobj2 INTO dst IN BYTECHARACTER MODE. Effect This statement determines the distance between the start positions of the data object
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_distance.htm"
+abapFile: "abapdescribe_distance.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "internal-table", "abapdescribe", "distance"]
+---
 
 * * *
 

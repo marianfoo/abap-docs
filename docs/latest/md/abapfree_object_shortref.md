@@ -1,4 +1,14 @@
-  
+---
+title: "FREE OBJECT, OLE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfree_object.htm) Syntax FREE OBJECT ole NO FLUSH. Effect Frees the memory of an automation object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenole_automation_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfree_object_shortref.htm"
+abapFile: "abapfree_object_shortref.htm"
+keywords: ["do", "if", "try", "abapfree", "object", "shortref"]
+---
 
 * * *
 

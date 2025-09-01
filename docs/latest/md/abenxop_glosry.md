@@ -1,4 +1,14 @@
-  
+---
+title: "XOP"
+description: |
+  Short for XML-binary Optimized Packaging (see http://www.w3.org/TR/xop10/(http://www.w3.org/TR/xop10/)). Representation of XML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxml_glosry.htm 'Glossary Entry') data in which any binary raw data is stored separately from the data
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxop_glosry.htm"
+abapFile: "abenxop_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenxop", "glosry"]
+---
 
 * * *
 

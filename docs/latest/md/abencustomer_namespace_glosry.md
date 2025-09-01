@@ -1,4 +1,14 @@
-  
+---
+title: "customer_namespace_glosry"
+description: |
+  customer_namespace_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencustomer_namespace_glosry.htm"
+abapFile: "abencustomer_namespace_glosry.htm"
+keywords: ["do", "if", "try", "abencustomer", "namespace", "glosry"]
+---
 
 * * *
 

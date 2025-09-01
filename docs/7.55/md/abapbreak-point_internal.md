@@ -1,4 +1,14 @@
-  
+---
+title: "BREAK-POINT, Internal Addition"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... AT NEXT APPLICATION STATEMENT Effect This optional addition can be specified after log_text, but not together with the addition ID. It is only useful in system programs, system modules, system subrout
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapbreak-point_internal.htm"
+abapFile: "abapbreak-point_internal.htm"
+keywords: ["do", "if", "abapbreak", "point", "internal"]
+---
 
 * * *
 

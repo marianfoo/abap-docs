@@ -1,4 +1,14 @@
-  
+---
+title: "injection_glosry"
+description: |
+  injection_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninjection_glosry.htm"
+abapFile: "abeninjection_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninjection", "glosry"]
+---
 
 * * *
 

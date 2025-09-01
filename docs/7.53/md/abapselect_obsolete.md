@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - Short Form"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm) Obsolete Syntax SELECT SINGLE  FROM  dbtab  dbtab  ... ... ENDSELECT. Effect This statement is a short form of the following ABAP SQL(https://help.sap.com/doc/abapdocu_753_ind
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_obsolete.htm"
+abapFile: "abapselect_obsolete.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapselect", "obsolete"]
+---
 
 * * *
 

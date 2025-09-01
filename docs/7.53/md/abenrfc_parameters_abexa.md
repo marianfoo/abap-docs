@@ -1,4 +1,14 @@
-  
+---
+title: "Parameter Passing in sRFC and aRFC"
+description: |
+  This example demonstrates parameter passing in two RFC variants. Source Code REPORT demo_rfc_parameters. CLASS demo_rfc DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, callback IMPORTING p_task TYPE clike. PRIVATE SECTION. CLASS-DATA: val_in     TYPE string, val_out    TYPE string, val_in_o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_parameters_abexa.htm"
+abapFile: "abenrfc_parameters_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenrfc", "parameters", "abexa"]
+---
 
 * * *
 

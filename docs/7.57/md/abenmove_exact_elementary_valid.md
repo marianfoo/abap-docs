@@ -1,4 +1,14 @@
-  
+---
+title: "Valid Values for Lossless Assignments"
+description: |
+  When a lossless conversion of an elementary argument of the operator EXACT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must, depending on its data type, represent a valid value according to
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmove_exact_elementary_valid.htm"
+abapFile: "abenmove_exact_elementary_valid.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenmove", "exact", "elementary", "valid"]
+---
 
 * * *
 
@@ -13,10 +23,8 @@ Valid Values for Lossless Assignments
 
 When a lossless conversion of an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must, depending on its data type, represent a valid value according to the following tables:
 
--   [Numeric Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_1)
--   [Character-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
--   [Byte-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_3)
--   [Date Fields, Time Fields, and Time Stamp Fields as Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
+-   [Numeric Arguments](#abenmove-exact-elementary-valid-1-------character-like-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
+-   [Byte-Like Arguments](#abenmove-exact-elementary-valid-3-------date-fields--time-fields--and-time-stamp-fields-as-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
 
 Numeric Arguments   
 

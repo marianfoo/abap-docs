@@ -1,4 +1,14 @@
-  
+---
+title: "abap_ixml_lib_cl_ixml"
+description: |
+  abap_ixml_lib_cl_ixml - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib_cl_ixml.htm"
+abapFile: "abenabap_ixml_lib_cl_ixml.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "ixml", "lib"]
+---
 
 * * *
 

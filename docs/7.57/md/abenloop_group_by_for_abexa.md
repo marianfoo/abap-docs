@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_group_by_for. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, initialize. PRIVATE SECTION. TYPES: BEGIN OF line, key TYPE i, num TYPE i, END OF line, itab TYPE STANDARD TABLE OF line WITH EMPTY KEY. CLASS-DATA numbers TYPE itab. ENDCLASS. CLASS demo IMPLEMENTATION. M
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_group_by_for_abexa.htm"
+abapFile: "abenloop_group_by_for_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenloop", "group", "for", "abexa"]
+---
 
 * * *
 

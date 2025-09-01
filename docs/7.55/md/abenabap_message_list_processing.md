@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - List Processing"
+description: |
+  In list processing(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_processing_glosry.htm 'Glossary Entry'), a message of type 'W' is always converted to type 'E' before further context-dependent handling takes place. The message is then handled in accordance with the other cont
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_message_list_processing.htm"
+abapFile: "abenabap_message_list_processing.htm"
+keywords: ["select", "do", "try", "types", "abenabap", "message", "list", "processing"]
+---
 
 * * *
 

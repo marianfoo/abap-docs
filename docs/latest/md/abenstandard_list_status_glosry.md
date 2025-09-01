@@ -1,4 +1,14 @@
-  
+---
+title: "standard_list_status_glosry"
+description: |
+  standard_list_status_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_list_status_glosry.htm"
+abapFile: "abenstandard_list_status_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenstandard", "list", "status", "glosry"]
+---
 
 * * *
 

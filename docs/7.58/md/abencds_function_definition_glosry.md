@@ -1,4 +1,14 @@
-  
+---
+title: "CDS function definition"
+description: |
+  A CDS object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_object_glosry.htm 'Glossary Entry') that defines a CDS function(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_function_glosry.htm 'Glossary Entry') using language elements of the CDS FDL(https:
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_function_definition_glosry.htm"
+abapFile: "abencds_function_definition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "function", "definition", "glosry"]
+---
 
 * * *
 

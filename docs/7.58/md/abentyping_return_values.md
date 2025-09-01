@@ -1,4 +1,14 @@
-  
+---
+title: "Return Values of Functional Methods"
+description: |
+  The return value of a functional method(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_method_glosry.htm 'Glossary Entry') is always completely typed and is always passed by value. An actual parameter can be appended to the return value as follows: -   Specification of t
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_return_values.htm"
+abapFile: "abentyping_return_values.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abentyping", "return", "values"]
+---
 
 * * *
 

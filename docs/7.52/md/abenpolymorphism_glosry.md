@@ -1,4 +1,14 @@
-  
+---
+title: "Polymorphism"
+description: |
+  Polymorphism means - in object-oriented programming - to be able to address differently implemented methods(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm 'Glossary Entry') that belong to different objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpolymorphism_glosry.htm"
+abapFile: "abenpolymorphism_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenpolymorphism", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "READ TABLE dbtab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_dbtab.htm) Syntax READ TABLE dbtab WITH KEY key SEARCH FKEQFKGEGKEQGKGE VERSION vers. Effect Obsolete: Reads a single row from a database table or view dbtab. Additions -   WI
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_dbtab_shortref.htm"
+abapFile: "abapread_table_dbtab_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapread", "table", "dbtab", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DEFINE STRUCTURE - component"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm) KEY comp :  data_element  value_help(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 

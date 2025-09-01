@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Simple Case Distinction(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_case_expression_v2.htm) 1. ... CASE operand WHEN operand1 THEN result1 WHEN operand2 THEN result2 ... ELSE resultn  ELSE NULL END ... Complex Case Distinction(https://
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_case_expression_v2.htm"
+abapFile: "abencds_case_expression_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "expression"]
+---
 
 * * *
 

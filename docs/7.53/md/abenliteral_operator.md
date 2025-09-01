@@ -1,4 +1,14 @@
-  
+---
+title: "Literal Operator"
+description: |
+  The literal operator & can be used to join two literals (of the same type) as a single literal. In this way, the definition of one literal can span multiple program lines. The content of the resulting literal must match its type and its length must not exceed the associated maximum length. The liter
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenliteral_operator.htm"
+abapFile: "abenliteral_operator.htm"
+keywords: ["do", "if", "try", "data", "types", "abenliteral", "operator"]
+---
 
 * * *
 

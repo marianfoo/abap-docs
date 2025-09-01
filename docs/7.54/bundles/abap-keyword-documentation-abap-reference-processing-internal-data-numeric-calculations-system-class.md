@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abencl_abap_math.htm
 
-  
+---
+title: "System Classes for Numbers"
+description: |
+  -   System Class CL_ABAP_MATH(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfloating_point_class.htm) -   System Class CL_ABAP_DECFLOAT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_decfloat_doc.htm) -   Random Numbers(https://help.sap.com/doc/abap
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_math.htm"
+abapFile: "abencl_abap_math.htm"
+keywords: ["do", "class", "data", "abencl", "abap", "math"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abenfloating_point_class.htm
 
-  
+---
+title: "Constants for Minimum and Maximum Values"
+description: |
+  The class CL_ABAP_MATH contains constants with the limits of the value ranges built-in numeric types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm). Example Displays the minimum values and maximum values of numeric types. cl_demo_output=>display( i:
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfloating_point_class.htm"
+abapFile: "abenfloating_point_class.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenfloating", "point"]
+---
 
 * * *
 
@@ -39,13 +59,9 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 System Class CL\_ABAP\_MATH
 
--   [Constants for Minimum and Maximum Values](#@@ITOC@@ABENFLOATING_POINT_CLASS_1)
+-   [Constants for Minimum and Maximum Values](#abenfloating-point-class-1--------operations-with-floating-point-numbers---@ITOC@@ABENFLOATING_POINT_CLASS_2)
 
--   [Operations with Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_2)
-
--   [Rounding Binary Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_3)
-
--   [Operations with Decimal Floating Point Numbers](#@@ITOC@@ABENFLOATING_POINT_CLASS_4)
+-   [Rounding Binary Floating Point Numbers](#abenfloating-point-class-3--------operations-with-decimal-floating-point-numbers---@ITOC@@ABENFLOATING_POINT_CLASS_4)
 
 Constants for Minimum and Maximum Values
 
@@ -123,7 +139,17 @@ This translation does not reflect the current version of the documentation.
 
 ### abencl_abap_decfloat_doc.htm
 
-  
+---
+title: "cl_abap_decfloat_doc"
+description: |
+  cl_abap_decfloat_doc - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_decfloat_doc.htm"
+abapFile: "abencl_abap_decfloat_doc.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abencl", "abap", "decfloat", "doc"]
+---
 
 * * *
 
@@ -142,7 +168,17 @@ The system class CL\_ABAP\_DECFLOAT contains methods for handling [decimal float
 
 ### abenrandom_number_class.htm
 
-  
+---
+title: "Random Numbers"
+description: |
+  The class CL_ABAP_RANDOM calls the pseudo random number generator Mersenne Twister for different numeric types. For the one-dimensional case, the following special classes generate random numbers for the different numeric types: -   CL_ABAP_RANDOM_INT for type i -   CL_ABAP_RANDOM_INT8 for t
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrandom_number_class.htm"
+abapFile: "abenrandom_number_class.htm"
+keywords: ["do", "if", "case", "class", "data", "types", "abenrandom", "number"]
+---
 
 * * *
 

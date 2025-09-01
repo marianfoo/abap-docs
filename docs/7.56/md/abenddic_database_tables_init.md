@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Flag for Initial Values in Database Tables"
+description: |
+  Table fields of DDIC database tables can be flagged for initial values. On the database, this flag is set to NOT NULL. When a new field is inserted into an existing DDIC database table, this flag can be used on all platforms to force an assignment of the type-dependent initial value(https://help.s
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_init.htm"
+abapFile: "abenddic_database_tables_init.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "abenddic", "database", "tables", "init"]
+---
 
 * * *
 

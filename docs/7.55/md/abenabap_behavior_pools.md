@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Behavior Pools (ABP)"
+description: |
+  Work in progress  ABAP Behavior Pool (ABP)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') In the case of the implementation type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm) unmanaged, the a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm"
+abapFile: "abenabap_behavior_pools.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenabap", "behavior", "pools"]
+---
 
 * * *
 

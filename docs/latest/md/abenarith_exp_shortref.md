@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  +- operand1 +-/DIVMOD +- operand2 +-/DIVMOD +- operand3 ...   ... Effect Arithmetic expression for calculating a numeric result from the operand operand. Arithmetic expression
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarith_exp_shortref.htm"
+abapFile: "abenarith_exp_shortref.htm"
+keywords: ["do", "if", "abenarith", "exp", "shortref"]
+---
 
 * * *
 

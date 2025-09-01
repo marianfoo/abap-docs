@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapcreate_data_implicit.htm
 
-  
+---
+title: "CREATE DATA dref"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_area_handle.htm). Effect Creates an anonymous data object with an impli
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_implicit.htm"
+abapFile: "abapcreate_data_implicit.htm"
+keywords: ["select", "do", "if", "try", "data", "abapcreate", "implicit"]
+---
 
 * * *
 
@@ -51,7 +61,17 @@ Continue
 
 ### abencreate_data_implicit_abexa.htm
 
-  
+---
+title: "Creating Data Objects with Implicit Type"
+description: |
+  This example demonstrates how data objects are created with an implicit type. Source Code REPORT demo_create_data_implicit. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES t_itab TYPE TABLE OF i WITH NON-UNIQUE KEY table_line. D
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_data_implicit_abexa.htm"
+abapFile: "abencreate_data_implicit_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencreate", "implicit", "abexa"]
+---
 
 * * *
 

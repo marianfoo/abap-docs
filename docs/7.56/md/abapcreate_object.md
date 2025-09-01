@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE OBJECT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_shortref.htm) Syntax Forms Defining a Class Implicitly(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_implicit.htm) 1. CREATE OBJECT oref  area_handle(https://help.s
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object.htm"
+abapFile: "abapcreate_object.htm"
+keywords: ["delete", "do", "if", "try", "catch", "method", "class", "data", "field-symbol", "abapcreate", "object"]
+---
 
 * * *
 

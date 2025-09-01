@@ -1,4 +1,14 @@
-  
+---
+title: "GET TIME"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time_shortref.htm) Syntax GET TIME FIELD tim. Addition: ... FIELD tim(#!ABAP_ONE_ADD@1@) Effect Without the addition FIELD, the system fields for date and time(https://help.sap.com/doc/abapdocu_753_index
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time.htm"
+abapFile: "abapget_time.htm"
+keywords: ["update", "do", "if", "try", "data", "abapget", "time"]
+---
 
 * * *
 

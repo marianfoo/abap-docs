@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... element =<>?=(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm) ASPECT user ... Effect User condition as part of an access condition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaccess_condition_glosry.htm 'Glossary Entry'
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_user.htm"
+abapFile: "abencds_f1_cond_user.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "user"]
+---
 
 * * *
 

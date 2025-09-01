@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Easy Access"
+description: |
+  Initial program that is called after a dialog logon to AS ABAP(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry'). SAP Easy Access displays an initial menu for the access of a dialog user to AS ABAP. By default, this menu is either the SAP menu
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_easy_access_glosry.htm"
+abapFile: "abensap_easy_access_glosry.htm"
+keywords: ["do", "try", "abensap", "easy", "access", "glosry"]
+---
 
 * * *
 

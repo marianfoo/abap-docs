@@ -1,4 +1,14 @@
-  
+---
+title: "SQL expressions, arithmetic calculations"
+description: |
+  This example demonstrates arithmetic calculations in SQL expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm). Source Code REPORT demo_sql_expr_arith. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_arith_abexa.htm"
+abapFile: "abensql_expr_arith_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "method", "class", "data", "internal-table", "abensql", "expr", "arith", "abexa"]
+---
 
 * * *
 

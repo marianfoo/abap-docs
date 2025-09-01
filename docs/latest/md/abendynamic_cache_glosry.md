@@ -1,4 +1,14 @@
-  
+---
+title: "dynamic_cache_glosry"
+description: |
+  dynamic_cache_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_cache_glosry.htm"
+abapFile: "abendynamic_cache_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendynamic", "cache", "glosry"]
+---
 
 * * *
 

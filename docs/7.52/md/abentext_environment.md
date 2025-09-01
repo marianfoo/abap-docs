@@ -1,4 +1,14 @@
-  
+---
+title: "Text Environment Language and Text Environment"
+description: |
+  -   Text Environment Language(#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2) Text Environment Language The text environment language(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_env_langu_glosry.htm 'Glossary Entry') is part of the langua
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment.htm"
+abapFile: "abentext_environment.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abentext", "environment"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Text Environment Language and Text Environment
 
--   [Text Environment Language](#@@ITOC@@ABENTEXT_ENVIRONMENT_1)
-
--   [Text Environment](#@@ITOC@@ABENTEXT_ENVIRONMENT_2)
+-   [Text Environment Language](#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2)
 
 Text Environment Language
 

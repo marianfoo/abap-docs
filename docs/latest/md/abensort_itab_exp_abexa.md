@@ -1,4 +1,14 @@
-  
+---
+title: "Sorting Internal Tables Dynamically"
+description: |
+  This example demonstrates how internal tables are sorted dynamically using an expression. Source Code  CCDEF CLASS cx_illegal_direction DEFINITION INHERITING FROM cx_static_check. ENDCLASS.  Public class definition CLASS cl_demo_sort_itab_exp DEFINITION INHERITING FROM cl_demo_classrun
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensort_itab_exp_abexa.htm"
+abapFile: "abensort_itab_exp_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abensort", "itab", "exp", "abexa"]
+---
 
 * * *
 

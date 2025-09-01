@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Table Buffering of Database Tables"
+description: |
+  It is possible to define whether and how table buffering(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffering_glosry.htm 'Glossary Entry') of a DDIC database table is allowed in the table buffer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenta
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_buffer.htm"
+abapFile: "abenddic_database_tables_buffer.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "buffer"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ DDIC - Table Buffering of Database Tables
 
 It is possible to define whether and how [table buffering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffering_glosry.htm "Glossary Entry") of a DDIC database table is allowed in the [table buffer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffer_glosry.htm "Glossary Entry") of an AS instance.
 
--   [Buffering Permission](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_1)
--   [Buffering Type](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
+-   [Buffering Permission](#abenddic-database-tables-buffer-1-------buffering-type---@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
 
 The table buffer is managed by the [database interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_interface_glosry.htm "Glossary Entry"). When tables with active buffering are accessed using [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry") or from classic [dynpros](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm "Glossary Entry"), the table buffer is used implicitly.
 

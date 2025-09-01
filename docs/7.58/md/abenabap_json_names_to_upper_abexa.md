@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Transforming Names"
+description: |
+  Transforms the names of JSON objects to uppercase letters. Source Code  Public class definition CLASS cl_demo_json_names_to_upper DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS: json_names_to_upper_pr
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_names_to_upper_abexa.htm"
+abapFile: "abenabap_json_names_to_upper_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "abenabap", "json", "names", "upper", "abexa"]
+---
 
 * * *
 

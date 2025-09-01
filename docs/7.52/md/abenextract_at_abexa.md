@@ -1,4 +1,14 @@
-  
+---
+title: "Extracts, Processing"
+description: |
+  This example demonstrates how extracts are processed. Source Code REPORT demo_extract_at. DATA: spfli_wa    TYPE spfli, sflight_wa  TYPE sflight. FIELD-GROUPS: header, flight_info, flight_date. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METH
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextract_at_abexa.htm"
+abapFile: "abenextract_at_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "method", "class", "data", "abenextract", "abexa"]
+---
 
 * * *
 

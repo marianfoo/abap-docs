@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_node_iterator DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS iterate IMPORTING iterator TYPE REF TO if_ixml_node_iterator. ENDCLASS.  Public class implement
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenixml_node_iterator_abexa.htm"
+abapFile: "abenixml_node_iterator_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenixml", "node", "iterator", "abexa"]
+---
 
 * * *
 

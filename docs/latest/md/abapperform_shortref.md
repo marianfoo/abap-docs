@@ -1,4 +1,14 @@
-  
+---
+title: "PERFORM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform.htm) Syntax PERFORM    subr  subr(sname) IN PROGRAM prog(pname) IF FOUND  n OF subr1 subr2 ...  subr(prog) IF FOUND  TABLES itab1 itab2 ...
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_shortref.htm"
+abapFile: "abapperform_shortref.htm"
+keywords: ["do", "if", "internal-table", "abapperform", "shortref"]
+---
 
 * * *
 

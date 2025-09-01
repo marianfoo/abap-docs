@@ -1,4 +1,14 @@
-  
+---
+title: "global_data_glosry"
+description: |
+  global_data_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_data_glosry.htm"
+abapFile: "abenglobal_data_glosry.htm"
+keywords: ["do", "try", "data", "abenglobal", "glosry"]
+---
 
 * * *
 

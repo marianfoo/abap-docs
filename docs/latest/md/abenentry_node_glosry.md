@@ -1,4 +1,14 @@
-  
+---
+title: "entry_node_glosry"
+description: |
+  entry_node_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenentry_node_glosry.htm"
+abapFile: "abenentry_node_glosry.htm"
+keywords: ["do", "if", "try", "abenentry", "node", "glosry"]
+---
 
 * * *
 

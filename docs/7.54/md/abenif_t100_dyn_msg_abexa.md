@@ -1,4 +1,14 @@
-  
+---
+title: "This example demonstrates how a regular class is associated with a message"
+description: |
+  Source Code REPORT demo_if_t100_dyn_msg. CLASS msg DEFINITION. PUBLIC SECTION. INTERFACES if_t100_dyn_msg. ALIASES: msgty FOR if_t100_dyn_msg~msgty, get_text FOR if_message~get_text, get_longtext FOR if_message~get_longtext. METHODS constructor IMPORTING id TYPE symsgid no TYPE symsg
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenif_t100_dyn_msg_abexa.htm"
+abapFile: "abenif_t100_dyn_msg_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenif", "t100", "dyn", "msg", "abexa"]
+---
 
 * * *
 

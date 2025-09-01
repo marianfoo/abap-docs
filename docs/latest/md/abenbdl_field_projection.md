@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Field Characteristics, Projection BDEF"
+description: |
+  Syntax Forms Field Characteristics That Can Be Added for Regular Fields ... field(readonly) Field1, Field2, ...;  field(mandatory:create) Field1, Field2, ...;  field(readonly:update) Field1, Field2, ...;  field(suppress) Field1, Field2, ...; Field Characteristics That Can Be Added for Virtu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_field_projection.htm"
+abapFile: "abenbdl_field_projection.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "field", "projection"]
+---
 
 * * *
 

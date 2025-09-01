@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC, Stored Procedure"
+description: |
+  The example demonstrates the execution of a stored procedure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_procedure.htm) using ADBC. Source Code REPORT demo_adbc_stored_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATI
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_procedure_abexa.htm"
+abapFile: "abenadbc_procedure_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abenadbc", "procedure", "abexa"]
+---
 
 * * *
 

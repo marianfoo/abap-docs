@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenabap_subroutines.htm
 
-  
+---
+title: "Subroutines"
+description: |
+  Before the introduction of ABAP Objects, subroutines were mainly used for the local modularization of programs, however, they can also be called externally. Their functions are implemented between the statements FORM(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm) and END
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm"
+abapFile: "abenabap_subroutines.htm"
+keywords: ["do", "try", "method", "abenabap", "subroutines"]
+---
 
 * * *
 
@@ -47,7 +57,17 @@ Continue
 
 ### abapform.htm
 
-  
+---
+title: "FORM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm) Obsolete Syntax FORM subr TABLES table_parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm) USING parameters(https://help.sap.com/doc/abapdocu_75
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm"
+abapFile: "abapform.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapform"]
+---
 
 * * *
 
@@ -191,7 +211,17 @@ Continue
 
 ### abapform_parameters.htm
 
-  
+---
+title: "FORM - parameters"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm) Obsolete Syntax ...  VALUE(p1)  p1   typing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_syntax.htm)structure(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm"
+abapFile: "abapform_parameters.htm"
+keywords: ["do", "if", "try", "data", "types", "abapform", "parameters"]
+---
 
 * * *
 
@@ -226,7 +256,17 @@ Without an explicit typing, a formal parameter is typed implicitly with the full
 
 ### abapform_structure.htm
 
-  
+---
+title: "FORM - STRUCTURE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm) Obsolete Syntax ... STRUCTURE struc ... Effect A formal parameter p1 p2 ... of a subroutine can be specified with the addition STRUCTURE instead of typing(https://help.sap.com/doc/abapdocu_753_index
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm"
+abapFile: "abapform_structure.htm"
+keywords: ["do", "if", "case", "try", "data", "field-symbol", "abapform", "structure"]
+---
 
 * * *
 
@@ -274,7 +314,17 @@ ENDFORM.
 
 ### abapform_tables.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... t1 TYPE itab_typeLIKE itabSTRUCTURE struc t2 TYPE itab_typeLIKE itabSTRUCTURE struc ... Effect Defines table parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm 'Glossary Entry')
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm"
+abapFile: "abapform_tables.htm"
+keywords: ["do", "if", "try", "internal-table", "abapform", "tables"]
+---
 
 * * *
 
@@ -309,7 +359,17 @@ The definition of table parameters is obsolete and can be replaced by general [f
 
 ### abapform.htm
 
-  
+---
+title: "FORM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm) Obsolete Syntax FORM subr TABLES table_parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm) USING parameters(https://help.sap.com/doc/abapdocu_75
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm"
+abapFile: "abapform.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapform"]
+---
 
 * * *
 
@@ -453,7 +513,17 @@ Continue
 
 ### abapendform.htm
 
-  
+---
+title: "ENDFORM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm) Obsolete Syntax ENDFORM. Effect The statement ENDFORM closes a subroutine definition introduced using FORM(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendform.htm"
+abapFile: "abapendform.htm"
+keywords: ["do", "abapendform"]
+---
 
 * * *
 
@@ -476,7 +546,17 @@ The statement ENDFORM closes a subroutine definition introduced using [FORM](htt
 
 ### abapform_definition.htm
 
-  
+---
+title: "FORM - DEFINITION, IMPLEMENTATION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition_shortref.htm) Obsolete Syntax FORM subr DEFINITION TABLES table_parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm) USING parameters(https://help.s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition.htm"
+abapFile: "abapform_definition.htm"
+keywords: ["do", "try", "abapform", "definition"]
+---
 
 * * *
 

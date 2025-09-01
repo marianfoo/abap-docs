@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT IN @range_tab ... Effect This variant of the operator IN checks whether the operands on the left side match a ranges condition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenranges_condition_glosry.htm 'Glossary Entry') in a ranges table(https://help
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwhere_logexp_seltab.htm"
+abapFile: "abenwhere_logexp_seltab.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "catch", "class", "data", "internal-table", "abenwhere", "logexp", "seltab"]
+---
 
 * * *
 

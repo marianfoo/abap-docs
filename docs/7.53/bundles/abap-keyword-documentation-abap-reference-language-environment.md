@@ -1,104 +1,21 @@
 # ABAP Keyword Documentation / ABAP − Reference / Language Environment
 
-Included pages: 17
-
-
-### abenlanguage.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) → 
-
-Language Environment
-
-The language environment of a program is part of the runtime environment of an ABAP program and covers the following aspects:
-
--   [Language settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_settings.htm)
-
-The language settings defined by the [logon language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language_glosry.htm "Glossary Entry") and a [text environment language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_env_langu_glosry.htm "Glossary Entry") configure all language-dependent behavior of an ABAP program.
-
--   [Format settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm)
-
-Country-specific format settings that determine, for example, the format of numbers, dates, and times.
-
-Continue
-[Language Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_settings.htm)
-[Formatting Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm)
-
-
-### abenlanguage_settings.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) → 
-
-Language Settings
-
-The [language setting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_setting_glosry.htm "Glossary Entry") comprises the following settings:
-
--   [Logon language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language.htm)
-
-The logon language is the language of the current [user session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_session_glosry.htm "Glossary Entry"). It influences the selection of various texts.
-
--   [Text environment language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm)
-
-The text environment language is the language of the [text environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm "Glossary Entry") of the current [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry"). By default, this is the logon language, but can be changed to another value in an internal session with the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm). It influences the general language-dependent behavior of an ABAP program.
-
-Notes
-
--   The system field [sy-langu](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields.htm) contains the text environment language. It only displays the logon language if the text environment language is not set to a different value.
-
--   In an internal session, the text environment language should only be set temporarily to a language other than the logon language.
-
-Continue
-[Logon Language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language.htm)
-[Text Environment Language and Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm)
-
-
-### abenlogon_language.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Language Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_settings.htm) → 
-
-Logon Language
-
-The [logon language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language_glosry.htm "Glossary Entry") is defined when a [user](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_glosry.htm "Glossary Entry") [logs on](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_glosry.htm "Glossary Entry") to an AS ABAP for the entire [user session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_session_glosry.htm "Glossary Entry") and cannot then be changed. The current logon language can be determined using the method GET\_LOGON\_LANGUAGE of the class CL\_ABAP\_SYST.
-
-The logon language influences the selection of the following texts:
-
--   Texts on general classic [dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry")
-
--   Texts of [messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry")
-
--   Texts from [text pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_pool_glosry.htm "Glossary Entry")
-
-Note
-
-The texts listed above are not affected by the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm). The statement [SET LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_language.htm) is used to change the language of the texts of a text pool.
-
-Example
-
-Reads the current logon language.
-
-DATA(logon\_langu) = cl\_abap\_syst=>get\_logon\_language( ).
+Included pages: 3
 
 
 ### abentext_environment.htm
 
-  
+---
+title: "Text Environment Language and Text Environment"
+description: |
+  -   Text Environment Language(#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2) Text Environment Language The text environment language(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_env_langu_glosry.htm 'Glossary Entry') is part of the langua
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm"
+abapFile: "abentext_environment.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abentext", "environment"]
+---
 
 * * *
 
@@ -108,9 +25,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Text Environment Language and Text Environment
 
--   [Text Environment Language](#@@ITOC@@ABENTEXT_ENVIRONMENT_1)
-
--   [Text Environment](#@@ITOC@@ABENTEXT_ENVIRONMENT_2)
+-   [Text Environment Language](#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2)
 
 Text Environment Language
 
@@ -196,190 +111,19 @@ Continue
 ![Example](exa.gif "Example") [Setting the Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenset_locale_abexa.htm)
 
 
-### abapset_locale.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Language Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_settings.htm) →  [Text Environment Language and Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm) → 
-
-SET LOCALE LANGUAGE
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale_shortref.htm)
-
-Syntax
-
-SET LOCALE LANGUAGE lang *\[*[obsolete\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale_obsolete.htm)*\]*.
-
-Effect
-
-This statement sets the [text environment language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_env_langu_glosry.htm "Glossary Entry") of the current [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") to the value specified in lang. This configures the [text environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm "Glossary Entry") for all programs in the internal session.
-
-The [text environment language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_env_langu_glosry.htm "Glossary Entry") lang expects a character-like data object containing a language key (with a maximum of one character) for which [locale](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocale_glosry.htm "Glossary Entry") properties are defined in the ICU library of the AS ABAP. The possible language keys are contained in the SPRAS column of the database table T002. The locale of the text environment is set accordingly. If the data object lang contains only blanks, the [logon language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the current [user session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_session_glosry.htm "Glossary Entry") is used.
-
-The statement SET LOCALE LANGUAGE sets the no-modifiable [code page](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_glosry.htm "Glossary Entry") of the text environment. In a Unicode system, this is always [UTF-16](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenutf16_glosry.htm "Glossary Entry") (and the ABAP programming language supports the subset [UCS-2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenucs2_glosry.htm "Glossary Entry")). After SET LOCALE LANGUAGE is executed, however, the non-Unicode code page that would be set by the statement in a non-Unicode system (see below), is used for specific statements such as reading and writing [legacy files](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlegacy_file_glosry.htm "Glossary Entry") for conversions. (See the additions [LEGACY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_mode.htm), and [NON-UNICODE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_encoding.htm) of the statement [OPEN DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset.htm).) If possible, this non-Unicode code page is taken from the column CHARCO of the database table TCP0C. The key used here is created from the current operating system of the [host computer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current AS Instance (system field sy-opsys), the language key specified in lang, and a language ID set implicitly from the database table TCP0D or [set explicitly](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale_obsolete.htm).
-
-System Fields
-
-If the statement SET LOCALE LANGUAGE is executed successfully, it sets the system field [sy-langu](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields.htm) to the value specified in lang.
-
-Programming Guideline
-
-[If possible, do not switch the text environment within the code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environm_guidl.htm "Guideline")
-
-Notes
-
--   The text environment of an internal session should only be changed for the following purposes:
-    
-
--   Processing character-like data objects that are in a different language to the logon language of the current user. The text environment language is important for the statements [SORT ... AS TEXT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm) and [CONVERT TEXT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_text.htm).
-
--   [Legacy files](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlegacy_file_glosry.htm "Glossary Entry") can be read and written.
-
-The other consequences for the text environment documented under [Text Environment Language and Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm) should also be noted.
-
--   After processing in a changed text environment, the text environment should be reset to the previous text environment.
-    
--   The statement SET LOCALE LANGUAGE sets the text environment language specified in sy-langu and returned by the method GET\_LANGUAGE of the class CL\_ABAP\_SYST. It does not set the [logon language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language_glosry.htm "Glossary Entry") returned by the method GET\_LOGON\_LANGUAGE.
-    
--   The statement SET LOCALE LANGUAGE should not be confused with the statement [SET LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_language.htm), used for loading the texts of a [text pool](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_pool_glosry.htm "Glossary Entry").
-    
--   Instead of the statement SET LOCALE, the four function modules whose names begin with SCP\_MIXED\_LANGUAGES\_ can also be used to define or change the current text environment, and to reset it to the original text environment.
-    
--   The statement has two obsolete additions [COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale_obsolete.htm) and [MODIFIER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale_obsolete.htm) that should no longer be used.
-    
-
-Example
-
-Sets the text environment to a valid value.
-
-DATA langu TYPE sy-langu.
-cl\_demo\_input=>request( CHANGING field = langu ).
-TRY.
-    SET LOCALE LANGUAGE langu.
-  CATCH cx\_sy\_localization\_error INTO DATA(exc).
-    cl\_demo\_output=>write( exc->get\_text( ) ).
-ENDTRY.
-cl\_demo\_output=>display(
-    |Logon language:            { cl\_abap\_syst=>get\_logon\_language( )
-  }\\nText environment language: { cl\_abap\_syst=>get\_language( )
-  }\\nsy-langu:                  { sy-langu }| ).
-
-Executable Example
-
-[Setting the Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenset_locale_abexa.htm)
-
-[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
-
-Handleable Exceptions
-
-CX\_SY\_LOCALIZATION\_ERROR
-
--   Cause: Using the tables TCP0D and TCP0C, a character set was detected that is not released in your system. The released character sets are in the table TCPDB. Normally this table contains exactly one character set and this runtime error occurs because the system has attempted to use a non-compatible language.
-    Runtime error: TEXTENV\_CODEPAGE\_NOT\_ALLOWED
-    
--   Cause: No entry exists (for the current platform) in the SAP text environment table TCP0C for the specified keys lang, cntry, and mod.
-    Runtime error: TEXTENV\_KEY\_INVALID
-    
-
-Non-Handleable Exceptions
-
--   Cause: Selection of a 'binary' text environment using the modifier 'BINARY', 'C', 'POSIX', or 'RAW'.
-    Runtime error: TEXTENV\_BINARY\_NOT\_SUPPORTED
-    
--   Cause: One of the key values lang, cntry, or mod is longer than the corresponding fields LANGU, COUNTRY, or MODIFIER in the SAP text environment table TCP0C.
-    Runtime error: TEXTENV\_KEY\_TOO\_LONG
-
-
-### abapget_locale.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Language Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_settings.htm) →  [Text Environment Language and Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm) → 
-
-GET LOCALE LANGUAGE
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale_shortref.htm)
-
-Syntax
-
-GET LOCALE LANGUAGE lang [obsolete\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale_obsolete.htm).
-
-Effect
-
-The language key of the current [text environment language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_env_langu_glosry.htm "Glossary Entry") is assigned to the variable lang. The data object lang must have a character-like data type. The statement has two obsolete additions - [COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale_obsolete.htm) and [MODIFIER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale_obsolete.htm) - that must be specified. However the results are not evaluated.
-
-Note
-
-The imported text environment language of the current text environment can be used to restore the environment after it has been changed using the statement [SET LOCALE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm).
-
-Example
-
-Determining the current text environment and restoring it after a change.
-
-DATA: lang  TYPE tcp0c-langu,
-      dummy TYPE string ##needed.
-GET LOCALE LANGUAGE lang COUNTRY dummy MODIFIER dummy.
-SET LOCALE LANGUAGE ...
-...
-SET LOCALE LANGUAGE lang.
-
-
-### abenset_locale_abexa.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Language Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_settings.htm) →  [Text Environment Language and Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm) → 
-
-Setting the Text Environment
-
-This example demonstrates how to set the text environment explicitly.
-
-Source Code
-
-REPORT demo\_set\_locale.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS main.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA text\_tab TYPE HASHED TABLE OF string
-                       WITH UNIQUE KEY table\_line.
-    text\_tab = VALUE #(
-      ( \`Cudar Vilmos\`  )
-      ( \`Csernus G�bor\` ) ).
-    SET LOCALE LANGUAGE 'E'.
-    SORT text\_tab AS TEXT.
-    cl\_demo\_output=>write( text\_tab ).
-    SET LOCALE LANGUAGE 'H'.
-    SORT text\_tab AS TEXT.
-    cl\_demo\_output=>write( text\_tab ).
-    SET LOCALE LANGUAGE ' '.
-    cl\_demo\_output=>display( ).  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description
-
-This example shows the effect of the locale of the text environment on sort functions. In Hungarian text environments, "Cs" and "Cu" are sorted differently than in English environments.
-
-
 ### abentext_environment.htm
 
-  
+---
+title: "Text Environment Language and Text Environment"
+description: |
+  -   Text Environment Language(#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2) Text Environment Language The text environment language(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_env_langu_glosry.htm 'Glossary Entry') is part of the langua
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm"
+abapFile: "abentext_environment.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abentext", "environment"]
+---
 
 * * *
 
@@ -389,9 +133,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Text Environment Language and Text Environment
 
--   [Text Environment Language](#@@ITOC@@ABENTEXT_ENVIRONMENT_1)
-
--   [Text Environment](#@@ITOC@@ABENTEXT_ENVIRONMENT_2)
+-   [Text Environment Language](#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2)
 
 Text Environment Language
 
@@ -475,278 +217,21 @@ Continue
 [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm)
 [GET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale.htm)
 ![Example](exa.gif "Example") [Setting the Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenset_locale_abexa.htm)
-
-
-### abenlanguage_settings.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) → 
-
-Language Settings
-
-The [language setting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_setting_glosry.htm "Glossary Entry") comprises the following settings:
-
--   [Logon language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language.htm)
-
-The logon language is the language of the current [user session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_session_glosry.htm "Glossary Entry"). It influences the selection of various texts.
-
--   [Text environment language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm)
-
-The text environment language is the language of the [text environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm "Glossary Entry") of the current [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry"). By default, this is the logon language, but can be changed to another value in an internal session with the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm). It influences the general language-dependent behavior of an ABAP program.
-
-Notes
-
--   The system field [sy-langu](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields.htm) contains the text environment language. It only displays the logon language if the text environment language is not set to a different value.
-
--   In an internal session, the text environment language should only be set temporarily to a language other than the logon language.
-
-Continue
-[Logon Language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language.htm)
-[Text Environment Language and Text Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment.htm)
-
-
-### abencountry.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) → 
-
-Formatting Settings
-
-Formats
-
-The formatting settings of the [language environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) determine
-
--   the number format (decimal and thousand separators)
-
--   The date format (separators and order)
-
--   The time format (24 hour or 12 hour format)
-
-for formatted output.
-
-Definition
-
-The formatting settings are set as follows:
-
--   At the start of an [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") they are determined by the related default settings in the fixed values in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry") of the current user.
-
--   Using the statement [SET COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country.htm), this default setting for the current internal session can be overwritten using [country-specific formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm).
-
-Effect
-
-The formatting settings affect the following ABAP language elements:
-
--   Assignments with the statement [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm)
-
--   Output in lists with the statement [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
-
--   Specifies the parameter [ENVIRONMENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) for the formatting options [NUMBER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm), [DATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm), [TIME](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm), and [TIMESTAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) in [embedded expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm).
-
-The formatting setting set in the user master record also affect the preparation of numbers, dates, and times specified on the screens of dynpros.
-
-Handling Invalid Values
-
-Preparing the content of data object of the types d or t normally takes place independently from their content. [Invalid values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) are also interpreted as date or time entries. For time output in the 12 hour format, the separators are inserted at the respective points for invalid values and the output of the AM/am or PM/pm abbreviation is undefined for the following exception.
-
-Dynpros do not support any invalid values in the time fields with the 24 hour format with the exception of the value "24:00:00". This value is saved here as "240000" when passed to an ABAP field of type t. To support this value in time fields in 12 hour format too, it is formatted as "24:00:00 PM/pm".
-
-Notes
-
-The classes CL\_ABAP\_DATFM and CL\_ABAP\_TIMEFM contain helper methods for handling time formats.
-
-Continue
-[Country-Specific Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm)
-[SET COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country.htm)
-
-
-### abencountry_formats.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Formatting Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm) → 
-
-Country-Specific Formats
-
-The country-specific formatting settings for numbers, dates, and times are stored in database table T005X. The rows of table T005X contain a key field LAND in which a country key is stored, and fields XDEZP, DATFM, and TIMEFM for the respective formatting.
-
--   [Number Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumber_formats.htm)
-
--   [Date Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_formats.htm)
-
--   [Time Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_formats.htm)
-
-The settings for a specific country can either be
-
--   set using the statement [SET COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country.htm) for an [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") or
-
--   used in [character string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm) by means of formatting option [COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) for the formatting of an [embedded expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm).
-
-Note
-
-The country names that correspond to the country codes in table T005X can be found in table T005T.
-
-Continue
-[Number Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumber_formats.htm)
-[Date Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_formats.htm)
-[Time Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_formats.htm)
-
-
-### abennumber_formats.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Formatting Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm) →  [Country-Specific Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm) → 
-
-Number Formats
-
-The format of numbers is specified by the column XDEZP of the database table T005X. The options in the table below are available for displaying decimal separators and thousands separators:
-
-XDEZP
-
-Decimal Separator
-
-Thousands Separator
-
-" "
-
-","
-
-"."
-
-X
-
-"."
-
-","
-
-Y
-
-","
-
-" "
-
-Example
-
-Produces a number with differing decimal and thousand separators.
-
-DATA pack TYPE p DECIMALS 2 VALUE '1234.56'.
-cl\_demo\_output=>display(
-  |{ pack COUNTRY = 'DE ' }\\n{ pack COUNTRY = 'US ' }| ).
-
-Executable Example
-
-To see the display of a number in all possible formats, see the respective [example with character string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_number_abexa.htm).
-
-
-### abendate_formats.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Formatting Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm) →  [Country-Specific Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm) → 
-
-Date Formats
-
-The date format is specified by column DATFM in the database table T005X, where "mm", "dd", and "yyyy" stand for day, month, and year. The following country-specific formats are available:
-
-DATFM
-
-Date Format
-
-"1"
-
-dd.mm.yyyy
-
-"2"
-
-mm/dd/yyyy
-
-"3"
-
-mm-dd-yyyy
-
-"4"
-
-yyyy.mm.dd
-
-"5"
-
-yyyy/mm/dd
-
-"6"
-
-yyyy-mm-dd
-
-"7"
-
-ggyy.mm.dd, Japanese date
-
-"8"
-
-ggyy/mm/dd, Japanese date
-
-"9"
-
-ggyy-mm-dd, Japanese date
-
-"A"
-
-yyyy/mm/dd, Islamic date 1
-
-"B"
-
-yyyy/mm/dd, Islamic date 2
-
-"C"
-
-yyyy/mm/dd, Iranian date
-
--   In the Japanese formats for values "7", "8", and "9", the first two characters "gg" of a four-digit year are prepared as a Japanese Unicode character for the current Japanese Emperor. The last two characters "yy" signify the year of his reign.
-
--   In the Islamic formats for values "A" and "B", the date is prepared according to the Islamic moon calendar, which calculates time starting from 16th July 622, which is the date on which Mohammed left Mecca (Hijra). Since this calculation can be different in different Islamic countries, two formats are offered, each of which can be set individually. The respective settings are in database table TISLCAL, and can be changed using program I18N\_MAINTAIN\_TISLCAL.
-
--   The Iranian format for value "C" is based on an Islamic sun calendar, which calculates in sun years starting from the Hijra.
-
-Note
-
-The class CL\_ABAP\_DATFM contains helper methods for dealing with date formats.
-
-Example
-
-Produces a date with different date formats.
-
-cl\_demo\_output=>display(
-  |{ sy-datlo COUNTRY = 'DE ' }\\n{ sy-datlo COUNTRY = 'US ' }| ).
-
-Example
-
-To see the display of the current date in all possible formats, see the associated executable [example with character string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_date_abexa.htm).
 
 
 ### abentime_formats.htm
 
-  
+---
+title: "Time Formats"
+description: |
+  The time format is specified by column TIMEFM in the data base table T005X, where 'hh', 'mm', and 'ss' stand for hour, minute, and second. One 24-hour format and several 12-hour formats are available: TIMEFM Time Format ' ' 24-hour format (default setting) hh:mm:ss '1' 12-hour format (1 to 12) hh:mm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_formats.htm"
+abapFile: "abentime_formats.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abentime", "formats"]
+---
 
 * * *
 
@@ -812,179 +297,3 @@ cl\_demo\_output=>display(
 Executable Example
 
 [Character String Templates, Time Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_time_abexa.htm)
-
-
-### abencountry_formats.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Formatting Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm) → 
-
-Country-Specific Formats
-
-The country-specific formatting settings for numbers, dates, and times are stored in database table T005X. The rows of table T005X contain a key field LAND in which a country key is stored, and fields XDEZP, DATFM, and TIMEFM for the respective formatting.
-
--   [Number Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumber_formats.htm)
-
--   [Date Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_formats.htm)
-
--   [Time Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_formats.htm)
-
-The settings for a specific country can either be
-
--   set using the statement [SET COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country.htm) for an [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") or
-
--   used in [character string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm) by means of formatting option [COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) for the formatting of an [embedded expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm).
-
-Note
-
-The country names that correspond to the country codes in table T005X can be found in table T005T.
-
-Continue
-[Number Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumber_formats.htm)
-[Date Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_formats.htm)
-[Time Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_formats.htm)
-
-
-### abapset_country.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) →  [Formatting Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm) → 
-
-SET COUNTRY
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country_shortref.htm)
-
-Syntax
-
-SET COUNTRY cntry.
-
-Effect
-
-This statement sets the [formatting settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm) of the language environment for all following statements of the current [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry").
-
-cntry expects a character-like data object that either contains a value from the column LAND of the database table T005X or is initial.
-
--   If cntry contains a value from the table T005X, the number format, date format, and time format are set to a [country-specific format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm) in accordance with the entries in columns XDEZP, DATFM, and TIMEFM.
-    
--   If cntry is initial (contains a blank in the first place), the formatting is set in accordance with the fixed values in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry").
-    
-
-If the content of cntry cannot be found in the table T005X and does not have a blank in the first place, sy-subrc is set to 4 and the following settings are made:
-
--   The decimal separator is a decimal point and the thousands separator is a comma.
-    
--   Date in the form "mm/dd/yyyy"
-    
--   Time in 24-hour format
-    
-
-System Fields
-
-sy-subrc
-
-Meaning
-
-0
-
-The specified country key was found in the database table T005X or a space was specified.
-
-4
-
-The specified country key was not found in database table T005X.
-
-Notes
-
--   As long as the statement SET COUNTRY is not executed in an internal session, the formatting corresponds to the fixed values in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry").
-    
--   If certain formatting settings are only required for one or a few formattings, the formatting option [country](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) can be used for [embedded expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm) instead of SET COUNTRY.
-    
--   Do not confuse the statement SET COUNTRY with the obsolete addition [COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale_obsolete.htm) of the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm), used for setting the [text environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm "Glossary Entry"). In particular, it does not have a corresponding GET COUNTRY statement.
-    
-
-Example
-
-Sets the formatting settings of the language environment and the way they modify the addition [ENVIRONMENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) in [embedded expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm).
-
-SELECT SINGLE land
-       FROM t005x
-       WHERE timefm <> ' '
-       INTO @DATA(country).
-SET COUNTRY country.
-cl\_demo\_output=>display(
-  |{  sy-datlo DATE = ENVIRONMENT }\\n{
-      sy-timlo TIME = ENVIRONMENT }| ).
-
-Executable Examples
-
--   [String Templates, Formatting Settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_user_abexa.htm)
-
--   [WRITE, Cutoff Behavior](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_cutoff_abexa.htm)
-
-
-### abencountry.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) → 
-
-Formatting Settings
-
-Formats
-
-The formatting settings of the [language environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) determine
-
--   the number format (decimal and thousand separators)
-
--   The date format (separators and order)
-
--   The time format (24 hour or 12 hour format)
-
-for formatted output.
-
-Definition
-
-The formatting settings are set as follows:
-
--   At the start of an [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") they are determined by the related default settings in the fixed values in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry") of the current user.
-
--   Using the statement [SET COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country.htm), this default setting for the current internal session can be overwritten using [country-specific formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm).
-
-Effect
-
-The formatting settings affect the following ABAP language elements:
-
--   Assignments with the statement [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm)
-
--   Output in lists with the statement [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
-
--   Specifies the parameter [ENVIRONMENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) for the formatting options [NUMBER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm), [DATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm), [TIME](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm), and [TIMESTAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) in [embedded expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm).
-
-The formatting setting set in the user master record also affect the preparation of numbers, dates, and times specified on the screens of dynpros.
-
-Handling Invalid Values
-
-Preparing the content of data object of the types d or t normally takes place independently from their content. [Invalid values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) are also interpreted as date or time entries. For time output in the 12 hour format, the separators are inserted at the respective points for invalid values and the output of the AM/am or PM/pm abbreviation is undefined for the following exception.
-
-Dynpros do not support any invalid values in the time fields with the 24 hour format with the exception of the value "24:00:00". This value is saved here as "240000" when passed to an ABAP field of type t. To support this value in time fields in 12 hour format too, it is formatted as "24:00:00 PM/pm".
-
-Notes
-
-The classes CL\_ABAP\_DATFM and CL\_ABAP\_TIMEFM contain helper methods for handling time formats.
-
-Continue
-[Country-Specific Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm)
-[SET COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country.htm)

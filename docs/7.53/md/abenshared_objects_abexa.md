@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects"
+description: |
+  This example demonstrates how shared objects are used. Source Code REPORT demo_shared_objects. CLASS demo_flight_list_handler DEFINITION FINAL CREATE PRIVATE. PUBLIC SECTION. CLASS-DATA flight_list_handler TYPE REF TO demo_flight_list_handler. CLASS-METHODS class_constructor. METHODS get
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshared_objects_abexa.htm"
+abapFile: "abenshared_objects_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenshared", "objects", "abexa"]
+---
 
 * * *
 

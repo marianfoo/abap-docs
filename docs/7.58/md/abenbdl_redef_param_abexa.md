@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Reuse with Redefined Parameter"
+description: |
+  This example demonstrates how input and output parameters of RAP actions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_action_glosry.htm 'Glossary Entry'), RAP functions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_function_glosry.htm 'Glossary Entry'),
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_redef_param_abexa.htm"
+abapFile: "abenbdl_redef_param_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "redef", "param", "abexa"]
+---
 
 * * *
 

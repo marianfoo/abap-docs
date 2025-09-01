@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Text Environment"
+description: |
+  -   SET LOCALE - obsolete_parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm) -   GET LOCALE - obsolete_parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm) SET LOCALE, obsolete_parameters(https://h
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm"
+abapFile: "abentext_environment_obsolete.htm"
+keywords: ["do", "if", "abentext", "environment", "obsolete"]
+---
 
 * * *
 

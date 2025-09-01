@@ -1,4 +1,14 @@
-  
+---
+title: "Class Component"
+description: |
+  Component(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_glosry.htm 'Glossary Entry') of a class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry'). Declared in the declaration section(https://help.sap.com/doc/abapdocu_75
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_component_glosry.htm"
+abapFile: "abenclass_component_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenclass", "component", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   An XML reader in sXML Library can be specified as an XML source of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation.htm). This enables transformations to be performed for all sources supported by sXML readers in all supported
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib_parse.htm"
+abapFile: "abenabap_sxml_lib_parse.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "sxml", "lib", "parse"]
+---
 
 * * *
 

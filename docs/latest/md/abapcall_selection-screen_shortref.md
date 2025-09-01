@@ -1,4 +1,14 @@
-  
+---
+title: "CALL SELECTION-SCREEN - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_selection_screen.htm) Syntax CALL SELECTION-SCREEN dynnr STARTING AT col1 lin1 ENDING   AT col2 lin2 USING SELECTION-SET variant. Effect Calls the selection screen(https://help.sap.com/doc/
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_selection-screen_shortref.htm"
+abapFile: "abapcall_selection-screen_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapcall", "selection", "screen", "shortref"]
+---
 
 * * *
 

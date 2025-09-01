@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... COALESCE( sql_exp1, sql_exp2, ..., sql_expn ) ... Effect Calls the coalesce function as an SQL expression(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) or operand of an expression in ABAP SQL. The coalesce function can have a comma-separated list with at least
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_coalesce.htm"
+abapFile: "abensql_coalesce.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "data", "types", "abensql", "coalesce"]
+---
 
 * * *
 

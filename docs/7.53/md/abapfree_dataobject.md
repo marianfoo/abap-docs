@@ -1,4 +1,14 @@
-  
+---
+title: "FREE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_shortref.htm) Syntax FREE dobj. Effect The statement FREE deletes all rows from an internal table and releases the memory area that the rows occupied. On other data objects, FREE works like the statement CLEAR(ht
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_dataobject.htm"
+abapFile: "abapfree_dataobject.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "internal-table", "abapfree", "dataobject"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Implicit Logon Data"
+description: |
+  This example demonstrates how the logon data of an RFC session is set implicitly. Source Code  Public class definition CLASS cl_demo_rfc_implct_logon_data DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS.  Public class
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_logon_data_abexa.htm"
+abapFile: "abenrfc_logon_data_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenrfc", "logon", "abexa"]
+---
 
 * * *
 

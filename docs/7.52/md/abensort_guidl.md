@@ -1,4 +1,14 @@
-  
+---
+title: "Sorted Filling"
+description: |
+  Background The statement APPEND for attaching rows to an internal table has the addition SORTED BY. This addition can be used to fill a standard table by using sorted filling. The prerequisites are: -   A value greater than zero must be specified for the addition INITIAL SIZE(https://help.sap.com/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_guidl.htm"
+abapFile: "abensort_guidl.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abensort", "guidl"]
+---
 
 * * *
 

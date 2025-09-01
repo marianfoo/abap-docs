@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_nmax_nmin DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_nmax_nmin IMPLEMENTATION. METHOD main. DATA: a TYPE i VALUE 1, b TYPE i VALUE
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_function_abexa.htm"
+abapFile: "abennmax_nmin_function_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abennmax", "nmin", "function", "abexa"]
+---
 
 * * *
 

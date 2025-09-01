@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Examples"
+description: |
+  -   CL_ABAP_BIGINT, Key Encryption(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbigint_abexa.htm) -   CL_ABAP_BIGINT, Square Root Calculation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbigint1_abexa.htm) !Example(exa.gif 'Example') CL_ABAP_BIGINT, K
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_bigint_doc.htm"
+abapFile: "abencl_abap_bigint_doc.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "bigint", "doc"]
+---
 
 * * *
 

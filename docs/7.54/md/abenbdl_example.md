@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - Example"
+description: |
+  Example In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The underlying business object for managing flight trips can be given an ali
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm"
+abapFile: "abenbdl_example.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "abenbdl", "example"]
+---
 
 * * *
 

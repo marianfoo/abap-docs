@@ -1,4 +1,14 @@
-  
+---
+title: "XSL transformation"
+description: |
+  Program written in XSLT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxslt_glosry.htm 'Glossary Entry') and used for transforming XML(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_glosry.htm 'Glossary Entry') data. XSL transformations of the repository(htt
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsl_transformation_1_glosry.htm"
+abapFile: "abenxsl_transformation_1_glosry.htm"
+keywords: ["do", "try", "data", "abenxsl", "transformation", "glosry"]
+---
 
 * * *
 

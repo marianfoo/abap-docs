@@ -1,4 +1,14 @@
-  
+---
+title: "cds_non_sql_entity_glosry"
+description: |
+  cds_non_sql_entity_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_non_sql_entity_glosry.htm"
+abapFile: "abencds_non_sql_entity_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "non", "sql", "entity", "glosry"]
+---
 
 * * *
 

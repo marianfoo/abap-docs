@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   If a field of a parent or child entity is marked as readonly in the BDEF(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry'), it cannot be changed and assigned a new value with any of the modify operations(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_fields_tab.htm"
+abapFile: "abapeml_fields_tab.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "internal-table", "abapeml", "fields", "tab"]
+---
 
 * * *
 

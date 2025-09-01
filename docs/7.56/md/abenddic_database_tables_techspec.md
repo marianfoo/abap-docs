@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Table-Dependent Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are provided specifically for DDIC database tables. They define attributes of the physical database table and how the database interface is used for access. Apart from the table category and activation type, these technical settings constitute a standalone object a
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_techspec.htm"
+abapFile: "abenddic_database_tables_techspec.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "techspec"]
+---
 
 * * *
 

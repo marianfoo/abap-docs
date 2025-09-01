@@ -1,0 +1,38 @@
+# Build output & caches
+docs/**
+node_modules/**
+.cache/**
+coverage/**
+*.log
+.npm/**
+.pnpm-store/**
+
+# Huge vendor docs & tests you don't want in context
+sources/**/test/**
+sources/openui5/**/test/**
+sources/**/.git/**
+sources/**/.github/**
+sources/**/node_modules/**
+sources/**/.cache/**
+
+# Large generated search artifacts
+dist/data/index.json
+dist/data/*.sqlite
+dist/data/*.db
+
+
+# IDE and editor files
+.vscode/**
+.idea/**
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large binary or generated files
+*.pdf
+*.zip
+*.tar.gz
+*.tgz

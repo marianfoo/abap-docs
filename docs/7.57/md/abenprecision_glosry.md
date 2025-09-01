@@ -1,4 +1,14 @@
-  
+---
+title: "precision_glosry"
+description: |
+  precision_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprecision_glosry.htm"
+abapFile: "abenprecision_glosry.htm"
+keywords: ["do", "if", "try", "abenprecision", "glosry"]
+---
 
 * * *
 

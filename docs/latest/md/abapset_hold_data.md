@@ -1,4 +1,14 @@
-  
+---
+title: "SET HOLD DATA"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_hold_data_shortref.htm) Syntax SET HOLD DATA ONOFF. Effect During PBO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpbo_glosry.htm 'Glossary Entry') processing, this statement m
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_hold_data.htm"
+abapFile: "abapset_hold_data.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapset", "hold"]
+---
 
 * * *
 

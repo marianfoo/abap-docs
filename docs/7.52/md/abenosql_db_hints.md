@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Database Hints"
+description: |
+  Syntax ... %_HINTS db @dbhint1 db @dbhint2 ...   ... Effect The addition %_HINTS can be used to specify database hints(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_hint_glosry.htm 'Glossary Entry') at the following positions in Open SQL statements: -   After th
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenosql_db_hints.htm"
+abapFile: "abenosql_db_hints.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "data", "abenosql", "hints"]
+---
 
 * * *
 

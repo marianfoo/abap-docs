@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC External Views for SAP HANA Views in SAP HANA Repository"
+description: |
+  ABAP SQL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql_glosry.htm 'Glossary Entry') provides access to all database tables and views whose structures are defined as repository objects in ABAP Dictionary(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexternal_views.htm"
+abapFile: "abenexternal_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abenexternal", "views"]
+---
 
 * * *
 

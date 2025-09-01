@@ -1,4 +1,14 @@
-  
+---
+title: "Modularization Units"
+description: |
+  The key modularization units or callable units within an ABAP program are referred to as processing blocks. In this context, procedures on one side are distinguished from dialog modules and event blocks on the other side. While dialog modules and event blocks are called from the dynpro flow logic or
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodularization_unit_gdl.htm"
+abapFile: "abenmodularization_unit_gdl.htm"
+keywords: ["do", "while", "if", "method", "data", "abenmodularization", "unit", "gdl"]
+---
 
 * * *
 

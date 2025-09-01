@@ -1,4 +1,14 @@
-  
+---
+title: "canonical_xml_represent_glosry"
+description: |
+  canonical_xml_represent_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencanonical_xml_represent_glosry.htm"
+abapFile: "abencanonical_xml_represent_glosry.htm"
+keywords: ["do", "try", "data", "abencanonical", "xml", "represent", "glosry"]
+---
 
 * * *
 

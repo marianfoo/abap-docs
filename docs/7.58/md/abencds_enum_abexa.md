@@ -1,4 +1,14 @@
-  
+---
+title: "CDS TDL - CDS Enumerated Type, Use"
+description: |
+  This example demonstrates the use of CDS enumerated types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_glosry.htm 'Glossary Entry'). The following CDS enumerated type DEMO_CDS_ENUM_WEEKDAY has the base type abap.int1, the names of the enumerated constants are abb
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_abexa.htm"
+abapFile: "abencds_enum_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencds", "enum", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... FOR TABLENODE node HELP-REQUEST VALUE-REQUEST AS SEARCH PATTERN ... Additions: 1. ... FOR TABLENODE node(#!ABAP_ADDITION_1@1@) 2. ... HELP-REQUEST(#!ABAP_ADDITION_2@2@) 3. ... VALUE-REQUEST(#!ABAP_ADDITION_3@3@) 4. ... AS SEARCH PATTERN(#!ABA
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapparameters_ldb.htm"
+abapFile: "abapparameters_ldb.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "abapparameters", "ldb"]
+---
 
 * * *
 

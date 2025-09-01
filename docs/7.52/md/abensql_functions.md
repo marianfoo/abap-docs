@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Functions"
+description: |
+  The following sections summarize the predefined SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm 'Glossary Entry
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions.htm"
+abapFile: "abensql_functions.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions"]
+---
 
 * * *
 

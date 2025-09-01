@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP operand"
+description: |
+  Component of an ABAP statement(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_statement_glosry.htm 'Glossary Entry'). Defined directly or as a data object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_object_glosry.htm 'Glossary Entry'), formal paramet
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_operand_glosry.htm"
+abapFile: "abenabap_operand_glosry.htm"
+keywords: ["do", "try", "method", "data", "field-symbol", "abenabap", "operand", "glosry"]
+---
 
 * * *
 

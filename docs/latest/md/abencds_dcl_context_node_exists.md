@@ -1,4 +1,14 @@
-  
+---
+title: "cds_dcl_context_node_exists"
+description: |
+  cds_dcl_context_node_exists - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_context_node_exists.htm"
+abapFile: "abencds_dcl_context_node_exists.htm"
+keywords: ["do", "if", "data", "abencds", "dcl", "context", "node", "exists"]
+---
 
 * * *
 

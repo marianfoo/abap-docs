@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... UNIQUE HASHEDUNIQUE SORTEDNON-UNIQUE SORTED KEY key_name ALIAS alias_name COMPONENTS comp1 comp2 ... Addition: ... ALIAS alias_name(#!ABAP_ONE_ADD@1@) Effect Definition of a secondary table key(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/aben
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm"
+abapFile: "abaptypes_secondary_key.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abaptypes", "secondary", "key"]
+---
 
 * * *
 

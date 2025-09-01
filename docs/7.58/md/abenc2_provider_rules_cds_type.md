@@ -1,4 +1,14 @@
-  
+---
+title: "c2_provider_rules_cds_type"
+description: |
+  c2_provider_rules_cds_type - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm"
+abapFile: "abenc2_provider_rules_cds_type.htm"
+keywords: ["do", "if", "try", "types", "abenc2", "provider", "rules", "cds", "type"]
+---
 
 * * *
 

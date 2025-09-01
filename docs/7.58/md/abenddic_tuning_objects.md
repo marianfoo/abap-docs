@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Tuning Objects"
+description: |
+  A tuning object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentuning_object_glosry.htm 'Glossary Entry') is a repository object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that defines technical settings or tuning
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm"
+abapFile: "abenddic_tuning_objects.htm"
+keywords: ["do", "if", "try", "abenddic", "tuning", "objects"]
+---
 
 * * *
 

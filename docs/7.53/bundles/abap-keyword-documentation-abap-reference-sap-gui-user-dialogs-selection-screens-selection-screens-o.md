@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenselection_screen_overview.htm
 
-  
+---
+title: "Selection Screens - Overview"
+description: |
+  -   Selection Screens as Dynpros(#abenselection-screen-overview-1--------selection-screen-tasks---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2) -   GUI Status of Selection Screens(#abenselection-screen-overview-3--------selection-screen-events---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4) -   Selection S
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_overview.htm"
+abapFile: "abenselection_screen_overview.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenselection", "screen", "overview"]
+---
 
 * * *
 
@@ -15,13 +25,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Selection Screens - Overview
 
--   [Selection Screens as Dynpros](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_1)
+-   [Selection Screens as Dynpros](#abenselection-screen-overview-1--------selection-screen-tasks---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2)
 
--   [Selection Screen Tasks](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2)
-
--   [GUI Status of Selection Screens](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_3)
-
--   [Selection Screen Events](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4)
+-   [GUI Status of Selection Screens](#abenselection-screen-overview-3--------selection-screen-events---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4)
 
 -   [Selection Screens and Logical Databases](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_5)
 
@@ -69,7 +75,17 @@ Continue
 
 ### abensel_screen_gui_status_abexa.htm
 
-  
+---
+title: "Selection Screens, Changing the Default GUI Status"
+description: |
+  The example demonstrates how the GUI status of a selection screen can be changed. Source Code REPORT demo_sel_screen_status . DATA itab TYPE TABLE OF sy-ucomm. PARAMETERS test(10) TYPE c. AT SELECTION-SCREEN OUTPUT. itab = VALUE #( ( CONV sy-ucomm( 'PRIN' ) ) ( CONV sy-ucomm( 'SPOS' ) ) ). CALL F
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_gui_status_abexa.htm"
+abapFile: "abensel_screen_gui_status_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "gui", "status", "abexa"]
+---
 
 * * *
 

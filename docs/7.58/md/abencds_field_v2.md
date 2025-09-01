@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, field"
+description: |
+  Syntax ... entity.fieldalias.field ... Effect Defines a CDS source field(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_field_glosry.htm 'Glossary Entry') in an operand position of a CDS entity. A CDS source field is a field of a data source(https://help.sa
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_field_v2.htm"
+abapFile: "abencds_field_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "field"]
+---
 
 * * *
 

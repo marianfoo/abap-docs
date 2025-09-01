@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - FOR ALL ENTRIES"
+description: |
+  Syntax ... FOR ALL ENTRIES IN @itab WHERE ... col operator(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_compare.htm) @itab-comp ... Effect If the addition FOR ALL ENTRIES is specified in front of the language element WHERE(https://help.sap.com/doc/abapdocu_752_inde
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_itab.htm"
+abapFile: "abenwhere_logexp_itab.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenwhere", "logexp", "itab"]
+---
 
 * * *
 

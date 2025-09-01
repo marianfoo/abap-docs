@@ -1,4 +1,14 @@
-  
+---
+title: "ASSIGN - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm) Syntax ASSIGN  dobj+off(len)  TABLE FIELD (name)  dref->  dobj INCREMENT inc  COMPONENT comp OF STRUCTURE struc  oref->(attr_name)  class(clas
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_shortref.htm"
+abapFile: "abapassign_shortref.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "field-symbol", "abapassign", "shortref"]
+---
 
 * * *
 

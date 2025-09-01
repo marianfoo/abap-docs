@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 

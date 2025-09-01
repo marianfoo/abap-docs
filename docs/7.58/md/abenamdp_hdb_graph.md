@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Graph Processing"
+description: |
+  AMDP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_glosry.htm 'Glossary Entry') supports two SAP HANA(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_hana_glosry.htm 'Glossary Entry') artifacts for processing graphs(https://help.sap.com/doc/abapdocu_758
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_hdb_graph.htm"
+abapFile: "abenamdp_hdb_graph.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenamdp", "hdb", "graph"]
+---
 
 * * *
 

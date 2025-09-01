@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:read var='variable' type='type' length='len' decimals='dec' map='...' minLengthmaxLength='len' xsd-type... /> Effect The command tt:read makes it possible to read a value of the XML inbound stream into a variable(https://help.sap.com/doc/abapd
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_read.htm"
+abapFile: "abenst_tt_read.htm"
+keywords: ["do", "if", "data", "types", "abenst", "read"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "print_dialog_box_glosry"
+description: |
+  print_dialog_box_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprint_dialog_box_glosry.htm"
+abapFile: "abenprint_dialog_box_glosry.htm"
+keywords: ["do", "try", "abenprint", "dialog", "box", "glosry"]
+---
 
 * * *
 

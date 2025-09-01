@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, UPDATE, MODIFY dbtab - LOB Handles"
+description: |
+  In the statements INSERT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm), UPDATE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm), or MODIFY(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab.htm), LOB handles
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenium_lob.htm"
+abapFile: "abenium_lob.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenium", "lob"]
+---
 
 * * *
 
@@ -10,17 +20,11 @@ INSERT, UPDATE, MODIFY dbtab - LOB Handles
 
 In the statements [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm), or [MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab.htm), [LOB handles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_handle_glosry.htm "Glossary Entry") can be created as [writer streams](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriter_stream_glosry.htm "Glossary Entry") and specified as [locators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocator_glosry.htm "Glossary Entry").
 
--   [Prerequisites](#@@ITOC@@ABENIUM_LOB_1)
+-   [Prerequisites](#abenium-lob-1--------rules---@ITOC@@ABENIUM_LOB_2)
 
--   [Rules](#@@ITOC@@ABENIUM_LOB_2)
+-   [Writes Using Writer Streams](#abenium-lob-3--------writes-using-locators---@ITOC@@ABENIUM_LOB_4)
 
--   [Writes Using Writer Streams](#@@ITOC@@ABENIUM_LOB_3)
-
--   [Writes Using Locators](#@@ITOC@@ABENIUM_LOB_4)
-
--   [Restrictions](#@@ITOC@@ABENIUM_LOB_5)
-
--   [Examples](#@@ITOC@@ABENIUM_LOB_6)
+-   [Restrictions](#abenium-lob-5--------examples---@ITOC@@ABENIUM_LOB_6)
 
 Prerequisites
 

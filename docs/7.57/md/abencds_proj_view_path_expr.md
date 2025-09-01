@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... source._assoc1 parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v2.htm)filter(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_assoc_modified.htm) ... Effect A path expression in the CDS DDL is a seq
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_path_expr.htm"
+abapFile: "abencds_proj_view_path_expr.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "proj", "view", "path", "expr"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenmemory_consumption.htm
 
-  
+---
+title: "Memory Management of Deep Objects"
+description: |
+  All data types for which the content of their data objects represents the actual work data referred to as flat in ABAP. The elementary data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') of a fixed length are flat, as are
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption.htm"
+abapFile: "abenmemory_consumption.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 
@@ -44,7 +54,17 @@ Continue
 
 ### abenmemory_consumption_1.htm
 
-  
+---
+title: "Memory Requirement for Deep Data Objects"
+description: |
+  The memory requirement for a deep data object consists of a constant memory requirement for the reference and a dynamic memory required for the header and the actual objects. -   The memory requirement for the reference is 8 bytes. With data and object references, this is the memory requirement of t
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_1.htm"
+abapFile: "abenmemory_consumption_1.htm"
+keywords: ["insert", "delete", "do", "if", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 
@@ -94,7 +114,17 @@ Executable Example
 
 ### abenmemory_consumption_2.htm
 
-  
+---
+title: "Maximum Size of Dynamic Data Objects"
+description: |
+  In addition to the maximum memory size that the current internal session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm 'Glossary Entry') can request for dynamic data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyna
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_2.htm"
+abapFile: "abenmemory_consumption_2.htm"
+keywords: ["delete", "loop", "do", "while", "if", "try", "catch", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 
@@ -146,7 +176,17 @@ ENDTRY.
 
 ### abenmemory_consumption_3.htm
 
-  
+---
+title: "Sharing Between Dynamic Data Objects"
+description: |
+  When reference variables are assigned, only the references are copied. After an assignment, source and target variables point to the same data object or instance of a class (more precisely, to their headers). Sharing also takes place internally in assignments(https://help.sap.com/doc/abapdocu_late
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_3.htm"
+abapFile: "abenmemory_consumption_3.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 
@@ -183,7 +223,17 @@ Hints
 
 ### abenmemory_consumption_4.htm
 
-  
+---
+title: "Complex Data Objects with Deep Components"
+description: |
+  If data objects of complex data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomplex_data_type_glosry.htm 'Glossary Entry') have many deep components, which often, for example, applies to internal tables with a deep line type for example, the administrative costs in th
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_4.htm"
+abapFile: "abenmemory_consumption_4.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 
@@ -228,7 +278,17 @@ See [Deep Data Objects, Memory Usage](https://help.sap.com/doc/abapdocu_latest_i
 
 ### abenmemory_usage_abexa.htm
 
-  
+---
+title: "Deep Data Objects, Memory Consumption"
+description: |
+  The example illustrates the administrative costs of deep components with low data content. Source Code  CCDEF CLASS lcl DEFINITION. PUBLIC SECTION. DATA atab TYPE TABLE OF i. ENDCLASS.  Public class definition CLASS cl_demo_memory_usage DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CRE
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_usage_abexa.htm"
+abapFile: "abenmemory_usage_abexa.htm"
+keywords: ["delete", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abenmemory", "usage", "abexa"]
+---
 
 * * *
 

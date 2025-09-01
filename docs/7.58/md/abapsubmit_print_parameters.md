@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... SPOOL PARAMETERS pri_params ARCHIVE PARAMETERS arc_params WITHOUT SPOOL DYNPRO... Effect These additions are used to supply the spool request(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_request_glosry.htm 'Glossary Entry') with spool and archive parameters. T
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubmit_print_parameters.htm"
+abapFile: "abapsubmit_print_parameters.htm"
+keywords: ["do", "if", "try", "data", "types", "abapsubmit", "print", "parameters"]
+---
 
 * * *
 

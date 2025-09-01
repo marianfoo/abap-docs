@@ -1,4 +1,14 @@
-  
+---
+title: "Inheritance and Static Components"
+description: |
+  Static components(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_component_glosry.htm 'Glossary Entry'), like all components, exist only once in each inheritance tree, and can be used from the level of the declaring class: -   A subclass can access all non-private static com
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninheritance_statical.htm"
+abapFile: "abeninheritance_statical.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abeninheritance", "statical"]
+---
 
 * * *
 

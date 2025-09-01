@@ -1,4 +1,14 @@
-  
+---
+title: "pop-up_level_glosry"
+description: |
+  pop-up_level_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpop-up_level_glosry.htm"
+abapFile: "abenpop-up_level_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenpop", "level", "glosry"]
+---
 
 * * *
 

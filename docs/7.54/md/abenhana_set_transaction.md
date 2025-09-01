@@ -1,4 +1,14 @@
-  
+---
+title: "Setting Transaction Behavior for SAP HANA"
+description: |
+  HANA-specific SQL(https://help.sap.com/viewer/4fe29514fd584807ac9f2a04f6754767/2.0.03/en-US) contains the following statements for setting transaction behavior: -   SET TRANSACTION AUTOCOMMIT DDL -   SET TRANSACTION ISOLATION LEVEL -   SET TRANSACTION LOCK WAIT TIMEOUT -   SET TRANSACTION READ ONL
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_set_transaction.htm"
+abapFile: "abenhana_set_transaction.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenhana", "set", "transaction"]
+---
 
 * * *
 

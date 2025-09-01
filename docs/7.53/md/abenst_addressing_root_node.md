@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Addressing the Data Roots"
+description: |
+  The data roots(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_root.htm) declared at the highest hierarchy level of an ST program are the root nodes of the tree structures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_trees.htm) of the data nodes of the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_addressing_root_node.htm"
+abapFile: "abenst_addressing_root_node.htm"
+keywords: ["do", "case", "data", "abenst", "addressing", "root", "node"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS access rule"
+description: |
+  An access rule formulates an access condition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_condition_glosry.htm 'Glossary Entry') for a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') or guarante
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_rule_glosry.htm"
+abapFile: "abenaccess_rule_glosry.htm"
+keywords: ["do", "if", "try", "abenaccess", "rule", "glosry"]
+---
 
 * * *
 

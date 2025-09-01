@@ -1,4 +1,14 @@
-  
+---
+title: "Component"
+description: |
+  Subunit of a structure(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_glosry.htm 'Glossary Entry'), a class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry'), or an interface(https://help.sap.com/doc/abapdocu_752_index_h
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_glosry.htm"
+abapFile: "abencomponent_glosry.htm"
+keywords: ["do", "try", "class", "abencomponent", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Table Comprehensions, Basic Properties"
+description: |
+  This example demonstrates the basic properties of table comprehensions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_comprehension_glosry.htm 'Glossary Entry'). Source Code REPORT demo_table_comprh_elementary. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. TYP
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_cmprhnsns_simple_abexa.htm"
+abapFile: "abentable_cmprhnsns_simple_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "simple", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions in ABAP Statements"
+description: |
+  Error situations that occur during the execution of an ABAP statement raise exceptions. These exceptions are fully integrated into the exception concept(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_exceptions.htm) and are raised by the runtime framework. Two types of excepti
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm"
+abapFile: "abenabap_language_exceptions.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "exception-handling", "abenabap", "language", "exceptions"]
+---
 
 * * *
 

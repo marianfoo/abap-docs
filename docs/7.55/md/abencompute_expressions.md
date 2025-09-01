@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Calculations"
+description: |
+  For the execution of numeric calculations, mainly arithmetic expressions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry') are available that can be used in operand positions and, in particular, on the right side of the assignment op
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencompute_expressions.htm"
+abapFile: "abencompute_expressions.htm"
+keywords: ["do", "try", "class", "data", "types", "abencompute", "expressions"]
+---
 
 * * *
 

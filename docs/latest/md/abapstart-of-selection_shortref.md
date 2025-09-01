@@ -1,4 +1,14 @@
-  
+---
+title: "START-OF-SELECTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-selection.htm) Syntax START-OF-SELECTION. Effect Initiates an event block whose event is raised in executable programs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexecutable_program_glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-selection_shortref.htm"
+abapFile: "abapstart-of-selection_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapstart", "selection", "shortref"]
+---
 
 * * *
 

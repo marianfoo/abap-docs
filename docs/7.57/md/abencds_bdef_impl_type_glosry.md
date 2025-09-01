@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF implementation type"
+description: |
+  Type of CDS behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry'). There are five different implementation types of CDS behavior definitions: -   managed(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/a
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef_impl_type_glosry.htm"
+abapFile: "abencds_bdef_impl_type_glosry.htm"
+keywords: ["do", "if", "try", "types", "abencds", "bdef", "impl", "type", "glosry"]
+---
 
 * * *
 

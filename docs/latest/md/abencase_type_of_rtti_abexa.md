@@ -1,4 +1,14 @@
-  
+---
+title: "Case Distinction CASE TYPE OF for RTTI"
+description: |
+  This example demonstrates the case distinction CASE TYPE OF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) for type description classes. Source Code  Public class definition CLASS cl_demo_case_type_of_rtti DEFINITION INHERITING FROM cl_demo_classrun PUB
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm"
+abapFile: "abencase_type_of_rtti_abexa.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abencase", "type", "rtti", "abexa"]
+---
 
 * * *
 

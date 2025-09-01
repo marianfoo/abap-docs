@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenabap_generic_dynpro.htm
 
-  
+---
+title: "Dynpro"
+description: |
+  The statements for creating and editing dynpros(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm 'Glossary Entry') are not released for application programming and cannot be used in application programs. Internal Statements for Editing Dynpros(https://help.sap.com
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_generic_dynpro.htm"
+abapFile: "abenabap_generic_dynpro.htm"
+keywords: ["do", "if", "try", "abenabap", "generic", "dynpro"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abengeneric_dynpro_internal.htm
 
-  
+---
+title: "Internal Statements for Editing Dynpros"
+description: |
+  These statements are for internal use only. Do not use them in application programs. -   EXPORT DYNPRO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_dynpro.htm) -   IMPORT DYNPRO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_dynpro.htm) -   DELETE
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_dynpro_internal.htm"
+abapFile: "abengeneric_dynpro_internal.htm"
+keywords: ["delete", "do", "if", "abengeneric", "dynpro", "internal"]
+---
 
 * * *
 
@@ -58,7 +78,17 @@ Continue
 
 ### abapexport_dynpro.htm
 
-  
+---
+title: "EXPORT DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax EXPORT DYNPRO h f e m ID id. Effect Exports the dynpro(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm 'Glossary Entry') with the name in the id. The dynpro information is
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_dynpro.htm"
+abapFile: "abapexport_dynpro.htm"
+keywords: ["do", "if", "try", "internal-table", "abapexport", "dynpro"]
+---
 
 * * *
 
@@ -85,7 +115,17 @@ Exports the [dynpro](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/
 
 ### abapimport_dynpro.htm
 
-  
+---
+title: "IMPORT DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax IMPORT DYNPRO h f e m ID id. Effect The dynpro(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm 'Glossary Entry') specified in the structure id is imported. To enable this,
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_dynpro.htm"
+abapFile: "abapimport_dynpro.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapimport", "dynpro"]
+---
 
 * * *
 
@@ -149,7 +189,17 @@ IMPORT DYNPRO h f e m ID id.
 
 ### abapdelete_dynpro.htm
 
-  
+---
+title: "DELETE DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DELETE DYNPRO f. Effect Deletes the dynpro(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm 'Glossary Entry') with the name specified in the field f. System Fields sy-subrc
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_dynpro.htm"
+abapFile: "abapdelete_dynpro.htm"
+keywords: ["delete", "do", "if", "try", "data", "abapdelete", "dynpro"]
+---
 
 * * *
 
@@ -198,7 +248,17 @@ DELETE DYNPRO DYNPRONAME.
 
 ### abapsyntax-check_for_dynpro.htm
 
-  
+---
+title: "SYNTAX-CHECK FOR DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax SYNTAX-CHECK FOR DYNPRO h f e m ...MESSAGE f1 ...LINE f2 ...WORD f3. Additions: 1. ... OFFSET f4(#!ABAP_ADDITION_1@1@) 2. ... TRACE-TABLE itab1(#!ABAP_ADDITION_2@2@) 3. ... MESSAGE-ID f5(#!ABAP_ADDI
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsyntax-check_for_dynpro.htm"
+abapFile: "abapsyntax-check_for_dynpro.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapsyntax", "check", "for", "dynpro"]
+---
 
 * * *
 
@@ -282,7 +342,17 @@ If a syntax error occurs, the key of the corresponding error message is returned
 
 ### abapgenerate_dynpro.htm
 
-  
+---
+title: "GENERATE DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax GENERATE DYNPRO h f e m ID g. ... MESSAGE f1 ... LINE f2 ... WORD f3. Additions: 1. ... OFFSET f4(#!ABAP_ADDITION_1@1@) 2. ... TRACE-FILE f5(#!ABAP_ADDITION_2@2@) Effect Generates the dynpro(https://
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapgenerate_dynpro.htm"
+abapFile: "abapgenerate_dynpro.htm"
+keywords: ["do", "if", "try", "internal-table", "abapgenerate", "dynpro"]
+---
 
 * * *
 
@@ -354,7 +424,17 @@ Trace output is stored in this file. This addition automatically activates trace
 
 ### abengeneric_dynpro_internal.htm
 
-  
+---
+title: "Internal Statements for Editing Dynpros"
+description: |
+  These statements are for internal use only. Do not use them in application programs. -   EXPORT DYNPRO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_dynpro.htm) -   IMPORT DYNPRO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_dynpro.htm) -   DELETE
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_dynpro_internal.htm"
+abapFile: "abengeneric_dynpro_internal.htm"
+keywords: ["delete", "do", "if", "abengeneric", "dynpro", "internal"]
+---
 
 * * *
 

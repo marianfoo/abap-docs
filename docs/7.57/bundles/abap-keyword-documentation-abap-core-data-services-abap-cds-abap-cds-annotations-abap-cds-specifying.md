@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abencds_f1_ddlx_syntax.htm
 
-  
+---
+title: "ABAP CDS - DDL for Metadata Extensions"
+description: |
+  Alongside the DDL statements for data definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm), the CDS DDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm 'Glossary Entry') in ABAP CDS makes it possible to define metada
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddlx_syntax.htm"
+abapFile: "abencds_f1_ddlx_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddlx", "syntax"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abencds_f1_annotate_view.htm
 
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entit
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -188,7 +208,17 @@ Continue
 
 ### abencds_f1_metadata_ext_annos.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm"
+abapFile: "abencds_f1_metadata_ext_annos.htm"
+keywords: ["do", "if", "try", "data", "abencds", "metadata", "ext", "annos"]
+---
 
 * * *
 
@@ -211,13 +241,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings.
 
--   [Metadata Annotations](#@@ITOC@@ABENCDS_F1_METADATA_EXT_ANNOS_1)
-
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
-
-Hint
-
-All other annotations specified in this place are extension annotations [@entity\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
+-   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
 
 Metadata Annotations   
 
@@ -255,7 +279,17 @@ ABAP Platform
 
 ### abencds_f1_annotate_view_para_list.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETERS @parameter_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) ... pname1, @parameter_annot1(http
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_para_list.htm"
+abapFile: "abencds_f1_annotate_view_para_list.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "annotate", "view", "para", "list"]
+---
 
 * * *
 
@@ -305,7 +339,17 @@ Hints
 
 ### abencds_f1_annotate_view_sele_list.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @element_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) ... element1; @element_annot1(https://help.sap.com/doc/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm"
+abapFile: "abencds_f1_annotate_view_sele_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "annotate", "view", "sele", "list"]
+---
 
 * * *
 
@@ -356,7 +400,17 @@ Hints
 
 ### abencds_f1_annotate_view.htm
 
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entit
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 

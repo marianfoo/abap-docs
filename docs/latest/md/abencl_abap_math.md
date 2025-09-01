@@ -1,4 +1,14 @@
-  
+---
+title: "System Classes for Numbers"
+description: |
+  -   System Class CL_ABAP_MATH(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_class.htm) -   System Class CL_ABAP_DECFLOAT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_decfloat_doc.htm) -   System Class CL_ABAP_BIGINT(http
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_math.htm"
+abapFile: "abencl_abap_math.htm"
+keywords: ["do", "if", "class", "data", "abencl", "abap", "math"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FAILED failed MAPPED mapped REPORTED reported ... Effect Used to specify response parameters for ABAP EML statements to get information on failures (i. e. operations that could not get processed), key mapping information and returned error messages. The following table sh
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm"
+abapFile: "abapeml_response.htm"
+keywords: ["do", "if", "case", "try", "method", "abapeml", "response"]
+---
 
 * * *
 

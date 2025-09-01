@@ -1,4 +1,14 @@
-  
+---
+title: "return_code_glosry"
+description: |
+  return_code_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreturn_code_glosry.htm"
+abapFile: "abenreturn_code_glosry.htm"
+keywords: ["do", "if", "try", "abenreturn", "code", "glosry"]
+---
 
 * * *
 

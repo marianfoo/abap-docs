@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Date Functions and Time Functions"
+description: |
+  The following table shows the date and time functions that can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Gloss
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_date_time_functions.htm"
+abapFile: "abenddic_date_time_functions.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abenddic", "date", "time", "functions"]
+---
 
 * * *
 

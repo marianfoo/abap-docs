@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - implementation type"
+description: |
+  Syntax implementation managed  unmanaged  abstract  projection  ... Effect CDS BDL offers the following statements for different implementation types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdef_impl_type_glosry.htm 'Glossary Entry'): -   managed The tr
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_impl_type.htm"
+abapFile: "abenbdl_impl_type.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "types", "abenbdl", "impl", "type"]
+---
 
 * * *
 

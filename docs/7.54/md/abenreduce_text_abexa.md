@@ -1,4 +1,14 @@
-  
+---
+title: "Table Reductions, String Processing"
+description: |
+  This example demonstrates a reduction of the columns of a character-like table to a text string. Source Code REPORT demo_reduce_text. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES strings TYPE STANDARD TABLE OF string WITH EMPTY
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreduce_text_abexa.htm"
+abapFile: "abenreduce_text_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenreduce", "text", "abexa"]
+---
 
 * * *
 

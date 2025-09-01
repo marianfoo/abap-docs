@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - implementation in class unique"
+description: |
+  Syntax ... implementation in class ClassName unique Effect Specifies an ABAP behavior pool(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') for the RAP business object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_g
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_in_class_unique.htm"
+abapFile: "abenbdl_in_class_unique.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "abenbdl", "unique"]
+---
 
 * * *
 

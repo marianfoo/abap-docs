@@ -1,4 +1,14 @@
-  
+---
+title: "Business Object"
+description: |
+  BO for short. A BO represents the data and behavior of an object in the real world, similar to an object in object-oriented programming. A BO supports the specific requirements of business programming. Typical BOs represent a sales order, a flight booking, or a product. A BO wraps access to the asso
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbusiness_object_glosry.htm"
+abapFile: "abenbusiness_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbusiness", "object", "glosry"]
+---
 
 * * *
 

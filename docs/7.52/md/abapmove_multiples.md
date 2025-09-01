@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  destination1 = destination2 = ... = destination = rhs. Effect The assignment operator =(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_operator.htm) can be used to perform multiple assignments within a single statement. This statement is the same as: destination  = rhs ...
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_multiples.htm"
+abapFile: "abapmove_multiples.htm"
+keywords: ["do", "if", "data", "types", "abapmove", "multiples"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_logexp_in DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_logexp_in IMPLEMENTATION. METHOD main. DATA letter TYPE c LENGTH 1 VALUE 'F'.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_in_ranges_abexa.htm"
+abapFile: "abenlogexp_in_ranges_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenlogexp", "ranges", "abexa"]
+---
 
 * * *
 

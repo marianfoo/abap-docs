@@ -1,4 +1,14 @@
-  
+---
+title: "Abbreviated as ETag"
+description: |
+  A field that is used to determine changes to the requested resource. An ETag field is typically used to uniquely describe the state of a requested resource (for example, a specific entity instance). Fields that contain times stamps, checksums, or version numbers are often used. → More about(https:
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenentity_tag_glosry.htm"
+abapFile: "abenentity_tag_glosry.htm"
+keywords: ["do", "if", "abenentity", "tag", "glosry"]
+---
 
 * * *
 

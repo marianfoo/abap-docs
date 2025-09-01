@@ -1,4 +1,14 @@
-  
+---
+title: "FOR Expressions for Mesh Paths"
+description: |
+  This example demonstrates table comprehensions and table reductions for mesh paths. Source Code REPORT demo_mesh_for_flights. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: t_scarr    TYPE HASHED TABLE OF scarr WITH UNIQUE KEY carrid, t_s
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for_abexa.htm"
+abapFile: "abenmesh_for_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abenmesh", "for", "abexa"]
+---
 
 * * *
 

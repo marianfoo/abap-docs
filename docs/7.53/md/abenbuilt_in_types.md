@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Data Types"
+description: |
+  The following built-in data types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_data_type_glosry.htm 'Glossary Entry') are used in ABAP programs: -   Built-in ABAP types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_types_complete.htm) -   G
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_types.htm"
+abapFile: "abenbuilt_in_types.htm"
+keywords: ["do", "try", "data", "types", "abenbuilt"]
+---
 
 * * *
 

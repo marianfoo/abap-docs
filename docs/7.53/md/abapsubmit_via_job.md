@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... USER user VIA JOB job NUMBER n LANGUAGElang ... Extras: 1. ... USER user(#!ABAP_ADDITION_1@1@) 2. ... LANGUAGE lang(#!ABAP_ADDITION_2@2@) Effect This addition schedules the execution of the program accessed as a background task(https://help.sap.com/doc/abapdocu_753_index_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_via_job.htm"
+abapFile: "abapsubmit_via_job.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abapsubmit", "via", "job"]
+---
 
 * * *
 

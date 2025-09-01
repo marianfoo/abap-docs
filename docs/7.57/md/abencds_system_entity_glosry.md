@@ -1,4 +1,14 @@
-  
+---
+title: "CDS system entity"
+description: |
+  CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') delivered with an ABAP Platform(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_platform_glosry.htm 'Glossary Entry') that implements basic functionality. It can
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entity_glosry.htm"
+abapFile: "abencds_system_entity_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "system", "entity", "glosry"]
+---
 
 * * *
 

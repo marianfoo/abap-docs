@@ -1,4 +1,14 @@
-  
+---
+title: "Cross Site Scripting"
+description: |
+  Cross site scripting (XSS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxss_glosry.htm 'Glossary Entry')) is a way of attacking a Web server using a Web application, for example using a manipulated HTML page displayed in a browser. Cross site scripting is a wide-ranging topic that
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxss_scrty.htm"
+abapFile: "abenxss_scrty.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abenxss", "scrty"]
+---
 
 * * *
 

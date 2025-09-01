@@ -1,4 +1,14 @@
-  
+---
+title: "logical_data_base_glosry"
+description: |
+  logical_data_base_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_data_base_glosry.htm"
+abapFile: "abenlogical_data_base_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenlogical", "base", "glosry"]
+---
 
 * * *
 

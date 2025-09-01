@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING - Lookup table"
+description: |
+  Syntax ... CORRESPONDING dtype#( itab FROM lookup_tab USING KEY key_name s1 = t1 s2 = t2 ... mapping(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_constr_mapping.htm)  ) ... Effect This variant of the component operator CORRESPONDING(https://he
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_constr_using.htm"
+abapFile: "abencorresponding_constr_using.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "abencorresponding", "constr", "using"]
+---
 
 * * *
 

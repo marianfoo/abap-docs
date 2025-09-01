@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Transformation to HTML"
+description: |
+  Transformation from JSON data to HTML. Source Code  Public class definition CLASS cl_demo_json_2_html DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_json_2_html IMPLEMENTA
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_to_html_abexa.htm"
+abapFile: "abenabap_json_to_html_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenabap", "json", "html", "abexa"]
+---
 
 * * *
 

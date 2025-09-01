@@ -1,4 +1,14 @@
-  
+---
+title: "Alignment of Data Objects"
+description: |
+  Data objects with the following data types cannot simply be stored at random addresses in the main memory: -   Numeric data objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_object_glosry.htm 'Glossary Entry') of types i, int8, decfloat16, decfloat34, and f -   D
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalignment.htm"
+abapFile: "abenalignment.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenalignment"]
+---
 
 * * *
 

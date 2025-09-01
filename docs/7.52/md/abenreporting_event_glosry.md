@@ -1,4 +1,14 @@
-  
+---
+title: "reporting_event_glosry"
+description: |
+  reporting_event_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreporting_event_glosry.htm"
+abapFile: "abenreporting_event_glosry.htm"
+keywords: ["select", "do", "try", "data", "abenreporting", "event", "glosry"]
+---
 
 * * *
 

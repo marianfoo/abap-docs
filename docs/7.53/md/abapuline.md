@@ -1,4 +1,14 @@
-  
+---
+title: "ULINE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapuline_shortref.htm) Syntax ULINE AT /pos(len) NO-GAP. Effect Output of horizontal lines in lists. This statement mainly has the same effect as the following WRITE(https://
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapuline.htm"
+abapFile: "abapuline.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abapuline"]
+---
 
 * * *
 

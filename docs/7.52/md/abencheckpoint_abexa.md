@@ -1,4 +1,14 @@
-  
+---
+title: "Checkpoints and checkpoint groups"
+description: |
+  This example demonstrates the differentcheckpoints(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_glosry.htm 'Glossary Entry') and their connection to a checkpoint group(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_group_glosry.htm 'Glossar
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_abexa.htm"
+abapFile: "abencheckpoint_abexa.htm"
+keywords: ["do", "if", "try", "abencheckpoint", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Definition of Classes and Interfaces"
+description: |
+  Classes and interfaces in ABAP Objects can be declared either globally or locally. -   Global classes and interfaces are saved in the central class library(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_library_glosry.htm 'Glossary Entry') of the repository(https://help.sap
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_interface_definition.htm"
+abapFile: "abenclass_interface_definition.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenclass", "interface", "definition"]
+---
 
 * * *
 

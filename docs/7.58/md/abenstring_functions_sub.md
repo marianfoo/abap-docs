@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... sub = substring ...  ) ... Effect substring is used to pass a character string whose characters are to be searched for or inserted. substring is a character like expression position(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm 'Glossary
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm"
+abapFile: "abenstring_functions_sub.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "abenstring", "functions", "sub"]
+---
 
 * * *
 

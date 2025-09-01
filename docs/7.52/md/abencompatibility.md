@@ -1,4 +1,14 @@
-  
+---
+title: "Compatible Data Types"
+description: |
+  The compatibility of two data types (except reference types) is based on their technical type attributes. It is the basis for type checking(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_check.htm) in assignments to field symbols(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompatibility.htm"
+abapFile: "abencompatibility.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "internal-table", "field-symbol", "abencompatibility"]
+---
 
 * * *
 

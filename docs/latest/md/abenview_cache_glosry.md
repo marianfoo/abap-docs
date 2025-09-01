@@ -1,4 +1,14 @@
-  
+---
+title: "view_cache_glosry"
+description: |
+  view_cache_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenview_cache_glosry.htm"
+abapFile: "abenview_cache_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenview", "cache", "glosry"]
+---
 
 * * *
 

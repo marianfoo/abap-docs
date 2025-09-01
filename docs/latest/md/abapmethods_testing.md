@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, FOR TESTING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_testing_shortref.htm) Syntax METHODS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods.htm) meth ABSTRACTFINAL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_testing.htm"
+abapFile: "abapmethods_testing.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapmethods", "testing"]
+---
 
 * * *
 

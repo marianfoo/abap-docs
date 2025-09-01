@@ -1,4 +1,14 @@
-  
+---
+title: "GENERATE DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax GENERATE DYNPRO h f e m ID g. ... MESSAGE f1 ... LINE f2 ... WORD f3. Parts marked with ' ...' are interchangeable Extras: 1. ... OFFSET f4(#!ABAP_ADDITION_1@1@) 2. ... TRACE-FILE f5(#!ABAP_ADDITION_2@
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_dynpro.htm"
+abapFile: "abapgenerate_dynpro.htm"
+keywords: ["do", "if", "try", "internal-table", "abapgenerate", "dynpro"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Include Programs"
+description: |
+  Include programs are used to split ABAP source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') into individual repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.ht
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_include.htm"
+abapFile: "abenabap_language_include.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "language", "include"]
+---
 
 * * *
 

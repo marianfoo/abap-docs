@@ -1,4 +1,14 @@
-  
+---
+title: "resumable_exception_glosry"
+description: |
+  resumable_exception_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresumable_exception_glosry.htm"
+abapFile: "abenresumable_exception_glosry.htm"
+keywords: ["do", "if", "try", "catch", "class", "abenresumable", "exception", "glosry"]
+---
 
 * * *
 

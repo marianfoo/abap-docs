@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE DYNAMIC CACHE"
+description: |
+  Syntax DEFINE DYNAMIC CACHE cache_name ON dbtab  projection_list  WHERE filter_cond SEGREGATE CACHE DATA BY filter_cond CREATION CONFIGURABLE DEFAULT ONOFF; Effect Dictionary DDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_ddl_gl
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_dynamic_cache.htm"
+abapFile: "abenddicddl_define_dynamic_cache.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenddicddl", "define", "dynamic", "cache"]
+---
 
 * * *
 

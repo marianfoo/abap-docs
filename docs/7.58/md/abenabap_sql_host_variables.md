@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @dobj ... Effect Specifying a host variable(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_variable_glosry.htm 'Glossary Entry') in an ABAP SQL statement. Host variables are global or local data objects dobj declared in the ABAP program that are used in operand positions o
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_host_variables.htm"
+abapFile: "abenabap_sql_host_variables.htm"
+keywords: ["select", "do", "while", "if", "try", "catch", "class", "data", "types", "field-symbol", "abenabap", "sql", "host", "variables"]
+---
 
 * * *
 

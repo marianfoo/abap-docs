@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... translate( val = text(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) from = from to = to ) ... Effect This built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) returns the character string
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentranslate_functions.htm"
+abapFile: "abentranslate_functions.htm"
+keywords: ["do", "if", "try", "data", "abentranslate", "functions"]
+---
 
 * * *
 

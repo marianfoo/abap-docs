@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Embedded Native SQL"
+description: |
+  The following ABAP statements are used to embed Native SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm 'Glossary Entry') statically in ABAP programs: EXEC SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) ... ENDEXEC(https://h
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm"
+abapFile: "abennativesql.htm"
+keywords: ["do", "if", "try", "data", "abennativesql"]
+---
 
 * * *
 

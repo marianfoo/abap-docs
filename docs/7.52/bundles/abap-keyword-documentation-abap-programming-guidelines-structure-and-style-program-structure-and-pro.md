@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenprogr_proc_structure_guidl.htm
 
-  
+---
+title: "Program Structure and Procedure Structure"
+description: |
+  ABAP offers you a great deal of freedom when structuring your programs and procedures. Remember, however, that the finished product needs to be easy to maintain. -   Global Declarations of a Program(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declar_guidl.htm 'Guideline')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogr_proc_structure_guidl.htm"
+abapFile: "abenprogr_proc_structure_guidl.htm"
+keywords: ["do", "abenprogr", "proc", "structure", "guidl"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abenglobal_declar_guidl.htm
 
-  
+---
+title: "Global Declarations of a Program"
+description: |
+  Background Each ABAP program has a global declaration part where data types, interfaces, classes, and data objects that are visible throughout the program can be declared. From a technical viewpoint, the global declaration part consists of all declarations that cannot be assigned to a more local con
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declar_guidl.htm"
+abapFile: "abenglobal_declar_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenglobal", "declar", "guidl"]
+---
 
 * * *
 
@@ -136,7 +156,17 @@ ENDMODULE.
 
 ### abenlocal_declar_guidl.htm
 
-  
+---
+title: "Local Declarations"
+description: |
+  Background Local declarations can be made in a procedure ( method(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm 'Guideline')). These are data types, data objects, and field symbols that are valid in the context of the procedure only. Therefore, th
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_declar_guidl.htm"
+abapFile: "abenlocal_declar_guidl.htm"
+keywords: ["select", "loop", "do", "if", "method", "data", "types", "field-symbol", "abenlocal", "declar", "guidl"]
+---
 
 * * *
 

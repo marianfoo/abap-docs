@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - feature control"
+description: |
+  Syntax ... (features:instance)  (features:global) ... Variants: 1. ... (features:instance)(#!ABAP_VARIANT_1@1@) 2. ... (features:global)(#!ABAP_VARIANT_2@2@) Effect Defines feature control(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_feature_control_glosry.htm 'Gloss
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_fc.htm"
+abapFile: "abenbdl_actions_fc.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "actions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Client Handling in CDS Table Functions"
+description: |
+  The CDS annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm 'Glossary Entry') @ClientHandling.type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_function_annotations.htm) can be used to enable and disable client d
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_func_client_handling.htm"
+abapFile: "abencds_func_client_handling.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "func", "client", "handling"]
+---
 
 * * *
 

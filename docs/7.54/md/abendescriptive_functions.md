@@ -1,4 +1,14 @@
-  
+---
+title: "Description Functions for Character-Like Arguments"
+description: |
+  These functions return a numeric result. -   charlen, dbmaxlen, numofchar, strlen - Length Functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlength_functions.htm) -   char_off - Length Function(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlength_function
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescriptive_functions.htm"
+abapFile: "abendescriptive_functions.htm"
+keywords: ["do", "try", "data", "abendescriptive", "functions"]
+---
 
 * * *
 

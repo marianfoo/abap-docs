@@ -1,4 +1,14 @@
-  
+---
+title: "Authorization Checks during an Update"
+description: |
+  No authorization checks can be performed during an update(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenupdate_glosry.htm 'Glossary Entry'), that is, when processing an update function module(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenupdate_function_module_g
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthority_during_update.htm"
+abapFile: "abenauthority_during_update.htm"
+keywords: ["update", "do", "if", "try", "data", "abenauthority", "during"]
+---
 
 * * *
 

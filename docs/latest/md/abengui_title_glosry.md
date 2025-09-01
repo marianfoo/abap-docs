@@ -1,4 +1,14 @@
-  
+---
+title: "GUI title"
+description: |
+  Text that can be displayed in the title bar(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentitle_bar_glosry.htm 'Glossary Entry') of a GUI window(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengui_window_glosry.htm 'Glossary Entry'). A GUI title is set u
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengui_title_glosry.htm"
+abapFile: "abengui_title_glosry.htm"
+keywords: ["do", "if", "try", "abengui", "title", "glosry"]
+---
 
 * * *
 

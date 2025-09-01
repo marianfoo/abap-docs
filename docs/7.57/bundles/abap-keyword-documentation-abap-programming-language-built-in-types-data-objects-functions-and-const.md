@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenbuilt_in_functions.htm
 
-  
+---
+title: "Built-In Functions"
+description: |
+  ABAP provides a set of built-in functions. A built-in function returns a return value for one or more arguments. There are functions with exactly one unnamed argument and functions with one or more named arguments. Built-in functions can be called functionally in certain operand positions(https://
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm"
+abapFile: "abenbuilt_in_functions.htm"
+keywords: ["do", "if", "method", "data", "types", "abenbuilt", "functions"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abenbuilt_in_functions_syntax.htm
 
-  
+---
+title: "Built-In Functions, Syntax"
+description: |
+  -   Functions with an Unnamed Argument(#abenbuilt-in-functions-syntax-1-------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2) In functions with named arguments, there is usually a main argument val and the option of specifying further arguments, some of which are optional.
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions_syntax.htm"
+abapFile: "abenbuilt_in_functions_syntax.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenbuilt", "functions", "syntax"]
+---
 
 * * *
 
@@ -47,8 +67,7 @@ A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Built-In Functions, Syntax
 
--   [Functions with an Unnamed Argument](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_1)
--   [Functions with Named Arguments](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
+-   [Functions with an Unnamed Argument](#abenbuilt-in-functions-syntax-1-------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
 
 In functions with named arguments, there is usually a main argument val and the option of specifying further arguments, some of which are optional. The following sections show the general syntax for calling built-in functions.
 
@@ -91,7 +110,17 @@ FINAL(str3) = condense( val = \`...\`  del = \` \` ).
 
 ### abenbuilt_in_functions_overview.htm
 
-  
+---
+title: "Built-In Functions, Overview"
+description: |
+  The following tables summarize the built-in functions by purpose. Built-in functions are generally processing functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocess_function_glosry.htm 'Glossary Entry') or description functions(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions_overview.htm"
+abapFile: "abenbuilt_in_functions_overview.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "abenbuilt", "functions", "overview"]
+---
 
 * * *
 
@@ -302,7 +331,17 @@ Index function
 
 ### abenbuilt_in_functions_hiding.htm
 
-  
+---
+title: "Built-In Functions, Hiding by Methods"
+description: |
+  Within a class, a built-in function is always hidden by methods(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_glosry.htm 'Glossary Entry') of the class if they have the same name, regardless of the number and type of its arguments. The function is also hidden regardless of
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions_hiding.htm"
+abapFile: "abenbuilt_in_functions_hiding.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuilt", "functions", "hiding"]
+---
 
 * * *
 

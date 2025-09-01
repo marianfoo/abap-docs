@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_shortref.htm) Syntax Forms General Function Module Call(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_general.htm) 1. CALL FUNCTION func  parameter_list(https://help
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function.htm"
+abapFile: "abapcall_function.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "abapcall", "function"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT IN (operand1, operand2 ... ) ... Effect This relational expression is true if the value of the operand operand matches (does not match) the content of one of the operands operand1, operand2 ... in a parenthesized comma-separated value list. -   Columns(https://help.sap.com/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_list.htm"
+abapFile: "abenwhere_logexp_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenwhere", "logexp", "list"]
+---
 
 * * *
 

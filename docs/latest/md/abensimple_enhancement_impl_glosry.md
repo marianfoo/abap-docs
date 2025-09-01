@@ -1,4 +1,14 @@
-  
+---
+title: "simple_enhancement_impl_glosry"
+description: |
+  simple_enhancement_impl_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensimple_enhancement_impl_glosry.htm"
+abapFile: "abensimple_enhancement_impl_glosry.htm"
+keywords: ["do", "if", "try", "abensimple", "enhancement", "impl", "glosry"]
+---
 
 * * *
 

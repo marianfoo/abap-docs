@@ -1,4 +1,14 @@
-  
+---
+title: "CDS path expression"
+description: |
+  A sequence of CDS associations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_association_glosry.htm 'Glossary Entry'). A CDS path expression can be specified in CDS DDL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_ddl_glosry.htm 'Glossary Entry'), in C
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_path_expression_glosry.htm"
+abapFile: "abencds_path_expression_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abencds", "path", "expression", "glosry"]
+---
 
 * * *
 

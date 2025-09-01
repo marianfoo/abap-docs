@@ -1,4 +1,14 @@
-  
+---
+title: "EXIT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexit_loop.htm) Syntax EXIT. Effect Exits a loop(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexit_loop.htm) or a processing block(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexit_proce
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexit_shortref.htm"
+abapFile: "abapexit_shortref.htm"
+keywords: ["loop", "do", "abapexit", "shortref"]
+---
 
 * * *
 

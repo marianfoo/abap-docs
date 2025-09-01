@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE-CORRESPONDING, itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove-corresponding_shortref.htm) Syntax MOVE-CORRESPONDING EXACT itab1 TO itab2. EXPANDING NESTED TABLES KEEPING TARGET LINES. Additions: 1. ... EXPANDING NESTED TABLES(#!ABAP_ADDITION_1@1@)
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove-corresponding_itab.htm"
+abapFile: "abapmove-corresponding_itab.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abapmove", "corresponding", "itab"]
+---
 
 * * *
 

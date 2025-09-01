@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... sql_func( ... sql_exp ... )(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_builtin_functions.htm) ... Effect Calls a built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_builtin_functions.htm) in ABAP SQL. The result i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_builtin_func.htm"
+abapFile: "abensql_builtin_func.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abensql", "builtin", "func"]
+---
 
 * * *
 

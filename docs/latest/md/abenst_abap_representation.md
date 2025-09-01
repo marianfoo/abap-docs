@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Representation of ABAP Values"
+description: |
+  Some ST statements require ABAP values value to be specified, depending on the built-in ABAP type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_types_complete.htm) as a function of the type. In two cases, however, value can also be specified directly. The initial val
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_abap_representation.htm"
+abapFile: "abenst_abap_representation.htm"
+keywords: ["do", "if", "case", "data", "types", "abenst", "abap", "representation"]
+---
 
 * * *
 

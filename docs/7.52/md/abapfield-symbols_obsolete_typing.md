@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ...    STRUCTURE struc DEFAULT dobj ... Extras: 1. ...  (#!ABAP_ADDITION_1@1@) 2. ... STRUCTURE struc DEFAULT dobj(#!ABAP_ADDITION_2@2@) Effect These additions of the statement FIELD-SYMBOLS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfield-symbols.htm) prod
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfield-symbols_obsolete_typing.htm"
+abapFile: "abapfield-symbols_obsolete_typing.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "types", "field-symbol", "abapfield", "symbols", "obsolete", "typing"]
+---
 
 * * *
 

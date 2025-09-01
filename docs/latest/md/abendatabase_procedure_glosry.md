@@ -1,4 +1,14 @@
-  
+---
+title: "database_procedure_glosry"
+description: |
+  database_procedure_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_procedure_glosry.htm"
+abapFile: "abendatabase_procedure_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendatabase", "procedure", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "COND, Conditional Operator"
+description: |
+  Syntax ... COND type( let_exp(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) WHEN log_exp1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) THEN  let_exp(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconditional_expression_cond.htm"
+abapFile: "abenconditional_expression_cond.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenconditional", "expression", "cond"]
+---
 
 * * *
 

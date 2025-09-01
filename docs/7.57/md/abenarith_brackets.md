@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( arith_exp ) ... Effect A full arithmetic expression arith_exp can be placed in parentheses. An arithmetic expression in parentheses can be used as the operand for another arithmetic expression and is calculated first when used in this way. Example The parentheses in the second calculation co
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarith_brackets.htm"
+abapFile: "abenarith_brackets.htm"
+keywords: ["do", "if", "data", "abenarith", "brackets"]
+---
 
 * * *
 

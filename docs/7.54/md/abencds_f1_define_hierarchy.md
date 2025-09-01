@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE HIERARCHY"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm) ... @hierarchy_annot1(https://help.sap.com/doc
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm"
+abapFile: "abencds_f1_define_hierarchy.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "types", "abencds", "define", "hierarchy"]
+---
 
 * * *
 

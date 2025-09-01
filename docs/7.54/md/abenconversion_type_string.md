@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type string"
+description: |
+  -   Numeric Target Fields(#abenconversion-type-string-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_STRING_2) -   Byte-Like Target Fields(#abenconversion-type-string-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_STRING_4) Numeric Target Fields Targe
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_string.htm"
+abapFile: "abenconversion_type_string.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenconversion", "type", "string"]
+---
 
 * * *
 
@@ -8,13 +18,9 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 Source Field Type string
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_1)
+-   [Numeric Target Fields](#abenconversion-type-string-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_STRING_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_4)
+-   [Byte-Like Target Fields](#abenconversion-type-string-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_STRING_4)
 
 Numeric Target Fields
 

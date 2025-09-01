@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:read-write var='variable' type='type' length='len' decimals='dec' map='...' minLengthmaxLength='len' xsd-type... /> Effect The command tt:read-write is a short form of the following two statements: <tt:read var='variable' type='type' len
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_read_write.htm"
+abapFile: "abenst_tt_read_write.htm"
+keywords: ["do", "if", "try", "data", "abenst", "read", "write"]
+---
 
 * * *
 

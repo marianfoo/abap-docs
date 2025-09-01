@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Function Definitions"
+description: |
+  CDS function definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_function_definition_glosry.htm 'Glossary Entry') are defined in the CDS function definition language (CDS FDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl_glosry.htm 'G
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm"
+abapFile: "abencds_fdl.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "fdl"]
+---
 
 * * *
 

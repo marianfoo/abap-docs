@@ -1,4 +1,14 @@
-  
+---
+title: "RAP instance feature control"
+description: |
+  Feature control(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_feature_control_glosry.htm 'Glossary Entry') that defines access restrictions depending on the state of a BO entity instance(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_inst_glosry
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_ins_feature_control_glosry.htm"
+abapFile: "abenrap_ins_feature_control_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "ins", "feature", "control", "glosry"]
+---
 
 * * *
 

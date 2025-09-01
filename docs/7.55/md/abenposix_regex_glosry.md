@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX regular expression"
+description: |
+  Regular expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expression_glosry.htm 'Glossary Entry') that is expressed in POSIX syntax(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax.htm) and processed by the Boost.Regex Library(ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenposix_regex_glosry.htm"
+abapFile: "abenposix_regex_glosry.htm"
+keywords: ["do", "try", "abenposix", "regex", "glosry"]
+---
 
 * * *
 

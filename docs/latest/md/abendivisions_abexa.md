@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_data_calculate DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_data_calculate IMPLEMENTATION. METHOD main. DATA num1 TYPE decfloat34 VA
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendivisions_abexa.htm"
+abapFile: "abendivisions_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abendivisions", "abexa"]
+---
 
 * * *
 

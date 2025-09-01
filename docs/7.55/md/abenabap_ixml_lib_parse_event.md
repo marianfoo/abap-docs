@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   A parsing event is an iterator concept and not an event raised by EVENTS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapevents.htm) in ABAP Objects. -   If the caller does not register any events before PARSE_EVENT is called, PARSE_EVENT works like PARSE. -   The sequential p
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_ixml_lib_parse_event.htm"
+abapFile: "abenabap_ixml_lib_parse_event.htm"
+keywords: ["do", "if", "method", "class", "data", "abenabap", "ixml", "lib", "parse", "event"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "executable_program_glosry"
+description: |
+  executable_program_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.htm"
+abapFile: "abenexecutable_program_glosry.htm"
+keywords: ["do", "try", "method", "data", "abenexecutable", "program", "glosry"]
+---
 
 * * *
 

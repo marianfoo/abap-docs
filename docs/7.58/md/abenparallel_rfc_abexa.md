@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Parallel aRFC"
+description: |
+  This example demonstrates parallel asynchronous RFC processing. Source Code  Public class definition CLASS cl_demo_parallel_rfc DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS callbback_meth IMPORTING !p_task TYPE clike . METHODS main REDEFINITION
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenparallel_rfc_abexa.htm"
+abapFile: "abenparallel_rfc_abexa.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenparallel", "rfc", "abexa"]
+---
 
 * * *
 

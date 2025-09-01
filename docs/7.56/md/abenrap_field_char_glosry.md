@@ -1,4 +1,14 @@
-  
+---
+title: "RAP field characteristic"
+description: |
+  Property of a RAP BO field(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_field_glosry.htm 'Glossary Entry') that defines how a field can be used on modify access(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_modify_operation_glosry.htm 'Glossary Entry
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_field_char_glosry.htm"
+abapFile: "abenrap_field_char_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "field", "char", "glosry"]
+---
 
 * * *
 

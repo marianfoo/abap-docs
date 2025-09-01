@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_corresponding_class_lkup. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF struct1, a1 TYPE string, a2 TYPE string, b1 TYPE string, b2 TYPE string, c1 TYPE string, c2 TYPE string, END OF struct1, BEGIN OF struct2, a1 TYPE
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_corr_lookup_abexa.htm"
+abapFile: "abencl_abap_corr_lookup_abexa.htm"
+keywords: ["select", "do", "case", "method", "class", "data", "types", "abencl", "abap", "corr", "lookup", "abexa"]
+---
 
 * * *
 

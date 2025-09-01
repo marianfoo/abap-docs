@@ -1,36 +1,21 @@
-# ABAP Keyword Documentation / ABAP − Reference / Built-In Types, Data Objects, Functions, and Constructors / Predefined Data Types
+# ABAP Keyword Documentation / ABAP − Reference / Built-In Types, Data Objects, Functions, and Constructors / Predefined Data Types / Built-In ABAP Types
 
-Included pages: 10
-
-
-### abenbuilt_in_types.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in.htm) → 
-
-Predefined Data Types
-
-The following [predefined data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredefined_data_type_glosry.htm "Glossary Entry") are used in ABAP programs:
-
--   [Predefined ABAP types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm)
-
--   [Generic ABAP types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm)
-
-[ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm "Glossary Entry") has its own set of [predefined types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), which are used to define global data types but which cannot be addressed directly in ABAP programs.
-
-Continue
-[Built-In ABAP Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm)
-[Generic ABAP Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm)
+Included pages: 7
 
 
 ### abenbuilt_in_types_complete.htm
 
-  
+---
+title: "Built-In ABAP Types"
+description: |
+  The following types are predefined in every ABAP program: -   Built-in numeric types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm) -   Built-in character-like types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm"
+abapFile: "abenbuilt_in_types_complete.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenbuilt", "complete"]
+---
 
 * * *
 
@@ -70,7 +55,17 @@ Continue
 
 ### abenbuiltin_types_numeric.htm
 
-  
+---
+title: "Predefined Numeric Types"
+description: |
+  The data objects of the numeric data types are used to handle number values. Properties Type Length Standard Length Name b 1 byte 1-byte integer(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninteger_glosry.htm 'Glossary Entry') (internal) s 2 byte 2-byte integer(https://help.sap
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm"
+abapFile: "abenbuiltin_types_numeric.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuiltin", "numeric"]
+---
 
 * * *
 
@@ -266,7 +261,17 @@ Continue
 
 ### abentype_p_value_range_abexa.htm
 
-  
+---
+title: "Value Ranges of Packed Numbers"
+description: |
+  This example demonstrates the value ranges of packed numbers with different lengths and decimal places. Source Code REPORT demo_type_p_value_range. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA:length   TYPE i VALUE 2, decimals
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_p_value_range_abexa.htm"
+abapFile: "abentype_p_value_range_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abentype", "value", "range", "abexa"]
+---
 
 * * *
 
@@ -343,7 +348,17 @@ The program creates a packed number with a length and decimal places that can be
 
 ### abenbuiltin_types_numeric.htm
 
-  
+---
+title: "Predefined Numeric Types"
+description: |
+  The data objects of the numeric data types are used to handle number values. Properties Type Length Standard Length Name b 1 byte 1-byte integer(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninteger_glosry.htm 'Glossary Entry') (internal) s 2 byte 2-byte integer(https://help.sap
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm"
+abapFile: "abenbuiltin_types_numeric.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuiltin", "numeric"]
+---
 
 * * *
 
@@ -539,7 +554,17 @@ Continue
 
 ### abenbuiltin_types_character.htm
 
-  
+---
+title: "Predefined Character-Like Types"
+description: |
+  The data objects of the character-like data types are used to handle character strings. Properties Type Length Standard Length Name c 1 to 262,143 characters 1 character Text Field(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_field_glosry.htm 'Glossary Entry') n 1 to 262,143
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.htm"
+abapFile: "abenbuiltin_types_character.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenbuiltin", "character"]
+---
 
 * * *
 
@@ -641,7 +666,17 @@ DATA: flag TYPE c LENGTH 1,
 
 ### abenbuiltin_types_byte.htm
 
-  
+---
+title: "Predefined Byte-Like Types"
+description: |
+  The data objects of the byte-like data types are used to include byte strings. Properties Type Length Standard Length Name x 1 to 524,287 bytes 1 byte Byte field(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbyte_field_glosry.htm 'Glossary Entry') xstring Variable Byte string(ht
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_byte.htm"
+abapFile: "abenbuiltin_types_byte.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenbuiltin", "byte"]
+---
 
 * * *
 
@@ -719,7 +754,17 @@ hex =  cl\_abap\_conv\_codepage=>create\_out(  )->convert( \`...\` ).
 
 ### abenbuiltin_types_date_time.htm
 
-  
+---
+title: "Built-In Date Types, Time Types, and Time Stamp Types"
+description: |
+  The data objects of the date types, time types, and time stamp types are used to handle calendar dates, times, and time stamps. Attributes Type Length Default Length Name d 8 characters Date field(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_field_glosry.htm 'Glossary Entry'
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm"
+abapFile: "abenbuiltin_types_date_time.htm"
+keywords: ["do", "try", "class", "data", "types", "abenbuiltin", "date", "time"]
+---
 
 * * *
 
@@ -844,168 +889,3 @@ cl\_demo\_output=>display(
   |{ ts }\\n| &&
   |{ dat }\\n| &&
   |{ tim }|  ).
-
-
-### abenbuilt_in_types_complete.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in.htm) →  [Predefined Data Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types.htm) → 
-
-Built-In ABAP Types
-
-The following types are predefined in every ABAP program:
-
--   [Built-in numeric types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm)
-
--   [Built-in character-like types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.htm)
-
--   [Built-in byte-like types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_byte.htm)
-
--   [Built-in date types and time types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm)
-
-All built-in ABAP types from these tables are elementary and are included in the generic type [simple](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm). Apart from the types [b](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm) and [s](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm), the built-in ABAP types can also be used to define separate [data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.htm "Glossary Entry") and [data objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm "Glossary Entry") and for [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_glosry.htm "Glossary Entry").
-
-Besides the built-in ABAP types, there is a global predefined data type cursor, which currently has the same meaning as the built-in ABAP type [i](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm). This is required when declaring a cursor variable for [database cursor](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_cursor_glosry.htm "Glossary Entry") [handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_cursor.htm).
-
-Notes
-
--   If a [start value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstart_value_glosry.htm "Glossary Entry") is not specified when creating a data object with one of the built-in ABAP types, the start value is set to the [initial value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_value_glosry.htm "Glossary Entry") specified for the relevant type.
-
--   The built-in data types [string](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.htm) and [xstring](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_byte.htm) describe data objects of variable length ([dynamic data objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_data_object_glosry.htm "Glossary Entry")). While the length of data objects in all other elementary data types is determined for its whole lifetime, the length of text strings and byte strings varies according to their content (the maximum size of a string is determined by the [profile parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") ztta/max\_memreq\_MB (see [Maximum Size of Dynamic Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmemory_consumption_2.htm))).
-    
-
-Continue
-[Predefined Numeric Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm)
-[Predefined Character-Like Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.htm)
-[Predefined Byte-Like Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_byte.htm)
-[Built-In Date Types, Time Types, and Time Stamp Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm)
-
-
-### abenbuilt_in_types_generic.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in.htm) →  [Predefined Data Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types.htm) → 
-
-Generic ABAP Types
-
-The following table shows the predefined generic ABAP types. A generic data type is an incomplete type specification that includes multiple complete type specifications. With the exception of object, all generic types can be used after [TYPE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm) for the [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_glosry.htm "Glossary Entry") of [field symbols](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield_symbol_glosry.htm "Glossary Entry") and [formal parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformal_parameter_glosry.htm "Glossary Entry"). When a data object is assigned to generically typed field symbols using the statement [ASSIGN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign.htm), or when a data object is used as an [actual parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenactual_parameter_glosry.htm "Glossary Entry") for generically typed formal parameters for [procedure calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_procedures.htm), the system checks whether the concrete data type is [compatible](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompatible_glosry.htm "Glossary Entry") with the object (in other words, whether the data type is a subset of the generic type).
-
-The only generic types that can be used after [TYPE REF TO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_references.htm) are data, for the generic typing of data references, and object, for the generic typing of object references.
-
-Type
-
-Description
-
-any
-
-Any data type
-
-any table
-
-Internal table with any table type
-
-c
-
-Text field with a generic length
-
-clike
-
-Character-like (c, n, and string plus the date/time types d, t and character-like [flat structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_structure_glosry.htm "Glossary Entry"))
-
-csequence
-
-Text-like (c, string)
-
-data
-
-Any data type
-
-decfloat
-
-[Decimal floating point number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry") (decfloat16, decfloat34)
-
-hashed table
-
-[Hashed table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhashed_table_glosry.htm "Glossary Entry")
-
-index table
-
-[Index table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenindex_table_glosry.htm "Glossary Entry")
-
-n
-
-[Numeric text](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_text_glosry.htm "Glossary Entry") with generic length
-
-numeric
-
-Numeric ((b, s), i, int8, p, decfloat16, decfloat34, f)
-
-object
-
-Any object type (root class of the inheritance hierarchy)
-
-p
-
-Packed number with generic length and generic number of [decimal places](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecimal_place_glosry.htm "Glossary Entry")
-
-simple
-
-Elementary data type including [enumerated types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry") and structured types with exclusively character-like flat components
-
-sorted table
-
-[Sorted table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensorted_table_glosry.htm "Glossary Entry")
-
-standard table
-
-[Standard table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry")
-
-table
-
-Standard table
-
-x
-
-Byte field with generic length
-
-xsequence
-
-Byte-like (x, xstring)
-
-A typing with the generic type data works like a typing with the generic type any, with the following exception: No [numeric functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_funktion_glosry.htm "Glossary Entry"), [description functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescription_function_glosry.htm "Glossary Entry"), or [arithmetic functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") can be passed to a formal parameter typed with the type data. All other expressions, built-in functions, and functional methods are possible.
-
-Besides the built-in generic types shown in the table above, ABAP at present includes exactly one kind of self-defined generic type. A [table type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_type_glosry.htm "Glossary Entry") defined with [TYPES - TABLE OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_itab.htm) or defined in ABAP Dictionary is generic if the [primary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is not defined or is incompletely defined or if the [secondary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") of the table type is generic.
-
-Notes
-
--   When generic types are used for the [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_glosry.htm "Glossary Entry") of [field symbols](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield_symbol_glosry.htm "Glossary Entry") and [formal parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformal_parameter_glosry.htm "Glossary Entry"), it must be ensured that the correct results are obtained regardless of the actual type being used. For example, if csequence is used, the potential fixed types c and string must display different behavior with respect to trailing blanks or the potential numeric types in calculations for numeric must produce different [calculation types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_type_glosry.htm "Glossary Entry"). More specifically, when existing typings are generalized, it may be necessary to modify the implementation accordingly.
-
--   Like all generic types mentioned here (except data and object), the generic type anycan only be specified directly after TYPE. any cannot be specified after [TYPE REF TO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_references.htm). The only generic types allowed here are data for fully generic data reference variables and object for fully generic object reference variables. Specifying REF TO any would define a fully generic reference variable covering data references and object references. This is not currently possible.
-
--   The generic type object can only be specified after REF TO and not directly after TYPE.
-
--   The object type object plays a special role, because strictly speaking it is the empty root class of all object classes of ABAP Objects and is not a genuine generic type. An object reference variable typed using REF TO object can point to any object because of the general reference variable property stating that reference variables with the static type of a superclass can point to objects in all related subclasses. When compared with a data reference variable typed using the real generic data type data, which can point to any data object, it is perfectly possible to classify object as a generic type.
-
--   Note with generic type p that when passing functional methods or arithmetic expressions to this type of typed input parameters, the length is always set to 16. With generic types numeric, simple and data or any, this is only the case for arithmetic expressions.
-
--   The elementary data type utclong is incorporated only by the generic types simple, data, and any.
-
--   Regardless of their [base type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbase_type_glosry.htm "Glossary Entry"), [enumerative types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry") are only enclosed by the generic types any, data and simple.
-
-Example
-
-Uses the built-in generic type numeric to type the input parameters of a method. Parameters with any numeric data types can be passed to the method (but no other data types).
-
-METHODS numeric\_operation IMPORTING num1          TYPE numeric
-                                    num2          TYPE numeric
-                          RETURNING VALUE(result) TYPE decfloat34.

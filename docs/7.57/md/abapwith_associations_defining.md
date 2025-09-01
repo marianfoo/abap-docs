@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, ASSOCIATIONS, JOIN"
+description: |
+  Syntax ... JOIN TO ONEMANY target AS _assoc ON sql_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_expr_logexp.htm) ... Addition: ... TO ONEMANY(#!ABAP_ONE_ADD@1@) Effect Specifying JOIN initiates the definition and exposure of a CTE association(https://hel
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwith_associations_defining.htm"
+abapFile: "abapwith_associations_defining.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abapwith", "associations", "defining"]
+---
 
 * * *
 

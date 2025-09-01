@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - actions and functions, projection BDEF"
+description: |
+  Syntax Forms New action definition internal(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm)staticfactorystatic factory action ( features: instance  global(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_nonstandard_projection.htm"
+abapFile: "abenbdl_nonstandard_projection.htm"
+keywords: ["update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "nonstandard", "projection"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Changing Multiple Rows in Mesh Paths"
+description: |
+  This example demonstrates how multiple rows are changed in mesh paths. Source Code REPORT demo_mesh_modify_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, t_itab1 TYPE SORTED
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_modify_abexa.htm"
+abapFile: "abenmesh_modify_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "method", "class", "data", "types", "abenmesh", "modify", "abexa"]
+---
 
 * * *
 

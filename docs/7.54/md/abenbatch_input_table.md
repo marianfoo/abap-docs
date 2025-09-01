@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSACTION - Batch Input Table"
+description: |
+  A batch input table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbatch_input_table_glosry.htm 'Glossary Entry') of the row type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrow_type_glosry.htm 'Glossary Entry') BDCDATA specified after the addition USING of the
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbatch_input_table.htm"
+abapFile: "abenbatch_input_table.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenbatch", "input", "table"]
+---
 
 * * *
 

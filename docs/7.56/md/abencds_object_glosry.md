@@ -1,4 +1,14 @@
-  
+---
+title: "CDS object"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm 'Glossary Entry') of ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS objects are usually defined and transported in CD
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_object_glosry.htm"
+abapFile: "abencds_object_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "object", "glosry"]
+---
 
 * * *
 

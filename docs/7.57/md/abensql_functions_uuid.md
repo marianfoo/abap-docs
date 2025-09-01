@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - SQL Functions for UUIDs"
+description: |
+  The following table shows the SQL functions for UUIDs(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuuid_glosry.htm 'Glossary Entry') that can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_functions_uuid.htm"
+abapFile: "abensql_functions_uuid.htm"
+keywords: ["do", "if", "try", "abensql", "functions", "uuid"]
+---
 
 * * *
 

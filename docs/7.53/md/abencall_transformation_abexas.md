@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSFORMATION - Examples"
+description: |
+  !Example(exa.gif 'Example') XML Sources of Transformations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_sources_abexa.htm) !Example(exa.gif 'Example') XML Targets of Transformations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_results
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transformation_abexas.htm"
+abapFile: "abencall_transformation_abexas.htm"
+keywords: ["do", "if", "data", "abencall", "transformation", "abexas"]
+---
 
 * * *
 

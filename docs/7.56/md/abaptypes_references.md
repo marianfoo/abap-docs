@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, REF TO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_shortref.htm) Syntax TYPES ref_type  TYPE REF TO type  LIKE REF TO dobj . Effect The addition REF TO defines a data type for a reference variable(https://help.sap.com/doc/abapdocu_756_index
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_references.htm"
+abapFile: "abaptypes_references.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abaptypes", "references"]
+---
 
 * * *
 

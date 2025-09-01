@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenddic_define_table.htm
 
-  
+---
+title: "Dictionary DDL for Defining Database Tables"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadt_glosry.htm 'Glossary Entry'), a database table can be displayed and modified using source-code-based methods in the Dictionary DDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abe
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_define_table.htm"
+abapFile: "abenddic_define_table.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "define", "table"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abenddicddl_define_table.htm
 
-  
+---
+title: "DEFINE TABLE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_props.htm) table_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm) DEFINE TABLE dbtab  ... field;(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm"
+abapFile: "abenddicddl_define_table.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddicddl", "define", "table"]
+---
 
 * * *
 
@@ -99,7 +119,17 @@ Continue
 
 ### abenddicddl_define_table_props.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.tableCategory : table_cat @AbapCatalog.dataMaintenance : data_maint @AbapCatalog.deliveryClass : deliv_class @AbapCatalog.activationType : act_type @AbapCatalog.replacementObject : '...' Effect Annotations for specifying table properties in the definition of a databa
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm"
+abapFile: "abenddicddl_define_table_props.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "props"]
+---
 
 * * *
 
@@ -187,7 +217,17 @@ define table demo\_sumdist {
 
 ### abenddicddl_define_table_comps.htm
 
-  
+---
+title: "DEFINE TABLE - field"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm) KEY field : data_element foreign_key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fo
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm"
+abapFile: "abenddicddl_define_table_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "table", "comps"]
+---
 
 * * *
 
@@ -273,7 +313,17 @@ Continue
 
 ### abenddicddl_define_table_fkprps.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @@AbapCatalog.foreignKey.label : '...' @@AbapCatalog.foreignKey.keyType : key_type @@AbapCatalog.foreignKey.screenCheck : truefalse @@AbapCatalog.foreignKey.messageClass : msg_cls @@AbapCatalog.foreignKey.messageNumber : msg_no Effect Annotations used to
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm"
+abapFile: "abenddicddl_define_table_fkprps.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "fkprps"]
+---
 
 * * *
 
@@ -316,7 +366,17 @@ See [foreign\_key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/ab
 
 ### abenddicddl_define_table_forkey.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  WITH FOREIGN KEY n,m check_table WHERE check_field1 = dbtab.field1 AND check_field2 = dbtab.field2 ... ... Effect Assigns a check table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm) to a table field(https://help.sap.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_forkey.htm"
+abapFile: "abenddicddl_define_table_forkey.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "forkey"]
+---
 
 * * *
 
@@ -370,7 +430,17 @@ define table spfli {
 
 ### abenddicddl_define_table_comps.htm
 
-  
+---
+title: "DEFINE TABLE - field"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm) KEY field : data_element foreign_key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fo
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm"
+abapFile: "abenddicddl_define_table_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "table", "comps"]
+---
 
 * * *
 
@@ -456,7 +526,17 @@ Continue
 
 ### abenddicddl_define_table.htm
 
-  
+---
+title: "DEFINE TABLE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_props.htm) table_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm) DEFINE TABLE dbtab  ... field;(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm"
+abapFile: "abenddicddl_define_table.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddicddl", "define", "table"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Program Layout"
+description: |
+  !Figure(abdoc_program.gif) -   Each ABAP program starts with an introductory statement(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_statement.htm) that is specified by the program type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_ov
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm"
+abapFile: "abenabap_program_layout.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "abenabap", "program", "layout"]
+---
 
 * * *
 

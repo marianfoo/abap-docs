@@ -1,4 +1,14 @@
-  
+---
+title: "RAP save action"
+description: |
+  RAP action(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_action_glosry.htm 'Glossary Entry') that can only be executed during the RAP save sequence(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_save_seq_glosry.htm 'Glossary Entry'). Any attempt to execut
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_save_action_glosry.htm"
+abapFile: "abenrap_save_action_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "save", "action", "glosry"]
+---
 
 * * *
 

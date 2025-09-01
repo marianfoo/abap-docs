@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Untyped Literal"
+description: |
+  Syntax ... 'character_literal'numeric_literal ... Effect Untyped literal(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuntyped_literal_glosry.htm 'Glossary Entry') in a SELECT statement(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_statement_v2.h
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_untyped_literal_v2.htm"
+abapFile: "abencds_untyped_literal_v2.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "untyped", "literal"]
+---
 
 * * *
 

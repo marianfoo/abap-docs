@@ -1,4 +1,14 @@
-  
+---
+title: "client_literal_glosry"
+description: |
+  client_literal_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_literal_glosry.htm"
+abapFile: "abenclient_literal_glosry.htm"
+keywords: ["do", "if", "try", "abenclient", "literal", "glosry"]
+---
 
 * * *
 

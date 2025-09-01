@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Calls Using a Function Module"
+description: |
+  -   How the Call Works(#abenldb-usage-function-1-------runtime-behavior---@ITOC@@ABENLDB_USAGE_FUNCTION_2) -   Interface Parameter of LDB_PROCESS(#abenldb-usage-function-3-------read-depth-and-callback-routines---@ITOC@@ABENLDB_USAGE_FUNCTION_4) -   Exceptions in LDB_PROCESS(#@@ITOC@@ABENLDB
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_usage_function.htm"
+abapFile: "abenldb_usage_function.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abenldb", "usage", "function"]
+---
 
 * * *
 
@@ -11,10 +21,8 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 LDB - Calls Using a Function Module
 
--   [How the Call Works](#@@ITOC@@ABENLDB_USAGE_FUNCTION_1)
--   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_FUNCTION_2)
--   [Interface Parameter of LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_3)
--   [Read Depth and Callback Routines](#@@ITOC@@ABENLDB_USAGE_FUNCTION_4)
+-   [How the Call Works](#abenldb-usage-function-1-------runtime-behavior---@ITOC@@ABENLDB_USAGE_FUNCTION_2)
+-   [Interface Parameter of LDB\_PROCESS](#abenldb-usage-function-3-------read-depth-and-callback-routines---@ITOC@@ABENLDB_USAGE_FUNCTION_4)
 -   [Exceptions in LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_5)
 
 How the Call Works   

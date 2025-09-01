@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') itab - Table Reduction, Summation of an Array(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreduce_simple_abexa.htm) !Example(exa.gif 'Example') itab - Table Reductions, Structured Result(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_reductions_abexas.htm"
+abapFile: "abentable_reductions_abexas.htm"
+keywords: ["do", "if", "method", "data", "internal-table", "abentable", "reductions", "abexas"]
+---
 
 * * *
 

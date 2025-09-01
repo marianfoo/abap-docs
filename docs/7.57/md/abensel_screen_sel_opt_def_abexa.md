@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "if", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 

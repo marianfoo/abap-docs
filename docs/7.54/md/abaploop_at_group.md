@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT GROUP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_group_shortref.htm) Syntax LOOP AT GROUP group result(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab_result.htm)  WHERE log_exp(https://help.sap.com/doc/abapdocu_754_index_h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_group.htm"
+abapFile: "abaploop_at_group.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "data", "types", "internal-table", "field-symbol", "abaploop", "group"]
+---
 
 * * *
 

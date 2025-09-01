@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...   FROM fields_tab(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)    AUTO FILL CID WITH fields_tab(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)    AUTO FILL CID FIELDS ( comp1 comp2 ... )
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_fields.htm"
+abapFile: "abapmodify_entity_entities_fields.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "data", "types", "internal-table", "abapmodify", "entity", "entities", "fields"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Help Views"
+description: |
+  A help view is a special view for use in search helps(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensearch_help_glosry.htm 'Glossary Entry'). The selection methods of a search help can be database tables, database views, and the special help views. Database tables restrict the sea
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_help_views.htm"
+abapFile: "abenddic_help_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenddic", "help", "views"]
+---
 
 * * *
 

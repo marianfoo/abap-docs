@@ -1,4 +1,14 @@
-  
+---
+title: "Inline Declarations"
+description: |
+  Background The declaration operators -   DATA(var)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_inline.htm) -   FIELD-SYMBOLS <fs>.(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfield-symbol_inline.htm) can be used to make inline declarations in write pos
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclaration_inline_guidl.htm"
+abapFile: "abendeclaration_inline_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "data", "types", "field-symbol", "abendeclaration", "inline", "guidl"]
+---
 
 * * *
 

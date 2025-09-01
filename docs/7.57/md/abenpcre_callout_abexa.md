@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_pcre_callout. CLASS handle_regex DEFINITION. PUBLIC SECTION. INTERFACES if_abap_matcher_callout. ENDCLASS. CLASS handle_regex IMPLEMENTATION. METHOD if_abap_matcher_callout~callout. cl_demo_output=>write(  callout_num   callout_string  ). ENDMETHOD. ENDCLASS. CLASS de
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpcre_callout_abexa.htm"
+abapFile: "abenpcre_callout_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenpcre", "callout", "abexa"]
+---
 
 * * *
 

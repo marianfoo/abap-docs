@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Examples"
+description: |
+  -   JSON - Object Components in JSON-XML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_xml_abexa.htm) -   JSON - Parsing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_oo_reader_abexa.htm) -   JSON - Rendering(https://help.sap.com/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_abexas.htm"
+abapFile: "abenabap_json_abexas.htm"
+keywords: ["do", "if", "data", "types", "internal-table", "abenabap", "json", "abexas"]
+---
 
 * * *
 

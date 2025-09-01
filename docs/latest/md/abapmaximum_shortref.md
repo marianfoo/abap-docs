@@ -1,4 +1,14 @@
-  
+---
+title: "MAXIMUM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmaximum.htm) Syntax MAXIMUM dobj. Effect Obsolete: After the statement MAXIMUM, determines the maximum value of dobj and assigns it to the data object max_dobj for every WRITE statement for dobj.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmaximum_shortref.htm"
+abapFile: "abapmaximum_shortref.htm"
+keywords: ["do", "if", "data", "abapmaximum", "shortref"]
+---
 
 * * *
 

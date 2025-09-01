@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... lines( arg ) ... Effect The table function lines returns the number of lines in an internal table. The argument arg is a functional operand position(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunctional_position_glosry.htm 'Glossary Entry') that expects an internal table. T
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendescriptive_functions_table.htm"
+abapFile: "abendescriptive_functions_table.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abendescriptive", "functions", "table"]
+---
 
 * * *
 

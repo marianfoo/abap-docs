@@ -1,4 +1,14 @@
-  
+---
+title: "relative_type_name_glosry"
+description: |
+  relative_type_name_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrelative_type_name_glosry.htm"
+abapFile: "abenrelative_type_name_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenrelative", "type", "name", "glosry"]
+---
 
 * * *
 

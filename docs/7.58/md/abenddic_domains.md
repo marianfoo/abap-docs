@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Domains"
+description: |
+  A DDIC domain(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendomain_glosry.htm 'Glossary Entry') is a standalone dictionary object that defines technical and semantic properties of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 

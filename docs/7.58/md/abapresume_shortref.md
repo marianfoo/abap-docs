@@ -1,4 +1,14 @@
-  
+---
+title: "RESUME - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapresume.htm) Syntax RESUME. Effect Resumes processing when handling a resumable exception(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresumable_exception_glosry.htm 'Glossary Entry').
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapresume_shortref.htm"
+abapFile: "abapresume_shortref.htm"
+keywords: ["do", "if", "try", "abapresume", "shortref"]
+---
 
 * * *
 

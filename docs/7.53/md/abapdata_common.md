@@ -1,4 +1,14 @@
-  
+---
+title: "DATA - COMMON PART"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_common_part_shortref.htm) Obsolete Syntax DATA BEGIN OF COMMON PART name. ... DATA ... ... DATA END OF COMMON PART name. Effect This variant of the statement DATA(https://help.sap.com/doc/abapdocu
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_common.htm"
+abapFile: "abapdata_common.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abapdata", "common"]
+---
 
 * * *
 

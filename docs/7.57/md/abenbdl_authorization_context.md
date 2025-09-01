@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Authorization Context"
+description: |
+  Syntax Forms Authorization Context(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_auth_context.htm) 1. define authorization context ContextName for disable(modifyreadmodify,read)  AuthObject1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_context.htm"
+abapFile: "abenbdl_authorization_context.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "authorization", "context"]
+---
 
 * * *
 

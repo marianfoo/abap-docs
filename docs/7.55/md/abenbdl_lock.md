@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR, lock"
+description: |
+  Work in progress  Syntax ... lock masterdependent ( LocalField = MasterField ) Effect A behavior definition can specify the following for an entity: -   The entity supports direct locks (by specifying the entity property lock master) or -   the entity is dependent on the lock status of a par
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm"
+abapFile: "abenbdl_lock.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbdl", "lock"]
+---
 
 * * *
 

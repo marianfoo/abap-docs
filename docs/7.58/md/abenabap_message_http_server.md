@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - ICF Processing"
+description: |
+  Messages sent during ICF processing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenicf_processing_glosry.htm 'Glossary Entry'), that is, when a HTTP/HTTPS query or SMTP query is handled by an HTTP request handler(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenicf.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_message_http_server.htm"
+abapFile: "abenabap_message_http_server.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "message", "http", "server"]
+---
 
 * * *
 

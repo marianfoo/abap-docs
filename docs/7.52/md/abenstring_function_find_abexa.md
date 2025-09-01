@@ -1,4 +1,14 @@
-  
+---
+title: "String Functions, count, find, and match"
+description: |
+  The example demonstrates the string functions count(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencount_functions.htm), find(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_functions.htm), and match(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_function_find_abexa.htm"
+abapFile: "abenstring_function_find_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "abenstring", "function", "find", "abexa"]
+---
 
 * * *
 

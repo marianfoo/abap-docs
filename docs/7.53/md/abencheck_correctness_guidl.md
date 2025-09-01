@@ -1,4 +1,14 @@
-  
+---
+title: "Checks for Correctness"
+description: |
+  This section enhances the section Correctness and Quality(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm 'Guideline') by providing more information about static checks on ABAP programs. -   Syntax Check(https://help.sap.com/doc/abapdocu_753_index_htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheck_correctness_guidl.htm"
+abapFile: "abencheck_correctness_guidl.htm"
+keywords: ["do", "if", "abencheck", "correctness", "guidl"]
+---
 
 * * *
 

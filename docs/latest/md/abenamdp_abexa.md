@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Implementation of an SQLScript Procedure"
+description: |
+  This example demonstrates how an SQLScript procedure is implemented using AMDP. Source Code  Public class definition CLASS cl_demo_amdp_sql_script DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementa
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_abexa.htm"
+abapFile: "abenamdp_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abenamdp", "abexa"]
+---
 
 * * *
 

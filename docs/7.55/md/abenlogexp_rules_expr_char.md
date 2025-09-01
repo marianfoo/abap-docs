@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   A string expression cannot be specified as the operand of a predicate expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicate_expression_glosry.htm 'Glossary Entry'). -   The result of the formatting of an individual operand differs from the result of a simple conv
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_rules_expr_char.htm"
+abapFile: "abenlogexp_rules_expr_char.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenlogexp", "rules", "expr", "char"]
+---
 
 * * *
 

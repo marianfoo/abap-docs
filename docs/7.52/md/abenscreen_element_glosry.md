@@ -1,4 +1,14 @@
-  
+---
+title: "screen_element_glosry"
+description: |
+  screen_element_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_element_glosry.htm"
+abapFile: "abenscreen_element_glosry.htm"
+keywords: ["do", "try", "abenscreen", "element", "glosry"]
+---
 
 * * *
 

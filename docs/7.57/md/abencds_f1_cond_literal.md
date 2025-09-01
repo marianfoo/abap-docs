@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ALLEXISTS   element BYPASS WHEN bypass_condition operator(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_cond_expression.htm) 'value' ...   element BYPASS WHEN bypass_condition NOT BETWEEN 'v
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_cond_literal.htm"
+abapFile: "abencds_f1_cond_literal.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "cond", "literal"]
+---
 
 * * *
 

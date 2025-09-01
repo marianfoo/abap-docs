@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CAST( operand AS dtype ) ... Effect Modifies the type in Open SQL. A cast expression converts(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast_rules.htm) the value of the operand operand to a dictionary type specified by dtype. The operand operand can be SQL expressions
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast.htm"
+abapFile: "abensql_cast.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "method", "data", "types", "abensql", "cast"]
+---
 
 * * *
 

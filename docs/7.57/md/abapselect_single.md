@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, SINGLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_shortref.htm) Syntax Forms 1. ... SINGLE FOR UPDATE ... 2. ... SINGLE ... FOR UPDATE NOWAIT. Addition: ... FOR UPDATE ...  ... FOR UPDATE NOWAIT.(#!ABAP_ONE_ADD@1@) Effect With the
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_single.htm"
+abapFile: "abapselect_single.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "data", "internal-table", "abapselect", "single"]
+---
 
 * * *
 

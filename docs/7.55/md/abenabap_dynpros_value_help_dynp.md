@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Obsolete input helps on dynpros are possible using the additions VALUES(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynpfield_value_select.htm) and SELECT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynpfield_value_select.htm) of the dynpro logic statement FIELD(h
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_value_help_dynp.htm"
+abapFile: "abenabap_dynpros_value_help_dynp.htm"
+keywords: ["select", "do", "try", "abenabap", "dynpros", "value", "help", "dynp"]
+---
 
 * * *
 

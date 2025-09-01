@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_floating_point_numbers. DATA ok_code       TYPE sy-ucomm. DATA op1           TYPE c LENGTH 46. DATA op2           TYPE c LENGTH 46. DATA operator      TYPE c LENGTH 2. DATA res_df34      TYPE c LENGTH 46. DATA res_df16      TYPE c LENGTH 46. DATA res_f         TYPE c LENGTH 46. DA
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_numbers_abexa.htm"
+abapFile: "abenfloating_point_numbers_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenfloating", "point", "numbers", "abexa"]
+---
 
 * * *
 

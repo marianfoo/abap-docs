@@ -1,4 +1,14 @@
-  
+---
+title: "CDS SDL - EXTEND SERVICE"
+description: |
+  Syntax EXTEND SERVICE name WITH  EXPOSE cds_entity1 AS alias1; EXPOSE cds_entity2 AS alias2; ...  Effect Extends an existing CDS service definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') name us
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_extend_service.htm"
+abapFile: "abensrvd_extend_service.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "abensrvd", "extend", "service"]
+---
 
 * * *
 

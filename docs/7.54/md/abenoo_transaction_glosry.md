@@ -1,4 +1,14 @@
-  
+---
+title: "OO transaction"
+description: |
+  The transaction code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction_code_glosry.htm 'Glossary Entry') of a OO transaction is associated with a method(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_glosry.htm 'Glossary Entry') of a local or globa
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoo_transaction_glosry.htm"
+abapFile: "abenoo_transaction_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenoo", "transaction", "glosry"]
+---
 
 * * *
 

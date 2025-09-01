@@ -1,4 +1,14 @@
-  
+---
+title: "RAP early save phase"
+description: |
+  Refers to the early phase of the RAP save sequence(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_save_seq_glosry.htm 'Glossary Entry') and covers the RAP saver methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_method_glosry.htm 'Gloss
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenearly_rap_save_phase_glosry.htm"
+abapFile: "abenearly_rap_save_phase_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenearly", "rap", "save", "phase", "glosry"]
+---
 
 * * *
 

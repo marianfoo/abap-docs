@@ -1,4 +1,14 @@
-  
+---
+title: "BCD"
+description: |
+  Abbreviation of Binary Coded Decimals. Code for displaying decimal numbers that displays each decimal digit in 4 bits. See also packed number(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpacked_number_glosry.htm 'Glossary Entry').
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbcd_glosry.htm"
+abapFile: "abenbcd_glosry.htm"
+keywords: ["do", "try", "abenbcd", "glosry"]
+---
 
 * * *
 

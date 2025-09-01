@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Client Handling"
+description: |
+  This example demonstrates client handling in the statement WITH(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm). Source Code REPORT demo_cte_client_handling. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DAT
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwith_client_handling_abexa.htm"
+abapFile: "abenwith_client_handling_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenwith", "client", "handling", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Field Extension"
+description: |
+  This example demonstrates how extension fields are added and behavior-enabled in a RAP BO extension scenario. Original RAP BO DDIC data model The DDIC data model consists of one database table: DEMO_ROOT_EXT: @EndUserText.label : 'Database Table for Root Entity of RAP BO' @AbapCatalog.enhancement.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_field_ext_abexa.htm"
+abapFile: "abenbdl_field_ext_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "field", "ext", "abexa"]
+---
 
 * * *
 

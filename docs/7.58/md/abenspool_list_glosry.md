@@ -1,4 +1,14 @@
-  
+---
+title: "Spool list"
+description: |
+  Also referred to as a spool list. List(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm 'Glossary Entry') that is not stored as a screen list(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_list_glosry.htm 'Glossary Entry') in the list
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_list_glosry.htm"
+abapFile: "abenspool_list_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenspool", "list", "glosry"]
+---
 
 * * *
 

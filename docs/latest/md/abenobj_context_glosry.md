@@ -1,4 +1,14 @@
-  
+---
+title: "obj_context_glosry"
+description: |
+  obj_context_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobj_context_glosry.htm"
+abapFile: "abenobj_context_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenobj", "context", "glosry"]
+---
 
 * * *
 

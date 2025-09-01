@@ -5,7 +5,17 @@ Included pages: 12
 
 ### abenrap_obsolete.htm
 
-  
+---
+title: "Obsolete Statements for RAP"
+description: |
+  -   Obsolete EML Statements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_obsolete.htm) Obsolete Elements in ABAP Behavior Pool Implementations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_obsolete.htm) Obsolete ABAP EML Statements(https://help.sap.co
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_obsolete.htm"
+abapFile: "abenrap_obsolete.htm"
+keywords: ["do", "if", "abenrap", "obsolete"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abenabp_obsolete.htm
 
-  
+---
+title: "Obsolete Elements in ABAP Behavior Pool Implementations"
+description: |
+  The following elements are obsolete: -   METHODS, FOR BEHAVIOR(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_behavior.htm) -   METHODS, FOR DETERMINATION, VALIDATION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_det_val_obs.htm) -   METH
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_obsolete.htm"
+abapFile: "abenabp_obsolete.htm"
+keywords: ["do", "if", "method", "abenabp", "obsolete"]
+---
 
 * * *
 
@@ -54,7 +74,17 @@ Continue
 
 ### abapmethods_for_behavior.htm
 
-  
+---
+title: "METHODS, FOR BEHAVIOR"
+description: |
+  Syntax  METHODS read   FOR BEHAVIOR ...    METHODS modify FOR BEHAVIOR ...    METHODS lock   FOR BEHAVIOR ...  Effect Obsolete declaration of ABP handler methods(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') i
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_behavior.htm"
+abapFile: "abapmethods_for_behavior.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "for", "behavior"]
+---
 
 * * *
 
@@ -87,7 +117,17 @@ Here, the name of the method is not prescribed. The meaning of the methods is de
 
 ### abapmethods_for_det_val_obs.htm
 
-  
+---
+title: "METHODS, FOR DETERMINATION, VALIDATION"
+description: |
+  Syntax  METHODS ... FOR DETERMINATION ...    METHODS ... FOR VALIDATION ...  Effect Obsolete declaration of ABP handler methods(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') in the handler class(https://help.sap.com/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_det_val_obs.htm"
+abapFile: "abapmethods_for_det_val_obs.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "for", "det", "val", "obs"]
+---
 
 * * *
 
@@ -112,7 +152,17 @@ Obsolete declaration of [ABP handler methods](https://help.sap.com/doc/abapdocu_
 
 ### abapmethods_for_event_rap_obs.htm
 
-  
+---
+title: "METHODS, FOR EVENT, FOR"
+description: |
+  Syntax METHODS ... FOR EVENT ... FOR ... Effect Obsolete declaration of ABP handler methods(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') in the handler class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_event_rap_obs.htm"
+abapFile: "abapmethods_for_event_rap_obs.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "for", "event", "rap", "obs"]
+---
 
 * * *
 
@@ -137,7 +187,17 @@ The declaration [METHODS ... FOR ENTITY EVENT ... FOR ...](https://help.sap.com/
 
 ### abenabp_obsolete.htm
 
-  
+---
+title: "Obsolete Elements in ABAP Behavior Pool Implementations"
+description: |
+  The following elements are obsolete: -   METHODS, FOR BEHAVIOR(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_behavior.htm) -   METHODS, FOR DETERMINATION, VALIDATION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_det_val_obs.htm) -   METH
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_obsolete.htm"
+abapFile: "abenabp_obsolete.htm"
+keywords: ["do", "if", "method", "abenabp", "obsolete"]
+---
 
 * * *
 
@@ -164,7 +224,17 @@ Continue
 
 ### abeneml_obsolete.htm
 
-  
+---
+title: "Obsolete ABAP EML Statements"
+description: |
+  -   GET FEATURES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_get_features.htm) GET FEATURES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_get_features.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_obsolete.htm"
+abapFile: "abeneml_obsolete.htm"
+keywords: ["do", "if", "abeneml", "obsolete"]
+---
 
 * * *
 
@@ -184,7 +254,17 @@ Continue
 
 ### abeneml_get_features.htm
 
-  
+---
+title: "GET FEATURES"
+description: |
+  Obsolete Syntax Syntax Forms Short Form GET FEATURES ENTITY bdef FROM keys REQUEST request RESULT result_tab(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_result.htm) response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm). G
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_get_features.htm"
+abapFile: "abeneml_get_features.htm"
+keywords: ["insert", "do", "if", "case", "try", "internal-table", "abeneml", "get", "features"]
+---
 
 * * *
 
@@ -305,7 +385,17 @@ The dynamic form of the statement allows multiple instances to be collected for 
 
 ### abeneml_obsolete.htm
 
-  
+---
+title: "Obsolete ABAP EML Statements"
+description: |
+  -   GET FEATURES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_get_features.htm) GET FEATURES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_get_features.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_obsolete.htm"
+abapFile: "abeneml_obsolete.htm"
+keywords: ["do", "if", "abeneml", "obsolete"]
+---
 
 * * *
 
@@ -325,7 +415,17 @@ Continue
 
 ### abenrap_le_obsolete.htm
 
-  
+---
+title: "Obsolete ABAP EML Language Elements"
+description: |
+  -   Obsolete BDEF-Derived Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_obsolete.htm) ABAP EML - Obsolete BDEF Derived Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_obsolete.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_le_obsolete.htm"
+abapFile: "abenrap_le_obsolete.htm"
+keywords: ["do", "if", "types", "abenrap", "obsolete"]
+---
 
 * * *
 
@@ -345,7 +445,17 @@ Continue
 
 ### abapderived_types_obsolete.htm
 
-  
+---
+title: "ABAP EML - Obsolete BDEF Derived Types"
+description: |
+  Syntax ... TYPE  TABLE  STRUCTURE  FOR LOCK bdef. Effect Special ABAP type that is used for internal tables and structures in the context of RAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_glosry.htm 'Glossary Entry') to enable the communication between a R
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_obsolete.htm"
+abapFile: "abapderived_types_obsolete.htm"
+keywords: ["do", "if", "try", "types", "internal-table", "abapderived", "obsolete"]
+---
 
 * * *
 
@@ -397,7 +507,17 @@ Further Information
 
 ### abenrap_le_obsolete.htm
 
-  
+---
+title: "Obsolete ABAP EML Language Elements"
+description: |
+  -   Obsolete BDEF-Derived Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_obsolete.htm) ABAP EML - Obsolete BDEF Derived Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_obsolete.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_le_obsolete.htm"
+abapFile: "abenrap_le_obsolete.htm"
+keywords: ["do", "if", "types", "abenrap", "obsolete"]
+---
 
 * * *
 

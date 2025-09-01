@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Injections Using Object Services"
+description: |
+  Filter conditions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_filter_cond.htm) are passed to a query as character strings in the query service(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_service_glosry.htm 'Glossary Entry') in the O
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm"
+abapFile: "abensql_inj_os_query_scrty.htm"
+keywords: ["do", "if", "try", "class", "data", "abensql", "inj", "query", "scrty"]
+---
 
 * * *
 

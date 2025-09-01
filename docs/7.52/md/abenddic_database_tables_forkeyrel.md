@@ -1,4 +1,14 @@
-  
+---
+title: "Foreign Key Dependencies"
+description: |
+  A foreign key dependency is a semantic dependency between two database tables, a foreign key table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_table_glosry.htm 'Glossary Entry') and a check table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheck_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm"
+abapFile: "abenddic_database_tables_forkeyrel.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "forkeyrel"]
+---
 
 * * *
 

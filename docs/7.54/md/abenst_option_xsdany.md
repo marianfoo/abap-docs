@@ -1,4 +1,14 @@
-  
+---
+title: "ST - option, Mapping Rules for XML Fragments"
+description: |
+  Syntax ... option='preserveWS,stripWS,preserveCharRef,noRootAttr' Effect If one or more of the values preserveWS, stripWS, preserveCharRef, or noRootAttr are specified for option, the mapping rule for XML fragments(https://help.sap.com/doc/abapdocu_754_index_htm/7.5
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_xsdany.htm"
+abapFile: "abenst_option_xsdany.htm"
+keywords: ["do", "if", "try", "data", "abenst", "option", "xsdany"]
+---
 
 * * *
 

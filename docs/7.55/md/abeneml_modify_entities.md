@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY ENTITIES"
+description: |
+  Work in progress  Syntax MODIFY ENTITIES OF root_name ENTITY entity_1_name CREATE FROM it_instance CREATE BY assoc_name FROM it_instance_cba UPDATE FROM it_instance_u DELETE FROM it_instance_d EXECUTE action_name FROM it_instance_a RESULT it_result_a  DATA(it_result_a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm"
+abapFile: "abeneml_modify_entities.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abeneml", "modify", "entities"]
+---
 
 * * *
 

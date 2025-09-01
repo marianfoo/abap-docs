@@ -1,4 +1,14 @@
-  
+---
+title: "DDL"
+description: |
+  Short for Data Definition Language. A subset of SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_glosry.htm 'Glossary Entry'). The statements in the DDL create and delete the objects of a relational database(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrel
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddl_glosry.htm"
+abapFile: "abenddl_glosry.htm"
+keywords: ["delete", "do", "if", "try", "data", "abenddl", "glosry"]
+---
 
 * * *
 

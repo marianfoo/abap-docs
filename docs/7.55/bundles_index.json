@@ -26,9 +26,9 @@
       "count": 11
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Database Tables / DDIC - Semantic Attributes of Database Tables / DDIC - Table-Specific Semantic Attributes of Database Tables",
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Database Tables / DDIC - Semantic Attributes of Database Tables / DDIC - Table-Specific Semantic Attributes of Database Tables / DDIC - Foreign Key Dependencies",
       "file": "bundles/abap-keyword-documentation-abap-dictionary-ddic-ddic-database-tables-ddic-semantic-attributes-of-dat.md",
-      "count": 15
+      "count": 6
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Database Tables / DDIC - Global Temporary Tables",
@@ -76,9 +76,14 @@
       "count": 6
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Built-In Functions",
-      "file": "bundles/abap-keyword-documentation-abap-dictionary-ddic-ddic-built-in-functions.md",
-      "count": 13
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Built-In Functions / DDIC - SQL Functions",
+      "file": "bundles/abap-keyword-documentation-abap-dictionary-ddic-ddic-built-in-functions-ddic-sql-functions.md",
+      "count": 7
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Built-In Functions / DDIC - Special Functions",
+      "file": "bundles/abap-keyword-documentation-abap-dictionary-ddic-ddic-built-in-functions-ddic-special-functions.md",
+      "count": 3
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Syntax",
@@ -86,9 +91,9 @@
       "count": 3
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations",
+      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations / ABAP CDS - DDL for Annotation Definitions / CDS DDL - DEFINE ANNOTATION",
       "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-annotations-abap-cds-definition.md",
-      "count": 9
+      "count": 5
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Specifying Annotations / CDS DDL - Annotation Syntax",
@@ -121,9 +126,9 @@
       "count": 5
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, select_list",
+      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, select_list / CDS DDL - CDS View Entity, SELECT, element",
       "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
-      "count": 7
+      "count": 5
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, clauses",
@@ -161,11 +166,6 @@
       "count": 3
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - SELECT, CDS View Entity, Operands and Expressions / CDS DDL - CDS View Entity, Expressions / CDS DDL - CDS View Entity, Built-In Functions / CDS DDL - CDS View Entity, Special Functions / CDS DDL - CDS View Entity, Date Functions and Time Functions",
-      "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
-      "count": 6
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - SELECT, CDS View Entity, Operands and Expressions / CDS DDL - CDS View Entity, cds_cond",
       "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
       "count": 9
@@ -176,9 +176,14 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Projection Views / CDS DDL - DEFINE VIEW ENTITY AS PROJECTION / CDS DDL - projection_view, element_list",
+      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Projection Views / CDS DDL - DEFINE VIEW ENTITY AS PROJECTION / CDS DDL - projection_view, element_list / CDS DDL - projection_view, VIRTUAL",
       "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
-      "count": 10
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Projection Views / CDS DDL - DEFINE VIEW ENTITY AS PROJECTION / CDS DDL - projection_view, element_list / CDS DDL - projection_view, expose_assoc",
+      "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
+      "count": 4
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Table Functions / ABAP CDS - Client Handling in CDS Table Functions",
@@ -261,19 +266,14 @@
       "count": 3
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - DDIC-Based Entities / ABAP CDS - DDIC-Based Views / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-based View, SELECT / CDS DDL - DDIC-based View, SELECT, Operands and Expressions / CDS DDL - DDIC-based View, Expressions / CDS DDL - DDIC-based View, Built-In Functions / CDS DDL - DDIC-based View, Special Functions / CDS DDL - DDIC-based View, Date Functions and Time Functions",
-      "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
-      "count": 6
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - DDIC-Based Entities / ABAP CDS - DDIC-Based Views / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-based View, SELECT / CDS DDL - DDIC-based View, SELECT, Operands and Expressions / CDS DDL - DDIC-based View, cds_cond",
       "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
       "count": 9
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - DDIC-Based Entities / ABAP CDS - DDIC-Based Views / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-based View, SELECT / CDS DDL - DDIC-based View, SELECT, Operands and Expressions / CDS DDL - DDIC-based View, path_expr",
+      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - DDIC-Based Entities / ABAP CDS - DDIC-Based Views / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-based View, SELECT / CDS DDL - DDIC-based View, SELECT, Operands and Expressions / CDS DDL - DDIC-based View, path_expr / CDS DDL - DDIC-based View, path_expr, attributes",
       "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-data-definitions-abap-cds-ddl-f.md",
-      "count": 9
+      "count": 6
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - Common DDL Elements",
@@ -291,9 +291,14 @@
       "count": 13
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - RAP Objects / ABAP CDS - RAP Business Objects (BO) / ABAP CDS - Behavior Definitions",
+      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - RAP Objects / ABAP CDS - RAP Business Objects (BO) / ABAP CDS - Behavior Definitions / ABAP CDS - BDL for Behavior Definitions / CDS BDL / CDS BDL - Syntax",
       "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-rap-objects-abap-cds-rap-busine.md",
-      "count": 22
+      "count": 4
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - RAP Objects / ABAP CDS - RAP Business Objects (BO) / ABAP CDS - Behavior Definitions / ABAP CDS - BDL for Behavior Definitions / CDS BDL / CDS BDL - DEFINE BEHAVIOR",
+      "file": "bundles/abap-keyword-documentation-abap-core-data-services-abap-cds-abap-cds-rap-objects-abap-cds-rap-busine.md",
+      "count": 10
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Access Control / ABAP CDS - DCL Statements / CDS DCL - DEFINE ROLE / CDS DCL - DEFINE ROLE, access_rules",
@@ -331,9 +336,14 @@
       "count": 6
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP Syntax / ABAP Statements / Operands / Functions and Expressions in Operand Positions",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP Syntax / ABAP Statements / Operands / Functions and Expressions in Operand Positions / Operand Positions for Functions and Expressions / Write Positions for Functions and Expressions",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-syntax-abap-statements-operands-functions.md",
-      "count": 15
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP Syntax / ABAP Statements / Operands / Functions and Expressions in Operand Positions / Operand Positions for Functions and Expressions / Read Positions for Functions and Expressions",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-syntax-abap-statements-operands-functions.md",
+      "count": 6
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP Syntax / ABAP Statements / Operators and Expressions",
@@ -381,14 +391,14 @@
       "count": 11
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Built-In Types, Data Objects, Functions, and Constructors / Built-In Data Types",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Built-In Types, Data Objects, Functions, and Constructors / Built-In Data Types / Built-In ABAP Types",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-built-in-types-data-objects-functions-and-const.md",
-      "count": 10
+      "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Built-In Types, Data Objects, Functions, and Constructors / Built-In Data Objects",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Built-In Types, Data Objects, Functions, and Constructors / Built-In Data Objects / ABAP System Fields",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-built-in-types-data-objects-functions-and-const.md",
-      "count": 6
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Built-In Types, Data Objects, Functions, and Constructors / Built-In Functions",
@@ -416,9 +426,9 @@
       "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Data Types and Data Objects / Declaring Data Types / TYPES / TYPES, TABLE OF",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Data Types and Data Objects / Declaring Data Types / TYPES / TYPES, TABLE OF / TYPES, tabkeys",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-declarations-declaration-statements-data-types.md",
-      "count": 7
+      "count": 3
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Data Types and Data Objects / Declaring Data Types / TYPES / TYPES, LOB HANDLE",
@@ -481,9 +491,9 @@
       "count": 8
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Classes and Interfaces (ABAP Objects) / CLASS",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Classes and Interfaces (ABAP Objects) / CLASS / CLASS, DEFINITION",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-declarations-declaration-statements-classes-and.md",
-      "count": 12
+      "count": 6
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Classes and Interfaces (ABAP Objects) / INTERFACE",
@@ -494,11 +504,6 @@
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Classes and Interfaces (ABAP Objects) / ABAP Objects - Components in Classes and Interfaces / ABAP Objects - Data Types and Attributes",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-declarations-declaration-statements-classes-and.md",
       "count": 2
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Classes and Interfaces (ABAP Objects) / ABAP Objects - Components in Classes and Interfaces / ABAP Objects - Methods / METHODS",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-declarations-declaration-statements-classes-and.md",
-      "count": 9
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Declaration Statements / Classes and Interfaces (ABAP Objects) / ABAP Objects - Components in Classes and Interfaces / ABAP Objects - Methods / CLASS-METHODS",
@@ -531,9 +536,14 @@
       "count": 4
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Typing",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-declarations-typing.md",
-      "count": 12
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Typing / typing Addition",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-declarations-typing-typing-addition.md",
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Declarations / Typing / Checking Typing",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-declarations-typing-checking-typing.md",
+      "count": 5
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Creating Objects and Values / CREATE DATA / CREATE DATA dref",
@@ -606,11 +616,6 @@
       "count": 5
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Creating Objects and Values / Shared Objects / Shared Objects - Classes and Interfaces / Shared Objects - CL_ABAP_MEMORY_AREA / Shared Objects - CL_SHM_AREA",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-creating-objects-and-values-shared-objects-shar.md",
-      "count": 2
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Creating Objects and Values / Shared Objects / Shared Objects - Classes and Interfaces / Shared Objects - IF_SHM_BUILD_INSTANCE",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-creating-objects-and-values-shared-objects-shar.md",
       "count": 2
@@ -631,9 +636,19 @@
       "count": 3
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Calling and exiting program units / Calling Programs / Calling Transactions / CALL TRANSACTION",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Calling and exiting program units / Calling Programs / Calling Transactions / CALL TRANSACTION / CALL TRANSACTION, standard",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-calling-and-exiting-program-units-calling-progr.md",
-      "count": 13
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Calling and exiting program units / Calling Programs / Calling Transactions / CALL TRANSACTION / CALL TRANSACTION, USING",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-calling-and-exiting-program-units-calling-progr.md",
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Calling and exiting program units / Calling Programs / Calling Transactions / CALL TRANSACTION / Transaction Call, Examples",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-calling-and-exiting-program-units-calling-progr.md",
+      "count": 5
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Calling and exiting program units / Calling Processing Blocks / Calling Procedures / External Procedure Call",
@@ -676,9 +691,14 @@
       "count": 16
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Operators",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Operators / rel_exp - Comparison Operators for All Data Types",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-program-flow-logic-expressions-and-functions-fo.md",
-      "count": 13
+      "count": 6
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Operators / rel_exp - Comparison Operators for Character-Like Data Types",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-program-flow-logic-expressions-and-functions-fo.md",
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Rules / rel_exp - Comparing Elementary Data Types / rel_exp - Comparison Type of Elementary Data Objects",
@@ -781,9 +801,14 @@
       "count": 6
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Iteration Expressions",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-program-flow-logic-iteration-expressions.md",
-      "count": 14
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Iteration Expressions / FOR, Iteration Expressions",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-program-flow-logic-iteration-expressions-for-it.md",
+      "count": 8
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Iteration Expressions / REDUCE, Reduction Operator",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-program-flow-logic-iteration-expressions-reduce.md",
+      "count": 3
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Assignments / Assignment and Conversion Rules / Conversion Rules for Elementary Data Objects / Numeric Source Fields",
@@ -946,11 +971,6 @@
       "count": 6
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for String Processing / String Functions (string_func) / string_func - Processing Functions",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-character-string-and-b.md",
-      "count": 15
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for String Processing / String Functions (string_func) / string_func - Shared Parameters",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-character-string-and-b.md",
       "count": 7
@@ -961,9 +981,9 @@
       "count": 8
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for String Processing / Regular Expressions (regex) / regex - Syntax",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for String Processing / Regular Expressions (regex) / regex - Syntax / regex - POSIX Syntax",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-character-string-and-b.md",
-      "count": 10
+      "count": 7
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for Byte String Processing",
@@ -986,9 +1006,19 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamp Field with Time Stamp Type",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamp Field with Time Stamp Type / Time Stamp Functions (ts_func)",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-date-and-time-processi.md",
-      "count": 14
+      "count": 4
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamp Field with Time Stamp Type / Conversion Statements for Time Stamp Fields",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-date-and-time-processi.md",
+      "count": 4
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamp Field with Time Stamp Type / System Class for Time Stamp Fields",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-date-and-time-processi.md",
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamps in Packed Numbers",
@@ -1011,9 +1041,14 @@
       "count": 4
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Overview / itab - Table Key",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Overview / itab - Table Key / itab - Primary Table Key",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-internal-tables-itab-i.md",
-      "count": 12
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Overview / itab - Table Key / itab - Secondary Table Key",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-internal-tables-itab-i.md",
+      "count": 4
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / READ TABLE itab / READ TABLE, result",
@@ -1041,9 +1076,9 @@
       "count": 4
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / MODIFY itab",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / MODIFY itab / MODIFY itab, itab_line",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-internal-tables-itab-i.md",
-      "count": 8
+      "count": 5
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / DELETE itab / DELETE itab, itab_line",
@@ -1186,9 +1221,19 @@
       "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Attributes of Data Objects / DESCRIBE",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Attributes of Data Objects / DESCRIBE / DESCRIBE FIELD",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-attributes-of-data-obj.md",
-      "count": 11
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Attributes of Data Objects / DESCRIBE / DESCRIBE DISTANCE",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-attributes-of-data-obj.md",
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Attributes of Data Objects / DESCRIBE / DESCRIBE, Internal Variant",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-internal-data-attributes-of-data-obj.md",
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Attributes of Data Objects / Runtime Type Services (RTTS)",
@@ -1216,9 +1261,14 @@
       "count": 9
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Operands sql_elem",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Operands sql_elem / ABAP SQL - literal",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
-      "count": 10
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Operands sql_elem / ABAP SQL - @( expr )",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_elem",
@@ -1226,19 +1276,19 @@
       "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / sql_func - SQL Functions",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / sql_func - SQL Functions / sql_func - String Functions",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
-      "count": 9
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / sql_func - SQL Functions / sql_func - Coalesce Function",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / sql_func - Special Functions / sql_func - Conversion Functions",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
       "count": 4
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / sql_func - Special Functions / sql_func - Date Functions and Time Functions",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
-      "count": 6
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_arith",
@@ -1351,9 +1401,9 @@
       "count": 3
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Read Access / SELECT, clauses / SELECT, select_clause",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Read Access / SELECT, clauses / SELECT, select_clause / SELECT, select_list",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
-      "count": 4
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Read Access / SELECT, clauses / SELECT, WHERE",
@@ -1411,9 +1461,9 @@
       "count": 3
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Write Access / INSERT, UPDATE, MODIFY, DELETE, target",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Write Access / INSERT, UPDATE, MODIFY, DELETE, target / INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
-      "count": 5
+      "count": 3
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Streaming and Locators",
@@ -1426,9 +1476,9 @@
       "count": 3
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP Managed Database Procedures (AMDP) / AMDP - Methods / METHOD, BY DATABASE PROCEDURE, FUNCTION",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP Managed Database Procedures (AMDP) / AMDP - Methods / METHOD, BY DATABASE PROCEDURE, FUNCTION / AMDP - SQLScript for the SAP HANA Database",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
-      "count": 5
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP Managed Database Procedures (AMDP) / AMDP - Macros",
@@ -1451,9 +1501,14 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / Native SQL / Embedded Native SQL (EXEC SQL)",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / Native SQL / Embedded Native SQL (EXEC SQL) / EXEC SQL",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-n.md",
-      "count": 14
+      "count": 8
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / Native SQL / Embedded Native SQL (EXEC SQL) / EXEC SQL - Examples",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-n.md",
+      "count": 3
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP and SAP HANA / Data Aging in SAP HANA",
@@ -1461,19 +1516,14 @@
       "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP and SAP HANA / Access to Objects in SAP HANA XS / Access to SAP HANA XSC Objects",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP and SAP HANA / Access to Objects in SAP HANA XS / Access to SAP HANA XSC Objects / Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
-      "count": 10
+      "count": 7
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / ABAP and SAP HANA / ABAP and SAP HANA, Examples",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-a.md",
       "count": 6
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / Object Services (OS) / OS - Persistency Service",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-processing-external-data-abap-database-access-o.md",
-      "count": 9
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Processing External Data / ABAP Database Access / Object Services (OS) / OS - Transaction Service",
@@ -1541,9 +1591,29 @@
       "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP for RAP Business Objects / RAP in ABAP / ABAP Entity Manipulation Language",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP for RAP Business Objects / RAP in ABAP / ABAP Entity Manipulation Language / ABAP EML - MODIFY ENTITIES",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-for-rap-business-objects-rap-in-abap-abap.md",
-      "count": 21
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP for RAP Business Objects / RAP in ABAP / ABAP Entity Manipulation Language / ABAP EML - READ ENTITIES",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-for-rap-business-objects-rap-in-abap-abap.md",
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP for RAP Business Objects / RAP in ABAP / ABAP Entity Manipulation Language / ABAP EML - COMMIT ENTITIES",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-for-rap-business-objects-rap-in-abap-abap.md",
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP for RAP Business Objects / RAP in ABAP / ABAP Entity Manipulation Language / ABAP EML - SET LOCKS",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-for-rap-business-objects-rap-in-abap-abap.md",
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP for RAP Business Objects / RAP in ABAP / ABAP Entity Manipulation Language / ABAP EML - GET FEATURES",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-for-rap-business-objects-rap-in-abap-abap.md",
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Text Repositories / Text Pools",
@@ -1561,14 +1631,24 @@
       "count": 4
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Text Repositories / Messages / Messages - System Interfaces",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Text Repositories / Messages / Messages - System Interfaces / Messages - System Interface IF_T100_MESSAGE",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-text-repositories-messages-messages-system-inte.md",
-      "count": 13
+      "count": 5
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Language Environment",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-language-environment.md",
-      "count": 17
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Text Repositories / Messages / Messages - System Interfaces / Messages - System Interface IF_T100_DYN_MSG",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-text-repositories-messages-messages-system-inte.md",
+      "count": 5
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Language Environment / Language Settings",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-language-environment-language-settings.md",
+      "count": 7
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Language Environment / Formatting Settings",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-language-environment-formatting-settings.md",
+      "count": 7
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Maintenance / Testing and Checking Programs / Checkpoints",
@@ -1581,9 +1661,9 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Maintenance / Testing and Checking Programs / ABAP Unit",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Maintenance / Testing and Checking Programs / ABAP Unit / Test Seams",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-program-maintenance-testing-and-checking-progra.md",
-      "count": 12
+      "count": 7
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Program Maintenance / Testing and Checking Programs / Internal Test Statements",
@@ -1666,9 +1746,9 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP Daemon Framework (ADF)",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP Daemon Framework (ADF) / ADF - Examples for ABAP Daemons",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
-      "count": 6
+      "count": 3
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Class Libraries / iXML Library / iXML - Parsing",
@@ -1686,11 +1766,6 @@
       "count": 8
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Class Libraries / iXML Library / iXML - Examples",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
-      "count": 20
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Class Libraries / sXML Library / sXML - Parsing",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
       "count": 3
@@ -1704,11 +1779,6 @@
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Class Libraries / sXML Library / sXML - Classes and Interfaces",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
       "count": 10
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Class Libraries / sXML Library / sXML - Examples",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
-      "count": 13
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Transformations / XSL Transformations",
@@ -1781,9 +1851,19 @@
       "count": 4
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Transformations / Canonical XML Representation (asXML) / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Transformations / Canonical XML Representation (asXML) / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects / asXML - Named Reference Variables",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
-      "count": 10
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Transformations / Canonical XML Representation (asXML) / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects / asXML - Anonymous Data Objects",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Transformations / Canonical XML Representation (asXML) / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects / asXML - Instances of Classes",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
+      "count": 2
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and XML / XML - Transformations / Canonical XML Representation (asXML) / asXML - Examples of Mappings",
@@ -1796,9 +1876,9 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and JSON / JSON - Transformations",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and JSON / JSON - Transformations / asJSON - Canonical JSON Representation",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-data-interfaces-and-communication-interfaces-ab.md",
-      "count": 18
+      "count": 14
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Data Interfaces and Communication Interfaces / ABAP and OLE",
@@ -1821,11 +1901,6 @@
       "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Screen and Screen Elements",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-general-dynpros-dynpro-scr.md",
-      "count": 12
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Dynpro Fields",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-general-dynpros-dynpro-dyn.md",
       "count": 8
@@ -1841,9 +1916,14 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Field Help, Input Help, and Dropdown List Boxes",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Field Help, Input Help, and Dropdown List Boxes / dynpro - Input Help",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-general-dynpros-dynpro-fie.md",
-      "count": 15
+      "count": 4
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Field Help, Input Help, and Dropdown List Boxes / dynpro - Field Helps, Input Helps, and Dropdown List Boxes",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-general-dynpros-dynpro-fie.md",
+      "count": 6
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Statements in the Dynpro Flow Logic / dynpro - MODULE",
@@ -1986,19 +2066,49 @@
       "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Editing List Buffers",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Editing List Buffers / READ LINE",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-editin.md",
-      "count": 14
+      "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Display",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Editing List Buffers / MODIFY LINE",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-editin.md",
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Editing List Buffers / SCROLL LIST",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-editin.md",
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Editing List Buffers / DESCRIBE LIST",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-editin.md",
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Display / LEAVE TO LIST-PROCESSING",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-displa.md",
-      "count": 15
+      "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Spool",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Display / WINDOW",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-displa.md",
+      "count": 2
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Display / GET CURSOR, List",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-displa.md",
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Spool / Lists - Spool Parameters",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-spool.md",
-      "count": 14
+      "count": 4
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Spool / Lists - Spool Control",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-sap-gui-user-dialogs-classic-lists-lists-spool.md",
+      "count": 3
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / Classic Lists / Lists - Event Blocks",
@@ -2136,14 +2246,29 @@
       "count": 11
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts / SORT, Extract",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-obsolete-language-elements-obsolete-processing.md",
-      "count": 17
+      "count": 2
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete ABAP SQL",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts / AT, Extract",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-obsolete-language-elements-obsolete-processing.md",
-      "count": 15
+      "count": 3
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts / Examples of Extracts",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-obsolete-language-elements-obsolete-processing.md",
+      "count": 4
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete ABAP SQL / Obsolete Short Forms in ABAP SQL",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-obsolete-language-elements-obsolete-processing.md",
+      "count": 6
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete ABAP SQL / Obsolete Syntax in ABAP SQL",
+      "file": "bundles/abap-keyword-documentation-abap-programming-language-obsolete-language-elements-obsolete-processing.md",
+      "count": 5
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete Native SQL",
@@ -2166,9 +2291,9 @@
       "count": 6
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (LDB, Obsolete) / LDB - Components",
+      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (LDB, Obsolete) / LDB - Components / LDB - Further Elements",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-obsolete-language-elements-obsolete-processing.md",
-      "count": 10
+      "count": 5
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (LDB, Obsolete) / LDB - Statements / LDB - Interface Work Areas",
@@ -2244,11 +2369,6 @@
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP - Quick Reference / Section",
       "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-quick-reference-section.md",
       "count": 3
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP - Quick Reference / Section",
-      "file": "bundles/abap-keyword-documentation-abap-programming-language-abap-quick-reference-section.md",
-      "count": 42
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Language / ABAP - Quick Reference / Section",
@@ -2341,11 +2461,6 @@
       "count": 5
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Guidelines / Structure and Style / Naming",
-      "file": "bundles/abap-keyword-documentation-abap-programming-guidelines-structure-and-style-naming.md",
-      "count": 6
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Guidelines / Structure and Style / Comments",
       "file": "bundles/abap-keyword-documentation-abap-programming-guidelines-structure-and-style-comments.md",
       "count": 4
@@ -2391,11 +2506,6 @@
       "count": 6
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Programming Guidelines / Robust ABAP / Data Types and Data Objects",
-      "file": "bundles/abap-keyword-documentation-abap-programming-guidelines-robust-abap-data-types-and-data-objects.md",
-      "count": 13
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Programming Guidelines / Robust ABAP / Assignments, Calculations, and Other Types of Data Access",
       "file": "bundles/abap-keyword-documentation-abap-programming-guidelines-robust-abap-assignments-calculations-and-othe.md",
       "count": 13
@@ -2426,99 +2536,14 @@
       "count": 7
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Security Notes / Security Risks Caused by Input from Outside",
-      "file": "bundles/abap-keyword-documentation-abap-security-notes-security-risks-caused-by-input-from-outside.md",
-      "count": 13
+      "title": "ABAP - Keyword Documentation / ABAP - Security Notes / Security Risks Caused by Input from Outside / SQL Injections",
+      "file": "bundles/abap-keyword-documentation-abap-security-notes-security-risks-caused-by-input-from-outside-sql-injec.md",
+      "count": 6
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Security Notes / Further Security Risks",
       "file": "bundles/abap-keyword-documentation-abap-security-notes-further-security-risks.md",
       "count": 6
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.55",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 10
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.54",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 19
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.53",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 14
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.52",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 14
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.51",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 11
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.50",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 12
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.40 and Its SPs / Changes in Release 7.40, SP10",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-40-and-its-sps-changes.md",
-      "count": 3
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.40 and Its SPs / Changes in Release 7.40, SP08",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-40-and-its-sps-changes.md",
-      "count": 10
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.40 and Its SPs / Changes in Release 7.40, SP05",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-40-and-its-sps-changes.md",
-      "count": 10
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.0 and its EhPs / Changes in Release 7.0, EhP3 and 7.3, EhP1",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-0-and-its-ehps-changes.md",
-      "count": 4
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.0 and its EhPs / Changes in Release 7.0",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-0-and-its-ehps-changes.md",
-      "count": 14
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 6.xx / Changes in Release 6.40",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-6-xx-changes-in-release.md",
-      "count": 14
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 6.xx / Changes in Release 6.20",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-6-xx-changes-in-release.md",
-      "count": 9
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 4.xx / Changes in Release 4.6C",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-4-xx-changes-in-release.md",
-      "count": 5
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 4.xx / Changes in Release 4.6A",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-4-xx-changes-in-release.md",
-      "count": 17
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 4.xx / Changes in Release 4.5",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-4-xx-changes-in-release.md",
-      "count": 3
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 4.xx / Changes in Release 4.0",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-4-xx-changes-in-release.md",
-      "count": 15
     }
   ]
 }

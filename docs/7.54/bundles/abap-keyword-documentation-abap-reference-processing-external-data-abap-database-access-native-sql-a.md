@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenadbc_abexas.htm
 
-  
+---
+title: "ADBC Examples"
+description: |
+  !Example(exa.gif 'Example') ADBC, DDL, and DML(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm) !Example(exa.gif 'Example') ADBC, Parameter Binding(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm) !Example(
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm"
+abapFile: "abenadbc_abexas.htm"
+keywords: ["do", "if", "data", "abenadbc", "abexas"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abenadbc_dml_ddl_abexa.htm
 
-  
+---
+title: "ADBC, DDL, and DML"
+description: |
+  This example demonstrates the use of the DDL and DML statements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_ddl_dml.htm) with ADBC. Source Code REPORT demo_adbc_ddl_dml. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RA
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm"
+abapFile: "abenadbc_dml_ddl_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "abexa"]
+---
 
 * * *
 
@@ -146,7 +166,17 @@ Any exceptions are handled. When rows are exported, quotation marks are escaped 
 
 ### abenadbc_dml_ddl_binding_abexa.htm
 
-  
+---
+title: "ADBC, Parameter Binding"
+description: |
+  The example demonstrates the binding of parameters in ADBC. Source Code REPORT demo_adbc_ddl_dml_binding. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm"
+abapFile: "abenadbc_dml_ddl_binding_abexa.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "binding", "abexa"]
+---
 
 * * *
 
@@ -294,7 +324,17 @@ The parameter binding removes the need to escape quotation marks in the user inp
 
 ### abenadbc_dml_ddl_bulk_abexa.htm
 
-  
+---
+title: "ADBC, Bulk Access"
+description: |
+  This example demonstrates bulk access in ADBC. Source Code REPORT demo_adbc_ddl_dml_bulk_access. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_delete RADIOBUTTON GROUP grp, p_select
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm"
+abapFile: "abenadbc_dml_ddl_bulk_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "dml", "ddl", "bulk", "abexa"]
+---
 
 * * *
 
@@ -436,7 +476,17 @@ In all methods for DML statements, parameters are bound using an internal table.
 
 ### abenadbc_query_abexa.htm
 
-  
+---
+title: "ADBC, Query"
+description: |
+  This example demonstrates the execution of a query(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query.htm) with ADBC. Source Code REPORT demo_adbc_query. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF result_line, carrid T
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm"
+abapFile: "abenadbc_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "query", "abexa"]
+---
 
 * * *
 
@@ -499,7 +549,17 @@ Quotation marks are escaped in the user input. This prevents [SQL injections](ht
 
 ### abenadbc_procedure_abexa.htm
 
-  
+---
+title: "ADBC, Stored Procedure"
+description: |
+  The example demonstrates the execution of a stored procedure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure.htm) using ADBC. Source Code REPORT demo_adbc_stored_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATI
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm"
+abapFile: "abenadbc_procedure_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abenadbc", "procedure", "abexa"]
+---
 
 * * *
 
@@ -618,7 +678,17 @@ The executable example [AMDP, simple procedure call of an SQL Script procedure](
 
 ### abenadbc_sql_prepared_abexa.htm
 
-  
+---
+title: "ADBC, Prepared Statement"
+description: |
+  The example demonstrates how a prepared statement(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_sql_prepared_statement.htm) is created and executed using ADBC. Source Code REPORT demo_adbc_prepared_statement. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm"
+abapFile: "abenadbc_sql_prepared_abexa.htm"
+keywords: ["select", "loop", "do", "while", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "sql", "prepared", "abexa"]
+---
 
 * * *
 

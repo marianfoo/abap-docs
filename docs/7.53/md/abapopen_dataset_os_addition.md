@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TYPE attr FILTER opcom ... Extras: 1. ... TYPE attr(#!ABAP_ADDITION_1@1@) 2. ... FILTER opcom(#!ABAP_ADDITION_2@2@) Effect These additions can be used to make operating system-specific settings and set operating system statements. Addition 1 ... TYPE attr Effect The behavio
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_os_addition.htm"
+abapFile: "abapopen_dataset_os_addition.htm"
+keywords: ["update", "do", "while", "if", "try", "class", "data", "abapopen", "dataset", "addition"]
+---
 
 * * *
 

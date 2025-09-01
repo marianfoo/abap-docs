@@ -1,4 +1,14 @@
-  
+---
+title: "Inheritance and Visibility"
+description: |
+  You cannot change the visibility area(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_visibility.htm) to which a component is assigned using inheritance. Component visibility affects inheritance as follows: Public components The public visibility area of a subclass consists of
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_visibility.htm"
+abapFile: "abeninheritance_visibility.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abeninheritance", "visibility"]
+---
 
 * * *
 

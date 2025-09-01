@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  A table scarr_tab_down intended for index access should be sorted by key field in descending order. This can only be a standard table. To sort in ascending order, a sorted table can and should be used, in this case scarr_tab_up. If only key access is required, then a hashed table like scarr_tab
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_kind.htm"
+abapFile: "abenitab_kind.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "data", "internal-table", "abenitab", "kind"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Semantic Attributes of Database Tables"
+description: |
+  The semantic attributes of a DDIC database table include the attributes of its structure and attributes dependent on the table. -   Semantic attributes of the structure of a database table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_semastruc.htm) -   Depen
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_sema.htm"
+abapFile: "abenddic_database_tables_sema.htm"
+keywords: ["do", "data", "abenddic", "database", "tables", "sema"]
+---
 
 * * *
 

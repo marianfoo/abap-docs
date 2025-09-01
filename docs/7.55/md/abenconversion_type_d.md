@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type d"
+description: |
+  The conversion rules are designed in such a way that when data objects of the data type d(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_date_time.htm) are assigned to character-like data objects they behave character-like and numeric in assignments to numeric data ob
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_d.htm"
+abapFile: "abenconversion_type_d.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abenconversion", "type"]
+---
 
 * * *
 
@@ -12,13 +22,9 @@ The conversion rules are designed in such a way that when data objects of the da
 
 Only dates in the format "yyyymmdd" are valid for data objects of type d where "00010101" is the first valid value. The conversion rules, however, also allow the assignment of date fields that contain invalid data. The latter is not recommended.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_1)
+-   [Numeric Target Fields](#abenconversion-type-d-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_D_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_4)
+-   [Byte-Like Target Fields](#abenconversion-type-d-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_D_4)
 
 Numeric Target Fields
 

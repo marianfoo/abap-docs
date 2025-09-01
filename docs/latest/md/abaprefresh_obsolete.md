@@ -1,4 +1,14 @@
-  
+---
+title: "REFRESH itab FROM"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprefresh_from_shortref.htm) Obsolete Syntax REFRESH itab FROM TABLE  dbtab  dbtab. Effect The variant of the statement REFRESH, which is forbidden in classes, initializes the internal table itab, reads mu
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprefresh_obsolete.htm"
+abapFile: "abaprefresh_obsolete.htm"
+keywords: ["select", "do", "if", "try", "catch", "class", "data", "internal-table", "abaprefresh", "obsolete"]
+---
 
 * * *
 

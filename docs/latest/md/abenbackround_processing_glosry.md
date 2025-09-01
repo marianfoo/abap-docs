@@ -1,4 +1,14 @@
-  
+---
+title: "backround_processing_glosry"
+description: |
+  backround_processing_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbackround_processing_glosry.htm"
+abapFile: "abenbackround_processing_glosry.htm"
+keywords: ["do", "if", "try", "abenbackround", "processing", "glosry"]
+---
 
 * * *
 

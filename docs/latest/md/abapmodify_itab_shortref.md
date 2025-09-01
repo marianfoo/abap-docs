@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY itab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_itab.htm) Syntax MODIFY    TABLE itabitab INDEX idx USING KEY key_name(name)    itab USING KEY loop_key  FROM wa TRANSPORTING comp1 comp2 ...
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_itab_shortref.htm"
+abapFile: "abapmodify_itab_shortref.htm"
+keywords: ["loop", "do", "if", "try", "internal-table", "field-symbol", "abapmodify", "itab", "shortref"]
+---
 
 * * *
 

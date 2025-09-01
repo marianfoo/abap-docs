@@ -1,4 +1,14 @@
-  
+---
+title: "remote_function_call_glosry"
+description: |
+  remote_function_call_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenremote_function_call_glosry.htm"
+abapFile: "abenremote_function_call_glosry.htm"
+keywords: ["do", "if", "try", "abenremote", "function", "call", "glosry"]
+---
 
 * * *
 

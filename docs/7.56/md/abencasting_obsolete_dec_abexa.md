@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Casting Decimal Places"
+description: |
+  This example demonstrates how a casting of decimal places is performed. Source Code REPORT demo_field_symbols_assign_deci. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: pack1 TYPE p DECIMALS 2 VALUE '400', pack2 TYPE p DECIMALS
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_dec_abexa.htm"
+abapFile: "abencasting_obsolete_dec_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "field-symbol", "abencasting", "obsolete", "dec", "abexa"]
+---
 
 * * *
 

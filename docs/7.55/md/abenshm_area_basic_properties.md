@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Basic Properties of Areas"
+description: |
+  An area has the following basic properties: -   Area name The name of an area. This is also the name of the generated global area class(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_class.htm) and is therefore unique across the system. It is recommended to follow the nami
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_basic_properties.htm"
+abapFile: "abenshm_area_basic_properties.htm"
+keywords: ["select", "update", "do", "while", "if", "case", "try", "method", "class", "data", "abenshm", "area", "basic", "properties"]
+---
 
 * * *
 

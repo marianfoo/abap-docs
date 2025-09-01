@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Spatial Reference System"
+description: |
+  A spatial reference system must be defined for table fields with the geodata type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeo_data_type_glosry.htm 'Glossary Entry') GEOM_EWKB(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm). This prop
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_sptlrf.htm"
+abapFile: "abenddic_database_tables_sptlrf.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddic", "database", "tables", "sptlrf"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "UTC time stamp"
+description: |
+  Time stamp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamp_glosry.htm 'Glossary Entry') referring to the UTC(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutc_glosry.htm 'Glossary Entry') reference time. The time stamps of the ABAP runtime environment
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutc_timestamp_glosry.htm"
+abapFile: "abenutc_timestamp_glosry.htm"
+keywords: ["do", "try", "abenutc", "timestamp", "glosry"]
+---
 
 * * *
 

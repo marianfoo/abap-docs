@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY SCREEN, Short Form"
+description: |
+  Obsolete Syntax MODIFY SCREEN. Effect This is a short form of the statement MODIFY SCREEN FROM screen.(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_screen.htm) The short form uses a structure with the name screen implicitly instead of an explicitly declared work area wa. T
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmodify_screen_obsolete.htm"
+abapFile: "abenmodify_screen_obsolete.htm"
+keywords: ["do", "if", "data", "abenmodify", "screen", "obsolete"]
+---
 
 * * *
 

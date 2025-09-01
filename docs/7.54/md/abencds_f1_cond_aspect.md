@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (element1 , element2, ... ) = ASPECT generic_aspect ... Effect Aspect condition as part of an access condition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaccess_condition_glosry.htm 'Glossary Entry') cond_expr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_aspect.htm"
+abapFile: "abencds_f1_cond_aspect.htm"
+keywords: ["do", "if", "try", "abencds", "cond", "aspect"]
+---
 
 * * *
 

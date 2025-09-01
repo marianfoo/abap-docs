@@ -1,4 +1,14 @@
-  
+---
+title: "Line Width"
+description: |
+  Background The maximum line width of an ABAP program is restricted to 255 characters. Rule Do not use full line width Limit the width of a line in the source code to a reasonable size. As a rule of thumb, you should be able to print a program on common paper formats without truncation or line breaks
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenline_width_guidl.htm"
+abapFile: "abenline_width_guidl.htm"
+keywords: ["do", "if", "method", "abenline", "width", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  bit_func - xstrlen(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescriptive_functions_binary.htm) bit_func - bit-set(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbit_functions.htm) !Example(exa.gif 'Example') bit_func - Setting Bits(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbinary_functions.htm"
+abapFile: "abenbinary_functions.htm"
+keywords: ["do", "if", "data", "types", "abenbinary", "functions"]
+---
 
 * * *
 

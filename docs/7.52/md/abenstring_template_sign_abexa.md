@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Algebraic Sign"
+description: |
+  The example demonstrates the specification of the algebraic sign format for embedded expressions. Source Code REPORT demo_string_template_sign. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA:  num1    TYPE i VALUE -10, num2    TYP
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_sign_abexa.htm"
+abapFile: "abenstring_template_sign_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "method", "class", "data", "abenstring", "template", "sign", "abexa"]
+---
 
 * * *
 

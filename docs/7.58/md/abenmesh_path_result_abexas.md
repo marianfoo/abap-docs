@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Example of Results of Mesh Paths"
+description: |
+  -   Meshes - Forward Associations in Mesh Paths(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_for_forward_abexa.htm) -   Meshes - Inverse Associations in Mesh Paths(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_for_inverse_abexa.htm) -   Meshes - Refl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_path_result_abexas.htm"
+abapFile: "abenmesh_path_result_abexas.htm"
+keywords: ["do", "if", "data", "abenmesh", "path", "result", "abexas"]
+---
 
 * * *
 

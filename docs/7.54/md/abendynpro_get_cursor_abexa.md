@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Determining the Cursor Position"
+description: |
+  This example demonstrates how to determine the cursor position on dynpros. Source Code PROGRAM demo_dynpro_get_cursor . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code. DATA: input_output(20) TYPE c, fld(20) TYPE c, off     TYPE i, val(20) TYPE c, len     TYPE i. CALL SCREEN 100. MODULE ini
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_get_cursor_abexa.htm"
+abapFile: "abendynpro_get_cursor_abexa.htm"
+keywords: ["select", "do", "case", "data", "abendynpro", "get", "cursor", "abexa"]
+---
 
 * * *
 

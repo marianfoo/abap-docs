@@ -1,4 +1,14 @@
-  
+---
+title: "GUI"
+description: |
+  Short for Graphical User Interface. Graphical part of the user interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_interface_glosry.htm 'Glossary Entry'). The GUI is displayed in a window(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwindow_gl
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengui_glosry.htm"
+abapFile: "abengui_glosry.htm"
+keywords: ["do", "if", "try", "abengui", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Common Table Expression"
+description: |
+  CTE for short. Common table expressions are defined in the ABAP SQL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql_glosry.htm 'Glossary Entry') statement WITH(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwith.htm) via subqueries(https://help.sap.com/d
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencommon_table_expression_glosry.htm"
+abapFile: "abencommon_table_expression_glosry.htm"
+keywords: ["do", "try", "abencommon", "table", "expression", "glosry"]
+---
 
 * * *
 

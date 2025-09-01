@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT NAMETAB"
+description: |
+  This statement is no longer supported. Syntax IMPORT NAMETAB ... Effect This statement was used internally to import a DDIC structure description in an internal format from the name table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenname_table_glosry.htm 'Glossary Entry') of the
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_nametab.htm"
+abapFile: "abapimport_nametab.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "types", "internal-table", "abapimport", "nametab"]
+---
 
 * * *
 

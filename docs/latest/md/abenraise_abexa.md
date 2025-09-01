@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions, RAISE"
+description: |
+  This example demonstrates the statement RAISE EXCEPTION. Source Code  Public class definition CLASS cl_demo_raise_exception DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_rai
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm"
+abapFile: "abenraise_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abenraise", "abexa"]
+---
 
 * * *
 

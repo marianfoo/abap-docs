@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  For comparisons(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_comp_v1.htm), the tables of comparable types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_types_v1.htm) show which data types can be compared with each other.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_operands_v1.htm"
+abapFile: "abencds_cond_expr_operands_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "cond", "expr", "operands"]
+---
 
 * * *
 

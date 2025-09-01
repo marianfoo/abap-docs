@@ -1,4 +1,14 @@
-  
+---
+title: "Non-Unicode ABAP"
+description: |
+  Obsolete language version(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_version_glosry.htm 'Glossary Entry') of an ABAP program(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_glosry.htm 'Glossary Entry') in which the Unicode checks(https://hel
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennon_unicode_program_glosry.htm"
+abapFile: "abennon_unicode_program_glosry.htm"
+keywords: ["do", "try", "abennon", "unicode", "program", "glosry"]
+---
 
 * * *
 

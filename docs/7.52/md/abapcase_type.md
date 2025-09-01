@@ -1,4 +1,14 @@
-  
+---
+title: "CASE TYPE OF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcase_type_shortref.htm) Syntax CASE TYPE OF oref WHEN TYPE classintf INTO target1. statement_block1 WHEN TYPE classintf INTO target2. statement_block2 ... WHEN
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcase_type.htm"
+abapFile: "abapcase_type.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abapcase", "type"]
+---
 
 * * *
 

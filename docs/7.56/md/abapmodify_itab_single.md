@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  table_key(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab_table_key.htm)   index(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab_index.htm)  FROM wa TRANSPORTING comp1 comp2 ... result(https://help.sap.com/doc/aba
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab_single.htm"
+abapFile: "abapmodify_itab_single.htm"
+keywords: ["select", "insert", "loop", "do", "while", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abapmodify", "itab", "single"]
+---
 
 * * *
 

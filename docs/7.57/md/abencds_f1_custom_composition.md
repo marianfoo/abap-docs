@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, composition"
+description: |
+  Syntax ... COMPOSITION  min..max  OF target ... Effect Defines a CDS composition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm 'Glossary Entry') in the element list(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_custo
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_custom_composition.htm"
+abapFile: "abencds_f1_custom_composition.htm"
+keywords: ["do", "if", "try", "data", "abencds", "custom", "composition"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenddic_data_elements.htm
 
-  
+---
+title: "DDIC - Data Elements"
+description: |
+  A DDIC data element(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_element_glosry.htm 'Glossary Entry') defines an elementary data type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(http
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_elements.htm"
+abapFile: "abenddic_data_elements.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "elements"]
+---
 
 * * *
 
@@ -37,7 +47,17 @@ Continue
 
 ### abenddic_data_elements_tech.htm
 
-  
+---
+title: "DDIC - Technical Properties of Data Elements"
+description: |
+  A data element describes an elementary data type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreference_type_glosry.htm 'Glossary Entry') with th
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_elements_tech.htm"
+abapFile: "abenddic_data_elements_tech.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "elements", "tech"]
+---
 
 * * *
 
@@ -75,7 +95,17 @@ The data element S\_CONN\_ID inherits its technical properties (data type NUMC, 
 
 ### abenddic_data_elements_sema.htm
 
-  
+---
+title: "DDIC - Semantic Properties of Data Elements"
+description: |
+  The semantic properties of data elements are mainly significant when they are used as types of fields on user interfaces such as dynpro(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm 'Glossary Entry') or Web Dynpro(https://help.sap.com/doc/abapdocu_758_index_htm
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_elements_sema.htm"
+abapFile: "abenddic_data_elements_sema.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "elements", "sema"]
+---
 
 * * *
 
@@ -173,7 +203,17 @@ Consumers must consider that many semantic properties of a data element define t
 
 ### abenddic_domains.htm
 
-  
+---
+title: "DDIC - Domains"
+description: |
+  A DDIC domain(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendomain_glosry.htm 'Glossary Entry') is a standalone dictionary object that defines technical and semantic properties of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 
@@ -207,7 +247,17 @@ Continue
 
 ### abenddic_domains_tech.htm
 
-  
+---
+title: "DDIC - Technical Properties of Domains"
+description: |
+  The only technical property of a domain is the description of an elementary data type whose following technical properties are defined directly in the domain: -   Built-in data type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) in the ABAP Dictionary -   Le
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains_tech.htm"
+abapFile: "abenddic_domains_tech.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "domains", "tech"]
+---
 
 * * *
 
@@ -233,7 +283,17 @@ When existing domains are modified, all users of the domain are also affected. I
 
 ### abenddic_domains_sema.htm
 
-  
+---
+title: "DDIC - Semantic Properties of Domains"
+description: |
+  Domains can have the following semantic properties: -   Short text A descriptive short text must be specified when a domain is created. -   Documentation Documentation can optionally be assigned. This documentation can be read as required. -   Output properties The output properties affect how field
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains_sema.htm"
+abapFile: "abenddic_domains_sema.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "domains", "sema"]
+---
 
 * * *
 
@@ -309,7 +369,17 @@ The domain S\_CLASS with the type CHAR describes the possible classes in a fligh
 
 ### abenddic_domains.htm
 
-  
+---
+title: "DDIC - Domains"
+description: |
+  A DDIC domain(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendomain_glosry.htm 'Glossary Entry') is a standalone dictionary object that defines technical and semantic properties of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 

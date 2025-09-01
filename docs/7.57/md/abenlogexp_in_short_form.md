@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... selcrit ... Effect This relational expression has the same effect as the comparison expression ... operand IN selcrit ...(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_select_option.htm) Here, operand is the data object for which the selection table(https://help.sap.c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_in_short_form.htm"
+abapFile: "abenlogexp_in_short_form.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "abenlogexp", "short", "form"]
+---
 
 * * *
 

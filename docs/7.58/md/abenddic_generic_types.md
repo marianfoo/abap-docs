@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Generic Data Types"
+description: |
+  The following table shows the built-in generic DDIC types. A generic data type is like a placeholder that allows different built-in data types. The following generic data types are available: Type Includes the following built-in data types any INT1, INT2, INT4, INT8, DEC, CURR, QUAN, DECFLOAT16, DEC
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_generic_types.htm"
+abapFile: "abenddic_generic_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "generic"]
+---
 
 * * *
 

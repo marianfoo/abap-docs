@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CLASS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_definition.htm) lcl_handler DEFINITION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abap
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_cl_abap_beh_handler.htm"
+abapFile: "abenabp_cl_abap_beh_handler.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabp", "abap", "beh", "handler"]
+---
 
 * * *
 

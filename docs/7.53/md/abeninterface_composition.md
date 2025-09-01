@@ -1,4 +1,14 @@
-  
+---
+title: "Nesting Interfaces"
+description: |
+  Interfaces can be nested. An interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterfac.htm) can include one or more interfaces as components, which can contain interfaces themselves. An interface that includes another interface is called a compound interface(https://help.
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_composition.htm"
+abapFile: "abeninterface_composition.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abeninterface", "composition"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Object Navigator"
+description: |
+  Tool of the ABAP Workbench(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') for the central maintenance of repository objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm 'Glossary Entry'). T
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobject_navigator_glosry.htm"
+abapFile: "abenobject_navigator_glosry.htm"
+keywords: ["do", "if", "try", "abenobject", "navigator", "glosry"]
+---
 
 * * *
 

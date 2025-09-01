@@ -1,4 +1,14 @@
-  
+---
+title: "GET TIME - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_time.htm) Syntax GET TIME FIELD tim. Effect Updates the system fields sy-datlo, sy-datum, sy-timlo, and sy-uzeit. Addition -   FIELD tim Returns the current time in tim, without updating the system fields.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_time_shortref.htm"
+abapFile: "abapget_time_shortref.htm"
+keywords: ["update", "do", "if", "abapget", "time", "shortref"]
+---
 
 * * *
 

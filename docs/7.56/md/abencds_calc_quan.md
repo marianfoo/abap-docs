@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Amounts and Quantities"
+description: |
+  In ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glosry.htm 'Glossary Entry'), a special handling for amounts and quantities is implemented. ABAP CDS amount fields(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_amount_field_glosry.htm 'Gloss
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_calc_quan.htm"
+abapFile: "abencds_calc_quan.htm"
+keywords: ["do", "try", "data", "types", "abencds", "calc", "quan"]
+---
 
 * * *
 

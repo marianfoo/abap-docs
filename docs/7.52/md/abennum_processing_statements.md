@@ -1,4 +1,14 @@
-  
+---
+title: "Statements for Numeric Calculations"
+description: |
+  Alongside arithmetic expressions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry'), four special statements are provided for performing the basic arithmetic operations addition, subtraction, multiplication, and division: -   ADD(htt
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennum_processing_statements.htm"
+abapFile: "abennum_processing_statements.htm"
+keywords: ["do", "try", "data", "abennum", "processing", "statements"]
+---
 
 * * *
 

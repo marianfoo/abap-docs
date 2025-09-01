@@ -1,4 +1,14 @@
-  
+---
+title: "c1_provider_rules_rap"
+description: |
+  c1_provider_rules_rap - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_rap.htm"
+abapFile: "abenc1_provider_rules_rap.htm"
+keywords: ["do", "if", "try", "data", "abenc1", "provider", "rules", "rap"]
+---
 
 * * *
 

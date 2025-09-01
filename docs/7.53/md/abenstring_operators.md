@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand1 && operand2 ... Effect The chaining operator && concatenates two operands in a string expression as a character string. The operand positions operand are enhanced character-like expression positions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_expression_posit
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_operators.htm"
+abapFile: "abenstring_operators.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "data", "types", "abenstring", "operators"]
+---
 
 * * *
 

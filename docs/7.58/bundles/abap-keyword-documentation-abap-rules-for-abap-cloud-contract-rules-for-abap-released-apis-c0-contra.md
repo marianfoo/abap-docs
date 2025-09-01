@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenc0_contract_rules_bdef.htm
 
-  
+---
+title: "Continue"
+description: |
+  C0 Contract Rules for Providers of RAP Behavior Definitions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_provider_rules_bdef.htm) C0 Contract Rules for Consumers of RAP Behavior Definitions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_consumer_rules_bdef
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_contract_rules_bdef.htm"
+abapFile: "abenc0_contract_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "contract", "rules", "bdef"]
+---
 
 * * *
 
@@ -38,7 +48,17 @@ Continue
 
 ### abenc0_provider_rules_bdef.htm
 
-  
+---
+title: "BDEF Implementation Type"
+description: |
+  Rules All - A C0 release is possible for the language version ABAP for Cloud Development(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_cloud_dev_glosry.htm 'Glossary Entry'). C0 release for the language version ABAP for Key Users(https://help.sap.com/doc/abapdocu_758_i
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_provider_rules_bdef.htm"
+abapFile: "abenc0_provider_rules_bdef.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "abenc0", "provider", "rules", "bdef"]
+---
 
 * * *
 
@@ -55,10 +75,8 @@ BDEFs with the [implementation type](https://help.sap.com/doc/abapdocu_758_index
 
 The following sections show the most important C0 contract rules for BDEFs.
 
--   [Prerequisites for the C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_1)
--   [Naming Rules](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
+-   [Prerequisites for the C0 Release](#abenc0-provider-rules-bdef-1-------naming-rules---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
+-   [Stability Rules After Release](#abenc0-provider-rules-bdef-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
 
 Prerequisites for the C0 Release   
 
@@ -159,7 +177,17 @@ Example Topics  
 
 ### abenc0_consumer_rules_bdef.htm
 
-  
+---
+title: "Naming Rules"
+description: |
+  The following applies to extensions in ABAP for Cloud Development(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_cloud_dev_glosry.htm 'Glossary Entry'): 1.  If the extension has a namespace prefix(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenname_space_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_consumer_rules_bdef.htm"
+abapFile: "abenc0_consumer_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "consumer", "rules", "bdef"]
+---
 
 * * *
 
@@ -216,7 +244,17 @@ Example Topics  
 
 ### abenc0_demo_rap_bo.htm
 
-  
+---
+title: "c0_demo_rap_bo"
+description: |
+  c0_demo_rap_bo - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_demo_rap_bo.htm"
+abapFile: "abenc0_demo_rap_bo.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenc0", "demo", "rap"]
+---
 
 * * *
 
@@ -272,7 +310,17 @@ extend behavior for RootInterface
 
 ### abenc0_demo_service_proj.htm
 
-  
+---
+title: "c0_demo_service_proj"
+description: |
+  c0_demo_service_proj - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_demo_service_proj.htm"
+abapFile: "abenc0_demo_service_proj.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenc0", "demo", "service", "proj"]
+---
 
 * * *
 

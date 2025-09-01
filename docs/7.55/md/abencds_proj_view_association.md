@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ASSOCIATION  min..max  TO target AS _assoc ON cds_cond(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conditional_expression_v2.htm)  WITH DEFAULT FILTER cds_cond(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conditional_exp
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_association.htm"
+abapFile: "abencds_proj_view_association.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "proj", "view", "association"]
+---
 
 * * *
 

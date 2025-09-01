@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE OBJECT, OLE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_ole2.htm) Syntax CREATE OBJECT ole class NO FLUSH QUEUE-ONLY. Effect Creates an OLE automation object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenole_automation_glosry.htm 'G
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_ole_shortref.htm"
+abapFile: "abapcreate_object_ole_shortref.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapcreate", "object", "ole", "shortref"]
+---
 
 * * *
 

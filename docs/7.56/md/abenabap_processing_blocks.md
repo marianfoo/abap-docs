@@ -1,4 +1,14 @@
-  
+---
+title: "Reporting Events"
+description: |
+  The following are event key words for reporting(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreporting_glosry.htm 'Glossary Entry') events: -   INITIALIZATION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinitialization.htm), -   START-OF-SELECTION(https://he
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_processing_blocks.htm"
+abapFile: "abenabap_processing_blocks.htm"
+keywords: ["select", "do", "try", "data", "abenabap", "processing", "blocks"]
+---
 
 * * *
 

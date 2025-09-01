@@ -1,4 +1,14 @@
-  
+---
+title: "enhancement_concept_glosry"
+description: |
+  enhancement_concept_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenhancement_concept_glosry.htm"
+abapFile: "abenenhancement_concept_glosry.htm"
+keywords: ["do", "if", "case", "try", "abenenhancement", "concept", "glosry"]
+---
 
 * * *
 

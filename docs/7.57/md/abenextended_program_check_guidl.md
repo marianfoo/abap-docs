@@ -1,4 +1,14 @@
-  
+---
+title: "Extended Program Check"
+description: |
+  Background You can call the extended program check for activated programs either from ABAP Workbench or by using transaction SLIN. It performs static checks that are too complex for the regular syntax check. Both individual and multiple subtests can be performed, or an ATC-relevant check that includ
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_program_check_guidl.htm"
+abapFile: "abenextended_program_check_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "abenextended", "program", "check", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - IMPLEMENTATION"
+description: |
+  Work in progress  Syntax implementation unmanagedmanagedabstract in class class_name unique; Effect The implementation type of the business object behavior(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm 'Glossary Entry') is introduced
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm"
+abapFile: "abenbdl_implementation.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "types", "abenbdl", "implementation"]
+---
 
 * * *
 

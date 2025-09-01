@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 

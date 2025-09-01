@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   To create a connection object for the standard connection(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_db_connection_glosry.htm 'Glossary Entry'), an instance of CL_SQL_CONNECTION can be created directly using CREATE OBJECT or the instance operator NEW instead of c
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_sql_connection.htm"
+abapFile: "abencl_sql_connection.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abencl", "sql", "connection"]
+---
 
 * * *
 

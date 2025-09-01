@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Index"
+description: |
+  A(#A) B(#B) C(#C) D(#D) E(#E) F(#F) G(#G) H(#H) I(#I) J(#J) K(#K) L(#L) M(#M) N(#N) O(#O) P(#P) Q(#Q) R(#R) S(#S) T(#T) U(#U) V(#V) W(#W) X(#X) Y(#Y) Z(#Z) ! Escape Character (https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennames_e
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_index.htm"
+abapFile: "abenabap_index.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenabap", "index"]
+---
 
 * * *
 
@@ -27,6 +37,7 @@ ABAP Index
 "#EC CI\_
 [Pseudo Comment
 ](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)
+
 #
 [ABAP Language Element
 ](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expressions.htm)[CAST
@@ -42,6 +53,7 @@ ABAP Index
 ](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_ref.htm)[SWITCH
 ](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_switch.htm)[VALUE
 ](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm)
+
 ##
 [ABAP Language Element
 ](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm)

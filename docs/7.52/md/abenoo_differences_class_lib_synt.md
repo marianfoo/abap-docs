@@ -1,4 +1,14 @@
-  
+---
+title: "Statements for Defining Classes and Interfaces"
+description: |
+  The following statements are used to define classes and interfaces and their components. They can be used in any ABAP program where class and interface definitions are allowed. Statements for Defining Classes Defining the Declaration Part CLASS ... DEFINITION ... ... ENDCLASS ... Defining the Implem
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoo_differences_class_lib_synt.htm"
+abapFile: "abenoo_differences_class_lib_synt.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenoo", "differences", "lib", "synt"]
+---
 
 * * *
 

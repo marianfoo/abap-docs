@@ -1,4 +1,14 @@
-  
+---
+title: "Runtime Measurements"
+description: |
+  The statements in this section allow you to measure the runtime of a program and make corresponding settings. -   GET RUN TIME(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_run_time.htm) -   SET RUN TIME CLOCK RESOLUTION(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_runtime_measurements.htm"
+abapFile: "abenabap_runtime_measurements.htm"
+keywords: ["do", "class", "abenabap", "runtime", "measurements"]
+---
 
 * * *
 

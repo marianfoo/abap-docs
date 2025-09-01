@@ -1,4 +1,14 @@
-  
+---
+title: "table_iteration_glosry"
+description: |
+  table_iteration_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_iteration_glosry.htm"
+abapFile: "abentable_iteration_glosry.htm"
+keywords: ["loop", "do", "try", "internal-table", "abentable", "iteration", "glosry"]
+---
 
 * * *
 

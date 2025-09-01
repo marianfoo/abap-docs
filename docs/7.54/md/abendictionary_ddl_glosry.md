@@ -1,4 +1,14 @@
-  
+---
+title: "Dictionary DDL"
+description: |
+  Data definition language (DDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddl_glosry.htm 'Glossary Entry')) used in ABAP Dictionary(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') to define ABAP-managed database obje
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendictionary_ddl_glosry.htm"
+abapFile: "abendictionary_ddl_glosry.htm"
+keywords: ["do", "try", "data", "abendictionary", "ddl", "glosry"]
+---
 
 * * *
 

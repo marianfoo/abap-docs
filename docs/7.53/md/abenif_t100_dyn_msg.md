@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   The interface IF_T100_DYN_MSG is designed specifically for raising class-based exceptions with the addition MESSAGE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception_message.htm) of the statement RAISE EXCEPTION(https://help.sap.com/doc/abapdocu_753_index_htm/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenif_t100_dyn_msg.htm"
+abapFile: "abenif_t100_dyn_msg.htm"
+keywords: ["do", "if", "class", "data", "abenif", "t100", "dyn", "msg"]
+---
 
 * * *
 

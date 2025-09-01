@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Statements for Logical Databases"
+description: |
+  The following additions and statements are only intended for use in executable programs that are linked with logical databases: -   Addition NO DATABASE SELECTION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect-options_no_db_sel.htm) of the statement SELECT-OPTIONS -   E
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenldb_reporting_statements.htm"
+abapFile: "abenldb_reporting_statements.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "reporting", "statements"]
+---
 
 * * *
 

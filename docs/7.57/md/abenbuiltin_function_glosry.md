@@ -1,4 +1,14 @@
-  
+---
+title: "builtin_function_glosry"
+description: |
+  builtin_function_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_function_glosry.htm"
+abapFile: "abenbuiltin_function_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbuiltin", "function", "glosry"]
+---
 
 * * *
 

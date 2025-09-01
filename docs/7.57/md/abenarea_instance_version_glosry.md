@@ -1,4 +1,14 @@
-  
+---
+title: "area_instance_version_glosry"
+description: |
+  area_instance_version_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarea_instance_version_glosry.htm"
+abapFile: "abenarea_instance_version_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenarea", "instance", "version", "glosry"]
+---
 
 * * *
 

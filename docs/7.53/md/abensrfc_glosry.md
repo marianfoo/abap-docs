@@ -1,4 +1,14 @@
-  
+---
+title: "srfc_glosry"
+description: |
+  srfc_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensrfc_glosry.htm"
+abapFile: "abensrfc_glosry.htm"
+keywords: ["do", "try", "abensrfc", "glosry"]
+---
 
 * * *
 

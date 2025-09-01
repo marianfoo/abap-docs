@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Dictionary Objects"
+description: |
+  The dictionary objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_object_glosry.htm 'Glossary Entry') described in this subnode are obsolete and are only available for reasons of compatibility with older releases. -   DDIC - External Views (Obsolete)(https://h
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_obsolete.htm"
+abapFile: "abenddic_obsolete.htm"
+keywords: ["do", "if", "try", "abenddic", "obsolete"]
+---
 
 * * *
 

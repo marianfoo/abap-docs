@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Display Properties for Parameters"
+description: |
+  The example demonstrates how the select_options additions of the statement PARAMETERS can be used. Source Code REPORT demo_sel_screen_screen_opt. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK part1 WITH FRAME TITLE text-001. PARAMETERS field(10) TYPE c OBLIGATORY. SELECT
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensel_screen_param_screen_abexa.htm"
+abapFile: "abensel_screen_param_screen_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "method", "class", "data", "internal-table", "abensel", "screen", "param", "abexa"]
+---
 
 * * *
 

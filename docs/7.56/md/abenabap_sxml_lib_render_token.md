@@ -1,4 +1,14 @@
-  
+---
+title: "Basic Approach"
+description: |
+  An XML writer is created using the factory method CREATE of the required class. The format and character format can also be defined, for example: DATA(writer) = cl_sxml_string_writer=>create( type = encoding = ... ). Here, the static type of the reference variables is the type of the class itself
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_render_token.htm"
+abapFile: "abenabap_sxml_lib_render_token.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "sxml", "lib", "render", "token"]
+---
 
 * * *
 

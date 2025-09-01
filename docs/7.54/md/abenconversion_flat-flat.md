@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Between Flat Structures"
+description: |
+  When flat structures are converted, the fragment view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunicode_fragment_view_glosry.htm 'Glossary Entry') of the structures must be respected. The following rules apply when converting a flat structure to another flat structure. -   Whe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_flat-flat.htm"
+abapFile: "abenconversion_flat-flat.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenconversion", "flat"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Text Environment"
+description: |
+  Background The text environment(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment_glosry.htm 'Glossary Entry') is part of the runtime framework of an ABAP program and is made up of a text environment language, a locale, and a system code page. All programs in an
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environm_guidl.htm"
+abapFile: "abentext_environm_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abentext", "environm", "guidl"]
+---
 
 * * *
 

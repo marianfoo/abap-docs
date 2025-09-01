@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, BOXED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_shortref.htm) Syntax DATA struc TYPE struc_type BOXED. Effect This statement defines a structured attribute of a class or an interface as a static box(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_boxed.htm"
+abapFile: "abapdata_boxed.htm"
+keywords: ["do", "try", "class", "data", "types", "abapdata", "boxed"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Rules for Structures"
+description: |
+  In assignments between structures(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm), it is necessary to distinguish between flat structures(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenflat_structure_glosry.htm 'Glossary Entry') and dee
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_struc.htm"
+abapFile: "abenconversion_struc.htm"
+keywords: ["do", "if", "try", "catch", "data", "abenconversion", "struc"]
+---
 
 * * *
 

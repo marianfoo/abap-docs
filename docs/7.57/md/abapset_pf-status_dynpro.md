@@ -1,4 +1,14 @@
-  
+---
+title: "SET PF-STATUS, Dynpro"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_pf-status_shortref.htm) Syntax SET PF-STATUS status OF PROGRAM prog EXCLUDING fcode. Additions: 1. ... OF PROGRAM prog(#!ABAP_ADDITION_1@1@) 2. ... EXCLUDING fcode(#!ABAP_ADDITION_2@2@) Effect
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_pf-status_dynpro.htm"
+abapFile: "abapset_pf-status_dynpro.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abapset", "status", "dynpro"]
+---
 
 * * *
 

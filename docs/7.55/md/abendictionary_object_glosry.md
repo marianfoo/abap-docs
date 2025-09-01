@@ -1,4 +1,14 @@
-  
+---
+title: "dictionary_object_glosry"
+description: |
+  dictionary_object_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendictionary_object_glosry.htm"
+abapFile: "abendictionary_object_glosry.htm"
+keywords: ["do", "try", "data", "types", "abendictionary", "object", "glosry"]
+---
 
 * * *
 

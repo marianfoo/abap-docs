@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC structure"
+description: |
+  Structured type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructured_type_glosry.htm 'Glossary Entry') defined as a DDIC type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_type_glosry.htm 'Glossary Entry') in the ABAP Dictionary(https://help.sap.com/d
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structure_glosry.htm"
+abapFile: "abenddic_structure_glosry.htm"
+keywords: ["do", "try", "abenddic", "structure", "glosry"]
+---
 
 * * *
 

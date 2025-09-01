@@ -1,4 +1,14 @@
-  
+---
+title: "READ, LOOP, INSERT, COLLECT, APPEND, MODIFY, DELETE, Short Forms"
+description: |
+  Obsolete Syntax READ TABLE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table.htm) itab table_key(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_key.htm) free_key(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_free
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_short_forms.htm"
+abapFile: "abenitab_short_forms.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "class", "data", "internal-table", "abenitab", "short", "forms"]
+---
 
 * * *
 

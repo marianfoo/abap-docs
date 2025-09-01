@@ -1,4 +1,14 @@
-  
+---
+title: "Data References"
+description: |
+  Data references can point to any data objects or to their parts (components, rows of internal tables, or sections specified by offsets and lengths). The static type of their reference variables is either the built-in generic type data or any non-generic data type. Data reference variables can be use
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_reference_type.htm"
+abapFile: "abendata_reference_type.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abendata", "reference", "type"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Accessing Data Objects Dynamically"
+description: |
+  Background Field symbols and data references are used to access data objects whose name and attributes are not known until runtime. -   Field symbols A field symbol is a symbolic name for a data object declared with FIELD-SYMBOLS, to which memory areas can be assigned using the ASSIGN statement or,
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendyn_access_data_obj_guidl.htm"
+abapFile: "abendyn_access_data_obj_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "internal-table", "field-symbol", "abendyn", "access", "obj", "guidl"]
+---
 
 * * *
 

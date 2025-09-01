@@ -1,4 +1,14 @@
-  
+---
+title: "selscreen_object_glosry"
+description: |
+  selscreen_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselscreen_object_glosry.htm"
+abapFile: "abenselscreen_object_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenselscreen", "object", "glosry"]
+---
 
 * * *
 

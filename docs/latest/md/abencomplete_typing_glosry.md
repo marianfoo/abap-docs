@@ -1,4 +1,14 @@
-  
+---
+title: "complete_typing_glosry"
+description: |
+  complete_typing_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomplete_typing_glosry.htm"
+abapFile: "abencomplete_typing_glosry.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abencomplete", "typing", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP language element addition"
+description: |
+  ABAP word(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_word_glosry.htm 'Glossary Entry') or combination of multiple ABAP words. A language element addition can be used in ABAP statements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_statement_glosry.h
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_elmnt_add_glosry.htm"
+abapFile: "abenabap_language_elmnt_add_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "language", "elmnt", "add", "glosry"]
+---
 
 * * *
 

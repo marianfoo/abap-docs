@@ -1,4 +1,14 @@
-  
+---
+title: "hierarchy_generator_glosry"
+description: |
+  hierarchy_generator_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhierarchy_generator_glosry.htm"
+abapFile: "abenhierarchy_generator_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenhierarchy", "generator", "glosry"]
+---
 
 * * *
 

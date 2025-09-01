@@ -1,4 +1,14 @@
-  
+---
+title: "Casting"
+description: |
+  Background Casting refers to the process of handling a data object by assuming a certain data type. This definition is different to the meaning of the concept in other programming languages, such as Java. Here, casting means a different concept which is referred to as 'conversion' in ABAP. Casting i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencasting_guidl.htm"
+abapFile: "abencasting_guidl.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abencasting", "guidl"]
+---
 
 * * *
 

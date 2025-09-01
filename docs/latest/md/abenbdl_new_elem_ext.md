@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Adding Elements"
+description: |
+  Syntax ... determination(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_determinations.htm) validation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_validations.htm) event(https://help.sap.com/doc/abapdocu_latest_index_htm/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_new_elem_ext.htm"
+abapFile: "abenbdl_new_elem_ext.htm"
+keywords: ["insert", "update", "delete", "loop", "do", "while", "if", "try", "method", "class", "data", "abenbdl", "new", "elem", "ext"]
+---
 
 * * *
 

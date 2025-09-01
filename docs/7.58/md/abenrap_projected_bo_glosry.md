@@ -1,4 +1,14 @@
-  
+---
+title: "RAP projected business object"
+description: |
+  A RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry') that is used as a basis of a RAP projection BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_projection_bo_glosry.htm 'Glossary Entry'). It can be of imp
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_projected_bo_glosry.htm"
+abapFile: "abenrap_projected_bo_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "projected", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Examples"
+description: |
+  !Example(exa.gif 'Example') ADBC - DDL and DML(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc_dml_ddl_abexa.htm) !Example(exa.gif 'Example') ADBC - Parameter Binding(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc_dml_ddl_binding_abexa.htm) !Example
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc_abexas.htm"
+abapFile: "abenadbc_abexas.htm"
+keywords: ["do", "if", "data", "abenadbc", "abexas"]
+---
 
 * * *
 

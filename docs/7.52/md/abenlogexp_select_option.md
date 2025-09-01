@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT IN seltab ... Effect In a comparison expression with the relational operator IN, the conditions of a selection table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_table_glosry.htm 'Glossary Entry') or a table with this layout are checked. This mea
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_select_option.htm"
+abapFile: "abenlogexp_select_option.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "internal-table", "abenlogexp", "option"]
+---
 
 * * *
 

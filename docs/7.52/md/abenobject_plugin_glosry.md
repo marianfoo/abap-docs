@@ -1,4 +1,14 @@
-  
+---
+title: "object_plugin_glosry"
+description: |
+  object_plugin_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_plugin_glosry.htm"
+abapFile: "abenobject_plugin_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenobject", "plugin", "glosry"]
+---
 
 * * *
 

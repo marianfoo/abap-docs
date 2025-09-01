@@ -1,26 +1,11 @@
 # ABAP UI - Complete Reference (7.53)
 
-**Generated**: 2025-09-01T11:14:58.554Z
-**Bundles Combined**: 67
+**Generated**: 2025-09-01T19:37:26.792Z
+**Bundles Combined**: 66
 **Category**: ui
 
 ---
 
-
-
-## 🔗 Complete Source Documentation
-
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-**🏷️ Category**: UI
-**🔍 Search Specific Topics**: Use `abap_search query:"ui"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
-
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
-
----
 
 ## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - DEFINE VIEW / ABAP CDS - SELECT / ABAP CDS - SELECT, Built-In Functions / ABAP CDS - Special Functions / ABAP CDS - Conversion Functions
 
@@ -33,11 +18,17 @@ Included pages: 2
 
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -101,16 +92,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -273,16 +267,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -346,16 +343,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -509,308 +509,28 @@ id = '1';
 ---
 
 
-## ABAP Keyword Documentation / ABAP - Dictionary / Built-In Data Types in ABAP Dictionary / Attributes of the Built-In Dictionary Types
+## ABAP Keyword Documentation / ABAP - Dictionary / Built-In Data Types in ABAP Dictionary / Attributes of the Built-In Dictionary Types / General Dictionary Types
 
-**Files**: 13 | **Difficulty**: intermediate
+**Files**: 4 | **Difficulty**: intermediate
 
-# ABAP Keyword Documentation / ABAP - Dictionary / Built-In Data Types in ABAP Dictionary / Attributes of the Built-In Dictionary Types
+# ABAP Keyword Documentation / ABAP - Dictionary / Built-In Data Types in ABAP Dictionary / Attributes of the Built-In Dictionary Types / Special Dictionary Types
 
-Included pages: 13
+Included pages: 5
 
-
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-
-### abenddic_builtin_types_prop.htm
-
-> **📖 Official SAP Documentation**: [abenddic_builtin_types_prop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) → 
-
-Attributes of the Built-In Dictionary Types
-
--   [General dictionary types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm)
-
--   [Special dictionary types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm)
-
--   [Obsolete dictionary types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_obsolete_types.htm)
-
-Continue
-[General Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm)
-[Special Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm)
-[Obsolete Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_obsolete_types.htm)
-
-
-
-**📖 Source**: [abenddic_builtin_types_prop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm)
-
-### abenddic_builtin_types_general.htm
-
-> **📖 Official SAP Documentation**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) → 
-
-General Dictionary Types
-
--   [Integers, packed numbers, binary floating point numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm)
-
--   [Decimal floating point numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_decimal_floating_point.htm)
-
--   [Character-like types and byte-like types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm)
-
-Continue
-[Integers, Packed Numbers, Binary Floating Point Numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm)
-[Decimal Floating Point Numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_decimal_floating_point.htm)
-[Character-Like Types and Byte-Like Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm)
-
-
-
-**📖 Source**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm)
-
-### abenddic_builtin_types_int_pack.htm
-
-> **📖 Official SAP Documentation**: [abenddic_builtin_types_int_pack.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) →  [General Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm) → 
-
-Integers, Packed Numbers, Binary Floating Point Numbers
-
-The following types are used for general descriptions of the numeric types (except for decimal floating point numbers):
-
--   [INT1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [integer numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninteger_glosry.htm "Glossary Entry")
-
-These types describe general 1-byte, 2-byte, 4-byte, and 8-byte integers. The ABAP types [b](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_numeric.htm) and [s](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_numeric.htm), assigned to the types INT1 and INT2, cannot be specified either statically or dynamically in ABAP statements. These types only occur in ABAP programs, by reference to the types INT1 and INT2 from ABAP Dictionary.
-
--   [DEC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [packed numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpacked_number_glosry.htm "Glossary Entry")
-
-This type describes general packed numbers in [BCD format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbcd_glosry.htm "Glossary Entry"). When used, a length and the number of decimal places must be added to the type. The number of decimal places must be less than or equal to the length and cannot exceed 14.
-
--   [FLTP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [binary floating point numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbinfloat_glosry.htm "Glossary Entry")
-
-This type describes general binary floating point numbers. Table fields of this type cannot be used as [key fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm) of database tables.
-
-Notes
-
--   An odd number of places should be used in the definition of data types based on the built-in type DEC. These values are stored in [BCD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbcd_glosry.htm "Glossary Entry") format, for which in ABAP (data type p), only an odd number of digits is possible, since a half byte is used for the sign. If a data type DEC has an even number of characters, however, the length of the associated ABAP type p is rounded up and hence contains the next highest odd number of places. This can cause overflows, for example, and then exceptions when writing to database tables. The same applies to the built-in types CURR, DF34\_DEC, DF16\_DEC, and QUAN, which are handled technically like the type DEC.
-
--   If the built-in types INT1, INT2, INT4, and INT8 are [used](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_type_usage.htm) to specify types, the number of places must usually be specified as 2, 5, 10, and 19. If the type FLTP is used, 16 places and the same number of decimal places must be specified. The specified number of places is generally ignored by the data types. By default, they describe platform-specific integers or binary floating point numbers and occupy 1, 2, 4, or 8 bytes.
-
--   In the case of integer types, the specified places express the possible decimal places without sign.
-
--   In the case of binary floating point numbers, 16 expresses the approximate precision of the IEEE-754 (double precision) standard.
-
-The specified places are saved in the metadata of a self-defined type and are evaluated, if necessary, by special frameworks.
-
--   The output formats for fields on dynpros and Web Dynpros and in the statements [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) can be predefined for the numeric types specific to each user in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary. If the output length is too short, any formatting characters are suppressed.
-
--   If a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") has one of the built-in numeric types, the output of a sign must be defined in a [domain](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_domains.htm) so that negative values can be represented.
-
-
-
-**📖 Source**: [abenddic_builtin_types_int_pack.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm)
-
-### abenddic_decimal_floating_point.htm
-
-> **📖 Official SAP Documentation**: [abenddic_decimal_floating_point.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_decimal_floating_point.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) →  [General Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm) → 
-
-Decimal Floating Point Numbers
-
-In [decimal floating point numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecfloat_glosry.htm "Glossary Entry"), a maximum of 16 or 34 places exactly are returned in the mantissa depending on the data type.
-
--   [Handling in ABAP Dictionary](#abenddic-decimal-floating-point-1--------handling-in-dynpros---output-length-and-output-style---@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_2)
-
--   [Handling in ABAP Programs](#abenddic-decimal-floating-point-3---handling-in-abap-dictionary--in-abap-dictionary--the-following-data-types-are-available-for-decimal-floating-numbers--------df16--dec--javascript-call-link---abenddic-builtin-types-htm-----and--df16--raw--javascript-call-link---abenddic-builtin-types-htm-----for-16-digit-numbers--------df34--dec--javascript-call-link---abenddic-builtin-types-htm-----and--df34--raw--javascript-call-link---abenddic-builtin-types-htm-----for-34-digit-numbers---these-data-types-are-a-replacement-for-real-decimal-floating-point-types--real-decimal-floating-point-types-can-be-used-without-restrictions-in-the-database-as-numeric-data-types-in-relevant-expressions-and-functions--but-are-not-yet-supported-by-all-database-systems-------df16--dec-and-df34--dec-----in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-as-a-packed-number--format--dec--javascript-call-link---abenddic-builtin-types-int-pack-htm-------the-length-and-the-number-of-decimal-places-must-be-specified-when-defining-a-data-type-in-abap-dictionary--calculations--select-with-appropriate--sql-expressions--javascript-call-link---abapsql-expr-htm-----or-with-the-aggregate-functions--sum-and-avg--javascript-call-link---abapselect-aggregate-htm------update-with--set---and-----javascript-call-link---abapupdate-set-expression-htm------can-be-performed-on-the-database-for-this-type--when-there-is-a-write-to-the-database--the-system-implicitly-rounds-off-to-the-number-of-decimal-places-and-decimal-overflows-can-occur--database-fields-with-these-types-can-be-edited-in--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry---------df16--raw-and-df34--raw-----in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-as-binary--in-raw-format---the-length-is-set-to-16-or-34-places--values-can-be-sorted--compared--and-used-in-indexes--for-this-type--no-calculations-can-be-performed-on-the-database--this-is-an-sap-specific-format--which-means-that-the-corresponding-fields-also-cannot-be-edited-in--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry----the-scaling-is-lost-when-writing-to-the-database---notes------the-actual-built-in-data-type-from-abap-dictionary-used-for-decimal-point-numbers-depends-on-their-purpose-------the-types-df16--dec-and-df34--dec-can-be-used-for-calculations-on-the-database--but-their-value-ranges-are-smaller-than-those-of-real-decimal-floating-point-numbers-------the-types-df16--raw-and-df34--raw-cover-the-whole-value-range--but-are-not-recognized-as-numbers-by-the-databases-------as-in-the--general-packed-numbers--javascript-call-link---abenddic-builtin-types-int-pack-htm------the-number-of-places-in-the-types-df16--dec-and-df34--dec-should-be-odd-------in-the--abap-cds--javascript-call-link---abencds-htm-----it-is-not-usually-possible-to-execute-expressions-or-functions-for-decimal-floating-point-numbers-------as-well-as-the-types-above--there-are-also-the--obsolete--javascript-call-link---abenddic-obsolete-types-htm-----built-in-data-types-df16--scl-and-df34--scl-for-decimal-floating-point-numbers-with--scaling--javascript-call-link---abenscale-glosry-htm-----glossary-entry---------in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-in-the-same-way-as-df16--raw-or-df34--raw--length-16-or-34-places--and-the-same-restrictions-apply---the-scaling-must-be-specified-in-a-direct-successor-database-field-with-type-int2--when-a-decimal-floating-point-number-is-written--this-field-is-filled-automatically-with-the-scaling-and-the-scaling-is-taken-from-it-in-reads-------it-is-strongly-advised-not-to-use-the-types-df16--scl-and-df34--scl--their-functions-are-rarely-needed-and-the-additional-column-for-scaling-makes-them-too-complicated-and-error-prone-to-use-correctly---handling-in-dynpros---output-length-and-output-style--the-maximum-output-length-that-can-be-specified-in-a--domain--javascript-call-link---abenddic-domains-htm-----for-a-16-character-decimal-floating-point-number-is-24--for-a-34-character-number--46-is-the-maximum-output-length--these-are-also-the-default-values---in-a-domain--or-directly-in-a-structure-component-created-using-one-of-the-types-for-decimal-floating-numbers--but-not-in-data-elements-with-directly-specified-technical-attributes---one-of-the-following-output-styles-is-always-defined--the-output-style-defines-how-a-dynpro-field-defined-with-reference-to-this-domain--or-a-corresponding-abap-field-in-the-case-of-list-output--is-formatted-------simple--mathematical-or-scientific-notation--depending-on-space-------leading-sign-to-the-right--commercial-notation--canceled-if-not-enough-space--instead-of-implicit-transformation-to-scientific-notation-------scale-preserving--format-with-preservation-of-scaling--including-trailing-zeroes-in-the-decimal-places------scientific--scientific-notation------scientific-with-leading-zero--scientific-notation-with-a-0-as-an-integer-digit------scale-preserving-scientific--scientific-notation-including-trailing-zeroes-in-the-mantissa-------technical--scientific-notation-where-the-exponent-is-always-an-integer-and-a-multiple-of-3--the-value-range-of-the-integer-digits-is-between-1-and-999--except-if-the-source-field-has-the-value-0----for-dynpro-fields-whose-data-type-is-not-defined-in-abap-dictionary--the-output-style-can-also-be-determined-in--screen-painter--javascript-call-link---abenscreen-painter-glosry-htm-----glossary-entry----in-the-case-of-formatting-with-the-statements--write--javascript-call-link---abapwrite--htm-----or--write-to--javascript-call-link---abapwrite-to-htm------the-addition--style--javascript-call-link---abapwrite-ext-options-htm-----is-available--as-for-the--string-templates--javascript-call-link---abapcompute-string-format-options-htm--------notes------if-scientific-notation-is-used--a-limited-number-of-displayed-places-in-the-mantissa-is-recommended--this-can-be-specified-using-the-built-in-function--rescale--javascript-call-link---abendec-floating-point-functions-htm-----------the--scale-preserving--style-ensures-that-the-scaling-is-restored-in-conversions-from-dynpro-fields-to-abap--and-not-just-the-original-value-------if-vertically-aligned-decimal-separators-and-exponents-are-needed-on-uis--the-scale-preserving-scientific-notation-can-be-used---handling-in-abap-programs--the-abap-types-that-correspond-to-the-16-or-34-figure-decimal-floating-numbers-in-abap-dictionary-are-decfloat16-and-decfloat34--which-are-handled-internally-according-to-the-ieee-754-2008-standard--and-are-supported-by-all-abap-operations--in--arithmetic-sql-expressions--javascript-call-link---abensql-arith-htm------decimal-floating-point-numbers-are-not-supported---the-addition--style--javascript-call-link---abapwrite-to-options-htm-----after--write-----to------javascript-call-link---abapwrite-to-htm-----and-the-formatting-option--style--javascript-call-link---abapcompute-string-format-options-htm-----in--embedded-expressions--javascript-call-link---abenstring-templates-expressions-htm-----are-available-for-the-formatting-of-decimal-floating-numbers-in-programs--these-overwrite-the-output-style-defined-in-abap-dictionary--------abenddic-character-byte-types-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------built-in-data-types-in-abap-dictionary--javascript-call-link---abenddic-builtin-types-intro-htm---------attributes-of-the-built-in-dictionary-types--javascript-call-link---abenddic-builtin-types-prop-htm---------general-dictionary-types--javascript-call-link---abenddic-builtin-types-general-htm---------character-like-types-and-byte-like-types-------character-strings---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_1)
-
--   [Byte Chains](#abenddic-character-byte-types-2--------notes-on-strings---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_3)
-
--   [Use in ABAP SQL](#abenddic-character-byte-types-4--------handling-in-dynpros---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_5)
-
-Character Strings
-
-The following built-in data types in ABAP Dictionary are available for general character strings:
-
--   [CHAR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for text fields
-
-The built-in type CHAR, mapped to the ABAP type c, is used to describe general text fields with a maximum length of 30000 characters (only 1333 characters for table fields).
-
--   [LCHR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for long text fields
-
-The built-in type LCHR, also mapped to the ABAP type c, is used to describe general text fields with lengths between 256 and 32000 characters. In database tables, the maximum length must be specified as the value of a preceding INT2 or INT4 field. There can only be one table field of type LCHR or LRAW. It must not be a key field and it must be the last table field. It cannot be used in all positions of ABAP SQL statements.
-
--   [SSTRING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for short text strings
-
-The built-in type SSTRING is mapped to the ABAP type string, but handled like the type CHAR or VARCHAR in ABAP Dictionary and by database tables. The length is restricted to a maximum of 1333, but table fields of this type can also be used as [key fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm) by database tables and used by ABAP SQL statements in almost all positions where text fields are possible.
-
--   [STRING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for text strings
-
-The built-in type STRING is mapped to the ABAP type string and also handled like a text string ([CLOB](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclob_glosry.htm "Glossary Entry")) in ABAP Dictionary and by database tables. Table fields of this type cannot be used as [key fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm) or [index fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_index.htm) in database tables or in any positions in ABAP SQL statements. The possible length of a text string is unrestricted, but a maximum length of 256 can be specified to restrict its length when used for a table field of a database table, which is relevant for ABAP SQL access (see below).
-
-Notes
-
--   In general [structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures.htm), the length of a component of type CHAR is not restricted to 1333.
-
--   In database tables, there can be only one table field of the type LCHR and it must be the last table field. This means that the type LRAW cannot be used simultaneously in the same database table. If the statement [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) is used to read an LCHR field, the preceding length field must also be read. In [writes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_writing.htm) using ABAP SQL, the length field must be given the correct value or data may be lost.
-
--   LCHR is no longer recommended for new developments. The type STRING is recommended instead, however it is also not suitable for [key fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm) of database tables or for unrestricted use in ABAP SQL. Where possible, SSTRING can be used here instead.
-
--   Switching existing dictionary objects from LCHR to STRING or SSTRING, on the other hand, can be critical, since all ABAP types and ABAP objects that reference dictionary objects like this are then given a [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data type. A switch from a [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") data type to a [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data type usually constitutes an incompatible change and can produce syntax errors in ABAP programs.
-
-Byte Chains
-
-The following built-in data types in ABAP Dictionary are available for general byte chains:
-
--   [RAW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for byte fields
-
-The built-in type RAW, mapped to the ABAP type x, is used to describe byte fields with a maximum length of 32000 characters (only 255 characters for table fields).
-
--   [LRAW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for long byte fields
-
-The built-in type LRAW, also mapped to the ABAP type x, is used to describe byte fields with lengths between 256 and 32000 characters. In database tables, the maximum length must be specified as the value of a preceding INT2 or INT4 field. There can only be one table field of type LRAW or LCHR. It must not be a key field and it must be the last table field. It cannot be used in all positions of ABAP SQL statements.
-
--   [RAWSTRING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for byte strings
-
-The built-in type RAWSTRING is mapped to the ABAP type xstring and also handled like a byte string ([BLOB](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenblob_glosry.htm "Glossary Entry")) in ABAP Dictionary and by database tables. Table fields of this type cannot be used as [key fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm) or [index fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_index.htm) in database tables or in any positions in ABAP SQL statements. The possible length of a byte string is unrestricted, but a maximum length of 256 can be specified to restrict its length when used for a table field of a database table, which is relevant for ABAP SQL access (see below).
-
-Notes
-
--   In general [structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures.htm), the length of a component of type RAW is not restricted to 255.
-
--   In database tables, there can be only one table field of the type LRAW and it must be the last table field. This means that the type LCHR cannot be used simultaneously in the same database table. If the statement [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) is used to read an LRAW field, the preceding length field must also be read. In [writes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_writing.htm) using ABAP SQL, the length field must be given the correct value or data may be lost.
-
--   LRAW is no longer recommended for new developments. The type RAWSTRING is recommended instead, however it is also not suitable for [key fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm) of database tables or for unrestricted use in ABAP SQL.
-
--   Switching existing dictionary objects from LRAW to RAWSTRING, on the other hand, can be critical, since all ABAP types and ABAP objects that reference dictionary objects like this are then given a [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data type. A switch from a [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") data type to a [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data type usually constitutes an incompatible change and can produce syntax errors in ABAP programs.
-
-Notes on Strings
-
-The following points must be remembered when using built-in data types for text strings or byte strings:
-
--   The types STRING and RAWSTRING for [LOBs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry") have a variable length. A maximum length can be specified, but there is no upper limit. If a maximum length is specified, this represents the actual restriction if used for a table field of a database table.
-
--   The type SSTRING also has a variable length, but this is restricted upwards by the maximum length that can be specified. The greatest maximum length is 1333. The benefit of using SSTRING, and not CHAR, is that it is assigned to the ABAP type string. Its advantage over STRING is that it can also be used for key fields in databases and in any places in ABAP SQL in which the type CHAR is also possible.
-
--   The maximum possible length for the types STRING and RAWSTRING and the mandatory maximum length for SSTRING must not be exceeded in [writes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_writing.htm) performed on database fields of these types using ABAP SQL. If it is exceeded, an exception of the class CX\_SY\_OPEN\_SQL\_DB is raised. Truncations of strings when read to a target field, however, are ignored.
-
--   In ABAP programs, maximum lengths defined in ABAP Dictionary for the types STRING, RAWSTRING, and SSTRING are ignored by the assigned ABAP types string and xstring. As a result, writing a string that is too long to a database can raise an exception. If required, the ABAP program itself must handle the length restrictions on strings.
-
--   The maximum length of data types based on STRING, RAWSTRING, and SSTRING can be identified in an ABAP program using the built-in function [dbmaxlen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlength_functions.htm).
-
--   Trailing blanks are saved in table fields of the type STRING but not in table fields of the type SSTRING. This is particularly significant when short strings are used as key fields of database fields, since trailing blanks cannot be used as distinguishing characteristics here.
-
--   [LOBs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry") of the types STRING and RAWSTRING are usually handled as [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data objects in which only one LOB locator is saved within the data record. This locator references the actual string data. Database fields of the type SSTRING are usually saved as [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") fields. An empty long string can also be saved using the [null value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennull_value_glosry.htm "Glossary Entry"). The actual handling, however, depends on the individual database system and is not important for ABAP programs.
-
--   If a [work area](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_wa.htm) or an internal table is used to access table fields of the types SSTRING, STRING, or RAWSTRING in ABAP SQL, the work area or the row type of the internal table must be compatible with the database structure.
-
--   If structures, database tables, or views that have strings as components are used for typings in ABAP, it must be remembered that these objects are [deep structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_structure_glosry.htm "Glossary Entry"). This means, for example, that they cannot be used in the [TABLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables.htm) statement (obsolete for database accesses) or for typing the obsolete [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry") of procedures.
-
--   Access may be slower for long strings (LOBs) in database tables than for other data types. If not all data is needed at once (and to bypass any memory limits on the AS Instance), [streaming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_streaming.htm) and [locators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocators.htm) can be used to access long strings.
-
-Use in ABAP SQL
-
-The following restrictions apply when accessing database fields with character-like and byte-like types in ABAP SQL:
-
--   There are no access restrictions to database fields with the data types CHAR and RAW in ABAP SQL.
-
--   Database fields with the data types STRING and RAWSTRING plus LCHR and LRAW cannot be used in the following operand positions:
-
--   As arguments of [aggregate functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_aggregate.htm) and [SQL expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm)
-
--   In the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) when the addition [DISTINCT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_clause.htm) is used
-
--   In the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) when the addition [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_itab.htm) is used In the [strict mode from Release 7.40, SP05](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_740_sp05.htm), this produces a syntax error. Otherwise, the extended program check produces a syntax warning that can be hidden by a pragma.
-
--   In [SQL conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp.htm)
-
--   In the [GROUP BY clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgroupby_clause.htm)
-
--   In the [ORDER BY clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaporderby_clause.htm)
-
--   The data type SSTRING can be used without restrictions, except in the [coalesce](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_coalesce.htm) function and in [CASE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_case.htm) expressions.
-
-Note
-
-The same restrictions apply to the obsolete data type VARC as to STRING and RAWSTRING plus LCHR and LRAW.
-
-Handling in Dynpros
-
-When a field with character-like dictionary type is used from a [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry"), lowercase letters are transformed to uppercase letters by default. This behavior can be overridden in Screen Painter. Furthermore, [lowercase letters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_domains_sema.htm) can be preserved for data elements in the semantic attributes of a domain.
-
-
-
-**📖 Source**: [abenddic_decimal_floating_point.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_decimal_floating_point.htm)
-
-### abenddic_builtin_types_general.htm
-
-> **📖 Official SAP Documentation**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) → 
-
-General Dictionary Types
-
--   [Integers, packed numbers, binary floating point numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm)
-
--   [Decimal floating point numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_decimal_floating_point.htm)
-
--   [Character-like types and byte-like types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm)
-
-Continue
-[Integers, Packed Numbers, Binary Floating Point Numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm)
-[Decimal Floating Point Numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_decimal_floating_point.htm)
-[Character-Like Types and Byte-Like Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm)
-
-
-
-**📖 Source**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_general.htm)
 
 ### abenddic_builtin_types_special.htm
 
-> **📖 Official SAP Documentation**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Special Dictionary Types"
+description: |
+  -   Date types and time types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_types.htm) -   Special character-like types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_character_types.htm) -   Currency fields(https://help.sap.com/doc/
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm"
+abapFile: "abenddic_builtin_types_special.htm"
+keywords: ["do", "data", "types", "abenddic", "builtin", "special"]
+---
 
 * * *
 
@@ -835,16 +555,19 @@ Continue
 [Quantity Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_quantity_field.htm)
 
 
-
-**📖 Source**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm)
-
 ### abenddic_date_time_types.htm
 
-> **📖 Official SAP Documentation**: [abenddic_date_time_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Date Types and Time Types"
+description: |
+  The following character-like data types in ABAP Dictionary describe date fields and time fields: -   DATS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) or date fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_field_glosry.htm 'Gl
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_types.htm"
+abapFile: "abenddic_date_time_types.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "abenddic", "date", "time"]
+---
 
 * * *
 
@@ -875,16 +598,19 @@ Notes
 -   When a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") is represented with reference to the type ACCP (but not in the statements [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm)) and there is enough output length, a point is inserted between the year YYYY and the month MM.
 
 
-
-**📖 Source**: [abenddic_date_time_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_types.htm)
-
 ### abenddic_special_character_types.htm
 
-> **📖 Official SAP Documentation**: [abenddic_special_character_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_character_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Special Character-Like Types"
+description: |
+  The following character-like data types in ABAP Dictionary have a special semantic meaning: -   NUMC(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for numeric texts(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_text_glosry.htm 'Gl
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_character_types.htm"
+abapFile: "abenddic_special_character_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "special", "character"]
+---
 
 * * *
 
@@ -913,16 +639,19 @@ Note
 When the statements [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) are used to represent a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") with the type LANG (and when a field that references this type is formatted), this field has an output length of 2 and is converted automatically from the single-character internal language ID to the matching two-character ISO ID using the [conversion routine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_routine_glosry.htm "Glossary Entry") ISOLA (and back).
 
 
-
-**📖 Source**: [abenddic_special_character_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_character_types.htm)
-
 ### abenddic_currency_field.htm
 
-> **📖 Official SAP Documentation**: [abenddic_currency_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_currency_field.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Currency Fields"
+description: |
+  A currency field is a component of a structure, database table, or view defined in ABAP Dictionary of type CURR(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and used to record an amount in a specific currency. The amount is specified as a whole number in t
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_currency_field.htm"
+abapFile: "abenddic_currency_field.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "currency", "field"]
+---
 
 * * *
 
@@ -938,9 +667,9 @@ By default, the number of decimal places for a currency is always two. Currencie
 
 -   [Handling in ABAP Dictionary](#abenddic-currency-field-1--------handling-in-dynpros---@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
 
--   [Handling in ABAP Programs](#abenddic-currency-field-3---notes------currencies-are-handled-as-specified-by-the-data-saved-in-the-database-tables-tcur----of-the-package-sfib--the-exchange-rates-and-other-settings-can-be-edited-in-transaction-ob08-------currency-fields-are-defined-as-elements-of--cds-entities--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry---using--semantics-annotations--javascript-call-link---abencds-f1-element-annotation-htm-------handling-in-abap-dictionary--a-data-element-of-data-type--curr--javascript-call-link---abenddic-builtin-types-htm-----is-handled-as-a-field-of-data-type--dec--javascript-call-link---abenddic-builtin-types-int-pack-htm-----and-is-stored-in-database-tables-in-the--bcd--javascript-call-link---abenbcd-glosry-htm-----glossary-entry---format--when-creating-a-data-element-or-a-structure-component-of-the-data-type-curr-in-an-abap-dictionary--tool--javascript-call-link---abenddic-tools-htm------a-number-of-decimal-places-other-than-zero-must-be-defined--the-standard-value-is-two-fractional-digits---for-every-structure-component-of-data-type-curr--a-component-of-the-same-structure-or-of-a-different-structure--database-table--or-view-must-be-specified-when-editing-the-individual-component-as-a--reference-field--javascript-call-link---abenddic-structures-sema-htm-----with-the-data-type--cuky--javascript-call-link---abenddic-builtin-types-htm------this-field-is-the--currency-key--javascript-call-link---abencurrency-key-glosry-htm-----glossary-entry---that-defines-the-actual-currency--from-a-technical-perspective--the-data-type-cuky-is-handled-like-a-type-char-with-length-5---notes------the-number-of-decimal-places-for-the-currency-defined-by-the-currency-key-of-type-cuky-only-determines-the-formatting-and-checking-of-a-currency-field-on-a-dynpro--in-principal--it-is-independent-of-the-number-given-for-the-currency-field-of-type-curr--the-default-value-of-two-decimal-places-for-currency-fields-in-abap-dictionary-is-chosen-because-most-of-the-currencies-in-the-database-table-tcurc-have-two-decimal-places-and-are-not-entered-in-the-database-table-tcurx--it-is-not-advisable-to-use-any-other-value--since-in-this-case-any-unforeseen-operations-with-currency-keys-in-abap-programs-are-largely-ignored-------the-conversion-function--currency--conversion--javascript-call-link---abencds-f1-conversion-functions-htm-----in--abap-cds--javascript-call-link---abenabap-cds-glosry-htm-----glossary-entry---also-assumes-two-decimal-places-for-currency-fields--if-the-function-for-currency-fields-is-used-with-other-amounts-of-decimal-places--unexpected-behaviour-may-arise-------as-in--general-packed-numbers--javascript-call-link---abenddic-builtin-types-int-pack-htm------the-number-of-places-in-type-curr-should-be-odd---handling-in-dynpros--for-the-display-of-an-input-output-field-of-type-curr-on-a--dynpro--javascript-call-link---abendynpro-glosry-htm-----glossary-entry----the-content-is-displayed-as-character-like-content-and-in-accordance-with-a-type-dependent-mask--as-for-all--dynpro-fields--javascript-call-link---abendynpro-field-glosry-htm-----glossary-entry----here--the-positioning-of-the-decimal-point-for-a-currency-field-of-type-curr-on-a-dynpro-is-completely-independent-of-the-number-of-decimal-places-specified-by-the-data-element-in-abap-dictionary--greater-than-or-equal-to-one--the-default-value-is-two---the-number-of-decimal-places-on-a-dynpro-is-defined-as-follows-------when-displaying-a-dynpro-field-of-type-curr--the-reference-field-for-the-currency-key-is-searched-for-in-the-global-data-of-the-current-abap-program--the-content-of-this-field-must-be-a-valid--currency-id--javascript-call-link---abencurrency-id-glosry-htm-----glossary-entry---from-the-database-table-tcurc--if-the-reference-field-is-not-found-or-there-is-no-entry-in-the-database-table-tcurx-with-the-content-of-the-field--the-currency-field-is-displayed-with-two-fractional-digits-by-default------the-reference-field-is-either-defined-in-the-relevant-structure-in-abap-dictionary-or-was-defined-using-screen-painter-for-the-attributes-of-the-dynpro-field--it-does-not-have-to-be-present-on-the-dynpro-itself-------if-the-currency-id-for-the-reference-field-is-found-in-the-database-table-tcurx--the-currency-field-is-displayed-with-the-decimal-places-specified-there--this-also-applies-to-initial-reference-fields---note--a-dynpro-therefore-only-uses-the-string-of-digits-of-a-currency-field-from-the-abap-program--or-a--conversion-routine--javascript-call-link---abenconversion-routine-glosry-htm-----glossary-entry---in-between--or-just-sends-this-string--any-information-about-currency-keys-and-decimal-places-is-not-passed-automatically--it-must-be-ensured-that-the-reference-field-for-pbo-is-filled-with-the-appropriate-value--for-pai--the-correct-currency-key-plays-a-part-in-the-automatic-format-check--especially-on-dynpros-in-which-currency-fields-are-displayed-in-differing-currencies--it-must-be-ensured-that-the-reference-field-is-transported-before-the-currency-by-using-the-statements--chain--javascript-call-link---dynpchain-htm-----and--field--javascript-call-link---dynpfield-htm-------handling-in-abap-programs--the-abap-type-that-corresponds-to-the-curr-data-type-is-p--an-abap-data-object-declared-with-reference-to-a-dictionary-type-of-type-curr-has-the-number-of-decimal-places-defined-there--greater-than-or-equal-to-one-and-the-default-is-two---these-decimal-places-are-respected-for-all-operations-and-calculations--as-for-all-packed-numbers--the-only-exceptions-are-the-programs-for-which-the-program-property--fixed-point-arithmetic--javascript-call-link---abenfixed-point-arithmetic-glosry-htm-----glossary-entry---was-not-set---to-work-correctly-with-a-currency-field--all-digits-in-the-number-must-be-recorded-as-currency-amounts-in-the-smallest-possible-currency-units--regardless-of-the-number-of-decimal-places--this-occurs-automatically-sometimes--for-example--if--currency--javascript-call-link---abapwrite-to-options-htm-----is-used-after--write---to----javascript-call-link---abapwrite-to-htm-----or-the-formatting-option--currency--javascript-call-link---abapcompute-string-format-options-htm-----in-an--embedded-expression--javascript-call-link---abenstring-templates-expressions-htm-----of-a--character-string-template--javascript-call-link---abenstring-templates-htm------for-other-operations--the-following-restrictions-apply-------comparison--addition--subtraction--and-division-of-two-currency-fields-with-the-same-number-of-fractional-digits-are-not-critical-------multiplication-with-and-division-by-a-non-currency-dependent-number-is-not-critical-------all-other-operations-are-critical--for-example-------multiplication-of-two-currency-fields-------operations-between-two-fields-with-different-currencies-that-include-assignments-------assignments-of-non-currency-dependent-numbers-to-currency-fields---accurate-results-should-not-be-expected-when-performing-critical-operations-if-the-number-of-decimal-places-in-the-program-does-not-match-the-number-in-the-currency---notes------for-currencies--one-of-the-data-types-for--decimal-floating-point-numbers--javascript-call-link---abenddic-decimal-floating-point-htm-----is-recommended-rather-than-the-data-type-curr--the-currency-compliant-formatting-is-supported-on-dynpros-by-output-styles-and-by-style-compatible-formatting-in-abap-programs--see-the--executable-example--javascript-call-link---abenwrite-style-abexa-htm-----------the-methods-convert--curr--to--decfloat-and-convert--decfloat--to--curr-of-the-system-class--cl--abap--decfloat--javascript-call-link---abencl-abap-decfloat-doc-htm-----convert-currency-amounts-to-decimal-floating-point-numbers--and-back--as-specified-by-a-currency-key--------abenddic-quantity-field-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------built-in-data-types-in-abap-dictionary--javascript-call-link---abenddic-builtin-types-intro-htm---------attributes-of-the-built-in-dictionary-types--javascript-call-link---abenddic-builtin-types-prop-htm---------special-dictionary-types--javascript-call-link---abenddic-builtin-types-special-htm---------quantity-fields--a-quantity-field-is-a-component-of-a-structure--database-table--or-view-of-type--quan--javascript-call-link---abenddic-builtin-types-htm-----defined-in-abap-dictionary-and-used-to-record-a-quantity-in-a-specific-unit--a-quantity-field-must-be-associated-with-a-unit-key-of-a-structure--database-table--or-view-that-defines-the-unit-and-the-number-of-decimal-places--a-unit-key-is-a-component-of-a-structure--database-table--or-view-of-type-unit-defined-in-abap-dictionary-and-can-contain-a--unit-id--javascript-call-link---abenunit-id-glosry-htm-----glossary-entry---from-the-database-table-t006--------handling-in-abap-dictionary---@ITOC@@ABENDDIC_QUANTITY_FIELD_1)
+-   [Handling in ABAP Programs](#abenddic-currency-field-3---notes------currencies-are-handled-as-specified-by-the-data-saved-in-the-database-tables-tcur----of-the-package-sfib--the-exchange-rates-and-other-settings-can-be-edited-in-transaction-ob08-------currency-fields-are-defined-as-elements-of--cds-entities--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencds-entity-glosry-htm--glossary-entry---using--semantics-annotations--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencds-f1-element-annotation-htm----handling-in-abap-dictionary--a-data-element-of-data-type--curr--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm--is-handled-as-a-field-of-data-type--dec--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-int-pack-htm--and-is-stored-in-database-tables-in-the--bcd--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenbcd-glosry-htm--glossary-entry---format--when-creating-a-data-element-or-a-structure-component-of-the-data-type-curr-in-an-abap-dictionary--tool--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-tools-htm---a-number-of-decimal-places-other-than-zero-must-be-defined--the-standard-value-is-two-fractional-digits---for-every-structure-component-of-data-type-curr--a-component-of-the-same-structure-or-of-a-different-structure--database-table--or-view-must-be-specified-when-editing-the-individual-component-as-a--reference-field--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-structures-sema-htm--with-the-data-type--cuky--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm---this-field-is-the--currency-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencurrency-key-glosry-htm--glossary-entry---that-defines-the-actual-currency--from-a-technical-perspective--the-data-type-cuky-is-handled-like-a-type-char-with-length-5---notes------the-number-of-decimal-places-for-the-currency-defined-by-the-currency-key-of-type-cuky-only-determines-the-formatting-and-checking-of-a-currency-field-on-a-dynpro--in-principal--it-is-independent-of-the-number-given-for-the-currency-field-of-type-curr--the-default-value-of-two-decimal-places-for-currency-fields-in-abap-dictionary-is-chosen-because-most-of-the-currencies-in-the-database-table-tcurc-have-two-decimal-places-and-are-not-entered-in-the-database-table-tcurx--it-is-not-advisable-to-use-any-other-value--since-in-this-case-any-unforeseen-operations-with-currency-keys-in-abap-programs-are-largely-ignored-------the-conversion-function--currency--conversion--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencds-f1-conversion-functions-htm--in--abap-cds--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-cds-glosry-htm--glossary-entry---also-assumes-two-decimal-places-for-currency-fields--if-the-function-for-currency-fields-is-used-with-other-amounts-of-decimal-places--unexpected-behaviour-may-arise-------as-in--general-packed-numbers--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-int-pack-htm---the-number-of-places-in-type-curr-should-be-odd---handling-in-dynpros--for-the-display-of-an-input-output-field-of-type-curr-on-a--dynpro--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abendynpro-glosry-htm--glossary-entry----the-content-is-displayed-as-character-like-content-and-in-accordance-with-a-type-dependent-mask--as-for-all--dynpro-fields--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abendynpro-field-glosry-htm--glossary-entry----here--the-positioning-of-the-decimal-point-for-a-currency-field-of-type-curr-on-a-dynpro-is-completely-independent-of-the-number-of-decimal-places-specified-by-the-data-element-in-abap-dictionary--greater-than-or-equal-to-one--the-default-value-is-two---the-number-of-decimal-places-on-a-dynpro-is-defined-as-follows-------when-displaying-a-dynpro-field-of-type-curr--the-reference-field-for-the-currency-key-is-searched-for-in-the-global-data-of-the-current-abap-program--the-content-of-this-field-must-be-a-valid--currency-id--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencurrency-id-glosry-htm--glossary-entry---from-the-database-table-tcurc--if-the-reference-field-is-not-found-or-there-is-no-entry-in-the-database-table-tcurx-with-the-content-of-the-field--the-currency-field-is-displayed-with-two-fractional-digits-by-default------the-reference-field-is-either-defined-in-the-relevant-structure-in-abap-dictionary-or-was-defined-using-screen-painter-for-the-attributes-of-the-dynpro-field--it-does-not-have-to-be-present-on-the-dynpro-itself-------if-the-currency-id-for-the-reference-field-is-found-in-the-database-table-tcurx--the-currency-field-is-displayed-with-the-decimal-places-specified-there--this-also-applies-to-initial-reference-fields---note--a-dynpro-therefore-only-uses-the-string-of-digits-of-a-currency-field-from-the-abap-program--or-a--conversion-routine--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenconversion-routine-glosry-htm--glossary-entry---in-between--or-just-sends-this-string--any-information-about-currency-keys-and-decimal-places-is-not-passed-automatically--it-must-be-ensured-that-the-reference-field-for-pbo-is-filled-with-the-appropriate-value--for-pai--the-correct-currency-key-plays-a-part-in-the-automatic-format-check--especially-on-dynpros-in-which-currency-fields-are-displayed-in-differing-currencies--it-must-be-ensured-that-the-reference-field-is-transported-before-the-currency-by-using-the-statements--chain--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-dynpchain-htm--and--field--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-dynpfield-htm----handling-in-abap-programs--the-abap-type-that-corresponds-to-the-curr-data-type-is-p--an-abap-data-object-declared-with-reference-to-a-dictionary-type-of-type-curr-has-the-number-of-decimal-places-defined-there--greater-than-or-equal-to-one-and-the-default-is-two---these-decimal-places-are-respected-for-all-operations-and-calculations--as-for-all-packed-numbers--the-only-exceptions-are-the-programs-for-which-the-program-property--fixed-point-arithmetic--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenfixed-point-arithmetic-glosry-htm--glossary-entry---was-not-set---to-work-correctly-with-a-currency-field--all-digits-in-the-number-must-be-recorded-as-currency-amounts-in-the-smallest-possible-currency-units--regardless-of-the-number-of-decimal-places--this-occurs-automatically-sometimes--for-example--if--currency--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapwrite-to-options-htm--is-used-after--write---to----https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapwrite-to-htm--or-the-formatting-option--currency--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapcompute-string-format-options-htm--in-an--embedded-expression--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenstring-templates-expressions-htm--of-a--character-string-template--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenstring-templates-htm---for-other-operations--the-following-restrictions-apply-------comparison--addition--subtraction--and-division-of-two-currency-fields-with-the-same-number-of-fractional-digits-are-not-critical-------multiplication-with-and-division-by-a-non-currency-dependent-number-is-not-critical-------all-other-operations-are-critical--for-example-------multiplication-of-two-currency-fields-------operations-between-two-fields-with-different-currencies-that-include-assignments-------assignments-of-non-currency-dependent-numbers-to-currency-fields---accurate-results-should-not-be-expected-when-performing-critical-operations-if-the-number-of-decimal-places-in-the-program-does-not-match-the-number-in-the-currency---notes------for-currencies--one-of-the-data-types-for--decimal-floating-point-numbers--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-decimal-floating-point-htm--is-recommended-rather-than-the-data-type-curr--the-currency-compliant-formatting-is-supported-on-dynpros-by-output-styles-and-by-style-compatible-formatting-in-abap-programs--see-the--executable-example--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenwrite-style-abexa-htm--------the-methods-convert--curr--to--decfloat-and-convert--decfloat--to--curr-of-the-system-class--cl--abap--decfloat--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencl-abap-decfloat-doc-htm--convert-currency-amounts-to-decimal-floating-point-numbers--and-back--as-specified-by-a-currency-key--------abenddic-quantity-field-htm------title---quantity-fields--description------a-quantity-field-is-a-component-of-a-structure--database-table--or-view-of-type-quan-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm--defined-in-abap-dictionary-and-used-to-record-a-quantity-in-a-specific-unit--a-quantity-field-must-be-associated-with-a-unit-k-version---7-53--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-quantity-field-htm--abapfile---abenddic-quantity-field-htm--keywords----do----if----try----data----types----abenddic----quantity----field---------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-htm------abap---dictionary--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-dictionary-htm------built-in-data-types-in-abap-dictionary--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-intro-htm------attributes-of-the-built-in-dictionary-types--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-prop-htm------special-dictionary-types--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-special-htm------quantity-fields--a-quantity-field-is-a-component-of-a-structure--database-table--or-view-of-type--quan--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm--defined-in-abap-dictionary-and-used-to-record-a-quantity-in-a-specific-unit--a-quantity-field-must-be-associated-with-a-unit-key-of-a-structure--database-table--or-view-that-defines-the-unit-and-the-number-of-decimal-places--a-unit-key-is-a-component-of-a-structure--database-table--or-view-of-type-unit-defined-in-abap-dictionary-and-can-contain-a--unit-id--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenunit-id-glosry-htm--glossary-entry---from-the-database-table-t006--------handling-in-abap-dictionary---abenddic-quantity-field-1--------handling-in-dynpros---ITOC@@ABENDDIC_QUANTITY_FIELD_2)
 
--   [Handling in Dynpros](#abenddic-quantity-field-2--------handling-in-abap-programs---@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
+-   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
 
 Notes
 
@@ -981,16 +710,31 @@ The ABAP type that corresponds to the data type QUAN is p. An ABAP data object d
 The unit defined for a quantity field only plays a part in ABAP programs if it is specified after the addition [UNIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm) of the statement [WRITE *\[*TO*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm).
 
 
+---
 
-**📖 Source**: [abenddic_currency_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_currency_field.htm)
+
+## ABAP Keyword Documentation / ABAP - Dictionary / Built-In Data Types in ABAP Dictionary / Attributes of the Built-In Dictionary Types / Special Dictionary Types
+
+**Files**: 5 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP - Dictionary / Built-In Data Types in ABAP Dictionary / Attributes of the Built-In Dictionary Types / Special Dictionary Types
+
+Included pages: 5
+
 
 ### abenddic_builtin_types_special.htm
 
-> **📖 Official SAP Documentation**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Special Dictionary Types"
+description: |
+  -   Date types and time types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_types.htm) -   Special character-like types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_character_types.htm) -   Currency fields(https://help.sap.com/doc/
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm"
+abapFile: "abenddic_builtin_types_special.htm"
+keywords: ["do", "data", "types", "abenddic", "builtin", "special"]
+---
 
 * * *
 
@@ -1015,32 +759,159 @@ Continue
 [Quantity Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_quantity_field.htm)
 
 
+### abenddic_date_time_types.htm
 
-**📖 Source**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm)
-
-### abenddic_obsolete_types.htm
-
-> **📖 Official SAP Documentation**: [abenddic_obsolete_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_obsolete_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Date Types and Time Types"
+description: |
+  The following character-like data types in ABAP Dictionary describe date fields and time fields: -   DATS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) or date fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_field_glosry.htm 'Gl
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_types.htm"
+abapFile: "abenddic_date_time_types.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "abenddic", "date", "time"]
+---
 
 * * *
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) →  [Special Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm) → 
 
-Obsolete Dictionary Types
+Date Types and Time Types
 
-The following built-in data types in ABAP Dictionary are obsolete and should no longer be used:
+The following character-like data types in ABAP Dictionary describe date fields and time fields:
 
--   The data types [DF16\_SCL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and [DF34\_SCL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [decimal floating point numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_decimal_floating_point.htm) with scaling are obsolete and their use is strongly discouraged.
+-   [DATS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) or [date fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_field_glosry.htm "Glossary Entry")
 
--   The data type [PREC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) is obsolete and should no longer be used. In ABAP Dictionary and in ABAP programs, it is handled like INT2, despite the predefined length (2). The length 2 is relevant only for dynpro fields of the type PREC, which can have two-character positive values at most. The property sign cannot be set for a domain of the type PREC
+From a technical perspective, the built-in data type DATS describes objects of the type CHAR with a length of 8 characters. It is designed for [calendar dates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalendar_date_glosry.htm "Glossary Entry") in the format YYYYMMDD, but this is not checked when performing writes and reads on database fields with this type. Automatic checks are only made for dynpro fields typed with reference to DATS. In ABAP, DATS is assigned to the special type [d](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) and the associated rules apply.
 
--   The data type [VARC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) is obsolete and cannot be used for new definitions. It was previously used for character strings with variable lengths. Existing data types with this built-in type can still be used. When table fields with this type are used in ABAP SQL, the same [restrictions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm) apply as to fields with the types STRING and RAWSTRING plus LCHR and LRAW.
+-   [TIMS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [time fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_field_glosry.htm "Glossary Entry")
+
+From a technical perspective, the built-in data type TIMS describes objects of the type CHAR with a length of 6 characters. It is designed for [times](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenday_time_glosry.htm "Glossary Entry") in the format HHMMSS, but this is not checked when performing writes and reads on database fields with this type. Automatic checks are only made for dynpro fields typed with reference to TIMS. In ABAP, TIMS is assigned to the special type [t](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) and the associated rules apply.
+
+-   [ACCP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for posting periods
+
+From a technical perspective, the built-in data type ACCP describes objects of the type CHAR with a length of 6 characters. It is designed for posting periods in the format YYYYMM, but this is not checked when performing writes and reads on database fields with this type. Automatic checks are only made for dynpro fields typed with reference to ACCP.
+
+Notes
+
+-   The output formats for fields on dynpros and Web Dynpros and in the statements [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) can be predefined for the types DATS and TIMS specific to each user in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary. If the output length is too short, any formatting characters are suppressed.
+
+-   When a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") is represented with reference to the type ACCP (but not in the statements [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm)) and there is enough output length, a point is inserted between the year YYYY and the month MM.
+
+
+### abenddic_special_character_types.htm
+
+---
+title: "Special Character-Like Types"
+description: |
+  The following character-like data types in ABAP Dictionary have a special semantic meaning: -   NUMC(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for numeric texts(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_text_glosry.htm 'Gl
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_character_types.htm"
+abapFile: "abenddic_special_character_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "special", "character"]
+---
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) →  [Special Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm) → 
+
+Special Character-Like Types
+
+The following character-like data types in ABAP Dictionary have a special semantic meaning:
+
+-   [NUMC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [numeric texts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_text_glosry.htm "Glossary Entry")
+
+From a technical perspective, the built-in data type NUMC describes objects of the type CHAR with a maximum length of 255 characters. It is intended for numerical texts. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to NUMC. In ABAP, NUMC is assigned to the special type [n](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_character.htm) and the associated rules apply.
+
+-   [CLNT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [client columns](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_column_glosry.htm "Glossary Entry")
+
+From a technical perspective, the data type CLNT describes objects of the type CHAR with length 3. If the data type CLNT is used for the first key field of a database table, this makes the database table [client-specific](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_client.htm).
+
+-   [LANG](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for [text language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_language_glosry.htm "Glossary Entry")
+
+From a technical perspective, the predefined data type LANG describes objects of the type CHAR with length 1. It is intended specifically for language keys. A component of structures or database tables that has the data type LANG can be identified as text language. The text language is used to convert character-like components of the structure when importing data from [data clusters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_cluster_glosry.htm "Glossary Entry") and in the binary [RFC protocol](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_protocol.htm) for passing TABLES parameters between [MDMP systems](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmdmp-system_glosry.htm "Glossary Entry") and [Unicode systems](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_system_glosry.htm "Glossary Entry"). The [primary key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_key_glosry.htm "Glossary Entry") of a [text table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_table_glosry.htm "Glossary Entry") is still made up of the [foreign key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenforeign_key_glosry.htm "Glossary Entry") and a field of type LANG.
+
+Note
+
+When the statements [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) are used to represent a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") with the type LANG (and when a field that references this type is formatted), this field has an output length of 2 and is converted automatically from the single-character internal language ID to the matching two-character ISO ID using the [conversion routine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_routine_glosry.htm "Glossary Entry") ISOLA (and back).
+
+
+### abenddic_currency_field.htm
+
+---
+title: "Currency Fields"
+description: |
+  A currency field is a component of a structure, database table, or view defined in ABAP Dictionary of type CURR(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and used to record an amount in a specific currency. The amount is specified as a whole number in t
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_currency_field.htm"
+abapFile: "abenddic_currency_field.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "currency", "field"]
+---
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Built-In Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_intro.htm) →  [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm) →  [Special Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_special.htm) → 
+
+Currency Fields
+
+A currency field is a component of a structure, database table, or view defined in ABAP Dictionary of type [CURR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and used to record an amount in a specific currency. The amount is specified as a whole number in the smallest unit of the currency. A currency field must be associated with a currency key of a structure, database table, or view that specifies the currency and the number of decimal places. A currency key is a component of a structure, database table, or view defined in ABAP Dictionary, has the type CUKY, and can contain a [currency ID](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencurrency_id_glosry.htm "Glossary Entry") from the database table TCURC.
+
+By default, the number of decimal places for a currency is always two. Currencies with a different number of decimal places must also be entered in the table TCURX, where the number of decimal places can be defined explicitly.
+
+-   [Handling in ABAP Dictionary](#abenddic-currency-field-1--------handling-in-dynpros---@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
+
+-   [Handling in ABAP Programs](#abenddic-currency-field-3---notes------currencies-are-handled-as-specified-by-the-data-saved-in-the-database-tables-tcur----of-the-package-sfib--the-exchange-rates-and-other-settings-can-be-edited-in-transaction-ob08-------currency-fields-are-defined-as-elements-of--cds-entities--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencds-entity-glosry-htm--glossary-entry---using--semantics-annotations--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencds-f1-element-annotation-htm----handling-in-abap-dictionary--a-data-element-of-data-type--curr--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm--is-handled-as-a-field-of-data-type--dec--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-int-pack-htm--and-is-stored-in-database-tables-in-the--bcd--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenbcd-glosry-htm--glossary-entry---format--when-creating-a-data-element-or-a-structure-component-of-the-data-type-curr-in-an-abap-dictionary--tool--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-tools-htm---a-number-of-decimal-places-other-than-zero-must-be-defined--the-standard-value-is-two-fractional-digits---for-every-structure-component-of-data-type-curr--a-component-of-the-same-structure-or-of-a-different-structure--database-table--or-view-must-be-specified-when-editing-the-individual-component-as-a--reference-field--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-structures-sema-htm--with-the-data-type--cuky--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm---this-field-is-the--currency-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencurrency-key-glosry-htm--glossary-entry---that-defines-the-actual-currency--from-a-technical-perspective--the-data-type-cuky-is-handled-like-a-type-char-with-length-5---notes------the-number-of-decimal-places-for-the-currency-defined-by-the-currency-key-of-type-cuky-only-determines-the-formatting-and-checking-of-a-currency-field-on-a-dynpro--in-principal--it-is-independent-of-the-number-given-for-the-currency-field-of-type-curr--the-default-value-of-two-decimal-places-for-currency-fields-in-abap-dictionary-is-chosen-because-most-of-the-currencies-in-the-database-table-tcurc-have-two-decimal-places-and-are-not-entered-in-the-database-table-tcurx--it-is-not-advisable-to-use-any-other-value--since-in-this-case-any-unforeseen-operations-with-currency-keys-in-abap-programs-are-largely-ignored-------the-conversion-function--currency--conversion--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencds-f1-conversion-functions-htm--in--abap-cds--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-cds-glosry-htm--glossary-entry---also-assumes-two-decimal-places-for-currency-fields--if-the-function-for-currency-fields-is-used-with-other-amounts-of-decimal-places--unexpected-behaviour-may-arise-------as-in--general-packed-numbers--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-int-pack-htm---the-number-of-places-in-type-curr-should-be-odd---handling-in-dynpros--for-the-display-of-an-input-output-field-of-type-curr-on-a--dynpro--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abendynpro-glosry-htm--glossary-entry----the-content-is-displayed-as-character-like-content-and-in-accordance-with-a-type-dependent-mask--as-for-all--dynpro-fields--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abendynpro-field-glosry-htm--glossary-entry----here--the-positioning-of-the-decimal-point-for-a-currency-field-of-type-curr-on-a-dynpro-is-completely-independent-of-the-number-of-decimal-places-specified-by-the-data-element-in-abap-dictionary--greater-than-or-equal-to-one--the-default-value-is-two---the-number-of-decimal-places-on-a-dynpro-is-defined-as-follows-------when-displaying-a-dynpro-field-of-type-curr--the-reference-field-for-the-currency-key-is-searched-for-in-the-global-data-of-the-current-abap-program--the-content-of-this-field-must-be-a-valid--currency-id--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencurrency-id-glosry-htm--glossary-entry---from-the-database-table-tcurc--if-the-reference-field-is-not-found-or-there-is-no-entry-in-the-database-table-tcurx-with-the-content-of-the-field--the-currency-field-is-displayed-with-two-fractional-digits-by-default------the-reference-field-is-either-defined-in-the-relevant-structure-in-abap-dictionary-or-was-defined-using-screen-painter-for-the-attributes-of-the-dynpro-field--it-does-not-have-to-be-present-on-the-dynpro-itself-------if-the-currency-id-for-the-reference-field-is-found-in-the-database-table-tcurx--the-currency-field-is-displayed-with-the-decimal-places-specified-there--this-also-applies-to-initial-reference-fields---note--a-dynpro-therefore-only-uses-the-string-of-digits-of-a-currency-field-from-the-abap-program--or-a--conversion-routine--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenconversion-routine-glosry-htm--glossary-entry---in-between--or-just-sends-this-string--any-information-about-currency-keys-and-decimal-places-is-not-passed-automatically--it-must-be-ensured-that-the-reference-field-for-pbo-is-filled-with-the-appropriate-value--for-pai--the-correct-currency-key-plays-a-part-in-the-automatic-format-check--especially-on-dynpros-in-which-currency-fields-are-displayed-in-differing-currencies--it-must-be-ensured-that-the-reference-field-is-transported-before-the-currency-by-using-the-statements--chain--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-dynpchain-htm--and--field--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-dynpfield-htm----handling-in-abap-programs--the-abap-type-that-corresponds-to-the-curr-data-type-is-p--an-abap-data-object-declared-with-reference-to-a-dictionary-type-of-type-curr-has-the-number-of-decimal-places-defined-there--greater-than-or-equal-to-one-and-the-default-is-two---these-decimal-places-are-respected-for-all-operations-and-calculations--as-for-all-packed-numbers--the-only-exceptions-are-the-programs-for-which-the-program-property--fixed-point-arithmetic--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenfixed-point-arithmetic-glosry-htm--glossary-entry---was-not-set---to-work-correctly-with-a-currency-field--all-digits-in-the-number-must-be-recorded-as-currency-amounts-in-the-smallest-possible-currency-units--regardless-of-the-number-of-decimal-places--this-occurs-automatically-sometimes--for-example--if--currency--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapwrite-to-options-htm--is-used-after--write---to----https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapwrite-to-htm--or-the-formatting-option--currency--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapcompute-string-format-options-htm--in-an--embedded-expression--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenstring-templates-expressions-htm--of-a--character-string-template--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenstring-templates-htm---for-other-operations--the-following-restrictions-apply-------comparison--addition--subtraction--and-division-of-two-currency-fields-with-the-same-number-of-fractional-digits-are-not-critical-------multiplication-with-and-division-by-a-non-currency-dependent-number-is-not-critical-------all-other-operations-are-critical--for-example-------multiplication-of-two-currency-fields-------operations-between-two-fields-with-different-currencies-that-include-assignments-------assignments-of-non-currency-dependent-numbers-to-currency-fields---accurate-results-should-not-be-expected-when-performing-critical-operations-if-the-number-of-decimal-places-in-the-program-does-not-match-the-number-in-the-currency---notes------for-currencies--one-of-the-data-types-for--decimal-floating-point-numbers--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-decimal-floating-point-htm--is-recommended-rather-than-the-data-type-curr--the-currency-compliant-formatting-is-supported-on-dynpros-by-output-styles-and-by-style-compatible-formatting-in-abap-programs--see-the--executable-example--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenwrite-style-abexa-htm--------the-methods-convert--curr--to--decfloat-and-convert--decfloat--to--curr-of-the-system-class--cl--abap--decfloat--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencl-abap-decfloat-doc-htm--convert-currency-amounts-to-decimal-floating-point-numbers--and-back--as-specified-by-a-currency-key--------abenddic-quantity-field-htm------title---quantity-fields--description------a-quantity-field-is-a-component-of-a-structure--database-table--or-view-of-type-quan-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm--defined-in-abap-dictionary-and-used-to-record-a-quantity-in-a-specific-unit--a-quantity-field-must-be-associated-with-a-unit-k-version---7-53--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-quantity-field-htm--abapfile---abenddic-quantity-field-htm--keywords----do----if----try----data----types----abenddic----quantity----field---------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-htm------abap---dictionary--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-dictionary-htm------built-in-data-types-in-abap-dictionary--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-intro-htm------attributes-of-the-built-in-dictionary-types--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-prop-htm------special-dictionary-types--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-special-htm------quantity-fields--a-quantity-field-is-a-component-of-a-structure--database-table--or-view-of-type--quan--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenddic-builtin-types-htm--defined-in-abap-dictionary-and-used-to-record-a-quantity-in-a-specific-unit--a-quantity-field-must-be-associated-with-a-unit-key-of-a-structure--database-table--or-view-that-defines-the-unit-and-the-number-of-decimal-places--a-unit-key-is-a-component-of-a-structure--database-table--or-view-of-type-unit-defined-in-abap-dictionary-and-can-contain-a--unit-id--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenunit-id-glosry-htm--glossary-entry---from-the-database-table-t006--------handling-in-abap-dictionary---abenddic-quantity-field-1--------handling-in-dynpros---ITOC@@ABENDDIC_QUANTITY_FIELD_2)
+
+-   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
+
+Notes
+
+-   Quantities and units are handled as specified by the data saved in the database tables T006... in the package SZME. This data can be edited using the transaction CUNI.
+
+-   Quantity fields are defined as elements of [CDS entities](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_entity_glosry.htm "Glossary Entry") using [semantics annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm).
+
+Handling in ABAP Dictionary
+
+A data element of data type [QUAN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) is handled as a field of data type [DEC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm) and is stored in database tables in the [BCD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbcd_glosry.htm "Glossary Entry") format. When creating a data element or a structure component of the data type QUAN in an ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_tools.htm), any number of decimal places can be defined. The default value is no decimal places.
+
+For every structure component of data type QUAN, a component of the same structure or of a different structure, database table, or view must be specified when editing the individual component as a [reference field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures_sema.htm) with the data type [UNIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm). This field is the [unit key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunit_glosry.htm "Glossary Entry") that defines the unit of the quantity. From a technical perspective, the data type UNIT is handled like a type CHAR with length 2.
+
+Notes
+
+-   The number of decimal places for the unit defined using the unit key of type UNIT only influences the formatting of a quantity field on a dynpro. In principal, it is independent of the number given for the quantity field of type QUAN.
+
+-   As in [general packed numbers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_int_pack.htm), the number of places in type QUAN should be odd.
+
+Handling in Dynpros
+
+For the display of an input/output field of type QUAN on a [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry"), the content is displayed as character-like content and in accordance with a type-dependent mask, as for all [dynpro fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry"). The system tries to create a display which suits the unit of the quantity field.
+
+To determine the unit, the global data of the current ABAP program is searched for the reference field associated with the field for the unit key. The content of this field must be a valid [unit ID](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunit_id_glosry.htm "Glossary Entry") from the database table T006. If the reference field is not found or if there is no entry in the database table T006 with the content of the field, the quantity field is displayed as a regular field of type DEC.
+
+The reference field is either defined in the relevant structure in ABAP Dictionary or was defined using Screen Painter for the attributes of the dynpro field. It does not have to be present on the dynpro itself.
+
+If the unit ID of the reference field is found in the column MSEHI of the database table T006 and the quantity field does not have any decimal places with a value other than 0 outside the accuracy defined in the column DECAN, the quantity field is displayed with this accuracy. For a unit without decimal places, the decimal separator is suppressed. If the quantity field has decimal places with a value other than 0 outside of its accuracy, however, it is displayed as a regular field of type DEC.
+
+Note
+
+A display that matches the accuracy of a quantity field is only then possible if no information is lost. This makes it possible, for example, for average values (else integer units) to be displayed in a relevant quantity field.
+
+Handling in ABAP Programs
+
+The ABAP type that corresponds to the data type QUAN is p. An ABAP data object declared with reference to a dictionary type of type QUAN has the number of decimal places defined there. These decimal places are respected for all operations and calculations, as for all packed numbers.
+
+The unit defined for a quantity field only plays a part in ABAP programs if it is specified after the addition [UNIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm) of the statement [WRITE *\[*TO*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm).
 
 
 ---
@@ -1055,16 +926,19 @@ The following built-in data types in ABAP Dictionary are obsolete and should no 
 Included pages: 12
 
 
-
-**📖 Source**: [abenddic_obsolete_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_obsolete_types.htm)
-
 ### abenddic_builtin_functions.htm
 
-> **📖 Official SAP Documentation**: [abenddic_builtin_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Built-In Functions in ABAP Dictionary"
+description: |
+  The following sections summarize the built-in SQL database functions managed by ABAP Dictionary and supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/a
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_functions.htm"
+abapFile: "abenddic_builtin_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "builtin", "functions"]
+---
 
 * * *
 
@@ -1087,16 +961,19 @@ Continue
 [Special Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
 
 
-
-**📖 Source**: [abenddic_builtin_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_functions.htm)
-
 ### abensql_functions.htm
 
-> **📖 Official SAP Documentation**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SQL Functions"
+description: |
+  The following sections summarize the built-in SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry')
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm"
+abapFile: "abensql_functions.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions"]
+---
 
 * * *
 
@@ -1126,16 +1003,19 @@ Continue
 [SQL Functions for Null Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm)
 
 
-
-**📖 Source**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
-
 ### abensql_functions_numeric.htm
 
-> **📖 Official SAP Documentation**: [abensql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_numeric.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SQL Functions for Numeric Values"
+description: |
+  The following table shows the numeric SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The co
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_numeric.htm"
+abapFile: "abensql_functions_numeric.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abensql", "functions", "numeric"]
+---
 
 * * *
 
@@ -1278,16 +1158,19 @@ MOD
 \-1
 
 
-
-**📖 Source**: [abensql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_numeric.htm)
-
 ### abensql_functions_string.htm
 
-> **📖 Official SAP Documentation**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SQL Functions for Strings"
+description: |
+  The following table shows the SQL functions for strings supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). Th
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm"
+abapFile: "abensql_functions_string.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abensql", "functions", "string"]
+---
 
 * * *
 
@@ -1459,16 +1342,19 @@ Continue
 ![Example](exa.gif "Example") [SQL Function UPPER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm)
 
 
-
-**📖 Source**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
-
 ### abensql_function_upper_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensql_function_upper_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SQL Function UPPER"
+description: |
+  This example demonstrates the SQL function UPPER in ABAP SQL and ABAP CDS. Source Code REPORT demo_sql_upper. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: query TYPE string VALUE `ERROR`, rows  TYPE i      VALUE 100. cl_demo
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm"
+abapFile: "abensql_function_upper_abexa.htm"
+keywords: ["select", "do", "case", "method", "class", "data", "abensql", "function", "upper", "abexa"]
+---
 
 * * *
 
@@ -1540,16 +1426,19 @@ Another SELECT statement uses the SQL function UPPER directly to access the same
 Since SQL functions cannot yet be used on the left side of LIKE in the DDL of the ABAP CDS, the view returns a help field, which is evaluated in ABAP SQL. The results are the same. The search effected by the examples is not case-sensitive.
 
 
-
-**📖 Source**: [abensql_function_upper_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm)
-
 ### abensql_functions_string.htm
 
-> **📖 Official SAP Documentation**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SQL Functions for Strings"
+description: |
+  The following table shows the SQL functions for strings supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). Th
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm"
+abapFile: "abensql_functions_string.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abensql", "functions", "string"]
+---
 
 * * *
 
@@ -1721,16 +1610,19 @@ Continue
 ![Example](exa.gif "Example") [SQL Function UPPER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm)
 
 
-
-**📖 Source**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
-
 ### abensql_functions_null.htm
 
-> **📖 Official SAP Documentation**: [abensql_functions_null.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SQL Functions for Null Values"
+description: |
+  The following table shows the SQL functions for null values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennull_value_glosry.htm 'Glossary Entry') that are supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') a
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm"
+abapFile: "abensql_functions_null.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions", "null"]
+---
 
 * * *
 
@@ -1765,16 +1657,19 @@ x
 Descriptions of the potential operands and data types can be found in the corresponding documentation for [ABAP CDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_coalesce_expression.htm) and [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_coalesce.htm).
 
 
-
-**📖 Source**: [abensql_functions_null.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm)
-
 ### abensql_functions.htm
 
-> **📖 Official SAP Documentation**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SQL Functions"
+description: |
+  The following sections summarize the built-in SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry')
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm"
+abapFile: "abensql_functions.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions"]
+---
 
 * * *
 
@@ -1804,16 +1699,19 @@ Continue
 [SQL Functions for Null Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm)
 
 
-
-**📖 Source**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
-
 ### abenddic_special_functions.htm
 
-> **📖 Official SAP Documentation**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Special Functions"
+description: |
+  These built-in functions are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm) -   Date functions and time functions(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm"
+abapFile: "abenddic_special_functions.htm"
+keywords: ["do", "data", "abenddic", "special", "functions"]
+---
 
 * * *
 
@@ -1834,16 +1732,19 @@ Continue
 [Date Functions and Time Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm)
 
 
-
-**📖 Source**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
-
 ### abenddic_conversion_functions.htm
 
-> **📖 Official SAP Documentation**: [abenddic_conversion_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Conversion Functions"
+description: |
+  The following table shows the conversion functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The las
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm"
+abapFile: "abenddic_conversion_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "conversion", "functions"]
+---
 
 * * *
 
@@ -1914,16 +1815,19 @@ Setting the decimal separator.
 Descriptions of the potential operands and data types and how they work can be found in the corresponding documentation for [ABAP CDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_conversion_functions.htm) and [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_conversion_functions.htm).
 
 
-
-**📖 Source**: [abenddic_conversion_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm)
-
 ### abenddic_date_time_functions.htm
 
-> **📖 Official SAP Documentation**: [abenddic_date_time_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Date Functions and Time Functions"
+description: |
+  The following table shows the date and time functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm"
+abapFile: "abenddic_date_time_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "date", "time", "functions"]
+---
 
 * * *
 
@@ -2066,16 +1970,19 @@ User time zone in AS ABAP.
 Descriptions of the potential operands and data types can be found in the corresponding documentation for [ABAP CDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_date_time_functions.htm) and [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_date_time_functions.htm).
 
 
-
-**📖 Source**: [abenddic_date_time_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm)
-
 ### abenddic_special_functions.htm
 
-> **📖 Official SAP Documentation**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Special Functions"
+description: |
+  These built-in functions are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm) -   Date functions and time functions(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm"
+abapFile: "abenddic_special_functions.htm"
+keywords: ["do", "data", "abenddic", "special", "functions"]
+---
 
 * * *
 
@@ -2108,16 +2015,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
-
 ### abenabap_generic_dynpro.htm
 
-> **📖 Official SAP Documentation**: [abenabap_generic_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_generic_dynpro.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpro"
+description: |
+  The statements for creating and editing dynpros(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') are not released for application programming and cannot be used in application programs. Internal Statements for Editing Dynpros(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_generic_dynpro.htm"
+abapFile: "abenabap_generic_dynpro.htm"
+keywords: ["do", "try", "abenabap", "generic", "dynpro"]
+---
 
 * * *
 
@@ -2133,16 +2043,19 @@ Continue
 [Internal Statements for Editing Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_dynpro_internal.htm)
 
 
-
-**📖 Source**: [abenabap_generic_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_generic_dynpro.htm)
-
 ### abengeneric_dynpro_internal.htm
 
-> **📖 Official SAP Documentation**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_dynpro_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internal Statements for Editing Dynpros"
+description: |
+  Internal Statements These statements are for internal use only. They cannot be used in application programs. -   EXPORT DYNPRO(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_dynpro.htm) -   IMPORT DYNPRO(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_dynpro_internal.htm"
+abapFile: "abengeneric_dynpro_internal.htm"
+keywords: ["delete", "do", "abengeneric", "dynpro", "internal"]
+---
 
 * * *
 
@@ -2175,16 +2088,19 @@ Continue
 [GENERATE DYNPRO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_dynpro.htm)
 
 
-
-**📖 Source**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_dynpro_internal.htm)
-
 ### abapexport_dynpro.htm
 
-> **📖 Official SAP Documentation**: [abapexport_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_dynpro.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EXPORT DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax EXPORT DYNPRO h f e m ID id. Effect Exports the dynpro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') with the name in the id. The dynpro information is
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_dynpro.htm"
+abapFile: "abapexport_dynpro.htm"
+keywords: ["do", "if", "try", "internal-table", "abapexport", "dynpro"]
+---
 
 * * *
 
@@ -2206,16 +2122,19 @@ Effect
 Exports the [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") with the name in the id. The dynpro information is taken from the structure h (dynpro header, dictionary structure D020S) and the internal tables f (field list, structure D021S), e (flow logic, structure D022S), and m (matchcode information, structure D023S). Standard tables without secondary keys can be specified for f, e, and m.
 
 
-
-**📖 Source**: [abapexport_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_dynpro.htm)
-
 ### abapimport_dynpro.htm
 
-> **📖 Official SAP Documentation**: [abapimport_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_dynpro.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "IMPORT DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax IMPORT DYNPRO h f e m ID id. Effect The dynpro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') specified in the structure id is imported. To enable this,
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_dynpro.htm"
+abapFile: "abapimport_dynpro.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapimport", "dynpro"]
+---
 
 * * *
 
@@ -2276,16 +2195,19 @@ DATA: BEGIN OF id,
 IMPORT DYNPRO h f e m ID id.
 
 
-
-**📖 Source**: [abapimport_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_dynpro.htm)
-
 ### abapdelete_dynpro.htm
 
-> **📖 Official SAP Documentation**: [abapdelete_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dynpro.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DELETE DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DELETE DYNPRO f. Effect Deletes the dynpro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') with the name specified in the field f. System Fields sy-subrc
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dynpro.htm"
+abapFile: "abapdelete_dynpro.htm"
+keywords: ["delete", "do", "if", "try", "data", "abapdelete", "dynpro"]
+---
 
 * * *
 
@@ -2329,16 +2251,19 @@ DYNPRONAME+40 = '0100'.
 DELETE DYNPRO DYNPRONAME.
 
 
-
-**📖 Source**: [abapdelete_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dynpro.htm)
-
 ### abapsyntax-check_for_dynpro.htm
 
-> **📖 Official SAP Documentation**: [abapsyntax-check_for_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsyntax-check_for_dynpro.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SYNTAX-CHECK FOR DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax SYNTAX-CHECK FOR DYNPRO h f e m ...MESSAGE f1 ...LINE f2 ...WORD f3. Parts marked with ' ...' are interchangeable Extras: 1. ... OFFSET f4(#!ABAP_ADDITION_1@1@) 2. ... TRACE-TABLE itab1(#!ABAP_ADDITION
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsyntax-check_for_dynpro.htm"
+abapFile: "abapsyntax-check_for_dynpro.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapsyntax", "check", "for", "dynpro"]
+---
 
 * * *
 
@@ -2421,16 +2346,19 @@ Effect
 If a syntax error occurs, the key of the corresponding error message is returned in field f5. This key has the same layout as the key of table TRMSG.
 
 
-
-**📖 Source**: [abapsyntax-check_for_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsyntax-check_for_dynpro.htm)
-
 ### abapgenerate_dynpro.htm
 
-> **📖 Official SAP Documentation**: [abapgenerate_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_dynpro.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "GENERATE DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax GENERATE DYNPRO h f e m ID g. ... MESSAGE f1 ... LINE f2 ... WORD f3. Parts marked with ' ...' are interchangeable Extras: 1. ... OFFSET f4(#!ABAP_ADDITION_1@1@) 2. ... TRACE-FILE f5(#!ABAP_ADDITION_2@
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_dynpro.htm"
+abapFile: "abapgenerate_dynpro.htm"
+keywords: ["do", "if", "try", "internal-table", "abapgenerate", "dynpro"]
+---
 
 * * *
 
@@ -2499,16 +2427,19 @@ Effect
 Trace output is stored in this file. This addition automatically activates trace mode.
 
 
-
-**📖 Source**: [abapgenerate_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_dynpro.htm)
-
 ### abengeneric_dynpro_internal.htm
 
-> **📖 Official SAP Documentation**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_dynpro_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internal Statements for Editing Dynpros"
+description: |
+  Internal Statements These statements are for internal use only. They cannot be used in application programs. -   EXPORT DYNPRO(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_dynpro.htm) -   IMPORT DYNPRO(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_dynpro_internal.htm"
+abapFile: "abengeneric_dynpro_internal.htm"
+keywords: ["delete", "do", "abengeneric", "dynpro", "internal"]
+---
 
 * * *
 
@@ -2553,16 +2484,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_dynpro_internal.htm)
-
 ### abenabap_dynpros_fields.htm
 
-> **📖 Official SAP Documentation**: [abenabap_dynpros_fields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_fields.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpro Fields"
+description: |
+  The dynpro flow logic(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry') does not contain any data declarations. With the exception of the OK field(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenok_field_glosry.htm 'Gloss
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_fields.htm"
+abapFile: "abenabap_dynpros_fields.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "data", "types", "abenabap", "dynpros", "fields"]
+---
 
 * * *
 
@@ -2624,16 +2558,19 @@ Continue
 [Dynpro Fields - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm)
 
 
-
-**📖 Source**: [abenabap_dynpros_fields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_fields.htm)
-
 ### abendynpro_field_abexas.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpro Fields - Examples"
+description: |
+  !Example(exa.gif 'Example') Screens, Processing Input and Output Fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm) !Example(exa.gif 'Example') Dynpros, Fields with Reference to ABAP Dictionary(https://help.sap.com/doc/abapdocu_753_index_htm/
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm"
+abapFile: "abendynpro_field_abexas.htm"
+keywords: ["do", "if", "abendynpro", "field", "abexas"]
+---
 
 * * *
 
@@ -2651,16 +2588,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Strings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_strings_abexa.htm)
 
 
-
-**📖 Source**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm)
-
 ### abendynpro_in_out_field_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_in_out_field_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Screens, Processing Input and Output Fields"
+description: |
+  The example shows how to process screen fields local in the program. Source Code PROGRAM demo_dynpro_input_output. DATA: input  TYPE i, output TYPE i, radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, box1(1) TYPE c, box2(1) TYPE c, box3(1) TYPE c. CALL SCREEN 100. MODULE init_screen_100 OU
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm"
+abapFile: "abendynpro_in_out_field_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "out", "field", "abexa"]
+---
 
 * * *
 
@@ -2701,16 +2641,19 @@ Description
 The static next screen number of screen 100 is 100. The screen fields of output, box1, box2, and box3 have been defined as not ready for input in Screen Painter. The length of input is specified so that the user can enter a nine-digit integer without thousands separators. However, the display in the output field contains up to two thousands separators. If the length of input had remained 11 digits, a runtime error could occur if users do not set thousand separators. The user entries in the input fields are passed to the ABAP program in the PAI event raised by ENTER and then assigned to the output fields in the dialog module user\_command\_100. The next time the screen appears, the screen fields contain the appropriate values. The input fields are set in the dialog module init\_screen\_100 in the event PBO.
 
 
-
-**📖 Source**: [abendynpro_in_out_field_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm)
-
 ### abendynpro_dict_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_dict_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_dict_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Fields with Reference to ABAP Dictionary"
+description: |
+  The example shows how dynpro fields can be associated with ABAP Dictionary. Source Code PROGRAM demo_dynpro_dictionary . TABLES demo_conn. DATA wa_spfli TYPE spfli. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. CLEAR demo_conn-mark. MOVE-CORRESPONDING wa_spfli TO demo_conn. CLEAR wa_spfl
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_dict_abexa.htm"
+abapFile: "abendynpro_dict_abexa.htm"
+keywords: ["select", "do", "while", "if", "data", "abendynpro", "dict", "abexa"]
+---
 
 * * *
 
@@ -2750,16 +2693,19 @@ Description
 The static next dynpro number of dynpro 100 is 100. The statement TABLES passes the components of the structure DEMO\_CONN from ABAP Dictionary. The structure DEMO\_CONN was especially created in ABAP Dictionary for dynpros of the flight data model. Apart from the components of the database table SPFLI, there is also a component MARK whose domain S\_FLAG only defines the fixed values " " and "X". On the dynpro, the ABAP Dictionary text for MARK is overwritten with "Cancel"; for all other fields the ABAP Dictionary fields are used. Some fields are no longer ready for input in Screen Painter. Users can enter values for the airline and flight number. In this process, the user is automatically assisted by the field and the input help and the valid value check against check tables of ABAP Dictionary. These checks are performed automatically before any dialog module is called in the ABAP program. It is not possible for the user to enter an airline not defined in the check table SCARR or to enter any flight numbers not matching the airlines defined in SPFLI, or to enter any values for MARK except " " and "X". Not all these checks need to be programmed in the ABAP program. The module user\_command\_0100 of the ABAP program reads additional values for the checked key from the database table SPFLI and sends them to the dynpro in the init\_screen\_100 event. The work area demo\_conn, declared using the statement TABLES is used as an interface, while the actual data from the database is edited in the work area wa\_spfli. If the user fills the Cancel field with "X", the program exits.
 
 
-
-**📖 Source**: [abendynpro_dict_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_dict_abexa.htm)
-
 ### abendynpro_push_button_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_push_button_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_push_button_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Pushbuttons"
+description: |
+  This example demonstrates how pushbuttons on dynpros can be processed. Source Code PROGRAM demo_dynpro_push_button . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output(8) TYPE c. CALL SCREEN 100. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok_code. CASE save_ok. WHEN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_push_button_abexa.htm"
+abapFile: "abendynpro_push_button_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "push", "button", "abexa"]
+---
 
 * * *
 
@@ -2802,16 +2748,19 @@ Description
 The static next dynpro number of dynpro 100 is 100. The screen field of output is defined as not ready for input in Screen Painter. When the user chooses a pushbutton, the PAI event is triggered. The function code of the pushbutton is assigned to the dynpro field ok\_code, which is then assigned to the ABAP field with the same name. The module user\_command\_0100 is then processed. Firstly, the contents of the ok\_code field are copied to the auxiliary variable save\_ok code, and ok\_code is initialized. This procedure is always recommended since it makes sure that the dynpro field ok\_code is also reinitialized in the PBO event and does not contain any unwanted values. Next, in the CASE structure, a text symbol is assigned to the output field according to the button that the user chose. This is displayed in the output field on the dynpro. If the user chooses Cancel, the program ends.
 
 
-
-**📖 Source**: [abendynpro_push_button_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_push_button_abexa.htm)
-
 ### abendynpro_radio_button_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_radio_button_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_radio_button_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Checkboxes, and Radio Buttons"
+description: |
+  This example demonstrates how checkboxes and radio buttons can be processed on dynpros. Source Code PROGRAM demo_dynpro_check_radio . DATA: radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, field1(10) TYPE c, field2(10) TYPE c, field3(10) TYPE c, box TYPE c. DATA: ok_code TYPE sy-ucomm, save
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_radio_button_abexa.htm"
+abapFile: "abendynpro_radio_button_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "radio", "button", "abexa"]
+---
 
 * * *
 
@@ -2857,16 +2806,19 @@ Description
 The static next dynpro number of dynpro 100 is 100. The screen fields field1 to field3 are defined as not ready for input in Screen Painter. Selecting one of the three radio buttons raises the event PAI, which passes the function code RADIO and the field contents of the screen fields to the ABAP program. The dialog module user\_command\_0100 fills the fields field1 to field3 according to the radio button that was selected. These field contents appear the next time the dynpro is sent. The PAI event is also triggered if you select the checkbox. In this case, the function CANCEL is passed to the ABAP program, and the dialog module user\_command\_0100 immediately ends the program.
 
 
-
-**📖 Source**: [abendynpro_radio_button_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_radio_button_abexa.htm)
-
 ### abendynpro_strings_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_strings_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_strings_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Strings"
+description: |
+  This example demonstrates how to bind strings to dynpro fields. Source Code REPORT demo_dynpro_strings. DATA: string1 TYPE string, string2 TYPE string, char1   TYPE c LENGTH 10, char2   TYPE c LENGTH 100. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATIO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_strings_abexa.htm"
+abapFile: "abendynpro_strings_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abendynpro", "strings", "abexa"]
+---
 
 * * *
 
@@ -2934,16 +2886,19 @@ At PAI, STRING1 contains only three characters, because the blanks are suppresse
 In both STRING2 and CHAR2, all characters that do not fit into the corresponding dynpro fields are cut off.
 
 
-
-**📖 Source**: [abendynpro_strings_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_strings_abexa.htm)
-
 ### abendynpro_field_abexas.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpro Fields - Examples"
+description: |
+  !Example(exa.gif 'Example') Screens, Processing Input and Output Fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm) !Example(exa.gif 'Example') Dynpros, Fields with Reference to ABAP Dictionary(https://help.sap.com/doc/abapdocu_753_index_htm/
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm"
+abapFile: "abendynpro_field_abexas.htm"
+keywords: ["do", "if", "abendynpro", "field", "abexas"]
+---
 
 * * *
 
@@ -2973,16 +2928,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm)
-
 ### abenabap_dynpros_processing.htm
 
-> **📖 Official SAP Documentation**: [abenabap_dynpros_processing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_processing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpro Flow and Dynpro Sequences"
+description: |
+  Dynpro Flow Dynpros(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') are called either using transaction codes(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_code_glosry.htm 'Glossary Entry') or using the statement CA
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_processing.htm"
+abapFile: "abenabap_dynpros_processing.htm"
+keywords: ["do", "if", "case", "try", "abenabap", "dynpros", "processing"]
+---
 
 * * *
 
@@ -3010,16 +2968,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Dynpro Sequences](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_abexa.htm)
 
 
-
-**📖 Source**: [abenabap_dynpros_processing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_processing.htm)
-
 ### abendynpro_flow_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_flow_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Dynpro Sequences"
+description: |
+  This example demonstrates how dynpro sequences behave. Source Code PROGRAM sapmdemo_screen_flow MESSAGE-ID demo_flight. TABLES: spfli, sairport, scarr. DATA: ok_code   TYPE c LENGTH 4, rcode     TYPE c LENGTH 5, old_spfli TYPE spfli.  PBO MODULE status_0100 OUTPUT. SET PF-STATUS 'TD0100'. SE
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_abexa.htm"
+abapFile: "abendynpro_flow_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "data", "types", "abendynpro", "flow", "abexa"]
+---
 
 * * *
 
@@ -3212,16 +3173,19 @@ The following figure summarizes the flow of the dynpro sequences in the example:
 Included pages: 11
 
 
-
-**📖 Source**: [abendynpro_flow_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_abexa.htm)
-
 ### abendynp_subscreens.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -3247,16 +3211,19 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
 
 
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -3279,16 +3246,19 @@ Executable Example
 [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-
 ### abendynp_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -3317,16 +3287,19 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-
 ### abendynp_splitter_control_spcl.htm
 
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -3364,16 +3337,19 @@ Executable Example
 [Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-
 ### dynpcall.htm
 
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscree
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -3452,16 +3428,19 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -3478,16 +3457,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynpro_subscreen_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -3594,16 +3576,19 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling in SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -3647,16 +3632,19 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -3712,16 +3700,19 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-
 ### abendynpro_splitter_control_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  This example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -3760,16 +3751,19 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -3798,16 +3792,19 @@ Continue
 Included pages: 11
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynp_subscreens.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -3833,16 +3830,19 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
 
 
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -3865,16 +3865,19 @@ Executable Example
 [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-
 ### abendynp_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -3903,16 +3906,19 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-
 ### abendynp_splitter_control_spcl.htm
 
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -3950,16 +3956,19 @@ Executable Example
 [Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-
 ### dynpcall.htm
 
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscree
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -4038,16 +4047,19 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -4064,16 +4076,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynpro_subscreen_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -4180,16 +4195,19 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling in SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -4233,16 +4251,19 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -4298,16 +4319,19 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-
 ### abendynpro_splitter_control_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  This example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -4346,16 +4370,19 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -4384,16 +4411,19 @@ Continue
 Included pages: 11
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynp_subscreens.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -4419,16 +4449,19 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
 
 
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -4451,16 +4484,19 @@ Executable Example
 [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-
 ### abendynp_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -4489,16 +4525,19 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-
 ### abendynp_splitter_control_spcl.htm
 
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -4536,16 +4575,19 @@ Executable Example
 [Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-
 ### dynpcall.htm
 
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscree
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -4624,16 +4666,19 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -4650,16 +4695,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynpro_subscreen_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -4766,16 +4814,19 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling in SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -4819,16 +4870,19 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -4884,16 +4938,19 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-
 ### abendynpro_splitter_control_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  This example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -4932,16 +4989,19 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -4970,16 +5030,19 @@ Continue
 Included pages: 11
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynp_subscreens.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -5005,16 +5068,19 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
 
 
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -5037,16 +5103,19 @@ Executable Example
 [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-
 ### abendynp_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -5075,16 +5144,19 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-
 ### abendynp_splitter_control_spcl.htm
 
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -5122,16 +5194,19 @@ Executable Example
 [Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-
 ### dynpcall.htm
 
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscree
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -5210,16 +5285,19 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -5236,16 +5314,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynpro_subscreen_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -5352,16 +5433,19 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling in SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -5405,16 +5489,19 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -5470,16 +5557,19 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-
 ### abendynpro_splitter_control_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  This example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -5518,16 +5608,19 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -5556,16 +5649,19 @@ Continue
 Included pages: 11
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynp_subscreens.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -5591,16 +5687,19 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
 
 
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -5623,16 +5722,19 @@ Executable Example
 [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-
 ### abendynp_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -5661,16 +5763,19 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-
 ### abendynp_splitter_control_spcl.htm
 
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -5708,16 +5813,19 @@ Executable Example
 [Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-
 ### dynpcall.htm
 
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscree
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -5796,16 +5904,19 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -5822,16 +5933,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynpro_subscreen_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -5938,16 +6052,19 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling in SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -5991,16 +6108,19 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -6056,16 +6176,19 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-
 ### abendynpro_splitter_control_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  This example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -6104,16 +6227,19 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -6142,16 +6268,19 @@ Continue
 Included pages: 11
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynp_subscreens.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -6177,16 +6306,19 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
 
 
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -6209,16 +6341,19 @@ Executable Example
 [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-
 ### abendynp_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -6247,16 +6382,19 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-
 ### abendynp_splitter_control_spcl.htm
 
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -6294,16 +6432,19 @@ Executable Example
 [Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-
 ### dynpcall.htm
 
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscree
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -6382,16 +6523,19 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -6408,16 +6552,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynpro_subscreen_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -6524,16 +6671,19 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling in SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -6577,16 +6727,19 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -6642,16 +6795,19 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-
 ### abendynpro_splitter_control_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  This example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -6690,16 +6846,19 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -6728,16 +6887,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abaploop_at_screen.htm
 
-> **📖 Official SAP Documentation**: [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "LOOP AT SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen_shortref.htm) Syntax LOOP AT SCREEN INTO wa. ... ENDLOOP. Effect The statements LOOP AT SCREEN ... ENDLOOP define a loop around a statement block. For every screen element of the current dynpro to which a
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm"
+abapFile: "abaploop_at_screen.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "internal-table", "abaploop", "screen"]
+---
 
 * * *
 
@@ -6789,16 +6951,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Dynamic Screen Modifications](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
 
 
-
-**📖 Source**: [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
-
 ### abenscreen.htm
 
-> **📖 Official SAP Documentation**: [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "The Structure SCREEN"
+description: |
+  Most components of the structure SCREEN from ABAP Dictionary correspond to the attributes of a screen element on a dynpro. Data objects with the data type SCREEN can be used as a work area in the following ABAP statements: -   in LOOP AT SCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm"
+abapFile: "abenscreen.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenscreen"]
+---
 
 * * *
 
@@ -7043,16 +7208,19 @@ Except for active and request, all components of the structure SCREEN correspond
 If the component request has the value 1 for a dynpro field at PAI time, those dialog modules are executed that are called for this field using the additions ON REQUEST and ON CHAIN-REQUEST after the dynpro statement [FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpfield_module.htm).
 
 
-
-**📖 Source**: [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
-
 ### abapmodify_screen.htm
 
-> **📖 Official SAP Documentation**: [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "MODIFY SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen_shortref.htm) Syntax MODIFY SCREEN FROM wa. Effect This statement can be used in the statement block after LOOP AT SCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm"
+abapFile: "abapmodify_screen.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "abapmodify", "screen"]
+---
 
 * * *
 
@@ -7125,16 +7293,19 @@ Executable Example
 The program DEMO\_DYNPRO\_MODIFY\_SCREEN demonstrates all possible dynamic screen modifications.
 
 
-
-**📖 Source**: [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
-
 ### abendynpro_mod_simple_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Dynamic Screen Modifications"
+description: |
+  This example demonstrates how to modify dynpro fields at runtime. Source Code REPORT demo_dynpro_modify_simple . DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA flag(1) TYPE c. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. LOOP AT SCREEN INTO DATA(screen_wa
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm"
+abapFile: "abendynpro_mod_simple_abexa.htm"
+keywords: ["loop", "do", "if", "case", "data", "abendynpro", "mod", "simple", "abexa"]
+---
 
 * * *
 
@@ -7209,16 +7380,19 @@ The program DEMO\_DYNPRO\_MODIFY\_SCREEN demonstrates further dynamic screen mod
 Included pages: 2
 
 
-
-**📖 Source**: [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
-
 ### abapset_hold_data.htm
 
-> **📖 Official SAP Documentation**: [abapset_hold_data.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SET HOLD DATA"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data_shortref.htm) Syntax SET HOLD DATA ONOFF. Effect During PBO(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpbo_glosry.htm 'Glossary Entry') processing, this statement turns the f
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data.htm"
+abapFile: "abapset_hold_data.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapset", "hold"]
+---
 
 * * *
 
@@ -7258,16 +7432,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Holding Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm)
 
 
-
-**📖 Source**: [abapset_hold_data.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data.htm)
-
 ### abendynpro_hold_data_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_hold_data_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Holding Data"
+description: |
+  This example demonstrates how to hold input data across transactions. Source Code REPORT demo_dynpro_set_hold_data. DATA field(10) TYPE c. CALL SCREEN 100. field = 'XXXXXXXXXX'. CALL SCREEN 100. MODULE hold_data OUTPUT. SET HOLD DATA ON. ENDMODULE. Description The static next dynpro of dynpro 1
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm"
+abapFile: "abendynpro_hold_data_abexa.htm"
+keywords: ["delete", "do", "if", "try", "data", "abendynpro", "hold", "abexa"]
+---
 
 * * *
 
@@ -7313,16 +7490,19 @@ In the PBO event of the dynpro, the Hold Data attribute is activated regardless 
 Included pages: 3
 
 
-
-**📖 Source**: [abendynpro_hold_data_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm)
-
 ### abapget_cursor_dynpro.htm
 
-> **📖 Official SAP Documentation**: [abapget_cursor_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_dynpro.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "GET CURSOR - Dynpro"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_shortref.htm) Syntax GET CURSOR   FIELD  field  field_properties(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_field.htm)    LINE line  . Effect If
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_dynpro.htm"
+abapFile: "abapget_cursor_dynpro.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapget", "cursor", "dynpro"]
+---
 
 * * *
 
@@ -7368,16 +7548,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Determining the Cursor Position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_get_cursor_abexa.htm)
 
 
-
-**📖 Source**: [abapget_cursor_dynpro.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_dynpro.htm)
-
 ### abapget_cursor_field.htm
 
-> **📖 Official SAP Documentation**: [abapget_cursor_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_field.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... VALUE val LENGTH len OFFSET off LINE lin AREA area. Extras: 1. ... VALUE val(#!ABAP_ADDITION_1@1@) 2. ... LENGTH len(#!ABAP_ADDITION_2@2@) 3. ... OFFSET off(#!ABAP_ADDITION_3@3@) 4. ... LINE lin(#!ABAP_ADDITION_4@4@) 5. ... AREA area(#!ABAP_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_field.htm"
+abapFile: "abapget_cursor_field.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapget", "cursor", "field"]
+---
 
 * * *
 
@@ -7446,16 +7629,19 @@ Effect
 If the screen element on which the cursor is positioned is within a [table control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_control_glosry.htm "Glossary Entry"), the addition AREA assigns the name of the table control to the data object area. If not, area is initialized. area expects a character-like variable.
 
 
-
-**📖 Source**: [abapget_cursor_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_cursor_field.htm)
-
 ### abendynpro_get_cursor_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_get_cursor_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_get_cursor_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Determining the Cursor Position"
+description: |
+  This example demonstrates how to determine the cursor position on dynpros. Source Code PROGRAM demo_dynpro_get_cursor . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code. DATA: input_output(20) TYPE c, fld(20) TYPE c, off     TYPE i, val(20) TYPE c, len     TYPE i. CALL SCREEN 100. MODULE ini
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_get_cursor_abexa.htm"
+abapFile: "abendynpro_get_cursor_abexa.htm"
+keywords: ["select", "do", "case", "data", "abendynpro", "get", "cursor", "abexa"]
+---
 
 * * *
 
@@ -7509,16 +7695,19 @@ The static next dynpro number of dynpro 100 is 100. All input/output fields exce
 Included pages: 3
 
 
-
-**📖 Source**: [abendynpro_get_cursor_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_get_cursor_abexa.htm)
-
 ### abapcontrols.htm
 
-> **📖 Official SAP Documentation**: [abapcontrols.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CONTROLS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_shortref.htm) Syntax Forms Declaration of Table Controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tableview.htm) 1. CONTROLS contrl TYPE TABLEVIEW USING SCREEN dynnr. Declarat
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols.htm"
+abapFile: "abapcontrols.htm"
+keywords: ["loop", "do", "if", "try", "class", "abapcontrols"]
+---
 
 * * *
 
@@ -7555,16 +7744,19 @@ Continue
 [CONTROLS - TYPE TABSTRIP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tabstrip.htm)
 
 
-
-**📖 Source**: [abapcontrols.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols.htm)
-
 ### abapcontrols_tableview.htm
 
-> **📖 Official SAP Documentation**: [abapcontrols_tableview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tableview.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CONTROLS - TYPE TABLEVIEW"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_shortref.htm) Syntax CONTROLS contrl TYPE TABLEVIEW USING SCREEN dynnr. Effect Declares a table control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_control_glosry.htm 'Glossary Entry'
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tableview.htm"
+abapFile: "abapcontrols_tableview.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "abapcontrols", "tableview"]
+---
 
 * * *
 
@@ -7697,16 +7889,19 @@ MODULE modify\_tab INPUT.
 ENDMODULE.
 
 
-
-**📖 Source**: [abapcontrols_tableview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tableview.htm)
-
 ### abapcontrols_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abapcontrols_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CONTROLS - TYPE TABSTRIP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_shortref.htm) Syntax CONTROLS contrl TYPE TABSTRIP. Effect Declares a tabstrip control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentabstrip_control_glosry.htm 'Glossary Entry'). If the type
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tabstrip.htm"
+abapFile: "abapcontrols_tabstrip.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapcontrols", "tabstrip"]
+---
 
 * * *
 
@@ -7777,16 +7972,19 @@ ENDMODULE.
 Included pages: 2
 
 
-
-**📖 Source**: [abapcontrols_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols_tabstrip.htm)
-
 ### abapset_hold_data.htm
 
-> **📖 Official SAP Documentation**: [abapset_hold_data.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SET HOLD DATA"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data_shortref.htm) Syntax SET HOLD DATA ONOFF. Effect During PBO(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpbo_glosry.htm 'Glossary Entry') processing, this statement turns the f
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data.htm"
+abapFile: "abapset_hold_data.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapset", "hold"]
+---
 
 * * *
 
@@ -7826,16 +8024,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Holding Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm)
 
 
-
-**📖 Source**: [abapset_hold_data.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data.htm)
-
 ### abendynpro_hold_data_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_hold_data_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Holding Data"
+description: |
+  This example demonstrates how to hold input data across transactions. Source Code REPORT demo_dynpro_set_hold_data. DATA field(10) TYPE c. CALL SCREEN 100. field = 'XXXXXXXXXX'. CALL SCREEN 100. MODULE hold_data OUTPUT. SET HOLD DATA ON. ENDMODULE. Description The static next dynpro of dynpro 1
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm"
+abapFile: "abendynpro_hold_data_abexa.htm"
+keywords: ["delete", "do", "if", "try", "data", "abendynpro", "hold", "abexa"]
+---
 
 * * *
 
@@ -7881,16 +8082,19 @@ In the PBO event of the dynpro, the Hold Data attribute is activated regardless 
 Included pages: 2
 
 
-
-**📖 Source**: [abendynpro_hold_data_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_hold_data_abexa.htm)
-
 ### abenselection_screen_overview.htm
 
-> **📖 Official SAP Documentation**: [abenselection_screen_overview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_overview.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens - Overview"
+description: |
+  -   Selection Screens as Dynpros(#abenselection-screen-overview-1--------selection-screen-tasks---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2) -   GUI Status of Selection Screens(#abenselection-screen-overview-3--------selection-screen-events---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4) -   Selection S
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_overview.htm"
+abapFile: "abenselection_screen_overview.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenselection", "screen", "overview"]
+---
 
 * * *
 
@@ -7904,159 +8108,208 @@ Selection Screens - Overview
 
 -   [GUI Status of Selection Screens](#abenselection-screen-overview-3--------selection-screen-events---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4)
 
--   [Selection Screens and Logical Databases](#abenselection-screen-overview-5---selection-screens-as-dynpros--selection-screens-are-special--dynpros--javascript-call-link---abendynpro-glosry-htm-----glossary-entry---that-can-be-defined-in-executable-programs--function-groups--and-module-pools--selection-screens-are-defined-in-the-global-declaration-part-of-the-specified-abap-programs-with-the-statements-select-options--selection-screen-and-parameters-without-using-screen-painter--the--screens--javascript-call-link---abenscreen-glosry-htm-----glossary-entry---of-selection-screens-can-contain-a-subset-of-the-screen-elements-of-general-dynpros---selection-screens-lie-in-the-same-namespace-as-the-dynpros-of-the-program--additionally---dynpro-number--javascript-call-link---abendynpro-number-glosry-htm-----glossary-entry---1000-is-reserved-for-a-standard-selection-screen--apart-from-the-standard-selection-screen--standalone-selection-screens-can-also-be-defined--standalone-selection-screens-can-only-be-defined-in-function-groups-and-module-pools---when-an-abap-program-is-activated--the-components-of-the-program-selection-screen--i-e--screens-with-screen-elements-and--dynpro-flow-logic--javascript-call-link---abendynpro-flow-logic-glosry-htm-----glossary-entry----are-generated-automatically---note--the-generated-dynpros-cannot-be-edited-directly--which-also-means-that-certain-predefined-settings-cannot-be-disabled--for-example--input-fields-are-always-templates-in-which-certain-characters------------------have-special--functions--javascript-call-link---abenabap-dynpros-fields-htm-------selection-screen-tasks--selection-screens-essentially-have-two-tasks-------they-enable-users-to-input-parameters--single-values--and-selection-criteria--interval-selections-in-tabular-form--------they-represent-the-interface-of-executable-programs--whose-input-fields-can-be-supplied-by-the-calling-program-with--submit--javascript-call-link---abapsubmit-htm-------gui-status-of-selection-screens--the-abap-runtime-environment-sets-a-default-gui-status-and-a-default-title-for-a-selection-screen--there-is-no-guarantee-that-the-statement--set-pf-status--javascript-call-link---abapset-pf-status-dynpro-htm-----works-at--pbo--javascript-call-link---abenpbo-glosry-htm-----glossary-entry---for-the-selection-screen--to-define-a-separate-gui-status-for-a-selection-screen-or-to-deactivate-the-functions-of-the-screen-generated--one-of-the-function-modules-rs--set--selscreen--status-or-rs--external--selscreen--status-can-be-used--in-exceptional-cases----the-default-title-in-the-title-bar-of-selection-screens-is-the-title-of-the-program-defined-in-the--program-attributes--javascript-call-link---abenprogram-attribute-glosry-htm-----glossary-entry----this-title-can-be-overwritten-as-follows-------with-the-addition-title-in-the-case-of-selection-screens-defined-using--selection-screen-begin-of-screen--javascript-call-link---abapselection-screen-definition-htm-----------with-the-statement--set-titlebar--javascript-call-link---abapset-titlebar-dynpro-htm-----at-pbo-in-the-case-of-standard-selection-screens---selection-screen-events--no-dialog-modules-for-selection-screens-can-be-defined-in-the-abap-program--instead--the-runtime-environment-triggers-specific-events-during-pbo-and--pai--javascript-call-link---abenpai-glosry-htm-----glossary-entry---processing-of-the-dynpro--which-can-be-handled-in-corresponding-event-blocks-during--selection-screen-processing--javascript-call-link---abenselscreen-processing-glosry-htm-----glossary-entry-----selection-screens-and-logical-databases--a-standard-selection-screen-can-also-be-defined-in-a--logical-database--javascript-call-link---abenlogical-data-base-glosry-htm-----glossary-entry----if-an-executable-program-is-associated-with-a-logical-database--its-standard-selection-screen-is-composed-of-the-logical-database-and-its-own-database---continue---example--exa-gif--example----selection-screens--changing-the-default-gui-status--javascript-call-link---abensel-screen-gui-status-abexa-htm-------------source-----abenselection-screen-overview-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenselection-screen-overview-htm-------abensel-screen-gui-status-abexa-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------selection-screens--javascript-call-link---abenselection-screen-htm---------selection-screens---overview--javascript-call-link---abenselection-screen-overview-htm---------selection-screens--changing-the-default-gui-status--the-example-demonstrates-how-the-gui-status-of-a-selection-screen-can-be-changed---source-code--report-demo--sel--screen--status---data-itab-type-table-of-sy-ucomm--parameters-test-10--type-c--at-selection-screen-output----itab---value------conv-sy-ucomm---prin--------------------------conv-sy-ucomm---spos-----------call-function--rs--set--selscreen--status---------exporting-------------p--status----sy-pfkey--------tables-------------p--exclude---itab---description--in-this-example-program--the-two-functions-print-and-save-as-variant-are-disabled--the-function-codes-of-the-default-gui-status-can-be-found-in-the-field-gui-status-which-can-be-displayed-by-choosing-system---status-------------abap-keyword-documentation---abap---reference---sap-gui-user-dialogs---selection-screens---creating-selection-screens---selection-screen---selection-screen---begin-of----files----7-----difficulty----intermediate----abap-keyword-documentation---abap---reference---sap-gui-user-dialogs---selection-screens---creating-selection-screens---select-options--included-pages--8---------source-----abensel-screen-gui-status-abexa-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensel-screen-gui-status-abexa-htm-------abapselect-options-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------selection-screens--javascript-call-link---abenselection-screen-htm---------creating-selection-screens--javascript-call-link---abenselection-screen-create-htm---------select-options---quick-reference--javascript-call-link---abapselect-options-shortref-htm------syntax--select-options-selcrit--for----dobj----name------javascript-call-link---abapselect-options-for-htm--------------------------screen--options--javascript-call-link---abapselect-options-screen-htm-----------------------------value--options--javascript-call-link---abapselect-options-value-htm------------------------------no-database-selection--javascript-call-link---abapselect-options-no-db-sel-htm------------------------------ldb--options--javascript-call-link---abapselect-options-ldb-htm-----------effect--this-declares-a-selection-criterion-selcrit-for-a-data-object-dobj-or-a-type-specified-in-name--selection-criteria-are-components-of-a--selection-screen--javascript-call-link---abenselection-screen-glosry-htm-----glossary-entry----to-which-are-assigned-a--selection-table--javascript-call-link---abenselection-table-glosry-htm-----glossary-entry---in-the-abap-program--as-well-as-two-input-fields-and-a-pushbutton-for-multiple-selection---the-name-of-the-selection-criterion-selcrit-is-limited-to-a-maximum-of-8-characters--this-statement-is-allowed-in-the-global-declaration-part-of--executable-programs--javascript-call-link---abenexecutable-program-glosry-htm-----glossary-entry-----function-groups--javascript-call-link---abenfunction-group-glosry-htm-----glossary-entry----and--module-pools--javascript-call-link---abenmodul-pool-glosry-htm-----glossary-entry----in-function-groups-and-module-pools--the-statement-is-only-allowed-within-the-definition-of-a--standalone-selection-screen--javascript-call-link---abapselection-screen-definition-htm------in-executable-programs--the-statement-is-otherwise-automatically-assigned-to-the--standard-selection-screen--javascript-call-link---abapselection-screen-standard-htm-------the-statement-select-options-has-the-following-effect-------the-statement-declares-a-selection-table-in-the-program-with-the-name-selcrit--a-selection-table-is-an-internal--standard-table--javascript-call-link---abenstandard-table-glosry-htm-----glossary-entry---with--header-line--javascript-call-link---abenheader-line-glosry-htm-----glossary-entry---and--standard-key--javascript-call-link---abenstandard-key-glosry-htm-----glossary-entry----selection-tables-can-be-used-to-store--ranges-conditions--javascript-call-link---abenranges-condition-glosry-htm-----glossary-entry---that-join-multiple-comparison-expressions--the-content-of-selection-tables-can-be-analyzed-in-a--relational-expression--javascript-call-link---abenrelational-expression-glosry-htm-----glossary-entry---with-the--relational-operator--javascript-call-link---abenrelational-operator-glosry-htm-----glossary-entry----in--javascript-call-link---abenlogexp-select-option-htm-----or-in-a--similar-expression--javascript-call-link---abenwhere-logexp-seltab-htm-----of-a-where-condition-in-abap-sql--selection-tables-have-the-same-layout-as--ranges-tables--javascript-call-link---abenranges-table-glosry-htm-----glossary-entry---and-have-the-following-four-columns------------sign-of-type-c-and-length-1--the-content-of-sign-determines-for-every-row-whether-the-result-of-the-condition-formulated-in-the-column-is-included-or-excluded-in-the-entire-resulting-set-for-all-rows--valid-values-are--i--for-include-and--e--for-exclude-------option-of-type-c-with-length-2--option-contains-the-selection-option-for-the-condition-of-the-row-in-the-form-of-relational-operators--valid-operators-are--eq----ne----ge----gt----le----lt----cp---and--np---if-the-column-high-is-initial--and--bt----nb---if-column-high-is-not-initial--for-the-options--cp--and--np---the-data-type-of-the-columns-low-and-high-must-be-c--and-special-rules-apply-to-entries-on-the-selection-screen-------low-of-the-data-type-defined-after--for--javascript-call-link---abapselect-options-for-htm------this-column-is-designated-for-the-comparison-value-or-the-lower-interval-limitation-------high-of-the-data-type-defined-after--for--javascript-call-link---abapselect-options-for-htm------this-column-is-designated-for-the-upper-interval-limitation-------two-input-fields-with-the-name-selcrit-low-and-selcrit-high-are-created-on-the-current-selection-screen-using-a-matching-external-data-type-in-a-new-row-at-positions-35-and-60--the-length-of-the-input-fields-is-based-upon-the-length-of-the-data-type-which-is-defined-after-for--the-maximum-length-of-the-input-fields-is-255--the-maximum-visible-length-of-the-input-fields-is-between-10-and-18--depending-on-the-nesting-depth-in-framed-blocks---if-the-length-is-greater-than-the-maximum-visible-length--the-content-is-displayed-as-movable------an-output-field-generated-automatically-is-displayed-in-the-first-position-available-to-the-left-of-the-input-field-as-a-label-with-a-length-of-between-20-and-30-depending-on-the-nesting-depth-in-blocks-with-frames--the-output-field-contains-either-the-name-of-the-selcrit-selection-criterion-or-the-selection-text-to-which-the-selection-criterion-is-assigned-in-the-text-elements-of-the-program--if-the-user-requests-field-or-input-help-on-the-output-field-using-the-function-key-f1-or-f4--the-same-output-is-displayed-as-if-one-of-the-input-fields-is-chosen------a-multiple-selection-pushbutton-is-created-after-the-second-input-field--if-this-pushbutton-is-selected--a-dialog-screen-with-four--tabstrip-control-pages--javascript-call-link---abentab-page-glosry-htm-----glossary-entry---appears--in-which-the-input-fields-are-again-displayed-in-tabular-form-in--table-controls--javascript-call-link---abentable-control-glosry-htm-----glossary-entry----the-tabstrip-pages-are-separated-based-on-individual-value-comparison--interval-limitation--and-settings-for-the-column-sign------users-can-select-an-input-field-with-a-double-click-on-the-selection-screen-or-use-the-dialog-screen-for-multiple-selection--on-the-selection-screen--the-value-of-the-column-sign-can-also-be-chosen--on-the-dialog-screen-for-multiple-selection--this-is-done-by-selecting-the-respective-tabstrip-page--if-the-selection-option-is-not-equal-to--eq--or--bt---it-is-displayed-as-an-icon-in-front-of-the-first-input-field--the-color-of-the-icon-is-green-if-the-content-of-the-column-sign-is--i---and-red-if-it-is--e-------the-selection-options--cp--and--np--can-be-selected-only-if-the-first-input-field-contains-one-of-the-wildcard-characters------or----------masks-a-single-character-------masks-any-character-string--even-an-empty-one--if-one-of-these-characters-is-entered--the-selection-option-is-automatically-set-to--cp---if--cp--is-set--and-all-wildcard-characters-have-been-removed--the-selection-option-is-automatically-set-to--eq--when-there-is-a-user-action--this-limitation-does-not-apply-within-the-program--when-the-selection-table-is-evaluated--the-column-low-can-also-contain-a-string-without-wildcard-characters-for-the-selection-options--cp--and--np-------the-attributes-of-the-elements-on-the-selection-screen-can-be-influenced-with-the-statement--screen--options--javascript-call-link---abapselect-options-screen-htm-----or-the-statement--selection-screen--javascript-call-link---abapselection-screen-htm---------------the-first-row-of-the-selection-table-selcrit-is-associated-with-the-input-fields-on-the-selection-screen--all-rows-are-displayed-in-the-dialog-box-for-multiple-selection------each-time-before-the-selection-screen-is-sent-to-the--selection-screen-event--javascript-call-link---abenselection-screen-event-glosry-htm-----glossary-entry---atselection-screen-output--the-content-of-first-row-in-the-selection-table-is-transported-to-the-selection-screen--with-a--conversion-routine--javascript-call-link---abenconversion-routine-glosry-htm-----glossary-entry---being-executed-if-required--if-the-length-of-the-columns-low-and-high-in-the-first-row-of-the-selection-table-is-greater-than-255--the-surplus-content-is-cut-off-on-the-right--it-is-only-possible-for-all-rows-to-be-transported-if-the-button-for-multiple-selections-is-selected--a-conversion-routine-might-be-executed-here--and-rows-might-be-cut-off--settings-for-the-content-of-the-input-fields-can-be-made-in--value--options--javascript-call-link---abapselect-options-value-htm----------after-a-user-action-on-the-selection-screen--the-contents-of-the-input-fields-and-the-chosen-settings-are-transported-to-the-first-row-and-the-header-row-of-the-selection-table------after-a-user-action-on-the-dialog-box-for-multiple-selections--the-contents-of-all-input-fields-and-the-chosen-settings-are-transported-to-the-rows-of-the-selection-table--these-transports-convert-the-content-of-character-like-fields-by-default-into-uppercase-letters-by-default--after-which-a-conversion-routine-is-performed--if-required--after-each-transport--various--selection-screen-events--javascript-call-link---abapat-selection-screen-events-htm-----are-raised------if-a-value-has-been-entered-in-the-entry-field-for-the-upper-interval-high--the-system-checks-whether-this-value-is-greater-than-the-lower-interval-limit-low-following-each-transport-and-conversion-routine--if-performed---if-necessary--an--error-message--javascript-call-link---abenerror-message-glosry-htm-----glossary-entry---is-sent--this-check-can-be-switched-off-before-the-selection-screen-is-sent--using-the-function-module-rs--selopt--no--interval--check-----------if-selection-criteria-are-defined-in-the-selection-include-of-a-logical-database--further-additions--ldb--options--javascript-call-link---abapselect-options-ldb-htm-----are-necessary-or-possible-----------if--in-an-executable-program--a-selection-criterion-is-defined-for-a-component-of-a-node-of-the-associated-logical-database--declared-by--tables--javascript-call-link---abaptables-htm-----or--nodes--javascript-call-link---abapnodes-htm------and-the-node-in-question-is-intended-for-dynamic-selection-on-the-logical-database--the-selection-table-is-passed--by-default--to-the-logical-database--after--selection-screen-processing--javascript-call-link---abenselscreen-processing-glosry-htm-----glossary-entry----where-it-is-handled-as-a-dynamic-selection--furthermore--in-this-case--the-input-fields-for-the-corresponding-dynamic-selection-are-displayed-directly-on-the-selection-screen--therefore-the-user-does-not-need-to-select-the-fields-using-the-dynamic-selections-function--this-transfer-can-be-suppressed-using-the-addition--no-database-selection--javascript-call-link---abapselect-options-no-db-sel-htm------------notes------to-avoid-undefined-system-behavior--the-header-row-of-a-selection-table-should-not-be-changed-in-the-program--read-access-should-also-be-avoided--instead-separate-work-areas--field-symbols--or-data-references-should-be-used--as-always-for-internal-tables-----------if-a-selection-criterion-is-supplied-with-data-when-calling-up-an-executable-program-using--submit--javascript-call-link---abapsubmit-htm------a--conversion-routine--javascript-call-link---abenconversion-routine-glosry-htm-----glossary-entry---may-be-performed-for-the-first-row-only--while-the-value-of-the-columns-low-and-high-will-be-truncated-at-position-255-for-the-first-row-only--if-the-selection-criterion-is-declared-with-the-addition--no-display--javascript-call-link---abapselect-options-screen-htm------no-conversion-routine-or-truncation-will-be-performed-for-the-first-row-either-----------if-the-type-of-the-selection-criterion-is-a--decimal-floating-point-number--javascript-call-link---abendecfloat-glosry-htm-----glossary-entry---that-does-not-refer-to-a-data-type-in-abap-dictionary--the-output-style-preserve-scaling-is-set-for-the-input-field-of-the-selection-screen--here--any-trailing-zeroes-are-preserved-in-the-decimal-places--if-there-is-a-reference-to-a-data-type-in-the-abap-dictionary--the-output-style-defined-there-is-used-----------if-the-type-of-the-selection-criteria-is-a--packed-number--javascript-call-link---abenpacked-number-glosry-htm-----glossary-entry---or-a--decimal-floating-point-number--javascript-call-link---abendecfloat-glosry-htm-----glossary-entry---defined-in-abap-dictionary--the-attribute-sign-must-be-set-for-the-type-attribute--so-that-negative-numbers-can-be-displayed-on-the-selection-screen--this-setting-is-only-possible-for--domains--javascript-call-link---abendomain-glosry-htm-----glossary-entry---and-not-for-specifying-a-built-in-type-directly-for--data-elements--javascript-call-link---abendata-element-glosry-htm-----glossary-entry---or-structure-components--if-a-negative-number-is-entered-on-the-selection-screen-and-this-property-is-not-set--the-system-rejects-it-with-an-error-message--if-the-columns-low-or-high-contain-a-negative-number-when-the-selection-screen-is-called--an-non-handleable-exception-is-raised-----------if-the-type-of-the-selection-criterion-is-a--decimal-floating-point-number--javascript-call-link---abendecfloat-glosry-htm-----glossary-entry---defined-in-abap-dictionary-for-which-the-output-style--currency-amount--is-specified--only-numbers-with-the-corresponding-amount-of-decimal-places-can-be-entered-on-the-selection-screen--if-a-corresponding-abap-data-object-contains-a-number-with-too-many-decimal-places-when-the-selection-screen-is-called--a-non-handleable-exception-is-raised--if-the-output-style-is--extended-currency-amount---additional-decimal-places-can-be-displayed-----------the-columns-sign-and-option-of-a-selection-table-declared-using-select-options-are-not-related-to-data-types-in-abap-dictionary--in-the-case-of--ranges-tables--javascript-call-link---abenranges-table-glosry-htm-----glossary-entry---defined-in-abap-dictionary--these-columns-refer-to-the-data-elements-ddsign-and-ddoption--------continue--select-options---for--javascript-call-link---abapselect-options-for-htm------select-options---screen--options--javascript-call-link---abapselect-options-screen-htm------select-options---value--options--javascript-call-link---abapselect-options-value-htm-------------source-----abapselect-options-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapselect-options-htm-------abapselect-options-for-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------selection-screens--javascript-call-link---abenselection-screen-htm---------creating-selection-screens--javascript-call-link---abenselection-screen-create-htm---------select-options--javascript-call-link---abapselect-options-htm---------select-options---for---quick-reference--javascript-call-link---abapselect-options-shortref-htm------syntax------for----dobj----name----------alternatives----1-------for-dobj----abap-alternative-11@)
-[2\. ... FOR (name)](#!ABAP_ALTERNATIVE_2@2@)
+-   [Selection Screens and Logical Databases](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_5)
 
-Effect
+Selection Screens as Dynpros
 
-This addition determines the data type of the columns low and high in the [selection table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_table_glosry.htm "Glossary Entry"). The data type can be defined by means of a static reference to an existing data object dobj or by a dynamic reference to a data type from ABAP Dictionary in name.
+Selection screens are special [dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") that can be defined in executable programs, function groups, and module pools. Selection screens are defined in the global declaration part of the specified ABAP programs with the statements SELECT-OPTIONS, SELECTION-SCREEN and PARAMETERS without using Screen Painter. The [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of selection screens can contain a subset of the screen elements of general dynpros.
 
-If the addition [NO-DISPLAY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm) is not specified, the data type of the columns low and high in the selection table must be elementary and [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") and the numeric type f is not allowed. If the addition NO-DISPLAY is specified, any data types, except [enumerated types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), are possible.
+Selection screens lie in the same namespace as the dynpros of the program. Additionally, [dynpro number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_number_glosry.htm "Glossary Entry") 1000 is reserved for a standard selection screen. Apart from the standard selection screen, standalone selection screens can also be defined. Standalone selection screens can only be defined in function groups and module pools.
 
-Note
-
-When referencing data types from ABAP Dictionary, the [selection criterion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_criterion_glosry.htm "Glossary Entry") inherits all the screen-relevant attributes defined there. During data transport to and from the input fields, any conversion routines defined in the domain are executed. The text defined in ABAP Dictionary can be inherited as a selection text. Note, however, that the input fields on the selection screen are linked with a global data object belonging to the program and do not have any real reference to the dictionary, in contrast to screen fields, which are created in the Screen Painter with reference to the dictionary. This has a particular effect on automatic support for input help (F4) and value checking. In comparison to general screens, input help functionality is limited here in that dependencies between fields and previously entered data are not taken into account. No automatic value checking is performed.
-
-Alternative 1
-
-... FOR dobj
-
-Effect
-
-If this addition is specified, the columns low and high in the selection table inherit all the attributes of a data object dobj that has already been declared, most importantly a reference to ABAP Dictionary, if applicable. dobj expects a data object that is elementary and flat and not of the type f (unless [NO-DISPLAY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm) is used) and is not an [enumerated type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
+When an ABAP program is activated, the components of the program selection screen, i.e. screens with screen elements and [dynpro flow logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry"), are generated automatically.
 
 Note
 
-As well as the data objects referred to using FOR from their own program, the public attributes of global classes are also relevant data objects.
+The generated dynpros cannot be edited directly, which also means that certain predefined settings cannot be disabled. For example, input fields are always templates in which certain characters ("!", "=", "\_") have special [functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_fields.htm).
 
-Example
+Selection Screen Tasks
 
-Typical declaration and application of a selection criterion.
+Selection screens essentially have two tasks:
 
-DATA spfli\_wa TYPE spfli.
-SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid.
-SELECT \*
-       FROM spfli
-       WHERE carrid IN @s\_carrid
-       INTO @spfli\_wa.
-  ...
-ENDSELECT.
+-   They enable users to input parameters (single values) and selection criteria (interval selections in tabular form).
 
-Alternative 2
+-   they represent the interface of executable programs, whose input fields can be supplied by the calling program with [SUBMIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit.htm).
 
-... FOR (name)
+GUI Status of Selection Screens
 
-Effect
+The ABAP runtime environment sets a default GUI status and a default title for a selection screen. There is no guarantee that the statement [SET PF-STATUS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_pf-status_dynpro.htm) works at [PBO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpbo_glosry.htm "Glossary Entry") for the selection screen. To define a separate GUI status for a selection screen or to deactivate the functions of the screen generated, one of the function modules RS\_SET\_SELSCREEN\_STATUS or RS\_EXTERNAL\_SELSCREEN\_STATUS can be used (in exceptional cases).
 
-This addition is used to create the columns low and high in the selection table with data type c and length 45. The input fields are displayed on the selection screen, but with a length, field help, and input help appropriate for the data type specified in name.
+The default title in the title bar of selection screens is the title of the program defined in the [program attributes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_glosry.htm "Glossary Entry"). This title can be overwritten as follows:
 
-name expects a [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") character-like data object that contains the name of a component in a flat structure from ABAP Dictionary in uppercase letters when the selection screen is accessed. The following can be specified for name:
+-   With the addition TITLE in the case of selection screens defined using [SELECTION-SCREEN BEGIN OF SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_definition.htm).
 
--   Constant
+-   With the statement [SET TITLEBAR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_titlebar_dynpro.htm) at PBO in the case of standard selection screens.
 
-If the data object name is specified as a constant, it can be evaluated statically and the specified component is identified as the used object.
+Selection Screen Events
 
--   Variable
+No dialog modules for selection screens can be defined in the ABAP program. Instead, the runtime environment triggers specific events during PBO and [PAI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpai_glosry.htm "Glossary Entry") processing of the dynpro, which can be handled in corresponding event blocks during [selection screen processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselscreen_processing_glosry.htm "Glossary Entry").
 
-If the data object name is specified as a variable, it is specified only dynamically and the content is not evaluated statically.
+Selection Screens and Logical Databases
 
-A text field literal can be specified for name, but its content is ignored. If the [text pool](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_pool_glosry.htm "Glossary Entry") currently loaded does not contain a selection text for the parameter, the output field displays the corresponding field label from ABAP Dictionary. When data is transported from the input field to the selection table, the content is converted as if it were assigned by the corresponding ABAP data type (no formatting characters, period as a decimal separator, date format "yyyymmdd", and so on).
-
-If the content of name is not a structure component in ABAP Dictionary, the input fields are displayed according to the actual type of the columns low and high. This also applies if a literal is specified for name. If a selection text for the parameter is not created in the text pool currently loaded, the output field contains the text "Generic Selection Option".
-
-A dynamic reference to a data type is not possible in a selection include for a [logical database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
-
-Example
-
-Dynamic design of the selection criterion selcrit on selection screen 500 based on the entries in the [standard selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") for an executable program.
-
-PARAMETERS: dbtab  TYPE c LENGTH 30,
-            column TYPE c LENGTH 30.
-DATA name(80) TYPE c.
-SELECTION-SCREEN BEGIN OF SCREEN 500 AS WINDOW.
-SELECT-OPTIONS selcrit FOR (name).
-SELECTION-SCREEN END OF SCREEN 500.
-name = dbtab && '-' && column.
-CALL SELECTION-SCREEN 500 STARTING AT 10 10.
+A standard selection screen can also be defined in a [logical database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"). If an executable program is associated with a logical database, its standard selection screen is composed of the logical database and its own database.
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
+![Example](exa.gif "Example") [Selection Screens, Changing the Default GUI Status](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_gui_status_abexa.htm)
 
 
+### abensel_screen_gui_status_abexa.htm
 
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
-### abensel_screen_sel_opt_abexa.htm
-
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Changing the Default GUI Status"
+description: |
+  The example demonstrates how the GUI status of a selection screen can be changed. Source Code REPORT demo_sel_screen_status . DATA itab TYPE TABLE OF sy-ucomm. PARAMETERS test(10) TYPE c. AT SELECTION-SCREEN OUTPUT. itab = VALUE #( ( CONV sy-ucomm( 'PRIN' ) ) ( CONV sy-ucomm( 'SPOS' ) ) ). CALL F
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_gui_status_abexa.htm"
+abapFile: "abensel_screen_gui_status_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "gui", "status", "abexa"]
+---
 
 * * *
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Creating Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm) →  [SELECT-OPTIONS - FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Selection Screens - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_overview.htm) → 
 
-Selection Screens, Basic Form of Selection Criteria
+Selection Screens, Changing the Default GUI Status
 
-The example shows how the selection tables are filled in a multiple selection.
+The example demonstrates how the GUI status of a selection screen can be changed.
 
 Source Code
 
-REPORT demo\_sel\_screen\_select\_options.
-CLASS start DEFINITION.
-  PUBLIC SECTION.
-    CLASS-DATA name(80) TYPE c.
-    CLASS-METHODS main.
-ENDCLASS.
-SELECTION-SCREEN BEGIN OF SCREEN 100.
-  PARAMETERS: dbtab  TYPE c LENGTH 30 DEFAULT 'SFLIGHT',
-              column TYPE c LENGTH 30 DEFAULT 'CARRID'.
-SELECTION-SCREEN END OF SCREEN 100.
-SELECTION-SCREEN BEGIN OF SCREEN 500 AS WINDOW.
-  SELECT-OPTIONS selcrit FOR (start=>name).
-SELECTION-SCREEN END OF SCREEN 500.
-START-OF-SELECTION.
-  start=>main( ).
-CLASS start IMPLEMENTATION.
-  METHOD main.
-    CALL SELECTION-SCREEN 100 STARTING AT 10 10.
-    IF sy-subrc <> 0.
-      RETURN.
-    ENDIF.
-    name = dbtab && '-' && column.
-    CALL SELECTION-SCREEN 500 STARTING AT 10 10.
-    IF sy-subrc <> 0.
-      RETURN.
-    ENDIF.
-    cl\_abap\_demo\_services=>list\_table( selcrit\[\] ).
-  ENDMETHOD.
-ENDCLASS.
+REPORT demo\_sel\_screen\_status .
+DATA itab TYPE TABLE OF sy-ucomm.
+PARAMETERS test(10) TYPE c.
+AT SELECTION-SCREEN OUTPUT.
+  itab = VALUE #( ( CONV sy-ucomm( 'PRIN' ) )
+                  ( CONV sy-ucomm( 'SPOS' ) ) ).
+  CALL FUNCTION 'RS\_SET\_SELSCREEN\_STATUS'
+       EXPORTING
+            p\_status  = sy-pfkey
+       TABLES
+            p\_exclude = itab.
 
 Description
 
-On the selection screen 100, the name of the table dbtab and its column column can be specified. These are then used for the dynamic layout of the selection criterion on the selection screen 500.
-
-Two input fields and a pushbutton to enter additional values for the selection criterion are displayed. The value which the user enters in the first input field is written to the component selcrit-low of the selection table; the value for the second field is written to the component selcrit-high.
-
-For more complex selections, the user can use the pushbutton on the right side of the selection screen to display the GUI window for multiple selections.
-
-The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
+In this example program, the two functions Print and Save as Variant are disabled. The function codes of the default GUI status can be found in the field GUI Status which can be displayed by choosing System → Status.
 
 
+---
 
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
+
+## ABAP Keyword Documentation / ABAP − Reference / SAP GUI User Dialogs / Selection Screens / Creating Selection Screens / SELECTION-SCREEN / SELECTION-SCREEN - BEGIN OF
+
+**Files**: 7 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP − Reference / SAP GUI User Dialogs / Selection Screens / Creating Selection Screens / SELECT-OPTIONS
+
+Included pages: 8
+
+
+### abapselect-options.htm
+
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Creating Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_create.htm) → 
+
+SELECT-OPTIONS
+
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm)
+
+Syntax
+
+SELECT-OPTIONS selcrit [FOR *{*dobj*|*(name)*}*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+               *\[* [screen\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)*\]*
+               *\[*[value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)*\]*
+               *\[* [NO DATABASE SELECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_no_db_sel.htm)*\]*
+               *\[* [ldb\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_ldb.htm)*\]*.
+
+Effect
+
+This declares a selection criterion selcrit for a data object dobj or a type specified in name. Selection criteria are components of a [selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry"), to which are assigned a [selection table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_table_glosry.htm "Glossary Entry") in the ABAP program, as well as two input fields and a pushbutton for multiple selection.
+
+The name of the selection criterion selcrit is limited to a maximum of 8 characters. This statement is allowed in the global declaration part of [executable programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexecutable_program_glosry.htm "Glossary Entry"), [function groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_group_glosry.htm "Glossary Entry"), and [module pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodul_pool_glosry.htm "Glossary Entry"). In function groups and module pools, the statement is only allowed within the definition of a [standalone selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_definition.htm). In executable programs, the statement is otherwise automatically assigned to the [standard selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_standard.htm).
+
+The statement SELECT-OPTIONS has the following effect:
+
+-   The statement declares a selection table in the program with the name selcrit. A selection table is an internal [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") with [header line](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheader_line_glosry.htm "Glossary Entry") and [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_key_glosry.htm "Glossary Entry"). Selection tables can be used to store [ranges conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_condition_glosry.htm "Glossary Entry") that join multiple comparison expressions. The content of selection tables can be analyzed in a [relational expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrelational_expression_glosry.htm "Glossary Entry") with the [relational operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrelational_operator_glosry.htm "Glossary Entry") [IN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_select_option.htm) or in a [similar expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_seltab.htm) of a WHERE condition in ABAP SQL. Selection tables have the same layout as [ranges tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm "Glossary Entry") and have the following four columns:
+    
+
+-   sign of type c and length 1. The content of sign determines for every row whether the result of the condition formulated in the column is included or excluded in the entire resulting set for all rows. Valid values are "I" for include and "E" for exclude.
+
+-   option of type c with length 2. option contains the selection option for the condition of the row in the form of relational operators. Valid operators are "EQ", "NE", "GE", "GT", "LE", "LT", "CP", and "NP", if the column high is initial, and "BT", "NB", if column high is not initial. For the options "CP" and "NP", the data type of the columns low and high must be c, and special rules apply to entries on the selection screen.
+
+-   low of the data type defined after [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm). This column is designated for the comparison value or the lower interval limitation.
+
+-   high of the data type defined after [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm). This column is designated for the upper interval limitation.
+
+-   Two input fields with the name selcrit-low and selcrit-high are created on the current selection screen using a matching external data type in a new row at positions 35 and 60. The length of the input fields is based upon the length of the data type which is defined after FOR. The maximum length of the input fields is 255. The maximum visible length of the input fields is between 10 and 18 (depending on the nesting depth in framed blocks). If the length is greater than the maximum visible length, the content is displayed as movable.
+    An output field generated automatically is displayed in the first position available to the left of the input field as a label with a length of between 20 and 30 depending on the nesting depth in blocks with frames. The output field contains either the name of the selcrit selection criterion or the selection text to which the selection criterion is assigned in the text elements of the program. If the user requests field or input help on the output field using the function key F1 or F4, the same output is displayed as if one of the input fields is chosen.
+    A multiple selection pushbutton is created after the second input field. If this pushbutton is selected, a dialog screen with four [tabstrip control pages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_page_glosry.htm "Glossary Entry") appears, in which the input fields are again displayed in tabular form in [Table Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_control_glosry.htm "Glossary Entry"). The tabstrip pages are separated based on individual value comparison, interval limitation, and settings for the column sign.
+    Users can select an input field with a double-click on the selection screen or use the dialog screen for multiple selection. On the selection screen, the value of the column sign can also be chosen. On the dialog screen for multiple selection, this is done by selecting the respective tabstrip page. If the selection option is not equal to "EQ" or "BT", it is displayed as an icon in front of the first input field. The color of the icon is green if the content of the column sign is "I", and red if it is "E".
+    The selection options "CP" and "NP" can be selected only if the first input field contains one of the wildcard characters "\*" or "+". "+" masks a single character, "\*" masks any character string, even an empty one. If one of these characters is entered, the selection option is automatically set to "CP". If "CP" is set, and all wildcard characters have been removed, the selection option is automatically set to "EQ" when there is a user action. This limitation does not apply within the program. When the selection table is evaluated, the column low can also contain a string without wildcard characters for the selection options "CP" and "NP".
+    The attributes of the elements on the selection screen can be influenced with the statement [screen\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm) or the statement [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen.htm).
+    
+-   The first row of the selection table selcrit is associated with the input fields on the selection screen. All rows are displayed in the dialog box for multiple selection.
+    Each time before the selection screen is sent to the [selection screen event](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_event_glosry.htm "Glossary Entry") ATSELECTION-SCREEN OUTPUT, the content of first row in the selection table is transported to the selection screen, with a [conversion routine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_routine_glosry.htm "Glossary Entry") being executed if required. If the length of the columns low and high in the first row of the selection table is greater than 255, the surplus content is cut off on the right. It is only possible for all rows to be transported if the button for multiple selections is selected. A conversion routine might be executed here, and rows might be cut off. Settings for the content of the input fields can be made in [value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm).
+    After a user action on the selection screen, the contents of the input fields and the chosen settings are transported to the first row and the header row of the selection table.
+    After a user action on the dialog box for multiple selections, the contents of all input fields and the chosen settings are transported to the rows of the selection table. These transports convert the content of character-like fields by default into uppercase letters by default, after which a conversion routine is performed, if required. After each transport, various [selection screen events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm) are raised.
+    If a value has been entered in the entry field for the upper interval high, the system checks whether this value is greater than the lower interval limit low following each transport and conversion routine (if performed). If necessary, an [error message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_message_glosry.htm "Glossary Entry") is sent. This check can be switched off before the selection screen is sent, using the function module RS\_SELOPT\_NO\_INTERVAL\_CHECK.
+    
+-   If selection criteria are defined in the selection include of a logical database, further additions [ldb\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_ldb.htm) are necessary or possible.
+    
+-   If, in an executable program, a selection criterion is defined for a component of a node of the associated logical database, declared by [TABLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables.htm) or [NODES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnodes.htm), and the node in question is intended for dynamic selection on the logical database, the selection table is passed (by default) to the logical database, after [selection screen processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselscreen_processing_glosry.htm "Glossary Entry"), where it is handled as a dynamic selection. Furthermore, in this case, the input fields for the corresponding dynamic selection are displayed directly on the selection screen. Therefore the user does not need to select the fields using the Dynamic Selections function. This transfer can be suppressed using the addition [NO DATABASE SELECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_no_db_sel.htm).
+    
+
+Notes
+
+-   To avoid undefined system behavior, the header row of a selection table should not be changed in the program. Read access should also be avoided. Instead separate work areas, field symbols, or data references should be used, as always for internal tables.
+    
+-   If a selection criterion is supplied with data when calling up an executable program using [SUBMIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit.htm), a [conversion routine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_routine_glosry.htm "Glossary Entry") may be performed for the first row only, while the value of the columns low and high will be truncated at position 255 for the first row only. If the selection criterion is declared with the addition [NO-DISPLAY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm), no conversion routine or truncation will be performed for the first row either.
+    
+-   If the type of the selection criterion is a [decimal floating point number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecfloat_glosry.htm "Glossary Entry") that does not refer to a data type in ABAP Dictionary, the output style preserve scaling is set for the input field of the selection screen. Here, any trailing zeroes are preserved in the decimal places. If there is a reference to a data type in the ABAP Dictionary, the output style defined there is used.
+    
+-   If the type of the selection criteria is a [packed number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpacked_number_glosry.htm "Glossary Entry") or a [decimal floating point number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecfloat_glosry.htm "Glossary Entry") defined in ABAP Dictionary, the attribute sign must be set for the type attribute, so that negative numbers can be displayed on the selection screen. This setting is only possible for [domains](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendomain_glosry.htm "Glossary Entry") and not for specifying a built-in type directly for [data elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_element_glosry.htm "Glossary Entry") or structure components. If a negative number is entered on the selection screen and this property is not set, the system rejects it with an error message. If the columns low or high contain a negative number when the selection screen is called, an non-handleable exception is raised.
+    
+-   If the type of the selection criterion is a [decimal floating point number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecfloat_glosry.htm "Glossary Entry") defined in ABAP Dictionary for which the output style "currency amount" is specified, only numbers with the corresponding amount of decimal places can be entered on the selection screen. If a corresponding ABAP data object contains a number with too many decimal places when the selection screen is called, a non-handleable exception is raised. If the output style is "extended currency amount", additional decimal places can be displayed.
+    
+-   The columns sign and option of a selection table declared using SELECT-OPTIONS are not related to data types in ABAP Dictionary. In the case of [ranges tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm "Glossary Entry") defined in ABAP Dictionary, these columns refer to the data elements DDSIGN and DDOPTION.
+    
+
+Continue
+[SELECT-OPTIONS - FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+[SELECT-OPTIONS - screen\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
+[SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
+
 
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -8153,16 +8406,195 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
+### abensel_screen_sel_opt_abexa.htm
 
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Creating Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm) →  [SELECT-OPTIONS - FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm) → 
+
+Selection Screens, Basic Form of Selection Criteria
+
+The example shows how the selection tables are filled in a multiple selection.
+
+Source Code
+
+REPORT demo\_sel\_screen\_select\_options.
+CLASS start DEFINITION.
+  PUBLIC SECTION.
+    CLASS-DATA name(80) TYPE c.
+    CLASS-METHODS main.
+ENDCLASS.
+SELECTION-SCREEN BEGIN OF SCREEN 100.
+  PARAMETERS: dbtab  TYPE c LENGTH 30 DEFAULT 'SFLIGHT',
+              column TYPE c LENGTH 30 DEFAULT 'CARRID'.
+SELECTION-SCREEN END OF SCREEN 100.
+SELECTION-SCREEN BEGIN OF SCREEN 500 AS WINDOW.
+  SELECT-OPTIONS selcrit FOR (start=>name).
+SELECTION-SCREEN END OF SCREEN 500.
+START-OF-SELECTION.
+  start=>main( ).
+CLASS start IMPLEMENTATION.
+  METHOD main.
+    CALL SELECTION-SCREEN 100 STARTING AT 10 10.
+    IF sy-subrc <> 0.
+      RETURN.
+    ENDIF.
+    name = dbtab && '-' && column.
+    CALL SELECTION-SCREEN 500 STARTING AT 10 10.
+    IF sy-subrc <> 0.
+      RETURN.
+    ENDIF.
+    cl\_abap\_demo\_services=>list\_table( selcrit\[\] ).
+  ENDMETHOD.
+ENDCLASS.
+
+Description
+
+On the selection screen 100, the name of the table dbtab and its column column can be specified. These are then used for the dynamic layout of the selection criterion on the selection screen 500.
+
+Two input fields and a pushbutton to enter additional values for the selection criterion are displayed. The value which the user enters in the first input field is written to the component selcrit-low of the selection table; the value for the second field is written to the component selcrit-high.
+
+For more complex selections, the user can use the pushbutton on the right side of the selection screen to display the GUI window for multiple selections.
+
+The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
+
+
+### abapselect-options_for.htm
+
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Creating Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm) → 
+
+SELECT-OPTIONS - FOR
+
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm)
+
+Syntax
+
+... FOR *{*dobj*|*(name)*}* ...
+
+Alternatives:
+
+[1\. ... FOR dobj](#!ABAP_ALTERNATIVE_1@1@)
+[2\. ... FOR (name)](#!ABAP_ALTERNATIVE_2@2@)
+
+Effect
+
+This addition determines the data type of the columns low and high in the [selection table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_table_glosry.htm "Glossary Entry"). The data type can be defined by means of a static reference to an existing data object dobj or by a dynamic reference to a data type from ABAP Dictionary in name.
+
+If the addition [NO-DISPLAY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm) is not specified, the data type of the columns low and high in the selection table must be elementary and [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") and the numeric type f is not allowed. If the addition NO-DISPLAY is specified, any data types, except [enumerated types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), are possible.
+
+Note
+
+When referencing data types from ABAP Dictionary, the [selection criterion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_criterion_glosry.htm "Glossary Entry") inherits all the screen-relevant attributes defined there. During data transport to and from the input fields, any conversion routines defined in the domain are executed. The text defined in ABAP Dictionary can be inherited as a selection text. Note, however, that the input fields on the selection screen are linked with a global data object belonging to the program and do not have any real reference to the dictionary, in contrast to screen fields, which are created in the Screen Painter with reference to the dictionary. This has a particular effect on automatic support for input help (F4) and value checking. In comparison to general screens, input help functionality is limited here in that dependencies between fields and previously entered data are not taken into account. No automatic value checking is performed.
+
+Alternative 1
+
+... FOR dobj
+
+Effect
+
+If this addition is specified, the columns low and high in the selection table inherit all the attributes of a data object dobj that has already been declared, most importantly a reference to ABAP Dictionary, if applicable. dobj expects a data object that is elementary and flat and not of the type f (unless [NO-DISPLAY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm) is used) and is not an [enumerated type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
+
+Note
+
+As well as the data objects referred to using FOR from their own program, the public attributes of global classes are also relevant data objects.
+
+Example
+
+Typical declaration and application of a selection criterion.
+
+DATA spfli\_wa TYPE spfli.
+SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid.
+SELECT \*
+       FROM spfli
+       WHERE carrid IN @s\_carrid
+       INTO @spfli\_wa.
+  ...
+ENDSELECT.
+
+Alternative 2
+
+... FOR (name)
+
+Effect
+
+This addition is used to create the columns low and high in the selection table with data type c and length 45. The input fields are displayed on the selection screen, but with a length, field help, and input help appropriate for the data type specified in name.
+
+name expects a [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") character-like data object that contains the name of a component in a flat structure from ABAP Dictionary in uppercase letters when the selection screen is accessed. The following can be specified for name:
+
+-   Constant
+
+If the data object name is specified as a constant, it can be evaluated statically and the specified component is identified as the used object.
+
+-   Variable
+
+If the data object name is specified as a variable, it is specified only dynamically and the content is not evaluated statically.
+
+A text field literal can be specified for name, but its content is ignored. If the [text pool](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_pool_glosry.htm "Glossary Entry") currently loaded does not contain a selection text for the parameter, the output field displays the corresponding field label from ABAP Dictionary. When data is transported from the input field to the selection table, the content is converted as if it were assigned by the corresponding ABAP data type (no formatting characters, period as a decimal separator, date format "yyyymmdd", and so on).
+
+If the content of name is not a structure component in ABAP Dictionary, the input fields are displayed according to the actual type of the columns low and high. This also applies if a literal is specified for name. If a selection text for the parameter is not created in the text pool currently loaded, the output field contains the text "Generic Selection Option".
+
+A dynamic reference to a data type is not possible in a selection include for a [logical database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
+
+Example
+
+Dynamic design of the selection criterion selcrit on selection screen 500 based on the entries in the [standard selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") for an executable program.
+
+PARAMETERS: dbtab  TYPE c LENGTH 30,
+            column TYPE c LENGTH 30.
+DATA name(80) TYPE c.
+SELECTION-SCREEN BEGIN OF SCREEN 500 AS WINDOW.
+SELECT-OPTIONS selcrit FOR (name).
+SELECTION-SCREEN END OF SCREEN 500.
+name = dbtab && '-' && column.
+CALL SELECTION-SCREEN 500 STARTING AT 10 10.
+
+Continue
+![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
+
 
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -8261,16 +8693,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -8353,16 +8788,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -8389,16 +8827,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -8493,16 +8934,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -8580,16 +9024,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -8686,16 +9133,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -8750,16 +9200,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -8856,16 +9309,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -8964,16 +9420,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -9056,16 +9515,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -9092,16 +9554,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -9196,16 +9661,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -9283,16 +9751,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -9389,16 +9860,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -9453,16 +9927,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -9559,16 +10036,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -9667,16 +10147,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -9759,16 +10242,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -9795,16 +10281,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -9899,16 +10388,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -9986,16 +10478,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -10092,16 +10587,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -10156,16 +10654,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -10262,16 +10763,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -10370,16 +10874,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -10462,16 +10969,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -10498,16 +11008,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -10602,16 +11115,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -10689,16 +11205,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -10795,16 +11314,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -10859,16 +11381,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -10965,16 +11490,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -11073,16 +11601,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -11165,16 +11696,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -11201,16 +11735,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -11305,16 +11842,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -11392,16 +11932,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -11498,16 +12041,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -11562,16 +12108,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -11668,16 +12217,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -11776,16 +12328,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -11868,16 +12423,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -11904,16 +12462,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -12008,16 +12569,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -12095,16 +12659,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -12201,16 +12768,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -12265,16 +12835,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -12371,16 +12944,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -12479,16 +13055,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -12571,16 +13150,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -12607,16 +13189,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -12711,16 +13296,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -12798,16 +13386,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -12904,16 +13495,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -12968,16 +13562,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -13074,16 +13671,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -13182,16 +13782,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -13274,16 +13877,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -13310,16 +13916,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -13414,16 +14023,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abapselect-options.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -13501,16 +14113,19 @@ Continue
 [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
 
 
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -13607,16 +14222,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abensel_screen_sel_opt_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -13671,16 +14289,19 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -13777,16 +14398,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
-
 ### abapselect-options_screen.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -13885,16 +14509,19 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -13977,16 +14604,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abensel_screen_sel_opt_def_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example demonstrates which default values can be set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol in front of the first field i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -14013,16 +14643,19 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
 
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -14117,16 +14750,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
-
 ### abenselection_screen_call.htm
 
-> **📖 Official SAP Documentation**: [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_call.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Calling Selection Screens"
+description: |
+  Selection screens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm 'Glossary Entry') can be called as follows: -   by the statement SUBMIT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit.htm) -   as a selection screen of a report t
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_call.htm"
+abapFile: "abenselection_screen_call.htm"
+keywords: ["select", "do", "if", "try", "abenselection", "screen", "call"]
+---
 
 * * *
 
@@ -14170,16 +14806,19 @@ Continue
 [CALL SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm)
 
 
-
-**📖 Source**: [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_call.htm)
-
 ### abapcall_selection_screen.htm
 
-> **📖 Official SAP Documentation**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection-screen_shortref.htm) Syntax CALL SELECTION-SCREEN dynnr STARTING AT col1 lin1 ENDING   AT col2 lin2 USING SELECTION-SET variant. Extras: 1. ... STARTING AT col1 lin1 ENDING A
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm"
+abapFile: "abapcall_selection_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapcall", "selection", "screen"]
+---
 
 * * *
 
@@ -14256,16 +14895,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Calling Standalone Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_call_sel_scr_abexa.htm)
 
 
-
-**📖 Source**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm)
-
 ### abensel_screen_call_sel_scr_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_call_sel_scr_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Calling Standalone Selection Screens"
+description: |
+  The example demonstrates how to call standalone selection screens. Source Code REPORT demo_call_selection_screen. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK sel1 WITH FRAME TITLE tit1. PARAMETERS: cityfr TYPE spfli-cityfrom, cityto TYPE spfli-cityto. SELECTION-SCREEN EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_call_sel_scr_abexa.htm"
+abapFile: "abensel_screen_call_sel_scr_abexa.htm"
+keywords: ["select", "do", "method", "class", "abensel", "screen", "call", "sel", "scr", "abexa"]
+---
 
 * * *
 
@@ -14317,16 +14959,19 @@ Description
 In this executable program, two standalone selection screens, 100 and 500, are defined. ‏Selection screen 500 contains the block sel1 of selection screen 100. Note at which events the titles of the individual screens are defined. First, selection screen 100 is called, then 500, and then 100 again.
 
 
-
-**📖 Source**: [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_call_sel_scr_abexa.htm)
-
 ### abapcall_selection_screen.htm
 
-> **📖 Official SAP Documentation**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection-screen_shortref.htm) Syntax CALL SELECTION-SCREEN dynnr STARTING AT col1 lin1 ENDING   AT col2 lin2 USING SELECTION-SET variant. Extras: 1. ... STARTING AT col1 lin1 ENDING A
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm"
+abapFile: "abapcall_selection_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapcall", "selection", "screen"]
+---
 
 * * *
 
@@ -14415,16 +15060,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm)
-
 ### abenselection_screen_events.htm
 
-> **📖 Official SAP Documentation**: [abenselection_screen_events.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_events.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screen Processing"
+description: |
+  Selection screen processing packages the dynpro flow logic(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry') together with the sending of the selection screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_scre
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_events.htm"
+abapFile: "abenselection_screen_events.htm"
+keywords: ["select", "loop", "do", "if", "try", "abenselection", "screen", "events"]
+---
 
 * * *
 
@@ -14466,16 +15114,19 @@ Continue
 [AT SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm)
 
 
-
-**📖 Source**: [abenselection_screen_events.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_events.htm)
-
 ### abapat_selection-screen.htm
 
-> **📖 Official SAP Documentation**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AT SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_shortref.htm) Syntax AT SELECTION-SCREEN selscreen_event(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm). Effect This statement defines event blocks
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm"
+abapFile: "abapat_selection-screen.htm"
+keywords: ["select", "do", "if", "try", "data", "abapat", "selection", "screen"]
+---
 
 * * *
 
@@ -14511,16 +15162,19 @@ Continue
 [AT SELECTION-SCREEN - selscreen\_event](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm)
 
 
-
-**📖 Source**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm)
-
 ### abapat_selection-screen_events.htm
 
-> **📖 Official SAP Documentation**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  OUTPUT    ON paraselcrit    ON END OF selcrit    ON BLOCK block    ON RADIOBUTTON GROUP group       ON HELP-REQUESTVALUE-REQUEST FOR paraselcrit-lowselcrit-high    ON EXIT-COMMAND . Alternatives:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm"
+abapFile: "abapat_selection-screen_events.htm"
+keywords: ["select", "update", "loop", "do", "if", "try", "data", "abapat", "selection", "screen", "events"]
+---
 
 * * *
 
@@ -14718,16 +15372,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Input Help](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f4_help_abexa.htm)
 
 
-
-**📖 Source**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm)
-
 ### abensel_screen_at_sel_on_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_at_sel_on_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_at_sel_on_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Block Processing and Radio Button Processing"
+description: |
+  This example demonstrates how blocks and radio buttons are processed in selection screens. Source Code REPORT demo_at_selection_on_block . SELECTION-SCREEN BEGIN OF BLOCK part1 WITH FRAME. PARAMETERS: number1 TYPE i, number2 TYPE i, number3 TYPE i. SELECTION-SCREEN END OF BLOCK part1. SELECTION-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_at_sel_on_abexa.htm"
+abapFile: "abensel_screen_at_sel_on_abexa.htm"
+keywords: ["select", "do", "if", "abensel", "screen", "sel", "abexa"]
+---
 
 * * *
 
@@ -14771,16 +15428,19 @@ If the user does not enter any ascending numbers in a block part1, the entire bl
 If the user does not change the radio buttons of group rad, a warning appears.
 
 
-
-**📖 Source**: [abensel_screen_at_sel_on_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_at_sel_on_abexa.htm)
-
 ### abensel_screen_f1_help_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f1_help_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Field Help"
+description: |
+  The example shows a self-defined F1 help on selection screens. Source Code REPORT demo_selection_screen_f1. PARAMETERS: p_carr_1 TYPE s_carr_id, p_carr_2 TYPE spfli-carrid. AT SELECTION-SCREEN ON HELP-REQUEST FOR p_carr_2. CALL SCREEN 100 STARTING AT 10 5 ENDING   AT 60 10. Description Th
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f1_help_abexa.htm"
+abapFile: "abensel_screen_f1_help_abexa.htm"
+keywords: ["select", "do", "while", "data", "abensel", "screen", "help", "abexa"]
+---
 
 * * *
 
@@ -14806,16 +15466,19 @@ Description
 This program declares a selection screen with two parameters both referring to the data element S\_CARR\_ID from ABAP Dictionary. While the dictionary documentation is used as online help for p\_carr\_1, a separate dynpro with the number 100 is called for p\_carr\_2. Using Screen Painter, this dynpro is defined as a modal dialog box with the next dynpro 0, which displays the required help text as text fields. The screen does not require any flow logic.
 
 
-
-**📖 Source**: [abensel_screen_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f1_help_abexa.htm)
-
 ### abensel_screen_f4_help_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensel_screen_f4_help_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f4_help_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selection Screens, Input Help"
+description: |
+  The example demonstrates a self-defined F4 help on selection screens. Source Code REPORT demo_selection_screen_f4. PARAMETERS: p_carr_1 TYPE spfli-carrid, p_carr_2 TYPE spfli-carrid. AT SELECTION-SCREEN ON VALUE-REQUEST FOR p_carr_2. CALL SCREEN 100 STARTING AT 10 5 ENDING   AT 50 10. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f4_help_abexa.htm"
+abapFile: "abensel_screen_f4_help_abexa.htm"
+keywords: ["select", "do", "while", "if", "data", "abensel", "screen", "help", "abexa"]
+---
 
 * * *
 
@@ -14874,16 +15537,19 @@ PROCESS AFTER INPUT.
 The dialog module value\_list suppresses the display of the screen layout of dynpro 100 and switches to a list display. The list contains values for the parameter p\_carr\_2. These values are also placed in the HIDE area. When a line is selected from the value list, the event AT LINE-SELECTION is raised, and the selected value is passed from the area HIDE to the field p\_carr\_2. If a valid line is selected, the system switches directly from the event block AT LINE-SELECTION back to the selection screen, and fills the corresponding input field.
 
 
-
-**📖 Source**: [abensel_screen_f4_help_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f4_help_abexa.htm)
-
 ### abapat_selection-screen_events.htm
 
-> **📖 Official SAP Documentation**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  OUTPUT    ON paraselcrit    ON END OF selcrit    ON BLOCK block    ON RADIOBUTTON GROUP group       ON HELP-REQUESTVALUE-REQUEST FOR paraselcrit-lowselcrit-high    ON EXIT-COMMAND . Alternatives:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm"
+abapFile: "abapat_selection-screen_events.htm"
+keywords: ["select", "update", "loop", "do", "if", "try", "data", "abapat", "selection", "screen", "events"]
+---
 
 * * *
 
@@ -15081,16 +15747,19 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Input Help](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f4_help_abexa.htm)
 
 
-
-**📖 Source**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm)
-
 ### abapat_selection-screen.htm
 
-> **📖 Official SAP Documentation**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AT SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_shortref.htm) Syntax AT SELECTION-SCREEN selscreen_event(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm). Effect This statement defines event blocks
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm"
+abapFile: "abapat_selection-screen.htm"
+keywords: ["select", "do", "if", "try", "data", "abapat", "selection", "screen"]
+---
 
 * * *
 
@@ -15138,16 +15807,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm)
-
 ### abenfree_selections.htm
 
-> **📖 Official SAP Documentation**: [abenfree_selections.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selections.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynamic Selections"
+description: |
+  A dynamic selection is a ranges condition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_condition_glosry.htm 'Glossary Entry') that can be entered on a dynamically created selection screen. The associated selection screens are created, displayed, and processed by the system
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selections.htm"
+abapFile: "abenfree_selections.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abenfree", "selections"]
+---
 
 * * *
 
@@ -15202,16 +15874,19 @@ Continue
 ![Example](exa.gif "Example") [Dynamic Selections](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selection_abexa.htm)
 
 
-
-**📖 Source**: [abenfree_selections.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selections.htm)
-
 ### abenfree_selection_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfree_selection_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selection_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynamic Selections"
+description: |
+  This example demonstrates how a free selection is used in a program. Source Code REPORT demo_free_selections. PARAMETERS dbtab TYPE tabname DEFAULT 'SPFLI'. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS check_existence_and_authority RETURNING VALUE(ch
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selection_abexa.htm"
+abapFile: "abenfree_selection_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenfree", "selection", "abexa"]
+---
 
 * * *
 
@@ -15338,16 +16013,19 @@ The method CHECK\_TABLE\_NAME\_STR of the class CL\_ABAP\_DYN\_PRG checks whethe
 Included pages: 3
 
 
-
-**📖 Source**: [abenfree_selection_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selection_abexa.htm)
-
 ### abentexteditor.htm
 
-> **📖 Official SAP Documentation**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Obsolete Editor Calls"
+description: |
+  The following statements affect calls of editors integrated into GUI windows(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengui_window_glosry.htm 'Glossary Entry'). -   EDITOR-CALL FOR itab.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm"
+abapFile: "abentexteditor.htm"
+keywords: ["do", "try", "abentexteditor"]
+---
 
 * * *
 
@@ -15368,16 +16046,19 @@ Continue
 [EDITOR-CALL FOR REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
 
 
-
-**📖 Source**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm)
-
 ### abapeditor-call_for_itab.htm
 
-> **📖 Official SAP Documentation**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EDITOR-CALL FOR itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR itab TITLE title DISPLAY-MODEBACKUP INTO jtab. Extras: 1. ... TITLE title(#!ABAP_ADDITION_1@1@) 2. ... DISPLAY-MODE(#!ABAP_A
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm"
+abapFile: "abapeditor-call_for_itab.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abapeditor", "call", "for", "itab"]
+---
 
 * * *
 
@@ -15472,16 +16153,19 @@ IF sy-subrc = 0 AND
 ENDIF.
 
 
-
-**📖 Source**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
-
 ### abapeditor-call_for_report.htm
 
-> **📖 Official SAP Documentation**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EDITOR-CALL FOR REPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR REPORT prog DISPLAY-MODE. Addition: ... DISPLAY-MODE(#!ABAP_ONE_ADD@1@) Effect This statement starts the ABAP editor for the source text of the program
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm"
+abapFile: "abapeditor-call_for_report.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapeditor", "call", "for", "report"]
+---
 
 * * *
 
@@ -15543,16 +16227,19 @@ ABAP Editor is started in display mode but can be switched to change mode.
 Included pages: 3
 
 
-
-**📖 Source**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
-
 ### abentexteditor.htm
 
-> **📖 Official SAP Documentation**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Obsolete Editor Calls"
+description: |
+  The following statements affect calls of editors integrated into GUI windows(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengui_window_glosry.htm 'Glossary Entry'). -   EDITOR-CALL FOR itab.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm"
+abapFile: "abentexteditor.htm"
+keywords: ["do", "try", "abentexteditor"]
+---
 
 * * *
 
@@ -15573,16 +16260,19 @@ Continue
 [EDITOR-CALL FOR REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
 
 
-
-**📖 Source**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm)
-
 ### abapeditor-call_for_itab.htm
 
-> **📖 Official SAP Documentation**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EDITOR-CALL FOR itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR itab TITLE title DISPLAY-MODEBACKUP INTO jtab. Extras: 1. ... TITLE title(#!ABAP_ADDITION_1@1@) 2. ... DISPLAY-MODE(#!ABAP_A
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm"
+abapFile: "abapeditor-call_for_itab.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abapeditor", "call", "for", "itab"]
+---
 
 * * *
 
@@ -15677,16 +16367,19 @@ IF sy-subrc = 0 AND
 ENDIF.
 
 
-
-**📖 Source**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
-
 ### abapeditor-call_for_report.htm
 
-> **📖 Official SAP Documentation**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EDITOR-CALL FOR REPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR REPORT prog DISPLAY-MODE. Addition: ... DISPLAY-MODE(#!ABAP_ONE_ADD@1@) Effect This statement starts the ABAP editor for the source text of the program
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm"
+abapFile: "abapeditor-call_for_report.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapeditor", "call", "for", "report"]
+---
 
 * * *
 
@@ -15748,16 +16441,19 @@ ABAP Editor is started in display mode but can be switched to change mode.
 Included pages: 3
 
 
-
-**📖 Source**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
-
 ### abentexteditor.htm
 
-> **📖 Official SAP Documentation**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Obsolete Editor Calls"
+description: |
+  The following statements affect calls of editors integrated into GUI windows(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengui_window_glosry.htm 'Glossary Entry'). -   EDITOR-CALL FOR itab.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm"
+abapFile: "abentexteditor.htm"
+keywords: ["do", "try", "abentexteditor"]
+---
 
 * * *
 
@@ -15778,16 +16474,19 @@ Continue
 [EDITOR-CALL FOR REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
 
 
-
-**📖 Source**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentexteditor.htm)
-
 ### abapeditor-call_for_itab.htm
 
-> **📖 Official SAP Documentation**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EDITOR-CALL FOR itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR itab TITLE title DISPLAY-MODEBACKUP INTO jtab. Extras: 1. ... TITLE title(#!ABAP_ADDITION_1@1@) 2. ... DISPLAY-MODE(#!ABAP_A
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm"
+abapFile: "abapeditor-call_for_itab.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abapeditor", "call", "for", "itab"]
+---
 
 * * *
 
@@ -15882,16 +16581,19 @@ IF sy-subrc = 0 AND
 ENDIF.
 
 
-
-**📖 Source**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
-
 ### abapeditor-call_for_report.htm
 
-> **📖 Official SAP Documentation**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EDITOR-CALL FOR REPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR REPORT prog DISPLAY-MODE. Addition: ... DISPLAY-MODE(#!ABAP_ONE_ADD@1@) Effect This statement starts the ABAP editor for the source text of the program
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm"
+abapFile: "abapeditor-call_for_report.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapeditor", "call", "for", "report"]
+---
 
 * * *
 
@@ -15953,16 +16655,19 @@ ABAP Editor is started in display mode but can be switched to change mode.
 Included pages: 7
 
 
-
-**📖 Source**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_report.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -16000,16 +16705,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -16039,16 +16747,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -16078,16 +16789,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -16114,16 +16828,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -16213,16 +16930,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -16302,16 +17022,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -16353,416 +17076,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
-
-WAIT - Quick reference
-
-[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
-
-Syntax
-
-WAIT *{*UP TO t SECONDS*}*
-   *|* *{*FOR *\[*ASYNCHRONOUS TASKS UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) *\[*UP TO t SECONDS*\]**\]*
-          *\[*MESSAGING CHANNELS UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) *\[*UP TO t SECONDS*\]**\]*
-          *\[*PUSH CHANNELS UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) *\[*UP TO t SECONDS*\]**\]**}*.
-
-Effect
-
-Interrupts the execution of a program.
-
-Additions
-
--   [UP TO t SECONDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
-    Interrupts the execution of a program for (a maximum of) t seconds.
-    
--   [FOR ASYNCHRONOUS TASKS UNTIL log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_until.htm)
-    Interrupts the execution of a program until the logical expression log\_exp after a callback routine of an [asynchronous RFC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry") is true.
-    
--   [FOR MESSAGING CHANNELS UNTIL log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_amc.htm)
-    Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP messaging channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_messaging_channels_glosry.htm "Glossary Entry") is true.
-    
--   [FOR PUSH CHANNELS UNTIL log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_apc.htm)
-    Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
-
-
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
-### abapwhile_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
-
-WHILE - Quick reference
-
-[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm)
-
-Syntax
-
-WHILE [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm)
-      *\[*VARY dobj FROM dobj1 NEXT dobj2 *\[*RANGE range*\]*
-      *\[*VARY ...*\]**\]*.
-  *\[*statement\_block*\]*
-ENDWHILE.
-
-Effect
-
-Executes the statement block statement\_block in a loop as long as the logical expression log\_exp is true.
-
-Addition
-
--   VARY dobj FROM dobj1 NEXT dobj2 *\[*RANGE range*\]*
-    Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
-
-
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
-### abapwindow_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
-
-WINDOW - Quick reference
-
-[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm)
-
-Syntax
-
-WINDOW STARTING AT col1 lin1
-       *\[*ENDING  AT col2 lin2*\]*.
-
-Effect
-
-Dictates that the details list currently being created is displayed in a dialog box.
-
-Additions
-
--   STARTING AT col1 lin1
-    Specifies the left upper corner.
-    
--   ENDING AT col2 lin2
-    Specifies the right lower corner.
-
-
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
-### abapwith_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
-
-WITH - Quick reference
-
-[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm)
-
-Syntax
-
-WITH
-  +cte1*\[*( name1, name2, ... )*\]* AS [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm)*\[*,
-  +cte2*\[*( name1, name2, ... )*\]* AS [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm)
-  ... *\]*
-  [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm) .
-  ...
-ENDWITH.
-
-Effect
-
-[ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
-
-
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
-### abapwrite_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
-
-WRITE - Quick reference
-
-[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
-
-Syntax
-
-WRITE *{**\[*AT*\]* *\[*/*\]**\[*pos*\]**\[*(len*|*\**|*\*\*)*\]**}* dobj
-  *\[*UNDER other\_dobj*\]*
-  *\[*NO-GAP*\]*
-  *\[*LEFT-JUSTIFIED*|*CENTERED*|*RIGHT-JUSTIFIED*\]*
-  *{* *{* *\[*EXPONENT exp*\]*
-      *\[*NO-GROUPING*\]*
-      *\[*NO-SIGN*\]*
-      *\[*NO-ZERO*\]*
-      *\[*CURRENCY cur*\]*
-      *{* *{* *\[*DECIMALS dec*\]*
-          *\[*ROUND scale*\]* *}*
-        *|* *\[*UNIT unit*\]* *}* *}*
-    *|* *{* *\[*ENVIRONMENT TIME FORMAT*\]*
-        *\[*TIME ZONE tz*\]* *}*
-    *\[*STYLE stl*\]* *}*
-  *\[*USING *{* *{*NO EDIT MASK*}**|**{*EDIT MASK mask*}* *}**\]*
-  *\[*DD/MM/YY*|*MM/DD/YY*|*DD/MM/YYYY*|*MM/DD/YYYY*|*DDMMYY*|*MMDDYY*|*YYMMDD*\]*
-  *\[*COLOR *{* *{* *\[*\=*\]* *{* *{* COL\_BACKGROUND
-                   *|* *{*1 *|* COL\_HEADING *}*
-                   *|* *{*2 *|* COL\_NORMAL *}*
-                   *|* *{*3 *|* COL\_TOTAL *}*
-                   *|* *{*4 *|* COL\_KEY *}*
-                   *|* *{*5 *|* COL\_POSITIVE *}*
-                   *|* *{*6 *|* COL\_NEGATIVE *}*
-                   *|* *{*7 *|* COL\_GROUP *}* *}* *\[*ON*\]* *}*
-                 *|* OFF*}*
-         *|* *{*\= col*}* *}**\]*
-  *\[*INTENSIFIED *\[* *{*ON*|*OFF*}* *|* *{*\= flag*}* *\]**\]*
-  *\[*INVERSE     *\[* *{*ON*|*OFF*}* *|* *{*\= flag*}* *\]**\]*
-  *\[*HOTSPOT     *\[* *{*ON*|*OFF*}* *|* *{*\= flag*}* *\]**\]*
-  *\[*INPUT       *\[* *{*ON*|*OFF*}* *|* *{*\= flag*}* *\]**\]*
-  *\[*FRAMES      *\[* *{*ON*|*OFF*}* *|* *{*\= flag*}* *\]**\]*
-  *\[*RESET*\]*
-  *{* *\[*AS CHECKBOX*\]*
-  *|* *\[*AS ICON*\]*
-  *|* *\[*AS SYMBOL*\]*
-  *|* *\[*AS LINE*\]* *}*
-  *\[*QUICKINFO info*\]*.
-
-Effect
-
-Formats the content of the data object dobj and writes it to the current list.
-
-Additions
-
--   [*\[*AT*\]* *\[*/*\]**\[*pos*\]**\[*(len*|*\**|*\*\*)*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
-    Specifies the line feed /, the horizontal position pos, and the length len*|*\**|*\*\* of the output.
-    
--   [UNDER other\_dobj](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
-    Positions the output in the current line at the position where the data object other\_dobj was in the output of a previous WRITE statement.
-    
--   [NO-GAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
-    Positions the [list cursor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_cursor_glosry.htm "Glossary Entry") directly after the output and not in the next but one position of the list buffer.
-    
--   [LEFT-JUSTIFIED, ..., YYMMDD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_int_options.htm)
-    As in the statement [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm) but with reference to the output area of the list.
-    
--   [COLOR, INTENSIFIED, INVERSE, HOTSPOT, INPUT, FRAMES, RESET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_ext_options.htm)
-    As in the statement [FORMAT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapformat_shortref.htm) but with reference to the current output.
-    
--   [AS CHECKBOX](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
-    Produces a one-character checkbox which is ready for input.
-    
--   [AS ICON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
-    Produces an icon if dobj contains the corresponding internal representation.
-    
--   [AS SYMBOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
-    Produces a symbol if dobj contains the corresponding internal representation.
-    
--   [AS LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
-    Produces a line element if dobj contains the corresponding internal representation.
-    
--   [QUICKINFO info](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
-    Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
-
-
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
-### abapwrite_to_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
-
-WRITE TO - Quick reference
-
-[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm)
-
-Syntax
-
-WRITE *{*source*|*(source\_name)*}* TO destination
-  *\[*LEFT-JUSTIFIED*|*CENTERED*|*RIGHT-JUSTIFIED*\]*
-  *{* *{* *\[*EXPONENT exp*\]*
-      *\[*NO-GROUPING*\]*
-      *\[*NO-SIGN*\]*
-      *\[*NO-ZERO*\]*
-      *\[*CURRENCY cur*\]*
-      *{* *{* *\[*DECIMALS dec*\]*
-          *\[*ROUND scale*\]* *}*
-        *|* *\[*UNIT unit*\]* *}* *}*
-    *|* *{* *\[*ENVIRONMENT TIME FORMAT*\]*
-        *\[*TIME ZONE tz*\]* *}*
-    *\[*STYLE stl*\]* *}*
-  *\[*USING *{* *{*NO EDIT MASK*}**|**{*EDIT MASK mask*}* *}**\]*
-  *\[*DD/MM/YY*|*MM/DD/YY*|*DD/MM/YYYY*|*MM/DD/YYYY*|*DDMMYY*|*MMDDYY*|*YYMMDD*\]*.
-
-Effect
-
-Formats the content of a data object specified either statically as source or dynamically in source\_name and writes it to the variable destination.
-
-Additions
-
--   [LEFT-JUSTIFIED*|*CENTERED*|*RIGHT-JUSTIFIED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Determines if the output is left-justified, centered or right-justified within the current output length.
-    
--   [EXPONENT exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Determines the exponent for the output of data objects of the data type f.
-    
--   [NO-GROUPING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Suppresses the thousands separators in the output of data objects of the data types (b, s), i, int8, or p.
-    
--   [NO-SIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Suppresses the sign in the output of data objects of the data types i, p, or f.
-    
--   [NO-ZERO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Replaces zeroes with blanks.
-    
--   [CURRENCY cur](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Defines currency-related [decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry") for the output of data objects of the data types i or p by using a currency key cur from the database table TCURX.
-    
--   [DECIMALS dec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Sets the decimal places displayed in the output of data objects of the data types i, p, or f to dec.
-    
--   [ROUND scale](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Multiplies the value of a data object of the data type p by 10\*\*(-scale) before the output.
-    
--   [UNIT unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Cuts off decimal places which have the value 0 and are outside the precision of a measurement unit unit from the database table T006 when displaying data objects of the data type p.
-    
--   [ENVIRONMENT TIME FORMAT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Formats a time output in 12 hour or 24 hour format.
-    
--   [TIME ZONE tz](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Formats a [time stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_glosry.htm "Glossary Entry") with reference to a time zone tz.
-    
--   [STYLE stl](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Formats a [decimal floating point number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecfloat_glosry.htm "Glossary Entry") into an output format stl.
-    
--   [USING *{**{*NO EDIT MASK*}**|**{*EDIT MASK mask*}**}*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    NO EDIT MASK - Disables the execution of an assigned [conversion routine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_routine_glosry.htm "Glossary Entry").
-    EDIT MASK - Either calls another conversion routine mask or defines an edit mask mask.
-    
--   [DD/MM/YY*|*MM/DD/YY*|*DD/MM/YYYY*|*MM/DD/YYYY*|*DDMMYY*|*MMDDYY*|*YYMMDD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Functions as an edit mask for the output of data objects of the data type d.
-
-
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
-### abapwrite_to_itab_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
-
-WRITE TO itab - Quick reference
-
-[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm)
-
-Syntax
-
-WRITE dobj TO itab*\[*+off*\]**\[*(len)*\]* INDEX idx
-      *\[*int\_format\_options*\]*.
-
-Effect
-
-Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx.
-
-Additions
-
--   *\[*+off*\]**\[*(len)*\]*
-    Writes to the section from position pos and the length len of the table row.
-    
--   [format\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
-    Additions as in the statement [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm) for variables.
-
 
 ---
-
-
-## ABAP Keyword Documentation / ABAP - Quick Reference / Section
-
-**Files**: 41 | **Difficulty**: intermediate
-
-# ABAP Keyword Documentation / ABAP - Quick Reference / Section
-
-Included pages: 7
-
-
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
-### abapwait_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -16800,16 +17126,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -16839,16 +17168,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -16878,16 +17210,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -16914,16 +17249,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -17013,16 +17351,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -17102,16 +17443,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -17153,16 +17497,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -17200,16 +17547,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -17239,16 +17589,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -17278,16 +17631,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -17314,16 +17670,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -17413,16 +17772,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -17502,16 +17864,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -17553,16 +17918,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -17600,16 +17968,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -17639,16 +18010,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -17678,16 +18052,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -17714,16 +18091,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -17813,16 +18193,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -17902,16 +18285,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -17953,16 +18339,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -18000,16 +18389,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -18039,16 +18431,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -18078,16 +18473,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -18114,16 +18512,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -18213,16 +18614,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -18302,16 +18706,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -18353,16 +18760,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -18400,16 +18810,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -18439,16 +18852,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -18478,16 +18894,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -18514,16 +18933,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -18613,16 +19035,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -18702,16 +19127,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -18753,16 +19181,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -18800,16 +19231,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -18839,16 +19273,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -18878,16 +19315,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -18914,16 +19354,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -19013,16 +19456,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -19102,16 +19548,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -19153,16 +19602,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -19200,16 +19652,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -19239,16 +19694,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -19278,16 +19736,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -19314,16 +19775,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -19413,16 +19877,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -19502,16 +19969,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -19553,16 +20023,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -19600,16 +20073,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -19639,16 +20115,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -19678,16 +20157,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -19714,16 +20196,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -19813,16 +20298,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -19902,16 +20390,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -19953,16 +20444,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -20000,16 +20494,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -20039,16 +20536,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -20078,16 +20578,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -20114,16 +20617,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -20213,16 +20719,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -20302,16 +20811,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -20353,16 +20865,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -20400,16 +20915,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -20439,16 +20957,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -20478,16 +20999,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -20514,16 +21038,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -20613,16 +21140,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -20702,16 +21232,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -20753,16 +21286,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -20800,16 +21336,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -20839,16 +21378,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -20878,16 +21420,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -20914,16 +21459,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -21013,16 +21561,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -21102,16 +21653,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -21153,16 +21707,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -21200,16 +21757,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -21239,16 +21799,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -21278,16 +21841,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -21314,16 +21880,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -21413,16 +21982,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -21502,16 +22074,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -21553,16 +22128,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -21600,16 +22178,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -21639,16 +22220,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -21678,16 +22262,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -21714,16 +22301,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -21813,16 +22403,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -21902,16 +22495,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -21953,16 +22549,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -22000,16 +22599,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -22039,16 +22641,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -22078,16 +22683,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -22114,16 +22722,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -22213,16 +22824,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -22302,16 +22916,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -22353,16 +22970,19 @@ Additions
 Included pages: 7
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abapwait_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WAIT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS MESSAGI
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -22400,16 +23020,19 @@ Additions
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
 
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-
 ### abapwhile_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WHILE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block EN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -22439,16 +23062,19 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WINDOW - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the left
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -22478,16 +23104,19 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WITH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -22514,16 +23143,19 @@ Effect
 [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
 
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-
 ### abapwrite_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GRO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -22613,16 +23245,19 @@ Additions
     Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
 
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-
 ### abapwrite_to_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -22702,16 +23337,19 @@ Additions
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
 
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "WRITE TO itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the row of the internal table itab with the index idx. Addi
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 
@@ -22753,16 +23391,19 @@ Additions
 Included pages: 4
 
 
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 ### abengeneral_rules_guidl.htm
 
-> **📖 Official SAP Documentation**: [abengeneral_rules_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneral_rules_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "General Rules"
+description: |
+  The following rules do not apply specifically to ABAP, even if they are demonstrated here in the context of ABAP programming, but apply equally well to all types of business application programming. Many of the rules described in this section are either derived from the general rules or support thes
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneral_rules_guidl.htm"
+abapFile: "abengeneral_rules_guidl.htm"
+keywords: ["do", "if", "types", "abengeneral", "rules", "guidl"]
+---
 
 * * *
 
@@ -22786,16 +23427,19 @@ Continue
 [Correctness and Quality](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm)
 
 
-
-**📖 Source**: [abengeneral_rules_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneral_rules_guidl.htm)
-
 ### abenseperation_concerns_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenseperation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Separation of Concerns"
+description: |
+  Background The term 'separation of concerns' (SoC) was coined in Edsger W. Dijkstra's article On the role of scientific thought from 1974: '... But nothing is gained --on the contrary!-- by tackling these various aspects simultaneously. It is what I sometimes have called 'the separation of concerns'
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm"
+abapFile: "abenseperation_concerns_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenseperation", "concerns", "guidl"]
+---
 
 * * *
 
@@ -23064,16 +23708,19 @@ At first glance, the above source code appears to be very excessive compared to 
 In addition, the individual steps are now wrapped in classes, in other words, real program units (unlike in the second source code). In practice, wrapping is not performed in one single program, but in global classes that are assigned to different packages, depending on the layer. These packages are connected to each other using package interfaces. It is only by using these interfaces that you can achieve the other benefits of separating the concerns (in addition to the testing capability achieved in the second source code).
 
 
-
-**📖 Source**: [abenseperation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm)
-
 ### abenkiss_principle_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkiss_principle_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "KISS Principle"
+description: |
+  Background The KISS principle says that you should always choose the simplest solution for a problem. KISS is an acronym and can have any of the following meanings (the list is not exhaustive): -   Keep it simple, stupid. -   Keep it small and simple. -   Keep it sweet and simple. -   Keep it simple
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkiss_principle_guidl.htm"
+abapFile: "abenkiss_principle_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "abenkiss", "principle", "guidl"]
+---
 
 * * *
 
@@ -23136,16 +23783,19 @@ The figure below shows the structure of a method that does not follow the KISS p
 The result is illustrated on the right of the figure. By splitting the method M into three methods, each with less than 100 statements and a maximum nesting depth of 5 levels, manageable modularization units were created, which follow the rules for [complexity](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomplexity_guidl.htm "Guideline"), and allow the required modification to be made. Ideally, however, the state shown on the left side of the figure should never occur.
 
 
-
-**📖 Source**: [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkiss_principle_guidl.htm)
-
 ### abencorrectness_quality_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Correctness and Quality"
+description: |
+  Background Most organizations that develop professional software have product standards that must be adhered to. These product standards define what is meant by correctness and quality of a program. SAP has many such standards, which development departments have to comply with. The current product s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm"
+abapFile: "abencorrectness_quality_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abencorrectness", "quality", "guidl"]
+---
 
 * * *
 
@@ -23243,16 +23893,19 @@ Executing unit tests for classes of the package SABAP\_DEMOS\_CAR\_RENTAL\_APPL 
 Included pages: 4
 
 
-
-**📖 Source**: [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm)
-
 ### abenprogr_type_features_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenprogr_type_features_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_type_features_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Program Type and Program Attributes"
+description: |
+  As soon as an ABAP program is created, important decisions must be made about its robustness and maintainability by selecting its program type and attributes. Among other things, the program type and program attributes determine how strict the syntax check is. Another important property of a program
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_type_features_guidl.htm"
+abapFile: "abenprogr_type_features_guidl.htm"
+keywords: ["select", "do", "if", "abenprogr", "type", "features", "guidl"]
+---
 
 * * *
 
@@ -23276,16 +23929,19 @@ Continue
 [Original Language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoriginal_langu_guidl.htm)
 
 
-
-**📖 Source**: [abenprogr_type_features_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_type_features_guidl.htm)
-
 ### abenprogram_type_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenprogram_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_type_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Program Type"
+description: |
+  Background Every ABAP program has a program type that specifies which declarations and processing blocks a program can contain, and how it can be executed using the ABAP runtime environment. These are the possible program types in ABAP: -   Executable program An executable program can contain all po
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_type_guidl.htm"
+abapFile: "abenprogram_type_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "method", "class", "types", "internal-table", "abenprogram", "type", "guidl"]
+---
 
 * * *
 
@@ -23379,16 +24035,19 @@ Note
 In cases where program types other than class and interface pools are still used, the check Obsolete Statements (OO Context) should be activated in the [extended program check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_guidl.htm "Guideline"). This enables same stringent syntax check to be implemented for program components not implemented in local classes as for within classes.
 
 
-
-**📖 Source**: [abenprogram_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_type_guidl.htm)
-
 ### abenprogram_attribute_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenprogram_attribute_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Program Attributes"
+description: |
+  Background Alongside various, less important properties, each ABAP program has a set of program attributes that control specific aspects of the program behavior and syntax check severity: -   ABAP language version for configuring the ABAP language version(https://help.sap.com/doc/abapdocu_753_inde
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_guidl.htm"
+abapFile: "abenprogram_attribute_guidl.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "types", "abenprogram", "attribute", "guidl"]
+---
 
 * * *
 
@@ -23463,16 +24122,19 @@ This was only possible for programs in the obsolete ABAP language version [Non-U
 The above code produces a syntax error when used in an ABAP program defined as [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_program_glosry.htm "Glossary Entry") or higher in the program attributes (in accordance with the above rule). Unwanted substring accesses are prohibited, just like any other unwanted accesses to structures or other parts of the working memory. If these accesses cannot be identified by the syntax check, a runtime error occurs with a descriptive short dump while the program is running.
 
 
-
-**📖 Source**: [abenprogram_attribute_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_guidl.htm)
-
 ### abenoriginal_langu_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenoriginal_langu_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoriginal_langu_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Original Language"
+description: |
+  Background When a new repository object is created, such as a program, class, or database table in ABAP Dictionary, its original language must be specified. This is specified implicitly by the current logon language. All translatable texts created as part of a development object in a development pro
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoriginal_langu_guidl.htm"
+abapFile: "abenoriginal_langu_guidl.htm"
+keywords: ["select", "do", "if", "case", "class", "data", "types", "abenoriginal", "langu", "guidl"]
+---
 
 * * *
 
@@ -23537,16 +24199,19 @@ Notes
 Included pages: 5
 
 
-
-**📖 Source**: [abenoriginal_langu_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoriginal_langu_guidl.htm)
-
 ### abencheck_correctness_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencheck_correctness_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheck_correctness_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Checks for Correctness"
+description: |
+  This section enhances the section Correctness and Quality(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm 'Guideline') by providing more information about static checks on ABAP programs. -   Syntax Check(https://help.sap.com/doc/abapdocu_753_index_htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheck_correctness_guidl.htm"
+abapFile: "abencheck_correctness_guidl.htm"
+keywords: ["do", "if", "abencheck", "correctness", "guidl"]
+---
 
 * * *
 
@@ -23573,16 +24238,19 @@ Continue
 [ABAP Test Cockpit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap-testcockpit_guidl.htm)
 
 
-
-**📖 Source**: [abencheck_correctness_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheck_correctness_guidl.htm)
-
 ### abensyntax_check_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensyntax_check_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax Check"
+description: |
+  Background The syntax check provides syntax errors and syntax warnings: -   As soon as a syntax error occurs, the system stops the check and displays the relevant error message. In many cases, the system suggests a correction that can be applied. Programs with syntax errors can be activated, but the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensyntax_check_guidl.htm"
+abapFile: "abensyntax_check_guidl.htm"
+keywords: ["select", "do", "if", "case", "class", "data", "internal-table", "abensyntax", "check", "guidl"]
+---
 
 * * *
 
@@ -23648,16 +24316,19 @@ ASSIGN itab\[ KEY cities
              COMPONENTS cityfrom = '...' cityto = '...' \] TO <fs>.
 
 
-
-**📖 Source**: [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensyntax_check_guidl.htm)
-
 ### abenextended_program_check_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Extended Program Check"
+description: |
+  Background You can call the extended program check for activated programs either from ABAP Workbench or by using transaction SLIN. It performs static checks that are too complex for the normal syntax check. Both individual and multiple subtests can be performed, or an ATC-relevant check that include
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_guidl.htm"
+abapFile: "abenextended_program_check_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "abenextended", "program", "check", "guidl"]
+---
 
 * * *
 
@@ -23724,16 +24395,19 @@ IF <fs> IS ASSIGNED.
 ENDIF.
 
 
-
-**📖 Source**: [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_guidl.htm)
-
 ### abencode_inspector_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencode_inspector_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Code Inspector"
+description: |
+  Background The Code Inspector tool performs a static check of repository objects regarding performance, security, syntax, and adherence to naming conventions. Transaction SCI can be called to use the full range of functions of Code Inspector to perform complex static checks and regular mass tests fo
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencode_inspector_guidl.htm"
+abapFile: "abencode_inspector_guidl.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abencode", "inspector", "guidl"]
+---
 
 * * *
 
@@ -23840,16 +24514,19 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencode_inspector_guidl.htm)
-
 ### abenabap-testcockpit_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap-testcockpit_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP Test Cockpit"
+description: |
+  Background ABAP Test Cockpit (ATC) is a framework that is integrated into ABAP Workbench and the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadt_glosry.htm 'Glossary Entry'); it simplifies considerably the handling of the tests required during develo
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap-testcockpit_guidl.htm"
+abapFile: "abenabap-testcockpit_guidl.htm"
+keywords: ["do", "if", "try", "abenabap", "testcockpit", "guidl"]
+---
 
 * * *
 
@@ -23916,16 +24593,19 @@ Notes
 Included pages: 5
 
 
-
-**📖 Source**: [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap-testcockpit_guidl.htm)
-
 ### abenformatting_code_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformatting_code_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Formatting the Source Code"
+description: |
+  The readability of source code is dependent to a great extent on formatting that highlights its logical structure. The following methods help to format source code in a clear way. -   Case(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlower_upper_case_guidl.htm 'Guideline') -   S
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformatting_code_guidl.htm"
+abapFile: "abenformatting_code_guidl.htm"
+keywords: ["do", "case", "method", "abenformatting", "code", "guidl"]
+---
 
 * * *
 
@@ -23952,16 +24632,19 @@ Continue
 [Line Width](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_width_guidl.htm)
 
 
-
-**📖 Source**: [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformatting_code_guidl.htm)
-
 ### abenlower_upper_case_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlower_upper_case_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Case"
+description: |
+  Background In contrast to many other modern programming languages, ABAP is not case-sensitive for ABAP words (tokens of an ABAP statement that express its semantics; either ABAP keywords or additions) nor for operators and names of operands. The only exception is dynamic programming(https://help.s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlower_upper_case_guidl.htm"
+abapFile: "abenlower_upper_case_guidl.htm"
+keywords: ["do", "if", "case", "class", "data", "types", "abenlower", "upper", "guidl"]
+---
 
 * * *
 
@@ -24006,16 +24689,19 @@ The lower part of the source code shows the declaration of a class in ABAP style
 Once the program has been called, the example is formatted according to the proposed Pretty Printer [setting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_pretty_printer_guidl.htm "Guideline"), with ABAP words in uppercase and operands in lowercase. Regardless of its configuration, the separation of the words in the names would be preserved after each execution of Pretty Printer.
 
 
-
-**📖 Source**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlower_upper_case_guidl.htm)
-
 ### abenstatement_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Statements per Program Line"
+description: |
+  Background An ABAP statement (declaration or executable statement) is closed with a period. This statement can be followed by further statements in the same line. Statements can also span multiple lines. Rule Maximum of one statement per program line Write a maximum of one statement in every source
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_guidl.htm"
+abapFile: "abenstatement_guidl.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "abenstatement", "guidl"]
+---
 
 * * *
 
@@ -24084,16 +24770,19 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_guidl.htm)
-
 ### abenuse_pretty_printer_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_pretty_printer_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Pretty Printer"
+description: |
+  Background The alignment of ABAP statements in the source code is not defined in the syntax. There should be a maximum of one statement per line(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_guidl.htm 'Guideline'), which can be technically indented and wrapped as require
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_pretty_printer_guidl.htm"
+abapFile: "abenuse_pretty_printer_guidl.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "method", "class", "data", "abenuse", "pretty", "printer", "guidl"]
+---
 
 * * *
 
@@ -24175,16 +24864,19 @@ endmethod.
 endclass.
 
 
-
-**📖 Source**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_pretty_printer_guidl.htm)
-
 ### abenline_width_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_width_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Line Width"
+description: |
+  Background The maximum line width of an ABAP program is restricted to 255 characters. The editor allows you to write more than 255 characters, but it breaks a line that contains more than 255 characters between two tokens when you press Enter. Rule Do not use full line width Limit the width of a lin
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_width_guidl.htm"
+abapFile: "abenline_width_guidl.htm"
+keywords: ["do", "method", "abenline", "width", "guidl"]
+---
 
 * * *
 
@@ -24222,615 +24914,6 @@ The second method uses a literal whose content is identical to the one of the pr
 ---
 
 
-## ABAP Keyword Documentation / ABAP Programming Guidelines / Structure and Style / Naming
-
-**Files**: 6 | **Difficulty**: intermediate
-
-# ABAP Keyword Documentation / ABAP Programming Guidelines / Structure and Style / Naming
-
-Included pages: 6
-
-
-
-**📖 Source**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_width_guidl.htm)
-
-### abennaming_guidl.htm
-
-> **📖 Official SAP Documentation**: [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) → 
-
-Naming
-
-The naming of the repository objects defined outside of a program and of the entities declared within the program (such as data types, data objects, and procedures) is of vital importance for understanding and editing the program. All names used must be readable, easy to learn, and appropriate. You can meet these requirements by using meaningful names. It is also important to avoid naming conflicts.
-
--   [Choosing the Language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchoice_langu_guidl.htm "Guideline")
-
--   [Descriptive Names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm "Guideline")
-
--   [Names of Repository Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennames_repos_obj_guidl.htm "Guideline")
-
--   [Program-Internal Names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprog_intern_names_guidl.htm "Guideline")
-
--   [Names of Structure Components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstruc_comp_names_guidl.htm "Guideline")
-
-These guidelines deliberately use the term naming and not naming conventions. The term "programming guidelines" is frequently equated with naming conventions. Many of the current programming guidelines are mainly concerned with the definition of prefixes and suffixes, which are more or less meaningful. However, we pursue a different approach here. Part of these guidelines is rightly dedicated to the discussion of meaningful names. However, this discussion does not represent the core of these guidelines.
-
-A maintenance organization is responsible for maintaining monolithic ABAP applications that have evolved over time and that may include complex procedures without a clearly defined task, large quantities of global data objects and cryptic/misleading names. For this type of organization, the appeal for strict naming conventions with standardized prefixes and suffixes may be understandable. However, the current programming guidelines are designed to support the new development of robust ABAP programs, which can be developed and maintained cost-efficiently. Consequently, it would be wrong to insist on naming conventions (for new developments) that address problems in older code, which are excluded from the outset anyway, if the programming meets current standards.
-
-The rules on naming listed below meet the requirements of modern ABAP development. The only disadvantage is that it is difficult to use automatic checks, to monitor whether these requirements are adhered to. Our rules address human readers (and not automated test tools), who want to understand ABAP programs and eliminate ambiguous elements as quickly as possible. With regard to older code, we recommend refactoring based on the basic guidelines presented here. This enables you to get down to the root of maintenance problems. If you simply try to retroactively change names in line with technical naming conventions, you are only attempting to cure the symptoms and not the problem itself.
-
-Continue
-[Choosing the Language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchoice_langu_guidl.htm)
-[Descriptive Names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm)
-[Names of Repository Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennames_repos_obj_guidl.htm)
-[Program-Internal Names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprog_intern_names_guidl.htm)
-[Names of Structure Components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstruc_comp_names_guidl.htm)
-
-
-
-**📖 Source**: [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_guidl.htm)
-
-### abenchoice_langu_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchoice_langu_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_guidl.htm) → 
-
-Choosing the Language
-
-Background
-
-The natural language that has established itself worldwide for computer programming is English. This is because the language elements in all significant programming languages have been taken from English and their syntax based on English grammar. ABAP is no exception. In fact, efforts have been made to guarantee correct English by giving additions of related statements different names, even if they have the same meaning. Well-known examples include the (now obsolete) additions VARYING and VARY of the statements DO and WHILE. Here, ABAP can even be viewed as a subset of the English language.
-
-Rule
-
-Use English names
-
-Give your repository objects and your local program objects names that use English words only
-
-Details
-
-Using names in a language other than English looks unnatural (and inelegant) in programming languages whose own language elements are all in English. As well as this, English names make the source code accessible to as wide an audience as possible. Finally, using a different language throughout your code would be difficult due to the large number of English technical terms used in today's IT environment.
-
-In instances where British and American spelling differ, use the American spelling. This is often shorter and more commonly used in IT.
-
-Note
-
-This rule applies regardless of the [original language chosen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoriginal_langu_guidl.htm "Guideline").
-
-Bad Example
-
-One of the most notorious examples of non-English names in ABAP is the component UZEIT of the structure SYST, plus its data element SYUZEIT. All other components (with the exception of the equally notorious DATUM (for date) and MANDT (for client)) are English terms or abbreviations.
-
-
-
-**📖 Source**: [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchoice_langu_guidl.htm)
-
-### abentelling_names_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_guidl.htm) → 
-
-Descriptive Names
-
-Background
-
-A name can include technical and semantic information:
-
--   Technical information can be very versatile. Examples of options in a data object: data type, declaration context, whether a procedure parameter is passed by value or by reference.
-
--   The semantic information indicates the purpose of classes or data types, the content of data objects, how methods work, and so on.
-
-The technical information about a repository object or internal program entity can be viewed directly in ABAP Workbench. This information is also displayed in tooltips or can be displayed with a simple double-click. However, in contrast to purely technical type information, the semantics of a variable are more difficult to identify without the relevant information in the name.
-
-Rule
-
-Use descriptive names
-
-Always choose names that include the semantic information required for your context and that also easy to understand.
-
-Details
-
-The aim is to assign descriptive and self-documenting names. You should always follow a problem-oriented approach instead of an implementation-oriented approach. For example, a truth value should not be named flag. Instead it should have a name that indicates its meaning, such as is\_checked.
-
-When you select a descriptive, problem-oriented name, you should consider the following aspects in particular:
-
--   Appropriate use of nouns, verbs, and adjectives
-
--   Meaningful use of abbreviations
-
--   Appropriate separation of name components
-
-These points are discussed in detail in the following sections. The purely technical information for a named object can be displayed quickly and easily, using double-click navigation in ABAP Workbench. Therefore, this information can be omitted from names and semantic information can be used in names instead.
-
-Any organizations (within SAP or external) that want to specify technical information in addition to semantic information in names, can define their own naming conventions that are based on our semantic rules. However, we believe that encoding technical attributes in names is not suitable for making ABAP programs (developed according to the present guidelines) easier to understand and maintain. This may be different in the context of other programming languages with fewer types and less powerful development environments.
-
-The use of nouns, verbs, and adjectives for naming depends on the entity that you want to name:
-
--   Packages and package interfaces
-    A package comprises a collection of repository objects for a specific subject area. The package name can either consist of one or more singular nouns that describe the subject area (such as sabp\_compiler), or one or more plural nouns that indicate the contained objects (such as sabp\_analyze\_tools). Subpackages start with the name of the super package and contain suffixes that indicate the specialization. The name of a package interface starts with the name of the package. Information about visibility or restrictions to certain consumers are attached as an optional suffix. For example, \_public, stands for public interface and \_verification stands for interface to verification tools.
-
--   Data types, classes, and interfaces
-    They denote categories of things and are therefore named using nouns, for example, cl\_abap\_conv\_codepage. The greater the degree of specialization, the greater the number of nouns required for description. This can result in longer, combined names, for instance, if\_abap\_string\_writer or cl\_abap\_xml\_name\_converter. If necessary, the name can be further specified with an additional adjective, as in if\_serializable\_object and cl\_abap\_weak\_reference. The name of a category is usually written in the singular form. Therefore, a class name should generally consist of singular nouns. However, there are many examples of deviations from this rule, such as cl\_abap\_ memory\_utilities. These classes often do not model a category but instead provide a hodgepodge of loosely related functions, usually in the form of exclusively static methods.
-
--   Associations
-    An association refers to a semantic relationship between a start object and a target object. To make sure this relationship is unambiguous when an association is used in a path, you should prefix the association with TO\_. This should be followed by a name that contains the name of the target object (in the case of non-reflexive associations).
-
--   Variable data objects and procedure parameters
-    These describe attributes and are therefore named with a noun, for instance, cl\_abap\_regex->pattern. Truth values are labeled using the is\_ prefix, which is consistent with natural language usage. If the attribute in question is a quantity (in ABAP, usually an internal table), this should be expressed using the plural form, for example in the interface parameter matches of the method cl\_abap\_matcher->find\_all.
-
--   Constants
-    From a technical point of view, these are data objects with non-modifiable values at program runtime. They describe special, non-modifiable attributes. Values of constants are described with nouns. They are distinguished by a specific attribute (such as minimum size, start value) expressed by one or more additional adjectives. Some examples are cl\_abap\_exceptional\_values=>decfloat34\_max and cl\_abap\_format=>o\_sign\_as\_postfix.
-
--   Events
-    They are named using an expression in present perfect that describes their occurrence, for example, cl\_dd\_form\_element->button\_clicked and cl\_gui\_alv\_ tree->selection\_changed. In this example, the noun is abbreviated significantly (o for output format). More information about useful abbreviations can be found below.
-
--   Procedures
-    New procedures are methods according to the [use ABAP objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") rule. Here, we distinguish between different cases:
-
--   Event handlers are named after the corresponding event. They are assigned a prefix that identifies them as handler methods. In ABAP, the on\_ prefix has established itself. This is consistent with natural language use and clearly labels a method as an event handler. For the two event examples above, the names of the corresponding handler methods would be on\_ button\_clicked and on\_selection\_changed.
-
--   The name of methods with a return value (functional methods) describes the returned result. The get\_ prefix is added to describe the task of the method. An example of this is the cl\_abap\_exceptional\_values=>get\_max\_value method. If the method returns a truth value, is\_ is used as a prefix instead of get\_. In ABAP, these get\_ methods are intended to identify the return value (by using a calculation, for example). Unlike in Java, for example, no own methods should be used to simply return attribute values. Instead you should use the [write-protected (READ-ONLY) attributes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenencapsulation_guidl.htm "Guideline") provided in ABAP.
-
--   In all other cases, the name of a method describes an activity to be performed. Therefore, the method name is a verb, generally expressed in the imperative. Examples: cl\_abap\_regex->create\_ matcher and cl\_abap\_memory\_utilities=>do\_garbage\_collection. Methods used to set attributes are described using the relevant attribute, which is prefixed with set\_. Other procedures ([function modules and subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) required to wrap method calls are named accordingly.
-
--   Exception
-    Exceptions describe unexpected states. Technically they are classes. [Classic exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm "Guideline") should no longer be used. Except for the prefix, the same considerations apply here. To distinguish exceptions from normal classes, they are assigned their [own prefix](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennames_repos_obj_guidl.htm "Guideline") cx\_, provided that they are global exception classes. The name of an exception reflects the rejected state as clearly as possible, for instance, cx\_sy\_offset\_not\_allowed. If an entire hierarchy of exception classes exists, the names of the superclasses do not describe special exception situations. Instead they describe error categories (such as cx\_ sy\_data\_access\_error in this example).
-
-You should avoid using abbreviations as name components wherever possible. Exceptions to this rule are abbreviations that are usually used instead of the complete term, such as GUI or XML. However, if the use of certain abbreviations cannot be avoided due to restricted space, you should initially use common abbreviations.
-
-If no common abbreviation exists, you should proceed as follows: Vowels are omitted, unless they are the first letter of the word. They are of minor significance for the recognition value. If a word starts with a double vowel, both letters are kept for ease of recognition (for example, outbnd as the abbreviation for outbound instead of otbnd). If further abbreviations are required, you can replace double consonants with single consonants. Even after this step, the word is generally still recognizable.
-
-An example of a poorly chosen abbreviation would be tstmp for timestamp. This abbreviation does not follow the above rules and is not intuitive. Readers would probably initially think of the possible components tst or tmp, which would remind them of test or temporary. However, an association with timestamp is initially very difficult to identify. Therefore, if you create abbreviations, you must ensure that the result is not similar to another, possibly more common abbreviation for a completely different term.
-
-When you create abbreviations in a foreign language, you run the risk that the result represents a word or abbreviation with a completely different meaning. If in doubt, you should enter the abbreviation in a search engine to check it. For example, you only have four characters available and you want to use the word button. In this case, you should select the abbreviation bttn (following the abbreviation rules above), instead of the first four characters.
-
-As a rule, name components should be visually separated using underscores in ABAP. This makes the names easier to read. Separating name components with uppercase and lowercase (common in languages with C-like syntax) is [not useful](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlower_upper_case_guidl.htm "Guideline") in ABAP. Underscores normally identify a name, because ABAP words are usually not formed this way. The only exceptions here are certain format options for character string templates (such as SCIENTIFIC\_ WITH\_LEADING\_ZERO), which can only occur within character string expressions, and certain additions of SELECTION-SCREEN and WRITE.
-
-You should not use digits as name components. They are often a sign of poorly selected names (because they are not very descriptive) or indicate the use of multiple individual variables, where the use of an internal table would make more sense. Exceptions include the interface parameters of procedures. Numbering similar parameters definitely makes sense here.
-
-The use of digits to form phonetic names is also problematic because they require a degree of familiarization, and their meaning is not always obvious to everyone. A particularly bad use of digits is the abbreviation trmn8r for terminator. The commonly used 2 for to is the only justifiable exception here. This is often found as a name component in conversion procedures and can be interpreted easily (convert\_itf\_2\_html, for example).
-
-Notes
-
--   You must always keep in mind that the information included in a name must remain valid. This applies to semantic information, but especially to technical information. If, for example, technical information included in a name changes due to a refactoring measure, all relevant names and their consumers must be modified. However, this is not an easy task in released interfaces. If in doubt, remember that names containing incorrect information are worse than names that do not provide any information at all. This is why programming guidelines exist that suggest only using nondescript names. Since semantic attributes are less likely to change in the course of (further) development than technical attributes, our predominantly semantic specifications for naming are relatively well safeguarded from program changes.
-
--   Less is often more. Our suggestions indicate how to compose names to include the information that is necessary in a context. They should only be used when the meaning of the name is not completely obvious from the context. For example:
-
-METHOD do\_something.
-  CONSTANTS lcv\_maximum\_do\_loop\_count TYPE i VALUE 100.
-  DO lcv\_maximum\_do\_loop\_count TIMES.
-    ...
-  ENDDO.
-ENDMETHOD.
-
-The long name lcv\_maximum\_do\_loop\_count is quite difficult to read. A method can only include a manageable [number of statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenproc_volume_guidl.htm "Guideline"). Therefore, you can select a very simple name in simple cases:
-
-METHOD do\_something.
-  CONSTANTS nmax TYPE i VALUE 100.
-  DO nmax TIMES.
-    ...
-  ENDDO.
-ENDMETHOD.
-
-A further example of where short names are useful is helper fields declared in [LET expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm).
-
-Bad Example
-
-The following source code shows the declaration of a class that executes arithmetic calculations. This should be understood as a synthetic naming example. Of course, in ABAP, it makes absolutely no sense to [wrap](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_guidl.htm "Guideline") the arithmetic operations on elementary numeric data types using a class. The names of the class and its methods are unnecessarily short, and the names of the method parameters have no semantic meaning at all.
-
-CLASS calcltr DEFINITION.
-  PUBLIC SECTION.
-    METHODS: add IMPORTING a        TYPE i
-                           b        TYPE i
-                 RETURNING VALUE(c) TYPE i,
-             sub IMPORTING a        TYPE i
-                           b        TYPE i
-                 RETURNING VALUE(c) TYPE i,
-             mul IMPORTING a        TYPE i
-                           b        TYPE i
-                 RETURNING VALUE(c) TYPE i,
-             div IMPORTING a        TYPE i
-                           b        TYPE i
-                 RETURNING VALUE(c) TYPE f.
-ENDCLASS.
-
-Good Example
-
-The following source code shows the same class as in the code above, but the names of the class and its methods are now spelled in full, and the names of the method parameters indicate their semantic meaning.
-
-CLASS calculator DEFINITION.
-  PUBLIC SECTION.
-    METHODS: add IMPORTING addend1           TYPE i
-                           addend2           TYPE i
-                 RETURNING VALUE(sum)        TYPE i,
-        subtract IMPORTING minuend           TYPE i
-                           subtrahend        TYPE i
-                 RETURNING VALUE(difference) TYPE i,
-        multiply IMPORTING factor1           TYPE i
-                           factor2           TYPE i
-                 RETURNING VALUE(product)    TYPE i,
-          divide IMPORTING dividend          TYPE i
-                           divisor           TYPE i
-                 RETURNING VALUE(quotient)   TYPE f.
-ENDCLASS.
-
-The addition and multiplication operands are commutative, which means you can use digits here to distinguish them.
-
-
-
-**📖 Source**: [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm)
-
-### abennames_repos_obj_guidl.htm
-
-> **📖 Official SAP Documentation**: [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennames_repos_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_guidl.htm) → 
-
-Names of Repository Objects
-
-Background
-
-Repository objects are development objects edited using the tools in ABAP Workbench. Each repository object is assigned to a package. Packages encapsulate the repository objects contained and use package interfaces to make objects available that should be usable outside the package. This complies with the [SoC principle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm "Guideline").
-
-From a semantic point of view, packages represent a context for declarations, which is one level above the contexts of an ABAP program. Unlike the contexts of an ABAP program (programs, classes, procedures), a package does not generate a separate namespace.
-
-The namespace for repository objects is defined as follows:
-
--   Prefix namespace
-    Development organizations (SAP departments, SAP partners, and SAP customers) can request a [prefix namespace](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprefix_name_space_glosry.htm "Glossary Entry") for their own development systems. A prefix namespace has a name with at least 5 and a maximum of 10 digits, and the first digit and last digit must be slashes (/.../). After the namespace has been assigned, repository objects only can be created in systems, where the namespace is enabled by prefixing the namespace name /.../. If a package is created in this type of prefix namespace, it can only contain repository objects belonging to the same namespace. However, multiple packages can be created within a single prefix namespace. The available length for the actual name is reduced by the length of the [namespace prefix](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenname_space_prefix_glosry.htm "Glossary Entry"), including the slashes.
-
--   Customer namespace
-    If no prefix namespace is available, the names of repository objects created in customer systems or non-SAP development systems must have Y or Z as the first character. This means they are located in the customer namespace. Repository objects whose names start with Z can also be located within packages whose names start with Y and the other way round.
-
--   SAP namespace
-    If no prefix namespace is available, there are no real restrictions for the names of repository objects that are created in SAP's own development systems. The SAP namespace comprises the entire AS ABAP. Regardless of the namespace where a repository object resides, the name of the repository object is unique in the current AS ABAP. Therefore, when the object is addressed, nothing else needs to be specified. The namespaces (particularly the prefix namespace) were implemented to avoid namespace conflicts during transports between systems and upgrades. For SAP's own development systems, there is a cross-system table that ensures the uniqueness of names within the SAP namespace.
-
-Note
-
-The global types, namely the global [object types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_type_glosry.htm "Glossary Entry") of the [class library](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_library_glosry.htm "Glossary Entry") and the global [data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm "Glossary Entry") of [ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary_glosry.htm "Glossary Entry") are in separate dedicated namespaces. They are always unique when used after REF TO.
-
-Rule
-
-Clarify the type and affiliation of repository objects in names
-
-Use common naming conventions for repository objects. The predefined name prefixes, CL\_, IF\_, and CX\_, apply to objects of the class library. If possible, create all repository objects in the prefix namespaces only. In addition, use a naming convention to clearly indicate which package or component the objects belong to.
-
-Details
-
-Classes and interfaces are the most important entities for [programming with ABAP Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). Either a class type or an interface type can be used to type a object reference. It is useful to uniquely flag these two types in the class library by means of a prefix. Global exception classes should also be uniquely identified by a prefix. The following naming conventions apply. These conventions are sometimes enforced by Class Builder but are sometimes only evaluated:
-
--   CL\_ for global classes
-
--   IF\_ for global interfaces
-
--   CX\_ for global exception classes
-
--   CL\_BADI\_, IF\_BADI\_, CX\_BADI\_ for classes, interfaces, and exception classes of Business Add-Ins (BAdI)
-
-These naming conventions distinguish [object types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_type_glosry.htm "Glossary Entry") from the global [data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm "Glossary Entry") of [ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary_glosry.htm "Glossary Entry"), with which they share a namespace.
-
-In addition, the names of all repository objects should clearly identify the package or component they belong to. Technically speaking, a package does not generate its own namespace and therefore naming requires strict discipline. Using prefix namespaces is very helpful in itself. However, they are not intended for the package level but for bigger development projects, which usually comprise numerous packages.
-
-Therefore, the names of the repository objects contained in a package should be labeled with a shared name component, which indicates the affiliation to a package or at least to an application component. The length of names is restricted to 30 characters or less, and the namespace prefix is included. Therefore, an abbreviation should be used for this name component and not the complete package name.
-
-A global name should never be given for a package-specific or component-specific repository object. This would render the name useless for further general use. For example, general names of the SAP namespace (such as CHAR60 for a data element or CL\_ABAP\_MATH for a class) should only be declared in absolutely fundamental basis packages delivered by SAP and exposed by these packages in a generally available interface.
-
-If developers find a repository object with a global name, they naturally assume that they can freely use the object in the way indicated by the name. Since the application of package boundaries is not checked thoroughly, repository objects with overly global names (particularly in the SAP namespace and also in the customer namespace) are now used throughout all AS ABAP packages. This can cause considerable difficulties when implementing real package encapsulation.
-
-Note
-
-The above rule supplements the global rule regarding [descriptive names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm "Guideline"). With regard to technical information in repository object names, the same information stated in section on descriptive names also applies here (also refer to the discussion on prefixes and suffixes in [program-internal names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprog_intern_names_guidl.htm "Guideline")).
-
-All development organizations are free to create own naming conventions on the basis of the above rule regarding [descriptive names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm "Guideline"). However, note that the use of a namespace prefix only leaves limited space for the remaining name components. For example, the names of database tables are restricted to 16 characters. Therefore, the namespace prefix should not be too long. It should simply describe a product line using an abbreviation
-
-Exception
-
-Not all repository objects can be created in prefix namespaces. Some examples are authorization objects and type groups. In these cases, an additional package should be created that includes all of these objects. The object names and package names should, if possible, contain a relevant, normal prefix instead of the real namespace prefix /.../.
-
-A similar guideline applies if further development is performed in areas that are traditionally located in the SAP namespace or the customer namespace. Instead of using a real namespace prefix, this can be simulated by using uniform prefixes when new packages and development objects are created.
-
-If ABAP Workbench itself allocates [names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_orga_guidl.htm "Guideline"), for instance, for include programs, which are assigned to specific master programs (such as function groups or class pools), this name allocation always has priority over all other rules. This ensures that the workbench and the compiler run correctly.
-
-Example
-
-Refer to the repository objects of the example application in the package SABAP\_DEMOS\_CAR\_RENTAL.
-
-The subpackages of the SABAP\_DEMOS\_CAR\_RENTAL package start with the same name as the superpackage (as [recommended](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm "Guideline") in these guidelines). A suffix indicates their specialization. The same applies to the package interfaces. Instead of a real namespace prefix, the repository objects of the packages have the DEMO\_ prefix. This indicates that the objects are part of a demo package. The affiliation with the car rental application is indicated by the abbreviation CR (car rental).
-
-
-
-**📖 Source**: [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennames_repos_obj_guidl.htm)
-
-### abenprog_intern_names_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprog_intern_names_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_guidl.htm) → 
-
-Program-Internal Names
-
-Background
-
-Program-internal names describe entities that are declared in the program and are called within the program or called by other programs. Typical examples include identifiers for data types and data objects as well as methods and method interface parameters.
-
-Program-internal declarations can be configured in different contexts that all span a separate namespace. These contexts are arranged in the order from local to global:
-
-1.  Local declarations in a procedure ([Method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm "Guideline"))
-2.  Declarations of instance components and static components in a class
-3.  Global declarations in the declaration part of a program
-
-Here local declarations always obscure the more global declarations of higher contexts. Different types of declarations each span a separate namespace in their context, except the class components, which are all located in one single namespace, regardless of their type.
-
-The identifiers used in ABAP programs are must comply with the syntactic requirements for classes (in accordance with the rule [Use ABAP Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") and the rule [Applying Default Settings to Program Attributes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_guidl.htm "Guideline")). In other words, the identifiers must begin with a letter, which is followed other letters and numbers that can be separated by underscores.
-
-Rule
-
-Prevent program-internal names from being confused or obscured
-
-Choose program-internal names that cannot be confused with ABAP words or other declarations. In addition, a local name must not obscure a more global name. Global entities and interface parameters of procedures should have a prefix for identification purposes.
-
-Details
-
-Besides using the general rule of assigning [meaningful names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm "Guideline"), it is also important for program-internal declarations that you stick to the above rule of eliminating human error (avoiding name confusion). Unlike a human reader, the compiler usually knows exactly what an identifier is referring to. Use the following prefixes to avoid the danger of unwanted obscuring and name confusion:
-
--   g\_ for global data objects
-
--   l\_ for local data objects that obscure static attributes
-
--   i\_ for IMPORTING parameters
-
--   e\_ for EXPORTING parameters
-
--   c\_ for CHANGING parameters
-
--   r\_ for RETURNING parameters
-
-You can also use compound identifiers and component selectors.
-
-The following sections discuss the different aspects of program-internal names in detail and with a systematic approach.
-
-Confusion with ABAP Words
-
-A basic rule in almost all naming specifications is that language statements must not be used as names in the source code (assuming that this is permitted by the syntax). The aim of this measure is to improve readability by preventing confusion between statements and names. In ABAP, however, it is difficult to strictly adhere to this rule, because the vocabulary of the programming language is very extensive and is continuously growing. In most cases, developers will not have memorized all the ABAP words that occur in all the statements and statement additions. Also, they cannot possibly know which words will be added in future.
-
-For this reason, it is not logical or feasible to completely prohibit the use of ABAP words (ABAP keywords or additions) as names. Thanks to the color highlighting in ABAP Editor and the different capitalization rules in operands and ABAP words ([Pretty Printer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_pretty_printer_guidl.htm "Guideline")), there is no risk of confusion. If in doubt, you can always use the (!) character directly in front of a name, to distinguish it from an ABAP word with the same name in a statement.
-
-A single ABAP word, however, usually does not represent a descriptive name. Therefore, we recommend that you only use ABAP words as part of combined names with underscores (\_), for instance, account\_class instead of class. Because the underscore is not used in most ABAP words, it is usually a good idea to distinguish between ABAP words and [names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm "Guideline"). In some very rare cases, the compiler cannot distinguish an ABAP word from a name that is identical to the word. In these cases, the escape character (!) must be specified.
-
-Confusion between different declarations
-
-In classes, all components are in the same namespace. Therefore, it is not possible to have data types and attributes with the same name within a class to avoid confusion. In the other contexts, that is, within procedures ([Methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), or for global declarations of an ABAP program, different declarations generate different namespaces. Here it is possible to have data objects and data types with the same name. Object types (local classes and interfaces) are in the same namespace as data types.
-
-To avoid confusion, we recommend that you use different names for different entities, and that you do not use the same names for data types and data objects. Exceptions to this rule are cases where the meaning of a name is absolutely clear, for example, the declaration of a helper variable:
-
-DATA i TYPE i.
-
-However, it should never be the case that a data object has the name of a data type that is not the type of the object:
-
-DATA i     TYPE f.
-DATA tadir TYPE trdir.
-
-This is both confusing and dangerous!
-
-Obscuring of More Global Declarations
-
-The names in local contexts obscure declarations with the same name in contexts that are more global. In a method, for example, a data type declared with TYPES obscures an identically named data type of the class. This data type then obscures the identically named data type of the program, which in turn obscures an identically named data type from ABAP Dictionary.
-
-Developers must ensure that a more global object (that should be used in the current context) is not obscured. Conversely, a global object must not be accidentally used instead of a local object. The reader of the source code should always know what a name refers to. This means that, when names are given, local names should not obscure any names that are more global.
-
-Following the [KISS principle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkiss_principle_guidl.htm "Guideline"), it is recommended that local names are different from global names, because they do not follow their conventions. This mainly refers to the names in global declarations of the current program or in the repository. For example, a local class should never start with the cl\_ prefix, a local interface should never start with if\_ prefix, and a local data object should never start with the g\_ prefix.
-
--   Within methods
-
-In a method (in new function modules and subroutines, there should be [no local declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), there is the danger that local names (including method parameters) can be confused with more global names. Declarations within the implementation can also be confused with method parameters. It should also be noted that methods in the same class always obscure any built-in functions with the same name.
-
-To prevent local data objects in a method from being confused with components of their own class, you can explicitly address class components using the name of the class and the class component selector (=>), or using the object reference variable me and the instance component selector (->) .
-
-If there is a danger that identically named built-in functions can be confused, the functional methods of the same class should be addressed only by using one of the selectors when using functional method calls. However, excessive use of selectors can make the source code difficult to read. Therefore, each case should be assessed separately. This danger of confusion is only relevant for short method names, however. For methods with names consisting of multiple words or names that start with the prefixes set\_, get\_, or is\_, there is usually no risk of confusion. Methods should always have a [manageable size](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenproc_volume_guidl.htm "Guideline"), and all declarations are therefore always visible for the reader. Therefore, this simple rule should be sufficient to make the method easy to read.
-
-If the declaration of the method’s parameter interface is not visible in the method implementation (as in local classes), it is useful to make an additional distinction between local data and the method parameters. It has become customary to use the prefixes mentioned earlier to achieve this. An alternative prefix component l could also be considered here for local data, but it ultimately represents redundant information.
-
--   Within classes
-
-If you use class components, you can always avoid confusion by addressing the class components using the name of the class and the class component selector (\=>) or an object reference variable and the instance component selector (\->). The implementation of a corresponding naming convention would lead to redundant information, which would not improve readability and would be contradictory to the basic [KISS principle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkiss_principle_guidl.htm "Guideline"). This applies in particular to the methods of the class. Although these methods obscure any identically named built-in functions, it would be very unusual to implement a prefix that indicates a method as a method of a class. Instead, methods should not be given the names of built-in functions.
-
--   In programs (general)
-
-In the global declaration part of a program, you can create local classes and interfaces, as well as global data types and data objects.
-
--   The names of local classes and interfaces do not follow the naming conventions for global classes and interfaces. In other words, they cannot start with cl\_ or if\_, to ensure that no global declarations are obscured. With respect to local data, you can consider the naming convention lcl\_ or lif\_, but this would be redundant and not necessarily required, because a class/interface without a prefix is always known as a local class/local interface. The use of lif\_ may be useful for distinguishing a local interface from a local class.
-
--   Data types should no longer occur in the [global declaration part](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_variables_guidl.htm "Guideline") of a program. Global data objects are only required for communication between ABAP and dynpro if [classic dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenencap_class_interf_guidl.htm "Guideline") are used. Since these objects cannot names cannot be prefixed with a program name, as with class attributes (absolute names are only possible for data types and only in dynamic specifications), you must use the g\_ prefix for global data objects, to prevent confusion with local data objects or class attributes in method implementations. Global data objects can only exist in executable programs, module pools, and function groups. Global classes and interfaces cannot contain any global data objects. Therefore, a g\_ prefix for class components or interface components is definitely the wrong choice.
-
-Note
-
-Naming conventions are frequently established for names within the source code that define specifications for naming, including potential prefixes and suffixes. These specifications often get bogged down in excessive formal strictness. Names created this way contain redundant information, are difficult to maintain and often do not achieve the main aim of readability and self-documenting sources. Therefore, we limited our discussion to the naming-related aspects that we consider essential and universal. Further specifications are only useful at the level of development groups/organizations.
-
-If prefixes and/or suffixes are used, it is common practice to store the technical attributes of the described object in these prefixes/suffixes. Apart from the fact that we do not consider it necessary to specify technical information in names, there are so many technical attributes of an object in ABAP that they cannot be mapped using simple rules for short prefixes/suffixes. Or combinations of different technical additions often cannot be interpreted uniquely. Some examples:
-
--   With respect to the data type of a data object, there are naming conventions where "v" and "c" as prefixes stand for "variable" or "constant" elementary data objects. Similarly, "s" and "t" as prefixes stand for "structures" and internal "tables". The type attribute "elementary" is wrongly equated with "variable" or "constant". If the attributes "static variable" and "sorted table" are also supposed to be expressed using "s", this is very likely to cause mistakes with name assignments. This makes it much harder to achieve the goal of readable, self-documenting source codes.
-
--   With respect to the validity area or the context of a data object, the naming conventions often stipulate the prefixes g\_ and l\_ for the names of global and local data objects. We identified g\_ for global data objects as the only convention that is actually required for program-internal names. However, the simultaneously labeling of all non-global objects with the prefix l\_ for the local validity area is almost never necessary. l\_ should only be used if a local name is to be the same as a more global name and the corresponding lack of obscuring component selectors would produce unreadable source code. The latter case only occurs for long class names in front of \=>. If me-> is used in front of the names of instance attributes, the method does not become any less unreadable than when an l\_ is placed in front of the name of a local data object.
-
-It would actually be completely misleading to label static attributes of classes as global, using the prefix g\_. These attributes are only valid within the class and have completely different semantics than global data objects. The use of these attributes does not indicate a design weakness as it is generally the case for global data objects today.
-
--   With respect to the method parameters, we identified the prefixes i\_, e\_, c\_, and r\_ for importing, exporting, changing, and returning parameters as possible characteristics for distinguishing from data objects declared in the method. Apart from this, no further technical information needs to be expressed with additional prefixes. With method parameters in particular, technical information in prefixes tends to cause confusion rather than improve readability. For example, a prefix is\_ for "importing structure" would conflict with the prefix is\_ for "truth values", and a prefix it\_ for "importing table" could easily be understood as a general abbreviation of "internal table". If the role the parameter plays cannot be known from the descriptive name of a parameter and the procedure name, the names assigned are completely wrong and/or the procedure does not fulfill any clearly defined tasks. This type of conceptual weakness cannot be fixed (even with technical prefixes).
-
-In summary, we recommend that you should use name additions cautiously, particularly additions with technical information. Of course, every organization is free to use these conventions, which can supplement our basic rules. In the ABAP environment - with its high versatility of types, many contexts, the distinction between pass by reference and pass by value - it is probably not an easy task to create a complete, self-contained, consistent, technically correct, and — above all — easy-to-understand set of rules for prefixes and suffixes. The known results are just pure conventions that are usually incomplete and are not always applicable.
-
-Bad Example
-
-The example shown below demonstrates how to obscure names in different contexts. The fact that no descriptive names were used for the data objects (for the sake of simplicity) can be disregarded here.
-
-DATA a1 TYPE string VALUE \`a1 global\`.
-DATA a2 TYPE string VALUE \`a2 global\`.
-DATA a3 TYPE string VALUE \`a3 global\`.
-DATA a4 TYPE string VALUE \`a4 global\`.
-DATA a5 TYPE string VALUE \`a5 global\`.
-
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    METHODS main
-      IMPORTING a1 TYPE string DEFAULT 'a1 imported'
-      RETURNING value(a6) TYPE string.
-    CLASS-DATA a1  TYPE string VALUE \`a1 class\`.
-    CLASS-DATA a2  TYPE string VALUE \`a2 class\`.
-    DATA a3        TYPE string VALUE \`a3 class\`.
-    DATA a4        TYPE string VALUE \`a4 class\`.
-ENDCLASS.
-
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA a3 TYPE string VALUE \`a3 local\`.
-    DATA a4 TYPE string VALUE \`a4 local\`.
-    CONCATENATE a1 demo=>a2 me->a3 a4 a5
-      INTO a6 SEPARATED BY \`, \`.
-  ENDMETHOD.
-ENDCLASS.
-
-If you just consider the implementation of the main method in the CONCATENATE statement, it is clearly evident only for the demo=>a2 and me->a3 operands that they are attributes of the class and that a4 is a local data object of the method. It is only possible in the general overview to see that a1 describes an importing parameter, a5 describes a global data object of the program, and a6 describes a returning parameter. The global data objects a1 to a4 cannot be addressed in the method because they are obscured by local data objects or attributes of the class.
-
-Good Example
-
-Unlike the source code above, the following source code includes the previously discussed prefixes, to prevent obscuring and to distinguish method parameters from local data objects. Again, descriptive names were not used here to focus on aspects that are essential for this example.
-
-DATA g\_a1 TYPE string VALUE \`g\_a1 global\`.
-DATA g\_a2 TYPE string VALUE \`g\_a2 global\`.
-DATA g\_a3 TYPE string VALUE \`g\_a3 global\`.
-DATA g\_a4 TYPE string VALUE \`g\_a4 global\`.
-DATA g\_a5 TYPE string VALUE \`g\_a5 global\`.
-
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    METHODS main
-      IMPORTING i\_a1 TYPE string DEFAULT 'i\_a1 imported'
-      RETURNING value(r\_a6) TYPE string.
-    CLASS-DATA a1  TYPE string VALUE \`a1 class\`.
-    CLASS-DATA a2  TYPE string VALUE \`a2 class\`.
-    DATA a3        TYPE string VALUE \`a3 class\`.
-    DATA a4        TYPE string VALUE \`a4 class\`.
-ENDCLASS.
-
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA a3 TYPE string VALUE \`a3 local\`.
-    DATA a4 TYPE string VALUE \`a4 local\`.
-    CONCATENATE i\_a1 demo=>a2 me->a3 a4 g\_a5
-     INTO r\_a6 SEPARATED BY \`, \`.
-  ENDMETHOD.
-ENDCLASS.
-
-All operands are now clearly known in the CONCATENATE statement. A prefix (l\_) can be implemented for the local names, but this is unnecessary for two reasons:
-
--   The declaration is defined near the place of usage and is always visible to the reader.
-
--   If you consistently use the selectors \-> and \=> to address the attributes of a class, all names without a prefix and with no specified class or a reference variable are known as local data objects.
-
-By applying the minimal naming convention used here, you can address all data objects that are declared in the displayed source code section in the method. Of course, the declaration of the global data objects is only implemented to demonstrate obscuring and how to prevent it. Global data objects should [no longer be used](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_variables_guidl.htm "Guideline") in programs that do not work with classic dynpros.
-
-
-
-**📖 Source**: [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprog_intern_names_guidl.htm)
-
-### abenstruc_comp_names_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstruc_comp_names_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_guidl.htm) → 
-
-Names of Structure Components
-
-Background
-
-When ABAP programs are executed, the names of data objects usually only have the task of identifying the data objects uniquely. The ABAP statements operate directly with the objects in question without attaching any special meaning to their names. The names of structure components are an exception here. They are evaluated in the following cases:
-
--   When structure components are assigned using
-
--   the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove-corresponding.htm)
-
--   the component operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm)
-
--   the system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_corresponding.htm)
-
--   In ABAP SQL, in the addition [CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm)
-
--   In [obsolete calculation statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomputing_obsolete.htm) like [ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd-corresponding.htm)
-
-In these language constructs, the names of the components of the structures in question are compared and the operation is executed using the identically named components (if not overridden by a mapping rule).
-
-Rule
-
-Give structure components with the same meaning the same names
-
-Give the components of structures that have the same meaning within a data model the same names
-
-Details
-
-This rule mainly applies to data models defined in ABAP Dictionary (including ABAP CDS). If one of the CORRESPONDING constructs above is used in an ABAP program to access structures or structured internal tables (and the structured types of these structures or tables are defined like database tables or CDS entities using types from the data model in ABAP Dictionary), it is essential that components from different structures but with the same semantics have the same name.
-
-Bad Example
-
-The database tables DOKIL DOKHL, and DOKTL are in the same package and the same application. The column whose type is determined by the data element DOKVERS has the same name (DOKVERSION) in DOKHL and DOKTL, but the name in DOKIL is VERSION.
-
-Good Example
-
-Columns of the familiar structures used in the flight data model in training and documentation that have the same semantics usually also have the same names.
-
-
----
-
-
 ## ABAP Keyword Documentation / ABAP Programming Guidelines / Structure and Style / Comments
 
 **Files**: 4 | **Difficulty**: intermediate
@@ -24840,16 +24923,19 @@ Columns of the familiar structures used in the flight data model in training and
 Included pages: 4
 
 
-
-**📖 Source**: [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstruc_comp_names_guidl.htm)
-
 ### abencomments_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencomments_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomments_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Comments"
+description: |
+  Comments do not influence how a program is executed and are ignored by the computer. People who work with the source code, however, benefit greatly from comments, since they make the code easier to understand. There are two categories of comments in ABAP: -   Comment lines A comment line contains a
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomments_guidl.htm"
+abapFile: "abencomments_guidl.htm"
+keywords: ["do", "abencomments", "guidl"]
+---
 
 * * *
 
@@ -24885,16 +24971,19 @@ Continue
 [Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarrange_guidl.htm)
 
 
-
-**📖 Source**: [abencomments_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomments_guidl.htm)
-
 ### abenlangu_choice_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenlangu_choice_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlangu_choice_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Choosing the Language"
+description: |
+  Background The natural language that has established itself worldwide for computer programming is English. This is because the language elements in all significant programming languages have been taken from English and their syntax based on English grammar. ABAP is no exception. In fact, efforts hav
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlangu_choice_guidl.htm"
+abapFile: "abenlangu_choice_guidl.htm"
+keywords: ["do", "while", "if", "case", "try", "abenlangu", "choice", "guidl"]
+---
 
 * * *
 
@@ -24969,16 +25058,19 @@ CREATE OBJECT splitter\_v
 The goal of this example is to show the difference between German and English comments. If more meaningful [names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentelling_names_guidl.htm "Guideline") had been chosen, that is splitter\_horizontal instead of splitter\_h, and so on, comments could be dispensed with altogether, thus complying with the following [rule](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontent_guidl.htm "Guideline").
 
 
-
-**📖 Source**: [abenlangu_choice_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlangu_choice_guidl.htm)
-
 ### abencontent_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontent_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Content"
+description: |
+  Background It is usually sufficient to examine the ABAP statements to find out what happens in an implementation. However, it much more difficult to find out why something happens. This is often only possible in a much wider context and requires a great deal of effort. Rule Make meaningful comments
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontent_guidl.htm"
+abapFile: "abencontent_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "abencontent", "guidl"]
+---
 
 * * *
 
@@ -25054,16 +25146,19 @@ IF sy-subrc = 0.
 ENDIF.
 
 
-
-**📖 Source**: [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontent_guidl.htm)
-
 ### abenarrange_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarrange_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Arrangement in the Source Code"
+description: |
+  Background The arrangement of comments plays an important role (in addition to comment language and comment content) in making programs easy to read. Rule Arrange comments correctly Place comments in front of the statements that they describe. The horizontal arrangement of comments should follow the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarrange_guidl.htm"
+abapFile: "abenarrange_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "class", "data", "abenarrange", "guidl"]
+---
 
 * * *
 
@@ -25193,16 +25288,19 @@ ENDCLASS. "application
 Included pages: 3
 
 
-
-**📖 Source**: [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarrange_guidl.htm)
-
 ### abenprogr_proc_structure_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenprogr_proc_structure_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_proc_structure_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Program Structure and Procedure Structure"
+description: |
+  ABAP offers you a great deal of freedom when structuring your programs and procedures. Remember, however, that the finished product needs to be easy to maintain. -   Global Declarations of a Program(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_declar_guidl.htm 'Guideline')
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_proc_structure_guidl.htm"
+abapFile: "abenprogr_proc_structure_guidl.htm"
+keywords: ["do", "abenprogr", "proc", "structure", "guidl"]
+---
 
 * * *
 
@@ -25223,16 +25321,19 @@ Continue
 [Local Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_declar_guidl.htm)
 
 
-
-**📖 Source**: [abenprogr_proc_structure_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_proc_structure_guidl.htm)
-
 ### abenglobal_declar_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_declar_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Global Declarations of a Program"
+description: |
+  Background Each ABAP program has a global declaration part where data types, interfaces, classes, and data objects that are visible throughout the program can be declared. From a technical viewpoint, the global declaration part consists of all declarations that cannot be assigned to a more local con
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_declar_guidl.htm"
+abapFile: "abenglobal_declar_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenglobal", "declar", "guidl"]
+---
 
 * * *
 
@@ -25338,16 +25439,19 @@ MODULE user\_command\_0100 INPUT.
 ENDMODULE.
 
 
-
-**📖 Source**: [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_declar_guidl.htm)
-
 ### abenlocal_declar_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_declar_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Local Declarations"
+description: |
+  Background Local declarations can be made in a procedure ( method(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm 'Guideline')). These are data types, data objects, and field symbols that are valid in the context of the procedure only. Therefore, th
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_declar_guidl.htm"
+abapFile: "abenlocal_declar_guidl.htm"
+keywords: ["select", "loop", "do", "if", "method", "data", "types", "field-symbol", "abenlocal", "declar", "guidl"]
+---
 
 * * *
 
@@ -25445,16 +25549,19 @@ ENDMETHOD.
 Included pages: 3
 
 
-
-**📖 Source**: [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_declar_guidl.htm)
-
 ### abensource_code_orga_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensource_code_orga_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_orga_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code Organization"
+description: |
+  ABAP source code is saved in the ABAP Repository in the standard database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_db_glosry.htm 'Glossary Entry') of an AS ABAP, and not in source code files like in most other programming environments. Source codes can be split into
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_orga_guidl.htm"
+abapFile: "abensource_code_orga_guidl.htm"
+keywords: ["do", "try", "data", "abensource", "code", "orga", "guidl"]
+---
 
 * * *
 
@@ -25475,16 +25582,19 @@ Continue
 [Multiple Use of Include Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmultiple_use_include_guidl.htm)
 
 
-
-**📖 Source**: [abensource_code_orga_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_orga_guidl.htm)
-
 ### abensource_code_modular_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_modular_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code Modularization"
+description: |
+  Background The unit in the ABAP environment that corresponds to a source code file capable of being inserted into another program is known as an include program. Include programs are used for source code modularization and are inserted into master programs for this purpose. Include programs are not
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_modular_guidl.htm"
+abapFile: "abensource_code_modular_guidl.htm"
+keywords: ["insert", "do", "if", "method", "class", "abensource", "code", "modular", "guidl"]
+---
 
 * * *
 
@@ -25523,16 +25633,19 @@ Include programs that you create manually must contain a logically related secti
 Include programs you create manually should be named in accordance with the naming conventions of ABAP Workbench for automatically generated include programs. These conventions emphasize the relationship between the include program and the master program and prevent include programs [from being used more than once](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmultiple_use_include_guidl.htm "Guideline").
 
 
-
-**📖 Source**: [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_modular_guidl.htm)
-
 ### abenmultiple_use_include_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmultiple_use_include_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Multiple Use of Include Programs"
+description: |
+  Background From a technical point of view, it is possible to use an include program multiple times by integrating it more than once into a master program or different master programs. Rule Do not use include programs more than once Use an include program for the modularization of exactly one master
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmultiple_use_include_guidl.htm"
+abapFile: "abenmultiple_use_include_guidl.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenmultiple", "use", "include", "guidl"]
+---
 
 * * *
 
@@ -25616,16 +25729,19 @@ ENDCLASS.
 Included pages: 6
 
 
-
-**📖 Source**: [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmultiple_use_include_guidl.htm)
-
 ### abenalternative_spelling_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenalternative_spelling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalternative_spelling_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Alternative Spellings"
+description: |
+  Some ABAP statements can be written with different spellings, but interpreted by the compiler in the same way. To make programming easier to understand, however, spellings should be kept the same, with alternative spelling used only in special situations. -   Alternative Language Constructs(https:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalternative_spelling_guidl.htm"
+abapFile: "abenalternative_spelling_guidl.htm"
+keywords: ["do", "if", "method", "abenalternative", "spelling", "guidl"]
+---
 
 * * *
 
@@ -25655,16 +25771,19 @@ Continue
 [Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm)
 
 
-
-**📖 Source**: [abenalternative_spelling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalternative_spelling_guidl.htm)
-
 ### abenalternative_langu_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalternative_langu_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Alternative Language Constructs"
+description: |
+  Background Alternative language constructs are parts of statements that can be written in different ways. One reason for this are the constant new developments in the language. Often, new spellings are introduced and the old spellings retained for reasons of downward-compatibility. Rule Use consiste
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalternative_langu_guidl.htm"
+abapFile: "abenalternative_langu_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "data", "types", "abenalternative", "langu", "guidl"]
+---
 
 * * *
 
@@ -25729,16 +25848,19 @@ FIND SUBSTRING '...' IN text.
 ...
 
 
-
-**📖 Source**: [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalternative_langu_guidl.htm)
-
 ### abenchained_statements_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchained_statements_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Chained Statements"
+description: |
+  Background Successive ABAP statements that have the same starting part can be expressed in a chained statement. A chained statement consists of the identical starting part that is specified once and that is concluded by a colon (:). Behind this colon, the remaining parts are separated by commas (,).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchained_statements_guidl.htm"
+abapFile: "abenchained_statements_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "data", "types", "exception-handling", "abenchained", "statements", "guidl"]
+---
 
 * * *
 
@@ -25881,16 +26003,19 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
-
-**📖 Source**: [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchained_statements_guidl.htm)
-
 ### abenmethod_call_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_call_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Method Calls"
+description: |
+  Background Static calls of methods can be formulated in two different ways. The obsolete long form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_static.htm) CALL METHOD meth EXPORTING ... is based on the notation of the function module call. Alternatively, a short for
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_call_guidl.htm"
+abapFile: "abenmethod_call_guidl.htm"
+keywords: ["insert", "do", "if", "method", "class", "abenmethod", "call", "guidl"]
+---
 
 * * *
 
@@ -25963,16 +26088,19 @@ cl\_class=>do\_something(
 ...
 
 
-
-**📖 Source**: [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_call_guidl.htm)
-
 ### abenassign_calc_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_calc_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Assignments"
+description: |
+  Background For explicit assignments in which the value of a source is assigned to a target, ABAP contains the general assignment operator =(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_operator.htm) and the special casting operator ?=(https://help.sap.com/doc/abapdocu_7
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_calc_guidl.htm"
+abapFile: "abenassign_calc_guidl.htm"
+keywords: ["do", "if", "try", "method", "data", "abenassign", "calc", "guidl"]
+---
 
 * * *
 
@@ -26061,16 +26189,19 @@ DATA number2 TYPE i.
 DATA(result) = CONV decfloat34( number1 \* number2 ).
 
 
-
-**📖 Source**: [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_calc_guidl.htm)
-
 ### abencalc_expresssion_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Calculations"
+description: |
+  Background In ABAP, the arithmetic operators(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_operator_glosry.htm 'Glossary Entry') in arithmetic expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry')
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm"
+abapFile: "abencalc_expresssion_guidl.htm"
+keywords: ["do", "if", "case", "try", "abencalc", "expresssion", "guidl"]
+---
 
 * * *
 
@@ -26132,16 +26263,19 @@ n1 = n1 \* n2.
 Included pages: 6
 
 
-
-**📖 Source**: [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm)
-
 ### abencomplexity_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencomplexity_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomplexity_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Complexity"
+description: |
+  The aim of program complexity is to keep the source code as clear and readable as possible for the human reader. The computer has no problems with compiling or executing highly complex programs. Unformatted source code does also not constitute any problems. The human reader, however, is usually over
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomplexity_guidl.htm"
+abapFile: "abencomplexity_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "abencomplexity", "guidl"]
+---
 
 * * *
 
@@ -26175,16 +26309,19 @@ Continue
 [Dead Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendead_code_guidl.htm)
 
 
-
-**📖 Source**: [abencomplexity_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomplexity_guidl.htm)
-
 ### abenexpression_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenexpression_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Expressions"
+description: |
+  Background An expression is part of an ABAP statement that returns a result. An expression consists of one or more operands in combination with operators or special ABAP words. Expressions can be logical expressions constructed from relational expressions and also calculation expressions. The latter
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_guidl.htm"
+abapFile: "abenexpression_guidl.htm"
+keywords: ["loop", "do", "if", "method", "data", "abenexpression", "guidl"]
+---
 
 * * *
 
@@ -26238,16 +26375,19 @@ LOOP AT itab ASSIGNING <wa>.
 ENDLOOP.
 
 
-
-**📖 Source**: [abenexpression_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_guidl.htm)
-
 ### abennesting_depth_guidl.htm
 
-> **📖 Official SAP Documentation**: [abennesting_depth_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennesting_depth_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Nesting Depth"
+description: |
+  Background The nesting depth is the number of statement blocks that are nested due to the use of control structures (branches, loops). We will discuss the nesting depth at the level of a procedure (method(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennesting_depth_guidl.htm"
+abapFile: "abennesting_depth_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "abennesting", "depth", "guidl"]
+---
 
 * * *
 
@@ -26284,16 +26424,19 @@ Example
 The transition from the bad to the good example in the rule for [modern ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodern_abap_guidl.htm "Guideline") shows how you can reduce the nesting depth by using modern language elements.
 
 
-
-**📖 Source**: [abennesting_depth_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennesting_depth_guidl.htm)
-
 ### abenproc_volume_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenproc_volume_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenproc_volume_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Procedure Volume"
+description: |
+  Background The procedure volume is the number of executable ABAP statements in a procedure (method(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm 'Guideline')). In theory, this number has no upper limit and is only limited by the maximum program si
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenproc_volume_guidl.htm"
+abapFile: "abenproc_volume_guidl.htm"
+keywords: ["do", "if", "case", "method", "data", "abenproc", "volume", "guidl"]
+---
 
 * * *
 
@@ -26332,16 +26475,19 @@ Example
 See the [KISS Principle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkiss_principle_guidl.htm "Guideline") figure.
 
 
-
-**📖 Source**: [abenproc_volume_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenproc_volume_guidl.htm)
-
 ### abenclass_size_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenclass_size_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_size_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Class Size"
+description: |
+  Background The class size is the number of components (attributes, methods, events) of a class. ABAP Compiler predefines a maximum number of 65,536 components. The total memory consumption by static attributes, instance attributes, and constants is restricted to 500KB in each case. With respect to d
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_size_guidl.htm"
+abapFile: "abenclass_size_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenclass", "size", "guidl"]
+---
 
 * * *
 
@@ -26380,16 +26526,19 @@ Functions that are only required in a global class, function group or any other 
 This procedure is also useful for global classes. By moving highly specialized functions to smaller, local classes, you reduce the number of methods of the global class, which results in a clearer overview and makes the class easier to maintain. When you use local classes within global classes, make sure you position them appropriately to [avoid](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_type_glob_class_guidl.htm "Guideline") unnecessary dependencies.
 
 
-
-**📖 Source**: [abenclass_size_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_size_guidl.htm)
-
 ### abendead_code_guidl.htm
 
-> **📖 Official SAP Documentation**: [abendead_code_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendead_code_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dead Code"
+description: |
+  Background Dead code is program parts that are never executed because they are no longer required or were never actually required at any time. This code can accumulate during the development (rejected prototypes) or maintenance (changeover to new code without deleting the old code) of programs. Rule
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendead_code_guidl.htm"
+abapFile: "abendead_code_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "types", "abendead", "code", "guidl"]
+---
 
 * * *
 
@@ -26438,16 +26587,19 @@ However, these static checks can never be complete because not every use of a pr
 Included pages: 6
 
 
-
-**📖 Source**: [abendead_code_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendead_code_guidl.htm)
-
 ### abendata_storage_guidl.htm
 
-> **📖 Official SAP Documentation**: [abendata_storage_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_storage_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Data Storage"
+description: |
+  ABAP programs generally work with data imported from persistent memory media to the internal session(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm 'Glossary Entry') of the current program execution. This data is then available to the program as transien
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_storage_guidl.htm"
+abapFile: "abendata_storage_guidl.htm"
+keywords: ["do", "try", "data", "abendata", "storage", "guidl"]
+---
 
 * * *
 
@@ -26477,16 +26629,19 @@ Continue
 [Using Shared Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_shared_objects_guidl.htm)
 
 
-
-**📖 Source**: [abendata_storage_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_storage_guidl.htm)
-
 ### abenpersistent_data_storage_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenpersistent_data_storage_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpersistent_data_storage_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Persistent Data Storage"
+description: |
+  Background ABAP programs can have both read and write access to data in the following persistent storage media: -   Relational database tables in databases -   Data clusters in special database tables -   Binary files or text files on the host computer(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpersistent_data_storage_guidl.htm"
+abapFile: "abenpersistent_data_storage_guidl.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abenpersistent", "storage", "guidl"]
+---
 
 * * *
 
@@ -26538,16 +26693,19 @@ Under no circumstances should you use existing database tables (or files) to sto
 You must also be careful when using seemingly cross-system resources, such as the predefined INDX database table, to store data clusters. Such a resource must only be used to store temporary data for the short term, if at all. You should create specific database tables, for example, [export/import tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexport_import_table_glosry.htm "Glossary Entry"), for application-specific and longer-lasting data.
 
 
-
-**📖 Source**: [abenpersistent_data_storage_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpersistent_data_storage_guidl.htm)
-
 ### abendatabase_access_guidl.htm
 
-> **📖 Official SAP Documentation**: [abendatabase_access_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_access_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Database Accesses"
+description: |
+  Background In ABAP, data in database tables can be accessed in the following ways: -   ABAP SQL Implemented by ABAP statements, ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) is a subset of the Structured Query Language (SQL) comprising the DML (Data Manipulat
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_access_guidl.htm"
+abapFile: "abendatabase_access_guidl.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abendatabase", "access", "guidl"]
+---
 
 * * *
 
@@ -26609,16 +26767,19 @@ Good Example
 See the executable example [Currency Conversion with SQL Script](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_script_curr_conv_abexa.htm). In this case, a specific operator of the language [SQL Script](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_script_glosry.htm "Glossary Entry") is used that is not usually available.
 
 
-
-**📖 Source**: [abendatabase_access_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_access_guidl.htm)
-
 ### abenclient_handling_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenclient_handling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Client Handling"
+description: |
+  Background A client indicates a data area in an AS ABAP database that contains independent application data. The application data of different clients use the same database tables, but are flagged with a three-figure client ID within these tables. When logging on to AS ABAP, this client ID must be e
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_guidl.htm"
+abapFile: "abenclient_handling_guidl.htm"
+keywords: ["select", "do", "if", "try", "data", "abenclient", "handling", "guidl"]
+---
 
 * * *
 
@@ -26676,16 +26837,19 @@ SELECT SINGLE ...
        INTO ...
 
 
-
-**📖 Source**: [abenclient_handling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_guidl.htm)
-
 ### abenuse_shared_memory_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_shared_memory_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_shared_memory_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using the Shared Memory"
+description: |
+  Background The shared memory of an AS Instance is an highly important medium for buffering data with the goal of high-performance access. For this purpose, the shared memory can be used as follows: -   To buffer data from database tables implicitly using table buffering(https://help.sap.com/doc/ab
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_shared_memory_guidl.htm"
+abapFile: "abenuse_shared_memory_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "exception-handling", "abenuse", "shared", "memory", "guidl"]
+---
 
 * * *
 
@@ -26766,16 +26930,19 @@ ASSERT cl\_docu\_tables\_broker=>root->index\_html
        IS NOT INITIAL.
 
 
-
-**📖 Source**: [abenuse_shared_memory_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_shared_memory_guidl.htm)
-
 ### abenuse_shared_objects_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_shared_objects_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_shared_objects_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Shared Objects"
+description: |
+  Background Access to shared objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shared_objects.htm) is regulated by lock mechanisms. The individual locks are stored as administrative information with the area instances in the shared memory and are set and evaluated when the
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_shared_objects_guidl.htm"
+abapFile: "abenuse_shared_objects_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenuse", "shared", "objects", "guidl"]
+---
 
 * * *
 
@@ -26844,16 +27011,19 @@ Wrapping has the following advantages:
 Included pages: 13
 
 
-
-**📖 Source**: [abenuse_shared_objects_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_shared_objects_guidl.htm)
-
 ### abenassignment_access_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenassignment_access_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassignment_access_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Assignments, Calculations, and Other Types of Data Access"
+description: |
+  An assignment passes the content of a data object, a return value, or a result of a calculation expression to a data object. If the data types are compatible, the content is copied unchanged. If the data types are incompatible and there is a suitable conversion rule, the content is converted. An ass
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassignment_access_guidl.htm"
+abapFile: "abenassignment_access_guidl.htm"
+keywords: ["select", "do", "if", "data", "types", "abenassignment", "access", "guidl"]
+---
 
 * * *
 
@@ -26906,16 +27076,19 @@ Continue
 [Pass by Reference of Global Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_transf_global_data_guidl.htm)
 
 
-
-**📖 Source**: [abenassignment_access_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassignment_access_guidl.htm)
-
 ### abenassignemnt_diff_types_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassignemnt_diff_types_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Assignments Between Different Types"
+description: |
+  Background ABAP allows a direct assignment between data objects with different data types. There must be a suitable conversion rule and the content of the source field must be a meaningful value for the data type of the target field. If a suitable conversion rule is not found or the content of the s
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassignemnt_diff_types_guidl.htm"
+abapFile: "abenassignemnt_diff_types_guidl.htm"
+keywords: ["do", "if", "data", "types", "abenassignemnt", "diff", "guidl"]
+---
 
 * * *
 
@@ -26964,16 +27137,19 @@ DO ... TIMES.
 ENDDO.
 
 
-
-**📖 Source**: [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassignemnt_diff_types_guidl.htm)
-
 ### abenavoiding_invalid_values_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenavoiding_invalid_values_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Avoiding Invalid Values"
+description: |
+  Background For performance reasons, the ABAP runtime environment does not check whether the target field contains a valid value after each and every assignment. Particularly for target fields of the character-like data type n and the date/time types d and t, the conversion rules allow any alphanumer
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenavoiding_invalid_values_guidl.htm"
+abapFile: "abenavoiding_invalid_values_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abenavoiding", "invalid", "values", "guidl"]
+---
 
 * * *
 
@@ -27040,16 +27216,19 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenavoiding_invalid_values_guidl.htm)
-
 ### abenuse_conversion_rules_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_conversion_rules_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Conversion Rules"
+description: |
+  Background ABAP contains numerous conversion rules for assignments between data objects of different data types. These rules relate to assignments between: -   Elementary data objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) -   Elementary data obj
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_conversion_rules_guidl.htm"
+abapFile: "abenuse_conversion_rules_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "internal-table", "abenuse", "conversion", "rules", "guidl"]
+---
 
 * * *
 
@@ -27116,16 +27295,19 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_conversion_rules_guidl.htm)
-
 ### abentrailing_blanks_literals_guidl.htm
 
-> **📖 Official SAP Documentation**: [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrailing_blanks_literals_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Trailing Blanks in Character Literals"
+description: |
+  Background Trailing blanks in text field literals use memory, but are generally(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_trail_blanks.htm) ignored in operand positions, like all data objects of the type c. In text string literals they are always relevant, as
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrailing_blanks_literals_guidl.htm"
+abapFile: "abentrailing_blanks_literals_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abentrailing", "blanks", "literals", "guidl"]
+---
 
 * * *
 
@@ -27180,16 +27362,19 @@ Good Example
 Depending on whether the blank is needed as a separator, either ' ' or \`\` must be specified after SEPARATED BY to express this clearly.
 
 
-
-**📖 Source**: [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrailing_blanks_literals_guidl.htm)
-
 ### abennumbers_guidl.htm
 
-> **📖 Official SAP Documentation**: [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumbers_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Specifying Numbers"
+description: |
+  Background There are no special literals available for numbers with decimal places, or with mantissa plus exponent. If required, these numbers must be expressed using character literals. The following notations can be used: -   Mathematical notation A string of digits with a maximum of one period (.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumbers_guidl.htm"
+abapFile: "abennumbers_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abennumbers", "guidl"]
+---
 
 * * *
 
@@ -27256,16 +27441,19 @@ number = '-1000'.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumbers_guidl.htm)
-
 ### abenselect_numeric_type_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_numeric_type_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selecting the Numeric Type"
+description: |
+  Background Multiple numeric types with various properties and value ranges are available in ABAP, which can be used for storing numbers and for calculations: -   Signed 4-byte integer numbers (type i) and 8-byte integer numbers (type int8) (1-byte and 2-byte-integers with the internal types b and s
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_numeric_type_guidl.htm"
+abapFile: "abenselect_numeric_type_guidl.htm"
+keywords: ["select", "do", "if", "case", "data", "types", "abenselect", "numeric", "type", "guidl"]
+---
 
 * * *
 
@@ -27350,16 +27538,19 @@ The following source code shows a declaration of a decimal floating point number
 DATA number TYPE decfloat34 VALUE '0.815'
 
 
-
-**📖 Source**: [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_numeric_type_guidl.htm)
-
 ### abenrounding_error_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrounding_error_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Rounding Errors"
+description: |
+  Background In the case of assignments between floating point numbers (types f, decfloat16, decfloat34) and fixed point numbers (types i and p), rounding errors usually occur that produce an incorrect value. However, values of type p (and also decfloat16 and decfloat34) assigned to type f are not alw
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrounding_error_guidl.htm"
+abapFile: "abenrounding_error_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abenrounding", "error", "guidl"]
+---
 
 * * *
 
@@ -27412,16 +27603,19 @@ result = value \* result.
 WRITE result TO output DECIMALS 2 EXPONENT 0.
 
 
-
-**📖 Source**: [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrounding_error_guidl.htm)
-
 ### abendivision_zero_guidl.htm
 
-> **📖 Official SAP Documentation**: [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendivision_zero_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Division by Zero"
+description: |
+  Background Division by zero is forbidden in all recognized programming languages and raises an exception. This is also the case in ABAP, but with the difference that the exception cx_sy_zerodivide is not raised if the dividend is also zero when divided by zero. In this case, the division in ABAP p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendivision_zero_guidl.htm"
+abapFile: "abendivision_zero_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abendivision", "zero", "guidl"]
+---
 
 * * *
 
@@ -27456,16 +27650,19 @@ ELSE.
 ENDIF.
 
 
-
-**📖 Source**: [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendivision_zero_guidl.htm)
-
 ### abencasting_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencasting_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Casting"
+description: |
+  Background Casting refers to the process of handling a data object by assuming a certain data type. This definition is different to the meaning of the concept in other programming languages, such as Java. Here, casting means a different concept which is referred to as 'conversion' in ABAP. Casting i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencasting_guidl.htm"
+abapFile: "abencasting_guidl.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abencasting", "guidl"]
+---
 
 * * *
 
@@ -27530,16 +27727,19 @@ ASSIGN structure TO <text> CASTING.
 <text> = ...
 
 
-
-**📖 Source**: [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencasting_guidl.htm)
-
 ### abenruntime_error_data_obj_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_data_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Runtime Errors When Accessing Data Objects"
+description: |
+  Background Using data objects can cause runtime errors if the data object contains unsuitable content or the access to the data object is unsuitable. Examples: -   Assigning values outside the value range of a target variable -   Using values that cannot be converted to the required type. In other w
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_data_obj_guidl.htm"
+abapFile: "abenruntime_error_data_obj_guidl.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "exception-handling", "abenruntime", "error", "obj", "guidl"]
+---
 
 * * *
 
@@ -27595,16 +27795,19 @@ CATCH cx\_sy\_range\_out\_of\_bounds.
 ENDTRY.
 
 
-
-**📖 Source**: [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_data_obj_guidl.htm)
-
 ### abenunknown_container_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunknown_container_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Anonymous Containers"
+description: |
+  Background Anonymous containers are character-like or byte-like data objects of type c or string type (or x/xstring type). Data objects of other types (especially structures) are assigned using casting(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencasting_guidl.htm 'Guideline') to
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunknown_container_guidl.htm"
+abapFile: "abenunknown_container_guidl.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenunknown", "container", "guidl"]
+---
 
 * * *
 
@@ -27637,16 +27840,19 @@ Note
 If data needs to be saved in an unstructured container, the statement EXPORT ... TO DATA BUFFER can be used. This type of data storage is robust compared to different platform properties. However, you cannot use EXPORT and IMPORT to directly edit reference variables or instances referenced by them. As a workaround, you can serialize these variables and instances for storage by using the statement CALL TRANSFORMATION. A class must include the IF\_SERIALIZABLE\_OBJECT tag interface, so that its objects can be serialized using CALL TRANSFORMATION.
 
 
-
-**📖 Source**: [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunknown_container_guidl.htm)
-
 ### abenref_transf_global_data_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_transf_global_data_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Pass by Reference of Global Data"
+description: |
+  Background In a local context you can normally directly access the data objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_obj_guidl.htm 'Guideline') of superordinate more global contexts. For example, it is possible in a method to perform writes on the attributes of
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_transf_global_data_guidl.htm"
+abapFile: "abenref_transf_global_data_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenref", "transf", "global", "guidl"]
+---
 
 * * *
 
@@ -27724,16 +27930,19 @@ If the pass by reference method in the method declaration of do\_something in th
 Included pages: 8
 
 
-
-**📖 Source**: [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_transf_global_data_guidl.htm)
-
 ### abensystem_fields_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensystem_fields_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "System Fields"
+description: |
+  An ABAP program can request the state of the ABAP runtime environment using the system fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields.htm). From a technical viewpoint, these system fields are a set of built-in variables (the components of the predefined sy stru
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_guidl.htm"
+abapFile: "abensystem_fields_guidl.htm"
+keywords: ["do", "case", "data", "abensystem", "fields", "guidl"]
+---
 
 * * *
 
@@ -27771,16 +27980,19 @@ Continue
 [Using Elements in Operand Positions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_operand_position_guidl.htm)
 
 
-
-**📖 Source**: [abensystem_fields_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_guidl.htm)
-
 ### abensyst_field_access_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensyst_field_access_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Access"
+description: |
+  Background The system fields are supplied with values by the ABAP runtime environment. In a program, however, they behave like normal variables. You can assign values to these fields using the ABAP program. This is because both the ABAP kernel and the ABAP components of the ABAP runtime environment
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensyst_field_access_guidl.htm"
+abapFile: "abensyst_field_access_guidl.htm"
+keywords: ["do", "if", "case", "class", "abensyst", "field", "access", "guidl"]
+---
 
 * * *
 
@@ -27832,16 +28044,19 @@ CASE sy-subrc.
    ...
 
 
-
-**📖 Source**: [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensyst_field_access_guidl.htm)
-
 ### abenobs_intern_system_field_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobs_intern_system_field_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Obsolete and Internal System Fields"
+description: |
+  Background Not all system fields are designed to be used in application programs. All available system fields can be displayed as components of the structure SYST in ABAP Dictionary (or as components of the structure sy in the debugger). The meaning of the components is included in the accompanying
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobs_intern_system_field_guidl.htm"
+abapFile: "abenobs_intern_system_field_guidl.htm"
+keywords: ["do", "data", "abenobs", "intern", "system", "field", "guidl"]
+---
 
 * * *
 
@@ -27885,16 +28100,19 @@ DATA decimals TYPE i.
 DESCRIBE FIELD dobj TYPE type DECIMALS decimals.
 
 
-
-**📖 Source**: [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobs_intern_system_field_guidl.htm)
-
 ### abenevaluation_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevaluation_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Evaluation"
+description: |
+  Background System fields describe general system states or are set specifically by individual statements. The content of system fields is only defined as described in the documentation of the system fields or in the documentation of ABAP statements that set system fields. In contexts other than thos
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevaluation_guidl.htm"
+abapFile: "abenevaluation_guidl.htm"
+keywords: ["loop", "do", "if", "method", "class", "abenevaluation", "guidl"]
+---
 
 * * *
 
@@ -27952,16 +28170,19 @@ IF find\_subrc = 0.
 ENDIF.
 
 
-
-**📖 Source**: [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevaluation_guidl.htm)
-
 ### abenreturn_value_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenreturn_value_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Return Code"
+description: |
+  Background The most prominent system field should be the return code sy-subrc. This indicates the successful execution of an ABAP statement or, if you are using classic exceptions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm 'Guideline'), a procedure
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_guidl.htm"
+abapFile: "abenreturn_value_guidl.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenreturn", "value", "guidl"]
+---
 
 * * *
 
@@ -28017,16 +28238,19 @@ ENDIF
 ... "work with wa
 
 
-
-**📖 Source**: [abenreturn_value_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_guidl.htm)
-
 ### abenuse_actual_parameters_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_actual_parameters_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using System Fields as Actual Parameters"
+description: |
+  Background The structure sy exists once in an internal session(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm 'Glossary Entry') and is shared by all programs in this internal session. The components of sy represent the system fields. System fields are gl
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_actual_parameters_guidl.htm"
+abapFile: "abenuse_actual_parameters_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "abenuse", "actual", "parameters", "guidl"]
+---
 
 * * *
 
@@ -28093,16 +28317,19 @@ ENDCLASS.
 ...
 
 
-
-**📖 Source**: [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_actual_parameters_guidl.htm)
-
 ### abenuse_ui_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_ui_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using System Fields on the User Interface"
+description: |
+  Background As system fields are defined using the syst structure in ABAP Dictionary, you can technically use them to define input fields in dynpros/in Web Dynpro. Rule Do not use system fields on the user interface Never use system field types to define input or output fields for dynpros or selectio
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_ui_guidl.htm"
+abapFile: "abenuse_ui_guidl.htm"
+keywords: ["select", "do", "class", "data", "types", "abenuse", "guidl"]
+---
 
 * * *
 
@@ -28135,16 +28362,19 @@ Example
 When the program PGL\_SYSTEM\_FIELD\_ON\_UI is executed, input fields for document output language are displayed on a classic dynpro. The first input field is declared with reference to data type syst-langu of system field sy-langu. The second input field is declared with reference to a semantically suitable ABAP Dictionary data type. The displayed F1 help clearly indicates that syst-langu is not suited for language fields in a user dialog. This is because the help only describes the behavior of the sy-langu field in a program. It does not describe the meaning of the language field in the relevant application.
 
 
-
-**📖 Source**: [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_ui_guidl.htm)
-
 ### abenuse_operand_position_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_operand_position_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Elements in Operand Positions"
+description: |
+  Background Statements that modify the content of system fields generally evaluate the operands first and then set the system fields. In some complex statements, however, a system field could be set first, before all operand positions are evaluated. Rule Do not use system fields in statements that se
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_operand_position_guidl.htm"
+abapFile: "abenuse_operand_position_guidl.htm"
+keywords: ["loop", "do", "if", "case", "method", "abenuse", "operand", "position", "guidl"]
+---
 
 * * *
 
@@ -28206,16 +28436,19 @@ ENDLOOP.
 Included pages: 10
 
 
-
-**📖 Source**: [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_operand_position_guidl.htm)
-
 ### abenmodularization_unit_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenmodularization_unit_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_unit_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Modularization Units"
+description: |
+  The key modularization units or callable units within an ABAP program are referred to as processing blocks. In this context, procedures on one side are distinguished from dialog modules and event blocks on the other side. While dialog modules and event blocks are called from the dynpro flow logic or
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_unit_guidl.htm"
+abapFile: "abenmodularization_unit_guidl.htm"
+keywords: ["do", "while", "method", "data", "abenmodularization", "unit", "guidl"]
+---
 
 * * *
 
@@ -28271,16 +28504,19 @@ Continue
 [Macros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmacros_guidl.htm)
 
 
-
-**📖 Source**: [abenmodularization_unit_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_unit_guidl.htm)
-
 ### abenfunct_module_subroutine_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Function Modules and Subroutines"
+description: |
+  Background Function modules and subroutines are the procedures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_guidl.htm 'Guideline') of the structured programming model that already existed before the introduction of ABAP Objects. -   Function modules in function gro
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm"
+abapFile: "abenfunct_module_subroutine_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "method", "class", "types", "abenfunct", "module", "subroutine", "guidl"]
+---
 
 * * *
 
@@ -28321,16 +28557,19 @@ All the rules in these programming guidelines that relate to procedures actually
 If you cannot adhere to the rule ["Use ABAP Objects"](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") and the above rule because, for example, existing legacy function modules and subroutines need to be maintained or enhanced and you cannot switch to methods, the rules in these programming guidelines that refer to procedures also apply to function modules and subroutines.
 
 
-
-**📖 Source**: [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm)
-
 ### abentype_formal_param_proc_guidl.htm
 
-> **📖 Official SAP Documentation**: [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_proc_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Type of Formal Parameters in Procedures"
+description: |
+  Background The parameter interface of a procedure consists of formal parameters and specifies the exceptions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm 'Guideline') possible in the procedure. The possible types of formal parameters are: -   Input param
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_proc_guidl.htm"
+abapFile: "abentype_formal_param_proc_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "types", "internal-table", "abentype", "formal", "param", "proc", "guidl"]
+---
 
 * * *
 
@@ -28427,16 +28666,19 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_proc_guidl.htm)
-
 ### abentype_transf_formal_para_guidl.htm
 
-> **📖 Official SAP Documentation**: [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_transf_formal_para_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "How Formal Parameters Are Passed"
+description: |
+  Background Parameters can be passed to procedures either by reference or by value. -   Pass by reference In the case of pass by reference, a reference to the actual parameter is passed to the procedure when it is called. The procedure then works with the actual parameter. No local data object is cre
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_transf_formal_para_guidl.htm"
+abapFile: "abentype_transf_formal_para_guidl.htm"
+keywords: ["select", "do", "while", "if", "case", "method", "data", "internal-table", "abentype", "transf", "formal", "para", "guidl"]
+---
 
 * * *
 
@@ -28487,16 +28729,19 @@ Example
 See the example in the section about [Code Inspector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencode_inspector_guidl.htm "Guideline"). In this example, an internal table is passed by reference due to performance reasons, while an elementary parameter is passed by value due to robustness reasons.
 
 
-
-**📖 Source**: [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_transf_formal_para_guidl.htm)
-
 ### abenref_transf_output_param_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_transf_output_param_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Pass By Reference for Output Parameters"
+description: |
+  Background When parameters are passed to a procedure by reference, this procedure directly uses the data object that has been passed as a parameter. Its value is consequently determined by the calling program of the procedure. Particular notice must be made of this behavior for EXPORTING parameters,
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_transf_output_param_guidl.htm"
+abapFile: "abenref_transf_output_param_guidl.htm"
+keywords: ["insert", "delete", "do", "if", "method", "class", "data", "internal-table", "abenref", "transf", "output", "param", "guidl"]
+---
 
 * * *
 
@@ -28550,16 +28795,19 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_transf_output_param_guidl.htm)
-
 ### abentype_formal_param_guidl.htm
 
-> **📖 Official SAP Documentation**: [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Typing of Formal Parameters"
+description: |
+  Background The typing of formal parameters can be full or generic. Formal parameters of methods must be, and formal parameters of function modules and subroutines should be, explicitly typed using the TYPE or LIKE addition. When you connect actual parameters to formal parameters, the system checks w
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_guidl.htm"
+abapFile: "abentype_formal_param_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "field-symbol", "abentype", "formal", "param", "guidl"]
+---
 
 * * *
 
@@ -28671,16 +28919,19 @@ itab TYPE STANDARD TABLE OF struc
 ...
 
 
-
-**📖 Source**: [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_guidl.htm)
-
 ### abenintern_extern_proc_call_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenintern_extern_proc_call_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internal and External Procedure Calls"
+description: |
+  Background When a procedure is called, a distinction is made between internal and external procedure calls. An internal call calls a procedure of the same program, whereas an external call calls a procedure of a different program. The major difference between internal and external procedure calls is
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenintern_extern_proc_call_guidl.htm"
+abapFile: "abenintern_extern_proc_call_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenintern", "extern", "proc", "call", "guidl"]
+---
 
 * * *
 
@@ -28770,16 +29021,19 @@ ENDFORM.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 
-
-**📖 Source**: [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenintern_extern_proc_call_guidl.htm)
-
 ### abenexit_procedure_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexit_procedure_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Exiting Procedures"
+description: |
+  Background You can exit procedures in the usual way using the END... statement or by using one of the following statements: -   RETURN -   EXIT -   CHECK log_exp These statements end a procedure properly, that is, the system passes output parameters for which passing by value is specified and retur
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexit_procedure_guidl.htm"
+abapFile: "abenexit_procedure_guidl.htm"
+keywords: ["loop", "do", "if", "case", "method", "abenexit", "procedure", "guidl"]
+---
 
 * * *
 
@@ -28846,16 +29100,19 @@ METHOD some\_method.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexit_procedure_guidl.htm)
-
 ### abendial_mod_event_block_guidl.htm
 
-> **📖 Official SAP Documentation**: [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendial_mod_event_block_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dialog Modules and Event Blocks"
+description: |
+  Background Besides procedures, there are two further types of processing blocks. However, they do not have a parameter interface and do not allow declaration of local data: (AT SELECTION-SCREEN and GET are exceptions but they should not be exploited): -   Dialog modules Dialog modules are introduced
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendial_mod_event_block_guidl.htm"
+abapFile: "abendial_mod_event_block_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abendial", "mod", "event", "block", "guidl"]
+---
 
 * * *
 
@@ -28926,16 +29183,19 @@ MODULE reservations\_mark INPUT.
 ENDMODULE.
 
 
-
-**📖 Source**: [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendial_mod_event_block_guidl.htm)
-
 ### abenmacros_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmacros_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Macros"
+description: |
+  Background A macro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_macros.htm) is a summary of a statement list for internal reuse within a program between DEFINE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdefine.htm) and END-OF-DEFINITION(https://help.s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmacros_guidl.htm"
+abapFile: "abenmacros_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "types", "internal-table", "abenmacros", "guidl"]
+---
 
 * * *
 
@@ -29037,16 +29297,19 @@ macro\_set\_value\_if\_flag\_is\_set top 'XYZ'.
 Included pages: 8
 
 
-
-**📖 Source**: [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmacros_guidl.htm)
-
 ### abendynamic_prog_technique_guidl.htm
 
-> **📖 Official SAP Documentation**: [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynamic Programming Techniques"
+description: |
+  Dynamic programming techniques are all techniques whose functions or effects are detectable only at runtime of a program in the runtime environment. -   Using Dynamic Programming Techniques(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm 'Guideline')
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm"
+abapFile: "abendynamic_prog_technique_guidl.htm"
+keywords: ["do", "if", "class", "data", "abendynamic", "prog", "technique", "guidl"]
+---
 
 * * *
 
@@ -29087,16 +29350,19 @@ Continue
 [Generic Programming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm)
 
 
-
-**📖 Source**: [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm)
-
 ### abenuse_dynamic_progr_tech_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Dynamic Programming Techniques"
+description: |
+  Background The use of dynamic programming techniques includes the following: -   Accessing dynamic memory objects, that is, dynamic data objects (strings and internal tables), as well as instances of classes and anonymous data objects -   Dynamically accessing data objects using reference variables
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm"
+abapFile: "abenuse_dynamic_progr_tech_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenuse", "dynamic", "progr", "tech", "guidl"]
+---
 
 * * *
 
@@ -29149,16 +29415,19 @@ Always consider the following aspects when deploying dynamic techniques:
 The significance of these aspects differs for the various dynamic programming techniques. For example, a program that uses strings is by no means more complex than a program that works only with text fields. In cases like this, a range of details must nevertheless be taken into account.
 
 
-
-**📖 Source**: [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm)
-
 ### abenruntime_error_dyn_proc_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Runtime Errors in Dynamic Processing"
+description: |
+  Background When dynamic techniques are used, various exception situations can arise that can never occur when the corresponding static techniques are used because they can be checked statically. Rule Prevent runtime errors in dynamic processing Respond appropriately to all possible error situations
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm"
+abapFile: "abenruntime_error_dyn_proc_guidl.htm"
+keywords: ["delete", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abenruntime", "error", "dyn", "proc", "guidl"]
+---
 
 * * *
 
@@ -29234,16 +29503,19 @@ IF <where\_clause> IS NOT INITIAL.
 ENDIF.
 
 
-
-**📖 Source**: [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm)
-
 ### abenuse_dyn_data_object_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Dynamic Data Objects"
+description: |
+  Background Dynamic data objects are a subgroup of dynamic memory objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm 'Guideline') and simply consist of: -   Strings -   Internal tables The data type statically defines all properties for dynamic dat
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm"
+abapFile: "abenuse_dyn_data_object_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "class", "data", "types", "internal-table", "abenuse", "dyn", "object", "guidl"]
+---
 
 * * *
 
@@ -29292,16 +29564,19 @@ Note
 Strings and internal tables are predefined (or built in) in the ABAP language as data types and the corresponding access statements. In other programming languages, however, they are often implemented as libraries (such as string classes and container classes). In ABAP, it is usually [neither necessary nor useful](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobj_oriented_guidl.htm "Guideline") to define specific classes for storing strings or table-like data. However, in rare cases, it may be useful to wrap internal tables in classes, to release more [memory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") when data is deleted.
 
 
-
-**📖 Source**: [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm)
-
 ### abenmem_cons_dyn_mem_obj_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Memory Consumption of Dynamic Memory Objects"
+description: |
+  Background In dynamic objects, the actual data is addressed using a reference. This means that dynamic memory objects are always deep objects. Possible dynamic memory objects are: -   Table bodies of internal tables addressed using internal table references -   Text strings or byte strings addressed
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm"
+abapFile: "abenmem_cons_dyn_mem_obj_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmem", "cons", "dyn", "mem", "obj", "guidl"]
+---
 
 * * *
 
@@ -29383,16 +29658,19 @@ SELECT \*
        ENDSELECT.
 
 
-
-**📖 Source**: [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
-
 ### abenadmin_costs_dyn_mem_obj_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Administration Costs of Dynamic Memory Objects"
+description: |
+  Background Dynamic memory objects provide flexibility, but this comes at a price. The administration of these objects incurs internal costs, which are reflected in increased memory consumption, and in the worst case possibly far too high. The total memory requirements of a dynamic memory object comp
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm"
+abapFile: "abenadmin_costs_dyn_mem_obj_guidl.htm"
+keywords: ["delete", "do", "while", "if", "case", "class", "data", "types", "internal-table", "abenadmin", "costs", "dyn", "mem", "obj", "guidl"]
+---
 
 * * *
 
@@ -29458,16 +29736,19 @@ Example
 The executable example [DEMO\_MEMORY\_USAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmemory_usage_abexa.htm) demonstrates the administration costs of deep components with low data content.
 
 
-
-**📖 Source**: [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
-
 ### abendyn_access_data_obj_guidl.htm
 
-> **📖 Official SAP Documentation**: [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Accessing Data Objects Dynamically"
+description: |
+  Background Field symbols and data references are used to access data objects whose name and attributes are not known until runtime. -   Field symbols A field symbol is a symbolic name for a data object declared with FIELD-SYMBOLS, to which memory areas can be assigned using the ASSIGN statement or,
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm"
+abapFile: "abendyn_access_data_obj_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "internal-table", "field-symbol", "abendyn", "access", "obj", "guidl"]
+---
 
 * * *
 
@@ -29557,16 +29838,19 @@ METHOD some\_method.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm)
-
 ### abengeneric_progr_guidl.htm
 
-> **📖 Official SAP Documentation**: [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Generic Programming"
+description: |
+  Background Generic programming (dynamic creation of source code) makes programs as dynamic as possible. The following methods can be used to achieve this: -   Dynamic token specification Dynamic token specification involves specifying individual operands or whole parts of statements (clauses) in the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm"
+abapFile: "abengeneric_progr_guidl.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abengeneric", "progr", "guidl"]
+---
 
 * * *
 
@@ -29712,16 +29996,19 @@ ENDTRY.
 Included pages: 7
 
 
-
-**📖 Source**: [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm)
-
 ### abeninternationalization_guidl.htm
 
-> **📖 Official SAP Documentation**: [abeninternationalization_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternationalization_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internationalization"
+description: |
+  Business software used by internationally operating enterprises has to meet certain localization requirements, for example by providing different logon languages or by meeting different legal requirements. In the SAP environment, the language aspect is known as internationalization and is part of th
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternationalization_guidl.htm"
+abapFile: "abeninternationalization_guidl.htm"
+keywords: ["do", "if", "abeninternationalization", "guidl"]
+---
 
 * * *
 
@@ -29754,16 +30041,19 @@ Continue
 [Code Pages for Files](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_file_guidl.htm)
 
 
-
-**📖 Source**: [abeninternationalization_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternationalization_guidl.htm)
-
 ### abensystem_text_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensystem_text_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_text_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Storing System Texts"
+description: |
+  Background In ABAP programs, texts are used as parts of processed data but also as a means to communicate with the user. The latter are called system texts, which are delivered with an ABAP application. The ABAP Workbench manages system texts in such a way that they can be translated from the origi
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_text_guidl.htm"
+abapFile: "abensystem_text_guidl.htm"
+keywords: ["do", "if", "try", "class", "data", "abensystem", "text", "guidl"]
+---
 
 * * *
 
@@ -29816,16 +30106,19 @@ APPEND html\_line TO html\_body.
 ...
 
 
-
-**📖 Source**: [abensystem_text_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_text_guidl.htm)
-
 ### abentrans_relevant_text_guidl.htm
 
-> **📖 Official SAP Documentation**: [abentrans_relevant_text_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrans_relevant_text_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Translation-Friendly Message Texts"
+description: |
+  Background Message texts are translatable system texts(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_text_guidl.htm 'Guideline'). You can use placeholders in the short and long texts of messages. Placeholders in short texts can either be defined uniquely in the form &i, whe
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrans_relevant_text_guidl.htm"
+abapFile: "abentrans_relevant_text_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abentrans", "relevant", "text", "guidl"]
+---
 
 * * *
 
@@ -29890,16 +30183,19 @@ The entry &2 was not found in table &1
 a MESSAGE statement when logged on in English would produce a correct text.
 
 
-
-**📖 Source**: [abentrans_relevant_text_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrans_relevant_text_guidl.htm)
-
 ### abentext_environm_guidl.htm
 
-> **📖 Official SAP Documentation**: [abentext_environm_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environm_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Text Environment"
+description: |
+  Background The text environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm 'Glossary Entry') is part of the runtime environment of an ABAP program and is made up of a text environment language, a locale, and a system code page. All programs in an in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environm_guidl.htm"
+abapFile: "abentext_environm_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abentext", "environm", "guidl"]
+---
 
 * * *
 
@@ -29957,16 +30253,19 @@ METHOD ...
 ENDMETHOD.
 
 
-
-**📖 Source**: [abentext_environm_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environm_guidl.htm)
-
 ### abencharacter_set_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencharacter_set_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_set_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Character Set of ABAP Source Code"
+description: |
+  Background ABAP source code(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') is edited in the ABAP Editor tool in ABAP Workbench, itself an ABAP program. ABAP Editor saves and processes the ABAP source code internally in a data object (an
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_set_guidl.htm"
+abapFile: "abencharacter_set_guidl.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abencharacter", "set", "guidl"]
+---
 
 * * *
 
@@ -30003,16 +30302,19 @@ Since the programs with the ABAP language version [Standard ABAP (Unicode)](http
 In a current system, all [ABAP source code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_source_code_glosry.htm "Glossary Entry") is stored in Unicode and this is why this problem does not occur there. If a guarantee could be given that a program was written only for Unicode systems, the rule above would not be needed for literals and comments (at the very least). It is not possible to ensure that a program is not used in any non-Unicode systems, which is why general robustness rules should always be followed. This ensures that programs can be transported from Unicode systems to non-Unicode systems without conversion losses.
 
 
-
-**📖 Source**: [abencharacter_set_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_set_guidl.htm)
-
 ### abensplit_text_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensplit_text_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplit_text_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitting Texts"
+description: |
+  Background Usually the characters in a character string are displayed in a code page using a fixed number of bytes. This means that it is always known in the memory where a character begins and ends. However, in some code pages, a character can be formed from a combination of multiple separately sav
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplit_text_guidl.htm"
+abapFile: "abensplit_text_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "abensplit", "text", "guidl"]
+---
 
 * * *
 
@@ -30045,19 +30347,19 @@ Operations that split character strings include:
 If texts containing combined characters or surrogates are split, this can produce undefined characters that cannot be displayed. If there is a risk of this occurring, you can define a suitable separation position by using the method SPLIT\_STRING\_AT\_POSITION of classCL\_SCP\_LINEBREAK\_UTIL.
 
 
-
-**📖 Source**: [abensplit_text_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplit_text_guidl.htm)
-
 ### abencodepage_file_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencodepage_file_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_file_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencodepage_file_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_file_guidl.htm)
-
-
-  
+---
+title: "Code Pages for Files"
+description: |
+  Background When you open text files on the host computer(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS Instance using the OPEN DATASET statement, you specify the following options that are very important for internationa
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_file_guidl.htm"
+abapFile: "abencodepage_file_guidl.htm"
+keywords: ["select", "insert", "do", "if", "try", "data", "abencodepage", "file", "guidl"]
+---
 
 * * *
 

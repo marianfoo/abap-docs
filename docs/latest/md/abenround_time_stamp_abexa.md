@@ -1,4 +1,14 @@
-  
+---
+title: "Rounding Time Stamps in Packed Numbers"
+description: |
+  This example demonstrates different rounding behaviors for time stamps stored in packed numbers. Source Code  Public class definition CLASS cl_demo_round_time_stamp DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Publ
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_time_stamp_abexa.htm"
+abapFile: "abenround_time_stamp_abexa.htm"
+keywords: ["do", "while", "if", "method", "class", "data", "abenround", "time", "stamp", "abexa"]
+---
 
 * * *
 

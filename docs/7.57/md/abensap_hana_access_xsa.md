@@ -1,4 +1,14 @@
-  
+---
+title: "Access to SAP HANA XSA Objects"
+description: |
+  SAP HANA XSA(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxsa_glosry.htm 'Glossary Entry') (SAP HANA extended application services, advanced model) is the successor version of SAP HANA XSC(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxsc_glosry.htm 'Glossary E
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_hana_access_xsa.htm"
+abapFile: "abensap_hana_access_xsa.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "abensap", "hana", "access", "xsa"]
+---
 
 * * *
 

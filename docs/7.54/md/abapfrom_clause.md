@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - FROM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_shortref.htm) Syntax ... FROM   data_source(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm) AS tabalias  join(https://help.sap.com/doc/abapdocu_754_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfrom_clause.htm"
+abapFile: "abapfrom_clause.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abapfrom", "clause"]
+---
 
 * * *
 

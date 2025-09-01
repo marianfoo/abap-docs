@@ -1,4 +1,14 @@
-  
+---
+title: "control_structure_glosry"
+description: |
+  control_structure_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontrol_structure_glosry.htm"
+abapFile: "abencontrol_structure_glosry.htm"
+keywords: ["loop", "do", "if", "try", "exception-handling", "abencontrol", "structure", "glosry"]
+---
 
 * * *
 

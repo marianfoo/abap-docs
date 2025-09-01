@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Method Call"
+description: |
+  This example demonstrates the call of a static method from a Simple Transformation. Source Code  Public class definition CLASS cl_demo_call_from_st DEFINITION INHERITING FROM cl_demo_classrun PUBLIC FINAL CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. TYPES: t_spfli_tab TYPE SO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_call_from_st_abexa.htm"
+abapFile: "abenmethod_call_from_st_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenmethod", "call", "from", "abexa"]
+---
 
 * * *
 

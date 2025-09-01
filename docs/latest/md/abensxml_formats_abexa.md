@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_formats DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS fill_writer IMPORTING writer TYPE REF TO if_sxml_writer. METHODS parse_outputs IMPORTING xml_10     TY
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_formats_abexa.htm"
+abapFile: "abensxml_formats_abexa.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "method", "class", "data", "abensxml", "formats", "abexa"]
+---
 
 * * *
 

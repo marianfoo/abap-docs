@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - DEFINE BEHAVIOR, alias"
+description: |
+  Syntax ... alias AliasName Effect Behavior Definition Language (BDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_glosry.htm 'Glossary Entry')) makes it possible to define an alias name AliasName for a CDS entity. A BDL alias for an entity makes it possible to introduce a alia
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_alias.htm"
+abapFile: "abenbdl_alias.htm"
+keywords: ["update", "delete", "do", "try", "method", "data", "types", "abenbdl", "alias"]
+---
 
 * * *
 

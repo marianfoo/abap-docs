@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE, Truncation Behavior"
+description: |
+  This section describes the truncation behavior of the system, if the target field length for the statement WRITE TO(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) or the output length for the statement WRITE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_truncations.htm"
+abapFile: "abenwrite_truncations.htm"
+keywords: ["insert", "do", "if", "case", "try", "catch", "data", "types", "abenwrite", "truncations"]
+---
 
 * * *
 
@@ -14,17 +24,11 @@ The following sections explain the steps involved in truncating data. The result
 
 If the individual [formatting options](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_options.htm) deviate from the rules shown here, these deviations are described for the relevant option.
 
--   [Numeric Data Types](#@@ITOC@@ABENWRITE_TRUNCATIONS_1)
+-   [Numeric Data Types](#abenwrite-truncations-1--------whole-numbers-and-packed-numbers---@ITOC@@ABENWRITE_TRUNCATIONS_2)
 
--   [Whole numbers and packed numbers](#@@ITOC@@ABENWRITE_TRUNCATIONS_2)
+-   [Decimal Floating Point Numbers](#abenwrite-truncations-3--------binary-floating-point-numbers---@ITOC@@ABENWRITE_TRUNCATIONS_4)
 
--   [Decimal Floating Point Numbers](#@@ITOC@@ABENWRITE_TRUNCATIONS_3)
-
--   [Binary Floating Point Numbers](#@@ITOC@@ABENWRITE_TRUNCATIONS_4)
-
--   [Character-Like and Byte-Like Data Types](#@@ITOC@@ABENWRITE_TRUNCATIONS_5)
-
--   [Time Stamp](#@@ITOC@@ABENWRITE_TRUNCATIONS_6)
+-   [Character-Like and Byte-Like Data Types](#abenwrite-truncations-5--------time-stamp---@ITOC@@ABENWRITE_TRUNCATIONS_6)
 
 Executable Example
 

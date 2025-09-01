@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_matches. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA email TYPE string VALUE `abc.def@ghi.jkl`. cl_demo_input=>request( CHANGING field = email ). IF matches( val   = email regex = `w+(.w+)@(w+.)+((a
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpred_function_matches_abexa.htm"
+abapFile: "abenpred_function_matches_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenpred", "function", "matches", "abexa"]
+---
 
 * * *
 

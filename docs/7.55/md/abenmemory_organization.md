@@ -1,4 +1,14 @@
-  
+---
+title: "Sessions and Memory Areas"
+description: |
+  This section describes the sessions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensession_glosry.htm 'Glossary Entry') of an AS ABAP in which ABAP programs are executed and the associated memory areas that can be accessed by an ABAP program. For a more general and technically more
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmemory_organization.htm"
+abapFile: "abenmemory_organization.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenmemory", "organization"]
+---
 
 * * *
 
@@ -14,13 +24,9 @@ The following figure shows the general organization of sessions for ABAP program
 
 ![Figure](abdoc_memory1.gif)
 
--   [AS instance](#@@ITOC@@ABENMEMORY_ORGANIZATION_1)
+-   [AS instance](#abenmemory-organization-1--------user-session---@ITOC@@ABENMEMORY_ORGANIZATION_2)
 
--   [User Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_2)
-
--   [ABAP Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_3)
-
--   [Internal Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_4)
+-   [ABAP Session](#abenmemory-organization-3--------internal-session---@ITOC@@ABENMEMORY_ORGANIZATION_4)
 
 AS instance
 

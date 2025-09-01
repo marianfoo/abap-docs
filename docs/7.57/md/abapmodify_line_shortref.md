@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY LINE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_line.htm) Syntax MODIFY  LINE line OF PAGE pageCURRENT PAGE INDEX idx  CURRENT LINE  LINE VALUE FROM wa FIELD VALUE dobj1 FROM wa1 dobj2 FROM
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_line_shortref.htm"
+abapFile: "abapmodify_line_shortref.htm"
+keywords: ["do", "if", "data", "abapmodify", "line", "shortref"]
+---
 
 * * *
 

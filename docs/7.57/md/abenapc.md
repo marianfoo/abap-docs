@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Push Channels (APC)"
+description: |
+  -   APC - Overview(#abenapc-1-------as-abap-as-an-apc-server---@ITOC@@ABENAPC_2) -   ABAP Push Channels as Repository Objects(#abenapc-3-----------apc-handler-class---@ITOC@@ABENAPC_4) -   AS ABAP as APC Client(#abenapc-5-------as-abap-as-a-detached-apc-client---@ITOC@@ABENAPC_6) -   Linking
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenapc.htm"
+abapFile: "abenapc.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenapc"]
+---
 
 * * *
 
@@ -11,18 +21,12 @@ stion for improvement:)
 
 ABAP Push Channels (APC)
 
--   [APC - Overview](#@@ITOC@@ABENAPC_1)
--   [AS ABAP as an APC Server](#@@ITOC@@ABENAPC_2)
-    -   [ABAP Push Channels as Repository Objects](#@@ITOC@@ABENAPC_3)
-    -   [APC Handler Class](#@@ITOC@@ABENAPC_4)
--   [AS ABAP as APC Client](#@@ITOC@@ABENAPC_5)
--   [AS ABAP as a Detached APC Client](#@@ITOC@@ABENAPC_6)
--   [Linking APC with AMC](#@@ITOC@@ABENAPC_7)
--   [APC - System-Wide Access](#@@ITOC@@ABENAPC_8)
--   [APC - Security](#@@ITOC@@ABENAPC_9)
--   [APC - Exceptions](#@@ITOC@@ABENAPC_10)
--   [APC - Test and Analysis](#@@ITOC@@ABENAPC_11)
--   [More Information](#@@ITOC@@ABENAPC_12)
+-   [APC - Overview](#abenapc-1-------as-abap-as-an-apc-server---@ITOC@@ABENAPC_2)
+    -   [ABAP Push Channels as Repository Objects](#abenapc-3-----------apc-handler-class---@ITOC@@ABENAPC_4)
+-   [AS ABAP as APC Client](#abenapc-5-------as-abap-as-a-detached-apc-client---@ITOC@@ABENAPC_6)
+-   [Linking APC with AMC](#abenapc-7-------apc---system-wide-access---@ITOC@@ABENAPC_8)
+-   [APC - Security](#abenapc-9-------apc---exceptions---@ITOC@@ABENAPC_10)
+-   [APC - Test and Analysis](#abenapc-11-------more-information---@ITOC@@ABENAPC_12)
 
 Hint
 

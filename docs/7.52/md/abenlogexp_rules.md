@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  rel_exp - Comparing Elementary Data Types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands.htm) rel_exp - Comparing Reference Variables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_ref.htm) rel_exp - Comparison of St
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules.htm"
+abapFile: "abenlogexp_rules.htm"
+keywords: ["do", "data", "types", "internal-table", "abenlogexp", "rules"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete XML Interface"
+description: |
+  -   CALL TRANSFORMATION - OBJECTS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation_objects.htm) CALL TRANSFORMATION - OBJECTS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation_objects.htm)
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_obsolete.htm"
+abapFile: "abenabap_xml_obsolete.htm"
+keywords: ["do", "data", "abenabap", "xml", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - extension for projection"
+description: |
+  Syntax extension for projection implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm); with privileged mode disabling base context and ContextName(https://help.sap.com/doc/abapdocu_757_index_htm/7.
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm"
+abapFile: "abenbdl_extension_for_projection.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "extension", "for", "projection"]
+---
 
 * * *
 

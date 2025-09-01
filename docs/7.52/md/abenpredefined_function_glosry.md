@@ -1,4 +1,14 @@
-  
+---
+title: "predefined_function_glosry"
+description: |
+  predefined_function_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_function_glosry.htm"
+abapFile: "abenpredefined_function_glosry.htm"
+keywords: ["do", "try", "data", "abenpredefined", "function", "glosry"]
+---
 
 * * *
 

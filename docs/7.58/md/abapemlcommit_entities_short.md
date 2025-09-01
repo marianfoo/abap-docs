@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT ENTITIES, Short Form"
+description: |
+  Syntax COMMIT ENTITIES IN SIMULATION MODE RESPONSES response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm). Additions: 1. ... IN SIMULATION MODE(#!ABAP_ADDITION_1@1@) 2. ... RESPONSES response_param.(#!ABAP_ADDITION_2@2@) Effect Trig
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapemlcommit_entities_short.htm"
+abapFile: "abapemlcommit_entities_short.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abapemlcommit", "entities", "short"]
+---
 
 * * *
 

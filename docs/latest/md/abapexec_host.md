@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Host Variables"
+description: |
+  Syntax ... :dobj ... Effect Host variables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_variable_glosry.htm 'Glossary Entry') are global or local data objects (usually variables) declared in the ABAP program that are used in operand positions of embedded Native SQL(ht
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec_host.htm"
+abapFile: "abapexec_host.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "field-symbol", "abapexec", "host"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - RAP Business Objects"
+description: |
+  This section of the ABAP keyword documentation describes the syntax and semantics of all language elements of ABAP RAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap_glosry.htm 'Glossary Entry'). A RAP business object (RAP BO) is a business object (BO)(https://help.
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm"
+abapFile: "abenabap_rap.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenabap", "rap"]
+---
 
 * * *
 

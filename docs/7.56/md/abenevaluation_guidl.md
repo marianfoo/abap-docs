@@ -1,4 +1,14 @@
-  
+---
+title: "Evaluation"
+description: |
+  Background System fields describe general system states or are set specifically by individual statements. The content of system fields is only defined as described in the documentation of the system fields or in the documentation of ABAP statements that set system fields. In contexts other than thos
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevaluation_guidl.htm"
+abapFile: "abenevaluation_guidl.htm"
+keywords: ["loop", "do", "if", "method", "class", "abenevaluation", "guidl"]
+---
 
 * * *
 

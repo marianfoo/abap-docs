@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Spooling"
+description: |
+  -   Obsolete spool parameters specified(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page_print_obsolete.htm) -   NEW-SECTION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-section.htm) -   PRINT-CONTROL - formats(https://help.sap.com/doc/abapdocu_756_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprinting_obsolete.htm"
+abapFile: "abenprinting_obsolete.htm"
+keywords: ["do", "if", "abenprinting", "obsolete"]
+---
 
 * * *
 

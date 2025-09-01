@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - Consumption of the Access Control Context in Access"
+description: |
+  This documentation is only available internally at SAP. CDS DCL - CONTEXT_NODE_EXISTS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_context_node_exists.htm) CDS DCL - CONTEXT_NODE_VALUES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_context_consumption.htm"
+abapFile: "abencds_dcl_context_consumption.htm"
+keywords: ["do", "if", "data", "abencds", "dcl", "context", "consumption"]
+---
 
 * * *
 

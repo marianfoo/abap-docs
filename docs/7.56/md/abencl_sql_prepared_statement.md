@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   Unlike in JDBC, the use of ? placeholders in ADBC is not restricted to prepared statements. In ADBC, the use of prepared statements is not a prerequisite for using placeholders to prevent SQL injections(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_injection_glosry.htm 'Gl
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_sql_prepared_statement.htm"
+abapFile: "abencl_sql_prepared_statement.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "abencl", "sql", "prepared", "statement"]
+---
 
 * * *
 

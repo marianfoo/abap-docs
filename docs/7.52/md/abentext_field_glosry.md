@@ -1,4 +1,14 @@
-  
+---
+title: "Text field"
+description: |
+  In ABAP, character-like data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_type_glosry.htm 'Glossary Entry') for saving character strings(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_string_1_glosry.htm 'Glossary Entry') with fixed
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_field_glosry.htm"
+abapFile: "abentext_field_glosry.htm"
+keywords: ["do", "try", "data", "types", "abentext", "field", "glosry"]
+---
 
 * * *
 

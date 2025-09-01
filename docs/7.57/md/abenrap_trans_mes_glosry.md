@@ -1,4 +1,14 @@
-  
+---
+title: "RAP transition message"
+description: |
+  A message in the reported(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_response.htm) structure that is independent of the state of the entity instance(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry'). Transition
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_trans_mes_glosry.htm"
+abapFile: "abenrap_trans_mes_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "trans", "mes", "glosry"]
+---
 
 * * *
 

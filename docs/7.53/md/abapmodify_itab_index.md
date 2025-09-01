@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY itab - index"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab_shortref.htm) Syntax ...    itab INDEX idx USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)    itab USING KEY loop_key ... Alter
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab_index.htm"
+abapFile: "abapmodify_itab_index.htm"
+keywords: ["select", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abapmodify", "itab", "index"]
+---
 
 * * *
 

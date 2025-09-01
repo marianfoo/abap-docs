@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - SELECT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpselect.htm) dynpro - FIELD VALUES, FIELD SELECT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpfield_value_select.htm) dynpro - CALL CUSTOMER SUBSCREEN(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_obsolet.htm"
+abapFile: "abendynpro_obsolet.htm"
+keywords: ["select", "loop", "do", "if", "abendynpro", "obsolet"]
+---
 
 * * *
 

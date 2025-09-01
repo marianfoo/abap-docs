@@ -1,4 +1,14 @@
-  
+---
+title: "Expressions and Functions for Conditions"
+description: |
+  The flow control of a program is managed by control structures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structure_glosry.htm 'Glossary Entry') that are generally controlled by logical expressions. The following options exist for the formulation and analysis of conditi
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_expr_func.htm"
+abapFile: "abenlogical_expr_func.htm"
+keywords: ["do", "if", "try", "abenlogical", "expr", "func"]
+---
 
 * * *
 

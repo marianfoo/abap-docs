@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:call transformation='trafo'> <tt:with-root name='root1' ref='node1' /> <tt:with-root name='root2' ref='node2' /> ... <tt:with-parameter name='para1' ref='node1'val='val1'var='var1' /> <tt:with-parameter name='para2' ref='node2'val='val2'var='va
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_call.htm"
+abapFile: "abenst_tt_call.htm"
+keywords: ["loop", "do", "if", "case", "data", "internal-table", "abenst", "call"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Changing Single Lines in Mesh Paths"
+description: |
+  This example demonstrates how single lines are changed in mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_modify_tble_nmbrs DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_modify_table_abexa.htm"
+abapFile: "abenmesh_modify_table_abexa.htm"
+keywords: ["insert", "do", "while", "if", "method", "class", "data", "types", "abenmesh", "modify", "table", "abexa"]
+---
 
 * * *
 

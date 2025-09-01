@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   An XML fragment that exists in a data object of type xstring and that is not declared with reference to the domain XSDANY is formatted as the XML schema type xsd:base64Binary in accordance with the rules for mapping elementary data types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_fragment.htm"
+abapFile: "abenabap_xslt_asxml_fragment.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "xslt", "asxml", "fragment"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "INTERSECT, Examples"
+description: |
+  !Example(exa.gif 'Example') SELECT, Intersection of Multiple Tables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_intersect_abexa.htm) !Example(exa.gif 'Example') SELECT, Intersection with Aggregate Expression(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintersect_abexas.htm"
+abapFile: "abenintersect_abexas.htm"
+keywords: ["select", "do", "if", "data", "abenintersect", "abexas"]
+---
 
 * * *
 

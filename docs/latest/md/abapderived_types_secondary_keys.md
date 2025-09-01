@@ -1,4 +1,14 @@
-  
+---
+title: "Secondary Table Keys for BDEF Derived Types"
+description: |
+  Internal tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_glosry.htm 'Glossary Entry') that are typed with BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'), i. e. using T
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_secondary_keys.htm"
+abapFile: "abapderived_types_secondary_keys.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapderived", "secondary", "keys"]
+---
 
 * * *
 

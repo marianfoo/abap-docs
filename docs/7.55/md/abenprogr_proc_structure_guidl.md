@@ -1,4 +1,14 @@
-  
+---
+title: "Program Structure and Procedure Structure"
+description: |
+  ABAP offers you a great deal of freedom when structuring your programs and procedures. Remember, however, that the finished product needs to be easy to maintain. -   Global Declarations of a Program(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenglobal_declar_guidl.htm 'Guideline')
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogr_proc_structure_guidl.htm"
+abapFile: "abenprogr_proc_structure_guidl.htm"
+keywords: ["do", "abenprogr", "proc", "structure", "guidl"]
+---
 
 * * *
 

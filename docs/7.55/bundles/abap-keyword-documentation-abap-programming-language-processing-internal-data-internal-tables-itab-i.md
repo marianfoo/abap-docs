@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenitab_perfo.htm
 
-  
+---
+title: "Table Sharing"
+description: |
+  When assignments are made between internal tables of the same type whose line type does not contain any table types, only the internal administration functions are passed to the table body(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_body_glosry.htm 'Glossary Entry') for pe
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_perfo.htm"
+abapFile: "abenitab_perfo.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "perfo"]
+---
 
 * * *
 
@@ -15,21 +25,13 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 itab - Performance Notes
 
--   [Table Sharing](#@@ITOC@@ABENITAB_PERFO_1)
+-   [Table Sharing](#abenitab-perfo-1--------initial-allocated-memory-area---@ITOC@@ABENITAB_PERFO_2)
 
--   [Initial Allocated Memory Area](#@@ITOC@@ABENITAB_PERFO_2)
+-   [Index Administration](#abenitab-perfo-3--------block-processing-of-table-lines---@ITOC@@ABENITAB_PERFO_4)
 
--   [Index Administration](#@@ITOC@@ABENITAB_PERFO_3)
+-   [Selective Data Transport](#abenitab-perfo-5--------using-secondary-keys---@ITOC@@ABENITAB_PERFO_6)
 
--   [Block Processing of Table Lines](#@@ITOC@@ABENITAB_PERFO_4)
-
--   [Selective Data Transport](#@@ITOC@@ABENITAB_PERFO_5)
-
--   [Using Secondary Keys](#@@ITOC@@ABENITAB_PERFO_6)
-
--   [Deleting Table Lines](#@@ITOC@@ABENITAB_PERFO_7)
-
--   [Free Key Specified for Sorted Tables and Hashed Tables](#@@ITOC@@ABENITAB_PERFO_8)
+-   [Deleting Table Lines](#abenitab-perfo-7--------free-key-specified-for-sorted-tables-and-hashed-tables---@ITOC@@ABENITAB_PERFO_8)
 
 -   [Sorting](#@@ITOC@@ABENITAB_PERFO_9)
 
@@ -113,7 +115,17 @@ Continue
 
 ### abenitab_where_optimization.htm
 
-  
+---
+title: "Hint"
+description: |
+  If the lines selected using WHERE are modified or deleted using MODIFY(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmodify_itab.htm) or DELETE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab.htm) and not just read using LOOP AT(https://help.sap.com/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_where_optimization.htm"
+abapFile: "abenitab_where_optimization.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abenitab", "where", "optimization"]
+---
 
 * * *
 
@@ -151,9 +163,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 
 The following sections describe exactly when an access can be optimized.
 
--   [Prerequisites for the Optimization of Hash Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
-
--   [Prerequisites for the Optimization of Sorted Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
+-   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1--------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
 
 -   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
 

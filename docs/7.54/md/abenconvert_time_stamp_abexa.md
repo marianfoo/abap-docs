@@ -1,4 +1,14 @@
-  
+---
+title: "Convert Time Stamps in Packed Numbers"
+description: |
+  This example demonstrates the statements CONVERT TIME STAMP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm) and CONVERT INTO TIME STAMP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm). Source Code REPORT demo_con
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_time_stamp_abexa.htm"
+abapFile: "abenconvert_time_stamp_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "abenconvert", "time", "stamp", "abexa"]
+---
 
 * * *
 

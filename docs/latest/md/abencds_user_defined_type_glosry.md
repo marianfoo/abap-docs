@@ -1,4 +1,14 @@
-  
+---
+title: "CDS user-defined type"
+description: |
+  A CDS object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_object_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). A CDS user-defined type is defined in the CDS type defin
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_user_defined_type_glosry.htm"
+abapFile: "abencds_user_defined_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "user", "defined", "type", "glosry"]
+---
 
 * * *
 

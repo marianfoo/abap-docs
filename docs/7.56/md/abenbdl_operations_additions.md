@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - RAP BO operation, additions"
+description: |
+  The following additions are available for RAP BO operations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_operations.htm) wherever they are specified: -   authorization:none(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_auth.htm) -   authorizati
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_operations_additions.htm"
+abapFile: "abenbdl_operations_additions.htm"
+keywords: ["update", "do", "if", "data", "abenbdl", "operations", "additions"]
+---
 
 * * *
 

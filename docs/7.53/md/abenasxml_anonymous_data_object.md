@@ -1,4 +1,14 @@
-  
+---
+title: "Namespace"
+description: |
+  Where Defined types/dictionary ABAP Dictionary types/program/PRG ABAP program prg types/class-pool/CPOOL Class Pool cpool types/type-pool/TPOOL Type group(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_group_1_glosry.htm 'Glossary Entry') tpool types/function-pool/FPOOL Functi
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasxml_anonymous_data_object.htm"
+abapFile: "abenasxml_anonymous_data_object.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenasxml", "anonymous", "object"]
+---
 
 * * *
 

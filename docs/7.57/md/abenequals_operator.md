@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  lhs = rhs. Effect If the character = is specified in a statement between a left hand side lhs and a right hand side rhs, assignment operator(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignment_operator_glosry.htm 'Glossary Entry') that assigns the value of the right side to
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenequals_operator.htm"
+abapFile: "abenequals_operator.htm"
+keywords: ["do", "if", "try", "method", "data", "abenequals", "operator"]
+---
 
 * * *
 

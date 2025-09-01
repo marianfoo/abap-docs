@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The required classes and interfaces are documented in the Class Builder. -   Apart from the access class CL_IXML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_cl_ixml.htm), no classes generally must be specified directly in a program. All reads and writes a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_object_types.htm"
+abapFile: "abenabap_ixml_lib_object_types.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenabap", "ixml", "lib", "object"]
+---
 
 * * *
 

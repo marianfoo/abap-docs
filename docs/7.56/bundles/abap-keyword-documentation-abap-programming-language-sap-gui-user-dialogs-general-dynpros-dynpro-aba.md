@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapset_hold_data.htm
 
-  
+---
+title: "SET HOLD DATA"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_hold_data_shortref.htm) Syntax SET HOLD DATA ONOFF. Effect During PBO(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpbo_glosry.htm 'Glossary Entry') processing, this statement makes the f
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_hold_data.htm"
+abapFile: "abapset_hold_data.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapset", "hold"]
+---
 
 * * *
 
@@ -50,7 +60,17 @@ Continue
 
 ### abendynpro_hold_data_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_set_hold_data. DATA field(10) TYPE c. CALL SCREEN 100. field = 'XXXXXXXXXX'. CALL SCREEN 100. MODULE hold_data OUTPUT. SET HOLD DATA ON. ENDMODULE. Description The static next dynpro of dynpro 100 is 0. It contains a single input/output field field. The dynpro flow logic is:
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_hold_data_abexa.htm"
+abapFile: "abendynpro_hold_data_abexa.htm"
+keywords: ["delete", "do", "if", "try", "data", "abendynpro", "hold", "abexa"]
+---
 
 * * *
 

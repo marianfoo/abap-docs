@@ -1,4 +1,14 @@
-  
+---
+title: "FORM - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm) Syntax FORM subr  TABLES    t1 TYPE itab_typeLIKE itabSTRUCTURE struc t2 TYPE itab_typeLIKE itabSTRUCTURE struc ...    USING
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm"
+abapFile: "abapform_shortref.htm"
+keywords: ["do", "class", "types", "abapform", "shortref"]
+---
 
 * * *
 

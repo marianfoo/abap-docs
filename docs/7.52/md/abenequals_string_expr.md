@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  result = string_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string.htm). Effect If a string expression(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_expression_glosry.htm 'Glossary Entry') string_exp(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_string_expr.htm"
+abapFile: "abenequals_string_expr.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "data", "types", "abenequals", "string", "expr"]
+---
 
 * * *
 

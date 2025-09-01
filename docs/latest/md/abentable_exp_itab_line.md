@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  KEY keyname(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkeyname.htm) INDEX idx    comp1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_components.htm) = operand1 comp2(https://help.sap.com/doc/abapdocu_latest_index_htm/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_exp_itab_line.htm"
+abapFile: "abentable_exp_itab_line.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "data", "internal-table", "abentable", "exp", "itab", "line"]
+---
 
 * * *
 

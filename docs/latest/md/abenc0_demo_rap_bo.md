@@ -1,4 +1,14 @@
-  
+---
+title: "c0_demo_rap_bo"
+description: |
+  c0_demo_rap_bo - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_rap_bo.htm"
+abapFile: "abenc0_demo_rap_bo.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenc0", "demo", "rap"]
+---
 
 * * *
 

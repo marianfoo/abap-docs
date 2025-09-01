@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:cond-var check='...'> ... </tt:cond-var> Effect The statement tt:cond-var allows conditional transformations for which, unlike tt:s-d-cond, only data content can be specified and not conditions for the data flow. The content of tt:cond-var is processed in accordance with a check cond
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_cond-var.htm"
+abapFile: "abenst_tt_cond-var.htm"
+keywords: ["do", "if", "data", "abenst", "cond", "var"]
+---
 
 * * *
 

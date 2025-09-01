@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT, medium"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_shortref.htm) Syntax ...  DATA BUFFER xstr    INTERNAL TABLE itab    MEMORY ID id    DATABASE      dbtab(ar) TO wa CLIENT cl ID id    SHARED MEMORY dbtab(ar)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm"
+abapFile: "abapimport_medium.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapimport", "medium"]
+---
 
 * * *
 

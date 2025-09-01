@@ -1,4 +1,14 @@
-  
+---
+title: "user_condition_glosry"
+description: |
+  user_condition_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuser_condition_glosry.htm"
+abapFile: "abenuser_condition_glosry.htm"
+keywords: ["do", "try", "abenuser", "condition", "glosry"]
+---
 
 * * *
 

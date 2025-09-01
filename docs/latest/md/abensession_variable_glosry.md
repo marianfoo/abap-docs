@@ -1,4 +1,14 @@
-  
+---
+title: "session_variable_glosry"
+description: |
+  session_variable_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensession_variable_glosry.htm"
+abapFile: "abensession_variable_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensession", "variable", "glosry"]
+---
 
 * * *
 

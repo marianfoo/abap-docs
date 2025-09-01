@@ -1,4 +1,14 @@
-  
+---
+title: "AUTHORITY-CHECK DISABLE"
+description: |
+  AUTHORITY-CHECK DISABLE - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapauthority-check_disable.htm"
+abapFile: "abapauthority-check_disable.htm"
+keywords: ["do", "abapauthority", "check", "disable"]
+---
 
 * * *
 

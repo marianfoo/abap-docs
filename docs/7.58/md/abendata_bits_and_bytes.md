@@ -1,4 +1,14 @@
-  
+---
+title: "Excursion Down to Bits and Bytes"
+description: |
+  This topic explains the technical background of data types and data objects. It can be helpful for a better understanding of how to handle data in ABAP including a glance on casting and conversions. After its declaration, a data object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_bits_and_bytes.htm"
+abapFile: "abendata_bits_and_bytes.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "field-symbol", "abendata", "bits", "and", "bytes"]
+---
 
 * * *
 

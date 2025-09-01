@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP daemon session"
+description: |
+  User session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_session_glosry.htm 'Glossary Entry') for ABAP daemon processing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_daemon_processing_glosry.htm 'Glossary Entry'). An ABAP daemon session is
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_daemon_session_glosry.htm"
+abapFile: "abenabap_daemon_session_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "daemon", "session", "glosry"]
+---
 
 * * *
 

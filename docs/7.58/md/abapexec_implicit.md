@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - PERFORMING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec_sql_shortref.htm) Obsolete Syntax EXEC SQL PERFORMING subr. SELECT ... INTO :wa1 :wa2 ... ENDEXEC. Effect If the addition PERFORMING, which is forbidden in classes, is specified after EXEC SQL(https://help.sap.co
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec_implicit.htm"
+abapFile: "abapexec_implicit.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapexec", "implicit"]
+---
 
 * * *
 

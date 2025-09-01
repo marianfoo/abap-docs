@@ -1,4 +1,14 @@
-  
+---
+title: "interface_ref_variable_glosry"
+description: |
+  interface_ref_variable_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_ref_variable_glosry.htm"
+abapFile: "abeninterface_ref_variable_glosry.htm"
+keywords: ["do", "if", "try", "abeninterface", "ref", "variable", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Character String and Byte String Processing"
+description: |
+  This section describes the language elements, expressions, and functions used for the processing of character strings(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_string_1_glosry.htm 'Glossary Entry') and byte strings(https://help.sap.com/doc/abapdocu_752_index_htm/7.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm"
+abapFile: "abenabap_data_string.htm"
+keywords: ["do", "try", "class", "data", "types", "abenabap", "string"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ELSE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapif_shortref.htm) Syntax ELSE. Effect See IF(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapif.htm).
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapelse.htm"
+abapFile: "abapelse.htm"
+keywords: ["do", "if", "abapelse"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Object Navigator"
+description: |
+  Development environment for the central editing of repository objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrepository_object_glosry.htm 'Glossary Entry'). Object Navigator displays repository objects as nodes of different tree representations (browser), such as Repositor
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_navigator_glosry.htm"
+abapFile: "abenobject_navigator_glosry.htm"
+keywords: ["do", "if", "try", "abenobject", "navigator", "glosry"]
+---
 
 * * *
 

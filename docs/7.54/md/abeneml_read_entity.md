@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - READ ENTITY"
+description: |
+  Syntax READ ENTITY entity_name FROM it_instance RESULT it_result  DATA(it_result) BY assoc_name FROM it_instance_rba RESULT it_result_rba  DATA(it_result_rba) LINK   it_link_rba  DATA(it_link_rba) EXECUTE action_name FROM it_instance_a RESULT it_result_a  DATA(it_r
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entity.htm"
+abapFile: "abeneml_read_entity.htm"
+keywords: ["do", "if", "case", "try", "data", "abeneml", "read", "entity"]
+---
 
 * * *
 

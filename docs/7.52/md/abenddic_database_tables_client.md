@@ -1,4 +1,14 @@
-  
+---
+title: "Client-Dependence of Database Tables"
+description: |
+  If the first column of a database table is a key field of the predefined type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) CLNT, the table is client-specific. In this case, the column contains the client ID(https://help.sap.com/doc/abapdocu_752_index_htm
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_client.htm"
+abapFile: "abenddic_database_tables_client.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "client"]
+---
 
 * * *
 

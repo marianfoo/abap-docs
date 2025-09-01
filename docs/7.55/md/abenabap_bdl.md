@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL"
+description: |
+  Work in progress  The transactional behavior of a CDS entity is modeled using the Behavior Definition Language (BDL). BDL describes the functions and properties of one or more RAP business object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm 'Glossary Entry'
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm"
+abapFile: "abenabap_bdl.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenabap", "bdl"]
+---
 
 * * *
 

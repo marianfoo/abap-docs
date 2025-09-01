@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Internal Table Processing"
+description: |
+  -   READ, LOOP, INSERT, COLLECT, APPEND, MODIFY, DELETE - Short Forms(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_short_forms.htm) -   sys, Obsolete Pseudo Component(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensys_table_body.htm) -   READ TABLE ita
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_obsolete.htm"
+abapFile: "abenitab_obsolete.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "data", "internal-table", "abenitab", "obsolete"]
+---
 
 * * *
 

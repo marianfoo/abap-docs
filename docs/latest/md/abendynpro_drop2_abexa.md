@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_dropdown_listbox. DATA: name  TYPE vrm_id, list  TYPE vrm_values, value LIKE LINE OF list. DATA: wa_spfli TYPE spfli, ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. TABLES demof4help. name = 'DEMOF4HELP-CONNID'. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_drop2_abexa.htm"
+abapFile: "abendynpro_drop2_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abendynpro", "drop2", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DATA BEGIN OF - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_struc.htm) Syntax DATA BEGIN OF struc READ-ONLY OCCURS n. ... INCLUDE ...(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinclude_type_shortref.htm) ... DATA END OF struc VALID BETWEE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_begin_of_shortref.htm"
+abapFile: "abapdata_begin_of_shortref.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abapdata", "begin", "shortref"]
+---
 
 * * *
 

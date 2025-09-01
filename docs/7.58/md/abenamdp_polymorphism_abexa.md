@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - AMDP Methods in Interfaces and Superclasses"
+description: |
+  This example demonstrates how AMDP methods are implemented from interfaces and superclasses. Source Code  Public class definition CLASS cl_demo_amdp_polymorphism DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public cl
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_polymorphism_abexa.htm"
+abapFile: "abenamdp_polymorphism_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenamdp", "polymorphism", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenconstructor_expression_new.htm
 
-  
+---
+title: "NEW, Instance Operator"
+description: |
+  Syntax ... NEW type( ... ) ... Effect A constructor expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expressions.htm) with the instance operator NEW creates an anonymous data object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenanonymous_data
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm"
+abapFile: "abenconstructor_expression_new.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenconstructor", "expression", "new"]
+---
 
 * * *
 
@@ -80,7 +90,17 @@ Continue
 
 ### abennew_constructor_params_initial.htm
 
-  
+---
+title: "NEW, Initial Value for All Types"
+description: |
+  Syntax ... NEW dtypeclass#( ) ... Effect If no parameter is specified, -   an anonymous data object retains its type-specific initial value, -   no values are passed to the instance constructor of an object. This is possible for every non-generic data type dtype. The instance constructor of a
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_initial.htm"
+abapFile: "abennew_constructor_params_initial.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abennew", "constructor", "params", "initial"]
+---
 
 * * *
 
@@ -119,7 +139,17 @@ dref = NEW t\_itab( ).
 
 ### abennew_constructor_params_single.htm
 
-  
+---
+title: "NEW, Single Value for All Data Types"
+description: |
+  Syntax ... NEW dtype#( let_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) dobj ) ... Effect If dtype is a non-generic elementary data type, a structured type, a table type, or a reference type or # is used for a type like this, a single data object dobj can
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_single.htm"
+abapFile: "abennew_constructor_params_single.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "types", "internal-table", "abennew", "constructor", "params", "single"]
+---
 
 * * *
 
@@ -168,7 +198,17 @@ ENDSELECT.
 
 ### abennew_constructor_params_struct.htm
 
-  
+---
+title: "NEW, Structures"
+description: |
+  Syntax ... NEW dtype#( let_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) BASE dobj comp1 = dobj1 comp2 = dobj2 ... ) ... Effect If dtype is a structured data type or # stands for such a type, the individual components can be specified as named argu
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm"
+abapFile: "abennew_constructor_params_struct.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abennew", "constructor", "params", "struct"]
+---
 
 * * *
 
@@ -248,7 +288,17 @@ See also the examples for the value operator [VALUE](https://help.sap.com/doc/ab
 
 ### abennew_constructor_params_itab.htm
 
-  
+---
+title: "NEW, Internal Tables"
+description: |
+  Syntax ... NEW dtype#( let_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) BASE itab FOR for_exp1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm) FOR for_exp2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-U
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm"
+abapFile: "abennew_constructor_params_itab.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abennew", "constructor", "params", "itab"]
+---
 
 * * *
 
@@ -378,7 +428,17 @@ Continue
 
 ### abennew_constructor_params_lspc.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... line  LINES OF jtab FROM idx1 TO idx2 USING KEY keyname ... Alternatives: 1. ... line(#!ABAP_ALTERNATIVE_1@1@) 2. ... LINES OF jtab FROM idx1 TO idx2 USING KEY keyname(#!ABAP_ALTERNATIVE_2@2@) Effect Specification of one or more line
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm"
+abapFile: "abennew_constructor_params_lspc.htm"
+keywords: ["insert", "do", "if", "try", "catch", "method", "data", "types", "internal-table", "abennew", "constructor", "params", "lspc"]
+---
 
 * * *
 
@@ -498,7 +558,17 @@ cl\_demo\_output=>display( itab->\* ).
 
 ### abennew_constructor_params_itab.htm
 
-  
+---
+title: "NEW, Internal Tables"
+description: |
+  Syntax ... NEW dtype#( let_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) BASE itab FOR for_exp1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm) FOR for_exp2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-U
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm"
+abapFile: "abennew_constructor_params_itab.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abennew", "constructor", "params", "itab"]
+---
 
 * * *
 
@@ -628,7 +698,17 @@ Continue
 
 ### abennew_constructor_params_class.htm
 
-  
+---
+title: "NEW, Classes"
+description: |
+  Syntax ... NEW class#( let_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) p1 = a1 p2 = a2 .. ) ... Effect If a class class is specified or # stands for a class like this, the non-optional input parameters p1 p2 ... of the instance constructor of the instant
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_class.htm"
+abapFile: "abennew_constructor_params_class.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "abennew", "constructor", "params"]
+---
 
 * * *
 

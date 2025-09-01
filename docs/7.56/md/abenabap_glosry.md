@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP"
+description: |
+  Advanced Business Application Programming. Programming language of the ABAP development environment (ABAP DE)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dev_envir_glosry.htm 'Glossary Entry') that is used as the programming interface of Application Server ABAP(https://he
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glosry.htm"
+abapFile: "abenabap_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "glosry"]
+---
 
 * * *
 

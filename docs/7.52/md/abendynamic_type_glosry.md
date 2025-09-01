@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic type"
+description: |
+  In a reference variable(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_variable_glosry.htm 'Glossary Entry'), the data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm 'Glossary Entry') or the class(https://help.sap.com/doc/abap
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynamic_type_glosry.htm"
+abapFile: "abendynamic_type_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abendynamic", "type", "glosry"]
+---
 
 * * *
 

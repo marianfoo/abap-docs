@@ -1,4 +1,14 @@
-  
+---
+title: "SQL path expression"
+description: |
+  Specifies a CDS association path(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_path_glosry.htm 'Glossary Entry'), a CTE association path(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencte_association_path_glosry.htm 'Glossary Entry'), or
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_path_expression_glosry.htm"
+abapFile: "abensql_path_expression_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensql", "path", "expression", "glosry"]
+---
 
 * * *
 

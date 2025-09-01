@@ -1,4 +1,14 @@
-  
+---
+title: "append_search_help_glosry"
+description: |
+  append_search_help_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenappend_search_help_glosry.htm"
+abapFile: "abenappend_search_help_glosry.htm"
+keywords: ["do", "if", "try", "abenappend", "search", "help", "glosry"]
+---
 
 * * *
 

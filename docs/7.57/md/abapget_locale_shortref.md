@@ -1,4 +1,14 @@
-  
+---
+title: "GET LOCALE LANGUAGE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale.htm) Syntax GET LOCALE LANGUAGE lang COUNTRY cntry MODIFIER mod. Effect Determines the current text environment(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_glosry.htm 'Glossary
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_shortref.htm"
+abapFile: "abapget_locale_shortref.htm"
+keywords: ["do", "if", "try", "abapget", "locale", "shortref"]
+---
 
 * * *
 

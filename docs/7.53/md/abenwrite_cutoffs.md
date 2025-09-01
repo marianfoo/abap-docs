@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE - Cutoff Behavior"
+description: |
+  This section describes the cutoff behavior of the system, if the target field length for the statement WRITE TO(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) or the output length for the statement WRITE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/aba
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_cutoffs.htm"
+abapFile: "abenwrite_cutoffs.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "abenwrite", "cutoffs"]
+---
 
 * * *
 
@@ -14,17 +24,11 @@ The following sections explain the steps involved in truncating data. The result
 
 If the individual [formatting options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm) deviate from the rules shown here, these deviations are described for the relevant option.
 
--   [Numeric Data Types](#@@ITOC@@ABENWRITE_CUTOFFS_1)
+-   [Numeric Data Types](#abenwrite-cutoffs-1--------integers-and-packed-numbers---@ITOC@@ABENWRITE_CUTOFFS_2)
 
--   [Integers and Packed Numbers](#@@ITOC@@ABENWRITE_CUTOFFS_2)
+-   [Decimal Floating Point Numbers](#abenwrite-cutoffs-3--------binary-floating-point-numbers---@ITOC@@ABENWRITE_CUTOFFS_4)
 
--   [Decimal Floating Point Numbers](#@@ITOC@@ABENWRITE_CUTOFFS_3)
-
--   [Binary Floating Point Numbers](#@@ITOC@@ABENWRITE_CUTOFFS_4)
-
--   [Character-Like and Byte-Like Data Types](#@@ITOC@@ABENWRITE_CUTOFFS_5)
-
--   [Time Stamps](#@@ITOC@@ABENWRITE_CUTOFFS_6)
+-   [Character-Like and Byte-Like Data Types](#abenwrite-cutoffs-5--------time-stamps---@ITOC@@ABENWRITE_CUTOFFS_6)
 
 Numeric Data Types
 

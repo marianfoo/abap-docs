@@ -1,4 +1,14 @@
-  
+---
+title: "data_sink_glosry"
+description: |
+  data_sink_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_sink_glosry.htm"
+abapFile: "abendata_sink_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendata", "sink", "glosry"]
+---
 
 * * *
 

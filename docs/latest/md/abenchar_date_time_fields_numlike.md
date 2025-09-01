@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Access to Date Fields and Time Fields"
+description: |
+  Numeric access to date fields and time fields exploits the fact that the conversion(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm) of the types d and t to numeric values produces an integer number of days or seconds. This applies particularly when us
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchar_date_time_fields_numlike.htm"
+abapFile: "abenchar_date_time_fields_numlike.htm"
+keywords: ["do", "if", "data", "types", "abenchar", "date", "time", "fields", "numlike"]
+---
 
 * * *
 

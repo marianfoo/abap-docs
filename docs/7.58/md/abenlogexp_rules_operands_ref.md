@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   For data references to be identical, the data type of the referenced objects must be compatible(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencompatibility.htm) and it is not enough for the operands just to contain the same reference. If, for example, two reference variables c
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_rules_operands_ref.htm"
+abapFile: "abenlogexp_rules_operands_ref.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "field-symbol", "abenlogexp", "rules", "operands", "ref"]
+---
 
 * * *
 

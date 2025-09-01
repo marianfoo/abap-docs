@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Client Handling"
+description: |
+  AMDP does not support implicit client handling(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm). When accessing client-specific database tables or views in an AMDP method, the required client ID must be selected explicitly. Therefore, the parameter inter
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_client_handling.htm"
+abapFile: "abenamdp_client_handling.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenamdp", "client", "handling"]
+---
 
 * * *
 

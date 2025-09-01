@@ -1,4 +1,14 @@
-  
+---
+title: "predicative_method_call_glosry"
+description: |
+  predicative_method_call_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicative_method_call_glosry.htm"
+abapFile: "abenpredicative_method_call_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenpredicative", "call", "glosry"]
+---
 
 * * *
 

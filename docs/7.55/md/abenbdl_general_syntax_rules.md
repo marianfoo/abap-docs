@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - General Syntax Rules"
+description: |
+  Work in progress  The following rules apply to the CDS Behavior Definition Language (CDS BDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm 'Glossary Entry')) syntax: Keywords -   Keywords must be all lowercase letter. Example: Create or CreaTe are both inva
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm"
+abapFile: "abenbdl_general_syntax_rules.htm"
+keywords: ["do", "case", "try", "data", "abenbdl", "general", "syntax", "rules"]
+---
 
 * * *
 

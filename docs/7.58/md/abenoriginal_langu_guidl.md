@@ -1,4 +1,14 @@
-  
+---
+title: "Original Language"
+description: |
+  Background When a new repository object is created, such as a program, class, or database table in ABAP Dictionary, its original language must be specified. This is specified implicitly by the current logon language. All translatable texts created as part of a development object in a development pro
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoriginal_langu_guidl.htm"
+abapFile: "abenoriginal_langu_guidl.htm"
+keywords: ["do", "if", "case", "class", "data", "types", "abenoriginal", "langu", "guidl"]
+---
 
 * * *
 

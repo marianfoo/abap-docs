@@ -1,4 +1,14 @@
-  
+---
+title: "Date fields, time fields, and time stamp fields as source fields"
+description: |
+  -   d(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_d.htm) -   t(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_t.htm) -   utclong(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_utclong.htm) Notes
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_source_fields.htm"
+abapFile: "abendate_time_source_fields.htm"
+keywords: ["do", "if", "case", "data", "types", "abendate", "time", "source", "fields"]
+---
 
 * * *
 

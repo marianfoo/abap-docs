@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - AMDP Functions"
+description: |
+  This example demonstrates AMDP functions and how they are used. Source Code REPORT demo_amdp_functions_inpcl. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. IF NOT cl_abap_dbfeatures=>use_features( EXPORTING requested_features = VA
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_functions_abexa.htm"
+abapFile: "abenamdp_functions_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "functions", "abexa"]
+---
 
 * * *
 

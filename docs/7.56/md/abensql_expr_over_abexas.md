@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') sql_win - Window Expressions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_over_abexa.htm) !Example(exa.gif 'Example') sql_win - Window Expressions Without Partition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_exp
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_over_abexas.htm"
+abapFile: "abensql_expr_over_abexas.htm"
+keywords: ["select", "do", "if", "data", "abensql", "expr", "over", "abexas"]
+---
 
 * * *
 

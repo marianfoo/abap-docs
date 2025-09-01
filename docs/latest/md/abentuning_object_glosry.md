@@ -1,4 +1,14 @@
-  
+---
+title: "tuning_object_glosry"
+description: |
+  tuning_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentuning_object_glosry.htm"
+abapFile: "abentuning_object_glosry.htm"
+keywords: ["do", "if", "try", "abentuning", "object", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LOB handle component"
+description: |
+  Reference type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_type_glosry.htm 'Glossary Entry') or reference variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_variable_glosry.htm 'Glossary Entry') in a LOB handle structure(htt
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlob_handle_component_glosry.htm"
+abapFile: "abenlob_handle_component_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenlob", "handle", "component", "glosry"]
+---
 
 * * *
 

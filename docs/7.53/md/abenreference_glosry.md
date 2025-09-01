@@ -1,4 +1,14 @@
-  
+---
+title: "Reference"
+description: |
+  Content of reference variables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_variable_glosry.htm 'Glossary Entry'). A valid reference points to a data object(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_object_glosry.htm 'Glossary Entry') (data
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_glosry.htm"
+abapFile: "abenreference_glosry.htm"
+keywords: ["do", "try", "class", "data", "internal-table", "abenreference", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - General Syntax Rules"
+description: |
+  The general syntax rules for the CDS DDL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddl_glosry.htm 'Glossary Entry'), CDS DCL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_glosry.htm 'Glossary Entry'), and CDS BDL(https://help.sap.com/doc/abapdo
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_general_syntax_rules.htm"
+abapFile: "abencds_general_syntax_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "general", "syntax", "rules"]
+---
 
 * * *
 

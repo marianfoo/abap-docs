@@ -1,4 +1,14 @@
-  
+---
+title: "actual_parameter_glosry"
+description: |
+  actual_parameter_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenactual_parameter_glosry.htm"
+abapFile: "abenactual_parameter_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenactual", "parameter", "glosry"]
+---
 
 * * *
 

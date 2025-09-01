@@ -1,4 +1,14 @@
-  
+---
+title: "RANGES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges_shortref.htm) Obsolete Syntax RANGES range_tab FOR dobj OCCURS n. Effect Obsolete declaration of a ranges table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenranges_table_glosry.htm 'G
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges.htm"
+abapFile: "abapranges.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapranges"]
+---
 
 * * *
 

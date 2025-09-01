@@ -1,4 +1,14 @@
-  
+---
+title: "Business Object Behavior Implementation"
+description: |
+  Short: Behavior Implementation A ABAP class that implements the behavior(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_glosry.htm 'Glossary Entry') of a business object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm 'Glossary E
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_implement_glosry.htm"
+abapFile: "abenbehavior_implement_glosry.htm"
+keywords: ["do", "try", "class", "abenbehavior", "implement", "glosry"]
+---
 
 * * *
 

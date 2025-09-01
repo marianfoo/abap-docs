@@ -1,4 +1,14 @@
-  
+---
+title: "secondary_db_connection_glosry"
+description: |
+  secondary_db_connection_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensecondary_db_connection_glosry.htm"
+abapFile: "abensecondary_db_connection_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensecondary", "connection", "glosry"]
+---
 
 * * *
 

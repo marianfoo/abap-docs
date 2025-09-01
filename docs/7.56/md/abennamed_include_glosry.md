@@ -1,4 +1,14 @@
-  
+---
+title: "named_include_glosry"
+description: |
+  named_include_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennamed_include_glosry.htm"
+abapFile: "abennamed_include_glosry.htm"
+keywords: ["do", "try", "abennamed", "include", "glosry"]
+---
 
 * * *
 

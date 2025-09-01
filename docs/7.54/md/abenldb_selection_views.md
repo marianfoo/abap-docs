@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Databases - Selection Views"
+description: |
+  Selection views are collections of fields from different database tables. At runtime, additional selections for the fields of these selection views can be defined using dynamic selections(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_free_selections.htm). These additional sele
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selection_views.htm"
+abapFile: "abenldb_selection_views.htm"
+keywords: ["select", "do", "if", "try", "data", "abenldb", "selection", "views"]
+---
 
 * * *
 

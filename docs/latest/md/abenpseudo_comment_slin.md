@@ -1,4 +1,14 @@
-  
+---
+title: "Pseudo Comments for the Extended Program Check"
+description: |
+  Obsolete Syntax ... '#EC ... Effect The string '#EC after a statement or a part of a statement that follows a particular ID defines the subsequent content of the line as a pseudo comment(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comment_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comment_slin.htm"
+abapFile: "abenpseudo_comment_slin.htm"
+keywords: ["do", "if", "try", "data", "abenpseudo", "comment", "slin"]
+---
 
 * * *
 

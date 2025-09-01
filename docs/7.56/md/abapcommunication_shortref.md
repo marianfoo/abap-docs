@@ -1,4 +1,14 @@
-  
+---
+title: "COMMUNICATION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm) Syntax COMMUNICATION  INIT DESTINATION dest  ALLOCATE  ACCEPT  SEND BUFFER buf  RECEIVE BUFFER buf DATAINFO dat STATUSINFO stat  DEALLOCATE  ID id
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_shortref.htm"
+abapFile: "abapcommunication_shortref.htm"
+keywords: ["do", "try", "data", "abapcommunication", "shortref"]
+---
 
 * * *
 

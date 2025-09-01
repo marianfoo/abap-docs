@@ -1,4 +1,14 @@
-  
+---
+title: "FIND"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_shortref.htm) Syntax FIND FIRST OCCURRENCEALL OCCURRENCES OF pattern(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_pattern.htm) IN section_of(https://help.sap.c
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm"
+abapFile: "abapfind.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "internal-table", "abapfind"]
+---
 
 * * *
 

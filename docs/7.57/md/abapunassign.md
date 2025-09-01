@@ -1,4 +1,14 @@
-  
+---
+title: "UNASSIGN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapunassign_shortref.htm) Syntax UNASSIGN <fs>. Effect This statement initializes the field symbol <fs>. After the statement, the field symbol does not reference a memory area and the predicate expression(https://help.sa
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapunassign.htm"
+abapFile: "abapunassign.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abapunassign"]
+---
 
 * * *
 

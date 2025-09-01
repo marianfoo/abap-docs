@@ -1,4 +1,14 @@
-  
+---
+title: "CONVERT KEY"
+description: |
+  Syntax CONVERT KEY OF bdef FROM TEMPORARY pre_key TO final_key. Effect Used to retrieve the final keys (final_key) from preliminary keys (pre_key) in the context of RAP late numbering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_late_numbering_glosry.htm 'Glossary
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_key.htm"
+abapFile: "abapconvert_key.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapconvert", "key"]
+---
 
 * * *
 

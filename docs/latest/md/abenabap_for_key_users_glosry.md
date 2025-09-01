@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for Key Users"
+description: |
+  Restricted ABAP language version(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrestricted_version_glosry.htm 'Glossary Entry') with restricted language scope and restricted access to released APIs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreleased_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_key_users_glosry.htm"
+abapFile: "abenabap_for_key_users_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "for", "key", "users", "glosry"]
+---
 
 * * *
 

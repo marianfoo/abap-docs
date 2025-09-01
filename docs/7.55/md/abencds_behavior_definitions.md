@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Behavior Definitions"
+description: |
+  Work in progress  A CDS behavior definition(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') is created using CDS BDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm 'Glossary Entry') in BD
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm"
+abapFile: "abencds_behavior_definitions.htm"
+keywords: ["do", "if", "try", "class", "data", "abencds", "behavior", "definitions"]
+---
 
 * * *
 

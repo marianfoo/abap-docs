@@ -1,4 +1,14 @@
-  
+---
+title: "Migrating SEARCH to FIND"
+description: |
+  When migrating from the obsolete SEARCH(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsearch-.htm) to the FIND(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind.htm) statement, the following points should be respected: -   With ENDING AT a position greater than
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmigrate_search_to_find.htm"
+abapFile: "abenmigrate_search_to_find.htm"
+keywords: ["do", "if", "data", "abenmigrate", "search", "find"]
+---
 
 * * *
 

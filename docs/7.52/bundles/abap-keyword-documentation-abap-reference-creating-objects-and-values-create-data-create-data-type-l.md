@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapcreate_data_existing.htm
 
-  
+---
+title: "CREATE DATA - TYPE, LIKE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_area_handle.htm)  TYPE LINE OF type(name)
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_existing.htm"
+abapFile: "abapcreate_data_existing.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abapcreate", "existing"]
+---
 
 * * *
 
@@ -70,7 +80,17 @@ Continue
 
 ### abencreate_structured_data_abexa.htm
 
-  
+---
+title: "Creating Structured Data Objects"
+description: |
+  This example demonstrates how structured data objects are created. Source Code REPORT demo_create_structured_data. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA dref TYPE REF TO data. DATA: dbtab TYPE tabname VALUE 'SPFLI', rows
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_structured_data_abexa.htm"
+abapFile: "abencreate_structured_data_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "field-symbol", "abencreate", "structured", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "object_type_glosry"
+description: |
+  object_type_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobject_type_glosry.htm"
+abapFile: "abenobject_type_glosry.htm"
+keywords: ["do", "try", "class", "data", "types", "abenobject", "type", "glosry"]
+---
 
 * * *
 

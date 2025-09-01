@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... agg_func(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_agg_func.htm) ... Effect Aggregate expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenaggregate_expression_glosry.htm 'Glossary Entry') in ABAP SQL. An aggregate expression consists of an agg
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_aggregate.htm"
+abapFile: "abapselect_aggregate.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselect", "aggregate"]
+---
 
 * * *
 

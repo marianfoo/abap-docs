@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, COMPOSITION"
+description: |
+  Syntax ... COMPOSITION  min..max  OF target AS _compos ... Effect Defines a to-child association(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abento_child_association_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_v1.htm"
+abapFile: "abencds_composition_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "composition"]
+---
 
 * * *
 

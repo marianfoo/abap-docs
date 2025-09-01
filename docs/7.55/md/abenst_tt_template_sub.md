@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:template name='tmpl'> <tt:context> <tt:root name='root1' line-type=... /> <tt:root name='root2' line-type=... /> ... <tt:parameter name='para1' s-d-val='def1' kind='knd1' /> <tt:parameter name='para2' s-d-v
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_template_sub.htm"
+abapFile: "abenst_tt_template_sub.htm"
+keywords: ["do", "data", "types", "abenst", "template", "sub"]
+---
 
 * * *
 

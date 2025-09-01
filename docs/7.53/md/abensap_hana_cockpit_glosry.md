@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA Cockpit"
+description: |
+  Browser-based administration tool in XSA(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxsa_glosry.htm 'Glossary Entry'). Replaces the administration perspective in SAP-HANA-Studios(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_studio_glosry.htm 'Glossary En
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_hana_cockpit_glosry.htm"
+abapFile: "abensap_hana_cockpit_glosry.htm"
+keywords: ["do", "try", "abensap", "hana", "cockpit", "glosry"]
+---
 
 * * *
 

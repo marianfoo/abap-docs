@@ -1,4 +1,14 @@
-  
+---
+title: "Classic and Class-Based Exceptions"
+description: |
+  Background For reasons of downward compatibility, there are two options for defining standalone catchable exceptions in ABAP: -   Classic Exceptions These exceptions can only be declared in the interfaces of methods or function modules using EXCEPTIONS and can be raised within such a procedure using
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_exception_guidl.htm"
+abapFile: "abenclass_exception_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abenclass", "exception", "guidl"]
+---
 
 * * *
 

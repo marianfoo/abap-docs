@@ -1,4 +1,14 @@
-  
+---
+title: "APC processing"
+description: |
+  Processing of a WebSocket or TCP request using the APC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_glosry.htm 'Glossary Entry') framework in an APC handler class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_handler_class_glosry.htm 'Glossary
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_processing_glosry.htm"
+abapFile: "abenapc_processing_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenapc", "processing", "glosry"]
+---
 
 * * *
 

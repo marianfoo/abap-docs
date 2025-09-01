@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC, Bulk Access"
+description: |
+  This example demonstrates bulk access in ADBC. Source Code REPORT demo_adbc_ddl_dml_bulk_access. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_delete RADIOBUTTON GROUP grp, p_select
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_dml_ddl_bulk_abexa.htm"
+abapFile: "abenadbc_dml_ddl_bulk_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "dml", "ddl", "bulk", "abexa"]
+---
 
 * * *
 

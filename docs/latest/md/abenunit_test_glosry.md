@@ -1,4 +1,14 @@
-  
+---
+title: "unit_test_glosry"
+description: |
+  unit_test_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunit_test_glosry.htm"
+abapFile: "abenunit_test_glosry.htm"
+keywords: ["do", "if", "case", "try", "class", "abenunit", "test", "glosry"]
+---
 
 * * *
 

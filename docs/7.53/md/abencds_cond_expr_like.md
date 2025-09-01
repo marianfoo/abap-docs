@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... lhs LIKE rhs ESCAPE esc... Effect Compares in a condition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_conditional_expression.htm) in a CDS view(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm 'Glossary Entry'). The relation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_cond_expr_like.htm"
+abapFile: "abencds_cond_expr_like.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "cond", "expr", "like"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Read Access"
+description: |
+  The ABAP SQL language elements for performing reads on the database are: -   SELECT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect.htm) -   WITH(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith.htm) -   OPEN CURSOR(https://help.sap.com/doc/abapdocu_758
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_reading.htm"
+abapFile: "abenabap_sql_reading.htm"
+keywords: ["select", "do", "if", "data", "abenabap", "sql", "reading"]
+---
 
 * * *
 

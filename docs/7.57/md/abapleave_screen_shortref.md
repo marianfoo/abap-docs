@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE SCREEN - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapleave_screen.htm) Syntax LEAVE  SCREEN  TO SCREEN dynnr . Effect Exits the current dynpro(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm 'Glossary Entry') and continues proce
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapleave_screen_shortref.htm"
+abapFile: "abapleave_screen_shortref.htm"
+keywords: ["do", "if", "try", "abapleave", "screen", "shortref"]
+---
 
 * * *
 

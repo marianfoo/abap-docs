@@ -1,4 +1,14 @@
-  
+---
+title: "OLAP"
+description: |
+  Short for Online Analytical Processing. → More about(https://en.wikipedia.org/wiki/Online_analytical_processing)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenolap_glosry.htm"
+abapFile: "abenolap_glosry.htm"
+keywords: ["do", "if", "abenolap", "glosry"]
+---
 
 * * *
 

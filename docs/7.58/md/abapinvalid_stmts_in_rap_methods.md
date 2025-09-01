@@ -1,4 +1,14 @@
-  
+---
+title: "Restrictions in RAP Handler and Saver Methods"
+description: |
+  The following restrictions apply to operations and/or statements in the RAP handler methods(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') and RAP saver methods(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_save
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinvalid_stmts_in_rap_methods.htm"
+abapFile: "abapinvalid_stmts_in_rap_methods.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abapinvalid", "stmts", "rap", "methods"]
+---
 
 * * *
 

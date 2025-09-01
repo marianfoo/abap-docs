@@ -1,4 +1,14 @@
-  
+---
+title: "Time zone"
+description: |
+  Geographical area in which, at a given time, the same local time(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_time_glosry.htm 'Glossary Entry') and local date(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_date_glosry.htm 'Glossary Entry') apply, bas
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_zone_glosry.htm"
+abapFile: "abentime_zone_glosry.htm"
+keywords: ["do", "try", "abentime", "zone", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Loop with Key Specified"
+description: |
+  The example demonstrates the execution of the statement LOOP AT itab with various table keys. Source Code REPORT demo_loop_at_itab_using_key. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF spfli_line, carrid   TYPE s
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_at_itab_key_abexa.htm"
+abapFile: "abenloop_at_itab_key_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenloop", "itab", "key", "abexa"]
+---
 
 * * *
 

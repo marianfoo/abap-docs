@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Rules for Internal Tables"
+description: |
+  Internal tables can only be assigned to internal tables. Whether or not assignment is possible depends exclusively on row type, and is independent of table type, table key, and number of rows. Internal tables can be assigned to each other if their row types are compatible(https://help.sap.com/doc/
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_itab.htm"
+abapFile: "abenconversion_itab.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "internal-table", "abenconversion", "itab"]
+---
 
 * * *
 

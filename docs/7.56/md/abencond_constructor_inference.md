@@ -1,4 +1,14 @@
-  
+---
+title: "COND, SWITCH, Type Inference for Actual Parameters"
+description: |
+  If the following constructor expression is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #: COND(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abe
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencond_constructor_inference.htm"
+abapFile: "abencond_constructor_inference.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencond", "constructor", "inference"]
+---
 
 * * *
 

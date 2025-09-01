@@ -1,4 +1,14 @@
-  
+---
+title: "The assignment is performed component by component"
+description: |
+  -   between the components specified in the mapping rule -   between the remaining identically named components at the same level if they were not excluded in the mapping rule. In assignments between structures, components of the target structure to which no components of the source structure are as
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_corresponding_1.htm"
+abapFile: "abencl_abap_corresponding_1.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abencl", "abap", "corresponding"]
+---
 
 * * *
 

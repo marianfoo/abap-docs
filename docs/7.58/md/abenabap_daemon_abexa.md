@@ -1,4 +1,14 @@
-  
+---
+title: "ADF - Creating and Using an ABAP Daemon"
+description: |
+  This example demonstrates an ABAP Daemon(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_abap_daemon_demo DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SEC
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_abexa.htm"
+abapFile: "abenabap_daemon_abexa.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "abenabap", "daemon", "abexa"]
+---
 
 * * *
 

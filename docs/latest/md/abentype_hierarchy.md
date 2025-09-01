@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Type Hierarchy"
+description: |
+  The ABAP types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_type_glosry.htm 'Glossary Entry') form the following ABAP type hierarchy: !Figure(abdoc_types_objects.gif) The left side of the figure shows the hierarchy of all types and instances, that is, which types are
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_hierarchy.htm"
+abapFile: "abentype_hierarchy.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abentype", "hierarchy"]
+---
 
 * * *
 

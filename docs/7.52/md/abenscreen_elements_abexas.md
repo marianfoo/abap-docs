@@ -1,4 +1,14 @@
-  
+---
+title: "Screen Elements - Examples"
+description: |
+  !Example(exa.gif 'Example') Screens, Status Icons(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_status_icons_abexa.htm) !Example(exa.gif 'Example') Screens, Context Menus(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_context_menu_abexa.htm) !E
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_elements_abexas.htm"
+abapFile: "abenscreen_elements_abexas.htm"
+keywords: ["do", "if", "abenscreen", "elements", "abexas"]
+---
 
 * * *
 

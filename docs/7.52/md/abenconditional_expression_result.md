@@ -1,4 +1,14 @@
-  
+---
+title: "COND, SWITCH - result"
+description: |
+  Syntax ...   operand   THROW RESUMABLE cx_class(  message(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_message.htm) p1 = a1 p2 = a2 ... )  ... Alternatives: 1. ... operand(#!ABAP_ALTERNATIVE_1@1@) 2. ... THROW RESUMABLE
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_result.htm"
+abapFile: "abenconditional_expression_result.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenconditional", "expression", "result"]
+---
 
 * * *
 

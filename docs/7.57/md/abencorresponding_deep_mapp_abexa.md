@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator, Nested Mapping Rule"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expr_corresponding.htm) with a nested mapping rule. Source Code REPORT demo_corresponding_deep_mapp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_con
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding_deep_mapp_abexa.htm"
+abapFile: "abencorresponding_deep_mapp_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abencorresponding", "deep", "mapp", "abexa"]
+---
 
 * * *
 

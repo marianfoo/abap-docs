@@ -1,4 +1,14 @@
-  
+---
+title: "Language Environment"
+description: |
+  The language environment of a program is part of the runtime environment of an ABAP program and covers the following aspects: -   Language settings(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage_settings.htm) The language settings defined by the logon language(https://he
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm"
+abapFile: "abenlanguage.htm"
+keywords: ["do", "if", "try", "abenlanguage"]
+---
 
 * * *
 

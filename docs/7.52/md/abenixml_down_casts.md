@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  iXML Library, Down Casts(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_casting_abexa.htm)
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_down_casts.htm"
+abapFile: "abenixml_down_casts.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenixml", "down", "casts"]
+---
 
 * * *
 

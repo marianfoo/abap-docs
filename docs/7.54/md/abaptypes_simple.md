@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  TYPES  dtype(len) TYPE abap_type DECIMALS dec  dtype TYPE abap_type LENGTH len DECIMALS dec. Addition: ... DECIMALS dec(#!ABAP_ONE_ADD@1@) Effect If a built-in data type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredefin
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_simple.htm"
+abapFile: "abaptypes_simple.htm"
+keywords: ["do", "if", "try", "data", "types", "abaptypes", "simple"]
+---
 
 * * *
 

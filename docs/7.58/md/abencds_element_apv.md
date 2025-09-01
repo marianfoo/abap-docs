@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - element, Analytical Query"
+description: |
+  Syntax ... @element_annot1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_annotations_v2.htm) @element_annot2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_annotations_v2.htm) ...  field                AS alias
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_apv.htm"
+abapFile: "abencds_element_apv.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "element", "apv"]
+---
 
 * * *
 

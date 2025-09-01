@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Implementation Rules"
+description: |
+  The ABAP contract checks(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontract_checks_glosry.htm 'Glossary Entry') include RAP BO contract(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_contract_glosry.htm 'Glossary Entry') checks. The RAP BO contract def
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_impl_rules.htm"
+abapFile: "abaprap_impl_rules.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "types", "abaprap", "impl", "rules"]
+---
 
 * * *
 

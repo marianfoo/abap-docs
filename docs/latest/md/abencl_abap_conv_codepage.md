@@ -1,4 +1,14 @@
-  
+---
+title: "Methods for Handling Code Pages"
+description: |
+  The methods CONVERT of the interfaces IF_ABAP_CONV_OUT and IF_ABAP_CONV_IN of objects created with the class CL_ABAP_CONV_CODEPAGE make it possible to convert strings to the binary representation of various code pages and vice versa. Example Conversion of the content of a string into its UT
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_conv_codepage.htm"
+abapFile: "abencl_abap_conv_codepage.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "conv", "codepage"]
+---
 
 * * *
 

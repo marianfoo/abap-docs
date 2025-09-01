@@ -1,4 +1,14 @@
-  
+---
+title: "ALIASES"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases_shortref.htm) Syntax ALIASES alias FOR intf~comp. Effect In the declaration part of a class or interface, this statement declares an alias name alias for a component comp of the interface intf. The naming conve
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm"
+abapFile: "abapaliases.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abapaliases"]
+---
 
 * * *
 

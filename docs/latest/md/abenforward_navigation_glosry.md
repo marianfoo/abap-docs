@@ -1,4 +1,14 @@
-  
+---
+title: "forward_navigation_glosry"
+description: |
+  forward_navigation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenforward_navigation_glosry.htm"
+abapFile: "abenforward_navigation_glosry.htm"
+keywords: ["select", "do", "if", "try", "method", "abenforward", "navigation", "glosry"]
+---
 
 * * *
 

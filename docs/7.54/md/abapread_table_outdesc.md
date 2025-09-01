@@ -1,4 +1,14 @@
-  
+---
+title: "READ TABLE - result"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table_itab_shortref.htm) Syntax ...  INTO wa transport_options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table_transport_options.htm)    ASSIGNING <fs> CASTING
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table_outdesc.htm"
+abapFile: "abapread_table_outdesc.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abapread", "table", "outdesc"]
+---
 
 * * *
 

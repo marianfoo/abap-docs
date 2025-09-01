@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_virtual_sort_simple. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, col1 TYPE i, col2 TYPE i, col3 TYPE string, col4 TYPE string, END OF line, itab TYPE STANDARD TABLE OF line WITH EMPTY KEY. FINAL(rnd
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvirtual_sort_simple_abexa.htm"
+abapFile: "abenvirtual_sort_simple_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "simple", "abexa"]
+---
 
 * * *
 

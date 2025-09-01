@@ -1,4 +1,14 @@
-  
+---
+title: "validity_interval_glosry"
+description: |
+  validity_interval_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalidity_interval_glosry.htm"
+abapFile: "abenvalidity_interval_glosry.htm"
+keywords: ["do", "try", "abenvalidity", "interval", "glosry"]
+---
 
 * * *
 

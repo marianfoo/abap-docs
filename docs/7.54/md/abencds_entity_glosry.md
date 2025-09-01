@@ -1,4 +1,14 @@
-  
+---
+title: "CDS entity"
+description: |
+  CDS object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') managed by ABAP Dictionary(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm"
+abapFile: "abencds_entity_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "entity", "glosry"]
+---
 
 * * *
 

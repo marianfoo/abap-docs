@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - Responses"
+description: |
+  This example demonstrates the response parameters that follow the ABAP words FAILED, MAPPED and REPORTED in a managed RAP BO. The scenario provokes errors while trying to modify RAP BO instances(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_instance_glosry.htm 'Glossary Ent
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_responses_abexa.htm"
+abapFile: "abeneml_responses_abexa.htm"
+keywords: ["select", "update", "delete", "do", "while", "if", "try", "method", "class", "data", "abeneml", "responses", "abexa"]
+---
 
 * * *
 

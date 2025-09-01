@@ -1,4 +1,14 @@
-  
+---
+title: "alias_glosry"
+description: |
+  alias_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalias_glosry.htm"
+abapFile: "abenalias_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "internal-table", "abenalias", "glosry"]
+---
 
 * * *
 

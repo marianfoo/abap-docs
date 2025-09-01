@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Table, Grouping with FOR Using Column Values"
+description: |
+  This example demonstrates the construction of the group key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengroup_key_glosry.htm 'Glossary Entry') using simple value assignments. Source Code REPORT demo_for_groups_by_values. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS:
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_group_by_values_abexa.htm"
+abapFile: "abenfor_group_by_values_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "values", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Control Framework"
+description: |
+  CFW for short. Class hierarchy whose classes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_glosry.htm 'Glossary Entry') begin with the prefix CL_GUI_. The common superclass(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensuperclass_glosry.htm 'Gl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_framework_glosry.htm"
+abapFile: "abencontrol_framework_glosry.htm"
+keywords: ["do", "if", "try", "class", "abencontrol", "framework", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP programming language"
+description: |
+  → ABAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_glosry.htm 'Glossary Entry')
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_programming_langu_glosry.htm"
+abapFile: "abenabap_programming_langu_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "programming", "langu", "glosry"]
+---
 
 * * *
 

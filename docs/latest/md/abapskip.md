@@ -1,4 +1,14 @@
-  
+---
+title: "SKIP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapskip_shortref.htm) Syntax SKIP  n  TO LINE line . Variants: 1. SKIP n.(#!ABAP_VARIANT_1@1@) 2. SKIP TO LINE line.(#!ABAP_VARIANT_2@2@) Effect Positions the list cursor(https:/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapskip.htm"
+abapFile: "abapskip.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abapskip"]
+---
 
 * * *
 

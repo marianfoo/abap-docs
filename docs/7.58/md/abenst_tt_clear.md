@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:clear ref='node'var='variable' /> Effect The statement tt:clear can be used to initialize a data root(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_root.htm), a variable(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_variable.htm), or a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_clear.htm"
+abapFile: "abenst_tt_clear.htm"
+keywords: ["do", "if", "data", "abenst", "clear"]
+---
 
 * * *
 

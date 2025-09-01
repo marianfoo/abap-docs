@@ -1,4 +1,14 @@
-  
+---
+title: "selection_screen_glosry"
+description: |
+  selection_screen_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_screen_glosry.htm"
+abapFile: "abenselection_screen_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenselection", "screen", "glosry"]
+---
 
 * * *
 

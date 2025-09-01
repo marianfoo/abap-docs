@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Data Nodes in Conditions"
+description: |
+  For addressing data nodes in logical expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_cond.htm), a special rule applies. Data nodes as dnode operands of preconditions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_using.htm), assertio
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_addressing_nodes_in_cond.htm"
+abapFile: "abenst_addressing_nodes_in_cond.htm"
+keywords: ["do", "if", "data", "abenst", "addressing", "nodes", "cond"]
+---
 
 * * *
 

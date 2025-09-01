@@ -1,4 +1,14 @@
-  
+---
+title: "Global Parameters"
+description: |
+  The formal parameters of the interface(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction.htm) of a function module can be made known globally by choosing Edit → Interface → Globalize Parameters in the Function Builder. Then the field Global is selected in the properties of th
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenglobal_parameters_obsolete.htm"
+abapFile: "abenglobal_parameters_obsolete.htm"
+keywords: ["select", "do", "if", "case", "data", "field-symbol", "abenglobal", "parameters", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Glossary"
+description: |
+  RAP stands for the ABAP RESTful Application Programming Model(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarap_glosry.htm 'Glossary Entry'). In the following, terms of the ABAP Glossary(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_glossary.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_glossary.htm"
+abapFile: "abenrap_glossary.htm"
+keywords: ["select", "insert", "update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenrap", "glossary"]
+---
 
 * * *
 

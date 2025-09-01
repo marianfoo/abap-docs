@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  EXPORT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster.htm) parameter_list(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster_param.htm) TO MEMORY(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_clus
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_import_mem_id_obsolete.htm"
+abapFile: "abapexport_import_mem_id_obsolete.htm"
+keywords: ["do", "if", "try", "class", "data", "abapexport", "import", "mem", "obsolete"]
+---
 
 * * *
 

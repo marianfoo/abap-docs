@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Data Objects with Implicit Type"
+description: |
+  This example demonstrates how data objects are created with an implicit type. Source Code  Public class definition CLASS cl_demo_create_data_implicit DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class impleme
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_data_implicit_abexa.htm"
+abapFile: "abencreate_data_implicit_abexa.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencreate", "implicit", "abexa"]
+---
 
 * * *
 

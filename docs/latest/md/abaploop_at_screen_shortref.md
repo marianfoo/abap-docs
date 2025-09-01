@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT SCREEN - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_screen.htm) Syntax LOOP AT SCREEN INTO wa. ... ENDLOOP. Effect Reads the properties of the screen elements of the current dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_screen_shortref.htm"
+abapFile: "abaploop_at_screen_shortref.htm"
+keywords: ["loop", "do", "if", "try", "abaploop", "screen", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %other is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used as a component of the reported RAP response parameter(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_other.htm"
+abapFile: "abapderived_types_other.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "abapderived", "other"]
+---
 
 * * *
 

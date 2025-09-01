@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Areas"
+description: |
+  An area is a repository object for storing shared objects. It is the template for area instance versions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarea_instance_version_glosry.htm 'Glossary Entry') in the shared memory. An identically named area class(https://help.sap.com/do
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_areas.htm"
+abapFile: "abenshm_areas.htm"
+keywords: ["do", "try", "class", "data", "abenshm", "areas"]
+---
 
 * * *
 

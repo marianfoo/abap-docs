@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Statement for Editing Text Elements"
+description: |
+  This statement is for internal use only. It must not be used in application programs. -   DELETE TEXTPOOL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_textpool.htm) DELETE TEXTPOOL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_textpool.h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_text_internal.htm"
+abapFile: "abengeneric_text_internal.htm"
+keywords: ["delete", "do", "if", "abengeneric", "text", "internal"]
+---
 
 * * *
 

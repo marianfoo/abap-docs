@@ -1,4 +1,14 @@
-  
+---
+title: "FOR - cond"
+description: |
+  Syntax ... USING KEY keyname(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkeyname.htm) FROM idx1 TO idx2 WHERE ( log_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp.htm) )(cond_syntax) ... Effect As with LOOP AT it
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_cond.htm"
+abapFile: "abenfor_cond.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "abenfor", "cond"]
+---
 
 * * *
 

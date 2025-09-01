@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  ... nmaxnmin( val1 = arg1 val2 = arg2 val3 = arg3 ... val9 = arg9 ) ... Effect These functions return the value of the greatest or the least of the arguments passed. A minimum of two arguments, arg1 and arg2, and a maximum of nine arguments must be passed. Here, the optional input
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennmax_nmin_functions.htm"
+abapFile: "abennmax_nmin_functions.htm"
+keywords: ["do", "if", "try", "data", "abennmax", "nmin", "functions"]
+---
 
 * * *
 

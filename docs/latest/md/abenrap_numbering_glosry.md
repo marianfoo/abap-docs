@@ -1,4 +1,14 @@
-  
+---
+title: "RAP numbering"
+description: |
+  A concept that deals with setting values for primary key fields of RAP BO entity instances(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry'). The following numbering concepts are available: -   early numbering(https://help.sap.com
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_numbering_glosry.htm"
+abapFile: "abenrap_numbering_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "numbering", "glosry"]
+---
 
 * * *
 

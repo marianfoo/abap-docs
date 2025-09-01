@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_hrrchy_ancestors_agg DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS fill_table. ENDCLASS.  Public class implementation CLASS cl_demo_hrrchy_ancestors_agg IMPLE
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhier_ancs_agg_abexa.htm"
+abapFile: "abenhier_ancs_agg_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenhier", "ancs", "agg", "abexa"]
+---
 
 * * *
 

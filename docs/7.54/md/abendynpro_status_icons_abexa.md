@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Status Icons"
+description: |
+  This example illustrates how status icons are used on dynpros. Source Code REPORT demo_dynpro_status_icons. DATA value TYPE i VALUE 1. DATA: status_icon TYPE icons-text, icon_name(20) TYPE c, icon_text(10) TYPE c. CALL SCREEN 100. MODULE set_icon OUTPUT. SET PF-STATUS 'SCREEN_100'. CASE valu
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_status_icons_abexa.htm"
+abapFile: "abendynpro_status_icons_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "status", "icons", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... concat_lines_of( table = itab sep = sep ) ... Effect This built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) concatenates all line content of an internal table itab and returns the result as a character string. itab e
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconcatenation_functions.htm"
+abapFile: "abenconcatenation_functions.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "internal-table", "abenconcatenation", "functions"]
+---
 
 * * *
 

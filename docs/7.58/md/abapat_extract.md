@@ -1,4 +1,14 @@
-  
+---
+title: "AT, Extract"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_shortref.htm) Obsolete Syntax LOOP. AT FIRST. ... ENDAT. AT field_groupi WITH field_groupj ... ENDAT. AT NEW field1. ... ENDAT. AT NEW field2. ... ENDAT. ...  ...
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_extract.htm"
+abapFile: "abapat_extract.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "data", "internal-table", "field-symbol", "abapat", "extract"]
+---
 
 * * *
 

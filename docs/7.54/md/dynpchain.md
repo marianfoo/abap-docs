@@ -1,4 +1,14 @@
-  
+---
+title: "CHAIN"
+description: |
+  Syntax CHAIN. ... ENDCHAIN. Effect The statements CHAIN and ENDCHAIN in the dynpro flow logic(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry') define processing chains. The statements FIELD(https://help.sap.com/doc/abapdocu_754_index_h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpchain.htm"
+abapFile: "dynpchain.htm"
+keywords: ["do", "if", "try", "dynpchain"]
+---
 
 * * *
 

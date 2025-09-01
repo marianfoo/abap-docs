@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Components in Classes and Interfaces"
+description: |
+  The components of classes and interfaces are declared in the declaration part of classes and interfaces. The components of a class are as follows: -   Data types and attributes(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentypes_attributes.htm) -   Methods(https://help.sap.com/d
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_ifac_components.htm"
+abapFile: "abenclass_ifac_components.htm"
+keywords: ["do", "method", "class", "data", "types", "abenclass", "ifac", "components"]
+---
 
 * * *
 

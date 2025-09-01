@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Parameter Passing in RFC"
+description: |
+  This example demonstrates parameter passing in two RFC variants. Source Code  Public class definition CLASS cl_demo_rfc_params_srfc_arfc DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS callback IMPORTING !p_task TYPE clike . METHODS main REDEFINIT
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_parameters_abexa.htm"
+abapFile: "abenrfc_parameters_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenrfc", "parameters", "abexa"]
+---
 
 * * *
 

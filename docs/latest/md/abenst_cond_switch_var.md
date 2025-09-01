@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Flow Control with Variables"
+description: |
+  In addition to general conditional transformations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_cond.htm) and case distinctions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_switch.htm), there are special conditional transformations and ca
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_cond_switch_var.htm"
+abapFile: "abenst_cond_switch_var.htm"
+keywords: ["do", "if", "case", "data", "abenst", "cond", "switch", "var"]
+---
 
 * * *
 

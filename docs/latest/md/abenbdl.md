@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - BDL for Behavior Definitions"
+description: |
+  RAP behavior definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') are created using the behavior definition language RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm 'Glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm"
+abapFile: "abenbdl.htm"
+keywords: ["do", "if", "case", "try", "types", "abenbdl"]
+---
 
 * * *
 

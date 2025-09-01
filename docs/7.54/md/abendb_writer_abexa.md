@@ -1,4 +1,14 @@
-  
+---
+title: "Writer Stream, Fill Database Table"
+description: |
+  The example demonstrates how data can be written to a database table using a writer stream(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriter_stream_glosry.htm 'Glossary Entry'). Source Code REPORT demo_db_writer. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS:  class_c
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_writer_abexa.htm"
+abapFile: "abendb_writer_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abendb", "writer", "abexa"]
+---
 
 * * *
 

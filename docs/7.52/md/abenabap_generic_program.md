@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Source Code"
+description: |
+  The statements -   GENERATE SUBROUTINE POOL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subroutine_pool.htm), -   READ REPORT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_report.htm), -   SYNTAX-CHECK(https://help.sap.com/doc/abapdocu_752_inde
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm"
+abapFile: "abenabap_generic_program.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "abenabap", "generic", "program"]
+---
 
 * * *
 

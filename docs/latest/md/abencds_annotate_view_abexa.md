@@ -1,4 +1,14 @@
-  
+---
+title: "CDS Metadata Extensions with CDS Variants"
+description: |
+  This documentation is only available internally at SAP.
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotate_view_abexa.htm"
+abapFile: "abencds_annotate_view_abexa.htm"
+keywords: ["do", "if", "data", "abencds", "annotate", "view", "abexa"]
+---
 
 * * *
 

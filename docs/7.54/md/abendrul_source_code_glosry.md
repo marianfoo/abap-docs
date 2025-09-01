@@ -1,4 +1,14 @@
-  
+---
+title: "DRUL source code"
+description: |
+  Source code for dependency rules(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendependency_rule_glosry.htm 'Glossary Entry') in Dictionary DDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry').
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendrul_source_code_glosry.htm"
+abapFile: "abendrul_source_code_glosry.htm"
+keywords: ["do", "try", "abendrul", "source", "code", "glosry"]
+---
 
 * * *
 

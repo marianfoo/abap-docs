@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... itab itab_line(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_exp_itab_line.htm) -comp ... ->comp(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_exp_chaining.htm) ... Effect A table expression consists of an internal table
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm"
+abapFile: "abentable_expressions.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abentable", "expressions"]
+---
 
 * * *
 

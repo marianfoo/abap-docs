@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  meth oref->meth super->meth class=>meth(     a    p1 = a1 p2 = a2 ...    EXPORTING p1 = a1 p2 = a2 ... IMPORTING p1 = a1 p2 = a2 ... CHANGING   p1 = a1 p2 = a2 ... RECEIVING r  = a  EXCEPTIONS exc1 = n1 exc2 = n2 ..
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmeth_call_shortref.htm"
+abapFile: "abenmeth_call_shortref.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "abenmeth", "call", "shortref"]
+---
 
 * * *
 

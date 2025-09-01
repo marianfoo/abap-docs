@@ -1,4 +1,14 @@
-  
+---
+title: "CDS custom entity extension"
+description: |
+  Transportable extension of a CDS custom entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_custom_entity_glosry.htm 'Glossary Entry'). A CDS custom entity extension can be used to add elements and/or clauses to a custom entity without making any modifications to the original
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cus_entity_extend_glosry.htm"
+abapFile: "abencds_cus_entity_extend_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "cus", "entity", "extend", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ADF - Creating and Using an ABAP Daemon"
+description: |
+  This example demonstrates an ABAP Daemon(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_glosry.htm 'Glossary Entry'). Source Code REPORT demo_abap_daemon. CLASS amc_receiver DEFINITION. PUBLIC SECTION. INTERFACES if_amc_message_receiver_text. DATA msg TYPE string
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_abexa.htm"
+abapFile: "abenabap_daemon_abexa.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "abenabap", "daemon", "abexa"]
+---
 
 * * *
 

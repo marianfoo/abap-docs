@@ -1,4 +1,14 @@
-  
+---
+title: "Division by Zero"
+description: |
+  Background Division by zero is forbidden in all recognized programming languages and raises an exception. This is also the case in ABAP, but with the difference that the exception cx_sy_zerodivide is not raised if the dividend is also zero when divided by zero. In this case, the division in ABAP p
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendivision_zero_guidl.htm"
+abapFile: "abendivision_zero_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abendivision", "zero", "guidl"]
+---
 
 * * *
 

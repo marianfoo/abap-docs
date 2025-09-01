@@ -1,4 +1,14 @@
-  
+---
+title: "CDS view entity"
+description: |
+  CDS view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_glosry.htm 'Glossary Entry') consisting solely of its CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry'). A CDS view entity is defined with the CDS DDL
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm"
+abapFile: "abencds_v2_view_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "view", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Bit function"
+description: |
+  This example demonstrates how bit-set works. Source Code REPORT demo_bit_set. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(number) = 1. cl_demo_input=>request( CHANGING field = number ). IF abs( number ) <= 200. cl_demo_outpu
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbit_func_abexa.htm"
+abapFile: "abenbit_func_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenbit", "func", "abexa"]
+---
 
 * * *
 

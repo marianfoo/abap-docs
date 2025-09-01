@@ -1,4 +1,14 @@
-  
+---
+title: "short_dump_glosry"
+description: |
+  short_dump_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshort_dump_glosry.htm"
+abapFile: "abenshort_dump_glosry.htm"
+keywords: ["do", "if", "try", "abenshort", "dump", "glosry"]
+---
 
 * * *
 

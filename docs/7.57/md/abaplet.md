@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... LET var1 = rhs1<fs1> = wrexpr1 var2 = rhs2<fs2> = wrexpr2 ... IN ... Alternatives: 1. ... var = rhs ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... <fs> = wrexp ...(#!ABAP_ALTERNATIVE_2@2@) Effect A LET expression defines variables var1, var2, ... or field symbols <fs1>,
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm"
+abapFile: "abaplet.htm"
+keywords: ["do", "while", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abaplet"]
+---
 
 * * *
 

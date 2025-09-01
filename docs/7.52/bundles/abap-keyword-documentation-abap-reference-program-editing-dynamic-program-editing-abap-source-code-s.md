@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abapsyntax-check_for_itab.htm
 
-  
+---
+title: "SYNTAX-CHECK"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_shortref.htm) Syntax SYNTAX-CHECK FOR itab MESSAGE mess LINE lin WORD wrd PROGRAM prog DIRECTORY ENTRY dir WITH CURRENT SWITCHSTATES error_handling(https://help.sap.com/doc/ab
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm"
+abapFile: "abapsyntax-check_for_itab.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapsyntax", "check", "for", "itab"]
+---
 
 * * *
 
@@ -152,7 +162,17 @@ Continue
 
 ### abapsyntax-check_error_handling.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... INCLUDE incl OFFSET off MESSAGE-ID mid ... Extras: 1. ... INCLUDE incl(#!ABAP_ADDITION_1@1@) 2. ... OFFSET off(#!ABAP_ADDITION_2@2@) 3. ... MESSAGE-ID mid(#!ABAP_ADDITION_3@3@) Effect These additions can be used for analyzing the syntax errors identified using th
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm"
+abapFile: "abapsyntax-check_error_handling.htm"
+keywords: ["do", "while", "if", "try", "data", "abapsyntax", "check", "error", "handling"]
+---
 
 * * *
 
@@ -211,7 +231,17 @@ The data object mid must have the data type TRMSG\_KEY from ABAP Dictionary, con
 
 ### abapsyntax-check_internal.htm
 
-  
+---
+title: "SYNTAX-CHECK - Internal Additions"
+description: |
+  Internal Additions These additions are for internal use only. Do not use them in application programs. Extras: 1. ... SHORTDUMP-ID sid(#!ABAP_ADDITION_1@1@) 2. ... TRACE-TABLE trt(#!ABAP_ADDITION_2@2@) 3. ... REPLACING incl(#!ABAP_ADDITION_3@3@) 4. ... FRAME ENTRY dir(#!ABAP_ADDITION_4@4
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm"
+abapFile: "abapsyntax-check_internal.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abapsyntax", "check", "internal"]
+---
 
 * * *
 

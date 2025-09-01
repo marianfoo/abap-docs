@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  DELETE  TABLE mesh_path(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm) table_key(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_itab_key.htm)    mesh_path(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_delete.htm"
+abapFile: "abenmesh_delete.htm"
+keywords: ["delete", "do", "if", "data", "types", "internal-table", "abenmesh"]
+---
 
 * * *
 

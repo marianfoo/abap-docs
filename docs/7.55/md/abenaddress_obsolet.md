@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration and Loading"
+description: |
+  -   TYPE-POOLS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptype-pools.htm) -   CLASS, INTERFACE - LOAD(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_interface_load.htm) -   FIELDS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfields.ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaddress_obsolet.htm"
+abapFile: "abenaddress_obsolet.htm"
+keywords: ["do", "class", "abenaddress", "obsolet"]
+---
 
 * * *
 

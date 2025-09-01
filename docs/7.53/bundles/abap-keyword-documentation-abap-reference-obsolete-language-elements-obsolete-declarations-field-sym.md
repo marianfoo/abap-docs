@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenfield_symbols_obsolete.htm
 
-  
+---
+title: "Field Symbols"
+description: |
+  -   Obsolete Typing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-symbols_obsolete_typing.htm) FIELD-SYMBOLS - obsolete_typing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-symbols_obsolete_typing.htm) !Example(exa.gif 'Example') Field Symbols, C
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield_symbols_obsolete.htm"
+abapFile: "abenfield_symbols_obsolete.htm"
+keywords: ["do", "if", "field-symbol", "abenfield", "symbols", "obsolete"]
+---
 
 * * *
 
@@ -24,7 +34,17 @@ Continue
 
 ### abapfield-symbols_obsolete_typing.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ...    STRUCTURE struc DEFAULT dobj ... Extras: 1. ...  (#!ABAP_ADDITION_1@1@) 2. ... STRUCTURE struc DEFAULT dobj(#!ABAP_ADDITION_2@2@) Effect These additions of the statement FIELD-SYMBOLS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-symbols.htm) prod
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-symbols_obsolete_typing.htm"
+abapFile: "abapfield-symbols_obsolete_typing.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "types", "field-symbol", "abapfield", "symbols", "obsolete", "typing"]
+---
 
 * * *
 
@@ -100,7 +120,17 @@ Executable Example
 
 ### abenfield_symbols_struc_abexa.htm
 
-  
+---
+title: "Field Symbols, Cast Structures"
+description: |
+  This example demonstrates how field symbols are cast. Source Code REPORT demo_field_symbols_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: wa(10) TYPE c VALUE '0123456789'. DATA: BEGIN OF line1, col1(3) TYPE c, col2(2)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield_symbols_struc_abexa.htm"
+abapFile: "abenfield_symbols_struc_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "field-symbol", "abenfield", "symbols", "struc", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenabap_and_hana_abexas.htm
 
-  
+---
+title: "ABAP and SAP HANA, Examples"
+description: |
+  -   SAP HANA, ABAP-Specific Session Variables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables_abexa.htm) -   SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_cached_views_abexa.htm) -   SAP HANA, from ADBC
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_and_hana_abexas.htm"
+abapFile: "abenabap_and_hana_abexas.htm"
+keywords: ["do", "if", "data", "abenabap", "and", "hana", "abexas"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abenhana_session_variables_abexa.htm
 
-  
+---
+title: "SAP HANA, ABAP-Specific Session Variables"
+description: |
+  This example demonstrates potential Native SQL reads on session variables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables.htm) on the SAP HANA database. Source Code  Public class definition CLASS cl_demo_hana_abap_variables DEFINITION INHERITING FRO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables_abexa.htm"
+abapFile: "abenhana_session_variables_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "session", "variables", "abexa"]
+---
 
 * * *
 
@@ -177,7 +197,17 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
 
 ### abenhana_cached_views_abexa.htm
 
-  
+---
+title: "SAP HANA, Cached Views"
+description: |
+  This example demonstrates ABAP SQL access to a cached view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_cached_views.htm) on the SAP HANA database. Source Code  Public class definition CLASS cl_demo_select_cached_view DEFINITION INHERITING FROM cl_demo_classrun
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_cached_views_abexa.htm"
+abapFile: "abenhana_cached_views_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "cached", "views", "abexa"]
+---
 
 * * *
 
@@ -276,7 +306,17 @@ The addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_latest_index_ht
 
 ### abenfrom_adbc_to_amdp_abexa.htm
 
-  
+---
+title: "SAP HANA, from ADBC to AMDP"
+description: |
+  This example demonstrates how a task can be performed using HANA-specific language elements. Source Code  Public class definition CLASS cl_demo_adbc_to_amdp DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrom_adbc_to_amdp_abexa.htm"
+abapFile: "abenfrom_adbc_to_amdp_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenfrom", "adbc", "amdp", "abexa"]
+---
 
 * * *
 
@@ -509,7 +549,17 @@ ENDMETHOD.
 
 ### abencall_hana_db_proc_abexa.htm
 
-  
+---
+title: "SAP HANA, Call Database Procedure"
+description: |
+  This example demonstrates how a database procedure in the SAP HANA database can be called. Source Code  Public class definition CLASS cl_demo_call_hana_db_proc DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public cl
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_hana_db_proc_abexa.htm"
+abapFile: "abencall_hana_db_proc_abexa.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "hana", "proc", "abexa"]
+---
 
 * * *
 
@@ -693,7 +743,17 @@ ENDMETHOD.
 
 ### abensql_script_curr_conv_abexa.htm
 
-  
+---
+title: "SAP HANA, Currency Conversion with SQLScript"
+description: |
+  This example demonstrates how a built-in HANA SQL function is called in SQLScript. Source Code  Public class definition CLASS cl_demo_sqlscript_curr_cnvrsn DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS se
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_curr_conv_abexa.htm"
+abapFile: "abensql_script_curr_conv_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abensql", "script", "curr", "conv", "abexa"]
+---
 
 * * *
 

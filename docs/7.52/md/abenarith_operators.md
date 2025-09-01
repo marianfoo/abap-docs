@@ -1,4 +1,14 @@
-  
+---
+title: "Operator"
+description: |
+  Calculation Priority Order + Adds the operands 1 From left to right - Subtracts the right operand from the left 1 From left to right  Multiplies the operands 2 From left to right / Divides the left operand by the right 2 From left to right DIV Integer part of the division of the left operand by t
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarith_operators.htm"
+abapFile: "abenarith_operators.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenarith", "operators"]
+---
 
 * * *
 

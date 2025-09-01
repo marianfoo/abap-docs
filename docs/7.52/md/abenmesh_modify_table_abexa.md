@@ -1,4 +1,14 @@
-  
+---
+title: "Changing Single Rows in Mesh Paths"
+description: |
+  This example demonstrates how single rows are changed in mesh paths. Source Code REPORT demo_mesh_modify_table_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, t_itab1 TYPE SO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_modify_table_abexa.htm"
+abapFile: "abenmesh_modify_table_abexa.htm"
+keywords: ["select", "insert", "do", "while", "if", "method", "class", "data", "types", "abenmesh", "modify", "table", "abexa"]
+---
 
 * * *
 

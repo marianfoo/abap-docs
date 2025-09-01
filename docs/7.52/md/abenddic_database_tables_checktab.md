@@ -1,4 +1,14 @@
-  
+---
+title: "Check Table"
+description: |
+  Table fields of a database table whose data type is determined using a data element(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_element_glosry.htm 'Glossary Entry') can be assigned a check table. Here, the value table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/e
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_checktab.htm"
+abapFile: "abenddic_database_tables_checktab.htm"
+keywords: ["insert", "delete", "do", "if", "try", "class", "data", "abenddic", "database", "tables", "checktab"]
+---
 
 * * *
 

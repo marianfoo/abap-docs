@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Object Components in JSON-XML"
+description: |
+  This example demonstrates the two alternatives for object components in JSON-XML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_xml.htm). Source Code  Public class definition CLASS cl_demo_json_xml_object_mmbrs DEFINITION INHERITING FROM cl_demo_classrun PUB
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_xml_abexa.htm"
+abapFile: "abenabap_json_xml_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenabap", "json", "xml", "abexa"]
+---
 
 * * *
 

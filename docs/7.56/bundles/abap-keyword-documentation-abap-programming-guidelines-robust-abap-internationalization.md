@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abeninternationalization_gdl.htm
 
-  
+---
+title: "Internationalization"
+description: |
+  Business software used by internationally operating enterprises has to meet certain localization requirements, for example by providing different logon languages or by meeting different legal requirements. In the SAP environment, the language aspect is known as internationalization and is part of th
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternationalization_gdl.htm"
+abapFile: "abeninternationalization_gdl.htm"
+keywords: ["do", "if", "abeninternationalization", "gdl"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abensystem_text_guidl.htm
 
-  
+---
+title: "Storing System Texts"
+description: |
+  Background In ABAP programs, texts are used as parts of processed data but also as a means to communicate with the user. The latter are called system texts, which are delivered with an ABAP application. The ABAP Workbench manages system texts in such a way that they can be translated from the origi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_text_guidl.htm"
+abapFile: "abensystem_text_guidl.htm"
+keywords: ["do", "if", "try", "class", "data", "abensystem", "text", "guidl"]
+---
 
 * * *
 
@@ -85,7 +105,17 @@ APPEND html\_line TO html\_body.
 
 ### abentrans_relevant_text_guidl.htm
 
-  
+---
+title: "Translation-Friendly Message Texts"
+description: |
+  Background Message texts are translatable system texts(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_text_guidl.htm 'Guideline'). You can use placeholders in the short and long texts of messages. Placeholders in short texts can either be defined uniquely in the form &i, whe
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrans_relevant_text_guidl.htm"
+abapFile: "abentrans_relevant_text_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abentrans", "relevant", "text", "guidl"]
+---
 
 * * *
 
@@ -152,7 +182,17 @@ a MESSAGE statement when logged on in English would produce a correct text.
 
 ### abentext_environm_guidl.htm
 
-  
+---
+title: "Text Environment"
+description: |
+  Background The text environment(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_environment_glosry.htm 'Glossary Entry') is part of the runtime framework of an ABAP program and is made up of a text environment language, a locale, and a system code page. All programs in an inte
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_environm_guidl.htm"
+abapFile: "abentext_environm_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abentext", "environm", "guidl"]
+---
 
 * * *
 
@@ -211,7 +251,17 @@ ENDMETHOD.
 
 ### abencharacter_set_guidl.htm
 
-  
+---
+title: "Character Set of ABAP Source Code"
+description: |
+  Background ABAP source code(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') is edited in the ABAP Editor tool in ABAP Workbench, itself an ABAP program. ABAP Editor saves and processes the ABAP source code internally in a data object (an
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_set_guidl.htm"
+abapFile: "abencharacter_set_guidl.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abencharacter", "set", "guidl"]
+---
 
 * * *
 
@@ -250,7 +300,17 @@ In a current system, all [ABAP source code](https://help.sap.com/doc/abapdocu_75
 
 ### abensplit_text_guidl.htm
 
-  
+---
+title: "Splitting Texts"
+description: |
+  Background Usually the characters in a character string are encoded based on a code page using a fixed number of bytes. This means that it is always known in the memory where a character begins and ends. However, in some code pages, a character can be formed from a combination of multiple separately
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensplit_text_guidl.htm"
+abapFile: "abensplit_text_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "abensplit", "text", "guidl"]
+---
 
 * * *
 
@@ -283,7 +343,17 @@ If texts containing combined characters or surrogates are split, this can produc
 
 ### abencodepage_file_guidl.htm
 
-  
+---
+title: "Code Pages for Files"
+description: |
+  Background When you open text files on the host computer(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance using the OPEN DATASET statement, you specify the following options that are very important for internationa
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencodepage_file_guidl.htm"
+abapFile: "abencodepage_file_guidl.htm"
+keywords: ["select", "insert", "do", "if", "try", "data", "abencodepage", "file", "guidl"]
+---
 
 * * *
 

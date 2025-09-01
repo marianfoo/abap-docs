@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax Forms"
+description: |
+  Versions of the standard selection screen(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_ldb_version.htm) 1. SELECTION-SCREEN BEGIN OF VERSION vers text. ... SELECTION-SCREEN EXCLUDE PARAMETERS para  SELECT-OPTIONS selcrit  RADIOBUTTON GROUPS
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_ldb.htm"
+abapFile: "abapselection-screen_ldb.htm"
+keywords: ["select", "do", "if", "data", "abapselection", "screen", "ldb"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Macros"
+description: |
+  Macros enable source code modularization(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_modularizat_glosry.htm 'Glossary Entry') within an ABAP program. They have the following properties: -   Defined between the statements DEFINE(https://help.sap.com/doc/abapdoc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_macros.htm"
+abapFile: "abenabap_macros.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "abenabap", "macros"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   A list of all transportable released APIs can be found in topic Released APIs(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreleased_apis.htm). -   You can configure your ADT to display a folder with C0 released APIs as follows: -   Right-click the respective project and click
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules.htm"
+abapFile: "abenc0_contract_rules.htm"
+keywords: ["insert", "do", "if", "try", "abenc0", "contract", "rules"]
+---
 
 * * *
 

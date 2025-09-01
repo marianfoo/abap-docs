@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Friends, Friendship Between Classes"
+description: |
+  There is normally a strict separation between external (PUBLIC) and internal (PROTECTED and PRIVATE) classes. A user can only access the public components of a class. This allows the internal implementation of a class to be changed without invalidating its users. In rare cases, however, classes must
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfriends.htm"
+abapFile: "abenfriends.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "abenfriends"]
+---
 
 * * *
 

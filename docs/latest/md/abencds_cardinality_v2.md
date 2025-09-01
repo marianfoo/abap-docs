@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, cardinality"
+description: |
+  Syntax Forms Cardinality Syntax Written in Words OF EXACT ONE  MANY  ONE TO EXACT ONE  MANY  ONE Numeric Syntax min..max Alternatives: 1. OF EXACT ONE  MANY  ONE TO EXACT ONE  MANY  ONE(#!ABAP_ALTERNATIVE_1@1@) 2. ... min..max
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cardinality_v2.htm"
+abapFile: "abencds_cardinality_v2.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "class", "data", "abencds", "cardinality"]
+---
 
 * * *
 

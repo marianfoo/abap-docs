@@ -1,4 +1,14 @@
-  
+---
+title: "trafo_source_code_glosry"
+description: |
+  trafo_source_code_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrafo_source_code_glosry.htm"
+abapFile: "abentrafo_source_code_glosry.htm"
+keywords: ["do", "try", "abentrafo", "source", "code", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... mesh-<mesh>-mesh_ref->rnode _associ ...(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_assoc.htm) (https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_assoc.htm) _assoc1 ... (https://help.sap.com/doc/abapdocu_753_ind
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm"
+abapFile: "abenmesh_path.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenmesh", "path"]
+---
 
 * * *
 

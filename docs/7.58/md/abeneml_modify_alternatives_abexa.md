@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY, Variants"
+description: |
+  This example demonstrates the variants of the ABAP EML MODIFY statement to manipulate a simple managed RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'): -   MODIFY ENTITY bdef -   MODIFY ENTITIES OF bdef -   MODIFY ENTITIES OPERATIONS op_ta
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_alternatives_abexa.htm"
+abapFile: "abeneml_modify_alternatives_abexa.htm"
+keywords: ["select", "update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "internal-table", "abeneml", "modify", "alternatives", "abexa"]
+---
 
 * * *
 

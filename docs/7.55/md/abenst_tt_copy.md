@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:copy ref='node' /> Effect Statement tt:copy is used to serialize in and deserialize from the asXML format(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml.htm). It can be used on all data objects with the exception of reference variables or objects contain
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_copy.htm"
+abapFile: "abenst_tt_copy.htm"
+keywords: ["insert", "loop", "do", "if", "try", "data", "internal-table", "abenst", "copy"]
+---
 
 * * *
 

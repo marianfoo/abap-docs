@@ -1,4 +1,14 @@
-  
+---
+title: "EXCEPT, Examples"
+description: |
+  -   SELECT, Difference of Multiple Tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_except_abexa.htm) -   SELECT, Difference with Aggregate Expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_except_min_abexa.htm) -   SELECT, Di
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexcept_abexas.htm"
+abapFile: "abenexcept_abexas.htm"
+keywords: ["select", "do", "if", "data", "abenexcept", "abexas"]
+---
 
 * * *
 

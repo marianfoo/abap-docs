@@ -1,4 +1,14 @@
-  
+---
+title: "Single Record Operations"
+description: |
+  When individual lines are inserted where the insert position is determined using a table key, that is, in the case of -   the operations INSERT ... INTO TABLE ...(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_itab_position.htm) or -   in lazy updates(https://help.sap.com/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_key_secondary_duplicates.htm"
+abapFile: "abenitab_key_secondary_duplicates.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "key", "secondary", "duplicates"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ itab - Duplicate Non-Unique Keys
 
 Non-unique table keys can produce duplicate lines with respect to these keys. This section describes the order of these duplicates when inserting into tables with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables.
 
--   [Single Record Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_1)
-
--   [Block Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
+-   [Single Record Operations](#abenitab-key-secondary-duplicates-1--------block-operations---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
 
 -   [Special Features](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_3)
 

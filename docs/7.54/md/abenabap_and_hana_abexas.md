@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP and SAP HANA, Examples"
+description: |
+  !Example(exa.gif 'Example') SAP HANA, ABAP-Specific Session Variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm) !Example(exa.gif 'Example') SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm"
+abapFile: "abenabap_and_hana_abexas.htm"
+keywords: ["do", "if", "data", "abenabap", "and", "hana", "abexas"]
+---
 
 * * *
 

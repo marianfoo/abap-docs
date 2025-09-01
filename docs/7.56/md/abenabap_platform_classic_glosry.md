@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP platform classic"
+description: |
+  ABAP platform(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_glosry.htm 'Glossary Entry') variant that is delivered with SAP S/4HANA(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_s4hana_glosry.htm 'Glossary Entry'). Compared to an ABAP platform
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_classic_glosry.htm"
+abapFile: "abenabap_platform_classic_glosry.htm"
+keywords: ["do", "try", "class", "abenabap", "platform", "classic", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Images in HTML"
+description: |
+  The example demonstrates how images are displayed in HTML controls. Source Code REPORT demo_picture_in_html. CLASS picture_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main1, main2. PRIVATE SECTION. TYPES: html     TYPE c LENGTH 255, html_tab TYPE STANDARD TABLE OF html WITH EMPTY KEY. TYPES
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmime_pictures_abexa.htm"
+abapFile: "abenmime_pictures_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmime", "pictures", "abexa"]
+---
 
 * * *
 

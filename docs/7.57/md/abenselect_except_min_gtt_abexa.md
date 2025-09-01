@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Difference with Global Temporary Table"
+description: |
+  This example demonstrates a difference across a table and a global temporary table (GTT). Source Code REPORT demo_select_except_min_gtt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrid TYPE sflight-carrid VALUE 'AA'. cl_de
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_except_min_gtt_abexa.htm"
+abapFile: "abenselect_except_min_gtt_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenselect", "except", "min", "gtt", "abexa"]
+---
 
 * * *
 

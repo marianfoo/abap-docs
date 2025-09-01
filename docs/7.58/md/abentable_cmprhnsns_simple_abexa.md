@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_table_comprh_elmntry DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, col3 TYPE i, col4 TYPE i, END OF line1, itab1 TYPE STANDA
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_cmprhnsns_simple_abexa.htm"
+abapFile: "abentable_cmprhnsns_simple_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "simple", "abexa"]
+---
 
 * * *
 

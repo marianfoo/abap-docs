@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Functions for Numeric Values"
+description: |
+  The following table shows the numeric SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The la
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm"
+abapFile: "abensql_functions_numeric.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abensql", "functions", "numeric"]
+---
 
 * * *
 

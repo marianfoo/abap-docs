@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm) Syntax METHODS meth ABSTRACTFINAL DEFAULT IGNOREFAIL FOR EVENT evt OF classintf  IMPORTING VALUE(p1)REFERENCE(p1)p1 typing(https://help.sap.com/doc/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_shortref.htm"
+abapFile: "abapmethods_shortref.htm"
+keywords: ["do", "try", "method", "class", "types", "abapmethods", "shortref"]
+---
 
 * * *
 

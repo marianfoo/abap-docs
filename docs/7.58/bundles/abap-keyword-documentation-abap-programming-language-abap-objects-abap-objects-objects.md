@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenobject.htm
 
-  
+---
+title: "ABAP Objects - Objects"
+description: |
+  Objects are instances of classes. There can be any number of objects or instances in a class. Each object has a unique identity and its own attributes. By default, all objects have the same priority in the data area(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_area_glosry.ht
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject.htm"
+abapFile: "abenobject.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "internal-table", "field-symbol", "abenobject"]
+---
 
 * * *
 
@@ -56,7 +66,17 @@ Continue
 
 ### abenreferences.htm
 
-  
+---
+title: "ABAP Objects - Object References"
+description: |
+  Object references are used as pointers to objects. The content of object reference variables, that is, the object references, are the only way to access(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_components_addressing.htm) the components of objects in an ABAP program. Ref
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreferences.htm"
+abapFile: "abenreferences.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abenreferences"]
+---
 
 * * *
 
@@ -70,16 +90,11 @@ ABAP Objects - Object References
 
 Object references are used as pointers to objects. The content of object reference variables, that is, the object references, are the only way to [access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_components_addressing.htm) the components of objects in an ABAP program. References can be used to access attributes and methods, but not events.
 
--   [Object Reference Variables](#@@ITOC@@ABENREFERENCES_1)
--   [Static Type of Object Reference Variables](#@@ITOC@@ABENREFERENCES_2)
-    -   [Class Reference Variables](#@@ITOC@@ABENREFERENCES_3)
-    -   [Interface Reference Variables](#@@ITOC@@ABENREFERENCES_4)
-    -   [Special Object Reference Variables](#@@ITOC@@ABENREFERENCES_5)
--   [Initializes Object Reference Variables](#@@ITOC@@ABENREFERENCES_6)
--   [Assigning Object References Using Upcast](#@@ITOC@@ABENREFERENCES_7)
--   [Assigning Object References Using Downcast](#@@ITOC@@ABENREFERENCES_8)
--   [Object References as Actual Parameters](#@@ITOC@@ABENREFERENCES_9)
--   [Assigning Object References to Field Symbols](#@@ITOC@@ABENREFERENCES_10)
+-   [Object Reference Variables](#abenreferences-1-------static-type-of-object-reference-variables---@ITOC@@ABENREFERENCES_2)
+    -   [Class Reference Variables](#abenreferences-3-----------interface-reference-variables---@ITOC@@ABENREFERENCES_4)
+    -   [Special Object Reference Variables](#abenreferences-5-------initializes-object-reference-variables---@ITOC@@ABENREFERENCES_6)
+-   [Assigning Object References Using Upcast](#abenreferences-7-------assigning-object-references-using-downcast---@ITOC@@ABENREFERENCES_8)
+-   [Object References as Actual Parameters](#abenreferences-9-------assigning-object-references-to-field-symbols---@ITOC@@ABENREFERENCES_10)
 
 Object Reference Variables   
 
@@ -176,7 +191,17 @@ To assign object references to typed field symbols, the same applies as to passi
 
 ### abenclass_components_addressing.htm
 
-  
+---
+title: "ABAP Objects - Accessing Class Components"
+description: |
+  When accessing class components, there is a difference between access from inside and outside of the same class. In internal access, that is, within a method of the same class, the name of the component is sufficient. In external access, the object, in the case of instance components, and the class,
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_components_addressing.htm"
+abapFile: "abenclass_components_addressing.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "internal-table", "field-symbol", "abenclass", "components", "addressing"]
+---
 
 * * *
 
@@ -287,7 +312,17 @@ In the case of a dynamic method call, the actual parameter can be passed dynamic
 
 ### abenclass_attributes_as_key.htm
 
-  
+---
+title: "ABAP Objects - Object References in Internal Tables"
+description: |
+  If the line type of an internal table contains object reference variables as components comp, the attributes attr of the object to which each reference of the line points can be used as key values when reading, sorting, and modifying table lines. This is possible in the following statements or expre
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_attributes_as_key.htm"
+abapFile: "abenclass_attributes_as_key.htm"
+keywords: ["delete", "loop", "do", "if", "class", "internal-table", "abenclass", "attributes", "key"]
+---
 
 * * *
 

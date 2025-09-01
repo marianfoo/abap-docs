@@ -1,4 +1,14 @@
-  
+---
+title: "SKIP - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapskip.htm) Syntax SKIP  n  TO LINE line . Effect Positions the list cursor in a line of the current list. Additions -   n Positions the list cursor(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapskip_shortref.htm"
+abapFile: "abapskip_shortref.htm"
+keywords: ["do", "if", "try", "abapskip", "shortref"]
+---
 
 * * *
 

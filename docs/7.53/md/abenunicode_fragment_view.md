@@ -1,4 +1,14 @@
-  
+---
+title: "Structural Fragment View"
+description: |
+  The structure fragment view splits a structure into fragments. A fragment is a grouping of structure components of the same or similar data types. In nested structures, the elementary components on the lowest nesting depth are taken into account when forming fragments in nested structures. The follo
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_fragment_view.htm"
+abapFile: "abenunicode_fragment_view.htm"
+keywords: ["do", "if", "try", "data", "types", "abenunicode", "fragment", "view"]
+---
 
 * * *
 

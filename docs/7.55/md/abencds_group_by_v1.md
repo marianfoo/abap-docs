@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, SELECT, GROUP BY"
+description: |
+  Syntax ... GROUP BY field1, field2, ... path_expr1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_case_expression_v1.htm), path_expr2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_case_expression_v1.htm), ... Effect Groups those rows in the result set o
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm"
+abapFile: "abencds_group_by_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "group"]
+---
 
 * * *
 

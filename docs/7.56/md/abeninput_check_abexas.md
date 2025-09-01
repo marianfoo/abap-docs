@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Automatic Input Checks(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_auto_check_abexa.htm) !Example(exa.gif 'Example') dynpro - Input Checks in Dialog Modules(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_fi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm"
+abapFile: "abeninput_check_abexas.htm"
+keywords: ["do", "if", "abeninput", "check", "abexas"]
+---
 
 * * *
 

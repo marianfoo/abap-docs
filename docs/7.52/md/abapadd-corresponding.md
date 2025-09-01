@@ -1,4 +1,14 @@
-  
+---
+title: "ADD-CORRESPONDING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd-corresponding_shortref.htm) Obsolete Syntax ADD-CORRESPONDING struc1 TO struc2. Effect This statement, which is not allowed in classes, adds structures by component. Structures must be specified for struc1 and struc
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd-corresponding.htm"
+abapFile: "abapadd-corresponding.htm"
+keywords: ["do", "while", "if", "class", "data", "abapadd", "corresponding"]
+---
 
 * * *
 

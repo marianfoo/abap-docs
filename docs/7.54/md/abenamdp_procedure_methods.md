@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Procedure Implementations"
+description: |
+  An AMDP procedure implementation is an AMDP method for implementing a database procedure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_procedure_glosry.htm 'Glossary Entry'). It is declared in an AMDP class(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aben
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_procedure_methods.htm"
+abapFile: "abenamdp_procedure_methods.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenamdp", "procedure", "methods"]
+---
 
 * * *
 

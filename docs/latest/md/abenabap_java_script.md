@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP and JavaScript"
+description: |
+  In the kernel of an AS ABAP, a JavaScript (JS) Engine is integrated, in which JavaScript programs can be executed either in normal or in debugging mode (server-side scripting). The JavaScript (JS) Engine used supports JavaScript Version 1.5. Proxies can be used to bind script variables to data objec
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_java_script.htm"
+abapFile: "abenabap_java_script.htm"
+keywords: ["do", "if", "method", "class", "data", "abenabap", "java", "script"]
+---
 
 * * *
 

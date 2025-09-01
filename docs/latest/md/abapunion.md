@@ -1,4 +1,14 @@
-  
+---
+title: "UNION, INTERSECT, EXCEPT"
+description: |
+  Syntax Forms UNION, INTERSECT, and EXCEPT in Main Queries 1. WITH ...(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm) SELECT query_clauses(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm) UNION ALLDISTINCT
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion.htm"
+abapFile: "abapunion.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abapunion"]
+---
 
 * * *
 

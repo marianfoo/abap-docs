@@ -1,4 +1,14 @@
-  
+---
+title: "Chaining Strings"
+description: |
+  This example demonstrates how string chainings can be optimized. Source Code REPORT demo_string_concatenation. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(n) = 10000. cl_demo_input=>request( CHANGING field = n ). IF n <= 0 OR
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_concatenation_abexa.htm"
+abapFile: "abenstring_concatenation_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "abenstring", "concatenation", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in Release 7.56 applies to all ABAP SQL statements that use one of the following features introduced in Release 7.56(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_sql.htm): -   Use of the string function INITCAP(https://help.sap.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_756.htm"
+abapFile: "abenabap_sql_strictmode_756.htm"
+keywords: ["do", "if", "data", "abenabap", "sql", "strictmode", "756"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP SQL - Strict Mode in Release 7.56
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_756_1)
--   [Rules for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_756_2)
+-   [Conditions for the Strict Mode](#abenabap-sql-strictmode-756-1-------rules-for-the-strict-mode---@ITOC@@ABENABAP_SQL_STRICTMODE_756_2)
 
 Conditions for the Strict Mode   
 

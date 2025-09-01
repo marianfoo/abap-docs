@@ -1,4 +1,14 @@
-  
+---
+title: "PBO"
+description: |
+  Process Before Output, dynpro event(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_event_glosry.htm 'Glossary Entry'). Raised by the ABAP runtime environment(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_runtime_envir_glosry.htm 'Glossary Entry') befo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpbo_glosry.htm"
+abapFile: "abenpbo_glosry.htm"
+keywords: ["do", "try", "data", "abenpbo", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "The Structure SCREEN"
+description: |
+  Most components of the structure SCREEN from ABAP Dictionary correspond to the attributes of a screen element on a dynpro. Data objects with the data type SCREEN can be used as a work area in the following ABAP statements: -   in LOOP AT SCREEN(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscreen.htm"
+abapFile: "abenscreen.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenscreen"]
+---
 
 * * *
 

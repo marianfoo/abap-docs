@@ -1,4 +1,14 @@
-  
+---
+title: "Predicate Function, matches"
+description: |
+  This example demonstrates the predicate function matches(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmatches_functions.htm). Source Code REPORT demo_matches. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA email
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpred_function_matches_abexa.htm"
+abapFile: "abenpred_function_matches_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenpred", "function", "matches", "abexa"]
+---
 
 * * *
 

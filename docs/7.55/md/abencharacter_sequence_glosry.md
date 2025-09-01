@@ -1,4 +1,14 @@
-  
+---
+title: "character_sequence_glosry"
+description: |
+  character_sequence_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_sequence_glosry.htm"
+abapFile: "abencharacter_sequence_glosry.htm"
+keywords: ["do", "try", "abencharacter", "sequence", "glosry"]
+---
 
 * * *
 

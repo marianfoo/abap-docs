@@ -1,4 +1,14 @@
-  
+---
+title: "Sorting Internal Tables Alphabetically"
+description: |
+  This example demonstrates the alphabetical sorting of character strings. Source Code  Public class definition CLASS cl_demo_int_tbls_sort_text DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementatio
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensort_text_abexa.htm"
+abapFile: "abensort_text_abexa.htm"
+keywords: ["insert", "do", "if", "try", "method", "class", "data", "internal-table", "abensort", "text", "abexa"]
+---
 
 * * *
 

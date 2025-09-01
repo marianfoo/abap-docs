@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Changing Multiple Lines in Mesh Paths"
+description: |
+  This example demonstrates how multiple lines are changed in mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_modify_nmbrs DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TYPE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_modify_abexa.htm"
+abapFile: "abenmesh_modify_abexa.htm"
+keywords: ["insert", "delete", "do", "while", "if", "method", "class", "data", "types", "abenmesh", "modify", "abexa"]
+---
 
 * * *
 

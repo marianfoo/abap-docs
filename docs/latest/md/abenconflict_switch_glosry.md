@@ -1,4 +1,14 @@
-  
+---
+title: "conflict_switch_glosry"
+description: |
+  conflict_switch_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconflict_switch_glosry.htm"
+abapFile: "abenconflict_switch_glosry.htm"
+keywords: ["do", "if", "case", "try", "abenconflict", "switch", "glosry"]
+---
 
 * * *
 

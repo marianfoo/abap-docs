@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Performance Note"
+description: |
+  The ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') provide options for abstract data modeling, which make the abstract data layer much more significant than in the options available in the classic ABAP Dictionary. The ABAP CDS make it
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_perfo.htm"
+abapFile: "abenabap_cds_perfo.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenabap", "cds", "perfo"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Program Flow"
+description: |
+  -   Obsolete Relational Expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_logexp.htm) -   Obsolete Control Structures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_control_structures.htm) -   Obsolete Catchable Runtime Errors(https://
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_program_flow.htm"
+abapFile: "abenobsolete_program_flow.htm"
+keywords: ["do", "catch", "abenobsolete", "program", "flow"]
+---
 
 * * *
 

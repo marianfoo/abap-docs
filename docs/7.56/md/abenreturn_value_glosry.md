@@ -1,4 +1,14 @@
-  
+---
+title: "return_value_glosry"
+description: |
+  return_value_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreturn_value_glosry.htm"
+abapFile: "abenreturn_value_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenreturn", "value", "glosry"]
+---
 
 * * *
 

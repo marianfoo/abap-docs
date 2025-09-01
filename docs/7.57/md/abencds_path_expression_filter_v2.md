@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v2.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v2.htm"
+abapFile: "abencds_path_expression_filter_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP ETag"
+description: |
+  ETag is short for entity tag. A RAP ETag field is a field of a RAP BO entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') that is used to describe the state of the instance as an entity tag for optimistic concurrency control(https://he
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_etag_glosry.htm"
+abapFile: "abenrap_etag_glosry.htm"
+keywords: ["update", "do", "if", "try", "abenrap", "etag", "glosry"]
+---
 
 * * *
 

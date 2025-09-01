@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SDL for Service Definitions"
+description: |
+  A CDS service definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') in ABAP CDS is created using the data definition language CDS SDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sdl_glosry.ht
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_sdl_syntax.htm"
+abapFile: "abencds_f1_sdl_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "sdl", "syntax"]
+---
 
 * * *
 

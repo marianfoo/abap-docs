@@ -1,4 +1,14 @@
-  
+---
+title: "One Page"
+description: |
+  ‏Relational Operator Other Page Single operand with numeric data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm 'Glossary Entry') or arithmetic expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_rules_expressions.htm"
+abapFile: "abenlogexp_rules_expressions.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abenlogexp", "rules", "expressions"]
+---
 
 * * *
 

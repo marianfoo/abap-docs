@@ -1,4 +1,14 @@
-  
+---
+title: "VALUE, Initial Value for All Types"
+description: |
+  Syntax ... VALUE dtype#( ) ... Effect If no parameters are specified in the parentheses, the return value is set to its type-specific initial value. This is possible for any non-generic data types dtype. The # character can stand for corresponding statically recognizable operand types. When VALUE
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_init.htm"
+abapFile: "abenvalue_constructor_params_init.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "internal-table", "abenvalue", "constructor", "params", "init"]
+---
 
 * * *
 

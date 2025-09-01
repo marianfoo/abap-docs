@@ -1,4 +1,14 @@
-  
+---
+title: "CONTROLS, TYPE TABLEVIEW"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontrols_shortref.htm) Syntax CONTROLS contrl TYPE TABLEVIEW USING SCREEN dynnr. Effect Declares a table control(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_control_glosry.htm 'Gloss
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontrols_tableview.htm"
+abapFile: "abapcontrols_tableview.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "abapcontrols", "tableview"]
+---
 
 * * *
 

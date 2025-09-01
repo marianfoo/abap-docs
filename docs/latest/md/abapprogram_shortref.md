@@ -1,4 +1,14 @@
-  
+---
+title: "PROGRAM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprogram.htm) Syntax PROGRAM prog NO STANDARD PAGE HEADING LINE-SIZE width LINE-COUNT page_lines(footer_lines) MESSAGE-ID mid REDUCED FUNCTIONALITY. Effect Initiates a mo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprogram_shortref.htm"
+abapFile: "abapprogram_shortref.htm"
+keywords: ["do", "if", "try", "abapprogram", "shortref"]
+---
 
 * * *
 

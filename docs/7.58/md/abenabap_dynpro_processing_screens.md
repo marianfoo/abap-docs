@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - User Actions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_user_actions.htm) dynpro - Calling ABAP Dialog Modules(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_call_dialog_mod.htm) dynpro - Input Checks(https://help.sap.com/doc
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_processing_screens.htm"
+abapFile: "abenabap_dynpro_processing_screens.htm"
+keywords: ["do", "if", "abenabap", "dynpro", "processing", "screens"]
+---
 
 * * *
 

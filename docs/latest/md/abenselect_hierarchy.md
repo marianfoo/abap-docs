@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, FROM hierarchy"
+description: |
+  Syntax ... cds_hierarchy(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_cds_hierarchy.htm)  HIERARCHY( ... )(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy_generator.htm)  cte_hierarchy(https://help.sap.com/doc/abapdocu_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy.htm"
+abapFile: "abenselect_hierarchy.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "class", "data", "internal-table", "abenselect", "hierarchy"]
+---
 
 * * *
 

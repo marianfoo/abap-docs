@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Overview of Statements"
+description: |
+  ST programs are XML data consisting of literal elements and ST statements. ST statements can be distinguished from literal elements (XML elements, attributes, and text) by their namespace 'http://www.sap.com/transformation-templates', for which the prefix tt is used by convention. During serializati
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_statements.htm"
+abapFile: "abenst_statements.htm"
+keywords: ["loop", "do", "case", "method", "data", "internal-table", "abenst", "statements"]
+---
 
 * * *
 

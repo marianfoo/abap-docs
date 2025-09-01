@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen  AS CHECKBOX USER-COMMAND fcode  RADIOBUTTON GROUP group USER-COMMAND fcode  AS LISTBOX VISIBLE LENGTH vlen USER-COMMAND fcode OBLIGATORY  MODIF ID modid(http
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_screen.htm"
+abapFile: "abapparameters_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapparameters", "screen"]
+---
 
 * * *
 

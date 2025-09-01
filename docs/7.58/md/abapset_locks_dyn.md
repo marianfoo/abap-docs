@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  SET LOCKS lock_tab response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm). Addition: ... response_param(#!ABAP_ONE_ADD@1@) Effect The dynamic form of the SET LOCKS statement is used to collect instances of multiple RAP BO entities that are to b
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locks_dyn.htm"
+abapFile: "abapset_locks_dyn.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "internal-table", "abapset", "locks", "dyn"]
+---
 
 * * *
 

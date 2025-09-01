@@ -1,4 +1,14 @@
-  
+---
+title: "constant_glosry"
+description: |
+  constant_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstant_glosry.htm"
+abapFile: "abenconstant_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenconstant", "glosry"]
+---
 
 * * *
 

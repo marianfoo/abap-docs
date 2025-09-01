@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace_shortref.htm) Syntax Forms Pattern-Based Replacement(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace_in_pattern.htm) 1. REPLACE FIRST OCCURRENCEALL OCCURRENCES OF
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace.htm"
+abapFile: "abapreplace.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapreplace"]
+---
 
 * * *
 

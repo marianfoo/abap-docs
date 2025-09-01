@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT, IMPORT - dbtab"
+description: |
+  Obsolete Syntax TABLES(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables.htm) dbtab. ... EXPORT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_data_cluster.htm) parameter_list(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_data
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_import_tables_area.htm"
+abapFile: "abapexport_import_tables_area.htm"
+keywords: ["do", "if", "try", "class", "data", "abapexport", "import", "tables", "area"]
+---
 
 * * *
 

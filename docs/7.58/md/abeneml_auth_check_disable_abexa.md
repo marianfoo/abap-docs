@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - AUTHORITY-CHECK DISABLE"
+description: |
+  This example demonstrates the ABAP EML statement AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. with an unmanaged RAP business object. Data model The CDS data model consists of the root entity DEMO_UNMANAGED_AUTH: @AccessControl.authorizationCheck: #NOT_REQUIRED define roo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm"
+abapFile: "abeneml_auth_check_disable_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abeneml", "auth", "check", "disable", "abexa"]
+---
 
 * * *
 

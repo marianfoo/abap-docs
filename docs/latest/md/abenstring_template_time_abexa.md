@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_template_time_form DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS: setup, teardown, check_system. ENDCLASS.  Public class implementation CLASS cl_demo_str_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_template_time_abexa.htm"
+abapFile: "abenstring_template_time_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenstring", "template", "time", "abexa"]
+---
 
 * * *
 

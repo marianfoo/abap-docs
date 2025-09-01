@@ -1,4 +1,14 @@
-  
+---
+title: "hash_key_glosry"
+description: |
+  hash_key_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhash_key_glosry.htm"
+abapFile: "abenhash_key_glosry.htm"
+keywords: ["do", "try", "internal-table", "abenhash", "key", "glosry"]
+---
 
 * * *
 

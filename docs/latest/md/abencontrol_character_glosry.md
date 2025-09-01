@@ -1,4 +1,14 @@
-  
+---
+title: "control_character_glosry"
+description: |
+  control_character_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_character_glosry.htm"
+abapFile: "abencontrol_character_glosry.htm"
+keywords: ["do", "if", "try", "abencontrol", "character", "glosry"]
+---
 
 * * *
 

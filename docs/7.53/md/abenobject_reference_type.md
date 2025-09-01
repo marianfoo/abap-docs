@@ -1,4 +1,14 @@
-  
+---
+title: "Object References"
+description: |
+  Object references can point to instances of classes(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm 'Glossary Entry'). The static type of their reference variables is either a class or an interface. Both types can be used to create objects with the statement CREATE
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_reference_type.htm"
+abapFile: "abenobject_reference_type.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenobject", "reference", "type"]
+---
 
 * * *
 

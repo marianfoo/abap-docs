@@ -1,4 +1,14 @@
-  
+---
+title: "XML - Short Overview"
+description: |
+  XML (Extensible Markup Language)(http://www.w3.org/xml/) is used to represent data structured in different ways. This makes it very useful for communications between different applications and for the integration of data from different applications. XML data comprises metadata (markups) in the for
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_oview.htm"
+abapFile: "abenxml_oview.htm"
+keywords: ["do", "if", "try", "data", "abenxml", "oview"]
+---
 
 * * *
 

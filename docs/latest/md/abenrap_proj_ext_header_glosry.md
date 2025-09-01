@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF projection extension header"
+description: |
+  Part of a BDEF projection extension(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_projec_bdef_ext_glosry.htm 'Glossary Entry') that starts with  extension for projection(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extension_for_projection.htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_proj_ext_header_glosry.htm"
+abapFile: "abenrap_proj_ext_header_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "proj", "ext", "header", "glosry"]
+---
 
 * * *
 

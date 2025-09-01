@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  BIT-NOT operand1 BIT-ANDBIT-ORBIT-XOR BIT-NOT operand2 BIT-ANDBIT-ORBIT-XOR BIT-NOT operand3 ...    ... Effect Bit expression that calculates a binary result from operand operand. Bit expressions can be parenthesized explicit
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbit_exp_shortref.htm"
+abapFile: "abenbit_exp_shortref.htm"
+keywords: ["do", "if", "abenbit", "exp", "shortref"]
+---
 
 * * *
 

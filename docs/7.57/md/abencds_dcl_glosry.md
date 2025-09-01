@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL"
+description: |
+  Data control language (DCL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendcl_glosry.htm 'Glossary Entry')) of ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry') used to define CDS objects(https://help.sap.com/doc/abapd
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm"
+abapFile: "abencds_dcl_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "glosry"]
+---
 
 * * *
 

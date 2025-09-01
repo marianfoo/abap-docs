@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abengeneral_rules_guidl.htm
 
-  
+---
+title: "General Rules"
+description: |
+  The following rules do not apply specifically to ABAP, even if they are demonstrated here in the context of ABAP programming, but apply equally well to all types of business application programming. Many of the rules described in this section are either derived from the general rules or support thes
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_rules_guidl.htm"
+abapFile: "abengeneral_rules_guidl.htm"
+keywords: ["do", "if", "types", "abengeneral", "rules", "guidl"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abenseperation_concerns_guidl.htm
 
-  
+---
+title: "Separation of Concerns"
+description: |
+  Background The term 'separation of concerns' (SoC) was coined in Edsger W. Dijkstra's article On the role of scientific thought from 1974: '... But nothing is gained --on the contrary!-- by tackling these various aspects simultaneously. It is what I sometimes have called 'the separation of concerns'
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenseperation_concerns_guidl.htm"
+abapFile: "abenseperation_concerns_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenseperation", "concerns", "guidl"]
+---
 
 * * *
 
@@ -302,7 +322,17 @@ In addition, the individual steps are now wrapped in classes, in other words, re
 
 ### abenkiss_principle_guidl.htm
 
-  
+---
+title: "KISS Principle"
+description: |
+  Background The KISS principle says that you should always choose the simplest solution for a problem. KISS is an acronym and can have any of the following meanings (the list is not exhaustive): -   Keep it simple, stupid. -   Keep it small and simple. -   Keep it sweet and simple. -   Keep it simple
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkiss_principle_guidl.htm"
+abapFile: "abenkiss_principle_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "abenkiss", "principle", "guidl"]
+---
 
 * * *
 
@@ -367,7 +397,17 @@ The result is illustrated on the right of the figure. By splitting the method M 
 
 ### abencorrectness_quality_guidl.htm
 
-  
+---
+title: "Correctness and Quality"
+description: |
+  Background Most organizations that develop professional software have product standards that must be adhered to. These product standards define what is meant by correctness and quality of a program. SAP has many such standards, which development departments have to comply with. The current product s
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorrectness_quality_guidl.htm"
+abapFile: "abencorrectness_quality_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abencorrectness", "quality", "guidl"]
+---
 
 * * *
 

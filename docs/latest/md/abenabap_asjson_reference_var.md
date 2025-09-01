@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  Serializing Data References(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenserialize_dref_abexa.htm)
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asjson_reference_var.htm"
+abapFile: "abenabap_asjson_reference_var.htm"
+keywords: ["do", "if", "case", "data", "types", "abenabap", "asjson", "reference", "var"]
+---
 
 * * *
 

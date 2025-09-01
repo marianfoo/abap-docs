@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Examples"
+description: |
+  -   RFC - Parameter Passing in RFC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm) -   RFC - Exception Handling(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm) -   RFC - Dynamic Parameter Passing in sRFC
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm"
+abapFile: "abenrfc_abexas.htm"
+keywords: ["do", "if", "data", "exception-handling", "abenrfc", "abexas"]
+---
 
 * * *
 

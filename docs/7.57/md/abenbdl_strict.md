@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - BDEF Strict Mode"
+description: |
+  BDEF strict mode(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_strict_mode_glosry.htm 'Glossary Entry') applies additional syntax checks to CDS behavior definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Glossary En
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_strict.htm"
+abapFile: "abenbdl_strict.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "strict"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Authorization for File Access"
+description: |
+  -   Automatic Authorization Checks(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_interface_authority.htm) -   Validation of File Names(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth_self.htm) Automatic Authorization Checks(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth.htm"
+abapFile: "abendataset_auth.htm"
+keywords: ["do", "if", "data", "abendataset", "auth"]
+---
 
 * * *
 

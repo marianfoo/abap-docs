@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The processing functions for character-like arguments ignore the trailing blanks for input parameters with fixed lengths. -   The processing functions for character-like arguments cannot be used directly as operands of arithmetic expressions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocess_functions.htm"
+abapFile: "abenprocess_functions.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "abenprocess", "functions"]
+---
 
 * * *
 

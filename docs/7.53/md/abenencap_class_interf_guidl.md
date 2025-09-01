@@ -1,4 +1,14 @@
-  
+---
+title: "Encapsulating Classic User Interfaces"
+description: |
+  Background The separation of concerns(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm 'Guideline') is one of the basic rules of these ABAP programming guidelines. This separation, which refers to a strict division of ABAP code into parts for presentatio
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenencap_class_interf_guidl.htm"
+abapFile: "abenencap_class_interf_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenencap", "interf", "guidl"]
+---
 
 * * *
 

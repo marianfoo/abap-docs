@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with FOR in Control Levels"
+description: |
+  This example demonstrates simple control level processing using GROUP BY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_groups_of.htm) in a FOR expression. Source Code REPORT demo_for_groups_by_levels. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTI
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_group_by_levels_abexa.htm"
+abapFile: "abenfor_group_by_levels_abexa.htm"
+keywords: ["select", "loop", "do", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "levels", "abexa"]
+---
 
 * * *
 

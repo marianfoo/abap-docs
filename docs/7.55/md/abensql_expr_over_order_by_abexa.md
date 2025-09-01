@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_select_over_order_by. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). SELECT char1, char2, num1, COUNT()      OVER( PARTITION BY char1 ) AS cnt, ROW_NUMBER( ) OV
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_over_order_by_abexa.htm"
+abapFile: "abensql_expr_over_order_by_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "types", "abensql", "expr", "over", "order", "abexa"]
+---
 
 * * *
 

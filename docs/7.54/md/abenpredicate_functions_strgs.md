@@ -1,4 +1,14 @@
-  
+---
+title: "Predicate functions for character-like arguments"
+description: |
+  The following predicate functions exist for character-like arguments; -   contains, contains_...(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontains_functions.htm) -   matches(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmatches_functions.htm) rel_exp - c
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicate_functions_strgs.htm"
+abapFile: "abenpredicate_functions_strgs.htm"
+keywords: ["do", "if", "abenpredicate", "functions", "strgs"]
+---
 
 * * *
 

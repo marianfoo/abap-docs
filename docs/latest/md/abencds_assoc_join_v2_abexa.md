@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Joins of CDS Associations"
+description: |
+  This example demonstrates how path expressions are transformed to joins in ABAP CDS. Source Code  Public class definition CLASS cl_demo_cds_assoc_joins_ve DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . PRIVATE SECTION. TYPES wa
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_assoc_join_v2_abexa.htm"
+abapFile: "abencds_assoc_join_v2_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "types", "abencds", "assoc", "join", "abexa"]
+---
 
 * * *
 

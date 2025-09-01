@@ -1,4 +1,14 @@
-  
+---
+title: "BOPF-based RAP business object"
+description: |
+  BOPF-based RAP BO for short. A BOPF-based RAP BO is the result of the migration of a CDS-based BOPF business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bopf_bo_glosry.htm 'Glossary Entry') to a RAP business object. Special syntax statements for BOPF-based RAP BO
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bopf_bo_glosry.htm"
+abapFile: "abenrap_bopf_bo_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "bopf", "glosry"]
+---
 
 * * *
 

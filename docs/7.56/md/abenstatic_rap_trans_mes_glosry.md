@@ -1,4 +1,14 @@
-  
+---
+title: "RAP static transition message"
+description: |
+  A transition message(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_trans_mes_glosry.htm 'Glossary Entry') that refers to a RAP BO entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry'), but not to a specific instance
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_rap_trans_mes_glosry.htm"
+abapFile: "abenstatic_rap_trans_mes_glosry.htm"
+keywords: ["do", "if", "try", "abenstatic", "rap", "trans", "mes", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP object"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that is defined in the RAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarap_glosry.htm 'Glossary Entry') context. Examples are RAP behavio
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_rap_object_glosry.htm"
+abapFile: "abencds_rap_object_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "rap", "object", "glosry"]
+---
 
 * * *
 

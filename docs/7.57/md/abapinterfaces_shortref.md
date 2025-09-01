@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACES - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces.htm) Syntax INTERFACES intf PARTIALLY IMPLEMENTED   ABSTRACT METHODS meth1 meth2 ... FINAL METHODS meth1 meth2 ...   ALL METHODS ABSTRACTFINAL  DATA VALUE
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_shortref.htm"
+abapFile: "abapinterfaces_shortref.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapinterfaces", "shortref"]
+---
 
 * * *
 

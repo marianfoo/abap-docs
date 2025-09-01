@@ -1,4 +1,14 @@
-  
+---
+title: "CDS PFCG condition"
+description: |
+  Part of an access condition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaccess_condition_glosry.htm 'Glossary Entry') in a CDS role(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_role_glosry.htm 'Glossary Entry') that uses an authorization object(https://
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpfcg_condition_glosry.htm"
+abapFile: "abenpfcg_condition_glosry.htm"
+keywords: ["do", "if", "try", "abenpfcg", "condition", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "indicator_structure_glosry"
+description: |
+  indicator_structure_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenindicator_structure_glosry.htm"
+abapFile: "abenindicator_structure_glosry.htm"
+keywords: ["do", "try", "types", "abenindicator", "structure", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Selection-related case expression (restricted measure) 1. ... CASE WHEN cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v2.htm) THEN result ELSE NULL END ... Formula-related case expression 2. @Aggregation.default: #FORMULA CASE WHEN c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_apv.htm"
+abapFile: "abencds_case_expression_apv.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "expression", "apv"]
+---
 
 * * *
 
@@ -29,8 +39,7 @@ Formula-related case expression
      ELSE *{*result2 *|* NULL*}*
    END ...
 
--   [Selection-Related Case Expression (Restricted Measure)](#@@ITOC@@ABENCDS_CASE_EXPRESSION_APV_1)
--   [Formula-Related Case Expression](#@@ITOC@@ABENCDS_CASE_EXPRESSION_APV_2)
+-   [Selection-Related Case Expression (Restricted Measure)](#abencds-case-expression-apv-1-------formula-related-case-expression---@ITOC@@ABENCDS_CASE_EXPRESSION_APV_2)
 
 Effect
 

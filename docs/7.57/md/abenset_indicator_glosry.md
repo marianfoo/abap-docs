@@ -1,4 +1,14 @@
-  
+---
+title: "set_indicator_glosry"
+description: |
+  set_indicator_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenset_indicator_glosry.htm"
+abapFile: "abenset_indicator_glosry.htm"
+keywords: ["update", "do", "if", "try", "data", "internal-table", "abenset", "indicator", "glosry"]
+---
 
 * * *
 

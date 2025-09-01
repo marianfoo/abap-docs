@@ -1,4 +1,14 @@
-  
+---
+title: "RAP transactional buffer"
+description: |
+  Storage where the data that is used during one RAP transaction(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_luw_glosry.htm 'Glossary Entry') is kept. It includes the RAP BO instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransactional_buffer_glosry.htm"
+abapFile: "abentransactional_buffer_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentransactional", "buffer", "glosry"]
+---
 
 * * *
 

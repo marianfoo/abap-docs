@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Date Fields, Time Fields, and Time Stamp Fields"
+description: |
+  The following data types in ABAP Dictionary describe date fields, time fields, and time stamp fields: -   Date Types, Time Types, and Time Stamp Types(#abenddic-date-time-types-1-------character-like-date-fields-and-time-fields---@ITOC@@ABENDDIC_DATE_TIME_TYPES_2) Date Types, Time Types, and Time
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_date_time_types.htm"
+abapFile: "abenddic_date_time_types.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abenddic", "date", "time"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ DDIC - Date Fields, Time Fields, and Time Stamp Fields
 
 The following data types in ABAP Dictionary describe date fields, time fields, and time stamp fields:
 
--   [Date Types, Time Types, and Time Stamp Types](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_1)
--   [Character-Like Date Fields and Time Fields](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_2)
+-   [Date Types, Time Types, and Time Stamp Types](#abenddic-date-time-types-1-------character-like-date-fields-and-time-fields---@ITOC@@ABENDDIC_DATE_TIME_TYPES_2)
 
 Date Types, Time Types, and Time Stamp Types   
 

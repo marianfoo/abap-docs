@@ -1,4 +1,14 @@
-  
+---
+title: "Strings"
+description: |
+  Background Strings are dynamic data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_dyn_data_object_guidl.htm 'Guideline') of variable length. There are text strings of the string data type and byte strings of the xstring data type, in which character strings or byt
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstrings_guidl.htm"
+abapFile: "abenstrings_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "internal-table", "abenstrings", "guidl"]
+---
 
 * * *
 

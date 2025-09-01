@@ -1,4 +1,14 @@
-  
+---
+title: "CDS calculated unit"
+description: |
+  A component of a CDS view entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') of data type CHAR that specifies a user-defined unit which is not contained in any list of predefined values. A CDS calculated unit can be linked with a CDS cal
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calculated_unit_glosry.htm"
+abapFile: "abencds_calculated_unit_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "calculated", "unit", "glosry"]
+---
 
 * * *
 

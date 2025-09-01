@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Generic Time Stamp Functions(abensql_timestamp_func.htm#abensql-timestamp-func-1---1-------is--valid--date---time---utclong-----------extract--year--date---utclong-----------extract--month--date---utclong-----------extract--day--date---utclong-----------extract--hour--time---utclong-----------extr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_timestamp_func.htm"
+abapFile: "abensql_timestamp_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "catch", "class", "data", "types", "abensql", "timestamp", "func"]
+---
 
 * * *
 
@@ -12,84 +22,13 @@ sql\_func - Time Stamp Functions
 
 Syntax Forms
 
-[Generic Time Stamp Functions](abensql_timestamp_func.htm#@@ITOC@@ABENSQL_TIMESTAMP_FUNC_1)
-
-1\. ... IS\_VALID( date*|*time*|*utclong )
-    *|* EXTRACT\_YEAR( date*|*utclong )
-    *|* EXTRACT\_MONTH( date*|*utclong )
-    *|* EXTRACT\_DAY( date*|*utclong )
-    *|* EXTRACT\_HOUR( time*|*utclong )
-    *|* EXTRACT\_MINUTE( time*|*utclong )
-    *|* EXTRACT\_SECOND( time*|*utclong )
-    *|* DAYNAME( date*|*utclong )
-    *|* MONTHNAME( date*|*utclong )
-    *|* WEEKDAY( date*|*utclong )
-    *|* DAYS\_BETWEEN( *{*date1*|*utclong1*}*,*{*date2*|*utclong2*}* )
-    *|* ADD\_DAYS( *{*date*|*utclong*}*,days )
-    *|* ADD\_MONTHS( *{*date*|*utclong*}*,months ) ...
-
-[Functions for UTCLONG](abensql_timestamp_func.htm#@@ITOC@@ABENSQL_TIMESTAMP_FUNC_2)
+[Generic Time Stamp Functions](abensql_timestamp_func.htm#abensql-timestamp-func-1---1-------is--valid--date---time---utclong-----------extract--year--date---utclong-----------extract--month--date---utclong-----------extract--day--date---utclong-----------extract--hour--time---utclong-----------extract--minute--time---utclong-----------extract--second--time---utclong-----------dayname--date---utclong-----------monthname--date---utclong-----------weekday--date---utclong-----------days--between-----date1---utclong1-------date2---utclong2--------------add--days-----date---utclong----days-----------add--months-----date---utclong----months---------functions-for-utclong--abensql-timestamp-func-htm-@ITOC@@ABENSQL_TIMESTAMP_FUNC_2)
 
 2\. ... UTCL\_CURRENT( )
     *|* UTCL\_ADD\_SECONDS( utclong,seconds )
     *|* UTCL\_SECONDS\_BETWEEN( utclong1,utclong2 ) ...
 
-[Functions for TIMESTAMP](abensql_timestamp_func.htm#@@ITOC@@ABENSQL_TIMESTAMP_FUNC_3)
-
-3\. ... TSTMP\_IS\_VALID( tstmp )
-    *|* TSTMP\_CURRENT\_UTCTIMESTAMP( )
-    *|* TSTMP\_SECONDS\_BETWEEN( tstmp1   = tstmp1,
-                             tstmp2   = tstmp2*\[*,
-                             on\_error = on\_error*\]* )
-    *|* TSTMP\_ADD\_SECONDS( tstmp    = tstmp,
-                         seconds  = seconds*\[*,
-                         on\_error = on\_error*\]* ) ...
-
-Effect
-
-These SQL functions perform operations on time stamps. The first set covers generic functions, the second set covers functions depending on the built-in data type [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), and the third set covers functions depending on the data element [TIMESTAMP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamps_packed.htm).
-
-The arguments of the functions are specified as a comma-separated list in parentheses. A blank must be placed after the opening parenthesis and in front of the closing parenthesis. Optional parameters can be assigned actual parameters when called. Non-optional parameters must be assigned actual parameters.
-
-[SQL expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm) of matching data types can be specified as actual parameters. Only [enumerated constants](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") of specific classes can be passed to the parameter on\_error for the TIMESTAMP functions TSTMP\_SECONDS\_BETWEEN and TSTMP\_ADD\_SECONDS. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_value_glosry.htm "Glossary Entry"), every function except IS\_VALID and TSTMP\_IS\_VALID returns a null value.
-
-Generic Time Stamp Functions   
-
-Syntax
-
-... IS\_VALID( date*|*time*|*utclong )
-  *|* EXTRACT\_YEAR( date*|*utclong )
-  *|* EXTRACT\_MONTH( date*|*utclong )
-  *|* EXTRACT\_DAY( date*|*utclong )
-  *|* EXTRACT\_HOUR( time*|*utclong )
-  *|* EXTRACT\_MINUTE( time*|*utclong )
-  *|* EXTRACT\_SECOND( time*|*utclong )
-  *|* DAYNAME( date*|*utclong )
-  *|* MONTHNAME( date*|*utclong )
-  *|* WEEKDAY( date*|*utclong )
-  *|* DAYS\_BETWEEN( *{*date1*|*utclong1*}*,*{*date2*|*utclong2*}* )
-  *|* ADD\_DAYS( *{*date*|*utclong*}*,days )
-  *|* ADD\_MONTHS( *{*date*|*utclong*}*,months ) ...
-
-Effect
-
-These SQL functions perform operations with arguments of the built-in data types [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), and [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The generic functions are documented in [date functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_date_func.htm) and [time functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_time_func.htm).
-
-Hint
-
-All generic functions enforce [strict mode from ABAP release 7.56](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_756.htm).
-
-Functions for UTCLONG   
-
-Syntax
-
-... UTCL\_CURRENT( )
-  *|* UTCL\_ADD\_SECONDS( utclong,seconds )
-  *|* UTCL\_SECONDS\_BETWEEN( utclong1,utclong2 ) ...
-
-Variants:
-
-[1\. ... UTCL\_CURRENT( )](#!ABAP_VARIANT_1@1@)
+[Functions for TIMESTAMP](abensql_timestamp_func.htm#abensql-timestamp-func-3---3-------tstmp--is--valid--tstmp-----------tstmp--current--utctimestamp------------tstmp--seconds--between--tstmp1-----tstmp1-------------------------------tstmp2-----tstmp2-----------------------------------on--error---on--error---------------tstmp--add--seconds--tstmp------tstmp---------------------------seconds----seconds-------------------------------on--error---on--error------------effect--these-sql-functions-perform-operations-on-time-stamps--the-first-set-covers-generic-functions--the-second-set-covers-functions-depending-on-the-built-in-data-type--utclong--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm---and-the-third-set-covers-functions-depending-on-the-data-element--timestamp--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abentime-stamps-packed-htm----the-arguments-of-the-functions-are-specified-as-a-comma-separated-list-in-parentheses--a-blank-must-be-placed-after-the-opening-parenthesis-and-in-front-of-the-closing-parenthesis--optional-parameters-can-be-assigned-actual-parameters-when-called--non-optional-parameters-must-be-assigned-actual-parameters----sql-expressions--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abapsql-expr-htm--of-matching-data-types-can-be-specified-as-actual-parameters--only--enumerated-constants--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenenumerated-constant-glosry-htm--glossary-entry---of-specific-classes-can-be-passed-to-the-parameter-on--error-for-the-timestamp-functions-tstmp--seconds--between-and-tstmp--add--seconds--if-an-actual-parameter-contains-the--null-value--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abennull-value-glosry-htm--glossary-entry----every-function-except-is--valid-and-tstmp--is--valid-returns-a-null-value---generic-time-stamp-functions-----syntax------is--valid--date---time---utclong---------extract--year--date---utclong---------extract--month--date---utclong---------extract--day--date---utclong---------extract--hour--time---utclong---------extract--minute--time---utclong---------extract--second--time---utclong---------dayname--date---utclong---------monthname--date---utclong---------weekday--date---utclong---------days--between-----date1---utclong1-------date2---utclong2------------add--days-----date---utclong----days---------add--months-----date---utclong----months--------effect--these-sql-functions-perform-operations-with-arguments-of-the-built-in-data-types--datn--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm----dats--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm----timn--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm----tims--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm---and--utclong--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm---the-generic-functions-are-documented-in--date-functions--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abensql-date-func-htm--and--time-functions--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abensql-time-func-htm----hint--all-generic-functions-enforce--strict-mode-from-abap-release-7-56--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenabap-sql-strictmode-756-htm----functions-for-utclong-----syntax------utcl--current----------utcl--add--seconds--utclong-seconds---------utcl--seconds--between--utclong1-utclong2--------variants----1-------utcl--current-------abap-variant-11@)
 [2\. ... UTCL\_ADD\_SECONDS( utclong,seconds )](#!ABAP_VARIANT_2@2@)
 [3\. ... UTCL\_SECONDS\_BETWEEN( utclong1,utclong2 )](#!ABAP_VARIANT_3@3@)
 

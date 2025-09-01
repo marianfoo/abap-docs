@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Restriction of the Rows in the Result Set"
+description: |
+  This example demonstrates the additions UP TO and OFFSET(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_up_to_offset.htm) of the statement SELECT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm). Source Code REPORT demo_select_up_to_offset. CL
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_up_to_offset_abexa.htm"
+abapFile: "abenselect_up_to_offset_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenselect", "offset", "abexa"]
+---
 
 * * *
 

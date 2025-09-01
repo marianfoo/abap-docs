@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - HAVING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_shortref.htm) Syntax ... HAVING sql_cond(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasql_cond.htm) ... Effect The addition HAVING limits the number of rows in groups in the results set of a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaphaving_clause.htm"
+abapFile: "abaphaving_clause.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abaphaving", "clause"]
+---
 
 * * *
 

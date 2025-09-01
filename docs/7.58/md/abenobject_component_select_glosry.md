@@ -1,4 +1,14 @@
-  
+---
+title: "object_component_select_glosry"
+description: |
+  object_component_select_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject_component_select_glosry.htm"
+abapFile: "abenobject_component_select_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenobject", "component", "glosry"]
+---
 
 * * *
 

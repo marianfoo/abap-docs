@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... utclong_diff( high = time_stamp2 low  = time_stamp1 ) ... Effect This function calculates the time difference between the values of two time stamp fields time_stamp2 and time_stamp1. The return value has the type decfloat34 and contains the precise difference in seconds rounded to seven dec
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutclong_diff.htm"
+abapFile: "abenutclong_diff.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenutclong", "diff"]
+---
 
 * * *
 

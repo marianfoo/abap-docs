@@ -1,4 +1,14 @@
-  
+---
+title: "Function Modules and Subroutines"
+description: |
+  Background Function modules and subroutines are the procedures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodularization_guidl.htm 'Guideline') of the structured programming model that already existed before the introduction of ABAP Objects. -   Function modules in functio
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm"
+abapFile: "abenfunct_module_subroutine_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "method", "class", "types", "abenfunct", "module", "subroutine", "guidl"]
+---
 
 * * *
 

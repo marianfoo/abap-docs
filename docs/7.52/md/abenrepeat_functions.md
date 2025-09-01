@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... repeat( val = text(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm)  occ = occ ) ... Effect This function returns a character string that contains the content of text(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.h
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepeat_functions.htm"
+abapFile: "abenrepeat_functions.htm"
+keywords: ["do", "if", "try", "class", "data", "abenrepeat", "functions"]
+---
 
 * * *
 

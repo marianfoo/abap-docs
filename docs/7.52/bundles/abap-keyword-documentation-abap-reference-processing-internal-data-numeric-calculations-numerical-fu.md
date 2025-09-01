@@ -5,7 +5,17 @@ Included pages: 12
 
 ### abenmathematical_functions.htm
 
-  
+---
+title: "Numerical Functions"
+description: |
+  Numerical functions belong to the predefined functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions.htm). The main argument of a numerical function must represent a numerical value. The data type of the return value is determined either by the argument of the f
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmathematical_functions.htm"
+abapFile: "abenmathematical_functions.htm"
+keywords: ["do", "try", "method", "class", "data", "abenmathematical", "functions"]
+---
 
 * * *
 
@@ -52,7 +62,17 @@ Continue
 
 ### abennumerical_functions.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... func( arg ) ... Effect The argument of a general numeric function must be an individual data object outside an arithmetic expression, and can itself be a numeric expression within an arithmetic expression. Effect of the general numeric functions. Function func Return Value abs Absolute value of
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_functions.htm"
+abapFile: "abennumerical_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abennumerical", "functions"]
+---
 
 * * *
 
@@ -139,7 +159,17 @@ Executable Example
 
 ### abenpower_function.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... ipow( base = arg exp = n ) ... Effect This function raises the argument arg passed to base to the exponent n passed to exp. The arguments arg and n are numeric expression positions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_expr_position_glosry.htm 'Glossary Entry
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpower_function.htm"
+abapFile: "abenpower_function.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenpower", "function"]
+---
 
 * * *
 
@@ -187,7 +217,17 @@ Executable Example
 
 ### abennmax_nmin_functions.htm
 
-  
+---
+title: "Syntax Forms"
+description: |
+  ... nmaxnmin( val1 = arg1 val2 = arg2 val3 = arg3 ... val9 = arg9 ) ... Effect These functions return the value of the greatest or the least of the arguments passed. A minimum of two arguments, arg1 and arg2, and a maximum of nine arguments must be passed. Here, the optional input
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennmax_nmin_functions.htm"
+abapFile: "abennmax_nmin_functions.htm"
+keywords: ["do", "if", "try", "data", "abennmax", "nmin", "functions"]
+---
 
 * * *
 
@@ -250,7 +290,17 @@ Executable Example
 
 ### abenfloating_point_functions.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... func( arg ) ... Effect The argument of a floating point function must be a single data object outside an arithmetic expression and can be an arithmetic expression itself within an arithmetic expression. Effect of the floating point functions: Function func Meaning Definition Range acos arccosine
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_functions.htm"
+abapFile: "abenfloating_point_functions.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "internal-table", "abenfloating", "point", "functions"]
+---
 
 * * *
 
@@ -419,7 +469,17 @@ CX\_SY\_ARG\_OUT\_OF\_DOMAIN
 
 ### abendec_floating_point_functions.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... roundrescale( val = arg ...  ) ... Effect The rounding functions expect a decimal floating point number(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecfloat_glosry.htm 'Glossary Entry') as a main argument val and additional arguments that describe how this floating point
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendec_floating_point_functions.htm"
+abapFile: "abendec_floating_point_functions.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abendec", "floating", "point", "functions"]
+---
 
 * * *
 
@@ -437,9 +497,7 @@ Effect
 
 The rounding functions expect a [decimal floating point number](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecfloat_glosry.htm "Glossary Entry") as a main argument val and additional arguments that describe how this floating point number is handled. The type of the return value of a rounding function is always decfloat34. Within an arithmetic expression, the argument for the decimal floating point number can either be an arithmetic expression or a function. The other arguments must always be specified as numeric data objects.
 
--   [Rounding Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_1)
-
--   [Rescaling Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
+-   [Rounding Function](#abendec-floating-point-functions-1--------rescaling-function---@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
 
 Note
 
@@ -952,7 +1010,17 @@ Precision
 
 ### abennumerical_functions_abexas.htm
 
-  
+---
+title: "Examples of numerical functions"
+description: |
+  !Example(exa.gif 'Example') Numerical Functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmath_func_abexa.htm) !Example(exa.gif 'Example') Integer Power Function ipow(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenipow_function_abexa.htm) !Example(exa.g
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_functions_abexas.htm"
+abapFile: "abennumerical_functions_abexas.htm"
+keywords: ["do", "if", "data", "abennumerical", "functions", "abexas"]
+---
 
 * * *
 
@@ -971,7 +1039,17 @@ Continue
 
 ### abenmath_func_abexa.htm
 
-  
+---
+title: "Numerical Functions"
+description: |
+  This example demonstrates the use of general numerical functions. Source Code REPORT demo_numerical_function. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA n TYPE decfloat16. DATA m TYPE decfloat16 VALUE '-5.55'. DATA(out) = cl_d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmath_func_abexa.htm"
+abapFile: "abenmath_func_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abenmath", "func", "abexa"]
+---
 
 * * *
 
@@ -1019,7 +1097,17 @@ The output of the program shows how each of the general numerical functions affe
 
 ### abenipow_function_abexa.htm
 
-  
+---
+title: "Integer Power Function ipow"
+description: |
+  This example demonstrates the integer power function ipow(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpower_function.htm). Source Code REPORT demo_ipow. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA n TYPE i. D
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenipow_function_abexa.htm"
+abapFile: "abenipow_function_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenipow", "function", "abexa"]
+---
 
 * * *
 
@@ -1065,7 +1153,17 @@ The program demonstrates that the integer power function ipow can be used to ach
 
 ### abennmax_nmin_function_abexa.htm
 
-  
+---
+title: "Extremum functions nmax, nmin"
+description: |
+  The example demonstrates the extremum functions nmax(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennmax_nmin_functions.htm) and nmin(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennmax_nmin_functions.htm). Source Code REPORT demo_nmax_nmin. CLASS demo DEFINITIO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennmax_nmin_function_abexa.htm"
+abapFile: "abennmax_nmin_function_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abennmax", "nmin", "function", "abexa"]
+---
 
 * * *
 
@@ -1133,7 +1231,17 @@ The program determines the minimum or maximum value of a parabola which is opene
 
 ### abenround_function_abexa.htm
 
-  
+---
+title: "Rounding Function round"
+description: |
+  This example demonstrates the rounding function round(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendec_floating_point_functions.htm). Source Code REPORT demo_round. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF mode, value LIKE
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenround_function_abexa.htm"
+abapFile: "abenround_function_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "method", "class", "data", "types", "abenround", "function", "abexa"]
+---
 
 * * *
 
@@ -1236,7 +1344,17 @@ For fraction numbers between 1 and -1, the program depicts the effect of all rou
 
 ### abennumerical_functions_abexas.htm
 
-  
+---
+title: "Examples of numerical functions"
+description: |
+  !Example(exa.gif 'Example') Numerical Functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmath_func_abexa.htm) !Example(exa.gif 'Example') Integer Power Function ipow(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenipow_function_abexa.htm) !Example(exa.g
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_functions_abexas.htm"
+abapFile: "abennumerical_functions_abexas.htm"
+keywords: ["do", "if", "data", "abennumerical", "functions", "abexas"]
+---
 
 * * *
 

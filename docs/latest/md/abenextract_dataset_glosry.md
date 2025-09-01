@@ -1,4 +1,14 @@
-  
+---
+title: "extract_dataset_glosry"
+description: |
+  extract_dataset_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextract_dataset_glosry.htm"
+abapFile: "abenextract_dataset_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenextract", "dataset", "glosry"]
+---
 
 * * *
 

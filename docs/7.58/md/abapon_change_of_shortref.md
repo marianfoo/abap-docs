@@ -1,4 +1,14 @@
-  
+---
+title: "ON CHANGE OF - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapon.htm) Syntax ON CHANGE OF dobj OR dobj1 OR dobj2 .... statement_block ENDON. Effect Obsolete: Defines a control structure with a statement block statement_block. The statement block is executed if the data
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapon_change_of_shortref.htm"
+abapFile: "abapon_change_of_shortref.htm"
+keywords: ["do", "if", "data", "abapon", "change", "shortref"]
+---
 
 * * *
 

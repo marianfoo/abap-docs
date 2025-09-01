@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric expression"
+description: |
+  Represents a numeric value. A numeric expression is a constructor expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_glosry.htm 'Glossary Entry'), arithmetic expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarithmetic_expression_glosry.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_expression_glosry.htm"
+abapFile: "abennumerical_expression_glosry.htm"
+keywords: ["do", "try", "data", "abennumerical", "expression", "glosry"]
+---
 
 * * *
 

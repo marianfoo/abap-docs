@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Fixed Value Appends"
+description: |
+  Domains(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_domains.htm) delivered by SAP can be extended by partners and customers using appends known as fixed value appends, without modifying the original object. The name of a fixed value append is subject to the same rules
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_fixed_value_appends.htm"
+abapFile: "abenddic_fixed_value_appends.htm"
+keywords: ["do", "if", "try", "abenddic", "fixed", "value", "appends"]
+---
 
 * * *
 

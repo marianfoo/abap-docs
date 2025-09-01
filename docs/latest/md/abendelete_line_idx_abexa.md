@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_int_tbls_delete_ind_1 DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_int_tbls_delete_ind_1 IMPLEMENTATION. METHOD main. DATA ita
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendelete_line_idx_abexa.htm"
+abapFile: "abendelete_line_idx_abexa.htm"
+keywords: ["delete", "loop", "do", "if", "method", "class", "data", "internal-table", "abendelete", "line", "idx", "abexa"]
+---
 
 * * *
 

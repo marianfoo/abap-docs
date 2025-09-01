@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Data Types"
+description: |
+  In ABAP CDS, data types can be defined as CDS user-defined types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_user_defined_type_glosry.htm 'Glossary Entry'). CDS user-defined types are based on built-in DDIC types(https://help.sap.com/doc/abapdocu_latest_index_htm/late
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_types.htm"
+abapFile: "abencds_data_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds"]
+---
 
 * * *
 

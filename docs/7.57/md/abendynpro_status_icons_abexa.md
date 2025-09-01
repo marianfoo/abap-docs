@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_status_icons. DATA value TYPE i VALUE 1. DATA: status_icon TYPE icons-text, icon_name(20) TYPE c, icon_text(10) TYPE c. CALL SCREEN 100. MODULE set_icon OUTPUT. SET PF-STATUS 'SCREEN_100'. CASE value. WHEN 1. icon_name = 'ICON_GREEN_LIGHT'. icon_text =  text-003. WHEN
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_status_icons_abexa.htm"
+abapFile: "abendynpro_status_icons_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "status", "icons", "abexa"]
+---
 
 * * *
 

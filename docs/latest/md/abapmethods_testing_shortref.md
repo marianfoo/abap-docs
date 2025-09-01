@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, FOR TESTING - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_testing.htm) Syntax METHODS meth FOR TESTING. Effect Defines a test method(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_method_glosry.htm 'Glossary Entry') in a test class(https://
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_testing_shortref.htm"
+abapFile: "abapmethods_testing_shortref.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "testing", "shortref"]
+---
 
 * * *
 

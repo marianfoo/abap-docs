@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - SQL Expressions"
+description: |
+  SQL expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) are usually evaluated on the database and and any built-in functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_builtin_functions.htm) used as operands of these expressions a
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuffer_expressions.htm"
+abapFile: "abenbuffer_expressions.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abenbuffer", "expressions"]
+---
 
 * * *
 

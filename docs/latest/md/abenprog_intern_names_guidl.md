@@ -1,4 +1,14 @@
-  
+---
+title: "Program-Internal Names"
+description: |
+  Background Program-internal names describe entities that are declared in the program and are called within the program or called by other programs. Typical examples include identifiers for data types and data objects as well as methods and method interface parameters. Program-internal declarations c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprog_intern_names_guidl.htm"
+abapFile: "abenprog_intern_names_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abenprog", "intern", "names", "guidl"]
+---
 
 * * *
 

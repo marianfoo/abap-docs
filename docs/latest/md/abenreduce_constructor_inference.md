@@ -1,4 +1,14 @@
-  
+---
+title: "REDUCE, Type Inference for Actual Parameter"
+description: |
+  If a constructor expression REDUCE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_reduce.htm) #( ... INIT ... FOR ... ) is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the fo
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_constructor_inference.htm"
+abapFile: "abenreduce_constructor_inference.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenreduce", "constructor", "inference"]
+---
 
 * * *
 

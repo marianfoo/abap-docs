@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_int_tables_delete_adjacen. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF line, col1 TYPE i, col2 TYPE c LENGTH 1, END OF line. DATA itab LIKE STANDARD TABLE OF line WITH NON-UNIQUE KEY col2. itab = VALUE #(
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendelete_dup_lines_abexa.htm"
+abapFile: "abendelete_dup_lines_abexa.htm"
+keywords: ["select", "delete", "do", "if", "method", "class", "data", "internal-table", "abendelete", "dup", "lines", "abexa"]
+---
 
 * * *
 

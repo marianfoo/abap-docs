@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... line_exists( table_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expressions.htm) ) ... Effect The built-in(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) predicate function(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenline_exists_function.htm"
+abapFile: "abenline_exists_function.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abenline", "exists", "function"]
+---
 
 * * *
 

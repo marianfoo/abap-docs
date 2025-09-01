@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Null Values"
+description: |
+  A null value is a special value returned by a database(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_glosry.htm 'Glossary Entry') in order to indicate an undefined value or result. Null values do not correspond to any content of data objects(https://help.sap.com/doc/aba
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_null_values.htm"
+abapFile: "abenabap_sql_null_values.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "data", "internal-table", "abenabap", "sql", "null", "values"]
+---
 
 * * *
 

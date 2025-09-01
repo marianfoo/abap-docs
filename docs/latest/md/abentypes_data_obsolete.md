@@ -1,4 +1,14 @@
-  
+---
+title: "Data Types and Data Objects"
+description: |
+  -   TYPES - implicit(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_implicit.htm) -   Wrong Lengths(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_wrong_length.htm) -   Anonymous Components(https://help.sap.com/doc/abapdocu_latest_ind
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentypes_data_obsolete.htm"
+abapFile: "abentypes_data_obsolete.htm"
+keywords: ["do", "if", "data", "types", "abentypes", "obsolete"]
+---
 
 * * *
 

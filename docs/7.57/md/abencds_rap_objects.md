@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - RAP Objects"
+description: |
+  RAP objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_object_glosry.htm 'Glossary Entry') are special CDS objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm 'Glossary Entry') that support ABAP RAP(https://help.sap.com/doc/a
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm"
+abapFile: "abencds_rap_objects.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencds", "rap", "objects"]
+---
 
 * * *
 

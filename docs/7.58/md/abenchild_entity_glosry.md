@@ -1,4 +1,14 @@
-  
+---
+title: "CDS child entity"
+description: |
+  Any CDS entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry') of a CDS composition tree(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_composition_tree_glosry.htm 'Glossary Entry') other than the root entity(https://he
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchild_entity_glosry.htm"
+abapFile: "abenchild_entity_glosry.htm"
+keywords: ["do", "if", "try", "abenchild", "entity", "glosry"]
+---
 
 * * *
 

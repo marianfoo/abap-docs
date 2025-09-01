@@ -1,4 +1,14 @@
-  
+---
+title: "INCLUDE - TYPE, STRUCTURE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type_shortref.htm) Syntax INCLUDE  TYPE struc_type  STRUCTURE struc  AS name RENAMING WITH SUFFIX suffix. Extras: 1. ... AS name(#!ABAP_ADDITION_1@1@) 2. ... RENAMING W
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type.htm"
+abapFile: "abapinclude_type.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "types", "abapinclude", "type"]
+---
 
 * * *
 

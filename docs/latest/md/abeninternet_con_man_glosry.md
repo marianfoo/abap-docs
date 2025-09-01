@@ -1,4 +1,14 @@
-  
+---
+title: "Internet Communication Manager"
+description: |
+  ICM for short. A process of AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry') that enables AS ABAP to communicate directly with the Internet using HTTP/HTTPS/SMTP. The ICM is used to connect an AS ABAP to web-based presentation compone
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternet_con_man_glosry.htm"
+abapFile: "abeninternet_con_man_glosry.htm"
+keywords: ["do", "if", "try", "class", "abeninternet", "con", "man", "glosry"]
+---
 
 * * *
 

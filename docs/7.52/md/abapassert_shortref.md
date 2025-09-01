@@ -1,4 +1,14 @@
-  
+---
+title: "ASSERT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm) Syntax ASSERT  ID group SUBKEY sub FIELDS val1 val2 ... CONDITION  log_exp. Effect Defines an assertion(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenassertion_g
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert_shortref.htm"
+abapFile: "abapassert_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapassert", "shortref"]
+---
 
 * * *
 

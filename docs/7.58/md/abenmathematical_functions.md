@@ -1,4 +1,14 @@
-  
+---
+title: "Catchable Exceptions"
+description: |
+  The catchable exceptions that can be raised during the calculation of a numeric function are subclasses of the classes CX_SY_ARITHMETIC_ERROR and CX_SY_CONVERSION_ERROR. num_func - abs, sign, ceil, floor , trunc, frac(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmathematical_functions.htm"
+abapFile: "abenmathematical_functions.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenmathematical", "functions"]
+---
 
 * * *
 

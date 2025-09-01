@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Data Types and Attributes"
+description: |
+  Attributes are the data objects of a class. It is also possible to declare data types that are specific to the class. Attributes and data types are declared using one of the following: -   General statements that are also possible in other contexts -   TYPES(https://help.sap.com/doc/abapdocu_lates
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentypes_attributes.htm"
+abapFile: "abentypes_attributes.htm"
+keywords: ["do", "if", "class", "data", "types", "abentypes", "attributes"]
+---
 
 * * *
 

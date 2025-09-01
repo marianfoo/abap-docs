@@ -1,4 +1,14 @@
-  
+---
+title: "RAP runtime framework"
+description: |
+  Framework for accessing and handling RAP business objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm 'Glossary Entry') from outside AS ABAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenas_abap_glosry.htm 'Glossary Entry'). In order to handl
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_runtime_framework_glosry.htm"
+abapFile: "abenrap_runtime_framework_glosry.htm"
+keywords: ["do", "try", "data", "abenrap", "runtime", "framework", "glosry"]
+---
 
 * * *
 

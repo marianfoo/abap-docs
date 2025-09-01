@@ -1,4 +1,14 @@
-  
+---
+title: "ADF - Mini ABAP Daemon"
+description: |
+  This example demonstrates a mini ABAP Daemon(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_glosry.htm 'Glossary Entry'). Source Code REPORT demo_abap_mini_daemon. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_mini_daemon_abexa.htm"
+abapFile: "abenabap_mini_daemon_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "catch", "method", "class", "data", "abenabap", "mini", "daemon", "abexa"]
+---
 
 * * *
 

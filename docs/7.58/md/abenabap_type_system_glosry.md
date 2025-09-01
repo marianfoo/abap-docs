@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP type system"
+description: |
+  → ABAP type hierarchy(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_hierarchy.htm).
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_type_system_glosry.htm"
+abapFile: "abenabap_type_system_glosry.htm"
+keywords: ["do", "if", "abenabap", "type", "system", "glosry"]
+---
 
 * * *
 

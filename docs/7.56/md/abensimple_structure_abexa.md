@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration of a Simple Structure"
+description: |
+  This example demonstrates the declaration of a simple structure. Source Code REPORT demo_simple_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF address, name   TYPE string VALUE `Mr. Duncan Pea`, street TYPE s
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensimple_structure_abexa.htm"
+abapFile: "abensimple_structure_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "abensimple", "structure", "abexa"]
+---
 
 * * *
 

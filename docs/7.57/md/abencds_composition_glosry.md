@@ -1,4 +1,14 @@
-  
+---
+title: "CDS composition"
+description: |
+  Special CDS association(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm 'Glossary Entry') that defines a parent-child relationship. The composition source(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomposition_source_glosry.htm 'Gloss
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm"
+abapFile: "abencds_composition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "composition", "glosry"]
+---
 
 * * *
 

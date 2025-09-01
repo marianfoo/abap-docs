@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abentext_pool.htm
 
-  
+---
+title: "Texts in Text Pools"
+description: |
+  Text pools are persistent repositories for the following text elements(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_element_glosry.htm 'Glossary Entry'): -   Text symbols(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_symbol_glosry.htm 'Glossary Entry'
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_pool.htm"
+abapFile: "abentext_pool.htm"
+keywords: ["select", "do", "while", "if", "try", "class", "types", "abentext", "pool"]
+---
 
 * * *
 
@@ -51,7 +61,17 @@ Continue
 
 ### abapset_language.htm
 
-  
+---
+title: "SET LANGUAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_language_shortref.htm) Syntax SET LANGUAGE lang. Effect This statement loads the list headers(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_header_glosry.htm 'Glossary Entry') and text symbo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_language.htm"
+abapFile: "abapset_language.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapset", "language"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - DEFINE ROLE, replacing"
+description: |
+  Syntax ... REPLACING  replacement_step(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_inherit_rpl_step.htm) , replacement_step(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_inherit_rpl_step.htm), ...  Effect This addition modif
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_inherit_replacing.htm"
+abapFile: "abencds_f1_cond_inherit_replacing.htm"
+keywords: ["do", "if", "data", "abencds", "cond", "inherit", "replacing"]
+---
 
 * * *
 

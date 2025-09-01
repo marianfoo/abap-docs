@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Example of an ST Program"
+description: |
+  Symmetrical serialization and deserialization of a nested structure. Source Code REPORT demo_st_program. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( )->begin_section( `Serialization` ). DATA sour
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_program_abexa.htm"
+abapFile: "abenst_program_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abenst", "program", "abexa"]
+---
 
 * * *
 

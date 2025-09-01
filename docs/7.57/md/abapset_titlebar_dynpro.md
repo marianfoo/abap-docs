@@ -1,4 +1,14 @@
-  
+---
+title: "SET TITLEBAR, Dynpro"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_titlebar_shortref.htm) Syntax SET TITLEBAR title OF PROGRAM prog WITH text1 ... text9. Additions: 1. ... OF PROGRAM prog(#!ABAP_ADDITION_1@1@) 2. ... WITH text1 ... text9(#!ABAP_ADDITION_2@2@)
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_titlebar_dynpro.htm"
+abapFile: "abapset_titlebar_dynpro.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapset", "titlebar", "dynpro"]
+---
 
 * * *
 

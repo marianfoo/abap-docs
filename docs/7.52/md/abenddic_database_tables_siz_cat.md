@@ -1,4 +1,14 @@
-  
+---
+title: "Size Category of Database Tables"
+description: |
+  The size category determines the size of the initial memory reserved for the table on the database. Values between 0 and 9 can be specified. Expected volumes of rows from the table are assigned to these values. Size Category Expected Rows 0 0 to 3,600 1 3,600 to 14,000 2 14,000 to 58,000 3 58,000 to
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_siz_cat.htm"
+abapFile: "abenddic_database_tables_siz_cat.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "siz", "cat"]
+---
 
 * * *
 

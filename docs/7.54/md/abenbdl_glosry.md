@@ -1,4 +1,14 @@
-  
+---
+title: "Behavior Definition Language"
+description: |
+  Short: BDL Declarative language for behavior modelling of a business object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') in the context of the ABAP RESTful Programming Model(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_glosry.htm"
+abapFile: "abenbdl_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "glosry"]
+---
 
 * * *
 

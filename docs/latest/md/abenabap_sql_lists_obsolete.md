@@ -1,4 +1,14 @@
-  
+---
+title: "Blank-Separated Lists"
+description: |
+  The following lists of an ABAP SQL statement can still be specified with blanks as separators instead of commas, unless one of the strict modes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strict_modes.htm) of the syntax check applies from ABAP release 7.40, SP05. -
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_lists_obsolete.htm"
+abapFile: "abenabap_sql_lists_obsolete.htm"
+keywords: ["select", "update", "do", "if", "data", "abenabap", "sql", "lists", "obsolete"]
+---
 
 * * *
 

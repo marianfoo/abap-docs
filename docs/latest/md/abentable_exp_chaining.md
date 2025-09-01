@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Chainings of table expressions with functional method calls, that is, specifying the internal table as a functional method call meth( ... ) ...  or meth( ... )-comp ...  and accessing the internal table using a chained attribute access meth( ... )->itab ... , are not yet possible. Table
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_exp_chaining.htm"
+abapFile: "abentable_exp_chaining.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abentable", "exp", "chaining"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ table\_exp - Chainings
 
 [Table expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expressions.htm) can be chained with the structure component selector \-, with other table expressions, and with the object component selector \->.
 
--   [Chainings with the Structure Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_1)
--   [Chainings with Table Expressions](#@@ITOC@@ABENTABLE_EXP_CHAINING_2)
+-   [Chainings with the Structure Component Selector](#abentable-exp-chaining-1-------chainings-with-table-expressions---@ITOC@@ABENTABLE_EXP_CHAINING_2)
 -   [Chainings with the Object Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_3)
 
 If the constructor operator VALUE or REF is specified before a chaining to [control the result](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_exp_result.htm), only the final result is affected. Any intermediate results are always temporary field symbols and the corresponding performance notes should be considered.

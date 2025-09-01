@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Interfaces"
+description: |
+  This example demonstrates the use of interfaces. Source Code  CCDEF CLASS o DEFINITION. PUBLIC SECTION. CLASS-DATA out TYPE REF TO if_demo_output. ENDCLASS.  Public class definition CLASS cl_demo_interface DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. ME
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_abexa.htm"
+abapFile: "abeninterface_abexa.htm"
+keywords: ["insert", "loop", "do", "if", "method", "class", "data", "internal-table", "abeninterface", "abexa"]
+---
 
 * * *
 

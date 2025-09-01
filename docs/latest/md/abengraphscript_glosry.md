@@ -1,4 +1,14 @@
-  
+---
+title: "GraphScript"
+description: |
+  GraphScript is an imperative programming language that provides a high-level interface for accessing the graph(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengraph_glosry.htm 'Glossary Entry') data defined by a graph workspace(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengraphscript_glosry.htm"
+abapFile: "abengraphscript_glosry.htm"
+keywords: ["do", "if", "case", "try", "data", "abengraphscript", "glosry"]
+---
 
 * * *
 

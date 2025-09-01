@@ -1,4 +1,14 @@
-  
+---
+title: "Flagging of Deprecated Data in Check Tables"
+description: |
+  This example demonstrates how deprecated data is flagged in check tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm). Source Code REPORT demo_dynpro_deprecation. TABLES demo_depr_struc. DATA depr_flag TYPE abap_bool VALUE 'X'. START-OF-SELECTION. CALL
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm"
+abapFile: "abenddic_deprecation_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "class", "data", "types", "abenddic", "deprecation", "abexa"]
+---
 
 * * *
 

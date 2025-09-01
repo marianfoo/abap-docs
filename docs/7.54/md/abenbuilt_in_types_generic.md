@@ -1,4 +1,14 @@
-  
+---
+title: "Generic ABAP Types"
+description: |
+  The following table shows the predefined generic ABAP types. A generic data type is an incomplete type specification that includes multiple complete type specifications. With the exception of object, all generic types can be used after TYPE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-U
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm"
+abapFile: "abenbuilt_in_types_generic.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenbuilt", "generic"]
+---
 
 * * *
 

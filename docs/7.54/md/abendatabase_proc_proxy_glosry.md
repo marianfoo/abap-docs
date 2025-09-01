@@ -1,4 +1,14 @@
-  
+---
+title: "database_proc_proxy_glosry"
+description: |
+  database_proc_proxy_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_proc_proxy_glosry.htm"
+abapFile: "abendatabase_proc_proxy_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "proc", "proxy", "glosry"]
+---
 
 * * *
 

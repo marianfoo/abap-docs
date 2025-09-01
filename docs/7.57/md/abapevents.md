@@ -1,4 +1,14 @@
-  
+---
+title: "EVENTS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapevents_shortref.htm) Syntax EVENTS evt EXPORTING parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapevents_parameters.htm). Addition: ... EXPORTING parameters(#!ABAP_ONE_ADD@1@) Effect
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapevents.htm"
+abapFile: "abapevents.htm"
+keywords: ["do", "if", "try", "method", "class", "abapevents"]
+---
 
 * * *
 

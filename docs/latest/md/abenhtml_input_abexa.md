@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_html_input DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS handle_sapevent FOR EVENT sapevent OF cl_abap_browser IMPORTING action query_table. ENDCLASS.  Public c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhtml_input_abexa.htm"
+abapFile: "abenhtml_input_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenhtml", "input", "abexa"]
+---
 
 * * *
 

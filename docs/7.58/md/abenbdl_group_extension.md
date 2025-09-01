@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Implementation Grouping, Extension"
+description: |
+  Syntax ... group Group1 implementation in class Class1 unique(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique_ext.htm)  // implementation-relevant content  group Group2 implementation in class Class2 unique(https://help.sap.com/doc/abapdocu_758_index_htm/7.58
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_group_extension.htm"
+abapFile: "abenbdl_group_extension.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "group", "extension"]
+---
 
 * * *
 

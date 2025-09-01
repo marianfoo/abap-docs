@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE DISTANCE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_distance.htm) Syntax DESCRIBE DISTANCE BETWEEN dobj1 AND dobj2 INTO dst IN BYTECHARACTER MODE. Effect Defines the distance between two data objects dobj1 and dobj2 in the memory in bytes or characters and re
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_distance_shortref.htm"
+abapFile: "abapdescribe_distance_shortref.htm"
+keywords: ["do", "if", "data", "abapdescribe", "distance", "shortref"]
+---
 
 * * *
 

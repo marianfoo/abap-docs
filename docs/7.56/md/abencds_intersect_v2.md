@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, INTERSECT"
+description: |
+  Syntax ... INTERSECT select_statement(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_statement_v2.htm) ... Effect The set operator(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_set_operators_glosry.htm 'Glossary Entry') INTERSECT returns all disti
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_intersect_v2.htm"
+abapFile: "abencds_intersect_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "intersect"]
+---
 
 * * *
 

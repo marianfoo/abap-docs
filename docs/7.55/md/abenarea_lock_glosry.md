@@ -1,4 +1,14 @@
-  
+---
+title: "area_lock_glosry"
+description: |
+  area_lock_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarea_lock_glosry.htm"
+abapFile: "abenarea_lock_glosry.htm"
+keywords: ["update", "do", "try", "abenarea", "lock", "glosry"]
+---
 
 * * *
 

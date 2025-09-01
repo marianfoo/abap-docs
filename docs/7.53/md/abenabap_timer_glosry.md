@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Timer"
+description: |
+  A timer for wait times in non-blocking mode(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennon_blocking_model_glosry.htm 'Glossary Entry'), integrated into the ABAP runtime environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_timer_manager_glosry.htm 'G
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_timer_glosry.htm"
+abapFile: "abenabap_timer_glosry.htm"
+keywords: ["do", "try", "abenabap", "timer", "glosry"]
+---
 
 * * *
 

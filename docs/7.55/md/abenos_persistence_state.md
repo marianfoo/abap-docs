@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Management States in the Persistence Service"
+description: |
+  An object of a persistent class managed by the persistence service can have one of seven different management states. The state of the object affects what methods of the persistence service can be performed on it. The methods of the interface IF_OS_CA_INSTANCE provide information about the state
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_persistence_state.htm"
+abapFile: "abenos_persistence_state.htm"
+keywords: ["delete", "do", "while", "if", "try", "method", "class", "data", "abenos", "persistence", "state"]
+---
 
 * * *
 

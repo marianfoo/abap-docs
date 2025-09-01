@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC table view"
+description: |
+  DDIC view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_view_glosry.htm 'Glossary Entry') on DDIC database tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') of the ABAP Dictionary(https://help.sap.co
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_view_glosry.htm"
+abapFile: "abentable_view_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentable", "view", "glosry"]
+---
 
 * * *
 

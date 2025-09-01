@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-EVENTS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-events.htm) Syntax CLASS-EVENTS evt options. Effect Declares a static event(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_event_glosry.htm 'Glossary Entry') evt of a class or an interface. Addi
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-events_shortref.htm"
+abapFile: "abapclass-events_shortref.htm"
+keywords: ["do", "try", "class", "abapclass", "events", "shortref"]
+---
 
 * * *
 

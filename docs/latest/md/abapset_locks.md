@@ -1,4 +1,14 @@
-  
+---
+title: "SET LOCKS"
+description: |
+  Syntax Forms SET LOCKS ENTITY, Short Form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locks_entity.htm) 1. SET LOCKS ENTITY entity FROM inst response_param(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm). SET LOCKS OF,
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locks.htm"
+abapFile: "abapset_locks.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "abapset", "locks"]
+---
 
 * * *
 

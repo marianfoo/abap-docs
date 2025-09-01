@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpro Flow"
+description: |
+  -   Dynpros(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary Entry') are called either using transaction codes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransaction_code_glosry.htm 'Glossary Entry') or using the statement
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_processing.htm"
+abapFile: "abenabap_dynpros_processing.htm"
+keywords: ["select", "insert", "do", "while", "if", "case", "try", "abenabap", "dynpros", "processing"]
+---
 
 * * *
 

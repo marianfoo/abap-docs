@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Iteration Expressions"
+description: |
+  !Example(exa.gif 'Example') Creating Values with FOR and REDUCE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencond_iteration_reduce_abexa.htm) !Example(exa.gif 'Example') Creating Tables Using FOR and VALUE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencond_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeniteration_expressions_abexas.htm"
+abapFile: "abeniteration_expressions_abexas.htm"
+keywords: ["do", "if", "internal-table", "abeniteration", "expressions", "abexas"]
+---
 
 * * *
 

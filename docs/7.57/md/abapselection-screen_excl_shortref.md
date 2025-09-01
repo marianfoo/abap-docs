@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN EXCLUDE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselection-screen_ldb_version.htm) Syntax SELECTION-SCREEN EXCLUDE  PARAMETERS parameter  SELECT-OPTIONS selcrit  RADIOBUTTON GROUPS group  BLOCKS block  IDS id . Effect Deletes
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselection-screen_excl_shortref.htm"
+abapFile: "abapselection-screen_excl_shortref.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapselection", "screen", "excl", "shortref"]
+---
 
 * * *
 

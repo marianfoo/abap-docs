@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens as Subscreens"
+description: |
+  The example shows how to include selection screens in subscreens. Source Code REPORT demo_sel_screen_as_subscreen. SELECTION-SCREEN BEGIN OF SCREEN 1100 AS SUBSCREEN NESTING LEVEL 4. SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE text-010. PARAMETERS: p1(10) TYPE c, p2(10) TYPE c, p3(10) TY
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_subscreen_abexa.htm"
+abapFile: "abensel_screen_subscreen_abexa.htm"
+keywords: ["select", "do", "case", "data", "abensel", "screen", "subscreen", "abexa"]
+---
 
 * * *
 

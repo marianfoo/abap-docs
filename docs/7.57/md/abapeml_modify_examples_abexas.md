@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for ABAP EML MODIFY"
+description: |
+  -   ABAP EML - MODIFY, Variants(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_modify_alternatives_abexa.htm) -   ABAP EML - MODIFY, Standard Operations (Managed)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_modify_op_abexa.htm) -   ABAP EML - MODIFY, S
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_modify_examples_abexas.htm"
+abapFile: "abapeml_modify_examples_abexas.htm"
+keywords: ["do", "if", "try", "method", "abapeml", "modify", "examples", "abexas"]
+---
 
 * * *
 

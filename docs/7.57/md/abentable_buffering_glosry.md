@@ -1,4 +1,14 @@
-  
+---
+title: "table_buffering_glosry"
+description: |
+  table_buffering_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_buffering_glosry.htm"
+abapFile: "abentable_buffering_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abentable", "buffering", "glosry"]
+---
 
 * * *
 

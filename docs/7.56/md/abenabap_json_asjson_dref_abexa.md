@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - asJSON for Anonymous Data Objects"
+description: |
+  Source Code REPORT demo_asjson_dref. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA dref TYPE REF TO decfloat34. dref = NEW #( '1.23456' ). 'Transformation to JSON DATA(out) = cl_demo_output=>new( )->begin_section( 'asJSON' ). D
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_json_asjson_dref_abexa.htm"
+abapFile: "abenabap_json_asjson_dref_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenabap", "json", "asjson", "dref", "abexa"]
+---
 
 * * *
 

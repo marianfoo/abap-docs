@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( log_exp ) ... Effect A full logical expression log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) can be placed in parentheses. In the case of log_exp, this can be a join between multiple expressions using AND(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_bracket.htm"
+abapFile: "abenlogexp_bracket.htm"
+keywords: ["do", "if", "case", "try", "abenlogexp", "bracket"]
+---
 
 * * *
 

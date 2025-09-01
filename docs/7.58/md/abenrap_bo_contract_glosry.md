@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO contract"
+description: |
+  The RAP BO contract defines a set of rules for the RAP BO provider(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry') and consumer(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_consumer_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_contract_glosry.htm"
+abapFile: "abenrap_bo_contract_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "contract", "glosry"]
+---
 
 * * *
 

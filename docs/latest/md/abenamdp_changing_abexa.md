@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - SQLScript with Tabular CHANGING Parameter"
+description: |
+  This example demonstrates how an SQLScript procedure is implemented using AMDP with a tabular CHANGING parameter. Source Code  Public class definition CLASS cl_demo_amdp_changing_para DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION.
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_changing_abexa.htm"
+abapFile: "abenamdp_changing_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abenamdp", "changing", "abexa"]
+---
 
 * * *
 

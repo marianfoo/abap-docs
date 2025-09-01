@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Exceptions"
+description: |
+  !Example(exa.gif 'Example') Exceptions, RAISE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenraise_abexa.htm) !Example(exa.gif 'Example') Exceptions, TRY(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentry_abexa.htm) !Example(exa.gif 'Example') Exceptions -
+version: "7.52"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm"
+abapFile: "abenexception_abexas.htm"
+keywords: ["do", "if", "try", "catch", "class", "exception-handling", "abenexception", "abexas"]
+---
 
 * * *
 

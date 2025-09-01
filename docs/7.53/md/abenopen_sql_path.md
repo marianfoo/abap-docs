@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Path Expressions"
+description: |
+  Syntax ... source~_assoc1 parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_parameters.htm)attributes(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path_filter.htm) _assoc2 parameters(https://help.
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm"
+abapFile: "abenopen_sql_path.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenopen", "sql", "path"]
+---
 
 * * *
 

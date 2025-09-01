@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  The iterators shown here are forward iterators that iterate from left to right or from top to bottom. The interfaces of the objects also make it possible to create backward iterators, which iterate from right to left or from bottom to top. Iterator for Nodes A reference variable document with the ty
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_dom_iterat_read.htm"
+abapFile: "abenabap_ixml_lib_dom_iterat_read.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenabap", "ixml", "lib", "dom", "iterat", "read"]
+---
 
 * * *
 
@@ -20,9 +30,7 @@ The section [Direct Read](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/e
 
 An iterator can be created for each of these objects. This iterator makes it possible to iterate the DOM elements represented by the objects. The interface of every iterator provides the same options for accessing the objects iterated by the iterator.
 
--   [Iterator for Nodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_1)
-
--   [Iterators for Lists](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_2)
+-   [Iterator for Nodes](#abenabap-ixml-lib-dom-iterat-read-1--------iterators-for-lists---@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_2)
 
 Note
 

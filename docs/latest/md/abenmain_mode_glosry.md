@@ -1,4 +1,14 @@
-  
+---
+title: "main_mode_glosry"
+description: |
+  main_mode_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmain_mode_glosry.htm"
+abapFile: "abenmain_mode_glosry.htm"
+keywords: ["do", "if", "try", "abenmain", "mode", "glosry"]
+---
 
 * * *
 

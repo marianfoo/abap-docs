@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Access Control"
+description: |
+  ABAP CDS enables access control based on a data control language (CDS DCL)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_syntax.htm). Access control in ABAP CDS further restricts the data returned from a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm"
+abapFile: "abencds_access_control.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencds", "access", "control"]
+---
 
 * * *
 

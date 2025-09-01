@@ -1,4 +1,14 @@
-  
+---
+title: "Hierarchy Columns"
+description: |
+  Hierarchy columns(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhierarchy_column_glosry.htm 'Glossary Entry') are additional components of the result set when the following data sources are accessed in an ABAP SQL query: -   A SQL hierarchy(https://help.sap.com/doc/abapdocu_756_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddddl_hierarchy.htm"
+abapFile: "abenddddl_hierarchy.htm"
+keywords: ["select", "do", "if", "try", "data", "abenddddl", "hierarchy"]
+---
 
 * * *
 

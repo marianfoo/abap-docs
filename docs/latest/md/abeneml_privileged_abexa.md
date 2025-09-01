@@ -1,4 +1,14 @@
-  
+---
+title: "Using the Addition PRIVILEGED with an ABAP EML Statement"
+description: |
+  This example demonstrates ABAP EML MODIFY statements executing an action(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaction_glosry.htm 'Glossary Entry') with and without the addition PRIVILEGED using a managed RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/late
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_privileged_abexa.htm"
+abapFile: "abeneml_privileged_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "abeneml", "privileged", "abexa"]
+---
 
 * * *
 

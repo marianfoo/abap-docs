@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... NOT log_exp ... Effect The negation of a logical expression log_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) using NOT creates a new logical expression that is false if the logical expression log_exp is true and vice versa. Hints -   The operator NOT is a s
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_not.htm"
+abapFile: "abenlogexp_not.htm"
+keywords: ["select", "do", "if", "try", "abenlogexp", "not"]
+---
 
 * * *
 

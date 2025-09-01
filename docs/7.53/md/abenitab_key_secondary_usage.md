@@ -1,4 +1,14 @@
-  
+---
+title: "Using Secondary Keys"
+description: |
+  Notes on Using Secondary Table Keys -   The standard scenario for sensibly using secondary table keys relates to a very large internal table that is created in the memory and whose content is changed very infrequently. Costs(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_m
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_usage.htm"
+abapFile: "abenitab_key_secondary_usage.htm"
+keywords: ["insert", "update", "delete", "do", "while", "if", "case", "try", "data", "internal-table", "abenitab", "key", "secondary", "usage"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS Projection View, Expose Associations"
+description: |
+  This example demonstrates how to read fields via exposed associations in a CDS projection view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm 'Glossary Entry'). CDS projection view @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label:
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_assoc_abexa.htm"
+abapFile: "abencds_proj_view_assoc_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "method", "class", "data", "abencds", "proj", "view", "assoc", "abexa"]
+---
 
 * * *
 

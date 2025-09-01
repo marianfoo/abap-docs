@@ -1,4 +1,14 @@
-  
+---
+title: "local_data_glosry"
+description: |
+  local_data_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlocal_data_glosry.htm"
+abapFile: "abenlocal_data_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenlocal", "glosry"]
+---
 
 * * *
 

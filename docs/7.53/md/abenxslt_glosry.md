@@ -1,4 +1,14 @@
-  
+---
+title: "XSLT"
+description: |
+  XSLT (Extensible Stylesheet Language Transformation, see www.w3.org/TR/xslt(http://www.w3.org/tr/xslt)) enables the conversion of XML(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxml_glosry.htm 'Glossary Entry') formats into any other XML formats. The ABAP runtime environment
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxslt_glosry.htm"
+abapFile: "abenxslt_glosry.htm"
+keywords: ["do", "try", "abenxslt", "glosry"]
+---
 
 * * *
 

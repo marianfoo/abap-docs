@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abennum_processing_statements.htm
 
-  
+---
+title: "Statements for Numeric Calculations"
+description: |
+  Alongside arithmetic expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry'), four special statements are provided for performing the basic arithmetic operations addition, subtraction, multiplication, and division: -   ADD(htt
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm"
+abapFile: "abennum_processing_statements.htm"
+keywords: ["do", "try", "data", "abennum", "processing", "statements"]
+---
 
 * * *
 
@@ -42,7 +52,17 @@ Continue
 
 ### abapadd.htm
 
-  
+---
+title: "ADD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd_shortref.htm) Syntax ADD dobj1 TO dobj2. Effect This statement has the same effect as the statement dobj2 = dobj2 + dobj1.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm) The
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd.htm"
+abapFile: "abapadd.htm"
+keywords: ["do", "while", "if", "try", "data", "abapadd"]
+---
 
 * * *
 
@@ -110,7 +130,17 @@ Runtime error: ADD\_FIELDS\_ILLEGAL\_ACCESS
 
 ### abapsubtract.htm
 
-  
+---
+title: "SUBTRACT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract_shortref.htm) Syntax SUBTRACT dobj1 FROM dobj2. Effect This statement has the same effect as the statement dobj2 = dobj2 - dobj1.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_ex
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract.htm"
+abapFile: "abapsubtract.htm"
+keywords: ["do", "if", "try", "data", "abapsubtract"]
+---
 
 * * *
 
@@ -178,7 +208,17 @@ Non-Handleable Exceptions
 
 ### abapmultiply.htm
 
-  
+---
+title: "MULTIPLY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply_shortref.htm) Syntax MULTIPLY dobj1 BY dobj2. Effect This statement has the same effect as the statement dobj1 = dobj1  dobj2.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_exp
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply.htm"
+abapFile: "abapmultiply.htm"
+keywords: ["do", "if", "try", "data", "abapmultiply"]
+---
 
 * * *
 
@@ -245,7 +285,17 @@ Non-Handleable Exceptions
 
 ### abapdivide.htm
 
-  
+---
+title: "DIVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide_shortref.htm) Syntax DIVIDE dobj1 BY dobj2. Effect This statement has the same effect as the statement dobj1 = dobj1 / dobj2.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm"
+abapFile: "abapdivide.htm"
+keywords: ["do", "if", "try", "data", "abapdivide"]
+---
 
 * * *
 

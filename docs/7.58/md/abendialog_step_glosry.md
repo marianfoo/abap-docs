@@ -1,4 +1,14 @@
-  
+---
+title: "dialog_step_glosry"
+description: |
+  dialog_step_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_step_glosry.htm"
+abapFile: "abendialog_step_glosry.htm"
+keywords: ["do", "if", "try", "abendialog", "step", "glosry"]
+---
 
 * * *
 

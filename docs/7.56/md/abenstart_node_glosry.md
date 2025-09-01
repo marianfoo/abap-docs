@@ -1,4 +1,14 @@
-  
+---
+title: "start_node_glosry"
+description: |
+  start_node_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstart_node_glosry.htm"
+abapFile: "abenstart_node_glosry.htm"
+keywords: ["do", "try", "abenstart", "node", "glosry"]
+---
 
 * * *
 

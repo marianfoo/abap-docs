@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_set_hold_data. DATA field(10) TYPE c. CALL SCREEN 100. field = 'XXXXXXXXXX'. CALL SCREEN 100. MODULE hold_data OUTPUT. SET HOLD DATA ON. ENDMODULE. Description The static next dynpro of dynpro 100 is 0. It contains a single input/output field field. The dynpro flow logic is:
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_hold_data_abexa.htm"
+abapFile: "abendynpro_hold_data_abexa.htm"
+keywords: ["delete", "do", "if", "try", "data", "abendynpro", "hold", "abexa"]
+---
 
 * * *
 

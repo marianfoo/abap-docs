@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic Programming"
+description: |
+  Background Dynamic programming (dynamic creation of source code) makes programs as dynamic as possible. The following methods can be used to achieve this: -   Dynamic token specification Dynamic token specification involves specifying individual operands or whole parts of statements (clauses) in the
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneric_progr_guidl.htm"
+abapFile: "abengeneric_progr_guidl.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abengeneric", "progr", "guidl"]
+---
 
 * * *
 

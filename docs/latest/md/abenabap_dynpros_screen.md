@@ -1,4 +1,14 @@
-  
+---
+title: "Screen Element"
+description: |
+  Details Text fields Display elements, which cannot be changed either by the user or by the ABAP program. Input/output fields and templates Used to display data from the ABAP program or for entering data on the screen. Linked to screen fields. Dropdown list boxes Special input/output fields that allo
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_screen.htm"
+abapFile: "abenabap_dynpros_screen.htm"
+keywords: ["select", "do", "if", "try", "data", "abenabap", "dynpros", "screen"]
+---
 
 * * *
 

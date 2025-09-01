@@ -1,4 +1,14 @@
-  
+---
+title: "multi-byte-code_glosry"
+description: |
+  multi-byte-code_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmulti-byte-code_glosry.htm"
+abapFile: "abenmulti-byte-code_glosry.htm"
+keywords: ["do", "if", "abenmulti", "byte", "code", "glosry"]
+---
 
 * * *
 

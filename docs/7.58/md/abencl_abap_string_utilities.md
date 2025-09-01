@@ -1,4 +1,14 @@
-  
+---
+title: "System Classes for Character String and Byte String Processing"
+description: |
+  -   Class for Trailing Blanks(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_util.htm) -   Class for Compressing Character Strings and Byte Strings(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_gzip.htm) -   Class with Utilities for String Process
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_string_utilities.htm"
+abapFile: "abencl_abap_string_utilities.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "string", "utilities"]
+---
 
 * * *
 

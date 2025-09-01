@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE RESPONSE FOR"
+description: |
+  Syntax ... RESPONSE FOR  FAILED  MAPPED  REPORTED  EARLY  LATE  bdef  ... Effect BDEF derived type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') used for RAP response parameters(https://help.sap.com/doc/a
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_response_for.htm"
+abapFile: "abaptype_response_for.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "data", "types", "internal-table", "abaptype", "response", "for"]
+---
 
 * * *
 

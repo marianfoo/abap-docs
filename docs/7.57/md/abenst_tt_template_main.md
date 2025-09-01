@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:template name='tmpl'> ... </tt:template> Effect The statement tt:template defines a template. An ST program must contain at least one definition of a template: Each template of the transformation must be uniquely addressable. To achieve this, each template can be given a unique name, tm
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_main.htm"
+abapFile: "abenst_tt_template_main.htm"
+keywords: ["do", "if", "case", "data", "abenst", "template", "main"]
+---
 
 * * *
 

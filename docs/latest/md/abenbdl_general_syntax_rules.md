@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BDL - General Syntax Rules"
+description: |
+  The general syntax rules for the RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm 'Glossary Entry') for defining RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') are as follow
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm"
+abapFile: "abenbdl_general_syntax_rules.htm"
+keywords: ["do", "if", "case", "try", "abenbdl", "general", "syntax", "rules"]
+---
 
 * * *
 

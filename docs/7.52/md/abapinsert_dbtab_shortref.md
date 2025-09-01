@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT dbtab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm) Syntax INSERT  INTO dbtabview(target_syntax) USING CLIENT clnt  CLIENT SPECIFIED CONNECTION con(con_syntax) VALUES wa   dbtabview(target_syntax)
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab_shortref.htm"
+abapFile: "abapinsert_dbtab_shortref.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "class", "data", "internal-table", "abapinsert", "dbtab", "shortref"]
+---
 
 * * *
 

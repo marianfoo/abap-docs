@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Texts for System Classes"
+description: |
+  This function is for internal use only. Do not use it in application programs. If an exception class does not implement the interface IF_T100_MESSAGE, texts stored in OTR (Online Text Repository) are used as exception texts. These texts can contain any number of placeholders. Each placeholder is r
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexception_texts_internal.htm"
+abapFile: "abenexception_texts_internal.htm"
+keywords: ["select", "delete", "do", "if", "try", "class", "data", "exception-handling", "abenexception", "texts", "internal"]
+---
 
 * * *
 

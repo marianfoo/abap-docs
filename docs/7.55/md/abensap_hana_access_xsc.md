@@ -1,4 +1,14 @@
-  
+---
+title: "Access to SAP HANA XSC Objects"
+description: |
+  SAP HANA XSC(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxsc_glosry.htm 'Glossary Entry') (SAP HANA Extended Application Services Classic Model) is the predecessor version of SAP HANA XSA(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxsa_glosry.htm 'Glossary E
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_hana_access_xsc.htm"
+abapFile: "abensap_hana_access_xsc.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abensap", "hana", "access", "xsc"]
+---
 
 * * *
 

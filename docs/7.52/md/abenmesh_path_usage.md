@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Using Mesh Paths"
+description: |
+  -   Navigation to Mesh Nodes -   Mesh path expressions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm) -   Loops across mesh paths(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_loop.htm) -   FOR expression for mesh paths(https://he
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_usage.htm"
+abapFile: "abenmesh_path_usage.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "data", "abenmesh", "path", "usage"]
+---
 
 * * *
 

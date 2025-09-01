@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - BAdIs"
+description: |
+  In addition to the option of implementing BAdI methods(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbadi_method_glosry.htm 'Glossary Entry') of a regular BAdI(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbadi_glosry.htm 'Glossary Entry') as AMDP procedure imp
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_badis.htm"
+abapFile: "abenamdp_badis.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenamdp", "badis"]
+---
 
 * * *
 

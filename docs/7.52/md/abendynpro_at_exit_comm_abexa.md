@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Unconditional Module Call"
+description: |
+  The example illustrates how you can exit a screen without the automatic input checks. Source Code PROGRAM demo_dynpro_at_exit_command . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, input1(20) TYPE c, input2(20) TYPE c. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'ST
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_at_exit_comm_abexa.htm"
+abapFile: "abendynpro_at_exit_comm_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "exit", "comm", "abexa"]
+---
 
 * * *
 

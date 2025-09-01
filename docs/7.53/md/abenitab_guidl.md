@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables"
+description: |
+  An internal table is a dynamic data object consisting of a sequence of rows with the same data type. The data type of an internal table is a table type that has the following basic properties of every internal table: -   Row type The row type can be any data type. In particular, tables of elementary
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_guidl.htm"
+abapFile: "abenitab_guidl.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "internal-table", "abenitab", "guidl"]
+---
 
 * * *
 

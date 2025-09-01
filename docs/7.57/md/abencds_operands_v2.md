@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Elementary CDS Operands"
+description: |
+  Syntax ... literal(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_literal_v2.htm)  field(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_field_v2.htm)  $parameters.pname(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_parameter_v2
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_v2.htm"
+abapFile: "abencds_operands_v2.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "operands"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "FILTER, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 

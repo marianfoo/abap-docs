@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Extension Entity Behavior Definition"
+description: |
+  Syntax ... define behavior for ExtNode(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh.htm) ... Prerequisite As a prerequisite, the extended CDS behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Gl
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh_extend.htm"
+abapFile: "abenbdl_define_beh_extend.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "define", "beh", "extend"]
+---
 
 * * *
 

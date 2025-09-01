@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenwait.htm
 
-  
+---
+title: "Program Interruption"
+description: |
+  This section describes how programs can be generally interrupted using the statement WAIT UP TO. -   WAIT UP TO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_up_to.htm) Hint Special variants of the WAIT statement interrupt programs in order to wait for the end of certain proc
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwait.htm"
+abapFile: "abenwait.htm"
+keywords: ["do", "if", "abenwait"]
+---
 
 * * *
 
@@ -36,7 +46,17 @@ Continue
 
 ### abapwait_up_to.htm
 
-  
+---
+title: "WAIT UP TO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_shortref.htm) Syntax WAIT UP TO sec SECONDS. Effect This statement interrupts the execution of the program by the number of seconds specified in sec. sec is a numeric expression position(https://help.sap.com/doc/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_up_to.htm"
+abapFile: "abapwait_up_to.htm"
+keywords: ["update", "do", "if", "try", "catch", "data", "abapwait"]
+---
 
 * * *
 

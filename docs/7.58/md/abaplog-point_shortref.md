@@ -1,4 +1,14 @@
-  
+---
+title: "LOG-POINT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplog-point.htm) Syntax LOG-POINT ID group SUBKEY sub FIELDS val1 val2 .... Effect Defines a logpoint(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogpoint_glosry.htm 'Glossary Entry') to wri
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplog-point_shortref.htm"
+abapFile: "abaplog-point_shortref.htm"
+keywords: ["do", "if", "try", "abaplog", "point", "shortref"]
+---
 
 * * *
 

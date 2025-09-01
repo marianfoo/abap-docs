@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_int_tables_delete_ind_1. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA itab TYPE SORTED TABLE OF i WITH UNIQUE KEY table_line. FIELD-SYMBOLS <line> LIKE LINE OF itab. FINAL(out) = cl_demo_output=>new( ). itab = V
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendelete_line_idx_abexa.htm"
+abapFile: "abendelete_line_idx_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "method", "class", "data", "internal-table", "abendelete", "line", "idx", "abexa"]
+---
 
 * * *
 

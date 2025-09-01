@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  The constructor operators VALUE and REF used to control the result(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_result.htm) of the table expression cannot be used in write positions. Example An internal table is prefilled with initial lines, which are overwritten with a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_lhs.htm"
+abapFile: "abentable_exp_lhs.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abentable", "exp", "lhs"]
+---
 
 * * *
 

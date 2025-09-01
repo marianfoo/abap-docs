@@ -1,4 +1,14 @@
-  
+---
+title: "path_glosry"
+description: |
+  path_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_glosry.htm"
+abapFile: "abenpath_glosry.htm"
+keywords: ["do", "if", "try", "abenpath", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "null_indicator_glosry"
+description: |
+  null_indicator_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_indicator_glosry.htm"
+abapFile: "abennull_indicator_glosry.htm"
+keywords: ["select", "do", "if", "try", "abennull", "indicator", "glosry"]
+---
 
 * * *
 

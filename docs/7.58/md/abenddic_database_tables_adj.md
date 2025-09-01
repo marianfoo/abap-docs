@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Adjusting Database Tables"
+description: |
+  When an existing modified DDIC database table is activated, existing content must be adjusted on the database in the following cases: -   When a client column(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_column_glosry.htm 'Glossary Entry') is inserted. During the adjustmen
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_adj.htm"
+abapFile: "abenddic_database_tables_adj.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "data", "abenddic", "database", "tables", "adj"]
+---
 
 * * *
 

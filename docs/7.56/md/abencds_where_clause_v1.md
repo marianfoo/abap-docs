@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, SELECT, WHERE"
+description: |
+  Syntax ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v1.htm) ... Effect Defines a WHERE condition for the result set of a CDS DDIC-based view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm 'Glo
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_where_clause_v1.htm"
+abapFile: "abencds_where_clause_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "where", "clause"]
+---
 
 * * *
 

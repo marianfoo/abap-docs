@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... +cte_hierarchy Effect Specifies a CTE hierarchy(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencte_hierarchy_glosry.htm 'Glossary Entry') +cte_hierarchy as a an SQL hierarchy hierarchy(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_cte_hierarchy.htm"
+abapFile: "abenselect_cte_hierarchy.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenselect", "cte", "hierarchy"]
+---
 
 * * *
 

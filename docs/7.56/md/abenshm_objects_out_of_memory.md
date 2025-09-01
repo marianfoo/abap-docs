@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Memory Bottlenecks"
+description: |
+  The shared memory(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshared_memory_glosry.htm 'Glossary Entry') of an AS instance is a limited resource. The ABAP runtime framework uses it to store programs, program data, buffers and so on. With explicit ABAP programming, either data c
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_objects_out_of_memory.htm"
+abapFile: "abenshm_objects_out_of_memory.htm"
+keywords: ["update", "do", "if", "try", "catch", "method", "class", "data", "abenshm", "objects", "out", "memory"]
+---
 
 * * *
 

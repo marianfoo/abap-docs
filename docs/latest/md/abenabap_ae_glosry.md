@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Analytical Engine"
+description: |
+  The ABAP Analytical Engine implements the OLAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenolap_glosry.htm 'Glossary Entry') concept on AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry'). It processes multidime
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ae_glosry.htm"
+abapFile: "abenabap_ae_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ARTICLE"
+description: |
+  grouping function Aggregate function(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaggregate_function_glosry.htm 'Glossary Entry') for GROUPING SETS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgrouping_sets_clause.htm) in a query(https://help.sap.com/doc/aba
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_glosry.htm"
+abapFile: "abengrouping_glosry.htm"
+keywords: ["do", "if", "try", "abengrouping", "glosry"]
+---
 
 * * *
 

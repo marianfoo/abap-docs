@@ -1,4 +1,14 @@
-  
+---
+title: "Statements per Program Line"
+description: |
+  Background An ABAP statement (declaration or executable statement) is closed with a period. This statement can be followed by further statements in the same line. Statements can also span multiple lines. Rule Maximum of one statement per program line Write a maximum of one statement in every source
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatement_guidl.htm"
+abapFile: "abenstatement_guidl.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "abenstatement", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "syntax_check_glosry"
+description: |
+  syntax_check_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyntax_check_glosry.htm"
+abapFile: "abensyntax_check_glosry.htm"
+keywords: ["do", "while", "if", "try", "abensyntax", "check", "glosry"]
+---
 
 * * *
 

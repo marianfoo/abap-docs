@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... condition(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)  NOT cond_expr ANDOR cond_expr ... Effect Formulates an access condition(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenaccess_condition_glosry.htm 'Glo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_cond_expr.htm"
+abapFile: "abencds_dcl_role_cond_expr.htm"
+keywords: ["select", "do", "if", "try", "abencds", "dcl", "role", "cond", "expr"]
+---
 
 * * *
 

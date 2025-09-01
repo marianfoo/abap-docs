@@ -1,4 +1,14 @@
-  
+---
+title: "OData"
+description: |
+  Short for Open Data Protocol. OData is a standardized protocol for defining and consuming RESTful(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrestful_glosry.htm 'Glossary Entry') APIs. SAP Gateway(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_gat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenodata_glosry.htm"
+abapFile: "abenodata_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenodata", "glosry"]
+---
 
 * * *
 

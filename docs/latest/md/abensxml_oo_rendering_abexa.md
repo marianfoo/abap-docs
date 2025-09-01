@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_oo_writer DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_sxml_oo_writer IMPLEMENTATION. METHOD main. FINAL(writer) = CAST if_s
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_oo_rendering_abexa.htm"
+abapFile: "abensxml_oo_rendering_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abensxml", "rendering", "abexa"]
+---
 
 * * *
 

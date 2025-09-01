@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abentime_system_fields.htm
 
-  
+---
+title: "System Fields for Date and Time"
+description: |
+  The following table shows the system fields(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_field_glosry.htm 'Glossary Entry') that contain information about date and time. System Field Type Length Content GET TIME sy-datlo d - User date(https://help.sap.com/doc/abapd
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_system_fields.htm"
+abapFile: "abentime_system_fields.htm"
+keywords: ["update", "do", "if", "try", "data", "abentime", "system", "fields"]
+---
 
 * * *
 
@@ -132,7 +142,17 @@ Continue
 
 ### abapget_time.htm
 
-  
+---
+title: "GET TIME"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_time_shortref.htm) Syntax GET TIME FIELD tim. Addition: ... FIELD tim(#!ABAP_ONE_ADD@1@) Effect Without the addition FIELD, the system fields for date and time(https://help.sap.com/doc/abapdocu_late
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_time.htm"
+abapFile: "abapget_time.htm"
+keywords: ["update", "do", "if", "try", "data", "abapget", "time"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Behavior Definitions"
+description: |
+  A RAP behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') (BDEF for short) is an ABAP repository object that defines the transactional behavior of a RAP business object(https://help.sap.com/doc/abapdocu_late
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm"
+abapFile: "abencds_bdef.htm"
+keywords: ["do", "if", "try", "data", "abencds", "bdef"]
+---
 
 * * *
 

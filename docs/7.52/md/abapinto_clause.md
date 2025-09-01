@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - INTO, APPENDING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_shortref.htm) Syntax ...  INTO  CORRESPONDING FIELDS OF @wa(@dobj1, @dobj2, ...)    INTOAPPENDING CORRESPONDING FIELDS OF TABLE @itab PACKAGE SIZE n
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm"
+abapFile: "abapinto_clause.htm"
+keywords: ["select", "insert", "update", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapinto", "clause"]
+---
 
 * * *
 

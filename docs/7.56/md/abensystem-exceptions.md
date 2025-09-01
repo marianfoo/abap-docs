@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Catchable Runtime Errors"
+description: |
+  Before class-based exceptions were introduced, exceptions for exception situations of the runtime framework that could be successfully handled in the program were defined exclusively as catchable runtime errors and could be handled using the statement CATCH SYSTEM-EXCEPTIONS. All catchable runtime e
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem-exceptions.htm"
+abapFile: "abensystem-exceptions.htm"
+keywords: ["do", "catch", "class", "abensystem", "exceptions"]
+---
 
 * * *
 

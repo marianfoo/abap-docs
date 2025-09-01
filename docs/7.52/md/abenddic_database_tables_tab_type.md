@@ -1,4 +1,14 @@
-  
+---
+title: "Table Category of Database Tables"
+description: |
+  The default table category is the transparent table. In transparent tables, the database object has an identically named variant with the same columns as in the definition in ABAP Dictionary. The fields of transparent tables can be edited using Open SQL(https://help.sap.com/doc/abapdocu_752_index_
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tab_type.htm"
+abapFile: "abenddic_database_tables_tab_type.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "database", "tables", "tab", "type"]
+---
 
 * * *
 

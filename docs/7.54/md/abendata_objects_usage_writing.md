@@ -1,4 +1,14 @@
-  
+---
+title: "Writer Positions"
+description: |
+  In a writer position, the content of the operand is changed when the statement is executed. Only modifiable data objects (that is, no literals, text symbols, constants, or non-modifiable formal parameters) can be specified as follows in writer positions: -   A visible data object(https://help.sap.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_usage_writing.htm"
+abapFile: "abendata_objects_usage_writing.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "usage", "writing"]
+---
 
 * * *
 

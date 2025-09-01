@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... GROUPING( col(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm) ) Effect An aggregate expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_aggregate.htm) with the aggregate function(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengrouping_function.htm"
+abapFile: "abengrouping_function.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abengrouping", "function"]
+---
 
 * * *
 

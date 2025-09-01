@@ -1,4 +1,14 @@
-  
+---
+title: "User Interface"
+description: |
+  For the execution of user dialogs, input and output services are required that can be accessed through a user interface (UI). A user interface is used for the interaction between a user and a program. If parts of the user interface are displayed in the GUI window on the screen, this is a graphical u
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_gui.htm"
+abapFile: "abenabap_dynpros_gui.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpros", "gui"]
+---
 
 * * *
 

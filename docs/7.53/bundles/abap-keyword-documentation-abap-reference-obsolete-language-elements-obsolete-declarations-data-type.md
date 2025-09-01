@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abentypes_data_obsolete.htm
 
-  
+---
+title: "Data Types and Data Objects"
+description: |
+  -   TYPES - implicit(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_implicit.htm) -   Unnecessary Length Specifications(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_wrong_length.htm) -   Anonymous Components(https://help.sap.com/doc/abapdocu_
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentypes_data_obsolete.htm"
+abapFile: "abentypes_data_obsolete.htm"
+keywords: ["do", "if", "data", "types", "abentypes", "obsolete"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abaptypes_implicit.htm
 
-  
+---
+title: "TYPES - implicit"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_shortref.htm) Obsolete Syntax TYPES  dtype    dtype(len)    dtype LENGTH len    dtype TYPE cnpx    dtype(len) TYPE p   dtype TYPE p LENGTH len   dt
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_implicit.htm"
+abapFile: "abaptypes_implicit.htm"
+keywords: ["do", "if", "class", "data", "types", "abaptypes", "implicit"]
+---
 
 * * *
 
@@ -78,7 +98,17 @@ TYPES: t1 TYPE c LENGTH 1,
 
 ### abendeclaration_wrong_length.htm
 
-  
+---
+title: "Wrong Lengths"
+description: |
+  Obsolete Syntax ... dtype(len)dobj(len) TYPE dfit ... Effect Lengths specified in declarations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_declarations.htm) using the statements TYPES, DATA, STATICS, and CONSTANTS and the built-in ABAP types d, f, i, and t are i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_wrong_length.htm"
+abapFile: "abendeclaration_wrong_length.htm"
+keywords: ["do", "if", "class", "data", "types", "abendeclaration", "wrong", "length"]
+---
 
 * * *
 
@@ -113,7 +143,17 @@ DATA: f1 TYPE d,
 
 ### abenanonymous_components.htm
 
-  
+---
+title: "Anonymous Components"
+description: |
+  Obsolete Syntax DATA: BEGIN OF struc, ... '...', ... space(len) TYPE c, ... END OF struc. Effect If text field literals(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_field_literal_glosry.htm 'Glossary Entry') or the constant space(https://help.sap.com/doc/abapdocu_7
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenanonymous_components.htm"
+abapFile: "abenanonymous_components.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenanonymous", "components"]
+---
 
 * * *
 

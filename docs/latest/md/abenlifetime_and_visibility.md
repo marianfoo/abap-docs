@@ -1,4 +1,14 @@
-  
+---
+title: "Validity and Visibility"
+description: |
+  The context of a declarative statement in the source code of a program determines the validity and visibility of the declared component. In ABAP programs, there are three contexts in which data types and data objects can be declared: -   Locally in Procedures Local data in procedures(https://help.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlifetime_and_visibility.htm"
+abapFile: "abenlifetime_and_visibility.htm"
+keywords: ["select", "delete", "do", "while", "if", "try", "method", "class", "data", "types", "abenlifetime", "and", "visibility"]
+---
 
 * * *
 

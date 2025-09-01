@@ -1,4 +1,14 @@
-  
+---
+title: "Explicit enhancement options"
+description: |
+  Explicit enhancement options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenhancement_point_glosry.htm 'Glossary Entry') are created in ABAP programs by the following statements: -   ENHANCEMENT-POINT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapenhancement-po
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexplicit_enh_points.htm"
+abapFile: "abenexplicit_enh_points.htm"
+keywords: ["insert", "do", "try", "abenexplicit", "enh", "points"]
+---
 
 * * *
 

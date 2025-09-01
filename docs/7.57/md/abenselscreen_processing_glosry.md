@@ -1,4 +1,14 @@
-  
+---
+title: "selscreen_processing_glosry"
+description: |
+  selscreen_processing_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselscreen_processing_glosry.htm"
+abapFile: "abenselscreen_processing_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenselscreen", "processing", "glosry"]
+---
 
 * * *
 

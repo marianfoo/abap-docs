@@ -1,4 +1,14 @@
-  
+---
+title: "Screen and Screen Elements"
+description: |
+  The screen of a dynpro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') is created in Layout Editor(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlayout_editor_glosry.htm 'Glossary Entry') in Screen Painter(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_screen.htm"
+abapFile: "abenabap_dynpros_screen.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpros", "screen"]
+---
 
 * * *
 

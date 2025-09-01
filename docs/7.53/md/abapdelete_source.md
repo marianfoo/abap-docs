@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab - source"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dbtab_shortref.htm) Syntax ... @waTABLE @itab ... Alternatives: 1. ... @wa(#!ABAP_ALTERNATIVE_1@1@) 2. ... TABLE @itab(#!ABAP_ALTERNATIVE_2@2@) Effect In the variant DELETE target FROM of the state
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_source.htm"
+abapFile: "abapdelete_source.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapdelete", "source"]
+---
 
 * * *
 

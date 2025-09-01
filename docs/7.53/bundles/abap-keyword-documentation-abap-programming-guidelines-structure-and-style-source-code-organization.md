@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abensource_code_orga_guidl.htm
 
-  
+---
+title: "Source Code Organization"
+description: |
+  ABAP source code is saved in the ABAP Repository in the standard database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_db_glosry.htm 'Glossary Entry') of an AS ABAP, and not in source code files like in most other programming environments. Source codes can be split into
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_orga_guidl.htm"
+abapFile: "abensource_code_orga_guidl.htm"
+keywords: ["do", "try", "data", "abensource", "code", "orga", "guidl"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abensource_code_modular_guidl.htm
 
-  
+---
+title: "Source Code Modularization"
+description: |
+  Background The unit in the ABAP environment that corresponds to a source code file capable of being inserted into another program is known as an include program. Include programs are used for source code modularization and are inserted into master programs for this purpose. Include programs are not
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_modular_guidl.htm"
+abapFile: "abensource_code_modular_guidl.htm"
+keywords: ["insert", "do", "if", "method", "class", "abensource", "code", "modular", "guidl"]
+---
 
 * * *
 
@@ -69,7 +89,17 @@ Include programs you create manually should be named in accordance with the nami
 
 ### abenmultiple_use_include_guidl.htm
 
-  
+---
+title: "Multiple Use of Include Programs"
+description: |
+  Background From a technical point of view, it is possible to use an include program multiple times by integrating it more than once into a master program or different master programs. Rule Do not use include programs more than once Use an include program for the modularization of exactly one master
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmultiple_use_include_guidl.htm"
+abapFile: "abenmultiple_use_include_guidl.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenmultiple", "use", "include", "guidl"]
+---
 
 * * *
 

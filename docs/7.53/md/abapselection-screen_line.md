@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN - LINE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_bol_shortref.htm) Syntax SELECTION-SCREEN BEGIN OF LINE. ... SELECTION-SCREEN POSITION posPOS_LOWPOS_HIGH  ldb_additions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_line.htm"
+abapFile: "abapselection-screen_line.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapselection", "screen", "line"]
+---
 
 * * *
 

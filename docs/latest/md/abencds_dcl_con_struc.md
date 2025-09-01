@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - Structure of the Access Control Context"
+description: |
+  This documentation is only available internally at SAP.
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_con_struc.htm"
+abapFile: "abencds_dcl_con_struc.htm"
+keywords: ["do", "if", "data", "abencds", "dcl", "con", "struc"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Difference of Multiple Tables"
+description: |
+  This example demonstrates how a difference is created across multiple tables. Source Code REPORT DEMO_SELECT_EXCEPT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). SELECT a AS
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_except_abexa.htm"
+abapFile: "abenselect_except_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenselect", "except", "abexa"]
+---
 
 * * *
 

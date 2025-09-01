@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA, Database Procedure Proxy"
+description: |
+  This example demonstrates how a database procedure(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_procedure_glosry.htm 'Glossary Entry') created in the program is called. Source Code REPORT demo_call_db_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS mai
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_db_procedure_abexa.htm"
+abapFile: "abencall_db_procedure_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "procedure", "abexa"]
+---
 
 * * *
 

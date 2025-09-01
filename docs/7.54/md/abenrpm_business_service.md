@@ -1,4 +1,14 @@
-  
+---
+title: "Business Service"
+description: |
+  A business service is a RESTful service in the context of the ABAP RESTful Programming Model(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenr_a_p_glosry.htm 'Glossary Entry') that can be called by a consumer. The business service is defined by the fact that the relevant data artifa
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_business_service.htm"
+abapFile: "abenrpm_business_service.htm"
+keywords: ["do", "if", "try", "data", "abenrpm", "business", "service"]
+---
 
 * * *
 

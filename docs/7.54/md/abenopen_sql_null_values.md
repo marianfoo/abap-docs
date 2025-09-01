@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Null Values"
+description: |
+  A null value is an initial value of an empty column in the row of a database table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_table_glosry.htm 'Glossary Entry'). Null values do not correspond to any content of data objects(https://help.sap.com/doc/abapdocu_754_index_
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_null_values.htm"
+abapFile: "abenopen_sql_null_values.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "data", "internal-table", "abenopen", "sql", "null", "values"]
+---
 
 * * *
 

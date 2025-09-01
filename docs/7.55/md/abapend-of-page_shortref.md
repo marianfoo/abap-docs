@@ -1,4 +1,14 @@
-  
+---
+title: "END-OF-PAGE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapend-of-page.htm) Syntax END-OF-PAGE. Effect Initiates an event block whose event is raised when the page footer(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpage_footer_glosry.htm 'Glossary Entry') is reac
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapend-of-page_shortref.htm"
+abapFile: "abapend-of-page_shortref.htm"
+keywords: ["do", "try", "abapend", "page", "shortref"]
+---
 
 * * *
 

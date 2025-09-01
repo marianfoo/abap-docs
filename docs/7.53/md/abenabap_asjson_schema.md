@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  By specifying format(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option_format.htm) in the attribute option(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option.htm) of the ST command tt:value(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_schema.htm"
+abapFile: "abenabap_asjson_schema.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "asjson", "schema"]
+---
 
 * * *
 

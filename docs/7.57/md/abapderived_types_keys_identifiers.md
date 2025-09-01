@@ -1,4 +1,14 @@
-  
+---
+title: "Use of Keys and RAP BO Instance Identifiers in a Nutshell"
+description: |
+  The use of keys and RAP BO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm 'Glossary Entry') instance identifiers(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_inst_identifier_glosry.htm 'Glossary Entry') within RAP BO providers(https://hel
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_keys_identifiers.htm"
+abapFile: "abapderived_types_keys_identifiers.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "data", "types", "abapderived", "keys", "identifiers"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP foreign entity"
+description: |
+  A RAP BO entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') which is not part of the BO composition tree(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_tree_glosry.htm 'Glossary Entry') for wh
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_foreign_entity_glosry.htm"
+abapFile: "abenrap_foreign_entity_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "foreign", "entity", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Pragmas"
+description: |
+  Pragmas are program directives(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') that can be used to hide warnings from various check tools. The following are supported: -   Warnings from the ABAP Compiler syntax check(https://help.sap.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm"
+abapFile: "abenpragma.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "data", "types", "internal-table", "abenpragma"]
+---
 
 * * *
 
@@ -16,9 +26,7 @@ Pragmas are [program directives](https://help.sap.com/doc/abapdocu_752_index_htm
 
 For more information, see:
 
--   [Syntax of Pragmas](#@@ITOC@@ABENPRAGMA_1)
-
--   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_2)
+-   [Syntax of Pragmas](#abenpragma-1--------positioning-of-pragmas-in-abap-source-code---@ITOC@@ABENPRAGMA_2)
 
 Syntax of Pragmas
 

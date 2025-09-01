@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - function"
+description: |
+  This example demonstrates how a function is defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of the root entity DEMO_CDS_FUNCTION_1, which represents a purchase order. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label:
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function_abexa.htm"
+abapFile: "abenbdl_function_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenbdl", "function", "abexa"]
+---
 
 * * *
 

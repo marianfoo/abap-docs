@@ -1,4 +1,14 @@
-  
+---
+title: "RAP repeatable operation"
+description: |
+  RAP action(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_action_glosry.htm 'Glossary Entry') or RAP function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_function_glosry.htm 'Glossary Entry') that can be executed multiple times on the same RA
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_repeatable_action_glosry.htm"
+abapFile: "abenrap_repeatable_action_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenrap", "repeatable", "action", "glosry"]
+---
 
 * * *
 

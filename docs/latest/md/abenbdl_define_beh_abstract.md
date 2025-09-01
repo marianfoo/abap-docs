@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Definition, Abstract BDEF"
+description: |
+  Syntax  define behavior for AbstractEntity alias AliasName extensible(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extensible.htm) with control  entity behavior body(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh_abstract.htm"
+abapFile: "abenbdl_define_beh_abstract.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenbdl", "define", "beh", "abstract"]
+---
 
 * * *
 

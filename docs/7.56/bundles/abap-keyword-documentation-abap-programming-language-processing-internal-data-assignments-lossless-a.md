@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abapmove_exact.htm
 
-  
+---
+title: "Lossless Assignments, Rules"
+description: |
+  A lossless assignment checks the assigned content, before its conversion(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_glosry.htm 'Glossary Entry') to an incompatible target object, to determine whether the assignment is possible without losses, that is: -   whether it
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove_exact.htm"
+abapFile: "abapmove_exact.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "internal-table", "abapmove", "exact"]
+---
 
 * * *
 
@@ -60,7 +70,17 @@ Continue
 
 ### abenmove_exact_elementary.htm
 
-  
+---
+title: "Checking Elementary Data Objects"
+description: |
+  In conversions between incompatible elementary data objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenelementary_data_object_glosry.htm 'Glossary Entry'), the operator EXACT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) ensu
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_elementary.htm"
+abapFile: "abenmove_exact_elementary.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "types", "abenmove", "exact", "elementary"]
+---
 
 * * *
 
@@ -104,7 +124,17 @@ Continue
 
 ### abenmove_exact_elementary_valid.htm
 
-  
+---
+title: "Valid Values for Lossless Assignments"
+description: |
+  When a lossless conversion of an elementary argument of the operator EXACT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must, depending on its data type, represent a valid value according to
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_elementary_valid.htm"
+abapFile: "abenmove_exact_elementary_valid.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenmove", "exact", "elementary", "valid"]
+---
 
 * * *
 
@@ -116,10 +146,8 @@ Valid Values for Lossless Assignments
 
 When a lossless conversion of an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must, depending on its data type, represent a valid value according to the following tables:
 
--   [Numeric Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_1)
--   [Character-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
--   [Byte-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_3)
--   [Date fields, time fields, and time stamp fields as arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
+-   [Numeric Arguments](#abenmove-exact-elementary-valid-1-------character-like-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
+-   [Byte-Like Arguments](#abenmove-exact-elementary-valid-3-------date-fields--time-fields--and-time-stamp-fields-as-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
 
 Numeric Arguments
 
@@ -240,7 +268,17 @@ DATA(result2) = EXACT i( date ).
 
 ### abenmove_exact_elementary_fit.htm
 
-  
+---
+title: "Suitable Values for Lossless Assignments"
+description: |
+  When an elementary argument of the operator EXACT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) is converted to an incompatible elementary data type, the argument must contain a value suitable for the target type as shown in the following tables.
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_elementary_fit.htm"
+abapFile: "abenmove_exact_elementary_fit.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenmove", "exact", "elementary", "fit"]
+---
 
 * * *
 
@@ -252,20 +290,13 @@ Suitable Values for Lossless Assignments
 
 When an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) is converted to an incompatible elementary data type, the argument must contain a value suitable for the target type as shown in the following tables. This avoids loss of values and provides a valid value for the target type.
 
--   [Numeric Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_1)
-    -   [Target Type with Numeric Type (Except f)](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
-    -   [Target Type of Type f](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_3)
--   [Character-like target types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
-    -   [Target Type of Type c](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_5)
-    -   [Target Type of Type string](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
-    -   [Target Type of Type n](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_7)
--   [Byte-Like Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
-    -   [Target Type of Type x](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_9)
-    -   [Target Type of Type xstring](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
--   [Date/Time Types as Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_11)
-    -   [Target Type of Type d](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
-    -   [Target Type of Type t](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_13)
-    -   [Target Type of Type utclong](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_14)
+-   [Numeric Target Types](#abenmove-exact-elementary-fit-1-----------target-type-with-numeric-type--except-f----@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
+    -   [Target Type of Type f](#abenmove-exact-elementary-fit-3-------character-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
+    -   [Target Type of Type c](#abenmove-exact-elementary-fit-5-----------target-type-of-type-string---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
+    -   [Target Type of Type n](#abenmove-exact-elementary-fit-7-------byte-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
+    -   [Target Type of Type x](#abenmove-exact-elementary-fit-9-----------target-type-of-type-xstring---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
+-   [Date/Time Types as Target Types](#abenmove-exact-elementary-fit-11-----------target-type-of-type-d---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
+    -   [Target Type of Type t](#abenmove-exact-elementary-fit-13-----------target-type-of-type-utclong---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_14)
 
 Numeric Target Types
 
@@ -579,7 +610,17 @@ DATA(ts) = EXACT utclong( |{ dat DATE = ISO } {
 
 ### abenmove_exact_abexa.htm
 
-  
+---
+title: "Lossless Assignment"
+description: |
+  This example demonstrates how the operator EXACT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) is used to make lossless assignments. Source Code REPORT demo_move_exact. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS d
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_abexa.htm"
+abapFile: "abenmove_exact_abexa.htm"
+keywords: ["select", "do", "case", "try", "catch", "method", "class", "data", "abenmove", "exact", "abexa"]
+---
 
 * * *
 
@@ -628,7 +669,17 @@ Using the operator EXACT, the value that is passed is checked and an exception i
 
 ### abenmove_exact_elementary.htm
 
-  
+---
+title: "Checking Elementary Data Objects"
+description: |
+  In conversions between incompatible elementary data objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenelementary_data_object_glosry.htm 'Glossary Entry'), the operator EXACT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) ensu
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_elementary.htm"
+abapFile: "abenmove_exact_elementary.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "types", "abenmove", "exact", "elementary"]
+---
 
 * * *
 
@@ -672,7 +723,17 @@ Continue
 
 ### abenmove_exact_structure.htm
 
-  
+---
+title: "Checking Structures"
+description: |
+  The operator EXACT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) can only be used to convert structures to compatible(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatibility.htm) structures. Full compatibility is not require
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_structure.htm"
+abapFile: "abenmove_exact_structure.htm"
+keywords: ["do", "if", "try", "data", "types", "abenmove", "exact", "structure"]
+---
 
 * * *
 
@@ -707,7 +768,17 @@ DATA(result2) = EXACT string( struc ). "Not possible
 
 ### abenmove_exact_itab.htm
 
-  
+---
+title: "Checking Internal Tables"
+description: |
+  The operator EXACT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) checks a table specified as an argument line-by-line against the tabular target type: -   If the line types are elementary, each line is checked for elementary data objects(https:/
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_itab.htm"
+abapFile: "abenmove_exact_itab.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "abenmove", "exact", "itab"]
+---
 
 * * *
 

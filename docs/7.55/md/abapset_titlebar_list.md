@@ -1,4 +1,14 @@
-  
+---
+title: "SET TITLEBAR, List"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_titlebar_shortref.htm) Syntax SET TITLEBAR title OF PROGRAM prog WITH text1 ... text9. Additions: 1. ... OF PROGRAM prog(#!ABAP_ADDITION_1@1@) 2. ... WITH text1 ... text9(#!ABAP_ADDITION_2@2@)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_titlebar_list.htm"
+abapFile: "abapset_titlebar_list.htm"
+keywords: ["do", "if", "try", "class", "abapset", "titlebar", "list"]
+---
 
 * * *
 

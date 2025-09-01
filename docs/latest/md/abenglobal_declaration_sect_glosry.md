@@ -1,4 +1,14 @@
-  
+---
+title: "global_declaration_sect_glosry"
+description: |
+  global_declaration_sect_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_declaration_sect_glosry.htm"
+abapFile: "abenglobal_declaration_sect_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenglobal", "declaration", "sect", "glosry"]
+---
 
 * * *
 

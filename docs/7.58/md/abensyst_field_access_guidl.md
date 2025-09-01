@@ -1,4 +1,14 @@
-  
+---
+title: "Access to System Fields"
+description: |
+  Background The system fields are supplied with values by the ABAP runtime framework. In a program, however, they behave like normal variables. You can assign values to these fields using the ABAP program. This is because both the ABAP kernel and the ABAP components of the ABAP runtime framework have
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyst_field_access_guidl.htm"
+abapFile: "abensyst_field_access_guidl.htm"
+keywords: ["do", "if", "case", "class", "abensyst", "field", "access", "guidl"]
+---
 
 * * *
 

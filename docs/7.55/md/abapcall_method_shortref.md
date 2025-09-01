@@ -1,4 +1,14 @@
-  
+---
+title: "CALL METHOD - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_dynamic.htm) Syntax CALL METHOD (meth_name) oref->(meth_name) (class_name)=>(meth_name) class=>(meth_name) (class_name)=>meth PARAMETER-TABLE ptab EXCEPTION-TABLE etab. Effe
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_shortref.htm"
+abapFile: "abapcall_method_shortref.htm"
+keywords: ["do", "if", "method", "class", "internal-table", "abapcall", "shortref"]
+---
 
 * * *
 

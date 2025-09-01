@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, coalesce"
+description: |
+  Syntax ... COALESCE( arg1, arg2 ) ... Effect Coalesce function in a SELECT statement(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_statement_v1.htm) of a CDS DDIC-based view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm 'Glossar
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_coalesce_expression_v1.htm"
+abapFile: "abencds_coalesce_expression_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "coalesce", "expression"]
+---
 
 * * *
 

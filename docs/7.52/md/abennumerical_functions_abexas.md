@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of numerical functions"
+description: |
+  !Example(exa.gif 'Example') Numerical Functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmath_func_abexa.htm) !Example(exa.gif 'Example') Integer Power Function ipow(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenipow_function_abexa.htm) !Example(exa.g
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_functions_abexas.htm"
+abapFile: "abennumerical_functions_abexas.htm"
+keywords: ["do", "if", "data", "abennumerical", "functions", "abexas"]
+---
 
 * * *
 

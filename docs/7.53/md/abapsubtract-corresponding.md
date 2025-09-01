@@ -1,4 +1,14 @@
-  
+---
+title: "SUBTRACT-CORRESPONDING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract-correspond_shortref.htm) Obsolete Syntax SUBTRACT-CORRESPONDING struc1 FROM struc2. Effect This statement is not allowed in classes and subtracts structures by component. Structures must be specified for struc1
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract-corresponding.htm"
+abapFile: "abapsubtract-corresponding.htm"
+keywords: ["do", "if", "class", "data", "abapsubtract", "corresponding"]
+---
 
 * * *
 

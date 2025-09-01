@@ -1,4 +1,14 @@
-  
+---
+title: "application_layer_glosry"
+description: |
+  application_layer_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapplication_layer_glosry.htm"
+abapFile: "abenapplication_layer_glosry.htm"
+keywords: ["do", "if", "try", "abenapplication", "layer", "glosry"]
+---
 
 * * *
 

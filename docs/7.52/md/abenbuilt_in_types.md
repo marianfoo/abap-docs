@@ -1,4 +1,14 @@
-  
+---
+title: "Predefined Data Types"
+description: |
+  The following predefined data types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_data_type_glosry.htm 'Glossary Entry') are used in ABAP programs: -   Predefined ABAP types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types_complete.htm) -
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types.htm"
+abapFile: "abenbuilt_in_types.htm"
+keywords: ["do", "try", "data", "types", "abenbuilt"]
+---
 
 * * *
 

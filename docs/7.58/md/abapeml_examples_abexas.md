@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Examples"
+description: |
+  The following examples are included in this section: -   ABAP EML in Use: Managed RAP BO with External Numbering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensheet_rap_ext_num_m_abexa.htm) -   ABAP EML in Use: Unmanaged RAP BO with External Numbering(https://help.sap.com/doc/ab
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_examples_abexas.htm"
+abapFile: "abapeml_examples_abexas.htm"
+keywords: ["do", "if", "abapeml", "examples", "abexas"]
+---
 
 * * *
 

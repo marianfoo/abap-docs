@@ -1,4 +1,14 @@
-  
+---
+title: "Switch Framework"
+description: |
+  SFW for short. Framework for the externally controlling the visibility of repository objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm 'Glossary Entry'), their components, or enhancements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenswitch_framework_glosry.htm"
+abapFile: "abenswitch_framework_glosry.htm"
+keywords: ["do", "if", "try", "abenswitch", "framework", "glosry"]
+---
 
 * * *
 

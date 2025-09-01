@@ -1,4 +1,14 @@
-  
+---
+title: "Class for Trailing Blanks"
+description: |
+  The class CL_ABAP_STRING_UTILITIES contains methods for processing text strings(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_string_glosry.htm 'Glossary Entry'). -   C2STR_PRESERVING_BLANKS assigns text fields while preserving the trailing blanks. -   DEL_TRAILING_BLA
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_util.htm"
+abapFile: "abenstring_util.htm"
+keywords: ["delete", "do", "while", "if", "try", "method", "class", "data", "abenstring", "util"]
+---
 
 * * *
 

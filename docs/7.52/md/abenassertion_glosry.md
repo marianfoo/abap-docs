@@ -1,4 +1,14 @@
-  
+---
+title: "Assertion"
+description: |
+  Assertion in an ABAP program(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm 'Glossary Entry'). An assertion is defined by an ASSERT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm) statement as a conditional checkpoint(https://h
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenassertion_glosry.htm"
+abapFile: "abenassertion_glosry.htm"
+keywords: ["do", "if", "try", "abenassertion", "glosry"]
+---
 
 * * *
 

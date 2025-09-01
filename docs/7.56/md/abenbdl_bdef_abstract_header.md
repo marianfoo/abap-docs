@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - CDS behavior definition header, abstract BDEF"
+description: |
+  Syntax implementation type;(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_impl_type.htm) strict;(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_strict.htm) with hierarchy; entity behavior definition(https://help.sap.com/doc/abapdocu_756_
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_bdef_abstract_header.htm"
+abapFile: "abenbdl_bdef_abstract_header.htm"
+keywords: ["do", "try", "data", "abenbdl", "bdef", "abstract", "header"]
+---
 
 * * *
 

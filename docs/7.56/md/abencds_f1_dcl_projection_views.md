@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DCL Restrictions for Transactional CDS Projection Views"
+description: |
+  Transactional CDS projection views (define root view entity ... as projection on ...) are designed to apply CDS access control from the underlying CDS entity 1:1. The following restrictions apply: -   The usage of REDEFINITION is not allowed. -   Only the condition INHERITING CONDITIONS FROM ENTITY
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_projection_views.htm"
+abapFile: "abencds_f1_dcl_projection_views.htm"
+keywords: ["do", "data", "abencds", "dcl", "projection", "views"]
+---
 
 * * *
 

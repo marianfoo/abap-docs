@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - coalesce"
+description: |
+  Syntax ... COALESCE( arg1, arg2 ) ... Effect Coalesce function in a SELECT statement(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) of a CDS view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm 'Glossary Entry'). The
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_coalesce_expression.htm"
+abapFile: "abencds_f1_coalesce_expression.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "coalesce", "expression"]
+---
 
 * * *
 

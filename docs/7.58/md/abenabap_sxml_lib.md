@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   sXML Library supports the UTF(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenutf_glosry.htm 'Glossary Entry') character representation of the Unicode character set and hence also characters from the surrogate area(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm"
+abapFile: "abenabap_sxml_lib.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "sxml", "lib"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_CS_RAP_DRAFT_M: @AccessControl.authorizationCheck: #NOT_REQUIRED @ObjectModel.semanticKey: 'id' @UI:  headerInfo:  title:  value: 'id' , typeName: 'Calculation', typeNamePlural: 'Calculations'   define root view entity DEMO_CS_RAP
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensheet_rap_calc_dr_ln_m_abexa.htm"
+abapFile: "abensheet_rap_calc_dr_ln_m_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "abensheet", "rap", "calc", "abexa"]
+---
 
 * * *
 

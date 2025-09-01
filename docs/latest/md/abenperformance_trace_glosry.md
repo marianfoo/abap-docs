@@ -1,4 +1,14 @@
-  
+---
+title: "performance_trace_glosry"
+description: |
+  performance_trace_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenperformance_trace_glosry.htm"
+abapFile: "abenperformance_trace_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenperformance", "trace", "glosry"]
+---
 
 * * *
 

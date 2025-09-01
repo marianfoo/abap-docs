@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... HIERARCHY_DESCENDANTS_AGGREGATE( ... )(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy_desc_agg.htm)  HIERARCHY_ANCESTORS_AGGREGATE( ... )(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy_ancs_agg.htm) ... Effect
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy_agg_navis.htm"
+abapFile: "abenselect_hierarchy_agg_navis.htm"
+keywords: ["select", "do", "if", "try", "data", "abenselect", "hierarchy", "agg", "navis"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "service_binding_glosry"
+description: |
+  service_binding_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_binding_glosry.htm"
+abapFile: "abenservice_binding_glosry.htm"
+keywords: ["do", "try", "data", "abenservice", "binding", "glosry"]
+---
 
 * * *
 

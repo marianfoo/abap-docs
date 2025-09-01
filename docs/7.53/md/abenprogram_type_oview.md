@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Program Types"
+description: |
+  The type of an ABAP program determines (among other things) which declarations and processing blocks a program can contain and how the program can be executed in the ABAP runtime environment. The following table shows all program types for standalone programs (compilation units(https://help.sap.co
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_type_oview.htm"
+abapFile: "abenprogram_type_oview.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "types", "abenprogram", "type", "oview"]
+---
 
 * * *
 

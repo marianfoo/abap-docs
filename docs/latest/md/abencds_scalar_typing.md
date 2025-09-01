@@ -1,4 +1,14 @@
-  
+---
+title: "CDS FDL - typing"
+description: |
+  Syntax dtype(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm)                       WITH REFERENCE TYPE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)  simple_type(https://help.sap.com/doc/abapdocu
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm"
+abapFile: "abencds_scalar_typing.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencds", "scalar", "typing"]
+---
 
 * * *
 

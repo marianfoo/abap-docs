@@ -1,4 +1,14 @@
-  
+---
+title: "ADF - Examples for ABAP Daemons"
+description: |
+  -   ADF - Simple ABAP Daemon(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_mini_daemon_abexa.htm) -   ADF - Creating and Using an ABAP Daemon(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_abexa.htm) !Example(exa.gif 'Example') ADF - Simple AB
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_abexas.htm"
+abapFile: "abenabap_daemon_abexas.htm"
+keywords: ["do", "if", "data", "abenabap", "daemon", "abexas"]
+---
 
 * * *
 

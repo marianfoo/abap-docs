@@ -1,4 +1,14 @@
-  
+---
+title: "ADD"
+description: |
+  Obsolete Syntax ADD dobj1 TO dobj2. Effect This statement has the same effect as the statement dobj2 = dobj2 + dobj1.(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_arith_expr.htm) The content of dobj1 is added to the content of dobj2 and the result is assigned to dobj2. The
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapadd.htm"
+abapFile: "abapadd.htm"
+keywords: ["do", "if", "try", "data", "abapadd"]
+---
 
 * * *
 

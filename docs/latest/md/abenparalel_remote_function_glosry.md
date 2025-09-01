@@ -1,4 +1,14 @@
-  
+---
+title: "paralel_remote_function_glosry"
+description: |
+  paralel_remote_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparalel_remote_function_glosry.htm"
+abapFile: "abenparalel_remote_function_glosry.htm"
+keywords: ["do", "if", "try", "abenparalel", "remote", "function", "glosry"]
+---
 
 * * *
 

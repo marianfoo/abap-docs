@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Views"
+description: |
+  A CDS view is defined for existing database tables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm) and any other views(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_views.htm) or CDS views in ABAP Dictionary using the statement DEFI
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_views.htm"
+abapFile: "abenddic_cds_views.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenddic", "cds", "views"]
+---
 
 * * *
 

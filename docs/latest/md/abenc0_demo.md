@@ -1,4 +1,14 @@
-  
+---
+title: "c0_demo"
+description: |
+  c0_demo - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo.htm"
+abapFile: "abenc0_demo.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenc0", "demo"]
+---
 
 * * *
 

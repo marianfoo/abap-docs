@@ -5,7 +5,17 @@ Included pages: 13
 
 ### abenassignment_access_guidl.htm
 
-  
+---
+title: "Assignments, Calculations, and Other Types of Data Access"
+description: |
+  An assignment passes the content of a data object, a return value, or a result of a calculation expression to a data object. If the data types are compatible, the content is copied unchanged. If the data types are incompatible and there is a suitable conversion rule, the content is converted. An ass
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassignment_access_guidl.htm"
+abapFile: "abenassignment_access_guidl.htm"
+keywords: ["select", "do", "if", "data", "types", "abenassignment", "access", "guidl"]
+---
 
 * * *
 
@@ -60,7 +70,17 @@ Continue
 
 ### abenassignemnt_diff_types_guidl.htm
 
-  
+---
+title: "Assignments Between Different Types"
+description: |
+  Background ABAP allows a direct assignment between data objects with different data types. There must be a suitable conversion rule and the content of the source field must be a meaningful value for the data type of the target field. If a suitable conversion rule is not found or the content of the s
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassignemnt_diff_types_guidl.htm"
+abapFile: "abenassignemnt_diff_types_guidl.htm"
+keywords: ["do", "if", "data", "types", "abenassignemnt", "diff", "guidl"]
+---
 
 * * *
 
@@ -111,7 +131,17 @@ ENDDO.
 
 ### abenavoiding_invalid_values_guidl.htm
 
-  
+---
+title: "Avoiding Invalid Values"
+description: |
+  Background For performance reasons, the ABAP runtime environment does not check whether the target field contains a valid value after each and every assignment. Particularly for target fields of the character-like data type n and the date/time types d and t, the conversion rules allow any alphanumer
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenavoiding_invalid_values_guidl.htm"
+abapFile: "abenavoiding_invalid_values_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abenavoiding", "invalid", "values", "guidl"]
+---
 
 * * *
 
@@ -180,7 +210,17 @@ ENDTRY.
 
 ### abenuse_conversion_rules_guidl.htm
 
-  
+---
+title: "Using Conversion Rules"
+description: |
+  Background ABAP contains numerous conversion rules for assignments between data objects of different data types. These rules relate to assignments between: -   Elementary data objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_elementary.htm) -   Elementary data obj
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_conversion_rules_guidl.htm"
+abapFile: "abenuse_conversion_rules_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "internal-table", "abenuse", "conversion", "rules", "guidl"]
+---
 
 * * *
 
@@ -249,7 +289,17 @@ ENDTRY.
 
 ### abentrailing_blanks_literals_guidl.htm
 
-  
+---
+title: "Trailing Blanks in Character Literals"
+description: |
+  Background Trailing blanks in text field literals use memory, but are generally(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_trail_blanks.htm) ignored in operand positions, like all data objects of the type c. In text string literals they are always relevant, as
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentrailing_blanks_literals_guidl.htm"
+abapFile: "abentrailing_blanks_literals_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abentrailing", "blanks", "literals", "guidl"]
+---
 
 * * *
 
@@ -306,7 +356,17 @@ Depending on whether the blank is needed as a separator, either ' ' or \`\` must
 
 ### abennumbers_guidl.htm
 
-  
+---
+title: "Specifying Numbers"
+description: |
+  Background There are no special literals available for numbers with decimal places, or with mantissa plus exponent. If required, these numbers must be expressed using character literals. The following notations can be used: -   Mathematical notation A string of digits with a maximum of one period (.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumbers_guidl.htm"
+abapFile: "abennumbers_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abennumbers", "guidl"]
+---
 
 * * *
 
@@ -375,7 +435,17 @@ ENDMETHOD.
 
 ### abenselect_numeric_type_guidl.htm
 
-  
+---
+title: "Selecting the Numeric Type"
+description: |
+  Background Multiple numeric types with various properties and value ranges are available in ABAP, which can be used for storing numbers and for calculations: -   Signed 4-byte integer numbers (type i) and 8-byte integer numbers (type int8) (1-byte and 2-byte-integers with the internal types b and s
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_numeric_type_guidl.htm"
+abapFile: "abenselect_numeric_type_guidl.htm"
+keywords: ["select", "do", "if", "case", "data", "types", "abenselect", "numeric", "type", "guidl"]
+---
 
 * * *
 
@@ -462,7 +532,17 @@ DATA number TYPE decfloat34 VALUE '0.815'
 
 ### abenrounding_error_guidl.htm
 
-  
+---
+title: "Rounding Errors"
+description: |
+  Background In the case of assignments between floating point numbers (types f, decfloat16, decfloat34) and fixed point numbers (types i and p), rounding errors usually occur that produce an incorrect value. Conversely, values of type p (and also decfloat16 and decfloat34) that are assigned to type f
+version: "7.55"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrounding_error_guidl.htm"
+abapFile: "abenrounding_error_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abenrounding", "error", "guidl"]
+---
 
 * * *
 
@@ -517,7 +597,17 @@ WRITE result TO output DECIMALS 2 EXPONENT 0.
 
 ### abendivision_zero_guidl.htm
 
-  
+---
+title: "Division by Zero"
+description: |
+  Background Division by zero is forbidden in all recognized programming languages and raises an exception. This is also the case in ABAP, but with the difference that the exception cx_sy_zerodivide is not raised if the dividend is also zero when divided by zero. In this case, the division in ABAP p
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendivision_zero_guidl.htm"
+abapFile: "abendivision_zero_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abendivision", "zero", "guidl"]
+---
 
 * * *
 
@@ -554,7 +644,17 @@ ENDIF.
 
 ### abencasting_guidl.htm
 
-  
+---
+title: "Casting"
+description: |
+  Background Casting refers to the process of handling a data object by assuming a certain data type. This definition is different to the meaning of the concept in other programming languages, such as Java. Here, casting means a different concept which is referred to as 'conversion' in ABAP. Casting i
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencasting_guidl.htm"
+abapFile: "abencasting_guidl.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abencasting", "guidl"]
+---
 
 * * *
 
@@ -621,7 +721,17 @@ ASSIGN structure TO <text> CASTING.
 
 ### abenruntime_error_data_obj_guidl.htm
 
-  
+---
+title: "Runtime Errors When Accessing Data Objects"
+description: |
+  Background Using data objects can cause runtime errors if the data object contains unsuitable content or the access to the data object is unsuitable. Examples: -   Assigning values outside the value range of a target variable -   Using values that cannot be converted to the required type. In other w
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenruntime_error_data_obj_guidl.htm"
+abapFile: "abenruntime_error_data_obj_guidl.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "exception-handling", "abenruntime", "error", "obj", "guidl"]
+---
 
 * * *
 
@@ -679,7 +789,17 @@ ENDTRY.
 
 ### abenunknown_container_guidl.htm
 
-  
+---
+title: "Anonymous Containers"
+description: |
+  Background Anonymous containers are character-like or byte-like data objects of type c or string type (or x/xstring type). Data objects of other types (especially structures) are assigned using casting(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencasting_guidl.htm 'Guideline') to
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunknown_container_guidl.htm"
+abapFile: "abenunknown_container_guidl.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenunknown", "container", "guidl"]
+---
 
 * * *
 
@@ -714,7 +834,17 @@ If data needs to be saved in an unstructured container, the statement EXPORT ...
 
 ### abenref_transf_global_data_guidl.htm
 
-  
+---
+title: "Pass by Reference of Global Data"
+description: |
+  Background In a local context you can normally directly access the data objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_type_obj_guidl.htm 'Guideline') of superordinate more global contexts. For example, it is possible in a method to perform writes on the attributes of
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenref_transf_global_data_guidl.htm"
+abapFile: "abenref_transf_global_data_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenref", "transf", "global", "guidl"]
+---
 
 * * *
 

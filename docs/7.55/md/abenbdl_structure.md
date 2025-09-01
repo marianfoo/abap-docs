@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Structure"
+description: |
+  Work in progress  A behavior definition consists of a header part and a sequence of entity behavior definitions. An entity behavior definition consists of a section containing properties of the entity plus operations enclosed in curly brackets . The following depicts the syntax structure of a
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm"
+abapFile: "abenbdl_structure.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "structure"]
+---
 
 * * *
 

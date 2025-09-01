@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - extend own authorization context"
+description: |
+  Syntax extend own authorization context  AuthObject1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbc_authority_check.htm); AuthObject2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbc_authority_check.htm); ...  Effect Extends a full a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extend_own_auth_context.htm"
+abapFile: "abenbdl_extend_own_auth_context.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abenbdl", "extend", "own", "auth", "context"]
+---
 
 * * *
 

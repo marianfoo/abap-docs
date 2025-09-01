@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... source._assoc1 parameters(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_parameters_v2.htm)filter(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_assoc_modified.htm) ... Effect A path expression(https://help.sap.com/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_apv.htm"
+abapFile: "abencds_path_expr_apv.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "path", "expr", "apv"]
+---
 
 * * *
 

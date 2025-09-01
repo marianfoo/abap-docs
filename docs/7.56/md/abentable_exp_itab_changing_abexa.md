@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_tab_exp_changing. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF struct, col1 TYPE i, col2 TYPE i, END OF struct, itab TYPE STANDARD TABLE OF struct WITH EMPTY KEY. CLASS-METHODS: change_component IMPORTING p1 TYPE i EXPORTING p2 TYPE i, c
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_changing_abexa.htm"
+abapFile: "abentable_exp_itab_changing_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abentable", "exp", "itab", "changing", "abexa"]
+---
 
 * * *
 

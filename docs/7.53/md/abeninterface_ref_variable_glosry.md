@@ -1,4 +1,14 @@
-  
+---
+title: "interface_ref_variable_glosry"
+description: |
+  interface_ref_variable_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_ref_variable_glosry.htm"
+abapFile: "abeninterface_ref_variable_glosry.htm"
+keywords: ["do", "try", "abeninterface", "ref", "variable", "glosry"]
+---
 
 * * *
 

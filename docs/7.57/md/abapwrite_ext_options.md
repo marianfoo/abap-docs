@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... COLOR       =color ONOFF= col INTENSIFIED ONOFF= flag INVERSE     ONOFF= flag HOTSPOT     ONOFF= flag INPUT       ONOFF
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_ext_options.htm"
+abapFile: "abapwrite_ext_options.htm"
+keywords: ["do", "if", "class", "data", "abapwrite", "ext", "options"]
+---
 
 * * *
 

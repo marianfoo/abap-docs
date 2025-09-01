@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_case_string. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DELETE FROM demo_expressions. INSERT demo_expressions FROM TABLE @( VALUE #( ( id = 'x' char1 = 'aaaaa' char2 = 'bbbbb' ) ( id = 'y' char1 = 'xxxxx' ch
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_case_string_abexa.htm"
+abapFile: "abensql_expr_case_string_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "method", "class", "data", "internal-table", "abensql", "expr", "string", "abexa"]
+---
 
 * * *
 

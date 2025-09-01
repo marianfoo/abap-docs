@@ -1,4 +1,14 @@
-  
+---
+title: "Control Level Processing"
+description: |
+  This example demonstrates control level processing in internal tables. Source Code REPORT demo_int_tables_at. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF line, col1 TYPE c LENGTH 1, col2 TYPE i, col3 TYPE i, END OF line. ENDCLASS. CLASS demo IMPLEME
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenint_table_at_abexa.htm"
+abapFile: "abenint_table_at_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "types", "internal-table", "abenint", "table", "abexa"]
+---
 
 * * *
 

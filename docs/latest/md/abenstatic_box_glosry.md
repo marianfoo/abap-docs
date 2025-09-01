@@ -1,4 +1,14 @@
-  
+---
+title: "static_box_glosry"
+description: |
+  static_box_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_box_glosry.htm"
+abapFile: "abenstatic_box_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenstatic", "box", "glosry"]
+---
 
 * * *
 

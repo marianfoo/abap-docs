@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Operation Augmentation"
+description: |
+  This example demonstrates how to define and implement the operation augmentation in a RAP projection business object. Base BDEF The base BDEF is the managed CDS behavior definition DEMO_RAP_MANAGED_ASSOC_ROOT. It defines the behavior for two entities which are connected via a CDS composition rel
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_abexa.htm"
+abapFile: "abenbdl_augment_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "augment", "abexa"]
+---
 
 * * *
 

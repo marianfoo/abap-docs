@@ -1,4 +1,14 @@
-  
+---
+title: "utf8_glosry"
+description: |
+  utf8_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutf8_glosry.htm"
+abapFile: "abenutf8_glosry.htm"
+keywords: ["do", "if", "try", "abenutf8", "glosry"]
+---
 
 * * *
 

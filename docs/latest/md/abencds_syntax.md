@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Syntax"
+description: |
+  The syntax of the CDS DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and the CDS DCL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_glosry.htm 'Glossary Entry') in ABAP CDS comprises elements of the genera
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_syntax.htm"
+abapFile: "abencds_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "syntax"]
+---
 
 * * *
 

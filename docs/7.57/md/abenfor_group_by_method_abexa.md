@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_for_groups_by_method. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: spfli_tab    TYPE STANDARD TABLE OF spfli    WITH EMPTY KEY, sairport_tab TYPE STANDARD TABLE OF sairport WITH EMPTY KEY. CLASS-DATA: flights  TYPE spfli_t
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_group_by_method_abexa.htm"
+abapFile: "abenfor_group_by_method_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "abexa"]
+---
 
 * * *
 

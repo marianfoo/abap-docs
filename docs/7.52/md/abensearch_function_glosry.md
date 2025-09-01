@@ -1,4 +1,14 @@
-  
+---
+title: "Search Function"
+description: |
+  Description function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescription_function_glosry.htm 'Glossary Entry') that searchs a character string and returns the position of the search string. → More(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_functi
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_function_glosry.htm"
+abapFile: "abensearch_function_glosry.htm"
+keywords: ["do", "try", "abensearch", "function", "glosry"]
+---
 
 * * *
 

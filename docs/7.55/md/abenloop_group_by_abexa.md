@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_at_itab_group_by. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). DATA: wa      TYPE spfli, member  TYPE spfli, members TYPE STANDARD TABLE OF spfli WITH EMPTY KEY. SELECT  FROM
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenloop_group_by_abexa.htm"
+abapFile: "abenloop_group_by_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenloop", "group", "abexa"]
+---
 
 * * *
 

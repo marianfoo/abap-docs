@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI implementation"
+description: |
+  Implementation of a BAdI(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbadi_glosry.htm 'Glossary Entry'). Multiple BAdI implementations can be assigned to a single BAdI. A BAdI implementation consists of a BAdI implementation class(https://help.sap.com/doc/abapdocu_754_index_htm
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbadi_implementation_glosry.htm"
+abapFile: "abenbadi_implementation_glosry.htm"
+keywords: ["select", "do", "try", "method", "class", "abenbadi", "implementation", "glosry"]
+---
 
 * * *
 

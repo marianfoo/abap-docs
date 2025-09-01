@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (authorization:instance) ... Effect The RAP BO operation addition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_operations_additions.htm) authorization:instance replaces the authorization control(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authoriz
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth_instance.htm"
+abapFile: "abenbdl_actions_auth_instance.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "abenbdl", "actions", "auth", "instance"]
+---
 
 * * *
 

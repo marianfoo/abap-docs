@@ -1,4 +1,14 @@
-  
+---
+title: "Character Literals"
+description: |
+  Syntax ... 'ccc...'  `ccc...` ... Effect Character literals can be either text field literals or text string literals. A text field literal is a character string enclosed in single quotes ('); a text string literal is a character string of
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuntyped_character_literals.htm"
+abapFile: "abenuntyped_character_literals.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenuntyped", "character", "literals"]
+---
 
 * * *
 

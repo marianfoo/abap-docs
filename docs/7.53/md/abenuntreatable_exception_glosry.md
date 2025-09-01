@@ -1,4 +1,14 @@
-  
+---
+title: "untreatable_exception_glosry"
+description: |
+  untreatable_exception_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuntreatable_exception_glosry.htm"
+abapFile: "abenuntreatable_exception_glosry.htm"
+keywords: ["do", "try", "catch", "class", "abenuntreatable", "exception", "glosry"]
+---
 
 * * *
 

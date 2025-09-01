@@ -1,4 +1,14 @@
-  
+---
+title: "SAP LUW, ON COMMIT"
+description: |
+  This example demonstrates how SAP LUWs are bundled using subroutines. Source Code REPORT demo_sap_luw_on_commit. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, delete IMPORTING values TYPE demo_update_tab, insert IMPORTING values TYPE demo_update_tab, modify IMPORTING values TYP
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw_on_commit_abexa.htm"
+abapFile: "abensap_luw_on_commit_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abensap", "luw", "commit", "abexa"]
+---
 
 * * *
 

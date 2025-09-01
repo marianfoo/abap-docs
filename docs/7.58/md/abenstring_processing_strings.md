@@ -1,4 +1,14 @@
-  
+---
+title: "Character Strings and Byte Chains"
+description: |
+  -   Character Strings(#abenstring-processing-strings-1-------byte-chains---@ITOC@@ABENSTRING_PROCESSING_STRINGS_2) Character Strings Character-like data objects contain character strings. A character-like data object either has a character-like data type c, n, or string, a date/time type d or t, o
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_processing_strings.htm"
+abapFile: "abenstring_processing_strings.htm"
+keywords: ["do", "if", "try", "class", "data", "abenstring", "processing", "strings"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Character Strings and Byte Chains
 
--   [Character Strings](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_1)
--   [Byte Chains](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
+-   [Character Strings](#abenstring-processing-strings-1-------byte-chains---@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
 
 Character Strings   
 

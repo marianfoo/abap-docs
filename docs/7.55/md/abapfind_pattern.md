@@ -1,4 +1,14 @@
-  
+---
+title: "FIND, pattern"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_shortref.htm) Syntax ...  SUBSTRING substring  PCREREGEX regex ... . Variants: 1. ... SUBSTRING substring.(#!ABAP_VARIANT_1@1@) 2. ... PCREREGEX regex.(#!ABAP_VARIANT_2@2@
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_pattern.htm"
+abapFile: "abapfind_pattern.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "catch", "class", "data", "abapfind", "pattern"]
+---
 
 * * *
 

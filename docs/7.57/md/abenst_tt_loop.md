@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:loop ref='node' name='alias'> ... </tt:loop> Effect Internal tables are serialized and deserialized within a loop defined by tt:loop that sets the current node(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_ref.htm) to the current table line. The optional
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_loop.htm"
+abapFile: "abenst_tt_loop.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenst"]
+---
 
 * * *
 

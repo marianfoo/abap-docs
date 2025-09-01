@@ -1,4 +1,14 @@
-  
+---
+title: "WITH - associations"
+description: |
+  Syntax ... WITH ASSOCIATIONS ( path_expr(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm) AS alias REDIRECTED TO +cte VIA target, ... ) (path_syntax) Addition: ... REDIRECTED TO +cte VIA target(#!ABAP_ONE_ADD@1@) Effect Publishes CDS
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_associations.htm"
+abapFile: "abapwith_associations.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "internal-table", "abapwith", "associations"]
+---
 
 * * *
 

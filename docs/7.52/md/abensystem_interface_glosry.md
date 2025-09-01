@@ -1,4 +1,14 @@
-  
+---
+title: "System Interface"
+description: |
+  Interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry') of the Class Library(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_library_glosry.htm 'Glossary Entry') integrated into system classes(https://help.sap.com/doc/aba
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_interface_glosry.htm"
+abapFile: "abensystem_interface_glosry.htm"
+keywords: ["do", "if", "try", "class", "abensystem", "interface", "glosry"]
+---
 
 * * *
 

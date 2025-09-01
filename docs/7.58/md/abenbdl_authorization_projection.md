@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - authorization, Projection BDEF"
+description: |
+  Syntax Forms Declaration on Entity Level ... authorization ( global ) ( instance ) ( global,instance )  ... Declaration That Can Be Used in the Entity Behavior Body for an Action ... authorization:none authorization:update authorization:global authorization:instance authorization:global,
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorization_projection.htm"
+abapFile: "abenbdl_authorization_projection.htm"
+keywords: ["update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "authorization", "projection"]
+---
 
 * * *
 

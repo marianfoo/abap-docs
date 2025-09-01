@@ -1,4 +1,14 @@
-  
+---
+title: "Client-Independent CDS Table Functions"
+description: |
+  This example demonstrates client-independent CDS table functions. Source Code REPORT demo_cds_functions_no_client. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. IF NOT cl_abap_dbfeatures=>use_features( EXPORTING requested_feature
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_func_client_indep_abexa.htm"
+abapFile: "abencds_func_client_indep_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abencds", "func", "client", "indep", "abexa"]
+---
 
 * * *
 

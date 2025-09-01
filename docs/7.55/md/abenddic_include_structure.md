@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Include Structures"
+description: |
+  Components of a structure can be defined by including the components of other DDIC structures, such as DDIC database tables or DDIC views. These included structures are known as include structures (or includes for short). From a technical perspective, the structure in which an include structure is i
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_include_structure.htm"
+abapFile: "abenddic_include_structure.htm"
+keywords: ["select", "insert", "do", "if", "try", "data", "types", "abenddic", "include", "structure"]
+---
 
 * * *
 

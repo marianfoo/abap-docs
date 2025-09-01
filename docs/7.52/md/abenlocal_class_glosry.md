@@ -1,4 +1,14 @@
-  
+---
+title: "Local class"
+description: |
+  Class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry') of an ABAP program(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm 'Glossary Entry') that can be viewed and used (statically) only in this program.You ca
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_class_glosry.htm"
+abapFile: "abenlocal_class_glosry.htm"
+keywords: ["do", "try", "class", "data", "types", "abenlocal", "glosry"]
+---
 
 * * *
 

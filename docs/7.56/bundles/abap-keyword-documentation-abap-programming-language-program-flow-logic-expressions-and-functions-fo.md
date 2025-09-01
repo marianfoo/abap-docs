@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenlogic_functions.htm
 
-  
+---
+title: "Logical Functions"
+description: |
+  Logical functions are a part of built-in functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions.htm). They are divided into: -   Boolean functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenboole_functions.htm) -   Predicate functions(ht
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogic_functions.htm"
+abapFile: "abenlogic_functions.htm"
+keywords: ["do", "abenlogic", "functions"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abenboole_functions.htm
 
-  
+---
+title: "Effect"
+description: |
+  The built-in(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions.htm) Boolean functions determine the truth value(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentruth_value_glosry.htm 'Glossary Entry') of a logical expression log_exp(https://help.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenboole_functions.htm"
+abapFile: "abenboole_functions.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenboole", "functions"]
+---
 
 * * *
 

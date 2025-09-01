@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Table-Specific Semantic Properties of Database Tables"
+description: |
+  The following semantic properties are provided specifically for DDIC database tables. -   Key fields(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_key.htm) -   Client dependency(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_da
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_semasspec.htm"
+abapFile: "abenddic_database_tables_semasspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "semasspec"]
+---
 
 * * *
 

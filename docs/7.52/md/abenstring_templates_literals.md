@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  c...c Effect Within a string template ..., a literal text c...c represents its exact character string. Literal text consists of all characters in c that -   are not enclosed in curly brackets   -   are not control characters -   are not the special characters , , , or . Blanks in string tem
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_literals.htm"
+abapFile: "abenstring_templates_literals.htm"
+keywords: ["do", "if", "data", "abenstring", "templates", "literals"]
+---
 
 * * *
 

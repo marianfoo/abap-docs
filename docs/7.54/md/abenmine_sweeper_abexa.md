@@ -1,4 +1,14 @@
-  
+---
+title: "Minesweeper"
+description: |
+  Expression-oriented implementation of a Minesweeper game. Source Code PROGRAM demo_minesweeper_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: BEGIN OF t_cell, bomb  TYPE abap_bool,  ' cell contains bomb y/n bombs TYPE i,          ' # of neighbo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm"
+abapFile: "abenmine_sweeper_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenmine", "sweeper", "abexa"]
+---
 
 * * *
 

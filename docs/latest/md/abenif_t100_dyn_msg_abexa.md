@@ -1,4 +1,14 @@
-  
+---
+title: "This example demonstrates how a regular class is linked with a message"
+description: |
+  Source Code  Public class definition CLASS cl_demo_if_t100_dyn_msg DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS msg DEFINITION. PUBLIC SECTION. INTERFACES if_t100_dyn_msg. ALIASES: msgty FOR if_t100
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_dyn_msg_abexa.htm"
+abapFile: "abenif_t100_dyn_msg_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenif", "t100", "dyn", "msg", "abexa"]
+---
 
 * * *
 

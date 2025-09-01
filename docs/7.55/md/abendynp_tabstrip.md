@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  If a tab title entry is selected when browsing in SAP GUI, input checks are not made and data is not transported to the ABAP program. Only if a user action raises the PAI event are all the entries checked and the data of all screens transported. When browsing in the ABAP program, the input is checke
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 

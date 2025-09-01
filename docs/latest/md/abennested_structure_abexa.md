@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration of a Nested Structure"
+description: |
+  This example demonstrates the declaration of a nested structure with substructures. Source Code  Public class definition CLASS cl_demo_nested_structure DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implem
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennested_structure_abexa.htm"
+abapFile: "abennested_structure_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abennested", "structure", "abexa"]
+---
 
 * * *
 

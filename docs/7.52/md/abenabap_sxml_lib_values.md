@@ -1,4 +1,14 @@
-  
+---
+title: "abap_sxml_lib_values"
+description: |
+  abap_sxml_lib_values - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib_values.htm"
+abapFile: "abenabap_sxml_lib_values.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "sxml", "lib", "values"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:group> <tt:s-d-cond frq='...' ... <tt:s-d-cond frq='...' ... ... </tt:group> Effect During deserializations, the statement tt:group can be used to react to variable XML input streams containing groups of related elements in free order. Hereby, a list of case
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_group.htm"
+abapFile: "abenst_tt_group.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "class", "data", "abenst", "group"]
+---
 
 * * *
 

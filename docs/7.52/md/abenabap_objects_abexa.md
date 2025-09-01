@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects, Overview"
+description: |
+  This example demonstrates objects, object references, inheritance, interfaces, and events. Source Code REPORT demo_abap_objects. ---------------------------------------------------------------------        CLASS main DEFINITION --------------------------------------------------------------
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_abexa.htm"
+abapFile: "abenabap_objects_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "abenabap", "objects", "abexa"]
+---
 
 * * *
 

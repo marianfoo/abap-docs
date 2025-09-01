@@ -1,4 +1,14 @@
-  
+---
+title: "predicate_operator_glosry"
+description: |
+  predicate_operator_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicate_operator_glosry.htm"
+abapFile: "abenpredicate_operator_glosry.htm"
+keywords: ["do", "if", "try", "abenpredicate", "operator", "glosry"]
+---
 
 * * *
 

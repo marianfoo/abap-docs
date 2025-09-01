@@ -1,4 +1,14 @@
-  
+---
+title: "Collected Filling"
+description: |
+  Background The statement COLLECT can be used to collect rows and insert them in an internal table. If a row with the relevant primary key already exists in the target table, the values of numeric components are added to the values in the existing table row. Otherwise, a new row is inserted in the ta
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencollect_guidl.htm"
+abapFile: "abencollect_guidl.htm"
+keywords: ["insert", "do", "if", "internal-table", "abencollect", "guidl"]
+---
 
 * * *
 

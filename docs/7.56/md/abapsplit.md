@@ -1,4 +1,14 @@
-  
+---
+title: "SPLIT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsplit_shortref.htm) Syntax SPLIT dobj AT sep INTO  result1 result2 ...  TABLE result_tab  IN CHARACTERBYTE MODE. Addition: ... IN CHARACTERBYTE MODE(#!ABAP_ONE_A
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsplit.htm"
+abapFile: "abapsplit.htm"
+keywords: ["loop", "do", "while", "if", "case", "try", "data", "internal-table", "abapsplit"]
+---
 
 * * *
 

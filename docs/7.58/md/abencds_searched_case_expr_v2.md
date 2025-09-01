@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CASE WHEN cds_cond1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v2.htm) THEN result1 WHEN cds_cond2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v2.htm) THEN result2 WHEN cds_cond3(htt
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_searched_case_expr_v2.htm"
+abapFile: "abencds_searched_case_expr_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "searched", "expr"]
+---
 
 * * *
 

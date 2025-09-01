@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  INSERT dobj1 dobj2 ... INTO  header  field_group . Effect This statement is used to build a structure of a field group of the extract dataset(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextract_dataset_glosry.htm 'Glossary Entry') of the program, where the field g
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_fg.htm"
+abapFile: "abapinsert_fg.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abapinsert"]
+---
 
 * * *
 

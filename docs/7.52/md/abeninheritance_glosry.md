@@ -1,4 +1,14 @@
-  
+---
+title: "inheritance_glosry"
+description: |
+  inheritance_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_glosry.htm"
+abapFile: "abeninheritance_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "glosry"]
+---
 
 * * *
 

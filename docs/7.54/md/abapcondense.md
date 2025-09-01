@@ -1,4 +1,14 @@
-  
+---
+title: "CONDENSE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcondense_shortref.htm) Syntax CONDENSE text NO-GAPS. Effect In the variable text, any leading and trailing blanks are removed and any other blanks that follow each other directly are replaced by exactly one blan
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcondense.htm"
+abapFile: "abapcondense.htm"
+keywords: ["do", "if", "try", "data", "abapcondense"]
+---
 
 * * *
 

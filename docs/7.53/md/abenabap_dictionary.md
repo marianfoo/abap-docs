@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Dictionary"
+description: |
+  ABAP Dictionary is a persistent repository of type definitions (meta data) of an ABAP system(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_system_glosry.htm 'Glossary Entry') visible in all repository objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenre
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm"
+abapFile: "abenabap_dictionary.htm"
+keywords: ["delete", "do", "while", "if", "try", "class", "data", "types", "abenabap", "dictionary"]
+---
 
 * * *
 

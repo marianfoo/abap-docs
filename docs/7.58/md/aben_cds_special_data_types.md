@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Special Data Types"
+description: |
+  -   ABAP CDS - Amounts and Quantities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm) ABAP CDS - Amounts and Quantities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm"
+abapFile: "aben_cds_special_data_types.htm"
+keywords: ["do", "if", "data", "types", "aben", "cds", "special"]
+---
 
 * * *
 

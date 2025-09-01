@@ -1,4 +1,14 @@
-  
+---
+title: "Naming Rules"
+description: |
+  The following applies to extensions in ABAP for Cloud Development(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_cloud_dev_glosry.htm 'Glossary Entry'): 1.  If the extension has a namespace prefix(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenn
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_bdef.htm"
+abapFile: "abenc0_consumer_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "consumer", "rules", "bdef"]
+---
 
 * * *
 

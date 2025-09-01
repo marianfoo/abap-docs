@@ -1,4 +1,14 @@
-  
+---
+title: "Runtime Error"
+description: |
+  Runtime errors identify situations in which the system cannot continue running an ABAP program and has to terminate it. Runtime errors can occur in one of the following situations when ABAP programs are executed: -   Non-handled exceptions: -   A handleable exception is not handled. -   A non-handle
+version: "7.54"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennoncat_exceptions.htm"
+abapFile: "abennoncat_exceptions.htm"
+keywords: ["do", "if", "try", "class", "data", "exception-handling", "abennoncat", "exceptions"]
+---
 
 * * *
 

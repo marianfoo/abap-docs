@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop-.htm) Syntax LOOP. ... ENDLOOP. Effect Obsolete: Reads the extract data set(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextract_dataset_glosry.htm 'Glossary Entry') of the program in a loop
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_shortref.htm"
+abapFile: "abaploop_shortref.htm"
+keywords: ["insert", "loop", "do", "if", "try", "data", "abaploop", "shortref"]
+---
 
 * * *
 

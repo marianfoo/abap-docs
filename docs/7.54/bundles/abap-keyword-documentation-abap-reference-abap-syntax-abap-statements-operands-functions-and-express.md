@@ -1,413 +1,21 @@
-# ABAP Keyword Documentation / ABAP − Reference / ABAP Syntax / ABAP Statements / Operands / Functions and Expressions in Operand Positions
+# ABAP Keyword Documentation / ABAP − Reference / ABAP Syntax / ABAP Statements / Operands / Functions and Expressions in Operand Positions / Operand Positions for Functions and Expressions / Reading Positions for Functions and Expressions
 
-Included pages: 15
-
-
-### abenoperands_expressions.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) → 
-
-Functions and Expressions in Operand Positions
-
-[Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_glosry.htm "Glossary Entry") and [expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_glosry.htm "Glossary Entry") can be specified in certain [reading positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm "Glossary Entry").
-
--   [Functions and Expressions for Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctions_expressions.htm)
-
--   [Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm)
-
-Note
-
-The program DEMO\_EXPRESSIONS shows examples of how functions and expressions are used.
-
-Continue
-[Functions and Expressions for Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctions_expressions.htm)
-[Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm)
-
-
-### abenfunctions_expressions.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) → 
-
-Functions and Expressions for Operand Positions
-
--   [Writing Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_1)
-
--   [Reading Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
-
-Writing Positions
-
-The following expressions can be specified in [writing positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry"):
-
--   [Declaration expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_expression_glosry.htm "Glossary Entry")
-
--   ... [DATA(...)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_inline.htm) ...
-
--   ... [FIELD-SYMBOL(...)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield-symbol_inline.htm) ...
-
--   [Writable expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwritable_expression_glosry.htm "Glossary Entry")
-
--   The [constructor expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") NEW class( ... [)->attr](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennew_constructor_params_class.htm) and [CAST type( ... )->dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_cast.htm)
-
--   [Table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expression_glosry.htm "Glossary Entry") [itab\[ ... \]](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) and their [chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_chaining.htm)
-
-Reading Positions
-
-Functions that can be executed in a read position are
-
--   [Built-in functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredefined_function_glosry.htm "Glossary Entry")
-    ... [func( arg )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_functions_syntax.htm) ...
-    ... [... func( val = arg p1 = arg1 p2 = arg2 ... )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_functions_syntax.htm) ...
-    
-
--   [Functional methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry")
-    ... [meth( )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm) ...
-    ... [meth( a )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm) ...
-    ... [meth( p1 = a1 p2 = a2 ... )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm) ...
-    ... [meth( *\[*EXPORTING  p1 = a1 p2 = a2 ...*\]*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm)
-              [*\[*IMPORTING  p1 = a1 p2 = a2 ...*\]*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm)
-              [*\[*CHANGING   p1 = a1 p2 = a2 ...*\]* )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm) ...
-    
-
--   [Method chaining](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_chaining_glosry.htm "Glossary Entry")
-    
-
--   Chained method call:
-    ... [...->meth1( ... )->meth2( ... )->...->meth( ... )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_chain.htm) ...
-    
-
--   Chained attribute access:
-    ... [...->meth1( ... )->meth2( ... )->...->attr](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_chain.htm) ...
-
-The following expressions can be specified in reading positions:
-
--   [Calculation expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_expression_glosry.htm "Glossary Entry"):
-
--   [Arithmetic expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry")
-    ... [arith\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_arith.htm) ...
-    
-
--   [Bit expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry")
-    ... [bit\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_bit.htm) ...
-    
-
--   [String Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_glosry.htm "Glossary Entry")
-    ... [string\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_string.htm) ...
-
--   [Constructor expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"):
-
--   [Instance operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_operator_glosry.htm "Glossary Entry")
-    [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_new.htm)
-    
-
--   [Value operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_operator_glosry.htm "Glossary Entry")
-    [VALUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_value.htm)
-    
-
--   [Conversion operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_operator_glosry.htm "Glossary Entry")
-    [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_conv.htm)
-    
-
--   [Component operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_operator_glosry.htm "Glossary Entry")
-    [CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expr_corresponding.htm)
-    
-
--   [Casting operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_operator_glosry.htm "Glossary Entry")
-    [CAST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_cast.htm)
-    
-
--   [Reference operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreference_operator_glosry.htm "Glossary Entry")
-    [REF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_ref.htm)
-    
-
--   [Lossless operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_operator_glosry.htm "Glossary Entry")
-    [EXACT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_exact.htm)
-    
-
--   [Reduction operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreduce_operator_glosry.htm "Glossary Entry")
-    [REDUCE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_reduce.htm)
-    
-
--   [Filter operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfilter_operator_glosry.htm "Glossary Entry")
-    [FILTER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_filter.htm)
-    
-
--   [Conditional operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_operator_glosry.htm "Glossary Entry")
-    [COND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconditional_expression_cond.htm), [SWITCH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconditional_expression_switch.htm)
-
--   [Table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expression_glosry.htm "Glossary Entry") [itab\[ ... \]](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) and their [chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_chaining.htm)
-
-Notes
-
--   Functions with numeric return values and arithmetic expressions are combined as [numeric expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumerical_expression_glosry.htm "Glossary Entry").
-
--   Functions with character-like return values and string expressions are combined as [character-like expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_expression_glosry.htm "Glossary Entry").
-
--   Functions with a byte-like return values and bit expressions are combined as [byte-like expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbyte_like_expression_glosry.htm "Glossary Entry").
-
-Example
-
-Numerical expression as an index specified for an internal table.
-
-DATA: itab TYPE STANDARD TABLE OF i,
-      n    TYPE i.
-...
-READ TABLE itab INDEX lines( itab ) - n
-                INTO  DATA(wa).
-
-
-### abenexpression_positions.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) → 
-
-Operand Positions for Functions and Expressions
-
--   [Writer Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_write.htm)
-
--   [Reader Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_read.htm)
-
-Continue
-[Writing Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_write.htm)
-[Reading Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_read.htm)
-
-
-### abenexpression_positions_write.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) →  [Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm) → 
-
-Writing Positions for Functions and Expressions
-
-[Writing positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry") are operand positions in which the operand is written to.
-
--   [Declaration Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_positions.htm)
-
--   [Result Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresult_positions.htm)
-
-Continue
-[Declaration Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_positions.htm)
-[Result Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresult_positions.htm)
-
-
-### abendeclaration_positions.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) →  [Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm) →  [Writing Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_write.htm) → 
-
-Declaration Positions
-
-Declaration positions are [writing-only positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry") in which a [declaration expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_expression_glosry.htm "Glossary Entry") can be specified for an [inline declaration](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declaration_glosry.htm "Glossary Entry"). There are no declaration positions within expressions.
-
-The following declaration positions are possible:
-
--   Positions for the inline declaration of variables with [DATA(var)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_inline.htm). These are the following [writer positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry"), where the operand type can be determined in full and where the content of the operand is completely overwritten but not evaluated.
-
--   Left side of an assignment with the [assignment operator \=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_operator.htm)
-    [lhs = ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_operator.htm)
-
--   Actual parameters for output parameters and return values of methods for [standalone method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_short.htm):
-    meth( [IMPORTING p1 = a1 p2 = a2...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm)
-          [RECEIVING r  =  a](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm) )
-    If a method call is on the right side of an assignment or is part of an expression, these actual parameters are not declaration positions.
-
--   Target fields when catching an exception:
-    CATCH EXCEPTION [INTO oref](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_try.htm)
-    CLEANUP [INTO oref](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcleanup.htm)
-
--   Target fields in statements for string processing and byte string processing:
-    FIND ... [MATCH COUNT mcnt](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_options.htm)
-             [MATCH OFFSET moff](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_options.htm)
-             [MATCH LENGTH mlen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_options.htm)
-             [RESULTS result\_tab*|*result\_wa](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_options.htm)
-             [SUBMATCHES s1 s2 ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_options.htm)
-    REPLACE  ... [REPLACEMENT COUNT rcnt](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_options.htm)
-                [REPLACEMENT OFFSET moff](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_options.htm)
-                [REPLACEMENT LENGTH mlen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_options.htm)
-                [RESULTS result\_tab*|*result\_wa](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_options.htm)
-    CONCATENATE ... [INTO result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconcatenate.htm)
-    SPLIT ... [INTO result1 result2 ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsplit.htm)
-              [INTO TABLE result\_tab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsplit.htm)
-    CONVERT TEXT ... [INTO SORTABLE CODE hex](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_text.htm)
-    GET BIT ... [INTO val](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_bit.htm).
-
--   Target fields in statements for time stamps:
-    CONVERT UTCLONG ... [INTO DATE dat TIME tim DAYLIGHT SAVING TIME dst](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_utclong.htm)
-    CONVERT ... [INTO UTCLONG time\_stamp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_utclong.htm)
-    GET TIME STAMP [time\_stamp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time-stamp.htm)
-    CONVERT TIME STAMP ... [INTO DATE dat TIME tim DAYLIGHT SAVING TIME dst](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm)
-    CONVERT ... [INTO TIME STAMP time\_stamp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm)
-
--   Target fields in statements for internal tables:
-    READ TABLE ... [*\[*REFERENCE*\]* INTO dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table_outdesc.htm)
-    LOOP AT ... [*\[*REFERENCE*\]* INTO dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab_result.htm)
-    INSERT ... [*\[*REFERENCE*\]* INTO dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_result.htm)
-    COLLECT    ... [*\[*REFERENCE*\]* INTO dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcollect_itab_result.htm)
-    APPEND     ... [*\[*REFERENCE*\]* INTO dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapappend_result.htm)
-    MODIFY ... [*\[*REFERENCE*\]* INTO dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab_result.htm)
-    FIND ... IN TABLE [MATCH COUNT mcnt](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab_options.htm)
-             IN TABLE [MATCH LINE mlin](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab_options.htm)
-             IN TABLE [MATCH OFFSET moff](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab_options.htm)
-             IN TABLE [MATCH LENGTH mlen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab_options.htm)
-             IN TABLE [RESULTS result\_tab*|*result\_wa](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab_options.htm)
-             IN TABLE [SUBMATCHES s1 s2 ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab_options.htm)
-    REPLACE ... IN TABLE [REPLACEMENT COUNT rcnt](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_itab_options.htm)
-                IN TABLE [REPLACEMENT LINE rlin](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_itab_options.htm)
-                IN TABLE [REPLACEMENT OFFSET moff](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_itab_options.htm)
-                IN TABLE [REPLACEMENT LENGTH mlen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_itab_options.htm)
-                IN TABLE [RESULTS result\_tab*|*result\_wa](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_itab_options.htm)
-
--   Target fields of the ABAP SQL statement SELECT:
-    SELECT ... [INTO (elem1, elem2, ... )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm)
-    SELECT ... [INTO wa](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm)
-    SELECT ... [INTO TABLE itab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm)
-
--   Target fields of the statement DESCRIBE:
-    DESCRIBE FIELD ... [TYPE typ *\[*COMPONENTS com*\]* LENGTH ilen DECIMALS dec](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm)
-                       [OUTPUT-LENGTH olen HELP-ID hlp EDIT MASK mask](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm)
-    DESCRIBE TABLE ... [KIND knd LINES lin OCCURS n](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_table.htm)
-    DESCRIBE DISTANCE ... [INTO dst](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_distance.htm)
-
--   Target fields of various GET statements:
-    GET PARAMETER ... [FIELD dobj](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_parameter.htm)
-    GET PF-STATUS [status](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_pf.htm)
-    GET REFERENCE [INTO dref](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_reference.htm)
-    GET RUN TIME FIELD [rtime](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_run_time.htm)
-    GET TIME [FIELD tim](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time.htm)
-    
-
--   Work area in statement for dynpros:
-    LOOP AT SCREEN ... [INTO wa](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_screen.htm)
-
--   Target field for message output:
-    MESSAGE ... [INTO text](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage.htm)
-
--   Target fields in file interface statements:
-    READ DATASET ... [LENGTH alen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_dataset.htm)
-    GET DATASET ... [POSITION pos](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_dataset.htm) [ATTRIBUTES attr](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_dataset.htm)
-    
-
--   Target field for a serialization:
-    CALL TRANSFORMATION ... [RESULT XML rxml](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation.htm)
-
--   All writing positions used when generating programs:
-    GENERATE GENERATE SUBROUTINE POOL ... [NAME prog](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_subroutine_pool.htm) [error\_handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_subr_error_handling.htm)
-
--   Positions for the inline declaration of field symbols with [FIELD-SYMBOL(<fs>)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield-symbol_inline.htm). These are all places where a memory area can be assigned to a field symbol.
-
--   Field symbol in the statement ASSIGN:
-    ASSIGN... [TO <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign.htm)
-
--   Field symbols in statements for internal tables:
-    READ TABLE ... [ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table_outdesc.htm)
-    LOOP AT ... [ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab_result.htm)
-    INSERT ... [ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_result.htm)
-    COLLECT    ... [ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcollect_itab_result.htm)
-    APPEND     ... [ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapappend_result.htm)
-    MODIFY ... [ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab_result.htm)
-
-Note
-
-Unlike in [standalone method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_short.htm), in a [functional method call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm) inline declarations cannot be specified as actual parameters for output parameters.
-
-Example
-
-Declaration expression [DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_inline.htm) for declaring an internal table itab after the addition [INTO TABLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) statement.
-
-SELECT \*
-       FROM scarr
-       INTO TABLE @DATA(itab).
-
-
-### abenresult_positions.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) →  [Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm) →  [Writing Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_write.htm) → 
-
-Result Positions
-
-Result positions are [writing positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry") in which [writable expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwritable_expression_glosry.htm "Glossary Entry") can be specified. Writes are performed on the result of the expression. The following result positions are possible:
-
--   Left side of an assignment with the [assignment operator \=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_operator.htm)
-
--   Operand dobj of the statement [CLEAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear.htm)
-
--   Memory area mem\_area of the statement [ASSIGN mem\_area TO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_mem_area_writable_exp.htm)
-
--   Structure struc of the statement [ASSIGN COMPONENT comp OF STRUCTURE struc](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_mem_area_dynamic_dobj.htm)
-
--   Actual parameter in [method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_calls.htm) for [output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm), [input/output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm), and [return values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm)
-
--   The right side in the declaration of a local field symbol in a [LET expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm)
-
-Example
-
-Uses a table expression itab\[ sy-index \] on the left side of a [calculation assignment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignment_glosry.htm "Glossary Entry").
-
-DATA itab TYPE TABLE OF i.
-itab = VALUE #( ( 1 ) ( 2 ) ( 3 ) ).
-DO 3 TIMES.
-  itab\[ sy-index \] \*= 10.
-ENDDO.
-
-
-### abenexpression_positions_write.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) →  [Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm) → 
-
-Writing Positions for Functions and Expressions
-
-[Writing positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry") are operand positions in which the operand is written to.
-
--   [Declaration Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_positions.htm)
-
--   [Result Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresult_positions.htm)
-
-Continue
-[Declaration Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_positions.htm)
-[Result Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresult_positions.htm)
+Included pages: 6
 
 
 ### abenexpression_positions_read.htm
 
-  
+---
+title: "Reading Positions for Functions and Expressions"
+description: |
+  -   General Expression Positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expression_positions.htm) -   Numeric Expression Positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_expression_positions.htm) -   Character-Like Expression Posit
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_read.htm"
+abapFile: "abenexpression_positions_read.htm"
+keywords: ["do", "abenexpression", "positions", "read"]
+---
 
 * * *
 
@@ -437,7 +45,17 @@ Continue
 
 ### abengeneral_expression_positions.htm
 
-  
+---
+title: "General Expression Positions"
+description: |
+  General expression positions are reading positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm 'Glossary Entry') in which suitable data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm 'Glossary Entry'),
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expression_positions.htm"
+abapFile: "abengeneral_expression_positions.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abengeneral", "expression", "positions"]
+---
 
 * * *
 
@@ -507,7 +125,17 @@ cl\_demo\_output=>display(
 
 ### abennumeric_expression_positions.htm
 
-  
+---
+title: "Numeric Expression Positions"
+description: |
+  Numeric expression positions are reading positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm 'Glossary Entry') in which numeric data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_data_object_glosry.htm 'Glossary En
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_expression_positions.htm"
+abapFile: "abennumeric_expression_positions.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "method", "data", "internal-table", "abennumeric", "expression", "positions"]
+---
 
 * * *
 
@@ -589,7 +217,17 @@ ENDDO.
 
 ### abenstring_expression_positions.htm
 
-  
+---
+title: "Character-Like Expression Positions"
+description: |
+  Character-like expression positions are reading positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm 'Glossary Entry') in which character-like data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_data_object_glosry.h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_positions.htm"
+abapFile: "abenstring_expression_positions.htm"
+keywords: ["do", "if", "try", "method", "data", "abenstring", "expression", "positions"]
+---
 
 * * *
 
@@ -662,7 +300,17 @@ FIND REGEX \`(\` && sub && \`)+\` IN text.
 
 ### abentimestamp_expr_positions.htm
 
-  
+---
+title: "Time-Stamp-Like Expression Positions"
+description: |
+  Time-stamp-like expression positions are reading positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm 'Glossary Entry') in which time stamp fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_field_glosry.htm 'Glossary E
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_expr_positions.htm"
+abapFile: "abentimestamp_expr_positions.htm"
+keywords: ["do", "if", "try", "method", "data", "abentimestamp", "expr", "positions"]
+---
 
 * * *
 
@@ -702,7 +350,17 @@ cl\_demo\_output=>display(
 
 ### abenfunctional_positions.htm
 
-  
+---
+title: "Functional Operand Positions"
+description: |
+  Functional operand positions are reading positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm 'Glossary Entry') in which suitable data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm 'Glossary Entry') a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_positions.htm"
+abapFile: "abenfunctional_positions.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "method", "data", "internal-table", "abenfunctional", "positions"]
+---
 
 * * *
 
@@ -812,54 +470,3 @@ DATA ts TYPE timestamp.
 ...
 CONVERT TIME STAMP cl\_abap\_tstmp=>normalize( ts ) TIME ZONE 'UTC'
         INTO DATE DATA(date) TIME DATA(time).
-
-
-### abenexpression_positions_read.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) →  [Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm) → 
-
-Reading Positions for Functions and Expressions
-
--   [General Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expression_positions.htm)
-
--   [Numeric Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_expression_positions.htm)
-
--   [Character-Like Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_positions.htm)
-
--   [Time-Stamp-Like Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_expr_positions.htm)
-
--   [Functional Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_positions.htm)
-
-Continue
-[General Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expression_positions.htm)
-[Numeric Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_expression_positions.htm)
-[Character-Like Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_positions.htm)
-[Time-Stamp-Like Expression Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_expr_positions.htm)
-[Functional Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_positions.htm)
-
-
-### abenexpression_positions.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) → 
-
-Operand Positions for Functions and Expressions
-
--   [Writer Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_write.htm)
-
--   [Reader Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_read.htm)
-
-Continue
-[Writing Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_write.htm)
-[Reading Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_read.htm)

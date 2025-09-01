@@ -1,4 +1,14 @@
-  
+---
+title: "Event Blocks"
+description: |
+  The following event block(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_block_glosry.htm 'Glossary Entry') is obsolete: -   START-OF-EDITING(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-editing.htm) -   END-OF-EDITING(https://help.sap
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_block_obsolete.htm"
+abapFile: "abenevent_block_obsolete.htm"
+keywords: ["do", "if", "try", "abenevent", "block", "obsolete"]
+---
 
 * * *
 

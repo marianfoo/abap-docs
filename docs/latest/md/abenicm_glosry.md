@@ -1,4 +1,14 @@
-  
+---
+title: "ICM"
+description: |
+  → Internet Communication Manager(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternet_con_man_glosry.htm 'Glossary Entry').
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicm_glosry.htm"
+abapFile: "abenicm_glosry.htm"
+keywords: ["do", "if", "try", "abenicm", "glosry"]
+---
 
 * * *
 

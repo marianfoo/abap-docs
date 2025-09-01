@@ -1,4 +1,14 @@
-  
+---
+title: "service_connection_glosry"
+description: |
+  service_connection_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_connection_glosry.htm"
+abapFile: "abenservice_connection_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenservice", "connection", "glosry"]
+---
 
 * * *
 

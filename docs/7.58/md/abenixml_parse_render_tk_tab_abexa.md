@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_parse_rndr_tk_tbl DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_ixml_parse_rndr_tk_tbl IMPLEMENTATION. METHOD main. out->b
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenixml_parse_render_tk_tab_abexa.htm"
+abapFile: "abenixml_parse_render_tk_tab_abexa.htm"
+keywords: ["delete", "do", "if", "method", "class", "data", "internal-table", "abenixml", "parse", "render", "tab", "abexa"]
+---
 
 * * *
 

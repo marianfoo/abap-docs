@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Entity Buffers"
+description: |
+  A CDS entity buffer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffer_glosry.htm 'Glossary Entry') is a CDS tuning object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_object_glosry.htm 'Glossary Entry') that defines a layer-specific typ
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm"
+abapFile: "abencds_entity_buffers.htm"
+keywords: ["do", "if", "try", "data", "abencds", "entity", "buffers"]
+---
 
 * * *
 

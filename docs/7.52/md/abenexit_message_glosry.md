@@ -1,4 +1,14 @@
-  
+---
+title: "exit_message_glosry"
+description: |
+  exit_message_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexit_message_glosry.htm"
+abapFile: "abenexit_message_glosry.htm"
+keywords: ["do", "try", "types", "abenexit", "message", "glosry"]
+---
 
 * * *
 

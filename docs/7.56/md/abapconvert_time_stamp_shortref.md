@@ -1,4 +1,14 @@
-  
+---
+title: "CONVERT TIME STAMP - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconvert_time-stamp.htm) Syntax CONVERT  TIME STAMP time_stamp TIME ZONE tz INTO DATE dat TIME tim DAYLIGHT SAVING TIME dst    DATE dat TIME tim DAYLIGHT SAVING TIME dst INT
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconvert_time_stamp_shortref.htm"
+abapFile: "abapconvert_time_stamp_shortref.htm"
+keywords: ["do", "if", "case", "try", "abapconvert", "time", "stamp", "shortref"]
+---
 
 * * *
 

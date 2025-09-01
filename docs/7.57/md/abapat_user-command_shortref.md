@@ -1,4 +1,14 @@
-  
+---
+title: "AT USER-COMMAND - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_user-command.htm) Syntax AT USER-COMMAND. Effect Introduces an event block whose result is raised by a function with a self-defined function code on a list.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_user-command_shortref.htm"
+abapFile: "abapat_user-command_shortref.htm"
+keywords: ["do", "if", "abapat", "user", "command", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "GUID"
+description: |
+  Global Unique Identifier. Based on the same standard as a UUID(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm 'Glossary Entry').
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenguid_glosry.htm"
+abapFile: "abenguid_glosry.htm"
+keywords: ["do", "if", "try", "abenguid", "glosry"]
+---
 
 * * *
 

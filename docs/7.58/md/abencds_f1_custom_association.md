@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, association"
+description: |
+  Syntax ... ASSOCIATION cardinality(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cardinality_v2.htm) TO target ON cds_cond  WITH DEFAULT FILTER cds_cond(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v1.htm)  ... A
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_custom_association.htm"
+abapFile: "abencds_f1_custom_association.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "custom", "association"]
+---
 
 * * *
 

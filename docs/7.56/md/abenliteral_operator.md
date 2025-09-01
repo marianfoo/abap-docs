@@ -1,4 +1,14 @@
-  
+---
+title: "Literal Operator"
+description: |
+  Syntax ...  '...' & '...' & '...' ...     `...` & `...` & `...` ...   ... Effect The literal operator & can be used to combine two character literals(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuntyped_character_literals.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenliteral_operator.htm"
+abapFile: "abenliteral_operator.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenliteral", "operator"]
+---
 
 * * *
 

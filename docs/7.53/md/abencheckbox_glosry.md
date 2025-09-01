@@ -1,4 +1,14 @@
-  
+---
+title: "checkbox_glosry"
+description: |
+  checkbox_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencheckbox_glosry.htm"
+abapFile: "abencheckbox_glosry.htm"
+keywords: ["do", "try", "abencheckbox", "glosry"]
+---
 
 * * *
 

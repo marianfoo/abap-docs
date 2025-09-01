@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDIC-based entity (obsolete)"
+description: |
+  CDS DDIC-based entities are the predecessor of pure CDS entities(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry'). There is only one kind of DDIC-based entities available, namely CDS DDIC-based views(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_based_entity_glosry.htm"
+abapFile: "abencds_ddic_based_entity_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "ddic", "based", "entity", "glosry"]
+---
 
 * * *
 

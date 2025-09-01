@@ -1,4 +1,14 @@
-  
+---
+title: "Contexts - Buffering Concept"
+description: |
+  A context buffer is managed by the context program CONTEXT_X_... of a context(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontext_glosry.htm 'Glossary Entry'). From a technical point of view, it is a cross-transaction application buffer(https://help.sap.com/doc/abapdocu_755_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontext_buffer.htm"
+abapFile: "abencontext_buffer.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "types", "abencontext", "buffer"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Contexts - Buffering Concept
 
 A context buffer is managed by the context program CONTEXT\_X\_... of a [context](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontext_glosry.htm "Glossary Entry"). From a technical point of view, it is a [cross-transaction application buffer](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencrosstrans_app_buffer_glosry.htm "Glossary Entry") of structure CONTEXTB and of ID IB in the [shared memory](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_memory_glosry.htm "Glossary Entry") of the current [AS instance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapplication_server_glosry.htm "Glossary Entry"), which is processed in the context program with statements [EXPORT TO SHARED BUFFER](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster_medium.htm) and [IMPORT FROM SHARED BUFFER](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapimport_medium.htm). The context program renews the context buffer at specific times, but does not try to synchronously or nearly synchronously track current changes.
 
--   [Buffering Types](#@@ITOC@@ABENCONTEXT_BUFFER_1)
+-   [Buffering Types](#abencontext-buffer-1--------buffer-size---@ITOC@@ABENCONTEXT_BUFFER_2)
 
--   [Buffer Size](#@@ITOC@@ABENCONTEXT_BUFFER_2)
-
--   [Buffering Types](#@@ITOC@@ABENCONTEXT_BUFFER_3)
-
--   [Performance](#@@ITOC@@ABENCONTEXT_BUFFER_4)
+-   [Buffering Types](#abencontext-buffer-3--------performance---@ITOC@@ABENCONTEXT_BUFFER_4)
 
 Buffering Types
 

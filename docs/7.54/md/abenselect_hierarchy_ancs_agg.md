@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... HIERARCHY_ANCESTORS_AGGREGATE( SOURCE hierarchy(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy.htm) AS tabalias START WHERE sql_cond(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenosql_expr_logexp.htm) MEASURES agg_func1 AS
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_ancs_agg.htm"
+abapFile: "abenselect_hierarchy_ancs_agg.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "internal-table", "abenselect", "hierarchy", "ancs", "agg"]
+---
 
 * * *
 

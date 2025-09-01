@@ -1,4 +1,14 @@
-  
+---
+title: "Using System Fields as Actual Parameters"
+description: |
+  Background The structure sy exists once in an internal session(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_session_glosry.htm 'Glossary Entry') and is shared by all programs in this internal session. The components of sy represent the system fields. System fields are gl
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_actual_parameters_guidl.htm"
+abapFile: "abenuse_actual_parameters_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "abenuse", "actual", "parameters", "guidl"]
+---
 
 * * *
 

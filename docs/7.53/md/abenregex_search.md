@@ -1,4 +1,14 @@
-  
+---
+title: "Search Patterns"
+description: |
+  One of the principle uses of regular expressions is the search for (and subsequent replacement of(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_replace.htm)) substrings in character strings. In general, a user is interested in a specific selection of character strings that m
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_search.htm"
+abapFile: "abenregex_search.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "internal-table", "abenregex", "search"]
+---
 
 * * *
 
@@ -10,17 +20,11 @@ Search Patterns
 
 One of the principle uses of regular expressions is the search for (and subsequent [replacement of](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_replace.htm)) substrings in character strings. In general, a user is interested in a specific selection of character strings that match a regular expression. In ABAP, searches using regular expressions are implemented using the addition [REGEX](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_pattern.htm) of the statement [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) or one of the [search functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensearch_function_glosry.htm "Glossary Entry"). Here, the found substrings are determined with no overlaps in accordance with the leftmost-longest rule.
 
--   [Leftmost-longest rule](#@@ITOC@@ABENREGEX_SEARCH_1)
+-   [Leftmost-longest rule](#abenregex-search-1--------operators-for-search-patterns---@ITOC@@ABENREGEX_SEARCH_2)
 
--   [Operators for Search Patterns](#@@ITOC@@ABENREGEX_SEARCH_2)
+-   [Start and End of a Line](#abenregex-search-3--------start-and-end-of-a-character-string---@ITOC@@ABENREGEX_SEARCH_4)
 
--   [Start and End of a Line](#@@ITOC@@ABENREGEX_SEARCH_3)
-
--   [Start and End of a Character String](#@@ITOC@@ABENREGEX_SEARCH_4)
-
--   [Start and End of a Word](#@@ITOC@@ABENREGEX_SEARCH_5)
-
--   [Preview Conditions](#@@ITOC@@ABENREGEX_SEARCH_6)
+-   [Start and End of a Word](#abenregex-search-5--------preview-conditions---@ITOC@@ABENREGEX_SEARCH_6)
 
 -   [Cut Operator](#@@ITOC@@ABENREGEX_SEARCH_7)
 

@@ -1,4 +1,14 @@
-  
+---
+title: "PERFORM, general"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_shortref.htm) Syntax PERFORM subr_identifier(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_form.htm)  parameter_list(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_general.htm"
+abapFile: "abapperform_general.htm"
+keywords: ["do", "if", "catch", "class", "internal-table", "abapperform", "general"]
+---
 
 * * *
 

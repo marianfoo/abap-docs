@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP class"
+description: |
+  Global class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_class_glosry.htm 'Glossary Entry') with one or more tag interfaces(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentag_interface_glosry.htm 'Glossary Entry') IF_AMDP_MARKER_ ... for AB
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_class_glosry.htm"
+abapFile: "abenamdp_class_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenamdp", "glosry"]
+---
 
 * * *
 

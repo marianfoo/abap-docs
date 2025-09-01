@@ -1,4 +1,14 @@
-  
+---
+title: "CDS access policy"
+description: |
+  A container for other definitions defined using DEFINE ACCESSPOLICY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_accesspolicy.htm) in the ABAP Core Data Services(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_core_data_services_glosry.htm 'Glo
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_access_policy_glosry.htm"
+abapFile: "abencds_access_policy_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "access", "policy", "glosry"]
+---
 
 * * *
 

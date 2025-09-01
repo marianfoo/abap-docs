@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT"
+description: |
+  Syntax SELECT DISTINCT FROM data_source(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_data_source_v2.htm)  association1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_association_v2.htm) association2(https://help.sap.com/doc/abapdocu
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_statement_v2.htm"
+abapFile: "abencds_select_statement_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "statement"]
+---
 
 * * *
 

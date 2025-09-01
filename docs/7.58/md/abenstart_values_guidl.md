@@ -1,4 +1,14 @@
-  
+---
+title: "Start Values"
+description: |
+  Background If you declare a data object with the statement DATA, you can use the addition VALUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_options.htm) to set a value, with which the data object is filled when it is created. If the addition VALUE is not used, the system us
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstart_values_guidl.htm"
+abapFile: "abenstart_values_guidl.htm"
+keywords: ["do", "if", "case", "method", "data", "types", "abenstart", "values", "guidl"]
+---
 
 * * *
 

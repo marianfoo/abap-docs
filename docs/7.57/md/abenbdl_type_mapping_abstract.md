@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Mapping, Abstract BDEF"
+description: |
+  Syntax Forms Type mapping ... mapping for PartnerType(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping.htm) ... Deep mapping ... deep mapping for NestedDeepDDICType corresponding  EntityComp1 = PartnerComp1 ... sub _Compos1 = Partnersub1
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping_abstract.htm"
+abapFile: "abenbdl_type_mapping_abstract.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "type", "mapping", "abstract"]
+---
 
 * * *
 

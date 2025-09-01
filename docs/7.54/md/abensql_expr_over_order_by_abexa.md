@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Window Expressions with Sort"
+description: |
+  This example demonstrates window expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) with a sort. Source Code REPORT demo_select_over_order_by. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENT
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_order_by_abexa.htm"
+abapFile: "abensql_expr_over_order_by_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "types", "abensql", "expr", "over", "order", "abexa"]
+---
 
 * * *
 

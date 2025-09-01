@@ -1,4 +1,14 @@
-  
+---
+title: "technical_type_prpt_glosry"
+description: |
+  technical_type_prpt_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentechnical_type_prpt_glosry.htm"
+abapFile: "abentechnical_type_prpt_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentechnical", "type", "prpt", "glosry"]
+---
 
 * * *
 

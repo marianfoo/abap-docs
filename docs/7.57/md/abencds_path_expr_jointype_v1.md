@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 

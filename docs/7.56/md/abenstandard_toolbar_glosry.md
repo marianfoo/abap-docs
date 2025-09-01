@@ -1,4 +1,14 @@
-  
+---
+title: "standard_toolbar_glosry"
+description: |
+  standard_toolbar_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_toolbar_glosry.htm"
+abapFile: "abenstandard_toolbar_glosry.htm"
+keywords: ["do", "try", "abenstandard", "toolbar", "glosry"]
+---
 
 * * *
 

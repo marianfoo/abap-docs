@@ -1,4 +1,14 @@
-  
+---
+title: "comp_enhancement_impl_glosry"
+description: |
+  comp_enhancement_impl_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomp_enhancement_impl_glosry.htm"
+abapFile: "abencomp_enhancement_impl_glosry.htm"
+keywords: ["do", "try", "abencomp", "enhancement", "impl", "glosry"]
+---
 
 * * *
 

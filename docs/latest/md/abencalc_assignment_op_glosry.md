@@ -1,4 +1,14 @@
-  
+---
+title: "calc_assignment_op_glosry"
+description: |
+  calc_assignment_op_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalc_assignment_op_glosry.htm"
+abapFile: "abencalc_assignment_op_glosry.htm"
+keywords: ["do", "if", "try", "abencalc", "assignment", "glosry"]
+---
 
 * * *
 

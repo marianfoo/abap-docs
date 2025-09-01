@@ -1,4 +1,14 @@
-  
+---
+title: "APC - Creating a Detached Client"
+description: |
+  This example demonstrates how a detached client is created for the WebSocket protocol. Source Code  Public class definition CLASS cl_demo_apc_detached_client DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_detached_client_abexa.htm"
+abapFile: "abenapc_detached_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "detached", "client", "abexa"]
+---
 
 * * *
 

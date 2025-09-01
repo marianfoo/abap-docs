@@ -1,4 +1,14 @@
-  
+---
+title: "actual_parameter_glosry"
+description: |
+  actual_parameter_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenactual_parameter_glosry.htm"
+abapFile: "abenactual_parameter_glosry.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "abenactual", "parameter", "glosry"]
+---
 
 * * *
 

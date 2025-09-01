@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - DDL and DML"
+description: |
+  This example demonstrates the use of the DDL and DML statements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_ddl_dml.htm) with ADBC. Source Code REPORT demo_adbc_ddl_dml. 'This program uses platform dependent Native SQL. 'It may not work for every database system. PARAMET
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_dml_ddl_abexa.htm"
+abapFile: "abenadbc_dml_ddl_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "abexa"]
+---
 
 * * *
 

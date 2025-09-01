@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDIC-based views (obsolete), Client Handling"
+description: |
+  This example demonstrates how client-dependent(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_client_handling_v1.htm) CDS DDIC-based views (obsolete) are handled. Source Code REPORT demo_cds_client_handling. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_client_handl_v1_abexa.htm"
+abapFile: "abencds_client_handl_v1_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "client", "handl", "abexa"]
+---
 
 * * *
 

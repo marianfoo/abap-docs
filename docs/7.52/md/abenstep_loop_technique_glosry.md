@@ -1,4 +1,14 @@
-  
+---
+title: "step_loop_technique_glosry"
+description: |
+  step_loop_technique_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstep_loop_technique_glosry.htm"
+abapFile: "abenstep_loop_technique_glosry.htm"
+keywords: ["loop", "do", "try", "abenstep", "technique", "glosry"]
+---
 
 * * *
 

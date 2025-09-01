@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') itab - Virtual Sort of a Table(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvirtual_sort_simple_abexa.htm) !Example(exa.gif 'Example') itab - Virtual Sort of Two Tables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvirtual_sort_c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvirtual_sort_abexas.htm"
+abapFile: "abenvirtual_sort_abexas.htm"
+keywords: ["do", "if", "class", "data", "internal-table", "abenvirtual", "sort", "abexas"]
+---
 
 * * *
 

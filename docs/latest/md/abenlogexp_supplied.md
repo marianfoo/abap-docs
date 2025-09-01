@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... para IS NOT SUPPLIED ... Effect This predicate expression checks whether a formal parameter para of a procedure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocedure_glosry.htm 'Glossary Entry') is filled or requested. The expression is true if at the call an ac
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_supplied.htm"
+abapFile: "abenlogexp_supplied.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "abenlogexp", "supplied"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Protocol"
+description: |
+  The RFC protocol describes how data is passed to and from the RFC interface. basXML basXML(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbasxml_glosry.htm 'Glossary Entry') is available as a uniform format for all types of parameter passing. To use basXML, it must be specified in
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_protocol.htm"
+abapFile: "abenrfc_protocol.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "types", "abenrfc", "protocol"]
+---
 
 * * *
 

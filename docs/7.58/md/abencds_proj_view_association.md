@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - ASSOCIATION, Transactional Query"
+description: |
+  Syntax ... ASSOCIATION  cardinality(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cardinality_v2.htm) TO target AS _assoc ON cds_cond(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v2.htm)  WITH DEFAULT FILTER
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_association.htm"
+abapFile: "abencds_proj_view_association.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "proj", "view", "association"]
+---
 
 * * *
 

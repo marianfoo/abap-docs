@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Statements for Dynpros"
+description: |
+  The following statements can be used to call and process dynpros(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm 'Glossary Entry') in an ABAP program: -   CALL SCREEN(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_screen.htm) -   SET PF-STAT
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_abap_statements.htm"
+abapFile: "abenabap_dynpros_abap_statements.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenabap", "dynpros", "abap", "statements"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in ABAP release 7.40, SP05 applies to all ABAP SQL statements that use one of the following features introduced in ABAP release 7.40 SP05(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-740_sp05-abap_sql.htm): -   Lists of operands as co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_740_sp05.htm"
+abapFile: "abenabap_sql_strictmode_740_sp05.htm"
+keywords: ["select", "update", "do", "if", "try", "class", "data", "types", "abenabap", "sql", "strictmode", "740", "sp05"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ ASuggestion%20for%20improvement:)
 
 ABAP SQL - Strict Mode in ABAP Release 7.40, SP05
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_740_SP05_1)
--   [Rules for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_740_SP05_2)
+-   [Conditions for the Strict Mode](#abenabap-sql-strictmode-740-sp05-1-------rules-for-the-strict-mode---@ITOC@@ABENABAP_SQL_STRICTMODE_740_SP05_2)
 
 Conditions for the Strict Mode   
 

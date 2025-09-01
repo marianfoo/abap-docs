@@ -1,4 +1,14 @@
-  
+---
+title: "secondary_index_glosry"
+description: |
+  secondary_index_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensecondary_index_glosry.htm"
+abapFile: "abensecondary_index_glosry.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abensecondary", "index", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Pseudo Comments"
+description: |
+  Pseudo comments are program directives(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') for managing checks and test runs. Pseudo comments have mostly become obsolete(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comment.htm"
+abapFile: "abenpseudo_comment.htm"
+keywords: ["do", "if", "try", "class", "abenpseudo", "comment"]
+---
 
 * * *
 

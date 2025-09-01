@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Engine, Restrictions"
+description: |
+  This example demonstrates the access to internal tables in the statement WITH(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith.htm). Source Code  Public class definition CLASS cl_demo_abap_sql_with_itab DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC .
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_engine_restr_abexa.htm"
+abapFile: "abenabap_sql_engine_restr_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "sql", "engine", "restr", "abexa"]
+---
 
 * * *
 

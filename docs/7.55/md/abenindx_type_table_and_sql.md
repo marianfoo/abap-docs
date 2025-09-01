@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  An export/import table can be searched systematically for a particular data cluster using SELECT; at the same time, information in the freely definable columns can be evaluated. Example The following example deletes all data clusters of an area from the export/import tables DEMO_INDX_BLOB and DEMO
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenindx_type_table_and_sql.htm"
+abapFile: "abenindx_type_table_and_sql.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "data", "abenindx", "type", "table", "and", "sql"]
+---
 
 * * *
 

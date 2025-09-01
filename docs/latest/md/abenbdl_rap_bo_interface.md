@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Interface Behavior Definition"
+description: |
+  A RAP interface behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_interface_bdef_glosry.htm 'Glossary Entry') is created using the behavior definition language RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddl_glosry.htm
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo_interface.htm"
+abapFile: "abenbdl_rap_bo_interface.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "rap", "interface"]
+---
 
 * * *
 

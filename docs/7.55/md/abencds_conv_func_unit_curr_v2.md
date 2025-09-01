@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Unit and Currency Conversion Functions"
+description: |
+  Syntax ... UNIT_CONVERSION( p1 => a1, p2 => a2, ... )  CURRENCY_CONVERSION( p1 => a1, p2 => a2, ... ) ... Variants: 1. ... UNIT_CONVERSION( p1 => a1, p2 => a2, ... )(#!ABAP_VARIANT_1@1@) 2. ... CURRENCY_CONVERSION( p1 => a1, p2 => a2, ... )(#!ABAP_VARIANT_2@2@) Effect Conversion functio
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conv_func_unit_curr_v2.htm"
+abapFile: "abencds_conv_func_unit_curr_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "conv", "func", "unit", "curr"]
+---
 
 * * *
 

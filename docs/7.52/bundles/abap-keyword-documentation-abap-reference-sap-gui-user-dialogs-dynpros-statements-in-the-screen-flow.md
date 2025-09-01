@@ -5,7 +5,17 @@ Included pages: 11
 
 ### abendynp_subscreens.htm
 
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abendynp_subscreen.htm
 
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -58,7 +78,17 @@ Executable Example
 
 ### abendynp_tabstrip.htm
 
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -89,7 +119,17 @@ Executable Examples
 
 ### abendynp_splitter_control_spcl.htm
 
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -129,7 +169,17 @@ Executable Example
 
 ### dynpcall.htm
 
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscree
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -210,7 +260,17 @@ PROCESS AFTER INPUT.
 
 ### abentab_strip_control_abexas.htm
 
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Screens, Tabstrips with scrolling in the SAP GUI(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_con
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -229,7 +289,17 @@ Continue
 
 ### abendynpro_subscreen_abexa.htm
 
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -338,7 +408,17 @@ The function code of the pushbuttons of the subscreen dynpros is different and r
 
 ### abentab_strip_control1_abexa.htm
 
-  
+---
+title: "Screens, Tabstrips with scrolling in the SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["select", "do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -384,7 +464,17 @@ By selecting the Continue button, the PAI event is triggered and a message shows
 
 ### abentab_strip_control2_abexa.htm
 
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the Application Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -442,7 +532,17 @@ This example works in exactly the same way as the [example with local scrolling]
 
 ### abendynpro_splitter_control_abexa.htm
 
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  The example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter E
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -483,7 +583,17 @@ A subscreen is assigned to both parts of the splitter control. The subscreens ar
 
 ### abentab_strip_control_abexas.htm
 
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Screens, Tabstrips with scrolling in the SAP GUI(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_con
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 

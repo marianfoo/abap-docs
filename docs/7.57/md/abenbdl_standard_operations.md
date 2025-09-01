@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Standard Operations"
+description: |
+  Syntax ... internal(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_internal.htm) create (features:global(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_actions_fc.htm) ,precheck(https://help.sap.com/doc/abapdocu_757_index_htm/7.57
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm"
+abapFile: "abenbdl_standard_operations.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "standard", "operations"]
+---
 
 * * *
 

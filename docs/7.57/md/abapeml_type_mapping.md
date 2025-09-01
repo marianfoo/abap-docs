@@ -1,4 +1,14 @@
-  
+---
+title: "Type Mapping"
+description: |
+  -   CORRESPONDING, Type mapping for ABAP EML(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_corresponding.htm) -   ABAP SQL Statements with MAPPING FROM ENTITY(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmapping_from_entity.htm) -   SET NAMES(https://help
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_type_mapping.htm"
+abapFile: "abapeml_type_mapping.htm"
+keywords: ["do", "if", "abapeml", "type", "mapping"]
+---
 
 * * *
 

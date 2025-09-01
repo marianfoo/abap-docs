@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Parameters of Character String Functions"
+description: |
+  The following parameters are shared by multiple string functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions.htm) and in predicate functions for character-like arguments(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate_functions_strgs.h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_common_paras.htm"
+abapFile: "abenstring_functions_common_paras.htm"
+keywords: ["do", "case", "data", "abenstring", "functions", "common", "paras"]
+---
 
 * * *
 

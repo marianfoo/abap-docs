@@ -1,4 +1,14 @@
-  
+---
+title: "TABLES"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptables_shortref.htm) Syntax TABLES table_wa. Effect This statement is not allowed in classes and declares a data object table_wa as a table work area whose data type is taken from the identically named structured
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptables.htm"
+abapFile: "abaptables.htm"
+keywords: ["do", "if", "try", "class", "data", "abaptables"]
+---
 
 * * *
 

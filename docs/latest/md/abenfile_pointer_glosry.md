@@ -1,4 +1,14 @@
-  
+---
+title: "file_pointer_glosry"
+description: |
+  file_pointer_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_pointer_glosry.htm"
+abapFile: "abenfile_pointer_glosry.htm"
+keywords: ["do", "if", "try", "abenfile", "pointer", "glosry"]
+---
 
 * * *
 

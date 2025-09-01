@@ -1,4 +1,14 @@
-  
+---
+title: "text_string_literal_glosry"
+description: |
+  text_string_literal_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_string_literal_glosry.htm"
+abapFile: "abentext_string_literal_glosry.htm"
+keywords: ["do", "try", "abentext", "string", "literal", "glosry"]
+---
 
 * * *
 

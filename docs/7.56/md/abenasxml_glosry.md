@@ -1,4 +1,14 @@
-  
+---
+title: "asxml_glosry"
+description: |
+  asxml_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasxml_glosry.htm"
+abapFile: "abenasxml_glosry.htm"
+keywords: ["do", "try", "data", "abenasxml", "glosry"]
+---
 
 * * *
 

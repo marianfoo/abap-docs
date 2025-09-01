@@ -1,4 +1,14 @@
-  
+---
+title: "max_min_function_glosry"
+description: |
+  max_min_function_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmax_min_function_glosry.htm"
+abapFile: "abenmax_min_function_glosry.htm"
+keywords: ["do", "if", "abenmax", "min", "function", "glosry"]
+---
 
 * * *
 

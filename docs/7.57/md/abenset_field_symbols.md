@@ -1,4 +1,14 @@
-  
+---
+title: "Assigning Field Symbols"
+description: |
+  The reference in a field symbol is set using an assignment of a memory area to the field symbol by the statement -   ASSIGN(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm) The reference in a field symbol is deleted by the statement -   UNASSIGN(https://help.sap.com/doc
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenset_field_symbols.htm"
+abapFile: "abenset_field_symbols.htm"
+keywords: ["delete", "do", "if", "data", "field-symbol", "abenset", "field", "symbols"]
+---
 
 * * *
 

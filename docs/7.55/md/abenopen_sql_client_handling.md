@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Client Handling"
+description: |
+  The term client handling(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclient_handling_glosry.htm 'Glossary Entry') means the handling of the application data of a client(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclient_glosry.htm 'Glossary Entry'). The aim
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_client_handling.htm"
+abapFile: "abenopen_sql_client_handling.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "data", "internal-table", "abenopen", "sql", "client", "handling"]
+---
 
 * * *
 

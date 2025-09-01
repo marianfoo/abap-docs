@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BDL - Syntax"
+description: |
+  The following topics describe the general syntax rules and the rules for pragmas of the RAP BDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm 'Glossary Entry'). A list of all available language elements and the respective release dates is also provided. -   RAP
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_syntax.htm"
+abapFile: "abenbdl_syntax.htm"
+keywords: ["do", "if", "try", "abenbdl", "syntax"]
+---
 
 * * *
 

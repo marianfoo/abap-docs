@@ -1,4 +1,14 @@
-  
+---
+title: "How Formal Parameters Are Passed"
+description: |
+  Background Parameters can be passed to procedures either by reference or by value. -   Pass by reference In the case of pass by reference, a reference to the actual parameter is passed to the procedure when it is called. The procedure then works with the actual parameter. No local data object is cre
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_transf_formal_para_guidl.htm"
+abapFile: "abentype_transf_formal_para_guidl.htm"
+keywords: ["select", "do", "while", "if", "case", "method", "data", "internal-table", "abentype", "transf", "formal", "para", "guidl"]
+---
 
 * * *
 

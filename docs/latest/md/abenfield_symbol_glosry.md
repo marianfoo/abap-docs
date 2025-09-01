@@ -1,4 +1,14 @@
-  
+---
+title: "field_symbol_glosry"
+description: |
+  field_symbol_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbol_glosry.htm"
+abapFile: "abenfield_symbol_glosry.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abenfield", "symbol", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "GET FEATURES"
+description: |
+  Obsolete Syntax Syntax Forms Short Form GET FEATURES ENTITY bdef FROM keys REQUEST request RESULT result_tab(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm) response_param(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_get_features.htm"
+abapFile: "abeneml_get_features.htm"
+keywords: ["insert", "do", "if", "case", "try", "internal-table", "abeneml", "get", "features"]
+---
 
 * * *
 

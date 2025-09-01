@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.decfloat.outputStyle : style  @AbapCatalog.textLanguage  @Semantics.amount.currencyCode : 'struct.comp' @Semantics.quantity.unitOfMeasure : 'struct.comp' Effect Annotation for specifying optional properties of a compone
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_struct_cmpprps.htm"
+abapFile: "abenddicddl_define_struct_cmpprps.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "cmpprps"]
+---
 
 * * *
 

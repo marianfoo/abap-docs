@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_reduce_text. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES strings TYPE STANDARD TABLE OF string WITH EMPTY KEY. DATA(words) = VALUE strings( ( `All` ) ( `ABAP` ) ( `constructs` ) ( `are` ) ( `imperative` )
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreduce_text_abexa.htm"
+abapFile: "abenreduce_text_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenreduce", "text", "abexa"]
+---
 
 * * *
 

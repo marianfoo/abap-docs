@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Tables Using FOR and VALUE"
+description: |
+  This example demonstrates conditional iterations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor_conditional.htm) with the operator VALUE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm). Source Code REPORT demo_value_cond_ite
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_iteration_value_abexa.htm"
+abapFile: "abencond_iteration_value_abexa.htm"
+keywords: ["select", "do", "while", "if", "method", "class", "types", "internal-table", "abencond", "iteration", "value", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ASSIGN LOCAL COPY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_local_copy_shortref.htm) Obsolete Syntax ASSIGN LOCAL COPY OF  INITIAL mem_area  INITIAL LINE OF itab(itab_name)  MAIN TABLE FIELD (name)  TO <fs> casting_spec. E
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_local_copy.htm"
+abapFile: "abapassign_local_copy.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "internal-table", "field-symbol", "abapassign", "local", "copy"]
+---
 
 * * *
 

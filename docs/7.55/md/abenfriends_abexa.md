@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Friendship"
+description: |
+  This example demonstrates an interface that is a friend(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfriends.htm) of a class. Source Code REPORT demo_friendship. CLASS demo DEFINITION. PUBLIC SECTION. INTERFACES if_demo_friend. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMEN
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfriends_abexa.htm"
+abapFile: "abenfriends_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "abenfriends", "abexa"]
+---
 
 * * *
 

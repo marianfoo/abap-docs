@@ -1,4 +1,14 @@
-  
+---
+title: "abap_ixml_lib_stream"
+description: |
+  abap_ixml_lib_stream - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_stream.htm"
+abapFile: "abenabap_ixml_lib_stream.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "ixml", "lib", "stream"]
+---
 
 * * *
 

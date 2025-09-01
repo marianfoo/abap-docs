@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abaptype_table_for.htm
 
-  
+---
+title: "TYPE TABLE FOR"
+description: |
+  Syntax ... TABLE FOR  ACTION IMPORT bdef~action    ACTION RESULT bdef~action    INSTANCE AUTHORIZATION KEY bdef~group    INSTANCE AUTHORIZATION RESULT bdef~group    CHANGE bdef    CREATE bdef _assoc
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_table_for.htm"
+abapFile: "abaptype_table_for.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abaptype", "table", "for"]
+---
 
 * * *
 
@@ -432,7 +442,17 @@ Continue
 
 ### abenderived_type_hierarchy_abexa.htm
 
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenroot_entity_glosry.htm 'Glossary Entry') DEMO_MANAGED_HIERARCHY: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity DEMO_MANAGED_HIERARCHY as select from demo_t
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenderived_type_hierarchy_abexa.htm"
+abapFile: "abenderived_type_hierarchy_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenderived", "type", "hierarchy", "abexa"]
+---
 
 * * *
 

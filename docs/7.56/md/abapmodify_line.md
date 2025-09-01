@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY LINE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_line_shortref.htm) Syntax MODIFY  LINE line OF PAGE pageCURRENT PAGE INDEX idx  CURRENT LINE  source(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_line.htm"
+abapFile: "abapmodify_line.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapmodify", "line"]
+---
 
 * * *
 

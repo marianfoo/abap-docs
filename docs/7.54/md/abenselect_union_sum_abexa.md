@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Union with Aggregate Expression"
+description: |
+  This example demonstrates how a union is created across a table using an aggregate expression. Source Code REPORT demo_select_union_sum. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrid TYPE sflight-carrid VALUE 'AA'. cl_dem
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_union_sum_abexa.htm"
+abapFile: "abenselect_union_sum_abexa.htm"
+keywords: ["select", "insert", "do", "case", "method", "class", "data", "abenselect", "union", "sum", "abexa"]
+---
 
 * * *
 

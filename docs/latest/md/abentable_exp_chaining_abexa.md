@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_tab_exp_chaining DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. DATA: langu TYPE sy-langu, index TYPE if_abap_docu=>abap_index_tab. ENDCLASS.  Publ
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_exp_chaining_abexa.htm"
+abapFile: "abentable_exp_chaining_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abentable", "exp", "chaining", "abexa"]
+---
 
 * * *
 

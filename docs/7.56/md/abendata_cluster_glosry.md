@@ -1,4 +1,14 @@
-  
+---
+title: "data_cluster_glosry"
+description: |
+  data_cluster_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster_glosry.htm"
+abapFile: "abendata_cluster_glosry.htm"
+keywords: ["delete", "do", "try", "data", "abendata", "cluster", "glosry"]
+---
 
 * * *
 

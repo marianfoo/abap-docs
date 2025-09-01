@@ -1,325 +1,21 @@
-# ABAP - Keyword Documentation / ABAP - Programming Language / Operands / Functions and Expressions in Operand Positions
+# ABAP - Keyword Documentation / ABAP - Programming Language / Operands / Functions and Expressions in Operand Positions / Examples of Expression-Oriented Programming
 
-Included pages: 11
-
-
-### abenoperands_expressions.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Functions and Expressions in Operand Positions, ABENOPERANDS_EXPRESSIONS, 757%0D%0A%0
-D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-Functions and Expressions in Operand Positions
-
-[Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_glosry.htm "Glossary Entry") and [expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_glosry.htm "Glossary Entry") can be listed in certain [read positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenread_position_glosry.htm "Glossary Entry") and [write positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_position_glosry.htm "Glossary Entry").
-
--   [Operators and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators_expressions.htm)
--   [Functions and Expressions for Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunctions_expressions.htm)
--   [Examples of Expression-Oriented Programming](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions_abexas.htm)
-
-Hint
-
-The program DEMO\_EXPRESSIONS shows more examples for using functions and expressions.
-
-Continue
-[Operators and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators_expressions.htm)
-[Functions and Expressions for Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunctions_expressions.htm)
-[Examples of Expression-Oriented Programming](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions_abexas.htm)
-
-
-### abenoperators_expressions.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_expressions.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Operators and Expressions, ABENOPERATORS_EXPRESSIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%
-0A%0D%0A%0D%0ASuggestion for improvement:)
-
-Operators and Expressions
-
-An operator usually combines two operands as an [expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions.htm) or is used together with an operand to construct an expression. When a statement containing such an expression is executed, the result of the expression is determined (operation) and is used in the statement. Operators are represented either by special characters or [reserved names](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_words.htm).
-
--   [Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators.htm)
--   [Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions.htm)
-
-Continue
-[Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators.htm)
-[Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions.htm)
-
-
-### abenoperators.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_expressions.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators_expressions.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Operators, ABENOPERATORS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for
- improvement:)
-
-Operators
-
-ABAP contains the following operators:
-
--   Operators that perform special operations in operand positions:
-    -   [Declaration Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declarations.htm)
-        
-        The declaration operators DATA and FIELD-SYMBOL declare variables or field symbols in operand positions.
-        
-    -   [Constructor Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expressions.htm)
-        
-        The constructor operators NEW, VALUE, CONV, CORRESPONDING, CAST, REF, EXACT, REDUCE, FILTER, COND, and SWITCH construct values for data objects of specific data types in constructor expressions.
-        
--   Operators that combine multiple operands to a single expression:
-    -   [Assignment Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenequals_operator.htm)
-        
-        The assignment operator \= combines the source field and target field of an assignment. The special [casting operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencasting_operator_glosry.htm "Glossary Entry") ?= performs a [downcast](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendown_cast_glosry.htm "Glossary Entry") during the assignment. The [addition assignment operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadd_assignment_op_glosry.htm "Glossary Entry") ([+=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignments.htm)), [subtraction assignment operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_assignment_op_glosry.htm "Glossary Entry") ([\-=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignments.htm)), [multiplication assignment operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmult_assignment_op_glosry.htm "Glossary Entry") ([\*=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignments.htm)), [division assignment operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendiv_assignment_op_glosry.htm "Glossary Entry") ([/=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignments.htm)), or [concatenation assignment operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconcat_assignment_op_glosry.htm "Glossary Entry") ([\*\*=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignment_string.htm)) performs a [calculation assignment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignment_glosry.htm "Glossary Entry"). Furthermore, the operator \= binds actual parameters to formal parameters, for example in procedure calls or when working with [data clusters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_cluster_glosry.htm "Glossary Entry").
-        
-    -   [Arithmetic Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_arith.htm)
-        
-        The arithmetic operators +, \-, \*, /, DIV, MOD, and \*\* combine two or more numeric operands to an arithmetic expression. In addition, the characters + and \- act as algebraic signs in arithmetic expressions.
-        
-    -   [Bit Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_bit.htm)
-        
-        The bit operators BIT-AND, BIT-OR, and BIT-XOR combine two or more byte-like operands to a bit expression. The bit operator BIT-NOT negates a byte-like operand.
-        
-    -   [String Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string.htm)
-        
-        The string operator && concatenates two character-like operands to a string expression.
-        
-    -   [Relational Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm)
-        
-        Relational operators occur in relational expressions, which in turn are components of logical expressions. The [comparison operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomp_operator_glosry.htm "Glossary Entry") \=, <>, <, \>, <=,\>=, BETWEEN, and so on combine two or more operands of any data type to a comparison expression. There are additional relational operators for specific data types. The [predicate operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpredicate_operator_glosry.htm "Glossary Entry") IS makes a statement about an operand.
-        
-    -   [Boolean Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_boole.htm)
-        
-        The Boolean operators AND, OR, and EQUIV combine the results of individual logical expressions to one logical expression. The result of a logical expression is either true or false. The Boolean operator NOT negates the result of a logical expression.
-        
--   Operator that combine two operands during program compilation:
-    -   [Literal Operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenliteral_operator.htm)
-        
-        The literal operator & combines two literals or two string templates to form one literal or string template.
-
-
-### abenexpressions.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_expressions.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators_expressions.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Expressions, ABENEXPRESSIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
- for improvement:)
-
-Expressions
-
-The following expressions can be specified in [expression positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_position_glosry.htm "Glossary Entry"):
-
--   Write positions
-    -   [Declaration expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declarations.htm)
-    -   Certain [constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expressions.htm)
-    -   Certain [table expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm)
--   Read positions
-    -   [Logical expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm)
-    -   [Constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expressions.htm)
-    -   [Table expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm) and [mesh path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_expression.htm)
-    -   [Arithmetic expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_arith.htm)
-    -   [String expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string.htm)
-    -   [Bit expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_bit.htm)
-
-An expression in a [write position](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_position_glosry.htm "Glossary Entry") has a result that is assigned a value.
-
-An expression in a [read position](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenread_position_glosry.htm "Glossary Entry") has a result that is used as an operand in the statement. Logical expressions can contain [calculation expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_expression_glosry.htm "Glossary Entry"), that is, arithmetic expressions, string expressions, and bit expressions as operands of relational expressions. The three different calculation expression types cannot currently be mixed within a calculation expression.
-
-Hints
-
--   Although the calculation expression types cannot be mixed directly, a different type of expression can be used as an argument of a allowed function in another expression. In the same way, logical expressions can occur as arguments of [Boolean functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_function_glosry.htm "Glossary Entry") in calculation expressions.
--   In [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_glosry.htm "Glossary Entry"), three other kinds of expressions are possible:
-    
-    -   [SQL expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expression_glosry.htm "Glossary Entry")
-    -   [Aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenaggregate_expression_glosry.htm "Glossary Entry")
-    -   [SQL path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry")
-    
-    The ABAP expressions above can be used as [host expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_expression_glosry.htm "Glossary Entry") in ABAP SQL.
-
-
-### abenoperators_expressions.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_expressions.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Operators and Expressions, ABENOPERATORS_EXPRESSIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%
-0A%0D%0A%0D%0ASuggestion for improvement:)
-
-Operators and Expressions
-
-An operator usually combines two operands as an [expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions.htm) or is used together with an operand to construct an expression. When a statement containing such an expression is executed, the result of the expression is determined (operation) and is used in the statement. Operators are represented either by special characters or [reserved names](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_words.htm).
-
--   [Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators.htm)
--   [Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions.htm)
-
-Continue
-[Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators.htm)
-[Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions.htm)
-
-
-### abenfunctions_expressions.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_expressions.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Functions and Expressions for Operand Positions, ABENFUNCTIONS_EXPRESSIONS, 757%0D%0A
-%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-Functions and Expressions for Operand Positions
-
--   [Write Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_1)
--   [Read Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
-
-Write Positions   
-
-The following expressions can be specified in [write positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_position_glosry.htm "Glossary Entry"):
-
--   [Declaration expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclaration_expression_glosry.htm "Glossary Entry")
-    -   ... [DATA(...)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm) ...
-    -   ... [FINAL(...)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm) ...
-    -   ... [FIELD-SYMBOL(...)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield-symbol_inline.htm) ...
--   [Writable expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwritable_expression_glosry.htm "Glossary Entry")
-    -   The [constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") [NEW class( ... )->attr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_class.htm) and [CAST type( ... )->dobj](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_cast.htm)
-    -   [Table expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expression_glosry.htm "Glossary Entry") [itab\[ ... \]](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm) and their [chainings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_exp_chaining.htm)
-
-Read Positions   
-
-Functions that can be specified in a read position include the following:
-
--   [Built-in functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_function_glosry.htm "Glossary Entry")
-    
-    ... [func( arg )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions_syntax.htm) ...
-    ... [... func( val = arg p1 = arg1 p2 = arg2 ... )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions_syntax.htm) ...
-    
--   [Functional methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunctional_method_glosry.htm "Glossary Entry")
-    
-    ... [meth( )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm) ...
-    ... [meth( a )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm) ...
-    ... [meth( p1 = a1 p2 = a2 ... )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm) ...
-    ... [meth( *\[*EXPORTING  p1 = a1 p2 = a2 ...*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm)
-              [*\[*IMPORTING  p1 = a1 p2 = a2 ...*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm)
-              [*\[*CHANGING   p1 = a1 p2 = a2 ...*\]* )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm) ...
-    
--   [Method chaining](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_chaining_glosry.htm "Glossary Entry")
-    -   Chained method call:
-        
-        ... [...->meth1( ... )->meth2( ... )->...->meth( ... )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_static_chain.htm) ...
-        
-    -   Chained attribute access:
-        
-        ... [...->meth1( ... )->meth2( ... )->...->attr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_static_chain.htm) ...
-        
-
-The following expressions can be specified in read positions:
-
--   [Calculation expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_expression_glosry.htm "Glossary Entry"):
-    -   [Arithmetic expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry")
-        
-        ... [arith\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_arith.htm) ...
-        
-    -   [Bit expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry")
-        
-        ... [bit\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_bit.htm) ...
-        
-    -   [String Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_expression_glosry.htm "Glossary Entry")
-        
-        ... [string\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string.htm) ...
-        
--   [Constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"):
-    -   [Instance operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_operator_glosry.htm "Glossary Entry")
-        
-        [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_new.htm)
-        
-    -   [Value operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_operator_glosry.htm "Glossary Entry")
-        
-        [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_value.htm)
-        
-    -   [Conversion operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_operator_glosry.htm "Glossary Entry")
-        
-        [CONV](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_conv.htm)
-        
-    -   [Component operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding_operator_glosry.htm "Glossary Entry") [CORRESPONDING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expr_corresponding.htm)
-        
-    -   [Casting operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_operator_glosry.htm "Glossary Entry")
-        
-        [CAST](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_cast.htm)
-        
-    -   [Reference operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreference_operator_glosry.htm "Glossary Entry")
-        
-        [REF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_ref.htm)
-        
-    -   [Lossless operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlossless_operator_glosry.htm "Glossary Entry")
-        
-        [EXACT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_exact.htm)
-        
-    -   [Reduction operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_operator_glosry.htm "Glossary Entry")
-        
-        [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
-        
-    -   [Filter operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_operator_glosry.htm "Glossary Entry")
-        
-        [FILTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_filter.htm)
-        
-    -   [Conditional operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconditional_operator_glosry.htm "Glossary Entry")
-        
-        [COND](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconditional_expression_cond.htm), [SWITCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconditional_expression_switch.htm)
-        
--   [Table expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expression_glosry.htm "Glossary Entry") [itab\[ ... \]](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm) and their [chainings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_exp_chaining.htm)
-
-Hints
-
--   Functions with numeric return values and arithmetic expressions are summarized as [numeric expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumerical_expression_glosry.htm "Glossary Entry").
--   Functions with character-like return values and string expressions are summarized as [character-like expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_expression_glosry.htm "Glossary Entry").
--   Functions with a byte-like return values and bit expressions are summarized as [byte-like expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbyte_like_expression_glosry.htm "Glossary Entry").
-
-Example
-
-Numeric expression used for specification of a table index for an internal table.
-
-DATA: itab TYPE STANDARD TABLE OF i,
-      n    TYPE i.
-...
-READ TABLE itab INDEX lines( itab ) - n
-                INTO  FINAL(wa).
+Included pages: 4
 
 
 ### abenexpressions_abexas.htm
 
-  
+---
+title: "Examples of Expression-Oriented Programming"
+description: |
+  !Example(exa.gif 'Example') Expression-Orientation - Jawbreaker Game(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjaw_breaker_abexa.htm) !Example(exa.gif 'Example') Expression-Orientation - Minesweeper Game(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmine
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions_abexas.htm"
+abapFile: "abenexpressions_abexas.htm"
+keywords: ["do", "if", "abenexpressions", "abexas"]
+---
 
 * * *
 
@@ -340,7 +36,17 @@ Continue
 
 ### abenjaw_breaker_abexa.htm
 
-  
+---
+title: "Expression-Orientation - Jawbreaker Game"
+description: |
+  Expression-oriented implementation of a Jawbreaker game. Source Code PROGRAM demo_jawbreaker_html_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: t_vector TYPE STANDARD TABLE OF i WITH EMPTY KEY, t_matrix TYPE STANDARD TABLE OF t_vector WITH E
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjaw_breaker_abexa.htm"
+abapFile: "abenjaw_breaker_abexa.htm"
+keywords: ["select", "delete", "do", "if", "method", "class", "data", "types", "abenjaw", "breaker", "abexa"]
+---
 
 * * *
 
@@ -499,7 +205,17 @@ To play the game, use the left mouse button to remove related blocks with the sa
 
 ### abenmine_sweeper_abexa.htm
 
-  
+---
+title: "Expression-Orientation - Minesweeper Game"
+description: |
+  Expression-oriented implementation of a Minesweeper game. Source Code PROGRAM demo_minesweeper_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: BEGIN OF t_cell, bomb  TYPE abap_bool,  ' cell contains bomb y/n bombs TYPE i,          ' # of neighbo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmine_sweeper_abexa.htm"
+abapFile: "abenmine_sweeper_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenmine", "sweeper", "abexa"]
+---
 
 * * *
 
@@ -708,7 +424,17 @@ To play the game, use the left and right mouse buttons to enter or select fields
 
 ### abengame_2048_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_game_2048_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: BEGIN OF t_cell, value TYPE i, id    TYPE string, born  TYPE i, END OF t_cell, t_cells  TYPE STANDARD TABLE OF t_cell  WITH EMPTY KEY, t_field  TYPE STANDARD TABLE OF t_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengame_2048_abexa.htm"
+abapFile: "abengame_2048_abexa.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "method", "class", "data", "types", "abengame", "2048", "abexa"]
+---
 
 * * *
 
@@ -966,24 +692,3 @@ Description  
 This example uses the implementation of a 2048 game to demonstrate the expression-oriented ABAP programming (as introduced in Release 7.40. As a comparison, the program DEMO\_GAME\_2048\_700 shows a functionally identical implementation without expressions, which is restricted to mainly using language elements of Release 7.00.
 
 To play the game, use the arrow keys on the keyboard to move all tiles in one of the four directions.
-
-
-### abenexpressions_abexas.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Functions and Expressions in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_expressions.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Examples of Expression-Oriented Programming, ABENEXPRESSIONS_ABEXAS, 757%0D%0A%0D%0AE
-rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-Examples of Expression-Oriented Programming
-
-Continue
-![Example](exa.gif "Example") [Expression-Orientation - Jawbreaker Game](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjaw_breaker_abexa.htm)
-![Example](exa.gif "Example") [Expression-Orientation - Minesweeper Game](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmine_sweeper_abexa.htm)
-![Example](exa.gif "Example") [Expression-Orientation - 2048 Game](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengame_2048_abexa.htm)

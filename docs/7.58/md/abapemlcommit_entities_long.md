@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT ENTITIES RESPONSE OF, Long Form"
+description: |
+  Syntax COMMIT ENTITIES IN SIMULATION MODE RESPONSE OF bdef1 response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm) RESPONSE OF bdef2 response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm) ...
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapemlcommit_entities_long.htm"
+abapFile: "abapemlcommit_entities_long.htm"
+keywords: ["do", "if", "try", "method", "data", "abapemlcommit", "entities", "long"]
+---
 
 * * *
 

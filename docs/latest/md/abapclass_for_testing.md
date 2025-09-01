@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS, FOR TESTING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_shortref.htm) Syntax CLASS class DEFINITION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_definition.htm) FOR TESTING RISK LEVEL CRITICALDANGEROUSHARMLESS
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_for_testing.htm"
+abapFile: "abapclass_for_testing.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abapclass", "for", "testing"]
+---
 
 * * *
 

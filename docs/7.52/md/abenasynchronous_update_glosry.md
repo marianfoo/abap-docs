@@ -1,4 +1,14 @@
-  
+---
+title: "Asynchronous update"
+description: |
+  Update(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenupdate_glosry.htm 'Glossary Entry') during which update function modules(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenupdate_function_module_glosry.htm 'Glossary Entry') are executed with high priority in the
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasynchronous_update_glosry.htm"
+abapFile: "abenasynchronous_update_glosry.htm"
+keywords: ["update", "do", "try", "abenasynchronous", "glosry"]
+---
 
 * * *
 

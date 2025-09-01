@@ -1,4 +1,14 @@
-  
+---
+title: "Text string"
+description: |
+  Character-like data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_type_glosry.htm 'Glossary Entry') for saving character strings(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_string_1_glosry.htm 'Glossary Entry') with variable length
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_string_glosry.htm"
+abapFile: "abentext_string_glosry.htm"
+keywords: ["do", "try", "data", "types", "abentext", "string", "glosry"]
+---
 
 * * *
 

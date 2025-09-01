@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_arith. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(rnd) = cl_abap_random_int=>create( seed = CONV i( sy-uzeit ) min = 1 max = 100 ). DELETE FROM demo_expressions. INSERT demo_expressions FROM TABLE @(
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_arith_abexa.htm"
+abapFile: "abensql_expr_arith_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "method", "class", "data", "internal-table", "abensql", "expr", "arith", "abexa"]
+---
 
 * * *
 

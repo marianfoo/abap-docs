@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX time stamp"
+description: |
+  UTC time stamp(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutc_timestamp_glosry.htm 'Glossary Entry') where each day has 86400 seconds (in accordance with the standard POSIX(http://www.pasc.org/).1:2001) and leap seconds(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenposix_timestamp_glosry.htm"
+abapFile: "abenposix_timestamp_glosry.htm"
+keywords: ["do", "try", "abenposix", "timestamp", "glosry"]
+---
 
 * * *
 

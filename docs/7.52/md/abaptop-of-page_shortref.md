@@ -1,4 +1,14 @@
-  
+---
+title: "TOP-OF-PAGE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptop-of-page.htm) Syntax TOP-OF-PAGE DURING LINE-SELECTION. Effect Introduces an event block whose event is raised when a new page and a basic list are created. Addition -   DURING LINE-SELECTION Introduces an event bl
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptop-of-page_shortref.htm"
+abapFile: "abaptop-of-page_shortref.htm"
+keywords: ["select", "do", "abaptop", "page", "shortref"]
+---
 
 * * *
 

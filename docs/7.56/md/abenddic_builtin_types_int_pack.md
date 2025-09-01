@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Integers, Packed Numbers, Binary Floating Point Numbers"
+description: |
+  The following types are used for general descriptions of the numeric types (except for decimal floating point numbers): -   INT1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm), INT2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builti
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types_int_pack.htm"
+abapFile: "abenddic_builtin_types_int_pack.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenddic", "builtin", "int", "pack"]
+---
 
 * * *
 

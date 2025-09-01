@@ -1,4 +1,14 @@
-  
+---
+title: "Output Behavior"
+description: |
+  Background Internal tables can be read by accessing individual rows (using READ TABLE or table expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm 'Glossary Entry')) or sequentially (using LOOP AT). In both cases, the following output behavior can
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_output_guidl.htm"
+abapFile: "abentable_output_guidl.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abentable", "output", "guidl"]
+---
 
 * * *
 

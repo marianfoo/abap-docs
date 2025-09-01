@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Engine, Restrictions"
+description: |
+  The following language elements of ABAP SQL can be processed on the database but not yet by the ABAP SQL engine: -   Currently reads that use one of the following cannot be processed by the ABAP SQL Engine: -   Use of subqueries(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abens
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_engine_restr.htm"
+abapFile: "abensql_engine_restr.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abensql", "engine", "restr"]
+---
 
 * * *
 

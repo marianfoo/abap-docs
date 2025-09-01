@@ -1,4 +1,14 @@
-  
+---
+title: "EXTRACT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapextract_shortref.htm) Obsolete Syntax EXTRACT  header  field_group . Effect This statement appends the current content of the fields previously included in the field group header or field_group using the st
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapextract.htm"
+abapFile: "abapextract.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abapextract"]
+---
 
 * * *
 

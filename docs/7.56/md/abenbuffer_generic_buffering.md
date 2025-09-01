@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Generic Buffering"
+description: |
+  When a read is performed on a row, all rows are loaded into the table buffer that match this row in a left-aligned part of the primary key. The number of respected key fields is specified in the definition and is always less than the total number of key fields. These key fields form the generic key.
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuffer_generic_buffering.htm"
+abapFile: "abenbuffer_generic_buffering.htm"
+keywords: ["do", "if", "case", "data", "types", "abenbuffer", "generic", "buffering"]
+---
 
 * * *
 

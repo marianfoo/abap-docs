@@ -1,4 +1,14 @@
-  
+---
+title: "L procedure"
+description: |
+  This documentation is only available internally at SAP.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenl_procedure_glosry.htm"
+abapFile: "abenl_procedure_glosry.htm"
+keywords: ["do", "if", "abenl", "procedure", "glosry"]
+---
 
 * * *
 

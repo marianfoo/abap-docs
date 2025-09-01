@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_group_by_method. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. CLASS-DATA: flights  TYPE TABLE OF spfli    WITH EMPTY KEY, airports TYPE TABLE OF sairport WITH EMPTY KEY. CLASS-METHODS get_time_zone IMPORTING id
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenloop_group_by_method_abexa.htm"
+abapFile: "abenloop_group_by_method_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "internal-table", "field-symbol", "abenloop", "group", "abexa"]
+---
 
 * * *
 

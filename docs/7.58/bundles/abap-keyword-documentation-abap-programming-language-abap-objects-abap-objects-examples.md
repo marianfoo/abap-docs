@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenabap_objects_abexas.htm
 
-  
+---
+title: "ABAP Objects - Examples"
+description: |
+  -   ABAP Objects - Overview(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexa.htm) -   ABAP Objects - Classes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_abexa.htm) -   ABAP Objects - Inheritance(https://help.sap.com/doc/abapdocu_758_ind
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexas.htm"
+abapFile: "abenabap_objects_abexas.htm"
+keywords: ["do", "if", "class", "abenabap", "objects", "abexas"]
+---
 
 * * *
 
@@ -37,7 +47,17 @@ Continue
 
 ### abenabap_objects_abexa.htm
 
-  
+---
+title: "ABAP Objects - Overview"
+description: |
+  The example demonstrates objects, object references, inheritance, interfaces, and events. Source Code  CCDEF CLASS o DEFINITION. PUBLIC SECTION. CLASS-DATA out TYPE REF TO if_demo_output. ENDCLASS. ---------------------------------------------------------------------  INTERFACE status --
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexa.htm"
+abapFile: "abenabap_objects_abexa.htm"
+keywords: ["loop", "do", "if", "method", "class", "data", "abenabap", "objects", "abexa"]
+---
 
 * * *
 
@@ -271,7 +291,17 @@ The class demonstrates how ABAP Objects can be used based on example classes for
 
 ### abenclass_abexa.htm
 
-  
+---
+title: "ABAP Objects - Classes"
+description: |
+  This example demonstrates a class for counters. Source Code  Public class definition CLASS cl_demo_class_counter DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS counter DEFINITION. PUBLIC SECTION. METHODS: s
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_abexa.htm"
+abapFile: "abenclass_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenclass", "abexa"]
+---
 
 * * *
 
@@ -338,7 +368,17 @@ The local class counter contains three public methods, set, increment, and get, 
 
 ### abeninheritance_abexa.htm
 
-  
+---
+title: "ABAP Objects - Inheritance"
+description: |
+  This example demonstrates how a counter is specialized using inheritance. Source Code  CCDEF CLASS o DEFINITION. PUBLIC SECTION. CLASS-DATA out TYPE REF TO if_demo_output. ENDCLASS.  Public class definition CLASS cl_demo_inheritance DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_abexa.htm"
+abapFile: "abeninheritance_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abeninheritance", "abexa"]
+---
 
 * * *
 
@@ -432,7 +472,17 @@ An object of the subclass is created to which a reference variable of the superc
 
 ### abeninterface_abexa.htm
 
-  
+---
+title: "ABAP Objects - Interfaces"
+description: |
+  This example demonstrates the use of interfaces. Source Code  CCDEF CLASS o DEFINITION. PUBLIC SECTION. CLASS-DATA out TYPE REF TO if_demo_output. ENDCLASS.  Public class definition CLASS cl_demo_interface DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. ME
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_abexa.htm"
+abapFile: "abeninterface_abexa.htm"
+keywords: ["insert", "loop", "do", "if", "method", "class", "data", "internal-table", "abeninterface", "abexa"]
+---
 
 * * *
 
@@ -531,7 +581,17 @@ Class reference variables are inserted in the interface reference table to have 
 
 ### abenevents_abexa.htm
 
-  
+---
+title: "ABAP Objects - Events"
+description: |
+  This example demonstrates how events are raised and handled. Source Code REPORT demo_abap_objects_events NO STANDARD PAGE HEADING.   Declarations
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevents_abexa.htm"
+abapFile: "abenevents_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "abenevents", "abexa"]
+---
 
 * * *
 
@@ -721,7 +781,17 @@ The user actions on a classic list raise events in ABAP Objects. The list and it
 
 ### abenfriends_abexa.htm
 
-  
+---
+title: "ABAP Objects - Friendship"
+description: |
+  This example demonstrates an interface that is a friend(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends.htm) of a class. Source Code  Public class definition CLASS cl_demo_oo_friendship DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION.
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends_abexa.htm"
+abapFile: "abenfriends_abexa.htm"
+keywords: ["do", "if", "method", "class", "abenfriends", "abexa"]
+---
 
 * * *
 
@@ -760,7 +830,17 @@ The empty global interface IF\_DEMO\_FRIEND is a friend of the global class CL\_
 
 ### abenoo_transaction_abexa.htm
 
-  
+---
+title: "ABAP Objects - Object Transaction"
+description: |
+  This example demonstrates how a transaction code is linked with the method of a local class. Source Code &--------------------------------------------------------------------- & Subroutine pool  DEMO_OO_TRANSACTION                                 &
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_transaction_abexa.htm"
+abapFile: "abenoo_transaction_abexa.htm"
+keywords: ["do", "if", "method", "class", "abenoo", "transaction", "abexa"]
+---
 
 * * *
 

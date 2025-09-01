@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_tab_exp_default DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_tab_exp_default IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, id
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_exp_default_abexa.htm"
+abapFile: "abentable_exp_default_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abentable", "exp", "default", "abexa"]
+---
 
 * * *
 

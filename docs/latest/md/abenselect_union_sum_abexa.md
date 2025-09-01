@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Union with Aggregate Expression"
+description: |
+  This example demonstrates how a union is created across a table using an aggregate expression. Source Code  Public class definition CLASS cl_demo_select_union_sum DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_union_sum_abexa.htm"
+abapFile: "abenselect_union_sum_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "method", "class", "data", "abenselect", "union", "sum", "abexa"]
+---
 
 * * *
 

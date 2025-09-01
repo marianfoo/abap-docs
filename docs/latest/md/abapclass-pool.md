@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-pool_shortref.htm) Syntax CLASS-POOL MESSAGE-ID id. Addition: ... MESSAGE-ID mid(#!ABAP_ONE_ADD@1@) Effect The statement CLASS-POOL introduces a class pool(https://help.sap.com/doc/abapdocu_latest
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-pool.htm"
+abapFile: "abapclass-pool.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abapclass", "pool"]
+---
 
 * * *
 

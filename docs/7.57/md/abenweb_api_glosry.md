@@ -1,4 +1,14 @@
-  
+---
+title: "web_api_glosry"
+description: |
+  web_api_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenweb_api_glosry.htm"
+abapFile: "abenweb_api_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenweb", "api", "glosry"]
+---
 
 * * *
 

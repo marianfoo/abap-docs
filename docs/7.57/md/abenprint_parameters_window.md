@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Spool Dialog Box"
+description: |
+  The spool dialog box makes it possible to interactively determine all spool parameters and checks the input values for consistency and completeness. The call is either automatic or program controlled. -   The spool dialog box appears automatically if a user chooses Execute and Print on the selection
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_window.htm"
+abapFile: "abenprint_parameters_window.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "abenprint", "parameters", "window"]
+---
 
 * * *
 

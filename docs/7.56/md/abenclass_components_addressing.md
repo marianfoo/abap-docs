@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Accessing Class Components"
+description: |
+  When accessing class components, there is a difference between access from inside and outside of the same class. In internal access, that is, within a method of the same class, the name of the component is sufficient. In external access, the object, in the case of instance components, and the class,
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_components_addressing.htm"
+abapFile: "abenclass_components_addressing.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "internal-table", "field-symbol", "abenclass", "components", "addressing"]
+---
 
 * * *
 

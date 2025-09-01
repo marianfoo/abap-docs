@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN INCLUDE PUSHBUTTON"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselection-screen_incl_shortref.htm) Syntax SELECTION-SCREEN INCLUDE PUSHBUTTON /pos(len) button_text USER-COMMAND fcode MODIF ID modid ID id. Effect The addition PUSHBUTTON creat
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselection-screen_include_pushb.htm"
+abapFile: "abapselection-screen_include_pushb.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "include", "pushb"]
+---
 
 * * *
 

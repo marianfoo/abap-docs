@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - Attributes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_attributes.htm) dynpro - User Interface(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_gui.htm) dynpro - Screen Layout and Screen Elements(https://help.sap.com/doc/abapdo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_elements.htm"
+abapFile: "abenabap_dynpro_elements.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpro", "elements"]
+---
 
 * * *
 

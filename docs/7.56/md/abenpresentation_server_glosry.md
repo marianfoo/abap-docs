@@ -1,4 +1,14 @@
-  
+---
+title: "presentation_server_glosry"
+description: |
+  presentation_server_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpresentation_server_glosry.htm"
+abapFile: "abenpresentation_server_glosry.htm"
+keywords: ["do", "try", "abenpresentation", "server", "glosry"]
+---
 
 * * *
 

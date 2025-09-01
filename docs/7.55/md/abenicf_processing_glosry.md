@@ -1,4 +1,14 @@
-  
+---
+title: "ICF processing"
+description: |
+  Processing of an HTTP/HTTPS query or SMTP query using ICF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_glosry.htm 'Glossary Entry') in an appropriate handler class and in a separate ICF session(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_session_glosr
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_processing_glosry.htm"
+abapFile: "abenicf_processing_glosry.htm"
+keywords: ["do", "try", "class", "abenicf", "processing", "glosry"]
+---
 
 * * *
 

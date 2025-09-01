@@ -1,4 +1,14 @@
-  
+---
+title: "Program Type"
+description: |
+  Background Every ABAP program has a program type that specifies which declarations and processing blocks a program can contain, and how it can be executed using the ABAP runtime environment. These are the possible program types in ABAP: -   Executable program An executable program can contain all po
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_type_guidl.htm"
+abapFile: "abenprogram_type_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "method", "class", "types", "internal-table", "abenprogram", "type", "guidl"]
+---
 
 * * *
 

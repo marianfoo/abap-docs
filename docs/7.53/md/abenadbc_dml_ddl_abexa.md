@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC, DDL, and DML"
+description: |
+  This example demonstrates the use of the DDL and DML statements(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_ddl_dml.htm) with ADBC. Source Code REPORT demo_adbc_ddl_dml. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RA
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_abexa.htm"
+abapFile: "abenadbc_dml_ddl_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "abexa"]
+---
 
 * * *
 

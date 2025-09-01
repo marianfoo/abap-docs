@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DELETE DYNPRO f. Effect Deletes the dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary Entry') with the name specified in the field f. System Fields sy-s
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dynpro.htm"
+abapFile: "abapdelete_dynpro.htm"
+keywords: ["delete", "do", "if", "try", "data", "abapdelete", "dynpro"]
+---
 
 * * *
 

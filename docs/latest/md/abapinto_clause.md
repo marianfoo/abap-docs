@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, INTO, APPENDING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_shortref.htm) Syntax ...  INTO ( elem1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_into_target.htm), elem2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-U
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm"
+abapFile: "abapinto_clause.htm"
+keywords: ["select", "insert", "update", "loop", "do", "if", "case", "try", "catch", "method", "data", "types", "internal-table", "field-symbol", "abapinto", "clause"]
+---
 
 * * *
 

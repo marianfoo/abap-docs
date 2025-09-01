@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Statement for System Function Call"
+description: |
+  This statement is for internal use only. It must not be used in application programs. -   CALL cfunc(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm) CALL, System Function Call(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_communication_internal.htm"
+abapFile: "abendata_communication_internal.htm"
+keywords: ["do", "if", "data", "abendata", "communication", "internal"]
+---
 
 * * *
 

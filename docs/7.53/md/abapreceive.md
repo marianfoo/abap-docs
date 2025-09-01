@@ -1,4 +1,14 @@
-  
+---
+title: "RECEIVE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreceive_shortref.htm) Syntax RECEIVE RESULTS FROM FUNCTION func KEEPING TASK parameter_list(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreceive_para.htm). Addition: ... KEEPING TASK(#!ABA
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreceive.htm"
+abapFile: "abapreceive.htm"
+keywords: ["update", "do", "if", "try", "data", "abapreceive"]
+---
 
 * * *
 

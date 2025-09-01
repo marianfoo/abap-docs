@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... bit-set( arg ) ... This function expects an integer numeric value as an argument. The argument is a numeric expression position(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_expr_position_glosry.htm 'Glossary Entry') of the type i. -   If the argument is positive, th
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbit_functions.htm"
+abapFile: "abenbit_functions.htm"
+keywords: ["do", "if", "try", "data", "abenbit", "functions"]
+---
 
 * * *
 

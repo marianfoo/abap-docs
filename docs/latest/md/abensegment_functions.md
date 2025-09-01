@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... segment( val = text(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) index = idx sepspace = delim ) ... Effect This built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) returns th
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensegment_functions.htm"
+abapFile: "abensegment_functions.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abensegment", "functions"]
+---
 
 * * *
 

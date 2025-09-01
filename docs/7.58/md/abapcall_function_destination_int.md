@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION DESTINATION, Internal Addition"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... KEEPING LOGICAL UNIT OF WORK Effect This addition has the effect that the work process(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwork_process_glosry.htm 'Glossary Entry') of the
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_destination_int.htm"
+abapFile: "abapcall_function_destination_int.htm"
+keywords: ["do", "if", "case", "try", "data", "abapcall", "function", "destination", "int"]
+---
 
 * * *
 

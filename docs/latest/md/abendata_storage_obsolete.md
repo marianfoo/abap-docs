@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Processing of External Data"
+description: |
+  -   Obsolete Database Access(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_access_obsolete.htm) -   Data Clusters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_obsolete.htm) -   Contexts(https://help.sap.com/doc/abapdocu_latest_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_storage_obsolete.htm"
+abapFile: "abendata_storage_obsolete.htm"
+keywords: ["do", "if", "data", "abendata", "storage", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP keyword"
+description: |
+  ABAP word(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_word_glosry.htm 'Glossary Entry') that introduces an ABAP statement(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_statement_glosry.htm 'Glossary Entry'). In combination with other ABAP words or A
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_keyword_glosry.htm"
+abapFile: "abenabap_keyword_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "keyword", "glosry"]
+---
 
 * * *
 

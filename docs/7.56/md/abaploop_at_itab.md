@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT itab, Basic Form"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_shortref.htm) Syntax LOOP AT itab result(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_result.htm) cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapl
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm"
+abapFile: "abaploop_at_itab.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abaploop", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - with draft"
+description: |
+  Syntax ... with draft; ... Effect The addition with draft enables RAP draft handling(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_draft_handling_glosry.htm 'Glossary Entry') for a business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusin
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm"
+abapFile: "abenbdl_with_draft.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "with", "draft"]
+---
 
 * * *
 

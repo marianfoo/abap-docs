@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Nesting Interfaces"
+description: |
+  Interfaces of ABAP objects can be nested. An interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfac.htm) can contain one or more interfaces as components, which themselves can contain interfaces. An interface that contains another interface is called a nested inter
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_composition.htm"
+abapFile: "abeninterface_composition.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abeninterface", "composition"]
+---
 
 * * *
 

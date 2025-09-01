@@ -1,4 +1,14 @@
-  
+---
+title: "Checking RAP Transactional Phases"
+description: |
+  This example demonstrates the use of the methods GET_CURRENT_PHASE and GET_CURRENT_HANDLER_KIND of the class CL_ABAP_BEHV_AUX. Data model The CDS data model consists of the root entity DEMO_UMANAGED_ROOT_LATE_NUM2. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define roo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm"
+abapFile: "abenrap_cl_abap_behv_aux_ph_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenrap", "abap", "behv", "aux", "abexa"]
+---
 
 * * *
 

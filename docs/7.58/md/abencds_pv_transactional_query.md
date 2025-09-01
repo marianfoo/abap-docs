@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS Projection View, Transactional Queries"
+description: |
+  CDS transactional queries(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_transactional_pv_glosry.htm 'Glossary Entry') are intended for modelling the projection layer of a RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Gl
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_transactional_query.htm"
+abapFile: "abencds_pv_transactional_query.htm"
+keywords: ["do", "while", "if", "try", "data", "abencds", "transactional", "query"]
+---
 
 * * *
 

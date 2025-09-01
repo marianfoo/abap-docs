@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Joins of Associations"
+description: |
+  This example demonstrates how to implement path expressions in joins in ABAP CDS. Source Code REPORT demo_cds_assoc_joins. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVATE SECTION. TYPES: wa1 TYPE demo_join1, wa2 TYPE demo_join2, wa3 TYPE demo_join3. TYPE
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_assoc_join_abexa.htm"
+abapFile: "abencds_assoc_join_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "types", "abencds", "assoc", "join", "abexa"]
+---
 
 * * *
 

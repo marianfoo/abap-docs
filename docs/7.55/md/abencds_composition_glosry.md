@@ -1,4 +1,14 @@
-  
+---
+title: "CDS composition"
+description: |
+  Special CDS association(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm 'Glossary Entry') that turns the current CDS entity(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm 'Glossary Entry') into a parent entity(http
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_composition_glosry.htm"
+abapFile: "abencds_composition_glosry.htm"
+keywords: ["do", "try", "abencds", "composition", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "EBCDIC"
+description: |
+  Abbreviation of Extended Binary Coded Decimal Interchange Code. An 8-bit character set(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_set_glosry.htm 'Glossary Entry') based on BCD(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbcd_glosry.htm 'Glossary En
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenebcdic_glosry.htm"
+abapFile: "abenebcdic_glosry.htm"
+keywords: ["do", "try", "abenebcdic", "glosry"]
+---
 
 * * *
 

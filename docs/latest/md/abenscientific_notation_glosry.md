@@ -1,4 +1,14 @@
-  
+---
+title: "scientific_notation_glosry"
+description: |
+  scientific_notation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscientific_notation_glosry.htm"
+abapFile: "abenscientific_notation_glosry.htm"
+keywords: ["do", "if", "abenscientific", "notation", "glosry"]
+---
 
 * * *
 

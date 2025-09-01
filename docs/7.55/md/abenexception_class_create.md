@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Exception Classes"
+description: |
+  Exception classes can be defined globally in the Class Library(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_library_glosry.htm 'Glossary Entry') or locally in a program. The names of global exception classes are prefixed with CX_ or, in the case of exception classes that w
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_class_create.htm"
+abapFile: "abenexception_class_create.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "exception-handling", "abenexception", "create"]
+---
 
 * * *
 

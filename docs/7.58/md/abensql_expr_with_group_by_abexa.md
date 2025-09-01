@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, GROUP BY for SQL Expressions"
+description: |
+  This example demonstrates non elementary SQL expressions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsql_expr.htm) combined with the addition GROUP BY(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapgroupby_clause.htm). Source Code  Public class definition CLA
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_expr_with_group_by_abexa.htm"
+abapFile: "abensql_expr_with_group_by_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abensql", "expr", "with", "group", "abexa"]
+---
 
 * * *
 

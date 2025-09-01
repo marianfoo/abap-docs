@@ -1,4 +1,14 @@
-  
+---
+title: "Streaming for Internal Tables"
+description: |
+  The specific classes for streaming(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstreaming_glosry.htm 'Glossary Entry') for internal tables are: These classes are subclasses of the abstract superclasses CL_ABAP_MEMORY_...(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/e
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_streams.htm"
+abapFile: "abenitab_streams.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "internal-table", "abenitab", "streams"]
+---
 
 * * *
 

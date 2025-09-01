@@ -1,4 +1,14 @@
-  
+---
+title: "CDS schema notation"
+description: |
+  CSN for short. Notation for compact representations of data models, such as ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry') data models. SAP standard format for metadata exchange between data models of different technology stacks, for e
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_schema_notation_glosry.htm"
+abapFile: "abencds_schema_notation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "schema", "notation", "glosry"]
+---
 
 * * *
 

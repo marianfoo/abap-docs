@@ -1,4 +1,14 @@
-  
+---
+title: "RAP transactional phase"
+description: |
+  The RAP interaction phase(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_int_phase_glosry.htm 'Glossary Entry') and RAP save sequence(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_save_seq_glosry.htm 'Glossary Entry') are RAP transactional phases.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactional_phase_glosry.htm"
+abapFile: "abentransactional_phase_glosry.htm"
+keywords: ["do", "if", "try", "abentransactional", "phase", "glosry"]
+---
 
 * * *
 

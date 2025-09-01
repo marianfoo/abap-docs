@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens, Value Properties of Parameters"
+description: |
+  The example shows how to use the value_options additions of the statement PARAMETERS. Source Code REPORT demo_sel_screen_parameters_1. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK part1 WITH FRAME TITLE text-001. PARAMETERS: value TYPE i DEFAULT 100, name  TYPE sy-uname
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_param_value_abexa.htm"
+abapFile: "abensel_screen_param_value_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abensel", "screen", "param", "value", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS behavior definition"
+description: |
+  CDS BDEF or BDEF for short. A CDS behavior definition is a RAP object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_object_glosry.htm 'Glossary Entry') that describes a RAP business object (RAP BO)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glo
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm"
+abapFile: "abencds_behavior_definition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "behavior", "definition", "glosry"]
+---
 
 * * *
 

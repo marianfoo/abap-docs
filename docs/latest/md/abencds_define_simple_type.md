@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @type_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_anno.htm) @type_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_anno.htm) ... DEFINE TYPE simple_type : dtype(https://help.sap.com/doc/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm"
+abapFile: "abencds_define_simple_type.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abencds", "define", "simple", "type"]
+---
 
 * * *
 

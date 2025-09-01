@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Operation Augmentation"
+description: |
+  This example demonstrates how to define and implement the operation augmentation in a RAP projection business object. Note: This example does not fully meet the requirements of the RAP BO contract(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_contract_glosry.htm 'Glossary E
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_augment_abexa.htm"
+abapFile: "abenbdl_augment_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "augment", "abexa"]
+---
 
 * * *
 

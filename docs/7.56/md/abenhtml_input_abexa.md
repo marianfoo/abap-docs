@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_html_input. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS handle_sapevent FOR EVENT sapevent OF cl_abap_browser IMPORTING action query_table. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA error_list TYPE cl_abap_browser=>html
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_input_abexa.htm"
+abapFile: "abenhtml_input_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenhtml", "input", "abexa"]
+---
 
 * * *
 

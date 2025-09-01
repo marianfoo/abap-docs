@@ -1,4 +1,14 @@
-  
+---
+title: "SHIFT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapshift_shortref.htm) Syntax SHIFT dobj   places(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapshift_places.htm) direction(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapshift.htm"
+abapFile: "abapshift.htm"
+keywords: ["delete", "do", "if", "method", "data", "abapshift"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab, VERSION"
+description: |
+  Obsolete Syntax DELETE  dbtab  dbtab  VERSION vers. Effect This variant of the statement DELETE works essentially like the short form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_obsolete.htm) of the ABAP SQL statement, but belongs, along with the addition
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dbtab_obsolete.htm"
+abapFile: "abapdelete_dbtab_obsolete.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "abapdelete", "dbtab", "obsolete"]
+---
 
 * * *
 

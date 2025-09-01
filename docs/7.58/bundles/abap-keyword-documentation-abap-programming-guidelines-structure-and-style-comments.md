@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abencomments_gdl.htm
 
-  
+---
+title: "Comments"
+description: |
+  Comments do not affect how a program is executed and are ignored by the computer. People who work with the source code, however, benefit greatly from comments, since they make the code easier to understand. There are two categories of comments in ABAP: -   Comment lines A comment line contains a com
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomments_gdl.htm"
+abapFile: "abencomments_gdl.htm"
+keywords: ["do", "if", "abencomments", "gdl"]
+---
 
 * * *
 
@@ -44,7 +54,17 @@ Continue
 
 ### abencomment_langu_guidl.htm
 
-  
+---
+title: "Language of Comments"
+description: |
+  Background The natural language that has established itself worldwide for computer programming is English. This is because the language elements in all significant programming languages have been taken from English and their syntax based on English grammar. ABAP is no exception. In fact, efforts hav
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomment_langu_guidl.htm"
+abapFile: "abencomment_langu_guidl.htm"
+keywords: ["do", "while", "if", "case", "try", "abencomment", "langu", "guidl"]
+---
 
 * * *
 
@@ -122,7 +142,17 @@ The goal of this example is to show the difference between German and English co
 
 ### abencontent_guidl.htm
 
-  
+---
+title: "Content of Comments"
+description: |
+  Background It is usually sufficient to examine the ABAP statements to find out what happens in an implementation. However, it much more difficult to find out why something happens. This is often only possible in a much wider context and requires a great deal of effort. Rule Make meaningful comments
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontent_guidl.htm"
+abapFile: "abencontent_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "abencontent", "guidl"]
+---
 
 * * *
 
@@ -202,7 +232,17 @@ ENDIF.
 
 ### abenarrange_guidl.htm
 
-  
+---
+title: "Arrangement in the Source Code"
+description: |
+  Background The arrangement of comments plays an important role (in addition to comment language and comment content) in making programs easy to read. Rule Arrange comments correctly Place comments in front of the statements that they describe. The horizontal arrangement of comments should follow the
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarrange_guidl.htm"
+abapFile: "abenarrange_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "class", "data", "abenarrange", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "standard_db_connection_glosry"
+description: |
+  standard_db_connection_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_db_connection_glosry.htm"
+abapFile: "abenstandard_db_connection_glosry.htm"
+keywords: ["do", "try", "data", "abenstandard", "connection", "glosry"]
+---
 
 * * *
 

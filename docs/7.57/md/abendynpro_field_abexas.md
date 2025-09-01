@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Processing Input and Output Fields(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_in_out_field_abexa.htm) !Example(exa.gif 'Example') dynpro - Fields with Dictionary Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_field_abexas.htm"
+abapFile: "abendynpro_field_abexas.htm"
+keywords: ["do", "if", "abendynpro", "field", "abexas"]
+---
 
 * * *
 

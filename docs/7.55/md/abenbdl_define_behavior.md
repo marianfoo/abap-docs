@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR"
+description: |
+  Work in progress  Syntax define behavior for CDSEntityName alias AliasName implementation in class ClassName unique late numbering in place etag fieldAncestorEntity~Field ( LocalField = MasterField ) lock masterdependent ( LocalField = MasterFie
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm"
+abapFile: "abenbdl_define_behavior.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "define", "behavior"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "GUI status"
+description: |
+  Groups the menu bar(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmenu_bar_glosry.htm 'Glossary Entry'), standard toolbar(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_toolbar_glosry.htm 'Glossary Entry'), and application toolbar(https://help.sap.com/
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_status_glosry.htm"
+abapFile: "abengui_status_glosry.htm"
+keywords: ["do", "try", "abengui", "status", "glosry"]
+---
 
 * * *
 

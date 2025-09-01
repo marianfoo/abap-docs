@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_bit_set. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(number) = 1. cl_demo_input=>request( CHANGING field = number ). IF abs( number ) <= 200. cl_demo_output=>display( CONV xstring( bit-set( number ) ) ). ELSE. cl
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_func_abexa.htm"
+abapFile: "abenbit_func_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenbit", "func", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Reflexive Associations in Mesh Paths"
+description: |
+  This example demonstrates the results of reflexive mesh associations in mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_rflxv_assoc_sngl DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIV
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm"
+abapFile: "abenmesh_for_reflex_sngl_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "for", "reflex", "sngl", "abexa"]
+---
 
 * * *
 

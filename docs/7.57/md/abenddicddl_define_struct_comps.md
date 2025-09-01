@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, component"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_table_srprps.htm) KEY comp :
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_parsing. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA out TYPE REF TO if_demo_output. CLASS-METHODS: process_errors IMPORTING parser TYPE REF TO if_ixml_parser, process_dom IMPORTING document TYPE REF TO if_ixml_node. ENDCLAS
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenixml_parsing_abexa.htm"
+abapFile: "abenixml_parsing_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "method", "class", "data", "abenixml", "parsing", "abexa"]
+---
 
 * * *
 

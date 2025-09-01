@@ -1,4 +1,14 @@
-  
+---
+title: "RAP instance identifier"
+description: |
+  Structure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_glosry.htm 'Glossary Entry') that uniquely identifies a RAP BO instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm 'Glossary Entry'). It consists of the pri
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_inst_identifier_glosry.htm"
+abapFile: "abenrap_inst_identifier_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "inst", "identifier", "glosry"]
+---
 
 * * *
 

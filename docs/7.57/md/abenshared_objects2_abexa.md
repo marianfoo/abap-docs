@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Writing to and Reading from an Area"
+description: |
+  This example demonstrates the writing to and reading from an area. Source Code REPORT demo_shared_objects_rw. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVATE SECTION. CLASS-DATA: o TYPE REF TO if_demo_output, BEGIN OF struc, instance_name TYPE shm_inst
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshared_objects2_abexa.htm"
+abapFile: "abenshared_objects2_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenshared", "objects2", "abexa"]
+---
 
 * * *
 

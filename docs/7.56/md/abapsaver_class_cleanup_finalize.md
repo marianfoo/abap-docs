@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CLASS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_definition.htm) lsc_bdef DEFINITION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_options.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsaver_class_cleanup_finalize.htm"
+abapFile: "abapsaver_class_cleanup_finalize.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abapsaver", "cleanup", "finalize"]
+---
 
 * * *
 

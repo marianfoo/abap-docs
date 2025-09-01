@@ -1,4 +1,14 @@
-  
+---
+title: "customizing_include_glosry"
+description: |
+  customizing_include_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencustomizing_include_glosry.htm"
+abapFile: "abencustomizing_include_glosry.htm"
+keywords: ["do", "if", "try", "abencustomizing", "include", "glosry"]
+---
 
 * * *
 

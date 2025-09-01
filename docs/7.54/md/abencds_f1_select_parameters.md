@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, parameters"
+description: |
+  Syntax ... ( pname1 : act1, pname2 : act2, ... ) ... Effect Passes actual parameters act1, act2, ... to the input parameters(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm) pname1, pname2, ... of a CDS entity(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_parameters.htm"
+abapFile: "abencds_f1_select_parameters.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "parameters"]
+---
 
 * * *
 

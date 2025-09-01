@@ -1,4 +1,14 @@
-  
+---
+title: "Byte Order"
+description: |
+  Determines the order in which the binary representation of the data types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm 'Glossary Entry') i(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_numeric.htm), int8(https://help.sap.com
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_order_glosry.htm"
+abapFile: "abenbyte_order_glosry.htm"
+keywords: ["do", "case", "try", "data", "types", "abenbyte", "order", "glosry"]
+---
 
 * * *
 

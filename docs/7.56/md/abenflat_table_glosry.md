@@ -1,4 +1,14 @@
-  
+---
+title: "flat_table_glosry"
+description: |
+  flat_table_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_table_glosry.htm"
+abapFile: "abenflat_table_glosry.htm"
+keywords: ["do", "try", "internal-table", "abenflat", "table", "glosry"]
+---
 
 * * *
 

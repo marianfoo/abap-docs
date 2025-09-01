@@ -1,4 +1,14 @@
-  
+---
+title: "ENDEXEC"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec_sql_shortref.htm) Syntax ENDEXEC. Effect The statement ENDEXEC closes an embedded Native SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql_glosry.htm 'Glossary Entry') statem
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendexec.htm"
+abapFile: "abapendexec.htm"
+keywords: ["do", "if", "try", "data", "abapendexec"]
+---
 
 * * *
 

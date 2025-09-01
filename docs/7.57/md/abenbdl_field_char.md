@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - field characteristics"
+description: |
+  Syntax ... field(readonly) Field1, Field2, ...;  (mandatory) Field1, Field2, ...;  (suppress) Field1, Field2, ...;  (features:instance) Field1, Field2, ...;  (mandatory:create) Field1, Field2, ...;  (readonly:update) Field1, Field2, ...; Variants: 1. ... field(readonly) Field1, Fiel
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_char.htm"
+abapFile: "abenbdl_field_char.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "field", "char"]
+---
 
 * * *
 

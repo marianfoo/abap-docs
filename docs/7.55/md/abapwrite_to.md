@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE, TO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_shortref.htm) Syntax WRITE source(source_name) TO destination format_options(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_options.htm). Effect The statement WRITE
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm"
+abapFile: "abapwrite_to.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "data", "types", "abapwrite"]
+---
 
 * * *
 

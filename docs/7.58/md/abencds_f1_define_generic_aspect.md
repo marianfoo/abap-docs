@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_eleme
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 

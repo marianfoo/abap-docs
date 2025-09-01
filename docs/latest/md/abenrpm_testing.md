@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - Testing RAP Business Objects"
+description: |
+  The following topics are covered in this section: -   CREATE OBJECT, FOR TESTING(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm) CREATE OBJECT, FOR TESTING(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_tes
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm"
+abapFile: "abenrpm_testing.htm"
+keywords: ["do", "if", "abenrpm", "testing"]
+---
 
 * * *
 

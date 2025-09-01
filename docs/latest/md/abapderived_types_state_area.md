@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %state_area is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is a character string(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_string_glosry.htm 'Glossary
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_state_area.htm"
+abapFile: "abapderived_types_state_area.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "abapderived", "state", "area"]
+---
 
 * * *
 

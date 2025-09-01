@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP data type"
+description: |
+  → data type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_type_glosry.htm"
+abapFile: "abenabap_data_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "type", "glosry"]
+---
 
 * * *
 

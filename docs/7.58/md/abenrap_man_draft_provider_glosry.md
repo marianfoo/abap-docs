@@ -1,4 +1,14 @@
-  
+---
+title: "RAP managed draft provider"
+description: |
+  Part of the RAP BO provider(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry') that manages draft data on the transactional buffer(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactional_buffer_glosry.htm 'Glossary Ent
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_man_draft_provider_glosry.htm"
+abapFile: "abenrap_man_draft_provider_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "man", "draft", "provider", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @element_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_element_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_element_annotation.htm) ... element1; @element_annot1(https://help.sa
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view_sele_list.htm"
+abapFile: "abencds_f1_annotate_view_sele_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "annotate", "view", "sele", "list"]
+---
 
 * * *
 

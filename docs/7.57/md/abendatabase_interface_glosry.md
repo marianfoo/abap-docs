@@ -1,4 +1,14 @@
-  
+---
+title: "database_interface_glosry"
+description: |
+  database_interface_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_interface_glosry.htm"
+abapFile: "abendatabase_interface_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abendatabase", "interface", "glosry"]
+---
 
 * * *
 

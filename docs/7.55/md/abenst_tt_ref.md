@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... tt:ref ... Effect Exactly one node of the tree structures of the current template can be set as the current node at any place within a simple transformation (statically and when the program is executed). The current node hides the data roots in the sense that a reference name does not re
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_ref.htm"
+abapFile: "abenst_tt_ref.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abenst", "ref"]
+---
 
 * * *
 

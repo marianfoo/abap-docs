@@ -1,4 +1,14 @@
-  
+---
+title: "Immutable Variables"
+description: |
+  Background An immutable variable(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenimmutable_variable_glosry.htm 'Glossary Entry') is a special variable that can be assigned a value at exactly one write position of a context(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenimmutable_variables_guidl.htm"
+abapFile: "abenimmutable_variables_guidl.htm"
+keywords: ["loop", "do", "if", "try", "data", "types", "internal-table", "abenimmutable", "variables", "guidl"]
+---
 
 * * *
 

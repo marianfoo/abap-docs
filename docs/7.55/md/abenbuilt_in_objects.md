@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Data Objects"
+description: |
+  ABAP programs have access to a range of built-in data objects: -   ABAP system fields(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_fields.htm) -   The constant space(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspace.htm) -   The self reference me(htt
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_objects.htm"
+abapFile: "abenbuilt_in_objects.htm"
+keywords: ["do", "data", "types", "abenbuilt", "objects"]
+---
 
 * * *
 

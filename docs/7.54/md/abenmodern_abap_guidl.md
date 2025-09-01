@@ -1,4 +1,14 @@
-  
+---
+title: "Modern ABAP"
+description: |
+  Background ABAP is a living programming language that is continually being developed. Since its introduction some 30 years ago, new ABAP programs have been developed continually, with work to advance the ABAP language ongoing at the same time. Developments to the ABAP language are either extensions
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodern_abap_guidl.htm"
+abapFile: "abenmodern_abap_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "try", "method", "class", "data", "abenmodern", "abap", "guidl"]
+---
 
 * * *
 

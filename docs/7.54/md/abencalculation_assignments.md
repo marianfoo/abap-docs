@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  lhs +=  -=  =  /= rhs. Effect Calculation assignment(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignment_glosry.htm 'Glossary Entry') with the -   addition assignment operator += -   subtraction assignment operator -= -   multiplication assignment oper
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignments.htm"
+abapFile: "abencalculation_assignments.htm"
+keywords: ["do", "if", "try", "data", "abencalculation", "assignments"]
+---
 
 * * *
 

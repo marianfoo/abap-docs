@@ -1,4 +1,14 @@
-  
+---
+title: "Table Expressions, Chainings"
+description: |
+  This example demonstrates how table expressions are chained. Source Code REPORT demo_tab_exp_chaining. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. CLASS-DATA: langu TYPE sy-langu, index TYPE cl_abap_docu=>abap_index_tab. ENDCLASS. CLASS dem
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_chaining_abexa.htm"
+abapFile: "abentable_exp_chaining_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abentable", "exp", "chaining", "abexa"]
+---
 
 * * *
 

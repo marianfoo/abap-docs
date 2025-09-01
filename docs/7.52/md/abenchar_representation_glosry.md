@@ -1,4 +1,14 @@
-  
+---
+title: "Character Representation"
+description: |
+  Binary coding of characters. To assign a character set(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_set_glosry.htm 'Glossary Entry') to a character representation, you use codepages(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencodepage_glosry.htm 'Gl
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_representation_glosry.htm"
+abapFile: "abenchar_representation_glosry.htm"
+keywords: ["do", "try", "abenchar", "representation", "glosry"]
+---
 
 * * *
 

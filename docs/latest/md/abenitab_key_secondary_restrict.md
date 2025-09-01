@@ -1,4 +1,14 @@
-  
+---
+title: "itab_key_secondary_restrict"
+description: |
+  itab_key_secondary_restrict - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_restrict.htm"
+abapFile: "abenitab_key_secondary_restrict.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "data", "types", "internal-table", "abenitab", "key", "secondary", "restrict"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  The draft indicator %is_draft is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used to indicate if a RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_is_draft.htm"
+abapFile: "abapderived_types_is_draft.htm"
+keywords: ["do", "if", "try", "types", "abapderived", "draft"]
+---
 
 * * *
 

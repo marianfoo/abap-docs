@@ -1,4 +1,14 @@
-  
+---
+title: "Spooling Lists"
+description: |
+  The 'spooling' of lists means the list output is not put in the list buffer(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_buffer_glosry.htm 'Glossary Entry') for screen lists(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_list_glosry.htm 'Glossary Ent
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm"
+abapFile: "abenprint.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "abenprint"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "immutable_variable_glosry"
+description: |
+  immutable_variable_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenimmutable_variable_glosry.htm"
+abapFile: "abenimmutable_variable_glosry.htm"
+keywords: ["do", "if", "try", "abenimmutable", "variable", "glosry"]
+---
 
 * * *
 

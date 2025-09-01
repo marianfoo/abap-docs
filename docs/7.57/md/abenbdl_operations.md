@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - RAP BO Operations"
+description: |
+  The following types of RAP BO operations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') are available: -   Standard operations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm): Create, Read,
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_operations.htm"
+abapFile: "abenbdl_operations.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "data", "types", "abenbdl", "operations"]
+---
 
 * * *
 

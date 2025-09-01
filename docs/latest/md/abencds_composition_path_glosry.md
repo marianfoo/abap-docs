@@ -1,4 +1,14 @@
-  
+---
+title: "CDS composition path"
+description: |
+  Sequence of CDS compositions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_glosry.htm 'Glossary Entry') that link the CDS entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') of a CDS compositi
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_path_glosry.htm"
+abapFile: "abencds_composition_path_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "composition", "path", "glosry"]
+---
 
 * * *
 

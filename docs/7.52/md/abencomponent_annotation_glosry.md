@@ -1,4 +1,14 @@
-  
+---
+title: "component_annotation_glosry"
+description: |
+  component_annotation_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_annotation_glosry.htm"
+abapFile: "abencomponent_annotation_glosry.htm"
+keywords: ["do", "if", "try", "abencomponent", "annotation", "glosry"]
+---
 
 * * *
 

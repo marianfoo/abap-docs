@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_formats. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS fill_writer IMPORTING writer TYPE REF TO if_sxml_writer. CLASS-METHODS parse_outputs IMPORTING xml_10 TYPE xstring xml_xop TYPE if_sxml_xop=>xop_package xml_binary TY
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensxml_formats_abexa.htm"
+abapFile: "abensxml_formats_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "abensxml", "formats", "abexa"]
+---
 
 * * *
 

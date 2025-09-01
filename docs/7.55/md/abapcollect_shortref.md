@@ -1,4 +1,14 @@
-  
+---
+title: "COLLECT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcollect.htm) Syntax COLLECT wa INTO itab  ASSIGNING <fs> CASTING  REFERENCE INTO dref . Effect Inserts work areas wa as lines in an internal table itab. Here, the primary table key already exi
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcollect_shortref.htm"
+abapFile: "abapcollect_shortref.htm"
+keywords: ["insert", "do", "try", "data", "internal-table", "field-symbol", "abapcollect", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... AS CHECKBOX  AS ICON  AS SYMBOL  AS LINE ... Alternatives: 1. ... AS CHECKBOX(#!ABAP_ALTERNATIVE_1@1@) 2. ... AS ICON(#!ABAP_ALTERNATIVE_2@2@) 3. ... AS SYMBOL(#!ABAP_ALTERNATIVE_3@3@) 4. ... AS LINE(#!ABAP_ALTERNATIVE_4@4@) Effect These additions are
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_list_elements.htm"
+abapFile: "abapwrite_list_elements.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abapwrite", "list", "elements"]
+---
 
 * * *
 

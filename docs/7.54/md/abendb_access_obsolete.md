@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Access Statements"
+description: |
+  The following statements are predecessors of ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry') and are not part of it. The keywords of the obsolete access statements are based on the processing statements for internal tables(https://hel
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_access_obsolete.htm"
+abapFile: "abendb_access_obsolete.htm"
+keywords: ["delete", "loop", "do", "if", "try", "class", "data", "internal-table", "abendb", "access", "obsolete"]
+---
 
 * * *
 

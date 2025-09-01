@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dictionary DDL for Defining Database Tables"
+description: |
+  A DDIC database table can be displayed and modified in a source-code-based editor in the ABAP development tools for Eclipse (ADT)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm 'Glossary Entry'), using Dictionary DDL(https://help.sap.com/doc/abapdocu_758_index_htm/
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_table.htm"
+abapFile: "abenddic_define_table.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "define", "table"]
+---
 
 * * *
 

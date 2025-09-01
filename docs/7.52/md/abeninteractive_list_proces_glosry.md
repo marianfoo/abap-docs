@@ -1,4 +1,14 @@
-  
+---
+title: "interactive_list_proces_glosry"
+description: |
+  interactive_list_proces_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninteractive_list_proces_glosry.htm"
+abapFile: "abeninteractive_list_proces_glosry.htm"
+keywords: ["select", "do", "try", "abeninteractive", "list", "proces", "glosry"]
+---
 
 * * *
 

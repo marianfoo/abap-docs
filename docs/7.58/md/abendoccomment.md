@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Doc"
+description: |
+  Syntax ... '!... Effect A comment for ABAP Doc is introduced by the string '!. This is a special form of a regular line end comment(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomment.htm) that is introduced by '. ABAP Doc allows declarations(https://help.sap.com/doc/abapdocu_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendoccomment.htm"
+abapFile: "abendoccomment.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abendoccomment"]
+---
 
 * * *
 
@@ -18,15 +28,9 @@ Effect
 
 A comment for ABAP Doc is introduced by the string "!. This is a special form of a regular [line end comment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomment.htm) that is introduced by ". ABAP Doc allows [declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_glosry.htm "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. In tools of an [ABAP development environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dev_envir_glosry.htm "Glossary Entry"), such as [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), that support [ABAP Doc](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), the content of ABAP Doc comments is evaluated, converted to HTML, and then displayed appropriately.
 
--   [Rules for ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
-
-Hints
-
--   A special ABAP Doc comment ["! @testing ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_relations.htm) can be used to define a [test relation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_relation_glosry.htm "Glossary Entry") between a [test class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_class_glosry.htm "Glossary Entry") or a [test method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_method_glosry.htm "Glossary Entry") and another repository object.
+-   [Rules for ABAP Doc Comments](#abendoccomment-1-------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3-------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
+-   [Documentation Links](#abendoccomment-5---hints------a-special-abap-doc-comment-----testing ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_relations.htm) can be used to define a [test relation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_relation_glosry.htm "Glossary Entry") between a [test class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_class_glosry.htm "Glossary Entry") or a [test method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_method_glosry.htm "Glossary Entry") and another repository object.
 -   ABAP Doc comments are not evaluated by the tools of the [ABAP Workbench](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm "Glossary Entry") in SAP GUI.
 
 Rules for ABAP Doc Comments   

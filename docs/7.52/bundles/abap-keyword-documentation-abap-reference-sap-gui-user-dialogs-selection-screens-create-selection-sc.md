@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abapselect-options.htm
 
-  
+---
+title: "SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_shortref.htm) Syntax SELECT-OPTIONS selcrit FOR dobj(name)(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_for.htm)  screen_options(https://help.sap.com/doc
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options.htm"
+abapFile: "abapselect-options.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "options"]
+---
 
 * * *
 
@@ -85,7 +95,17 @@ Continue
 
 ### abapselect-options_for.htm
 
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -184,7 +204,17 @@ Continue
 
 ### abensel_screen_sel_opt_abexa.htm
 
-  
+---
+title: "Selection Screens, Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 
@@ -241,7 +271,17 @@ The contents of the selection table are then shown in a list. The first column d
 
 ### abapselect-options_for.htm
 
-  
+---
+title: "SELECT-OPTIONS - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 
@@ -340,7 +380,17 @@ Continue
 
 ### abapselect-options_screen.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... OBLIGATORYNO-DISPLAY VISIBLE LENGTH vlen NO-EXTENSION NO INTERVALS MODIF ID modid(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_modif_id.htm) ... Extras: 1. ... OBLIGATORY(#!ABAP_ADDITION_1@1@) 2. ... NO-DISPLAY
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_screen.htm"
+abapFile: "abapselect-options_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapselect", "options", "screen"]
+---
 
 * * *
 
@@ -441,7 +491,17 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
 
 ### abapselect-options_value.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 
@@ -526,7 +586,17 @@ Continue
 
 ### abensel_screen_sel_opt_def_abexa.htm
 
-  
+---
+title: "Selection Screens, Default Values for Selection Criteria"
+description: |
+  The example shows which default values you can set for selection criteria. Source Code REPORT demo_sel_screen_select_default. DATA wa_spfli TYPE spfli. SELECT-OPTIONS airline FOR wa_spfli-carrid DEFAULT 'AA' TO 'LH' OPTION  nb SIGN  i. Description The symbol before the first field indicates th
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_sel_opt_def_abexa.htm"
+abapFile: "abensel_screen_sel_opt_def_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "sel", "opt", "def", "abexa"]
+---
 
 * * *
 
@@ -555,7 +625,17 @@ The symbol before the first field indicates that the field airline-option contai
 
 ### abapselect-options_value.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 

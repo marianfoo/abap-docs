@@ -1,4 +1,14 @@
-  
+---
+title: "Data Objects in Operand Positions"
+description: |
+  ... -   Data Objects in Read Positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects_usage_reading.htm) -   Data Objects in Write Positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects_usage_writing.htm) -   Notations for Si
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_data_objects.htm"
+abapFile: "abenoperands_data_objects.htm"
+keywords: ["do", "if", "data", "abenoperands", "objects"]
+---
 
 * * *
 

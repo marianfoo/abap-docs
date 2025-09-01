@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Texts"
+description: |
+  Each exception is assigned a text that can be given parameters using attributes and that describes the exception situation. This text is displayed in the short dump(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshort_dump_glosry.htm 'Glossary Entry') of the runtime error if the ex
+version: "7.54"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexception_texts.htm"
+abapFile: "abenexception_texts.htm"
+keywords: ["do", "if", "try", "method", "class", "exception-handling", "abenexception", "texts"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "tab_area_glosry"
+description: |
+  tab_area_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentab_area_glosry.htm"
+abapFile: "abentab_area_glosry.htm"
+keywords: ["do", "if", "try", "abentab", "area", "glosry"]
+---
 
 * * *
 

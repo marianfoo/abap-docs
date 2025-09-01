@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.geo.spatialRefSystem : 'id' Effect Specifies a special property for table fields with the geodata type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeo_data_type_glosry.htm 'Glossary Entry') GEOM_EWKB. Currently, the annotation @AbapCatalog.geo.spatialRefSystem is p
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_table_srprps.htm"
+abapFile: "abenddicddl_define_table_srprps.htm"
+keywords: ["insert", "do", "if", "try", "data", "abenddicddl", "define", "table", "srprps"]
+---
 
 * * *
 

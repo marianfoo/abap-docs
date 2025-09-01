@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Typed Literals"
+description: |
+  Syntax ... dtype`...` Effect Typed literals can be created for all built-in ABAP Dictionary types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) with the exception of LCHR, LRAW, GEOM_EWKB, PREC, ACCP, DF16_SCL, and DF34_SCL. A typed literal can be used
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql_typed_literals.htm"
+abapFile: "abenabap_sql_typed_literals.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenabap", "sql", "typed", "literals"]
+---
 
 * * *
 
@@ -28,17 +38,11 @@ Hints
 
 Typed literals can be split into the following categories:
 
--   [Typed numeric literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_1)
+-   [Typed numeric literals](#abenabap-sql-typed-literals-1--------typed-character-literals---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_2)
 
--   [Typed character literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_2)
+-   [Typed byte literals](#abenabap-sql-typed-literals-3--------typed-literals-for-character-like-types-with-special-semantics---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_4)
 
--   [Typed byte literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_3)
-
--   [Typed literals for character-like types with special semantics](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_4)
-
--   [Typed date and time literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_5)
-
--   [Typed currency and quantity literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_6)
+-   [Typed date and time literals](#abenabap-sql-typed-literals-5--------typed-currency-and-quantity-literals---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_6)
 
 Typed numeric literals
 

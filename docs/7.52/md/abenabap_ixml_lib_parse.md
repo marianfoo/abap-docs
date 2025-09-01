@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  A parser is only valid once for the associated input stream and the associated XML document. Once it has parsed the input stream to a document, the parser can be passed to the garbage collector. A parser cannot be reused for the same XML data or for any other data. iXML Library - Complete Parse to
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_ixml_lib_parse.htm"
+abapFile: "abenabap_ixml_lib_parse.htm"
+keywords: ["do", "if", "method", "class", "data", "abenabap", "ixml", "lib", "parse"]
+---
 
 * * *
 

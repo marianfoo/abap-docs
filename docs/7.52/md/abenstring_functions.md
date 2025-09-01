@@ -1,4 +1,14 @@
-  
+---
+title: "String Functions"
+description: |
+  String functions are part of the predefined functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions.htm). They are divided into: -   Description functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescriptive_functions.htm) -   Processing
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions.htm"
+abapFile: "abenstring_functions.htm"
+keywords: ["do", "data", "abenstring", "functions"]
+---
 
 * * *
 

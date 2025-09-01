@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO non-standard operation"
+description: |
+  RAP BO operation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') that does not provide canonical transactional behavior for a RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'), fo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_nstandard_operation_glosry.htm"
+abapFile: "abenrap_nstandard_operation_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "nstandard", "operation", "glosry"]
+---
 
 * * *
 

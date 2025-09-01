@@ -1,4 +1,14 @@
-  
+---
+title: "Instance"
+description: |
+  Concrete occurence of a type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_glosry.htm 'Glossary Entry'). The instance of a data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm 'Glossary Entry') is a data object(https://help.sap.com
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_glosry.htm"
+abapFile: "abeninstance_glosry.htm"
+keywords: ["do", "try", "class", "data", "abeninstance", "glosry"]
+---
 
 * * *
 

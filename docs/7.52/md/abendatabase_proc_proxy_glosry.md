@@ -1,4 +1,14 @@
-  
+---
+title: "Database Procedure Proxy"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm 'Glossary Entry') in ABAP Dictionary(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') that represents an SQLScript procedure(
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_proc_proxy_glosry.htm"
+abapFile: "abendatabase_proc_proxy_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "proc", "proxy", "glosry"]
+---
 
 * * *
 

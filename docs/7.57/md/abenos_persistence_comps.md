@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Components of the Persistence Service"
+description: |
+  The persistence service is a software layer that manages persistent objects. This software layer consists of a general part and a class-specific part. It is made up of global classes and interfaces from the Class Library. The class-specific part is specially generated for each existing persistent cl
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenos_persistence_comps.htm"
+abapFile: "abenos_persistence_comps.htm"
+keywords: ["select", "delete", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenos", "persistence", "comps"]
+---
 
 * * *
 
@@ -13,18 +23,12 @@ OS - Components of the Persistence Service
 
 The persistence service is a software layer that manages persistent objects. This software layer consists of a general part and a class-specific part. It is made up of global classes and interfaces from the Class Library. The class-specific part is specially generated for each existing persistent class.
 
--   [CL\_persistent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_1)
--   [Classes CA\_persistent and CB\_persistent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_2)
--   [Interfaces for the Class Agent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_3)
--   [Management Interface for the Persistent Class](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_4)
--   [Other Interfaces and Classes](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_5)
--   [AGENT Attribute of the Class Agent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_6)
--   [Most Important Methods of the Class Agent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_7)
-    -   [Methods Inherited from CB\_persistent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_8)
-    -   [Methods of the Interface IF\_OS\_FACTORY](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_9)
-    -   [Methods of the Interface IF\_OS\_CA\_PERSISTENCY](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_10)
-    -   [Methods of the Interface IF\_OS\_CA\_INSTANCE](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_11)
--   [Methods of IF\_OS\_STATE](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_12)
+-   [CL\_persistent](#abenos-persistence-comps-1-------classes-ca--persistent-and-cb--persistent---@ITOC@@ABENOS_PERSISTENCE_COMPS_2)
+-   [Interfaces for the Class Agent](#abenos-persistence-comps-3-------management-interface-for-the-persistent-class---@ITOC@@ABENOS_PERSISTENCE_COMPS_4)
+-   [Other Interfaces and Classes](#abenos-persistence-comps-5-------agent-attribute-of-the-class-agent---@ITOC@@ABENOS_PERSISTENCE_COMPS_6)
+-   [Most Important Methods of the Class Agent](#abenos-persistence-comps-7-----------methods-inherited-from-cb--persistent---@ITOC@@ABENOS_PERSISTENCE_COMPS_8)
+    -   [Methods of the Interface IF\_OS\_FACTORY](#abenos-persistence-comps-9-----------methods-of-the-interface-if--os--ca--persistency---@ITOC@@ABENOS_PERSISTENCE_COMPS_10)
+    -   [Methods of the Interface IF\_OS\_CA\_INSTANCE](#abenos-persistence-comps-11-------methods-of-if--os--state---@ITOC@@ABENOS_PERSISTENCE_COMPS_12)
 
 CL\_persistent   
 

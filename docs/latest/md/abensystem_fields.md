@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP System Fields"
+description: |
+  System fields are filled by the ABAP runtime framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_runtime_frmwk_glosry.htm 'Glossary Entry') and can be used in an ABAP program to query system states. With one exception (sy-repid), the system fields are variables, but
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_fields.htm"
+abapFile: "abensystem_fields.htm"
+keywords: ["select", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abensystem", "fields"]
+---
 
 * * *
 

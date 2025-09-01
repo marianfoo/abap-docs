@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenabap_and_hana_abexas.htm
 
-  
+---
+title: "ABAP and SAP HANA, Examples"
+description: |
+  !Example(exa.gif 'Example') SAP HANA, ABAP-Specific Session Variables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_session_variables_abexa.htm) !Example(exa.gif 'Example') SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_cached
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_and_hana_abexas.htm"
+abapFile: "abenabap_and_hana_abexas.htm"
+keywords: ["do", "if", "data", "abenabap", "and", "hana", "abexas"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abenhana_session_variables_abexa.htm
 
-  
+---
+title: "SAP HANA, ABAP-Specific Session Variables"
+description: |
+  This example demonstrates potential Native SQL reads on session variables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_session_variables.htm) on the SAP HANA database. Source Code REPORT demo_hana_session_variables. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS mai
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_session_variables_abexa.htm"
+abapFile: "abenhana_session_variables_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "session", "variables", "abexa"]
+---
 
 * * *
 
@@ -171,7 +191,17 @@ This program calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_V
 
 ### abenhana_cached_views_abexa.htm
 
-  
+---
+title: "SAP HANA, Cached Views"
+description: |
+  This example demonstrates ABAP SQL access to a cached view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_cached_views.htm) on the SAP HANA database. Source Code REPORT demo_select_cached_view. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_cached_views_abexa.htm"
+abapFile: "abenhana_cached_views_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "cached", "views", "abexa"]
+---
 
 * * *
 
@@ -268,7 +298,17 @@ The addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_757_index_htm/7
 
 ### abenfrom_adbc_to_amdp_abexa.htm
 
-  
+---
+title: "SAP HANA, from ADBC to AMDP"
+description: |
+  This example demonstrates how a task can be performed using HANA-specific language elements. Source Code REPORT demo_from_adbc_to_amdp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). IF NOT cl_a
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfrom_adbc_to_amdp_abexa.htm"
+abapFile: "abenfrom_adbc_to_amdp_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenfrom", "adbc", "amdp", "abexa"]
+---
 
 * * *
 
@@ -501,7 +541,17 @@ ENDMETHOD.
 
 ### abencall_hana_db_proc_abexa.htm
 
-  
+---
+title: "SAP HANA, Call Database Procedure"
+description: |
+  This example demonstrates how a database procedure in the SAP HANA database can be called. Source Code REPORT demo_call_hana_db_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). IF NOT cl
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_hana_db_proc_abexa.htm"
+abapFile: "abencall_hana_db_proc_abexa.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "hana", "proc", "abexa"]
+---
 
 * * *
 
@@ -675,7 +725,17 @@ Method was not found
 
 ### abensql_script_curr_conv_abexa.htm
 
-  
+---
+title: "SAP HANA, Currency Conversion with SQLScript"
+description: |
+  This example demonstrates how a built-in HANA SQL function is called in SQLScript. Source Code REPORT demo_sqlscript_curr_conv. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS setup. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_script_curr_conv_abexa.htm"
+abapFile: "abensql_script_curr_conv_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abensql", "script", "curr", "conv", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, INDICATORS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_shortref.htm) Syntax TYPES dtype TYPE struct WITH INDICATORS ind TYPE type. Addition: ... TYPE type(#!ABAP_ONE_ADD@1@) Effect Derivation of a structured data type with an indicator structure(https://he
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_indicators.htm"
+abapFile: "abaptypes_indicators.htm"
+keywords: ["select", "update", "loop", "do", "while", "if", "try", "data", "types", "internal-table", "abaptypes", "indicators"]
+---
 
 * * *
 

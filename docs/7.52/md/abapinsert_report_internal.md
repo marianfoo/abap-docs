@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT REPORT - Internal Additions"
+description: |
+  Internal Additions These additions are for internal use only. Do not use them in application programs. Extras: 1. ... EXTENSION TYPE exttype(#!ABAP_ADDITION_1@1@) 2. ... APPENDAGE TYPE apptype(#!ABAP_ADDITION_2@2@) 3. ... STATE state(#!ABAP_ADDITION_3@3@) 4. ... OBJECT KEY key(#!ABAP_ADD
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_report_internal.htm"
+abapFile: "abapinsert_report_internal.htm"
+keywords: ["insert", "do", "if", "try", "class", "data", "abapinsert", "report", "internal"]
+---
 
 * * *
 

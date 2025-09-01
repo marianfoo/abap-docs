@@ -1,4 +1,14 @@
-  
+---
+title: "case_distinction_glosry"
+description: |
+  case_distinction_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencase_distinction_glosry.htm"
+abapFile: "abencase_distinction_glosry.htm"
+keywords: ["do", "case", "try", "abencase", "distinction", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... line_index( table_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expressions.htm)  ) ... The table function line_index returns the number of the row found using the table expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_g
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_index_function.htm"
+abapFile: "abenline_index_function.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenline", "index", "function"]
+---
 
 * * *
 

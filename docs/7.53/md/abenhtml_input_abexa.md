@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Input in HTML File"
+description: |
+  This example demonstrates how input in a HTML file can be processed. Source Code REPORT demo_html_input. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS handle_sapevent FOR EVENT sapevent OF cl_abap_browser IMPORTING action query_table. ENDCLASS. CLASS
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhtml_input_abexa.htm"
+abapFile: "abenhtml_input_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenhtml", "input", "abexa"]
+---
 
 * * *
 

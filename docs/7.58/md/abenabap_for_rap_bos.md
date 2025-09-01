@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for RAP Business Objects"
+description: |
+  This section describes the ABAP language elements for providing and consuming RAP business objects (RAP BOs)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). A RAP BO is mainly defined by a RAP behavior definition (BDEF)(https://help.sap.com/doc
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm"
+abapFile: "abenabap_for_rap_bos.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenabap", "for", "rap", "bos"]
+---
 
 * * *
 

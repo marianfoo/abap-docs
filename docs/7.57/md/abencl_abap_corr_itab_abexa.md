@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_corresponding_class_tb. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, BEGIN OF line2, col2 TYPE i, col3 TYPE i, END OF line2. DATA: itab1 TYPE TABLE OF line1 W
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_abap_corr_itab_abexa.htm"
+abapFile: "abencl_abap_corr_itab_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abencl", "abap", "corr", "itab", "abexa"]
+---
 
 * * *
 

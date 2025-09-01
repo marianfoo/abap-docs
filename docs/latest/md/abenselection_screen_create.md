@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Create"
+description: |
+  -   SELECTION-SCREEN(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen.htm) -   PARAMETERS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters.htm) -   SELECT-OPTIONS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/a
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_create.htm"
+abapFile: "abenselection_screen_create.htm"
+keywords: ["select", "do", "if", "abenselection", "screen", "create"]
+---
 
 * * *
 

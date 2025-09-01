@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Virtual Sorting of Internal Tables"
+description: |
+  !Example(exa.gif 'Example') Virtual Sorting of an Internal Table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvirtual_sort_simple_abexa.htm) !Example(exa.gif 'Example') Virtual Sorting of Two Internal Tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvir
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvirtual_sort_abexas.htm"
+abapFile: "abenvirtual_sort_abexas.htm"
+keywords: ["do", "if", "class", "data", "internal-table", "abenvirtual", "sort", "abexas"]
+---
 
 * * *
 

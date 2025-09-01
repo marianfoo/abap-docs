@@ -1,4 +1,14 @@
-  
+---
+title: "RAP feature control"
+description: |
+  An access restriction that enables or disables RAP BO operations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') or defines field attributes dynamically for RAP BO consumers(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/ab
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_feature_control_glosry.htm"
+abapFile: "abenrap_feature_control_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "feature", "control", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Modularization units"
+description: |
+  Die wesentlichen Modularisierungseinheiten bzw. aufrufbaren Einheiten innerhalb eines ABAP-Programms werden als Verarbeitungsblöcke bezeichnet. Hierbei wird nach Prozeduren auf der einen und Dialogmodulen sowie Ereignisblöcken auf der anderen Seite unterschieden. Während Dialogmodule und Ereignisblö
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_unit_guidl.htm"
+abapFile: "abenmodularization_unit_guidl.htm"
+keywords: ["do", "method", "data", "abenmodularization", "unit", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_compute_exact. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF out, div     TYPE string, result1 TYPE string, flag1   TYPE string, result2 TYPE string, flag2    TYPE string, END OF out, output LIKE TABLE OF out. ENDCLASS. CLASS demo IMPL
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompute_exact_abexa.htm"
+abapFile: "abencompute_exact_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abencompute", "exact", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT itab, cond"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_shortref.htm) Syntax ... USING KEY keyname(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkeyname.htm) FROM idx1 TO idx2 WHERE log_exp(https://help.sap.com/d
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm"
+abapFile: "abaploop_at_itab_cond.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abaploop", "itab", "cond"]
+---
 
 * * *
 

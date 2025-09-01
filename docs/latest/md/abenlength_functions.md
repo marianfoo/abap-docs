@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... func( arg ) ... Effect The following table shows the length functions with an unnamed argument. The arguments arg of all length functions except dbmaxlen are character-like expression positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_expr_position_glosry.ht
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlength_functions.htm"
+abapFile: "abenlength_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenlength", "functions"]
+---
 
 * * *
 

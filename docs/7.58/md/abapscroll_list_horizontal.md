@@ -1,4 +1,14 @@
-  
+---
+title: "SCROLL LIST, horizontal"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_shortref.htm) Syntax ... TO COLUMN col  LEFTRIGHT BY n PLACES ... Alternatives: 1. ... TO COLUMN col(#!ABAP_ALTERNATIVE_1@1@) 2. ... LEFT BY n PLACES(#!ABAP_ALTERNATI
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_horizontal.htm"
+abapFile: "abapscroll_list_horizontal.htm"
+keywords: ["select", "do", "if", "class", "data", "abapscroll", "list", "horizontal"]
+---
 
 * * *
 

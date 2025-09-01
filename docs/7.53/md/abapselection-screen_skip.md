@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN - SKIP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_shortref.htm) Syntax SELECTION-SCREEN SKIP n ldb_additions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_ldb_additions.htm). Effect This statement cr
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_skip.htm"
+abapFile: "abapselection-screen_skip.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "skip"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   CL_DEMO_OUTPUT is based on a class CL_DEMO_OUTPUT_STREAM that collects the data in an internal table that is converted to an XML file and raises an event on completion. Special handler classes convert the XML file to HTML, plain text, or JSON depending on the output mode. -   CL_DEMO_OUTP
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm"
+abapFile: "abencl_demo_output.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abencl", "demo", "output"]
+---
 
 * * *
 

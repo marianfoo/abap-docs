@@ -1,4 +1,14 @@
-  
+---
+title: "VALUE - Structures"
+description: |
+  Syntax ... VALUE dtype#( let_exp(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm) BASE dobj comp1 = dobj1 comp2 = dobj2 ... ) ... Effect If dtype is a structured data type or # stands for a type like this, the individual components can be specified as nam
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_struc.htm"
+abapFile: "abenvalue_constructor_params_struc.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "abenvalue", "constructor", "params", "struc"]
+---
 
 * * *
 

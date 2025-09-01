@@ -1,4 +1,14 @@
-  
+---
+title: "Input Checks - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Automatic Input Checks(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_auto_check_abexa.htm) !Example(exa.gif 'Example') Dynpros, Input Checks in the Flow Logic(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_ch
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninput_check_abexas.htm"
+abapFile: "abeninput_check_abexas.htm"
+keywords: ["do", "if", "abeninput", "check", "abexas"]
+---
 
 * * *
 

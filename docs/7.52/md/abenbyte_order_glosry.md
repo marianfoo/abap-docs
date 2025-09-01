@@ -1,4 +1,14 @@
-  
+---
+title: "byte_order_glosry"
+description: |
+  byte_order_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_order_glosry.htm"
+abapFile: "abenbyte_order_glosry.htm"
+keywords: ["do", "case", "try", "class", "data", "types", "abenbyte", "order", "glosry"]
+---
 
 * * *
 

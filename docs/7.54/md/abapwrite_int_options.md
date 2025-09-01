@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_to_options.htm) EXPONENT exp(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_to_options.htm) NO-GROUPING(https://help.sap.com/doc/abapdo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_int_options.htm"
+abapFile: "abapwrite_int_options.htm"
+keywords: ["do", "if", "case", "try", "class", "abapwrite", "int", "options"]
+---
 
 * * *
 

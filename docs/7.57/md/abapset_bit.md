@@ -1,4 +1,14 @@
-  
+---
+title: "SET BIT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_bit_shortref.htm) Syntax SET BIT bitpos OF byte_string TO val. Effect This statement sets the bit in bit position bitpos of the variable byte_string to 1 or, if specified, to the value of data object val.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_bit.htm"
+abapFile: "abapset_bit.htm"
+keywords: ["loop", "do", "if", "try", "catch", "data", "abapset", "bit"]
+---
 
 * * *
 

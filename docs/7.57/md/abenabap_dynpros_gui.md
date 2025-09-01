@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - GUI Statuses and Function Codes(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_gui_status_abexa.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_gui.htm"
+abapFile: "abenabap_dynpros_gui.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpros", "gui"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "standard_selscreen_glosry"
+description: |
+  standard_selscreen_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_selscreen_glosry.htm"
+abapFile: "abenstandard_selscreen_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenstandard", "selscreen", "glosry"]
+---
 
 * * *
 

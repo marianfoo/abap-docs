@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Association with Executable Programs"
+description: |
+  -   How the Association Works(#abenldb-usage-executable-1--------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2) -   Runtime Behavior(#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3) How the Association Works When an executable program(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abene
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb_usage_executable.htm"
+abapFile: "abenldb_usage_executable.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "class", "data", "abenldb", "usage", "executable"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 LDB - Association with Executable Programs
 
--   [How the Association Works](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_1)
-
--   [Selection Screen](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
+-   [How the Association Works](#abenldb-usage-executable-1--------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
 
 -   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3)
 

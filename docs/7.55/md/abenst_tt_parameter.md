@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:parameter name='...' ref-type='...' kind='...' s-val='...'d-val='...'val='...' /> Effect The statement tt:parameter can be used to declare one or more parameters in an ST program outside of a template. The attribute name is used to define a symb
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_parameter.htm"
+abapFile: "abenst_tt_parameter.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "abenst", "parameter"]
+---
 
 * * *
 

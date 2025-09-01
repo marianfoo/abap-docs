@@ -1,4 +1,14 @@
-  
+---
+title: "Cluster"
+description: |
+  Grouping of different data in a common storage location. Either as a data cluster(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster_glosry.htm 'Glossary Entry') in various storage media for data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencluster_glosry.htm"
+abapFile: "abencluster_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencluster", "glosry"]
+---
 
 * * *
 

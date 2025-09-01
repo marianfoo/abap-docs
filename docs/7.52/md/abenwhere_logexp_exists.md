@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXISTS ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_subquery.htm)  UNION ...(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunion.htm) ) ... Effect Checks the results set of a subquery. The relational expressio
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_exists.htm"
+abapFile: "abenwhere_logexp_exists.htm"
+keywords: ["select", "do", "if", "case", "data", "internal-table", "abenwhere", "logexp", "exists"]
+---
 
 * * *
 

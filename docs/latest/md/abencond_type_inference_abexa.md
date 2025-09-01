@@ -1,4 +1,14 @@
-  
+---
+title: "Conditional Operator, Type Inference"
+description: |
+  This example demonstrates a type inference for the conversion operator COND(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_cond.htm). Source Code  Public class definition CLASS cl_demo_cond_type_inference DEFINITION INHERITING FROM cl_demo_classr
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencond_type_inference_abexa.htm"
+abapFile: "abencond_type_inference_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "field-symbol", "abencond", "type", "inference", "abexa"]
+---
 
 * * *
 

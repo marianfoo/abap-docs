@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY ENTITY, ENTITIES"
+description: |
+  Syntax Forms MODIFY ENTITY, Short Form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_short.htm) 1. MODIFY ENTITY  IN LOCAL MODE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities.htm"
+abapFile: "abapmodify_entity_entities.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "abapmodify", "entity", "entities"]
+---
 
 * * *
 

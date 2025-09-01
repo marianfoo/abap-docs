@@ -1,4 +1,14 @@
-  
+---
+title: "Database Accesses"
+description: |
+  Background In ABAP, data in database tables can be accessed in the following ways: -   Open SQL Implemented by ABAP statements, this is a subset of the Structured Query Language (SQL) comprising the DML (Data Manipulation Language) part. The Open SQL statements use the Open SQL interface for platfor
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_guidl.htm"
+abapFile: "abendatabase_access_guidl.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abendatabase", "access", "guidl"]
+---
 
 * * *
 

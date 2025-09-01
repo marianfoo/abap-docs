@@ -1,4 +1,14 @@
-  
+---
+title: "quick_info_glosry"
+description: |
+  quick_info_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenquick_info_glosry.htm"
+abapFile: "abenquick_info_glosry.htm"
+keywords: ["do", "try", "abenquick", "info", "glosry"]
+---
 
 * * *
 

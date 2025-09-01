@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Access to Database Schemas"
+description: |
+  Demonstrates access to tables in explicitly specified database schemas(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_schema_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_amdp_db_schema_access DEFINITION INHERITING FROM cl_de
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_db_schema_abexa.htm"
+abapFile: "abenamdp_db_schema_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "schema", "abexa"]
+---
 
 * * *
 

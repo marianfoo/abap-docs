@@ -1,4 +1,14 @@
-  
+---
+title: "Transformations for XML"
+description: |
+  The AS ABAP kernel contains processors for the following transformations: -   XSL transformations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt.htm) -   Simple transformations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) Appropriate trans
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm"
+abapFile: "abenabap_xml_trafos.htm"
+keywords: ["do", "try", "class", "data", "internal-table", "abenabap", "xml", "trafos"]
+---
 
 * * *
 

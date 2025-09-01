@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA, Call Database Procedure"
+description: |
+  This example demonstrates how a database procedure in the SAP HANA database can be called. Source Code  Public class definition CLASS cl_demo_call_hana_db_proc DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public cl
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm"
+abapFile: "abencall_hana_db_proc_abexa.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "hana", "proc", "abexa"]
+---
 
 * * *
 

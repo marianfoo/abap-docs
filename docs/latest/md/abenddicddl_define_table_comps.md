@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE TABLE, field"
+description: |
+  Syntax component_annos(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_struct_cmpprps.htm) foreign_key_annos(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sa
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_table_comps.htm"
+abapFile: "abenddicddl_define_table_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "table", "comps"]
+---
 
 * * *
 

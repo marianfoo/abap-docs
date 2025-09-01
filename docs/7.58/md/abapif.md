@@ -1,4 +1,14 @@
-  
+---
+title: "IF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapif_shortref.htm) Syntax IF log_exp1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm). statement_block1 ELSEIF log_exp2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapif.htm"
+abapFile: "abapif.htm"
+keywords: ["do", "while", "if", "try", "abapif"]
+---
 
 * * *
 

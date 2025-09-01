@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT IN ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_subquery.htm) UNION ...(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunion.htm) ) ... Effect Search for an operand operand in the result set
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_in_subquery.htm"
+abapFile: "abenwhere_logexp_in_subquery.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenwhere", "logexp", "subquery"]
+---
 
 * * *
 

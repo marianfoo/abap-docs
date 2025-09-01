@@ -1,4 +1,14 @@
-  
+---
+title: "REF - Reference Operator"
+description: |
+  Syntax ... REF type( dobj  table_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expressions.htm) ) ... Alternatives: 1. ... REF type( dobj )(#!ABAP_ALTERNATIVE_1@1@) 2. ... REF type( table_exp )(#!ABAP_ALTERNATIVE_2@2@) Effect A constructor expression(https:/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_ref.htm"
+abapFile: "abenconstructor_expression_ref.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abenconstructor", "expression", "ref"]
+---
 
 * * *
 

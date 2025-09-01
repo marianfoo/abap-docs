@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, Implementing a Custom Query"
+description: |
+  This example demonstrates how an ABAP method can be used for data provisioning in a CDS custom entity. Source Code  Public class definition CLASS cl_demo_consume_bs_cstm_query DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLA
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_custom_query_abexa.htm"
+abapFile: "abencds_custom_query_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencds", "custom", "query", "abexa"]
+---
 
 * * *
 

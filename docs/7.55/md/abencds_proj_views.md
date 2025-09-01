@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Projection Views"
+description: |
+  A CDS projection view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') is defined in the DDL source code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') of a CDS data defin
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_views.htm"
+abapFile: "abencds_proj_views.htm"
+keywords: ["do", "try", "data", "abencds", "proj", "views"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Setting the Text Environment"
+description: |
+  This example demonstrates how to set the text environment explicitly. Source Code  Public class definition CLASS cl_demo_set_locale DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_d
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenset_locale_abexa.htm"
+abapFile: "abenset_locale_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenset", "locale", "abexa"]
+---
 
 * * *
 

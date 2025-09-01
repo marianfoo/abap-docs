@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - persistent table"
+description: |
+  Syntax ... persistent table TableName ... Effect DDIC database table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') a RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') is
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_persistent_table.htm"
+abapFile: "abenbdl_persistent_table.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abenbdl", "persistent", "table"]
+---
 
 * * *
 

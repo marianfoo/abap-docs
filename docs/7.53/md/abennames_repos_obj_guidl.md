@@ -1,4 +1,14 @@
-  
+---
+title: "Names of Repository Objects"
+description: |
+  Background Repository objects are development objects edited using the tools in ABAP Workbench. Each repository object is assigned to a package. Packages encapsulate the repository objects contained and use package interfaces to make objects available that should be usable outside the package. This
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennames_repos_obj_guidl.htm"
+abapFile: "abennames_repos_obj_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abennames", "repos", "obj", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - TYPE REQUEST FOR in a managed RAP BO with additional save"
+description: |
+  This example demonstrates the use of the BDEF-derived types TYPE REQUEST FOR CHANGE and TYPE REQUEST FOR DELETE in the context of a managed RAP BO whose BDEF is specified with with additional save. In this simplified example, all changes to the root instance of the demo BO are recorded (i. e. they a
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_additional_save_abexa.htm"
+abapFile: "abenrap_additional_save_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenrap", "additional", "save", "abexa"]
+---
 
 * * *
 

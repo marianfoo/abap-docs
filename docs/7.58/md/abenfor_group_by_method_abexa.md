@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_for_grps_by_method DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TYPES: spfli_tab    TYPE STANDARD TABLE OF spfli    WITH EMPTY KEY, sairport_tab TYP
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_group_by_method_abexa.htm"
+abapFile: "abenfor_group_by_method_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "abexa"]
+---
 
 * * *
 

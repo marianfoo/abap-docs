@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CAST( operand AS dtype PRESERVING TYPE) ... Effect Casting in a SELECT statement(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) of a CDS view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm 'Glossary Entr
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm"
+abapFile: "abencds_f1_cast_expression.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "cast", "expression"]
+---
 
 * * *
 

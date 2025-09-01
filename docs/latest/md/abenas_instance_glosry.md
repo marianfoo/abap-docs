@@ -1,4 +1,14 @@
-  
+---
+title: "as_instance_glosry"
+description: |
+  as_instance_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_instance_glosry.htm"
+abapFile: "abenas_instance_glosry.htm"
+keywords: ["do", "if", "try", "abenas", "instance", "glosry"]
+---
 
 * * *
 

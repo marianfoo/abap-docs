@@ -1,4 +1,14 @@
-  
+---
+title: "RAP draft handling"
+description: |
+  A concept in RAP that allows the content of the transactional buffer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransactional_buffer_glosry.htm 'Glossary Entry') to be stored in intermediate storages (draft tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_draft_handling_glosry.htm"
+abapFile: "abenrap_draft_handling_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "draft", "handling", "glosry"]
+---
 
 * * *
 

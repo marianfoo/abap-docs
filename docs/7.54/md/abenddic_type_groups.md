@@ -1,4 +1,14 @@
-  
+---
+title: "Type Groups"
+description: |
+  A type group is an ABAP program managed by ABAP Dictionary that is initiated by the statement TYPE-POOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool.htm) and that contains ABAP statements for defining globally visible data types(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_type_groups.htm"
+abapFile: "abenddic_type_groups.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "type", "groups"]
+---
 
 * * *
 

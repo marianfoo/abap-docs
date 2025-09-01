@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDIC-based view extension"
+description: |
+  A CDS entity extension(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_extend_glosry.htm 'Glossary Entry') of a CDS DDIC-based view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm 'Glossary Entry'). A CDS DDIC-based view e
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_extend_glosry.htm"
+abapFile: "abencds_view_extend_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "view", "extend", "glosry"]
+---
 
 * * *
 

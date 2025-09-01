@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:call-method class='class' s-d-name='meth' writer = 'writer_para' reader = 'reader_para' <tt:with-parameter s-d-name='para1' ref='node1'val='val1'var='var1' /> <tt:with-parameter s-d-name='para2' ref='node2'val='val2'v
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_call-method_static.htm"
+abapFile: "abenst_tt_call-method_static.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenst", "call", "static"]
+---
 
 * * *
 

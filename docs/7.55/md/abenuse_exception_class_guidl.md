@@ -1,4 +1,14 @@
-  
+---
+title: "Using Exception Classes"
+description: |
+  Background The concept of freely definable exception classes involves being able to create an exception class that adequately describes the exception situation in question. The description consists both of the name of the exception class, the associated exception texts, and their documentation. You
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_exception_class_guidl.htm"
+abapFile: "abenuse_exception_class_guidl.htm"
+keywords: ["do", "if", "method", "class", "abenuse", "exception", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Procedure Calls"
+description: |
+  All procedures which are defined in the same ABAP program and are visible from the calling position can be called internally. -   In every ABAP program, and within a class(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm 'Glossary Entry'), the visible methods(https
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_procedures_intern.htm"
+abapFile: "abencall_procedures_intern.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abencall", "procedures", "intern"]
+---
 
 * * *
 

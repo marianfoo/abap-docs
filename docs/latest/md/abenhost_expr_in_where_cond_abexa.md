@@ -1,4 +1,14 @@
-  
+---
+title: "Host Expressions, Use in the WHERE Condition"
+description: |
+  This example demonstrates host expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_host_expressions.htm) on the right side of a relational expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_stmt_logexp.htm) of a WHERE(ht
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_expr_in_where_cond_abexa.htm"
+abapFile: "abenhost_expr_in_where_cond_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenhost", "expr", "where", "cond", "abexa"]
+---
 
 * * *
 

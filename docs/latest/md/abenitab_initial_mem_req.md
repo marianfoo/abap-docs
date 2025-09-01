@@ -1,4 +1,14 @@
-  
+---
+title: "itab_initial_mem_req"
+description: |
+  itab_initial_mem_req - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_initial_mem_req.htm"
+abapFile: "abenitab_initial_mem_req.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "initial", "mem", "req"]
+---
 
 * * *
 

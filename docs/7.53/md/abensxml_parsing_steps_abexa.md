@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_token_reader_steps. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA parser TYPE REF TO if_sxml_reader. CLASS-DATA: BEGIN OF wa, method     TYPE string, node_type  TYPE string, name       TYPE string, value      TYPE string, END OF
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensxml_parsing_steps_abexa.htm"
+abapFile: "abensxml_parsing_steps_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abensxml", "parsing", "steps", "abexa"]
+---
 
 * * *
 

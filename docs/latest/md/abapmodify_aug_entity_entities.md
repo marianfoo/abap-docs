@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES"
+description: |
+  Syntax MODIFY AUGMENTING  ENTITY bdef operations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm) RELATING TO orig BY rela    ENTITIES OF bdef ENTITY bdef1 operations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/e
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm"
+abapFile: "abapmodify_aug_entity_entities.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "method", "abapmodify", "aug", "entity", "entities"]
+---
 
 * * *
 

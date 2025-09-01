@@ -1,4 +1,14 @@
-  
+---
+title: "RAP lock operation"
+description: |
+  RAP BO operation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') that locks RAP BO entity instances(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry') on the persistent table
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlock_operation_glosry.htm"
+abapFile: "abenlock_operation_glosry.htm"
+keywords: ["do", "if", "try", "abenlock", "operation", "glosry"]
+---
 
 * * *
 

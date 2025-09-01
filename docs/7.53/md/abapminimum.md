@@ -1,4 +1,14 @@
-  
+---
+title: "MINIMUM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapminimum_shortref.htm) Obsolete Syntax MINIMUM dobj. Effect For each WRITE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) statement that writes the content of the data object dobj to a list
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapminimum.htm"
+abapFile: "abapminimum.htm"
+keywords: ["do", "if", "try", "class", "data", "abapminimum"]
+---
 
 * * *
 

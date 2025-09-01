@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Create Structure as Target Area"
+description: |
+  The example demonstrates the creation of an structure as a target area of the statement SELECT. Source Code REPORT demo_select_into_new_wa. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: dbtab TYPE tabname VALUE 'SPFLI', rows  T
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_new_wa_abexa.htm"
+abapFile: "abenselect_into_new_wa_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "abenselect", "into", "new", "abexa"]
+---
 
 * * *
 

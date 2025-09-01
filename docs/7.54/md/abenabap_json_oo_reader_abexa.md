@@ -1,4 +1,14 @@
-  
+---
+title: "JSON, Parse"
+description: |
+  The example demonstrates the parsing of JSON data(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_oview.htm). Source Code REPORT demo_json_oo_reader. CLASS json_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS json_demo IMPLEMENTATION. METHOD main. DATA
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_oo_reader_abexa.htm"
+abapFile: "abenabap_json_oo_reader_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenabap", "json", "reader", "abexa"]
+---
 
 * * *
 

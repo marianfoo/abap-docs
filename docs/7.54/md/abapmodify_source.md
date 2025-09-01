@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY dbtab - source"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab_shortref.htm) Syntax ...  @wa@( expr )   TABLE @itab@( expr )  ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_from_select.htm)  UNION
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_source.htm"
+abapFile: "abapmodify_source.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapmodify", "source"]
+---
 
 * * *
 

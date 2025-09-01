@@ -1,4 +1,14 @@
-  
+---
+title: "Control Statement"
+description: |
+  Statement used to define a control structure(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_structure_glosry.htm 'Glossary Entry').
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_statement_glosry.htm"
+abapFile: "abencontrol_statement_glosry.htm"
+keywords: ["do", "try", "abencontrol", "statement", "glosry"]
+---
 
 * * *
 

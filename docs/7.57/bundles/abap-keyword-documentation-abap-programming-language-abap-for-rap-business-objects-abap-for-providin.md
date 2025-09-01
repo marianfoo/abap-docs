@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abeneml_in_abp.htm
 
-  
+---
+title: "ABAP EML - Providing RAP BOs"
+description: |
+  The following EML language elements can only be used in behavior implementations: -   IN LOCAL MODE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapin_local_mode.htm) -   MODIFY AUGMENTING ENTITY, ENTITIES(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_e
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_in_abp.htm"
+abapFile: "abeneml_in_abp.htm"
+keywords: ["select", "do", "if", "try", "abeneml", "abp"]
+---
 
 * * *
 
@@ -37,7 +47,17 @@ Continue
 
 ### abapin_local_mode.htm
 
-  
+---
+title: "ABAP EML - IN LOCAL MODE"
+description: |
+  Syntax ... IN LOCAL MODE ... Effect The addition is used to exclude feature controls and authorization checks. It can be added to the following EML statements: -   READ ENTITY, ENTITIES(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_entity_entities.htm) -   MODIFY ENTITY, ENT
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapin_local_mode.htm"
+abapFile: "abapin_local_mode.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abapin", "local", "mode"]
+---
 
 * * *
 
@@ -83,7 +103,17 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
 
 ### abapmodify_aug_entity_entities.htm
 
-  
+---
+title: "ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES"
+description: |
+  Syntax MODIFY AUGMENTING  ENTITY bdef operations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities_op.htm) RELATING TO orig BY rela    ENTITIES OF bdef ENTITY bdef1 operations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapm
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_entity_entities.htm"
+abapFile: "abapmodify_aug_entity_entities.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "method", "abapmodify", "aug", "entity", "entities"]
+---
 
 * * *
 
@@ -177,7 +207,17 @@ Continue
 
 ### abeneml_modify_augmenting_abexa.htm
 
-  
+---
+title: "ABAP EML - MODIFY AUGMENTING ENTITY"
+description: |
+  This example demonstrates the ABAP EML MODIFY statement with the addition AUGMENTING with a RAP projection business object. Base BDEF The base BDEF is the managed CDS behavior definition DEMO_MANAGED_ROOT_WAS. It defines the behavior for two entities which are connected via a CDS composition rela
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_modify_augmenting_abexa.htm"
+abapFile: "abeneml_modify_augmenting_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abeneml", "modify", "augmenting", "abexa"]
+---
 
 * * *
 
@@ -357,7 +397,17 @@ The above source code uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm
 
 ### abapmodify_aug_entity_entities.htm
 
-  
+---
+title: "ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES"
+description: |
+  Syntax MODIFY AUGMENTING  ENTITY bdef operations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities_op.htm) RELATING TO orig BY rela    ENTITIES OF bdef ENTITY bdef1 operations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapm
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_entity_entities.htm"
+abapFile: "abapmodify_aug_entity_entities.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "method", "abapmodify", "aug", "entity", "entities"]
+---
 
 * * *
 
@@ -451,7 +501,17 @@ Continue
 
 ### abapauthority-check_disable.htm
 
-  
+---
+title: "ABAP EML - AUTHORITY-CHECK DISABLE"
+description: |
+  Syntax AUTHORITY-CHECK DISABLE BEGIN CONTEXT bdef~context_name ... AUTHORITY-CHECK DISABLE END. Effect AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... and AUTHORITY-CHECK DISABLE END. form a statement block to activate and deactivate an authorization context(https://help.sap.com/doc/abapdocu_757_index_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm"
+abapFile: "abapauthority-check_disable.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapauthority", "check", "disable"]
+---
 
 * * *
 
@@ -501,7 +561,17 @@ Continue
 
 ### abeneml_auth_check_disable_abexa.htm
 
-  
+---
+title: "ABAP EML - AUTHORITY-CHECK DISABLE"
+description: |
+  This example demonstrates the ABAP EML statement AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. with an unmanaged RAP business object. Data model The CDS data model consists of the root entity DEMO_UNMANAGED_AUTH: @AccessControl.authorizationCheck: #NOT_REQUIRED define roo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_auth_check_disable_abexa.htm"
+abapFile: "abeneml_auth_check_disable_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abeneml", "auth", "check", "disable", "abexa"]
+---
 
 * * *
 
@@ -612,7 +682,17 @@ Table entries:
 
 ### abapauthority-check_disable.htm
 
-  
+---
+title: "ABAP EML - AUTHORITY-CHECK DISABLE"
+description: |
+  Syntax AUTHORITY-CHECK DISABLE BEGIN CONTEXT bdef~context_name ... AUTHORITY-CHECK DISABLE END. Effect AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... and AUTHORITY-CHECK DISABLE END. form a statement block to activate and deactivate an authorization context(https://help.sap.com/doc/abapdocu_757_index_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm"
+abapFile: "abapauthority-check_disable.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapauthority", "check", "disable"]
+---
 
 * * *
 

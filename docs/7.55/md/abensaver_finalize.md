@@ -1,4 +1,14 @@
-  
+---
+title: "Method FINALIZE"
+description: |
+  Work in progress  The method finalize of the local saver class(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_saver_class.htm) is the first method of the saver sequence of the behavior implementation of a business object. The method is used to make any final calculations a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_finalize.htm"
+abapFile: "abensaver_finalize.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abensaver", "finalize"]
+---
 
 * * *
 

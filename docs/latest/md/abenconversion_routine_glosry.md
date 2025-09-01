@@ -1,4 +1,14 @@
-  
+---
+title: "conversion_routine_glosry"
+description: |
+  conversion_routine_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_routine_glosry.htm"
+abapFile: "abenconversion_routine_glosry.htm"
+keywords: ["do", "if", "try", "abenconversion", "routine", "glosry"]
+---
 
 * * *
 

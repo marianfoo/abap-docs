@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Type Reference"
+description: |
+  -   Obsolete use of LIKE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlike_obsolete.htm) LIKE - obsolete(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlike_obsolete.htm)
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_typing.htm"
+abapFile: "abenobsolete_typing.htm"
+keywords: ["do", "abenobsolete", "typing"]
+---
 
 * * *
 

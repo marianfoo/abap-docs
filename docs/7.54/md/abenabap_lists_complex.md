@@ -1,4 +1,14 @@
-  
+---
+title: "Processing Lists in the List Buffer"
+description: |
+  The following statements edit lists that are already saved as screen lists(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscreen_list_glosry.htm 'Glossary Entry') in the list buffers: -   READ LINE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_line.htm), -
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_lists_complex.htm"
+abapFile: "abenabap_lists_complex.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "lists", "complex"]
+---
 
 * * *
 

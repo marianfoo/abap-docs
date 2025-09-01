@@ -1,4 +1,14 @@
-  
+---
+title: "bg_remote_function_glosry"
+description: |
+  bg_remote_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbg_remote_function_glosry.htm"
+abapFile: "abenbg_remote_function_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbg", "remote", "function", "glosry"]
+---
 
 * * *
 

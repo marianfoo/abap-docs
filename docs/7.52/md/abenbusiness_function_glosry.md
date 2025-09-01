@@ -1,4 +1,14 @@
-  
+---
+title: "business_function_glosry"
+description: |
+  business_function_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbusiness_function_glosry.htm"
+abapFile: "abenbusiness_function_glosry.htm"
+keywords: ["do", "try", "abenbusiness", "function", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand operator(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwhere_logexp_compare.htm) ALLANYSOME ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwhere_logexp_subquery.htm) UNIONINTERSECTEXCEPT ...(https:/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwhere_logexp_all_any_some.htm"
+abapFile: "abenwhere_logexp_all_any_some.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abenwhere", "logexp", "all", "any", "some"]
+---
 
 * * *
 

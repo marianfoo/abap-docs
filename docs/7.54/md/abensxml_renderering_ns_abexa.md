@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_token_writer_nsuri. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS sxml_demo IMPLEMENTATION. METHOD main. DATA(writer) = CAST if_sxml_writer( cl_sxml_string_writer=>create(  ) ). DATA(nsuri1) = `http://www.sap.com/abapdemos`. DATA(nsuri2
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensxml_renderering_ns_abexa.htm"
+abapFile: "abensxml_renderering_ns_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensxml", "renderering", "abexa"]
+---
 
 * * *
 

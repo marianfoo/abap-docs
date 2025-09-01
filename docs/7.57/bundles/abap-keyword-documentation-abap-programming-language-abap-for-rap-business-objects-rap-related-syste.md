@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abaprap_system_classes.htm
 
-  
+---
+title: "RAP-Related System Classes"
+description: |
+  The class CL_ABAP_BEHV_AUX contains methods for retrieving information about the context of the current RAP handler method(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') or saver method(https://help.sap.com/doc/abapdocu_757_index
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprap_system_classes.htm"
+abapFile: "abaprap_system_classes.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abaprap", "system", "classes"]
+---
 
 * * *
 
@@ -47,7 +57,17 @@ Continue
 
 ### abenrap_cl_abap_behv_aux_abexa.htm
 
-  
+---
+title: "Used artifacts in the example"
+description: |
+  What CDS view BDEF Behavior Pool (ABP) Notes Base RAP business object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm 'Glossary Entry') DEMO_EXT_M DEMO_EXT_M CCIMP include The CDS data model only consists of one node constituting the root entity. The BDEF defin
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_cl_abap_behv_aux_abexa.htm"
+abapFile: "abenrap_cl_abap_behv_aux_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenrap", "abap", "behv", "aux", "abexa"]
+---
 
 * * *
 

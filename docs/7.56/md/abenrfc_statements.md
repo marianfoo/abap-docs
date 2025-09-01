@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Calls"
+description: |
+  The following additions of the CALL FUNCTION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function.htm) statement cause a remote function call: -   DESTINATION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_destination.htm) for a synchronous R
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_statements.htm"
+abapFile: "abenrfc_statements.htm"
+keywords: ["do", "if", "data", "abenrfc", "statements"]
+---
 
 * * *
 

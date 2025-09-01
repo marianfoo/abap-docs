@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapread_report.htm
 
-  
+---
+title: "READ REPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_report_shortref.htm) Syntax READ REPORT prog INTO itab MAXIMUM WIDTH INTO wid. Addition: ... MAXIMUM WIDTH INTO wid(#!ABAP_ONE_ADD@1@) Effect This statement reads the source code of the program specified
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_report.htm"
+abapFile: "abapread_report.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "catch", "class", "data", "internal-table", "abapread", "report"]
+---
 
 * * *
 
@@ -144,7 +154,17 @@ Continue
 
 ### abapread_report_internal.htm
 
-  
+---
+title: "READ REPORT - Internal Addition"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... STATE state Effect This addition determines whether the statement uses the active version or an inactive version of the repository object. state can have the values 'A' (for active) and 'I' (for inacti
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_report_internal.htm"
+abapFile: "abapread_report_internal.htm"
+keywords: ["insert", "do", "if", "abapread", "report", "internal"]
+---
 
 * * *
 

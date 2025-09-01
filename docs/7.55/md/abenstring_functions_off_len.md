@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... off = off len = len ...  ) ... Effect off is used to pass an offset(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_glosry.htm 'Glossary Entry') and len is used to pass a length. In functions where both off and len can be passed, they determine the subarea in which
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_off_len.htm"
+abapFile: "abenstring_functions_off_len.htm"
+keywords: ["do", "if", "try", "class", "data", "abenstring", "functions", "off", "len"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - Structure"
+description: |
+  A behavior definition consists of a header part and a sequence of entity behavior definitions. An entity behavior definition consists of a section containing properties of the entity plus operations enclosed in curly brackets . The following depicts the syntax structure of a behavior definition th
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_structure.htm"
+abapFile: "abenbdl_structure.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenbdl", "structure"]
+---
 
 * * *
 

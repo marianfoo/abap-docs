@@ -1,4 +1,14 @@
-  
+---
+title: "integer_type_glosry"
+description: |
+  integer_type_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninteger_type_glosry.htm"
+abapFile: "abeninteger_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abeninteger", "type", "glosry"]
+---
 
 * * *
 
@@ -10,6 +20,6 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 integer type
 
-[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry") for storing [integer numbers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninteger_number_glosry.htm "Glossary Entry") of different value ranges. The associated [built-in ABAP types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry") are ([b](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm), [s](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm)), [i](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm), and [int8](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm). The [built-in DDIC types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_ddic_type_glosry.htm "Glossary Entry") are [INT1](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2), [INT2](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2), [INT4](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2) and [INT8](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2). The internal representation takes place in the integer representation of the current platform. A [data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_object_glosry.htm "Glossary Entry") of an integer type is an [integer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninteger_glosry.htm "Glossary Entry").
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry") for storing [integer numbers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninteger_number_glosry.htm "Glossary Entry") of different value ranges. The associated [built-in ABAP types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry") are ([b](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm), [s](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm)), [i](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm), and [int8](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm). The [built-in DDIC types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_ddic_type_glosry.htm "Glossary Entry") are [INT1](abenddic_builtin_types.htm#abenddic-builtin-types-2----int2--abenddic-builtin-types-htm-@ITOC@@ABENDDIC_BUILTIN_TYPES_2), [INT4](abenddic_builtin_types.htm#abenddic-builtin-types-2--and--int8--abenddic-builtin-types-htm-@ITOC@@ABENDDIC_BUILTIN_TYPES_2). The internal representation takes place in the integer representation of the current platform. A [data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_object_glosry.htm "Glossary Entry") of an integer type is an [integer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninteger_glosry.htm "Glossary Entry").
 
 [→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumber_types.htm)

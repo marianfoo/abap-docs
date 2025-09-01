@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... log_exp1 EQUIV log_exp2 ... Effect Joining two logical expressions log_exp(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm) with EQUIV produces a new logical expression which is true if both expressions are true or both expressions are false. If one of the expressi
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_equiv.htm"
+abapFile: "abenlogexp_equiv.htm"
+keywords: ["do", "if", "data", "abenlogexp", "equiv"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenddic_table_types.htm
 
-  
+---
+title: "DDIC - Table Types"
+description: |
+  A DDIC table type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_table_type_glosry.htm 'Glossary Entry') defines the data type of an internal table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_glosry.htm 'Glossary Entry') in ABAP. T
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_table_types.htm"
+abapFile: "abenddic_table_types.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abenddic", "table"]
+---
 
 * * *
 
@@ -45,7 +55,17 @@ Continue
 
 ### abenddic_table_types_tech.htm
 
-  
+---
+title: "DDIC - Technical Properties of Table Types"
+description: |
+  A table type describes an internal table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_glosry.htm 'Glossary Entry') with the following technical properties: -   Line type The line type can be defined as follows: -   The line type can be defined by referencing a
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_table_types_tech.htm"
+abapFile: "abenddic_table_types_tech.htm"
+keywords: ["loop", "do", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abenddic", "table", "tech"]
+---
 
 * * *
 
@@ -106,7 +126,17 @@ Hints
 
 ### abenddic_table_types_sema.htm
 
-  
+---
+title: "DDIC - Semantic Properties of Table Types"
+description: |
+  Table types in the ABAP Dictionary can be given the following semantic properties: -   Short text of the table type Each table type is assigned a short descriptive text that must be specified when it is created. -   Documentation A table type can be assigned documentation that can be read as require
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_table_types_sema.htm"
+abapFile: "abenddic_table_types_sema.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "table", "sema"]
+---
 
 * * *
 
@@ -136,7 +166,17 @@ Table types in the ABAP Dictionary can be given the following semantic propertie
 
 ### abenddic_table_types_ranges.htm
 
-  
+---
+title: "DDIC - Ranges Table Type"
+description: |
+  A ranges table type is a table type for a ranges table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenranges_table_glosry.htm 'Glossary Entry'). A ranges table is a standard table with a standard key. Its line type is structured specifically to be used in general logical expre
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_table_types_ranges.htm"
+abapFile: "abenddic_table_types_ranges.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abenddic", "table", "ranges"]
+---
 
 * * *
 

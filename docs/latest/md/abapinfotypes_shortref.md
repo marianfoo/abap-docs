@@ -1,4 +1,14 @@
-  
+---
+title: "INFOTYPES - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinfotypes.htm) Syntax INFOTYPES nnnn NAME name OCCURS n MODE N VALID FROM intlim1 TO intlim2 AS PERSON TABLE. Effect Special Statement: Creates an internal table with the name pnnn
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinfotypes_shortref.htm"
+abapFile: "abapinfotypes_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abapinfotypes", "shortref"]
+---
 
 * * *
 

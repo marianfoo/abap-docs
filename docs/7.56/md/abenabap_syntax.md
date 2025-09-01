@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Elements of an ABAP Program"
+description: |
+  The following sections describe the syntax elements that can be used in an ABAP program: -   ABAP Statements(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_statements.htm) -   Comments(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomment.htm) -   Program D
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_syntax.htm"
+abapFile: "abenabap_syntax.htm"
+keywords: ["do", "if", "abenabap", "syntax"]
+---
 
 * * *
 

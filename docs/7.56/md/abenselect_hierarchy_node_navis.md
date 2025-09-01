@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... HIERARCHY_DESCENDANTS HIERARCHY_ANCESTORS HIERARCHY_SIBLINGS( SOURCE hierarchy(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy.htm) START WHERE sql_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_expr_logexp.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy_node_navis.htm"
+abapFile: "abenselect_hierarchy_node_navis.htm"
+keywords: ["select", "insert", "do", "while", "if", "case", "try", "data", "types", "abenselect", "hierarchy", "node", "navis"]
+---
 
 * * *
 

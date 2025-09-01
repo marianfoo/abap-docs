@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_predicative_method_call. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. IF cl_abap_demo_services=>is_production_system( ). cl_demo_output=>display( 'This demo cannot be executed in a production system' ). LEAVE PROGR
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpredicative_method_call_abexa.htm"
+abapFile: "abenpredicative_method_call_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenpredicative", "call", "abexa"]
+---
 
 * * *
 

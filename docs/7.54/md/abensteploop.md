@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Processing of Step Loops"
+description: |
+  Step loops are the predecessors of table controls(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_control_glosry.htm 'Glossary Entry') and are defined without individual descriptions in Screen Painter(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscreen_pain
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensteploop.htm"
+abapFile: "abensteploop.htm"
+keywords: ["loop", "do", "if", "try", "data", "abensteploop"]
+---
 
 * * *
 

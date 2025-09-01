@@ -1,4 +1,14 @@
-  
+---
+title: "Data Type"
+description: |
+  Property of a data object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm 'Glossary Entry'). ABAP interprets the content of a data object in accordance with its data type. Data types exist either bound(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm"
+abapFile: "abendata_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "abendata", "type", "glosry"]
+---
 
 * * *
 

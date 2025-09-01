@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE"
+description: |
+  Syntax Forms Field Properties(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_field.htm) 1. DESCRIBE FIELD ... Properties of an Internal Table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_table.htm) 2. DESCRIBE TABLE ... Distance Between Two
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe.htm"
+abapFile: "abapdescribe.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapdescribe"]
+---
 
 * * *
 

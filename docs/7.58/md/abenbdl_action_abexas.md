@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Examples of Actions"
+description: |
+  -   RAP - Action(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action1_abexa.htm) -   RAP - Action with Input Parameter(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action2_abexa.htm) -   RAP - Factory Action(https://help.sap.com/doc/abapdocu_758_inde
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_abexas.htm"
+abapFile: "abenbdl_action_abexas.htm"
+keywords: ["do", "if", "abenbdl", "action", "abexas"]
+---
 
 * * *
 

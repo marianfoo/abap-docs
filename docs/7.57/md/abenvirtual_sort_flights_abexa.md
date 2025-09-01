@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_virtual_sort_flights. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF flight, carrid   TYPE s_carr_id, connid   TYPE s_conn_id, cityfrom TYPE s_city, cityto   TYPE s_city, END OF flight, flights TYPE STANDARD TABLE OF flight WITH EMPTY KEY, BEGIN OF city, city      TYPE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvirtual_sort_flights_abexa.htm"
+abapFile: "abenvirtual_sort_flights_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "flights", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "FORMAT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapformat.htm) Syntax FORMAT COLOR   =   COL_BACKGROUND  1  COL_HEADING   2  COL_NORMAL   3  COL_TOTAL   4  COL_KEY   5  COL_POSITIVE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapformat_shortref.htm"
+abapFile: "abapformat_shortref.htm"
+keywords: ["do", "if", "abapformat", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') itab - Table Comprehensions, Basic Properties(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_cmprhnsns_simple_abexa.htm) !Example(exa.gif 'Example') itab - Table Comprehensions, Use of Step Size(https://help.sap.com/doc/abapdocu_758_index_htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_comprehensions_abexas.htm"
+abapFile: "abentable_comprehensions_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "comprehensions", "abexas"]
+---
 
 * * *
 

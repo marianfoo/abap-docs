@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Draft Actions Edit, Discard, Prepare"
+description: |
+  This example demonstrates how the draft actions Edit, Discard, and Prepare are defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of the root entity DEMO_RAP_MANAGED_DRAFT_ACTIONS: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label: '
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action2_abexa.htm"
+abapFile: "abenbdl_draft_action2_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "draft", "action2", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %param is a component group(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used for the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_param.htm"
+abapFile: "abapderived_types_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapderived", "param"]
+---
 
 * * *
 

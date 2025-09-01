@@ -1,4 +1,14 @@
-  
+---
+title: "System Classes for Converting Character Sets and Number Formats"
+description: |
+  The system classes listed below enable the conversion of text data between different code pages(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencodepage_glosry.htm 'Glossary Entry') and of numeric data between different number representations. Data that is not in ABAP format, that i
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_conv.htm"
+abapFile: "abencl_abap_conv.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abencl", "abap", "conv"]
+---
 
 * * *
 

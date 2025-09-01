@@ -1,4 +1,14 @@
-  
+---
+title: "Type Mapping for RAP"
+description: |
+  The following topics are covered in this section: -   CORRESPONDING, Type Mapping for ABAP EML(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_corresponding.htm) -   ABAP SQL Statements with MAPPING FROM ENTITY(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmap
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_type_mapping.htm"
+abapFile: "abapeml_type_mapping.htm"
+keywords: ["do", "if", "abapeml", "type", "mapping"]
+---
 
 * * *
 

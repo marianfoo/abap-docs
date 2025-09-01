@@ -1,4 +1,14 @@
-  
+---
+title: "calculation_type_glosry"
+description: |
+  calculation_type_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm"
+abapFile: "abencalculation_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencalculation", "type", "glosry"]
+---
 
 * * *
 

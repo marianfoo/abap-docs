@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, REF TO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_shortref.htm) Syntax DATA ref  TYPE REF TO type  LIKE REF TO dobj  VALUE IS INITIAL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_options.htm) REA
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_references.htm"
+abapFile: "abapdata_references.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapdata", "references"]
+---
 
 * * *
 

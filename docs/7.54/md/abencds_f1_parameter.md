@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... :pname$parameters.pname ... Effect Specifies an input parameter pname from the parameter list parameter_list(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_list.htm) in an operand position of a SELECT statement(https://help.sap.com/doc/abapdocu_754
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm"
+abapFile: "abencds_f1_parameter.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "parameter"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand1 && operand2  && operand3 ...  ... Effect Character string expression in Open SQL. The operator && chains the character strings in two adjacent operand to a single character string. The operands can have the following data types: -   Dictionary types CHAR(https://help.sap.com/d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_string.htm"
+abapFile: "abensql_string.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abensql", "string"]
+---
 
 * * *
 

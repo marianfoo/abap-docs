@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_attribute_iterator. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. DATA(ixml)           = cl_ixml=>create( ). DATA(stream_factory) = ixml->create_stream_factory( ). DATA(istream)        = stream_factor
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_attributes_iterator_abexa.htm"
+abapFile: "abenixml_attributes_iterator_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenixml", "attributes", "iterator", "abexa"]
+---
 
 * * *
 

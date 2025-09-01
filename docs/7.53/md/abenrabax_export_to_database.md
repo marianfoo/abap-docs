@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions in EXPORT"
+description: |
+  Exceptions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm) Handleable Exceptions CX_SY_COMPRESSION_ERROR -   Cause: More than 2 GB of data is exported. Runtime error: EXPORT_TOO_MUCH_DATA CX_SY_EXPIMP_DB_SQL_ERROR -   Cause: SQL error in expo
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrabax_export_to_database.htm"
+abapFile: "abenrabax_export_to_database.htm"
+keywords: ["update", "do", "if", "data", "abenrabax", "export", "database"]
+---
 
 * * *
 

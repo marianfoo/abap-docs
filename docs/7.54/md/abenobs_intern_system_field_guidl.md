@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete and Internal System Fields"
+description: |
+  Background Not all system fields are designed to be used in application programs. All available system fields can be displayed as components of the structure SYST in ABAP Dictionary (or as components of the structure sy in the debugger). The meaning of the components is included in the accompanying
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobs_intern_system_field_guidl.htm"
+abapFile: "abenobs_intern_system_field_guidl.htm"
+keywords: ["do", "data", "abenobs", "intern", "system", "field", "guidl"]
+---
 
 * * *
 

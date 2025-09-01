@@ -1,4 +1,14 @@
-  
+---
+title: "Bound and Standalone Data Types"
+description: |
+  Background A bound data type only exists as a property of a data object. It is created when a data object is not declared using a reference to a standalone data type that defines all technical properties, but when technical properties are defined in the statement DATA instead. Here DATA is used as a
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbound_independent_dtype_guidl.htm"
+abapFile: "abenbound_independent_dtype_guidl.htm"
+keywords: ["do", "if", "data", "types", "field-symbol", "abenbound", "independent", "dtype", "guidl"]
+---
 
 * * *
 

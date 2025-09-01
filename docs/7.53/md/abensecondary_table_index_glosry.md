@@ -1,4 +1,14 @@
-  
+---
+title: "secondary_table_index_glosry"
+description: |
+  secondary_table_index_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_table_index_glosry.htm"
+abapFile: "abensecondary_table_index_glosry.htm"
+keywords: ["update", "delete", "do", "try", "internal-table", "abensecondary", "table", "index", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Technical Properties of Domains"
+description: |
+  The only technical property of a domain is the description of an elementary data type whose following technical properties are defined directly in the domain: -   Built-in data type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) in the ABAP Dictionary -   Le
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains_tech.htm"
+abapFile: "abenddic_domains_tech.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "domains", "tech"]
+---
 
 * * *
 

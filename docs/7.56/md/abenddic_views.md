@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Views"
+description: |
+  A DDIC view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_view_glosry.htm 'Glossary Entry') is a grouping of columns in one or more DDIC database tables in accordance with an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_views.htm"
+abapFile: "abenddic_views.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abenddic", "views"]
+---
 
 * * *
 

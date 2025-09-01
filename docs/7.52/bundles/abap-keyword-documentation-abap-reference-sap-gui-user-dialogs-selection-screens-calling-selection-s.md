@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenselection_screen_call.htm
 
-  
+---
+title: "Calling Selection Screens"
+description: |
+  Selection screens(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm 'Glossary Entry') can be called as follows: -   by the statement SUBMIT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit.htm) -   as a selection screen of a report t
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_call.htm"
+abapFile: "abenselection_screen_call.htm"
+keywords: ["select", "do", "if", "try", "abenselection", "screen", "call"]
+---
 
 * * *
 
@@ -51,7 +61,17 @@ Continue
 
 ### abapcall_selection_screen.htm
 
-  
+---
+title: "CALL SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection-screen_shortref.htm) Syntax CALL SELECTION-SCREEN dynnr STARTING AT col1 lin1 ENDING   AT col2 lin2 USING SELECTION-SET variant. Extras: 1. ... STARTING AT col1 lin1 ENDING A
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection_screen.htm"
+abapFile: "abapcall_selection_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapcall", "selection", "screen"]
+---
 
 * * *
 
@@ -130,7 +150,17 @@ Continue
 
 ### abensel_screen_call_sel_scr_abexa.htm
 
-  
+---
+title: "Selection screens, call standalone selection screens"
+description: |
+  The example demonstrates how to call standalone selection screens. Source Code REPORT demo_call_selection_screen. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK sel1 WITH FRAME TITLE tit1. PARAMETERS: cityfr TYPE spfli-cityfrom, cityto TYPE spfli-cityto. SELECTION-SCREEN EN
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_call_sel_scr_abexa.htm"
+abapFile: "abensel_screen_call_sel_scr_abexa.htm"
+keywords: ["select", "do", "method", "class", "abensel", "screen", "call", "sel", "scr", "abexa"]
+---
 
 * * *
 
@@ -184,7 +214,17 @@ In this executable program, two standalone selection screens, 100 and 500, are d
 
 ### abapcall_selection_screen.htm
 
-  
+---
+title: "CALL SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection-screen_shortref.htm) Syntax CALL SELECTION-SCREEN dynnr STARTING AT col1 lin1 ENDING   AT col2 lin2 USING SELECTION-SET variant. Extras: 1. ... STARTING AT col1 lin1 ENDING A
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection_screen.htm"
+abapFile: "abapcall_selection_screen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapcall", "selection", "screen"]
+---
 
 * * *
 

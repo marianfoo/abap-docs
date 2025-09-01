@@ -1,4 +1,14 @@
-  
+---
+title: "Code Inspector"
+description: |
+  Tool for checking repository objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm 'Glossary Entry') in terms of performance, security, syntax, and adherence to naming conventions. Called using transaction code(https://help.sap.com/doc/abapdocu_752_i
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencode_inspector_glosry.htm"
+abapFile: "abencode_inspector_glosry.htm"
+keywords: ["do", "try", "abencode", "inspector", "glosry"]
+---
 
 * * *
 

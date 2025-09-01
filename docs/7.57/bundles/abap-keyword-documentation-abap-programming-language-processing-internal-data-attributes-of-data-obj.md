@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenrtti.htm
 
-  
+---
+title: "Runtime Type Services (RTTS)"
+description: |
+  The RTTS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrun_time_type_services_glosry.htm 'Glossary Entry') are implemented using a hierarchy of type description classes(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_class_glosry.htm 'Glossary Entry') that co
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrtti.htm"
+abapFile: "abenrtti.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenrtti"]
+---
 
 * * *
 
@@ -84,7 +94,17 @@ Continue
 
 ### abenrtti_data_type_abexa.htm
 
-  
+---
+title: "Determining Data Types"
+description: |
+  This example demonstrates how the properties of data types can be determined at runtime. Source Code REPORT demo_rtti_data_types. CLASS conv_exc DEFINITION INHERITING FROM cx_static_check. ENDCLASS. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION.
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrtti_data_type_abexa.htm"
+abapFile: "abenrtti_data_type_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenrtti", "type", "abexa"]
+---
 
 * * *
 
@@ -154,7 +174,17 @@ When complex types, such as SCARR and SPFLI, are entered in the input fields, th
 
 ### abenrtti_object_type_abexa.htm
 
-  
+---
+title: "Determining Object Types"
+description: |
+  This example demonstrates how the dynamic types of objects can be determined at runtime. Source Code REPORT demo_rtti_object_types. CLASS conv_exc DEFINITION INHERITING FROM cx_static_check. ENDCLASS. CLASS c1 DEFINITION. ENDCLASS. CLASS c2 DEFINITION. ENDCLASS. CLASS demo DEFINITION. PUBLIC S
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrtti_object_type_abexa.htm"
+abapFile: "abenrtti_object_type_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenrtti", "object", "type", "abexa"]
+---
 
 * * *
 

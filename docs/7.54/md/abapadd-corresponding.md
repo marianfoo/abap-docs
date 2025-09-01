@@ -1,4 +1,14 @@
-  
+---
+title: "ADD-CORRESPONDING, SUBTRACT-CORRESPONDING, MULTIPLY-CORRESPONDING, DIVIDE-CORRESPONDING"
+description: |
+  Obsolete Syntax ADD-CORRESPONDING      struc1 TO   struc2. SUBTRACT-CORRESPONDING struc1 FROM struc2. MULTIPLY-CORRESPONDING struc1 BY   struc2. DIVIDE-CORRESPONDING   struc1 BY   struc2. Effect These statements, forbidden in classes, add, substract, multiply, or divide structures by component. Stru
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapadd-corresponding.htm"
+abapFile: "abapadd-corresponding.htm"
+keywords: ["do", "if", "class", "data", "abapadd", "corresponding"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Checking Typing"
+description: |
+  When data objects are assigned to typed field symbols(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_symbol_glosry.htm 'Glossary Entry') and actual parameters(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenactual_parameter_glosry.htm 'Glossary Entry') are as
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check.htm"
+abapFile: "abentyping_check.htm"
+keywords: ["do", "if", "try", "method", "data", "field-symbol", "abentyping", "check"]
+---
 
 * * *
 

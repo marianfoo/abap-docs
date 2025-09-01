@@ -1,4 +1,14 @@
-  
+---
+title: "Read Time Stamp from String"
+description: |
+  This example demonstrates the method READ of the system class CL_ABAP_UTCLONG. Source Code REPORT demo_cl_utclong_read. SELECTION-SCREEN BEGIN OF SCREEN 100 AS WINDOW. PARAMETERS p_utc  TYPE c LENGTH 30 LOWER CASE. SELECTION-SCREEN ULINE. PARAMETERS datfm  TYPE t005x-datfm DEFAULT '1' AS LISTB
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_utclong_read_abexa.htm"
+abapFile: "abencl_utclong_read_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "abencl", "utclong", "read", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Functions, Hiding by Methods"
+description: |
+  Within a class, a built-in function is always hidden by methods(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_glosry.htm 'Glossary Entry') of the class if they have the same name, regardless of the number and type of its arguments. The function is also hidden regardless of
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_functions_hiding.htm"
+abapFile: "abenbuilt_in_functions_hiding.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuilt", "functions", "hiding"]
+---
 
 * * *
 

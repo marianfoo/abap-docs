@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Databases (Obsolete)"
+description: |
+  A logical database is a special development object created and edited in Logical Database Builder. Its main component is an ABAP program that provides other ABAP programs with data from the nodes of a hierarchical tree structure. The most common purpose of logical databases is to extract data from d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm"
+abapFile: "abenldb.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenldb"]
+---
 
 * * *
 

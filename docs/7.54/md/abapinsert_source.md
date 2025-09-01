@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT dbtab - source"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab_shortref.htm) Syntax ...  @wa@( expr )   TABLE @itab@( expr ) ACCEPTING DUPLICATE KEYS   ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aba
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_source.htm"
+abapFile: "abapinsert_source.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapinsert", "source"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... insert( val = text(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) sub = substring(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_sub.htm) off = off(https://help.sap.com/doc/abapdocu_latest_index_htm/la
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninsert_functions.htm"
+abapFile: "abeninsert_functions.htm"
+keywords: ["insert", "do", "if", "catch", "data", "abeninsert", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Input Helps on Dynpros"
+description: |
+  An ABAP Dictionary search help(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm 'Glossary Entry') can be bound directly to a dynpro field. Here, the first parameter of the search help is associated with the dynpro field. Only values from the proposal list of th
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_dynp.htm"
+abapFile: "abenabap_dynpros_value_help_dynp.htm"
+keywords: ["select", "do", "try", "abenabap", "dynpros", "value", "help", "dynp"]
+---
 
 * * *
 

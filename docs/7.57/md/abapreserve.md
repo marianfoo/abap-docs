@@ -1,4 +1,14 @@
-  
+---
+title: "RESERVE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreserve_shortref.htm) Syntax RESERVE n LINES. Effect This statement creates a page break if there is not enough space left on the current list page between the last output and the page end or page footer(https://help.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreserve.htm"
+abapFile: "abapreserve.htm"
+keywords: ["select", "loop", "do", "if", "try", "class", "data", "abapreserve"]
+---
 
 * * *
 

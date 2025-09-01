@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, SELECT, JOIN"
+description: |
+  Syntax ...  INNER JOIN  LEFTRIGHT OUTER TO ONEMANY JOIN  CROSS JOIN  data_source(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_source_v1.htm) ON cds_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_joined_data_source_v1.htm"
+abapFile: "abencds_joined_data_source_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "joined", "source"]
+---
 
 * * *
 

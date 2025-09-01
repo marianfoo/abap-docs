@@ -1,4 +1,14 @@
-  
+---
+title: "Meaning"
+description: |
+  BYTE-CO Contains Only: True, if operand1 only contains bytes from operand2. If operand2 is of type xstring and initial, the relational expression is false, except if operand1 is also of type xstring and initial. In this case, the relational expression is always true. If the comparison is false, sy-f
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_bytes.htm"
+abapFile: "abenlogexp_bytes.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenlogexp", "bytes"]
+---
 
 * * *
 

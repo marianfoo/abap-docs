@@ -1,4 +1,14 @@
-  
+---
+title: "NEW-PAGE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page.htm) Syntax NEW-PAGE WITH-TITLENO-TITLE WITH-HEADINGNO-HEADING LINE-COUNT page_lines LINE-SIZE width NO-TOPOFPAGE   PRINT ON NEW-SECTION PARAMETERS pri_p
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_shortref.htm"
+abapFile: "abapnew-page_shortref.htm"
+keywords: ["do", "if", "try", "abapnew", "page", "shortref"]
+---
 
 * * *
 

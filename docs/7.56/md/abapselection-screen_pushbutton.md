@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, PUSHBUTTON"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_shortref.htm) Syntax SELECTION-SCREEN PUSHBUTTON /posPOS_LOWPOS_HIGH(len) button_text USER-COMMAND fcode VISIBLE LENGTH vlen  MODIF ID modid(https://help.sap.com/d
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_pushbutton.htm"
+abapFile: "abapselection-screen_pushbutton.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapselection", "screen", "pushbutton"]
+---
 
 * * *
 

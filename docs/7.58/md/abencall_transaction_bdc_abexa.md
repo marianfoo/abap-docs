@@ -1,4 +1,14 @@
-  
+---
+title: "Transaction Call, BDC Table"
+description: |
+  This example demonstrates a transaction call using a batch input table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbatch_input_table_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_call_transaction_bdc DEFINITION INHERITING FROM cl_demo_c
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_transaction_bdc_abexa.htm"
+abapFile: "abencall_transaction_bdc_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencall", "transaction", "bdc", "abexa"]
+---
 
 * * *
 

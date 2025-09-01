@@ -1,4 +1,14 @@
-  
+---
+title: "Unicode program"
+description: |
+  ABAP program(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_program_glosry.htm 'Glossary Entry') written in ABAP language version(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_version_glosry.htm 'Glossary Entry') Standard ABAP(https://help.s
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuc_prog_glosry.htm"
+abapFile: "abenuc_prog_glosry.htm"
+keywords: ["do", "if", "try", "abenuc", "prog", "glosry"]
+---
 
 * * *
 

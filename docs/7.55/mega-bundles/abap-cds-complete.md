@@ -1,26 +1,11 @@
 # ABAP CDS - Complete Reference (7.55)
 
-**Generated**: 2025-09-01T11:14:58.007Z
-**Bundles Combined**: 37
+**Generated**: 2025-09-01T19:37:49.778Z
+**Bundles Combined**: 38
 **Category**: cds
 
 ---
 
-
-
-## 🔗 Complete Source Documentation
-
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-**🏷️ Category**: CDS
-**🔍 Search Specific Topics**: Use `abap_search query:"cds"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
-
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
-
----
 
 ## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Syntax
 
@@ -33,11 +18,17 @@ Included pages: 3
 
 ### abencds_syntax.htm
 
-> **📖 Official SAP Documentation**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Syntax"
+description: |
+  The syntax of the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and the CDS DCL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_glosry.htm 'Glossary Entry') in ABAP CDS comprises elements of the general SQL(ht
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_syntax.htm"
+abapFile: "abencds_syntax.htm"
+keywords: ["do", "try", "data", "abencds", "syntax"]
+---
 
 * * *
 
@@ -58,16 +49,19 @@ Continue
 [ABAP CDS - Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_language_elements.htm)
 
 
-
-**📖 Source**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_syntax.htm)
-
 ### abencds_general_syntax_rules.htm
 
-> **📖 Official SAP Documentation**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_general_syntax_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - General Syntax Rules"
+description: |
+  The general syntax rules for the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and CDS DCL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_glosry.htm 'Glossary Entry') for defining CDS objects(https://help.sap
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_general_syntax_rules.htm"
+abapFile: "abencds_general_syntax_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abencds", "general", "syntax", "rules"]
+---
 
 * * *
 
@@ -133,16 +127,19 @@ Examples
 -   0.5 is a valid numeric literal, but .5 is not.
 
 
-
-**📖 Source**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_general_syntax_rules.htm)
-
 ### abencds_language_elements.htm
 
-> **📖 Official SAP Documentation**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_language_elements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Language Elements"
+description: |
+  The following sections summarize the language elements of the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and CDS DCL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_glosry.htm 'Glossary Entry') in ABAP CDS(
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_language_elements.htm"
+abapFile: "abencds_language_elements.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "language", "elements"]
+---
 
 * * *
 
@@ -665,103 +662,28 @@ Defines a self-defined aspect as part of a CDS access policy
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations / ABAP CDS - DDL for Annotation Definitions / CDS DDL - DEFINE ANNOTATION
 
-**Files**: 9 | **Difficulty**: advanced
+**Files**: 5 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations / ABAP CDS - DDL for Annotation Definitions / CDS DDL - DEFINE ANNOTATION
 
-Included pages: 9
+Included pages: 5
 
-
-
-**📖 Source**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_language_elements.htm)
-
-### abencds_anno_definition.htm
-
-> **📖 Official SAP Documentation**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) → 
-
-ABAP CDS - Definition of Annotations
-
-The [CDS annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_source_code_glosry.htm "Glossary Entry") that can be specified in [CDS source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") can be dictated by [CDS annotation definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"). A CDS annotation definition defines a [CDS annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") as a [CDS object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_object_glosry.htm "Glossary Entry"). It describes how this annotation is intended to be used in [CDS source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_source_code_glosry.htm "Glossary Entry"). The description covers the following:
-
--   The name of a [main annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmain_annotation_glosry.htm "Glossary Entry")
-
--   The possible [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry")
-
--   Whether it can be structured using [subannotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_annotation_glosry.htm "Glossary Entry")
-
--   Whether [annotation arrays](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry") can be specified
-
-An annotation is defined in a separate piece of [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddla_source_code_glosry.htm "Glossary Entry") and is transported with this code. DDLA source code for annotation definitions can define exactly one identically named [CDS annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm) using the CDS DDL statement [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm) (this annotation can, however, be the main annotation of subannotations). DDLA source code of this type can only be edited in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry"). DDLA source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
-
-Hints
-
--   The annotations defined as CDS objects are used by the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry") for source code coloring and Code Completion when [annotations are specified](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_usage.htm).
-
--   The syntax check for the definition of a CDS entity in [DDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry") for [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry") does not yet evaluate the annotation definitions. It only checks the correctness of the [annotation syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry").
-
--   Customers and partners cannot currently define their own annotations. Only [SAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_annotation_glosry.htm "Glossary Entry") should currently be used.
-
--   [SAP Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_sap.htm) lists all DDLA source code delivered by SAP.
-
-Continue
-[ABAP CDS - DDL for Annotation Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm)
-
-
-
-**📖 Source**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition.htm)
-
-### abencds_f1_ddla_syntax.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition.htm) → 
-
-ABAP CDS - DDL for Annotation Definitions
-
-Alongside the [DDL statements for data definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm), the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") in ABAP CDS makes it possible to define [CDS annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") as [CDS objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_object_glosry.htm "Glossary Entry") in [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddla_source_code_glosry.htm "Glossary Entry"). The following statement is used here:
-
--   [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-
-Hints
-
--   The [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of annotation definitions has its own editor in [ADT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DDLA source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
-
--   Two slashes (//) can be used as [comment characters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_general_syntax_rules.htm) in [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddla_source_code_glosry.htm "Glossary Entry") for annotation definitions, but not two dashes (\--).
-
-Continue
-[CDS DDL - DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-
-
-
-**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm)
 
 ### abencds_f1_define_annotation.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION"
+description: |
+  Syntax @annotation_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm) @annotation_annot2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm) ... define annotation Anno   : type
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm"
+abapFile: "abencds_f1_define_annotation.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencds", "define", "annotation"]
+---
 
 * * *
 
@@ -853,16 +775,19 @@ Continue
 [CDS DDL - DEFINE ANNOTATION, arrelem](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_arr.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-
 ### abencds_f1_define_anno_annos.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm"
+abapFile: "abencds_f1_define_anno_annos.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "method", "class", "data", "abencds", "define", "anno", "annos"]
+---
 
 * * *
 
@@ -1169,16 +1094,19 @@ Hint
 While the annotation value #ENTITY defines that an annotation can be specified in the definition of any CDS entity, this is not the case for the annotation value #VIEW. The annotation value #VIEW defines that an annotation can be specified in the definition of one of the possible kinds of CDS views (view entity, projection view, DDIC-based view) but it does not define exactly where. There is especially a set of [ABAP Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be used in [DDIC-based views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v1_view_glosry.htm "Glossary Entry") only. The ABAP annotations that can be specified for a kind of view are documented for the respective DEFINE statement, For an overview see [ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_tables.htm).
 
 
-
-**📖 Source**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
-
 ### abencds_f1_define_annotation_type.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION, type"
+description: |
+  Syntax ... dtype enum  SYMBOL1; SYMBOL2; ...  default val#SYMBOL Effect Defines the annotation values(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm 'Glossary Entry') to be specified when a CDS annotation(https://help.sap.com/doc/a
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm"
+abapFile: "abencds_f1_define_annotation_type.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abencds", "define", "annotation", "type"]
+---
 
 * * *
 
@@ -1325,16 +1253,19 @@ The following annotation definition has incorrect syntax. The length of the spec
 annotation DemoAnno : String(1) default 'XXX';
 
 
-
-**📖 Source**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm)
-
 ### abencds_f1_define_annotation_sub.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION, subannos"
+description: |
+  Syntax ... @annotation_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm) @annotation_annot2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm) ... subAnno1: type(https://help.sap.co
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm"
+abapFile: "abencds_f1_define_annotation_sub.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "annotation", "sub"]
+---
 
 * * *
 
@@ -1406,16 +1337,19 @@ The exact same result can be achieved as follows:
 @DemoAnnoMain.subAnno3.subsubAnno2:200
 
 
-
-**📖 Source**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm)
-
 ### abencds_f1_define_annotation_arr.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_arr.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION, arrelem"
+description: |
+  Syntax ... type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm); subannos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm); Effect Defines the elements of an annotation arr
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_arr.htm"
+abapFile: "abencds_f1_define_annotation_arr.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "annotation", "arr"]
+---
 
 * * *
 
@@ -1476,140 +1410,6 @@ The annotation can be used as follows in CDS source code, for example, to specif
                       {subAnno1:true, subAnno2:'Other Text'} \]
 
 
-
-**📖 Source**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_arr.htm)
-
-### abencds_f1_define_annotation.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition.htm) →  [ABAP CDS - DDL for Annotation Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm) → 
-
-CDS DDL - DEFINE ANNOTATION
-
-Syntax
-
-*\[*[@annotation\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)*\]*
-*\[*[@annotation\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)*\]*
-...
-*\[*define*\]* annotation Anno *{*  : [type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm); *}*
-                       *|* *{* *\[*:*\]* {[subannos](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm)}*\[*;*\]* *}*
-                       *|* *{*  :   array of [arrelem](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_arr.htm) *}*
-
-Effect
-
-The statement define annotation defines a [CDS annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") with the name Anno in the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") in the [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddla_source_code_glosry.htm "Glossary Entry"). The annotation Anno is the [main annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmain_annotation_glosry.htm "Glossary Entry") of the current [annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"), which can be structured with optional [subannotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_annotation_glosry.htm "Glossary Entry"). The DDLA source code of an annotation definition can contain the definition of exactly one main annotation, whose name must match the name of the DDLA source code. The names are case-sensitive. Annotations of the definition annotation, [@annotation\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm), [@annotation\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm), ..., can be specified before the statement define annotation. These are inherited by subannotations or overwritten there.
-
-The statement define annotation creates the annotation Anno as a [CDS object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_object_glosry.htm "Glossary Entry"), which is transported using the DDLA source code. The definition of the annotation Anno describes how it is to be used in other CDS source code in [annotation syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
-
--   Anno is the name of the annotation. It can contain letters, numbers, and underscores, and must start with a letter. Only annotations with names defined in this way should be [used](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm).
-
--   One of the following must be specified after the name:
-
--   A colon (:) followed by the definition of the type [type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm) of the annotation. Enumerations and a default value can be defined when the type is specified. The type specification must be closed using a (;).
-
--   An optional colon (:) followed by the structuring of the annotation using [subannotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_annotation_glosry.htm "Glossary Entry") [subannos](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm) in curly brackets {...}. This can be closed using an optional semicolon (;).
-
--   A colon (:) followed by the definition of the elements of an array using array of. This makes the annotation Anno into an [annotation array](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry") of the elements defined using [arrelem](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_arr.htm). These elements can be a type specification or subannotations.
-
-Hints
-
--   Put simply, an annotation definition specifies how the annotation needs to be specified in CDS source code in [annotation syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"). When annotations are specified, the annotation definitions are used for the color of the source code and for code completion.
-
--   The type specification determines which [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry") can be specified in the annotation syntax when the annotation is used.
-
--   In the annotation syntax, subannotations are specified either as [comma-separated lists in curly brackets](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax_subanno.htm) or as [structured names](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax_name.htm).
-
--   The elements of an array are specified in annotation syntax as [comma-separated lists in square brackets](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax_array.htm).
-
--   The syntax check in [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") for data definitions currently ignores annotation definitions. It checks only the formal correctness of any names, [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry"), [subannotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_annotation_glosry.htm "Glossary Entry"), and [annotation arrays](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry") specified.
-
--   When [annotations are evaluated](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_semantics_annotation_abexa.htm) in a [CDS entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry") using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE, the annotations are respected as specified in the [DDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of the entity. The associated annotation definitions are ignored.
-
--   Alongside the rules defined by the statement define annotation, an annotation definition also has annotation documentation that describes its meaning and how it is used by the framework in question.
-
-Example
-
-Defines a structured annotation. The [main annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmain_annotation_glosry.htm "Glossary Entry") DEMOANNOSTRUCT has [subannotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_annotation_glosry.htm "Glossary Entry") subAnno1 to subAnno4. The subannotations subAnno3 and subAnno4 are [annotation arrays](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry"). (Here, subAnno4 is structured.)
-
-@Scope:\[#VIEW, #EXTEND\_VIEW\]  
-define annotation DemoAnnoStruct  
-  { subAnno1 : Boolean default true;  
-    subAnno2 : Integer enum { I1; I2; I3; } default #I1;  
-    subAnno3 : array of String(10);  
-    subAnno4 : array of { comp1 : String(1);  
-                          comp2 : String(2);  
-                        };  
-  };
-
-The annotation defined in this way allows the following to be specified in [annotation syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") in a piece of [DDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry") that defines a [CDS view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_glosry.htm "Glossary Entry") or a [CDS table function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_table_function_glosry.htm "Glossary Entry") as a view annotation ([CDS view entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm), [CDS projection view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm), [CDS DDIC-based views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm)) or as a [function annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm):
-
--   Specifies the subannotation subAnno1 once (the default value true is used here implicitly):
-
-@DemoAnnoStruct.subAnno1
-
--   Specifies the subannotations subAnno1 and subAnno2 together in curly brackets (the default values are overwritten by explicit [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry") here. In subAnno2, one of the fixed enumerated values is used:
-
-@DemoAnnoStruct:{subAnno1:false, subAnno2:#I2}
-
--   Specifies annotation values for the annotation array subAnno3. The values within the quotation marks can have a maximum of ten characters:
-
-@DemoAnnoStruct.subAnno3:\['a','abc','abcdefghij'\]
-
--   Specifies annotation values for the structured annotation array subAnno4.
-
-@DemoAnnoStruct.subAnno4:\[ {comp1: 'a', comp2: 'b' },
-                           {comp1: 'c', comp2: 'd' },
-                           {comp1: 'e', comp2: 'f' } \]
-
-Continue
-[CDS DDL - DEFINE ANNOTATION, annotation\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
-[CDS DDL - DEFINE ANNOTATION, type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm)
-[CDS DDL - DEFINE ANNOTATION, subannos](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm)
-[CDS DDL - DEFINE ANNOTATION, arrelem](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_arr.htm)
-
-
-
-**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-
-### abencds_f1_ddla_syntax.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition.htm) → 
-
-ABAP CDS - DDL for Annotation Definitions
-
-Alongside the [DDL statements for data definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm), the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") in ABAP CDS makes it possible to define [CDS annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") as [CDS objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_object_glosry.htm "Glossary Entry") in [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddla_source_code_glosry.htm "Glossary Entry"). The following statement is used here:
-
--   [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-
-Hints
-
--   The [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of annotation definitions has its own editor in [ADT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DDLA source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
-
--   Two slashes (//) can be used as [comment characters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_general_syntax_rules.htm) in [DDLA source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddla_source_code_glosry.htm "Glossary Entry") for annotation definitions, but not two dashes (\--).
-
-Continue
-[CDS DDL - DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm)
-
-
 ---
 
 
@@ -1622,16 +1422,19 @@ Continue
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm)
-
 ### abencds_f1_ddlx_syntax.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DDL for Metadata Extensions"
+description: |
+  Alongside the DDL statements for data definitions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm), the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') in ABAP CDS makes it possible to define metada
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm"
+abapFile: "abencds_f1_ddlx_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddlx", "syntax"]
+---
 
 * * *
 
@@ -1655,16 +1458,19 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
 
 
-
-**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entit
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -1824,16 +1630,19 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_f1_metadata_ext_annos.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm"
+abapFile: "abencds_f1_metadata_ext_annos.htm"
+keywords: ["do", "if", "try", "data", "abencds", "metadata", "ext", "annos"]
+---
 
 * * *
 
@@ -1853,7 +1662,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings.
 
--   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
+-   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
 
 Metadata Annotations
 
@@ -1889,16 +1698,19 @@ ABAP Platform
 \-
 
 
-
-**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
-
 ### abencds_f1_annotate_view_para_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETERS @parameter_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_parameter_annotations.htm) ... pname1, @parameter_annot1(http
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm"
+abapFile: "abencds_f1_annotate_view_para_list.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "annotate", "view", "para", "list"]
+---
 
 * * *
 
@@ -1948,16 +1760,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm)
-
 ### abencds_f1_annotate_view_sele_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @element_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm) ... element1; @element_annot1(https://help.sap.com/doc/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm"
+abapFile: "abencds_f1_annotate_view_sele_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "annotate", "view", "sele", "list"]
+---
 
 * * *
 
@@ -2009,16 +1824,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entit
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -2190,16 +2008,19 @@ Continue
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_f1_ddlx_syntax.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DDL for Metadata Extensions"
+description: |
+  Alongside the DDL statements for data definitions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm), the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') in ABAP CDS makes it possible to define metada
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm"
+abapFile: "abencds_f1_ddlx_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddlx", "syntax"]
+---
 
 * * *
 
@@ -2223,16 +2044,19 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
 
 
-
-**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entit
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -2392,16 +2216,19 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_f1_metadata_ext_annos.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm"
+abapFile: "abencds_f1_metadata_ext_annos.htm"
+keywords: ["do", "if", "try", "data", "abencds", "metadata", "ext", "annos"]
+---
 
 * * *
 
@@ -2421,7 +2248,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings.
 
--   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
+-   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
 
 Metadata Annotations
 
@@ -2457,16 +2284,19 @@ ABAP Platform
 \-
 
 
-
-**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
-
 ### abencds_f1_annotate_view_para_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETERS @parameter_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_parameter_annotations.htm) ... pname1, @parameter_annot1(http
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm"
+abapFile: "abencds_f1_annotate_view_para_list.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "annotate", "view", "para", "list"]
+---
 
 * * *
 
@@ -2516,16 +2346,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm)
-
 ### abencds_f1_annotate_view_sele_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @element_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm) ... element1; @element_annot1(https://help.sap.com/doc/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm"
+abapFile: "abencds_f1_annotate_view_sele_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "annotate", "view", "sele", "list"]
+---
 
 * * *
 
@@ -2577,16 +2410,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entit
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -2758,16 +2594,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_annotations_analysis.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_analysis.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Evaluation of Annotations"
+description: |
+  When an object defined in the CDS source code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_source_code_glosry.htm 'Glossary Entry') is activated, the annotations defined in the CDS annotation syntax(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotati
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_analysis.htm"
+abapFile: "abencds_annotations_analysis.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abencds", "annotations", "analysis"]
+---
 
 * * *
 
@@ -3130,16 +2969,19 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS, Evaluation of Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_semantics_annotation_abexa.htm)
 
 
-
-**📖 Source**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_analysis.htm)
-
 ### abencds_semantics_annotation_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_semantics_annotation_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS, Evaluation of Annotations"
+description: |
+  This example demonstrates how semantics annotations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_frmwrk.htm) of DDL source code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') are evaluated. Source Code
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_semantics_annotation_abexa.htm"
+abapFile: "abencds_semantics_annotation_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencds", "semantics", "annotation", "abexa"]
+---
 
 * * *
 
@@ -3255,16 +3097,19 @@ This view wraps the DDIC database table SCUSTOM, which contains address data. Th
 Included pages: 3
 
 
-
-**📖 Source**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_semantics_annotation_abexa.htm)
-
 ### abencds_annotations_abap.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotations"
+description: |
+  ABAP annotations are SAP annotations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that are evaluated by the ABAP runtime environment. The following sections show the associated annotation definitions(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap.htm"
+abapFile: "abencds_annotations_abap.htm"
+keywords: ["do", "try", "data", "abencds", "annotations", "abap"]
+---
 
 * * *
 
@@ -3291,16 +3136,19 @@ Continue
 [ABAP CDS - ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_tables.htm)
 
 
-
-**📖 Source**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap.htm)
-
 ### abencds_annotations_abap_ddla.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_ddla.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotation Definitions"
+description: |
+  The following DDLA source code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddla_source_code_glosry.htm 'Glossary Entry') shows the CDS annotation definitions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in all
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_ddla.htm"
+abapFile: "abencds_annotations_abap_ddla.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "abencds", "annotations", "abap", "ddla"]
+---
 
 * * *
 
@@ -3334,7 +3182,7 @@ The detailed meanings of these ABAP annotations are described under the relevant
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---hint--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)\]
+-   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---hint--see-also--abap-annotation-syntax--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-annotations-abap-tables-htm----abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation AbapAnnotation {
   definitionHidden : Boolean default true;
 };
@@ -3887,16 +3735,19 @@ define annotation Semantics
 };
 
 
-
-**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_ddla.htm)
-
 ### abencds_annotations_abap_tables.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotation Syntax"
+description: |
+  The following tables summarize the annotation syntax(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_syntax_glosry.htm 'Glossary Entry') of all ABAP annotations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm 'Glossary Entry
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_tables.htm"
+abapFile: "abencds_annotations_abap_tables.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abencds", "annotations", "abap", "tables"]
+---
 
 * * *
 
@@ -3924,312 +3775,1443 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-tables-17---hint--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-datamaintenance--undocumented---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----allowed--display--only--not--allowed--restricted---restricted----------released--for--key--user--appsreleased--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-16-------------------released--for--key--user--appsreleased--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--sap--cloud--platform--accesscontrol-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----check--not--allowed--not--required--privileged--only---check----------released--for--sap--cloud--platform--api-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated------------------api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref----------------------api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clientdependent--obsolete--specifies-client-dependency-and-how-clients-are-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true--------------clienthandling-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----automated--none--session--variable--------------released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--sap--cloud--platform--compatibilitycontract-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------boolean------true--------------endusertext-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header-----string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------service-definition--javascript-call-link---abencds-define-service-annos-htm------string-60-----------x--x--released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-100-----------x--x--released--for--sap--cloud--platform--environment-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--user--date--user--timezone--------------released--for--sap--cloud--platform--languagedependency-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x--released--for--sap--cloud--platform--metadataextension-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-outsourcing-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--objectmodel-usagetype-dataclass--specifies-the-data-type-of-the-cds-view---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed----------released--for--sap--cloud--platform--objectmodel-usagetype-servicequality--the-quality-of-the-service-with-respect-to-the-performance-expected-by-the-consumer-of-the-cds-view----table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-30----a--b--c--d--p--x---x----------released--for--sap--cloud--platform--objectmodel-usagetype-sizecategory--specifies-the-size-of-the-data-record-that-needs-to-be-searched-to-return-the-result----table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-3----l--m--s--xl--xxl---s----------released--for--sap--cloud--platform--scope------annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--scope-------annotation-definition--defines-the-scope-in-which-an-annotation-can-be-specified---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform------------abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---data-definitions---abap-cds---ddl-for-data-definitions---abap-cds---cds-entities---abap-cds---view-entities---cds-ddl---define-view-entity---cds-ddl---cds-view-entity--select---cds-ddl---cds-view-entity--select--data-source----files----2-----difficulty----advanced----abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---data-definitions---abap-cds---ddl-for-data-definitions---abap-cds---view-extension--included-pages--7---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-annotations-abap-tables-htm-------abencds-view-extension-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---data-definitions--javascript-call-link---abencds-entities-htm---------abap-cds---ddl-for-data-definitions--javascript-call-link---abencds-f1-ddl-syntax-htm---------abap-cds---view-extension--work-in-progress--continue--cds-ddl---extend-view--javascript-call-link---abencds-f1-extend-view-htm-------------source-----abencds-view-extension-htm--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-view-extension-htm-------abencds-f1-extend-view-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---data-definitions--javascript-call-link---abencds-entities-htm---------abap-cds---ddl-for-data-definitions--javascript-call-link---abencds-f1-ddl-syntax-htm---------abap-cds---view-extension--javascript-call-link---abencds-view-extension-htm---------cds-ddl---extend-view--the-statement-extend-view-in--cds-ddl--javascript-call-link---abencds-ddl-glosry-htm-----glossary-entry---has-two-variants--------extend-view-ddic--based--view--javascript-call-link---abencds-extend-view-htm------this-variant-is-used-to-define-a--cds-view-extension--javascript-call-link---abencds-view-extend-glosry-htm-----glossary-entry---that-is-also-associated-with-a--ddic-append-view--javascript-call-link---abenddic-append-view-glosry-htm-----glossary-entry---in--abap-dictionary--javascript-call-link---abenabap-dictionary-glosry-htm-----glossary-entry----------extend-view-entity--javascript-call-link---abencds-extend-view-entity-htm------this-variant-is-used-to-define-a--cds-view-extension--javascript-call-link---abencds-view-extend-glosry-htm-----glossary-entry---that-no-longer-needs-a-dictionary-object---continue--cds-ddl---extend-view-ddic--based--view--javascript-call-link---abencds-extend-view-htm------cds-ddl---extend-view-entity--javascript-call-link---abencds-extend-view-entity-htm-------------source-----abencds-f1-extend-view-htm--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-extend-view-htm-------abencds-extend-view-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---data-definitions--javascript-call-link---abencds-entities-htm---------abap-cds---ddl-for-data-definitions--javascript-call-link---abencds-f1-ddl-syntax-htm---------abap-cds---view-extension--javascript-call-link---abencds-view-extension-htm---------cds-ddl---extend-view--javascript-call-link---abencds-f1-extend-view-htm---------cds-ddl---extend-view-ddic--based--view--syntax---AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
-*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
-...
-EXTEND VIEW ddic\_based\_view *|* projection\_view
-       WITH cds\_view\_extension
-            *\[*association1
-             association2 ...*\]*
-            { select\_list\_extension }
-            *\[*GROUP BY field1, field2, ...  *\]*
-            *\[*UNION *\[*ALL*\]* { ... }*\]* *\[*;*\]*
-
-Additions:
-
-[1\. ... GROUP BY field1, field2, ...](#!ABAP_ADDITION_1@1@)
-[2\. ... UNION *\[*ALL*\]* { ... }](#!ABAP_ADDITION_2@2@)
-
-Effect
-
-Extends an existing [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view or an existing [CDS projection view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") projection\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry").
-
-A CDS view extended using this variant of the statement EXTEND VIEW must be based on a [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry"). The extended CDS view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
-
-As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm):
-
--   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clause can be extended.
-
--   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
-
--   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
-
--   If the annotation array contains the value #NONE, the view cannot be extended.
-
-CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_name_list_v1.htm) cannot currently be extended. CDS view extensions themselves cannot be extended.
-
-EXTEND VIEW is used to make the following modification-free extensions:
-
--   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of the data sources used in the extended CDS view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_v1.htm), except [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). The following can also be specified:
-
--   [Input parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_parameter_v1.htm) of the extended CDS view
-
--   [Path expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v1.htm) for dedicated CDS associations and for CDS associations of the extended CDS view
-
--   Other [literals, expressions and functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_operands_and_expr_v1.htm)
-
-If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS. An appended field cannot be defined as a key field using KEY.
-
--   The optional CDS associations [association1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), [association2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), ... specified after EXTEND VIEW can be added to the existing SELECT statement.
-
-If the original view contains [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm), further aggregate expressions can be added to it in select\_list\_extension. If the original view does not contain any aggregate expressions, this is not possible. If other elements are added to a CDS view with aggregate expressions, its [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause must be extended accordingly using the addition GROUP BY of the association EXTEND VIEW
-
-If the original view contains [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW.
-
-The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) must be specified before the view extension itself is defined using EXTEND VIEW. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
-
-Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
-
--   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
-
--   The name CDS\_APPEND\_VIEW for a [append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @AbapCatalog.sqlViewAppendName created when the CDS view extension was activated. This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary. The new DDIC append view extends the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
-
-[CDS view extensions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") are connected to [Switch Framework](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_framework_glosry.htm "Glossary Entry") whenever they are defined in a [package](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpackage_glosry.htm "Glossary Entry") that is assigned a [switch](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_glosry.htm "Glossary Entry").
-
-Hints
-
--   Every CDS view extension has its own [DDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry"). The DDL source code in a CDS view extension is edited in a different editor from the DDL source code of a [CDS view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_glosry.htm "Glossary Entry"). The ADT documentation describes how these types of source code are created. DDL source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
-
--   An existing CDS view can be extended using multiple CDS view extensions.
-
--   The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
-
--   Currently it is not possible to define extension categories for CDS views. The following restrictions apply for this reason:
-
--   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
-
--   The attributes of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
-
--   It is advisable to make no extensions to CDS views from basis packages. These CDS views are intended for internal use only and can be modified in incompatible ways.
-
--   The DDL source code of a CDS view extension does not need to have the same name as the CDS view extension entity, but it is advisable to use the name of the entity.
-
--   Once the DDL source code of a CDS view extension has been transported, the following relationships are committed and can no longer be changed:
-
--   The combination of the name of the source code and the names of the view extension defined there and its DDIC append view. These can no can longer be modified by being renamed.
-
--   The assignment of the view extension to the extended view. The name ddic\_based\_view after EXTEND VIEW can no longer be modified.
-
--   No addition [ROOT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry").
-
--   [CDS projection views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") can be extended with the statement EXTEND VIEW. This is supported for compatibility and migration reasons. However, the syntax elements specific to projection views are not supported with this variant of view extension. It is recommended to use the statement EXTEND VIEW ENTITY for extensions of CDS projection views instead.
-
--   If you, for some reason, extend a CDS projection view with EXTEND VIEW, the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is omitted (as CDS projection views don't have any DDIC artefact), and entity annotations referring to the CDS-managed DDIC view are ignored.
-
-Example
-
-The following CDS view extension
-
-@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTENS'
-extend view demo\_cds\_original\_view with demo\_cds\_view\_extension  
-  {
-    spfli.distance,
-    spfli.distid as unit
-  };
-
-adds two view fields to the existing CDS view
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ORIG'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST\]
-@EndUserText.label: 'Further information about the CDS entity'
-define view demo\_cds\_original\_view  
-  as select from
-           spfli
-      join scarr on
-        scarr.carrid = spfli.carrid
-    {
-      key scarr.carrname     as carrier,
-      key spfli.connid       as flight,
-          spfli.cityfrom     as departure,
-          spfli.cityto       as destination
-    }; .
-
-The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
-
-Addition 1
-
-... GROUP BY field1, field2, ...
-
-Effect
-
-This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
-
-The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_17)
 
 Hint
 
-Extensions of a view with aggregate expressions require it to contain the annotation array viewEnhancementCategory\[ \] with the value #GROUP\_BY.
+See also [ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_abap_ddla.htm).
 
-Example
-
-The following CDS view extension
-
-@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTAGG'
-extend view demo\_cds\_aggregate with demo\_cds\_extend\_aggregate
-  {
-    connid,  
-    sum(distance) as sum\_distance
-  }
-  group by
-    connid;
-
-extends the existing CDS view
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_AGG'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#GROUP\_BY\]
-define view demo\_cds\_aggregate
-  as select from
-    spfli  
-    {
-      carrid,
-      sum(fltime) as sum\_fltime
-    }
-    group by
-      carrid; .
-
-A database field connid and an aggregate expression sum(distance) are added to the SELECT list. Accordingly, the addition GROUP BY must be used to add the database field to the GROUP-BY clause of the original view.
-
-Addition 2
-
-... UNION *\[*ALL*\]* { ... }
-
-Effect
-
-This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
-
-The addition cannot be specified if the definition of the original view does not have a UNION clause.
-
-Hint
-
-Extensions of a view with UNION clauses require it to contain the annotation array viewEnhancementCategory\[ \] with the value #UNION.
-
-Example
-
-The following CDS view extension
-
-@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTUNI'
-extend view demo\_cds\_union with demo\_cds\_extend\_union
-  {
-    c as c3,
-    d as c4
-  }
-union
-  {
-    f as c3,
-    g as c4
-  }
-union all
-  {
-    k as c3,
-    l as c4
-  };
-
-extends the existing CDS view
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_UIO'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#UNION\]
-define view demo\_cds\_union
-  as select from
-    demo\_join1
-    {
-      a as c1,
-      b as c2
-    }
-union select from
-  demo\_join2
-    {
-      d as c1,
-      e as c2
-    }
-union all select from
-  demo\_join3
-    {
-      i as c1,
-      j as c2
-    }; .
-
-The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
-
-Continue
-[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
-
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
-### abencds_f1_extend_view_annotations.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm) →  [CDS DDL - EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) → 
-
-CDS DDL - EXTEND VIEW, extension\_annot
-
-Syntax
-
-... @[annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ...
-
-Effect
-
-Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) as an extension annotation in the definition of a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") before the statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #EXTEND\_VIEW.
-
-The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
-
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
-
-AbapCatalog Annotations
-
-Technical settings of a CDS view extension.
+AbapAnnotation-Annotations
 
 Annotation
 
 Meaning
 
-Annotation Values
+Scope
 
-Default Value if Not Used
+Typ
 
-Default Value if Used Without Value
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapAnnotation.definitionHidden
+
+Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+AbapCatalog-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapCatalog.buffering.numberOfKeyFields
+
+Table buffering, number of key fields when buffering generic areas
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+Integer
+
+\-
+
+000
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.status
+
+Table buffering, enables and disables buffering
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+String(20)
+
+#ACTIVE
+#NOT\_ALLOWED
+#SWITCHED\_OFF
+
+#SWITCHED\_OFF
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.type
+
+Table buffering, defines the buffering type
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+String(10)
+
+#FULL
+#GENERIC
+#NONE
+#SINGLE
+
+#NONE
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.compiler.compareFilter
+
+CDS view, specifies how filter conditions are evaluated in path expressions
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dataMaintenance
+
+undocumented
+
+[Hierarchy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+[Projection View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm)
+
+String(20)
+
+#ALLOWED
+#DISPLAY\_ONLY
+#NOT\_ALLOWED
+#RESTRICTED
+
+#RESTRICTED
+
+\-
+
+\-
+
+RELEASED\_FOR\_KEY\_USER\_APPSRELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].dbSystem
+
+Obsolete: Replaced by Consumption.dbHintsCalculatedBy
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+String(3)
+
+#ADA
+#ALL
+#ASE
+#DB2
+#DB4
+#DB6
+#HDB
+#INF
+#MSS
+#ORA
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].hint
+
+Obsolete: Replaced by Consumption.dbHints\[ \]
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+String(1298)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.preserveKey
+
+CDS view, specifies the definition of the key fields in the associated database view
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
 
 AbapCatalog.sqlViewAppendName
 
-Name of the DDIC append view of the CDS view extension
+CDS view extension, name of the append view
 
-Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
+[View Extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+
+String(16)
 
 \-
 
 \-
 
-Hints
+\-
 
--   Each definition of a CDS view extension must contain the ABAP annotation AbapCatalog.sqlViewAppendName that defines the name of the DDIC append view in ABAP Dictionary.
+\-
 
--   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewName
+
+CDS view, name of the database view
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_KEY\_USER\_APPSRELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.viewEnhancementCategory\[ \]
+
+CDS view, specifies how the view can be extended using CDS view extensions
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+[Projection View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm)
+
+String(20)
+
+#GROUP\_BY
+#NONE
+#PROJECTION\_LIST
+#UNION
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AccessControl-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AccessControl.authorizationCheck
+
+CDS access control, specifies implicit access control
+
+[Hierarchy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+[Projection View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm)
+
+String(20)
+
+#CHECK
+#NOT\_ALLOWED
+#NOT\_REQUIRED
+#PRIVILEGED\_ONLY
+
+#CHECK
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+API-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+API.element.releaseState
+
+Element annotation, release element
+
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+
+String(30)
+
+#DEPRECATED
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.element.successor
+
+Element annotation, successor of rejected element
+
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.state\[ \]
+
+Annotation definition, release annotation
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(40)
+
+#NOT\_RELEASED
+#RELEASED\_FOR\_KEY\_USER\_APPS
+#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+\-
+
+\-
+
+\-
+
+\-
+
+ClientDependent-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientDependent
+
+Obsolete: Specifies client dependency and how clients are handled
+
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ClientHandling-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientHandling.algorithm
+
+Specifies client handling
+
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+String(20)
+
+#AUTOMATED
+#NONE
+#SESSION\_VARIABLE
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ClientHandling.type
+
+Specifies client dependency
+
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+
+String(20)
+
+#CLIENT\_DEPENDENT
+#CLIENT\_INDEPENDENT
+#INHERITED
+
+#INHERITED
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+CompatibilityContract-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+CompatibilityContract.c0.allowedChanges.annotation\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+DataAging-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+DataAging.noAgingRestriction
+
+Data aging on SAP HANA, specifies how old data is handled
+
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+EndUserText-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+EndUserText.heading
+
+Texts, implicit annotation for data element header
+
+ 
+
+String(55)
+
+\-
+
+\-
+
+X
+
+\-
+
+NOT\_RELEASED
+
+EndUserText.label
+
+Texts, short text connected to translation
+
+[Access Policy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+[Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entity_annotations.htm)
+[View Extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_parameter_annotations.htm)
+[PFCG Mapping](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
+[Role](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_role_annotations.htm)
+[Service Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_service_annos.htm)
+
+String(60)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+EndUserText.quickInfo
+
+Texts, tooltip connected to translation
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_parameter_annotations.htm)
+
+String(100)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Environment.sql.passValue
+
+Defines pass-by-value of host variables in comparisons in ABAP SQL
+
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment.systemField
+
+Environment, assigns an ABAP system field
+
+[Parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_parameter_annotations.htm)
+
+String(20)
+
+#CLIENT
+#SYSTEM\_DATE
+#SYSTEM\_LANGUAGE
+#SYSTEM\_TIME
+#USER
+#USER\_DATE
+#USER\_TIMEZONE
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+LanguageDependency-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+LanguageDependency.maxLength
+
+Annotation definition, specifies the translatibility of texts
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+Integer
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+MappingRole-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MappingRole
+
+Access control, specifies the assignment of a CDS role to users
+
+[Role](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_role_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Metadata.allowExtensions
+
+Metadata, specifies extensibility using metadata extensions
+
+[Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata.ignorePropagatedAnnotations
+
+Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
+
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+[Projection View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata.layer
+
+Metadata, specfies layer in CDS metadata extension
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
+
+Integer
+
+#CORE
+#CUSTOMER
+#INDUSTRY
+#LOCALIZATION
+#PARTNER
+
+\-
+
+\-
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+MetadataExtension-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MetadataExtension.usageAllowed
+
+Annotation definition, specifies the outsourcing of the annotation in CDS metadata extensions
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ObjectModel-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ObjectModel.usageType.dataClass
+
+Specifies the data type of the CDS view
+
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+[Projection View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm)
+
+String(30)
+
+#CUSTOMIZING
+#MASTER
+#META
+#MIXED
+#ORGANIZATIONAL
+#TRANSACTIONAL
+
+#MIXED
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ObjectModel.usageType.serviceQuality
+
+The quality of the service with respect to the performance expected by the consumer of the CDS view.
+
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+[Projection View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm)
+
+String(30)
+
+#A
+#B
+#C
+#D
+#P
+#X
+
+#X
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ObjectModel.usageType.sizeCategory
+
+Specifies the size of the data record that needs to be searched to return the result.
+
+[Table Function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_function_annotations.htm)
+[DDIC based View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm)
+[View Entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity_anno.htm)
+[Projection View](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_annotations.htm)
+
+String(3)
+
+#L
+#M
+#S
+#XL
+#XXL
+
+#S
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Scope\[ \]-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Scope\[ \]
+
+Annotation definition, defines the scope in which an annotation can be specified
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ACCESSPOLICY
+#ANNOTATE
+#ANNOTATION
+#ASPECT
+#CUSTOM\_ENTITY
+#ELEMENT
+#ENTITY
+#EXTEND\_VIEW
+#HIERARCHY
+#PARAMETER
+#PFCG\_MAPPING
+#ROLE
+#SERVICE
+#SIMPLE\_TYPE
+#TABLE\_FUNCTION
+#VIEW
+
+\-
+
+\-
+
+\-
+
+\-
+
+Semantics-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Semantics.amount.currencyCode
+
+Currency field
+
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.currencyCode
+
+Currency key
+
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.quantity.unitOfMeasure
+
+Quantity field
+
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.unitOfMeasure
+
+Unit key
+
+[Element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
 
 
+---
 
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, data_source
+
+**Files**: 2 | **Difficulty**: advanced
+
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - View extension
+
+Included pages: 7
+
+
+### abencds_view_extension.htm
+
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) → 
+
+ABAP CDS - View extension
+
+Work in progress
+
+Continue
+[CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+
+
+### abencds_f1_extend_view.htm
+
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) → 
+
+CDS DDL - EXTEND VIEW
+
+The statement EXTEND VIEW in [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") has two variants:
+
+-   [EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
+
+This variant is used to define a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") that is also associated with a [DDIC append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").
+
+-   [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
+
+This variant is used to define a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") that no longer needs a dictionary object.
+
+Continue
+[CDS DDL - EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
+[CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
+
 
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -4475,16 +5457,342 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
+### abencds_f1_extend_view_annotations.htm
 
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm) →  [CDS DDL - EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) → 
+
+CDS DDL - EXTEND VIEW, extension\_annot
+
+Syntax
+
+... @[annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ...
+
+Effect
+
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) as an extension annotation in the definition of a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") before the statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #EXTEND\_VIEW.
+
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
+
+The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+
+AbapCatalog Annotations
+
+Technical settings of a CDS view extension.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+AbapCatalog.sqlViewAppendName
+
+Name of the DDIC append view of the CDS view extension
+
+Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
+
+\-
+
+\-
+
+Hints
+
+-   Each definition of a CDS view extension must contain the ABAP annotation AbapCatalog.sqlViewAppendName that defines the name of the DDIC append view in ABAP Dictionary.
+
+-   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+
+
+### abencds_extend_view.htm
+
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm) → 
+
+CDS DDL - EXTEND VIEW ddic\_based\_view
+
+Syntax
+
+[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+...
+EXTEND VIEW ddic\_based\_view *|* projection\_view
+       WITH cds\_view\_extension
+            *\[*association1
+             association2 ...*\]*
+            { select\_list\_extension }
+            *\[*GROUP BY field1, field2, ...  *\]*
+            *\[*UNION *\[*ALL*\]* { ... }*\]* *\[*;*\]*
+
+Additions:
+
+[1\. ... GROUP BY field1, field2, ...](#!ABAP_ADDITION_1@1@)
+[2\. ... UNION *\[*ALL*\]* { ... }](#!ABAP_ADDITION_2@2@)
+
+Effect
+
+Extends an existing [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view or an existing [CDS projection view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") projection\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry").
+
+A CDS view extended using this variant of the statement EXTEND VIEW must be based on a [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry"). The extended CDS view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
+
+As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm):
+
+-   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clause can be extended.
+
+-   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
+
+-   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
+
+-   If the annotation array contains the value #NONE, the view cannot be extended.
+
+CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_name_list_v1.htm) cannot currently be extended. CDS view extensions themselves cannot be extended.
+
+EXTEND VIEW is used to make the following modification-free extensions:
+
+-   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of the data sources used in the extended CDS view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_v1.htm), except [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). The following can also be specified:
+
+-   [Input parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_parameter_v1.htm) of the extended CDS view
+
+-   [Path expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v1.htm) for dedicated CDS associations and for CDS associations of the extended CDS view
+
+-   Other [literals, expressions and functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_operands_and_expr_v1.htm)
+
+If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS. An appended field cannot be defined as a key field using KEY.
+
+-   The optional CDS associations [association1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), [association2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), ... specified after EXTEND VIEW can be added to the existing SELECT statement.
+
+If the original view contains [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm), further aggregate expressions can be added to it in select\_list\_extension. If the original view does not contain any aggregate expressions, this is not possible. If other elements are added to a CDS view with aggregate expressions, its [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause must be extended accordingly using the addition GROUP BY of the association EXTEND VIEW
+
+If the original view contains [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW.
+
+The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) must be specified before the view extension itself is defined using EXTEND VIEW. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
+
+Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
+
+-   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
+
+-   The name CDS\_APPEND\_VIEW for a [append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @AbapCatalog.sqlViewAppendName created when the CDS view extension was activated. This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary. The new DDIC append view extends the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+
+[CDS view extensions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") are connected to [Switch Framework](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_framework_glosry.htm "Glossary Entry") whenever they are defined in a [package](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpackage_glosry.htm "Glossary Entry") that is assigned a [switch](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_glosry.htm "Glossary Entry").
+
+Hints
+
+-   Every CDS view extension has its own [DDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry"). The DDL source code in a CDS view extension is edited in a different editor from the DDL source code of a [CDS view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_glosry.htm "Glossary Entry"). The ADT documentation describes how these types of source code are created. DDL source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
+
+-   An existing CDS view can be extended using multiple CDS view extensions.
+
+-   The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
+
+-   Currently it is not possible to define extension categories for CDS views. The following restrictions apply for this reason:
+
+-   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
+
+-   The attributes of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
+
+-   It is advisable to make no extensions to CDS views from basis packages. These CDS views are intended for internal use only and can be modified in incompatible ways.
+
+-   The DDL source code of a CDS view extension does not need to have the same name as the CDS view extension entity, but it is advisable to use the name of the entity.
+
+-   Once the DDL source code of a CDS view extension has been transported, the following relationships are committed and can no longer be changed:
+
+-   The combination of the name of the source code and the names of the view extension defined there and its DDIC append view. These can no can longer be modified by being renamed.
+
+-   The assignment of the view extension to the extended view. The name ddic\_based\_view after EXTEND VIEW can no longer be modified.
+
+-   No addition [ROOT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry").
+
+-   [CDS projection views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") can be extended with the statement EXTEND VIEW. This is supported for compatibility and migration reasons. However, the syntax elements specific to projection views are not supported with this variant of view extension. It is recommended to use the statement EXTEND VIEW ENTITY for extensions of CDS projection views instead.
+
+-   If you, for some reason, extend a CDS projection view with EXTEND VIEW, the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is omitted (as CDS projection views don't have any DDIC artefact), and entity annotations referring to the CDS-managed DDIC view are ignored.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTENS'
+extend view demo\_cds\_original\_view with demo\_cds\_view\_extension  
+  {
+    spfli.distance,
+    spfli.distid as unit
+  };
+
+adds two view fields to the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ORIG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST\]
+@EndUserText.label: 'Further information about the CDS entity'
+define view demo\_cds\_original\_view  
+  as select from
+           spfli
+      join scarr on
+        scarr.carrid = spfli.carrid
+    {
+      key scarr.carrname     as carrier,
+      key spfli.connid       as flight,
+          spfli.cityfrom     as departure,
+          spfli.cityto       as destination
+    }; .
+
+The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
+
+Addition 1
+
+... GROUP BY field1, field2, ...
+
+Effect
+
+This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
+
+The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
+
+Hint
+
+Extensions of a view with aggregate expressions require it to contain the annotation array viewEnhancementCategory\[ \] with the value #GROUP\_BY.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTAGG'
+extend view demo\_cds\_aggregate with demo\_cds\_extend\_aggregate
+  {
+    connid,  
+    sum(distance) as sum\_distance
+  }
+  group by
+    connid;
+
+extends the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_AGG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#GROUP\_BY\]
+define view demo\_cds\_aggregate
+  as select from
+    spfli  
+    {
+      carrid,
+      sum(fltime) as sum\_fltime
+    }
+    group by
+      carrid; .
+
+A database field connid and an aggregate expression sum(distance) are added to the SELECT list. Accordingly, the addition GROUP BY must be used to add the database field to the GROUP-BY clause of the original view.
+
+Addition 2
+
+... UNION *\[*ALL*\]* { ... }
+
+Effect
+
+This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
+
+The addition cannot be specified if the definition of the original view does not have a UNION clause.
+
+Hint
+
+Extensions of a view with UNION clauses require it to contain the annotation array viewEnhancementCategory\[ \] with the value #UNION.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTUNI'
+extend view demo\_cds\_union with demo\_cds\_extend\_union
+  {
+    c as c3,
+    d as c4
+  }
+union
+  {
+    f as c3,
+    g as c4
+  }
+union all
+  {
+    k as c3,
+    l as c4
+  };
+
+extends the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_UIO'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#UNION\]
+define view demo\_cds\_union
+  as select from
+    demo\_join1
+    {
+      a as c1,
+      b as c2
+    }
+union select from
+  demo\_join2
+    {
+      d as c1,
+      e as c2
+    }
+union all select from
+  demo\_join3
+    {
+      i as c1,
+      j as c2
+    }; .
+
+The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
+
+Continue
+[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+
 
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -4497,16 +5805,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -4543,16 +5854,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -4568,16 +5882,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -4602,16 +5919,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -4857,16 +6177,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -4919,16 +6242,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5174,16 +6500,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -5196,16 +6525,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5233,25 +6565,28 @@ Continue
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, select_list
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, select_list / CDS DDL - CDS View Entity, SELECT, element
 
-**Files**: 7 | **Difficulty**: advanced
+**Files**: 5 | **Difficulty**: advanced
 
 # ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - View extension
 
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -5267,16 +6602,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5301,16 +6639,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5556,16 +6897,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -5618,16 +6962,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5873,16 +7220,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -5895,16 +7245,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5941,16 +7294,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -5966,16 +7322,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6000,16 +7359,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6255,16 +7617,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -6317,16 +7682,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6572,16 +7940,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -6594,16 +7965,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6640,16 +8014,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -6665,16 +8042,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6699,16 +8079,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6954,16 +8337,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -7016,16 +8402,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7271,16 +8660,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -7293,16 +8685,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7339,16 +8734,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -7364,16 +8762,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7398,16 +8799,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7653,16 +9057,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -7715,16 +9122,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7970,16 +9380,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -7992,16 +9405,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8038,16 +9454,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -8063,16 +9482,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8097,16 +9519,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8352,16 +9777,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -8414,16 +9842,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8669,16 +10100,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -8691,16 +10125,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8737,16 +10174,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -8762,16 +10202,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8796,16 +10239,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9051,16 +10497,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -9113,16 +10562,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9368,16 +10820,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -9390,16 +10845,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9436,16 +10894,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -9461,16 +10922,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9495,16 +10959,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9750,16 +11217,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -9812,16 +11282,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10067,16 +11540,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -10089,16 +11565,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10135,16 +11614,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -10160,16 +11642,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10194,16 +11679,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10449,16 +11937,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -10511,16 +12002,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10766,16 +12260,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -10788,16 +12285,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10825,25 +12325,28 @@ Continue
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Projection Views / CDS DDL - DEFINE VIEW ENTITY AS PROJECTION / CDS DDL - projection_view, element_list
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Projection Views / CDS DDL - DEFINE VIEW ENTITY AS PROJECTION / CDS DDL - projection_view, element_list / CDS DDL - projection_view, VIRTUAL
 
-**Files**: 10 | **Difficulty**: advanced
+**Files**: 2 | **Difficulty**: advanced
 
 # ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - View extension
 
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -10859,16 +12362,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10893,16 +12399,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -11148,16 +12657,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -11210,16 +12722,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -11465,16 +12980,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -11487,16 +13005,739 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
+### abencds_f1_extend_view.htm
 
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) → 
+
+CDS DDL - EXTEND VIEW
+
+The statement EXTEND VIEW in [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") has two variants:
+
+-   [EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
+
+This variant is used to define a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") that is also associated with a [DDIC append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").
+
+-   [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
+
+This variant is used to define a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") that no longer needs a dictionary object.
+
+Continue
+[CDS DDL - EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
+[CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
+
+
+---
+
+
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Projection Views / CDS DDL - DEFINE VIEW ENTITY AS PROJECTION / CDS DDL - projection_view, element_list / CDS DDL - projection_view, expose_assoc
+
+**Files**: 4 | **Difficulty**: advanced
+
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - View extension
+
+Included pages: 7
+
+
+### abencds_view_extension.htm
+
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) → 
+
+ABAP CDS - View extension
+
+Work in progress
+
+Continue
+[CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+
 
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) → 
+
+CDS DDL - EXTEND VIEW
+
+The statement EXTEND VIEW in [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") has two variants:
+
+-   [EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
+
+This variant is used to define a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") that is also associated with a [DDIC append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").
+
+-   [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
+
+This variant is used to define a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") that no longer needs a dictionary object.
+
+Continue
+[CDS DDL - EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
+[CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-  
+### abencds_extend_view.htm
+
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm) → 
+
+CDS DDL - EXTEND VIEW ddic\_based\_view
+
+Syntax
+
+[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+...
+EXTEND VIEW ddic\_based\_view *|* projection\_view
+       WITH cds\_view\_extension
+            *\[*association1
+             association2 ...*\]*
+            { select\_list\_extension }
+            *\[*GROUP BY field1, field2, ...  *\]*
+            *\[*UNION *\[*ALL*\]* { ... }*\]* *\[*;*\]*
+
+Additions:
+
+[1\. ... GROUP BY field1, field2, ...](#!ABAP_ADDITION_1@1@)
+[2\. ... UNION *\[*ALL*\]* { ... }](#!ABAP_ADDITION_2@2@)
+
+Effect
+
+Extends an existing [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view or an existing [CDS projection view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") projection\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry").
+
+A CDS view extended using this variant of the statement EXTEND VIEW must be based on a [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry"). The extended CDS view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
+
+As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm):
+
+-   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clause can be extended.
+
+-   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
+
+-   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
+
+-   If the annotation array contains the value #NONE, the view cannot be extended.
+
+CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_name_list_v1.htm) cannot currently be extended. CDS view extensions themselves cannot be extended.
+
+EXTEND VIEW is used to make the following modification-free extensions:
+
+-   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of the data sources used in the extended CDS view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_v1.htm), except [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). The following can also be specified:
+
+-   [Input parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_parameter_v1.htm) of the extended CDS view
+
+-   [Path expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v1.htm) for dedicated CDS associations and for CDS associations of the extended CDS view
+
+-   Other [literals, expressions and functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_operands_and_expr_v1.htm)
+
+If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS. An appended field cannot be defined as a key field using KEY.
+
+-   The optional CDS associations [association1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), [association2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), ... specified after EXTEND VIEW can be added to the existing SELECT statement.
+
+If the original view contains [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm), further aggregate expressions can be added to it in select\_list\_extension. If the original view does not contain any aggregate expressions, this is not possible. If other elements are added to a CDS view with aggregate expressions, its [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause must be extended accordingly using the addition GROUP BY of the association EXTEND VIEW
+
+If the original view contains [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW.
+
+The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) must be specified before the view extension itself is defined using EXTEND VIEW. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
+
+Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
+
+-   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
+
+-   The name CDS\_APPEND\_VIEW for a [append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @AbapCatalog.sqlViewAppendName created when the CDS view extension was activated. This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary. The new DDIC append view extends the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+
+[CDS view extensions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") are connected to [Switch Framework](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_framework_glosry.htm "Glossary Entry") whenever they are defined in a [package](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpackage_glosry.htm "Glossary Entry") that is assigned a [switch](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_glosry.htm "Glossary Entry").
+
+Hints
+
+-   Every CDS view extension has its own [DDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry"). The DDL source code in a CDS view extension is edited in a different editor from the DDL source code of a [CDS view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_glosry.htm "Glossary Entry"). The ADT documentation describes how these types of source code are created. DDL source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
+
+-   An existing CDS view can be extended using multiple CDS view extensions.
+
+-   The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
+
+-   Currently it is not possible to define extension categories for CDS views. The following restrictions apply for this reason:
+
+-   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
+
+-   The attributes of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
+
+-   It is advisable to make no extensions to CDS views from basis packages. These CDS views are intended for internal use only and can be modified in incompatible ways.
+
+-   The DDL source code of a CDS view extension does not need to have the same name as the CDS view extension entity, but it is advisable to use the name of the entity.
+
+-   Once the DDL source code of a CDS view extension has been transported, the following relationships are committed and can no longer be changed:
+
+-   The combination of the name of the source code and the names of the view extension defined there and its DDIC append view. These can no can longer be modified by being renamed.
+
+-   The assignment of the view extension to the extended view. The name ddic\_based\_view after EXTEND VIEW can no longer be modified.
+
+-   No addition [ROOT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry").
+
+-   [CDS projection views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") can be extended with the statement EXTEND VIEW. This is supported for compatibility and migration reasons. However, the syntax elements specific to projection views are not supported with this variant of view extension. It is recommended to use the statement EXTEND VIEW ENTITY for extensions of CDS projection views instead.
+
+-   If you, for some reason, extend a CDS projection view with EXTEND VIEW, the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is omitted (as CDS projection views don't have any DDIC artefact), and entity annotations referring to the CDS-managed DDIC view are ignored.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTENS'
+extend view demo\_cds\_original\_view with demo\_cds\_view\_extension  
+  {
+    spfli.distance,
+    spfli.distid as unit
+  };
+
+adds two view fields to the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ORIG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST\]
+@EndUserText.label: 'Further information about the CDS entity'
+define view demo\_cds\_original\_view  
+  as select from
+           spfli
+      join scarr on
+        scarr.carrid = spfli.carrid
+    {
+      key scarr.carrname     as carrier,
+      key spfli.connid       as flight,
+          spfli.cityfrom     as departure,
+          spfli.cityto       as destination
+    }; .
+
+The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
+
+Addition 1
+
+... GROUP BY field1, field2, ...
+
+Effect
+
+This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
+
+The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
+
+Hint
+
+Extensions of a view with aggregate expressions require it to contain the annotation array viewEnhancementCategory\[ \] with the value #GROUP\_BY.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTAGG'
+extend view demo\_cds\_aggregate with demo\_cds\_extend\_aggregate
+  {
+    connid,  
+    sum(distance) as sum\_distance
+  }
+  group by
+    connid;
+
+extends the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_AGG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#GROUP\_BY\]
+define view demo\_cds\_aggregate
+  as select from
+    spfli  
+    {
+      carrid,
+      sum(fltime) as sum\_fltime
+    }
+    group by
+      carrid; .
+
+A database field connid and an aggregate expression sum(distance) are added to the SELECT list. Accordingly, the addition GROUP BY must be used to add the database field to the GROUP-BY clause of the original view.
+
+Addition 2
+
+... UNION *\[*ALL*\]* { ... }
+
+Effect
+
+This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
+
+The addition cannot be specified if the definition of the original view does not have a UNION clause.
+
+Hint
+
+Extensions of a view with UNION clauses require it to contain the annotation array viewEnhancementCategory\[ \] with the value #UNION.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTUNI'
+extend view demo\_cds\_union with demo\_cds\_extend\_union
+  {
+    c as c3,
+    d as c4
+  }
+union
+  {
+    f as c3,
+    g as c4
+  }
+union all
+  {
+    k as c3,
+    l as c4
+  };
+
+extends the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_UIO'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#UNION\]
+define view demo\_cds\_union
+  as select from
+    demo\_join1
+    {
+      a as c1,
+      b as c2
+    }
+union select from
+  demo\_join2
+    {
+      d as c1,
+      e as c2
+    }
+union all select from
+  demo\_join3
+    {
+      i as c1,
+      j as c2
+    }; .
+
+The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
+
+Continue
+[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+
+
+### abencds_f1_extend_view_annotations.htm
+
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm) →  [CDS DDL - EXTEND VIEW ddic\_based\_view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) → 
+
+CDS DDL - EXTEND VIEW, extension\_annot
+
+Syntax
+
+... @[annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ...
+
+Effect
+
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) as an extension annotation in the definition of a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") before the statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #EXTEND\_VIEW.
+
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
+
+The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+
+AbapCatalog Annotations
+
+Technical settings of a CDS view extension.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+AbapCatalog.sqlViewAppendName
+
+Name of the DDIC append view of the CDS view extension
+
+Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
+
+\-
+
+\-
+
+Hints
+
+-   Each definition of a CDS view extension must contain the ABAP annotation AbapCatalog.sqlViewAppendName that defines the name of the DDIC append view in ABAP Dictionary.
+
+-   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+
+
+### abencds_extend_view.htm
+
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm) → 
+
+CDS DDL - EXTEND VIEW ddic\_based\_view
+
+Syntax
+
+[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+...
+EXTEND VIEW ddic\_based\_view *|* projection\_view
+       WITH cds\_view\_extension
+            *\[*association1
+             association2 ...*\]*
+            { select\_list\_extension }
+            *\[*GROUP BY field1, field2, ...  *\]*
+            *\[*UNION *\[*ALL*\]* { ... }*\]* *\[*;*\]*
+
+Additions:
+
+[1\. ... GROUP BY field1, field2, ...](#!ABAP_ADDITION_1@1@)
+[2\. ... UNION *\[*ALL*\]* { ... }](#!ABAP_ADDITION_2@2@)
+
+Effect
+
+Extends an existing [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view or an existing [CDS projection view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") projection\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry").
+
+A CDS view extended using this variant of the statement EXTEND VIEW must be based on a [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry"). The extended CDS view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
+
+As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_v1.htm):
+
+-   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clause can be extended.
+
+-   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
+
+-   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
+
+-   If the annotation array contains the value #NONE, the view cannot be extended.
+
+CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_name_list_v1.htm) cannot currently be extended. CDS view extensions themselves cannot be extended.
+
+EXTEND VIEW is used to make the following modification-free extensions:
+
+-   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of the data sources used in the extended CDS view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_v1.htm), except [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). The following can also be specified:
+
+-   [Input parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_parameter_v1.htm) of the extended CDS view
+
+-   [Path expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v1.htm) for dedicated CDS associations and for CDS associations of the extended CDS view
+
+-   Other [literals, expressions and functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_operands_and_expr_v1.htm)
+
+If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS. An appended field cannot be defined as a key field using KEY.
+
+-   The optional CDS associations [association1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), [association2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v1.htm), ... specified after EXTEND VIEW can be added to the existing SELECT statement.
+
+If the original view contains [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm), further aggregate expressions can be added to it in select\_list\_extension. If the original view does not contain any aggregate expressions, this is not possible. If other elements are added to a CDS view with aggregate expressions, its [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause must be extended accordingly using the addition GROUP BY of the association EXTEND VIEW
+
+If the original view contains [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW.
+
+The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) must be specified before the view extension itself is defined using EXTEND VIEW. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
+
+Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
+
+-   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
+
+-   The name CDS\_APPEND\_VIEW for a [append view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @AbapCatalog.sqlViewAppendName created when the CDS view extension was activated. This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary. The new DDIC append view extends the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+
+[CDS view extensions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extend_glosry.htm "Glossary Entry") are connected to [Switch Framework](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_framework_glosry.htm "Glossary Entry") whenever they are defined in a [package](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpackage_glosry.htm "Glossary Entry") that is assigned a [switch](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenswitch_glosry.htm "Glossary Entry").
+
+Hints
+
+-   Every CDS view extension has its own [DDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_source_code_glosry.htm "Glossary Entry"). The DDL source code in a CDS view extension is edited in a different editor from the DDL source code of a [CDS view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_glosry.htm "Glossary Entry"). The ADT documentation describes how these types of source code are created. DDL source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
+
+-   An existing CDS view can be extended using multiple CDS view extensions.
+
+-   The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
+
+-   Currently it is not possible to define extension categories for CDS views. The following restrictions apply for this reason:
+
+-   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
+
+-   The attributes of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
+
+-   It is advisable to make no extensions to CDS views from basis packages. These CDS views are intended for internal use only and can be modified in incompatible ways.
+
+-   The DDL source code of a CDS view extension does not need to have the same name as the CDS view extension entity, but it is advisable to use the name of the entity.
+
+-   Once the DDL source code of a CDS view extension has been transported, the following relationships are committed and can no longer be changed:
+
+-   The combination of the name of the source code and the names of the view extension defined there and its DDIC append view. These can no can longer be modified by being renamed.
+
+-   The assignment of the view extension to the extended view. The name ddic\_based\_view after EXTEND VIEW can no longer be modified.
+
+-   No addition [ROOT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry").
+
+-   [CDS projection views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm "Glossary Entry") can be extended with the statement EXTEND VIEW. This is supported for compatibility and migration reasons. However, the syntax elements specific to projection views are not supported with this variant of view extension. It is recommended to use the statement EXTEND VIEW ENTITY for extensions of CDS projection views instead.
+
+-   If you, for some reason, extend a CDS projection view with EXTEND VIEW, the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is omitted (as CDS projection views don't have any DDIC artefact), and entity annotations referring to the CDS-managed DDIC view are ignored.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTENS'
+extend view demo\_cds\_original\_view with demo\_cds\_view\_extension  
+  {
+    spfli.distance,
+    spfli.distid as unit
+  };
+
+adds two view fields to the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ORIG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST\]
+@EndUserText.label: 'Further information about the CDS entity'
+define view demo\_cds\_original\_view  
+  as select from
+           spfli
+      join scarr on
+        scarr.carrid = spfli.carrid
+    {
+      key scarr.carrname     as carrier,
+      key spfli.connid       as flight,
+          spfli.cityfrom     as departure,
+          spfli.cityto       as destination
+    }; .
+
+The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
+
+Addition 1
+
+... GROUP BY field1, field2, ...
+
+Effect
+
+This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
+
+The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
+
+Hint
+
+Extensions of a view with aggregate expressions require it to contain the annotation array viewEnhancementCategory\[ \] with the value #GROUP\_BY.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTAGG'
+extend view demo\_cds\_aggregate with demo\_cds\_extend\_aggregate
+  {
+    connid,  
+    sum(distance) as sum\_distance
+  }
+  group by
+    connid;
+
+extends the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_AGG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#GROUP\_BY\]
+define view demo\_cds\_aggregate
+  as select from
+    spfli  
+    {
+      carrid,
+      sum(fltime) as sum\_fltime
+    }
+    group by
+      carrid; .
+
+A database field connid and an aggregate expression sum(distance) are added to the SELECT list. Accordingly, the addition GROUP BY must be used to add the database field to the GROUP-BY clause of the original view.
+
+Addition 2
+
+... UNION *\[*ALL*\]* { ... }
+
+Effect
+
+This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
+
+The addition cannot be specified if the definition of the original view does not have a UNION clause.
+
+Hint
+
+Extensions of a view with UNION clauses require it to contain the annotation array viewEnhancementCategory\[ \] with the value #UNION.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTUNI'
+extend view demo\_cds\_union with demo\_cds\_extend\_union
+  {
+    c as c3,
+    d as c4
+  }
+union
+  {
+    f as c3,
+    g as c4
+  }
+union all
+  {
+    k as c3,
+    l as c4
+  };
+
+extends the existing CDS view
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_UIO'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#UNION\]
+define view demo\_cds\_union
+  as select from
+    demo\_join1
+    {
+      a as c1,
+      b as c2
+    }
+union select from
+  demo\_join2
+    {
+      d as c1,
+      e as c2
+    }
+union all select from
+  demo\_join3
+    {
+      i as c1,
+      j as c2
+    }; .
+
+The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
+
+Continue
+[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
+
+
+### abencds_extend_view_entity.htm
+
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - View extension](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm) → 
+
+CDS DDL - EXTEND VIEW ENTITY
+
+Work in progress
+
+
+### abencds_f1_extend_view.htm
+
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -11533,16 +13774,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -11558,16 +13802,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -11592,16 +13839,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -11847,16 +14097,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -11909,16 +14162,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -12164,16 +14420,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -12186,16 +14445,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -12232,16 +14494,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -12257,16 +14522,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -12291,16 +14559,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -12546,16 +14817,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -12608,16 +14882,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -12863,16 +15140,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -12885,16 +15165,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -12931,16 +15214,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -12956,16 +15242,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -12990,16 +15279,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -13245,16 +15537,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -13307,16 +15602,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -13562,16 +15860,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -13584,16 +15885,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -13630,16 +15934,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -13655,16 +15962,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -13689,16 +15999,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -13944,16 +16257,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -14006,16 +16322,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -14261,16 +16580,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -14283,16 +16605,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -14329,16 +16654,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -14354,16 +16682,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -14388,16 +16719,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -14643,16 +16977,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -14705,16 +17042,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -14960,16 +17300,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -14982,16 +17325,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -15028,16 +17374,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -15053,16 +17402,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -15087,16 +17439,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -15342,16 +17697,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -15404,16 +17762,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -15659,16 +18020,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -15681,16 +18045,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -15727,16 +18094,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -15752,16 +18122,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -15786,16 +18159,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -16041,16 +18417,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -16103,16 +18482,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -16358,16 +18740,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -16380,16 +18765,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -16426,16 +18814,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -16451,16 +18842,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -16485,16 +18879,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -16740,16 +19137,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -16802,16 +19202,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -17057,16 +19460,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -17079,16 +19485,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -17125,16 +19534,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -17150,16 +19562,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -17184,16 +19599,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -17439,16 +19857,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -17501,16 +19922,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -17756,16 +20180,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -17778,16 +20205,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -17824,16 +20254,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -17849,16 +20282,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -17883,16 +20319,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -18138,16 +20577,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -18200,16 +20642,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -18455,16 +20900,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -18477,16 +20925,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -18523,16 +20974,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -18548,16 +21002,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -18582,16 +21039,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -18837,16 +21297,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -18899,16 +21362,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -19154,16 +21620,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -19176,16 +21645,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -19222,16 +21694,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -19247,16 +21722,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -19281,16 +21759,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -19536,16 +22017,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -19598,16 +22082,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -19853,16 +22340,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -19875,16 +22365,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -19921,16 +22414,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -19946,16 +22442,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -19980,16 +22479,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -20235,16 +22737,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -20297,16 +22802,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -20552,16 +23060,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -20574,16 +23085,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -20611,25 +23125,28 @@ Continue
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - DDIC-Based Entities / ABAP CDS - DDIC-Based Views / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-based View, SELECT / CDS DDL - DDIC-based View, SELECT, Operands and Expressions / CDS DDL - DDIC-based View, path_expr
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - DDIC-Based Entities / ABAP CDS - DDIC-Based Views / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-based View, SELECT / CDS DDL - DDIC-based View, SELECT, Operands and Expressions / CDS DDL - DDIC-based View, path_expr / CDS DDL - DDIC-based View, path_expr, attributes
 
-**Files**: 9 | **Difficulty**: advanced
+**Files**: 6 | **Difficulty**: advanced
 
 # ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - View extension
 
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -20645,16 +23162,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -20679,16 +23199,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -20934,16 +23457,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -20996,16 +23522,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -21251,16 +23780,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -21273,16 +23805,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -21319,16 +23854,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -21344,16 +23882,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -21378,16 +23919,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -21633,16 +24177,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -21695,16 +24242,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -21950,16 +24500,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -21972,16 +24525,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -22018,16 +24574,19 @@ Continue
 Included pages: 7
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_view_extension.htm
 
-> **📖 Official SAP Documentation**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 
@@ -22043,16 +24602,19 @@ Continue
 [CDS DDL - EXTEND VIEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
 
 
-
-**📖 Source**: [abencds_view_extension.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -22077,16 +24639,19 @@ Continue
 [CDS DDL - EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -22332,16 +24897,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -22394,16 +24962,19 @@ Hints
 -   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -22649,16 +25220,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm)
-
 ### abencds_extend_view_entity.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW ENTITY"
+description: |
+  CDS DDL - EXTEND VIEW ENTITY - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm"
+abapFile: "abencds_extend_view_entity.htm"
+keywords: ["do", "data", "abencds", "extend", "view", "entity"]
+---
 
 * * *
 
@@ -22671,16 +25245,19 @@ CDS DDL - EXTEND VIEW ENTITY
 Work in progress
 
 
-
-**📖 Source**: [abencds_extend_view_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view_entity.htm)
-
 ### abencds_f1_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - EXTEND VIEW"
+description: |
+  The statement EXTEND VIEW in CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') has two variants: -   EXTEND VIEW ddic_based_view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_extend_view.htm) This variant is used to
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm"
+abapFile: "abencds_f1_extend_view.htm"
+keywords: ["do", "try", "data", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -22717,16 +25294,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_extend_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -22767,16 +25347,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -22829,16 +25412,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -22937,16 +25523,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -22966,7 +25555,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-exactly-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-55--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-exactly-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -22984,16 +25573,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defi
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -23070,16 +25662,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -23099,7 +25694,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-aspect--syntax-------aspect--annot--javascript-call-link---abencds-f1-dcl-as-annotations-htm-------------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--javascript-call-link---abencds-cond-expr-null-v2-htm-----------is-----not-----initial--javascript-call-link---abencds-cond-expr-initial-v2-htm----------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--javascript-call-link---abencds-literal-v2-htm------at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element--output1-bypass-when-aspect-bypass-condition---------effect-defi-version---7-55--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-aspect--syntax-------aspect--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm----------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-null-v2-htm--------is-----not-----initial--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-initial-v2-htm-------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-literal-v2-htm---at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
 
 -   A component with the annotation @AccessControl.auditing.specification specifying (as text) how the content of the entity is audited.
     
@@ -23131,16 +25726,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -23181,16 +25779,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -23243,16 +25844,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -23351,16 +25955,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -23380,7 +25987,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-exactly-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-55--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-exactly-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -23398,16 +26005,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defi
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -23484,16 +26094,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -23513,7 +26126,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-aspect--syntax-------aspect--annot--javascript-call-link---abencds-f1-dcl-as-annotations-htm-------------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--javascript-call-link---abencds-cond-expr-null-v2-htm-----------is-----not-----initial--javascript-call-link---abencds-cond-expr-initial-v2-htm----------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--javascript-call-link---abencds-literal-v2-htm------at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element--output1-bypass-when-aspect-bypass-condition---------effect-defi-version---7-55--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-aspect--syntax-------aspect--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm----------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-null-v2-htm--------is-----not-----initial--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-initial-v2-htm-------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-literal-v2-htm---at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
 
 -   A component with the annotation @AccessControl.auditing.specification specifying (as text) how the content of the entity is audited.
     
@@ -23545,16 +26158,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -23595,16 +26211,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -23657,16 +26276,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -23765,16 +26387,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -23794,7 +26419,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-exactly-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-55--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-exactly-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -23812,16 +26437,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defi
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -23898,16 +26526,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -23927,7 +26558,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-aspect--syntax-------aspect--annot--javascript-call-link---abencds-f1-dcl-as-annotations-htm-------------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--javascript-call-link---abencds-cond-expr-null-v2-htm-----------is-----not-----initial--javascript-call-link---abencds-cond-expr-initial-v2-htm----------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--javascript-call-link---abencds-literal-v2-htm------at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element--output1-bypass-when-aspect-bypass-condition---------effect-defi-version---7-55--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-aspect--syntax-------aspect--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm----------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-null-v2-htm--------is-----not-----initial--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-initial-v2-htm-------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-literal-v2-htm---at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
 
 -   A component with the annotation @AccessControl.auditing.specification specifying (as text) how the content of the entity is audited.
     
@@ -23959,16 +26590,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -24009,16 +26643,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -24071,16 +26708,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -24179,16 +26819,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -24208,7 +26851,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-exactly-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-55--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-is-relevant-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-exactly-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping--------addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---hint--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists---example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -24226,16 +26869,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defi
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -24312,19 +26958,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm)
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -24344,7 +26990,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------cds-dcl---define-aspect--syntax-------aspect--annot--javascript-call-link---abencds-f1-dcl-as-annotations-htm-------------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--javascript-call-link---abencds-cond-expr-null-v2-htm-----------is-----not-----initial--javascript-call-link---abencds-cond-expr-initial-v2-htm----------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--javascript-call-link---abencds-literal-v2-htm------at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element--output1-bypass-when-aspect-bypass-condition---------effect-defi-version---7-55--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-755---copyright-2020-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm------cds-dcl---define-aspect--syntax-------aspect--annot--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-dcl-as-annotations-htm----------define-----aspect-aspect-as-select-from-aspect--entity---with-user-element-user--element-------output1-----bypass-when-aspect--bypass--condition---------------------------effect--defines-a-self-defined-aspect-aspect-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-self-defined-aspect-must-be-the-same-as-the-name-of-the-cds-access-policy---the-definition-of-a-self-defined-aspect-contains-the-following-------an-aspect-entity-aspect--entity--specified-after-the-name-aspect--which-is-used-as-a-data-source-------an-element-user--element-of-the-aspect-entity-that-is-used-as-the-input-field-for-the-user-name-of-the-logged-on-user-------a-comma-separated-list-that-specifies-the-output-fields-output1--output2------of-the-generic-aspect--the-specified-order-applies-------any-number-of-the-output-fields-can-be-tagged-with-a-condition-using-the-addition-bypass-when-aspect--bypass--condition--typical-bypass-values-are----or-an-empty-value---the-following-are-possible-as-bypass-conditions-aspect--bypass--condition--------is-----not-----null--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-null-v2-htm--------is-----not-----initial--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-cond-expr-initial-v2-htm-------is-initial-or-null-----is-met-if-the-value-of-the-aspect-is-null-or-the-type-compliant-initial-value-----------literal--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-literal-v2-htm---at-runtime--the-field-user--element-is-filled-with-the-user-name-of-the-current-user--the-rows-produced-in-the-aspect-entity-are-matched-with-their-output-fields-in-the-specified-order-and-with-the-elements-on-the-left-side-of-the-access-condition-to-which-the-self-defined-aspect-is-assigned--this-means-those-rows-in-the-protected-entity-meet-the-condition-for-which-a-row-exists-for-the-current-user-in-the-aspect-entity---when-the-bypass-condition-is-used--the-match-with-this-field-is-not-used-if-this-condition-exists-in-a-row-of-the-aspect-entity--a-specified-value--therefore---such-as-an-asterisk-----can-be-used-to-indicate-that-any-values-of-the-protected-entity-are-allowed---special-requirements-in-the-aspect-entity--the-content-of-the-aspect-entity-has-a-particular-relevance-for-audits-by-being-used-in-a-self-defined-aspect-in-access-control---to-determine-which-user-had-access-to-particular-data-at-a-particular-time-in-a-system--it-must-be-possible-to-reconstruct-the-state-of-the-data-of-the-aspect-entity--existing-mechanisms--such-as-version-management-or-change-documents--cover-this-requirement-in-the-case-of-development-objects-or-pfcg-roles--whereas-aspect-entities-may-freely-specify-their-data-sources-and-cannot-control-whether-these-sources-are-themselves-auditable---the-development-and-runtime-systems-for-cds-access-control-cannot-check-whether-data-sources-are-auditable--to-emphasize-this-requirement--however--the-aspect-entity-must-have-the-following-annotations-------an-auditing-type-with-the-annotation-AccessControl.auditing.type. Currently only the value #CUSTOM is possible.
 
 -   A component with the annotation @AccessControl.auditing.specification specifying (as text) how the content of the entity is audited.
     

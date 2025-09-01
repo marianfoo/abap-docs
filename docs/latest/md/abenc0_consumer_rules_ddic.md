@@ -1,4 +1,14 @@
-  
+---
+title: "Naming Rules"
+description: |
+  -   All extension field names must start with the correct namespace prefix(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennames_repos_obj_guidl.htm 'Guideline'). -   All extension fields must have the element suffix that is defined in the released API by means of the annotatio
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_ddic.htm"
+abapFile: "abenc0_consumer_rules_ddic.htm"
+keywords: ["do", "if", "try", "data", "types", "abenc0", "consumer", "rules", "ddic"]
+---
 
 * * *
 
@@ -20,10 +30,8 @@ The [provider rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/e
 
 The following sections list rules for extensions to released APIs that must be considered when creating an extension.
 
--   [Naming Rules](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_1)
--   [Rules for Extensions](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_2)
--   [Rules for Using Released DDIC Objects](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_3)
--   [Restrictions](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_4)
+-   [Naming Rules](#abenc0-consumer-rules-ddic-1-------rules-for-extensions---@ITOC@@ABENC0_CONSUMER_RULES_DDIC_2)
+-   [Rules for Using Released DDIC Objects](#abenc0-consumer-rules-ddic-3-------restrictions---@ITOC@@ABENC0_CONSUMER_RULES_DDIC_4)
 
 Naming Rules   
 

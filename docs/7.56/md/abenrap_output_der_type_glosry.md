@@ -1,4 +1,14 @@
-  
+---
+title: "RAP output derived type"
+description: |
+  BDEF derived type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') that is used for changing parameters in methods in the ABP(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry').
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_output_der_type_glosry.htm"
+abapFile: "abenrap_output_der_type_glosry.htm"
+keywords: ["do", "try", "method", "abenrap", "output", "der", "type", "glosry"]
+---
 
 * * *
 

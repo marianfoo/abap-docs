@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Adding Elements"
+description: |
+  Syntax ... determination(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determinations.htm) validation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_validations.htm) field characteristics(https://help.sap.com/doc/abapdocu_757_index_h
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_new_elem_ext.htm"
+abapFile: "abenbdl_new_elem_ext.htm"
+keywords: ["insert", "update", "delete", "loop", "do", "while", "if", "try", "method", "class", "data", "abenbdl", "new", "elem", "ext"]
+---
 
 * * *
 

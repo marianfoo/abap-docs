@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE ABSTRACT ENTITY"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) ... DEFINE ROOT ABSTRACT EN
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_abstract_entity.htm"
+abapFile: "abencds_f1_define_abstract_entity.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abencds", "define", "abstract", "entity"]
+---
 
 * * *
 

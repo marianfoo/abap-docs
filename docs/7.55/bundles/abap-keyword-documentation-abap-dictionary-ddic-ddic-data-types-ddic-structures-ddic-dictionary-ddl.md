@@ -5,7 +5,17 @@ Included pages: 11
 
 ### abenddic_define_structure.htm
 
-  
+---
+title: "DDIC - Dictionary DDL for Structure Definitions"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm 'Glossary Entry'), a structure can be displayed and modified using source-code-based methods in the Dictionary DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendict
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_structure.htm"
+abapFile: "abenddic_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddic", "define", "structure"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abenddicddl_define_structure.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm) DEFINE STRUCTURE struct  ... component;(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm) ... include;(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm"
+abapFile: "abenddicddl_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddicddl", "define", "structure"]
+---
 
 * * *
 
@@ -89,7 +109,17 @@ Continue
 
 ### abenddicddl_define_struct_props.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.enhancementCategory : enh_cat Effect Mandatory annotations for specifying structure properties in the definition of a DDIC structure using the statement DEFINE STRUCTURE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm"
+abapFile: "abenddicddl_define_struct_props.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "props"]
+---
 
 * * *
 
@@ -133,7 +163,17 @@ Hints
 
 ### abenddicddl_define_struct_comps.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, component"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_srprps.htm) KEY comp :
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 
@@ -207,7 +247,17 @@ Continue
 
 ### abenddicddl_define_struct_cmpprps.htm
 
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.decfloat.outputStyle : style  @Semantics.amount.currencyCode : 'struct.comp' @Semantics.quantity.unitOfMeasure : 'struct.comp' Effect Applies annotations to specify optional properties of a component(https://help.sap.com/doc/a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_cmpprps.htm"
+abapFile: "abenddicddl_define_struct_cmpprps.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "cmpprps"]
+---
 
 * * *
 
@@ -270,7 +320,17 @@ define structure struct {
 
 ### abenddicddl_define_struct_valuhelp.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  WITH VALUE HELP value_help WHERE parameter1 = structure.component1 AND parameter2 = structure.component2 ... ... Effect Assigns a search help(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_help_glosry.htm 'Glossary Entry') to a structure component(https://hel
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm"
+abapFile: "abenddicddl_define_struct_valuhelp.htm"
+keywords: ["do", "try", "data", "types", "abenddicddl", "define", "struct", "valuhelp"]
+---
 
 * * *
 
@@ -311,7 +371,17 @@ define structure struct {
 
 ### abenddicddl_define_struct_comps.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, component"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_srprps.htm) KEY comp :
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 
@@ -385,7 +455,17 @@ Continue
 
 ### abenddicddl_define_struct_incl.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, include"
+description: |
+  Syntax group : INCLUDE struct WITH SUFFIX suffix ... extend(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_inc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm"
+abapFile: "abenddicddl_define_struct_incl.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "incl"]
+---
 
 * * *
 
@@ -437,7 +517,17 @@ Continue
 
 ### abenddicddl_define_struct_comp_ext.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, extend"
+description: |
+  Syntax ... foreign_key_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm) EXTEND component : value_help(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm) foreign_key ..
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm"
+abapFile: "abenddicddl_define_struct_comp_ext.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "comp", "ext"]
+---
 
 * * *
 
@@ -490,7 +580,17 @@ define structure struct {
 
 ### abenddicddl_define_struct_incl.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, include"
+description: |
+  Syntax group : INCLUDE struct WITH SUFFIX suffix ... extend(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_inc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm"
+abapFile: "abenddicddl_define_struct_incl.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "incl"]
+---
 
 * * *
 
@@ -542,7 +642,17 @@ Continue
 
 ### abenddicddl_define_structure.htm
 
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm) DEFINE STRUCTURE struct  ... component;(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm) ... include;(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm"
+abapFile: "abenddicddl_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddicddl", "define", "structure"]
+---
 
 * * *
 

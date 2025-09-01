@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_bigint_rsa DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. TYPES: BEGIN OF ty_key, exponent TYPE REF TO cl_abap_bigint, modulus  TYPE REF TO cl_abap_bigint, bits     TYPE
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbigint_abexa.htm"
+abapFile: "abenbigint_abexa.htm"
+keywords: ["do", "while", "if", "method", "class", "data", "types", "abenbigint", "abexa"]
+---
 
 * * *
 

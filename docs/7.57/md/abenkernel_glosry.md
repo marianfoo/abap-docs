@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP kernel"
+description: |
+  Part of the ABAP runtime framework(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_frmwk_glosry.htm 'Glossary Entry') which is primarily programmed in C/C++. In particular, ABAP statements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_statement_g
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkernel_glosry.htm"
+abapFile: "abenkernel_glosry.htm"
+keywords: ["do", "if", "try", "abenkernel", "glosry"]
+---
 
 * * *
 

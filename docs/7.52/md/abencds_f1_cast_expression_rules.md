@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric source type"
+description: |
+  Source type INT1, INT2, INT4, INT8 -   Numeric target type The possible target types are INT1, INT2, INT4, INT8, DEC, CURR, QUAN, and FLTP. -   The source value is converted to the internal representation for the target type. -   If the value range is exceeded, an exception is raised that can be cau
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression_rules.htm"
+abapFile: "abencds_f1_cast_expression_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "cast", "expression", "rules"]
+---
 
 * * *
 
@@ -10,21 +20,13 @@ ABAP CDS - cast\_expr, Conversion Rules
 
 The following sections described the conversion rules for [cast expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm) in the [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry").
 
--   [Numeric source type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_1)
+-   [Numeric source type](#abencds-f1-cast-expression-rules-1--------source-type-int1--int2--int4--int8---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
 
--   [Source type INT1, INT2, INT4, INT8](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
+-   [Source type DEC, CURR, QUAN](#abencds-f1-cast-expression-rules-3--------character-like-source-type---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
 
--   [Source type DEC, CURR, QUAN](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_3)
+-   [Source types CHAR and SSTRING](#abencds-f1-cast-expression-rules-5--------source-type-numc---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
 
--   [Character-like source type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
-
--   [Source types CHAR and SSTRING](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_5)
-
--   [Source type NUMC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
-
--   [Source types DATS and TIMS](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_7)
-
--   [Source types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_8)
+-   [Source types DATS and TIMS](#abencds-f1-cast-expression-rules-7--------source-types-clnt--lang--unit--and-cuky---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_8)
 
 Data types that cannot be converted to each other are not specified. In these cases, casts are either not possible or only casts between type-friendly operands. If the source type and the target type are technically identical, the content is transferred without being converted.
 

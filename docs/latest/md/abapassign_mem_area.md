@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... static_dobj(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area_static_dobj.htm)  dynamic_dobj(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area_dynamic_dobj.htm)  dynamic_components(https://help.sap.com/doc/abapdoc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area.htm"
+abapFile: "abapassign_mem_area.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abapassign", "mem", "area"]
+---
 
 * * *
 

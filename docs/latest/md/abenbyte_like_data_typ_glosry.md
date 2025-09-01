@@ -1,4 +1,14 @@
-  
+---
+title: "byte_like_data_typ_glosry"
+description: |
+  byte_like_data_typ_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm"
+abapFile: "abenbyte_like_data_typ_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbyte", "like", "typ", "glosry"]
+---
 
 * * *
 

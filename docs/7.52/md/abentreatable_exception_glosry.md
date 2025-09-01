@@ -1,4 +1,14 @@
-  
+---
+title: "treatable_exception_glosry"
+description: |
+  treatable_exception_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentreatable_exception_glosry.htm"
+abapFile: "abentreatable_exception_glosry.htm"
+keywords: ["do", "try", "catch", "method", "class", "abentreatable", "exception", "glosry"]
+---
 
 * * *
 

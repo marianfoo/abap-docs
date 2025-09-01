@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for ABAP EML GET PERMISSIONS"
+description: |
+  !Example(exa.gif 'Example') ABAP EML - GET PERMISSIONS, Variants(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenget_perm_forms_abexa.htm) !Example(exa.gif 'Example') ABAP EML - GET PERMISSIONS, only_clause(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenget_pe
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenget_permissions_abexas.htm"
+abapFile: "abenget_permissions_abexas.htm"
+keywords: ["do", "if", "abenget", "permissions", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "PRINT-CONTROL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapprint-control.htm) Syntax PRINT-CONTROL    INDEX-LINE index_line    formatsFUNCTION code LINE line POSITION col . Effect Creates index entries for list archiving or sets a print format (ob
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapprint-control_shortref.htm"
+abapFile: "abapprint-control_shortref.htm"
+keywords: ["insert", "do", "if", "abapprint", "control", "shortref"]
+---
 
 * * *
 

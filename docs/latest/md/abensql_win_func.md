@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... AVG(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_aggregate.htm)( col(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_columns.htm) AS dtype(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_avg_as.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_win_func.htm"
+abapFile: "abensql_win_func.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "class", "data", "types", "abensql", "win", "func"]
+---
 
 * * *
 

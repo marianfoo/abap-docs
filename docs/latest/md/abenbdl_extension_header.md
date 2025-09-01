@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - BDEF Extension Header"
+description: |
+  Syntax ... implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_in_class_unique_ext.htm); with privileged mode disabling ContextName(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_privileged_mode_ext
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extension_header.htm"
+abapFile: "abenbdl_extension_header.htm"
+keywords: ["do", "if", "try", "class", "abenbdl", "extension", "header"]
+---
 
 * * *
 

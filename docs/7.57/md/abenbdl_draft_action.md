@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - draft action"
+description: |
+  Syntax internal draft action ( authorization:none(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_actions_auth.htm), features: instance(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_actions_fc.htm)) Edit with addi
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_action.htm"
+abapFile: "abenbdl_draft_action.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "draft", "action"]
+---
 
 * * *
 

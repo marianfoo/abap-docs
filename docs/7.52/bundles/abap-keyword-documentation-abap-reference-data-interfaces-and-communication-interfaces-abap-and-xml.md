@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abencall_transformation_abexas.htm
 
-  
+---
+title: "CALL TRANSFORMATION - Examples"
+description: |
+  !Example(exa.gif 'Example') XML Sources of Transformations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_trafo_sources_abexa.htm) !Example(exa.gif 'Example') XML Targets of Transformations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_trafo_results
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_transformation_abexas.htm"
+abapFile: "abencall_transformation_abexas.htm"
+keywords: ["do", "if", "data", "abencall", "transformation", "abexas"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abencall_trafo_sources_abexa.htm
 
-  
+---
+title: "XML Sources of Transformations"
+description: |
+  This example demonstrates the possible XML sources of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm). Source Code REPORT demo_call_trafo_xml_sources. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_trafo_sources_abexa.htm"
+abapFile: "abencall_trafo_sources_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencall", "trafo", "sources", "abexa"]
+---
 
 * * *
 
@@ -230,7 +250,17 @@ The [identity transformation](https://help.sap.com/doc/abapdocu_752_index_htm/7.
 
 ### abencall_trafo_results_abexa.htm
 
-  
+---
+title: "XML Targets of Transformations"
+description: |
+  This example demonstrates the possible XML targets of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm). Source Code REPORT demo_call_trafo_xml_results. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_trafo_results_abexa.htm"
+abapFile: "abencall_trafo_results_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencall", "trafo", "results", "abexa"]
+---
 
 * * *
 
@@ -354,7 +384,17 @@ The [identity transformation](https://help.sap.com/doc/abapdocu_752_index_htm/7.
 
 ### abenabap_deserl_no_elem_abexa.htm
 
-  
+---
+title: "Deserializing Missing Elements"
+description: |
+  This example demonstrates the deserialization of empty elements. Source Code REPORT demo_asxml_asjson_no_vals. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( )->begin_section( `asXML` ). DATA elem
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_deserl_no_elem_abexa.htm"
+abapFile: "abenabap_deserl_no_elem_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "deserl", "elem", "abexa"]
+---
 
 * * *
 
@@ -480,7 +520,17 @@ The modification of XML and JSON data using string processing is only shown here
 
 ### abenabap_deserl_empt_elem_abexa.htm
 
-  
+---
+title: "Deserializing Empty Elements"
+description: |
+  This example demonstrates the deserialization of empty elements. Source Code REPORT demo_asxml_asjson_empty_vals. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( )->begin_section( `asXML` ). DATA e
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_deserl_empt_elem_abexa.htm"
+abapFile: "abenabap_deserl_empt_elem_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "deserl", "empt", "elem", "abexa"]
+---
 
 * * *
 
@@ -608,7 +658,17 @@ The modification of XML and JSON data using string processing is only shown here
 
 ### abencall_trafo_escaping_abexa.htm
 
-  
+---
+title: "Transformation of XML Syntax Characters"
+description: |
+  This example demonstrates the serialization of characters from the XML syntax using various transformations. Source Code REPORT demo_transformation_escaping. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA xml TYPE string. DATA(text
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_trafo_escaping_abexa.htm"
+abapFile: "abencall_trafo_escaping_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abencall", "trafo", "escaping", "abexa"]
+---
 
 * * *
 
@@ -678,7 +738,17 @@ The results of the simple transformation DEMO\_ESCAPING\_ST match the XSL transf
 
 ### abencall_trafo_upper_lower_abexa.htm
 
-  
+---
+title: "Transformation of XML Element Names"
+description: |
+  This example demonstrates the transformation of letters in XML element names. Source Code REPORT demo_trafo_upper_lower. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). DATA: BEGIN OF simple_struc,
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_trafo_upper_lower_abexa.htm"
+abapFile: "abencall_trafo_upper_lower_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencall", "trafo", "upper", "lower", "abexa"]
+---
 
 * * *
 

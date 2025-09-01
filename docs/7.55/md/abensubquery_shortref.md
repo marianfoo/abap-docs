@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( SELECT  ... FROM ...    FROM ... FIELDS ...  WHERE sql_cond(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_cond_shortref.htm) GROUP BY ... HAVING sql_cond(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_cond_shortr
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubquery_shortref.htm"
+abapFile: "abensubquery_shortref.htm"
+keywords: ["select", "insert", "do", "try", "data", "abensubquery", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  sql_func - Conversion Functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_conversion_functions.htm) sql_func - Date Functions and Time Functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_date_time_functions.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_special_functions.htm"
+abapFile: "abenabap_sql_special_functions.htm"
+keywords: ["do", "if", "data", "abenabap", "sql", "special", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Categories"
+description: |
+  Exception classes are subclasses of the following abstract classes: -   CX_ROOT -   CX_STATIC_CHECK -   CX_DYNAMIC_CHECK -   CX_NO_CHECK The assignment to one of the three abstract subclasses of CX_ROOT determines the exception category, that is, whether an exception must be declared explici
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexception_categories.htm"
+abapFile: "abenexception_categories.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "exception-handling", "abenexception", "categories"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data Types"
+description: |
+  Data types are a subtree of the ABAP type hierarchy(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentypes_objects_oview.htm). Data types are only type descriptions. They do not have any attached memory for storing working data, but they may require space for administration informati
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_types.htm"
+abapFile: "abendata_types.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "field-symbol", "abendata"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_template_width DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_str_template_width IMPLEMENTATION. METHOD main. TYPES result TYPE
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_width_abexa.htm"
+abapFile: "abenstring_template_width_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenstring", "template", "width", "abexa"]
+---
 
 * * *
 

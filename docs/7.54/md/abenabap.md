@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Keyword Documentation"
+description: |
+  This documentation describes the syntax and meaning of the keywords of the ABAP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glosry.htm 'Glossary Entry') language and its object-oriented part ABAP Objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm"
+abapFile: "abenabap.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Service Binding"
+description: |
+  SB for short. A service binding is a repository object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that binds a CDS service definition(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_service_definition_glosry.ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenservice_binding_glosry.htm"
+abapFile: "abenservice_binding_glosry.htm"
+keywords: ["do", "try", "data", "abenservice", "binding", "glosry"]
+---
 
 * * *
 

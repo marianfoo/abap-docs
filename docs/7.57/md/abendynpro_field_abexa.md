@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_field. DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, box1(1) TYPE c, box2(1) TYPE c, box3(1) TYPE c, box4(1) TYPE c, mod1_result1(1) TYPE c, mod1_result2(1) TYPE c, mod1_result3(1) TYPE c, mod1_result4(1) TYPE c, mod2_result1(1) TYPE c, mod2_result2(1) TYPE c, mod
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_field_abexa.htm"
+abapFile: "abendynpro_field_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "field", "abexa"]
+---
 
 * * *
 

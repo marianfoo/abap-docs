@@ -1,4 +1,14 @@
-  
+---
+title: "Dictionary DDL for Structure Definitions"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadt_glosry.htm 'Glossary Entry'), a structure can be displayed and modified using source-code-based methods in the Dictionary DDL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendict
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_define_structure.htm"
+abapFile: "abenddic_define_structure.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddic", "define", "structure"]
+---
 
 * * *
 

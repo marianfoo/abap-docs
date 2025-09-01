@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter EXPORTING splitter_name = 'SPLITTER'. CALL SCREEN 100. MODULE set_status OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODULE set_sash OUTPUT. splitter->set_sash(
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 

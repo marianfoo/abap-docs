@@ -1,4 +1,14 @@
-  
+---
+title: "PRINT-CONTROL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprint-control_shortref.htm) Syntax PRINT-CONTROL INDEX-LINE index_line. Effect In spool lists, this statement creates index entries for optical archiving using ArchiveLink(https://help.sap.com/doc/abapdocu_755_index_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprint-control.htm"
+abapFile: "abapprint-control.htm"
+keywords: ["select", "insert", "do", "if", "try", "class", "data", "abapprint", "control"]
+---
 
 * * *
 

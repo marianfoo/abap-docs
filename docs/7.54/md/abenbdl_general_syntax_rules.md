@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - General Syntax Rules"
+description: |
+  Following rules apply for the ABAP Behavior Definition Language (BDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_glosry.htm 'Glossary Entry')) syntax: Keywords -   Keywords must be all lowercase letter. Example: Create or CreaTe are both invalid keywords. create,, however, i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_general_syntax_rules.htm"
+abapFile: "abenbdl_general_syntax_rules.htm"
+keywords: ["do", "case", "try", "abenbdl", "general", "syntax", "rules"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Integer Power Function ipow"
+description: |
+  This example demonstrates the integer power function ipow(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpower_function.htm). Source Code REPORT demo_ipow. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA n TYPE i. D
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenipow_function_abexa.htm"
+abapFile: "abenipow_function_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenipow", "function", "abexa"]
+---
 
 * * *
 

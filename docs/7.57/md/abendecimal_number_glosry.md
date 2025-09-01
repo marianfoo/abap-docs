@@ -1,4 +1,14 @@
-  
+---
+title: "decimal_number_glosry"
+description: |
+  decimal_number_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendecimal_number_glosry.htm"
+abapFile: "abendecimal_number_glosry.htm"
+keywords: ["do", "if", "try", "abendecimal", "number", "glosry"]
+---
 
 * * *
 

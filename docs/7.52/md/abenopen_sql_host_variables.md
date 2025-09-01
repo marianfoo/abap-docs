@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Host Variables"
+description: |
+  Syntax ... @dobj ... Effect Host variables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhost_variable_glosry.htm 'Glossary Entry') are global or local variables (usually variables) dobj declared in the ABAP program that are used in operand positions of Open SQL statements. Instea
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm"
+abapFile: "abenopen_sql_host_variables.htm"
+keywords: ["select", "do", "if", "try", "data", "field-symbol", "abenopen", "sql", "host", "variables"]
+---
 
 * * *
 

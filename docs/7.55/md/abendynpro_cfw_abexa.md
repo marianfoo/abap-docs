@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  &--------------------------------------------------------------------- & Report  demo_cfw                                                     &--------------------------------------------------------------------- REPORT demo_cfw. &-----------------------------------------------------
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_cfw_abexa.htm"
+abapFile: "abendynpro_cfw_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abendynpro", "cfw", "abexa"]
+---
 
 * * *
 

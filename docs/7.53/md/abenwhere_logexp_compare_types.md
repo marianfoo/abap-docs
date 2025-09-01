@@ -1,4 +1,14 @@
-  
+---
+title: "DEC"
+description: |
+  CURR QUAN FLTP DF16_DEC DF16_RAW DF34_DEC DF34_RAW CHAR NUMC CLNT LANG DATS TIMS ACCP UNIT CUKY SSTRING RAW INT1 x x x x x x x - y - y - - - - - - - - - - - - INT2 x x x x x x x - y - y - - - - - - - - - - - - INT4 x x x x x x x - y - y - - - - - - - - - -
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_compare_types.htm"
+abapFile: "abenwhere_logexp_compare_types.htm"
+keywords: ["select", "do", "if", "case", "data", "types", "abenwhere", "logexp", "compare"]
+---
 
 * * *
 

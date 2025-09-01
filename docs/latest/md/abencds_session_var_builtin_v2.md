@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Built-In Session Variables"
+description: |
+  Syntax ... $session.vname ... Effect Specifies a built-in session variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensession_variable_glosry.htm 'Glossary Entry') vname in an operand position in a SELECT statement(https://help.sap.com/doc/abapdocu_latest_index_htm/lates
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_session_var_builtin_v2.htm"
+abapFile: "abencds_session_var_builtin_v2.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abencds", "session", "var", "builtin"]
+---
 
 * * *
 

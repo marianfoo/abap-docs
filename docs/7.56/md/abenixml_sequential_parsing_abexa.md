@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_parsing_sequential. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS handle_errors IMPORTING parser TYPE REF TO if_ixml_parser. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. DATA(out)            = cl_demo_output=>new(
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenixml_sequential_parsing_abexa.htm"
+abapFile: "abenixml_sequential_parsing_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "abenixml", "sequential", "parsing", "abexa"]
+---
 
 * * *
 

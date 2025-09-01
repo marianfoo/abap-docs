@@ -1,4 +1,14 @@
-  
+---
+title: "NEW-LINE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-line.htm) Syntax NEW-LINE NO-SCROLLINGSCROLLING. Effect Creates a new line in a list. Additions -   NO-SCROLLING The new line cannot be moved horizontally in the screen display. -   SCROLLING Undoes the additio
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-line_shortref.htm"
+abapFile: "abapnew-line_shortref.htm"
+keywords: ["do", "if", "abapnew", "line", "shortref"]
+---
 
 * * *
 

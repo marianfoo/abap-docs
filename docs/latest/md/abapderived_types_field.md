@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %field is a component group(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used to retu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_field.htm"
+abapFile: "abapderived_types_field.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abapderived", "field"]
+---
 
 * * *
 

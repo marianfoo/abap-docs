@@ -1,4 +1,14 @@
-  
+---
+title: "GET PROPERTY, OLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_property_shortref.htm) Syntax GET PROPERTY OF ole prop = dobj NO FLUSH QUEUE-ONLY EXPORTING p1 = f1 p2 = f2 .... Additions: 1. ... NO FLUSH(#!ABAP_ADDITION_1@1@) 2. ... QUEUE-ONLY(#!ABA
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_property.htm"
+abapFile: "abapget_property.htm"
+keywords: ["do", "if", "try", "data", "abapget", "property"]
+---
 
 * * *
 

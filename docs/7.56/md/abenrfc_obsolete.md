@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Transactional RFC"
+description: |
+  -   CALL FUNCTION - IN BACKGROUND TASK(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm) Hint Transactional remote function call (tRFC)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrfc_1_glosry.htm 'Glossary Entry') and its enhan
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm"
+abapFile: "abenrfc_obsolete.htm"
+keywords: ["do", "try", "data", "abenrfc", "obsolete"]
+---
 
 * * *
 

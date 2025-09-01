@@ -1,4 +1,14 @@
-  
+---
+title: "c1_provider_rules_elem"
+description: |
+  c1_provider_rules_elem - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_elem.htm"
+abapFile: "abenc1_provider_rules_elem.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenc1", "provider", "rules", "elem"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "JSON-XML - XML Representation of JSON"
+description: |
+  JSON XML is an SAP-specific representation of JSON(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm 'Glossary Entry') data in XML format. The single values(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_oview.htm), arrays(https://help.sap.com/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_xml.htm"
+abapFile: "abenabap_json_xml.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "json", "xml"]
+---
 
 * * *
 
@@ -12,14 +22,10 @@ JSON-XML - XML Representation of JSON
 
 JSON XML is an SAP-specific representation of [JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm "Glossary Entry") data in XML format. The [single values](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_oview.htm), [arrays](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_oview.htm), and [objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_oview.htm) in JSON are represented as follows in XML.
 
--   [Single Values](#@@ITOC@@ABENABAP_JSON_XML_1)
-    -   [Character-Like Values](#@@ITOC@@ABENABAP_JSON_XML_2)
-    -   [Number Values](#@@ITOC@@ABENABAP_JSON_XML_3)
-    -   [Boolean Values](#@@ITOC@@ABENABAP_JSON_XML_4)
-    -   [Null Values](#@@ITOC@@ABENABAP_JSON_XML_5)
--   [Data Structures](#@@ITOC@@ABENABAP_JSON_XML_6)
-    -   [Arrays](#@@ITOC@@ABENABAP_JSON_XML_7)
-    -   [Objects](#@@ITOC@@ABENABAP_JSON_XML_8)
+-   [Single Values](#abenabap-json-xml-1-----------character-like-values---@ITOC@@ABENABAP_JSON_XML_2)
+    -   [Number Values](#abenabap-json-xml-3-----------boolean-values---@ITOC@@ABENABAP_JSON_XML_4)
+    -   [Null Values](#abenabap-json-xml-5-------data-structures---@ITOC@@ABENABAP_JSON_XML_6)
+    -   [Arrays](#abenabap-json-xml-7-----------objects---@ITOC@@ABENABAP_JSON_XML_8)
 
 Single Values   
 

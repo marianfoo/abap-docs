@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  ts_func - utclong_current(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutclong_current.htm) ts_func - utclong_add(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutclong_add.htm) ts_func - utclong_diff(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentimestamp_functions.htm"
+abapFile: "abentimestamp_functions.htm"
+keywords: ["do", "if", "try", "data", "abentimestamp", "functions"]
+---
 
 * * *
 

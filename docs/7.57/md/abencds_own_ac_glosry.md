@@ -1,4 +1,14 @@
-  
+---
+title: "RAP own authorization context"
+description: |
+  A container for authorization objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenauthorization_object_glosry.htm 'Glossary Entry') that lists one or more authorization objects. Specified using the syntax define own authorization context(https://help.sap.com/doc/abapdocu_757_i
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_own_ac_glosry.htm"
+abapFile: "abencds_own_ac_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "own", "glosry"]
+---
 
 * * *
 

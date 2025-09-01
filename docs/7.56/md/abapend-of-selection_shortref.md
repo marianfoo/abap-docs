@@ -1,4 +1,14 @@
-  
+---
+title: "END-OF-SELECTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-selection.htm) Syntax END-OF-SELECTION. Effect Obsolete: Initiates an event block whose event is raised in executable programs(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-selection_shortref.htm"
+abapFile: "abapend-of-selection_shortref.htm"
+keywords: ["select", "do", "try", "data", "abapend", "selection", "shortref"]
+---
 
 * * *
 

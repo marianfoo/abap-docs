@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenconstructor_expression_reduce.htm
 
-  
+---
+title: "REDUCE, Reduction Operator"
+description: |
+  Syntax ... REDUCE type( let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) INIT x1 = rhs1<x1> = wrexpr1x1<x1> TYPE dtype1 x2 = rhs2<x2> = wrexpr2x2<x2> TYPE dtype2 ... FOR for_exp1(https://help.sap.com/d
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_reduce.htm"
+abapFile: "abenconstructor_expression_reduce.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "field-symbol", "abenconstructor", "expression", "reduce"]
+---
 
 * * *
 
@@ -105,7 +115,17 @@ Continue
 
 ### abenreduce_constructor_inference.htm
 
-  
+---
+title: "REDUCE, Type Inference for Actual Parameter"
+description: |
+  If a constructor expression REDUCE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_reduce.htm) #( ... INIT ... FOR ... ) is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the followi
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreduce_constructor_inference.htm"
+abapFile: "abenreduce_constructor_inference.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenreduce", "constructor", "inference"]
+---
 
 * * *
 
@@ -166,7 +186,17 @@ Executable Example
 
 ### abenreduce_type_inference_abexa.htm
 
-  
+---
+title: "Reduce Operator, Type Inference"
+description: |
+  This example demonstrates a type inference for the conversion operator REDUCE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_reduce.htm). Source Code  Public class definition CLASS cl_demo_reduce_type_inference DEFINITION INHERITING FROM cl_demo_class
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreduce_type_inference_abexa.htm"
+abapFile: "abenreduce_type_inference_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "abenreduce", "type", "inference", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "The Boolean operators"
+description: |
+  -   AND(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_and.htm) -   OR(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_or.htm) -   EQUIV(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_equiv.htm) join logical expressions; the o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_boole.htm"
+abapFile: "abenlogexp_boole.htm"
+keywords: ["do", "if", "case", "try", "method", "field-symbol", "abenlogexp", "boole"]
+---
 
 * * *
 

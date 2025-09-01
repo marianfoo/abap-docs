@@ -1,4 +1,14 @@
-  
+---
+title: "ENDIF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapif_shortref.htm) Syntax ENDIF. Effect See IF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapif.htm).
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendif.htm"
+abapFile: "abapendif.htm"
+keywords: ["do", "if", "abapendif"]
+---
 
 * * *
 

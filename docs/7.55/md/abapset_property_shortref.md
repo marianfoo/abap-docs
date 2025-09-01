@@ -1,4 +1,14 @@
-  
+---
+title: "SET PROPERTY, OLE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_property.htm) Syntax SET PROPERTY OF ole attr = dobj NO FLUSH EXPORTING p1 = f1 p2 = f2 .... Effect Assigns the content of the data object dobj to the attribute attr of an automation object(https://help.
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_property_shortref.htm"
+abapFile: "abapset_property_shortref.htm"
+keywords: ["do", "try", "data", "abapset", "property", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions in Regular Expressions"
+description: |
+  If a regular expression has correct syntax but is too complex, it cannot be executed by the Boost.Regex Library(http://www.boost.org/doc/libs/1_31_0/libs/regex/doc/index.html) that is integrated in the ABAP kernel(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkernel_glosry.htm '
+version: "7.54"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenregex_exceptions.htm"
+abapFile: "abenregex_exceptions.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenregex", "exceptions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "modification_group_glosry"
+description: |
+  modification_group_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodification_group_glosry.htm"
+abapFile: "abenmodification_group_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenmodification", "group", "glosry"]
+---
 
 * * *
 

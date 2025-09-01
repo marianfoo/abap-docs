@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... RESULT result_tab ... Effect Used to store results of the following operations in an internal table result_tab: -   All READ(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_entity_entities_op.htm) operations. -   A MODIFY(https://help.sap.com/doc/abapdocu_758_index_htm/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_result.htm"
+abapFile: "abapeml_result.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abapeml", "result"]
+---
 
 * * *
 

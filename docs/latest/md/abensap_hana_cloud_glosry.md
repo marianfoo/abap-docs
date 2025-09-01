@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA Cloud"
+description: |
+  Cloud-native data management platform based on the SAP HANA Cloud database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_cloud_db_glosry.htm 'Glossary Entry'). → More about(https://saphanajourney.com/hana-cloud/)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_cloud_glosry.htm"
+abapFile: "abensap_hana_cloud_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensap", "hana", "cloud", "glosry"]
+---
 
 * * *
 

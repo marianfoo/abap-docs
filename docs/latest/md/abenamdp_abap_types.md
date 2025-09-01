@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Macro for ABAP Types"
+description: |
+  Syntax ... '$ABAP.type( name = abap_type )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') $ABAP.type for an ABAP type. In an AMDP method implemented in SQLScript, the AMDP macro $ABAP.
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_abap_types.htm"
+abapFile: "abenamdp_abap_types.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenamdp", "abap"]
+---
 
 * * *
 

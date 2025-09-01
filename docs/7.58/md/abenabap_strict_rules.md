@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Rules for ABAP Cloud"
+description: |
+  ABAP Cloud development is restricted as follows compared to classic ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_abap_glosry.htm 'Glossary Entry'): -   Only the restricted ABAP language version(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrestrict
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_strict_rules.htm"
+abapFile: "abenabap_strict_rules.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "strict", "rules"]
+---
 
 * * *
 

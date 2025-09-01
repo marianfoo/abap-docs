@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXPORTING  p1 = a1 p2 = a2 ... EXCEPTIONS exc1 = n1 exc2 = n2 ... OTHERS = n_others. Effect The additions EXPORTING and EXCEPTIONS are used to pass actual parameters to the instance constructor statically or to assign return values to non-class-based exceptions. -   When
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_parameters.htm"
+abapFile: "abapcreate_object_parameters.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapcreate", "object", "parameters"]
+---
 
 * * *
 

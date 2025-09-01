@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abendeclarations_spcl.htm
 
-  
+---
+title: "Special Declarations"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   INFOTYPES(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinfotypes.htm) INFOTYPES(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinfotypes.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclarations_spcl.htm"
+abapFile: "abendeclarations_spcl.htm"
+keywords: ["do", "data", "types", "abendeclarations", "spcl"]
+---
 
 * * *
 
@@ -25,7 +35,17 @@ Continue
 
 ### abapinfotypes.htm
 
-  
+---
+title: "INFOTYPES"
+description: |
+  This statement should be used by specialists only. In-depth knowledge of the corresponding environment is essential. This environment is not part of ABAP and is not documented here. Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinfotypes_shortref.htm) Syntax INFOTY
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinfotypes.htm"
+abapFile: "abapinfotypes.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "class", "data", "types", "internal-table", "abapinfotypes"]
+---
 
 * * *
 

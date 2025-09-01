@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE VIEW"
+description: |
+  Syntax @AbapCatalog.sqlViewName: 'CDS_DB_VIEW'(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm) @view_annot1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm) @view_annot2(https:/
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm"
+abapFile: "abencds_f1_define_view.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "define", "view"]
+---
 
 * * *
 

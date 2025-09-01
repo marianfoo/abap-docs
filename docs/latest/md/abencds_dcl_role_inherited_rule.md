@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  GRANT SELECT ON cds_entity INHERIT parent_role ANDOR cds_cond(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_cond_expr.htm) ...; Effect Obsolete inherited access rule in the statement DEFINE ROLE(https://help.sap.com/doc/abapdocu_latest_index_htm/l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_inherited_rule.htm"
+abapFile: "abencds_dcl_role_inherited_rule.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "dcl", "role", "inherited", "rule"]
+---
 
 * * *
 

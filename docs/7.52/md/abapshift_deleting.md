@@ -1,4 +1,14 @@
-  
+---
+title: "SHIFT - deleting"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift_shortref.htm) Syntax ...  LEFT DELETING LEADING  RIGHT DELETING TRAILING  mask ... Effect If these additions are used, the statement SHIFT shifts the content of dobj by one place to the left o
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift_deleting.htm"
+abapFile: "abapshift_deleting.htm"
+keywords: ["do", "if", "case", "try", "data", "abapshift", "deleting"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Static data object"
+description: |
+  A data object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm 'Glossary Entry') for which all attributes, including memory consumption, are specified as static by the data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.h
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_data_object_glosry.htm"
+abapFile: "abenstatic_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenstatic", "object", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "UNPACK - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunpack.htm) Syntax UNPACK source TO destination. Effect Assigns the digits of a packed number source to the character-like variable destination.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunpack_shortref.htm"
+abapFile: "abapunpack_shortref.htm"
+keywords: ["do", "if", "abapunpack", "shortref"]
+---
 
 * * *
 

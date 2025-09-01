@@ -1,4 +1,14 @@
-  
+---
+title: "reference_type_glosry"
+description: |
+  reference_type_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreference_type_glosry.htm"
+abapFile: "abenreference_type_glosry.htm"
+keywords: ["do", "try", "data", "abenreference", "type", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Locking Files"
+description: |
+  The file interface does not contain an integrated locking mechanism that ensures that only one ABAP program at a time can access a file. If multiple programs are writing to a file at the same time, the results are unpredictable. To avoid this situation, use SAP locks(https://help.sap.com/doc/abapd
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfile_interface_locking.htm"
+abapFile: "abenfile_interface_locking.htm"
+keywords: ["do", "if", "case", "try", "data", "abenfile", "interface", "locking"]
+---
 
 * * *
 

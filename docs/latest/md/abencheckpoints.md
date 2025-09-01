@@ -1,4 +1,14 @@
-  
+---
+title: "Checkpoints"
+description: |
+  Checkpoints define points in a program at which the state of the program can be tested during program execution. Checkpoints are either conditional or unconditional. Conditional checkpoints are defined by assertions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassertion_glos
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheckpoints.htm"
+abapFile: "abencheckpoints.htm"
+keywords: ["do", "if", "try", "abencheckpoints"]
+---
 
 * * *
 

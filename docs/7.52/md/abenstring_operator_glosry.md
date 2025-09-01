@@ -1,4 +1,14 @@
-  
+---
+title: "String operator"
+description: |
+  Links two character-type operands(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_glosry.htm 'Glossary Entry') in a string expression(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_expression_glosry.htm 'Glossary Entry'). The only string operator cur
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_operator_glosry.htm"
+abapFile: "abenstring_operator_glosry.htm"
+keywords: ["do", "try", "abenstring", "operator", "glosry"]
+---
 
 * * *
 

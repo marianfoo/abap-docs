@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  CCDEF CLASS serializable DEFINITION. PUBLIC SECTION. INTERFACES if_serializable_object. DATA attr TYPE string VALUE `Attribute`. ENDCLASS.  Public class definition CLASS cl_demo_asxml_object DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasxml_object_abexa.htm"
+abapFile: "abenasxml_object_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenasxml", "object", "abexa"]
+---
 
 * * *
 

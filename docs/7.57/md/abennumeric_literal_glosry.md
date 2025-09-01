@@ -1,4 +1,14 @@
-  
+---
+title: "numeric_literal_glosry"
+description: |
+  numeric_literal_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumeric_literal_glosry.htm"
+abapFile: "abennumeric_literal_glosry.htm"
+keywords: ["do", "if", "try", "data", "abennumeric", "literal", "glosry"]
+---
 
 * * *
 

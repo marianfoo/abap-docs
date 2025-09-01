@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET - position"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_shortref.htm) Syntax ... AT POSITION pos ... Effect This addition sets the file pointer at the position specified in pos. pos expects a numeric data object. Numbers with a value greater than the value rang
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_position.htm"
+abapFile: "abapopen_dataset_position.htm"
+keywords: ["select", "update", "delete", "do", "while", "if", "case", "try", "data", "abapopen", "dataset", "position"]
+---
 
 * * *
 

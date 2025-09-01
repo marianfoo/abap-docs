@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab - cond"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_dbtab_shortref.htm) Syntax ... WHERE sql_cond(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp.htm) db_hints(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_where.htm"
+abapFile: "abapdelete_where.htm"
+keywords: ["select", "delete", "do", "while", "if", "try", "data", "types", "abapdelete", "where"]
+---
 
 * * *
 

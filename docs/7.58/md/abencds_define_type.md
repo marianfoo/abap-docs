@@ -1,4 +1,14 @@
-  
+---
+title: "CDS TDL - DEFINE TYPE"
+description: |
+  Syntax Forms CDS Simple Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_types.htm) 1. @type_annot1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_type_anno.htm) @type_annot2(https://help.sap.com/doc/abapdocu_758_index_ht
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_type.htm"
+abapFile: "abencds_define_type.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "define", "type"]
+---
 
 * * *
 

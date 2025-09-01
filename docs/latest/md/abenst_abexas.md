@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Examples"
+description: |
+  -   ST - Structures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_structure_abexa.htm) -   ST - Internal Tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_table_abexa.htm) -   ST - Method Call(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_abexas.htm"
+abapFile: "abenst_abexas.htm"
+keywords: ["do", "if", "method", "data", "internal-table", "abenst", "abexas"]
+---
 
 * * *
 

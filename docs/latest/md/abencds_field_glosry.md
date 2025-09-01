@@ -1,4 +1,14 @@
-  
+---
+title: "CDS source field"
+description: |
+  A field of a data source of a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') that can be used as a CDS element(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_glosry.htm 'Glossary Entry') and
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_field_glosry.htm"
+abapFile: "abencds_field_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "field", "glosry"]
+---
 
 * * *
 

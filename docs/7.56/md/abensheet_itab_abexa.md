@@ -1,4 +1,14 @@
-  
+---
+title: "Working with Internal Tables"
+description: |
+  This example demonstrates all syntactical options for working with internal tables outlined in the ABAP cheat sheet Internal Tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_internal_tables.htm). Source Code REPORT demo_cs_itab. CLASS demo DEFINITION. PUBLIC SECTION.
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_itab_abexa.htm"
+abapFile: "abensheet_itab_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abensheet", "itab", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration of a Simple Structure"
+description: |
+  This example demonstrates the declaration of a simple structure. Source Code  Public class definition CLASS cl_demo_simple_structure DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensimple_structure_abexa.htm"
+abapFile: "abensimple_structure_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abensimple", "structure", "abexa"]
+---
 
 * * *
 

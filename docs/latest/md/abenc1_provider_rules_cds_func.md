@@ -1,4 +1,14 @@
-  
+---
+title: "Before release"
+description: |
+  -   If a parameter of a scalar function definition is typed using a DDIC data element(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm 'Glossary Entry') or a CDS simple type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_cds_func.htm"
+abapFile: "abenc1_provider_rules_cds_func.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenc1", "provider", "rules", "cds", "func"]
+---
 
 * * *
 

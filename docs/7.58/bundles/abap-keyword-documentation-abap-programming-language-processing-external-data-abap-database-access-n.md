@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenexec_sql_abexas.htm
 
-  
+---
+title: "EXEC SQL - Examples"
+description: |
+  -   EXEC SQL - Use(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm) -   EXEC SQL - Access to Database Functions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm) !Example(exa.gif 'Example') EXEC SQL - Use(https:
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm"
+abapFile: "abenexec_sql_abexas.htm"
+keywords: ["do", "if", "data", "abenexec", "sql", "abexas"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abennative_sql_abexa.htm
 
-  
+---
+title: "EXEC SQL - Use"
+description: |
+  This example demonstrates the use of embedded static Native SQL. Source Code REPORT demo_exec_sql. 'This program uses platform dependent Native SQL. 'It may not work for every database system. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm"
+abapFile: "abennative_sql_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "abennative", "sql", "abexa"]
+---
 
 * * *
 
@@ -142,7 +162,17 @@ The program is the static equivalent of the executable [ADBC](https://help.sap.c
 
 ### abenexec_sql_db_function_abexa.htm
 
-  
+---
+title: "EXEC SQL - Access to Database Functions"
+description: |
+  This example demonstrates how a database function is accessed using static Native SQL. Source Code  Public class definition CLASS cl_demo_exec_sql_db_function DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public cla
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm"
+abapFile: "abenexec_sql_db_function_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenexec", "sql", "function", "abexa"]
+---
 
 * * *
 

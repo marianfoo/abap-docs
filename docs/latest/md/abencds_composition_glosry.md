@@ -1,4 +1,14 @@
-  
+---
+title: "CDS composition"
+description: |
+  A CDS composition consists of a to-parent association(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abento_parent_association_glosry.htm 'Glossary Entry') and a to-child association(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abento_child_association_glosry.
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_glosry.htm"
+abapFile: "abencds_composition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "composition", "glosry"]
+---
 
 * * *
 

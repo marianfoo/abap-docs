@@ -1,4 +1,14 @@
-  
+---
+title: "alias_glosry"
+description: |
+  alias_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalias_glosry.htm"
+abapFile: "abenalias_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "internal-table", "abenalias", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Regular Expressions"
+description: |
+  The example demonstrates how to search for regular expressions. An extended example that also allows replacements is DEMO_REGEX_TOY. Source Code REPORT demo_regex. DATA: text   TYPE c LENGTH 120, regx   TYPE c LENGTH 120, first  TYPE c LENGTH 1 VALUE 'X', all    TYPE c LENGTH 1, nocase TYPE c LEN
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenregex_abexa.htm"
+abapFile: "abenregex_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "abenregex", "abexa"]
+---
 
 * * *
 

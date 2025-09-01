@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_reader_writer DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_sxml_reader_writer IMPLEMENTATION. METHOD main. FINAL(xml) = cl_a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_reader_writer_abexa.htm"
+abapFile: "abensxml_reader_writer_abexa.htm"
+keywords: ["loop", "do", "if", "case", "method", "class", "data", "abensxml", "reader", "writer", "abexa"]
+---
 
 * * *
 

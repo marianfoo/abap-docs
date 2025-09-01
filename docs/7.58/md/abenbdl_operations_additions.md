@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - RAP BO Operation, Additions"
+description: |
+  The following additions are available for RAP BO operations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_operations.htm) wherever they are specified: -   authorization:none(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth.htm) -   authorizati
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_operations_additions.htm"
+abapFile: "abenbdl_operations_additions.htm"
+keywords: ["update", "do", "if", "abenbdl", "operations", "additions"]
+---
 
 * * *
 

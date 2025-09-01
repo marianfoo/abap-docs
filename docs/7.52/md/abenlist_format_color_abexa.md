@@ -1,4 +1,14 @@
-  
+---
+title: "Lists, Using Colors"
+description: |
+  The example shows how colors can make lists better readable. Source Code REPORT demo_list_format_color_2 NO STANDARD PAGE HEADING LINE-SIZE 70. NODES: spfli, sflight. DATA sum TYPE i. TOP-OF-PAGE. WRITE 'List of Flights' COLOR COL_HEADING. ULINE. GET spfli. FORMAT COLOR COL_HEADING. WRITE: 'CA
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_format_color_abexa.htm"
+abapFile: "abenlist_format_color_abexa.htm"
+keywords: ["do", "if", "class", "data", "abenlist", "format", "color", "abexa"]
+---
 
 * * *
 

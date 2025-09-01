@@ -1,4 +1,14 @@
-  
+---
+title: "Regular Expressions"
+description: |
+  ABAP supports extended regular expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenregular_expression_glosry.htm 'Glossary Entry') in accordance with POSIX(http://www.pasc.org/) standard 1003.2. Regular expressions can be used after the addition REGEX of the statements -
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenregular_expressions.htm"
+abapFile: "abenregular_expressions.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenregular", "expressions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "FIND, options"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind_shortref.htm) Syntax ...  RESPECTINGIGNORING CASE MATCH COUNT  mcnt  MATCH OFFSET moff MATCH LENGTH mlen  RESULTS result_tabresult_wa  SUBMAT
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind_options.htm"
+abapFile: "abapfind_options.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "internal-table", "abapfind", "options"]
+---
 
 * * *
 

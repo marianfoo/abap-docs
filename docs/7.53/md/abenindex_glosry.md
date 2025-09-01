@@ -1,4 +1,14 @@
-  
+---
+title: "index_glosry"
+description: |
+  index_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenindex_glosry.htm"
+abapFile: "abenindex_glosry.htm"
+keywords: ["select", "do", "try", "data", "internal-table", "abenindex", "glosry"]
+---
 
 * * *
 

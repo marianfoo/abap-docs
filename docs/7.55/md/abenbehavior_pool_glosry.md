@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Behavior Pool"
+description: |
+  ABP for short. A class pool(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_pool_glosry.htm 'Glossary Entry'), in which the behavior of a RAP business object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm 'Glossary Entry') is implemented. A
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm"
+abapFile: "abenbehavior_pool_glosry.htm"
+keywords: ["do", "try", "class", "abenbehavior", "pool", "glosry"]
+---
 
 * * *
 

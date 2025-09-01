@@ -1,4 +1,14 @@
-  
+---
+title: "stand-alone_sel_screen_glosry"
+description: |
+  stand-alone_sel_screen_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstand-alone_sel_screen_glosry.htm"
+abapFile: "abenstand-alone_sel_screen_glosry.htm"
+keywords: ["select", "do", "try", "abenstand", "alone", "sel", "screen", "glosry"]
+---
 
 * * *
 

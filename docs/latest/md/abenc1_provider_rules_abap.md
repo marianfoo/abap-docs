@@ -1,4 +1,14 @@
-  
+---
+title: "c1_provider_rules_abap"
+description: |
+  c1_provider_rules_abap - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_abap.htm"
+abapFile: "abenc1_provider_rules_abap.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenc1", "provider", "rules", "abap"]
+---
 
 * * *
 

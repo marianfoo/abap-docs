@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, association"
+description: |
+  Syntax ... path_expr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm) Effect Uses a path expression path_expr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm) to publish a CDS association(https://help.sap.com
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_association.htm"
+abapFile: "abencds_f1_select_list_association.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "list", "association"]
+---
 
 * * *
 

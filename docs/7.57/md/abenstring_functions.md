@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  The program DEMO_EXPRESSIONS shows examples of how to use string expressions. string_func - Description Functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendescriptive_functions.htm) string_func - Processing Functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions.htm"
+abapFile: "abenstring_functions.htm"
+keywords: ["do", "if", "data", "abenstring", "functions"]
+---
 
 * * *
 

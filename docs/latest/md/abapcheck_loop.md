@@ -1,4 +1,14 @@
-  
+---
+title: "CHECK, loop"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcheck_shortref.htm) Syntax CHECK log_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm). Effect If the statement CHECK is listed in a loop(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcheck_loop.htm"
+abapFile: "abapcheck_loop.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapcheck"]
+---
 
 * * *
 

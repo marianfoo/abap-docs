@@ -1,4 +1,14 @@
-  
+---
+title: "dynpro_event_glosry"
+description: |
+  dynpro_event_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_event_glosry.htm"
+abapFile: "abendynpro_event_glosry.htm"
+keywords: ["do", "try", "abendynpro", "event", "glosry"]
+---
 
 * * *
 

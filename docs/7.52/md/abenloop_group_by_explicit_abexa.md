@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP, Explicit and Implicit"
+description: |
+  This example demonstrates a self-programmed group loop and how it is replaced by GROUP BY(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_group_by.htm). Source Code REPORT demo_loop_at_group_by_expl. CLASS demo_group_by DEFINITION. PUBLIC SECTION. CLASS-METHODS:
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_explicit_abexa.htm"
+abapFile: "abenloop_group_by_explicit_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenloop", "group", "explicit", "abexa"]
+---
 
 * * *
 

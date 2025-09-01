@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abendynamic_prog_technique_guidl.htm
 
-  
+---
+title: "Dynamic Programming Techniques"
+description: |
+  Dynamic programming techniques are all techniques whose functions or effects are detectable only at runtime of a program in the runtime environment. -   Using Dynamic Programming Techniques(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_dynamic_progr_tech_guidl.htm 'Guideline')
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_prog_technique_guidl.htm"
+abapFile: "abendynamic_prog_technique_guidl.htm"
+keywords: ["do", "if", "class", "data", "abendynamic", "prog", "technique", "guidl"]
+---
 
 * * *
 
@@ -48,7 +58,17 @@ Continue
 
 ### abenuse_dynamic_progr_tech_guidl.htm
 
-  
+---
+title: "Using Dynamic Programming Techniques"
+description: |
+  Background The use of dynamic programming techniques includes the following: -   Accessing dynamic memory objects, that is, dynamic data objects (strings and internal tables), as well as instances of classes and anonymous data objects -   Dynamically accessing data objects using reference variables
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_dynamic_progr_tech_guidl.htm"
+abapFile: "abenuse_dynamic_progr_tech_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenuse", "dynamic", "progr", "tech", "guidl"]
+---
 
 * * *
 
@@ -103,7 +123,17 @@ The significance of these aspects differs for the various dynamic programming te
 
 ### abenruntime_error_dyn_proc_guidl.htm
 
-  
+---
+title: "Runtime Errors in Dynamic Processing"
+description: |
+  Background When dynamic techniques are used, various exception situations can arise that can never occur when the corresponding static techniques are used because they can be checked statically. Rule Prevent runtime errors in dynamic processing Respond appropriately to all possible error situations
+version: "7.54"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenruntime_error_dyn_proc_guidl.htm"
+abapFile: "abenruntime_error_dyn_proc_guidl.htm"
+keywords: ["delete", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abenruntime", "error", "dyn", "proc", "guidl"]
+---
 
 * * *
 
@@ -181,7 +211,17 @@ ENDIF.
 
 ### abenuse_dyn_data_object_guidl.htm
 
-  
+---
+title: "Using Dynamic Data Objects"
+description: |
+  Background Dynamic data objects are a subgroup of dynamic memory objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmem_cons_dyn_mem_obj_guidl.htm 'Guideline') and simply consist of: -   Strings -   Internal tables The data type statically defines all properties for dynamic dat
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_dyn_data_object_guidl.htm"
+abapFile: "abenuse_dyn_data_object_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "class", "data", "types", "internal-table", "abenuse", "dyn", "object", "guidl"]
+---
 
 * * *
 
@@ -232,7 +272,17 @@ Strings and internal tables are predefined (or built in) in the ABAP language as
 
 ### abenmem_cons_dyn_mem_obj_guidl.htm
 
-  
+---
+title: "Memory Consumption of Dynamic Memory Objects"
+description: |
+  Background In dynamic objects, the actual data is addressed using a reference. This means that dynamic memory objects are always deep objects. Possible dynamic memory objects are: -   Table bodies of internal tables addressed using internal table references -   Text strings or byte strings addressed
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmem_cons_dyn_mem_obj_guidl.htm"
+abapFile: "abenmem_cons_dyn_mem_obj_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmem", "cons", "dyn", "mem", "obj", "guidl"]
+---
 
 * * *
 
@@ -316,7 +366,17 @@ SELECT \*
 
 ### abenadmin_costs_dyn_mem_obj_guidl.htm
 
-  
+---
+title: "Administration Costs of Dynamic Memory Objects"
+description: |
+  Background Dynamic memory objects provide flexibility, but this comes at a price. The administration of these objects incurs internal costs, which are reflected in increased memory consumption, and in the worst case possibly far too high. The total memory requirements of a dynamic memory object comp
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm"
+abapFile: "abenadmin_costs_dyn_mem_obj_guidl.htm"
+keywords: ["delete", "do", "while", "if", "case", "class", "data", "types", "internal-table", "abenadmin", "costs", "dyn", "mem", "obj", "guidl"]
+---
 
 * * *
 
@@ -384,7 +444,17 @@ The executable example [DEMO\_MEMORY\_USAGE](https://help.sap.com/doc/abapdocu_7
 
 ### abendyn_access_data_obj_guidl.htm
 
-  
+---
+title: "Accessing Data Objects Dynamically"
+description: |
+  Background Field symbols and data references are used to access data objects whose name and attributes are not known until runtime. -   Field symbols A field symbol is a symbolic name for a data object declared with FIELD-SYMBOLS, to which memory areas can be assigned using the ASSIGN statement or,
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendyn_access_data_obj_guidl.htm"
+abapFile: "abendyn_access_data_obj_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "internal-table", "field-symbol", "abendyn", "access", "obj", "guidl"]
+---
 
 * * *
 
@@ -476,7 +546,17 @@ ENDMETHOD.
 
 ### abengeneric_progr_guidl.htm
 
-  
+---
+title: "Generic Programming"
+description: |
+  Background Generic programming (dynamic creation of source code) makes programs as dynamic as possible. The following methods can be used to achieve this: -   Dynamic token specification Dynamic token specification involves specifying individual operands or whole parts of statements (clauses) in the
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_progr_guidl.htm"
+abapFile: "abengeneric_progr_guidl.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abengeneric", "progr", "guidl"]
+---
 
 * * *
 

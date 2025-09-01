@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS, LOCAL FRIENDS"
+description: |
+  Syntax CLASS class DEFINITION LOCAL FRIENDS class1 class2 ... intf1  intf2  ... Effect This statement makes the local classes and interfaces class1 class2 ... and intf1 intf2 ... of a class pool(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_pool_glosry.htm 'Glossary Entry')
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_local_friends.htm"
+abapFile: "abapclass_local_friends.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abapclass", "local", "friends"]
+---
 
 * * *
 

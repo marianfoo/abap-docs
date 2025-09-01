@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - define own authorization context"
+description: |
+  Syntax define own authorization context by privileged mode;  define own authorization context by privileged mode and  AuthObject1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbc_authority_check.htm); AuthObject2(https://help.sap.com/doc/abapdocu_latest_inde
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_def_own_auth_context.htm"
+abapFile: "abenbdl_def_own_auth_context.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "abenbdl", "def", "own", "auth", "context"]
+---
 
 * * *
 

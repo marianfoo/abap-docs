@@ -1,4 +1,14 @@
-  
+---
+title: "AT SELECTION-SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen_shortref.htm) Syntax AT SELECTION-SCREEN selscreen_event(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen_events.htm). Effect This statement defines event blocks
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen.htm"
+abapFile: "abapat_selection-screen.htm"
+keywords: ["select", "do", "if", "try", "data", "abapat", "selection", "screen"]
+---
 
 * * *
 

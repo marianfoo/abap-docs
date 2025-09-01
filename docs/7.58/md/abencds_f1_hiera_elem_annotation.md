@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_758_in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_hiera_elem_annotation.htm"
+abapFile: "abencds_f1_hiera_elem_annotation.htm"
+keywords: ["do", "if", "try", "data", "abencds", "hiera", "elem", "annotation"]
+---
 
 * * *
 

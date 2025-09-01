@@ -1,4 +1,14 @@
-  
+---
+title: "Processing External Data"
+description: |
+  External data generally covers all data saved outside of the internal session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm 'Glossary Entry'). The following sections describe the processing of external data. -   ABAP Database Access(https://help.sap.c
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm"
+abapFile: "abenabap_language_external_data.htm"
+keywords: ["do", "try", "data", "abenabap", "language", "external"]
+---
 
 * * *
 

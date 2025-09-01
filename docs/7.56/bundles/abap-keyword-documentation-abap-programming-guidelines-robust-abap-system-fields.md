@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abensystem_fields_gdl.htm
 
-  
+---
+title: "System Fields"
+description: |
+  An ABAP program can request the state of the ABAP runtime framework using the system fields(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields.htm). From a technical viewpoint, these system fields are a set of built-in variables (the components of the built-in sy structur
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_gdl.htm"
+abapFile: "abensystem_fields_gdl.htm"
+keywords: ["do", "case", "data", "abensystem", "fields", "gdl"]
+---
 
 * * *
 
@@ -39,7 +49,17 @@ Continue
 
 ### abensyst_field_access_guidl.htm
 
-  
+---
+title: "Access"
+description: |
+  Background The system fields are supplied with values by the ABAP runtime framework. In a program, however, they behave like normal variables. You can assign values to these fields using the ABAP program. This is because both the ABAP kernel and the ABAP components of the ABAP runtime framework have
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyst_field_access_guidl.htm"
+abapFile: "abensyst_field_access_guidl.htm"
+keywords: ["do", "if", "case", "class", "abensyst", "field", "access", "guidl"]
+---
 
 * * *
 
@@ -93,7 +113,17 @@ CASE sy-subrc.
 
 ### abenobs_intern_system_field_guidl.htm
 
-  
+---
+title: "Obsolete and Internal System Fields"
+description: |
+  Background Not all system fields are designed to be used in application programs. All available system fields are components of the structure SYST in ABAP Dictionary (or components of the structure sy in the debugger). The meaning of the components is included in the accompanying description. Any sy
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobs_intern_system_field_guidl.htm"
+abapFile: "abenobs_intern_system_field_guidl.htm"
+keywords: ["do", "data", "abenobs", "intern", "system", "field", "guidl"]
+---
 
 * * *
 
@@ -139,7 +169,17 @@ DESCRIBE FIELD dobj TYPE type DECIMALS decimals.
 
 ### abenevaluation_guidl.htm
 
-  
+---
+title: "Evaluation"
+description: |
+  Background System fields describe general system states or are set specifically by individual statements. The content of system fields is only defined as described in the documentation of the system fields or in the documentation of ABAP statements that set system fields. In contexts other than thos
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevaluation_guidl.htm"
+abapFile: "abenevaluation_guidl.htm"
+keywords: ["loop", "do", "if", "method", "class", "abenevaluation", "guidl"]
+---
 
 * * *
 
@@ -199,7 +239,17 @@ ENDIF.
 
 ### abenreturn_code_guidl.htm
 
-  
+---
+title: "Return Code"
+description: |
+  Background The most prominent system field is probably the return code(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreturn_code_glosry.htm 'Glossary Entry') sy-subrc, which signals the successful execution of an ABAP statement or, if you are using classic exceptions(https://hel
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreturn_code_guidl.htm"
+abapFile: "abenreturn_code_guidl.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenreturn", "code", "guidl"]
+---
 
 * * *
 
@@ -257,7 +307,17 @@ ENDIF
 
 ### abenuse_actual_parameters_guidl.htm
 
-  
+---
+title: "Using System Fields as Actual Parameters"
+description: |
+  Background The structure sy exists once in an internal session(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm 'Glossary Entry') and is shared by all programs in this internal session. The components of sy represent the system fields. System fields are gl
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_actual_parameters_guidl.htm"
+abapFile: "abenuse_actual_parameters_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "abenuse", "actual", "parameters", "guidl"]
+---
 
 * * *
 
@@ -326,7 +386,17 @@ ENDCLASS.
 
 ### abenuse_ui_guidl.htm
 
-  
+---
+title: "Using System Fields on the User Interface"
+description: |
+  Background As system fields are defined using the syst structure in ABAP Dictionary, you can technically use them to define input fields in dynpros or in Web Dynpro. Rule Do not use system fields on the user interface Never use system field types to define input or output fields for dynpros or selec
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_ui_guidl.htm"
+abapFile: "abenuse_ui_guidl.htm"
+keywords: ["select", "do", "class", "data", "types", "abenuse", "guidl"]
+---
 
 * * *
 
@@ -361,7 +431,17 @@ When the program PGL\_SYSTEM\_FIELD\_ON\_UI is executed, input fields for docume
 
 ### abenuse_operand_position_guidl.htm
 
-  
+---
+title: "Using Elements in Operand Positions"
+description: |
+  Background Statements that modify the content of system fields generally evaluate the operands first and then set the system fields. In some complex statements, however, a system field could be set first, before all operand positions are evaluated. Rule Do not use system fields in statements that se
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_operand_position_guidl.htm"
+abapFile: "abenuse_operand_position_guidl.htm"
+keywords: ["loop", "do", "if", "case", "method", "abenuse", "operand", "position", "guidl"]
+---
 
 * * *
 

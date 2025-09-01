@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_output_usage DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS.  CCIMP CLASS demo_class DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF spfli_line, carrid TYPE spfli-carrid, connid TYP
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output_abexa.htm"
+abapFile: "abencl_demo_output_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abencl", "demo", "output", "abexa"]
+---
 
 * * *
 

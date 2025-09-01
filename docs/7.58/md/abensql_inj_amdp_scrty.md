@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Injections Using AMDP"
+description: |
+  When AMDP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_glosry.htm 'Glossary Entry') is used, database procedures are created and called that are currently usually implemented in SQLScript(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_glosry.htm
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_inj_amdp_scrty.htm"
+abapFile: "abensql_inj_amdp_scrty.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abensql", "inj", "amdp", "scrty"]
+---
 
 * * *
 

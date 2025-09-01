@@ -1,4 +1,14 @@
-  
+---
+title: "SYSTEM-CALL - Object Manager Calls"
+description: |
+  This statement is intended solely for  Internal use within SAP Basis Development  Even within SAP Basis, it may be used only in programs within the ABAP+GUI dvelopment groups. Its use is subject to various restrictions, some of which may not be described in the documentation . This docum
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsystem-call_oo.htm"
+abapFile: "abapsystem-call_oo.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "abapsystem", "call"]
+---
 
 * * *
 

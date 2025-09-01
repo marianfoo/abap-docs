@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE OBJECT - AREA HANDLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_object_shortref.htm) Syntax CREATE OBJECT oref AREA HANDLE handle ... Effect This statement creates an object as a shared object(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshared_object_glos
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_object_area_handle.htm"
+abapFile: "abapcreate_object_area_handle.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "abapcreate", "object", "area", "handle"]
+---
 
 * * *
 

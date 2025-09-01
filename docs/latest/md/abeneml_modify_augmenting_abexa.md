@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY AUGMENTING ENTITY"
+description: |
+  This example demonstrates the ABAP EML MODIFY statement with the addition AUGMENTING with a RAP projection business object. Base BDEF The base BDEF is the managed RAP behavior definition DEMO_MANAGED_ROOT_WAS. It defines the behavior for two entities which are connected via a CDS composition rela
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_augmenting_abexa.htm"
+abapFile: "abeneml_modify_augmenting_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abeneml", "modify", "augmenting", "abexa"]
+---
 
 * * *
 

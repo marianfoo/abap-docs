@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  LEAVE  SCREEN  TO SCREEN dynnr . Variants: 1. LEAVE SCREEN.(#!ABAP_VARIANT_1@1@) 2. LEAVE TO SCREEN dynnr.(#!ABAP_VARIANT_2@2@) Effect This statement ends the processing of the current dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_screen.htm"
+abapFile: "abapleave_screen.htm"
+keywords: ["do", "if", "try", "catch", "data", "abapleave", "screen"]
+---
 
 * * *
 

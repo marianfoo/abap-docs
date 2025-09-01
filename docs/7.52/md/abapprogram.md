@@ -1,4 +1,14 @@
-  
+---
+title: "PROGRAM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprogram_shortref.htm) Syntax PROGRAM prog list_options(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreport_list_options.htm) MESSAGE-ID mid REDUCED FUNCTIONALITY. Addition:
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprogram.htm"
+abapFile: "abapprogram.htm"
+keywords: ["loop", "do", "if", "try", "types", "abapprogram"]
+---
 
 * * *
 

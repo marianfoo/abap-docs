@@ -1,4 +1,14 @@
-  
+---
+title: "Quantity Fields"
+description: |
+  A quantity field is a component of a structure, database table, or view of type QUAN(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) defined in ABAP Dictionary and used to record a quantity in a specific unit. A quantity field must be associated with a unit k
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_quantity_field.htm"
+abapFile: "abenddic_quantity_field.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "quantity", "field"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Quantity Fields
 
 A quantity field is a component of a structure, database table, or view of type [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) defined in ABAP Dictionary and used to record a quantity in a specific unit. A quantity field must be associated with a unit key of a structure, database table, or view that defines the unit and the number of decimal places. A unit key is a component of a structure, database table, or view of type UNIT defined in ABAP Dictionary and can contain a [unit ID](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunit_id_glosry.htm "Glossary Entry") from the database table T006.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_1)
-
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_2)
+-   [Handling in ABAP Dictionary](#abenddic-quantity-field-1--------handling-in-dynpros---@ITOC@@ABENDDIC_QUANTITY_FIELD_2)
 
 -   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
 

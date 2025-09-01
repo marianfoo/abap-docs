@@ -1,4 +1,14 @@
-  
+---
+title: "OO Interface"
+description: |
+  Interface for short. Template for the public(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpublic_glosry.htm 'Glossary Entry') interface(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenintf_gen_glosry.htm 'Glossary Entry') of classes(https://help.sap.com/doc/aba
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoo_intf_glosry.htm"
+abapFile: "abenoo_intf_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenoo", "intf", "glosry"]
+---
 
 * * *
 

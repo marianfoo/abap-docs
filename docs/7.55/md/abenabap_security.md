@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Security Notes"
+description: |
+  Certain programming techniques can produce gaps in security in ABAP programs if used incorrectly or without sufficient care. The following sections are a summary of the most significant security risks: -   Security Risks Caused by Input from Outside(https://help.sap.com/doc/abapdocu_755_index_htm/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_security.htm"
+abapFile: "abenabap_security.htm"
+keywords: ["do", "if", "try", "abenabap", "security"]
+---
 
 * * *
 

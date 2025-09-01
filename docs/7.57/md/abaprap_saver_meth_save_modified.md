@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  Declaration part: CLASS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm) lsc_bdef DEFINITION(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abap
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprap_saver_meth_save_modified.htm"
+abapFile: "abaprap_saver_meth_save_modified.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abaprap", "saver", "meth", "save", "modified"]
+---
 
 * * *
 

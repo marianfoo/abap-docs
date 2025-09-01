@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_crrspndng_class_str DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_crrspndng_class_str IMPLEMENTATION. METHOD main. DATA: BEGIN OF s
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_corr_struc_abexa.htm"
+abapFile: "abencl_abap_corr_struc_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "corr", "struc", "abexa"]
+---
 
 * * *
 

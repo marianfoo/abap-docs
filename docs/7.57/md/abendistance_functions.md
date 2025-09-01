@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... distance( val1 = text1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_val.htm) val2 = text2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_val.htm) max = max ) ... Effect This built-in function(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendistance_functions.htm"
+abapFile: "abendistance_functions.htm"
+keywords: ["insert", "delete", "do", "if", "try", "catch", "class", "data", "abendistance", "functions"]
+---
 
 * * *
 

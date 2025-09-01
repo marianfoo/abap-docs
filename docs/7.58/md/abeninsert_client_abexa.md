@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, CLIENT"
+description: |
+  This example demonstrates client handling in the ABAP SQL statement INSERT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_dbtab.htm). Source Code  Public class definition CLASS cl_demo_insert_using_clients DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUB
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninsert_client_abexa.htm"
+abapFile: "abeninsert_client_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abeninsert", "client", "abexa"]
+---
 
 * * *
 

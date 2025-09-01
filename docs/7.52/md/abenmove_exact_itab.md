@@ -1,4 +1,14 @@
-  
+---
+title: "Checking Internal Tables"
+description: |
+  The operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) checks a table specified as an argument row-by-row against the table-like row type: -   If the row types are elementary, each row is checked for elementary data objects(https://hel
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_itab.htm"
+abapFile: "abenmove_exact_itab.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "abenmove", "exact", "itab"]
+---
 
 * * *
 

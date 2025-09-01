@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_at_itab_using_step. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). TYPES: BEGIN OF line, tabix TYPE sy-tabix, value TYPE i, END OF line. DATA result TYPE TABLE OF line WITH EMPT
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_at_itab_step_abexa.htm"
+abapFile: "abenloop_at_itab_step_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenloop", "itab", "step", "abexa"]
+---
 
 * * *
 

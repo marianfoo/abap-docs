@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - side effect, Targets"
+description: |
+  Syntax ... field  MyField    _assoc.MyField   permissions ( field MyField )  ( action MyAction )  ( _assoc.field  action )  ( update  delete )  ( create  update  delete _assoc )   $self  entity _MyAssoc  messages Variants: 1.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_side_effects_target.htm"
+abapFile: "abenbdl_side_effects_target.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenbdl", "side", "effects", "target"]
+---
 
 * * *
 

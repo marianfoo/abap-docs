@@ -1,4 +1,14 @@
-  
+---
+title: "Class for Compressing Character Strings and Byte Strings"
+description: |
+  These classes offer a range of methods that enable text in text fields or text strings, or binary data in byte fields or byte strings to be compressed or decompressed using GZIP. For more information, see the individual classes and methods. Example Compression and decompression of text. DATA zip TYP
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_gzip.htm"
+abapFile: "abencl_abap_gzip.htm"
+keywords: ["do", "method", "class", "data", "abencl", "abap", "gzip"]
+---
 
 * * *
 

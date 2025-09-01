@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... concat_lines_of( table = itab sep = sep ) ... Effect This function concatenates all row contents of an internal table itab and returns the result as a character string. itab expects an index table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenindex_table_glos
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconcatenation_functions.htm"
+abapFile: "abenconcatenation_functions.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "internal-table", "abenconcatenation", "functions"]
+---
 
 * * *
 

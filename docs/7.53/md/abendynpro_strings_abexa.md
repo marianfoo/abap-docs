@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Strings"
+description: |
+  This example demonstrates how to bind strings to dynpro fields. Source Code REPORT demo_dynpro_strings. DATA: string1 TYPE string, string2 TYPE string, char1   TYPE c LENGTH 10, char2   TYPE c LENGTH 100. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATIO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_strings_abexa.htm"
+abapFile: "abendynpro_strings_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abendynpro", "strings", "abexa"]
+---
 
 * * *
 

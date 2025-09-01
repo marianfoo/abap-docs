@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT, Text Language Rule"
+description: |
+  The rule described in this section is relevant only in cases where structures defined in the ABAP Dictionary in a Unicode system(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunicode_system_glosry.htm 'Glossary Entry') are imported from the database and these same structures
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenimport_text_language.htm"
+abapFile: "abenimport_text_language.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenimport", "text", "language"]
+---
 
 * * *
 

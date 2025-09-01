@@ -1,4 +1,14 @@
-  
+---
+title: "batch_input_session_glosry"
+description: |
+  batch_input_session_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbatch_input_session_glosry.htm"
+abapFile: "abenbatch_input_session_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbatch", "input", "session", "glosry"]
+---
 
 * * *
 

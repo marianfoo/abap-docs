@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  Declaration part: CLASS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm) lsc_bdef DEFINITION(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abap
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensaver_check_before_save.htm"
+abapFile: "abensaver_check_before_save.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abensaver", "check", "before", "save"]
+---
 
 * * *
 

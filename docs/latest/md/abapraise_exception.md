@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortref.htm) Syntax RAISE exception. Effect This statement raises the non-class-based exception(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_non_class.htm) exception. -
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_exception.htm"
+abapFile: "abapraise_exception.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "exception-handling", "abapraise", "exception"]
+---
 
 * * *
 

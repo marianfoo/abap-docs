@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:variable name='...' ref-type='...' s-val='...'d-val='...'val='...' /> Effect The statement tt:variable can be used to declare one or more variables in an ST program outside of a template. The attribute name is used to declare a symbolic name, which can
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_variable.htm"
+abapFile: "abenst_tt_variable.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "abenst", "variable"]
+---
 
 * * *
 

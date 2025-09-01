@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpro"
+description: |
+  The statements for creating and editing dynpros(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm 'Glossary Entry') are not released for application programming and cannot be used in application programs. Internal Statements for Editing Dynpros(https://help.sap.com
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_generic_dynpro.htm"
+abapFile: "abenabap_generic_dynpro.htm"
+keywords: ["do", "try", "abenabap", "generic", "dynpro"]
+---
 
 * * *
 

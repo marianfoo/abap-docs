@@ -1,4 +1,14 @@
-  
+---
+title: "Object-Oriented Programming"
+description: |
+  Achieving an optimal object-oriented design is not an easy task and this is not the subject of these programming guidelines. It is definitely worth consulting the relevant literature for this topic. The rules below are limited to basic recommendations (for making source codes easier to understand an
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobj_oriented_gdl.htm"
+abapFile: "abenobj_oriented_gdl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abenobj", "oriented", "gdl"]
+---
 
 * * *
 

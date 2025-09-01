@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  When data is rendered as character-like XML data, this data is prefixed by the byte order mark (BOM) that is required by the XML standard. Rendering a Full XML Document An XML document in DOM representation is rendered using an XML renderer, created as follows using the iXML factory: DATA(ixml)  = c
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_ixml_lib_render.htm"
+abapFile: "abenabap_ixml_lib_render.htm"
+keywords: ["do", "if", "method", "class", "data", "internal-table", "abenabap", "ixml", "lib", "render"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 iXML - Rendering
 
--   [Rendering a Full XML Document](#@@ITOC@@ABENABAP_IXML_LIB_RENDER_1)
-
--   [Rendering Individual Nodes](#@@ITOC@@ABENABAP_IXML_LIB_RENDER_2)
+-   [Rendering a Full XML Document](#abenabap-ixml-lib-render-1--------rendering-individual-nodes---@ITOC@@ABENABAP_IXML_LIB_RENDER_2)
 
 -   [Token Renderers](#@@ITOC@@ABENABAP_IXML_LIB_RENDER_3)
 

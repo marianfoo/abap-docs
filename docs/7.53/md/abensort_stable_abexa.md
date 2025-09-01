@@ -1,4 +1,14 @@
-  
+---
+title: "Sorting Internal Tables"
+description: |
+  This example demonstrates how internal tables are sorted using SORT itab(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm). Source Code REPORT demo_int_tables_sort. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensort_stable_abexa.htm"
+abapFile: "abensort_stable_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abensort", "stable", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data Interfaces and Communication Interfaces"
+description: |
+  This section describes ABAP statements and programming interfaces for communication with other systems and programs and their associated data exchange formats. -   RFC - Remote Function Call(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc.htm) -   ICF - Internet Communication F
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm"
+abapFile: "abenabap_data_communication.htm"
+keywords: ["do", "method", "class", "data", "abenabap", "communication"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - entity behavior definition"
+description: |
+  Syntax define behavior for RootEntity alias AliasName external ExternalName implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_in_class_unique.htm) entity behavior characteristics(https://help.sap.com/
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh.htm"
+abapFile: "abenbdl_define_beh.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenbdl", "define", "beh"]
+---
 
 * * *
 

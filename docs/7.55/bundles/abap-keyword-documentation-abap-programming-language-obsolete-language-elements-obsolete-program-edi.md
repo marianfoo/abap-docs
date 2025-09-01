@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenprogram_editing_obsolete.htm
 
-  
+---
+title: "Obsolete Program Editing"
+description: |
+  -   INSERT REPORT - UNICODE ENABLING(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_report_obsolete.htm) -   SET EXTENDED CHECK(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_extended_check.htm) SET EXTENDED CHECK(https://help.sap.com/doc/abapdocu_755
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_editing_obsolete.htm"
+abapFile: "abenprogram_editing_obsolete.htm"
+keywords: ["insert", "do", "abenprogram", "editing", "obsolete"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abapset_extended_check.htm
 
-  
+---
+title: "SET EXTENDED CHECK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_extended_check_shortref.htm) Obsolete Syntax SET EXTENDED CHECK ONOFF. Effect This statement uses the addition OFF to deactivate the extended program check(https://help.sap.com/doc/abapdocu_755_index_htm/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_extended_check.htm"
+abapFile: "abapset_extended_check.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapset", "extended", "check"]
+---
 
 * * *
 
@@ -74,7 +94,17 @@ a = b.
 
 ### abapinsert_report_obsolete.htm
 
-  
+---
+title: "INSERT REPORT, UNICODE ENABLING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_report_shortref.htm) Obsolete Syntax INSERT REPORT ... UNICODE ENABLING ... Effect The addition UNICODE ENABLING of the statement INSERT REPORT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapins
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_report_obsolete.htm"
+abapFile: "abapinsert_report_obsolete.htm"
+keywords: ["insert", "do", "if", "try", "abapinsert", "report", "obsolete"]
+---
 
 * * *
 

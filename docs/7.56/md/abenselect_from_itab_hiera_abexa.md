@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Internal Table as a Data Source of the Hierarchy Generator"
+description: |
+  This example demonstrates how an internal table is accessed in a common table expression with self association and how the table is used as a data source of the hierarchy generator. Source Code REPORT demo_select_from_itab_hiera. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF parent_chi
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_from_itab_hiera_abexa.htm"
+abapFile: "abenselect_from_itab_hiera_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "internal-table", "abenselect", "from", "itab", "hiera", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "literal_condition_glosry"
+description: |
+  literal_condition_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenliteral_condition_glosry.htm"
+abapFile: "abenliteral_condition_glosry.htm"
+keywords: ["do", "if", "try", "abenliteral", "condition", "glosry"]
+---
 
 * * *
 

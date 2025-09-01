@@ -1,4 +1,14 @@
-  
+---
+title: "NEW - Classes"
+description: |
+  Syntax ... NEW class#( let_exp(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm) p1 = a1 p2 = a2 .. ) ... Effect If a class class is specified or # stands for a class like this, the non-optional input parameters p1 p2 ... of the instance constructor of the instant
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennew_constructor_params_class.htm"
+abapFile: "abennew_constructor_params_class.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "abennew", "constructor", "params"]
+---
 
 * * *
 

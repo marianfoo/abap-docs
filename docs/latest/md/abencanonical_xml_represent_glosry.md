@@ -1,4 +1,14 @@
-  
+---
+title: "canonical_xml_represent_glosry"
+description: |
+  canonical_xml_represent_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencanonical_xml_represent_glosry.htm"
+abapFile: "abencanonical_xml_represent_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencanonical", "xml", "represent", "glosry"]
+---
 
 * * *
 

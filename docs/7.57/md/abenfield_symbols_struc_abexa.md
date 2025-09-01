@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Cast Structures"
+description: |
+  This example demonstrates how field symbols are cast. Source Code REPORT demo_field_symbols_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: wa(10) TYPE c VALUE '0123456789'. DATA: BEGIN OF line1, col1(3) TYPE c, col2(2)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield_symbols_struc_abexa.htm"
+abapFile: "abenfield_symbols_struc_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "field-symbol", "abenfield", "symbols", "struc", "abexa"]
+---
 
 * * *
 

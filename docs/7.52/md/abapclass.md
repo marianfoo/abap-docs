@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_shortref.htm) Syntax Forms Declaration Part of a Class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_definition.htm) 1. CLASS class DEFINITION  class_options(https://help.sap.com/d
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass.htm"
+abapFile: "abapclass.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abapclass"]
+---
 
 * * *
 

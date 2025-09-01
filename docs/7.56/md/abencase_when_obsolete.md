@@ -1,4 +1,14 @@
-  
+---
+title: "CASE, WHEN (Obsolete)"
+description: |
+  Obsolete Syntax CASE ... statements WHEN ... ... ENDCASE. Effect The statements statements between CASE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase.htm) and the first statement WHEN(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen.htm) have the same eff
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencase_when_obsolete.htm"
+abapFile: "abencase_when_obsolete.htm"
+keywords: ["do", "if", "case", "class", "abencase", "when", "obsolete"]
+---
 
 * * *
 

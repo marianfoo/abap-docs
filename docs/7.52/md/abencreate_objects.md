@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Objects and Values"
+description: |
+  This section describes how data objects and instances are created and values constructed. -   Creating Objects(#abencreate-objects-1--------constructing-values---@ITOC@@ABENCREATE_OBJECTS_2) Creating Objects Creating an object or data object is equivalent to creating an instance of a data type or
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_objects.htm"
+abapFile: "abencreate_objects.htm"
+keywords: ["delete", "do", "while", "if", "try", "method", "class", "data", "types", "internal-table", "abencreate", "objects"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Creating Objects and Values
 
 This section describes how data objects and instances are created and values constructed.
 
--   [Creating Objects](#@@ITOC@@ABENCREATE_OBJECTS_1)
-
--   [Constructing Values](#@@ITOC@@ABENCREATE_OBJECTS_2)
+-   [Creating Objects](#abencreate-objects-1--------constructing-values---@ITOC@@ABENCREATE_OBJECTS_2)
 
 Creating Objects
 

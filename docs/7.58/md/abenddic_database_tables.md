@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Database Tables"
+description: |
+  The term DDIC database table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') (or database table or table for short) describes a physical database table in the current standard database(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables.htm"
+abapFile: "abenddic_database_tables.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenddic", "database", "tables"]
+---
 
 * * *
 

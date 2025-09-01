@@ -1,67 +1,21 @@
-# ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables
+# ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables / Table-Specific Semantic Attributes of Database Tables
 
-Included pages: 14
-
-
-### abenddic_database_tables_sema.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm) → 
-
-Semantic Attributes of Database Tables
-
-The semantic attributes of a database table include the attributes of its structure and attributes specific to the table.
-
--   [Semantic attributes of the structure of a database table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semastruc.htm)
-
--   [Specific semantic attributes of a database table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semasspec.htm)
-
-Continue
-[Structure-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semastruc.htm)
-[Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semasspec.htm)
-
-
-### abenddic_database_tables_semastruc.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_sema.htm) → 
-
-Structure-Specific Semantic Attributes of Database Tables
-
-The following semantic attributes are the same as those of a [structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures_sema.htm) in ABAP Dictionary:
-
--   Short text
-
--   Documentation
-
--   Short text of table fields
-
--   Output style of table fields
-
--   Reference field for components of the [built-in data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) CURR and QUAN. If a field in a database table is used as a reference field in a different table, the field cannot be deleted.
-
--   Search help
-
-Notes
-
--   The semantic attributes apply mainly to the database table in question. The [separation of concerns](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm "Guideline") principle dictates that the way a table field is written must not necessarily be suitable for displaying a help text of an application that edits the table.
-
--   Like regular structure components, [search helps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensearch_help_glosry.htm "Glossary Entry") can be assigned to table fields or the whole table. If the [separation of concerns](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm "Guideline") dictates that table fields are not to be used directly for input fields on dynpros or Web Dynpros, it is not recommended that search helps are assigned.
+Included pages: 11
 
 
 ### abenddic_database_tables_semasspec.htm
 
-  
+---
+title: "Table-Specific Semantic Attributes of Database Tables"
+description: |
+  The following semantic attributes are provided specifically for database tables. -   Key fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm) -   Client dependency(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_c
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semasspec.htm"
+abapFile: "abenddic_database_tables_semasspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "semasspec"]
+---
 
 * * *
 
@@ -99,7 +53,17 @@ Continue
 
 ### abenddic_database_tables_key.htm
 
-  
+---
+title: "Key Fields of Database Tables"
+description: |
+  At least one table field must be flagged as a key field(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkey_field_glosry.htm 'Glossary Entry') in the structure of a database table. The table fields flagged as the key field become the primary key(https://help.sap.com/doc/abapdocu_7
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm"
+abapFile: "abenddic_database_tables_key.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "key"]
+---
 
 * * *
 
@@ -128,7 +92,17 @@ Notes
 
 ### abenddic_database_tables_client.htm
 
-  
+---
+title: "Client-Dependence of Database Tables"
+description: |
+  If the first column of a database table is a key field with the built-in type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) CLNT, the table is client-specific. In this case, the column contains the client ID(https://help.sap.com/doc/abapdocu_753_index_htm
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_client.htm"
+abapFile: "abenddic_database_tables_client.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "client"]
+---
 
 * * *
 
@@ -149,7 +123,17 @@ Notes
 
 ### abenddic_database_tables_init.htm
 
-  
+---
+title: "Flag for Initial Values in Database Tables"
+description: |
+  Table fields of database tables can be given a flag for initial values. On the database, this flag is set to NOT NULL. When a new field is inserted into an existing database table, this flag can be used (on any platform) to assign the type-dependent initial value(https://help.sap.com/doc/abapdocu_
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_init.htm"
+abapFile: "abenddic_database_tables_init.htm"
+keywords: ["insert", "update", "do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "init"]
+---
 
 * * *
 
@@ -184,7 +168,17 @@ Notes
 
 ### abenddic_database_tables_forkeyrel.htm
 
-  
+---
+title: "Foreign Key Dependencies"
+description: |
+  A foreign key dependency is a semantic dependency between two database tables, namely a foreign key table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenforeign_key_table_glosry.htm 'Glossary Entry') and a check table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abe
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_forkeyrel.htm"
+abapFile: "abenddic_database_tables_forkeyrel.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "forkeyrel"]
+---
 
 * * *
 
@@ -211,7 +205,17 @@ Continue
 
 ### abenddic_database_tables_checktab.htm
 
-  
+---
+title: "Check Table"
+description: |
+  Table fields of a database table whose data type is determined using a data element(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_element_glosry.htm 'Glossary Entry') can be assigned a check table. Here, the value table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/e
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_checktab.htm"
+abapFile: "abenddic_database_tables_checktab.htm"
+keywords: ["insert", "delete", "do", "if", "try", "class", "data", "abenddic", "database", "tables", "checktab"]
+---
 
 * * *
 
@@ -236,7 +240,17 @@ Notes
 
 ### abenddic_database_tables_forkey.htm
 
-  
+---
+title: "Foreign Key"
+description: |
+  A foreign key consists of one or more foreign key fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenforeign_key_field_glosry.htm 'Glossary Entry') of a foreign key table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenforeign_key_table_glosry.htm 'Glossary Entr
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_forkey.htm"
+abapFile: "abenddic_database_tables_forkey.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "forkey"]
+---
 
 * * *
 
@@ -311,7 +325,17 @@ The type of the foreign key fields can be defined to describe the meaning of the
 
 ### abenddic_database_tables_forkeyrel.htm
 
-  
+---
+title: "Foreign Key Dependencies"
+description: |
+  A foreign key dependency is a semantic dependency between two database tables, namely a foreign key table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenforeign_key_table_glosry.htm 'Glossary Entry') and a check table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abe
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_forkeyrel.htm"
+abapFile: "abenddic_database_tables_forkeyrel.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "forkeyrel"]
+---
 
 * * *
 
@@ -338,7 +362,17 @@ Continue
 
 ### abenddic_database_tables_delivery.htm
 
-  
+---
+title: "Delivery Class for Database Tables"
+description: |
+  The delivery class of a database table controls the transport of table data in installations, upgrades, or client copies, and in transports between customer systems. It is also applied in extended table maintenance (transaction code SM30). -   Delivery class A Application table for master data and t
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_delivery.htm"
+abapFile: "abenddic_database_tables_delivery.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "class", "data", "abenddic", "database", "tables", "delivery"]
+---
 
 * * *
 
@@ -451,7 +485,17 @@ We do not recommend transporting table content for which a [replacement object](
 
 ### abenddic_database_tables_index.htm
 
-  
+---
+title: "Indexes in Database Tables"
+description: |
+  An index in a database table helps to speed up the selection of rows. An index is a sorted copy of selected database table fields. An additional field contains a pointer to the actual table rows. Sorting enables faster access to the rows in the table, for example in binary searches. A database table
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_index.htm"
+abapFile: "abenddic_database_tables_index.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "index"]
+---
 
 * * *
 
@@ -463,9 +507,7 @@ Indexes in Database Tables
 
 An index in a database table helps to speed up the selection of rows. An index is a sorted copy of selected database table fields. An additional field contains a pointer to the actual table rows. Sorting enables faster access to the rows in the table, for example in binary searches. A database table has at least one [primary index](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_index_glosry.htm "Glossary Entry") defined by its key fields. It can also have one or more optional [secondary indexes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_index_glosry.htm "Glossary Entry").
 
--   [Primary Index](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_1)
-
--   [Secondary Indexes](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_2)
+-   [Primary Index](#abenddic-database-tables-index-1--------secondary-indexes---@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_2)
 
 -   [Full Text Index](#@@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_3)
 
@@ -583,7 +625,17 @@ For more information about the full text index, see the [SAP HANA Developer Guid
 
 ### abenddic_database_tables_maint.htm
 
-  
+---
+title: "Displaying and Editing Database Tables"
+description: |
+  In ABAP Dictionary, it is possible to define whether database tables are displayed or edited using certain tools such as Data Browser(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_browser_glosry.htm 'Glossary Entry') (transaction SE16 ) and 'Table View Maintenance' (transacti
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_maint.htm"
+abapFile: "abenddic_database_tables_maint.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "maint"]
+---
 
 * * *
 
@@ -622,41 +674,3 @@ The following settings are possible:
 Note
 
 Users must always have the correct authorizations before they can use the tools in question.
-
-
-### abenddic_database_tables_semasspec.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_sema.htm) → 
-
-Table-Specific Semantic Attributes of Database Tables
-
-The following semantic attributes are provided specifically for database tables.
-
--   [Key fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm)
-
--   [Client dependency](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_client.htm)
-
--   [Foreign key dependencies](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_forkey.htm)
-
--   [Flag for initial value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_init.htm)
-
--   [Delivery class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_delivery.htm)
-
--   [Secondary indexes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_index.htm)
-
--   [Display and editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_maint.htm)
-
-Continue
-[Key Fields of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm)
-[Client-Dependence of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_client.htm)
-[Flag for Initial Values in Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_init.htm)
-[Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_forkeyrel.htm)
-[Delivery Class for Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_delivery.htm)
-[Indexes in Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_index.htm)
-[Displaying and Editing Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_maint.htm)

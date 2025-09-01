@@ -1,4 +1,14 @@
-  
+---
+title: "Enums, Use"
+description: |
+  This example demonstrates the use of enumerated types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm 'Glossary Entry'). Source Code REPORT demo_enumerated_types. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA html TYPE string. CLASS-METHODS: class_c
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenum_usage_abexa.htm"
+abapFile: "abenenum_usage_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "abenenum", "usage", "abexa"]
+---
 
 * * *
 

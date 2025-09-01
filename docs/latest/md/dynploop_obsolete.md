@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  LOOP AT itab CURSOR top_line INTO wa FROM n1 TO n2. ... ENDLOOP. Variants: 1. LOOP.(#!ABAP_VARIANT_1@1@) 2. LOOP AT itab CURSOR top_line INTO wa FROM n1 TO n2.(#!ABAP_VARIANT_2@2@) Effect Defines a loop in the dynpro flow logic(https:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop_obsolete.htm"
+abapFile: "dynploop_obsolete.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "dynploop", "obsolete"]
+---
 
 * * *
 

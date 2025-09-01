@@ -1,4 +1,14 @@
-  
+---
+title: "MODULE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodule_shortref.htm) Syntax MODULE mod OUTPUTINPUT. ... ENDMODULE. Addition: ... OUTPUTINPUT(#!ABAP_ONE_ADD@1@) Effect The statement MODULE defines a dialog module(https://help.sap.com/do
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodule.htm"
+abapFile: "abapmodule.htm"
+keywords: ["do", "if", "try", "method", "data", "abapmodule"]
+---
 
 * * *
 

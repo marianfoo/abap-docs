@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Behavior Pools (ABP)"
+description: |
+  The ABAP behavior pool (ABP)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') is a special class pool for an ABAP behavior implementation and based on a CDS behavior definition (BDEF)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_behavior_pools.htm"
+abapFile: "abenabap_behavior_pools.htm"
+keywords: ["do", "try", "class", "abenabap", "behavior", "pools"]
+---
 
 * * *
 

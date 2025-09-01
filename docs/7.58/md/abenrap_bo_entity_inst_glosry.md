@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO entity instance"
+description: |
+  Also RAP BO node instance. Concrete data set of a RAP BO entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') that is identified by a key. During a RAP transaction(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_g
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_inst_glosry.htm"
+abapFile: "abenrap_bo_entity_inst_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "entity", "inst", "glosry"]
+---
 
 * * *
 

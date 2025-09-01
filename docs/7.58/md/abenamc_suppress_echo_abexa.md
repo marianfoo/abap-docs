@@ -1,4 +1,14 @@
-  
+---
+title: "AMC - Suppressing Standalone Messages"
+description: |
+  This example demonstrates the suppression of AMC(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_glosry.htm 'Glossary Entry') messages to the current ABAP session. Source Code  Public class definition CLASS cl_demo_amc_suppress_echo DEFINITION INHERITING FROM cl_demo_cla
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_suppress_echo_abexa.htm"
+abapFile: "abenamc_suppress_echo_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamc", "suppress", "echo", "abexa"]
+---
 
 * * *
 

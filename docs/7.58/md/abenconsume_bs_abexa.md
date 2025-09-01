@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Consuming Business Services with Demo Class"
+description: |
+  This example demonstrates how the OData data of business services can be consumed in ABAP with a demonstration class. Source Code  Public class definition CLASS cl_demo_consume_bs_simple DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITI
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm"
+abapFile: "abenconsume_bs_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenconsume", "abexa"]
+---
 
 * * *
 

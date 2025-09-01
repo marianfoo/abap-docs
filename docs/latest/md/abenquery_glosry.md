@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL query"
+description: |
+  Database query that is implemented in ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossary Entry') with the language element SELECT. The clauses and additions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_clauses.
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm"
+abapFile: "abenquery_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenquery", "glosry"]
+---
 
 * * *
 

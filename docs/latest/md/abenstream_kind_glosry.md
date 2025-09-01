@@ -1,4 +1,14 @@
-  
+---
+title: "stream_kind_glosry"
+description: |
+  stream_kind_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstream_kind_glosry.htm"
+abapFile: "abenstream_kind_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenstream", "kind", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA repository"
+description: |
+  Repository of objects in the SAP HANA database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm 'Glossary Entry'). More specifically, XSC(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenxsc_glosry.htm 'Glossary Entry') objects are saved in SA
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_hana_repository_glosry.htm"
+abapFile: "abensap_hana_repository_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensap", "hana", "repository", "glosry"]
+---
 
 * * *
 

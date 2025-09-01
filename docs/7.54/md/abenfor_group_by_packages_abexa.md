@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with FOR in Packages"
+description: |
+  This example demonstrates a construction of the group key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengroup_key_glosry.htm 'Glossary Entry') that does not depend on the row content. Source Code REPORT demo_for_groups_by_packages. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_group_by_packages_abexa.htm"
+abapFile: "abenfor_group_by_packages_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "packages", "abexa"]
+---
 
 * * *
 

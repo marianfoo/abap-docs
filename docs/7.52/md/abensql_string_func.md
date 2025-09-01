@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... func( arg1, arg2 ... ) ... Effect Calls a string function func as an SQL expression(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) or operand of an expression in Open SQL. The arguments arg1, arg2, ... of the function are specified as a comma-separated lis
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_string_func.htm"
+abapFile: "abensql_string_func.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abensql", "string", "func"]
+---
 
 * * *
 

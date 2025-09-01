@@ -1,4 +1,14 @@
-  
+---
+title: "Absolute Type Names, Executable Example"
+description: |
+  This example demonstrates the composition of absolute type names(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabsolute_typename_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_absolute_type_names DEFINITION PUBLIC INHERITING FROM cl_demo_c
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabs_type_names_abexa.htm"
+abapFile: "abenabs_type_names_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenabs", "type", "names", "abexa"]
+---
 
 * * *
 

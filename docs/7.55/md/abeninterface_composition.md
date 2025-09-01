@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Nesting OO Interfaces"
+description: |
+  OO interfaces can be nested. An interface(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterfac.htm) can contain one or more interfaces as components, which themselves can contain interfaces. An interface that contains another interface is called a nested interface(https://help
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterface_composition.htm"
+abapFile: "abeninterface_composition.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abeninterface", "composition"]
+---
 
 * * *
 

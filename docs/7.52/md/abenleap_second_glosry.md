@@ -1,4 +1,14 @@
-  
+---
+title: "Leap second"
+description: |
+  Second by which a month is extended at the end of quarter in UTC(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutc_glosry.htm 'Glossary Entry') reference time. This offsets the effect of the slower rotation of the earth with respect to TAI (Temps Atomique International). A leap se
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleap_second_glosry.htm"
+abapFile: "abenleap_second_glosry.htm"
+keywords: ["do", "try", "abenleap", "second", "glosry"]
+---
 
 * * *
 

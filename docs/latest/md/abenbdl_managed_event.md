@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - managed event"
+description: |
+  Syntax managed event DerivedEventName on RefEvent parameter ViewEntityName; Effect Defines a RAP derived event(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_event_glosry.htm 'Glossary Entry') DerivedEventName in the root node of a managed(https://help.sap.com/do
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_managed_event.htm"
+abapFile: "abenbdl_managed_event.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "class", "data", "abenbdl", "managed", "event"]
+---
 
 * * *
 

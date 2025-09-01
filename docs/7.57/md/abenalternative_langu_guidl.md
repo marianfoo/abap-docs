@@ -1,4 +1,14 @@
-  
+---
+title: "Alternative Language Constructs"
+description: |
+  Background Alternative language constructs are parts of statements that can be written in different ways. One reason for this are the constant new developments in the language. Often, new spellings are introduced and the old spellings retained for reasons of downward-compatibility. Rule Use consiste
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenalternative_langu_guidl.htm"
+abapFile: "abenalternative_langu_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "data", "types", "abenalternative", "langu", "guidl"]
+---
 
 * * *
 

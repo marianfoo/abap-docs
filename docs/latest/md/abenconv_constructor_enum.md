@@ -1,4 +1,14 @@
-  
+---
+title: "CONV, Conversion of Enumerated Types"
+description: |
+  If the constructor expression CONV(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm) is used on enumerated types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm 'Glossary Entry'), the following rules appl
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_enum.htm"
+abapFile: "abenconv_constructor_enum.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenconv", "constructor", "enum"]
+---
 
 * * *
 

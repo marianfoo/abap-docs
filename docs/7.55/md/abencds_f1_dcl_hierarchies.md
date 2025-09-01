@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DCL Restrictions for CDS Hierarchies"
+description: |
+  CDS hierarchies(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_hierarchy_glosry.htm 'Glossary Entry') can be protected using access control. It must be guaranteed, however, that individual rows are not filtered out if they are part of a logical block in the hierarchy constructi
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_hierarchies.htm"
+abapFile: "abencds_f1_dcl_hierarchies.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "hierarchies"]
+---
 
 * * *
 

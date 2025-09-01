@@ -1,4 +1,14 @@
-  
+---
+title: "kernel_method_glosry"
+description: |
+  kernel_method_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkernel_method_glosry.htm"
+abapFile: "abenkernel_method_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenkernel", "glosry"]
+---
 
 * * *
 

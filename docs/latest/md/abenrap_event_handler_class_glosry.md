@@ -1,4 +1,14 @@
-  
+---
+title: "RAP event handler class"
+description: |
+  Class pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_pool_glosry.htm 'Glossary Entry') that is used to implement RAP event handler methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_event_handler_meth_glosry.htm 'Glossary Entry'). → M
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_event_handler_class_glosry.htm"
+abapFile: "abenrap_event_handler_class_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenrap", "event", "handler", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Key Accesses"
+description: |
+  This example measures the runtime of the statement READ TABLE with various table keys. Source Code REPORT demo_read_table_using_key. CLASS measure DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: m   TYPE i, itab TYPE STANDARD TABLE OF i WITH NON-UNIQUE    KEY primary
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenread_itab_using_key_abexa.htm"
+abapFile: "abenread_itab_using_key_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "internal-table", "abenread", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

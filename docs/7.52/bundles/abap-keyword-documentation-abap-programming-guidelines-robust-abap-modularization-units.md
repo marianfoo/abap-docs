@@ -5,7 +5,17 @@ Included pages: 10
 
 ### abenmodularization_unit_guidl.htm
 
-  
+---
+title: "Modularization units"
+description: |
+  Die wesentlichen Modularisierungseinheiten bzw. aufrufbaren Einheiten innerhalb eines ABAP-Programms werden als Verarbeitungsblöcke bezeichnet. Hierbei wird nach Prozeduren auf der einen und Dialogmodulen sowie Ereignisblöcken auf der anderen Seite unterschieden. Während Dialogmodule und Ereignisblö
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_unit_guidl.htm"
+abapFile: "abenmodularization_unit_guidl.htm"
+keywords: ["do", "method", "data", "abenmodularization", "unit", "guidl"]
+---
 
 * * *
 
@@ -63,7 +73,17 @@ Continue
 
 ### abenfunct_module_subroutine_guidl.htm
 
-  
+---
+title: "Function Modules and Subroutines"
+description: |
+  Background Function modules and subroutines are the procedures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_guidl.htm 'Guideline') of the structured programming model that already existed before the introduction of ABAP Objects. -   Function modules in function gro
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm"
+abapFile: "abenfunct_module_subroutine_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "method", "class", "types", "abenfunct", "module", "subroutine", "guidl"]
+---
 
 * * *
 
@@ -106,7 +126,17 @@ If you cannot adhere to the rule ["Use ABAP Objects"](https://help.sap.com/doc/a
 
 ### abentype_formal_param_proc_guidl.htm
 
-  
+---
+title: "Type of Formal Parameters in Procedures"
+description: |
+  Background The parameter interface of a procedure consists of formal parameters and specifies the exceptions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_exception_guidl.htm 'Guideline') possible in the procedure. The possible types of formal parameters are: -   Input param
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_formal_param_proc_guidl.htm"
+abapFile: "abentype_formal_param_proc_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "types", "internal-table", "abentype", "formal", "param", "proc", "guidl"]
+---
 
 * * *
 
@@ -205,7 +235,17 @@ ENDCLASS.
 
 ### abentype_transf_formal_para_guidl.htm
 
-  
+---
+title: "How Formal Parameters Are Passed"
+description: |
+  Background Parameters can be passed to procedures either by reference or by value. -   Pass by reference In the case of pass by reference, a reference to the actual parameter is passed to the procedure when it is called. The procedure then works with the actual parameter. No local data object is cre
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_transf_formal_para_guidl.htm"
+abapFile: "abentype_transf_formal_para_guidl.htm"
+keywords: ["select", "do", "while", "if", "case", "method", "data", "internal-table", "abentype", "transf", "formal", "para", "guidl"]
+---
 
 * * *
 
@@ -258,7 +298,17 @@ See the example in the section about [Code Inspector](https://help.sap.com/doc/a
 
 ### abenref_transf_output_param_guidl.htm
 
-  
+---
+title: "Pass By Reference for Output Parameters"
+description: |
+  Background When parameters are passed to a procedure by reference, this procedure directly uses the data object that has been passed as a parameter. Its value is consequently determined by the calling program of the procedure. Particular notice must be made of this behavior for EXPORTING parameters,
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenref_transf_output_param_guidl.htm"
+abapFile: "abenref_transf_output_param_guidl.htm"
+keywords: ["insert", "delete", "do", "if", "method", "class", "data", "internal-table", "abenref", "transf", "output", "param", "guidl"]
+---
 
 * * *
 
@@ -314,7 +364,17 @@ ENDCLASS.
 
 ### abentype_formal_param_guidl.htm
 
-  
+---
+title: "Typing of Formal Parameters"
+description: |
+  Background The typing of formal parameters can be full or generic. Formal parameters of methods must be, and formal parameters of function modules and subroutines should be, explicitly typed using the TYPE or LIKE addition. When you connect actual parameters to formal parameters, the system checks w
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_formal_param_guidl.htm"
+abapFile: "abentype_formal_param_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "field-symbol", "abentype", "formal", "param", "guidl"]
+---
 
 * * *
 
@@ -428,7 +488,17 @@ itab TYPE STANDARD TABLE OF struc
 
 ### abenintern_extern_proc_call_guidl.htm
 
-  
+---
+title: "Internal and External Procedure Calls"
+description: |
+  Background When a procedure is called, a distinction is made between internal and external procedure calls. An internal call calls a procedure of the same program, whereas an external call calls a procedure of a different program. The major difference between internal and external procedure calls is
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenintern_extern_proc_call_guidl.htm"
+abapFile: "abenintern_extern_proc_call_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenintern", "extern", "proc", "call", "guidl"]
+---
 
 * * *
 
@@ -520,7 +590,17 @@ ENDFORM.
 
 ### abenexit_procedure_guidl.htm
 
-  
+---
+title: "Exiting Procedures"
+description: |
+  Background You can exit procedures in the usual way using the END... statement or by using one of the following statements: -   RETURN -   EXIT -   CHECK log_exp These statements end a procedure properly, that is, the system passes output parameters for which passing by value is specified and retur
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexit_procedure_guidl.htm"
+abapFile: "abenexit_procedure_guidl.htm"
+keywords: ["loop", "do", "if", "case", "method", "abenexit", "procedure", "guidl"]
+---
 
 * * *
 
@@ -589,7 +669,17 @@ ENDMETHOD.
 
 ### abendial_mod_event_block_guidl.htm
 
-  
+---
+title: "Dialog Modules and Event Blocks"
+description: |
+  Background Besides procedures, there are two further types of processing blocks. However, they do not have a parameter interface and do not allow declaration of local data: (AT SELECTION-SCREEN and GET are exceptions but they should not be exploited): -   Dialog modules Dialog modules are introduced
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendial_mod_event_block_guidl.htm"
+abapFile: "abendial_mod_event_block_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abendial", "mod", "event", "block", "guidl"]
+---
 
 * * *
 
@@ -662,7 +752,17 @@ ENDMODULE.
 
 ### abenmacros_guidl.htm
 
-  
+---
+title: "Macros"
+description: |
+  Background A macro(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm) is a summary of a statement list for internal reuse within a program between DEFINE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm) and END-OF-DEFINITION(https://help.s
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacros_guidl.htm"
+abapFile: "abenmacros_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "types", "internal-table", "abenmacros", "guidl"]
+---
 
 * * *
 

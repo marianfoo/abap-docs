@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_access_names. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. DATA source_tab TYPE TABLE OF i. source_tab = VALUE #( FOR j = 1 UNTIL j > 10 ( ipow( base = 2 exp = j ) ) ). DATA(ixml) = cl_ixml=>create( ).
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenixml_node_names_abexa.htm"
+abapFile: "abenixml_node_names_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenixml", "node", "names", "abexa"]
+---
 
 * * *
 

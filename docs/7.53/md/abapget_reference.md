@@ -1,4 +1,14 @@
-  
+---
+title: "GET REFERENCE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_reference_shortref.htm) Syntax GET REFERENCE OF dobj INTO dref. Effect This statement sets the reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_glosry.htm 'Glossary Entry') in the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_reference.htm"
+abapFile: "abapget_reference.htm"
+keywords: ["delete", "loop", "do", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abapget", "reference"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "codepage_glosry"
+description: |
+  codepage_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm"
+abapFile: "abencodepage_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencodepage", "glosry"]
+---
 
 * * *
 

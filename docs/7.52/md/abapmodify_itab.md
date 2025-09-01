@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab_shortref.htm) Syntax MODIFY  itab_line(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab_single.htm)  itab_lines(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-U
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab.htm"
+abapFile: "abapmodify_itab.htm"
+keywords: ["select", "update", "loop", "do", "while", "if", "case", "try", "data", "internal-table", "field-symbol", "abapmodify", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SCROLL - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscroll.htm) Syntax SCROLL LIST   TO COLUMN col    LEFTRIGHT BY n PLACES     TO  FIRST PAGE  LAST PAGE  PAGE pag  LINE lin    FOR
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscroll_shortref.htm"
+abapFile: "abapscroll_shortref.htm"
+keywords: ["do", "if", "abapscroll", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Background Processing"
+description: |
+  In background processing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbackround_processing_glosry.htm 'Glossary Entry'), all messages are handled in accordance with the type specified in the statement MESSAGE, with the following exception. Only during list processing(https
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_message_batch_job.htm"
+abapFile: "abenabap_message_batch_job.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenabap", "message", "batch", "job"]
+---
 
 * * *
 

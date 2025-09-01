@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Application Session Variables"
+description: |
+  Syntax ... $session.vname ... Effect Specifies an application session variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensession_variable_glosry.htm 'Glossary Entry') vname in an operand position in a SELECT statement(https://help.sap.com/doc/abapdocu_latest_index_htm/l
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_session_var_application_v2.htm"
+abapFile: "abencds_session_var_application_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "session", "var", "application"]
+---
 
 * * *
 

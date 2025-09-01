@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_token_reader. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS get_node_type IMPORTING node_type_int TYPE if_sxml_node=>node_type RETURNING VALUE(node_type_string) TYPE string. CLASS-METHODS get_value_type IMPORTING value
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensxml_parsing_abexa.htm"
+abapFile: "abensxml_parsing_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abensxml", "parsing", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Aggregation for Join Set"
+description: |
+  This example demonstrates how to use WITH(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith.htm) for an aggregation. Source Code REPORT demo_select_union_sum_cte. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwith_agg_union_abexa.htm"
+abapFile: "abenwith_agg_union_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "abenwith", "agg", "union", "abexa"]
+---
 
 * * *
 

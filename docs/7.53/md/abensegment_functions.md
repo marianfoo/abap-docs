@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... segment( val = text(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm) index = idx sepspace = delim ) ... Effect This function returns the occurrence of a segment of the argument text specified by index(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensegment_functions.htm"
+abapFile: "abensegment_functions.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abensegment", "functions"]
+---
 
 * * *
 

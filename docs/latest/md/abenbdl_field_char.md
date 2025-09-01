@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - field characteristics"
+description: |
+  Syntax ... field(readonly) Field1, Field2, ...;  (mandatory) Field1, Field2, ...;  (suppress) Field1, Field2, ...;  (features:instance) Field1, Field2, ...;  (mandatory:create) Field1, Field2, ...;  (readonly:update) Field1, Field2, ...;  (notrigger:warn) Field1, Field2, ..
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_field_char.htm"
+abapFile: "abenbdl_field_char.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "field", "char"]
+---
 
 * * *
 

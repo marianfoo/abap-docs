@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenuser_interfaces_gdl.htm
 
-  
+---
+title: "User Interfaces"
+description: |
+  The user interface is the interface between a (human) user and a machine, in this case between the user and the ABAP program that is running. In ABAP, graphical user interfaces (GUIs) are used which can be operated using a keyboard, mouse, or other input devices. They are based on assorted interface
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_interfaces_gdl.htm"
+abapFile: "abenuser_interfaces_gdl.htm"
+keywords: ["select", "do", "if", "case", "class", "abenuser", "interfaces", "gdl"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abeninterface_tech_guidl.htm
 
-  
+---
+title: "Selecting the User Interface Technology"
+description: |
+  Background Various UI technologies can be used for ABAP. We distinguish between classic technologies, which are based on the SAP GUI and are almost completely integrated into the ABAP language, and new Web-based technologies, which display the UI in a Web browser and are accessed through object-orie
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_tech_guidl.htm"
+abapFile: "abeninterface_tech_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abeninterface", "tech", "guidl"]
+---
 
 * * *
 
@@ -115,7 +135,17 @@ Since the example application strictly separates all concerns, you can use it wi
 
 ### abenencap_class_interf_guidl.htm
 
-  
+---
+title: "Encapsulating Classic User Interfaces"
+description: |
+  Background The separation of concerns(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm 'Guideline') is one of the basic rules of these ABAP programming guidelines. This separation, which refers to a strict division of ABAP code into parts for presentatio
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenencap_class_interf_guidl.htm"
+abapFile: "abenencap_class_interf_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenencap", "interf", "guidl"]
+---
 
 * * *
 
@@ -247,7 +277,17 @@ Dynpro 100 is called in a function module but can also be linked to a transactio
 
 ### abenlist_guidl.htm
 
-  
+---
+title: "Lists"
+description: |
+  Background A list is a medium used for the structured and formatted output of data. The following lists are available in ABAP: -   Classic lists, which are written to a list buffer using ABAP statements and displayed on a special list dynpro. -   Output of the SAP List Viewer (ALV), which is display
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_guidl.htm"
+abapFile: "abenlist_guidl.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "abenlist", "guidl"]
+---
 
 * * *
 
@@ -308,7 +348,17 @@ Executing the program DEMO\_ALV\_REPORTING produces ALV lists with the same cont
 
 ### abenaccessibility_guidl.htm
 
-  
+---
+title: "Accessibility"
+description: |
+  Background Accessibility is a product standard(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorrectness_quality_guidl.htm 'Guideline') that ensures that information technology products can also be used by people with impairments. For user interfaces, for instance, this means meet
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaccessibility_guidl.htm"
+abapFile: "abenaccessibility_guidl.htm"
+keywords: ["select", "do", "if", "class", "abenaccessibility", "guidl"]
+---
 
 * * *
 

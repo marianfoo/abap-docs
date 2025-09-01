@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( name1, name2, ... ) ... Effect Defines the element names of a CDS view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm 'Glossary Entry') in a name list. The specified names name1, name2, ... are assigned to the elements defined explicitly in the SELECT lis
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_name_list.htm"
+abapFile: "abencds_f1_name_list.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "name", "list"]
+---
 
 * * *
 

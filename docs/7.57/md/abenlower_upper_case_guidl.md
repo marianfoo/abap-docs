@@ -1,4 +1,14 @@
-  
+---
+title: "Case"
+description: |
+  Background In contrast to many other modern programming languages, ABAP is not case-sensitive for ABAP words (tokens of an ABAP statement that express its semantics; either ABAP keywords or additions) nor for operators and names of operands. The only exception is dynamic programming(https://help.s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlower_upper_case_guidl.htm"
+abapFile: "abenlower_upper_case_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenlower", "upper", "guidl"]
+---
 
 * * *
 

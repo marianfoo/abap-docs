@@ -1,4 +1,14 @@
-  
+---
+title: "VALUE, Addition BASE for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) for internal tables with and without the addition BASE Source Code REPORT demo_value_base. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS mai
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_itab_base_abexa.htm"
+abapFile: "abenvalue_itab_base_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenvalue", "itab", "base", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Use in the WHERE Condition"
+description: |
+  This example demonstrates how SQL expressions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) are used on the left side of a WHERE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp.htm) condition. Source Code REPORT demo_select_where_expr
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_expr_in_where_cond_abexa.htm"
+abapFile: "abensql_expr_in_where_cond_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensql", "expr", "where", "cond", "abexa"]
+---
 
 * * *
 

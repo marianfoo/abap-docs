@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... sql_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm) ... Alternatives: 1. ... col(#!ABAP_ALTERNATIVE_1@1@) 2. ... literal  @dobj  @( expr )(#!ABAP_ALTERNATIVE_2@2@) 3. ... sql_func  sql_arith  sql_cast  sql_string  sql_case(#!ABA
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_clause_col_spec.htm"
+abapFile: "abapselect_clause_col_spec.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapselect", "clause", "col", "spec"]
+---
 
 * * *
 

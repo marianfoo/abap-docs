@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Simple Module Call(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_simple_module_abexa.htm) !Example(exa.gif 'Example') dynpro - Unconditional Module Call(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_at_exit_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmodule_abexas.htm"
+abapFile: "abenmodule_abexas.htm"
+keywords: ["do", "if", "abenmodule", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Extensions"
+description: |
+  ABAP Dictionary offers customizing includes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencustomizing_include_glosry.htm 'Glossary Entry'), append structures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenappend_structure_glosry.htm 'Glossary Entry'), a
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_enhancements.htm"
+abapFile: "abenddic_enhancements.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "enhancements"]
+---
 
 * * *
 

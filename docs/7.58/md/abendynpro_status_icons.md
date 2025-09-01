@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  dynpro - Status Icons(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_status_icons_abexa.htm)
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_status_icons.htm"
+abapFile: "abendynpro_status_icons.htm"
+keywords: ["insert", "do", "if", "try", "abendynpro", "status", "icons"]
+---
 
 * * *
 

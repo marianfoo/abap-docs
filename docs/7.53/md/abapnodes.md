@@ -1,4 +1,14 @@
-  
+---
+title: "NODES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnodes_shortref.htm) Obsolete Syntax NODES node TYPE type. Effect The sole effect of the statement NODES is to pass data from logical databases(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnodes.htm"
+abapFile: "abapnodes.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapnodes"]
+---
 
 * * *
 

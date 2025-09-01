@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXPORTING  p1 = a1 p2 = a2 ... IMPORTING  p1 = a1 p2 = a2 .... Effect The additions EXPORTING and IMPORTING assign the actual parameters a1, a2 to the input and output parameters defined in the database procedure. This method of passing parameters can be used in both static and d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_db_proc_parameters.htm"
+abapFile: "abapcall_db_proc_parameters.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abapcall", "proc", "parameters"]
+---
 
 * * *
 

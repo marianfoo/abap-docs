@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  The formatting option CURRENCY(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_to_options.htm) of the WRITE TO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_to.htm) and WRITE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_decfloat_doc.htm"
+abapFile: "abencl_abap_decfloat_doc.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abencl", "abap", "decfloat", "doc"]
+---
 
 * * *
 

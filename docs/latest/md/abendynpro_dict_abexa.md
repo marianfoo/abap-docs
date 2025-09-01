@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_dictionary . TABLES demo_conn. DATA wa_spfli TYPE spfli. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. CLEAR demo_conn-mark. MOVE-CORRESPONDING wa_spfli TO demo_conn. CLEAR wa_spfli. ENDMODULE. MODULE user_command_0100 INPUT. IF demo_conn-mark = 'X'. LEAVE PROGRAM.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_dict_abexa.htm"
+abapFile: "abendynpro_dict_abexa.htm"
+keywords: ["select", "do", "while", "if", "data", "abendynpro", "dict", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RFC System Fields"
+description: |
+  When an RFC is made, the system field sy-subrc is initialized in the calling program, or set to the value that is specified in exception handling, just like whenever a function module is called. In addition, every time a function module is called remotely, the system fields for messages (sy-msgid, s
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_system_fields.htm"
+abapFile: "abenrfc_system_fields.htm"
+keywords: ["do", "if", "class", "data", "types", "exception-handling", "abenrfc", "system", "fields"]
+---
 
 * * *
 

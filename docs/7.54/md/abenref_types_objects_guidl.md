@@ -1,4 +1,14 @@
-  
+---
+title: "Reference to Data Types or Data Objects"
+description: |
+  Background As well as using data types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenusing_types_guidl.htm 'Guideline') for declarations and typings with the addition TYPE, the alternative addition LIKE of the corresponding statements can be used to reference the data type of one
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenref_types_objects_guidl.htm"
+abapFile: "abenref_types_objects_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "internal-table", "abenref", "objects", "guidl"]
+---
 
 * * *
 

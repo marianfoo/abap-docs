@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Path Expressions, attributes"
+description: |
+  Syntax ...  (n) INNERLEFTRIGHT OUTER WHERE sql_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_expr_logexp.htm)  ... Additions: 1. ... (n)(#!ABAP_ADDITION_1@1@) 2. ... INNERLEFTRIGHT OUTER(#!A
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_path_filter.htm"
+abapFile: "abenabap_sql_path_filter.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenabap", "sql", "path", "filter"]
+---
 
 * * *
 

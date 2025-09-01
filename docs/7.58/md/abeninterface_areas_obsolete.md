@@ -1,4 +1,14 @@
-  
+---
+title: "Interface Work Areas"
+description: |
+  Interface work areas are created only once for each program group(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_group_glosry.htm 'Glossary Entry') and are shared by the main program(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmain_program_glosry.htm 'G
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_areas_obsolete.htm"
+abapFile: "abeninterface_areas_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abeninterface", "areas", "obsolete"]
+---
 
 * * *
 

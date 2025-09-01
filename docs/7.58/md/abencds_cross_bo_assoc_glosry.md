@@ -1,4 +1,14 @@
-  
+---
+title: "cds_cross_bo_assoc_glosry"
+description: |
+  cds_cross_bo_assoc_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cross_bo_assoc_glosry.htm"
+abapFile: "abencds_cross_bo_assoc_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "cross", "assoc", "glosry"]
+---
 
 * * *
 

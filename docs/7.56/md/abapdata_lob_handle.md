@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, LOB HANDLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_shortref.htm) Syntax DATA dtype TYPE dbtabview READ-ONLY(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_options.htm) lob_handle_type(https://help.sap.com/doc/abapdocu_756_index
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_lob_handle.htm"
+abapFile: "abapdata_lob_handle.htm"
+keywords: ["do", "if", "try", "data", "types", "abapdata", "lob", "handle"]
+---
 
 * * *
 

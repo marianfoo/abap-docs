@@ -1,4 +1,14 @@
-  
+---
+title: "Predefined ABAP type"
+description: |
+  Built-in(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_data_type_glosry.htm 'Glossary Entry') elementary data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry'). The predefined ABAP types are: b(http
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_abap_type_glosry.htm"
+abapFile: "abenpredefined_abap_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenpredefined", "abap", "type", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "abap_ixml_lib_encoding"
+description: |
+  abap_ixml_lib_encoding - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_ixml_lib_encoding.htm"
+abapFile: "abenabap_ixml_lib_encoding.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "ixml", "lib", "encoding"]
+---
 
 * * *
 

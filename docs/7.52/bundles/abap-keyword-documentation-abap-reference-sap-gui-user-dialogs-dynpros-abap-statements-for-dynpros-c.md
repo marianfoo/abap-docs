@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abapcontrols.htm
 
-  
+---
+title: "CONTROLS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_shortref.htm) Syntax Forms Declaration of Table Controls(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tableview.htm) 1. CONTROLS contrl TYPE TABLEVIEW USING SCREEN dynnr. Declarat
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols.htm"
+abapFile: "abapcontrols.htm"
+keywords: ["loop", "do", "if", "try", "class", "abapcontrols"]
+---
 
 * * *
 
@@ -44,7 +54,17 @@ Continue
 
 ### abapcontrols_tableview.htm
 
-  
+---
+title: "CONTROLS - TYPE TABLEVIEW"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_shortref.htm) Syntax CONTROLS contrl TYPE TABLEVIEW USING SCREEN dynnr. Effect Declares a table control(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_control_glosry.htm 'Glossary Entry'
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tableview.htm"
+abapFile: "abapcontrols_tableview.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "abapcontrols", "tableview"]
+---
 
 * * *
 
@@ -179,7 +199,17 @@ ENDMODULE.
 
 ### abapcontrols_tabstrip.htm
 
-  
+---
+title: "CONTROLS - TYPE TABSTRIP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_shortref.htm) Syntax CONTROLS contrl TYPE TABSTRIP. Effect Declares a tabstrip control(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentabstrip_control_glosry.htm 'Glossary Entry'). If the type
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tabstrip.htm"
+abapFile: "abapcontrols_tabstrip.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapcontrols", "tabstrip"]
+---
 
 * * *
 

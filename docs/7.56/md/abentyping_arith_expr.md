@@ -1,4 +1,14 @@
-  
+---
+title: "Functions and Expressions as Actual Parameters"
+description: |
+  Functions and expressions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_expressions.htm) can be specified as actual parameters in the following formal parameters: -   Write Positions -   Output parameters(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenou
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_arith_expr.htm"
+abapFile: "abentyping_arith_expr.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abentyping", "arith", "expr"]
+---
 
 * * *
 
@@ -20,10 +30,8 @@ The parameters are evaluated from left to right (and from inside to outside) and
 
 Special rules apply to typing checks, identifying the calculation type, and parameter passes.
 
--   [Checking Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_1)
--   [Calculation Type and Calculation Length](#@@ITOC@@ABENTYPING_ARITH_EXPR_2)
--   [Passing Parameters](#@@ITOC@@ABENTYPING_ARITH_EXPR_3)
-    -   [Complete Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_4)
+-   [Checking Typing](#abentyping-arith-expr-1-------calculation-type-and-calculation-length---@ITOC@@ABENTYPING_ARITH_EXPR_2)
+-   [Passing Parameters](#abentyping-arith-expr-3-----------complete-typing---@ITOC@@ABENTYPING_ARITH_EXPR_4)
     -   [Generic Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_5)
 
 Hints

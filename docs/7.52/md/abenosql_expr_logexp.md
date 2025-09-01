@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  operand1 =EQ<>NE>GT<LT>=GE<=LE operand2   operand  NOT BETWEEN operand1 AND operand2  operand1 NOT LIKE operand2 ESCAPE esc  operand  IS NOT NULL  ... Effect Relational expression in
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenosql_expr_logexp.htm"
+abapFile: "abenosql_expr_logexp.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenosql", "expr", "logexp"]
+---
 
 * * *
 

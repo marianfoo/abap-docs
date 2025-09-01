@@ -1,4 +1,14 @@
-  
+---
+title: "surrogates_glosry"
+description: |
+  surrogates_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensurrogates_glosry.htm"
+abapFile: "abensurrogates_glosry.htm"
+keywords: ["do", "while", "if", "try", "abensurrogates", "glosry"]
+---
 
 * * *
 

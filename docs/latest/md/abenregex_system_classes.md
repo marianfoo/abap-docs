@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The class CL_ABAP_REGEX can also be instantiated with the operator NEW(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_new.htm) or the statement CREATE OBJECT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm),
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_system_classes.htm"
+abapFile: "abenregex_system_classes.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenregex", "system", "classes"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ regex - System Classes
 
 The system classes for regular expressions are CL\_ABAP\_REGEX and CL\_ABAP\_MATCHER. Both are documented in the class library.
 
--   [CL\_ABAP\_REGEX](#@@ITOC@@ABENREGEX_SYSTEM_CLASSES_1)
--   [CL\_ABAP\_MATCHER](#@@ITOC@@ABENREGEX_SYSTEM_CLASSES_2)
+-   [CL\_ABAP\_REGEX](#abenregex-system-classes-1-------cl--abap--matcher---@ITOC@@ABENREGEX_SYSTEM_CLASSES_2)
 
 CL\_ABAP\_REGEX   
 

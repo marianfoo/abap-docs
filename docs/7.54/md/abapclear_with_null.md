@@ -1,4 +1,14 @@
-  
+---
+title: "CLEAR - WITH NULL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear_shortref.htm) Obsolete Syntax CLEAR dobj WITH NULL. Effect This variant of the statement CLEAR(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear.htm), which is not allowed in ABAP Objects, rep
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclear_with_null.htm"
+abapFile: "abapclear_with_null.htm"
+keywords: ["do", "case", "data", "abapclear", "with", "null"]
+---
 
 * * *
 

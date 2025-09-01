@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... sql_elem(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_elem.htm)  sql_func(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_builtin_func.htm)  sql_num(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_arith.htm)  sql_cas
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm"
+abapFile: "abapsql_expr.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "types", "abapsql", "expr"]
+---
 
 * * *
 

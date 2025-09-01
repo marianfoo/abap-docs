@@ -1,4 +1,14 @@
-  
+---
+title: "Changes to Elementary Data Types"
+description: |
+  The data type of -   DDIC domains or DDIC data elements -   components of DDIC structures and DDIC database tables or elements of CDS entities -   public types of global ABAP classes or interfaces can be changed as follows: -   Integer types INT1, INT2, INT4 or b, s, i can be replaced by integer typ
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm"
+abapFile: "abenc1_consumer_rules.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenc1", "consumer", "rules"]
+---
 
 * * *
 
@@ -17,16 +27,11 @@ The [provider rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/
 
 The following sections list allowed changes to released APIs that must be considered when accessing them.
 
--   [Changes to Elementary Data Types](#@@ITOC@@ABENC1_CONSUMER_RULES_1)
-    -   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_2)
-    -   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_3)
--   [Adding or Changing Non-key Elements of Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_4)
-    -   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_5)
-    -   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_6)
-    -   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_7)
-    -   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_8)
-    -   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_9)
--   [Example](#@@ITOC@@ABENC1_CONSUMER_RULES_10)
+-   [Changes to Elementary Data Types](#abenc1-consumer-rules-1-----------operations-with-elementary-data-objects---@ITOC@@ABENC1_CONSUMER_RULES_2)
+    -   [Operations with Structures](#abenc1-consumer-rules-3-------adding-or-changing-non-key-elements-of-structures---@ITOC@@ABENC1_CONSUMER_RULES_4)
+    -   [Includes](#abenc1-consumer-rules-5-----------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_6)
+    -   [Unstructured Access](#abenc1-consumer-rules-7-----------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_8)
+    -   [RFC](#abenc1-consumer-rules-9-------example---@ITOC@@ABENC1_CONSUMER_RULES_10)
 
 Changes to Elementary Data Types
 

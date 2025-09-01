@@ -1,4 +1,14 @@
-  
+---
+title: "Byte Order"
+description: |
+  The byte order determines the order in which bytes of specific data objects are stored in the memory. Binary Representation of Numbers The binary representation of numbers with the ABAP type i, int8, decfloat16, decfloat34, f, and s is hardware-dependent. An important part of this is the byte order,
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbyteorder.htm"
+abapFile: "abenbyteorder.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenbyteorder"]
+---
 
 * * *
 

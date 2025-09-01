@@ -1,4 +1,14 @@
-  
+---
+title: "area_menu_glosry"
+description: |
+  area_menu_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarea_menu_glosry.htm"
+abapFile: "abenarea_menu_glosry.htm"
+keywords: ["do", "if", "try", "abenarea", "menu", "glosry"]
+---
 
 * * *
 

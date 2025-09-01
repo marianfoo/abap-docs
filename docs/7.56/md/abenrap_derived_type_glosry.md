@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF derived type"
+description: |
+  Type of an internal table or structure that is derived by the RAP framework(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_framework_glosry.htm 'Glossary Entry') from the CDS behavior definition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_defin
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm"
+abapFile: "abenrap_derived_type_glosry.htm"
+keywords: ["do", "try", "method", "class", "types", "internal-table", "abenrap", "derived", "type", "glosry"]
+---
 
 * * *
 

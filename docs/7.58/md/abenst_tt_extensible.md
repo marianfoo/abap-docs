@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... tt:extensible='on''deep-static''deep-dynamic''off''deep-off'  ... Effect In deserializations, XML elements in the input stream that are not specified in the ST program normally produce an error. If the processed XML format is to be extensible, elements that are not specified explicit
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_extensible.htm"
+abapFile: "abenst_tt_extensible.htm"
+keywords: ["do", "if", "case", "class", "data", "abenst", "extensible"]
+---
 
 * * *
 

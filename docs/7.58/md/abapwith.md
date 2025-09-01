@@ -1,4 +1,14 @@
-  
+---
+title: "WITH"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith_shortref.htm) Syntax WITH +cte1( name1, name2, ... ) AS ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith_subquery.htm) UNIONINTERSECTEXCEPT ...(ht
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith.htm"
+abapFile: "abapwith.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "abapwith"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Extending Elements"
+description: |
+  Syntax ... extend determine action(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determine_action_ext.htm)  extend draft determine action Prepare(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action_ext.htm)  extend mapping for PartnerType(
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_ext_elem_ext.htm"
+abapFile: "abenbdl_ext_elem_ext.htm"
+keywords: ["do", "if", "try", "abenbdl", "ext", "elem"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_input_output. DATA: input  TYPE i, output TYPE i, radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, box1(1) TYPE c, box2(1) TYPE c, box3(1) TYPE c. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. SET PF-STATUS 'SCREEN_100'. CLEAR input. radio1 = 'X'. CLEAR: radio2, radi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_in_out_field_abexa.htm"
+abapFile: "abendynpro_in_out_field_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "out", "field", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_agg. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DELETE FROM demo_expressions. INSERT demo_expressions FROM TABLE @( VALUE #( ( id = '5' char1 = 'nowhere' ) ( id = '3' char1 = 'this' ) ( id = '1' char1 = 'everybo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_string_agg_abexa.htm"
+abapFile: "abensql_expr_string_agg_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abensql", "expr", "string", "agg", "abexa"]
+---
 
 * * *
 

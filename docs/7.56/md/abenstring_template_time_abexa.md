@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_time_form. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. PRIVATE SECTION. CLASS-METHODS: setup, teardown, check_system. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: seconds   TYPE i, timetable TYPE TABLE OF t, comp      TYPE i. CONSTANTS n
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_template_time_abexa.htm"
+abapFile: "abenstring_template_time_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenstring", "template", "time", "abexa"]
+---
 
 * * *
 

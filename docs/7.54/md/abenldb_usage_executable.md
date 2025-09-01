@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Databases - Associated with Executable Programs"
+description: |
+  -   How the Association Works(#abenldb-usage-executable-1--------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2) -   Runtime Behavior(#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3) How the Association Works When an executable program(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abene
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_usage_executable.htm"
+abapFile: "abenldb_usage_executable.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "class", "data", "abenldb", "usage", "executable"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 Logical Databases - Associated with Executable Programs
 
--   [How the Association Works](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_1)
-
--   [Selection Screen](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
+-   [How the Association Works](#abenldb-usage-executable-1--------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
 
 -   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3)
 

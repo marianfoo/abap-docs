@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Global Authorization"
+description: |
+  This example demonstrates how a global authorization check is defined, implemented, and consumed in an unmanaged RAP BO. Data model The CDS data model consists of the root entity DEMO_RAP_UNMANAGED_AUTH and its child entity DEMO_RAP_UNMANAGED_AUTH_CHILD. Root entity: @AccessControl.authorizat
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_abexa.htm"
+abapFile: "abenbdl_authorization_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "types", "abenbdl", "authorization", "abexa"]
+---
 
 * * *
 

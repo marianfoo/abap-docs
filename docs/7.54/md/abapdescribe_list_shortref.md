@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE LIST - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_list.htm) Syntax DESCRIBE LIST  NUMBER OF LINESPAGES n  LINE linno PAGE page  PAGE pagno LINE-SIZE width LINE-COUNT page_lines LINES lines FIRST-LINE firs
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_list_shortref.htm"
+abapFile: "abapdescribe_list_shortref.htm"
+keywords: ["do", "if", "try", "abapdescribe", "list", "shortref"]
+---
 
 * * *
 

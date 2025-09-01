@@ -1,4 +1,14 @@
-  
+---
+title: "XML"
+description: |
+  XML (Extensible Markup Language, see www.w3.org/XML/(http://www.w3.org/xml/)) is a generic model for the structuring of data. XML has a generic syntax (markup) used to represent elements of the model in a text format. The representation in text format enables the display of structured data without
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_glosry.htm"
+abapFile: "abenxml_glosry.htm"
+keywords: ["do", "try", "data", "abenxml", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Inheritance"
+description: |
+  Background Inheritance is the method by which subclasses are derived from a superclass while inheriting the components of the superclass. A subclass can be made more specific by declaring new components and redefining instance methods. ABAP Objects supports simple inheritance, in which a class can h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_guidl.htm"
+abapFile: "abeninheritance_guidl.htm"
+keywords: ["do", "while", "if", "method", "class", "abeninheritance", "guidl"]
+---
 
 * * *
 

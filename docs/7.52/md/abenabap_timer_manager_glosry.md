@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Timer Manager"
+description: |
+  Object of the class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry') CL_ABAP_TIMER_MANAGER accessed using the interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_glosry.htm 'Glossary Entry') IF_ABAP_TIMER_MANAG
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_timer_manager_glosry.htm"
+abapFile: "abenabap_timer_manager_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "timer", "manager", "glosry"]
+---
 
 * * *
 

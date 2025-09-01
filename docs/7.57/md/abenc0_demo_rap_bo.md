@@ -1,4 +1,14 @@
-  
+---
+title: "c0_demo_rap_bo"
+description: |
+  c0_demo_rap_bo - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm"
+abapFile: "abenc0_demo_rap_bo.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenc0", "demo", "rap"]
+---
 
 * * *
 

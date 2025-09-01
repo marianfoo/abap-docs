@@ -1,4 +1,14 @@
-  
+---
+title: "Assignments"
+description: |
+  Background For explicit assignments in which the value of a source is assigned to a target, ABAP contains the general assignment operator =(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_operator.htm) and the special casting operator ?=(https://help.sap.com/doc/abapdocu_7
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_calc_guidl.htm"
+abapFile: "abenassign_calc_guidl.htm"
+keywords: ["do", "if", "try", "method", "data", "abenassign", "calc", "guidl"]
+---
 
 * * *
 

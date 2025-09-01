@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Saving Options"
+description: |
+  Syntax ... with additional save and cleanupwith full data  with unmanaged save and cleanupwith full data ... Variants: 1. ... with additional save and cleanupwith full data(#!ABAP_VARIANT_1@1@) 2. ... with unmanaged save and cle
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_saving.htm"
+abapFile: "abenbdl_saving.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "saving"]
+---
 
 * * *
 

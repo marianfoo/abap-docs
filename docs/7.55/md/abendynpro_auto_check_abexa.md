@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_automatic_checks . DATA: ok_code TYPE sy-ucomm, date TYPE d. TABLES demo_conn. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMODULE. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. MODULE pai INPUT. MESSAGE i888(sabapdemos) WITH text-001. E
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_auto_check_abexa.htm"
+abapFile: "abendynpro_auto_check_abexa.htm"
+keywords: ["do", "try", "data", "abendynpro", "auto", "check", "abexa"]
+---
 
 * * *
 

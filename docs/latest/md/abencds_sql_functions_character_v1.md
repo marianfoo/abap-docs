@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, String Functions"
+description: |
+  The following table shows the possible SQL functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_functions_v1.htm) for character strings in a CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_functions_character_v1.htm"
+abapFile: "abencds_sql_functions_character_v1.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "class", "data", "types", "abencds", "sql", "functions", "character"]
+---
 
 * * *
 

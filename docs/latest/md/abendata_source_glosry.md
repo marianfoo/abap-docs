@@ -1,4 +1,14 @@
-  
+---
+title: "data_source_glosry"
+description: |
+  data_source_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_source_glosry.htm"
+abapFile: "abendata_source_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendata", "source", "glosry"]
+---
 
 * * *
 

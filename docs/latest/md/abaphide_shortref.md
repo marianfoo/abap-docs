@@ -1,4 +1,14 @@
-  
+---
+title: "HIDE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm) Syntax HIDE dobj. Effect Saves the content of the variable dobj with the current list line in the current list level.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide_shortref.htm"
+abapFile: "abaphide_shortref.htm"
+keywords: ["do", "if", "abaphide", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Area Constructor Class"
+description: |
+  An area constructor class is a global class with a freely selectable name that implements the interface IF_SHM_BUILD_INSTANCE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_if_shm_build_instance.htm). An area constructor can be implemented in the interface method BUILD. An a
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_area_constructor_class.htm"
+abapFile: "abenshm_area_constructor_class.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenshm", "area", "constructor"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data Objects in Read Positions"
+description: |
+  Data objects can be specified as follows at read positions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenread_position_glosry.htm 'Glossary Entry'). -   Specification of a literal(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_literal_glosry.htm 'Glossary En
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_objects_usage_reading.htm"
+abapFile: "abendata_objects_usage_reading.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "usage", "reading"]
+---
 
 * * *
 

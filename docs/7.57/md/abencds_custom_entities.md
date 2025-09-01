@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Custom Entities"
+description: |
+  A CDS custom entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm 'Glossary Entry') is defined in the DDL source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') of a CDS data definitio
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entities.htm"
+abapFile: "abencds_custom_entities.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abencds", "custom", "entities"]
+---
 
 * * *
 

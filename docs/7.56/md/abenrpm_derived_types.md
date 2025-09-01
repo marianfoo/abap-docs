@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for RAP, BDEF Derived Types"
+description: |
+  BDEF derived types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') are special data types in the context of RAP. The types are derived by the ABAP runtime framework(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_ru
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm"
+abapFile: "abenrpm_derived_types.htm"
+keywords: ["update", "do", "if", "try", "method", "data", "types", "internal-table", "abenrpm", "derived"]
+---
 
 * * *
 

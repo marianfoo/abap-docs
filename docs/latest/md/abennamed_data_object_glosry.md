@@ -1,4 +1,14 @@
-  
+---
+title: "named_data_object_glosry"
+description: |
+  named_data_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennamed_data_object_glosry.htm"
+abapFile: "abennamed_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abennamed", "object", "glosry"]
+---
 
 * * *
 

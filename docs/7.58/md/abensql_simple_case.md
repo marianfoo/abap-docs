@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CASE sql_exp WHEN sql_exp1 THEN result1 WHEN sql_exp2 THEN result2 ... ELSE resultnsql_null END ... Effect Simple case distinction(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_case.htm) (simple case) in ABAP SQL. This SQL expression compares the val
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_simple_case.htm"
+abapFile: "abensql_simple_case.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abensql", "simple"]
+---
 
 * * *
 

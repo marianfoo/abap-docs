@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  asJSON - Mapping of Elementary ABAP Types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_asjson_abap_types_elem.htm) asJSON - Mapping of Structures(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_asjson_abap_types_struc.htm) asJSON - Mapping of Internal
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_asjson_abap_types.htm"
+abapFile: "abenabap_asjson_abap_types.htm"
+keywords: ["do", "data", "types", "internal-table", "abenabap", "asjson", "abap"]
+---
 
 * * *
 

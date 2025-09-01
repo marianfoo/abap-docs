@@ -1,4 +1,14 @@
-  
+---
+title: "Date Formats"
+description: |
+  The date format is determined by column DATFM in the database table T005X, where 'mm', 'dd', and 'yyyy' stand for day, month, and year. The following country-specific formats are available: DATFM Date Format '1' dd.mm.yyyy '2' mm/dd/yyyy '3' mm-dd-yyyy '4' yyyy.mm.dd '5' yyyy/mm/dd '6' yyyy-mm-dd '7
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendate_formats.htm"
+abapFile: "abendate_formats.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abendate", "formats"]
+---
 
 * * *
 

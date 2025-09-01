@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_step_loop. TYPES: BEGIN OF t_itab, col1 TYPE i, col2 TYPE i, END OF t_itab. DATA: itab TYPE STANDARD TABLE OF t_itab, wa   LIKE LINE OF itab, fill TYPE i. DATA: idx   TYPE i, line  TYPE i, lines TYPE i, limit TYPE i, c     TYPE i, n1    TYPE i VALUE 5, n2    TYPE i VALUE 25.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensteploop_abexa.htm"
+abapFile: "abensteploop_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "data", "types", "internal-table", "abensteploop", "abexa"]
+---
 
 * * *
 

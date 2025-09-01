@@ -1,4 +1,14 @@
-  
+---
+title: "SET FLAGS"
+description: |
+  Syntax SET FLAGS src FROM NAMES fields  MAPPING  TYPE p_type    LIKE var  . Variants: 1. ... MAPPING TYPE p_type.(#!ABAP_VARIANT_1@1@) 2. ... MAPPING LIKE var.(#!ABAP_VARIANT_2@2@) Effect Used for the conversion of fields that have the technical type(https://help.sap.c
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_flags.htm"
+abapFile: "abapset_flags.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abapset", "flags"]
+---
 
 * * *
 

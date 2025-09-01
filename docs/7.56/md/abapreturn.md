@@ -1,4 +1,14 @@
-  
+---
+title: "RETURN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreturn_shortref.htm) Syntax RETURN. Effect This statement immediately terminates the current processing block. It can appear at any point in a processing block(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-U
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreturn.htm"
+abapFile: "abapreturn.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "abapreturn"]
+---
 
 * * *
 

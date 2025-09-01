@@ -1,4 +1,14 @@
-  
+---
+title: "hierarchy_column_glosry"
+description: |
+  hierarchy_column_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhierarchy_column_glosry.htm"
+abapFile: "abenhierarchy_column_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenhierarchy", "column", "glosry"]
+---
 
 * * *
 

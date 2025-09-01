@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES - OCCURS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_occurs.htm) Syntax TYPES dtype  TYPE REF TO type  LIKE REF TO dobj  OCCURS n. Effect Obsolete: Declares a standard table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_occurs_shortref.htm"
+abapFile: "abaptypes_occurs_shortref.htm"
+keywords: ["do", "try", "data", "types", "abaptypes", "occurs", "shortref"]
+---
 
 * * *
 

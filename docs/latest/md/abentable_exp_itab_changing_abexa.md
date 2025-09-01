@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_tab_exp_changing DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. TYPES: BEGIN OF struct, col1 TYPE i, col2 TYPE i, END OF struct, itab TYPE STANDARD TABLE OF struct WITH EMPTY
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_exp_itab_changing_abexa.htm"
+abapFile: "abentable_exp_itab_changing_abexa.htm"
+keywords: ["loop", "do", "if", "method", "class", "data", "types", "internal-table", "abentable", "exp", "itab", "changing", "abexa"]
+---
 
 * * *
 

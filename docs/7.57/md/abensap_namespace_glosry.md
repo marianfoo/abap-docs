@@ -1,4 +1,14 @@
-  
+---
+title: "SAP namespace"
+description: |
+  Namespace(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennamespace_glosry.htm 'Glossary Entry') for repository objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm 'Glossary Entry') created in SAP's own development systems. There are
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_namespace_glosry.htm"
+abapFile: "abensap_namespace_glosry.htm"
+keywords: ["do", "if", "try", "abensap", "namespace", "glosry"]
+---
 
 * * *
 

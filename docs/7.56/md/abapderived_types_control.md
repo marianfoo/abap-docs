@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %control is a component group(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is structure that conta
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_control.htm"
+abapFile: "abapderived_types_control.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "types", "abapderived", "control"]
+---
 
 * * *
 

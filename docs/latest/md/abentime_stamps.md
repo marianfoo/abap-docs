@@ -1,4 +1,14 @@
-  
+---
+title: "Time Stamps"
+description: |
+  This section describes the representation of time-zone-independent time stamps(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamp_glosry.htm 'Glossary Entry') and the statements used for accessing time stamps. There are two ways in which time stamps can be handled in AB
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamps.htm"
+abapFile: "abentime_stamps.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abentime", "stamps"]
+---
 
 * * *
 

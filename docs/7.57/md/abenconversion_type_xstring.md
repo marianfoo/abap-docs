@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type xstring"
+description: |
+  -   Numeric Target Fields(#abenconversion-type-xstring-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_2) -   Byte-Like Target Fields(#abenconversion-type-xstring-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_4) Numeric Target Fields Tar
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_xstring.htm"
+abapFile: "abenconversion_type_xstring.htm"
+keywords: ["do", "if", "data", "abenconversion", "type", "xstring"]
+---
 
 * * *
 
@@ -11,10 +21,8 @@ D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Source Field Type xstring
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_4)
+-   [Numeric Target Fields](#abenconversion-type-xstring-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_2)
+-   [Byte-Like Target Fields](#abenconversion-type-xstring-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_4)
 
 Numeric Target Fields   
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_rap_behvdescr DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. METHODS initialize_dbtabs. ENDCLASS.  Public class implementation CLASS cl_demo_rap_beh
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm"
+abapFile: "abenrap_type_info_abexa.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenrap", "type", "info", "abexa"]
+---
 
 * * *
 

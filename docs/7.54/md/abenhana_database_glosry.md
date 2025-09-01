@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA database"
+description: |
+  The SAP HANA database is the in-memory database of SAP HANA(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_glosry.htm 'Glossary Entry'). It can be used as the database for an AS ABAP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm 'Gloss
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm"
+abapFile: "abenhana_database_glosry.htm"
+keywords: ["do", "case", "try", "data", "abenhana", "database", "glosry"]
+---
 
 * * *
 

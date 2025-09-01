@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING - Base Form"
+description: |
+  Syntax ...  CORRESPONDING dtype#( DEEP BASE ( base ) structitab  duplicates(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_constr_dupl.htm) )    CORRESPONDING dtype#( BASE ( base ) structitab  dupli
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_constr_arg_type.htm"
+abapFile: "abencorresponding_constr_arg_type.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abencorresponding", "constr", "arg", "type"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TSTMP_IS_VALID( tstmp )  TSTMP_CURRENT_UTCTIMESTAMP( )  TSTMP_SECONDS_BETWEEN( tstmp1   = tstmp1, tstmp2   = tstmp2, on_error = on_error )  TSTMP_ADD_SECONDS( tstmp    = tstmp, seconds  = seconds, on_error = on_error ) ... Variants: 1. ... TSTMP_IS_VALID(
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_timestamp_func.htm"
+abapFile: "abensql_timestamp_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "catch", "class", "data", "types", "abensql", "timestamp", "func"]
+---
 
 * * *
 

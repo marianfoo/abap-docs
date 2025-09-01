@@ -1,4 +1,14 @@
-  
+---
+title: "Setting Attributes Dynamically"
+description: |
+  During runtime of the ABAP program, a part of the attributes of every screen field can be read to a predefined structure screen using specific statements. These attributes can then modify the dynpro fields. You do not have to declare this structure in your program. You can access screen during dynpr
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_modify_screens_dyn.htm"
+abapFile: "abenabap_dynpro_modify_screens_dyn.htm"
+keywords: ["select", "delete", "loop", "do", "while", "if", "case", "try", "data", "abenabap", "dynpro", "modify", "screens", "dyn"]
+---
 
 * * *
 

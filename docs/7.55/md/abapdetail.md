@@ -1,4 +1,14 @@
-  
+---
+title: "DETAIL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdetail_shortref.htm) Obsolete Syntax DETAIL. Effect This statement (which cannot be used in classes) has the same function as the following statement and is replaced by it: FORMAT(https://help.sap.com/doc/abapdocu_755
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdetail.htm"
+abapFile: "abapdetail.htm"
+keywords: ["do", "if", "class", "abapdetail"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Calling and leaving program units"
+description: |
+  -   Call program(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_call.htm) -   Call processing blocks(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_processing_blocks.htm) -   Leave program units(https://help.sap.com/doc/abapdocu_754_index_htm/7
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm"
+abapFile: "abenabap_execution.htm"
+keywords: ["do", "abenabap", "execution"]
+---
 
 * * *
 

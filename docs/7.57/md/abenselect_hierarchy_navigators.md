@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... hierarchy_node_navigator(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_hierarchy_node_navis.htm)  hierarchy_agg_navigator(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_hierarchy_agg_navis.htm) ... Effect Specifies a hierarchy navigator
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_hierarchy_navigators.htm"
+abapFile: "abenselect_hierarchy_navigators.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abenselect", "hierarchy", "navigators"]
+---
 
 * * *
 

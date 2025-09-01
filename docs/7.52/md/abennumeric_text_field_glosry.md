@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric text field"
+description: |
+  Character-like data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_type_glosry.htm 'Glossary Entry') for saving numeric texts(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_text_glosry.htm 'Glossary Entry') with fixed lengths or a simila
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_text_field_glosry.htm"
+abapFile: "abennumeric_text_field_glosry.htm"
+keywords: ["do", "try", "data", "types", "abennumeric", "text", "field", "glosry"]
+---
 
 * * *
 

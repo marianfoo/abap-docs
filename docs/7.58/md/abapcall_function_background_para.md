@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXPORTING  p1 = a1 p2 = a2 ...  TABLES     t1 = itab1 t2 = itab2 ... ... Effect These additions are used to assign actual parameters to the formal parameters of the function module. The additions have the same meaning as in synchronous RFC(https://help.sap.com/doc/abapdocu_758_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_background_para.htm"
+abapFile: "abapcall_function_background_para.htm"
+keywords: ["do", "if", "class", "data", "abapcall", "function", "background", "para"]
+---
 
 * * *
 

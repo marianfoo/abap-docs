@@ -1,4 +1,14 @@
-  
+---
+title: "Demonstrating the SAP LUW"
+description: |
+  This example demonstrates the SAP LUW using the bundling techniques with update function modules(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_function_module_glosry.htm 'Glossary Entry') and subroutines(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubro
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_bundl_tech_abexa.htm"
+abapFile: "abensap_luw_bundl_tech_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "abensap", "luw", "bundl", "tech", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS association path"
+description: |
+  Sequence of CDS associations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm 'Glossary Entry') that link CDS entities(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm 'Glossary Entry') with association targets(https:
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_path_glosry.htm"
+abapFile: "abencds_association_path_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "association", "path", "glosry"]
+---
 
 * * *
 

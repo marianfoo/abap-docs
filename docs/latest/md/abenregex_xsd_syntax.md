@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   A regular expression with XSD syntax cannot be specified directly as a character string in the statements FIND(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) and REPLACE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace.htm), but you c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_xsd_syntax.htm"
+abapFile: "abenregex_xsd_syntax.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenregex", "xsd", "syntax"]
+---
 
 * * *
 

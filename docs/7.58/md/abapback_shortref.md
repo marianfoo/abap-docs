@@ -1,4 +1,14 @@
-  
+---
+title: "BACK - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapback.htm) Syntax BACK. Effect Positions the list cursor(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_cursor_glosry.htm 'Glossary Entry') at the first position of a line block defined with RESERVE, a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapback_shortref.htm"
+abapFile: "abapback_shortref.htm"
+keywords: ["do", "if", "try", "abapback", "shortref"]
+---
 
 * * *
 

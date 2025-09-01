@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenobj_oriented_guidl.htm
 
-  
+---
+title: "Object-Oriented Programming"
+description: |
+  Achieving an optimal object-oriented design is not an easy task and this is not the subject of these programming guidelines. It is definitely worth consulting the relevant literature for this topic. The rules below are limited to basic recommendations (for making source codes easier to understand an
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobj_oriented_guidl.htm"
+abapFile: "abenobj_oriented_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abenobj", "oriented", "guidl"]
+---
 
 * * *
 
@@ -51,7 +61,17 @@ Continue
 
 ### abenencapsulation_guidl.htm
 
-  
+---
+title: "Encapsulation"
+description: |
+  Background A program that is created based on the procedural programming model and that includes many procedures and global variables is usually difficult to understand because the numerous possible interdependencies of these publicly accessible variables and procedures are difficult to comprehend .
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenencapsulation_guidl.htm"
+abapFile: "abenencapsulation_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "abenencapsulation", "guidl"]
+---
 
 * * *
 
@@ -92,7 +112,17 @@ Conversely, within an encapsulated unit, that is, within a class, you should avo
 
 ### abenmodularization_guidl.htm
 
-  
+---
+title: "Modularization"
+description: |
+  Background The main programming model that was propagated before the implementation of ABAP Objects was structured programming: -   In this model, the programs are split into procedures as appropriate. -   Sequences, branches, and loops are the only control structures permitted. The implementation o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_guidl.htm"
+abapFile: "abenmodularization_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "class", "data", "internal-table", "abenmodularization", "guidl"]
+---
 
 * * *
 
@@ -207,7 +237,17 @@ string = shift\_left( val = string places = ... ).
 
 ### abenstatic_class_singleton_guidl.htm
 
-  
+---
+title: "Static Classes and Singletons"
+description: |
+  Background The classes of ABAP Objects support two types of components: -   Instance components (instance attributes, instance events and instance methods). You can only address the instance components of a class using instances of the class (objects). -   Static components (static attributes, stati
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_class_singleton_guidl.htm"
+abapFile: "abenstatic_class_singleton_guidl.htm"
+keywords: ["delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenstatic", "singleton", "guidl"]
+---
 
 * * *
 
@@ -318,7 +358,17 @@ In special cases, where object creation is performed without parameters and is a
 
 ### abeninheritance_guidl.htm
 
-  
+---
+title: "Inheritance"
+description: |
+  Background Inheritance is the method by which subclasses are derived from a superclass while inheriting the components of the superclass. A subclass can be made more specific by declaring new components and redefining instance methods. ABAP Objects supports simple inheritance, in which a class can h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninheritance_guidl.htm"
+abapFile: "abeninheritance_guidl.htm"
+keywords: ["do", "while", "if", "method", "class", "abeninheritance", "guidl"]
+---
 
 * * *
 
@@ -357,7 +407,17 @@ If your main aim is to exploit the possibilities of polymorphism, interfaces are
 
 ### abenclass_ref_interf_ref_guidl.htm
 
-  
+---
+title: "Class References and Interface References"
+description: |
+  Background Interface components in objects can be addressed using a class reference variable or an interface reference variable. If you use a class reference variable, the interface component is addressed using the name of the interface and the interface component selector (~). If you use a suitable
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_ref_interf_ref_guidl.htm"
+abapFile: "abenclass_ref_interf_ref_guidl.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenclass", "ref", "interf", "guidl"]
+---
 
 * * *
 
@@ -414,7 +474,17 @@ ENDCLASS.
 
 ### abenlocal_type_glob_class_guidl.htm
 
-  
+---
+title: "Local Types for Global Classes"
+description: |
+  Background Within class pools, as in virtually any other ABAP program, data types, local interfaces, and local classes can be defined to ensure a better structure of the implementation of the global class. From a technical point of view, these optional declaration parts, together with the declaratio
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_type_glob_class_guidl.htm"
+abapFile: "abenlocal_type_glob_class_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenlocal", "type", "glob", "guidl"]
+---
 
 * * *
 
@@ -475,7 +545,17 @@ Note
 
 ### abeninstance_constructor_guidl.htm
 
-  
+---
+title: "Instance Constructor"
+description: |
+  Background When you define an ABAP class, you specify who creates an instance of this class or who may access the instance constructor of the class. To do this, you use the addition CREATE of the statement CLASS ... DEFINITION. The addition CREATE PUBLIC is the default setting and allows for the ins
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_constructor_guidl.htm"
+abapFile: "abeninstance_constructor_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "types", "abeninstance", "constructor", "guidl"]
+---
 
 * * *
 

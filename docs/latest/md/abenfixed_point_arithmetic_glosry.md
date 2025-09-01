@@ -1,4 +1,14 @@
-  
+---
+title: "fixed_point_arithmetic_glosry"
+description: |
+  fixed_point_arithmetic_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfixed_point_arithmetic_glosry.htm"
+abapFile: "abenfixed_point_arithmetic_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenfixed", "point", "arithmetic", "glosry"]
+---
 
 * * *
 

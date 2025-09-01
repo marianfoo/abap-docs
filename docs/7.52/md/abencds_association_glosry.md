@@ -1,4 +1,14 @@
-  
+---
+title: "CDS association"
+description: |
+  Association(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenassociation_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS associations are defined in CDS DDL(https://help.sap.com/doc
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_association_glosry.htm"
+abapFile: "abencds_association_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "association", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Cloud"
+description: |
+  ABAP development model for state-of-the-art, cloud-ready and upgrade-stable solutions. ABAP Cloud is based on a usage type of the ABAP Platform(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_platform_glosry.htm 'Glossary Entry'), where development is done with the followi
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cloud_glosry.htm"
+abapFile: "abenabap_cloud_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "cloud", "glosry"]
+---
 
 * * *
 

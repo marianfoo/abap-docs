@@ -1,4 +1,14 @@
-  
+---
+title: "Memory Requirement for Deep Data Objects"
+description: |
+  The memory requirement for a deep data object consists of constantly required memory for the reference and dynamically required memory for the header and the actual objects. -   The memory requirement for the reference is 8 bytes. With data and object references, this is the memory requirement of th
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmemory_consumption_1.htm"
+abapFile: "abenmemory_consumption_1.htm"
+keywords: ["insert", "delete", "do", "if", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 

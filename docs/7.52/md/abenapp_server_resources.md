@@ -1,4 +1,14 @@
-  
+---
+title: "Thresholds for Resource Allocation for Asynchronous RFC"
+description: |
+  If one of the following criteria is not fulfilled, no resources are made available for the parallelization with asynchronous RFC (or triggered by the system in the exceptional case RESOURCE_FAILURE): -   Number of available dialog work processes: 1 This standard value is 1 and can be set using the
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapp_server_resources.htm"
+abapFile: "abenapp_server_resources.htm"
+keywords: ["do", "if", "case", "try", "data", "abenapp", "server", "resources"]
+---
 
 * * *
 

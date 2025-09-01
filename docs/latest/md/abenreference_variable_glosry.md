@@ -1,4 +1,14 @@
-  
+---
+title: "reference_variable_glosry"
+description: |
+  reference_variable_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_variable_glosry.htm"
+abapFile: "abenreference_variable_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenreference", "variable", "glosry"]
+---
 
 * * *
 

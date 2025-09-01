@@ -1,4 +1,14 @@
-  
+---
+title: "Standard ABAP"
+description: |
+  Standard ABAP is a language version(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_version_glosry.htm 'Glossary Entry') of an ABAP program(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_glosry.htm 'Glossary Entry') in which the Unicode checks(h
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_abap_glosry.htm"
+abapFile: "abenstandard_abap_glosry.htm"
+keywords: ["do", "try", "abenstandard", "abap", "glosry"]
+---
 
 * * *
 

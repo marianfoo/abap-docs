@@ -1,4 +1,14 @@
-  
+---
+title: "foreign_key_table_glosry"
+description: |
+  foreign_key_table_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenforeign_key_table_glosry.htm"
+abapFile: "abenforeign_key_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenforeign", "key", "table", "glosry"]
+---
 
 * * *
 

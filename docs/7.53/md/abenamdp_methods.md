@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Methods"
+description: |
+  There are two types of AMDP methods, methods without a return code that define AMDP procedures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_procedure_glosry.htm 'Glossary Entry') and methods with a return code that define AMDP functions(https://help.sap.com/doc/abapdocu_75
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_methods.htm"
+abapFile: "abenamdp_methods.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenamdp", "methods"]
+---
 
 * * *
 

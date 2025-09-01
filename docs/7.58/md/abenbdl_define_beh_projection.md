@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Definition, Projection BDEF"
+description: |
+  Syntax define behavior for ProjectedEntity alias AliasName external ExternalName implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique.htm) entity behavior characteristics(https://help.sap
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh_projection.htm"
+abapFile: "abenbdl_define_beh_projection.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenbdl", "define", "beh", "projection"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Definition of Annotations"
+description: |
+  The CDS annotations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_source_code_glosry.htm 'Glossary Entry') that can be specified in CDS source code(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_glosry.htm 'Glossary Entry') can be dictated by
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_anno_definition.htm"
+abapFile: "abencds_anno_definition.htm"
+keywords: ["do", "if", "try", "abencds", "anno", "definition"]
+---
 
 * * *
 

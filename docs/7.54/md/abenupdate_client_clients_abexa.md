@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE, USING CLIENT, CLIENTS"
+description: |
+  This example demonstrates client handling in the ABAP SQL statement UPDATE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm). Source Code REPORT demo_client_handling. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD m
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenupdate_client_clients_abexa.htm"
+abapFile: "abenupdate_client_clients_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "method", "class", "data", "types", "abenupdate", "client", "clients", "abexa"]
+---
 
 * * *
 

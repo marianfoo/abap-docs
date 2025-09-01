@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenabap_runtime_measurements.htm
 
-  
+---
+title: "Runtime Measurements"
+description: |
+  The statements in this section make it possible to measure the runtime of a program and make corresponding settings. -   GET RUN TIME(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time.htm) -   SET RUN TIME CLOCK RESOLUTION(https://help.sap.com/doc/abapdocu_753_index_htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_runtime_measurements.htm"
+abapFile: "abenabap_runtime_measurements.htm"
+keywords: ["do", "class", "abenabap", "runtime", "measurements"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abapget_run_time.htm
 
-  
+---
+title: "GET RUN TIME"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time_shortref.htm) Syntax GET RUN TIME FIELD rtime. Effect When GET RUN TIME is executed for the first time after an internal session(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_ses
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time.htm"
+abapFile: "abapget_run_time.htm"
+keywords: ["loop", "do", "while", "if", "try", "method", "class", "data", "abapget", "run", "time"]
+---
 
 * * *
 
@@ -103,7 +123,17 @@ Continue
 
 ### abenget_run_time_abexa.htm
 
-  
+---
+title: "Runtime Measurement of Database Reads"
+description: |
+  The example demonstrates how to use the statement GET RUN TIME FIELD statement at runtime. Source Code REPORT demo_get_run_time. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: t1 TYPE i, t2 TYPE i, t  TYPE p DECIMALS 2. DATA n TY
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenget_run_time_abexa.htm"
+abapFile: "abenget_run_time_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenget", "run", "time", "abexa"]
+---
 
 * * *
 
@@ -192,7 +222,17 @@ The result shows that the offset of the runtime measurement can be neglected in 
 
 ### abapget_run_time.htm
 
-  
+---
+title: "GET RUN TIME"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time_shortref.htm) Syntax GET RUN TIME FIELD rtime. Effect When GET RUN TIME is executed for the first time after an internal session(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_ses
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time.htm"
+abapFile: "abapget_run_time.htm"
+keywords: ["loop", "do", "while", "if", "try", "method", "class", "data", "abapget", "run", "time"]
+---
 
 * * *
 
@@ -261,7 +301,17 @@ Continue
 
 ### abapset_run_time_clock_resolution.htm
 
-  
+---
+title: "SET RUN TIME CLOCK RESOLUTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_run_time_clock_shortref.htm) Syntax SET RUN TIME CLOCK RESOLUTION HIGHLOW. Effect This statement specifies the precision with which the statement GET RUN TIME(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_run_time_clock_resolution.htm"
+abapFile: "abapset_run_time_clock_resolution.htm"
+keywords: ["do", "if", "try", "class", "data", "abapset", "run", "time", "clock", "resolution"]
+---
 
 * * *
 
@@ -327,7 +377,17 @@ Non-Handleable Exceptions
 
 ### abapset_run_time_analyzer.htm
 
-  
+---
+title: "SET RUN TIME ANALYZER"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_run_time_analyzer_shortref.htm) Syntax SET RUN TIME ANALYZER ONOFF. Effect This statement influences the measurement of a program with the runtime analysis(https://help.sap.com/doc/abapdocu_753_index_htm/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_run_time_analyzer.htm"
+abapFile: "abapset_run_time_analyzer.htm"
+keywords: ["select", "do", "if", "try", "method", "abapset", "run", "time", "analyzer"]
+---
 
 * * *
 
@@ -375,7 +435,17 @@ ENDMETHOD.
 
 ### abencl_abap_runtime.htm
 
-  
+---
+title: "System Class for Runtime Measurements"
+description: |
+  The static methods CREATE_HR_TIMER and CREATE_LR_TIMER of the class CL_ABAP_RUNTIME can be used to create objects for runtime measurements. The objects contain a method GET_RUNTIME that performs a runtime measurement in the same way as the statement GET RUN TIME(https://help.sap.com/doc/aba
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_runtime.htm"
+abapFile: "abencl_abap_runtime.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abencl", "abap", "runtime"]
+---
 
 * * *
 

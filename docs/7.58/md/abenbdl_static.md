@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - static"
+description: |
+  Syntax ... static ... Effect Defines a RAP BO non-standard operation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_nstandard_operation_glosry.htm 'Glossary Entry') as static(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_static_operation_glosry.htm 'Gloss
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_static.htm"
+abapFile: "abenbdl_static.htm"
+keywords: ["do", "if", "try", "abenbdl", "static"]
+---
 
 * * *
 

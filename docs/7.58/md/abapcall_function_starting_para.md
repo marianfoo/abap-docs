@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXPORTING  p1 = a1  p2 = a2 ... TABLES     t1 = itab1 t2 = itab2 ... CHANGING   p1 = a1  p2 = a2 ... EXCEPTIONS exc1 = n1  exc2 = n2 ... system_failure        = ns MESSAGE smess communication_failure = nc MESSAGE cmess res
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_starting_para.htm"
+abapFile: "abapcall_function_starting_para.htm"
+keywords: ["do", "if", "try", "class", "data", "abapcall", "function", "starting", "para"]
+---
 
 * * *
 

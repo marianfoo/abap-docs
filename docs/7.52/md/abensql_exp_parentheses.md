@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( sql_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) ) ... Every full SQL expression sql_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) can be enclosed in parentheses ( ... ). There must be a blank after the opening parent
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_exp_parentheses.htm"
+abapFile: "abensql_exp_parentheses.htm"
+keywords: ["select", "do", "if", "data", "abensql", "exp", "parentheses"]
+---
 
 * * *
 

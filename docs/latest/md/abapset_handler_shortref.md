@@ -1,4 +1,14 @@
-  
+---
+title: "SET HANDLER - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_handler.htm) Syntax SET HANDLER handler1 handler2 ... FOR orefALL INSTANCES ACTIVATION act. Effect Registers or deregisters event handlers(https://help.sap.com/doc/abapdocu_latest_index_htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_handler_shortref.htm"
+abapFile: "abapset_handler_shortref.htm"
+keywords: ["do", "if", "try", "method", "class", "abapset", "handler", "shortref"]
+---
 
 * * *
 

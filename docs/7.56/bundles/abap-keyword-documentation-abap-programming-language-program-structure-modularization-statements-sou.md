@@ -5,7 +5,17 @@ Included pages: 11
 
 ### abenabap_language_includes.htm
 
-  
+---
+title: "Source Code Modules"
+description: |
+  Source code modularization is the decomposition of the source code of a program into individual units. It is independent of the decomposition of an ABAP program into processing blocks. Source code modules are implemented either as include programs(https://help.sap.com/doc/abapdocu_756_index_htm/7.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_includes.htm"
+abapFile: "abenabap_language_includes.htm"
+keywords: ["do", "abenabap", "language", "includes"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abenabap_language_include.htm
 
-  
+---
+title: "Include Programs"
+description: |
+  Include programs are used to split ABAP source code(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') into individual repository objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm 'Glossar
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_include.htm"
+abapFile: "abenabap_language_include.htm"
+keywords: ["do", "try", "class", "abenabap", "language", "include"]
+---
 
 * * *
 
@@ -55,7 +75,17 @@ Continue
 
 ### abapinclude_prog.htm
 
-  
+---
+title: "INCLUDE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinclude_shortref.htm) Syntax INCLUDE incl IF FOUND. Addition: ... IF FOUND(#!ABAP_ONE_ADD@1@) Effect The statement INCLUDE includes the include program(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinclude_prog.htm"
+abapFile: "abapinclude_prog.htm"
+keywords: ["do", "if", "try", "class", "data", "abapinclude", "prog"]
+---
 
 * * *
 
@@ -126,7 +156,17 @@ These lines show the [master program](https://help.sap.com/doc/abapdocu_756_inde
 
 ### abenabap_language_include.htm
 
-  
+---
+title: "Include Programs"
+description: |
+  Include programs are used to split ABAP source code(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') into individual repository objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm 'Glossar
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_include.htm"
+abapFile: "abenabap_language_include.htm"
+keywords: ["do", "try", "class", "abenabap", "language", "include"]
+---
 
 * * *
 
@@ -155,7 +195,17 @@ Continue
 
 ### abenabap_macros.htm
 
-  
+---
+title: "Macros"
+description: |
+  Macros enable source code modularization(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_modularizat_glosry.htm 'Glossary Entry') within an ABAP program. They have the following properties: -   Defined between the statements DEFINE(https://help.sap.com/doc/abapdocu_756
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_macros.htm"
+abapFile: "abenabap_macros.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "abenabap", "macros"]
+---
 
 * * *
 
@@ -182,7 +232,17 @@ Continue
 
 ### abapdefine.htm
 
-  
+---
+title: "DEFINE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdefine_shortref.htm) Syntax DEFINE macro. ... &1 ... &9 ... END-OF-DEFINITION. Effect The statement DEFINE defines a macro(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmacro_glosry.htm 'Glossary Entr
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdefine.htm"
+abapFile: "abapdefine.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abapdefine"]
+---
 
 * * *
 
@@ -234,7 +294,17 @@ Continue
 
 ### abapend-of-definition.htm
 
-  
+---
+title: "END-OF-DEFINITION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdefine_shortref.htm) Syntax END-OF-DEFINITION. Effect The statement END-OF-DEFINITION closes a macro definition that was initiated by DEFINE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdefine.htm).
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-definition.htm"
+abapFile: "abapend-of-definition.htm"
+keywords: ["do", "abapend", "definition"]
+---
 
 * * *
 
@@ -257,7 +327,17 @@ The statement END-OF-DEFINITION closes a macro definition that was initiated by 
 
 ### abapdefine.htm
 
-  
+---
+title: "DEFINE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdefine_shortref.htm) Syntax DEFINE macro. ... &1 ... &9 ... END-OF-DEFINITION. Effect The statement DEFINE defines a macro(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmacro_glosry.htm 'Glossary Entr
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdefine.htm"
+abapFile: "abapdefine.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abapdefine"]
+---
 
 * * *
 
@@ -309,7 +389,17 @@ Continue
 
 ### abenmacro_include.htm
 
-  
+---
+title: "Inserting Macros"
+description: |
+  Syntax macro p1 p2 ... . Effect If a macro is listed as the first word in an ABAP statement instead of a valid ABAP keyword(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_keyword_glosry.htm 'Glossary Entry'), then its content is included in the source code at this posi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmacro_include.htm"
+abapFile: "abenmacro_include.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "abenmacro", "include"]
+---
 
 * * *
 
@@ -372,7 +462,17 @@ Executable Example
 
 ### abenmacro_abexa.htm
 
-  
+---
+title: "Macros"
+description: |
+  This example demonstrates how macros are created and included. Source Code REPORT  DEMO_MACRO. DATA: x TYPE i, y TYPE i, l TYPE i. DEFINE write_frame. x = sy-colno. y = sy-linno. WRITE: '' NO-GAP, &1 NO-GAP, '' NO-GAP. l = sy-colno - x. y -= 1. SKIP TO LINE y. POSITION x. ULINE AT x(l). y += 2.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmacro_abexa.htm"
+abapFile: "abenmacro_abexa.htm"
+keywords: ["do", "data", "abenmacro", "abexa"]
+---
 
 * * *
 
@@ -408,7 +508,17 @@ In this example, a macro write\_frame, which draws a box around the placeholder 
 
 ### abenabap_macros.htm
 
-  
+---
+title: "Macros"
+description: |
+  Macros enable source code modularization(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_modularizat_glosry.htm 'Glossary Entry') within an ABAP program. They have the following properties: -   Defined between the statements DEFINE(https://help.sap.com/doc/abapdocu_756
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_macros.htm"
+abapFile: "abenabap_macros.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "abenabap", "macros"]
+---
 
 * * *
 

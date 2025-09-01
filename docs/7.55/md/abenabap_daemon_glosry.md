@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Daemon"
+description: |
+  Instance of an ABAP Daemon class(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_class_glosry.htm 'Glossary Entry') that is automatically regenerated whenever a runtime error(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenruntime_error_glosry.htm 'Gloss
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_glosry.htm"
+abapFile: "abenabap_daemon_glosry.htm"
+keywords: ["do", "try", "class", "abenabap", "daemon", "glosry"]
+---
 
 * * *
 

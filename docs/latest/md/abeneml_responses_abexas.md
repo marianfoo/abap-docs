@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for Responses"
+description: |
+  -   ABAP EML - Responses(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_responses_abexa.htm) -   ABAP EML - Responses (Dynamic Forms of ABAP EML Statements)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_responses_dyn_abexa.htm) !Example(exa.gi
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_responses_abexas.htm"
+abapFile: "abeneml_responses_abexas.htm"
+keywords: ["do", "if", "abeneml", "responses", "abexas"]
+---
 
 * * *
 

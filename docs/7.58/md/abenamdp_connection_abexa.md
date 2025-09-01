@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Method with Specified Service Connection"
+description: |
+  The example demonstrates an AMDP method with the input parameter connection. Source Code  Public class definition CLASS cl_demo_amdp_service_cnnctn DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implement
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_connection_abexa.htm"
+abapFile: "abenamdp_connection_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "connection", "abexa"]
+---
 
 * * *
 

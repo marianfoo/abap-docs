@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY dbtab, VERSION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab_shortref.htm) Obsolete Syntax MODIFY  dbtab  dbtab  VERSION vers. Effect This variant of the statement MODIFY works essentially like the short form(https://help.sap.com/doc/abapdocu_758_index_h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab_obsolete.htm"
+abapFile: "abapmodify_dbtab_obsolete.htm"
+keywords: ["do", "if", "try", "class", "data", "abapmodify", "dbtab", "obsolete"]
+---
 
 * * *
 

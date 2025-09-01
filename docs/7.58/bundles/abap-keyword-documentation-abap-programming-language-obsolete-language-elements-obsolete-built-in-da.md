@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenbuilt_in_obsolete.htm
 
-  
+---
+title: "Obsolete Built-In Data Objects"
+description: |
+  -   Obsolete System Fields(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields_obsolete.htm) -   The Built-In Structure screen(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_structure_obsolete.htm) Obsolete System Fields(https://help.sap.com/doc/
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_obsolete.htm"
+abapFile: "abenbuilt_in_obsolete.htm"
+keywords: ["do", "if", "data", "abenbuilt", "obsolete"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abensystem_fields_obsolete.htm
 
-  
+---
+title: "Obsolete System Fields"
+description: |
+  -   Former System Fields(#abensystem-fields-obsolete-1-------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2) Former System Fields The following system fields(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_field_glosry.htm 'Glossary Entry') are obsolete and should n
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields_obsolete.htm"
+abapFile: "abensystem_fields_obsolete.htm"
+keywords: ["select", "delete", "loop", "do", "if", "try", "data", "internal-table", "abensystem", "fields", "obsolete"]
+---
 
 * * *
 
@@ -39,8 +59,7 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Obsolete System Fields
 
--   [Former System Fields](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_1)
--   [Spool Parameters](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
+-   [Former System Fields](#abensystem-fields-obsolete-1-------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
 
 Former System Fields   
 
@@ -517,7 +536,17 @@ c
 
 ### abenscreen_structure_obsolete.htm
 
-  
+---
+title: "The Built-In Structure screen"
+description: |
+  In dynpro(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm 'Glossary Entry') processing in dialog modules, the built-in data object screen of the data type SCREEN from ABAP Dictionary is available. It can be addressed explicitly there and implicitly in obsolete shor
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_structure_obsolete.htm"
+abapFile: "abenscreen_structure_obsolete.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenscreen", "structure", "obsolete"]
+---
 
 * * *
 

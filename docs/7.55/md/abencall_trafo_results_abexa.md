@@ -1,4 +1,14 @@
-  
+---
+title: "XML Targets of Transformations"
+description: |
+  This example demonstrates the possible XML targets of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation.htm). Source Code REPORT demo_call_trafo_xml_results. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_trafo_results_abexa.htm"
+abapFile: "abencall_trafo_results_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencall", "trafo", "results", "abexa"]
+---
 
 * * *
 

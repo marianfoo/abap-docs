@@ -1,4 +1,14 @@
-  
+---
+title: "READ LINE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_line_shortref.htm) Syntax READ  LINE line OF PAGE pageOF CURRENT PAGE INDEX idx  CURRENT LINE  result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/e
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_line.htm"
+abapFile: "abapread_line.htm"
+keywords: ["select", "do", "while", "if", "class", "data", "abapread", "line"]
+---
 
 * * *
 

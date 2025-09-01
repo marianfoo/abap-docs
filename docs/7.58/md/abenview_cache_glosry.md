@@ -1,4 +1,14 @@
-  
+---
+title: "view_cache_glosry"
+description: |
+  view_cache_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenview_cache_glosry.htm"
+abapFile: "abenview_cache_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenview", "cache", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   iXML documents and their nodes can also be specified as an XML source for XSL transformations called using CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation.htm). -   If the content of elements or attributes contain the notations &lt;, &gt;,
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib_dom_access_read.htm"
+abapFile: "abenabap_ixml_lib_dom_access_read.htm"
+keywords: ["do", "if", "class", "data", "abenabap", "ixml", "lib", "dom", "access", "read"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "package_concept_glosry"
+description: |
+  package_concept_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpackage_concept_glosry.htm"
+abapFile: "abenpackage_concept_glosry.htm"
+keywords: ["do", "if", "try", "abenpackage", "concept", "glosry"]
+---
 
 * * *
 

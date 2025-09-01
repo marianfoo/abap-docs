@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Extend Determine Action"
+description: |
+  This example demonstrates how a determine action is extended via a BDEF extension. Data model The CDS data model consists of the root entity DEMO_RAP_EXTENSIBILITY_DET_ACT and its child entity DEMO_RAP_EXT_DET_ACT_CHILD. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUse
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_det_action_ext_abexa.htm"
+abapFile: "abenbdl_det_action_ext_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "det", "action", "ext", "abexa"]
+---
 
 * * *
 

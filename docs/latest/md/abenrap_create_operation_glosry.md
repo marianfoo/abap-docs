@@ -1,4 +1,14 @@
-  
+---
+title: "RAP create operation"
+description: |
+  A RAP modify operation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_modify_operation_glosry.htm 'Glossary Entry') that creates new instances(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry') of a RAP BO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_create_operation_glosry.htm"
+abapFile: "abenrap_create_operation_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "create", "operation", "glosry"]
+---
 
 * * *
 

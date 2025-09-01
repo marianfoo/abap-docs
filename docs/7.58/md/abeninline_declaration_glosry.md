@@ -1,4 +1,14 @@
-  
+---
+title: "inline_declaration_glosry"
+description: |
+  inline_declaration_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninline_declaration_glosry.htm"
+abapFile: "abeninline_declaration_glosry.htm"
+keywords: ["do", "if", "try", "field-symbol", "abeninline", "declaration", "glosry"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenprogram_properties_obsolete.htm
 
-  
+---
+title: "Obsolete Program Properties"
+description: |
+  -   Obsolete Disabling of the Unicode Check(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennon_unicode_obsolete.htm) -   Obsolete Disabling of Fixed Point Arithmetic(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennon_fixed_point_obsolete.htm) -   Obsole
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_properties_obsolete.htm"
+abapFile: "abenprogram_properties_obsolete.htm"
+keywords: ["do", "if", "abenprogram", "properties", "obsolete"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abennon_unicode_obsolete.htm
 
-  
+---
+title: "Obsolete Disabling of the Unicode Check"
+description: |
+  When a program is created, the ABAP language version(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_versions.htm) Standard ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_abap_glosry.htm 'Glossary Entry') with enabled Unicode checks(h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennon_unicode_obsolete.htm"
+abapFile: "abennon_unicode_obsolete.htm"
+keywords: ["do", "if", "try", "abennon", "unicode", "obsolete"]
+---
 
 * * *
 
@@ -60,7 +80,17 @@ Programming Guideline
 
 ### abennon_fixed_point_obsolete.htm
 
-  
+---
+title: "Obsolete Disabling of Fixed Point Arithmetic"
+description: |
+  The program property(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_property_glosry.htm 'Glossary Entry') fixed point arithmetic(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfixed_point_arithmetic_glosry.htm 'Glossary Entry') is set by default
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennon_fixed_point_obsolete.htm"
+abapFile: "abennon_fixed_point_obsolete.htm"
+keywords: ["do", "if", "try", "class", "types", "abennon", "fixed", "point", "obsolete"]
+---
 
 * * *
 
@@ -84,7 +114,17 @@ Programming Guideline
 
 ### abenabap_versions_obsolete.htm
 
-  
+---
+title: "Obsolete ABAP Language Versions"
+description: |
+  The following ABAP language versions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_version_glosry.htm 'Glossary Entry') are obsolete. Language Version Meaning Version ID Static ABAP with restricted object use(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_versions_obsolete.htm"
+abapFile: "abenabap_versions_obsolete.htm"
+keywords: ["do", "if", "try", "abenabap", "versions", "obsolete"]
+---
 
 * * *
 

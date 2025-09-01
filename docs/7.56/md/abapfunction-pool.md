@@ -1,4 +1,14 @@
-  
+---
+title: "FUNCTION-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfunction-pool_shortref.htm) Syntax FUNCTION-POOL fpool list_options(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreport_list_options.htm) MESSAGE-ID mid. Effect The statement FUNCTIO
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfunction-pool.htm"
+abapFile: "abapfunction-pool.htm"
+keywords: ["do", "try", "method", "class", "data", "abapfunction", "pool"]
+---
 
 * * *
 

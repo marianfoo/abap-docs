@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Blank lines(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_skip.htm) 1. SELECTION-SCREEN SKIP n ldb_additions. Horizontal lines(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_uline.htm) 2. SELECTION-SCREEN ULINE
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_layout.htm"
+abapFile: "abapselection-screen_layout.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapselection", "screen", "layout"]
+---
 
 * * *
 

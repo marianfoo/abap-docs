@@ -1,4 +1,14 @@
-  
+---
+title: "external_mode_glosry"
+description: |
+  external_mode_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexternal_mode_glosry.htm"
+abapFile: "abenexternal_mode_glosry.htm"
+keywords: ["do", "try", "abenexternal", "mode", "glosry"]
+---
 
 * * *
 

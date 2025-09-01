@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Naming Rules for Data Types"
+description: |
+  The name of a DDIC data type must stick to the following rules: -   It can have a maximum of 30 characters. -   It can consist of letters, digits, and underscores. -   It must start with a letter. -   It can be introduced using a namespace prefix(https://help.sap.com/doc/abapdocu_758_index_htm/7.5
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_types_names.htm"
+abapFile: "abenddic_types_names.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenddic", "names"]
+---
 
 * * *
 

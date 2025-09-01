@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Operator, Type Inference"
+description: |
+  This example demonstrates the type inference for the conversion operator CONV(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_conv.htm). Source Code REPORT demo_conv_type_inference. CLASS demo DEFINITION. PUBLIC SECTION. TYPES c10 TYPE c LENGTH 10. CLASS-ME
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconv_type_inference_abexa.htm"
+abapFile: "abenconv_type_inference_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "field-symbol", "abenconv", "type", "inference", "abexa"]
+---
 
 * * *
 

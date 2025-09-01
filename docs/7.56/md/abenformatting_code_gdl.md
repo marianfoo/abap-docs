@@ -1,4 +1,14 @@
-  
+---
+title: "Formatting the Source Code"
+description: |
+  The readability of source code is dependent to a great extent on formatting that highlights its logical structure. The following methods help to format source code in a clear way. -   Case(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlower_upper_case_guidl.htm 'Guideline') -   S
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenformatting_code_gdl.htm"
+abapFile: "abenformatting_code_gdl.htm"
+keywords: ["do", "case", "method", "abenformatting", "code", "gdl"]
+---
 
 * * *
 

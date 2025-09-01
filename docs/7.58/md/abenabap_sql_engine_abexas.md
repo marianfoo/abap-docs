@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Engine, Examples"
+description: |
+  -   ABAP SQL Engine, Multiple Internal Tables(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_engine_abexa.htm) -   ABAP SQL Engine, Restrictions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_engine_restr_abexa.htm) -   ABAP SQL Engine, Restrict
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_engine_abexas.htm"
+abapFile: "abenabap_sql_engine_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abenabap", "sql", "engine", "abexas"]
+---
 
 * * *
 

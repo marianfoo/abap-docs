@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_crrspndng_class_lkup DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TYPES: BEGIN OF struct1, a1 TYPE string, a2 TYPE string, b1 TYPE string, b2 TYPE stri
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_corr_lookup_abexa.htm"
+abapFile: "abencl_abap_corr_lookup_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "abencl", "abap", "corr", "lookup", "abexa"]
+---
 
 * * *
 

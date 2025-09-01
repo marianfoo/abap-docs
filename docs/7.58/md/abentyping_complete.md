@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  TYPE LINE OF complete_type  REF TO type    LIKE LINE OF dobj  REF TO dobj  ... Effect To completely type a formal parameter or a field symbol: -   Any non-generic type complete_type can be specified after TYPE. complete_type can be
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_complete.htm"
+abapFile: "abentyping_complete.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abentyping", "complete"]
+---
 
 * * *
 

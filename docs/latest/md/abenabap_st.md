@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformations (ST)"
+description: |
+  Simple Transformations (ST) is an SAP programming language for describing transformations between ABAP data and XML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxml_glosry.htm 'Glossary Entry') formats. ST is restricted to the two modes of serialization(https://help.sap.co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_st.htm"
+abapFile: "abenabap_st.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "internal-table", "abenabap"]
+---
 
 * * *
 

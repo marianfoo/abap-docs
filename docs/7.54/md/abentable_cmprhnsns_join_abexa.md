@@ -1,4 +1,14 @@
-  
+---
+title: "Table Comprehensions, Join"
+description: |
+  This example demonstrates a join between internal tables using a table comprehension(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_comprehension_glosry.htm 'Glossary Entry'). Source Code REPORT demo_table_comprh_join. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS m
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_cmprhnsns_join_abexa.htm"
+abapFile: "abentable_cmprhnsns_join_abexa.htm"
+keywords: ["select", "do", "case", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "join", "abexa"]
+---
 
 * * *
 

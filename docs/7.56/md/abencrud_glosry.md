@@ -1,4 +1,14 @@
-  
+---
+title: "CRUD operations"
+description: |
+  Acronym for Create, Read, Update, and Delete, which are the four basic operations for persistent data storage. -   In SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_glosry.htm 'Glossary Entry'), the four operations are implemented by the DML(https://help.sap.com/doc/abapd
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencrud_glosry.htm"
+abapFile: "abencrud_glosry.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "data", "abencrud", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "branch_glosry"
+description: |
+  branch_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbranch_glosry.htm"
+abapFile: "abenbranch_glosry.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "abenbranch", "glosry"]
+---
 
 * * *
 

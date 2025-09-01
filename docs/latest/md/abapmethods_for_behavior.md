@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, FOR BEHAVIOR"
+description: |
+  Syntax  METHODS read   FOR BEHAVIOR ...    METHODS modify FOR BEHAVIOR ...    METHODS lock   FOR BEHAVIOR ...  Effect Obsolete declaration of ABP handler methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm 'Glossary Entr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_for_behavior.htm"
+abapFile: "abapmethods_for_behavior.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "for", "behavior"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Amount Fields"
+description: |
+  An ABAP CDS amount field(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_amount_field_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.s
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_amount_field.htm"
+abapFile: "abencds_amount_field.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "amount", "field"]
+---
 
 * * *
 

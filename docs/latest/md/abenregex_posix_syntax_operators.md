@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX regex - Character String Patterns (obsolete)"
+description: |
+  Character strings are represented by chainings or operators. -   Chainings(#abenregex-posix-syntax-operators-1-------operators-for-character-strings---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2) -   Chaining Operators(#abenregex-posix-syntax-operators-3-----------alternatives---@ITOC@@ABENREGEX_P
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_syntax_operators.htm"
+abapFile: "abenregex_posix_syntax_operators.htm"
+keywords: ["do", "if", "method", "class", "data", "abenregex", "posix", "syntax", "operators"]
+---
 
 * * *
 
@@ -13,14 +23,10 @@ POSIX regex - Character String Patterns (obsolete)
 
 Character strings are represented by chainings or operators.
 
--   [Chainings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_1)
--   [Operators for Character Strings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
-    -   [Chaining Operators](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_3)
-    -   [Alternatives](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
-    -   [Subgroups](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_5)
-    -   [Subgroups with Registration](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
-    -   [Literal Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_7)
-    -   [Reserved Enhancements](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
+-   [Chainings](#abenregex-posix-syntax-operators-1-------operators-for-character-strings---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
+    -   [Chaining Operators](#abenregex-posix-syntax-operators-3-----------alternatives---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
+    -   [Subgroups](#abenregex-posix-syntax-operators-5-----------subgroups-with-registration---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
+    -   [Literal Characters](#abenregex-posix-syntax-operators-7-----------reserved-enhancements---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
 
 Chainings   
 

@@ -1,4 +1,14 @@
-  
+---
+title: "floating_point_number_glosry"
+description: |
+  floating_point_number_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfloating_point_number_glosry.htm"
+abapFile: "abenfloating_point_number_glosry.htm"
+keywords: ["do", "case", "try", "data", "types", "abenfloating", "point", "number", "glosry"]
+---
 
 * * *
 

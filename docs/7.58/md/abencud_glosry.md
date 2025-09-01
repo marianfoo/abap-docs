@@ -1,4 +1,14 @@
-  
+---
+title: "CUD operations"
+description: |
+  Synonym for RAP modify operation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_modify_operation_glosry.htm 'Glossary Entry'). Create(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_create_operation_glosry.htm 'Glossary Entry'), update(https://help.sap.co
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencud_glosry.htm"
+abapFile: "abencud_glosry.htm"
+keywords: ["update", "delete", "do", "if", "try", "abencud", "glosry"]
+---
 
 * * *
 

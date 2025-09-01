@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_reduce_for_for. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, col1 TYPE i, col2 TYPE i, END OF line, BEGIN OF line1, col1 TYPE i, col2 TYPE STANDARD TABLE OF line WITH EMPTY KEY, END OF line1, itab1 T
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreduce_for_for_abexa.htm"
+abapFile: "abenreduce_for_for_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "types", "internal-table", "abenreduce", "for", "abexa"]
+---
 
 * * *
 

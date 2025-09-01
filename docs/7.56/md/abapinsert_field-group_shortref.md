@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT field-group - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_fg.htm) Syntax INSERT dobj1 dobj2 ... INTO  header  field_group . Effect Obsolete: Uses global data objects dobj1, dobj2, ... to build the structure of a field group defined for the extract dataset of the pro
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_field-group_shortref.htm"
+abapFile: "abapinsert_field-group_shortref.htm"
+keywords: ["insert", "do", "data", "abapinsert", "field", "group", "shortref"]
+---
 
 * * *
 

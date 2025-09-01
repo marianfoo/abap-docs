@@ -1,4 +1,14 @@
-  
+---
+title: "CDS set operator"
+description: |
+  CDS set operators merge the result sets of multiple queries into a single result set. In CDS view entities(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm 'Glossary Entry'), the following set operators are available: -   EXCEPT(https://help.sap.com/doc/abapd
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_set_operators_glosry.htm"
+abapFile: "abencds_set_operators_glosry.htm"
+keywords: ["do", "try", "abencds", "set", "operators", "glosry"]
+---
 
 * * *
 

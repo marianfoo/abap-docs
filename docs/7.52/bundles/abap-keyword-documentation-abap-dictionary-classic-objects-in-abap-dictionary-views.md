@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenddic_views.htm
 
-  
+---
+title: "Views"
+description: |
+  A view in ABAP Dictionary is a grouping of columns in one or more database tables in accordance with an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as data types (like flat structures). Views can be used like database tables in Open SQL read stat
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm"
+abapFile: "abenddic_views.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenddic", "views"]
+---
 
 * * *
 
@@ -54,7 +64,17 @@ Continue
 
 ### abenddic_classical_views.htm
 
-  
+---
+title: "Classic Views"
+description: |
+  A classic view (or view for short) is a repository object in ABAP Dictionary defined for existing database tables and their fields in the form-based ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_tools.htm) in ABAP Workbench(https://help.sap.com/doc/abap
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm"
+abapFile: "abenddic_classical_views.htm"
+keywords: ["select", "insert", "do", "while", "if", "case", "try", "class", "data", "types", "abenddic", "classical", "views"]
+---
 
 * * *
 
@@ -123,7 +143,17 @@ Continue
 
 ### abenddic_database_views.htm
 
-  
+---
+title: "Database Views"
+description: |
+  A database view is a general view for one or more basis tables. If there are multiple basis tables, they are joined using an inner join. A matching SQL view is created on the database when the view is activated. The structure type defined using the view fields of the database view can be referenced
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm"
+abapFile: "abenddic_database_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "database", "views"]
+---
 
 * * *
 
@@ -253,7 +283,17 @@ cl\_demo\_output=>display( result ).
 
 ### abenddic_projection_views.htm
 
-  
+---
+title: "Projection Views"
+description: |
+  A projection view is a special view for hiding fields from a single basis table. An SQL view is not created on the database. No selection conditions can be specified for a projection view. The structure type defined using the view fields of the projection view can be referenced in ABAP programs usin
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm"
+abapFile: "abenddic_projection_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "class", "data", "abenddic", "projection", "views"]
+---
 
 * * *
 
@@ -298,7 +338,17 @@ cl\_demo\_output=>display( result ).
 
 ### abenddic_maintenance_views.htm
 
-  
+---
+title: "Maintenance Views"
+description: |
+  A maintenance view is a special view for performing writes on multiple tables using extended table maintenance. A single maintenance view can be used to modify the content of multiple related database tables consistently. A maintenance view is not defined on the database. The structure type defined
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm"
+abapFile: "abenddic_maintenance_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "abenddic", "maintenance", "views"]
+---
 
 * * *
 
@@ -393,7 +443,17 @@ Regardless of this, the transport of the basis tables involved in upgrades and i
 
 ### abenddic_help_views.htm
 
-  
+---
+title: "Help Views"
+description: |
+  A help view is a special view for use in search helps(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_help_glosry.htm 'Glossary Entry'). The selection methods of a search help can be database tables, database views, and the special help views. Database tables restrict the sea
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm"
+abapFile: "abenddic_help_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenddic", "help", "views"]
+---
 
 * * *
 
@@ -424,7 +484,17 @@ Notes
 
 ### abenddic_classical_views.htm
 
-  
+---
+title: "Classic Views"
+description: |
+  A classic view (or view for short) is a repository object in ABAP Dictionary defined for existing database tables and their fields in the form-based ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_tools.htm) in ABAP Workbench(https://help.sap.com/doc/abap
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm"
+abapFile: "abenddic_classical_views.htm"
+keywords: ["select", "insert", "do", "while", "if", "case", "try", "class", "data", "types", "abenddic", "classical", "views"]
+---
 
 * * *
 
@@ -493,7 +563,17 @@ Continue
 
 ### abenddic_external_views.htm
 
-  
+---
+title: "External Views"
+description: |
+  An external view is a special view in ABAP Dictionary that defines(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexternal_views.htm) an SAP HANA View(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_view_glosry.htm 'Glossary Entry') in SAP HANA XSC(https://h
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_external_views.htm"
+abapFile: "abenddic_external_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "external", "views"]
+---
 
 * * *
 

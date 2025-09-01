@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETER-TABLE ptab EXCEPTION-TABLE etab ... Additions: 1. ... PARAMETER-TABLE ptab ...(#!ABAP_ADDITION_1@1@) 2. ... EXCEPTION-TABLE etab ...(#!ABAP_ADDITION_2@2@) Effect These additions use the special internal tables ptab and etab to assign actual parameters to the forma
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_dynamic.htm"
+abapFile: "abapcall_function_dynamic.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "internal-table", "abapcall", "function", "dynamic"]
+---
 
 * * *
 

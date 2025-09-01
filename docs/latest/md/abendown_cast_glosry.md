@@ -1,4 +1,14 @@
-  
+---
+title: "down_cast_glosry"
+description: |
+  down_cast_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendown_cast_glosry.htm"
+abapFile: "abendown_cast_glosry.htm"
+keywords: ["do", "if", "case", "try", "abendown", "cast", "glosry"]
+---
 
 * * *
 

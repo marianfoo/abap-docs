@@ -1,4 +1,14 @@
-  
+---
+title: "ENDMETHOD"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethod_shortref.htm) Syntax ENDMETHOD. Effect The statement ENDMETHOD closes a method implementation introduced using METHOD(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethod.htm).
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendmethod.htm"
+abapFile: "abapendmethod.htm"
+keywords: ["do", "if", "method", "abapendmethod"]
+---
 
 * * *
 

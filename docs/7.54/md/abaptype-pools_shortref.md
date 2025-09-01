@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE-POOLS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pools.htm) Syntax TYPE-POOLS tpool. Effect Obsolete: Previously made the type group tpool known in the current context.
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pools_shortref.htm"
+abapFile: "abaptype-pools_shortref.htm"
+keywords: ["do", "abaptype", "pools", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP type mapping"
+description: |
+  Mapping between data types of the data model that is defined in CDS for a RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') to other data types that do not match a BDEF derived type(https://help.sap.com/doc/abapdocu_latest
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_mapping_glosry.htm"
+abapFile: "abenrap_type_mapping_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenrap", "type", "mapping", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "POSITION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapposition_shortref.htm) Syntax POSITION pos. Effect This statement places the list cursor(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_cursor_glosry.htm 'Glossary Entry') at the position in the c
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapposition.htm"
+abapFile: "abapposition.htm"
+keywords: ["do", "if", "try", "class", "data", "abapposition"]
+---
 
 * * *
 

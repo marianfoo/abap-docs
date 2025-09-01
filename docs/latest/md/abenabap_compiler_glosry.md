@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Compiler"
+description: |
+  ABAP Compiler creates byte code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbytecode_glosry.htm 'Glossary Entry') as intermediate code when generating a program from ABAP source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_source_code_glos
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_compiler_glosry.htm"
+abapFile: "abenabap_compiler_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "compiler", "glosry"]
+---
 
 * * *
 

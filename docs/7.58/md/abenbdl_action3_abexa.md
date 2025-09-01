@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Factory Action"
+description: |
+  This example demonstrates how factory actions are defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of a single root entity DEMO_RAP_FACTORY_ACTION: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label: 'test' define root view entity de
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action3_abexa.htm"
+abapFile: "abenbdl_action3_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "action3", "abexa"]
+---
 
 * * *
 

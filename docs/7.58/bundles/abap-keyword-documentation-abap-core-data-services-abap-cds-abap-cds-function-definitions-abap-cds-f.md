@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abencds_sql_scalar_function.htm
 
-  
+---
+title: "ABAP CDS - SQL-Based Scalar Functions"
+description: |
+  SQL-based scalar functions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_glosry.htm 'Glossary Entry') are scalar functions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_function_glosry.htm 'Glossary Entry') that are evaluated by an SQL
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm"
+abapFile: "abencds_sql_scalar_function.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "abencds", "sql", "scalar", "function"]
+---
 
 * * *
 
@@ -38,7 +48,17 @@ Continue
 
 ### abencds_define_scalar_function.htm
 
-  
+---
+title: "CDS FDL - DEFINE SCALAR FUNCTION"
+description: |
+  Syntax DEFINE SCALAR FUNCTION ScalarFunction WITH PARAMETERS pname1 : typing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm) , pname2 : typing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm), ...
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm"
+abapFile: "abencds_define_scalar_function.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "define", "scalar", "function"]
+---
 
 * * *
 
@@ -145,7 +165,17 @@ Continue
 
 ### abencds_scalar_typing.htm
 
-  
+---
+title: "CDS FDL - typing"
+description: |
+  Syntax dtype(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm)                       WITH REFERENCE TYPE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)  simple_type(https://help.sap.com/doc/abapdocu_758_index
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm"
+abapFile: "abencds_scalar_typing.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencds", "scalar", "typing"]
+---
 
 * * *
 
@@ -276,7 +306,17 @@ Continue
 
 ### abencds_with_reference_type.htm
 
-  
+---
+title: "CDS FDL - WITH REFERENCE TYPE"
+description: |
+  Syntax Forms Static Reference Type Specification WITH REFERENCE TYPE #CUKY  #UNIT  #CALC  #NONE  WITH REFERENCE TYPE OF pname Dynamic Reference Type Specification WITH REFERENCE TYPE CASE WHEN pname1: reference AND pname2: referenceAND... THEN reference WHEN ...
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm"
+abapFile: "abencds_with_reference_type.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "with", "reference", "type"]
+---
 
 * * *
 
@@ -440,7 +480,17 @@ The reference type of the input parameter or return parameter can be defined dyn
 
 ### abencds_scalar_typing.htm
 
-  
+---
+title: "CDS FDL - typing"
+description: |
+  Syntax dtype(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm)                       WITH REFERENCE TYPE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)  simple_type(https://help.sap.com/doc/abapdocu_758_index
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm"
+abapFile: "abencds_scalar_typing.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencds", "scalar", "typing"]
+---
 
 * * *
 
@@ -571,7 +621,17 @@ Continue
 
 ### abencds_define_scalar_function.htm
 
-  
+---
+title: "CDS FDL - DEFINE SCALAR FUNCTION"
+description: |
+  Syntax DEFINE SCALAR FUNCTION ScalarFunction WITH PARAMETERS pname1 : typing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm) , pname2 : typing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm), ...
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm"
+abapFile: "abencds_define_scalar_function.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "define", "scalar", "function"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DO"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdo_shortref.htm) Syntax DO n TIMES. statement_block ENDDO. Addition: ... n TIMES(#!ABAP_ONE_ADD@1@) Effect Unconditional loop. The statements DO and ENDDO define a control structure, which can contain
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdo.htm"
+abapFile: "abapdo.htm"
+keywords: ["loop", "do", "if", "try", "data", "internal-table", "abapdo"]
+---
 
 * * *
 

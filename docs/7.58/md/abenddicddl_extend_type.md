@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - EXTEND TYPE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_props.htm) EXTEND TYPE structdbtab WITH append_struct  ... component(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_struct_comps.htm) ... extend(
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_extend_type.htm"
+abapFile: "abenddicddl_extend_type.htm"
+keywords: ["do", "if", "try", "data", "abenddicddl", "extend", "type"]
+---
 
 * * *
 

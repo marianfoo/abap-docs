@@ -1,4 +1,14 @@
-  
+---
+title: "Data Types"
+description: |
+  Global data types can be defined in the ABAP Dictionary. These data types are visible for all repository objects of the current AS ABAP and can be used there (as long as the package concept allows it). The possible data types in ABAP Dictionary are: -   Data elements(https://help.sap.com/doc/abapd
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_types.htm"
+abapFile: "abenddic_data_types.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "types", "abenddic"]
+---
 
 * * *
 

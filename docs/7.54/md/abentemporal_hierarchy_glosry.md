@@ -1,4 +1,14 @@
-  
+---
+title: "temporal_hierarchy_glosry"
+description: |
+  temporal_hierarchy_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentemporal_hierarchy_glosry.htm"
+abapFile: "abentemporal_hierarchy_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abentemporal", "hierarchy", "glosry"]
+---
 
 * * *
 

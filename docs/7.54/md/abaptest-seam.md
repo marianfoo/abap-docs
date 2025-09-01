@@ -1,4 +1,14 @@
-  
+---
+title: "TEST-SEAM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-seam_shortref.htm) Syntax TEST-SEAM seam. statement_block END-TEST-SEAM. Effect The statement TEST-SEAM introduces a test seam(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_seam_glo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-seam.htm"
+abapFile: "abaptest-seam.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "abaptest", "seam"]
+---
 
 * * *
 

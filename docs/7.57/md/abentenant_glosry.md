@@ -1,4 +1,14 @@
-  
+---
+title: "tenant_glosry"
+description: |
+  tenant_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentenant_glosry.htm"
+abapFile: "abentenant_glosry.htm"
+keywords: ["do", "if", "try", "abentenant", "glosry"]
+---
 
 * * *
 

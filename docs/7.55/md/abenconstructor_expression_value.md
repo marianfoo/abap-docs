@@ -1,4 +1,14 @@
-  
+---
+title: "VALUE, Value Operator"
+description: |
+  Syntax ... VALUE type( ... ) ... Effect A constructor expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expressions.htm) with the value operator VALUE creates a result of a data type specified using type. The following can be specified for type: -   A non-generi
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm"
+abapFile: "abenconstructor_expression_value.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "internal-table", "abenconstructor", "expression", "value"]
+---
 
 * * *
 

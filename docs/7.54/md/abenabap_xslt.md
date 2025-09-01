@@ -1,4 +1,14 @@
-  
+---
+title: "XSL Transformations"
+description: |
+  An XSL transformation is a program in the repository(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm 'Glossary Entry') that is written in XSLT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenxslt_glosry.htm 'Glossary Entry') (XSLT program) and
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt.htm"
+abapFile: "abenabap_xslt.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "abenabap", "xslt"]
+---
 
 * * *
 

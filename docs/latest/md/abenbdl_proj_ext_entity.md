@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Projection Extension Entity"
+description: |
+  Syntax ... define behavior for ProjectionEntity ...(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_projection_bo.htm) Prerequisites -   As a prerequisite, the underlying RAP projection behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/ab
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_proj_ext_entity.htm"
+abapFile: "abenbdl_proj_ext_entity.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "proj", "ext", "entity"]
+---
 
 * * *
 

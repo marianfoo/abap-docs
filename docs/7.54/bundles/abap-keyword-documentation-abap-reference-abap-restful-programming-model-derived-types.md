@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenrpm_derived_types.htm
 
-  
+---
+title: "Derived Types"
+description: |
+  ABAP Compiler makes it possible to create derived types for type-secure parameters of a business object provider. Data types like this are known as derived types, since the compiler derives them from CDS entity types and their behavior definition implicitly. Derived types contain at least the instan
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_derived_types.htm"
+abapFile: "abenrpm_derived_types.htm"
+keywords: ["do", "if", "method", "data", "types", "abenrpm", "derived"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abenrpm_input_parameters.htm
 
-  
+---
+title: "Input Parameter Type"
+description: |
+  Syntax TYPES type_for_import_parameter TYPE TABLE FOR CREATEUPDATEDELETELOCKREAD IMPORT CDS_entity_name. TYPES type_for_action_import_parameter TYPE TABLE FOR ACTION IMPORT entity_name~action_name. Effect Each individual type declaration for input parameters consists of a comb
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_input_parameters.htm"
+abapFile: "abenrpm_input_parameters.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "types", "abenrpm", "input", "parameters"]
+---
 
 * * *
 
@@ -80,7 +100,17 @@ ENDCLASS.
 
 ### abenrpm_export_parameters.htm
 
-  
+---
+title: "Type of the Output Parameter"
+description: |
+  Syntax TYPES type_for_export_parameter TYPE TABLE FOR FAILED LATE MAPPED LATE REPORTED LATE READ RESULT CDS_entity_name. TYPES type_for_action_export_parameter TYPE TABLE FOR ACTION RESULT CDS_entity_name~action_name. TYPES ts_reported TYPE RESPONSE FOR
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_export_parameters.htm"
+abapFile: "abenrpm_export_parameters.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenrpm", "export", "parameters"]
+---
 
 * * *
 
@@ -156,7 +186,17 @@ ENDCLASS.
 
 ### abenspecific_derived_types.htm
 
-  
+---
+title: "Specific Derived Types"
+description: |
+  Syntax TYPES type_for_update TYPE TABLE FOR UPDATE CDS_entity_name. TYPES type_for_id     TYPE LINE OF          type_for_update-%key. TYPES type_for_data   TYPE LINE OF          type_for_update-%data. TYPES type_for_row    TYPE STRUCTURE FOR    type_for_update. Effect Alongside deriv
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspecific_derived_types.htm"
+abapFile: "abenspecific_derived_types.htm"
+keywords: ["update", "do", "if", "class", "data", "types", "abenspecific", "derived"]
+---
 
 * * *
 
@@ -199,7 +239,17 @@ This translation does not reflect the current version of the documentation.
 
 ### abenvariables_derived_types.htm
 
-  
+---
+title: "Variables with Derived Types"
+description: |
+  Syntax TYPES dtype TYPE TABLE FOR CREATEUPDATEDELETELOCKREAD IMPORT MAPPED LATE REPORTED LATEFAILED LATE ACTION entity_name. DATA dtype TYPE TABLE FOR CREATEUPDATEDELETELOCKREAD IMPORT MAPPED LATE REPORTED LATEFAIL
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariables_derived_types.htm"
+abapFile: "abenvariables_derived_types.htm"
+keywords: ["update", "delete", "do", "if", "case", "method", "class", "data", "types", "abenvariables", "derived"]
+---
 
 * * *
 
@@ -307,7 +357,17 @@ ENDCLASS.
 
 ### abencomponents_derived_types.htm
 
-  
+---
+title: "Component of the Derived Types"
+description: |
+  Derived data types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_derived_types.htm) in the context of the ABAP RESTful programming model(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenr_a_p_glosry.htm 'Glossary Entry') also contain components that are not bas
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponents_derived_types.htm"
+abapFile: "abencomponents_derived_types.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "method", "data", "types", "abencomponents", "derived"]
+---
 
 * * *
 

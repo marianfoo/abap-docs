@@ -1,4 +1,14 @@
-  
+---
+title: "CAST, Casting Operator"
+description: |
+  Syntax ... CAST type( let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) dobj ) ... Effect A constructor expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expressions.htm) with the casting operator CAST performs
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_cast.htm"
+abapFile: "abenconstructor_expression_cast.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenconstructor", "expression", "cast"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "UCS"
+description: |
+  Short for Universal Character Set. A 4-byte character set(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_set_glosry.htm 'Glossary Entry'), standardized in ISO-10646, that contains all other character sets. The UCS character set is currently identical to the Unicode(http
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenucs_glosry.htm"
+abapFile: "abenucs_glosry.htm"
+keywords: ["do", "try", "abenucs", "glosry"]
+---
 
 * * *
 

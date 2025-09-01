@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  An elementary ABAP data object that does not have an associated JSON object component in deserializations retains its previous value. To initialize the data object in this case, the transformation option clear(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_optio
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_asjson_abap_types_elem.htm"
+abapFile: "abenabap_asjson_abap_types_elem.htm"
+keywords: ["do", "case", "data", "types", "abenabap", "asjson", "abap", "elem"]
+---
 
 * * *
 

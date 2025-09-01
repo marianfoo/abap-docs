@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dynamic Caches"
+description: |
+  An ABAP Dictionary dynamic cache(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_cache_glosry.htm 'Glossary Entry') is defined as a source-code-based cache in the ABAP development tools for Eclipse (ADT)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dynamic_cache.htm"
+abapFile: "abenddic_define_dynamic_cache.htm"
+keywords: ["do", "if", "try", "abenddic", "define", "dynamic", "cache"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meaning"
+description: |
+  O Ones: True if the bits that are 1 in operand2, are also 1 in operand1. If operand2 contains only zeroes, the relational expression is always true. Z Zeroes: True, if the bits that are 1 in operand2 are 0 in operand1. If operand2 contains only zeroes, the relational expression is always true. M Mix
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_bitmasks.htm"
+abapFile: "abenlogexp_bitmasks.htm"
+keywords: ["do", "if", "try", "data", "abenlogexp", "bitmasks"]
+---
 
 * * *
 

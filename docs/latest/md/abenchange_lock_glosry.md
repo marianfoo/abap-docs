@@ -1,4 +1,14 @@
-  
+---
+title: "change_lock_glosry"
+description: |
+  change_lock_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchange_lock_glosry.htm"
+abapFile: "abenchange_lock_glosry.htm"
+keywords: ["update", "do", "if", "try", "abenchange", "lock", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT BETWEEN operand1 AND operand2 ... Effect A comparison expression with the comparison operator BETWEEN checks the assignment of an interval. The comparison expression checks whether the content of an operand operand is within a closed interval that is restricted by the operand
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_between.htm"
+abapFile: "abenlogexp_between.htm"
+keywords: ["do", "try", "data", "types", "abenlogexp", "between"]
+---
 
 * * *
 

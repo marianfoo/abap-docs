@@ -1,4 +1,14 @@
-  
+---
+title: "formal_parameter_glosry"
+description: |
+  formal_parameter_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenformal_parameter_glosry.htm"
+abapFile: "abenformal_parameter_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenformal", "parameter", "glosry"]
+---
 
 * * *
 

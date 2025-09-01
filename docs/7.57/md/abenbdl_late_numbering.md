@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - late numbering"
+description: |
+  Syntax ... late numbering ... Effect Defines internal(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_int_numbering_glosry.htm 'Glossary Entry') late numbering(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_late_numbering_glosry.htm 'Glossary Entry') for al
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_late_numbering.htm"
+abapFile: "abenbdl_late_numbering.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "late", "numbering"]
+---
 
 * * *
 

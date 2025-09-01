@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE FIELD INTO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DESCRIBE FIELD dobj INTO td. Effect All properties of the field f, its components, subcomponents, and so on, are in the output of the field td (type description). td must have the type sydes_desc, which is
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_field_into.htm"
+abapFile: "abapdescribe_field_into.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "types", "internal-table", "abapdescribe", "field", "into"]
+---
 
 * * *
 

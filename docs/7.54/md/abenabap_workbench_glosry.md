@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Workbench"
+description: |
+  Development environment for repository objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_object_glosry.htm 'Glossary Entry') in ABAP Repository(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_repository_glosry.htm 'Glossary Entry') and their co
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_workbench_glosry.htm"
+abapFile: "abenabap_workbench_glosry.htm"
+keywords: ["do", "try", "abenabap", "workbench", "glosry"]
+---
 
 * * *
 

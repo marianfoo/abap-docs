@@ -1,4 +1,14 @@
-  
+---
+title: "Effect"
+description: |
+  This addition has the effect that the work process(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwork_process_glosry.htm 'Glossary Entry') of the caller is kept and no database commit(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_commit_glosry.htm 'Glos
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_destination_int.htm"
+abapFile: "abapcall_function_destination_int.htm"
+keywords: ["do", "case", "try", "data", "abapcall", "function", "destination", "int"]
+---
 
 * * *
 

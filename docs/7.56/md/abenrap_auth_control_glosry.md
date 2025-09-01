@@ -1,4 +1,14 @@
-  
+---
+title: "RAP authorization control"
+description: |
+  An access restriction that protects a RAP BO(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry') against unauthorized access to data. It limits access to data or the permission to perform operations(https://help.sap.com/doc/abapdocu_756_index_htm/7.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_auth_control_glosry.htm"
+abapFile: "abenrap_auth_control_glosry.htm"
+keywords: ["do", "try", "data", "abenrap", "auth", "control", "glosry"]
+---
 
 * * *
 

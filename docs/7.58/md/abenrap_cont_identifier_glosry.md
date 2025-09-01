@@ -1,4 +1,14 @@
-  
+---
+title: "RAP content identifier"
+description: |
+  RAP input identifier(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_input_identifier_glosry.htm 'Glossary Entry') that uniquely identifies an operation on one instance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cont_identifier_glosry.htm"
+abapFile: "abenrap_cont_identifier_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenrap", "cont", "identifier", "glosry"]
+---
 
 * * *
 

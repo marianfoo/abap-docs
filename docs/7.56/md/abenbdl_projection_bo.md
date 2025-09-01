@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - CDS projection behavior definitions"
+description: |
+  CDS projection behavior definitions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_bdef_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glosry.htm 'Glossary Entry') are created using the behavior definition
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_projection_bo.htm"
+abapFile: "abenbdl_projection_bo.htm"
+keywords: ["do", "try", "data", "abenbdl", "projection"]
+---
 
 * * *
 

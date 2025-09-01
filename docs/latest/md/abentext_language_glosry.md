@@ -1,4 +1,14 @@
-  
+---
+title: "text_language_glosry"
+description: |
+  text_language_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_language_glosry.htm"
+abapFile: "abentext_language_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentext", "language", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "NEW-SECTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapnew-section.htm) Syntax NEW-SECTION. Effect Obsolete: Creates a new spool request(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspool_request_glosry.htm 'Glossary Entry') when a list is created.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapnew-section_shortref.htm"
+abapFile: "abapnew-section_shortref.htm"
+keywords: ["do", "if", "try", "abapnew", "section", "shortref"]
+---
 
 * * *
 

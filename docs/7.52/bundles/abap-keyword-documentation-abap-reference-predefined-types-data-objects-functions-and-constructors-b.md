@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenbuilt_in_functions.htm
 
-  
+---
+title: "Built-In Functions"
+description: |
+  ABAP provides a set of built-in functions. A built-in function returns a return value for one or more arguments. Built-in functions can be called by functions in certain operand positions. Built-in functions can be called functionally in certain operand positions(https://help.sap.com/doc/abapdocu_
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions.htm"
+abapFile: "abenbuilt_in_functions.htm"
+keywords: ["do", "data", "types", "abenbuilt", "functions"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abenbuilt_in_functions_syntax.htm
 
-  
+---
+title: "Built-In Functions - Syntax"
+description: |
+  -   Functions with an Unnamed Argument(#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2) -   Obscuring with Methods(#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_3) In functions with named arguments, there is usually a main argument val and
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions_syntax.htm"
+abapFile: "abenbuilt_in_functions_syntax.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuilt", "functions", "syntax"]
+---
 
 * * *
 
@@ -40,9 +60,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Built-In Functions - Syntax
 
--   [Functions with an Unnamed Argument](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_1)
-
--   [Functions with Named Arguments](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
+-   [Functions with an Unnamed Argument](#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
 
 -   [Obscuring with Methods](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_3)
 
@@ -118,7 +136,17 @@ ENDCLASS.
 
 ### abenbuilt_in_functions_overview.htm
 
-  
+---
+title: "Predefined Functions - Overview"
+description: |
+  The following tables show the predefined functions by purpose. Predefined functions are generally processing functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocess_function_glosry.htm 'Glossary Entry') or description functions(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions_overview.htm"
+abapFile: "abenbuilt_in_functions_overview.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "internal-table", "abenbuilt", "functions", "overview"]
+---
 
 * * *
 

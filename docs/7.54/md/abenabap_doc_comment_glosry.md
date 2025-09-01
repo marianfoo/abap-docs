@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Doc Comment"
+description: |
+  Special comment(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomment_glosry.htm 'Glossary Entry') consisting of one or more comment lines(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomment_line_glosry.htm 'Glossary Entry'), each of which is prefixed by '!. A
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_doc_comment_glosry.htm"
+abapFile: "abenabap_doc_comment_glosry.htm"
+keywords: ["do", "try", "abenabap", "doc", "comment", "glosry"]
+---
 
 * * *
 

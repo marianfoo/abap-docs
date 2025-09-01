@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, FROM JOIN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_shortref.htm) Syntax ... (  data_source(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm) AS tabaliasjoin INNER cardinality
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_join.htm"
+abapFile: "abapselect_join.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "internal-table", "abapselect", "join"]
+---
 
 * * *
 

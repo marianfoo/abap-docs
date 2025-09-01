@@ -1,4 +1,14 @@
-  
+---
+title: "RFC Trust Relationships"
+description: |
+  A calling AS ABAP can be defined in the called AS ABAP as a trusted system(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentrusted_system_glosry.htm 'Glossary Entry'). The called system is then known as a trusting system(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensmt1_2.htm"
+abapFile: "abensmt1_2.htm"
+keywords: ["do", "if", "try", "data", "abensmt1"]
+---
 
 * * *
 

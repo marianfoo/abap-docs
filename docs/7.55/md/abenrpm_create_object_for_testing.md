@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE-OBJECT-FOR-TESTING"
+description: |
+  CREATE-OBJECT-FOR-TESTING - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_create_object_for_testing.htm"
+abapFile: "abenrpm_create_object_for_testing.htm"
+keywords: ["do", "abenrpm", "create", "object", "for", "testing"]
+---
 
 * * *
 

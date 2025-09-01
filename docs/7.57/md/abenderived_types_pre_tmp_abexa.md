@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_UMANAGED_ROOT_LATE_NUM3. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity DEMO_UMANAGED_ROOT_LATE_NUM3 as select from demo_tab_root_3  key key_field, field1, field2, field3, field4  Behavior defin
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenderived_types_pre_tmp_abexa.htm"
+abapFile: "abenderived_types_pre_tmp_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenderived", "pre", "tmp", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RFC server group"
+description: |
+  Group of multiple application servers(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm 'Glossary Entry') in a single AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') which are available for
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_server_group_glosry.htm"
+abapFile: "abenrfc_server_group_glosry.htm"
+keywords: ["do", "try", "abenrfc", "server", "group", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Exception Handling"
+description: |
+  This example demonstrates exception handling in RFC. Source Code  Public class definition CLASS cl_demo_rfc_exceptions DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS.  Public class implementation CLASS cl_demo_rfc_e
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm"
+abapFile: "abenrfc_exceptions_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "exception-handling", "abenrfc", "exceptions", "abexa"]
+---
 
 * * *
 

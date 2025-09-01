@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - field characteristics, abstract BDEF"
+description: |
+  Syntax ... field(suppress) Field1, Field2, ...; Effect In an abstract BDEF(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_abstract_bdef_glosry.htm 'Glossary Entry'), there's only one field characteristic available: field(suppress). It can be used to remove a field from all der
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_abstract.htm"
+abapFile: "abenbdl_field_abstract.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenbdl", "field", "abstract"]
+---
 
 * * *
 

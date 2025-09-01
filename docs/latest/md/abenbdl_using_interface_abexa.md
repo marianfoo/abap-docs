@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - RAP BO Extension Using Interface"
+description: |
+  This example demonstrates a RAP BO extension via a RAP BO interface. Base RAP BO Data model The CDS data model consists of four nodes which form a hierarchical CDS composition tree. They are connected via CDS compositions. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.l
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_using_interface_abexa.htm"
+abapFile: "abenbdl_using_interface_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "using", "interface", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - Including Subscreens Directly(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_subscreen.htm) dynpro - Tabstrip Controls(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_tabstrip.htm) dynpro - Splitter Controls(https://help.sap.com/doc/abapdocu_75
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "if", "try", "abendynp", "subscreens"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_regex. DATA: text   TYPE c LENGTH 120, regx   TYPE c LENGTH 120, pcre   TYPE c LENGTH 1 VALUE 'X', regex  TYPE c LENGTH 1, first  TYPE c LENGTH 1 VALUE 'X', all    TYPE c LENGTH 1, nocase TYPE c LENGTH 1 VALUE 'X', case   TYPE c LENGTH 1, docu   TYPE REF TO cl_gui_control. CLASS demo
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_abexa.htm"
+abapFile: "abenregex_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "abenregex", "abexa"]
+---
 
 * * *
 

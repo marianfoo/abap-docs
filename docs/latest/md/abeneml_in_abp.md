@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - Providing RAP BOs"
+description: |
+  The following EML language elements can only be used in behavior implementations: -   IN LOCAL MODE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm) -   MODIFY AUGMENTING ENTITY, ENTITIES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_in_abp.htm"
+abapFile: "abeneml_in_abp.htm"
+keywords: ["select", "do", "if", "try", "abeneml", "abp"]
+---
 
 * * *
 

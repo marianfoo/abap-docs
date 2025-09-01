@@ -1,4 +1,14 @@
-  
+---
+title: "Business Object Behavior Definition"
+description: |
+  Short: Behavior Definition A repository object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_object_glosry.htm 'Glossary Entry') (source text artifact) in the context of the ABAP RESTful Programming Model(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aben
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_definition_glosry.htm"
+abapFile: "abenbehavior_definition_glosry.htm"
+keywords: ["do", "if", "try", "abenbehavior", "definition", "glosry"]
+---
 
 * * *
 

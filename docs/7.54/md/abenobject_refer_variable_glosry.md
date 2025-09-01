@@ -1,4 +1,14 @@
-  
+---
+title: "object_refer_variable_glosry"
+description: |
+  object_refer_variable_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_refer_variable_glosry.htm"
+abapFile: "abenobject_refer_variable_glosry.htm"
+keywords: ["do", "try", "class", "types", "abenobject", "refer", "variable", "glosry"]
+---
 
 * * *
 

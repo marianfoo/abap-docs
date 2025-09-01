@@ -1,4 +1,14 @@
-  
+---
+title: "RAP transactional engine"
+description: |
+  Part of the RAP runtime engine(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_runtime_engine_glosry.htm 'Glossary Entry') that handles the transactional consumption of RAP BOs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_transac_engine_glosry.htm"
+abapFile: "abenrap_transac_engine_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "transac", "engine", "glosry"]
+---
 
 * * *
 

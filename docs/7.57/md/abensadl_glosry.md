@@ -1,4 +1,14 @@
-  
+---
+title: "SADL"
+description: |
+  Short for Service Adaptation Definition Language. Infrastructure for model-based reading and processing of data. The RAP runtime framework(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_runt_framework_glosry.htm 'Glossary Entry') uses SADL internally for its query engine(http
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensadl_glosry.htm"
+abapFile: "abensadl_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensadl", "glosry"]
+---
 
 * * *
 

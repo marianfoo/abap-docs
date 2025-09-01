@@ -1,4 +1,14 @@
-  
+---
+title: "Structure-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are mostly the same as those of a structure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures_tech.htm) in ABAP Dictionary: -   Table fields (columns) A table field is a component of the structure of the database table and describes t
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_techstruc.htm"
+abapFile: "abenddic_database_tables_techstruc.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "techstruc"]
+---
 
 * * *
 

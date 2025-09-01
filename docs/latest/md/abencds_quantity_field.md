@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Quantity Fields"
+description: |
+  An ABAP CDS quantity field(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(https:
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_field.htm"
+abapFile: "abencds_quantity_field.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "quantity", "field"]
+---
 
 * * *
 

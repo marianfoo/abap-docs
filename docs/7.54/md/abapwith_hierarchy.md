@@ -1,4 +1,14 @@
-  
+---
+title: "WITH - HIERARCHY"
+description: |
+  Syntax ... WITH HIERARCHY hierarchy  (hierarchy_syntax) Effect The addition WITH HIERARCHY publishes a common table expression as a CTE hierarchy(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencte_hierarchy_glosry.htm 'Glossary Entry'). Under its name, a common table expression
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_hierarchy.htm"
+abapFile: "abapwith_hierarchy.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abapwith", "hierarchy"]
+---
 
 * * *
 

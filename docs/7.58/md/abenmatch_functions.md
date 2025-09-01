@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... match( val = text(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm) pcrexpath = regex(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_regex.htm)  case = case(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/e
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmatch_functions.htm"
+abapFile: "abenmatch_functions.htm"
+keywords: ["do", "if", "case", "catch", "class", "data", "abenmatch", "functions"]
+---
 
 * * *
 

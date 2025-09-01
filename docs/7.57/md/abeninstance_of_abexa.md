@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_is_instance_of. INTERFACE intf. ENDINTERFACE. CLASS c1 DEFINITION. PUBLIC SECTION. INTERFACES intf. ENDCLASS. CLASS c2 DEFINITION INHERITING FROM c1. ENDCLASS. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: oref  TYPE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_of_abexa.htm"
+abapFile: "abeninstance_of_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "field-symbol", "abeninstance", "abexa"]
+---
 
 * * *
 

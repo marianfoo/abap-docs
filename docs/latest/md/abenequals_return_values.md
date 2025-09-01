@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  destination = meth( )(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_functional.htm)  func( )(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)  constr_expr(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm"
+abapFile: "abenequals_return_values.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "internal-table", "abenequals", "return", "values"]
+---
 
 * * *
 

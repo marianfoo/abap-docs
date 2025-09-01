@@ -1,4 +1,14 @@
-  
+---
+title: "database_cursor_glosry"
+description: |
+  database_cursor_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_cursor_glosry.htm"
+abapFile: "abendatabase_cursor_glosry.htm"
+keywords: ["select", "do", "try", "data", "abendatabase", "cursor", "glosry"]
+---
 
 * * *
 

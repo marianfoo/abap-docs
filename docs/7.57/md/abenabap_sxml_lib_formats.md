@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The attribute TYPE declared in the interface IF_SXML contains the type of every XML reader and XML writer or the format it is processing. The possible values of the attribute correspond to those of the constants CO_XT_... of the interface. -   XML readers and XML writers of the required forma
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_formats.htm"
+abapFile: "abenabap_sxml_lib_formats.htm"
+keywords: ["insert", "do", "if", "try", "method", "class", "data", "types", "abenabap", "sxml", "lib", "formats"]
+---
 
 * * *
 

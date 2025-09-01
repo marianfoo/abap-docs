@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... xstrlen( arg ) ... The function xstrlen returns the number of bytes in arg. The argument arg is a byte-like functional operand position(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_position_glosry.htm 'Glossary Entry'). The return value has the type i. Note The fun
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescriptive_functions_binary.htm"
+abapFile: "abendescriptive_functions_binary.htm"
+keywords: ["do", "if", "try", "data", "abendescriptive", "functions", "binary"]
+---
 
 * * *
 

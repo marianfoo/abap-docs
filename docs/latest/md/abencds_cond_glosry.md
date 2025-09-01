@@ -1,4 +1,14 @@
-  
+---
+title: "CDS condition"
+description: |
+  Logical expression in a CDS operand position. → More about(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conditional_expression_v2.htm)
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_glosry.htm"
+abapFile: "abencds_cond_glosry.htm"
+keywords: ["do", "if", "abencds", "cond", "glosry"]
+---
 
 * * *
 

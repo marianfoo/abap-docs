@@ -1,4 +1,14 @@
-  
+---
+title: "Friends - Friendship Between Classes"
+description: |
+  There is normally a strict division between external (PUBLIC) and internal (PROTECTED and PRIVATE) classes. A consumer can only access the public components of a class. This allows the internal implementation of a class to be changed without invalidating its consumers. In rare cases, however, classe
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfriends.htm"
+abapFile: "abenfriends.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "abenfriends"]
+---
 
 * * *
 

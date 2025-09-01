@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, clauses"
+description: |
+  Syntax ... WHERE cond_expr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_where_clause.htm) GROUP BY field1, field2, ...(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_group_by.htm) HAVING cond_expr(https://help.sap.com/doc/ab
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_select_clauses.htm"
+abapFile: "abencds_select_clauses.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "clauses"]
+---
 
 * * *
 

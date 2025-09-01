@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... NO STANDARD PAGE HEADING LINE-SIZE width LINE-COUNT page_lines(footer_lines) ... Extras: 1. ... NO STANDARD PAGE HEADING(#!ABAP_ADDITION_1@1@) 2. ... LINE-SIZE width(#!ABAP_ADDITION_2@2@) 3. ... LINE-COUNT page_lines(footer_lines)(#!ABAP_ADDIT
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreport_list_options.htm"
+abapFile: "abapreport_list_options.htm"
+keywords: ["select", "do", "if", "case", "try", "abapreport", "list", "options"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, TABBED BLOCK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_botb_shortref.htm) Syntax SELECTION-SCREEN BEGIN OF TABBED BLOCK tblock FOR n LINES NO INTERVALS. ... SELECTION-SCREEN TAB (len) tab USER-COMMAND fcode DEFAULT PROGRAM prog
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_tabbed.htm"
+abapFile: "abapselection-screen_tabbed.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abapselection", "screen", "tabbed"]
+---
 
 * * *
 

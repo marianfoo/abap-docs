@@ -1,4 +1,14 @@
-  
+---
+title: "logpoint_glosry"
+description: |
+  logpoint_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogpoint_glosry.htm"
+abapFile: "abenlogpoint_glosry.htm"
+keywords: ["do", "if", "try", "abenlogpoint", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Business Function Set"
+description: |
+  BFS for short. Repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that groups multiple business functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_function_glosry.htm 'Glossary E
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_function_set_glosry.htm"
+abapFile: "abenbusiness_function_set_glosry.htm"
+keywords: ["do", "if", "try", "abenbusiness", "function", "set", "glosry"]
+---
 
 * * *
 

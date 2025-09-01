@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Characteristics, Projection BDEF"
+description: |
+  Syntax ... use etag(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_use_projection.htm) extensible(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensible.htm) authorization(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_character_projection.htm"
+abapFile: "abenbdl_character_projection.htm"
+keywords: ["do", "if", "try", "method", "abenbdl", "character", "projection"]
+---
 
 * * *
 

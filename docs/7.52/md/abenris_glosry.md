@@ -1,4 +1,14 @@
-  
+---
+title: "Repository Information System"
+description: |
+  Tool in ABAP Workbench(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') used when searching for repository objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm 'Glossary Entry'). Called from
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenris_glosry.htm"
+abapFile: "abenris_glosry.htm"
+keywords: ["do", "try", "abenris", "glosry"]
+---
 
 * * *
 

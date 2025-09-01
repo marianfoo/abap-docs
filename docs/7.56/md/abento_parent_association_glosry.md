@@ -1,4 +1,14 @@
-  
+---
+title: "CDS to-parent association"
+description: |
+  Special CDS association(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_association_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_core_data_services_glosry.htm 'Glossary Entry'). A to-parent association is the coun
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abento_parent_association_glosry.htm"
+abapFile: "abento_parent_association_glosry.htm"
+keywords: ["do", "try", "data", "abento", "parent", "association", "glosry"]
+---
 
 * * *
 

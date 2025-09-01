@@ -1,4 +1,14 @@
-  
+---
+title: "Obscuring ABAP Source Code"
+description: |
+  ABAP source code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') is hidden if tasks that can be performed directly are instead performed across diversions that disguise the real purpose. One common form of hidden code is found when infor
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobscure_code_scrty.htm"
+abapFile: "abenobscure_code_scrty.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "field-symbol", "abenobscure", "code", "scrty"]
+---
 
 * * *
 

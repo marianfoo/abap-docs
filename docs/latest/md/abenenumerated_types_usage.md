@@ -1,4 +1,14 @@
-  
+---
+title: "Enumerated Objects (enum)"
+description: |
+  This section summarizes the use of enumerated objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_object_glosry.htm 'Glossary Entry'), that is, data objects with enumerated types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glos
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_types_usage.htm"
+abapFile: "abenenumerated_types_usage.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenenumerated", "usage"]
+---
 
 * * *
 
@@ -12,18 +22,12 @@ Enumerated Objects (enum)
 
 This section summarizes the use of [enumerated objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_object_glosry.htm "Glossary Entry"), that is, data objects with [enumerated types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm "Glossary Entry").
 
--   [Declaration](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_1)
--   [Processing of Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
-    -   [Operand Positions for Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_3)
-    -   [Value Assignments](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
-    -   [Comparisons](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_5)
-    -   [Typing of Formal Parameters and Field Symbols](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
-    -   [Access to the Enumerated Value](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_7)
-    -   [Type Descriptions](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
-    -   [Data Interfaces](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_9)
-    -   [ABAP SQL](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
-    -   [Forbidden Uses](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_11)
-    -   [Example for General Use](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_12)
+-   [Declaration](#abenenumerated-types-usage-1-------processing-of-enumerated-objects---@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
+    -   [Operand Positions for Enumerated Objects](#abenenumerated-types-usage-3-----------value-assignments---@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
+    -   [Comparisons](#abenenumerated-types-usage-5-----------typing-of-formal-parameters-and-field-symbols---@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
+    -   [Access to the Enumerated Value](#abenenumerated-types-usage-7-----------type-descriptions---@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
+    -   [Data Interfaces](#abenenumerated-types-usage-9-----------abap-sql---@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
+    -   [Forbidden Uses](#abenenumerated-types-usage-11-----------example-for-general-use---@ITOC@@ABENENUMERATED_TYPES_USAGE_12)
 
 Declaration   
 

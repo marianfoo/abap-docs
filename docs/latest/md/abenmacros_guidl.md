@@ -1,4 +1,14 @@
-  
+---
+title: "Macros"
+description: |
+  Background A macro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_macros.htm) is a summary of a statement list for internal reuse within a program between DEFINE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdefine.htm) and END-OF-DEFINITION(http
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmacros_guidl.htm"
+abapFile: "abenmacros_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "types", "internal-table", "abenmacros", "guidl"]
+---
 
 * * *
 

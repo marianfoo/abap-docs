@@ -1,4 +1,14 @@
-  
+---
+title: "SET LEFT SCROLL-BOUNDARY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_left_scroll_bound_shortref.htm) Syntax SET LEFT SCROLL-BOUNDARY COLUMN col. Addition: ... COLUMN col(#!ABAP_ONE_ADD@1@) Effect This command sets the left boundary of the horizontally movable area of the cu
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_scroll-boundary.htm"
+abapFile: "abapset_scroll-boundary.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapset", "scroll", "boundary"]
+---
 
 * * *
 

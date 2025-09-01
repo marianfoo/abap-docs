@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - DEFINE BEHAVIOR, Standard Operations"
+description: |
+  Syntax ... internal create; internal update; internal delete; Effect The standard operations create, update, and delete (known as the CUD operations) are the most important operations for the transactional behavior of a business object(https://help.sap.com/doc/abapdocu_754_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_standard_operations.htm"
+abapFile: "abenbdl_standard_operations.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "standard", "operations"]
+---
 
 * * *
 

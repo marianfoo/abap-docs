@@ -1,4 +1,14 @@
-  
+---
+title: "MODULE"
+description: |
+  Syntax MODULE mod  AT EXIT-COMMANDCURSOR-SELECTION   ON CHAIN-INPUTCHAIN-REQUEST   SWITCH switch . Extras: 1. ... AT EXIT-COMMAND(#!ABAP_ADDITION_1@1@) 2. ... AT CURSOR-SELECTION(#!ABAP_ADDITION_2@2@) 3. ... ON CHAIN-INPUTCHAIN-REQUEST(#!AB
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpmodule.htm"
+abapFile: "dynpmodule.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "dynpmodule"]
+---
 
 * * *
 

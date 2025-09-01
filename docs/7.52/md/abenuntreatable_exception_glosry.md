@@ -1,4 +1,14 @@
-  
+---
+title: "Untreatable Exception"
+description: |
+  Exception(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_glosry.htm 'Glossary Entry') that is not assigned to any exception class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_class_glosry.htm 'Glossary Entry') and which cannot be handled with
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuntreatable_exception_glosry.htm"
+abapFile: "abenuntreatable_exception_glosry.htm"
+keywords: ["do", "try", "catch", "class", "abenuntreatable", "exception", "glosry"]
+---
 
 * * *
 

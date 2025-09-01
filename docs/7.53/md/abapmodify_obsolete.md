@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY dbtab - Short Form"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_dbtab_shortref.htm) Obsolete Syntax MODIFY  dbtab  dbtab  ... Effect This statement is a short form of the following ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_g
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_obsolete.htm"
+abapFile: "abapmodify_obsolete.htm"
+keywords: ["do", "if", "try", "class", "data", "abapmodify", "obsolete"]
+---
 
 * * *
 

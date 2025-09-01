@@ -1,4 +1,14 @@
-  
+---
+title: "abap_ixml_lib_cl_ixml"
+description: |
+  abap_ixml_lib_cl_ixml - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_cl_ixml.htm"
+abapFile: "abenabap_ixml_lib_cl_ixml.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "ixml", "lib"]
+---
 
 * * *
 

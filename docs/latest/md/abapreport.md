@@ -1,4 +1,14 @@
-  
+---
+title: "REPORT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_shortref.htm) Syntax REPORT rep list_options(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_list_options.htm) MESSAGE-ID mid DEFINING DATABASE ldb(https:/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport.htm"
+abapFile: "abapreport.htm"
+keywords: ["do", "if", "try", "class", "data", "abapreport"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  EXIT. Effect If the statement EXIT is outside a loop(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_glosry.htm 'Glossary Entry'), it immediately terminates the current processing block(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocessing_block_glosry.htm
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexit_processing_blocks.htm"
+abapFile: "abapexit_processing_blocks.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "abapexit", "processing", "blocks"]
+---
 
 * * *
 

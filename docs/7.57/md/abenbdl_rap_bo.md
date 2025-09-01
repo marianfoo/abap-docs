@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Managed and Unmanaged Behavior Definitions"
+description: |
+  RAP business objects of the implementation types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef_impl_type_glosry.htm 'Glossary Entry') managed and unmanaged are realized through the same set of keywords. These keywords are listed in the following sections, structured by th
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo.htm"
+abapFile: "abenbdl_rap_bo.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "rap"]
+---
 
 * * *
 

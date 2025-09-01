@@ -1,4 +1,14 @@
-  
+---
+title: "See"
+description: |
+  -   formal parameter(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenformal_parameter_glosry.htm 'Glossary Entry') -   actual parameter(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenactual_parameter_glosry.htm 'Glossary Entry') -   selection parameter(
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparameter_glosry.htm"
+abapFile: "abenparameter_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenparameter", "glosry"]
+---
 
 * * *
 

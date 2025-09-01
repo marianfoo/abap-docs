@@ -1,4 +1,14 @@
-  
+---
+title: "unit_id_glosry"
+description: |
+  unit_id_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunit_id_glosry.htm"
+abapFile: "abenunit_id_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenunit", "glosry"]
+---
 
 * * *
 

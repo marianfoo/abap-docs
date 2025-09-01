@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  result = arith_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute_arith.htm). Effect If an arithmetic expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry') arith_exp(https://help.sap.com/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm"
+abapFile: "abenequals_arith_expr.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "field-symbol", "abenequals", "arith", "expr"]
+---
 
 * * *
 

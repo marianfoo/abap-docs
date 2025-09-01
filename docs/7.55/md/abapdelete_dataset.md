@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE DATASET"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_dataset_shortref.htm) Syntax DELETE DATASET dset. Effect The statement deletes the file specified in dset. dset expects a character-like data object containing the physical name(https://help.sap.com/doc/abapdoc
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_dataset.htm"
+abapFile: "abapdelete_dataset.htm"
+keywords: ["delete", "do", "if", "try", "catch", "data", "abapdelete", "dataset"]
+---
 
 * * *
 

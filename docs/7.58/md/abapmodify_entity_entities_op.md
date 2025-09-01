@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY ENTITY, ENTITIES, operations"
+description: |
+  Syntax ... CREATE field_spec(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_fields.htm) CREATE BY _assoc field_spec(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_fields.htm) UPDATE field_spe
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm"
+abapFile: "abapmodify_entity_entities_op.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "data", "types", "internal-table", "abapmodify", "entity", "entities"]
+---
 
 * * *
 

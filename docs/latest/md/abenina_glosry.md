@@ -1,4 +1,14 @@
-  
+---
+title: "InA"
+description: |
+  → Information Access Protocol(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenina_protocol_glosry.htm 'Glossary Entry').
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenina_glosry.htm"
+abapFile: "abenina_glosry.htm"
+keywords: ["do", "if", "try", "abenina", "glosry"]
+---
 
 * * *
 

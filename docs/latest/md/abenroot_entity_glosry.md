@@ -1,4 +1,14 @@
-  
+---
+title: "CDS root entity"
+description: |
+  The top CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') of a CDS composition tree(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_tree_glosry.htm 'Glossary Entry'). The addition ROOT must b
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenroot_entity_glosry.htm"
+abapFile: "abenroot_entity_glosry.htm"
+keywords: ["do", "if", "try", "abenroot", "entity", "glosry"]
+---
 
 * * *
 

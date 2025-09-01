@@ -1,4 +1,14 @@
-  
+---
+title: "Initializations"
+description: |
+  The following statements initialize data objects, which means they set the content of a data object to an initial value: -   CLEAR(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclear.htm) -   FREE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfree_dataobject.htm
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninitializations.htm"
+abapFile: "abeninitializations.htm"
+keywords: ["delete", "do", "try", "data", "internal-table", "abeninitializations"]
+---
 
 * * *
 

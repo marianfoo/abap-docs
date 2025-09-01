@@ -1,4 +1,14 @@
-  
+---
+title: "CDS view"
+description: |
+  CDS entity(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm 'Glossary Entry') defined using DEFINE VIEW(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_view.htm) in a CDS data definition(https://help.sap.com/doc/abapdocu_754_inde
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm"
+abapFile: "abencds_view_glosry.htm"
+keywords: ["do", "try", "class", "data", "abencds", "view", "glosry"]
+---
 
 * * *
 

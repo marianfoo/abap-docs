@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Costs"
+description: |
+  This example demonstrates costs for type conversions in assignments and operand positions. Source Code REPORT demo_conversion_costs. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: num   TYPE n LENGTH 10, int   TYPE i, itab  TYPE S
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_costs_abexa.htm"
+abapFile: "abenconversion_costs_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenconversion", "costs", "abexa"]
+---
 
 * * *
 

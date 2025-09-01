@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abencds_tuning_objects.htm
 
-  
+---
+title: "ABAP CDS - Tuning Objects"
+description: |
+  For some CDS entities(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') defined with CDS DDL for data definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm), tuning objects can be defined and transpor
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_objects.htm"
+abapFile: "abencds_tuning_objects.htm"
+keywords: ["do", "if", "try", "data", "abencds", "tuning", "objects"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abencds_entity_buffers.htm
 
-  
+---
+title: "ABAP CDS - Entity Buffers"
+description: |
+  A CDS entity buffer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffer_glosry.htm 'Glossary Entry') is a CDS tuning object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_object_glosry.htm 'Glossary Entry') that defines a layer-specific typ
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm"
+abapFile: "abencds_entity_buffers.htm"
+keywords: ["do", "if", "try", "data", "abencds", "entity", "buffers"]
+---
 
 * * *
 
@@ -57,7 +77,17 @@ Continue
 
 ### abencds_define_view_entity_buffer.htm
 
-  
+---
+title: "CDS DDL - DEFINE VIEW ENTITY BUFFER"
+description: |
+  Syntax DEFINE VIEW ENTITY BUFFER ON cds_view_entity LAYER CORE  LOCALIZATION  INDUSTRY  PARTNER  CUSTOMER TYPE SINGLE  GENERIC NUMBER OF KEY ELEMENTS number  FULL  NONE Effect Defines a CDS entity buffer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencd
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_entity_buffer.htm"
+abapFile: "abencds_define_view_entity_buffer.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "view", "entity", "buffer"]
+---
 
 * * *
 
@@ -139,7 +169,17 @@ The three CDS entities DEMO\_CDS\_FULL\_BUFFERED\_VIEW, DEMO\_CDS\_GEN\_BUFFERED
 
 ### abencds_entity_buffers.htm
 
-  
+---
+title: "ABAP CDS - Entity Buffers"
+description: |
+  A CDS entity buffer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffer_glosry.htm 'Glossary Entry') is a CDS tuning object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_object_glosry.htm 'Glossary Entry') that defines a layer-specific typ
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm"
+abapFile: "abencds_entity_buffers.htm"
+keywords: ["do", "if", "try", "data", "abencds", "entity", "buffers"]
+---
 
 * * *
 

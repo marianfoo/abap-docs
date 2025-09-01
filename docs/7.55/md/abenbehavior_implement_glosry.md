@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP behavior implementation"
+description: |
+  An ABAP Behavior implementation implements a RAP Business Object behavior(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm 'Glossary Entry'). The behavior of a RAP business object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosr
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_implement_glosry.htm"
+abapFile: "abenbehavior_implement_glosry.htm"
+keywords: ["do", "try", "class", "abenbehavior", "implement", "glosry"]
+---
 
 * * *
 

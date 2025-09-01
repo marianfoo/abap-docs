@@ -1,4 +1,14 @@
-  
+---
+title: "XML Schema Type"
+description: |
+  XML Representation Domain ABAP Representation xsd:boolean true, false XSDBOOLEAN X, blank xsd:date 2007-10-01 XSDDATE_D 20071001 xsd:time 11:55:00 XSDTIME_T 115500 xsd:dateTime 2006-07-27T17:03:34Z XSDDATETIME_Z, XSDDATETIME_LONG_Z, XSDDATETIME_OFFSET, XSDDATETIME_LOCAL, XSDDATETIME_LOCAL_D
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml_schema.htm"
+abapFile: "abenabap_xslt_asxml_schema.htm"
+keywords: ["insert", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenabap", "xslt", "asxml", "schema"]
+---
 
 * * *
 
@@ -98,14 +108,10 @@ KM, MI
 
 The following sections describe the domains and their mappings in more detail.
 
--   [boolean](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_1)
--   [date](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_2)
--   [dateTime](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_3)
--   [QName](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_4)
--   [time](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_5)
--   [UUID](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_6)
--   [language](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_7)
--   [currCode](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_8)
+-   [boolean](#abenabap-xslt-asxml-schema-1-------date---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_2)
+-   [dateTime](#abenabap-xslt-asxml-schema-3-------qname---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_4)
+-   [time](#abenabap-xslt-asxml-schema-5-------uuid---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_6)
+-   [language](#abenabap-xslt-asxml-schema-7-------currcode---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_8)
 -   [unitCode](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_9)
 
 The following applies to all domains:

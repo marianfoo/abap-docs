@@ -1,4 +1,14 @@
-  
+---
+title: "Calling Programs"
+description: |
+  If allowed by the package concept, the following can be called in each processing block(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') of an ABAP program: -   Executable programs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_call.htm"
+abapFile: "abenabap_program_call.htm"
+keywords: ["delete", "do", "if", "try", "data", "abenabap", "program", "call"]
+---
 
 * * *
 

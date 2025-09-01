@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab, source"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_dbtab_shortref.htm) Syntax ... @wa@( expr )  TABLE @itab@( expr ) ... Alternatives: 1. ... @wa@( expr )(#!ABAP_ALTERNATIVE_1@1@) 2. ... TABLE @itab@( expr )(#!ABAP_ALTERNATIVE_2@2
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_source.htm"
+abapFile: "abapdelete_source.htm"
+keywords: ["select", "delete", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abapdelete", "source"]
+---
 
 * * *
 

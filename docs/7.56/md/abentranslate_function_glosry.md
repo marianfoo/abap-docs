@@ -1,4 +1,14 @@
-  
+---
+title: "translate_function_glosry"
+description: |
+  translate_function_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentranslate_function_glosry.htm"
+abapFile: "abentranslate_function_glosry.htm"
+keywords: ["do", "try", "abentranslate", "function", "glosry"]
+---
 
 * * *
 

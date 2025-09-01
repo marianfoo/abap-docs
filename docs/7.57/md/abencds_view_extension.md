@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - CDS Entity Extension"
+description: |
+  A CDS entity extension(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_extend_glosry.htm 'Glossary Entry') is a transportable extension of a CDS entity. A CDS entity extension can make additions to the original entity, but it cannot modify, overwrite, or delete elements f
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "abencds", "view", "extension"]
+---
 
 * * *
 

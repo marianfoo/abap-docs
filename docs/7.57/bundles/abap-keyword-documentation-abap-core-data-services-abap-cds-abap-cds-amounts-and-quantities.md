@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abencds_calc_quan.htm
 
-  
+---
+title: "ABAP CDS - Amounts and Quantities"
+description: |
+  In ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry'), a special handling for amounts and quantities is implemented. ABAP CDS amount fields(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field_glosry.htm 'Gloss
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calc_quan.htm"
+abapFile: "abencds_calc_quan.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "calc", "quan"]
+---
 
 * * *
 
@@ -36,7 +46,17 @@ Continue
 
 ### abencds_amount_field.htm
 
-  
+---
+title: "ABAP CDS - Amount Fields"
+description: |
+  An ABAP CDS amount field(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.s
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field.htm"
+abapFile: "abencds_amount_field.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "amount", "field"]
+---
 
 * * *
 
@@ -89,7 +109,17 @@ Hints
 
 ### abencds_quantity_field.htm
 
-  
+---
+title: "ABAP CDS - Quantity Fields"
+description: |
+  An ABAP CDS quantity field(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_field.htm"
+abapFile: "abencds_quantity_field.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "quantity", "field"]
+---
 
 * * *
 
@@ -138,7 +168,17 @@ Hints
 
 ### abencds_calculated_quantity.htm
 
-  
+---
+title: "ABAP CDS - Calculated Quantity with Calculated Unit"
+description: |
+  A CDS calculated quantity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity_glosry.htm 'Glossary Entry') is a component of a CDS view entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') or of a CDS p
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm"
+abapFile: "abencds_calculated_quantity.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "types", "abencds", "calculated", "quantity"]
+---
 
 * * *
 

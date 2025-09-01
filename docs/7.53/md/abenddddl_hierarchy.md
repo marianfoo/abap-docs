@@ -1,4 +1,14 @@
-  
+---
+title: "Field"
+description: |
+  Meaning HIERARCHY_RANK Sequential number granted by the database. HIERARCHY_TREE_SIZE Number of successor (child) nodes in the row. This values is relevant if the hierarchy is a tree-like hierarchy. HIERARCHY_PARENT_RANK 0 for rows in the root node set, else HIERARCHY_RANK of the direct predec
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddddl_hierarchy.htm"
+abapFile: "abenddddl_hierarchy.htm"
+keywords: ["select", "do", "if", "try", "data", "abenddddl", "hierarchy"]
+---
 
 * * *
 

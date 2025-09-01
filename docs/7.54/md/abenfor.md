@@ -1,4 +1,14 @@
-  
+---
+title: "FOR - Iteration Expressions"
+description: |
+  Syntax ... REDUCE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_reduce.htm) NEW(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennew_constructor_params_itab.htm) VALUE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenval
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor.htm"
+abapFile: "abenfor.htm"
+keywords: ["loop", "do", "while", "try", "data", "types", "internal-table", "abenfor"]
+---
 
 * * *
 

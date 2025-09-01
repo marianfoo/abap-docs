@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Time Zone Functions"
+description: |
+  Syntax ... ABAP_SYSTEM_TIMEZONE(clnt,on_error)  ABAP_USER_TIMEZONE(user,clnt,on_error) ... Variants: 1. ... ABAP_SYSTEM_TIMEZONE(clnt,on_error)(#!ABAP_VARIANT_1@1@) 2. ... ABAP_USER_TIMEZONE(user,clnt,on_error)(#!ABAP_VARIANT_2@2@) Effect In a CDS view entity(https://help.sap.
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_timezone_functions_v2.htm"
+abapFile: "abencds_timezone_functions_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "timezone", "functions"]
+---
 
 * * *
 

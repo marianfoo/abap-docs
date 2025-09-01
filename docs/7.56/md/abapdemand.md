@@ -1,4 +1,14 @@
-  
+---
+title: "DEMAND"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdemand_shortref.htm) Obsolete Syntax DEMAND val1 = f1 val2 = f2 ... FROM CONTEXT context_ref MESSAGES INTO itab. Addition: ... MESSAGES INTO itab(#!ABAP_ONE_ADD@1@) Effect This statement assigns the values of
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdemand.htm"
+abapFile: "abapdemand.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abapdemand"]
+---
 
 * * *
 

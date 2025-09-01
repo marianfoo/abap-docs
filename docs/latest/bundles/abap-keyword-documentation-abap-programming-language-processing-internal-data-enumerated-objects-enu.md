@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenenumerated_types_usage.htm
 
-  
+---
+title: "Enumerated Objects (enum)"
+description: |
+  This section summarizes the use of enumerated objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_object_glosry.htm 'Glossary Entry'), that is, data objects with enumerated types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glos
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_types_usage.htm"
+abapFile: "abenenumerated_types_usage.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenenumerated", "usage"]
+---
 
 * * *
 
@@ -19,18 +29,12 @@ Enumerated Objects (enum)
 
 This section summarizes the use of [enumerated objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_object_glosry.htm "Glossary Entry"), that is, data objects with [enumerated types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm "Glossary Entry").
 
--   [Declaration](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_1)
--   [Processing of Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
-    -   [Operand Positions for Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_3)
-    -   [Value Assignments](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
-    -   [Comparisons](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_5)
-    -   [Typing of Formal Parameters and Field Symbols](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
-    -   [Access to the Enumerated Value](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_7)
-    -   [Type Descriptions](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
-    -   [Data Interfaces](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_9)
-    -   [ABAP SQL](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
-    -   [Forbidden Uses](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_11)
-    -   [Example for General Use](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_12)
+-   [Declaration](#abenenumerated-types-usage-1-------processing-of-enumerated-objects---@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
+    -   [Operand Positions for Enumerated Objects](#abenenumerated-types-usage-3-----------value-assignments---@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
+    -   [Comparisons](#abenenumerated-types-usage-5-----------typing-of-formal-parameters-and-field-symbols---@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
+    -   [Access to the Enumerated Value](#abenenumerated-types-usage-7-----------type-descriptions---@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
+    -   [Data Interfaces](#abenenumerated-types-usage-9-----------abap-sql---@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
+    -   [Forbidden Uses](#abenenumerated-types-usage-11-----------example-for-general-use---@ITOC@@ABENENUMERATED_TYPES_USAGE_12)
 
 Declaration   
 
@@ -435,7 +439,17 @@ Continue
 
 ### abenenum_declaration_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_declare_enums DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS.  Public class implementation CLASS cl_demo_declare_enums IMPLEMENTATION. METHOD main. out->next_section( 'ABAP En
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_declaration_abexa.htm"
+abapFile: "abenenum_declaration_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenenum", "declaration", "abexa"]
+---
 
 * * *
 
@@ -559,7 +573,17 @@ Note that only enumerated constants or variables with the same enumerated type a
 
 ### abenenum_formal_para_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_enum_para_pass DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . PRIVATE SECTION. METHODS meth IMPORTING VALUE(psimple) TYPE simple VALUE(penum)   TYPE demo_cds_enum_weekday . ENDCLASS.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_formal_para_abexa.htm"
+abapFile: "abenenum_formal_para_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "field-symbol", "abenenum", "formal", "para", "abexa"]
+---
 
 * * *
 
@@ -618,7 +642,17 @@ The method meth has a parameter psimple of generic type simple and a parameter p
 
 ### abenenum_description_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_describe_enums DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_describe_enums IMPLEMENTATION. METHOD main. TYPES: BEGIN OF ENUM size, s
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_description_abexa.htm"
+abapFile: "abenenum_description_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenenum", "description", "abexa"]
+---
 
 * * *
 
@@ -676,7 +710,17 @@ See also [CDS Enumerated Type, Type Description](https://help.sap.com/doc/abapdo
 
 ### abenenum_deserialization_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_deserialize_enums DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_deserialize_enums IMPLEMENTATION. METHOD main. DATA input TYPE c LENG
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_deserialization_abexa.htm"
+abapFile: "abenenum_deserialization_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenenum", "deserialization", "abexa"]
+---
 
 * * *
 
@@ -748,7 +792,17 @@ The dynamic assignment of the name to a field symbol shown in the following also
 
 ### abenenum_usage_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_enumerated_types DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. DATA html TYPE string. METHODS constructor. ENDCLASS.  Public class implementation CLASS cl_demo_enumerated_types IMPLEMENT
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_usage_abexa.htm"
+abapFile: "abenenum_usage_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenenum", "usage", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Statements for Selection Screens"
+description: |
+  -   PARAMETER(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapparameter.htm) PARAMETER(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapparameter.htm)
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselscreen_obsolete.htm"
+abapFile: "abenselscreen_obsolete.htm"
+keywords: ["select", "do", "abenselscreen", "obsolete"]
+---
 
 * * *
 

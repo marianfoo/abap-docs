@@ -1,4 +1,14 @@
-  
+---
+title: "database_user_name_glosry"
+description: |
+  database_user_name_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_user_name_glosry.htm"
+abapFile: "abendatabase_user_name_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendatabase", "user", "name", "glosry"]
+---
 
 * * *
 

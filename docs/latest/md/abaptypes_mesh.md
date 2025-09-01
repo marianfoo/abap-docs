@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  TYPES BEGIN OF MESH mesh_type. ... TYPES node  TYPE REF TO table_typeref_type    LIKE REF TO itab      dref       association1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm), associati
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh.htm"
+abapFile: "abaptypes_mesh.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abaptypes", "mesh"]
+---
 
 * * *
 

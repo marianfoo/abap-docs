@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenrestricted_apis.htm
 
-  
+---
+title: "Working with released APIs"
+description: |
+  In strict ABAP development environments(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstrict_abap_dev_envir_glosry.htm 'Glossary Entry'), a restricted ABAP language version(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_version_glosry.htm 'Glossary Ent
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_apis.htm"
+abapFile: "abenrestricted_apis.htm"
+keywords: ["do", "try", "abenrestricted", "apis"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abenc1_compatibility_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for API Providers(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm) C1 Contract Rules for API Consumers(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm"
+abapFile: "abenc1_compatibility_rules.htm"
+keywords: ["do", "try", "abenc1", "compatibility", "rules"]
+---
 
 * * *
 
@@ -49,7 +69,17 @@ Continue
 
 ### abenc1_provider_rules.htm
 
-  
+---
+title: "General Rules for Elementary Data Types"
+description: |
+  Elementary data types can be released as follows: -   In ABAP Dictionary and ABAP CDS based on DDIC built-in data types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) -   Standalone as DDIC domains or data elements -   Component types of DDIC structures or d
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm"
+abapFile: "abenc1_provider_rules.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenc1", "provider", "rules"]
+---
 
 * * *
 
@@ -63,10 +93,8 @@ Generally, a repository object that is classified with the C1 contract must not 
 
 The following sections show the most important rules that a C1 contract imposes on different kinds of repository objects.
 
--   [General Rules for Elementary Data Types](#@@ITOC@@ABENC1_PROVIDER_RULES_1)
--   [Dictionary Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_2)
--   [ABAP CDS Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_3)
--   [Objects implemented in ABAP](#@@ITOC@@ABENC1_PROVIDER_RULES_4)
+-   [General Rules for Elementary Data Types](#abenc1-provider-rules-1-------dictionary-objects---@ITOC@@ABENC1_PROVIDER_RULES_2)
+-   [ABAP CDS Objects](#abenc1-provider-rules-3-------objects-implemented-in-abap---@ITOC@@ABENC1_PROVIDER_RULES_4)
 
 General Rules for Elementary Data Types
 
@@ -178,7 +206,17 @@ Others than the following objects cannot be classified with the C1 contract.
 
 ### abenc1_consumer_rules.htm
 
-  
+---
+title: "Changes to Elementary Data Types"
+description: |
+  The data type of -   DDIC domains or DDIC data elements -   components of DDIC structures and DDIC database tables or elements of CDS entities -   public types of global ABAP classes or interfaces can be changed as follows: -   Integer types INT1, INT2, INT4 or b, s, i can be replaced by integer typ
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm"
+abapFile: "abenc1_consumer_rules.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenc1", "consumer", "rules"]
+---
 
 * * *
 
@@ -197,16 +235,11 @@ The [provider rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/
 
 The following sections list allowed changes to released APIs that must be considered when accessing them.
 
--   [Changes to Elementary Data Types](#@@ITOC@@ABENC1_CONSUMER_RULES_1)
-    -   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_2)
-    -   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_3)
--   [Adding or Changing Non-key Elements of Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_4)
-    -   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_5)
-    -   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_6)
-    -   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_7)
-    -   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_8)
-    -   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_9)
--   [Example](#@@ITOC@@ABENC1_CONSUMER_RULES_10)
+-   [Changes to Elementary Data Types](#abenc1-consumer-rules-1-----------operations-with-elementary-data-objects---@ITOC@@ABENC1_CONSUMER_RULES_2)
+    -   [Operations with Structures](#abenc1-consumer-rules-3-------adding-or-changing-non-key-elements-of-structures---@ITOC@@ABENC1_CONSUMER_RULES_4)
+    -   [Includes](#abenc1-consumer-rules-5-----------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_6)
+    -   [Unstructured Access](#abenc1-consumer-rules-7-----------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_8)
+    -   [RFC](#abenc1-consumer-rules-9-------example---@ITOC@@ABENC1_CONSUMER_RULES_10)
 
 Changes to Elementary Data Types
 
@@ -390,7 +423,17 @@ SELECT single \*
 
 ### abenc1_compatibility_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for API Providers(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm) C1 Contract Rules for API Consumers(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm"
+abapFile: "abenc1_compatibility_rules.htm"
+keywords: ["do", "try", "abenc1", "compatibility", "rules"]
+---
 
 * * *
 

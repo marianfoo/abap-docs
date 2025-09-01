@@ -1,4 +1,14 @@
-  
+---
+title: "CDS"
+description: |
+  → Core Data Services(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencore_data_services_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_glosry.htm"
+abapFile: "abencds_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "glosry"]
+---
 
 * * *
 

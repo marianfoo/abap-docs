@@ -1,4 +1,14 @@
-  
+---
+title: "Path Expressions, Use in the SELECT List"
+description: |
+  This example demonstrates path expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path.htm) in the SELECT list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_list.htm) in ABAP SQL. Source Code  Public class definition CLASS cl_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expr_in_colspec_abexa.htm"
+abapFile: "abenpath_expr_in_colspec_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenpath", "expr", "colspec", "abexa"]
+---
 
 * * *
 

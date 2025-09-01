@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, BEGIN OF - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselection-screen_definition.htm) Syntax SELECTION-SCREEN BEGIN OF SCREEN dynnr   TITLE title AS WINDOW    AS SUBSCREEN NO INTERVALS NESTING LEVEL n  . ... SELECTION-SCREEN
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselection-screen_bos_shortref.htm"
+abapFile: "abapselection-screen_bos_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapselection", "screen", "bos", "shortref"]
+---
 
 * * *
 

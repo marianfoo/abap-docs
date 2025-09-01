@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  sql_func - Date Functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_date_func.htm) sql_func - Time Functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_time_func.htm) sql_func - Time Stamp Functions(https://help.sap.com/doc/abapdocu_757_index
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_date_time_functions.htm"
+abapFile: "abenabap_sql_date_time_functions.htm"
+keywords: ["do", "if", "data", "abenabap", "sql", "date", "time", "functions"]
+---
 
 * * *
 

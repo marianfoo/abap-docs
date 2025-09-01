@@ -1,4 +1,14 @@
-  
+---
+title: "global_declaration_sect_glosry"
+description: |
+  global_declaration_sect_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declaration_sect_glosry.htm"
+abapFile: "abenglobal_declaration_sect_glosry.htm"
+keywords: ["do", "try", "class", "data", "types", "abenglobal", "declaration", "sect", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TSTMP_TO_DATS(tstmp,tzone,clnt,on_error)  TSTMP_TO_TIMS(tstmp,tzone,clnt,on_error)  TSTMP_TO_DST(tstmp,tzone,clnt,on_error)  DATS_TIMS_TO_TSTMP(date,time,tzone,clnt,on_error) ... Variants: 1. ... TSTMP_TO_DATS(tstmp,tzone,clnt,on_error)(#!ABAP_VARIANT_1@1@) 2. ... T
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_date_time_conversions.htm"
+abapFile: "abencds_f1_date_time_conversions.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "date", "time", "conversions"]
+---
 
 * * *
 

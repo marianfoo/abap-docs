@@ -1,4 +1,14 @@
-  
+---
+title: "SQL-based scalar function"
+description: |
+  CDS scalar function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm 'Glossary Entry') that is evaluated by an SQL environment. SQL-based scalar functions can be used in CDS view entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_glosry.htm"
+abapFile: "abencds_sql_scalar_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abencds", "sql", "scalar", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Key table"
+description: |
+  Superordinate term for sorted tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_table_glosry.htm 'Glossary Entry') and hash tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhashed_table_glosry.htm 'Glossary Entry') for which the primary table key
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkey_table_glosry.htm"
+abapFile: "abenkey_table_glosry.htm"
+keywords: ["do", "try", "abenkey", "table", "glosry"]
+---
 
 * * *
 

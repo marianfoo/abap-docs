@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - L for the SAP HANA Database"
+description: |
+  This documentation is only available internally at SAP.
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_hdb_l_internal.htm"
+abapFile: "abenamdp_hdb_l_internal.htm"
+keywords: ["do", "if", "method", "data", "abenamdp", "hdb", "internal"]
+---
 
 * * *
 

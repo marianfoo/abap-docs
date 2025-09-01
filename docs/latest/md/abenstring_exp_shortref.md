@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  string_template    operand1 && operand2 &&  operand3 ...   ... Effect String expression for creating a character string Additions -   string_template(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_templates.htm) String template that repre
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_exp_shortref.htm"
+abapFile: "abenstring_exp_shortref.htm"
+keywords: ["do", "if", "abenstring", "exp", "shortref"]
+---
 
 * * *
 

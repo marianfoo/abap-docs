@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete CDS Entities"
+description: |
+  -   CDS DDIC-based Entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddic_entity.htm): CDS DDIC-based entities are obsolete and as a consequence, CDS DDIC-based views (obsolete), representing a sub-category of CDS DDIC-based entities, are obsolete. Accessing a CDS-manage
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities_obsolete.htm"
+abapFile: "abencds_entities_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abencds", "entities", "obsolete"]
+---
 
 * * *
 

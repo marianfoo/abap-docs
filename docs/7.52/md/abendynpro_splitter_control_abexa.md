@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  The example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter E
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 

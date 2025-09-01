@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, ASSIGN INCREMENT"
+description: |
+  The examples shows how the statement ASSIGN behaves when the addition INCREMENT is used. Source Code  Public class definition CLASS cl_demo_assign_increment DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassign_increment_abexa.htm"
+abapFile: "abenassign_increment_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "field-symbol", "abenassign", "increment", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Testing Regular Expressions"
+description: |
+  A built-in function or system classes can be used to test regular functions. Using a Built-In Function The predicate function matches(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmatches_functions.htm) can be used as follows to test whether a regular expression passed to regex ma
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_test.htm"
+abapFile: "abenregex_test.htm"
+keywords: ["do", "if", "case", "class", "data", "internal-table", "abenregex", "test"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMC - Sending Messages"
+description: |
+  This example demonstrates how messages are sent using AMC(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_send_amc DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SEC
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_send_abexa.htm"
+abapFile: "abenamc_send_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenamc", "send", "abexa"]
+---
 
 * * *
 

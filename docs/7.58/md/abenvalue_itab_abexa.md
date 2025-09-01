@@ -1,4 +1,14 @@
-  
+---
+title: "VALUE, Operator for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_itab.htm) for internal tables. Source Code  Public class definition CLASS cl_demo_value_constructor_itab DEFINITION INHERITING FROM cl_demo_classrun PU
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_abexa.htm"
+abapFile: "abenvalue_itab_abexa.htm"
+keywords: ["insert", "do", "if", "method", "class", "data", "types", "internal-table", "abenvalue", "itab", "abexa"]
+---
 
 * * *
 

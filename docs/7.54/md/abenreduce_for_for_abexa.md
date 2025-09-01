@@ -1,4 +1,14 @@
-  
+---
+title: "Table Reductions, Multiple FOR Expressions"
+description: |
+  This example demonstrates a reduction(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_reduce.htm) of the columns of a nested internal table to a text string. Source Code REPORT demo_reduce_for_for. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main.
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreduce_for_for_abexa.htm"
+abapFile: "abenreduce_for_for_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "types", "internal-table", "abenreduce", "for", "abexa"]
+---
 
 * * *
 

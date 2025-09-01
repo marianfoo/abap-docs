@@ -1,4 +1,14 @@
-  
+---
+title: "subscreen_dynpro_glosry"
+description: |
+  subscreen_dynpro_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_dynpro_glosry.htm"
+abapFile: "abensubscreen_dynpro_glosry.htm"
+keywords: ["do", "try", "abensubscreen", "dynpro", "glosry"]
+---
 
 * * *
 

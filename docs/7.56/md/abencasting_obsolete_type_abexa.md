@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Casting Built-In Data Types"
+description: |
+  This example demonstrates how a casting is performed on built-in data types. Source Code REPORT demo_field_symbols_assign_type. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA txt(8) TYPE c VALUE '20050606'. DATA mytype(1) VALUE '
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_type_abexa.htm"
+abapFile: "abencasting_obsolete_type_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "field-symbol", "abencasting", "obsolete", "type", "abexa"]
+---
 
 * * *
 

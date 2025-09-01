@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax of Regular Expressions"
+description: |
+  The syntax of regular expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregular_expression_glosry.htm 'Glossary Entry') distinguishes the following cases: -   Single character patterns(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_syntax_signs.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_syntax.htm"
+abapFile: "abenregex_syntax.htm"
+keywords: ["do", "if", "case", "try", "data", "abenregex", "syntax"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT itab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab.htm) Syntax INSERT  wa  INITIAL LINE  LINES OF jtab FROM idx1 TO idx2 STEP n USING KEY key_name(name)  INTO  TABLE itab  itab INDEX idx
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab_shortref.htm"
+abapFile: "abapinsert_itab_shortref.htm"
+keywords: ["insert", "loop", "do", "if", "try", "internal-table", "field-symbol", "abapinsert", "itab", "shortref"]
+---
 
 * * *
 

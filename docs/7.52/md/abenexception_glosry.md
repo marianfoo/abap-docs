@@ -1,4 +1,14 @@
-  
+---
+title: "Exception"
+description: |
+  Error situation during execution of an ABAP program(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm 'Glossary Entry'). Exceptions are treatable(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentreatable_exception_glosry.htm 'Glossary Entry') (
+version: "7.52"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_glosry.htm"
+abapFile: "abenexception_glosry.htm"
+keywords: ["do", "try", "catch", "abenexception", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:attribute name='attr' ref='node'> ... </tt:attribute> Effect The non-literal attributes of an ST program are defined using the statement tt:attribute. A non-literal attribute is assigned to an attribute of an XML element of the XML data. In serializations, the content of the non-literal
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_attribute.htm"
+abapFile: "abenst_tt_attribute.htm"
+keywords: ["do", "if", "data", "abenst", "attribute"]
+---
 
 * * *
 

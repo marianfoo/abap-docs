@@ -1,4 +1,14 @@
-  
+---
+title: "Date Types and Time Types"
+description: |
+  The following character-like data types in ABAP Dictionary describe date fields and time fields: -   DATS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) or date fields(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_field_glosry.htm 'Gl
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_date_time_types.htm"
+abapFile: "abenddic_date_time_types.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "abenddic", "date", "time"]
+---
 
 * * *
 

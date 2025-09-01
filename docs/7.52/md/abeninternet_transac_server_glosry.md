@@ -1,4 +1,14 @@
-  
+---
+title: "Internet Transaction Server"
+description: |
+  Abbreviated as ITS. Interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_glosry.htm 'Glossary Entry') between an AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') and the Internet. Internet Transaction Se
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternet_transac_server_glosry.htm"
+abapFile: "abeninternet_transac_server_glosry.htm"
+keywords: ["do", "try", "data", "abeninternet", "transac", "server", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - READ ENTITIES"
+description: |
+  Syntax READ ENTITIES OF root_name ENTITY entity_1_name FROM it_instance RESULT it_result  DATA(it_result) BY assoc_name FROM it_instance_rba RESULT it_result_rba  DATA(it_result_rba) LINK   it_link_rba  DATA(it_link_rba) EXECUTE action_name FROM it_instance_a RESULT it
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm"
+abapFile: "abenread_behavior.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenread", "behavior"]
+---
 
 * * *
 

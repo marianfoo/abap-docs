@@ -1,4 +1,14 @@
-  
+---
+title: "Virtual Sorting of an Internal Table"
+description: |
+  This example demonstrates the virtual sorting of a single internal table. Source Code REPORT demo_virtual_sort_simple. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, col1 TYPE i, col2 TYPE i, col3 TYPE string, col
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_simple_abexa.htm"
+abapFile: "abenvirtual_sort_simple_abexa.htm"
+keywords: ["select", "do", "case", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "simple", "abexa"]
+---
 
 * * *
 

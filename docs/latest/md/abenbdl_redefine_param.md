@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - RedefinedParameter"
+description: |
+  Syntax Forms Redefined Input Parameter for RAP Actions and RAP Functions ... deep parameter RedefinedAbstractBDEF ... Redefined Output Parameter for RAP Actions and RAP Functions ... deep result RedefinedAbstractBDEF ... Redefined Output Parameter for RAP Business Events ... deep parameter Redefined
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_redefine_param.htm"
+abapFile: "abenbdl_redefine_param.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbdl", "redefine", "param"]
+---
 
 * * *
 

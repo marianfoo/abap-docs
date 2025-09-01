@@ -1,4 +1,14 @@
-  
+---
+title: "client_independent_glosry"
+description: |
+  client_independent_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclient_independent_glosry.htm"
+abapFile: "abenclient_independent_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenclient", "independent", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "WITH - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(https://help.s
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "try", "abapwith", "shortref"]
+---
 
 * * *
 

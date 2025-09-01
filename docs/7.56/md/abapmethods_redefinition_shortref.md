@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, REDEFINITION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_redefinition.htm) Syntax METHODS meth FINAL REDEFINITION. Effect Redefines(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenredefinition_glosry.htm 'Glossary Entry') a meth instance method in t
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_redefinition_shortref.htm"
+abapFile: "abapmethods_redefinition_shortref.htm"
+keywords: ["do", "try", "method", "class", "abapmethods", "redefinition", "shortref"]
+---
 
 * * *
 

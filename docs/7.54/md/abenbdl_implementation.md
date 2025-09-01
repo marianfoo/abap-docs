@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - IMPLEMENTATION"
+description: |
+  Syntax implementation unmanagedmanagedabstract in class class_name unique; Effect The implementation type of the business object behavior(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_glosry.htm 'Glossary Entry') is introduced in the behavior definition(h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_implementation.htm"
+abapFile: "abenbdl_implementation.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "types", "abenbdl", "implementation"]
+---
 
 * * *
 

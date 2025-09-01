@@ -1,4 +1,14 @@
-  
+---
+title: "Locator, copy column"
+description: |
+  The example demonstrates how column content can be copied using locators(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocator_glosry.htm 'Glossary Entry'). Source Code REPORT demo_db_copy. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENT
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendb_copy_abexa.htm"
+abapFile: "abendb_copy_abexa.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "method", "class", "data", "types", "abendb", "copy", "abexa"]
+---
 
 * * *
 

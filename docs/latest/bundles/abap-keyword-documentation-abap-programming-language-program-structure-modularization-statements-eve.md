@@ -5,7 +5,17 @@ Included pages: 9
 
 ### abenevent_blocks.htm
 
-  
+---
+title: "Event Blocks"
+description: |
+  Event blocks are used to handle events in the ABAP runtime framework. They are introduced by an event key word and ended by the next processing block. Since there is no closing statement, it is recommended that the end of an event block is indicated with a comment line. Within an event block, no loc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_blocks.htm"
+abapFile: "abenevent_blocks.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenevent", "blocks"]
+---
 
 * * *
 
@@ -52,7 +62,17 @@ Continue
 
 ### abenprogram_constructor.htm
 
-  
+---
+title: "Program Constructor"
+description: |
+  The program constructor can be used to initialize the global data of a program. It is introduced using the statement: -   LOAD-OF-PROGRAM(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program.htm) The associated event occurs when a program is loaded into the internal
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_constructor.htm"
+abapFile: "abenprogram_constructor.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenprogram", "constructor"]
+---
 
 * * *
 
@@ -81,7 +101,17 @@ Continue
 
 ### abapload-of-program.htm
 
-  
+---
+title: "LOAD-OF-PROGRAM"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program_shortref.htm) Syntax LOAD-OF-PROGRAM. Effect This event keyword defines the program constructor(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_constructor_glosry.htm '
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program.htm"
+abapFile: "abapload-of-program.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abapload", "program"]
+---
 
 * * *
 
@@ -124,7 +154,17 @@ The include program LABAP\_DOCUE00 implements the LOAD-OF-PROGRAM event block of
 
 ### abenprogram_constructor.htm
 
-  
+---
+title: "Program Constructor"
+description: |
+  The program constructor can be used to initialize the global data of a program. It is introduced using the statement: -   LOAD-OF-PROGRAM(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program.htm) The associated event occurs when a program is loaded into the internal
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_constructor.htm"
+abapFile: "abenprogram_constructor.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenprogram", "constructor"]
+---
 
 * * *
 
@@ -153,7 +193,17 @@ Continue
 
 ### abenabap_processing_blocks.htm
 
-  
+---
+title: "Reporting Events"
+description: |
+  The following are event key words for reporting(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreporting_glosry.htm 'Glossary Entry') events: -   INITIALIZATION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization.htm), -   START-OF-SELECTION(
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_processing_blocks.htm"
+abapFile: "abenabap_processing_blocks.htm"
+keywords: ["select", "do", "if", "try", "data", "abenabap", "processing", "blocks"]
+---
 
 * * *
 
@@ -183,7 +233,17 @@ Continue
 
 ### abapinitialization.htm
 
-  
+---
+title: "INITIALIZATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization_shortref.htm) Syntax INITIALIZATION. Effect This event keyword defines an event block for initializing an executable program. The associated event is raised by the ABAP runtime framework(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization.htm"
+abapFile: "abapinitialization.htm"
+keywords: ["select", "do", "if", "try", "data", "abapinitialization"]
+---
 
 * * *
 
@@ -220,7 +280,17 @@ INITIALIZATION.
 
 ### abapstart-of-selection.htm
 
-  
+---
+title: "START-OF-SELECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-selection_shortref.htm) Syntax START-OF-SELECTION. Effect This event keyword defines the standard processing block of an executable program. The associated event is raised by the ABAP runtime framework(h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-selection.htm"
+abapFile: "abapstart-of-selection.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "abapstart", "selection"]
+---
 
 * * *
 
@@ -307,7 +377,17 @@ START-OF-SELECTION.
 
 ### abenabap_processing_blocks.htm
 
-  
+---
+title: "Reporting Events"
+description: |
+  The following are event key words for reporting(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreporting_glosry.htm 'Glossary Entry') events: -   INITIALIZATION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization.htm), -   START-OF-SELECTION(
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_processing_blocks.htm"
+abapFile: "abenabap_processing_blocks.htm"
+keywords: ["select", "do", "if", "try", "data", "abenabap", "processing", "blocks"]
+---
 
 * * *
 
@@ -337,7 +417,17 @@ Continue
 
 ### abenabap_screen_events.htm
 
-  
+---
+title: "Selection Screen Events and List Events"
+description: |
+  Selection screen events and list events are events of classic dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary Entry') processing that are transformed into ABAP events by the ABAP runtime framework and are handled directly in the ABAP program i
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screen_events.htm"
+abapFile: "abenabap_screen_events.htm"
+keywords: ["select", "do", "if", "try", "class", "abenabap", "screen", "events"]
+---
 
 * * *
 

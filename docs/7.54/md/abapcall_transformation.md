@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSFORMATION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation_shortref.htm) Syntax CALL TRANSFORMATION ID  trans(name) PARAMETERS p1 = e1 p2 = e2 ...(ptab) OPTIONS options(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation.htm"
+abapFile: "abapcall_transformation.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapcall", "transformation"]
+---
 
 * * *
 

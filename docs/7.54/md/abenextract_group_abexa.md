@@ -1,4 +1,14 @@
-  
+---
+title: "Extracts, Control Level Processing"
+description: |
+  This example demonstrates control level processing of extracts. Source Code REPORT demo_extract_at_new. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. DATA: t1 TYPE c LENGTH 4, t2 TYPE i. FIELD-GROUPS header. CLASS demo IMPLEMENTATION. METHOD main. INSERT t2 t1 INTO header.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenextract_group_abexa.htm"
+abapFile: "abenextract_group_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "method", "class", "data", "abenextract", "group", "abexa"]
+---
 
 * * *
 

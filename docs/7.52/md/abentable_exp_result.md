@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...              itab itab_line(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_itab_line.htm) ...(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_chaining.htm)    VALUE type( itab itab_line(https://help.sap.com/doc/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_result.htm"
+abapFile: "abentable_exp_result.htm"
+keywords: ["select", "delete", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abentable", "exp", "result"]
+---
 
 * * *
 

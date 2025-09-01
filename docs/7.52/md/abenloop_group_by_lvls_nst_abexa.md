@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP, Nesting"
+description: |
+  This example demonstrates nested control level processing using GROUP BY(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_group_by.htm). Source Code REPORT demo_loop_group_by_levels_nest. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS dem
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_lvls_nst_abexa.htm"
+abapFile: "abenloop_group_by_lvls_nst_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenloop", "group", "lvls", "nst", "abexa"]
+---
 
 * * *
 

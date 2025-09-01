@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Text output"
+description: |
+  The example illustrates the output of unformatted text. Source Code REPORT  demo_show_text. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: text       TYPE REF TO cl_demo_text, text_table TYPE cl_demo_text=>t_text, text_line
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_output_abexa.htm"
+abapFile: "abentext_output_abexa.htm"
+keywords: ["select", "delete", "do", "method", "class", "data", "abentext", "output", "abexa"]
+---
 
 * * *
 

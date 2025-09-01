@@ -1,4 +1,14 @@
-  
+---
+title: "CATCH SYSTEM-EXCEPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax CATCH SYSTEM-EXCEPTIONS exc1 = n1 exc2 = n2... OTHERS = n_others. statement_block ENDCATCH. Effect Handling Catchable Runtime Errors(https://
+version: "7.54"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm"
+abapFile: "abapcatch_sys.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abapcatch", "sys"]
+---
 
 * * *
 

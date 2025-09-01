@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abencds_syntax.htm
 
-  
+---
+title: "ABAP CDS - Syntax"
+description: |
+  The syntax of the CDS DDL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and the CDS DCL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm 'Glossary Entry') in ABAP CDS comprises elements of the general SQL(ht
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_syntax.htm"
+abapFile: "abencds_syntax.htm"
+keywords: ["do", "try", "abencds", "syntax"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abencds_general_syntax_rules.htm
 
-  
+---
+title: "ABAP CDS - General Syntax Rules"
+description: |
+  The general syntax rules for the CDS DDL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and CDS DCL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm 'Glossary Entry') for defining CDS objects(https://help.sap
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_general_syntax_rules.htm"
+abapFile: "abencds_general_syntax_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abencds", "general", "syntax", "rules"]
+---
 
 * * *
 
@@ -95,7 +115,17 @@ Examples
 
 ### abencds_language_elements.htm
 
-  
+---
+title: "ABAP CDS - Language Elements"
+description: |
+  The following sections summarize the language elements of the CDS DDL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and CDS DCL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm 'Glossary Entry') of the ABAP C
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_language_elements.htm"
+abapFile: "abencds_language_elements.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "language", "elements"]
+---
 
 * * *
 

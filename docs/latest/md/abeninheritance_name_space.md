@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Inheritance and the Component Namespace"
+description: |
+  A subclass contains all components of all its superclasses. Only the public and the protected components are visible. This is why all public and protected components of a path of an inheritance tree are located in a single namespace and must have unique names. Private components, on the other hand,
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_name_space.htm"
+abapFile: "abeninheritance_name_space.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "name", "space"]
+---
 
 * * *
 

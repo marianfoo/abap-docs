@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Time Stamp Functions"
+description: |
+  Syntax ... UTCL_CURRENT()  UTCL_ADD_SECONDS(utcl,seconds)  UTCL_SECONDS_BETWEEN(utcl1,utcl2)  TSTMP_IS_VALID(tstmp)  TSTMP_CURRENT_UTCTIMESTAMP()  TSTMP_SECONDS_BETWEEN(tstmp1,tstmp2,on_error)  TSTMP_ADD_SECONDS(tstmp,seconds,on_error) ... Variants: 1. ... UTCL_CU
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_timestamp_functions_v2.htm"
+abapFile: "abencds_timestamp_functions_v2.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "timestamp", "functions"]
+---
 
 * * *
 

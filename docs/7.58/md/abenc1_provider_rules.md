@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for Providing Elementary Data Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_elem.htm) C1 Contract Rules for Providing Dictionary Objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_ddic.htm) C1 Contr
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm"
+abapFile: "abenc1_provider_rules.htm"
+keywords: ["delete", "do", "if", "class", "data", "types", "abenc1", "provider", "rules"]
+---
 
 * * *
 

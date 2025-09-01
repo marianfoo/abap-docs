@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Storage Type of Database Tables"
+description: |
+  The storage type only applies if the current database is an SAP HANA(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm 'Glossary Entry') database. The specified storage type is ignored by other database systems and the platform-specific storage type is used in
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_storage.htm"
+abapFile: "abenddic_database_tables_storage.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenddic", "database", "tables", "storage"]
+---
 
 * * *
 

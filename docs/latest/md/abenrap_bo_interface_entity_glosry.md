@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO interface entity"
+description: |
+  A component of a RAP BO interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_interface_glosry.htm 'Glossary Entry'). It describes the part of the RAP data model(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_data_model_glosry.htm 'Glossary
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_interface_entity_glosry.htm"
+abapFile: "abenrap_bo_interface_entity_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "interface", "entity", "glosry"]
+---
 
 * * *
 

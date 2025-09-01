@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, HTML Browser"
+description: |
+  This example demonstrates the encapsulation of the browser controls in a class. Source Code REPORT demo_html_browser. PARAMETERS: modal  AS CHECKBOX DEFAULT 'X', no_box AS CHECKBOX. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: pict_line(1022) TYPE x, pict_t
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhtml_browser_abexa.htm"
+abapFile: "abenhtml_browser_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "method", "class", "data", "types", "abenhtml", "browser", "abexa"]
+---
 
 * * *
 

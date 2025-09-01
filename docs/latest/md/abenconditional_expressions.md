@@ -1,4 +1,14 @@
-  
+---
+title: "Conditional Expressions"
+description: |
+  A conditional expression is a constructor expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expressions.htm) that creates a value or raises a class-based exception depending on a logical expression or a case distinction. Conditional expressions are construc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expressions.htm"
+abapFile: "abenconditional_expressions.htm"
+keywords: ["do", "if", "case", "class", "abenconditional", "expressions"]
+---
 
 * * *
 

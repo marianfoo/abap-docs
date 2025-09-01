@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA view"
+description: |
+  An SAP HANA view is used to select, analyze, or perform calculations with data from the SAP HANA database(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm 'Glossary Entry'). Attribute views, analytic views and calculation views can be distinguished. SAP HANA
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_view_glosry.htm"
+abapFile: "abenhana_view_glosry.htm"
+keywords: ["select", "do", "try", "method", "data", "abenhana", "view", "glosry"]
+---
 
 * * *
 

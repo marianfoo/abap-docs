@@ -1,4 +1,14 @@
-  
+---
+title: "Persistent Data Storage"
+description: |
+  Background ABAP programs can have both read and write access to data in the following persistent storage media: -   Relational database tables in databases -   Data clusters in special database tables -   Binary files or text files on the application server -   Binary files or text files on the PC i
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpersistent_data_storage_guidl.htm"
+abapFile: "abenpersistent_data_storage_guidl.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abenpersistent", "storage", "guidl"]
+---
 
 * * *
 

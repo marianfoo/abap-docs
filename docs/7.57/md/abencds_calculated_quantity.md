@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Calculated Quantity with Calculated Unit"
+description: |
+  A CDS calculated quantity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity_glosry.htm 'Glossary Entry') is a component of a CDS view entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') or of a CDS p
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm"
+abapFile: "abencds_calculated_quantity.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "types", "abencds", "calculated", "quantity"]
+---
 
 * * *
 

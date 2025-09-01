@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Foreign Keys"
+description: |
+  A foreign key consists of one or more foreign key fields(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_field_glosry.htm 'Glossary Entry') of a foreign key table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_table_glosry.htm 'Glossary Entr
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkey.htm"
+abapFile: "abenddic_database_tables_forkey.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "database", "tables", "forkey"]
+---
 
 * * *
 

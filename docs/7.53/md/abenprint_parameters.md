@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  The content of the structures PRI_PARAMS and ARC_PARAMS cannot be modified directly in programs; only the function module GET_PRINT_PARAMETERS can be used for this. Spool Dialog Box(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_window.htm) Setting Program-Dri
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm"
+abapFile: "abenprint_parameters.htm"
+keywords: ["do", "if", "try", "class", "data", "abenprint", "parameters"]
+---
 
 * * *
 

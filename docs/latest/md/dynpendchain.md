@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ENDCHAIN. Effect Closes a processing chain defined in the dynpro flow logic(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry'). See CHAIN(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpchain.htm) for more inform
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpendchain.htm"
+abapFile: "dynpendchain.htm"
+keywords: ["do", "if", "try", "dynpendchain"]
+---
 
 * * *
 

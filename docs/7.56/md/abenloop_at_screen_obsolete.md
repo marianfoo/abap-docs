@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT SCREEN, Short Form"
+description: |
+  Obsolete Syntax LOOP AT SCREEN. ... ENDLOOP. Effect This is a short form of the statement LOOP AT SCREEN INTO screen.(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_screen.htm) ... ENDLOOP.(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_screen.htm)
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_at_screen_obsolete.htm"
+abapFile: "abenloop_at_screen_obsolete.htm"
+keywords: ["loop", "do", "try", "data", "internal-table", "abenloop", "screen", "obsolete"]
+---
 
 * * *
 

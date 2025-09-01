@@ -1,4 +1,14 @@
-  
+---
+title: "c2_contract_glosry"
+description: |
+  c2_contract_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc2_contract_glosry.htm"
+abapFile: "abenc2_contract_glosry.htm"
+keywords: ["do", "if", "try", "abenc2", "contract", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Methods"
+description: |
+  Methods are the procedures(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocedure_glosry.htm 'Glossary Entry') of a class whose functionality is implemented between the following statements: METHOD(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethod.htm) ...
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_methods.htm"
+abapFile: "abenabap_methods.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "methods"]
+---
 
 * * *
 

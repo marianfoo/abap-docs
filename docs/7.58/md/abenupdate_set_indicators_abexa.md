@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE, SET INDICATORS"
+description: |
+  The example demonstrates how the addition SET INDICATORS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapupdate_set_indicator.htm) of the statement UPDATE is used. Source Code  Public class definition CLASS cl_demo_update_set_indicator DEFINITION INHERITING FROM cl_demo_clas
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_set_indicators_abexa.htm"
+abapFile: "abenupdate_set_indicators_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "method", "class", "data", "types", "abenupdate", "set", "indicators", "abexa"]
+---
 
 * * *
 

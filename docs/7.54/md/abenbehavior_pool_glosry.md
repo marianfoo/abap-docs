@@ -1,4 +1,14 @@
-  
+---
+title: "Behavior Pool"
+description: |
+  A global ABAP class in which the transactional behavior of a business object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') is implemented.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_pool_glosry.htm"
+abapFile: "abenbehavior_pool_glosry.htm"
+keywords: ["do", "try", "class", "abenbehavior", "pool", "glosry"]
+---
 
 * * *
 

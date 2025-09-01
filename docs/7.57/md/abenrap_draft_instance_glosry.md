@@ -1,4 +1,14 @@
-  
+---
+title: "RAP draft instance"
+description: |
+  RAP BO entity instance(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry') in a draft-enabled RAP business object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendraft_rap_bo_glosry.htm 'Glossary Entry') for which a commit
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_draft_instance_glosry.htm"
+abapFile: "abenrap_draft_instance_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "draft", "instance", "glosry"]
+---
 
 * * *
 

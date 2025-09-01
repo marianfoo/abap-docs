@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP in Packages"
+description: |
+  This example demonstrates a construction of the group key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengroup_key_glosry.htm 'Glossary Entry') that does not depend on the row content. Source Code REPORT demo_loop_group_by_packages. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_packages_abexa.htm"
+abapFile: "abenloop_group_by_packages_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenloop", "group", "packages", "abexa"]
+---
 
 * * *
 

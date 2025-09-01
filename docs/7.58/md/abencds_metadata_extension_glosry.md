@@ -1,4 +1,14 @@
-  
+---
+title: "CDS metadata extension"
+description: |
+  Short MDE. A CDS object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_object_glosry.htm 'Glossary Entry') of the ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry') is defined in DDLX source code(https://help.sap.co
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_metadata_extension_glosry.htm"
+abapFile: "abencds_metadata_extension_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "metadata", "extension", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "annotation_array_glosry"
+description: |
+  annotation_array_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenannotation_array_glosry.htm"
+abapFile: "abenannotation_array_glosry.htm"
+keywords: ["do", "if", "try", "abenannotation", "array", "glosry"]
+---
 
 * * *
 

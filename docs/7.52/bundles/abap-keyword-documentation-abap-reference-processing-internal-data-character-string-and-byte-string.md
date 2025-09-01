@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abencl_abap_string_utilities.htm
 
-  
+---
+title: "System Classes for Character String and Byte String Processing"
+description: |
+  -   Class for Trailing Blanks(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_util.htm) -   Class for Compressing Character Strings and Byte Strings(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_gzip.htm) -   Class with Utilities for String Process
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm"
+abapFile: "abencl_abap_string_utilities.htm"
+keywords: ["do", "class", "data", "abencl", "abap", "string", "utilities"]
+---
 
 * * *
 
@@ -32,7 +42,17 @@ Continue
 
 ### abenstring_util.htm
 
-  
+---
+title: "Class for Trailing Blanks"
+description: |
+  The class CL_ABAP_STRING_UTILITIES contains methods for processing text strings(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_string_glosry.htm 'Glossary Entry'). -   C2STR_PRESERVING_BLANKS assigns text fields while preserving the trailing blanks. -   DEL_TRAILING_BLA
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_util.htm"
+abapFile: "abenstring_util.htm"
+keywords: ["delete", "do", "while", "if", "try", "method", "class", "data", "abenstring", "util"]
+---
 
 * * *
 
@@ -64,7 +84,17 @@ ASSERT rslt =  shift\_right( str ).
 
 ### abencl_abap_gzip.htm
 
-  
+---
+title: "Class for Compressing Character Strings and Byte Strings"
+description: |
+  These classes offer a range of methods that enable text in text fields or text strings, or binary data in byte fields or byte strings to be compressed or decompressed using GZIP. -   CL_ABAP_GZIP -   CL_ABAP_GZIP_BINARY_STREAM -   CL_ABAP_GZIP_TEXT_STREAM -   CL_ABAP_UNGZIP_BINARY_STRE
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_gzip.htm"
+abapFile: "abencl_abap_gzip.htm"
+keywords: ["do", "method", "class", "data", "abencl", "abap", "gzip"]
+---
 
 * * *
 
@@ -105,7 +135,17 @@ ASSERT txt = \`Hello!\`.
 
 ### abencl_abap_char_utilities.htm
 
-  
+---
+title: "Class with Utilities for String Processing"
+description: |
+  The class CL_ABAP_CHAR_UTILITIES provides attributes and methods as utilities for string processing. The components of this class are all static and public. The attributes are read-only and are initialized in the class constructor. Details about the attributes and methods of this class are descri
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_char_utilities.htm"
+abapFile: "abencl_abap_char_utilities.htm"
+keywords: ["do", "try", "method", "class", "data", "abencl", "abap", "char", "utilities"]
+---
 
 * * *
 
@@ -130,7 +170,17 @@ ASSERT cl\_abap\_char\_utilities=>cr\_lf          = |\\r\\n|.
 
 ### abencl_abap_codepage.htm
 
-  
+---
+title: "Class for Handling Code Pages"
+description: |
+  The class CL_ABAP_CODEPAGE contains methods for converting the representation of character strings between different code pages. The interface IF_ABAP_CODEPAGE enables objects in the class to be accessed. Example Converts the content of a string into its UTF-8 representation. DATA(str) = `...`
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_codepage.htm"
+abapFile: "abencl_abap_codepage.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "codepage"]
+---
 
 * * *
 

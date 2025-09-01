@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Check Agents"
+description: |
+  A checking agent makes it possible to check the consistency of a persistent object that is to be stored prior to the update. It is a class that implements the interface IF_OS_CHECK. The interface has a method IS_CONSISTENT with a return value RESULT of type OS_BOOLEAN. In the simplest case, the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_transaction_check.htm"
+abapFile: "abenos_transaction_check.htm"
+keywords: ["update", "do", "if", "case", "method", "class", "data", "abenos", "transaction", "check"]
+---
 
 * * *
 

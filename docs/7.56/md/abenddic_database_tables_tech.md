@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Technical Attributes of Database Tables"
+description: |
+  The technical attributes of a DDIC database table include the attributes of its structure and attributes dependent on the table. -   Technical attributes of the structure of a database table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_techstruc.htm) -   Dep
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_tech.htm"
+abapFile: "abenddic_database_tables_tech.htm"
+keywords: ["do", "data", "abenddic", "database", "tables", "tech"]
+---
 
 * * *
 

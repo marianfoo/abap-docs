@@ -1,4 +1,14 @@
-  
+---
+title: "interface_pool_glosry"
+description: |
+  interface_pool_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_pool_glosry.htm"
+abapFile: "abeninterface_pool_glosry.htm"
+keywords: ["do", "if", "try", "abeninterface", "pool", "glosry"]
+---
 
 * * *
 

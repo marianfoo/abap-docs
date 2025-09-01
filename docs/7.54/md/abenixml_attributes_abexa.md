@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_access_attributes. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). DATA(ixml)           = cl_ixml=>create( ). DATA(stream_factory) = ixml->create_stream_factory( ).
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenixml_attributes_abexa.htm"
+abapFile: "abenixml_attributes_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenixml", "attributes", "abexa"]
+---
 
 * * *
 

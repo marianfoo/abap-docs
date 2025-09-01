@@ -5,7 +5,17 @@ Included pages: 9
 
 ### abensyntax_obsolete.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  -   Obsolete Statement Structuring(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentokenization_obsolete.htm) -   Obsolete Operand Positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm) -   Obsolete Pseudo Comments(https://help.s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyntax_obsolete.htm"
+abapFile: "abensyntax_obsolete.htm"
+keywords: ["do", "if", "abensyntax", "obsolete"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abentokenization_obsolete.htm
 
-  
+---
+title: "Obsolete Statement Structuring"
+description: |
+  The following syntax forms are obsolete. They are forbidden within ABAP Objects and produce syntax check warnings outside of classes: -   Outside of classes, separators (blanks, commas, colons periods, or the end of a line) after literals(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentokenization_obsolete.htm"
+abapFile: "abentokenization_obsolete.htm"
+keywords: ["do", "if", "class", "abentokenization", "obsolete"]
+---
 
 * * *
 
@@ -51,7 +71,17 @@ The following syntax forms are obsolete. They are forbidden within ABAP Objects 
 
 ### abenoperand_positions_obsolete.htm
 
-  
+---
+title: "Obsolete Operand Positions"
+description: |
+  The following method of using operand positions is obsolete and should no longer be used: -   Enhanced Functional Operand Positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_functional_positions.htm) Extended Functional Operand Positions(https://help.sap.com/doc/aba
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm"
+abapFile: "abenoperand_positions_obsolete.htm"
+keywords: ["do", "if", "method", "abenoperand", "positions", "obsolete"]
+---
 
 * * *
 
@@ -74,7 +104,17 @@ Continue
 
 ### abenextended_functional_positions.htm
 
-  
+---
+title: "Extended Functional Operand Positions"
+description: |
+  Extended functional operand positions are functional operand positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunctional_positions.htm) in which certain built-in functions can be specified alongside data objects, functional method calls(https://help.sap.com/doc/abapdocu_7
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_functional_positions.htm"
+abapFile: "abenextended_functional_positions.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "internal-table", "abenextended", "functional", "positions"]
+---
 
 * * *
 
@@ -146,7 +186,17 @@ FINAL(lines) = lines( itab ).
 
 ### abenoperand_positions_obsolete.htm
 
-  
+---
+title: "Obsolete Operand Positions"
+description: |
+  The following method of using operand positions is obsolete and should no longer be used: -   Enhanced Functional Operand Positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_functional_positions.htm) Extended Functional Operand Positions(https://help.sap.com/doc/aba
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm"
+abapFile: "abenoperand_positions_obsolete.htm"
+keywords: ["do", "if", "method", "abenoperand", "positions", "obsolete"]
+---
 
 * * *
 
@@ -169,7 +219,17 @@ Continue
 
 ### abenpseudo_comments_obsolete.htm
 
-  
+---
+title: "Obsolete Pseudo Comments"
+description: |
+  -   Pseudo comments for extended program check(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_slin.htm) -   Pseudo comments for test classes(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_test_class.htm) Pseudo Comments for the Exten
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comments_obsolete.htm"
+abapFile: "abenpseudo_comments_obsolete.htm"
+keywords: ["do", "if", "class", "abenpseudo", "comments", "obsolete"]
+---
 
 * * *
 
@@ -192,7 +252,17 @@ Continue
 
 ### abenpseudo_comment_slin.htm
 
-  
+---
+title: "Pseudo Comments for the Extended Program Check"
+description: |
+  Obsolete Syntax ... '#EC ... Effect The string '#EC after a statement or a part of a statement that follows a particular ID defines the subsequent content of the line as a pseudo comment(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_glosry.htm 'Glossary Entry') for
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_slin.htm"
+abapFile: "abenpseudo_comment_slin.htm"
+keywords: ["do", "if", "try", "data", "abenpseudo", "comment", "slin"]
+---
 
 * * *
 
@@ -239,7 +309,17 @@ a = b.
 
 ### abenpseudo_comment_test_class.htm
 
-  
+---
+title: "Pseudo Comments for Test Classes"
+description: |
+  Obsolete Syntax ... '#AU Risk_Level CriticalDangerousHarmless ... '#AU Duration ShortMediumLong Effect The string '#AU in the statement CLASS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm) with the addition FOR TESTING(https://help.sap.com/doc/a
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_test_class.htm"
+abapFile: "abenpseudo_comment_test_class.htm"
+keywords: ["do", "if", "case", "try", "class", "abenpseudo", "comment", "test"]
+---
 
 * * *
 
@@ -272,7 +352,17 @@ Hints
 
 ### abenpseudo_comments_obsolete.htm
 
-  
+---
+title: "Obsolete Pseudo Comments"
+description: |
+  -   Pseudo comments for extended program check(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_slin.htm) -   Pseudo comments for test classes(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_test_class.htm) Pseudo Comments for the Exten
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comments_obsolete.htm"
+abapFile: "abenpseudo_comments_obsolete.htm"
+keywords: ["do", "if", "class", "abenpseudo", "comments", "obsolete"]
+---
 
 * * *
 

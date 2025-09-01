@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Field Characteristics, Abstract BDEF"
+description: |
+  Syntax ... field(suppress) Field1, Field2, ...;  (mandatory:execute) Field1, Field2, ...; Variants: 1. ... field(suppress) Field1, Field2, ...(#!ABAP_VARIANT_1@1@) 2. ... field(mandatory:execute) Field1, Field2, ...(#!ABAP_VARIANT_2@2@) Effect This topic lists field attributes for the fiel
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_abstract.htm"
+abapFile: "abenbdl_field_abstract.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "types", "abenbdl", "field", "abstract"]
+---
 
 * * *
 

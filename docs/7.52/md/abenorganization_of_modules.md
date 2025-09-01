@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Programs in AS ABAP"
+description: |
+  ABAP programs are executed in AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry'). The execution of the programs is organized in sessions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensession_glosry.htm 'Glossary Entry'
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenorganization_of_modules.htm"
+abapFile: "abenorganization_of_modules.htm"
+keywords: ["do", "if", "try", "abenorganization", "modules"]
+---
 
 * * *
 

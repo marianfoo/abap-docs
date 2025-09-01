@@ -1,4 +1,14 @@
-  
+---
+title: "RFC destination"
+description: |
+  An RFC destination contains the connection parameters for remote function calls(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenremote_function_call_glosry.htm 'Glossary Entry'). It contains the connection type, the target system, and the partner program. Connections that only
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dest_glosry.htm"
+abapFile: "abenrfc_dest_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenrfc", "dest", "glosry"]
+---
 
 * * *
 

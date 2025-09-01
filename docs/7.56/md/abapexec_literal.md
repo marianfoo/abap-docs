@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Literals"
+description: |
+  Syntax ...  +-nnn...  'ccc...'  `ccc...`  ... Effect Appropriate literals(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_literal_glosry.htm 'Glossary Entry') can be specif
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec_literal.htm"
+abapFile: "abapexec_literal.htm"
+keywords: ["select", "do", "if", "try", "data", "abapexec", "literal"]
+---
 
 * * *
 

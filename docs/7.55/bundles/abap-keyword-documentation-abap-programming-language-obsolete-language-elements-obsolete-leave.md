@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenobsolete_leave.htm
 
-  
+---
+title: "Obsolete Leave"
+description: |
+  This section describes how to leave(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_leave_program.htm) a program with the LEAVE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapleave-.htm) statement and no further additions. LEAVE(https://help.sap.com/doc/abap
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_leave.htm"
+abapFile: "abenobsolete_leave.htm"
+keywords: ["do", "abenobsolete", "leave"]
+---
 
 * * *
 
@@ -23,7 +33,17 @@ Continue
 
 ### abapleave-.htm
 
-  
+---
+title: "LEAVE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapleave_shortref.htm) Obsolete Syntax LEAVE. Effect The statement LEAVE without additions is context-specific: -   In list processing (when the list processor(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapleave-.htm"
+abapFile: "abapleave-.htm"
+keywords: ["do", "if", "try", "abapleave"]
+---
 
 * * *
 

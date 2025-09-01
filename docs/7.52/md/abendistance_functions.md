@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... distance( val1 = text1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm) val2 = text2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm) max = max ) ... Effect This function returns the Levenshtein distance
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendistance_functions.htm"
+abapFile: "abendistance_functions.htm"
+keywords: ["insert", "delete", "do", "if", "try", "class", "data", "abendistance", "functions"]
+---
 
 * * *
 

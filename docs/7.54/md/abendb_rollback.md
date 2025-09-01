@@ -1,4 +1,14 @@
-  
+---
+title: "Database Rollback"
+description: |
+  Database rollbacks are triggered implicitly or explicitly in AS ABAP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry'). -   Implicit Database Rollbacks(#abendb-rollback-1--------explicit-database-rollbacks---@ITOC@@ABENDB_ROLLBACK_2) -   Dat
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_rollback.htm"
+abapFile: "abendb_rollback.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "abendb", "rollback"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Database Rollback
 
 Database rollbacks are triggered implicitly or explicitly in [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry").
 
--   [Implicit Database Rollbacks](#@@ITOC@@ABENDB_ROLLBACK_1)
-
--   [Explicit Database Rollbacks](#@@ITOC@@ABENDB_ROLLBACK_2)
+-   [Implicit Database Rollbacks](#abendb-rollback-1--------explicit-database-rollbacks---@ITOC@@ABENDB_ROLLBACK_2)
 
 -   [Database Rollback on Database Connections](#@@ITOC@@ABENDB_ROLLBACK_3)
 

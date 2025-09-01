@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Basic Form of Selection Criteria"
+description: |
+  The example shows how the selection tables are filled in a multiple selection. Source Code REPORT demo_sel_screen_select_options. CLASS start DEFINITION. PUBLIC SECTION. CLASS-DATA name(80) TYPE c. CLASS-METHODS main. ENDCLASS. SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS: dbtab  TYPE c LENG
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensel_screen_sel_opt_abexa.htm"
+abapFile: "abensel_screen_sel_opt_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "sel", "opt", "abexa"]
+---
 
 * * *
 

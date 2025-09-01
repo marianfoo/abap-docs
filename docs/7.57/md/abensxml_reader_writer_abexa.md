@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_reader_writer. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS sxml_demo IMPLEMENTATION. METHOD main. FINAL(xml) = cl_abap_conv_codepage=>create_out( )->convert( `<text>` && `<line>aaaa</line>` && `<line>bbbb</line>` && `<line>cccc</li
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensxml_reader_writer_abexa.htm"
+abapFile: "abensxml_reader_writer_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "abensxml", "reader", "writer", "abexa"]
+---
 
 * * *
 

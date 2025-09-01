@@ -1,4 +1,14 @@
-  
+---
+title: "Key Fields of the Standard Key"
+description: |
+  The key fields of the standard key are defined as follows: -   In tables with a structured line type, the standard key is formed from all components with character-like(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm 'Glossary Entry') and byte-lik
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_standard_key.htm"
+abapFile: "abenitab_standard_key.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "internal-table", "abenitab", "standard", "key"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ itab - Standard Key
 
 The standard key is a special [primary table key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") of an internal table.
 
--   [Key Fields of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_1)
--   [Declaration of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_2)
+-   [Key Fields of the Standard Key](#abenitab-standard-key-1-------declaration-of-the-standard-key---@ITOC@@ABENITAB_STANDARD_KEY_2)
 -   [Notes on Use](#@@ITOC@@ABENITAB_STANDARD_KEY_3)
 
 Key Fields of the Standard Key   

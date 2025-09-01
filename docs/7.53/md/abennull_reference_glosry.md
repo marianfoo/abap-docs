@@ -1,4 +1,14 @@
-  
+---
+title: "null_reference_glosry"
+description: |
+  null_reference_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennull_reference_glosry.htm"
+abapFile: "abennull_reference_glosry.htm"
+keywords: ["do", "try", "abennull", "reference", "glosry"]
+---
 
 * * *
 

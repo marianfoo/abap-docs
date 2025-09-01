@@ -1,4 +1,14 @@
-  
+---
+title: "Screen Painter"
+description: |
+  ABAP Workbench(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') tool used to create dynpros(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm 'Glossary Entry'). Contains a text editor for writing the dynpro
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_painter_glosry.htm"
+abapFile: "abenscreen_painter_glosry.htm"
+keywords: ["do", "try", "abenscreen", "painter", "glosry"]
+---
 
 * * *
 

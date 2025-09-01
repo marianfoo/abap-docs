@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA Studio"
+description: |
+  Eclipse-based tool for database objects of the SAP HANA database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database_glosry.htm 'Glossary Entry'), especially for XSC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxsc_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_studio_glosry.htm"
+abapFile: "abenhana_studio_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenhana", "studio", "glosry"]
+---
 
 * * *
 

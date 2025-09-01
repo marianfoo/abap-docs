@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE TABLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_table_shortref.htm) Syntax DESCRIBE TABLE itab KIND knd LINES lin OCCURS n. Additions: 1. ... KIND knd(#!ABAP_ADDITION_1@1@) 2. ... LINES lin(#!ABAP_ADDITION_2@2@) 3. ... OC
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_table.htm"
+abapFile: "abapdescribe_table.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapdescribe", "table"]
+---
 
 * * *
 

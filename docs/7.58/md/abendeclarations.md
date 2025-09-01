@@ -1,4 +1,14 @@
-  
+---
+title: "Declarations"
+description: |
+  Declarations define the properties of program local classes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_glosry.htm 'Glossary Entry'), interfaces(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_intf_glosry.htm 'Glossary Entry'), data types(https://help
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm"
+abapFile: "abendeclarations.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "field-symbol", "abendeclarations"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Instance component selector"
+description: |
+  → object component selector(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_component_select_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_comp_selector_glosry.htm"
+abapFile: "abeninstance_comp_selector_glosry.htm"
+keywords: ["select", "do", "try", "abeninstance", "comp", "selector", "glosry"]
+---
 
 * * *
 

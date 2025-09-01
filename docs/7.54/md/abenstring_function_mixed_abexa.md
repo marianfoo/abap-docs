@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_to_from_mixed. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: original  TYPE c LENGTH 30 VALUE 'ABAP_DOCU_START', to_sep    TYPE c LENGTH 1  VALUE '_', to_case   TYPE c LENGTH 1 VALUE 'a', to_min    TYPE i VALUE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_function_mixed_abexa.htm"
+abapFile: "abenstring_function_mixed_abexa.htm"
+keywords: ["select", "do", "case", "try", "catch", "method", "class", "data", "abenstring", "function", "mixed", "abexa"]
+---
 
 * * *
 

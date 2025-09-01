@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  The first INSERT statement does not insert a line and sets sy-subrc to the value 4. The second INSERT statement produces a runtime error. DATA itab TYPE SORTED TABLE OF i WITH UNIQUE KEY table_line. itab = VALUE #( ( 1 ) ( 2 ) ( 3 ) ). INSERT 2 INTO TABLE itab. INSERT 2 INTO itab INDEX 2.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_duplicates.htm"
+abapFile: "abenitab_key_duplicates.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abenitab", "key", "duplicates"]
+---
 
 * * *
 

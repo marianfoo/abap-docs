@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_numb_form. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS: setup, teardown, check_system. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA number TYPE p DECIMALS 2 VALUE '1234567.89'. DATA: BEGIN OF result, xdezp  TYPE
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_template_number_abexa.htm"
+abapFile: "abenstring_template_number_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenstring", "template", "number", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Literals"
+description: |
+  Alongside the named data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennamed_data_object_glosry.htm 'Glossary Entry') that can be addressed by their names in ABAP programs (this includes the text symbols) and the anonymous data objects(https://help.sap.com/doc/abapdocu_7
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenliteral.htm"
+abapFile: "abenliteral.htm"
+keywords: ["do", "if", "try", "data", "types", "abenliteral"]
+---
 
 * * *
 

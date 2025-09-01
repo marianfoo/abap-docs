@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Load Unit of Database Tables"
+description: |
+  The load unit of a table specifies how the data of the table is loaded into the main memory of the SAP HANA database. The SAP HANA database offers the following settings: -   Column Loadable The complete table is considered as in-memory. The table data is loaded upon system start in a column-oriente
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_load_unit.htm"
+abapFile: "abenddic_database_tables_load_unit.htm"
+keywords: ["do", "while", "if", "try", "data", "abenddic", "database", "tables", "load", "unit"]
+---
 
 * * *
 

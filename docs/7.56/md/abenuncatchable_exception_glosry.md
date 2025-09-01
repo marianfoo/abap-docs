@@ -1,4 +1,14 @@
-  
+---
+title: "uncatchable_exception_glosry"
+description: |
+  uncatchable_exception_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuncatchable_exception_glosry.htm"
+abapFile: "abenuncatchable_exception_glosry.htm"
+keywords: ["do", "try", "catch", "class", "abenuncatchable", "exception", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "standard_table_glosry"
+description: |
+  standard_table_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_table_glosry.htm"
+abapFile: "abenstandard_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abenstandard", "table", "glosry"]
+---
 
 * * *
 

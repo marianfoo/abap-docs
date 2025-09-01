@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CLASS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) lhe_event DEFINITION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_options.htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_behavior_event_handler.htm"
+abapFile: "abencl_abap_behavior_event_handler.htm"
+keywords: ["do", "if", "try", "method", "class", "abencl", "abap", "behavior", "event", "handler"]
+---
 
 * * *
 

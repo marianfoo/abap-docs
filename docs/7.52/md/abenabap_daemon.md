@@ -1,4 +1,14 @@
-  
+---
+title: "ADF - ABAP Daemon Framework"
+description: |
+  ABAP Daemon Framework (ADF for short) is an application programming interface (or API) used to create and handle ABAP Daemons(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_glosry.htm 'Glossary Entry'). An ABAP Daemon is an instance of an ABAP Daemon class(https://hel
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon.htm"
+abapFile: "abenabap_daemon.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenabap", "daemon"]
+---
 
 * * *
 
@@ -14,13 +24,9 @@ The only limit on the lifetime of an ABAP Daemon not stopped explicitly using AD
 
 The [processing of an ABAP Daemon](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_processing_glosry.htm "Glossary Entry") takes place in the background and is event-driven. Both the consumer of a daemon and the ABAP runtime environment can raise [ABAP Daemon events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_event_glosry.htm "Glossary Entry") and the daemon can respond to these events using predefined interface methods. A daemon must always be ready to respond to inbound events and this is ensured by running ABAP Daemon processing in a [non-blocking mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadf_non_blocking_model.htm).
 
--   [ABAP Daemon Classes](#@@ITOC@@ABENABAP_DAEMON_1)
+-   [ABAP Daemon Classes](#abenabap-daemon-1--------creating-and-using-abap-daemons---@ITOC@@ABENABAP_DAEMON_2)
 
--   [Creating and Using ABAP Daemons](#@@ITOC@@ABENABAP_DAEMON_2)
-
--   [Managing ABAP Daemons](#@@ITOC@@ABENABAP_DAEMON_3)
-
--   [ABAP Daemon Examples](#@@ITOC@@ABENABAP_DAEMON_4)
+-   [Managing ABAP Daemons](#abenabap-daemon-3--------abap-daemon-examples---@ITOC@@ABENABAP_DAEMON_4)
 
 Notes
 

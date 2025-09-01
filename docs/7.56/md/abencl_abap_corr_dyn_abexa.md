@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_corresponding_class_dyn. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF names, n1 TYPE c LENGTH 2, n2 TYPE c LENGTH 2, n3 TYPE c LENGTH 2, END OF names. DATA: BEGIN OF struct1, a1 TYPE string VALUE 'a1', a2
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_abap_corr_dyn_abexa.htm"
+abapFile: "abencl_abap_corr_dyn_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "types", "abencl", "abap", "corr", "dyn", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abapcreate_object.htm
 
-  
+---
+title: "CREATE OBJECT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_shortref.htm) Syntax Forms Defining a Class Implicitly(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_implicit.htm) 1. CREATE OBJECT oref  area_handle(https://help.s
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object.htm"
+abapFile: "abapcreate_object.htm"
+keywords: ["delete", "do", "if", "try", "catch", "method", "class", "data", "field-symbol", "abapcreate", "object"]
+---
 
 * * *
 
@@ -101,7 +111,17 @@ Continue
 
 ### abapcreate_object_implicit.htm
 
-  
+---
+title: "CREATE OBJECT oref"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_shortref.htm) Syntax CREATE OBJECT oref  area_handle(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_area_handle.htm)  parameter_list(https://help.sap.com/doc
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_implicit.htm"
+abapFile: "abapcreate_object_implicit.htm"
+keywords: ["do", "if", "try", "class", "data", "abapcreate", "object", "implicit"]
+---
 
 * * *
 
@@ -140,7 +160,17 @@ cl\_demo\_output=>display( oref->attr ).
 
 ### abapcreate_object_explicit.htm
 
-  
+---
+title: "CREATE OBJECT, TYPE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_shortref.htm) Syntax CREATE OBJECT oref area_handle(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_area_handle.htm) TYPE  class  parameter_list(https://he
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_explicit.htm"
+abapFile: "abapcreate_object_explicit.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abapcreate", "object", "explicit"]
+---
 
 * * *
 
@@ -209,7 +239,17 @@ cl\_demo\_output=>display( CAST cls( oref ) ).
 
 ### abapcreate_object_area_handle.htm
 
-  
+---
+title: "CREATE OBJECT, AREA HANDLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_shortref.htm) Syntax CREATE OBJECT oref AREA HANDLE handle ... Effect This statement creates an object as a shared object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_object_glos
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_area_handle.htm"
+abapFile: "abapcreate_object_area_handle.htm"
+keywords: ["update", "do", "if", "try", "catch", "method", "class", "data", "abapcreate", "object", "area", "handle"]
+---
 
 * * *
 
@@ -300,7 +340,17 @@ Continue
 
 ### abencreate_shared_object_abexa.htm
 
-  
+---
+title: "Creating an Instance of a Class as a Shared Object"
+description: |
+  This example demonstrates how an object is created in an area instance version(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarea_instance_version_glosry.htm 'Glossary Entry'). Source Code REPORT demo_create_shared_object. CLASS class DEFINITION SHARED MEMORY ENABLED. PUBLIC SE
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_shared_object_abexa.htm"
+abapFile: "abencreate_shared_object_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abencreate", "shared", "object", "abexa"]
+---
 
 * * *
 
@@ -372,7 +422,17 @@ After write access has been completed using the method DETACH\_COMMIT, a read is
 
 ### abapcreate_object_area_handle.htm
 
-  
+---
+title: "CREATE OBJECT, AREA HANDLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_shortref.htm) Syntax CREATE OBJECT oref AREA HANDLE handle ... Effect This statement creates an object as a shared object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_object_glos
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_area_handle.htm"
+abapFile: "abapcreate_object_area_handle.htm"
+keywords: ["update", "do", "if", "try", "catch", "method", "class", "data", "abapcreate", "object", "area", "handle"]
+---
 
 * * *
 
@@ -463,7 +523,17 @@ Continue
 
 ### abapcreate_object_parameters.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... EXPORTING  p1 = a1 p2 = a2 ... EXCEPTIONS exc1 = n1 exc2 = n2 ... OTHERS = n_others. Effect The additions EXPORTING and EXCEPTIONS are used to pass actual parameters to the instance constructor statically or to assign return values to non-class-based exceptions. -   The
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_parameters.htm"
+abapFile: "abapcreate_object_parameters.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapcreate", "object", "parameters"]
+---
 
 * * *
 
@@ -503,7 +573,17 @@ CREATE OBJECT dialog\_box
 
 ### abapcreate_object_para_tables.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETER-TABLE ptab EXCEPTION-TABLE etab. Effect The additions PARAMETER-TABLE and EXCEPTION-TABLE are used to pass actual parameters dynamically to the instance constructor or assign return values to the non-class-based exceptions. These additions can only be used if the instan
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_para_tables.htm"
+abapFile: "abapcreate_object_para_tables.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "internal-table", "abapcreate", "object", "para", "tables"]
+---
 
 * * *
 

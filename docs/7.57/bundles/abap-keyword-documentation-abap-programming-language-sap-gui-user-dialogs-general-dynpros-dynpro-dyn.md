@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenabap_dynpros_processing.htm
 
-  
+---
+title: "Dynpro Flow"
+description: |
+  Dynpros(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm 'Glossary Entry') are called either using transaction codes(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransaction_code_glosry.htm 'Glossary Entry') or using the statement CALL SCREEN(h
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_processing.htm"
+abapFile: "abenabap_dynpros_processing.htm"
+keywords: ["do", "if", "case", "try", "abenabap", "dynpros", "processing"]
+---
 
 * * *
 
@@ -38,7 +48,17 @@ Continue
 
 ### abendynpro_flow_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM sapmdemo_screen_flow MESSAGE-ID demo_flight. TABLES: spfli, sairport, scarr. DATA: ok_code   TYPE c LENGTH 4, rcode     TYPE c LENGTH 5, old_spfli TYPE spfli.  PBO MODULE status_0100 OUTPUT. SET PF-STATUS 'TD0100'. SET TITLEBAR '100'. ENDMODULE. MODULE status_0200 OUTPUT. SET PF-STA
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_flow_abexa.htm"
+abapFile: "abendynpro_flow_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "data", "abendynpro", "flow", "abexa"]
+---
 
 * * *
 

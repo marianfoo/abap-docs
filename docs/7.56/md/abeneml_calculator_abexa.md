@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - RAP Calculator (Unmanaged)"
+description: |
+  This example demonstrates a calculator that is implemented in a RAP context using a simple unmanaged RAP BO. Here, a create operation with an ABAP EML MODIFY ENTITY statement takes up user input - numbers and an operand - on whose basis a calculation is done. Data model The CDS data model only consi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_calculator_abexa.htm"
+abapFile: "abeneml_calculator_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abeneml", "calculator", "abexa"]
+---
 
 * * *
 

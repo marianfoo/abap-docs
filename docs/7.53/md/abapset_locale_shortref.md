@@ -1,4 +1,14 @@
-  
+---
+title: "SET LOCALE LANGUAGE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm) Syntax SET LOCALE LANGUAGE lang COUNTRY cntry MODIFIER mod. Effect Sets the text environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm 'Glossa
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale_shortref.htm"
+abapFile: "abapset_locale_shortref.htm"
+keywords: ["do", "if", "try", "abapset", "locale", "shortref"]
+---
 
 * * *
 

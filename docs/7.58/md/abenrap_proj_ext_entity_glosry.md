@@ -1,4 +1,14 @@
-  
+---
+title: "RAP projection extension entity"
+description: |
+  Defines the node extension in the projection layer. Component of a BDEF projection extension(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_projec_bdef_ext_glosry.htm 'Glossary Entry') that defines the behavior for an extension node in the projection layer. Projection extension
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_proj_ext_entity_glosry.htm"
+abapFile: "abenrap_proj_ext_entity_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "proj", "ext", "entity", "glosry"]
+---
 
 * * *
 

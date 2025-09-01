@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, result"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab_shortref.htm) Syntax ...  ASSIGNING <fs> CASTING ELSE UNASSIGN    REFERENCE INTO dref . Effect These additions can only be used when inserting single lines. If the insertion is
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab_result.htm"
+abapFile: "abapinsert_itab_result.htm"
+keywords: ["insert", "loop", "do", "if", "try", "data", "internal-table", "field-symbol", "abapinsert", "itab", "result"]
+---
 
 * * *
 

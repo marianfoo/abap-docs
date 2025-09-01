@@ -1,4 +1,14 @@
-  
+---
+title: "dynamic_data_object_glosry"
+description: |
+  dynamic_data_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_data_object_glosry.htm"
+abapFile: "abendynamic_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abendynamic", "object", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC maintenance view"
+description: |
+  Special DDIC table view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_view_glosry.htm 'Glossary Entry') of the ABAP Dictionary(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) for multiple DDIC database tables(https://help.sap.com/doc/a
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmaintenance_view_glosry.htm"
+abapFile: "abenmaintenance_view_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenmaintenance", "view", "glosry"]
+---
 
 * * *
 

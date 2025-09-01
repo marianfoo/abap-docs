@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Table functions can be used in suitable operand positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_positions.htm), for example directly as an operand of arithmetic(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm 'Gl
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_functions.htm"
+abapFile: "abentable_functions.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abentable", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "selection_text_glosry"
+description: |
+  selection_text_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_text_glosry.htm"
+abapFile: "abenselection_text_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenselection", "text", "glosry"]
+---
 
 * * *
 

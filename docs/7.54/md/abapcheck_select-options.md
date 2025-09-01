@@ -1,4 +1,14 @@
-  
+---
+title: "CHECK SELECT-OPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_shortref.htm) Obsolete Syntax CHECK SELECT-OPTIONS. Effect This form of the statement CHECK(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm) for exiting processing bloc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_select-options.htm"
+abapFile: "abapcheck_select-options.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "abapcheck", "options"]
+---
 
 * * *
 

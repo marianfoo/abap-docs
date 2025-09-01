@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Projection Extension"
+description: |
+  Syntax extend behavior for ProjectionEntity  implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_in_class_unique_ext.htm) authorization(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization_p
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extend_beh_proj.htm"
+abapFile: "abenbdl_extend_beh_proj.htm"
+keywords: ["update", "do", "if", "try", "class", "abenbdl", "extend", "beh", "proj"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS parent entity"
+description: |
+  A CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') of a CDS composition tree(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_tree_glosry.htm 'Glossary Entry') that uses a CDS composition(https://hel
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenparent_entity_glosry.htm"
+abapFile: "abenparent_entity_glosry.htm"
+keywords: ["do", "if", "try", "abenparent", "entity", "glosry"]
+---
 
 * * *
 

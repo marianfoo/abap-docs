@@ -1,4 +1,14 @@
-  
+---
+title: "CDS parameter"
+description: |
+  Input parameter of a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry'). A CDS parameter is defined in a parameter list of a CDS data definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_defini
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_parameter_glosry.htm"
+abapFile: "abencds_parameter_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "parameter", "glosry"]
+---
 
 * * *
 

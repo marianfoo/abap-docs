@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Injections"
+description: |
+  An SQL injection(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm 'Glossary Entry') is a widely used attack method on insufficiently secure input from outside. An SQL injection passes malicious SQL code injected into a program to the database system, unchecke
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injections_scrty.htm"
+abapFile: "abensql_injections_scrty.htm"
+keywords: ["do", "if", "try", "method", "data", "abensql", "injections", "scrty"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "iteration_operator_glosry"
+description: |
+  iteration_operator_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeniteration_operator_glosry.htm"
+abapFile: "abeniteration_operator_glosry.htm"
+keywords: ["do", "try", "abeniteration", "operator", "glosry"]
+---
 
 * * *
 

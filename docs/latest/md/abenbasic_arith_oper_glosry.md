@@ -1,4 +1,14 @@
-  
+---
+title: "basic_arith_oper_glosry"
+description: |
+  basic_arith_oper_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbasic_arith_oper_glosry.htm"
+abapFile: "abenbasic_arith_oper_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenbasic", "arith", "oper", "glosry"]
+---
 
 * * *
 

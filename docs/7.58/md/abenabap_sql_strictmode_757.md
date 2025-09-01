@@ -1,4 +1,14 @@
-  
+---
+title: "Rules for the Strict Mode"
+description: |
+  The strict mode in ABAP release 7.57 covers all rules of the strict mode in ABAP release 7.56(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_strictmode_756.htm).
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_strictmode_757.htm"
+abapFile: "abenabap_sql_strictmode_757.htm"
+keywords: ["do", "if", "data", "abenabap", "sql", "strictmode", "757"]
+---
 
 * * *
 

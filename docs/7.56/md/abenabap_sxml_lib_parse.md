@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The parser of the sXML Library is a more strict validator than the parser of the iXML Library(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_ixml_lib.htm). A namespace prefix must be declared in the same element or in a superelement. Preceding declarations in a parallel el
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_parse.htm"
+abapFile: "abenabap_sxml_lib_parse.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "sxml", "lib", "parse"]
+---
 
 * * *
 

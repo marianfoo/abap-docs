@@ -1,4 +1,14 @@
-  
+---
+title: "CONSTANTS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconstants_shortref.htm) Syntax CONSTANTS const options(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata.htm). Effect This statement declares a constant data object or a constant co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconstants.htm"
+abapFile: "abapconstants.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "internal-table", "abapconstants"]
+---
 
 * * *
 

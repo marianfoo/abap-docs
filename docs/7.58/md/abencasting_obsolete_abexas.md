@@ -1,4 +1,14 @@
-  
+---
+title: "Casting Examples"
+description: |
+  -   Field Symbols, Casting(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencasting_imp_exp_abexa.htm) -   Field Symbols, Casting Built-In Data Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencasting_obsolete_type_abexa.htm) -   Field Symbols, Casting Decimal
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencasting_obsolete_abexas.htm"
+abapFile: "abencasting_obsolete_abexas.htm"
+keywords: ["do", "if", "data", "types", "field-symbol", "abencasting", "obsolete", "abexas"]
+---
 
 * * *
 

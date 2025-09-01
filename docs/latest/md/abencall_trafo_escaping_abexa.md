@@ -1,4 +1,14 @@
-  
+---
+title: "Transformation of XML Syntax Characters"
+description: |
+  This example demonstrates the serialization of characters from the XML syntax using various transformations. Source Code  Public class definition CLASS cl_demo_transformation_escpng DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. EN
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_trafo_escaping_abexa.htm"
+abapFile: "abencall_trafo_escaping_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abencall", "trafo", "escaping", "abexa"]
+---
 
 * * *
 

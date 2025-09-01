@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Business Technology Platform"
+description: |
+  SAP BTP for short. A platform for development and deployment of business technology provided by SAP. The main focus of SAP BTP is on cloud development, but it also supports technologies used in on-premise deployments such as the SAP HANA database(https://help.sap.com/doc/abapdocu_757_index_htm/7.5
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_btp_glosry.htm"
+abapFile: "abensap_btp_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensap", "btp", "glosry"]
+---
 
 * * *
 

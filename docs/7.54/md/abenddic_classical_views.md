@@ -1,4 +1,14 @@
-  
+---
+title: "Classic Views"
+description: |
+  A classic view (or view for short) is a repository object in ABAP Dictionary defined for existing database tables and their fields in the form-based ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_tools.htm) in ABAP Workbench(https://help.sap.com/doc/abap
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_views.htm"
+abapFile: "abenddic_classical_views.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "class", "data", "types", "abenddic", "classical", "views"]
+---
 
 * * *
 

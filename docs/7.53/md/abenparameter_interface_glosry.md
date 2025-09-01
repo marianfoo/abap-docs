@@ -1,4 +1,14 @@
-  
+---
+title: "Parameter Interface"
+description: |
+  Interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_glosry.htm 'Glossary Entry') of a procedure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_glosry.htm 'Glossary Entry'). Consists of formal parameters(https://help.sap.com/doc/abapdocu_
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenparameter_interface_glosry.htm"
+abapFile: "abenparameter_interface_glosry.htm"
+keywords: ["do", "if", "try", "abenparameter", "interface", "glosry"]
+---
 
 * * *
 

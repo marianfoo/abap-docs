@@ -1,4 +1,14 @@
-  
+---
+title: "RAP LUW"
+description: |
+  The LUW in RAP is the sum of all operations and workflows that are used to transfer data from one consistent state to another. A RAP LUW begins with creating new data on the RAP transactional buffer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactional_buffer_glosry.htm 'Glo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_luw_glosry.htm"
+abapFile: "abenrap_luw_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "luw", "glosry"]
+---
 
 * * *
 

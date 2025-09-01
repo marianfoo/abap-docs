@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Rendering"
+description: |
+  The example demonstrates the rendering of JSON data(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjson_oview.htm). Source Code REPORT demo_json_oo_writer. CLASS json_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA writer TYPE REF TO if_sxml_w
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_json_token_writer_abexa.htm"
+abapFile: "abenabap_json_token_writer_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenabap", "json", "token", "writer", "abexa"]
+---
 
 * * *
 

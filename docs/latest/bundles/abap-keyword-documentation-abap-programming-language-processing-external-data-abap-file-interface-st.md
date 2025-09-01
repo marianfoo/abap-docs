@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abapopen_dataset_mode.htm
 
-  
+---
+title: "OPEN DATASET, mode"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_shortref.htm) Syntax ... BINARY MODE  TEXT MODE encoding(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_encoding.htm) linefeed(https://help.sap.com
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_mode.htm"
+abapFile: "abapopen_dataset_mode.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "abapopen", "dataset", "mode"]
+---
 
 * * *
 
@@ -145,7 +155,17 @@ Continue
 
 ### abapopen_dataset_encoding.htm
 
-  
+---
+title: "OPEN DATASET, encoding"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_shortref.htm) Syntax ... ENCODING  DEFAULT  UTF-8 SKIPPINGWITH BYTE-ORDER MARK  NON-UNICODE  ... Alternatives: 1. ... DEFAULT(#!ABAP_ALTERNATIVE_1@1@) 2. ... UTF-8
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_encoding.htm"
+abapFile: "abapopen_dataset_encoding.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abapopen", "dataset", "encoding"]
+---
 
 * * *
 
@@ -302,7 +322,17 @@ DELETE DATASET dset.
 
 ### abapopen_dataset_linefeed.htm
 
-  
+---
+title: "OPEN DATASET, WITH LINEFEED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_shortref.htm) Syntax ... WITH  NATIVE  SMART  UNIX  WINDOWS  LINEFEED ... Alternatives: 1. ... WITH NATIVE LINEFEED(#!ABAP_ALTERNATIVE_1@1@) 2. ... WITH SMART LINEFEED(#!ABAP_ALTER
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_linefeed.htm"
+abapFile: "abapopen_dataset_linefeed.htm"
+keywords: ["update", "delete", "do", "while", "if", "case", "try", "data", "abapopen", "dataset", "linefeed"]
+---
 
 * * *
 
@@ -484,7 +514,17 @@ ASSERT xstr = cl\_abap\_conv\_codepage=>create\_out( )->convert( |\\r\\n| ).
 
 ### abapopen_dataset_endian.htm
 
-  
+---
+title: "OPEN DATASET, endian"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_shortref.htm) Syntax ... BIGLITTLE ENDIAN ... Effect This addition specifies that, when a legacy file(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlegacy_file_glosry.h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_endian.htm"
+abapFile: "abapopen_dataset_endian.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "types", "abapopen", "dataset", "endian"]
+---
 
 * * *
 
@@ -537,7 +577,17 @@ DELETE DATASET dset.
 
 ### abapopen_dataset_code_page.htm
 
-  
+---
+title: "OPEN DATASET, CODE PAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_shortref.htm) Syntax ...  CODE PAGE cp ... Effect This addition specifies that, when a legacy file(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlegacy_file_glosry.htm 'Glossary
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_code_page.htm"
+abapFile: "abapopen_dataset_code_page.htm"
+keywords: ["delete", "do", "if", "try", "catch", "class", "data", "abapopen", "dataset", "code", "page"]
+---
 
 * * *
 

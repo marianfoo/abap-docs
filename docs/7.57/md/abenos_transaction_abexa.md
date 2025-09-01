@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Transaction Service"
+description: |
+  This example demonstrates the execution of an object-oriented transaction. Source Code REPORT demo_transaction_service. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS th DEFINITION. PUBLIC SECTION. METHODS handle FOR EVENT finished OF if_os_transa
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenos_transaction_abexa.htm"
+abapFile: "abenos_transaction_abexa.htm"
+keywords: ["select", "update", "do", "if", "try", "catch", "method", "class", "data", "abenos", "transaction", "abexa"]
+---
 
 * * *
 

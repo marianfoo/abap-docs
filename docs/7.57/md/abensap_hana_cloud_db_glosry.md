@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA Cloud database"
+description: |
+  Database of SAP HANA Cloud(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_hana_cloud_glosry.htm 'Glossary Entry') that offers restricted functionality compared with a general SAP HANA database(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_database_glosry
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_hana_cloud_db_glosry.htm"
+abapFile: "abensap_hana_cloud_db_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensap", "hana", "cloud", "glosry"]
+---
 
 * * *
 

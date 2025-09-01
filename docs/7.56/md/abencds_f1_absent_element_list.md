@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  element1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_absent_list_element.htm); element2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_absent_list_element.htm); ...;  ... Effect Defines the elements of an CDS abstract entity(https://help.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_absent_element_list.htm"
+abapFile: "abencds_f1_absent_element_list.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "absent", "element", "list"]
+---
 
 * * *
 

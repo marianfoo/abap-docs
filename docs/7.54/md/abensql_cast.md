@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CAST( sql_exp AS dtype ) ... Effect Type adjustment in ABAP SQL. A cast expression converts(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cast_rules.htm) the value of the operand sql_exp to the dictionary type specified by dtype. SQL expressions, which have a type that m
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cast.htm"
+abapFile: "abensql_cast.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "data", "types", "abensql", "cast"]
+---
 
 * * *
 

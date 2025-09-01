@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TABLE itab USING KEY keyname(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkeyname.htm) ... Effect For wa, a work area compatible to the row type of the internal table must be specified. This concerns functional operand positions(https://help.sap.com/doc/abapdocu_754
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab_table_key.htm"
+abapFile: "abapmodify_itab_table_key.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "internal-table", "abapmodify", "itab", "table", "key"]
+---
 
 * * *
 

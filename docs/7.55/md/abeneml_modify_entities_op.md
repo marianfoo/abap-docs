@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY ENTITIES OPERATIONS"
+description: |
+  Work in progress  Syntax MODIFY ENTITIES OPERATIONS operation FAILED   it_failed    DATA(it_failed) MAPPED   it_mapped    DATA(it_mapped) REPORTED it_reported  DATA(it_reported). Effect The dynamic form MODIFY ENTITIES OPERATIONS does not specify an introd
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm"
+abapFile: "abeneml_modify_entities_op.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abeneml", "modify", "entities"]
+---
 
 * * *
 

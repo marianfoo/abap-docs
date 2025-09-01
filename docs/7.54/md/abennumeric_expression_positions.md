@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Expression Positions"
+description: |
+  Numeric expression positions are reading positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm 'Glossary Entry') in which numeric data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_data_object_glosry.htm 'Glossary En
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_expression_positions.htm"
+abapFile: "abennumeric_expression_positions.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "method", "data", "internal-table", "abennumeric", "expression", "positions"]
+---
 
 * * *
 

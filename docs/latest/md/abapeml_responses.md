@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FAILED failed_resp MAPPED mapped_resp REPORTED reported_resp ... Effect Used for RAP responses(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_glosry.htm 'Glossary Entry') in the context of nondynamic (i. e. short or long) forms of AB
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_responses.htm"
+abapFile: "abapeml_responses.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "internal-table", "abapeml", "responses"]
+---
 
 * * *
 

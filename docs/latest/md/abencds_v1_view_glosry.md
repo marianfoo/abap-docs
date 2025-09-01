@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDIC-based view"
+description: |
+  An obsolete type of CDS view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_glosry.htm 'Glossary Entry') that is technically based on a CDS-managed DDIC view (obsolete)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_mngdddic_view_glosry.htm
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm"
+abapFile: "abencds_v1_view_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "view", "glosry"]
+---
 
 * * *
 

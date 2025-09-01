@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC append view"
+description: |
+  Object in ABAP Dictionary(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') with which a DDIC database view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_view_glosry.htm 'Glossary Entry') can be enhanced without
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_view_glosry.htm"
+abapFile: "abenddic_append_view_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "append", "view", "glosry"]
+---
 
 * * *
 

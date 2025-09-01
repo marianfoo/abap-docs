@@ -1,4 +1,14 @@
-  
+---
+title: "Displaying the Documentation of the Data Element"
+description: |
+  If a screen element in the Screen Painter was defined by copying a field from the ABAP Dictionary, the documentation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_elements_sema.htm) of the associated data element is displayed automatically when the F1 help is selected fo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_field_help.htm"
+abapFile: "abenabap_dynpros_field_help.htm"
+keywords: ["select", "do", "if", "case", "data", "abenabap", "dynpros", "field", "help"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ dynpro - Field Help
 
 There are three ways of displaying field help for screen elements on dynpros:
 
--   [Displaying the Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_1)
--   [Displaying the Supplementary Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2)
+-   [Displaying the Documentation of the Data Element](#abenabap-dynpros-field-help-1-------displaying-the-supplementary-documentation-of-the-data-element---@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2)
 -   [Calling Help Texts in Dialog Modules](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_3)
 
 Displaying the Documentation of the Data Element   

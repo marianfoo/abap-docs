@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... super->meth  super->constructor ... Alternatives: 1. ... super->meth ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... super->constructor ...(#!ABAP_ALTERNATIVE_2@2@) Effect This special form of specifying methods statically(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_meth_super.htm"
+abapFile: "abapcall_method_meth_super.htm"
+keywords: ["do", "if", "try", "method", "class", "abapcall", "meth", "super"]
+---
 
 * * *
 

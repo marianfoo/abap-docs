@@ -1,4 +1,14 @@
-  
+---
+title: "Calling Procedures"
+description: |
+  Procedures(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm 'Glossary Entry') can be called both internally(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_procedures_intern.htm) and externally(https://help.sap.com/doc/abapdocu_754_index_h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_procedures.htm"
+abapFile: "abencall_procedures.htm"
+keywords: ["do", "if", "try", "method", "abencall", "procedures"]
+---
 
 * * *
 

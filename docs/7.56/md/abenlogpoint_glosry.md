@@ -1,4 +1,14 @@
-  
+---
+title: "logpoint_glosry"
+description: |
+  logpoint_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogpoint_glosry.htm"
+abapFile: "abenlogpoint_glosry.htm"
+keywords: ["do", "try", "abenlogpoint", "glosry"]
+---
 
 * * *
 

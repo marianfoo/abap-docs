@@ -1,4 +1,14 @@
-  
+---
+title: "compilation_unit_glosry"
+description: |
+  compilation_unit_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompilation_unit_glosry.htm"
+abapFile: "abencompilation_unit_glosry.htm"
+keywords: ["do", "if", "try", "class", "abencompilation", "unit", "glosry"]
+---
 
 * * *
 

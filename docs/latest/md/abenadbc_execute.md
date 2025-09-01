@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - All Statements"
+description: |
+  The generic method EXECUTE of class CL_SQL_STATEMENT allows all SQL statements mentioned in the preceding topics to be executed. Instead of the specific methods EXECUTE_DDL, EXECUTE_UPDATE, ... also method EXECUTE can be used. Hint The type of the return value of EXECUTE is a reference to CL_SQ
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_execute.htm"
+abapFile: "abenadbc_execute.htm"
+keywords: ["select", "insert", "update", "delete", "do", "while", "if", "try", "catch", "method", "class", "data", "abenadbc", "execute"]
+---
 
 * * *
 

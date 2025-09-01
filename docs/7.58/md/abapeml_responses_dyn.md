@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FAILED failed_resp MAPPED mapped_resp REPORTED reported_resp ... Effect Used for RAP responses(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_response_glosry.htm 'Glossary Entry') in the context of dynamic forms of ABAP EML statements. The operand
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_responses_dyn.htm"
+abapFile: "abapeml_responses_dyn.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapeml", "responses", "dyn"]
+---
 
 * * *
 

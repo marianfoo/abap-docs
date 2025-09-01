@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Statements for RAP"
+description: |
+  -   Obsolete EML Statements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_obsolete.htm) Obsolete ABP Statements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_obsolete.htm) Obsolete ABAP EML Statements(https://help.sap.com/doc/abapdocu_757_index_htm/7.5
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_obsolete.htm"
+abapFile: "abenrap_obsolete.htm"
+keywords: ["do", "if", "abenrap", "obsolete"]
+---
 
 * * *
 

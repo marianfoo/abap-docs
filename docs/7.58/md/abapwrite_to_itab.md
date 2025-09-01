@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE TO itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab_shortref.htm) Obsolete Syntax WRITE dobj TO itab+off(len) INDEX idx format_options(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_options.htm). Effect Th
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab.htm"
+abapFile: "abapwrite_to_itab.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "internal-table", "field-symbol", "abapwrite", "itab"]
+---
 
 * * *
 

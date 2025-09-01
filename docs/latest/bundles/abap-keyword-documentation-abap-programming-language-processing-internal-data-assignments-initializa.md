@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abeninitializations.htm
 
-  
+---
+title: "Initializations"
+description: |
+  The following statements initialize data objects, which means they set the content of a data object to an initial value: -   CLEAR(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclear.htm) -   FREE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfree_data
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninitializations.htm"
+abapFile: "abeninitializations.htm"
+keywords: ["delete", "do", "if", "try", "data", "internal-table", "abeninitializations"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abapclear.htm
 
-  
+---
+title: "CLEAR"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclear_shortref.htm) Syntax CLEAR dobj  WITH val IN CHARACTERBYTE MODE   WITH NULL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclear_with_null.htm) .
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclear.htm"
+abapFile: "abapclear.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abapclear"]
+---
 
 * * *
 
@@ -123,7 +143,17 @@ Uncatchable Exceptions
 
 ### abapfree_dataobject.htm
 
-  
+---
+title: "FREE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfree_shortref.htm) Syntax FREE dobj. Effect The statement FREE deletes all lines from an internal table and releases the complete memory area that was occupied by the lines, including the initial memory requiremen
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfree_dataobject.htm"
+abapFile: "abapfree_dataobject.htm"
+keywords: ["delete", "do", "if", "try", "data", "internal-table", "abapfree", "dataobject"]
+---
 
 * * *
 

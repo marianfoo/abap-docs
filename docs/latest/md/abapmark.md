@@ -1,4 +1,14 @@
-  
+---
+title: "MARK"
+description: |
+  Obsolete Syntax MARK. Effect This statement is not supported. Its behavior is undefined and undocumented. It cannot be used in classes.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmark.htm"
+abapFile: "abapmark.htm"
+keywords: ["do", "if", "class", "abapmark"]
+---
 
 * * *
 

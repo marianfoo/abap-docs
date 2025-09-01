@@ -1,4 +1,14 @@
-  
+---
+title: "Dependency Rules for Optimization of Access to Outdated Data"
+description: |
+  Dependency rules(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_dependency_rules.htm) are SAP HANA database objects that can represent dependencies between semantic columns and technical columns in a database table. The optimizer can then use these dependencies to create exten
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_data_aging_druls.htm"
+abapFile: "abenhana_data_aging_druls.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abenhana", "aging", "druls"]
+---
 
 * * *
 
@@ -15,16 +25,8 @@ Dependency Rules for Optimization of Access to Outdated Data
 
 In database tables with active [data aging](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentemperature_column_glosry.htm "Glossary Entry") using a [temperature column](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_aging_glosry.htm "Glossary Entry"), dependency rules can be used to optimize access to outdated data. In this case, a dependency rule joins the [temperature column](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentemperature_column_glosry.htm "Glossary Entry") of a database table with regular date columns in the table.
 
--   [Basics of Optimization](#@@ITOC@@ABENHANA_DATA_AGING_DRULS_1)
--   [Filter Dependency Rules for Data Aging](#@@ITOC@@ABENHANA_DATA_AGING_DRULS_2)
--   [Join Dependency Rules for Data Aging](#@@ITOC@@ABENHANA_DATA_AGING_DRULS_3)
-
-Basics of Optimization   
-
-In tables with a temperature column, only the current data is located in the main memory of the SAP HANA database and outdated data is moved to other partitions. By default, the [AS ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm "Glossary Entry") [database interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_interface_glosry.htm "Glossary Entry") accesses current data only. The relationship between the actual data and the partition limits is defined in data aging runs and is made transparent for application programming. This means that, when outdated data is to be accessed, the data in all partitions must first be loaded to the main memory of the SAP HANA database, which can have a negative effect on performance. Outdated data can be accessed as follows:
-
--   Disabling data aging in the database interface using the profile parameter abap/data\_aging.
--   Bypassing data aging in ABAP SQL access to [CDS views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_glosry.htm "Glossary Entry") and [CDS table functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_function_glosry.htm "Glossary Entry") using the annotation@DataAging.noAgingRestriction:true.
+-   [Basics of Optimization](#abenhana-data-aging-druls-1-------filter-dependency-rules-for-data-aging---@ITOC@@ABENHANA_DATA_AGING_DRULS_2)
+-   [Join Dependency Rules for Data Aging](#abenhana-data-aging-druls-3---basics-of-optimization-----in-tables-with-a-temperature-column--only-the-current-data-is-located-in-the-main-memory-of-the-sap-hana-database-and-outdated-data-is-moved-to-other-partitions--by-default--the--as-abap--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenas-abap-glosry-htm--glossary-entry----database-interface--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abendatabase-interface-glosry-htm--glossary-entry---accesses-current-data-only--the-relationship-between-the-actual-data-and-the-partition-limits-is-defined-in-data-aging-runs-and-is-made-transparent-for-application-programming--this-means-that--when-outdated-data-is-to-be-accessed--the-data-in-all-partitions-must-first-be-loaded-to-the-main-memory-of-the-sap-hana-database--which-can-have-a-negative-effect-on-performance--outdated-data-can-be-accessed-as-follows-------disabling-data-aging-in-the-database-interface-using-the-profile-parameter-abap-data--aging------bypassing-data-aging-in-abap-sql-access-to--cds-views--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-view-glosry-htm--glossary-entry---and--cds-table-functions--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-table-function-glosry-htm--glossary-entry---using-the-annotationDataAging.noAgingRestriction:true.
 -   Setting a different temperature using the classes CL\_ABAP\_SESSION\_TEMPERATURE and CL\_ABAP\_STACK\_TEMPERATURE.
 -   Access using [Non-ABAP-Managed Native SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_managed_db_objects_nsql.htm)
 

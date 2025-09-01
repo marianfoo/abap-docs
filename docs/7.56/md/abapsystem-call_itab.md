@@ -1,4 +1,14 @@
-  
+---
+title: "SYSTEM-CALL - Editing Internal Tables"
+description: |
+  This statement is intended solely for  Internal use within SAP Basis Development  Even within SAP Basis, it may be used only in programs within the ABAP+GUI dvelopment groups. Its use is subject to various restrictions, some of which may not be described in the documentation . This docum
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsystem-call_itab.htm"
+abapFile: "abapsystem-call_itab.htm"
+keywords: ["delete", "do", "if", "internal-table", "field-symbol", "abapsystem", "call", "itab"]
+---
 
 * * *
 

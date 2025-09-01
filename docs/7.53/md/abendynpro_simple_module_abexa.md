@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Simple Module Calls"
+description: |
+  This example demonstrates how to call a module. Source Code PROGRAM demo_dynpro_module. TABLES demo_conn. DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, wa_spfli TYPE spfli. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. MOVE-CORRESPONDING wa_spfli TO demo_conn. ENDMODULE. MODULE sta
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_simple_module_abexa.htm"
+abapFile: "abendynpro_simple_module_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "simple", "module", "abexa"]
+---
 
 * * *
 

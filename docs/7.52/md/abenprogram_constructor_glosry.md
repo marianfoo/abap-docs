@@ -1,4 +1,14 @@
-  
+---
+title: "program_constructor_glosry"
+description: |
+  program_constructor_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_constructor_glosry.htm"
+abapFile: "abenprogram_constructor_glosry.htm"
+keywords: ["do", "try", "class", "abenprogram", "constructor", "glosry"]
+---
 
 * * *
 

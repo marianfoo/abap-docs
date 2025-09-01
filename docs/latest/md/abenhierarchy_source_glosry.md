@@ -1,4 +1,14 @@
-  
+---
+title: "hierarchy_source_glosry"
+description: |
+  hierarchy_source_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhierarchy_source_glosry.htm"
+abapFile: "abenhierarchy_source_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenhierarchy", "source", "glosry"]
+---
 
 * * *
 

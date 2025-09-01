@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  Case(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlower_upper_case_guidl.htm) Statements per Program Line(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatement_guidl.htm) Using Pretty Printer(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenus
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformatting_code_guidl.htm"
+abapFile: "abenformatting_code_guidl.htm"
+keywords: ["do", "case", "method", "abenformatting", "code", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... BIT-NOT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_operators.htm) operand1 BIT-ANDBIT-ORBIT-XOR(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_operators.htm)  BIT-NOT(https://help.sap.com/doc/abapdocu_755_index_htm/7.5
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcompute_bit.htm"
+abapFile: "abapcompute_bit.htm"
+keywords: ["do", "if", "try", "catch", "method", "data", "abapcompute", "bit"]
+---
 
 * * *
 

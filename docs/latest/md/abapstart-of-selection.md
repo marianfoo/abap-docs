@@ -1,4 +1,14 @@
-  
+---
+title: "START-OF-SELECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-selection_shortref.htm) Syntax START-OF-SELECTION. Effect This event keyword defines the standard processing block of an executable program. The associated event is raised by the ABAP runtime framework(h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-selection.htm"
+abapFile: "abapstart-of-selection.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "abapstart", "selection"]
+---
 
 * * *
 

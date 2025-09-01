@@ -1,4 +1,14 @@
-  
+---
+title: "Parameter Passing"
+description: |
+  This example demonstrates the difference between passing a parameter to a procedure by value or by reference. Source Code REPORT demo_procedure_param. CLASS demo_fibb DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF line, x TYPE i, y TYPE i, range TYPE i, END OF line. CLASS-DATA: param TYPE STANDARD T
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocedure_param_abexa.htm"
+abapFile: "abenprocedure_param_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abenprocedure", "param", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Byte field"
+description: |
+  Byte-like data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_like_data_typ_glosry.htm 'Glossary Entry') for saving byte chains(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_chain_glosry.htm 'Glossary Entry') with fixed lengths or a similar data o
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_field_glosry.htm"
+abapFile: "abenbyte_field_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenbyte", "field", "glosry"]
+---
 
 * * *
 

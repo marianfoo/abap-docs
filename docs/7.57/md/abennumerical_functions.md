@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... num_func( arg ) ... Effect General built-in(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm) numeric functions for exactly one unnamed argument with any numeric data type. These functions are overloaded with the effect that the return value can have diffe
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumerical_functions.htm"
+abapFile: "abennumerical_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abennumerical", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE ENTITY EVENT"
+description: |
+  Syntax RAISE ENTITY EVENT bdef~evt FROM tab. Effect Raises a RAP entity event(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_event_glosry.htm 'Glossary Entry'). Since RAP entity events can only be raised on the root node(https://help.sap.com/doc/abapdocu_757_index_htm/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_entity_event.htm"
+abapFile: "abapraise_entity_event.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapraise", "entity", "event"]
+---
 
 * * *
 

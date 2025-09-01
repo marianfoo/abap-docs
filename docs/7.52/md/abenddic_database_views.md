@@ -1,4 +1,14 @@
-  
+---
+title: "Database Views"
+description: |
+  A database view is a general view for one or more basis tables. If there are multiple basis tables, they are joined using an inner join. A matching SQL view is created on the database when the view is activated. The structure type defined using the view fields of the database view can be referenced
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm"
+abapFile: "abenddic_database_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "database", "views"]
+---
 
 * * *
 

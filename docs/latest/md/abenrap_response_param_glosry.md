@@ -1,4 +1,14 @@
-  
+---
+title: "RAP response parameter"
+description: |
+  Implicit changing parameters of RAP handler methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') and RAP saver methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_method_glosry.htm 'Glossary
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_param_glosry.htm"
+abapFile: "abenrap_response_param_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenrap", "response", "param", "glosry"]
+---
 
 * * *
 

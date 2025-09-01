@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... meth( ... ) ... Effect A predicative method call is a relational expression whose only operand is a functional method call(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_method_call_glosry.htm 'Glossary Entry') meth( ... ). The result of the relational expression is
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicative_method_calls.htm"
+abapFile: "abenpredicative_method_calls.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenpredicative", "calls"]
+---
 
 * * *
 

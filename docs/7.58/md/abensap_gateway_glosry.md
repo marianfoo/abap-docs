@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Gateway"
+description: |
+  Framework that makes it possible to access AS ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm 'Glossary Entry') using standardized open protocols such as OData(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenodata_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_gateway_glosry.htm"
+abapFile: "abensap_gateway_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensap", "gateway", "glosry"]
+---
 
 * * *
 

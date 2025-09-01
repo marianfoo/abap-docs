@@ -1,4 +1,14 @@
-  
+---
+title: "garbage_collector_glosry"
+description: |
+  garbage_collector_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengarbage_collector_glosry.htm"
+abapFile: "abengarbage_collector_glosry.htm"
+keywords: ["delete", "do", "try", "method", "class", "field-symbol", "abengarbage", "collector", "glosry"]
+---
 
 * * *
 

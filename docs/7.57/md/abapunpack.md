@@ -1,4 +1,14 @@
-  
+---
+title: "UNPACK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapunpack_shortref.htm) Syntax UNPACK source TO destination. Effect This statement converts the content of the data object source in accordance with special rules and assigns the converted content to the data object destin
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapunpack.htm"
+abapFile: "abapunpack.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "abapunpack"]
+---
 
 * * *
 

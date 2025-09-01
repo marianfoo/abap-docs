@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Language Elements"
+description: |
+  The following sections summarize the language elements of the CDS DDL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and CDS DCL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm 'Glossary Entry') of the ABAP C
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_language_elements.htm"
+abapFile: "abencds_language_elements.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "language", "elements"]
+---
 
 * * *
 

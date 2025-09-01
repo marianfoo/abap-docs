@@ -1,4 +1,14 @@
-  
+---
+title: "SET HANDLER"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_handler_shortref.htm) Syntax Forms Registers an instance events handler(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_handler_instance.htm) 1. SET HANDLER handler1 handler2 ... FOR oref
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_handler.htm"
+abapFile: "abapset_handler.htm"
+keywords: ["delete", "do", "if", "try", "catch", "method", "class", "data", "abapset", "handler"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "managed_rap_bo_glosry"
+description: |
+  managed_rap_bo_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmanaged_rap_bo_glosry.htm"
+abapFile: "abenmanaged_rap_bo_glosry.htm"
+keywords: ["do", "if", "try", "abenmanaged", "rap", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Memory Management of Deep Objects"
+description: |
+  All data types for which the content of their data objects represents the actual work data referred to as flat in ABAP. The elementary data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') of a fixed length are flat, as are
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption.htm"
+abapFile: "abenmemory_consumption.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 

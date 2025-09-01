@@ -1,4 +1,14 @@
-  
+---
+title: "declaration_glosry"
+description: |
+  declaration_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_glosry.htm"
+abapFile: "abendeclaration_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "field-symbol", "abendeclaration", "glosry"]
+---
 
 * * *
 

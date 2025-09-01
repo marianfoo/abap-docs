@@ -1,4 +1,14 @@
-  
+---
+title: "abap_ixml_lib_dom"
+description: |
+  abap_ixml_lib_dom - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib_dom.htm"
+abapFile: "abenabap_ixml_lib_dom.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "ixml", "lib", "dom"]
+---
 
 * * *
 

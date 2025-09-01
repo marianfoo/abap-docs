@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Constructor Expressions 1. ... NEW class( ... )->attr(attr_name) ... 2. ... CAST type( ... )->dobj(dobj_name) ... Table Expressions 3. ... table_exp ... Alternatives: 1. ... NEW class( ... )->attr(attr_name)(#!ABAP_ALTERNATIVE_1@1@) 2. ... CAST type( ... )->...(#!ABAP_ALTE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_writable_exp.htm"
+abapFile: "abapassign_mem_area_writable_exp.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abapassign", "mem", "area", "writable", "exp"]
+---
 
 * * *
 

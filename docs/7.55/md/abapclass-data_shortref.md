@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-DATA - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-data.htm) Syntax CLASS-DATA attr options. Effect Declares a static attribute(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_attribute_glosry.htm 'Glossary Entry') attr of a class or an interface
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-data_shortref.htm"
+abapFile: "abapclass-data_shortref.htm"
+keywords: ["do", "if", "try", "class", "data", "abapclass", "shortref"]
+---
 
 * * *
 

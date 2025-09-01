@@ -1,4 +1,14 @@
-  
+---
+title: "RAP entity event"
+description: |
+  A RAP entity event is a business event that usually represents a piece of information about the outcome of a CUD operation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencud_glosry.htm 'Glossary Entry') in the context of a RAP BO entity(https://help.sap.com/doc/abapdocu_757_index
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_event_glosry.htm"
+abapFile: "abenrap_entity_event_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "entity", "event", "glosry"]
+---
 
 * * *
 

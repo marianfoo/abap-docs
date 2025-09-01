@@ -30458,8 +30458,12 @@
     }
   ],
   "output": {
-    "htmlDir": "html"
+    "htmlDir": "html",
+    "mdDir": "md",
+    "bundlesDir": "bundles",
+    "megaBundlesDir": "mega-bundles",
+    "quickRefDir": "quick-ref"
   },
   "timestamp": "2025-09-01T09:39:37.828Z",
-  "generatedAt": "2025-09-01T12:00:06.892Z"
+  "generatedAt": "2025-09-01T19:38:56.772Z"
 }

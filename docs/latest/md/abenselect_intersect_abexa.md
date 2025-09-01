@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Intersection of Multiple Tables"
+description: |
+  This example demonstrates how an intersection is created across multiple tables. Source Code  Public class definition CLASS cl_demo_select_intrsct DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. ENDCLASS.  Pub
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_intersect_abexa.htm"
+abapFile: "abenselect_intersect_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenselect", "intersect", "abexa"]
+---
 
 * * *
 

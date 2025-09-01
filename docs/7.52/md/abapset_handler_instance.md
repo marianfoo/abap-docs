@@ -1,4 +1,14 @@
-  
+---
+title: "SET HANDLER - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_shortref.htm) Syntax SET HANDLER handler1 handler2 ... FOR  oref ALL INSTANCES  ACTIVATION act. Extras: 1. ... FOR oref(#!ABAP_ADDITION_1@1@) 2. ... FOR ALL INSTANCES(#!ABAP_ADDI
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_instance.htm"
+abapFile: "abapset_handler_instance.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abapset", "handler", "instance"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data Objects"
+description: |
+  A data object is an instance of a data type and occupies as much memory space as is allowed by its type. An ABAP program only works with data that is available as content of data objects. Data objects are either created implicitly in their declaration as named data objects(https://help.sap.com/doc
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobjects_statements.htm"
+abapFile: "abenobjects_statements.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenobjects", "statements"]
+---
 
 * * *
 

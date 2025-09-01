@@ -1,4 +1,14 @@
-  
+---
+title: "INFOTYPES"
+description: |
+  This statement should be used by specialists only. In-depth knowledge of the corresponding environment is essential. This environment is not part of ABAP and is not documented here. Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinfotypes_shortref.htm) Syntax I
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinfotypes.htm"
+abapFile: "abapinfotypes.htm"
+keywords: ["select", "do", "while", "if", "try", "class", "data", "types", "internal-table", "abapinfotypes"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  &--------------------------------------------------------------------- & Report  DEMO_DROPDOWN_LIST_BOX                                       &--------------------------------------------------------------------- REPORT demo_dropdown_list_box.  Dynpro Interfaces TABLES sdyn_conn
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_drop1_abexa.htm"
+abapFile: "abendynpro_drop1_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abendynpro", "drop1", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Reflexive Associations in Mesh Paths"
+description: |
+  This example demonstrates the results of reflexive associations in mesh paths. Source Code REPORT demo_mesh_reflexive_assoc_sngl. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line, id        TYPE i, parent_id TYPE i, name
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_reflex_sngl_abexa.htm"
+abapFile: "abenmesh_for_reflex_sngl_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "for", "reflex", "sngl", "abexa"]
+---
 
 * * *
 

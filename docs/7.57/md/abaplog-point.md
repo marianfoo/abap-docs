@@ -1,4 +1,14 @@
-  
+---
+title: "LOG-POINT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplog-point_shortref.htm) Syntax LOG-POINT ID group SUBKEY sub FIELDS val1 val2 .... Additions: 1. ... ID group(#!ABAP_ADDITION_1@1@) 2. ... SUBKEY sub(#!ABAP_ADDITION_2@2@) 3. ... FIELDS val1 val2
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplog-point.htm"
+abapFile: "abaplog-point.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abaplog", "point"]
+---
 
 * * *
 

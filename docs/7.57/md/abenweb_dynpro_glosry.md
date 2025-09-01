@@ -1,4 +1,14 @@
-  
+---
+title: "Web Dynpro"
+description: |
+  Technology used to create platform-independent Web-based interfaces, based on the Model View Controller (MVC) approach. Before the introduction of SAPUI5(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensapui5_glosry.htm 'Glossary Entry'), Web Dynpro for ABAP was the standard SAP UI
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenweb_dynpro_glosry.htm"
+abapFile: "abenweb_dynpro_glosry.htm"
+keywords: ["do", "if", "try", "abenweb", "dynpro", "glosry"]
+---
 
 * * *
 

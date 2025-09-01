@@ -1,4 +1,14 @@
-  
+---
+title: "Creating a Structure Using RTTC"
+description: |
+  This example demonstrates how a structure is created using RTTC(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrun_time_type_creation_glosry.htm 'Glossary Entry'). Source Code REPORT demo_create_data_via_handle. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLAS
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_data_via_rttc_abexa.htm"
+abapFile: "abencreate_data_via_rttc_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencreate", "via", "rttc", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - extend determine action"
+description: |
+  Syntax extend determine action DetermineActionName  determination(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determinations.htm) (always) MyDetermination1; determination(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determinations.htm) (a
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determine_action_ext.htm"
+abapFile: "abenbdl_determine_action_ext.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "determine", "action", "ext"]
+---
 
 * * *
 

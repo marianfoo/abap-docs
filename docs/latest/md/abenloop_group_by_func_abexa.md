@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_loop_grp_by_string_fnc DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. DATA text TYPE TABLE OF string WITH EMPTY KEY. ENDCLASS.  Public class implemen
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_group_by_func_abexa.htm"
+abapFile: "abenloop_group_by_func_abexa.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "internal-table", "field-symbol", "abenloop", "group", "func", "abexa"]
+---
 
 * * *
 

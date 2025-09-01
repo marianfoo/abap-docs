@@ -1,4 +1,14 @@
-  
+---
+title: "END-OF-EDITING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-editing_shortref.htm) Obsolete Syntax END-OF-EDITING. Effect The statement END-OF-EDITING defines an event block(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevent_block_glosry.htm 'Glossary E
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-editing.htm"
+abapFile: "abapend-of-editing.htm"
+keywords: ["select", "do", "try", "abapend", "editing"]
+---
 
 * * *
 

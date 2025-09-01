@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Character String and Byte String Processing"
+description: |
+  -   SEARCH(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsearch-.htm) -   REPLACE substring WITH(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_obsolete.htm) -   CONVERT DATEINVERTED-DATE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aba
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_string_obsolete.htm"
+abapFile: "abencharacter_string_obsolete.htm"
+keywords: ["do", "method", "class", "data", "abencharacter", "string", "obsolete"]
+---
 
 * * *
 

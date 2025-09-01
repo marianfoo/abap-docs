@@ -1,4 +1,14 @@
-  
+---
+title: "primary_key_glosry"
+description: |
+  primary_key_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_key_glosry.htm"
+abapFile: "abenprimary_key_glosry.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abenprimary", "key", "glosry"]
+---
 
 * * *
 

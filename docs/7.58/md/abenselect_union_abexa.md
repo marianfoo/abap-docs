@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Union of Multiple Tables"
+description: |
+  This example demonstrates how a union is created across multiple tables. Source Code  Public class definition CLASS cl_demo_select_union DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. ENDCLASS.  Public class
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_union_abexa.htm"
+abapFile: "abenselect_union_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenselect", "union", "abexa"]
+---
 
 * * *
 

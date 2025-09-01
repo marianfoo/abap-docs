@@ -1,4 +1,14 @@
-  
+---
+title: "WHEN TYPE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_shortref.htm) Syntax WHEN TYPE ... INTO target. Effect See CASE TYPE OF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm).
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen_type.htm"
+abapFile: "abapwhen_type.htm"
+keywords: ["do", "if", "case", "abapwhen", "type"]
+---
 
 * * *
 

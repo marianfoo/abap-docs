@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete System Fields"
+description: |
+  -   Former System Fields(#abensystem-fields-obsolete-1-------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2) Former System Fields The following system fields(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_field_glosry.htm 'Glossary Entry') are obsolete and should n
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_obsolete.htm"
+abapFile: "abensystem_fields_obsolete.htm"
+keywords: ["select", "delete", "loop", "do", "if", "try", "data", "internal-table", "abensystem", "fields", "obsolete"]
+---
 
 * * *
 
@@ -8,8 +18,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 Obsolete System Fields
 
--   [Former System Fields](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_1)
--   [Spool Parameters](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
+-   [Former System Fields](#abensystem-fields-obsolete-1-------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
 
 Former System Fields
 

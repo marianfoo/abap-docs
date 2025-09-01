@@ -1,4 +1,14 @@
-  
+---
+title: "RAP save sequence"
+description: |
+  The RAP save sequence is part of the RAP BO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm 'Glossary Entry') runtime and is triggered after at least one successful modification was performed during the interaction phase(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_save_seq_glosry.htm"
+abapFile: "abenrap_save_seq_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "save", "seq", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Controlled SAP LUW"
+description: |
+  The following topics are covered in this section: -   CL_ABAP_TX(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_tx.htm) -   API Classifications(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapapi_classification.htm) -   Restrictions in Tran
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrolling_sap_luw.htm"
+abapFile: "abencontrolling_sap_luw.htm"
+keywords: ["do", "if", "class", "data", "abencontrolling", "sap", "luw"]
+---
 
 * * *
 

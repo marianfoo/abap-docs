@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_table_comprh_elementary. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, col3 TYPE i, col4 TYPE i, END OF line1, itab1 TYPE STANDARD TABLE OF line1 WITH EMPTY KEY WITH UNIQUE SORTED KEY key COMPONENTS col1, BEGIN OF line2, co
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_cmprhnsns_simple_abexa.htm"
+abapFile: "abentable_cmprhnsns_simple_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "simple", "abexa"]
+---
 
 * * *
 

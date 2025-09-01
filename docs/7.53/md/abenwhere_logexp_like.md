@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand1 NOT LIKE operand2 ESCAPE esc ... Addition: ... ESCAPE esc(#!ABAP_ONE_ADD@1@) Effect This relational expression is true if the value of the operand operand1 matches (does not match) the pattern in the operand operand2. -   Columns(https://help.sap.com/doc/abapdocu_753
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_like.htm"
+abapFile: "abenwhere_logexp_like.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "types", "abenwhere", "logexp", "like"]
+---
 
 * * *
 

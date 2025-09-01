@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - draft action"
+description: |
+  Syntax internal draft action ( authorization:none(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth.htm), features: instance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_fc.htm)) Edit with addi
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action.htm"
+abapFile: "abenbdl_draft_action.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "draft", "action"]
+---
 
 * * *
 

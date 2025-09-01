@@ -1,4 +1,14 @@
-  
+---
+title: "RAP framework"
+description: |
+  Framework for the ABAP RESTful Application Programming Model (RAP)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_glosry.htm 'Glossary Entry') on AS ABAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm 'Glossary Entry'). It consists of the R
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_framework_glosry.htm"
+abapFile: "abenrap_framework_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "framework", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "data_reference_variable_glosry"
+description: |
+  data_reference_variable_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_reference_variable_glosry.htm"
+abapFile: "abendata_reference_variable_glosry.htm"
+keywords: ["do", "try", "data", "types", "abendata", "reference", "variable", "glosry"]
+---
 
 * * *
 

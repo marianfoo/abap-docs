@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO instance key component group"
+description: |
+  A component group(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') that contains primary key fields of a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkey_comp_group_glosry.htm"
+abapFile: "abenkey_comp_group_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenkey", "comp", "group", "glosry"]
+---
 
 * * *
 

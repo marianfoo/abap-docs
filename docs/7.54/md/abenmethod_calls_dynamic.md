@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic Method Call"
+description: |
+  The following statement is used for dynamic method calls: -   CALL METHOD(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_dynamic.htm) All other uses of this statement are obsolete. This translation does not reflect the current version of the documentation. CALL METHOD
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_calls_dynamic.htm"
+abapFile: "abenmethod_calls_dynamic.htm"
+keywords: ["do", "method", "abenmethod", "calls", "dynamic"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Event Blocks"
+description: |
+  Event blocks are used to handle events in the ABAP runtime environment. They are introduced by an event key word and finished by the next processing block. Since there is no closing statement, we recommend that you flag the end of an event block with a comment line. Within an event block, no local d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_blocks.htm"
+abapFile: "abenevent_blocks.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "abenevent", "blocks"]
+---
 
 * * *
 

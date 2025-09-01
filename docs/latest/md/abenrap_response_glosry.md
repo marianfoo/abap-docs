@@ -1,4 +1,14 @@
-  
+---
+title: "RAP response"
+description: |
+  Information a RAP BO consumer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_consumer_glosry.htm 'Glossary Entry') is provided with by a RAP BO provider(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry') vi
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_glosry.htm"
+abapFile: "abenrap_response_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenrap", "response", "glosry"]
+---
 
 * * *
 

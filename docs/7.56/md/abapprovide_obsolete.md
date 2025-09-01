@@ -1,4 +1,14 @@
-  
+---
+title: "PROVIDE, Short Form"
+description: |
+  This statement should be used by specialists only. In-depth knowledge of the corresponding environment is essential. This environment is not part of ABAP and is not documented here. Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide_shortref.htm) Obsolete Syntax
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide_obsolete.htm"
+abapFile: "abapprovide_obsolete.htm"
+keywords: ["loop", "do", "if", "try", "class", "data", "types", "internal-table", "abapprovide", "obsolete"]
+---
 
 * * *
 

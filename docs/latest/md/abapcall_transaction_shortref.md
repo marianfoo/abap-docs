@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSACTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transaction.htm) Syntax CALL TRANSACTION ta WITHWITHOUT AUTHORITY-CHECK  AND SKIP FIRST SCREEN  USING bdc_tab MODE mode UPDATE upd OPTIONS FROM opt ME
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transaction_shortref.htm"
+abapFile: "abapcall_transaction_shortref.htm"
+keywords: ["update", "do", "if", "try", "abapcall", "transaction", "shortref"]
+---
 
 * * *
 

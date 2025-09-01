@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Overview"
+description: |
+  -   ABAP Programming Language(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_overview.htm) -   ABAP Programs on the AS ABAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenorganization_of_modules.htm) -   ABAP Statements(https://help.sap.com/doc/abapdocu_755
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_oview.htm"
+abapFile: "abenabap_oview.htm"
+keywords: ["do", "abenabap", "oview"]
+---
 
 * * *
 

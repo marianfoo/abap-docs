@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - TDL for Type Definitions"
+description: |
+  The CDS type definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_type_definition_glosry.htm 'Glossary Entry') in ABAP CDS are created using the type definition language CDS TDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_tdl_glosry.htm
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_types.htm"
+abapFile: "abencds_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds"]
+---
 
 * * *
 

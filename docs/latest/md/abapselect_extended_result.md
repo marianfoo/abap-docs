@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXTENDED RESULT @oref ... Effect The EXTENDED RESULT addition of the INTO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) clause can be used to provide an extended result of the current main query(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_extended_result.htm"
+abapFile: "abapselect_extended_result.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "abapselect", "extended", "result"]
+---
 
 * * *
 

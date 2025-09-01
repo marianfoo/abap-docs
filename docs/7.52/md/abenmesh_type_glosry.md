@@ -1,4 +1,14 @@
-  
+---
+title: "mesh_type_glosry"
+description: |
+  mesh_type_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_type_glosry.htm"
+abapFile: "abenmesh_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenmesh", "type", "glosry"]
+---
 
 * * *
 

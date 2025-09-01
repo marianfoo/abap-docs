@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Comparison of SQLScript with ABAP SQL"
+description: |
+  This example demonstrates the performance of SQL in AMDP when compared with ABAP SQL. Source Code  Public class definition CLASS cl_demo_amdp_vs_abap_sql_demo DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public c
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_vs_abap_sql_abexa.htm"
+abapFile: "abenamdp_vs_abap_sql_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "abap", "sql", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "class_component_select_glosry"
+description: |
+  class_component_select_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_component_select_glosry.htm"
+abapFile: "abenclass_component_select_glosry.htm"
+keywords: ["select", "do", "try", "class", "abenclass", "component", "glosry"]
+---
 
 * * *
 

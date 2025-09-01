@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abendata_references.htm
 
-  
+---
+title: "References"
+description: |
+  References are pointers to instances. Pointers to data objects are data references(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_glosry.htm 'Glossary Entry'). Pointers to instances of classes are object references(https://help.sap.com/doc/abapdocu_latest_inde
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_references.htm"
+abapFile: "abendata_references.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abendata", "references"]
+---
 
 * * *
 
@@ -48,7 +58,17 @@ Continue
 
 ### abendata_reference_type.htm
 
-  
+---
+title: "Data References"
+description: |
+  Data references can point to any data objects or to their parts (components, lines of internal tables, or subareas determined by offset or length specifications). The static type of their reference variables is either the built-in generic type data or any non-generic data type. Data reference variab
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_type.htm"
+abapFile: "abendata_reference_type.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abendata", "reference", "type"]
+---
 
 * * *
 
@@ -84,7 +104,17 @@ cl\_demo\_output=>display\_data( dref->carrid ).
 
 ### abenobject_reference_type.htm
 
-  
+---
+title: "Object References"
+description: |
+  Object references can point to instances of classes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_glosry.htm 'Glossary Entry'). The static type of their reference variables is either a class or an interface. Both types can be used to create objects with the statement C
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_reference_type.htm"
+abapFile: "abenobject_reference_type.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenobject", "reference", "type"]
+---
 
 * * *
 
@@ -119,7 +149,17 @@ out->display( \`Hello\` ).
 
 ### abenheap_stack_reference.htm
 
-  
+---
+title: "Heap References and Stack References"
+description: |
+  The objects referenced by references can be in the heap(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_glosry.htm 'Glossary Entry') or in the stack(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstack_glosry.htm 'Glossary Entry'). Objects in the hea
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_stack_reference.htm"
+abapFile: "abenheap_stack_reference.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenheap", "stack", "reference"]
+---
 
 * * *
 
@@ -169,7 +209,17 @@ FINAL(stack\_ref) = REF #( heap\_ref ).
 
 ### abencl_abap_weak_reference.htm
 
-  
+---
+title: "Weak References"
+description: |
+  An object in the system class CL_ABAP_WEAK_REFERENCE represents a weak reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenweak_reference_glosry.htm 'Glossary Entry') to an object in a class. Unlike regular object references(https://help.sap.com/doc/abapdocu_latest_i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_weak_reference.htm"
+abapFile: "abencl_abap_weak_reference.htm"
+keywords: ["select", "delete", "do", "if", "try", "method", "class", "data", "types", "abencl", "abap", "weak", "reference"]
+---
 
 * * *
 

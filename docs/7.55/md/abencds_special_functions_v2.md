@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Special Functions"
+description: |
+  These built-in functions are delivered by SAP and they are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conversion_functions_v2.htm) -   Date functions and time functions(https://help.sap.
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_special_functions_v2.htm"
+abapFile: "abencds_special_functions_v2.htm"
+keywords: ["select", "do", "data", "abencds", "special", "functions"]
+---
 
 * * *
 

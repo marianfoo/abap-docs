@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Classes"
+description: |
+  -   Exception Categories(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_categories.htm) -   Definition of Exception Classes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_class_create.htm) -   Exception Texts(https://help.sap.com/do
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_classes.htm"
+abapFile: "abenexceptions_classes.htm"
+keywords: ["do", "if", "class", "exception-handling", "abenexceptions", "classes"]
+---
 
 * * *
 

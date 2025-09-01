@@ -1,4 +1,14 @@
-  
+---
+title: "Transformation of XML Element Names"
+description: |
+  This example demonstrates the transformation of letters in XML element names. Source Code  Public class definition CLASS cl_demo_trafo_upper_lower DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementa
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_trafo_upper_lower_abexa.htm"
+abapFile: "abencall_trafo_upper_lower_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencall", "trafo", "upper", "lower", "abexa"]
+---
 
 * * *
 

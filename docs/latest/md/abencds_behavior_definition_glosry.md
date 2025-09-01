@@ -1,4 +1,14 @@
-  
+---
+title: "RAP behavior definition"
+description: |
+  RAP BDEF or BDEF for short. A RAP behavior definition is a RAP object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_rap_object_glosry.htm 'Glossary Entry') that describes a RAP business object (RAP BO)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/aben
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm"
+abapFile: "abencds_behavior_definition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "behavior", "definition", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF strict mode"
+description: |
+  BDEF strict mode applies additional syntax checks to RAP behavior definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry'). It ensures, for example, that no outdated syntax is used, implicitly available operations are decl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_strict_mode_glosry.htm"
+abapFile: "abenrap_strict_mode_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "strict", "mode", "glosry"]
+---
 
 * * *
 

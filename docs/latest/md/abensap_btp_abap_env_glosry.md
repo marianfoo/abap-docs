@@ -1,4 +1,14 @@
-  
+---
+title: "SAP BTP ABAP Environment"
+description: |
+  ABAP Platform(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_platform_glosry.htm 'Glossary Entry') (aka Steampunk(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensteampunk_glosry.htm 'Glossary Entry')) in SAP BTP(https://help.sap.com/doc/abapdocu_l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_btp_abap_env_glosry.htm"
+abapFile: "abensap_btp_abap_env_glosry.htm"
+keywords: ["do", "if", "try", "abensap", "btp", "abap", "env", "glosry"]
+---
 
 * * *
 

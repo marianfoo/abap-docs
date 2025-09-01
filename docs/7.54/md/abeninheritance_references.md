@@ -1,4 +1,14 @@
-  
+---
+title: "Inheritance and Polymorphism"
+description: |
+  A subclass contains all components of all superclasses along the inheritance tree and the interfaces of methods cannot be changed. This means that a reference variable typed with reference to a superclass or with reference to an interface implemented by a superclass may contain references to objects
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninheritance_references.htm"
+abapFile: "abeninheritance_references.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "references"]
+---
 
 * * *
 

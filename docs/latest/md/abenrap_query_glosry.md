@@ -1,4 +1,14 @@
-  
+---
+title: "RAP query"
+description: |
+  A consumption option in RAP that provides read-only consumption of data defined in CDS entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry'). A RAP query is executed by the RAP query engine(https://help.sap.com/doc/abapdocu_latest_in
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_query_glosry.htm"
+abapFile: "abenrap_query_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "query", "glosry"]
+---
 
 * * *
 

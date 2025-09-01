@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODULE status_100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MOD
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "try", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 

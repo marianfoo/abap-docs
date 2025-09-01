@@ -1,4 +1,14 @@
-  
+---
+title: "Standard Key"
+description: |
+  The standard key is a special primary table key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_key_glosry.htm 'Glossary Entry') in an internal table. -   Key Fields of the Standard Key(#abenitab-standard-key-1--------declaration-of-the-standard-key---@ITOC@@ABENITAB
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_standard_key.htm"
+abapFile: "abenitab_standard_key.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abenitab", "standard", "key"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Standard Key
 
 The standard key is a special [primary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") in an internal table.
 
--   [Key Fields of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_1)
+-   [Key Fields of the Standard Key](#abenitab-standard-key-1--------declaration-of-the-standard-key---@ITOC@@ABENITAB_STANDARD_KEY_2)
 
--   [Declaration of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_2)
-
--   [Notes on Use](#@@ITOC@@ABENITAB_STANDARD_KEY_3)
-
--   [Example](#@@ITOC@@ABENITAB_STANDARD_KEY_4)
+-   [Notes on Use](#abenitab-standard-key-3--------example---@ITOC@@ABENITAB_STANDARD_KEY_4)
 
 Key Fields of the Standard Key
 

@@ -1,4 +1,14 @@
-  
+---
+title: "REFRESH CONTROL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprefresh_control_shortref.htm) Syntax REFRESH CONTROL contrl FROM SCREEN dynnr. Effect This statement initializes the properties of a table control(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_c
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprefresh_control.htm"
+abapFile: "abaprefresh_control.htm"
+keywords: ["do", "if", "try", "data", "abaprefresh", "control"]
+---
 
 * * *
 

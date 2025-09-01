@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR, action"
+description: |
+  Work in progress  Syntax ... internal static action ActionName external LongName parameter InputParameterEntity$self result cardinality OutputParameterEntity$self; Effect In behavior definitions, actions can be specified as application-specific oper
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm"
+abapFile: "abenbdl_action.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abenbdl", "action"]
+---
 
 * * *
 

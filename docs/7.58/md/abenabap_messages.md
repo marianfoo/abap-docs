@@ -1,4 +1,14 @@
-  
+---
+title: "Messages"
+description: |
+  Messages are repository objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that are managed using a message maintenance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_maintenance_glosry.htm 'Glossary Entry
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages.htm"
+abapFile: "abenabap_messages.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenabap", "messages"]
+---
 
 * * *
 

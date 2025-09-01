@@ -1,4 +1,14 @@
-  
+---
+title: "PCP"
+description: |
+  → Push Channel Protocol(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpush_channel_protocol_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpcp_glosry.htm"
+abapFile: "abenpcp_glosry.htm"
+keywords: ["do", "if", "try", "abenpcp", "glosry"]
+---
 
 * * *
 

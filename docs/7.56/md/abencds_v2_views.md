@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - View Entities"
+description: |
+  A CDS view entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') is a CDS entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm 'Glossary Entry') defined using the statement DEFINE VIEW ENTITY(https:
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_views.htm"
+abapFile: "abencds_v2_views.htm"
+keywords: ["select", "do", "try", "class", "data", "types", "abencds", "views"]
+---
 
 * * *
 

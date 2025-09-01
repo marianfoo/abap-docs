@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Tabular Data Objects"
+description: |
+  This example demonstrates how tabular data objects are created. Source Code REPORT demo_create_tabular_data. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA dref TYPE REF TO data. DATA: dbtab TYPE tabname VALUE 'SPFLI', rows  TYPE
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_tabular_data_abexa.htm"
+abapFile: "abencreate_tabular_data_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "field-symbol", "abencreate", "tabular", "abexa"]
+---
 
 * * *
 

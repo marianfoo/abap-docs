@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES - RANGE OF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_shortref.htm) Syntax TYPES dtype TYPE RANGE OF typeLIKE RANGE OF dobj INITIAL SIZE n. Effect Derives a table type for a ranges table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_ranges.htm"
+abapFile: "abaptypes_ranges.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abaptypes", "ranges"]
+---
 
 * * *
 

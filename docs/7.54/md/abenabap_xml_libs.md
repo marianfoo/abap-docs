@@ -1,4 +1,14 @@
-  
+---
+title: "Class Libraries for XML"
+description: |
+  The following libraries delivered as part of AS ABAP enable the editing of XML data based on classes and interfaces: -   iXML Library(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib.htm) The 'integrated' XML Library provides methods for parsing XML data in XML 1.0 form
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_libs.htm"
+abapFile: "abenabap_xml_libs.htm"
+keywords: ["do", "try", "method", "class", "data", "abenabap", "xml", "libs"]
+---
 
 * * *
 

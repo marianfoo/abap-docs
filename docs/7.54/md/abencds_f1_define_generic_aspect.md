@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE ASPECT"
+description: |
+  Syntax DEFINE ASPECT generic_aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defines a generic aspect generic_aspect as part of a CDS access policy(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Using Built-In Data Types from ABAP Dictionary"
+description: |
+  Currently, there are no CDS built-in data types. CDS can use built-in DDIC types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_ddic_type_glosry.htm 'Glossary Entry'). -   ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS(https://help.sap.com/doc/aba
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm"
+abapFile: "abencds_builtin_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "builtin"]
+---
 
 * * *
 

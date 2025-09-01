@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... WIDTH     = len ALIGN     = LEFTRIGHTCENTER(dobj)expr PAD       = c CASE      = RAWUPPERLOWER(dobj)expr SIGN      = LEFTLEFTPLUSLEFTSPACERIGHTRIGHTPLUSRIGHTSPACE(dobj)expr EXPONENT  = exp DECIMALS  =
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_string_format_options.htm"
+abapFile: "abapcompute_string_format_options.htm"
+keywords: ["select", "insert", "do", "while", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abapcompute", "string", "format", "options"]
+---
 
 * * *
 

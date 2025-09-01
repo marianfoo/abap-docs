@@ -1,4 +1,14 @@
-  
+---
+title: "SET UPDATE TASK LOCAL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_update_task_shortref.htm) Syntax SET UPDATE TASK LOCAL. Effect This statement switches the local update on. In the local update, high priority update function modules - registered during the current SAP LUW(https:
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_update_task_local.htm"
+abapFile: "abapset_update_task_local.htm"
+keywords: ["update", "do", "while", "if", "try", "data", "abapset", "task", "local"]
+---
 
 * * *
 

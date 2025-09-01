@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Functions"
+description: |
+  The following table shows the conversion functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The las
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_conversion_functions.htm"
+abapFile: "abenddic_conversion_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "conversion", "functions"]
+---
 
 * * *
 

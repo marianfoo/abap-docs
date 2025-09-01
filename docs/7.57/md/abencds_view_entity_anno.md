@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity_anno.htm"
+abapFile: "abencds_view_entity_anno.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "class", "data", "abencds", "view", "entity", "anno"]
+---
 
 * * *
 
@@ -21,111 +31,9 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The first column of the table below shows the name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is set implicitly if the annotation is not used explicitly. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_VIEW_ENTITY_ANNO_1)
--   [AccessControl Annotations](#@@ITOC@@ABENCDS_VIEW_ENTITY_ANNO_2)
--   [DataAging Annotations](#@@ITOC@@ABENCDS_VIEW_ENTITY_ANNO_3)
--   [Metadata Annotations](#@@ITOC@@ABENCDS_VIEW_ENTITY_ANNO_4)
--   [ObjectModel Annotations](#@@ITOC@@ABENCDS_VIEW_ENTITY_ANNO_5)
-
-The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
-
-Hints
-
--   Alongside the view annotations shown here, the globally valid [entity annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm) can also be specified for a [CDS view entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm "Glossary Entry").
--   Client handling is done implicitly and automatically for [CDS view entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm "Glossary Entry") by filtering the client [session variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_session_variable_v2.htm). Client handling annotations are not required and not allowed.
-
-AbapCatalog Annotations   
-
-Technical settings of a CDS view entity.
-
-Annotation
-
-Meaning
-
-Annotation Values
-
-Default Value if Not Used
-
-Default Value if Used Without Value
-
-AbapCatalog.dataMaintenance
-
-Can be used to restrict data preview for a CDS view entity.
-
-#RESTRICTED:
-Display allowed with restrictions
-#DISPLAY\_ONLY:
-Display only. Data preview is allowed
-#NOT\_ALLOWED:
-Display not allowed
-
-#RESTRICTED
-
-\-
-
-AbapCatalog.entityBuffer.definitionAllowed
-
-Can be used to enable or disable [table buffering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_buffering.htm) for a CDS view entity.
-
-true:
-Table buffering allowed.
-false:
-Table buffering not allowed.
-
-false
-
-true
-
-AbapCatalog.extensibility.allowNewDatasources
-
-Defines whether a [CDS view entity extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity_extend_glosry.htm "Glossary Entry") is allowed to use new data sources. More precisely, if a CDS view entity extension specifies an association, this annotation defines whether the newly defined local association is allowed to be used in [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expression_glosry.htm "Glossary Entry").
-
-true:
-New data sources in extensions allowed.
-false:
-New data sources in extensions not allowed.
-
-false
-
-true
-
-AbapCatalog.extensibility.dataSources\[ \]
-
-Allowlist of stable alias names of data sources and locally defined associations to be used in extensions.
-
-'data\_source\_name':
-Alias name of a data source or alias name of a locally defined or redefined association.
-
-\-
-
-\-
-
-AbapCatalog.viewEnhancementCategory\[ \]
-
-Specifies how the view entity is extended using [CDS view extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extend_glosry.htm "Glossary Entry"). A comma-separated list of values can be specified in the square brackets of the [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry").
-
-#PROJECTION\_LIST:
-Extensions of the SELECT list and additional CDS associations are allowed; extensions of CDS views whose SELECT lists contain [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v2.htm) or which contain a [set operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_set_operators_glosry.htm "Glossary Entry") clause are not allowed.
-#GROUP\_BY:
-Can only be specified together with #PROJECTION\_LIST. Allows views to be extended that have [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v2.htm) in the SELECT list. Aggregated or non-aggregated elements can be added to the SELECT list by the extension. The GROUP-BY clause must be extended accordingly using the addition GROUP BY.
-#UNION:
-Can only be specified together with #PROJECTION\_LIST. Allows views to be extended that use a clause with a [set operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_set_operators_glosry.htm "Glossary Entry").
-#NONE:
-No extensions allowed; cannot be specified together with other values.
-
-#PROJECTION\_LIST
-
-#PROJECTION\_LIST
-
-Hints
-
--   In the [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") AbapCatalog.viewEnhancementCategory\[ \], #GROUP\_BY and #UNION can only be specified together with the default value #PROJECTION\_LIST. The value #NONE excludes any other values.
--   AbapCatalog.viewEnhancementCategory\[#NONE\] is mandatory for views that contain an element of data type LRAW or LCHR. The reason is that elements of data type LRAW or LCHR must always be in the last position in the SELECT list and therefore, no extensions are allowed.
--   Extensions of a view with aggregate expressions or with a set operator clause ([EXCEPT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_except_v2.htm), [INTERSECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_intersect_v2.htm), or [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v2.htm)) modify the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the result set. This means that these extensions must have special permission in the view to enable consumers of the view to handle any changes to cardinalities.
--   AbapCatalog.viewEnhancementCategory\[#UNION\] allows extensions not only for union views, but for views including any set operator (also [EXCEPT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_except_v2.htm) and [INTERSECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_intersect_v2.htm)). The annotation array value #UNION is a known misnomer.
--   AbapCatalog.extensibility.allowNewdataSources must be set to false in CDS view entities. The value true is only allowed in CDS projection views.
--   AbapCatalog.extensibility.dataSources:
-    -   can only be specified if extensions are allowed. If @AbapCatalog.extensibility.extensible is set to false or @AbapCatalog.viewEnhancementCategory is set to #NONE, no data sources can be specified.
+-   [AbapCatalog Annotations](#abencds-view-entity-anno-1-------accesscontrol-annotations---@ITOC@@ABENCDS_VIEW_ENTITY_ANNO_2)
+-   [DataAging Annotations](#abencds-view-entity-anno-3-------metadata-annotations---@ITOC@@ABENCDS_VIEW_ENTITY_ANNO_4)
+-   [ObjectModel Annotations](#abencds-view-entity-anno-5---the-following-tables-show-the-possible--abap-annotations--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-annotation-glosry-htm--glossary-entry---that-can-be-specified-and-their-meanings--the-abap-annotations-are-evaluated-by-the-abap-runtime-framework-for-every-cds-entity--annotations-with-other-identifiers-are-usually--framework-specific-annotations--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-annotations-frmwrk-htm---these-are-not-evaluated-by-the-abap-runtime-framework-but-by-other-sap-frameworks-instead---hints------alongside-the-view-annotations-shown-here--the-globally-valid--entity-annotations--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-entity-annotations-htm--can-also-be-specified-for-a--cds-view-entity--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-v2-view-glosry-htm--glossary-entry--------client-handling-is-done-implicitly-and-automatically-for--cds-view-entities--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-v2-view-glosry-htm--glossary-entry---by-filtering-the-client--session-variable--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abensession-variable-glosry-htm--glossary-entry-----session-client--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-session-variable-v2-htm---client-handling-annotations-are-not-required-and-not-allowed---abapcatalog-annotations-----technical-settings-of-a-cds-view-entity---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--abapcatalog-datamaintenance--can-be-used-to-restrict-data-preview-for-a-cds-view-entity----restricted--display-allowed-with-restrictions--display--only--display-only--data-preview-is-allowed--not--allowed--display-not-allowed---restricted------abapcatalog-entitybuffer-definitionallowed--can-be-used-to-enable-or-disable--table-buffering--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-v2-view-buffering-htm--for-a-cds-view-entity---true--table-buffering-allowed--false--table-buffering-not-allowed---false--true--abapcatalog-extensibility-allownewdatasources--defines-whether-a--cds-view-entity-extension--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-view-entity-extend-glosry-htm--glossary-entry---is-allowed-to-use-new-data-sources--more-precisely--if-a-cds-view-entity-extension-specifies-an-association--this-annotation-defines-whether-the-newly-defined-local-association-is-allowed-to-be-used-in--path-expressions--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenpath-expression-glosry-htm--glossary-entry-----true--new-data-sources-in-extensions-allowed--false--new-data-sources-in-extensions-not-allowed---false--true--abapcatalog-extensibility-datasources-------allowlist-of-stable-alias-names-of-data-sources-and-locally-defined-associations-to-be-used-in-extensions----data--source--name---alias-name-of-a-data-source-or-alias-name-of-a-locally-defined-or-redefined-association-----------abapcatalog-viewenhancementcategory-------specifies-how-the-view-entity-is-extended-using--cds-view-extensions--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-view-extend-glosry-htm--glossary-entry----a-comma-separated-list-of-values-can-be-specified-in-the-square-brackets-of-the--annotation-array--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-array-glosry-htm--glossary-entry------projection--list--extensions-of-the-select-list-and-additional-cds-associations-are-allowed--extensions-of-cds-views-whose-select-lists-contain--aggregate-expressions--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-aggregate-functions-v2-htm--or-which-contain-a--set-operator--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-set-operators-glosry-htm--glossary-entry---clause-are-not-allowed---group--by--can-only-be-specified-together-with--projection--list--allows-views-to-be-extended-that-have--aggregate-expressions--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-aggregate-functions-v2-htm--in-the-select-list--aggregated-or-non-aggregated-elements-can-be-added-to-the-select-list-by-the-extension--the-group-by-clause-must-be-extended-accordingly-using-the-addition-group-by---union--can-only-be-specified-together-with--projection--list--allows-views-to-be-extended-that-use-a-clause-with-a--set-operator--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-set-operators-glosry-htm--glossary-entry-----none--no-extensions-allowed--cannot-be-specified-together-with-other-values----projection--list---projection--list--hints------in-the--annotation-array--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-array-glosry-htm--glossary-entry---abapcatalog-viewenhancementcategory--------group--by-and--union-can-only-be-specified-together-with-the-default-value--projection--list--the-value--none-excludes-any-other-values------abapcatalog-viewenhancementcategory---none---is-mandatory-for-views-that-contain-an-element-of-data-type-lraw-or-lchr--the-reason-is-that-elements-of-data-type-lraw-or-lchr-must-always-be-in-the-last-position-in-the-select-list-and-therefore--no-extensions-are-allowed------extensions-of-a-view-with-aggregate-expressions-or-with-a-set-operator-clause---except--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-except-v2-htm----intersect--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-intersect-v2-htm---or--union--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-union-v2-htm---modify-the--cardinality--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencardinality-glosry-htm--glossary-entry---of-the-result-set--this-means-that-these-extensions-must-have-special-permission-in-the-view-to-enable-consumers-of-the-view-to-handle-any-changes-to-cardinalities------abapcatalog-viewenhancementcategory---union---allows-extensions-not-only-for-union-views--but-for-views-including-any-set-operator--also--except--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-except-v2-htm--and--intersect--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-intersect-v2-htm----the-annotation-array-value--union-is-a-known-misnomer------abapcatalog-extensibility-allownewdatasources-must-be-set-to-false-in-cds-view-entities--the-value-true-is-only-allowed-in-cds-projection-views------abapcatalog-extensibility-datasources----------can-only-be-specified-if-extensions-are-allowed--if-AbapCatalog.extensibility.extensible is set to false or @AbapCatalog.viewEnhancementCategory is set to #NONE, no data sources can be specified.
     -   can specify only such associations as data\_source\_name which have a maximum cardinality not greater than 1.
     -   must not be set in union views.
 -   The annotation AbapCatalog.dataMaintenance defines whether the CDS view entity can be displayed or maintained by certain tools such as Data Preview in [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"). The annotation is evaluated by these tools. Restrictions imposed by that annotation are user-independent and they are evaluated before accessing the data. Additional restrictions imposed by [CDS roles](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_role_glosry.htm "Glossary Entry") are evaluated during the actual data access, if this is done by ABAP SQL.

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... GROUPING SETS ( (     col1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), col2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), ..., sql_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm"
+abapFile: "abapgrouping_sets_clause.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abapgrouping", "sets", "clause"]
+---
 
 * * *
 

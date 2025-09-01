@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Locator, Access to Column Content"
+description: |
+  This example demonstrates how to access texts in DDIC database tables using locators(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocator_glosry.htm 'Glossary Entry'). Source Code REPORT demo_db_locator. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_locator_abexa.htm"
+abapFile: "abendb_locator_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "abendb", "locator", "abexa"]
+---
 
 * * *
 

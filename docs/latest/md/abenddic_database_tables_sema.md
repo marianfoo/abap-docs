@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Semantic Properties of Database Tables"
+description: |
+  The semantic properties of a DDIC database table include the properties that are specific for its structure and properties that are specific for the table itself. -   DDIC - Structure-Specific Semantic Properties of Database Tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/ab
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_sema.htm"
+abapFile: "abenddic_database_tables_sema.htm"
+keywords: ["do", "if", "data", "abenddic", "database", "tables", "sema"]
+---
 
 * * *
 

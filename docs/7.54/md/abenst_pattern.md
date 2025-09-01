@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Pattern"
+description: |
+  When conditional transformations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_cond.htm) are deserialized, the fact that the template content is also a pattern is used as a criterion for the assessment. A pattern contains one or more constructs that are used as markers. The
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_pattern.htm"
+abapFile: "abenst_pattern.htm"
+keywords: ["loop", "do", "if", "case", "data", "abenst", "pattern"]
+---
 
 * * *
 

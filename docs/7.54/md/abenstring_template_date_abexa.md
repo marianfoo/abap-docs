@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Date Formats"
+description: |
+  This example demonstrates the various date formats for embedded expressions. Source Code REPORT demo_string_template_date_form. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. PRIVATE SECTION. CLASS-DATA: fixvals TYPE ddfixvalues, fixval  LIKE LINE OF fixvals. CLASS-METHODS: setup, t
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_template_date_abexa.htm"
+abapFile: "abenstring_template_date_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenstring", "template", "date", "abexa"]
+---
 
 * * *
 

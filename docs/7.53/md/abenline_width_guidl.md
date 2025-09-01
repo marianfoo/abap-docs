@@ -1,4 +1,14 @@
-  
+---
+title: "Line Width"
+description: |
+  Background The maximum line width of an ABAP program is restricted to 255 characters. The editor allows you to write more than 255 characters, but it breaks a line that contains more than 255 characters between two tokens when you press Enter. Rule Do not use full line width Limit the width of a lin
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_width_guidl.htm"
+abapFile: "abenline_width_guidl.htm"
+keywords: ["do", "method", "abenline", "width", "guidl"]
+---
 
 * * *
 

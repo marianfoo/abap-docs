@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_context_menu. DATA: field1 TYPE i VALUE 10, field2 TYPE p DECIMALS 4. DATA: prog TYPE sy-repid, flag(1) TYPE c VALUE 'X'. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. prog = sy-repid. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET TITLEBAR 'TIT100'. IF flag = 'X'. SE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_context_menu_abexa.htm"
+abapFile: "abendynpro_context_menu_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "abendynpro", "context", "menu", "abexa"]
+---
 
 * * *
 

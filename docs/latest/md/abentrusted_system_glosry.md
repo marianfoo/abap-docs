@@ -1,4 +1,14 @@
-  
+---
+title: "trusted_system_glosry"
+description: |
+  trusted_system_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrusted_system_glosry.htm"
+abapFile: "abentrusted_system_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abentrusted", "system", "glosry"]
+---
 
 * * *
 

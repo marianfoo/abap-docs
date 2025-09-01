@@ -1,4 +1,14 @@
-  
+---
+title: "Rules for the Strict Mode"
+description: |
+  The strict mode in Release 7.56 covers all rules of the strict mode in Release 7.55(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_strictmode_755.htm).
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_strictmode_756.htm"
+abapFile: "abenabap_sql_strictmode_756.htm"
+keywords: ["do", "data", "abenabap", "sql", "strictmode", "756"]
+---
 
 * * *
 

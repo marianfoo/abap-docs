@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:s-d-cond using='...' data='...' s-d-check='...'> ... </tt:s-d-cond> Effect Conditional transformations are realized as the content of an element tt:s-d-cond. They represent parts of ST programs that are respected only if certain prer
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_cond.htm"
+abapFile: "abenst_tt_cond.htm"
+keywords: ["do", "if", "case", "data", "abenst", "cond"]
+---
 
 * * *
 

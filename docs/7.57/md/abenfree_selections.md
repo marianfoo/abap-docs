@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Free Selections"
+description: |
+  A dynamic selection is a ranges condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenranges_condition_glosry.htm 'Glossary Entry') that can be entered on a dynamically created selection screen. The associated selection screens are created, displayed, and processed by the system
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfree_selections.htm"
+abapFile: "abenfree_selections.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abenfree", "selections"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ Selection Screens - Free Selections
 
 A dynamic selection is a [ranges condition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenranges_condition_glosry.htm "Glossary Entry") that can be entered on a dynamically created selection screen. The associated selection screens are created, displayed, and processed by the system function modules FREE\_SELECTIONS\_... of the function pool SSEL. The selection screens can be displayed as standalone selection screens, or integrated into the screen layouts of other dynpros or selection screens as a subscreen. Dynamic selections can be included in a logical database or used in any programs.
 
--   [Dynamic Selections in Logical Databases](#@@ITOC@@ABENFREE_SELECTIONS_1)
--   [Dynamic Selections in All Programs](#@@ITOC@@ABENFREE_SELECTIONS_2)
+-   [Dynamic Selections in Logical Databases](#abenfree-selections-1-------dynamic-selections-in-all-programs---@ITOC@@ABENFREE_SELECTIONS_2)
 
 Security Hint
 

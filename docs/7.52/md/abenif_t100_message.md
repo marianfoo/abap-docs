@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   The interface IF_T100_MESSAGE is mainly designed for use with exception texts(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_texts.htm) in exception classes(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_class_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenif_t100_message.htm"
+abapFile: "abenif_t100_message.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenif", "t100", "message"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenabap_objects_statements.htm
 
-  
+---
+title: "ABAP Objects - Statements in ABAP Objects"
+description: |
+  The statements in ABAP Objects can be differentiated as follows: -   Statements for defining classes and interfaces(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_classes_interfaces.htm) These statements define classes and interfaces and their components. They can be used
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_statements.htm"
+abapFile: "abenabap_objects_statements.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabap", "objects", "statements"]
+---
 
 * * *
 
@@ -45,7 +55,17 @@ Continue
 
 ### abendefining_classes_interfaces.htm
 
-  
+---
+title: "ABAP Objects - Statements for Defining Classes and Interfaces"
+description: |
+  These statements are used to define classes and interfaces and their components. They can be used in any ABAP program where classes and interfaces can be defined. Statements for Defining Classes Defining the Declaration Part CLASS ... DEFINITION ... ... ENDCLASS ... Defining the Implementation Part
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_classes_interfaces.htm"
+abapFile: "abendefining_classes_interfaces.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abendefining", "classes", "interfaces"]
+---
 
 * * *
 
@@ -123,7 +143,17 @@ The [stricter syntax](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US
 
 ### abendefining_methods.htm
 
-  
+---
+title: "ABAP Objects - Statements for Implementing Methods"
+description: |
+  The functions of classes are implemented in methods, that is, between METHOD - ENDMETHOD. The statements allowed in methods include the entire ABAP language range that is allowed in all procedures. It must be noted, however, that all statements in methods are subject to the stricter syntax(https:/
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_methods.htm"
+abapFile: "abendefining_methods.htm"
+keywords: ["do", "if", "method", "class", "abendefining", "methods"]
+---
 
 * * *
 
@@ -143,7 +173,17 @@ The statements allowed in methods include the entire ABAP language range that is
 
 ### abenclass_interace_pools.htm
 
-  
+---
+title: "ABAP Objects - Statements in Class Pools and Interface Pools"
+description: |
+  Class pools and interface pools are the ABAP programs where global classes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_class_glosry.htm 'Glossary Entry') and global interfaces(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_interface_glosry.htm 'Gl
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_interace_pools.htm"
+abapFile: "abenclass_interace_pools.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenclass", "interace", "pools"]
+---
 
 * * *
 
@@ -236,7 +276,17 @@ The following restrictions are particularly important:
 
 ### abenobjects_keywords.htm
 
-  
+---
+title: "ABAP Objects - Keywords"
+description: |
+  The following list shows the keywords introduced specifically for ABAP objects. ALIASES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm) Declares an alias name(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalias_glosry.htm 'Glossary Entry') CALL METHO
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobjects_keywords.htm"
+abapFile: "abenobjects_keywords.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenobjects", "keywords"]
+---
 
 * * *
 
@@ -321,7 +371,17 @@ Registers an [event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/
 
 ### abenabap_objects_strict.htm
 
-  
+---
+title: "ABAP Objects - Stricter Syntax Rules"
+description: |
+  The ABAP language has been cleaned up in ABAP Objects. As part of this language cleanup, stricter syntax checks are performed for constructs that were previously allowed, or obsolete statements are no longer allowed at all. The stricter syntax checks usually result in syntax that should also be used
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_strict.htm"
+abapFile: "abenabap_objects_strict.htm"
+keywords: ["do", "if", "abenabap", "objects", "strict"]
+---
 
 * * *
 

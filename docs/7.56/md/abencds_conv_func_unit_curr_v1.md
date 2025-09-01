@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, Unit and Currency Conversion Functions"
+description: |
+  Syntax ... UNIT_CONVERSION( p1 => a1, p2 => a2, ... )  CURRENCY_CONVERSION( p1 => a1, p2 => a2, ... )  DECIMAL_SHIFT( p1 => a1, p2 => a2, ... ) ... Variants: 1. ... UNIT_CONVERSION( p1 => a1, p2 => a2, ... )(#!ABAP_VARIANT_1@1@) 2. ... CURRENCY_CONVERSION( p1 => a1, p2 => a2, ... )(
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conv_func_unit_curr_v1.htm"
+abapFile: "abencds_conv_func_unit_curr_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "conv", "func", "unit", "curr"]
+---
 
 * * *
 

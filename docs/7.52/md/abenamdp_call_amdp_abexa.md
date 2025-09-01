@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP, Calling an AMDP Procedure from SQLScript"
+description: |
+  This example demonstrates how an AMDP procedure is called from an AMDP procedure. Source Code REPORT demo_amdp_call_amdp_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA incprice TYPE sflight-price. IF NOT cl_abap_dbfe
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm"
+abapFile: "abenamdp_call_amdp_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "call", "amdp", "abexa"]
+---
 
 * * *
 

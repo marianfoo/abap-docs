@@ -1,4 +1,14 @@
-  
+---
+title: "Abstract"
+description: |
+  Term in ABAP Objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_objects_glosry.htm 'Glossary Entry'). An abstract class(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm 'Glossary Entry') cannot be instantiated. An abstract method(https://
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabstract_glosry.htm"
+abapFile: "abenabstract_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenabstract", "glosry"]
+---
 
 * * *
 

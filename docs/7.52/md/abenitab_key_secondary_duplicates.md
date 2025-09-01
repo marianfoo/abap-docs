@@ -1,4 +1,14 @@
-  
+---
+title: "Duplicate Non-Unique Keys"
+description: |
+  Non-unique table keys can produce duplicate rows with respect to these keys. This section describes the order of these duplicates when data is inserted into table with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables. -   Single Record O
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_key_secondary_duplicates.htm"
+abapFile: "abenitab_key_secondary_duplicates.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "key", "secondary", "duplicates"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Duplicate Non-Unique Keys
 
 Non-unique table keys can produce duplicate rows with respect to these keys. This section describes the order of these duplicates when data is inserted into table with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables.
 
--   [Single Record Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_1)
+-   [Single Record Operations](#abenitab-key-secondary-duplicates-1--------block-operations---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
 
--   [Block Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
-
--   [Special Features](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_3)
-
--   [Example](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_4)
+-   [Special Features](#abenitab-key-secondary-duplicates-3--------example---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_4)
 
 Single Record Operations
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Runtime Type Creation"
+description: |
+  RTTC for short. Creation of data types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_type_glosry.htm 'Glossary Entry') during program runtime. Implemented using methods of the type description classes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_class
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_creation_glosry.htm"
+abapFile: "abenrun_time_type_creation_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenrun", "time", "type", "creation", "glosry"]
+---
 
 * * *
 

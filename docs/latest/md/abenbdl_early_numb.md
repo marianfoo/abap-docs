@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - early numbering"
+description: |
+  Syntax ... early numbering ... Effect Defines unmanaged early numbering(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_early_numbering_glosry.htm 'Glossary Entry') for all primary key fields of a business object entity(https://help.sap.com/doc/abapdocu_latest_index_htm/l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_early_numb.htm"
+abapFile: "abenbdl_early_numb.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "try", "method", "class", "data", "abenbdl", "early", "numb"]
+---
 
 * * *
 

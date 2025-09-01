@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Object"
+description: |
+  Instance(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_glosry.htm 'Glossary Entry') of an exception class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_class_glosry.htm 'Glossary Entry'). Is created when a treatable exception(https://help.sa
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_object_glosry.htm"
+abapFile: "abenexception_object_glosry.htm"
+keywords: ["do", "try", "class", "abenexception", "object", "glosry"]
+---
 
 * * *
 

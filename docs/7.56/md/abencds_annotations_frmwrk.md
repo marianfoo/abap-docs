@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Framework-Specific Annotations"
+description: |
+  Framework-specific annotations are SAP annotations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that define the technical and semantic properties of CDS objects that are required by specific software components, such as ODATA, UI, and A
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk.htm"
+abapFile: "abencds_annotations_frmwrk.htm"
+keywords: ["do", "if", "try", "data", "abencds", "annotations", "frmwrk"]
+---
 
 * * *
 

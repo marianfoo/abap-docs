@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Dictionary Types"
+description: |
+  The following built-in data types in ABAP Dictionary are obsolete and should no longer be used: -   The replacement types DF16_SCL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) and DF34_SCL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aben
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_obsolete_types.htm"
+abapFile: "abenddic_obsolete_types.htm"
+keywords: ["do", "data", "types", "abenddic", "obsolete"]
+---
 
 * * *
 

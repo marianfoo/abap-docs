@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... WITH PARAMETERS parameter1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_param.htm), parameter2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_param.htm), ... Effect Defines CDS parameters(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/e
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_custom_parameter_list.htm"
+abapFile: "abencds_f1_custom_parameter_list.htm"
+keywords: ["do", "try", "data", "abencds", "custom", "parameter", "list"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "additional_prog_group_glosry"
+description: |
+  additional_prog_group_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadditional_prog_group_glosry.htm"
+abapFile: "abenadditional_prog_group_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenadditional", "prog", "group", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "APC - AS ABAP as TCP Socket Client"
+description: |
+  This example demonstrates AS ABAP as a TCP socket client. Source Code  Public class definition CLASS cl_demo_apc_tcp_client DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS apc_handler DEFINITION FINAL . PU
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc_tcp_client_abexa.htm"
+abapFile: "abenapc_tcp_client_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenapc", "tcp", "client", "abexa"]
+---
 
 * * *
 

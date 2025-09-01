@@ -1,4 +1,14 @@
-  
+---
+title: "CDS PFCG mapping"
+description: |
+  A PFCG mapping associates CDS elements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_element_glosry.htm 'Glossary Entry') with authorization fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenauthorization_field_glosry.htm 'Glossary Entry'). It is defined
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_pfcg_mapping_glosry.htm"
+abapFile: "abencds_pfcg_mapping_glosry.htm"
+keywords: ["do", "try", "abencds", "pfcg", "mapping", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Statements for Editing Dynpros"
+description: |
+  These statements are for internal use only. Do not use them in application programs. -   EXPORT DYNPRO(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_dynpro.htm) -   IMPORT DYNPRO(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapimport_dynpro.htm) -   DELETE
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneric_dynpro_internal.htm"
+abapFile: "abengeneric_dynpro_internal.htm"
+keywords: ["delete", "do", "abengeneric", "dynpro", "internal"]
+---
 
 * * *
 

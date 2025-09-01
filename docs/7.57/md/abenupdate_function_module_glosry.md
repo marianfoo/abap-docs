@@ -1,4 +1,14 @@
-  
+---
+title: "update_function_module_glosry"
+description: |
+  update_function_module_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_function_module_glosry.htm"
+abapFile: "abenupdate_function_module_glosry.htm"
+keywords: ["update", "do", "if", "try", "data", "abenupdate", "function", "module", "glosry"]
+---
 
 * * *
 

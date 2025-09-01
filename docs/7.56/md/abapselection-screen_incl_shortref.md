@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN INCLUDE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_include.htm) Syntax SELECTION-SCREEN INCLUDE   PARAMETERS parameter OBLIGATORY OFF MODIF ID modid    SELECT-OPTIONS selcrit OBLIGATORY OFF NO INTERVA
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_incl_shortref.htm"
+abapFile: "abapselection-screen_incl_shortref.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "incl", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Row-Based Administration Costs of Internal Tables"
+description: |
+  In addition to the basic memory requirement described in Memory requirement for deep data objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmemory_consumption_1.htm) required to administrate internal tables in table headers, additional memory is required to administrate each i
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_memory.htm"
+abapFile: "abenitab_key_memory.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "internal-table", "abenitab", "key", "memory"]
+---
 
 * * *
 

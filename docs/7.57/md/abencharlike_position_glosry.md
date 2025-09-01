@@ -1,4 +1,14 @@
-  
+---
+title: "charlike_position_glosry"
+description: |
+  charlike_position_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_position_glosry.htm"
+abapFile: "abencharlike_position_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencharlike", "position", "glosry"]
+---
 
 * * *
 

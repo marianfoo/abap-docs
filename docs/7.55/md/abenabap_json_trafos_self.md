@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Self-Written Transformations"
+description: |
+  Self-written XSLT programs and simple transformations enable the following transformations: -   Serialization of ABAP data objects to JSON -   An XSL transformation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt.htm) accesses the asXML(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_json_trafos_self.htm"
+abapFile: "abenabap_json_trafos_self.htm"
+keywords: ["do", "try", "data", "internal-table", "abenabap", "json", "trafos", "self"]
+---
 
 * * *
 

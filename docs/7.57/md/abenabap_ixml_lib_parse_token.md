@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  By using a token renderer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_ixml_lib_render.htm), it is possible to render an internal table of type SIXMLDOM, which contains the complete information for an XML document, into XML data. Executable Examples -   Token Parsers and Re
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_ixml_lib_parse_token.htm"
+abapFile: "abenabap_ixml_lib_parse_token.htm"
+keywords: ["do", "if", "method", "class", "data", "internal-table", "abenabap", "ixml", "lib", "parse", "token"]
+---
 
 * * *
 

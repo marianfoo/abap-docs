@@ -1,4 +1,14 @@
-  
+---
+title: "Multiple Use of Include Programs"
+description: |
+  Background From a technical point of view, it is possible to use an include program multiple times by including it more than once into a compilation unit or different compilation units. Rule Do not use include programs more than once Use an include program for the modularization of exactly one compi
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmultiple_use_include_guidl.htm"
+abapFile: "abenmultiple_use_include_guidl.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenmultiple", "use", "include", "guidl"]
+---
 
 * * *
 

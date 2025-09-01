@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in ABAP release 7.52 applies to all ABAP SQL statements that use one of the following properties introduced in ABAP release 7.52(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-752-abap_sql.htm): -   Use of ONE TO MANY in LEFT OUTER JOI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_752.htm"
+abapFile: "abenabap_sql_strictmode_752.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "abenabap", "sql", "strictmode", "752"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ or%20improvement:)
 
 ABAP SQL - Strict Mode in ABAP Release 7.52
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_752_1)
--   [Rules for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_752_2)
+-   [Conditions for the Strict Mode](#abenabap-sql-strictmode-752-1-------rules-for-the-strict-mode---@ITOC@@ABENABAP_SQL_STRICTMODE_752_2)
 
 Conditions for the Strict Mode   
 

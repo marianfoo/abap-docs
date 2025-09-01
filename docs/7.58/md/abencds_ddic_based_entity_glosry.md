@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDIC-based entity (obsolete)"
+description: |
+  A CDS entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry') for which a CDS-managed DDIC view (obsolete)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_mngdddic_view_glosry.htm 'Glossary Entry') is created in the ABAP Di
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddic_based_entity_glosry.htm"
+abapFile: "abencds_ddic_based_entity_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "ddic", "based", "entity", "glosry"]
+---
 
 * * *
 

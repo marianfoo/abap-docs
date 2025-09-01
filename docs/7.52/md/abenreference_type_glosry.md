@@ -1,4 +1,14 @@
-  
+---
+title: "Reference type"
+description: |
+  A reference type describes reference variables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_variable_glosry.htm 'Glossary Entry'), that is data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm 'Glossary Entry') that contain
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_type_glosry.htm"
+abapFile: "abenreference_type_glosry.htm"
+keywords: ["do", "try", "data", "abenreference", "type", "glosry"]
+---
 
 * * *
 

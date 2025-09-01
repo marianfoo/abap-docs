@@ -1,4 +1,14 @@
-  
+---
+title: "TEST-INJECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptest-injection_shortref.htm) Syntax TEST-INJECTION seam. statement_block END-TEST-INJECTION. Effect The statement TEST-INJECTION introduces an injection(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptest-injection.htm"
+abapFile: "abaptest-injection.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "types", "abaptest", "injection"]
+---
 
 * * *
 

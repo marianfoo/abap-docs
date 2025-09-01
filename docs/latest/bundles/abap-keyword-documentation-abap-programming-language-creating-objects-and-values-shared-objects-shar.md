@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenshm_examples_abexas.htm
 
-  
+---
+title: "Shared Objects - Examples"
+description: |
+  -   Shared Objects - Example(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm) -   Shared Objects - Writing to and Reading from an Area(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm) !Example(exa.gif 'E
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm"
+abapFile: "abenshm_examples_abexas.htm"
+keywords: ["do", "if", "abenshm", "examples", "abexas"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abenshared_objects_abexa.htm
 
-  
+---
+title: "Shared Objects - Example"
+description: |
+  This example demonstrates how shared objects are used. Source Code  Public class definition CLASS cl_demo_shared_objects DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS demo_flight_list_handler DEFINITION
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm"
+abapFile: "abenshared_objects_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenshared", "objects", "abexa"]
+---
 
 * * *
 
@@ -158,7 +178,17 @@ After executing the class, the area instance version can be examined in transact
 
 ### abenshared_objects2_abexa.htm
 
-  
+---
+title: "Shared Objects - Writing to and Reading from an Area"
+description: |
+  This example demonstrates the writing to and reading from an area. Source Code  Public class definition CLASS cl_demo_shared_objects_rw DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: BEGIN OF struc, instance
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm"
+abapFile: "abenshared_objects2_abexa.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenshared", "objects2", "abexa"]
+---
 
 * * *
 

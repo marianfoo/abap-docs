@@ -1,4 +1,14 @@
-  
+---
+title: "Transforming Pooled Tables and Cluster Tables"
+description: |
+  Any existing pooled tables and cluster tables should be transformed to transparent tables. In particular, if a SAP HANA database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm 'Glossary Entry') is used as the standard AS ABAP database(https://help.sap.com
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclutr.htm"
+abapFile: "abenddic_database_tables_poclutr.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenddic", "database", "tables", "poclutr"]
+---
 
 * * *
 

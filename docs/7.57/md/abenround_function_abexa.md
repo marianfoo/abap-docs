@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_round. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF mode, value LIKE cl_abap_math=>round_half_up, name  TYPE abap_attrdescr-name, END OF mode, modes LIKE SORTED TABLE OF mode WITH UNIQUE KEY name. CLASS-METHODS get_modes. TYPES:
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenround_function_abexa.htm"
+abapFile: "abenround_function_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "method", "class", "data", "types", "abenround", "function", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX regex - Simplified Regular Expressions"
+description: |
+  In addition to the regular expressions in accordance with the extended POSIX(https://en.wikipedia.org/wiki/POSIX) standard IEEE 1003.1, the class CL_ABAP_REGEX also offers an alternative type of simplified regular expression with restricted functions. These simplified regular expressions (short:
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_simple.htm"
+abapFile: "abenregex_posix_simple.htm"
+keywords: ["do", "if", "class", "data", "abenregex", "posix", "simple"]
+---
 
 * * *
 

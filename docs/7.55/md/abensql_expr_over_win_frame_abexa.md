@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT DEMO_SELECT_OVER_WIN_FRAME_SPE. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DELETE FROM demo_update. INSERT demo_update FROM TABLE @( VALUE #( ( id = 'A' col1 = '3' col2 = '7') ( id = 'B' col1 = '5' col2 = '5') ( id = 'C'
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_over_win_frame_abexa.htm"
+abapFile: "abensql_expr_over_win_frame_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abensql", "expr", "over", "win", "frame", "abexa"]
+---
 
 * * *
 

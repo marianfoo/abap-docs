@@ -1,4 +1,14 @@
-  
+---
+title: "Alias name"
+description: |
+  Either a name declared with the statement ALIASES(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases.htm) for an interface component(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_component_glosry.htm 'Glossary Entry') in a class(https://help.sap.c
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalias_glosry.htm"
+abapFile: "abenalias_glosry.htm"
+keywords: ["do", "try", "class", "types", "internal-table", "abenalias", "glosry"]
+---
 
 * * *
 

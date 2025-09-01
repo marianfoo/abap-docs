@@ -1,4 +1,14 @@
-  
+---
+title: "Modularization Statements"
+description: |
+  Each ABAP program is divided into processing blocks(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocessing_block_glosry.htm 'Glossary Entry'). Each accessible statement of an ABAP program that does not belong to the global declaration part of the program belongs to a processing
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm"
+abapFile: "abenabap_language_modularization.htm"
+keywords: ["do", "while", "try", "method", "data", "abenabap", "language", "modularization"]
+---
 
 * * *
 

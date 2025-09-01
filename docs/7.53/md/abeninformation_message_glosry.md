@@ -1,4 +1,14 @@
-  
+---
+title: "information_message_glosry"
+description: |
+  information_message_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninformation_message_glosry.htm"
+abapFile: "abeninformation_message_glosry.htm"
+keywords: ["do", "try", "types", "abeninformation", "message", "glosry"]
+---
 
 * * *
 

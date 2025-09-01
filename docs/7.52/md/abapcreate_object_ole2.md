@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE OBJECT - OLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole_shortref.htm) Syntax CREATE OBJECT ole class NO FLUSH QUEUE-ONLY. Extras: 1. ... NO FLUSH(#!ABAP_ADDITION_1@1@) 2. ... QUEUE-ONLY(#!ABAP_ADDITION_2@2@) Effect This statement creat
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm"
+abapFile: "abapcreate_object_ole2.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapcreate", "object", "ole2"]
+---
 
 * * *
 

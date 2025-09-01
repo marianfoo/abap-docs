@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Special Functions"
+description: |
+  These built-in functions are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_conversion_functions.htm) -   Date functions and time functions(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_special_functions.htm"
+abapFile: "abenddic_special_functions.htm"
+keywords: ["do", "data", "abenddic", "special", "functions"]
+---
 
 * * *
 

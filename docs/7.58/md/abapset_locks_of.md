@@ -1,4 +1,14 @@
-  
+---
+title: "SET LOCKS OF, Long Form"
+description: |
+  Syntax SET LOCKS OF bdef ENTITY entity1 FROM inst1 ENTITY entity2 FROM inst2 ... response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm). Addition: ... response_param.(#!ABAP_ONE_ADD@1@) Effect The long form of the SET LOCKS state
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locks_of.htm"
+abapFile: "abapset_locks_of.htm"
+keywords: ["insert", "delete", "do", "if", "try", "class", "internal-table", "abapset", "locks"]
+---
 
 * * *
 

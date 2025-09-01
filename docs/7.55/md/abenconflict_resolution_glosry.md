@@ -1,4 +1,14 @@
-  
+---
+title: "conflict_resolution_glosry"
+description: |
+  conflict_resolution_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconflict_resolution_glosry.htm"
+abapFile: "abenconflict_resolution_glosry.htm"
+keywords: ["do", "if", "try", "abenconflict", "resolution", "glosry"]
+---
 
 * * *
 

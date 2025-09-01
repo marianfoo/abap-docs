@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - CDS Scalar Function Implementation Reference"
+description: |
+  A CDS scalar function implementation reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dsfi_glosry.htm 'Glossary Entry') is a CDS object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_object_glosry.htm 'Glossary Entry') defined in a form-b
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_func_impl_ref.htm"
+abapFile: "abencds_scalar_func_impl_ref.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abencds", "scalar", "func", "impl", "ref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Superclass"
+description: |
+  Class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry') from which subclasses(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubclass_glosry.htm 'Glossary Entry') are derived through inheritance(https://help.sap.com/doc/abapdocu_7
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensuperclass_glosry.htm"
+abapFile: "abensuperclass_glosry.htm"
+keywords: ["do", "try", "class", "abensuperclass", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Selecting the Numeric Type"
+description: |
+  Background Multiple numeric types with various properties and value ranges are available in ABAP, which can be used for storing numbers and for calculations: -   Signed 4-byte integer numbers (type i) and 8-byte integer numbers (type int8) (1-byte and 2-byte-integers with the internal types b and s
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_numeric_type_guidl.htm"
+abapFile: "abenselect_numeric_type_guidl.htm"
+keywords: ["select", "do", "if", "case", "data", "types", "abenselect", "numeric", "type", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') sXML - Formats(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensxml_formats_abexa.htm) !Example(exa.gif 'Example') sXML - Transformation of Formats(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensxml_format_trafos_abexa.htm) !Exampl
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_abexas.htm"
+abapFile: "abenabap_sxml_lib_abexas.htm"
+keywords: ["do", "if", "method", "class", "data", "abenabap", "sxml", "lib", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Functions"
+description: |
+  Logical functions are a part of built-in functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions.htm). They are divided into: -   Boolean functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenboole_functions.htm) -   Predicate functions(ht
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogic_functions.htm"
+abapFile: "abenlogic_functions.htm"
+keywords: ["do", "abenlogic", "functions"]
+---
 
 * * *
 

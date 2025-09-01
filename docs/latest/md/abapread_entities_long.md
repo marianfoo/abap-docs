@@ -1,4 +1,14 @@
-  
+---
+title: "READ ENTITIES, Long Form"
+description: |
+  Syntax READ ENTITIES OF bdef  IN LOCAL MODE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm) ENTITY entity1 operations(https://help.sap.com/doc/aba
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entities_long.htm"
+abapFile: "abapread_entities_long.htm"
+keywords: ["insert", "do", "if", "try", "types", "abapread", "entities", "long"]
+---
 
 * * *
 

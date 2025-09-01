@@ -1,4 +1,14 @@
-  
+---
+title: "RAP-Related System Classes and Functionality"
+description: |
+  The following topics are covered in this section: -   CL_ABAP_BEHV_AUX(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm) -   CL_ABAP_BEHVDESCR(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm) CL_ABAP_BE
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm"
+abapFile: "abaprap_system_classes.htm"
+keywords: ["do", "if", "class", "abaprap", "system", "classes"]
+---
 
 * * *
 

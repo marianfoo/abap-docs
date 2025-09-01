@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, CFW"
+description: |
+  The example illustrates the use of different GUI controls in a dynpro. Source Code &--------------------------------------------------------------------- & Report  demo_cfw                                                     &---------------------------------------------------------------
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_cfw_abexa.htm"
+abapFile: "abendynpro_cfw_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abendynpro", "cfw", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Validation"
+description: |
+  This example demonstrates how a validation is defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of the root view entity DEMO_SALES_CDS_SO_1, which represents a sales order. @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label: 'CDS vie
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_validation_abexa.htm"
+abapFile: "abenbdl_validation_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "types", "abenbdl", "validation", "abexa"]
+---
 
 * * *
 

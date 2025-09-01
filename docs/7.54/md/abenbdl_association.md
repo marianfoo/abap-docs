@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - DEFINE BEHAVIOR, association"
+description: |
+  Syntax ... internal association AssociationName abbreviation AbbreviationName internalcreate;; Effect An important behavior part of an entity is the transactional enabling of its associations. This affects both reads (Read-By-Association) and creates (Create-By-Asso
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_association.htm"
+abapFile: "abenbdl_association.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbdl", "association"]
+---
 
 * * *
 

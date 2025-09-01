@@ -1,4 +1,14 @@
-  
+---
+title: "SYNTAX-CHECK FOR DYNPRO"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax SYNTAX-CHECK FOR DYNPRO h f e m ...MESSAGE f1 ...LINE f2 ...WORD f3. Parts marked with ' ...' are interchangeable. Extras: 1. ... OFFSET f4(#!ABAP_ADDITION_1@1@) 2. ... TRACE-TABLE itab1(#!ABAP_ADDITIO
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_dynpro.htm"
+abapFile: "abapsyntax-check_for_dynpro.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapsyntax", "check", "for", "dynpro"]
+---
 
 * * *
 

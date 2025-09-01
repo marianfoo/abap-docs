@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of String Functions"
+description: |
+  !Example(exa.gif 'Example') Character String Functions, cmax, cmin, and segment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencmax_cmin_function_abexa.htm) !Example(exa.gif 'Example') String Functions, distance(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abens
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_abexas.htm"
+abapFile: "abenstring_functions_abexas.htm"
+keywords: ["do", "if", "data", "abenstring", "functions", "abexas"]
+---
 
 * * *
 

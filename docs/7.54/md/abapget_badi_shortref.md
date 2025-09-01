@@ -1,4 +1,14 @@
-  
+---
+title: "GET BADI - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_badi.htm) Syntax GET BADI  badi FILTERS f1 = x1 f2 = x2 ...    badi TYPE (name)  FILTERS f1 = x1 f2 = x2 ...  FILTER-TABLE ftab  CONTEXT con. Effect Passes a BAdI ref
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_badi_shortref.htm"
+abapFile: "abapget_badi_shortref.htm"
+keywords: ["do", "if", "try", "internal-table", "abapget", "badi", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type c"
+description: |
+  -   Numeric Target Fields(#abenconversion-type-c-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_2) -   Byte-Like Target Fields(#abenconversion-type-c-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_4) Numeric Target Fields Target Conversion i, int8
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_c.htm"
+abapFile: "abenconversion_type_c.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenconversion", "type"]
+---
 
 * * *
 
@@ -8,13 +18,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Source Field Type c
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_1)
+-   [Numeric Target Fields](#abenconversion-type-c-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_4)
+-   [Byte-Like Target Fields](#abenconversion-type-c-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_4)
 
 Numeric Target Fields
 

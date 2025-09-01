@@ -1,4 +1,14 @@
-  
+---
+title: "charlike_data_type_glosry"
+description: |
+  charlike_data_type_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm"
+abapFile: "abencharlike_data_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencharlike", "type", "glosry"]
+---
 
 * * *
 

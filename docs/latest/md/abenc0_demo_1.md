@@ -1,4 +1,14 @@
-  
+---
+title: "ProductTitle,"
+description: |
+  Amount, Currency  CDS view entity extension to a C0 released API The following CDS view entity extension DEMO_CDS_EXTEND_1 extends the CDS projection view shown above and it fulfills all requirements for consuming a C0 released API from the restricted ABAP language version ABAP for Cloud Develop
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_1.htm"
+abapFile: "abenc0_demo_1.htm"
+keywords: ["do", "if", "try", "class", "data", "abenc0", "demo"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Client Handling"
+description: |
+  Background A client indicates a data area in an AS ABAP database that contains independent application data. The application data of different clients use the same database tables, but are flagged with a three-figure client ID within these tables. When logging on to AS ABAP, this client ID must be e
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclient_handling_guidl.htm"
+abapFile: "abenclient_handling_guidl.htm"
+keywords: ["select", "do", "if", "try", "data", "abenclient", "handling", "guidl"]
+---
 
 * * *
 

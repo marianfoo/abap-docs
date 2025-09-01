@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_asxml_qname DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_asxml_qname IMPLEMENTATION. METHOD main. DATA: name1  TYPE string, name2  T
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenasxml_qnames_abexa.htm"
+abapFile: "abenasxml_qnames_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "types", "abenasxml", "qnames", "abexa"]
+---
 
 * * *
 

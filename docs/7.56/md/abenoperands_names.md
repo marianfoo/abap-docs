@@ -1,4 +1,14 @@
-  
+---
+title: "Notations for Single Operands"
+description: |
+  A single operand, that is, an operand that is not an expression, can either be elementary or be a combination of components. Composite operands are: -   Structured data types or data objects (structure) -   Instances of classes (objects) -   Classes -   Interfaces As a consequence, names for operand
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_names.htm"
+abapFile: "abenoperands_names.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenoperands", "names"]
+---
 
 * * *
 

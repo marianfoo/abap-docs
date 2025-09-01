@@ -1,4 +1,14 @@
-  
+---
+title: "Transformation of XML Syntax Characters"
+description: |
+  This example demonstrates the serialization of characters from the XML syntax using various transformations. Source Code REPORT demo_transformation_escaping. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA xml TYPE string. FINAL(tex
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_trafo_escaping_abexa.htm"
+abapFile: "abencall_trafo_escaping_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abencall", "trafo", "escaping", "abexa"]
+---
 
 * * *
 

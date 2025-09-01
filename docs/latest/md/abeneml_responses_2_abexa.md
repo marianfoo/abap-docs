@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - TYPE RESPONSE FOR"
+description: |
+  This example demonstrates the response parameters FAILED, MAPPED and REPORTED with a simple managed RAP BO. To show content for the responses, errors are intentionally produced in the context of a MODIFY statement trying to create new instances. Data model The CDS data model consists of the root ent
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_responses_2_abexa.htm"
+abapFile: "abeneml_responses_2_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abeneml", "responses", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "roll_area_glosry"
+description: |
+  roll_area_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenroll_area_glosry.htm"
+abapFile: "abenroll_area_glosry.htm"
+keywords: ["do", "if", "try", "abenroll", "area", "glosry"]
+---
 
 * * *
 

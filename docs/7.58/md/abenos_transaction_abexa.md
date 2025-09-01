@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Transaction Service"
+description: |
+  This example demonstrates the execution of an object-oriented transaction. Source Code  Public class definition CLASS cl_demo_transaction_service DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. ENDCLASS.  CCIM
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_transaction_abexa.htm"
+abapFile: "abenos_transaction_abexa.htm"
+keywords: ["update", "do", "if", "try", "catch", "method", "class", "data", "abenos", "transaction", "abexa"]
+---
 
 * * *
 

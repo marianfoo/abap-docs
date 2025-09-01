@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Set Operators"
+description: |
+  Set operators(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_set_operators_glosry.htm 'Glossary Entry') merge the result sets of multiple queries into a single result set. In CDS view entities(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.h
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_set_operators.htm"
+abapFile: "abencds_set_operators.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "set", "operators"]
+---
 
 * * *
 

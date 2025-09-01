@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - OutputParameter"
+description: |
+  Syntax ... deep result selective cardinality  $self  entity OutputParameterEntity  ResultParameterStructure external 'extname'  Additions: 1. ... deep(#!ABAP_ADDITION_1@1@) 2. ... selective(#!ABAP_ADDITION_2@2@) 3. ... cardinality(#!ABAP_ADDITION_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_output_para.htm"
+abapFile: "abenbdl_action_output_para.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenbdl", "action", "output", "para"]
+---
 
 * * *
 

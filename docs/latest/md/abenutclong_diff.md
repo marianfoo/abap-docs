@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... utclong_diff( high = time_stamp2 low  = time_stamp1 ) ... Effect This built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) calculates the time difference between the values of two time stamp fields time_stamp2 and time_stamp1. The r
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenutclong_diff.htm"
+abapFile: "abenutclong_diff.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenutclong", "diff"]
+---
 
 * * *
 

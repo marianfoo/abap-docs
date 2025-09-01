@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for Key Users"
+description: |
+  ABAP language version(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_version_glosry.htm 'Glossary Entry') with restricted language scope for enhancements(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_glosry.htm 'Glossary Entry') in shipped enhan
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_for_key_users_glosry.htm"
+abapFile: "abenabap_for_key_users_glosry.htm"
+keywords: ["do", "try", "abenabap", "for", "key", "users", "glosry"]
+---
 
 * * *
 

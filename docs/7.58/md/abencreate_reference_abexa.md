@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Reference Variables"
+description: |
+  This example demonstrates how reference variables are created. Source Code  CCDEF INTERFACE intf. CONSTANTS attr TYPE string VALUE `Interface constant`. ENDINTERFACE. CLASS cls DEFINITION. PUBLIC SECTION. INTERFACES intf. ENDCLASS.  Public class definition CLASS cl_demo_create_reference DEF
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencreate_reference_abexa.htm"
+abapFile: "abencreate_reference_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "field-symbol", "abencreate", "reference", "abexa"]
+---
 
 * * *
 

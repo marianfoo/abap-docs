@@ -1,4 +1,14 @@
-  
+---
+title: "Setting Program-Driven Spool Parameters"
+description: |
+  Spool and archiving parameters can only be set in a program using the following function module: GET_PRINT_PARAMETERS. If the corresponding structure is changed directly and then the parameters in question used in NEW-PAGE PRINT ON or SUBMIT TO SAP-SPOOL, a runtime error occurs. The GET_PRINT_PA
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprint_parameters_function.htm"
+abapFile: "abenprint_parameters_function.htm"
+keywords: ["do", "if", "case", "class", "abenprint", "parameters", "function"]
+---
 
 * * *
 

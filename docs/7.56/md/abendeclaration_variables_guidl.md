@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration of Variables"
+description: |
+  Background Variables can be declared in the following contexts: -   As attributes of global classes and interfaces across programs -   Locally in the program -   in the global declaration part of a program -   as attributes of local classes and interfaces -   in procedures (Methods(https://help.sa
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclaration_variables_guidl.htm"
+abapFile: "abendeclaration_variables_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "field-symbol", "abendeclaration", "variables", "guidl"]
+---
 
 * * *
 

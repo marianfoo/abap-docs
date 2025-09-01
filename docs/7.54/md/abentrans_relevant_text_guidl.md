@@ -1,4 +1,14 @@
-  
+---
+title: "Translation-Friendly Message Texts"
+description: |
+  Background Message texts are translatable system texts(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_text_guidl.htm 'Guideline'). You can use placeholders in the short and long texts of messages. Placeholders in short texts can either be defined uniquely in the form &i, whe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentrans_relevant_text_guidl.htm"
+abapFile: "abentrans_relevant_text_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abentrans", "relevant", "text", "guidl"]
+---
 
 * * *
 

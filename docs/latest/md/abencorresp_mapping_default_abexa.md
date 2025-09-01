@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING Operator Using the Additions MAPPING and DEFAULT"
+description: |
+  This example demonstrates the CORRESPONDING operator and the additions MAPPING and DEFAULT. Source Code  Public class definition CLASS cl_demo_corr_op_map_default DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresp_mapping_default_abexa.htm"
+abapFile: "abencorresp_mapping_default_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "internal-table", "abencorresp", "mapping", "default", "abexa"]
+---
 
 * * *
 

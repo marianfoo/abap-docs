@@ -1,4 +1,14 @@
-  
+---
+title: "SET LOCALE LANGUAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale_shortref.htm) Syntax SET LOCALE LANGUAGE lang obsolete_parameters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale_obsolete.htm). Effect This statement sets the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale.htm"
+abapFile: "abapset_locale.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abapset", "locale"]
+---
 
 * * *
 

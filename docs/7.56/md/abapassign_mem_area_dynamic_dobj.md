@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  (name)    dref->    dobj INCREMENT inc  ... Alternatives: 1. ... (name)(#!ABAP_ALTERNATIVE_1@1@) 2. ... dref->(#!ABAP_ALTERNATIVE_2@2@) 3. ... dobj INCREMENT inc(#!ABAP_ALTERNATIVE_3@3@) Effect These alternatives to specifying the memory area mem_area(htt
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area_dynamic_dobj.htm"
+abapFile: "abapassign_mem_area_dynamic_dobj.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "field-symbol", "abapassign", "mem", "area", "dynamic", "dobj"]
+---
 
 * * *
 

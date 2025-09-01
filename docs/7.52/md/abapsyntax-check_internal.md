@@ -1,4 +1,14 @@
-  
+---
+title: "SYNTAX-CHECK - Internal Additions"
+description: |
+  Internal Additions These additions are for internal use only. Do not use them in application programs. Extras: 1. ... SHORTDUMP-ID sid(#!ABAP_ADDITION_1@1@) 2. ... TRACE-TABLE trt(#!ABAP_ADDITION_2@2@) 3. ... REPLACING incl(#!ABAP_ADDITION_3@3@) 4. ... FRAME ENTRY dir(#!ABAP_ADDITION_4@4
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm"
+abapFile: "abapsyntax-check_internal.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abapsyntax", "check", "internal"]
+---
 
 * * *
 

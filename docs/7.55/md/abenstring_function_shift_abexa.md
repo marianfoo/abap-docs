@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_shift_substring. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA output TYPE TABLE OF string. output = VALUE #( ( `            oo            ` ) ). output = VALUE #( LET n = strlen( output 1  ) IN BASE output FOR j
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_function_shift_abexa.htm"
+abapFile: "abenstring_function_shift_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenstring", "function", "shift", "abexa"]
+---
 
 * * *
 

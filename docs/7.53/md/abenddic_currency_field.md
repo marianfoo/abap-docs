@@ -1,4 +1,14 @@
-  
+---
+title: "Currency Fields"
+description: |
+  A currency field is a component of a structure, database table, or view defined in ABAP Dictionary of type CURR(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and used to record an amount in a specific currency. The amount is specified as a whole number in t
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_currency_field.htm"
+abapFile: "abenddic_currency_field.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "currency", "field"]
+---
 
 * * *
 
@@ -12,9 +22,7 @@ A currency field is a component of a structure, database table, or view defined 
 
 By default, the number of decimal places for a currency is always two. Currencies with a different number of decimal places must also be entered in the table TCURX, where the number of decimal places can be defined explicitly.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_1)
-
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
+-   [Handling in ABAP Dictionary](#abenddic-currency-field-1--------handling-in-dynpros---@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
 
 -   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_3)
 

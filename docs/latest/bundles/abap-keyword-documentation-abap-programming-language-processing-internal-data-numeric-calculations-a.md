@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenlossless_calculation.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... EXACT type( arith_exp ) .... If the operand of the operator EXACT is an arithmetic expression, the data type specified by type must not be of type f. arith_exp must be an arithmetic expression simplified as follows: -   The allowed arithmetic operators(https://help.sap.com/doc/abapdocu_lates
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_calculation.htm"
+abapFile: "abenlossless_calculation.htm"
+keywords: ["do", "if", "try", "catch", "method", "data", "types", "abenlossless", "calculation"]
+---
 
 * * *
 
@@ -78,7 +88,17 @@ Continue
 
 ### abencompute_exact_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_compute_exact DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: BEGIN OF o, div     TYPE string, result1 TYPE string, flag1   TYPE string, result2 TYPE string, flag2   TYPE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_exact_abexa.htm"
+abapFile: "abencompute_exact_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abencompute", "exact", "abexa"]
+---
 
 * * *
 

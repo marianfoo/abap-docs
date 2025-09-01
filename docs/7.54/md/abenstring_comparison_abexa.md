@@ -1,4 +1,14 @@
-  
+---
+title: "Comparing Text Strings of Different Length"
+description: |
+  This example demonstrates how text strings of different lengths are compared. Source Code REPORT demo_string_comparison. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA length1 TYPE n LENGTH 1 VALUE '4'. cl_demo_input=>add_field(
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_comparison_abexa.htm"
+abapFile: "abenstring_comparison_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenstring", "comparison", "abexa"]
+---
 
 * * *
 

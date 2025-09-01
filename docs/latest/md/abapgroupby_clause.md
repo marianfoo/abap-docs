@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, GROUP BY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_shortref.htm) Syntax ... GROUP BY   sql_exp1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm), sql_exp2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgroupby_clause.htm"
+abapFile: "abapgroupby_clause.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abapgroupby", "clause"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LOCAL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplocal_shortref.htm) Obsolete Syntax LOCAL dobj. Effect The statement LOCAL, which is forbidden in classes, saves the current content of a data object dobj in an internal buffer. It can be used only in subroutines(http
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplocal.htm"
+abapFile: "abaplocal.htm"
+keywords: ["loop", "do", "if", "try", "class", "data", "internal-table", "field-symbol", "abaplocal"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "extension_index_glosry"
+description: |
+  extension_index_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextension_index_glosry.htm"
+abapFile: "abenextension_index_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenextension", "index", "glosry"]
+---
 
 * * *
 

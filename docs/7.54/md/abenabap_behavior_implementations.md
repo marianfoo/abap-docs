@@ -1,4 +1,14 @@
-  
+---
+title: "Behavior Implementations"
+description: |
+  In the case of the implementation type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_implementation.htm) unmanaged, the application must implement all significant components of the REST(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_implementations.htm"
+abapFile: "abenabap_behavior_implementations.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenabap", "behavior", "implementations"]
+---
 
 * * *
 

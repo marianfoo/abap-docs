@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... field characteristics; use; actions and functions; mapping for; extend mapping for; Effect Defines the behavior extension body(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_behavior_ext_body_glosry.htm 'Glossary Entry') to extend an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm"
+abapFile: "abenbdl_proj_ext_body.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abenbdl", "proj", "ext", "body"]
+---
 
 * * *
 

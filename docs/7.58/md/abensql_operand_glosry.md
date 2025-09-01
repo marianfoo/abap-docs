@@ -1,4 +1,14 @@
-  
+---
+title: "SQL operand"
+description: |
+  Elementary operand in an ABAP SQL statement(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm 'Glossary Entry'). SQL operands are columns of DDIC database tables(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm 'Glossary Ent
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_operand_glosry.htm"
+abapFile: "abensql_operand_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensql", "operand", "glosry"]
+---
 
 * * *
 

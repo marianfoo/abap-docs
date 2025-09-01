@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Examples"
+description: |
+  2(#2) A(#A) B(#B) C(#C) D(#D) E(#E) F(#F) G(#G) H(#H) I(#I) J(#J) L(#L) M(#M) N(#N) P(#P) Q(#Q) R(#R) S(#S) T(#T) U(#U) V(#V) W(#W) X(#X) 2  2048 Game(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengame_2048_abexa.htm) A  ABAP as HTTP
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_examples.htm"
+abapFile: "abenabap_examples.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "exception-handling", "abenabap", "examples"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Determination"
+description: |
+  This example demonstrates how determinations are defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of the root entity DEMO_SALES_CDS_SO_2 and its child entity DEMO_SALES_CDS_SO_I_2. The root entity represents a sales order and the child entity re
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determination_abexa.htm"
+abapFile: "abenbdl_determination_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "determination", "abexa"]
+---
 
 * * *
 

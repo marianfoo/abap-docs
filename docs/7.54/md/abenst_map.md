@@ -1,4 +1,14 @@
-  
+---
+title: "ST - map, Mapping List"
+description: |
+  Syntax ... map='..., val(a1, a2, ...) > xml(x), ...' ... ... map='..., xml(x1, x2, ...) > val(a), ...' ... ... map='..., val(a) = xml(x), ...' ... ... map='..., xml(x) = val(a), ...' ... Effect The attribute map is used to specify a mapping list for tt:value(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_map.htm"
+abapFile: "abenst_map.htm"
+keywords: ["do", "if", "try", "data", "abenst", "map"]
+---
 
 * * *
 

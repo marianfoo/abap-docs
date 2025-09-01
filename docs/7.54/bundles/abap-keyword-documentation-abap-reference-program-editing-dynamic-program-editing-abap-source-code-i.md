@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abengeneric_internal.htm
 
-  
+---
+title: "Internal Statements for Source Code Processing"
+description: |
+  Internal Statements These statements are for internal use only. They cannot be used in application programs. -   SYNTAX-CHECK FOR PROGRAM(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_program.htm) -   GENERATE REPORT(https://help.sap.com/doc/abapdocu_754_index_h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_internal.htm"
+abapFile: "abengeneric_internal.htm"
+keywords: ["delete", "do", "abengeneric", "internal"]
+---
 
 * * *
 
@@ -40,7 +50,17 @@ Continue
 
 ### abapsyntax-check_for_program.htm
 
-  
+---
+title: "SYNTAX-CHECK FOR PROGRAM"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax SYNTAX-CHECK FOR PROGRAM prog MESSAGE mess LINE lin WORD wrd WITH CURRENT SWITCHSTATES error_handling(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_error_handling
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_program.htm"
+abapFile: "abapsyntax-check_for_program.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapsyntax", "check", "for", "program"]
+---
 
 * * *
 
@@ -108,7 +128,17 @@ These additions work as described in [SYNTAX-CHECK - Internal Additions](https:/
 
 ### abapgenerate_report.htm
 
-  
+---
+title: "GENERATE REPORT"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax GENERATE REPORT prog error_handling. Extras: 1. ... MESSAGE f1(#!ABAP_ADDITION_1@1@) 2. ... INCLUDE f2(#!ABAP_ADDITION_2@2@) 3. ... LINE f3(#!ABAP_ADDITION_3@3@) 4. ... WORD f4(#!ABAP_AD
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_report.htm"
+abapFile: "abapgenerate_report.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "abapgenerate", "report"]
+---
 
 * * *
 
@@ -284,7 +314,17 @@ With this addition, the [test classes](https://help.sap.com/doc/abapdocu_754_ind
 
 ### abapload.htm
 
-  
+---
+title: "LOAD REPORT"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax LOAD REPORT prog PART part INTO itab. Effect The part (specified in part) of the generated form (load(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenload_glosry.htm 'Glossary Entry')) of th
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload.htm"
+abapFile: "abapload.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abapload"]
+---
 
 * * *
 
@@ -646,7 +686,17 @@ Non-Handleable Exceptions
 
 ### abapdelete_report.htm
 
-  
+---
+title: "DELETE REPORT"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DELETE REPORT prog. Addition: ... STATE state(#!ABAP_ONE_ADD@1@) Effect Deletes the source code, attributes, text elements, and generated version of the program, whose names are in the data object prog. An
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_report.htm"
+abapFile: "abapdelete_report.htm"
+keywords: ["insert", "delete", "do", "if", "try", "data", "abapdelete", "report"]
+---
 
 * * *
 
@@ -724,7 +774,17 @@ Non-Handleable Exceptions
 
 ### abapscan.htm
 
-  
+---
+title: "SCAN"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Variants: 1. SCAN ABAP-SOURCE itab1 ...TOKENS INTO itab2(#!ABAP_VARIANT_1@1@) ...STATEMENTS INTO itab3. 2. SCAN AND CHECK ABAP-SOURCE itab1 ...RESULT INTO itab2.(#!ABAP_VARIANT_2@2@) Variant 1 SCAN ABAP-SOURC
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscan.htm"
+abapFile: "abapscan.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapscan"]
+---
 
 * * *
 

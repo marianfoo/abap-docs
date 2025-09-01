@@ -1,4 +1,14 @@
-  
+---
+title: "queued_remote_function_glosry"
+description: |
+  queued_remote_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenqueued_remote_function_glosry.htm"
+abapFile: "abenqueued_remote_function_glosry.htm"
+keywords: ["do", "if", "try", "abenqueued", "remote", "function", "glosry"]
+---
 
 * * *
 

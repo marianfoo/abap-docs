@@ -1,4 +1,14 @@
-  
+---
+title: "GET node"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_shortref.htm) Obsolete Syntax GET node LATE FIELDS f1 f2 .... Alternatives: 1. GET node FIELDS f1 f2 ....(#!ABAP_ALTERNATIVE_1@1@) 2. GET node LATE FIELDS f1 f2 ....(#!ABAP_ALTE
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget-.htm"
+abapFile: "abapget-.htm"
+keywords: ["select", "do", "while", "if", "try", "data", "types", "abapget"]
+---
 
 * * *
 

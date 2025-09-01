@@ -1,4 +1,14 @@
-  
+---
+title: "Absolute Type Names"
+description: |
+  Syntax Forms Global Context TYPE=type_ nameLINE-comp  CLASS=class_name  INTERFACE=intf_name Global Class/Interface Context clifTYPE=type_ nameLINE-comp Program Context progTYPE=type_ nameLINE-comp  progCLASS=cla
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_names.htm"
+abapFile: "abentype_names.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abentype", "names"]
+---
 
 * * *
 

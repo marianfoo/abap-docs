@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Statements in Class Pools and Interface Pools"
+description: |
+  Class pools and interface pools are the ABAP programs where global classes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_class_glosry.htm 'Glossary Entry') and global interfaces(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_interface_glosry.htm 'Gl
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_interace_pools.htm"
+abapFile: "abenclass_interace_pools.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenclass", "interace", "pools"]
+---
 
 * * *
 

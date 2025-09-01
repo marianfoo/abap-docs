@@ -1,4 +1,14 @@
-  
+---
+title: "MULTIPLY-CORRESPONDING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply-correspond_shortref.htm) Obsolete Syntax MULTIPLY-CORRESPONDING struc1 BY struc2. Effect This statement, which is forbidden in classes, multiplies structures in terms of components. Structures must be specified
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply-corresponding.htm"
+abapFile: "abapmultiply-corresponding.htm"
+keywords: ["do", "if", "class", "data", "abapmultiply", "corresponding"]
+---
 
 * * *
 

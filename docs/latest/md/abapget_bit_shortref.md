@@ -1,4 +1,14 @@
-  
+---
+title: "GET BIT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_bit.htm) Syntax GET BIT bitpos OF byte_string INTO val. Effect Returns the bit at the bit position bitpos of the data object byte_string in val.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_bit_shortref.htm"
+abapFile: "abapget_bit_shortref.htm"
+keywords: ["do", "if", "data", "abapget", "bit", "shortref"]
+---
 
 * * *
 

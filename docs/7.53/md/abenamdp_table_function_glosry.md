@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP Table Function"
+description: |
+  Table function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_function_glosry.htm 'Glossary Entry') of the SAP HANA database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm 'Glossary Entry') implemented in an AMDP function implementa
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_table_function_glosry.htm"
+abapFile: "abenamdp_table_function_glosry.htm"
+keywords: ["do", "try", "method", "class", "data", "abenamdp", "table", "function", "glosry"]
+---
 
 * * *
 

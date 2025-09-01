@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... AS_GEO_JSON( geom ) ... Effect The function AS_GEO_JSON reads geometry input in the extended well-known binary (EWKB) representation(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_geo_data.htm) and returns a geometry object in JSON(https://help.sap.com/doc/abapdocu_7
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_geo_conv_func.htm"
+abapFile: "abensql_geo_conv_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "data", "types", "abensql", "geo", "conv", "func"]
+---
 
 * * *
 

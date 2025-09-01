@@ -1,4 +1,14 @@
-  
+---
+title: "class_component_glosry"
+description: |
+  class_component_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_component_glosry.htm"
+abapFile: "abenclass_component_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenclass", "component", "glosry"]
+---
 
 * * *
 

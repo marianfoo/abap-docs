@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - CALL FUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_shortref.htm) Syntax Forms Synchronous RFC(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_destination.htm) 1. CALL FUNCTION func DESTINATION dest parameter_list(https://
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_destination-.htm"
+abapFile: "abapcall_function_destination-.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "internal-table", "abapcall", "function", "destination"]
+---
 
 * * *
 

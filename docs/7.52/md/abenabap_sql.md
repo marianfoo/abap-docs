@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Database Accesses"
+description: |
+  All the data relevant for all applications in AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry'), including metadata and technical data, is collected and managed centrally in the standard database(https://help.sap.com/doc/abapdocu_752_
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm"
+abapFile: "abenabap_sql.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenabap", "sql"]
+---
 
 * * *
 

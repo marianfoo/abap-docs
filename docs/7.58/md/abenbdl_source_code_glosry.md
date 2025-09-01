@@ -1,4 +1,14 @@
-  
+---
+title: "BDL source code"
+description: |
+  Source code for RAP behavior definitions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') in RAP BDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm 'Glossary Entry').
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_source_code_glosry.htm"
+abapFile: "abenbdl_source_code_glosry.htm"
+keywords: ["do", "if", "try", "abenbdl", "source", "code", "glosry"]
+---
 
 * * *
 

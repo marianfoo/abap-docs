@@ -1,4 +1,14 @@
-  
+---
+title: "exclusive_lock_glosry"
+description: |
+  exclusive_lock_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexclusive_lock_glosry.htm"
+abapFile: "abenexclusive_lock_glosry.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "data", "abenexclusive", "lock", "glosry"]
+---
 
 * * *
 

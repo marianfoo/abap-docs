@@ -1,4 +1,14 @@
-  
+---
+title: "stream_glosry"
+description: |
+  stream_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstream_glosry.htm"
+abapFile: "abenstream_glosry.htm"
+keywords: ["do", "try", "class", "data", "types", "abenstream", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "leap_second_glosry"
+description: |
+  leap_second_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleap_second_glosry.htm"
+abapFile: "abenleap_second_glosry.htm"
+keywords: ["do", "try", "abenleap", "second", "glosry"]
+---
 
 * * *
 

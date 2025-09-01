@@ -1,4 +1,14 @@
-  
+---
+title: "Subroutines"
+description: |
+  Before the introduction of ABAP Objects, subroutines were mainly used for the local modularization of an ABAP program, however, they can also be called externally. Their functions are implemented between the statements FORM(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform.h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_subroutines.htm"
+abapFile: "abenabap_subroutines.htm"
+keywords: ["do", "if", "try", "method", "abenabap", "subroutines"]
+---
 
 * * *
 

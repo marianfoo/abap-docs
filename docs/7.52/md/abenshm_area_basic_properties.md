@@ -1,4 +1,14 @@
-  
+---
+title: "Areas - Basic Properties"
+description: |
+  An area has the following basic properties: -   Area name The name of an area. This is also the name of the generated global area class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_class.htm) and is therefore unique across the system. It is advisable to follow the naming
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_basic_properties.htm"
+abapFile: "abenshm_area_basic_properties.htm"
+keywords: ["select", "update", "do", "while", "if", "case", "try", "method", "class", "data", "abenshm", "area", "basic", "properties"]
+---
 
 * * *
 

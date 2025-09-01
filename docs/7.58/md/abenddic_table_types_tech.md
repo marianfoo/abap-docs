@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Technical Properties of Table Types"
+description: |
+  A table type describes an internal table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm 'Glossary Entry') with the following technical properties: -   Line type The line type can be defined as follows: -   The line type can be defined by referencing any d
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_types_tech.htm"
+abapFile: "abenddic_table_types_tech.htm"
+keywords: ["loop", "do", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abenddic", "table", "tech"]
+---
 
 * * *
 

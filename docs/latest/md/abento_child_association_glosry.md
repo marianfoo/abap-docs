@@ -1,4 +1,14 @@
-  
+---
+title: "CDS to-child association"
+description: |
+  A specialized CDS association(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_core_data_services_glosry.htm 'Glossary Entry') that is defined in t
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abento_child_association_glosry.htm"
+abapFile: "abento_child_association_glosry.htm"
+keywords: ["do", "if", "try", "data", "abento", "child", "association", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "INITIALIZATION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization.htm) Syntax INITIALIZATION. Effect Initializes an event block whose event is raised in an executable program(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexecutable_program_glosry.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinitialization_shortref.htm"
+abapFile: "abapinitialization_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapinitialization", "shortref"]
+---
 
 * * *
 

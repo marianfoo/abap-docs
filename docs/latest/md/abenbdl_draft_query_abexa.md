@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - RAP BO with DCL Access Control"
+description: |
+  This example demonstrates how read access control is implemented and evaluated for a RAP BO for active data and for draft data using the CDS data control language CDS DCL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_glosry.htm 'Glossary Entry'). Data model The CDS da
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_query_abexa.htm"
+abapFile: "abenbdl_draft_query_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "draft", "query", "abexa"]
+---
 
 * * *
 

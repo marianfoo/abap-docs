@@ -1,4 +1,14 @@
-  
+---
+title: "hierarchy_agg_navi_glosry"
+description: |
+  hierarchy_agg_navi_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhierarchy_agg_navi_glosry.htm"
+abapFile: "abenhierarchy_agg_navi_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenhierarchy", "agg", "navi", "glosry"]
+---
 
 * * *
 

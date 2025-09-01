@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FAILED failed_resp MAPPED mapped_resp REPORTED reported_resp ... Effect Used to specify response parameters for nondynamic (i. e. short or long) forms of ABAP EML statements, for example, MODIFY ENTITY(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_responses.htm"
+abapFile: "abapeml_responses.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "internal-table", "abapeml", "responses"]
+---
 
 * * *
 

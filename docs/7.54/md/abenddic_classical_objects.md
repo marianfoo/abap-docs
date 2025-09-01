@@ -1,4 +1,14 @@
-  
+---
+title: "Classic Objects in ABAP Dictionary"
+description: |
+  The most important classic objects in ABAP Dictionary are: -   Data types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_data_types.htm) ABAP Dictionary can handle the following standalone data types: -   Data elements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm"
+abapFile: "abenddic_classical_objects.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abenddic", "classical", "objects"]
+---
 
 * * *
 

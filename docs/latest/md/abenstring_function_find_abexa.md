@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_find_and_match DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_find_and_match IMPLEMENTATION. METHOD main. DATA: text TYPE c LENGTH 1
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_function_find_abexa.htm"
+abapFile: "abenstring_function_find_abexa.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "abenstring", "function", "find", "abexa"]
+---
 
 * * *
 

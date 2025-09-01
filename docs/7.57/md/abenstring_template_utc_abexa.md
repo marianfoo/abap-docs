@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_utc_frmt. PARAMETERS timefm TYPE t005x-timefm DEFAULT '0' AS LISTBOX VISIBLE LENGTH 40. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. PRIVATE SECTION. CONSTANTS datfm_values TYPE string VALUE `123456789ABC;`. CLASS-DATA: BEGIN OF result, col1 TYPE str
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_template_utc_abexa.htm"
+abapFile: "abenstring_template_utc_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenstring", "template", "utc", "abexa"]
+---
 
 * * *
 

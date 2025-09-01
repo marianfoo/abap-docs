@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Working with Hierarchies"
+description: |
+  This example summarizes the functions ABAP SQL offers together with ABAP CDS for working with hierarchical data(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhierarchy_glosry.htm 'Glossary Entry') that is stored in database tables. Source Code REPORT demo_sql_hierarchies. CLASS
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensheet_abap_sql_hiera_abexa.htm"
+abapFile: "abensheet_abap_sql_hiera_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abensheet", "abap", "sql", "hiera", "abexa"]
+---
 
 * * *
 

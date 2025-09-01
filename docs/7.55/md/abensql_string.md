@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... sql_elem1 && sql_elem2  && sql_elem3 ...  ... Effect String expression in ABAP SQL. The operator && concatenates the character strings in two adjacent operand into a single character string. Elementary SQL expressions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensq
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_string.htm"
+abapFile: "abensql_string.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abensql", "string"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP development environment"
+description: |
+  ABAP DE for short. Development environment for repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that form ABAP applications provided by an ABAP Platform(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dev_envir_glosry.htm"
+abapFile: "abenabap_dev_envir_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "dev", "envir", "glosry"]
+---
 
 * * *
 

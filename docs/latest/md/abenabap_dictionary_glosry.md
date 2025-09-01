@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Dictionary"
+description: |
+  Persistent storage for data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_glosry.htm 'Glossary Entry') that are visible in all repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dictionary_glosry.htm"
+abapFile: "abenabap_dictionary_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "dictionary", "glosry"]
+---
 
 * * *
 

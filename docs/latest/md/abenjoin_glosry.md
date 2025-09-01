@@ -1,4 +1,14 @@
-  
+---
+title: "join_glosry"
+description: |
+  join_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenjoin_glosry.htm"
+abapFile: "abenjoin_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenjoin", "glosry"]
+---
 
 * * *
 

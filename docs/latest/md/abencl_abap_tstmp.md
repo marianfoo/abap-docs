@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for Time Stamps in Packed Numbers"
+description: |
+  The class CL_ABAP_TSTMP is used to calculate and convert time stamps in packed numbers(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamps_packed.htm). Important methods include: -   The methods ADD, SUBTRACTSECS, ADD_TO_SHORT, ADD_TO_SHORT_TRUNC, SUBTRACTSECS_T
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_tstmp.htm"
+abapFile: "abencl_abap_tstmp.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "tstmp"]
+---
 
 * * *
 

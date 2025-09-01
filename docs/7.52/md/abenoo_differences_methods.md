@@ -1,4 +1,14 @@
-  
+---
+title: "Statements for Implementing Methods"
+description: |
+  The functions of classes are implemented in methods, between METHOD - ENDMETHOD. The statements allowed in methods include all parts of the ABAP language allowed in any procedure. It must be noted, however, that all statements in methods are subject to the stricter syntax(https://help.sap.com/doc/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoo_differences_methods.htm"
+abapFile: "abenoo_differences_methods.htm"
+keywords: ["do", "if", "method", "class", "abenoo", "differences", "methods"]
+---
 
 * * *
 

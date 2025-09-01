@@ -1,4 +1,14 @@
-  
+---
+title: "Names of Structure Components"
+description: |
+  Background When ABAP programs are executed, the names of data objects usually only have the task of identifying the data objects uniquely. The ABAP statements operate directly with the objects in question without attaching any special meaning to their names. The names of structure components are an
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstruc_comp_names_guidl.htm"
+abapFile: "abenstruc_comp_names_guidl.htm"
+keywords: ["select", "do", "if", "case", "class", "data", "types", "internal-table", "abenstruc", "comp", "names", "guidl"]
+---
 
 * * *
 

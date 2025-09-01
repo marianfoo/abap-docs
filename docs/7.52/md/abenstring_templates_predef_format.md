@@ -1,4 +1,14 @@
-  
+---
+title: "Embedded Expressions - Predefined Formats"
+description: |
+  The following predefined formatting rules apply to embedded expressions in string templates. These rules can be overridden by explicit formatting options format_options(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string_format_options.htm). -   Text Length(#abenstring
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_predef_format.htm"
+abapFile: "abenstring_templates_predef_format.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "abenstring", "templates", "predef", "format"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Embedded Expressions - Predefined Formats
 
 The following predefined formatting rules apply to embedded expressions in string templates. These rules can be overridden by explicit formatting options [format\_options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string_format_options.htm).
 
--   [Text Length](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_1)
+-   [Text Length](#abenstring-templates-predef-format-1--------alignment---@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_2)
 
--   [Alignment](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_2)
-
--   [Character-Like Data Types and Date/Time Types](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_3)
-
--   [Byte-Like Data Types](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_4)
+-   [Character-Like Data Types and Date/Time Types](#abenstring-templates-predef-format-3--------byte-like-data-types---@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_4)
 
 -   [Numeric Data Types](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_5)
 

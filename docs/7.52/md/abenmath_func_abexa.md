@@ -1,4 +1,14 @@
-  
+---
+title: "Numerical Functions"
+description: |
+  This example demonstrates the use of general numerical functions. Source Code REPORT demo_numerical_function. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA n TYPE decfloat16. DATA m TYPE decfloat16 VALUE '-5.55'. DATA(out) = cl_d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmath_func_abexa.htm"
+abapFile: "abenmath_func_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abenmath", "func", "abexa"]
+---
 
 * * *
 

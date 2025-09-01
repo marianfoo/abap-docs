@@ -1,4 +1,14 @@
-  
+---
+title: "Object References in Internal Tables"
+description: |
+  If the row type of an internal table contains object reference variables in the form of the component comp, the attributes attr of the object (to which each reference of the row points) can be used as key values for reading, sorting, and modifying rows in tables. This is possible in the following st
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_attributes_as_key.htm"
+abapFile: "abenclass_attributes_as_key.htm"
+keywords: ["delete", "loop", "do", "if", "class", "internal-table", "abenclass", "attributes", "key"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - EXTEND ABSTRACT ENTITY"
+description: |
+  Syntax EXTEND ABSTRACT ENTITY cds_abstract_entity WITH  element_list_extension  Effect Extends an existing CDS abstract entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm 'Glossary Entry') cds_abstract_entity using a CDS abstract enti
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_extend_abstract_entity.htm"
+abapFile: "abencds_extend_abstract_entity.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "abencds", "extend", "abstract", "entity"]
+---
 
 * * *
 

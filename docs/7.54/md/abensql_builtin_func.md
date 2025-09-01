@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... sql_func( ... sql_exp ... )(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_builtin_functions.htm) ... Effect Calling a predefined function(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_builtin_functions.htm) in ABAP SQL. The result is the
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_builtin_func.htm"
+abapFile: "abensql_builtin_func.htm"
+keywords: ["select", "do", "if", "try", "data", "abensql", "builtin", "func"]
+---
 
 * * *
 

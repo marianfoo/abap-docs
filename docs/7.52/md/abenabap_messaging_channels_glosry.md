@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP messaging channels"
+description: |
+  Abbreviated as AMC. Framework for communication between the ABAP programs(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm 'Glossary Entry') in an AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messaging_channels_glosry.htm"
+abapFile: "abenabap_messaging_channels_glosry.htm"
+keywords: ["do", "try", "data", "abenabap", "messaging", "channels", "glosry"]
+---
 
 * * *
 

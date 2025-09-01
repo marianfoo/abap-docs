@@ -1,4 +1,14 @@
-  
+---
+title: "Time"
+description: |
+  → Time(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenday_time_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_glosry.htm"
+abapFile: "abentime_glosry.htm"
+keywords: ["do", "try", "abentime", "glosry"]
+---
 
 * * *
 

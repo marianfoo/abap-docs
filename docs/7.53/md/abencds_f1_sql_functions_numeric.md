@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Numeric Functions"
+description: |
+  The following table shows the possible numeric SQL functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_sql_functions.htm) in a CDS view(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm 'Glossary Entry'), plus the requirements made on
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_sql_functions_numeric.htm"
+abapFile: "abencds_f1_sql_functions_numeric.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "sql", "functions", "numeric"]
+---
 
 * * *
 

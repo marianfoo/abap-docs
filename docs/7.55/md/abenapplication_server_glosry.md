@@ -1,4 +1,14 @@
-  
+---
+title: "application_server_glosry"
+description: |
+  application_server_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapplication_server_glosry.htm"
+abapFile: "abenapplication_server_glosry.htm"
+keywords: ["do", "if", "try", "abenapplication", "server", "glosry"]
+---
 
 * * *
 

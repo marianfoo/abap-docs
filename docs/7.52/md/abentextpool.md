@@ -1,4 +1,14 @@
-  
+---
+title: "The statements"
+description: |
+  -   READ TEXTPOOL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool.htm) -   INSERT TEXTPOOL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool.htm) for dynamically creating and editing text elements(https://help.sap.com/doc/abapdocu_752_i
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentextpool.htm"
+abapFile: "abentextpool.htm"
+keywords: ["insert", "do", "if", "try", "abentextpool"]
+---
 
 * * *
 

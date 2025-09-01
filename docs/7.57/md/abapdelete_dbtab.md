@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_dbtab_shortref.htm) Syntax DELETE  FROM target(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapiumd_target.htm)  connection(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/aba
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_dbtab.htm"
+abapFile: "abapdelete_dbtab.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "types", "internal-table", "abapdelete", "dbtab"]
+---
 
 * * *
 

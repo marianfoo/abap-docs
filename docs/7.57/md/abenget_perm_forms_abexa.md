@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - GET PERMISSIONS, Variants"
+description: |
+  This example demonstrates the variants of the GET PERMISSIONS statement using the addition ONLY INSTANCE FEATURES: -   GET PERMISSIONS ENTITY bdef (short form) -   GET PERMISSIONS OF bdef (long form) -   GET PERMISSIONS OPERATIONS (dynamic form) Data model The CDS data model consists of the root ent
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenget_perm_forms_abexa.htm"
+abapFile: "abenget_perm_forms_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenget", "perm", "forms", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Access to Database Functions"
+description: |
+  This example demonstrates how a database function is accessed using static Native SQL. Source Code  Public class definition CLASS cl_demo_exec_sql_db_function DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public cla
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm"
+abapFile: "abenexec_sql_db_function_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenexec", "sql", "function", "abexa"]
+---
 
 * * *
 

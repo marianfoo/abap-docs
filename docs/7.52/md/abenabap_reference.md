@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Reference"
+description: |
+  The ABAP reference describes the syntax and meaning of all ABAP language elements in their thematic context. -   ABAP Syntax(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) -   Program Layout(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_prog
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm"
+abapFile: "abenabap_reference.htm"
+keywords: ["do", "data", "types", "abenabap", "reference"]
+---
 
 * * *
 

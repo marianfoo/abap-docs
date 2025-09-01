@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... regex = posix ...  ) ... Effect In string functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_functions.htm), where the arguments pcre(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_functions_regex.htm) or xpath(https://help.sap.com/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_functions_regex_obs.htm"
+abapFile: "abenstring_functions_regex_obs.htm"
+keywords: ["do", "try", "data", "abenstring", "functions", "regex", "obs"]
+---
 
 * * *
 

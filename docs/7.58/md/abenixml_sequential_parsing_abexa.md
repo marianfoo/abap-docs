@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_parsing_sqntl DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS handle_errors IMPORTING parser TYPE REF TO if_ixml_parser. ENDCLASS.  Public class implementati
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenixml_sequential_parsing_abexa.htm"
+abapFile: "abenixml_sequential_parsing_abexa.htm"
+keywords: ["loop", "do", "if", "method", "class", "data", "abenixml", "sequential", "parsing", "abexa"]
+---
 
 * * *
 

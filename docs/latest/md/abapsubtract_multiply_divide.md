@@ -1,4 +1,14 @@
-  
+---
+title: "SUBTRACT, MULTIPLY, DIVIDE"
+description: |
+  Obsolete Syntax SUBTRACT dobj1 FROM dobj2. MULTIPLY dobj2 BY   dobj1. DIVIDE   dobj2 BY   dobj1. Effect These statements have the same effect as the statements dobj2 -= dobj1.(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_assignments.htm) dobj2 = dobj1.(https:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubtract_multiply_divide.htm"
+abapFile: "abapsubtract_multiply_divide.htm"
+keywords: ["do", "if", "try", "catch", "data", "abapsubtract", "multiply", "divide"]
+---
 
 * * *
 

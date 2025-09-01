@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE-POOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptype-pool_shortref.htm) Syntax TYPE-POOL tpool. Effect The statement TYPE-POOL introduces a type group(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm 'Glossary Entry') called tp
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptype-pool.htm"
+abapFile: "abaptype-pool.htm"
+keywords: ["do", "try", "class", "data", "types", "abaptype", "pool"]
+---
 
 * * *
 

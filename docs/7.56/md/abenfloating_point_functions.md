@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... num_func( arg ) ... Effect Built-in(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions.htm) floating point function for which a floating point number(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfloating_point_number_glosry.htm 'Glossary Entr
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfloating_point_functions.htm"
+abapFile: "abenfloating_point_functions.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "internal-table", "abenfloating", "point", "functions"]
+---
 
 * * *
 

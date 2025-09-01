@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - CDS Abstract Behavior Definitions"
+description: |
+  CDS abstract behavior definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_bdef_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry') are created using the behavior definiti
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_abstract.htm"
+abapFile: "abenbdl_abstract.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "abstract"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Dynamic ORDER BY Clause"
+description: |
+  This example demonstrates how sorting is specified dynamically for SELECT. Source Code  Public class definition CLASS cl_demo_select_dynamic_ordr_by DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class impleme
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_order_by_abexa.htm"
+abapFile: "abendynamic_order_by_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abendynamic", "order", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...   ..., data_source(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm)~, ..., col_spec(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_clause_col_spec.htm) AS alias, ...  (column_syntax) ... Alterna
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_list.htm"
+abapFile: "abapselect_list.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapselect", "list"]
+---
 
 * * *
 

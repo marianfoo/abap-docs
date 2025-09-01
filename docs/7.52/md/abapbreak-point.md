@@ -1,4 +1,14 @@
-  
+---
+title: "BREAK-POINT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point_shortref.htm) Syntax BREAK-POINT  ID group  log_text . Extras: 1. ... ID group(#!ABAP_ADDITION_1@1@) 2. ... log_text(#!ABAP_ADDITION_2@2@) Effect This statement defines a br
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point.htm"
+abapFile: "abapbreak-point.htm"
+keywords: ["select", "insert", "update", "loop", "do", "if", "case", "try", "data", "types", "abapbreak", "point"]
+---
 
 * * *
 

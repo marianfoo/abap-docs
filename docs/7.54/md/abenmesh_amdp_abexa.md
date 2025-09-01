@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP, Fill a Mesh with SQLScript"
+description: |
+  This example demonstrates how a mesh is filled with a database procedure. Source Code REPORT demo_amdp_mesh. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF output_line, position TYPE string, product  TYPE string, END OF output_line, output TYPE STANDA
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_amdp_abexa.htm"
+abapFile: "abenmesh_amdp_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenmesh", "amdp", "abexa"]
+---
 
 * * *
 

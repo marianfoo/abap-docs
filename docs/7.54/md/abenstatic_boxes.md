@@ -1,4 +1,14 @@
-  
+---
+title: "Static Boxes"
+description: |
+  Static boxes are boxed component(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboxed_components.htm)s whose components are known statically and which are subject to initial value sharing(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_value_sharing_glosry.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_boxes.htm"
+abapFile: "abenstatic_boxes.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abenstatic", "boxes"]
+---
 
 * * *
 

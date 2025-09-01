@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  static_meth(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_meth_ident_stat.htm)( ... )->meth1( ... )->meth2( ... )->...->meth( ... )    static_meth(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_meth_ident_stat.htm)( ...
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_static_chain.htm"
+abapFile: "abapcall_method_static_chain.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapcall", "static", "chain"]
+---
 
 * * *
 

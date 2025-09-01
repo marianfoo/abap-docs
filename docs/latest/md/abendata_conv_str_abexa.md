@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Rules for Structures"
+description: |
+  This example demonstrates how structures can be converted from one type to another. Source Code  Public class definition CLASS cl_demo_data_conversion_struct DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_conv_str_abexa.htm"
+abapFile: "abendata_conv_str_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abendata", "conv", "str", "abexa"]
+---
 
 * * *
 

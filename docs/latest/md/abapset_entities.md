@@ -1,4 +1,14 @@
-  
+---
+title: "SET ENTITIES"
+description: |
+  Syntax SET ENTITIES OF root_ent BLOCKEDUNBLOCKED. Additions: 1. ... BLOCKED(#!ABAP_ADDITION_1@1@) 2. ... UNBLOCKED(#!ABAP_ADDITION_2@2@) Effect Blocks or unblocks the ABAP EML access to RAP business objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm"
+abapFile: "abapset_entities.htm"
+keywords: ["do", "if", "case", "try", "abapset", "entities"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT IN  (operand1, operand2, ...)    ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_subquery.htm) UNIONINTERSECTEXCEPT ...(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_operand_in.htm"
+abapFile: "abenwhere_logexp_operand_in.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abenwhere", "logexp", "operand"]
+---
 
 * * *
 

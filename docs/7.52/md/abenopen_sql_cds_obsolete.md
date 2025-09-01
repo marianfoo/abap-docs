@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Access to CDS Views in Open SQL"
+description: |
+  Obsolete Syntax SELECT ... FROM cds_db_view ... Effect Specifies a CDS view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm 'Glossary Entry') using its name CDS_DB_VIEW defined in the annotation @AbapCatalog.sqlViewName(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_cds_obsolete.htm"
+abapFile: "abenopen_sql_cds_obsolete.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenopen", "sql", "cds", "obsolete"]
+---
 
 * * *
 

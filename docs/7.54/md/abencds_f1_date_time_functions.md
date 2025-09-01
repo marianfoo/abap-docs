@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Date Functions and Time Functions"
+description: |
+  Date Functions and Time Functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_date_time_functions.htm) in a CDS View(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm 'Glossary Entry'): -   Date Functions(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_time_functions.htm"
+abapFile: "abencds_f1_date_time_functions.htm"
+keywords: ["select", "do", "try", "data", "abencds", "date", "time", "functions"]
+---
 
 * * *
 

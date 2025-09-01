@@ -1,4 +1,14 @@
-  
+---
+title: "Database Connections"
+description: |
+  An AS ABAP(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') uses database connections to access databases. A database connection defines the address of the database system (database host), the database user(https://help.sap.com/doc/abapdocu_
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_multiconnect.htm"
+abapFile: "abenopensql_multiconnect.htm"
+keywords: ["select", "insert", "update", "delete", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abenopensql", "multiconnect"]
+---
 
 * * *
 
@@ -10,37 +20,21 @@ Database Connections
 
 An [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") uses database connections to access databases. A database connection defines the address of the database system (database host), the [database user](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_user_glosry.htm "Glossary Entry"), and hence the associated [database schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_schema_glosry.htm "Glossary Entry") that is accessed. The [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") and [Native SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements of an ABAP program and the [AMDP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_glosry.htm "Glossary Entry") Framework use a database connection of the current [work process](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwork_process_glosry.htm "Glossary Entry") to access a database. By default, the [standard connection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") is used to access the [ABAP database schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") of the [standard AS ABAP database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_db_glosry.htm "Glossary Entry"). By opening a [secondary connection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry"), it is also possible to access databases or database schemas other than the [standard database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_db_glosry.htm "Glossary Entry"). This makes possible a number of options, for example, data can be passed to and committed in other databases or in other database schemas. The [secondary database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_db_glosry.htm "Glossary Entry") does not need to be part of an AS ABAP here, but it does need to be supported by SAP. Connections called [service connections](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenservice_connection_glosry.htm "Glossary Entry") can also be used to access the standard database.
 
--   [Possible Database Connections](#@@ITOC@@ABENOPENSQL_MULTICONNECT_1)
+-   [Possible Database Connections](#abenopensql-multiconnect-1--------standard-connection---@ITOC@@ABENOPENSQL_MULTICONNECT_2)
 
--   [Standard Connection](#@@ITOC@@ABENOPENSQL_MULTICONNECT_2)
+-   [Secondary Connections](#abenopensql-multiconnect-3--------service-connections-to-the-standard-database---@ITOC@@ABENOPENSQL_MULTICONNECT_4)
 
--   [Secondary Connections](#@@ITOC@@ABENOPENSQL_MULTICONNECT_3)
+-   [Management of Database Connections](#abenopensql-multiconnect-5--------opening-and-closing-secondary-connections-and-service-connections---@ITOC@@ABENOPENSQL_MULTICONNECT_6)
 
--   [Service Connections to the Standard Database](#@@ITOC@@ABENOPENSQL_MULTICONNECT_4)
+-   [Active and Inactive Secondary Connections and Service Connections](#abenopensql-multiconnect-7--------secondary-connections-and-service-connections-in-the-internal-session---@ITOC@@ABENOPENSQL_MULTICONNECT_8)
 
--   [Management of Database Connections](#@@ITOC@@ABENOPENSQL_MULTICONNECT_5)
+-   [Displaying Secondary Connections and Service Connections](#abenopensql-multiconnect-9--------database-access-using-secondary-connections-and-service-connections---@ITOC@@ABENOPENSQL_MULTICONNECT_10)
 
--   [Opening and Closing Secondary Connections and Service Connections](#@@ITOC@@ABENOPENSQL_MULTICONNECT_6)
+-   [ABAP SQL](#abenopensql-multiconnect-11--------native-sql---adbc---@ITOC@@ABENOPENSQL_MULTICONNECT_12)
 
--   [Active and Inactive Secondary Connections and Service Connections](#@@ITOC@@ABENOPENSQL_MULTICONNECT_7)
+-   [Native SQL - EXEC SQL](#abenopensql-multiconnect-13--------amdp---@ITOC@@ABENOPENSQL_MULTICONNECT_14)
 
--   [Secondary Connections and Service Connections in the Internal Session](#@@ITOC@@ABENOPENSQL_MULTICONNECT_8)
-
--   [Displaying Secondary Connections and Service Connections](#@@ITOC@@ABENOPENSQL_MULTICONNECT_9)
-
--   [Database Access Using Secondary Connections and Service Connections](#@@ITOC@@ABENOPENSQL_MULTICONNECT_10)
-
--   [ABAP SQL](#@@ITOC@@ABENOPENSQL_MULTICONNECT_11)
-
--   [Native SQL - ADBC](#@@ITOC@@ABENOPENSQL_MULTICONNECT_12)
-
--   [Native SQL - EXEC SQL](#@@ITOC@@ABENOPENSQL_MULTICONNECT_13)
-
--   [AMDP](#@@ITOC@@ABENOPENSQL_MULTICONNECT_14)
-
--   [Interaction of ABAP SQL, Native SQL, and AMDP](#@@ITOC@@ABENOPENSQL_MULTICONNECT_15)
-
--   [Database Connections and Transactions](#@@ITOC@@ABENOPENSQL_MULTICONNECT_16)
+-   [Interaction of ABAP SQL, Native SQL, and AMDP](#abenopensql-multiconnect-15--------database-connections-and-transactions---@ITOC@@ABENOPENSQL_MULTICONNECT_16)
 
 Possible Database Connections
 

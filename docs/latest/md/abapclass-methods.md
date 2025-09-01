@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_shortref.htm) Syntax Forms General Static Methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_general.htm) 1. CLASS-METHODS meth DEFAULT IGNOREFAIL(ht
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods.htm"
+abapFile: "abapclass-methods.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "types", "abapclass", "methods"]
+---
 
 * * *
 

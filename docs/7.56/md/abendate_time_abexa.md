@@ -1,4 +1,14 @@
-  
+---
+title: "Evaluating Date Fields and Time Fields"
+description: |
+  This example demonstrates calculations with date and time fields. Source Code REPORT demo_data_date_time. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: ultimo TYPE d, t1 TYPE t VALUE '000000', t2 TYPE t, diff TYPE i, seconds TYP
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendate_time_abexa.htm"
+abapFile: "abendate_time_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abendate", "time", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DEFINE TABLE - field"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_table_fkprps.htm) KEY field : data_element foreign_key(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_table_fo
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_table_comps.htm"
+abapFile: "abenddicddl_define_table_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "table", "comps"]
+---
 
 * * *
 

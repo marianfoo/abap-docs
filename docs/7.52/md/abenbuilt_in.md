@@ -1,4 +1,14 @@
-  
+---
+title: "Predefined Types, Data Objects, Functions, and Constructors"
+description: |
+  Each ABAP program provides a range of the following elements: -   Predefined types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types.htm) -   Data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_objects.htm) -   Functions(https://help
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in.htm"
+abapFile: "abenbuilt_in.htm"
+keywords: ["do", "data", "types", "abenbuilt"]
+---
 
 * * *
 

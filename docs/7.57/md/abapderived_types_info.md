@@ -1,4 +1,14 @@
-  
+---
+title: "Components Related to Information Processing"
+description: |
+  -   %element(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_element.htm) -   %fail(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_fail.htm) -   %foreign(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_fore
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_info.htm"
+abapFile: "abapderived_types_info.htm"
+keywords: ["do", "if", "try", "types", "abapderived", "info"]
+---
 
 * * *
 

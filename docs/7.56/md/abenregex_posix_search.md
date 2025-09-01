@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX regex - Search Patterns (obsolete)"
+description: |
+  A main application of regular expressions is the search for and subsequent replacement of(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_replace.htm) substrings in character strings. In general, a user is interested in a specific selection of substrings that match a reg
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_search.htm"
+abapFile: "abenregex_posix_search.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "internal-table", "abenregex", "posix", "search"]
+---
 
 * * *
 
@@ -10,12 +20,9 @@ POSIX regex - Search Patterns (obsolete)
 
 A main application of regular expressions is the search for and subsequent [replacement of](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_replace.htm) substrings in character strings. In general, a user is interested in a specific selection of substrings that match a regular expression. In ABAP, searches using regular expressions are implemented using the addition [REGEX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind_pattern.htm) of the statement [FIND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind.htm) or one of the [search functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensearch_function_glosry.htm "Glossary Entry"). Here, the found substrings are determined with no overlaps in accordance with the leftmost-longest rule.
 
--   [Leftmost-longest rule](#@@ITOC@@ABENREGEX_POSIX_SEARCH_1)
--   [Operators for search patterns](#@@ITOC@@ABENREGEX_POSIX_SEARCH_2)
-    -   [Start and end of a line](#@@ITOC@@ABENREGEX_POSIX_SEARCH_3)
-    -   [Start and end of a character string](#@@ITOC@@ABENREGEX_POSIX_SEARCH_4)
-    -   [Start and end of a word](#@@ITOC@@ABENREGEX_POSIX_SEARCH_5)
-    -   [Preview conditions](#@@ITOC@@ABENREGEX_POSIX_SEARCH_6)
+-   [Leftmost-longest rule](#abenregex-posix-search-1-------operators-for-search-patterns---@ITOC@@ABENREGEX_POSIX_SEARCH_2)
+    -   [Start and end of a line](#abenregex-posix-search-3-----------start-and-end-of-a-character-string---@ITOC@@ABENREGEX_POSIX_SEARCH_4)
+    -   [Start and end of a word](#abenregex-posix-search-5-----------preview-conditions---@ITOC@@ABENREGEX_POSIX_SEARCH_6)
     -   [Cut operator](#@@ITOC@@ABENREGEX_POSIX_SEARCH_7)
 
 Leftmost-longest rule

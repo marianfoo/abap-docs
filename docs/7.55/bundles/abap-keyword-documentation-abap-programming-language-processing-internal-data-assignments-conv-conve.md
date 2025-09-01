@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenconstructor_expression_conv.htm
 
-  
+---
+title: "CONV, Conversion Operator"
+description: |
+  Syntax ... CONV type( let_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm) dobj ) ... Effect A constructor expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expressions.htm) with the conversion operator CONV converts(https
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm"
+abapFile: "abenconstructor_expression_conv.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenconstructor", "expression", "conv"]
+---
 
 * * *
 
@@ -120,7 +130,17 @@ Continue
 
 ### abenconv_constructor_inference.htm
 
-  
+---
+title: "CONV, Type Inference for Actual Parameters"
+description: |
+  If a constructor expression CONV(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm) #( let_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm) dobj ) is passed to generically typed formal parameters as an actual parame
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconv_constructor_inference.htm"
+abapFile: "abenconv_constructor_inference.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenconv", "constructor", "inference"]
+---
 
 * * *
 
@@ -201,7 +221,17 @@ Continue
 
 ### abenconv_type_inference_abexa.htm
 
-  
+---
+title: "Conversion Operator, Type Inference"
+description: |
+  This example demonstrates the type inference for the conversion operator CONV(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm). Source Code REPORT demo_conv_type_inference. CLASS demo DEFINITION. PUBLIC SECTION. TYPES c10 TYPE c LENGTH 10. CLASS-ME
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconv_type_inference_abexa.htm"
+abapFile: "abenconv_type_inference_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "field-symbol", "abenconv", "type", "inference", "abexa"]
+---
 
 * * *
 
@@ -298,7 +328,17 @@ The operand type for # is determined from the argument.
 
 ### abenconv_constructor_inference.htm
 
-  
+---
+title: "CONV, Type Inference for Actual Parameters"
+description: |
+  If a constructor expression CONV(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm) #( let_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm) dobj ) is passed to generically typed formal parameters as an actual parame
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconv_constructor_inference.htm"
+abapFile: "abenconv_constructor_inference.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenconv", "constructor", "inference"]
+---
 
 * * *
 
@@ -379,7 +419,17 @@ Continue
 
 ### abenconv_constructor_enum.htm
 
-  
+---
+title: "CONV, Conversion of Enumerated Types"
+description: |
+  If the constructor expression CONV(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm) is used on enumerated types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm 'Glossary Entry'), the following rules apply: -
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconv_constructor_enum.htm"
+abapFile: "abenconv_constructor_enum.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenconv", "constructor", "enum"]
+---
 
 * * *
 
@@ -515,7 +565,17 @@ Continue
 
 ### abenconv_enum_abexa.htm
 
-  
+---
+title: "Conversion Operator, Enumerated Types"
+description: |
+  This example demonstrates the use of the conversion operator CONV(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm) for enumerated types. Source Code REPORT demo_conv_enum. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS de
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconv_enum_abexa.htm"
+abapFile: "abenconv_enum_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenconv", "enum", "abexa"]
+---
 
 * * *
 
@@ -566,7 +626,17 @@ The inner conversion operator [CONV](https://help.sap.com/doc/abapdocu_755_index
 
 ### abenconv_constructor_enum.htm
 
-  
+---
+title: "CONV, Conversion of Enumerated Types"
+description: |
+  If the constructor expression CONV(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm) is used on enumerated types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm 'Glossary Entry'), the following rules apply: -
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconv_constructor_enum.htm"
+abapFile: "abenconv_constructor_enum.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenconv", "constructor", "enum"]
+---
 
 * * *
 

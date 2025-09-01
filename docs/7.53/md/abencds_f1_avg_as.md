@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - AVG, AS"
+description: |
+  Syntax ... AVG( DISTINCT operand AS dtype ) ... Effect Aggregate expression AVG(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_aggregate_functions.htm) of a CDS view(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm 'Glossary Entry'
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_avg_as.htm"
+abapFile: "abencds_f1_avg_as.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "avg"]
+---
 
 * * *
 

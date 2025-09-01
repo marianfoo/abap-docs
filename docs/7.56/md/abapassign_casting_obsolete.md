@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ...  TYPE name    TYPE name DECIMALS dec  ... Additions: 1. ... TYPE name(#!ABAP_ADDITION_1@1@) 2. ... DECIMALS dec(#!ABAP_ADDITION_2@2@) Effect This form of the addition casting_spec(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting.htm) o
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting_obsolete.htm"
+abapFile: "abapassign_casting_obsolete.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "field-symbol", "abapassign", "casting", "obsolete"]
+---
 
 * * *
 

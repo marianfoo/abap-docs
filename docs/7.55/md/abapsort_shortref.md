@@ -1,4 +1,14 @@
-  
+---
+title: "SORT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsort_extract.htm) Syntax SORT ASCENDINGDESCENDING AS TEXT STABLE BY field1 ASCENDINGDESCENDING AS TEXT field2 ASCENDINGDESCENDING AS TEXT ...
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsort_shortref.htm"
+abapFile: "abapsort_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapsort", "shortref"]
+---
 
 * * *
 

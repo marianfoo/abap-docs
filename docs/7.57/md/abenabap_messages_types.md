@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Behavior"
+description: |
+  When a message(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_glosry.htm 'Glossary Entry') is sent using the statement MESSAGE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmessage.htm), it must be classified with a single-character message type(https:/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_messages_types.htm"
+abapFile: "abenabap_messages_types.htm"
+keywords: ["update", "do", "if", "try", "class", "types", "abenabap", "messages"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  SORT(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsort_itab.htm) itab BY <fs1> <fs2> ... Effect In internal tables with header lines(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheader_line_glosry.htm 'Glossary Entry'), field symbols can also be spec
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsort_itab_obsolete.htm"
+abapFile: "abapsort_itab_obsolete.htm"
+keywords: ["do", "if", "try", "catch", "data", "internal-table", "field-symbol", "abapsort", "itab", "obsolete"]
+---
 
 * * *
 

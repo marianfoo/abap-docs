@@ -1,4 +1,14 @@
-  
+---
+title: "PUT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapput_shortref.htm) Obsolete Syntax PUT  node  <node> . Effect This statement is only possible in the database program(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_program_glosry.htm
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapput.htm"
+abapFile: "abapput.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abapput"]
+---
 
 * * *
 

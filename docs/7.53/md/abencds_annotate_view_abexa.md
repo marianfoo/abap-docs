@@ -1,4 +1,14 @@
-  
+---
+title: "CDS Metadata Extensions with CDS Variants"
+description: |
+  The example demonstrates the evaluation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_meta_data_extension_eval.htm) of CDS annotations that are defined in CDS metadata extensions. Source Code REPORT demo_cds_mde_variants. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotate_view_abexa.htm"
+abapFile: "abencds_annotate_view_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abencds", "annotate", "view", "abexa"]
+---
 
 * * *
 

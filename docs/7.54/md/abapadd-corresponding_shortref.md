@@ -1,4 +1,14 @@
-  
+---
+title: "ADD-CORRESPONDING - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapadd-corresponding.htm) Syntax ADD-CORRESPONDING struc1 TO struc2. Effect Obsolete: Adds the components of a structure struc1 to the components of the same name of structure struc2.
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapadd-corresponding_shortref.htm"
+abapFile: "abapadd-corresponding_shortref.htm"
+keywords: ["do", "abapadd", "corresponding", "shortref"]
+---
 
 * * *
 

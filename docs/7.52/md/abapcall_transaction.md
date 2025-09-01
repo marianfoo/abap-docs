@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSACTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_shortref.htm) Syntax Forms Simple transaction call(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_standard.htm) 1. CALL TRANSACTION ta WITHWITHOUT AUTHORITY-CHECK
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction.htm"
+abapFile: "abapcall_transaction.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "abapcall", "transaction"]
+---
 
 * * *
 

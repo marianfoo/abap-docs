@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Rules for Strict ABAP"
+description: |
+  ABAP developments in modern environments as e.g. in the SAP BTP ABAP environment(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_btp_glosry.htm 'Glossary Entry') or S/4HANA Cloud ABAP environment(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abens4_hana_cloud_abap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_strict_rules.htm"
+abapFile: "abenabap_strict_rules.htm"
+keywords: ["do", "try", "class", "abenabap", "strict", "rules"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation, Option for Regime"
+description: |
+  The example demonstrates the display of ABAP types when using regimes. Source Code REPORT demo_st_regime_option. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, call_transformation CHANGING writer TYPE REF TO cl_sxml_string_writer. CLASS-DATA: time    TYPE t, boolean TYPE xsdboole
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_regime_option_abexa.htm"
+abapFile: "abenst_regime_option_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenst", "regime", "option", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMC"
+description: |
+  → ABAP messaging channels(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messaging_channels_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc_glosry.htm"
+abapFile: "abenamc_glosry.htm"
+keywords: ["do", "try", "abenamc", "glosry"]
+---
 
 * * *
 

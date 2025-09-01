@@ -1,4 +1,14 @@
-  
+---
+title: "Knowledge Transfer Document"
+description: |
+  KTD for short. A Knowledge Transfer Document contains the documentation of a development object or its elements. It is based on a markdown language with plain text formatting syntax. A KTD can be displayed and maintained for its development object in ADT(https://help.sap.com/doc/abapdocu_latest_in
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenktd_glosry.htm"
+abapFile: "abenktd_glosry.htm"
+keywords: ["do", "if", "try", "abenktd", "glosry"]
+---
 
 * * *
 

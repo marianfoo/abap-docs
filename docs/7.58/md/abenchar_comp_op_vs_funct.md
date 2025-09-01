@@ -1,4 +1,14 @@
-  
+---
+title: "Comparison Operator"
+description: |
+  Predicate Function o1 CO o2 NOT contains_any_not_of( val = o1 sub = o2 ) o1 CN o2 contains_any_not_of( val = o1 sub = o2 ) o1 CA o2 contains_any_of( val = o1 sub = o2 ) o1 NA o2 NOT contains_any_of( val = o1 sub = o2 ) o1 CS o2 contains( val = to_upper( o1 ) sub = to_upper( o2 ) ) o1 NS
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchar_comp_op_vs_funct.htm"
+abapFile: "abenchar_comp_op_vs_funct.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenchar", "comp", "funct"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Data Definitions"
+description: |
+  CDS data definitions are written in the CDS data definition language (CDS DDL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddl_glosry.htm 'Glossary Entry')) of ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm"
+abapFile: "abencds_entities.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "entities"]
+---
 
 * * *
 

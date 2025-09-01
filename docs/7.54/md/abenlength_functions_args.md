@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... char_off( val = text add = pos off = off ) ... Effect The function returns the offset of the character in text that is pos places away from the character in the offset specified in off. The default value for off is 0. text is a character-like expression position(https://help.sap.com/d
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlength_functions_args.htm"
+abapFile: "abenlength_functions_args.htm"
+keywords: ["do", "if", "try", "class", "data", "abenlength", "functions", "args"]
+---
 
 * * *
 

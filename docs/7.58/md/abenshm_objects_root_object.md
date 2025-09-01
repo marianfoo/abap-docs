@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Root Object"
+description: |
+  Each area instance version(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarea_instance_version_glosry.htm 'Glossary Entry') contains an instance of the area root class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenroot_data_class_glosry.htm 'Glossary Entry') tha
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_objects_root_object.htm"
+abapFile: "abenshm_objects_root_object.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenshm", "objects", "root", "object"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abencountry.htm
 
-  
+---
+title: "Formatting Settings"
+description: |
+  Formats The formatting settings of the language environment(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlanguage.htm) determine -   the number format (decimal and thousands separators) -   The date format (separators and order) -   The time format (24 hour or 12 hour format) -
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencountry.htm"
+abapFile: "abencountry.htm"
+keywords: ["insert", "do", "if", "try", "method", "class", "data", "types", "abencountry"]
+---
 
 * * *
 
@@ -65,7 +75,17 @@ Continue
 
 ### abencountry_formats.htm
 
-  
+---
+title: "Country-Specific Formats"
+description: |
+  The country-specific formatting settings for numbers, dates, and times are stored in database table T005X. The rows of table T005X contain a key field LAND in which a country key is stored, and fields XDEZP, DATFM, and TIMEFM for the respective formatting. -   Number Formats(https://help.sap.com/d
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencountry_formats.htm"
+abapFile: "abencountry_formats.htm"
+keywords: ["do", "if", "try", "data", "abencountry", "formats"]
+---
 
 * * *
 
@@ -103,7 +123,17 @@ Continue
 
 ### abennumber_formats.htm
 
-  
+---
+title: "Number Formats"
+description: |
+  The format of numbers is determined by the column XDEZP of the database table T005X. The decimal and thousands separators shown in the following table are available: XDEZP Decimal Separator Thousands Separator blank ',' '.' X '.' ',' Y ',' blank The setting for the decimal separator also affects the
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumber_formats.htm"
+abapFile: "abennumber_formats.htm"
+keywords: ["do", "if", "try", "data", "abennumber", "formats"]
+---
 
 * * *
 
@@ -166,7 +196,17 @@ For the representation of a number in all possible number formats, see the assoc
 
 ### abendate_formats.htm
 
-  
+---
+title: "Date Formats"
+description: |
+  The date format is determined by column DATFM in the database table T005X, where mm, dd, and yyyy stand for day, month, and year. The following country-specific formats are available: DATFM Date Format 1 dd.mm.yyyy 2 mm/dd/yyyy 3 mm-dd-yyyy 4 yyyy.mm.dd 5 yyyy/mm/dd 6 yyyy-mm-dd 7 ggyy.mm.dd, Japane
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendate_formats.htm"
+abapFile: "abendate_formats.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abendate", "formats"]
+---
 
 * * *
 
@@ -261,7 +301,17 @@ Executable Examples
 
 ### abentime_formats.htm
 
-  
+---
+title: "Time Formats"
+description: |
+  The time format is determined by column TIMEFM in the data base table T005X, where hh, mm, and ss stand for hour, minute, and second. One 24-hour format and several 12-hour formats are available: TIMEFM Time Format blank 24-hour format (default setting) hh:mm:ss 1 12-hour format (1 to 12) hh:mm:ss A
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_formats.htm"
+abapFile: "abentime_formats.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abentime", "formats"]
+---
 
 * * *
 
@@ -335,7 +385,17 @@ Executable Examples
 
 ### abencountry_formats.htm
 
-  
+---
+title: "Country-Specific Formats"
+description: |
+  The country-specific formatting settings for numbers, dates, and times are stored in database table T005X. The rows of table T005X contain a key field LAND in which a country key is stored, and fields XDEZP, DATFM, and TIMEFM for the respective formatting. -   Number Formats(https://help.sap.com/d
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencountry_formats.htm"
+abapFile: "abencountry_formats.htm"
+keywords: ["do", "if", "try", "data", "abencountry", "formats"]
+---
 
 * * *
 
@@ -373,7 +433,17 @@ Continue
 
 ### abapset_country.htm
 
-  
+---
+title: "SET COUNTRY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_country_shortref.htm) Syntax SET COUNTRY cntry. Effect This statement sets the formatting settings(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencountry.htm) of the language environment for all su
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_country.htm"
+abapFile: "abapset_country.htm"
+keywords: ["select", "do", "if", "try", "data", "abapset", "country"]
+---
 
 * * *
 

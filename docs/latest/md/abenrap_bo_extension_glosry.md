@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO extension"
+description: |
+  A repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that extends a RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). The following types of RAP BO exte
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_extension_glosry.htm"
+abapFile: "abenrap_bo_extension_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenrap", "extension", "glosry"]
+---
 
 * * *
 

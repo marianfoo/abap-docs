@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP-Specific Rules"
+description: |
+  The following ABAP-specific rules are derived from special technical properties of the ABAP language, the ABAP runtime environment, and their history. These basic rules themselves govern many of the more specific rules discussed in this section. -   ABAP Objects as a Programming Model(https://help
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_specific_rules_guidl.htm"
+abapFile: "abenabap_specific_rules_guidl.htm"
+keywords: ["do", "if", "abenabap", "specific", "rules", "guidl"]
+---
 
 * * *
 

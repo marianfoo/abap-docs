@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, COMPOSITION"
+description: |
+  Syntax ... COMPOSITION  min..max  OF target AS _compos ... Additions: 1. ... min..max(#!ABAP_ADDITION_1@1@) 2. ... AS _compos(#!ABAP_ADDITION_2@2@) Effect Defines a CDS composition (or composition for short) with the name _compos in a SELECT statement(https://h
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_composition_v1.htm"
+abapFile: "abencds_composition_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "composition"]
+---
 
 * * *
 

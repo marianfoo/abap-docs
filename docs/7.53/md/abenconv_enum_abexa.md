@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Operator, Enumerated Types"
+description: |
+  This example demonstrates the use of the conversion operator CONV(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm) for enumerated types. Source Code REPORT demo_conv_enum. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS de
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconv_enum_abexa.htm"
+abapFile: "abenconv_enum_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "types", "abenconv", "enum", "abexa"]
+---
 
 * * *
 

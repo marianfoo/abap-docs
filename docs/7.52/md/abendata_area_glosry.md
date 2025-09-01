@@ -1,4 +1,14 @@
-  
+---
+title: "Data Area"
+description: |
+  Memory area of an ABAP program(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm 'Glossary Entry') in which data is stored. The data area covers a static area for data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.h
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_area_glosry.htm"
+abapFile: "abendata_area_glosry.htm"
+keywords: ["do", "try", "data", "types", "internal-table", "abendata", "area", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ROLLBACK WORK - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaprollback.htm) Syntax ROLLBACK WORK. Effect Ends an SAP LUW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_luw_glosry.htm 'Glossary Entry'), executing the subroutines registered using PERFORM ON ROLLBACK
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaprollback_shortref.htm"
+abapFile: "abaprollback_shortref.htm"
+keywords: ["update", "do", "try", "abaprollback", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXPORTING  p1 = a1 p2 = a2 ... IMPORTING  p1 = a1 p2 = a2 ... CHANGING   p1 = a1 p2 = a2 ... RECEIVING  r  = a   EXCEPTIONS exc1 = n1 exc2 = n2 ... OTHERS = n_others . Extras: 1. ... EXPORTING p1 = a1 p2 = a2 ...(#!ABAP_ADDITION_1@1@)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_parameters.htm"
+abapFile: "abapcall_method_parameters.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abapcall", "parameters"]
+---
 
 * * *
 

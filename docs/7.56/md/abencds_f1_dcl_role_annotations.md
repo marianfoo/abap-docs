@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_role_annotations.htm"
+abapFile: "abencds_f1_dcl_role_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "role", "annotations"]
+---
 
 * * *
 
@@ -18,8 +28,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_DCL_ROLE_ANNOTATIONS_1)
--   [MappingRole Annotations](#@@ITOC@@ABENCDS_F1_DCL_ROLE_ANNOTATIONS_2)
+-   [EndUserText Annotations](#abencds-f1-dcl-role-annotations-1-------mappingrole-annotations---@ITOC@@ABENCDS_F1_DCL_ROLE_ANNOTATIONS_2)
 
 The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 

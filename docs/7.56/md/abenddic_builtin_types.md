@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Overview of All Built-In Dictionary Types"
+description: |
+  The following tables show the built-in types in ABAP Dictionary(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') and their fundamental technical attributes. For each built-in data type in ABAP Dictionary, the last column specifies the bui
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm"
+abapFile: "abenddic_builtin_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "builtin"]
+---
 
 * * *
 

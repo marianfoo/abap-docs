@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... line  LINES OF jtab FROM idx1 TO idx2 STEP n USING KEY keyname ... Alternatives: 1. ... line(#!ABAP_ALTERNATIVE_1@1@) 2. ... LINES OF jtab FROM idx1 TO idx2 STEP n USING KEY keyname(#!ABAP_ALTERNATIVE_2@2@) Effect Spe
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_lspc.htm"
+abapFile: "abennew_constructor_params_lspc.htm"
+keywords: ["insert", "do", "if", "try", "catch", "method", "data", "types", "internal-table", "abennew", "constructor", "params", "lspc"]
+---
 
 * * *
 

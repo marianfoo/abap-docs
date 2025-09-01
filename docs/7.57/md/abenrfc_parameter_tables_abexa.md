@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Dynamic Parameter Passing in sRFC"
+description: |
+  This example demonstrates parameter passing with parameter and exception tables for sRFC. Source Code REPORT demo_srfc_parameter_tables. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. PRIVATE SECTION. CLASS-DATA: val_in     TYPE string, val_out    TYPE string, val_in_out TYPE str
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_parameter_tables_abexa.htm"
+abapFile: "abenrfc_parameter_tables_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenrfc", "parameter", "tables", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 17
 
 ### abenextern_obsolete.htm
 
-  
+---
+title: "Obsolete Data and Communication Interfaces"
+description: |
+  -   Transactional RFC(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_obsolete.htm) -   ABAP and XML(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_obsolete.htm) -   CPI-C Interface(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextern_obsolete.htm"
+abapFile: "abenextern_obsolete.htm"
+keywords: ["do", "data", "abenextern", "obsolete"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abenrfc_obsolete.htm
 
-  
+---
+title: "Obsolete Transactional RFC"
+description: |
+  -   CALL FUNCTION - IN BACKGROUND TASK(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_background_task.htm) Hint Transactional remote function call (tRFC)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentrfc_1_glosry.htm 'Glossary Entry') and its enhan
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_obsolete.htm"
+abapFile: "abenrfc_obsolete.htm"
+keywords: ["do", "try", "data", "abenrfc", "obsolete"]
+---
 
 * * *
 
@@ -55,7 +75,17 @@ Continue
 
 ### abapcall_function_background_task.htm
 
-  
+---
+title: "CALL FUNCTION, IN BACKGROUND TASK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_shortref.htm) Obsolete Syntax CALL FUNCTION func IN BACKGROUND TASK AS SEPARATE UNIT DESTINATION dest parameter_list(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_f
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_background_task.htm"
+abapFile: "abapcall_function_background_task.htm"
+keywords: ["delete", "do", "if", "try", "data", "abapcall", "function", "background", "task"]
+---
 
 * * *
 
@@ -125,7 +155,17 @@ Hints
 
 ### abenrfc_obsolete.htm
 
-  
+---
+title: "Obsolete Transactional RFC"
+description: |
+  -   CALL FUNCTION - IN BACKGROUND TASK(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_background_task.htm) Hint Transactional remote function call (tRFC)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentrfc_1_glosry.htm 'Glossary Entry') and its enhan
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_obsolete.htm"
+abapFile: "abenrfc_obsolete.htm"
+keywords: ["do", "try", "data", "abenrfc", "obsolete"]
+---
 
 * * *
 
@@ -147,7 +187,17 @@ Continue
 
 ### abenwait_obsolete.htm
 
-  
+---
+title: "Obsolete Wait"
+description: |
+  -   WAIT UNTIL - Short Form(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_obsolete.htm) WAIT UNTIL, Short Form(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_obsolete.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwait_obsolete.htm"
+abapFile: "abenwait_obsolete.htm"
+keywords: ["do", "data", "abenwait", "obsolete"]
+---
 
 * * *
 
@@ -165,7 +215,17 @@ Continue
 
 ### abapwait_obsolete.htm
 
-  
+---
+title: "WAIT UNTIL, Short Form"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_shortref.htm) Obsolete Syntax WAIT UNTIL log_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) UP TO sec SECONDS. Effect This statement works in the same way as WAIT FOR ASY
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_obsolete.htm"
+abapFile: "abapwait_obsolete.htm"
+keywords: ["do", "try", "data", "abapwait", "obsolete"]
+---
 
 * * *
 
@@ -194,7 +254,17 @@ The complete form using FOR ASYNCHRONOUS TASKS should always be used. This addit
 
 ### abenwait_obsolete.htm
 
-  
+---
+title: "Obsolete Wait"
+description: |
+  -   WAIT UNTIL - Short Form(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_obsolete.htm) WAIT UNTIL, Short Form(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_obsolete.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwait_obsolete.htm"
+abapFile: "abenwait_obsolete.htm"
+keywords: ["do", "data", "abenwait", "obsolete"]
+---
 
 * * *
 
@@ -212,7 +282,17 @@ Continue
 
 ### abenabap_xml_obsolete.htm
 
-  
+---
+title: "Obsolete XML Binding"
+description: |
+  -   CALL TRANSFORMATION - OBJECTS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_objects.htm) CALL TRANSFORMATION, OBJECTS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_objects.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_obsolete.htm"
+abapFile: "abenabap_xml_obsolete.htm"
+keywords: ["do", "data", "abenabap", "xml", "obsolete"]
+---
 
 * * *
 
@@ -230,7 +310,17 @@ Continue
 
 ### abapcall_transformation_objects.htm
 
-  
+---
+title: "CALL TRANSFORMATION, OBJECTS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_shortref.htm) Obsolete Syntax ... OBJECTS o1 = e1 o2 = e2 ...(otab) ... Effect This addition of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_objects.htm"
+abapFile: "abapcall_transformation_objects.htm"
+keywords: ["do", "try", "method", "data", "internal-table", "abapcall", "transformation", "objects"]
+---
 
 * * *
 
@@ -259,7 +349,17 @@ The addition OBJECTS is obsolete. External objects are handled like parameters a
 
 ### abenabap_xml_obsolete.htm
 
-  
+---
+title: "Obsolete XML Binding"
+description: |
+  -   CALL TRANSFORMATION - OBJECTS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_objects.htm) CALL TRANSFORMATION, OBJECTS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_objects.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_obsolete.htm"
+abapFile: "abenabap_xml_obsolete.htm"
+keywords: ["do", "data", "abenabap", "xml", "obsolete"]
+---
 
 * * *
 
@@ -277,7 +377,17 @@ Continue
 
 ### abenabap_cpic.htm
 
-  
+---
+title: "CPI-C Interface"
+description: |
+  This section describes cross-system communications between two ABAP programs as realized using the COMMUNICATION(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication.htm) statement. Hint SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for pro
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_cpic.htm"
+abapFile: "abenabap_cpic.htm"
+keywords: ["do", "try", "data", "abenabap", "cpic"]
+---
 
 * * *
 
@@ -299,7 +409,17 @@ Continue
 
 ### abapcommunication.htm
 
-  
+---
+title: "COMMUNICATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication_shortref.htm) Obsolete Syntax COMMUNICATION comstep(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication_comstep.htm) ID id  cpic_options(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication.htm"
+abapFile: "abapcommunication.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "class", "data", "types", "abapcommunication"]
+---
 
 * * *
 
@@ -439,7 +559,17 @@ Continue
 
 ### abapcommunication_comstep.htm
 
-  
+---
+title: "COMMUNICATION, comstep"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication_shortref.htm) Obsolete Syntax ... INIT DESTINATION dest  ALLOCATE  ACCEPT  SEND BUFFER buf  RECEIVE BUFFER buf DATAINFO dat STATUSINFO stat  DEALLOCATE ... Alternatives: 1
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication_comstep.htm"
+abapFile: "abapcommunication_comstep.htm"
+keywords: ["do", "if", "try", "data", "types", "abapcommunication", "comstep"]
+---
 
 * * *
 
@@ -539,7 +669,17 @@ The connection is terminated and all memory areas are released.
 
 ### abapcommunication_options.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... RETURNCODE rc LENGTH leng RECEIVED rec HOLD. Additions: 1. ... RETURNCODE  rc(#!ABAP_ADDITION_1@1@) 2. ... LENGTH leng(#!ABAP_ADDITION_2@2@) 3. ... RECEIVED rec(#!ABAP_ADDITION_3@3@) 4. ... HOLD(#!ABAP_ADDITION_4@4@) Effect Additional additions for the
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication_options.htm"
+abapFile: "abapcommunication_options.htm"
+keywords: ["do", "if", "case", "try", "data", "abapcommunication", "options"]
+---
 
 * * *
 
@@ -686,7 +826,17 @@ This addition can only be specified for the communication step RECEIVE. It preve
 
 ### abapcommunication.htm
 
-  
+---
+title: "COMMUNICATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication_shortref.htm) Obsolete Syntax COMMUNICATION comstep(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication_comstep.htm) ID id  cpic_options(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication.htm"
+abapFile: "abapcommunication.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "class", "data", "types", "abapcommunication"]
+---
 
 * * *
 
@@ -826,7 +976,17 @@ Continue
 
 ### abenabap_cpic.htm
 
-  
+---
+title: "CPI-C Interface"
+description: |
+  This section describes cross-system communications between two ABAP programs as realized using the COMMUNICATION(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommunication.htm) statement. Hint SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for pro
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_cpic.htm"
+abapFile: "abenabap_cpic.htm"
+keywords: ["do", "try", "data", "abenabap", "cpic"]
+---
 
 * * *
 
@@ -848,7 +1008,17 @@ Continue
 
 ### abenabap_java_script.htm
 
-  
+---
+title: "ABAP and JavaScript"
+description: |
+  In the kernel of an AS ABAP, a JavaScript (JS) Engine is integrated, in which execute JavaScript programs can be executed either in normal or in debugging mode (server-side scripting). The JavaScript (JS) Engine used supports JavaScript Version 1.5. Proxies can be used to bind script variables to da
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_java_script.htm"
+abapFile: "abenabap_java_script.htm"
+keywords: ["do", "method", "class", "data", "abenabap", "java", "script"]
+---
 
 * * *
 

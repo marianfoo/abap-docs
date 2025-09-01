@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXPORTING  p1 = a1 p2 = a2 ... IMPORTING  p1 = a1 p2 = a2 ... TABLES     t1 = itab1 t2 = itab2 ... CHANGING   p1 = a1 p2 = a2 ... EXCEPTIONS exc1 = n1 exc2 = n2 ... error_message = n_error OTHERS = n_others. Additions: 1. ... E
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_parameter.htm"
+abapFile: "abapcall_function_parameter.htm"
+keywords: ["update", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abapcall", "function", "parameter"]
+---
 
 * * *
 

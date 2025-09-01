@@ -1,4 +1,14 @@
-  
+---
+title: "Generic Typing and Full Typing"
+description: |
+  This example demonstrates how generically and fully typed formal parameters are accessed. Source Code REPORT demo_typing. CLASS demo_typing DEFINITION. PUBLIC SECTION. CLASS-METHODS start. PRIVATE SECTION. TYPES: BEGIN OF struc1, cola TYPE i, colb TYPE i, END OF struc1, BEGIN OF struc2, colb TYPE
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_abexa.htm"
+abapFile: "abentyping_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abentyping", "abexa"]
+---
 
 * * *
 

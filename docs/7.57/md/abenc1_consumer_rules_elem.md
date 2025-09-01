@@ -1,4 +1,14 @@
-  
+---
+title: "The data type of"
+description: |
+  -   DDIC domains or DDIC data elements -   components of DDIC structures and DDIC database tables or elements of CDS entities -   public types of global ABAP classes or interfaces are allowed to be changed(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc1_provider_rules_elem.htm) a
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc1_consumer_rules_elem.htm"
+abapFile: "abenc1_consumer_rules_elem.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abenc1", "consumer", "rules", "elem"]
+---
 
 * * *
 
@@ -25,8 +35,7 @@ are [allowed to be changed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57
 
 All these changes result in a larger value range compared with the original data type. A consumer must be able to handle larger values. This impacts all operations with elementary data objects that are typed with such a type as well as operations with structured data that contain components of such a type.
 
--   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_1)
--   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
+-   [Operations with Elementary Data Objects](#abenc1-consumer-rules-elem-1-------operations-with-structures---@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
 
 Operations with Elementary Data Objects   
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  lhs &&= rhs. Effect Calculation assignment(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignment_glosry.htm 'Glossary Entry') with the string assignment operator &&=. This assignment works in the same way as the following assignment of a string expression(https://
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignment_string.htm"
+abapFile: "abencalculation_assignment_string.htm"
+keywords: ["do", "if", "try", "data", "abencalculation", "assignment", "string"]
+---
 
 * * *
 

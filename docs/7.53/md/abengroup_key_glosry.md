@@ -1,4 +1,14 @@
-  
+---
+title: "group_key_glosry"
+description: |
+  group_key_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengroup_key_glosry.htm"
+abapFile: "abengroup_key_glosry.htm"
+keywords: ["loop", "do", "if", "try", "data", "internal-table", "abengroup", "key", "glosry"]
+---
 
 * * *
 

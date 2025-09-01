@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Customizing Includes"
+description: |
+  A customizing include is a DDIC structure whose name has the prefix CI_ for customers and SI_ for partners and is in the customer namespace. Customizing includes can be included in DDIC structures(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures.htm) and DDIC datab
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_customizing_includes.htm"
+abapFile: "abenddic_customizing_includes.htm"
+keywords: ["insert", "do", "if", "data", "abenddic", "customizing", "includes"]
+---
 
 * * *
 

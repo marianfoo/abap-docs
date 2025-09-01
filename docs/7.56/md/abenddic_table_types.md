@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Table Types"
+description: |
+  A DDIC table type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_type_glosry.htm 'Glossary Entry') defines the data type of an internal table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_table_glosry.htm 'Glossary Entry') in ABAP. The DDIC ta
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types.htm"
+abapFile: "abenddic_table_types.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abenddic", "table"]
+---
 
 * * *
 

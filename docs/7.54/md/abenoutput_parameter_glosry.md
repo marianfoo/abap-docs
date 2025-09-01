@@ -1,4 +1,14 @@
-  
+---
+title: "Output Parameters"
+description: |
+  Formal parameter(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformal_parameter_glosry.htm 'Glossary Entry') of a procedure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm 'Glossary Entry') whose value is set in the procedure and is made avail
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoutput_parameter_glosry.htm"
+abapFile: "abenoutput_parameter_glosry.htm"
+keywords: ["do", "try", "method", "abenoutput", "parameter", "glosry"]
+---
 
 * * *
 

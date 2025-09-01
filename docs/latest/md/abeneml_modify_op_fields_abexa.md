@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY, Field Specification Expressions"
+description: |
+  This example demonstrates various standard operations and variants of field specification expressions to set up internal tables for ABAP EML MODIFY ENTITY statements to manipulate a simple managed RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossar
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_op_fields_abexa.htm"
+abapFile: "abeneml_modify_op_fields_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abeneml", "modify", "fields", "abexa"]
+---
 
 * * *
 

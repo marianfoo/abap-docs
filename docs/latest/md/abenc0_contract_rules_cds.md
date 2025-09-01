@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  C0 Contract Rules for Providers of CDS Entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_cds.htm) C0 Contract Rules for Consumers of CDS Entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_cds.htm) Example:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_cds.htm"
+abapFile: "abenc0_contract_rules_cds.htm"
+keywords: ["do", "if", "try", "abenc0", "contract", "rules", "cds"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE, Use of SET"
+description: |
+  The example demonstrates how the addition SET of the statement UPDATE is used. Source Code  Public class definition CLASS cl_demo_update DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenupdate_set_abexa.htm"
+abapFile: "abenupdate_set_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "method", "class", "data", "abenupdate", "set", "abexa"]
+---
 
 * * *
 

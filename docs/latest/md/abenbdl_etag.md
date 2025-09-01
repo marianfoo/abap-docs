@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - etag"
+description: |
+  Syntax Forms ETag for Active Version etag master MasterField  etag dependent by _Assoc ETag for Draft Version(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm) total etag TotalEtagField Variants: 1. ... etag master MasterField(#!ABAP_VARIANT_1@1@) 2.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_etag.htm"
+abapFile: "abenbdl_etag.htm"
+keywords: ["insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "etag"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "database_user_glosry"
+description: |
+  database_user_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_user_glosry.htm"
+abapFile: "abendatabase_user_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "user", "glosry"]
+---
 
 * * *
 

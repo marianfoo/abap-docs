@@ -1,4 +1,14 @@
-  
+---
+title: "CDS scalar function definition"
+description: |
+  CDS object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_object_glosry.htm 'Glossary Entry') that defines a CDS scalar function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm 'Glossary Entry') using language elements o
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dsfd_glosry.htm"
+abapFile: "abencds_dsfd_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "dsfd", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:root name='...' line-type='...' length='...' decimals='...' ... /> Effect To be able to access ABAP data, an ST program must contain at least one declaration of a data root outside a template. The data roots are the interfaces of the ST program to the ABAP
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_root.htm"
+abapFile: "abenst_tt_root.htm"
+keywords: ["loop", "do", "if", "case", "class", "data", "types", "internal-table", "abenst", "root"]
+---
 
 * * *
 

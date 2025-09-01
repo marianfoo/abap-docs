@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Extending CDS Views"
+description: |
+  There are currently two different statements that can be used to extend a CDS view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_glosry.htm 'Glossary Entry') in CDS DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddl_glosry.htm 'Glossary
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_extend.htm"
+abapFile: "abencds_view_extend.htm"
+keywords: ["do", "if", "try", "data", "abencds", "view", "extend"]
+---
 
 * * *
 

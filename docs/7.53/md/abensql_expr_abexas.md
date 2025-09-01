@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of SQL Expressions"
+description: |
+  !Example(exa.gif 'Example') SQL Expressions, Constant in SELECT List(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expr_literal_abexa.htm) !Example(exa.gif 'Example') SQL expressions, arithmetic calculations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/aben
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expr_abexas.htm"
+abapFile: "abensql_expr_abexas.htm"
+keywords: ["select", "do", "if", "case", "data", "abensql", "expr", "abexas"]
+---
 
 * * *
 

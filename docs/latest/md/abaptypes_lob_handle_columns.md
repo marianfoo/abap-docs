@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  COLUMNS blob1 blob2 ... clob1 clob2 ...    ALL OTHER BLOBCLOB COLUMNS  ... Effect These additions define which columns of the database table or the view dbtab are declared as LOB handle components(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-U
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_lob_handle_columns.htm"
+abapFile: "abaptypes_lob_handle_columns.htm"
+keywords: ["do", "if", "try", "data", "types", "abaptypes", "lob", "handle", "columns"]
+---
 
 * * *
 

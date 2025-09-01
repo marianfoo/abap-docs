@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abentype_names.htm
 
-  
+---
+title: "Absolute Type Names"
+description: |
+  Syntax Forms Global Context TYPE=type_ nameLINE-comp  CLASS=class_name  INTERFACE=intf_name Global Class/Interface Context clifTYPE=type_ nameLINE-comp Program Context progTYPE=type_ nameLINE-comp  progCLASS=cla
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_names.htm"
+abapFile: "abentype_names.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abentype", "names"]
+---
 
 * * *
 
@@ -492,7 +502,17 @@ Continue
 
 ### abenabs_type_names_abexa.htm
 
-  
+---
+title: "Absolute Type Names, Executable Example"
+description: |
+  This example demonstrates the composition of absolute type names(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabsolute_typename_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_absolute_type_names DEFINITION PUBLIC INHERITING FROM cl_de
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabs_type_names_abexa.htm"
+abapFile: "abenabs_type_names_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenabs", "type", "names", "abexa"]
+---
 
 * * *
 

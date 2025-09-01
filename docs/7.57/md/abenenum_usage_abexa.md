@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_enumerated_types. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA html TYPE string. CLASS-METHODS: class_constructor, main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: size   TYPE  cl_demo_wrap_browser=>size VALUE cl_demo_wrap_browser=>sz-l, format TYPE  cl_demo_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenum_usage_abexa.htm"
+abapFile: "abenenum_usage_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenenum", "usage", "abexa"]
+---
 
 * * *
 

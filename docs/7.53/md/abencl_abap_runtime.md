@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for Runtime Measurements"
+description: |
+  The static methods CREATE_HR_TIMER and CREATE_LR_TIMER of the class CL_ABAP_RUNTIME can be used to create objects for runtime measurements. The objects contain a method GET_RUNTIME that performs a runtime measurement in the same way as the statement GET RUN TIME(https://help.sap.com/doc/aba
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_runtime.htm"
+abapFile: "abencl_abap_runtime.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abencl", "abap", "runtime"]
+---
 
 * * *
 

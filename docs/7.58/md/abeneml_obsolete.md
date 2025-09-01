@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete ABAP EML Statements"
+description: |
+  -   GET FEATURES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_get_features.htm) GET FEATURES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_get_features.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_obsolete.htm"
+abapFile: "abeneml_obsolete.htm"
+keywords: ["do", "if", "abeneml", "obsolete"]
+---
 
 * * *
 

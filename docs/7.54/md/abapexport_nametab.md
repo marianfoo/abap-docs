@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT - Export of a Structure Description"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax EXPORT NAMETAB h f ID id. Effect Exports a generated structure description. This statement can only be used by ABAP Workbench tools. For the field list f, a standard table without a secondary key can be spec
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_nametab.htm"
+abapFile: "abapexport_nametab.htm"
+keywords: ["do", "if", "abapexport", "nametab"]
+---
 
 * * *
 

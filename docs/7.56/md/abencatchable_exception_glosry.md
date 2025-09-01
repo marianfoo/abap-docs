@@ -1,4 +1,14 @@
-  
+---
+title: "catchable_exception_glosry"
+description: |
+  catchable_exception_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatchable_exception_glosry.htm"
+abapFile: "abencatchable_exception_glosry.htm"
+keywords: ["do", "try", "catch", "method", "class", "abencatchable", "exception", "glosry"]
+---
 
 * * *
 

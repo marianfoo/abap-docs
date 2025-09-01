@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Tabstrips"
+description: |
+  This example demonstrates how selection screens can be included in tabstrips. Source Code REPORT demo_sel_screen_in_tabstrip. SELECTION-SCREEN BEGIN OF SCREEN 1100 AS SUBSCREEN NO INTERVALS. SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE text-010. PARAMETERS: p1(10) TYPE c, p2(10) TYPE c, p
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensel_screen_tabstrip_abexa.htm"
+abapFile: "abensel_screen_tabstrip_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abensel", "screen", "tabstrip", "abexa"]
+---
 
 * * *
 

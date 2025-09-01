@@ -1,4 +1,14 @@
-  
+---
+title: "Calling Lists from Within Screen Processing"
+description: |
+  The example shows how to switch from screen processing to list processing. Source Code REPORT demo_leave_to_list_processing . TABLES demo_conn. DATA: wa_spfli TYPE spfli, flightdate TYPE sflight-fldate. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODULE
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_to_list_proc_abexa.htm"
+abapFile: "abenleave_to_list_proc_abexa.htm"
+keywords: ["select", "do", "while", "class", "data", "abenleave", "list", "proc", "abexa"]
+---
 
 * * *
 

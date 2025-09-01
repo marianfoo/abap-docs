@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Classes for ABAP Statements"
+description: |
+  The catchable exceptions in ABAP statements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm) are related to the predefined exception classes listed below, which are subclasses of the classes CX_DYNAMIC_CHECK and CX_NO_CHECK. These exception clas
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exception_classes.htm"
+abapFile: "abenabap_exception_classes.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abenabap", "exception", "classes"]
+---
 
 * * *
 

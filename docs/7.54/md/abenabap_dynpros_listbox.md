@@ -1,4 +1,14 @@
-  
+---
+title: "Dropdown List Boxes"
+description: |
+  Dropdown list boxes(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendropdown_listbox_glosry.htm 'Glossary Entry'), which contain a predefined set of proposal values, can be defined for input/output fields on dynpros. It is not possible to enter a value in this type of input field an
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_listbox.htm"
+abapFile: "abenabap_dynpros_listbox.htm"
+keywords: ["select", "do", "if", "try", "internal-table", "abenabap", "dynpros", "listbox"]
+---
 
 * * *
 

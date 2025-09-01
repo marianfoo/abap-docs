@@ -1,4 +1,14 @@
-  
+---
+title: "GET PARAMETER - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_parameter.htm) Syntax GET PARAMETER ID pid FIELD dobj. Effect Returns the value of the SPA/GPA parameters(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspa_gpa_parameter_1_glosry.htm 'Glossary Entry') s
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_parameter_shortref.htm"
+abapFile: "abapget_parameter_shortref.htm"
+keywords: ["do", "if", "try", "abapget", "parameter", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "READ ENTITY, Short Form"
+description: |
+  Syntax READ ENTITY IN LOCAL MODE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm) entity operations(https://help.sap.com/doc/abapdocu_latest_index_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_short.htm"
+abapFile: "abapread_entity_short.htm"
+keywords: ["do", "if", "case", "try", "types", "abapread", "entity", "short"]
+---
 
 * * *
 

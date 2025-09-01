@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   Regular expressions in POSIX syntax(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_posix_syntax.htm) are obsolete. Using regular expressions in POSIX syntax leads to a warning from syntax check that can be hidden by the pragma ##regex_posix. It is recommended that regul
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_syntax.htm"
+abapFile: "abenregex_syntax.htm"
+keywords: ["do", "if", "class", "data", "abenregex", "syntax"]
+---
 
 * * *
 

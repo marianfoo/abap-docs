@@ -1,4 +1,14 @@
-  
+---
+title: "READ DATASET"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_dataset_shortref.htm) Syntax READ DATASET dset INTO dobj MAXIMUM LENGTH mlen ACTUAL LENGTH alen. Extras: 1. ... MAXIMUM LENGTH mlen(#!ABAP_ADDITION_1@1@) 2. ... ACTUAL LENGTH al
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_dataset.htm"
+abapFile: "abapread_dataset.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "class", "data", "types", "field-symbol", "abapread", "dataset"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The asJSON representation of reference variables and referenced objects is only relevant for XSL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenid_trafo_glosry.htm 'Glossary Entry') transformations and the identity transformation ID. Simple Transformations cannot currently
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asxml_references.htm"
+abapFile: "abenabap_asxml_references.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenabap", "asxml", "references"]
+---
 
 * * *
 

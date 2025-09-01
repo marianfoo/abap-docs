@@ -1,4 +1,14 @@
-  
+---
+title: "group_break_glosry"
+description: |
+  group_break_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengroup_break_glosry.htm"
+abapFile: "abengroup_break_glosry.htm"
+keywords: ["do", "try", "abengroup", "break", "glosry"]
+---
 
 * * *
 

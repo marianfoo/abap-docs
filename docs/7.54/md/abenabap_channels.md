@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Channels"
+description: |
+  Event-based communication using messages between application AS Instancess and with the Internet. -   AMC - ABAP Messaging Channels(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamc.htm) -   APC - ABAP Push Channels(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aben
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_channels.htm"
+abapFile: "abenabap_channels.htm"
+keywords: ["do", "data", "abenabap", "channels"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Type of Formal Parameters in Procedures"
+description: |
+  Background The parameter interface of a procedure consists of formal parameters and specifies the exceptions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_exception_guidl.htm 'Guideline') possible in the procedure. The possible types of formal parameters are: -   Input param
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_proc_guidl.htm"
+abapFile: "abentype_formal_param_proc_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "types", "internal-table", "abentype", "formal", "param", "proc", "guidl"]
+---
 
 * * *
 

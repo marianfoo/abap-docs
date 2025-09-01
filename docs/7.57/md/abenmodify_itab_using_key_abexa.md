@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_modify_table_using_key. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: sflight_tab TYPE HASHED TABLE OF sflight WITH UNIQUE KEY primary_key COMPONENTS carrid connid fldate WITH NON-UNIQUE SORTED KEY plane_type COM
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodify_itab_using_key_abexa.htm"
+abapFile: "abenmodify_itab_using_key_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "internal-table", "field-symbol", "abenmodify", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

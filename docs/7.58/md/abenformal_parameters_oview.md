@@ -1,4 +1,14 @@
-  
+---
+title: "Parameter Interface of Procedures"
+description: |
+  The parameter interface of a procedure consists of formal parameters(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformal_parameter_glosry.htm 'Glossary Entry') and specifies the possible exceptions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_glosry.
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformal_parameters_oview.htm"
+abapFile: "abenformal_parameters_oview.htm"
+keywords: ["update", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenformal", "parameters", "oview"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ Parameter Interface of Procedures
 
 The parameter interface of a procedure consists of [formal parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformal_parameter_glosry.htm "Glossary Entry") and specifies the possible [exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_glosry.htm "Glossary Entry") in the procedure.
 
--   [Formal Parameters](#@@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_1)
-    -   [Pass by Reference or Pass by Value](#@@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_2)
+-   [Formal Parameters](#abenformal-parameters-oview-1-----------pass-by-reference-or-pass-by-value---@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_2)
 -   [Exceptions](#@@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_3)
 
 Formal Parameters   

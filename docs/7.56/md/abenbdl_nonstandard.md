@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - non-standard operations"
+description: |
+  Non-standard operations are RAP BO operations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') that provide transactional behavior and that are self-implemented. There are two kinds of non-standard operations available: -   Actions(http
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_nonstandard.htm"
+abapFile: "abenbdl_nonstandard.htm"
+keywords: ["do", "try", "data", "abenbdl", "nonstandard"]
+---
 
 * * *
 

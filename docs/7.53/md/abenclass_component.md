@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS - components"
+description: |
+  The components of the classes are defined in the visibility sections(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvisibility_section_glosry.htm 'Glossary Entry'). The following declaration statements are possible for components: -   TYPES(https://help.sap.com/doc/abapdocu_753_i
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component.htm"
+abapFile: "abenclass_component.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "abenclass", "component"]
+---
 
 * * *
 

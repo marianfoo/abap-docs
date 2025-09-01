@@ -1,4 +1,14 @@
-  
+---
+title: "Meaning"
+description: |
+  CO Contains Only: True if operand1 only contains characters from operand2. It is case-sensitive and trailing blanks are respected in both operands. If operand2 is of type string and initial, the relational expression is false, except if operand1 is also of type string and initial. If operand1 has th
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_strings.htm"
+abapFile: "abenlogexp_strings.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenlogexp", "strings"]
+---
 
 * * *
 

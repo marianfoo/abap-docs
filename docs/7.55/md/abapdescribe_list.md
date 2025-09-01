@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE LIST"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdescribe_list_shortref.htm) Syntax DESCRIBE LIST  NUMBER OF  LINESPAGES n  LINE linno PAGE page  PAGE pagno page_properties(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdescribe_list.htm"
+abapFile: "abapdescribe_list.htm"
+keywords: ["select", "insert", "do", "if", "class", "data", "abapdescribe", "list"]
+---
 
 * * *
 

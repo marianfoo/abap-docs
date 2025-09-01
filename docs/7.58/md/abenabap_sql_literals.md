@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - literal"
+description: |
+  ABAP literals(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenliteral.htm) can be used in read positions of ABAP SQL statements where host variables(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_host_variables.htm) are possible. Unlike host variables, the
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_literals.htm"
+abapFile: "abenabap_sql_literals.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "sql", "literals"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "time_type_glosry"
+description: |
+  time_type_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_type_glosry.htm"
+abapFile: "abentime_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentime", "type", "glosry"]
+---
 
 * * *
 

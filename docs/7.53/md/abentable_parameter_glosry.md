@@ -1,4 +1,14 @@
-  
+---
+title: "table_parameter_glosry"
+description: |
+  table_parameter_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm"
+abapFile: "abentable_parameter_glosry.htm"
+keywords: ["do", "try", "abentable", "parameter", "glosry"]
+---
 
 * * *
 

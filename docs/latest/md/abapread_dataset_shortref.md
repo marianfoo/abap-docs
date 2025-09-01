@@ -1,4 +1,14 @@
-  
+---
+title: "READ DATASET - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_dataset.htm) Syntax READ DATASET dset INTO dobj MAXIMUM LENGTH mlen ACTUAL LENGTH alen. Effect Imports data from the file specified in dset to the data object dobj. Additions -   MAXIMUM LENG
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_dataset_shortref.htm"
+abapFile: "abapread_dataset_shortref.htm"
+keywords: ["do", "if", "data", "abapread", "dataset", "shortref"]
+---
 
 * * *
 

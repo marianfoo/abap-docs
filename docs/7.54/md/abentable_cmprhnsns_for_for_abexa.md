@@ -1,4 +1,14 @@
-  
+---
+title: "Table Comprehensions, Multiple FOR Expressions"
+description: |
+  This example demonstrates a sequence of FOR expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_in_itab.htm) in a table comprehension(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_comprehension_glosry.htm 'Glossary Entry'). Source Code REPORT dem
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_cmprhnsns_for_for_abexa.htm"
+abapFile: "abentable_cmprhnsns_for_for_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "for", "abexa"]
+---
 
 * * *
 

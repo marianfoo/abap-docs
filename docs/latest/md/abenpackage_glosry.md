@@ -1,4 +1,14 @@
-  
+---
+title: "package_glosry"
+description: |
+  package_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpackage_glosry.htm"
+abapFile: "abenpackage_glosry.htm"
+keywords: ["do", "if", "try", "abenpackage", "glosry"]
+---
 
 * * *
 

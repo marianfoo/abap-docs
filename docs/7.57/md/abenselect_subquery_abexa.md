@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_select_subquery. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SELECT carrid, connid, planetype, seatsmax, MAX( seatsocc ) AS seatsocc FROM  sflight GROUP BY carrid, connid, planetype, seatsmax ORDER BY carrid, connid INTO
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_subquery_abexa.htm"
+abapFile: "abenselect_subquery_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "abenselect", "subquery", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CTE association path"
+description: |
+  Sequence of CTE associations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencte_association_glosry.htm 'Glossary Entry') that link common table expressions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommon_table_expression_glosry.htm 'Glossary Entry') with as
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencte_association_path_glosry.htm"
+abapFile: "abencte_association_path_glosry.htm"
+keywords: ["do", "if", "try", "abencte", "association", "path", "glosry"]
+---
 
 * * *
 

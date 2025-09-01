@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenmesh_loop.htm
 
-  
+---
+title: "Syntax"
+description: |
+  LOOP AT mesh_path(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm) result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm). ... ENDLOOP. Effect Reads all rows described by the results(https://help.sap.com/doc/abapdocu_753_ind
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_loop.htm"
+abapFile: "abenmesh_loop.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "data", "internal-table", "abenmesh"]
+---
 
 * * *
 
@@ -57,7 +67,17 @@ Continue
 
 ### abenmesh_loops_abexa.htm
 
-  
+---
+title: "Loops Across Mesh Paths"
+description: |
+  This example demonstrates loops across mesh paths. Source Code REPORT demo_mesh_loop_at_flights. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: t_scarr    TYPE HASHED TABLE OF scarr WITH UNIQUE KEY carrid, t_spfli    TYPE HASHED TABLE OF
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_loops_abexa.htm"
+abapFile: "abenmesh_loops_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abenmesh", "loops", "abexa"]
+---
 
 * * *
 

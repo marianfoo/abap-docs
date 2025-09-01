@@ -1,4 +1,14 @@
-  
+---
+title: "PCFG condition"
+description: |
+  Part of an access condition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenaccess_condition_glosry.htm 'Glossary Entry') in a CDS role(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_role_glosry.htm 'Glossary Entry') that uses an authorization object(https://
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpfcg_condition_glosry.htm"
+abapFile: "abenpfcg_condition_glosry.htm"
+keywords: ["do", "try", "abenpfcg", "condition", "glosry"]
+---
 
 * * *
 

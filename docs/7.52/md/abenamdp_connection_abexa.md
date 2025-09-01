@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP, AMDP Method with Specified Service Connection"
+description: |
+  The example demonstrates an AMDP method with the input parameter connection. Source Code REPORT demo_amdp_connection. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. IF NOT cl_abap_dbfeatures=>use_features( EXPORTING requested_featur
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm"
+abapFile: "abenamdp_connection_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "connection", "abexa"]
+---
 
 * * *
 

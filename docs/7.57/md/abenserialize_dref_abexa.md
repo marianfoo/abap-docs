@@ -1,4 +1,14 @@
-  
+---
+title: "Serializing Data References"
+description: |
+  This example demonstrates serializations of data references to asXML(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasxml_glosry.htm 'Glossary Entry') and to asJSON(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasjson_glosry.htm 'Glossary Entry'). Source Code REP
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenserialize_dref_abexa.htm"
+abapFile: "abenserialize_dref_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenserialize", "dref", "abexa"]
+---
 
 * * *
 

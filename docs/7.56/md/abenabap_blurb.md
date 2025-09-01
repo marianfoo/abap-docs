@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Cheat Sheets"
+description: |
+  -   Structures in a Nutshell(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_structures.htm) -   Working with Internal Tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_internal_tables.htm) -   Grouping Internal Tables(https://help.sap.com/doc/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm"
+abapFile: "abenabap_blurb.htm"
+keywords: ["do", "data", "internal-table", "abenabap", "blurb"]
+---
 
 * * *
 

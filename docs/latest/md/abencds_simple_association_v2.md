@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, ASSOCIATION"
+description: |
+  Syntax ... ASSOCIATION  cardinality(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cardinality_v2.htm) TO target AS _assoc ON cds_cond(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conditional_expression_v2.htm) WIT
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_association_v2.htm"
+abapFile: "abencds_simple_association_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "simple", "association"]
+---
 
 * * *
 

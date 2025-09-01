@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI implementation class"
+description: |
+  Global class(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_glosry.htm 'Glossary Entry') that implements one or more BAdI interfaces(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbadi_interface_glosry.htm 'Glossary Entry') and therefore also their BAdI met
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbadi_implement_class_glosry.htm"
+abapFile: "abenbadi_implement_class_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenbadi", "implement", "glosry"]
+---
 
 * * *
 

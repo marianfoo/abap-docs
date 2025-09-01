@@ -1,4 +1,14 @@
-  
+---
+title: "integer_number_glosry"
+description: |
+  integer_number_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninteger_number_glosry.htm"
+abapFile: "abeninteger_number_glosry.htm"
+keywords: ["do", "try", "data", "abeninteger", "number", "glosry"]
+---
 
 * * *
 

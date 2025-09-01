@@ -1,4 +1,14 @@
-  
+---
+title: "set_get_parameter_glosry"
+description: |
+  set_get_parameter_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenset_get_parameter_glosry.htm"
+abapFile: "abenset_get_parameter_glosry.htm"
+keywords: ["do", "try", "abenset", "get", "parameter", "glosry"]
+---
 
 * * *
 

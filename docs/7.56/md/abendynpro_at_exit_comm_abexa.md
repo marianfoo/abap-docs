@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_at_exit_command . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, input1(20) TYPE c, input2(20) TYPE c. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMODULE. MODULE cancel INPUT. MESSAGE i888(sabapdemos) WITH text-001 ok_code input1
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_at_exit_comm_abexa.htm"
+abapFile: "abendynpro_at_exit_comm_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "exit", "comm", "abexa"]
+---
 
 * * *
 

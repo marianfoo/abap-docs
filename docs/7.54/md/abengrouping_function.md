@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... GROUPING( col(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) ) Effect The result of the grouping function GROUPING indicates whether a specific column is part of the aggregation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaggregate_exp
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_function.htm"
+abapFile: "abengrouping_function.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abengrouping", "function"]
+---
 
 * * *
 

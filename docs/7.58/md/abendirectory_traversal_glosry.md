@@ -1,4 +1,14 @@
-  
+---
+title: "directory_traversal_glosry"
+description: |
+  directory_traversal_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendirectory_traversal_glosry.htm"
+abapFile: "abendirectory_traversal_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendirectory", "traversal", "glosry"]
+---
 
 * * *
 

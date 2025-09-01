@@ -1,4 +1,14 @@
-  
+---
+title: "Pragma"
+description: |
+  Program directive(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') to the ABAP Compiler(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_compiler_glosry.htm 'Glossary Entry') and the extended program check(https://
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma_glosry.htm"
+abapFile: "abenpragma_glosry.htm"
+keywords: ["do", "try", "abenpragma", "glosry"]
+---
 
 * * *
 

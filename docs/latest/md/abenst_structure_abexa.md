@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Structures"
+description: |
+  This example demonstrates the symmetrical serialization and deserialization of a nested structure. Source Code  Public class definition CLASS cl_demo_st_structure DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_structure_abexa.htm"
+abapFile: "abenst_structure_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenst", "structure", "abexa"]
+---
 
 * * *
 

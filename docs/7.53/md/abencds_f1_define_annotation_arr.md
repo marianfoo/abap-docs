@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE ANNOTATION, arrelem"
+description: |
+  Syntax ... type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_annotation_type.htm); subannos(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_annotation_sub.htm); Effect Defines the elements of an annotation arr
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_annotation_arr.htm"
+abapFile: "abencds_f1_define_annotation_arr.htm"
+keywords: ["do", "if", "try", "abencds", "define", "annotation", "arr"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_set_cursor. DATA:  field1(14) TYPE c, field2(14) TYPE c, field3(14) TYPE c, name(10) TYPE c. SELECTION-SCREEN BEGIN OF BLOCK bloc WITH FRAME. PARAMETERS: def RADIOBUTTON GROUP rad, txt RADIOBUTTON GROUP rad, f1  RADIOBUTTON GROUP rad, f2  RADIOBUTTON GROUP rad, f3  RADIOBUTTON
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_set_cursor_abexa.htm"
+abapFile: "abendynpro_set_cursor_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "set", "cursor", "abexa"]
+---
 
 * * *
 

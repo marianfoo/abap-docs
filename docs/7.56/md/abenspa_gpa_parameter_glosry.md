@@ -1,4 +1,14 @@
-  
+---
+title: "spa_gpa_parameter_glosry"
+description: |
+  spa_gpa_parameter_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa_parameter_glosry.htm"
+abapFile: "abenspa_gpa_parameter_glosry.htm"
+keywords: ["do", "try", "data", "abenspa", "gpa", "parameter", "glosry"]
+---
 
 * * *
 

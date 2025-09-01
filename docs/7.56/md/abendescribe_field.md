@@ -1,4 +1,14 @@
-  
+---
+title: "Attributes of Data Objects"
+description: |
+  This section describes how attributes of data objects are determined using -   the statement DESCRIBE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdescribe.htm) and -   the runtime type services(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrtti.htm). DESCRIBE
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendescribe_field.htm"
+abapFile: "abendescribe_field.htm"
+keywords: ["do", "data", "abendescribe", "field"]
+---
 
 * * *
 

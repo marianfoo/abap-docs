@@ -1,4 +1,14 @@
-  
+---
+title: "Input Parameters"
+description: |
+  Formal parameter(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameter_glosry.htm 'Glossary Entry') of a procedure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_glosry.htm 'Glossary Entry') to which the value of an actual parameter(https://h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninput_parameter_glosry.htm"
+abapFile: "abeninput_parameter_glosry.htm"
+keywords: ["do", "try", "method", "abeninput", "parameter", "glosry"]
+---
 
 * * *
 

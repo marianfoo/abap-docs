@@ -1,4 +1,14 @@
-  
+---
+title: "DEFINE STRUCTURE - include"
+description: |
+  Syntax group : INCLUDE struct WITH SUFFIX suffix ... extend(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_inc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_struct_incl.htm"
+abapFile: "abenddicddl_define_struct_incl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddicddl", "define", "struct", "incl"]
+---
 
 * * *
 

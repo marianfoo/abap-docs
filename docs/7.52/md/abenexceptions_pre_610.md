@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions Before Class-Based Exceptions"
+description: |
+  Exceptions are class-based(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm). Before the introduction of exception classes, however, there were the following types of exceptions: -   Exception situations detected by the system (and whose causes could be handled effecti
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_pre_610.htm"
+abapFile: "abenexceptions_pre_610.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "types", "exception-handling", "abenexceptions", "pre", "610"]
+---
 
 * * *
 

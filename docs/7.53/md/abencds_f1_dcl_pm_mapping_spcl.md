@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  pfcg_mapping_field_definition ... Effect Specifies the PFCG mapping field definition in the statement DEFINE PFCG_MAPPING(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm) used to define a PFCG mapping(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_mapping_spcl.htm"
+abapFile: "abencds_f1_dcl_pm_mapping_spcl.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "dcl", "mapping", "spcl"]
+---
 
 * * *
 

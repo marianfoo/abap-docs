@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Overview"
+description: |
+  -   Screen Lists(#abenlist-overview-1-------lists-in-abap-programs---@ITOC@@ABENLIST_OVERVIEW_2) -   Basic List(#abenlist-overview-3-------details-lists---@ITOC@@ABENLIST_OVERVIEW_4) -   Structure of a List(#abenlist-overview-5-------spool-lists---@ITOC@@ABENLIST_OVERVIEW_6) -   Characters in
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_overview.htm"
+abapFile: "abenlist_overview.htm"
+keywords: ["delete", "do", "while", "if", "case", "try", "class", "data", "abenlist", "overview"]
+---
 
 * * *
 
@@ -11,14 +21,10 @@ gestion for improvement:)
 
 Lists - Overview
 
--   [Screen Lists](#@@ITOC@@ABENLIST_OVERVIEW_1)
--   [Lists in ABAP Programs](#@@ITOC@@ABENLIST_OVERVIEW_2)
--   [Basic List](#@@ITOC@@ABENLIST_OVERVIEW_3)
--   [Details Lists](#@@ITOC@@ABENLIST_OVERVIEW_4)
--   [Structure of a List](#@@ITOC@@ABENLIST_OVERVIEW_5)
--   [Spool Lists](#@@ITOC@@ABENLIST_OVERVIEW_6)
--   [Characters in Lists](#@@ITOC@@ABENLIST_OVERVIEW_7)
--   [Lists and ABAP Objects](#@@ITOC@@ABENLIST_OVERVIEW_8)
+-   [Screen Lists](#abenlist-overview-1-------lists-in-abap-programs---@ITOC@@ABENLIST_OVERVIEW_2)
+-   [Basic List](#abenlist-overview-3-------details-lists---@ITOC@@ABENLIST_OVERVIEW_4)
+-   [Structure of a List](#abenlist-overview-5-------spool-lists---@ITOC@@ABENLIST_OVERVIEW_6)
+-   [Characters in Lists](#abenlist-overview-7-------lists-and-abap-objects---@ITOC@@ABENLIST_OVERVIEW_8)
 
 Screen Lists   
 

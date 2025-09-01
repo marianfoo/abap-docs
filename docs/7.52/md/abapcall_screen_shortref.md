@@ -1,4 +1,14 @@
-  
+---
+title: "CALL SCREEN - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_screen.htm) Syntax CALL SCREEN dynnr STARTING AT col1 lin1 ENDING   AT col2 lin2. Effect Calls the dynpro(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm 'Glossary Entry
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_screen_shortref.htm"
+abapFile: "abapcall_screen_shortref.htm"
+keywords: ["do", "if", "try", "abapcall", "screen", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Expression-Orientation - Jawbreaker Game"
+description: |
+  Expression-oriented implementation of a Jawbreaker game. Source Code PROGRAM demo_jawbreaker_html_740. CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, display. PRIVATE SECTION. TYPES: t_vector TYPE STANDARD TABLE OF i WITH EMPTY KEY, t_matrix TYPE STANDARD TABLE OF t_vector WITH E
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjaw_breaker_abexa.htm"
+abapFile: "abenjaw_breaker_abexa.htm"
+keywords: ["select", "delete", "do", "if", "method", "class", "data", "types", "abenjaw", "breaker", "abexa"]
+---
 
 * * *
 

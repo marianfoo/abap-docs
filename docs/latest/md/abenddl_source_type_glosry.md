@@ -1,4 +1,14 @@
-  
+---
+title: "CDS source type"
+description: |
+  Denotes the type of CDS data definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_definition_glosry.htm 'Glossary Entry'). The following categories are available: -   CDS view entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_v
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddl_source_type_glosry.htm"
+abapFile: "abenddl_source_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddl", "source", "type", "glosry"]
+---
 
 * * *
 

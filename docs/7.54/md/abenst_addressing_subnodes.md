@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Addressing Subnodes"
+description: |
+  When addressing subnodes, it is important to distinguish between a defined and undefined current node(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_ref.htm). Subnodes When the Current Node is Undefined If the current node is undefined, the subnodes of the data root of the te
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_addressing_subnodes.htm"
+abapFile: "abenst_addressing_subnodes.htm"
+keywords: ["do", "if", "data", "abenst", "addressing", "subnodes"]
+---
 
 * * *
 

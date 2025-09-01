@@ -1,4 +1,14 @@
-  
+---
+title: "System-Dependent Program Flow"
+description: |
+  The use of the following system fields(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_field_glosry.htm 'Glossary Entry') in ABAP programs to control program behavior can be a security risk: -   sy-host -   sy-sysid -   sy-mandt As a user-specific program flow(https://
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_dependent_scrty.htm"
+abapFile: "abensystem_dependent_scrty.htm"
+keywords: ["do", "if", "case", "try", "data", "abensystem", "dependent", "scrty"]
+---
 
 * * *
 

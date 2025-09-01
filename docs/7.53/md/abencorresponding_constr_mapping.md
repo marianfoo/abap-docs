@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING - mapping"
+description: |
+  Syntax ...  MAPPING t1 = s1  duplicates(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_dupl.htm)( t1 = s1  duplicates(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_dupl.htm) MAPPING ...
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_mapping.htm"
+abapFile: "abencorresponding_constr_mapping.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abencorresponding", "constr", "mapping"]
+---
 
 * * *
 

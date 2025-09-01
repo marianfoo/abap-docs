@@ -1,26 +1,11 @@
 # ABAP DATABASE - Complete Reference (7.54)
 
-**Generated**: 2025-09-01T11:14:58.217Z
-**Bundles Combined**: 71
+**Generated**: 2025-09-01T19:37:38.093Z
+**Bundles Combined**: 74
 **Category**: database
 
 ---
 
-
-
-## 🔗 Complete Source Documentation
-
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-**🏷️ Category**: DATABASE
-**🔍 Search Specific Topics**: Use `abap_search query:"database"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
-
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
-
----
 
 ## ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Technical Attributes of Database Tables
 
@@ -33,11 +18,17 @@ Included pages: 11
 
 ### abenddic_database_tables_tech.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tech.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Technical Attributes of Database Tables"
+description: |
+  The technical attributes of a database table include the attributes of its structure and attributes specific to the table. -   Technical attributes of the structure of a database table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techstruc.htm) -   Specific
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tech.htm"
+abapFile: "abenddic_database_tables_tech.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "tech"]
+---
 
 * * *
 
@@ -58,16 +49,19 @@ Continue
 [Table-Specific Technical Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techspec.htm)
 
 
-
-**📖 Source**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tech.htm)
-
 ### abenddic_database_tables_techstruc.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techstruc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Structure-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are mostly the same as those of a structure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_structures_tech.htm) in ABAP Dictionary: -   Table fields (columns) A table field is a component of the structure of the database table and describes t
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techstruc.htm"
+abapFile: "abenddic_database_tables_techstruc.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "techstruc"]
+---
 
 * * *
 
@@ -132,16 +126,19 @@ Notes
 -   The limit on the number of fields and the length of the structure for tables in the software component SAP\_BASIS is chosen deliberately so that the requirements of any supported database platform can be met. At SAP, tables can be flagged to allow this restriction to be exceeded if enhancements are used. When tables flagged in this way are accessed using ABAP SQL, a syntax warning from the [extended program check](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenextended_program_check_glosry.htm "Glossary Entry") occurs. The warning indicates that a cross-platform replacement implementation may be necessary. The class [CL\_ABAP\_DBFEATURES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_dbfeatures.htm) can be used to identify which limit is supported by a particular database system. The limits applied to tables in other software components for S/4 HANA is only defined by the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techstruc.htm)
-
 ### abenddic_database_tables_techspec.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techspec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are provided specifically for database tables. They define attributes of the physical database table and how the database interface is used for access. With the exception of the table category and activation type, these technical settings constitute a standalone ob
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techspec.htm"
+abapFile: "abenddic_database_tables_techspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "techspec"]
+---
 
 * * *
 
@@ -177,16 +174,19 @@ Continue
 [Activation Type of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_act_type.htm)
 
 
-
-**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techspec.htm)
-
 ### abenddic_database_tables_tab_type.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tab_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Category of Database Tables"
+description: |
+  -   Transparent tables(#abenddic-database-tables-tab-type-1--------global-temporary-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_2) Transparent tables The default table category is the transparent table. In transparent tables, the database object has an identically named variant with the same
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tab_type.htm"
+abapFile: "abenddic_database_tables_tab_type.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "database", "tables", "tab", "type"]
+---
 
 * * *
 
@@ -211,16 +211,19 @@ Note
 The ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_tools.htm) makes it possible to transform database tables from one category to another. To create a different table category as a transparent table, a transparent table must be created first and then transformed into a different table category. In [Dictionary DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendictionary_ddl_glosry.htm "Glossary Entry"), the table category is defined using the annotation [@AbapCatalog.tableCategory](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm).
 
 
-
-**📖 Source**: [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tab_type.htm)
-
 ### abenddic_database_tables_dat_type.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_dat_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Data Class of Database Tables"
+description: |
+  For the database platform Oracle, the data class determines the physical area (tablespace) of the database in which a database table is created (otherwise it is ignored). The most important data classes for application data are: -   APPL0 (master data) Data that is rarely changed. One example of mas
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_dat_type.htm"
+abapFile: "abenddic_database_tables_dat_type.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "dat", "type"]
+---
 
 * * *
 
@@ -252,16 +255,19 @@ Database tables for customer developments in a separate tablespace.
 There are also other data classes for system tables used internally by the runtime environment, such as SDIC for ABAP Dictionary tables.
 
 
-
-**📖 Source**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_dat_type.htm)
-
 ### abenddic_database_tables_siz_cat.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_siz_cat.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Size Category of Database Tables"
+description: |
+  The size category determines the size of the initial memory reserved for the table on the database. Values between 0 and 9 can be specified and intervals of expected rows are assigned to these values. The interval limits assigned to each size category depend on the structure of the database table. T
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_siz_cat.htm"
+abapFile: "abenddic_database_tables_siz_cat.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "siz", "cat"]
+---
 
 * * *
 
@@ -328,16 +334,19 @@ Expected Rows
 14,000,000 to 590,000,000
 
 
-
-**📖 Source**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_siz_cat.htm)
-
 ### abenddic_database_tables_buffer.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_buffer.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Buffering of Database Tables"
+description: |
+  It is possible to specify whether table buffering(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm 'Glossary Entry') in the table buffer(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_buffer_glosry.htm 'Glossary Entry') of an AS Instan
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_buffer.htm"
+abapFile: "abenddic_database_tables_buffer.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "buffer"]
+---
 
 * * *
 
@@ -384,16 +393,19 @@ The buffering type determines which data is loaded from the table to the table b
 -   [Full buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuffer_complete_buffering.htm)
 
 
-
-**📖 Source**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_buffer.htm)
-
 ### abenddic_database_tables_protocol.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_protocol.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logging Database Tables"
+description: |
+  If logging is activated, any changes to table entries in ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry') are logged in the log table DBTABLOG. This also requires the profile parameter rec/client to be set accordingly. This profile param
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_protocol.htm"
+abapFile: "abenddic_database_tables_protocol.htm"
+keywords: ["insert", "update", "do", "if", "try", "method", "class", "data", "types", "abenddic", "database", "tables", "protocol"]
+---
 
 * * *
 
@@ -430,16 +442,19 @@ Notes
 -   The documented method IS\_LOGGING\_ON of the system class CL\_DBI\_UTILITIES can be used to verify whether logging is currently switched on for a database table.
 
 
-
-**📖 Source**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_protocol.htm)
-
 ### abenddic_database_tables_storage.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_storage.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Storage Type of Database Tables"
+description: |
+  The storage type only applies if the current database is an SAP HANA(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm 'Glossary Entry') database. The specified storage type is ignored by other database systems and the platform-specific storage type is used in
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_storage.htm"
+abapFile: "abenddic_database_tables_storage.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "storage"]
+---
 
 * * *
 
@@ -472,16 +487,19 @@ Note
 For more information about the differences between row store and column store on the SAP HANA database, see the [SAP HANA Platform](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.03/en-US) documentation.
 
 
-
-**📖 Source**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_storage.htm)
-
 ### abenddic_database_tables_act_type.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_act_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Activation Type of Database Tables"
+description: |
+  The activation type defines whether a database table can be activated interactively in an ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_tools.htm) or whether the ABAP runtime environment needs to be used instead. This setting is not relevant for database
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_act_type.htm"
+abapFile: "abenddic_database_tables_act_type.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "act", "type"]
+---
 
 * * *
 
@@ -509,16 +527,19 @@ The default setting in which a database table can be activated interactively in 
     The database table is required before other objects are modified as part of a transport.
 
 
-
-**📖 Source**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_act_type.htm)
-
 ### abenddic_database_tables_techspec.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techspec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are provided specifically for database tables. They define attributes of the physical database table and how the database interface is used for access. With the exception of the table category and activation type, these technical settings constitute a standalone ob
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techspec.htm"
+abapFile: "abenddic_database_tables_techspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "techspec"]
+---
 
 * * *
 
@@ -557,256 +578,28 @@ Continue
 ---
 
 
-## ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables
+## ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables / Table-Specific Semantic Attributes of Database Tables / Foreign Key Dependencies
 
-**Files**: 17 | **Difficulty**: intermediate
+**Files**: 6 | **Difficulty**: intermediate
 
-# ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables
+# ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables / Table-Specific Semantic Attributes of Database Tables / Foreign Key Dependencies
 
-Included pages: 17
+Included pages: 6
 
-
-
-**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_techspec.htm)
-
-### abenddic_database_tables_sema.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_sema.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) → 
-
-Semantic Attributes of Database Tables
-
-The semantic attributes of a database table include the attributes of its structure and attributes specific to the table.
-
--   [Semantic attributes of the structure of a database table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semastruc.htm)
-
--   [Specific semantic attributes of a database table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm)
-
-Continue
-[Structure-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semastruc.htm)
-[Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm)
-
-
-
-**📖 Source**: [abenddic_database_tables_sema.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm)
-
-### abenddic_database_tables_semastruc.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_semastruc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semastruc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) → 
-
-Structure-Specific Semantic Attributes of Database Tables
-
-The following semantic attributes are the same as those of a [structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_structures_sema.htm) in ABAP Dictionary:
-
--   Short text
-
--   Documentation
-
--   Short text of table fields
-
--   Output style of table fields
-
--   Reference field for components of the [built-in data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) CURR and QUAN. If a field in a database table is used as a reference field in a different table, the field cannot be deleted.
-
--   Search help
-
-Notes
-
--   The semantic attributes apply mainly to the database table in question. The [separation of concerns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline") principle dictates that the way a table field is written must not necessarily be suitable for displaying a help text of an application that edits the table.
-
--   Like regular structure components, [search helps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry") can be assigned to table fields or the whole table. If the [separation of concerns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline") dictates that table fields are not to be used directly for input fields on dynpros or Web Dynpros, it is not recommended that search helps are assigned.
-
-
-
-**📖 Source**: [abenddic_database_tables_semastruc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semastruc.htm)
-
-### abenddic_database_tables_semasspec.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) → 
-
-Table-Specific Semantic Attributes of Database Tables
-
-The following semantic attributes are provided specifically for database tables.
-
--   [Key fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_key.htm)
-
--   [Client dependency](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_client.htm)
-
--   [Foreign key dependencies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkey.htm)
-
--   [Flag for initial value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_init.htm)
-
--   [Delivery class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_delivery.htm)
-
--   [Secondary indexes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_index.htm)
-
--   [Display and editing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_maint.htm)
-
-Continue
-[Key Fields of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_key.htm)
-[Client-Dependence of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_client.htm)
-[Flag for Initial Values in Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_init.htm)
-[Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm)
-[Delivery Class for Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_delivery.htm)
-[Indexes in Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_index.htm)
-[Displaying and Editing Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_maint.htm)
-
-
-
-**📖 Source**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm)
-
-### abenddic_database_tables_key.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_key.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) → 
-
-Key Fields of Database Tables
-
-At least one table field must be flagged as a [key field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkey_field_glosry.htm "Glossary Entry") in the structure of a database table. The table fields flagged as the key field become the [primary key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_key_glosry.htm "Glossary Entry") of the table. The key fields of a table must be located together at the beginning of the table, which means that no non-key fields are allowed between two key fields. The primary key comprising the key fields is a unique identification for a table row. If other combinations of table rows identify a table row uniquely, they are called key candidates. The [primary index](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_index_glosry.htm "Glossary Entry") is created for the primary key of the table. This index provides optimized key access to the table rows when values are specified for the key fields.
-
-There can be a maximum of 16 key fields in each table. The total number of bytes in all key fields on the database cannot exceed 900. If the number is greater than 120, however, the following restrictions apply:
-
--   Table content cannot be transported by specifying the complete key values. Instead, the generic key values must be specified with a maximum total of 120 bytes or characters.
-
--   The table cannot be used as the basis table of a [lock object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlock_object_glosry.htm "Glossary Entry").
-
-The following [built-in data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) are not allowed for key fields: DF16\_SCL and DF34\_SCL (both obsolete) plus FLTP, STRING, RAWSTRING, LCHR, LRAW, and GEOM\_EWKB. A key field with the type RAW must not be longer than 69 bytes.
-
-Notes
-
--   The key fields are restricted in such a way that the requirements of all supported database platforms are met. At SAP, tables can be flagged to allow these restrictions to be exceeded in the case of features. When tables flagged in this way are accessed using ABAP SQL, a syntax warning from the [extended program check](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenextended_program_check_glosry.htm "Glossary Entry") occurs. The warning indicates that a cross-platform replacement implementation may be necessary. The class [CL\_ABAP\_DBFEATURES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_dbfeatures.htm) can be used to identify which restrictions are supported by the current database system.
-
--   In the case of key fields, the [flag for initial values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_init.htm) is always set automatically.
-
--   No [null values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry") can be inserted in key fields. Any attempts to do this raise an exception on the database.
-
-
-
-**📖 Source**: [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_key.htm)
-
-### abenddic_database_tables_client.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_client.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) → 
-
-Client-Dependence of Database Tables
-
-If the first column of a database table is a key field with the [built-in type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) CLNT, the table is client-specific. In this case, the column contains the [client ID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_identifier_glosry.htm "Glossary Entry") evaluated in client copies and in [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm) in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry").
-
-Notes
-
--   Generally, tables in the [delivery class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_delivery.htm) A are client-specific, whereas system tables in the delivery classes E, S, and W are cross-client.
-
--   The system table T000, which contains the [client IDs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_identifier_glosry.htm "Glossary Entry") of an [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"), is an exception. The first column has the type CLNT, but the table is cross-client. If the table is accessed using ABAP SQL, the additions [USING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client.htm) and the obsolete [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client.htm) cannot be specified.
-
-
-
-**📖 Source**: [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_client.htm)
-
-### abenddic_database_tables_init.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_init.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) → 
-
-Flag for Initial Values in Database Tables
-
-Table fields of database tables can be given a flag for initial values. On the database, this flag is set to NOT NULL. When a new field is inserted into an existing database table, this flag can be used (on any platform) to assign the [type-dependent initial value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) to this field in all rows. The flag is always set automatically for [key fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_key.htm).
-
-If a new table field without the property NOT NULL is inserted in an existing table, the field is given a [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry") in all rows. There is no counterpart to the null value in ABAP. It can only be queried in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") using the special WHERE condition [IS *\[*NOT*\]* NULL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_null.htm).
-
-Generally, table fields on most database platforms are created as NOT NULL, even if the flag for the initial value is not set in ABAP Dictionary. Furthermore, all fields are given the property NOT NULL:
-
--   When a new table is created
-
--   When a table is [updated](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_conv.htm)
-
-With the exception of key fields on some database platforms, new fields are not created as NOT NULL only if they can be appended or inserted using ALTER TABLE without an [update](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_conv.htm) (if the flag is not set in ABAP Dictionary). The NOT NULL definition of a database field can be seen in ABAP Dictionary by displaying the database object.
-
-If the flag is set for an entire include structure, it only applies to those structure components where the flag is also set and not to all components. If the flag is not set for an include structure, all flags set in the included structure are ignored.
-
-Notes
-
--   The flag cannot be set for the following data types:
-
--   LCHR, LRAW, and the obsolete VARC. No [initial value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) is assigned to these data types.
-
--   NUMC and RAW with a length greater than or equal to 70.
-
--   GEOM\_EWKB
-
-It is possible to set the flag for the data type RAW with a less than 70 even though it is not assigned an [initial value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm).
-
--   This flag is only needed when inserting new fields and the initial value is always set. This is of particular importance when tables are [updated](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_conv.htm).
-
--   In tables with many rows, it can take a long time to set the type-dependent initial value and the initial value flag should only be used if absolutely necessary or if the table has a small number of entries.
-
-
-
-**📖 Source**: [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_init.htm)
 
 ### abenddic_database_tables_forkeyrel.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Foreign Key Dependencies"
+description: |
+  A foreign key dependency is a semantic dependency between two database tables, namely a foreign key table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_table_glosry.htm 'Glossary Entry') and a check table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm"
+abapFile: "abenddic_database_tables_forkeyrel.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "forkeyrel"]
+---
 
 * * *
 
@@ -834,16 +627,19 @@ Continue
 [Flagging of Obsolete Data in Check Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm)
 
 
-
-**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm)
-
 ### abenddic_database_tables_checktab.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Check Table"
+description: |
+  Table fields of a database table whose data type is determined using a data element(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_element_glosry.htm 'Glossary Entry') can be assigned a check table. Here, the value table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm"
+abapFile: "abenddic_database_tables_checktab.htm"
+keywords: ["insert", "delete", "do", "if", "try", "class", "data", "abenddic", "database", "tables", "checktab"]
+---
 
 * * *
 
@@ -868,16 +664,19 @@ Notes
 -   A special column can be used to [flag obsolete data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm) in check tables.
 
 
-
-**📖 Source**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm)
-
 ### abenddic_database_tables_forkey.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkey.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Foreign Key"
+description: |
+  A foreign key consists of one or more foreign key fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_field_glosry.htm 'Glossary Entry') of a foreign key table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_table_glosry.htm 'Glossary Entr
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkey.htm"
+abapFile: "abenddic_database_tables_forkey.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "forkey"]
+---
 
 * * *
 
@@ -950,16 +749,19 @@ The type of the foreign key fields can be defined to describe the meaning of the
     If this type of foreign key field is defined, the foreign key table is handled as a text table of the check table. The primary key of the foreign key table must match the check table, plus a language key field with the type LANG. There can be only one text table for each check table (otherwise an activation warning occurs). The texts in a text table are used, for example, to explain input helps on dynpros and Web Dynpros.
 
 
-
-**📖 Source**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkey.htm)
-
 ### abenddic_deprecation.htm
 
-> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Flagging of Obsolete Data in Check Tables"
+description: |
+  Rows in check tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the input check(https://help.sap.com/doc/abapdocu_754_index
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm"
+abapFile: "abenddic_deprecation.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "deprecation"]
+---
 
 * * *
 
@@ -1025,16 +827,19 @@ Continue
 ![Example](exa.gif "Example") [Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm)
 
 
-
-**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm)
-
 ### abenddic_deprecation_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Flagging of Deprecated Data in Check Tables"
+description: |
+  This example demonstrates how deprecated data is flagged in check tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm). Source Code REPORT demo_dynpro_deprecation. TABLES demo_depr_struc. DATA depr_flag TYPE abap_bool VALUE 'X'. START-OF-SELECTION. CALL
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm"
+abapFile: "abenddic_deprecation_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "class", "data", "types", "abenddic", "deprecation", "abexa"]
+---
 
 * * *
 
@@ -1092,16 +897,19 @@ If checks on deprecated data are enabled, the following takes place:
 If the checkbox Check deprecated data is not selected, there are no warnings or error messages and the input help displays all entries from the check table DEMO\_DEPR\_CHECK.
 
 
-
-**📖 Source**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm)
-
 ### abenddic_deprecation.htm
 
-> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Flagging of Obsolete Data in Check Tables"
+description: |
+  Rows in check tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the input check(https://help.sap.com/doc/abapdocu_754_index
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm"
+abapFile: "abenddic_deprecation.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "deprecation"]
+---
 
 * * *
 
@@ -1167,191 +975,145 @@ Continue
 ![Example](exa.gif "Example") [Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm)
 
 
-
-**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm)
-
-### abenddic_database_tables_forkeyrel.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+---
 
 
-  
+## ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Global Temporary Tables
+
+**Files**: 2 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Global Temporary Tables
+
+Included pages: 2
+
+
+### abenddic_database_tables_gtt.htm
+
+---
+title: "Global Temporary Tables"
+description: |
+  Global temporary tables (GTTs) are special transparent tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransparent_table_glosry.htm 'Glossary Entry') used as repositories for temporary data. This data exists only within a database LUW(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_gtt.htm"
+abapFile: "abenddic_database_tables_gtt.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenddic", "database", "tables", "gtt"]
+---
 
 * * *
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) → 
 
-Foreign Key Dependencies
+Global Temporary Tables
 
-A foreign key dependency is a semantic dependency between two database tables, namely a [foreign key table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_table_glosry.htm "Glossary Entry") and a [check table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencheck_table_glosry.htm "Glossary Entry").
+Global temporary tables (GTTs) are special [transparent tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransparent_table_glosry.htm "Glossary Entry") used as repositories for temporary data. This data exists only within a [database LUW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_luw_glosry.htm "Glossary Entry") and can be accessed only by one consumer. GTTs are used to save temporary subtotals thereby splitting complicated database processes into multiple steps. GTTs are designed for this purpose only and hence incur far lower administration costs than regular transparent tables.
 
-A foreign key dependency is defined in the foreign key table. Check tables are assigned to table fields and these fields become [foreign keys](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_glosry.htm "Glossary Entry").
+The GTT concept specifies that a GTT is always empty at the start of a database LUW and hence always has to be cleared at the end of each database LUW. Generally, database systems provide native support for this concept by defining data in a GTT database table as transaction-specific data implicitly. This data is deleted automatically at the end of a database LUW (in a [database commit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [database rollback](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_rollback_glosry.htm "Glossary Entry")).
 
--   [Check table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm)
+In ABAP Dictionary, the [table category](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tab_type.htm) global temporary table can be specified for a database table. Tables in this category have the variant GTT in the database. The following additional rules apply in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") access to GTTs in ABAP Dictionary to avoid platform-dependent behavior and unexpected responses when handling GTTs:
 
--   [Foreign Key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkey.htm)
+-   If an ABAP Dictionary GTT was filled by a modifying ABAP SQL statement, it must be cleared explicitly before the end of the current [database LUW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). The following can be used here:
 
-Among other things, foreign key dependencies are evaluated for input checks, for input help on dynpros and in Web Dynpro, when creating [views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_views.htm), and in [lock objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlock_object_glosry.htm "Glossary Entry"). Foreign keys are not used in the ABAP programming language or in ABAP SQL.
+-   The ABAP SQL statement [DELETE FROM dbtab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab.htm) without specifying a WHERE condition.
 
-In a check table, [obsolete data can be identified](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm), which has an effect on the input check and input help on dynpros or Web Dynpros.
+-   All explicit [database commits](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_commit.htm) and [database rollbacks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_rollback.htm), such as the ABAP SQL statements [COMMIT WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit.htm), [COMMIT CONNECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit_rollback_connection.htm), [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaprollback.htm), [ROLLBACK CONNECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit_rollback_connection.htm) plus all associated [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statements and calls.
+
+-   If an ABAP Dictionary GTT filled using ABAP SQL was not cleared explicitly using one of these methods before an [implicit database commit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_commit.htm), the runtime error COMMIT\_GTT\_ERROR occurs independently of its content.
+
+-   The obsolete addition CLIENT SPECIFIED is forbidden. This includes the use of [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) in queries and the use of [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapud_client_obsolete.htm) in UPDATE SET and DELETE FROM. The [non-obsolete form](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapiumd_client.htm) of CLIENT SPECIFIED in write statements is allowed.
+
+Alongside these rules, GTTs can be used like regular transparent tables. With respect to their definition in ABAP Dictionary, the following settings have predefined values that cannot be modified:
+
+-   The [data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_dat_type.htm) and [size category](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_siz_cat.htm) are ignored and undefined.
+
+-   [Table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_buffer.htm) is not allowed.
+
+-   [Logging](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_protocol.htm) is switched off.
+
+-   The [storage type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_storage.htm) is row store.
+
+-   The [delivery class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_delivery.htm) is L.
+
+-   No [replacement objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_replacement_objects.htm) can be used.
+
+The number of [key fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_key.htm) of a GTT is limited to 15.
+
+Notes
+
+-   When accessed using ABAP SQL, explicit clears of ABAP Dictionary GTTs are forced before implicit database commits for the following reasons:
+
+-   For making the program easier to understand. If an implicit database commit occurs within a programming module, for example due to an [RFC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_glosry.htm "Glossary Entry"), a developer may be surprised to find that the table is empty afterwards, since the database system deleted it implicitly at the end of the database LUW.
+
+-   It prevents errors caused by any platform dependencies. It cannot be guaranteed that every database platform deletes the data of a GTT in an implicit database commit. This is guaranteed, however, when the GTT is cleared explicitly.
+
+-   The statements [COMMIT WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit.htm) and [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaprollback.htm) clear the GTTs of all currently open [database connections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_connection_glosry.htm "Glossary Entry"), whereas [COMMIT CONNECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit_rollback_connection.htm) and [ROLLBACK CONNECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit_rollback_connection.htm) only delete the GTTs of the specified connection.
+
+-   Only the variant [DELETE FROM dbtab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab.htm) without a WHERE condition specified prevents the runtime error COMMIT\_GTT\_ERROR. Other variants of the DELETE statement do not prevent the runtime error, even if they clear the entire table.
+
+-   These additional rules apply only to [writes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_writing.htm) using [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry"). If a GTT is filled using only [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") or [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_glosry.htm "Glossary Entry") methods, no exceptions are raised in the case of implicit database commits. The GTT is then generally cleared by the database system. Conversely, using Native SQL or AMDP to clear a table filled using ABAP SQL does not prevent the runtime error COMMIT\_GTT\_ERROR.
+
+-   It is advisable to only use [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") to access ABAP Dictionary GTTs.
+
+-   [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm) statements with a [subquery](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubquery_glosry.htm "Glossary Entry") after [FROM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_source.htm) are particularly well suited for filling GTTs, since the operation is then performed only on the database and no data transports are required between the database and the AS ABAP.
+
+-   If the data of a GTT is only required when accessing a database, it is possible to make the corresponding request using [common table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommon_table_expression_glosry.htm "Glossary Entry").
+
+-   When an ABAP Dictionary GTT is accessed using ABAP SQL, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_750.htm), which handles the statement more strictly than the regular syntax check.
+
+Executable Examples
+
+-   [Global Temporary Tables, Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_gtt_abexa.htm)
+
+-   [Union with Global Temporary Table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_union_sum_gtt_abexa.htm)
 
 Continue
-[Check Table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm)
-[Foreign Key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkey.htm)
-[Flagging of Obsolete Data in Check Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm)
+![Example](exa.gif "Example") [Global Temporary Tables, Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_gtt_abexa.htm)
 
 
+### abenddic_gtt_abexa.htm
 
-**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm)
-
-### abenddic_database_tables_delivery.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_delivery.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Global Temporary Tables, Access"
+description: |
+  This example demonstrates how global temporary tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_gtt.htm) in ABAP Dictionary are accessed. Source Code REPORT demo_gtt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMEN
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_gtt_abexa.htm"
+abapFile: "abenddic_gtt_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenddic", "gtt", "abexa"]
+---
 
 * * *
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) → 
-
-Delivery Class for Database Tables
-
-The delivery class of a database table controls the transport of table data in installations, upgrades, or client copies, and in transports between customer systems. It is also applied in extended table maintenance (transaction code SM30).
-
--   Delivery class A
-
-Application table for master data and transaction data. The data is written by application programs.
-
--   An application table is delivered as an empty table or using a pattern for real data in client 000.
-
--   In client copies, the data in client-specific tables is copied only if the appropriate parameter is set. Any cross-client data is not copied.
-
--   In installations, updates, and language imports, the data in client-specific tables is only imported into the system client with the client ID "000", overwriting any existing data. Any cross-client data is not imported.
-
--   In transports between customer systems, all data is transported. In client-specific tables, only the data in the specified target client is respected.
-
--   Delivery class C
-
-Customer table for data entered only by the customer.
-
--   Client-specific customer tables can be delivered with patterns for real data.
-
--   In client copies, the data of client-specific tables is copied. Any cross-client data is not copied.
-
--   In installations, updates, and language imports, the data in client-specific tables is only imported into the system client with the client ID "000", overwriting any existing data. Any cross-client data is not imported.
-
--   In transports between customer systems, all data is transported. In client-specific tables, only the data in the specified target client is respected.
-
--   Delivery class L
-
-Table used as a repository for temporary data. SAP delivers tables in the delivery class L as empty tables.
-
--   These tables are delivered as empty tables.
-
--   No data is copied in client copies.
-
--   No data is imported in installations, updates, and language imports.
-
--   No data is transported in transports between customer systems.
-
--   Data entered using extended table maintenance (transaction code SM30) cannot be transported here.
-
-[Global temporary tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry") always have the delivery class L.
-
--   Obsolete delivery class G
-
-Customer table where SAP can add data but not modify or delete it. A customer table in the delivery class G must be assigned a customer namespace in the database table TRESC using the program RDDKOR54.
-
-The delivery class G can no longer be specified for new database tables and when changing the delivery class of an existing table. The delivery class C can be used instead. On an AS ABAP used in an SAP Cloud solution, tables with delivery class G are handled like delivery class C implicitly.
-
--   Customer tables can be delivered with patterns for real data.
-
--   In client copies, the data of client-specific tables is copied. Any cross-client data is not copied.
-
--   In installations, updates, and language imports, the data in client-specific tables is imported as follows: in system clients with the client ID "000", all data is imported and existing data is overwritten. In other clients, only new data is imported and no existing data is overwritten. Any cross-client data is inserted without overwriting existing data.
-
--   In transports between customer systems, all data is transported. In client-specific tables, only the data in the specified target client is respected.
-
--   Any data entered using extended table maintenance (transaction code SM30) is checked here for any violations of the namespace assigned in the database table TRESC.
-
-The delivery class G can no longer be specified for new database tables and when changing the delivery class of an existing table. The delivery class C can be used instead. On an AS ABAP used in an SAP Cloud solution, tables with delivery class G are handled like delivery class C implicitly.
-
--   Delivery class E
-
-System table in which customers can make entries. A system table in the delivery class E must be assigned a customer namespace in the database table TRESC using the program RDDKOR54.
-
--   These system tables are delivered with prefilled entries.
-
--   In client copies, the data of client-specific tables is copied. Any cross-client data is not copied.
-
--   In installations, updates, and language imports, all data is imported and existing data is overwritten.
-
--   In transports between customer systems, all data is transported. In client-specific tables, only the data in the specified target client is respected.
-
--   Any data entered using extended table maintenance (transaction code SM30) is checked here for any violations of the namespace assigned in the database table TRESC.
-
--   Delivery class S
-
-System table delivered by SAP with predefined data as part of the system, such as ABAPDOCU\_TREE (which contains the read-only tree of the ABAP keyword documentation). In the [Change and Transport Systems (CTS)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencts_glosry.htm "Glossary Entry"), the data is handled like repository objects, which means that they have an original system and any changes in other systems are modifications or repairs.
-
--   These system tables are delivered with prefilled entries.
-
--   In client copies, the data of client-specific tables is copied. Any cross-client data is not copied.
-
--   In installations, updates, and language imports, all data is imported and existing data is overwritten.
-
--   In transports between customer systems, all data is transported. In client-specific tables, only the data in the specified target client is respected.
-
--   Delivery class W
-
-System table for system administration data, such as TFDIR as a directory of all function modules. A system table in the delivery class W is usually delivered with prefilled entries by SAP and can be affected by customer modifications. The content is transported using the transport objects assigned to the objects in questions, such as R3TR FUNC for function modules.
-
--   These system tables are delivered with prefilled entries.
-
--   No data is copied in client copies.
-
--   In installations, updates, and language imports, all data is imported and existing data is overwritten.
-
--   In transports between customer systems, all data is transported. In client-specific tables, only the data in the specified target client is respected.
-
--   Data entered using extended table maintenance (transaction code SM30) cannot be transported here.
-
-Note
-
-We do not recommend transporting table content for which a [replacement object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_replacement_objects.htm) is defined. This content is no longer transported automatically in the upcoming release.
-
-
-
-**📖 Source**: [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_delivery.htm)
-
-### abenddic_database_tables_index.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_index.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_index.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) → 
-
-Indexes in Database Tables
-
-An index in a database table helps to speed up the selection of rows. An index is a sorted copy of selected database table fields. An additional field contains a pointer to the actual table rows. Sorting enables faster access to the rows in the table, for example in binary searches. A database table has at least one [primary index](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_index_glosry.htm "Glossary Entry") defined by its key fields. It can also have one or more optional [secondary indexes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_index_glosry.htm "Glossary Entry").
-
--   [Primary Index](#abenddic-database-tables-index-1--------secondary-indexes---@ITOC@@ABENDDIC_DATABASE_TABLES_INDEX_2)
-
--   [Full Text Index](#abenddic-database-tables-index-3---primary-index--the-primary-index-is-a-unique-index-constructed-from-the--key-fields--javascript-call-link---abenddic-database-tables-key-htm-----of-the-primary-key--it-is-always-created-automatically-in-as-abap--a-maximum-of-one-record-exists-in-the-table-for-each-combination-of-index-fields--if-the-primary-index-cannot-be-used-to-identify-the-results-set--for-example-because-no-field-from-the-primary-index-was-selected--the-table-is-scanned-in-full-or-an-attempt-is-made-to-use-a-suitable-secondary-index--if-one-exists----secondary-indexes--alongside-the-primary-index-defined-using-the-primary-key--both-unique-and-non-unique-secondary-indexes-can-be-created-for-a-database-table--creating-secondary-indexes-usually-improves-the-performance-of-database-reads-that-evaluate-the-indexes-of-the-database---the-secondary-indexes-of-a-database-table-consist-of-a-series-of-table-fields-and-are-identified-by-an-alphanumeric-index-id-with-a-maximum-of-three-characters--letters-or-digits---the-id-0-is-reserved-for-the-primary-index--table-fields-with-the-built-in-data-types--string--javascript-call-link---abenddic-builtin-types-htm-------rawstring--javascript-call-link---abenddic-builtin-types-htm------and-geom--ewkb-must-not-be-index-fields--it-is-recommended-that-table-fields-with-the-data-type--fltp--javascript-call-link---abenddic-builtin-types-htm-----are-not-index-fields---the-secondary-indexes-defined-for-a-database-table-are-created-when-the-table-itself-is-created-in-the-database-system--furthermore--new-secondary-indexes-can-be-added-later-in-the-same-system--when-further-secondary-indexes-are-added-in-other-systems-without-making-modifications--they-are-created-as-extension-indexes--the-following-are-recommended-as-namespaces-for-indexes-added-at-a-later-time-------the-ids-of-indexes-added-to-delivered-tables-by-customers-start-with--y--or--z--------the-ids-of-indexes-added-to-delivered-tables-by-partners-start-with--j---there-can-be-conflicts-between-the-index-names-of-different-partners-in-follow-on-systems-------the-ids-of-indexes-added-to-other-tables-can-have-any-names--but-cannot-start-with--y----z---or--j----the-name-of-an-index-on-the-database-usually-has-the-form-dbtab-id--where-dbtab-is-the-name-of-the-database-table-and-id-is-the-three-character-id--other-names-can-occur--however--and-blanks-can-be-padded-using-underscores---unlike-the-primary-index--a-secondary-index-does-not-have-to-be-unique--in-the-case-of-unique-indexes--the-database-table-cannot-contain-multiple-rows-with-the-same-values-in-the-index-fields--any-attempts-to-insert-a-row-like-this-cancel-processing-in-the-database-and-raise-an-appropriate-exception-in-abap--a-unique-index-of-a-client-specific-table-must-always-contain-the-client-field---when-the-database-is-accessed--the-optimizer-of-the-database-system-checks-whether-a-suitable-index-exists-and-uses-it-if-appropriate--the-index-selected-depends-on-the-platform--which-means-it-is-possible-in-abap-dictionary-to-define-to-which-database-systems-a-non-unique-secondary-index-is-applied-or-not-------index-in-all-database-systems--the-index-is-created-on-every-database-------in-selected-database-systems--the-database-systems-can-be-defined-using-a-selection-list-or-an-exclusion-list-with-up-to-four-entries-each-------no-database-index--the-index-is-not-created-on-any-database--this-setting-makes-it-possible-to-delete-existing-secondary-indexes-from-the-database---these-settings-are-ignored-by-the-evaluation-of-the-secondary-index-in-the--table-buffer--javascript-call-link---abentable-buffer-glosry-htm-----glossary-entry----secondary-indexes-defined-in-abap-dictionary-are-always-evaluated-if-the--buffering-type--javascript-call-link---abenbuffer-kind-htm-----is-set-accordingly---unique-secondary-indexes-are-always-created-and-can-then-no-longer-be-deleted-from-the-database--the--sql-trace--javascript-call-link---abensql-trace-glosry-htm-----glossary-entry---function-in-the--performance-trace--javascript-call-link---abenperformance-trace-glosry-htm-----glossary-entry---tool--transaction-st05--can-be-used-to-determine-which-index-is-being-used-by-the-database-system-to-access-data---the-value-of-an-index-for-selecting-data-from-a-table-depends-on-how-well-the-data-set-selectable-using-the-index-represents-the-final-set-selected--only-those-fields-are-useful-in-an-index-that-make-a-significant-restriction-on-the-results-set-of-a-selection--if-an-index-is-constructed-from-multiple-fields--it-can-also-be-used-if-only-a-few-of-these-fields-are-specified-in-a-selection-condition--here--the-order-of-the-fields-in-the-index-is-an-important-factor-in-how-quickly-they-can-be-accessed--the-first-fields-must-be-those-filled-with-constant-values-in-a-large-number-of-selections--in-selections--an-index-is-useful-only-up-until-the-first-field-not-specified-in-the-selection-condition--alternatively--an-index-field-is-generally-used-only-when-all-index-fields-located-in-front-of-it-are-specified-in-the-selection-condition--the-speed-at-which-a-field-is-accessed-is-not-affected-by-whether-or-not-an-index-is-defined-as-unique---creating-secondary-indexes-is-beneficial-in-the-following-cases-------if-table-entries-are-to-be-selected-based-on-fields-that-are-not-contained-in-an-index--and-the-response-times-are-very-slow--a-suitable-secondary-index-should-be-created-------the-field-or-fields-of-a-secondary-index-are-so-selective-that-each-index-entry-corresponds-to-a-maximum-of-5--of-the-total-number-of-table-entries-------the-database-table-is-accessed-mainly-to-read-entries--when-accessing-a-table-to-modify-entries--each-additional-index-must-also-be-updated-------if-only-those-fields-are-read-that-also-exist-in-the-index--the-data-does-not-need-to-be-accessed-a-second-time-after-the-index-access--if-only-a-very-small-number-of-fields-are-selected--there-can-be-significant-efficiency-gains-if-these-fields-are-included-in-an-index-in-their-entirety---secondary-indexes-can-also-place-a-load-on-the-system--since-they-need-to-be-adjusted-each-time-the-table-content-is-modified--each-additional-index-slows-down-the-insertion-of-rows-in-the-table--tables-where-new-rows-are-often-created-should-only-have-a-small-number-of-indexes--too-many-indexes-can-also-cause-the-database-system-optimizer-to-select-the-wrong-index--to-prevent-this--the-indexes-in-a-table-must-be-as-disjoint-as-possible--meaning-that-they-share-as-few-fields-as-possible----an-index-should-only-consist-of-a-few-fields--as-a-rule--no-more-than-four--this-is-because-the-index-has-to-be-updated-each-time-its-fields-are-updated-in-a-database-operation--fields-that-are-suitable-for-indexes-are-------fields-that-are-selected-often-and-that-have-a-high-level-of-selectivity--the-most-selective-fields-should-be-placed-at-the-beginning-of-the-index-------a-field-should-not-be-included-in-an-index-if-its-value-is-initial-for-most-of-the-table-entries-------if-more-than-one-index-is-used-for-a-database-table--they-should-not-overlap---no-more-than-five-indexes-should-be-created-for-any-one-table-because------each-index-produces-additional-update-costs-------the-amount-of-data-increases-------the-optimizer-of-the-database-system-is-given-too-many-selection-options-and-becomes-more-error-prone---an-index-can-only-support-search-criteria-which-describe-the-search-value-positively--such-as----or-like--the-response-times-of-conditions-including-----for-example--are-not-improved-by-an-index--the-optimizer-generally-stops-if-the-condition-contains-an-or--in-other-words--it-does-not-evaluate-the-fields-checked-by-or-when-selecting-and-applying-the-index--an-exception-to-this-are-or-relationships-standing-on-their-own--therefore--conditions-containing-an-or-join-for-one-of-the-indexed-fields-should-be-reformulated-if-necessary---notes------the-zero-value-in-some-database-systems-is-ignored-by-the-indexes--meaning-that-no-index-can-be-used-when-selecting-by-zero-values-------if-absolutely-necessary---database-hints--javascript-call-link---abendatabase-hint-glosry-htm-----glossary-entry---can-be-specified-in-abap-sql-using-the-addition-----hints--javascript-call-link---abenosql-db-hints-htm-----to-adjust-the-database-system-optimizer-when-selecting-a-secondary-index---example--the-optimizer-stops-working-when-it-encounters-or-in-the-following-select-statement---select----from-spfli----------where-carrid----lh--and-----------------cityfrom----frankfurt--or--cityfrom----new-york------when-replaced-by-the-equivalent-statement--below---the-entire-condition-can-be-optimized-with-respect-to-the-existing-indexes---select-----------from-spfli--------where---carrid----lh--and-cityfrom----frankfurt----or----------------carrid----lh--and-cityfrom----new-york------full-text-index--the--sap-hana-database--javascript-call-link---abenhana-database-glosry-htm-----glossary-entry---supports-a-full-text-index-as-a-secondary-table-index--a-full-text-index-is-created-as-an-additional-invisible-column-on-the-database--the-content-of-the-column-created-for-a-full-text-index-is-saved-to-this-additional-column-with-appropriate-formatting-and-is-evaluated-when-the-relevant-data-is-accessed---the-following-conditions-apply-------a-full-text-index-can-only-be-created-for-the-sap-hana-database-and-for-tables-with-the--storage-type--javascript-call-link---abenddic-database-tables-storage-htm-----column-store-------a-full-text-index-can-only-be-created-for-precisely-one-column-in-a-database-table-whose--built-in-data-type--javascript-call-link---abenddic-builtin-types-htm-----is-char--shortstring--string--or-rawstring-------the-database-table-must-have-a-column-for-the--text-language--javascript-call-link---abentext-language-glosry-htm-----glossary-entry-----a-full-text-index-is-always-non-unique--accesses-that-make-use-of-the-full-text-index-are-based-on-the-sql-language-element-where-contains------this-is-not-yet-supported-by--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry-----native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry---has-to-be-used-instead---note--for-more-information-about-the-full-text-index--see-the--sap-hana-developer-guide--https---help-sap-com-viewer-4505d0bdaf4948449b7f7379d24d0f0d-2-0-03-en-us-----------source-----abenddic-database-tables-index-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenddic-database-tables-index-htm-------abenddic-database-tables-maint-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------classic-objects-in-abap-dictionary--javascript-call-link---abenddic-classical-objects-htm---------database-tables--javascript-call-link---abenddic-database-tables-htm---------semantic-attributes-of-database-tables--javascript-call-link---abenddic-database-tables-sema-htm---------table-specific-semantic-attributes-of-database-tables--javascript-call-link---abenddic-database-tables-semasspec-htm---------displaying-and-editing-database-tables--in-abap-dictionary--it-is-possible-to-define-whether-database-tables-are-displayed-or-edited-using-certain-tools-such-as--data-browser--javascript-call-link---abendata-browser-glosry-htm-----glossary-entry----transaction-se16---and--table-view-maintenance---transactions-sm30-and-sm31-----the-following-settings-are-possible-------display-maintenance-not-allowed------tables-cannot-be-displayed-or-edited-using-data-browser--transaction-se16--------no-maintenance-dialogs-can-be-created-using-transaction-se54--which-means-that-transactions-sm30-and-sm31-cannot-be-used-------display-maintenance-allowed-to-a-limited-extent------tables-can-be-displayed-but-not-edited-using-data-browser--transaction-se16--------maintenance-dialogs-can-be-created-using-transaction-se54-------tables-cannot-be-displayed-and-edited-with-transactions-sm30-and-sm31--maintenance-dialogs-can--however--be-used-in--view-cluster-maintenance---transaction-sm34--------display-maintenance-allowed------tables-can-be-displayed-and-edited-using-data-browser--transaction-se16--------maintenance-dialogs-can-be-created-using-transaction-se54-------tables-can-be-displayed-and-edited-using-transactions-sm30-and-sm31--maintenance-dialogs-can-be-used-in--view-cluster-maintenance---transaction-sm34----note--users-must-always-have-the-correct-authorizations-before-they-can-use-the-tools-in-question----------source-----abenddic-database-tables-maint-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenddic-database-tables-maint-htm-------abenddic-database-tables-semasspec-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------classic-objects-in-abap-dictionary--javascript-call-link---abenddic-classical-objects-htm---------database-tables--javascript-call-link---abenddic-database-tables-htm---------semantic-attributes-of-database-tables--javascript-call-link---abenddic-database-tables-sema-htm---------table-specific-semantic-attributes-of-database-tables--the-following-semantic-attributes-are-provided-specifically-for-database-tables--------key-fields--javascript-call-link---abenddic-database-tables-key-htm-----------client-dependency--javascript-call-link---abenddic-database-tables-client-htm-----------foreign-key-dependencies--javascript-call-link---abenddic-database-tables-forkey-htm-----------flag-for-initial-value--javascript-call-link---abenddic-database-tables-init-htm-----------delivery-class--javascript-call-link---abenddic-database-tables-delivery-htm-----------secondary-indexes--javascript-call-link---abenddic-database-tables-index-htm-----------display-and-editing--javascript-call-link---abenddic-database-tables-maint-htm------continue--key-fields-of-database-tables--javascript-call-link---abenddic-database-tables-key-htm------client-dependence-of-database-tables--javascript-call-link---abenddic-database-tables-client-htm------flag-for-initial-values-in-database-tables--javascript-call-link---abenddic-database-tables-init-htm------foreign-key-dependencies--javascript-call-link---abenddic-database-tables-forkeyrel-htm------delivery-class-for-database-tables--javascript-call-link---abenddic-database-tables-delivery-htm------indexes-in-database-tables--javascript-call-link---abenddic-database-tables-index-htm------displaying-and-editing-database-tables--javascript-call-link---abenddic-database-tables-maint-htm----------------abap-keyword-documentation---abap---dictionary---classic-objects-in-abap-dictionary---database-tables---global-temporary-tables----files----2-----difficulty----intermediate----abap-keyword-documentation---abap---dictionary---classic-objects-in-abap-dictionary---database-tables---global-temporary-tables--included-pages--2---------source-----abenddic-database-tables-semasspec-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenddic-database-tables-semasspec-htm-------abenddic-database-tables-gtt-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------classic-objects-in-abap-dictionary--javascript-call-link---abenddic-classical-objects-htm---------database-tables--javascript-call-link---abenddic-database-tables-htm---------global-temporary-tables--global-temporary-tables--gtts--are-special--transparent-tables--javascript-call-link---abentransparent-table-glosry-htm-----glossary-entry---used-as-repositories-for-temporary-data--this-data-exists-only-within-a--database-luw--javascript-call-link---abendatabase-luw-glosry-htm-----glossary-entry---and-can-be-accessed-only-by-one-consumer--gtts-are-used-to-save-temporary-subtotals-thereby-splitting-complicated-database-processes-into-multiple-steps--gtts-are-designed-for-this-purpose-only-and-hence-incur-far-lower-administration-costs-than-regular-transparent-tables---the-gtt-concept-specifies-that-a-gtt-is-always-empty-at-the-start-of-a-database-luw-and-hence-always-has-to-be-cleared-at-the-end-of-each-database-luw--generally--database-systems-provide-native-support-for-this-concept-by-defining-data-in-a-gtt-database-table-as-transaction-specific-data-implicitly--this-data-is-deleted-automatically-at-the-end-of-a-database-luw--in-a--database-commit--javascript-call-link---abendatabase-commit-glosry-htm-----glossary-entry---or--database-rollback--javascript-call-link---abendatabase-rollback-glosry-htm-----glossary-entry------in-abap-dictionary--the--table-category--javascript-call-link---abenddic-database-tables-tab-type-htm-----global-temporary-table-can-be-specified-for-a-database-table--tables-in-this-category-have-the-variant-gtt-in-the-database--the-following-additional-rules-apply-in--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry---access-to-gtts-in-abap-dictionary-to-avoid-platform-dependent-behavior-and-unexpected-responses-when-handling-gtts-------if-an-abap-dictionary-gtt-was-filled-by-a-modifying-abap-sql-statement--it-must-be-cleared-explicitly-before-the-end-of-the-current--database-luw--javascript-call-link---abendatabase-luw-glosry-htm-----glossary-entry----the-following-can-be-used-here-------the-abap-sql-statement--delete-from-dbtab--javascript-call-link---abapdelete-dbtab-htm-----without-specifying-a-where-condition-------all-explicit--database-commits--javascript-call-link---abendb-commit-htm-----and--database-rollbacks--javascript-call-link---abendb-rollback-htm------such-as-the-abap-sql-statements--commit-work--javascript-call-link---abapcommit-htm-------commit-connection--javascript-call-link---abapcommit-rollback-connection-htm-------rollback-work--javascript-call-link---abaprollback-htm-------rollback-connection--javascript-call-link---abapcommit-rollback-connection-htm-----plus-all-associated--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---statements-and-calls-------if-an-abap-dictionary-gtt-filled-using-abap-sql-was-not-cleared-explicitly-using-one-of-these-methods-before-an--implicit-database-commit--javascript-call-link---abendb-commit-htm------the-runtime-error-commit--gtt--error-occurs-independently-of-its-content-------the-obsolete-addition-client-specified-is-forbidden--this-includes-the-use-of--client-specified--javascript-call-link---abapselect-client-obsolete-htm-----in-queries-and-the-use-of--client-specified--javascript-call-link---abapud-client-obsolete-htm-----in-update-set-and-delete-from--the--non-obsolete-form--javascript-call-link---abapiumd-client-htm-----of-client-specified-in-write-statements-is-allowed---alongside-these-rules--gtts-can-be-used-like-regular-transparent-tables--with-respect-to-their-definition-in-abap-dictionary--the-following-settings-have-predefined-values-that-cannot-be-modified-------the--data-type--javascript-call-link---abenddic-database-tables-dat-type-htm-----and--size-category--javascript-call-link---abenddic-database-tables-siz-cat-htm-----are-ignored-and-undefined--------table-buffering--javascript-call-link---abenddic-database-tables-buffer-htm-----is-not-allowed--------logging--javascript-call-link---abenddic-database-tables-protocol-htm-----is-switched-off-------the--storage-type--javascript-call-link---abenddic-database-tables-storage-htm-----is-row-store-------the--delivery-class--javascript-call-link---abenddic-database-tables-delivery-htm-----is-l-------no--replacement-objects--javascript-call-link---abenddic-replacement-objects-htm-----can-be-used---the-number-of--key-fields--javascript-call-link---abenddic-database-tables-key-htm-----of-a-gtt-is-limited-to-15---notes------when-accessed-using-abap-sql--explicit-clears-of-abap-dictionary-gtts-are-forced-before-implicit-database-commits-for-the-following-reasons-------for-making-the-program-easier-to-understand--if-an-implicit-database-commit-occurs-within-a-programming-module--for-example-due-to-an--rfc--javascript-call-link---abenrfc-glosry-htm-----glossary-entry----a-developer-may-be-surprised-to-find-that-the-table-is-empty-afterwards--since-the-database-system-deleted-it-implicitly-at-the-end-of-the-database-luw-------it-prevents-errors-caused-by-any-platform-dependencies--it-cannot-be-guaranteed-that-every-database-platform-deletes-the-data-of-a-gtt-in-an-implicit-database-commit--this-is-guaranteed--however--when-the-gtt-is-cleared-explicitly-------the-statements--commit-work--javascript-call-link---abapcommit-htm-----and--rollback-work--javascript-call-link---abaprollback-htm-----clear-the-gtts-of-all-currently-open--database-connections--javascript-call-link---abendatabase-connection-glosry-htm-----glossary-entry----whereas--commit-connection--javascript-call-link---abapcommit-rollback-connection-htm-----and--rollback-connection--javascript-call-link---abapcommit-rollback-connection-htm-----only-delete-the-gtts-of-the-specified-connection-------only-the-variant--delete-from-dbtab--javascript-call-link---abapdelete-dbtab-htm-----without-a-where-condition-specified-prevents-the-runtime-error-commit--gtt--error--other-variants-of-the-delete-statement-do-not-prevent-the-runtime-error--even-if-they-clear-the-entire-table-------these-additional-rules-apply-only-to--writes--javascript-call-link---abenopen-sql-writing-htm-----using--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry----if-a-gtt-is-filled-using-only--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry---methods--no-exceptions-are-raised-in-the-case-of-implicit-database-commits--the-gtt-is-then-generally-cleared-by-the-database-system--conversely--using-native-sql-or-amdp-to-clear-a-table-filled-using-abap-sql-does-not-prevent-the-runtime-error-commit--gtt--error-------it-is-advisable-to-only-use--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry---to-access-abap-dictionary-gtts--------insert--javascript-call-link---abapinsert-dbtab-htm-----statements-with-a--subquery--javascript-call-link---abensubquery-glosry-htm-----glossary-entry---after--from--javascript-call-link---abapinsert-source-htm-----are-particularly-well-suited-for-filling-gtts--since-the-operation-is-then-performed-only-on-the-database-and-no-data-transports-are-required-between-the-database-and-the-as-abap-------if-the-data-of-a-gtt-is-only-required-when-accessing-a-database--it-is-possible-to-make-the-corresponding-request-using--common-table-expressions--javascript-call-link---abencommon-table-expression-glosry-htm-----glossary-entry---------when-an-abap-dictionary-gtt-is-accessed-using-abap-sql--the-syntax-check-is-performed-in-a--strict-mode--javascript-call-link---abenopensql-strict-mode-750-htm------which-handles-the-statement-more-strictly-than-the-regular-syntax-check---executable-examples-------global-temporary-tables--access--javascript-call-link---abenddic-gtt-abexa-htm-----------union-with-global-temporary-table--javascript-call-link---abenselect-union-sum-gtt-abexa-htm------continue---example--exa-gif--example----global-temporary-tables--access--javascript-call-link---abenddic-gtt-abexa-htm-------------source-----abenddic-database-tables-gtt-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenddic-database-tables-gtt-htm-------abenddic-gtt-abexa-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------classic-objects-in-abap-dictionary--javascript-call-link---abenddic-classical-objects-htm---------database-tables--javascript-call-link---abenddic-database-tables-htm---------global-temporary-tables--javascript-call-link---abenddic-database-tables-gtt-htm---------global-temporary-tables--access--this-example-demonstrates-how--global-temporary-tables--javascript-call-link---abenddic-database-tables-gtt-htm-----in-abap-dictionary-are-accessed---source-code--report-demo--gtt--class-demo-definition----public-section------class-methods-main--endclass--class-demo-implementation----method-main------data-o----cl--demo--output--new---------data-delete-type-abap--bool------cl--demo--input--request--------exporting-text-------------delete-lines-before-implicit-commit-------------------as--checkbox---abap--true-------changing--field---------delete---------fill-gtt-with-open-sql-----insert-demo--gtt-from-( VALUE #( id = 'X' col = 111 ) ).
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Global Temporary Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_gtt.htm) → 
+
+Global Temporary Tables, Access
+
+This example demonstrates how [global temporary tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_gtt.htm) in ABAP Dictionary are accessed.
+
+Source Code
+
+REPORT demo\_gtt.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    DATA(o) = cl\_demo\_output=>new( ).
+    DATA delete TYPE abap\_bool.
+    cl\_demo\_input=>request(
+      EXPORTING text         = \`Delete lines before implicit commit\`
+                as\_checkbox = abap\_true
+      CHANGING  field       = delete ).
+    "Fill GTT with Open SQL
+    INSERT demo\_gtt FROM @( VALUE #( id = 'X' col = 111 ) ).
     SELECT SINGLE \* FROM demo\_gtt INTO @DATA(wa).
     o->write( COND #( WHEN sy-subrc = 0
                       THEN \`Line found after open insert\`
@@ -1408,16 +1170,19 @@ Native SQL is used to fill the GTT here for demonstration purposes only. Only AB
 Included pages: 8
 
 
-
-**📖 Source**: [abenddic_gtt_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_gtt_abexa.htm)
-
 ### abenddic_define_table.htm
 
-> **📖 Official SAP Documentation**: [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_define_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dictionary DDL for Defining Database Tables"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadt_glosry.htm 'Glossary Entry'), a database table can be displayed and modified using source-code-based methods in the Dictionary DDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abe
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_define_table.htm"
+abapFile: "abenddic_define_table.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "define", "table"]
+---
 
 * * *
 
@@ -1443,16 +1208,19 @@ Continue
 [DEFINE TABLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm)
 
 
-
-**📖 Source**: [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_define_table.htm)
-
 ### abenddicddl_define_table.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DEFINE TABLE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_props.htm) table_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm) DEFINE TABLE dbtab  ... field;(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm"
+abapFile: "abenddicddl_define_table.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddicddl", "define", "table"]
+---
 
 * * *
 
@@ -1516,16 +1284,19 @@ Continue
 [DEFINE TABLE - field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm)
-
 ### abenddicddl_define_table_props.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.tableCategory : table_cat @AbapCatalog.dataMaintenance : data_maint @AbapCatalog.deliveryClass : deliv_class @AbapCatalog.activationType : act_type @AbapCatalog.replacementObject : '...' Effect Annotations for specifying table properties in the definition of a databa
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm"
+abapFile: "abenddicddl_define_table_props.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "props"]
+---
 
 * * *
 
@@ -1611,16 +1382,19 @@ define table demo\_sumdist {
   sum\_distance : s\_distance; }
 
 
-
-**📖 Source**: [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm)
-
 ### abenddicddl_define_table_comps.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DEFINE TABLE - field"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm) KEY field : data_element foreign_key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fo
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm"
+abapFile: "abenddicddl_define_table_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "table", "comps"]
+---
 
 * * *
 
@@ -1704,16 +1478,19 @@ Continue
 [DEFINE TABLE - foreign\_key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_forkey.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm)
-
 ### abenddicddl_define_table_fkprps.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @@AbapCatalog.foreignKey.label : '...' @@AbapCatalog.foreignKey.keyType : key_type @@AbapCatalog.foreignKey.screenCheck : truefalse @@AbapCatalog.foreignKey.messageClass : msg_cls @@AbapCatalog.foreignKey.messageNumber : msg_no Effect Annotations used to
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm"
+abapFile: "abenddicddl_define_table_fkprps.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "fkprps"]
+---
 
 * * *
 
@@ -1754,16 +1531,19 @@ Example
 See [foreign\_key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_forkey.htm).
 
 
-
-**📖 Source**: [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm)
-
 ### abenddicddl_define_table_forkey.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_forkey.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  WITH FOREIGN KEY n,m check_table WHERE check_field1 = dbtab.field1 AND check_field2 = dbtab.field2 ... ... Effect Assigns a check table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm) to a table field(https://help.sap.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_forkey.htm"
+abapFile: "abenddicddl_define_table_forkey.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "forkey"]
+---
 
 * * *
 
@@ -1815,16 +1595,19 @@ define table spfli {
 }
 
 
-
-**📖 Source**: [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_forkey.htm)
-
 ### abenddicddl_define_table_comps.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DEFINE TABLE - field"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fkprps.htm) KEY field : data_element foreign_key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_fo
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm"
+abapFile: "abenddicddl_define_table_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "table", "comps"]
+---
 
 * * *
 
@@ -1908,16 +1691,19 @@ Continue
 [DEFINE TABLE - foreign\_key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_forkey.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_comps.htm)
-
 ### abenddicddl_define_table.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DEFINE TABLE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_props.htm) table_annos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table_props.htm) DEFINE TABLE dbtab  ... field;(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm"
+abapFile: "abenddicddl_define_table.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddicddl", "define", "table"]
+---
 
 * * *
 
@@ -1993,16 +1779,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_table.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -2068,16 +1857,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -2242,16 +2034,19 @@ id = '1';
 Included pages: 4
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abenabap_managed_db_objects_access.htm
 
-> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_access.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_access.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Access to ABAP-Managed Database Objects"
+description: |
+  ABAP-managed database objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry') can be accessed as follows: -   ABAP SQL Access to ABAP-Managed Database Objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ma
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_access.htm"
+abapFile: "abenabap_managed_db_objects_access.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenabap", "managed", "objects", "access"]
+---
 
 * * *
 
@@ -2358,16 +2153,19 @@ Continue
 [Native SQL Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_nsql.htm)
 
 
-
-**📖 Source**: [abenabap_managed_db_objects_access.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_access.htm)
-
 ### abenabap_managed_db_objects_osql.htm
 
-> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL Access to ABAP-Managed Database Objects"
+description: |
+  ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry') includes a set of ABAP SQL statements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) for use in ABAP programs. The database is accessed using the ABAP SQL i
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_osql.htm"
+abapFile: "abenabap_managed_db_objects_osql.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenabap", "managed", "objects", "osql"]
+---
 
 * * *
 
@@ -2446,16 +2244,19 @@ Note
 Some of the semantic attributes defined in ABAP Dictionary or ABAP CDS, such as foreign key relationships or reference fields, are ignored in ABAP SQL and are respected only by classic [Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry"), [Web Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenweb_dynpro_glosry.htm "Glossary Entry"), and some other frameworks. This applies in particular to the evaluation of [framework-specific annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponent_annotation_glosry.htm "Glossary Entry") in ABAP CDS as well.
 
 
-
-**📖 Source**: [abenabap_managed_db_objects_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_osql.htm)
-
 ### abenabap_managed_db_objects_amdp.htm
 
-> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_amdp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_amdp.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AMDP Access to ABAP-Managed Database Objects"
+description: |
+  ABAP Managed Database Procedures (AMDP)(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_proc_glosry.htm 'Glossary Entry') is a class-based AS ABAP framework for managing and calling database procedures(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aben
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_amdp.htm"
+abapFile: "abenabap_managed_db_objects_amdp.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "abenabap", "managed", "objects", "amdp"]
+---
 
 * * *
 
@@ -2542,16 +2343,19 @@ Note
 Implementations of AMDP methods can be debugged in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadt_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenabap_managed_db_objects_amdp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_amdp.htm)
-
 ### abenabap_managed_db_objects_nsql.htm
 
-> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_nsql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_nsql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Native SQL Access to ABAP-Managed Database Objects"
+description: |
+  Two methods of Native SQL access to ABAP-managed database objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry') can be distinguished. -   Access Using ABAP-Managed Native SQL(#abenabap-managed-db-objects-nsql-1--------access-us
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_nsql.htm"
+abapFile: "abenabap_managed_db_objects_nsql.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenabap", "managed", "objects", "nsql"]
+---
 
 * * *
 
@@ -2682,16 +2486,19 @@ A [dependency rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/a
 Included pages: 3
 
 
-
-**📖 Source**: [abenabap_managed_db_objects_nsql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_nsql.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -2712,16 +2519,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -2740,16 +2550,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -2894,16 +2707,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -2924,16 +2740,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -2952,16 +2771,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -3106,16 +2928,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -3136,16 +2961,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -3164,16 +2992,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -3318,16 +3149,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -3348,16 +3182,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -3376,16 +3213,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -3530,16 +3370,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -3560,16 +3403,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -3588,16 +3434,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -3733,25 +3582,28 @@ Execution of the module test should always be successful, regardless of the cont
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / ABAP SQL - Special Functions
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / ABAP SQL - Special Functions / ABAP SQL - Conversion Functions
 
-**Files**: 11 | **Difficulty**: intermediate
+**Files**: 2 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - System Classes
 
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -3772,16 +3624,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -3800,16 +3655,240 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
+### abencl_osql_replace.htm
 
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - System Classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm) → 
+
+CL\_OSQL\_REPLACE - Replacement Service
+
+The system class CL\_OSQL\_REPLACE implements a replacement service that can be used to redirect access to data sources in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements during the execution of [unit tests](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunit_test_glosry.htm "Glossary Entry") [ABAP Unit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_unit_glosry.htm "Glossary Entry"). The system class CL\_OSQL\_REPLACE can only be used in [test classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_class_glosry.htm "Glossary Entry") by [ABAP Unit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_unit_glosry.htm "Glossary Entry").
+
+-   [Defining Replacement Rules](#abencl-osql-replace-1--------additional-methods---@ITOC@@ABENCL_OSQL_REPLACE_2)
+
+-   [Restrictions and Special Features](#abencl-osql-replace-3--------data-sources-of-reads---@ITOC@@ABENCL_OSQL_REPLACE_4)
+
+-   [Targets of Writes](#abencl-osql-replace-5--------example---@ITOC@@ABENCL_OSQL_REPLACE_6)
+
+Defining Replacement Rules
+
+The static method ACTIVATE\_REPLACEMENT of the system class CL\_OSQL\_REPLACE is used to define replacement rules.
+
+-   A three-column internal table is passed to the parameter REPLACEMENT\_TABLE:
+
+-   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a database table, a classic view, or a non-abstract CDS entity.
+
+-   The second column, TARGET, contains the name of a database object in the current database to which an ABAP SQL access to the data source named in the first column is redirected.
+
+-   The third column, SCHEMA, contains the name of a [database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_schema_glosry.htm "Glossary Entry") to be searched to find the database object from the second column. If the third column is empty, the [ABAP database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is used.
+
+-   An ID can be passed to the parameter FLG\_DML to define whether the redirection also applies to write ABAP SQL statements:
+
+-   If the value abap\_false is passed to the parameter FLG\_DML, the redirection only applies to [queries](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenquery_glosry.htm "Glossary Entry"), that is, to the [main queries](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmainquery_glosry.htm "Glossary Entry") of [reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_reading.htm) and for the [subqueries](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubquery_glosry.htm "Glossary Entry") of all accesses.
+
+-   If the value abap\_true is passed to the parameter FLG\_DML, the redirection also applies to the database tables to be changed by [writes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_writing.htm).
+
+-   An ID can be passed to the parameter FLG\_SURVIVE\_SUBMIT to define whether the redirection also applies to called programs:
+
+-   If the value of abap\_false is passed to the parameter FLG\_SURVIVE\_SUBMIT, the redirection applies only to the current program.
+
+-   If the value of abap\_true is passed to the parameter FLG\_SURVIVE\_SUBMIT, the redirection also applies to programs called using [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm), [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction.htm), and [CALL DIALOG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_dialog.htm).
+
+The redirection can be made to any database objects, in particular variants of the database tables or views defined in the ABAP Dictionary. The database objects that are redirected to must have the same structure as the object that is redirected from, otherwise the result is database specific and exceptions may arise.
+
+A successful redirection applies for the entire execution of a module test until the [internal session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm "Glossary Entry") is ended or there is another redirection. A redirection is ended explicitly if an empty internal table is passed to the method ACTIVATE\_REPLACEMENT.
+
+Notes
+
+-   From a technical perspective, a redirection replaces the names of the database objects in the platform-specific SQL statements, which the [database interface](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_interface_glosry.htm "Glossary Entry") generates from the ABAP SQL statements and passes to the database system.
+
+-   Redirection of the data sources used by ABAP SQL is used during module tests so that test tables and test data can be processed instead of the actual tables and their data. In particular, this enables testing of system programs that access system tables.
+
+-   In the case of redirections in called programs using the parameter FLG\_SURVIVE\_SUBMIT, program calls using [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) without the addition AND RETURN are pointless.
+
+Additional Methods
+
+As well as the method ACTIVATE\_REPLACEMENT, CL\_OSQL\_REPLACE has the following methods:
+
+-   The methods IS\_REPLACEMENT\_ACTIVE and IS\_REPLACEMENT\_ACTIVE\_DML are used to check whether a redirection is active and whether it also applies to writes.
+
+-   The methods SET\_ACTIVE\_FOR\_DML and TOGGLE\_ACTIVE\_FOR\_DML are used to set or change the setting for writes for an existing redirection.
+
+Restrictions and Special Features
+
+Data Sources of Reads
+
+The following applies to data sources of reads:
+
+-   The data source of a read can only be redirected to an object defined in ABAP Dictionary if the object appears in the database with the name that it is defined with in ABAP Dictionary.
+
+-   To redirect a read from a [projection view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprojection_view_glosry.htm "Glossary Entry") to another data source, the underlying database table can be redirected.
+
+-   It is not possible to redirect to the following:
+
+-   [Projection views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprojection_view_glosry.htm "Glossary Entry")
+
+-   [CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry")
+
+-   If the data source of a subquery in the WHERE condition of a write statement is redirected to the target of the write, the behavior is undefined and unexpected errors may occur.
+
+-   The following should be noted for [CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry"):
+
+-   If a read is redirected to a CDS view or a CDS table function for which one or more [CDS roles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_control_glosry.htm "Glossary Entry") are defined as part of [CDS access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry"), the associated access conditions are evaluated independently of the target of the redirection. CDS roles that are defined for the target of a redirection are ignored.
+
+-   The following should be noted for [CDS table functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry"):
+
+-   A CDS table function can only be redirected to a [table function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_function_glosry.htm "Glossary Entry"). However, this does not have to be an [AMDP function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_function_glosry.htm "Glossary Entry").
+
+-   If a direct or indirect read of a CDS table function is redirected to another data source, the [static constructor](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_constructor_glosry.htm "Glossary Entry") of the [AMDP class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_class_glosry.htm "Glossary Entry") in which the associated [AMDP table function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_table_function_glosry.htm "Glossary Entry") is implemented is executed.
+
+-   If a read of a data source is redirected to an [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_table_function_glosry.htm "Glossary Entry") table function that is known in the current AS ABAP, the [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_glosry.htm "Glossary Entry") framework creates the associated variant in the database if necessary, and the [static constructor](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_constructor_glosry.htm "Glossary Entry") of the associated [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_class_glosry.htm "Glossary Entry") class is executed.
+
+-   If the source or target of a redirection is a database table of the [ABAP database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") defined in ABAP Dictionary, for which a [replacement object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreplacement_object_glosry.htm "Glossary Entry") is defined, the redirection is evaluated first and then the replacement object.
+
+-   If a data source of a read is redirected to a database table for which a replacement object is defined, a redirect to the replacement object is made.
+
+-   If a database table is redirected for which a replacement object is defined, the redirection is applied. The replacement object is ignored.
+
+-   If a replacement object is defined for a database table and the replacement object is redirected, the redirection is ignored. The replacement object is accessed here.
+
+-   A redirection always bypasses [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry").
+
+Targets of Writes
+
+The same restrictions apply to the target of a write as to the data sources of reads, if applicable. In addition, targets of writes cannot be redirected to the following objects defined in ABAP Dictionary:
+
+-   [Classic views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclassical_view_glosry.htm "Glossary Entry")
+
+-   Database tables with active [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry")
+
+-   Database tables with active [logging](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_protocol.htm)
+
+Writes to a [projection view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprojection_view_glosry.htm "Glossary Entry") cannot be redirected if the rows to be changed are defined by a work area or an internal table. Therefore, it is only possible to redirect accesses to the database table of a projection view if there are no writes to the view (except with the statements [DELETE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab.htm) with a WHERE condition or [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm) with the addition SET). Otherwise, a runtime error occurs.
+
+Example
+
+See the program DEMO\_CL\_OSQL\_REPLACE.
+
+-   A production class prod reads data from the database table SCARR in the method select, and deletes a row from this table in the method delete.
+
+-   The test class test\_prod tests the methods of the production class.
+
+-   In the method setup, access to SCARR is redirected for read and write ABAP SQL statements with cl\_osql\_replace=>activate\_replacement to a test table DEMO\_TEST\_SCARR, which was defined in ABAP Dictionary as a copy of SCARR. The database schema of DEMO\_TEST\_SCARR is passed here explicitly for demonstration purposes, but this is not necessary for database objects from the [ABAP database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_db_schema_glosry.htm "Glossary Entry").
+
+-   In the method setup, the test table DEMO\_TEST\_SCARR is supplied with two rows of test data from an internal table testdata.
+
+-   In the method test, the method select is called and the return value is compared with the internal table testdata. Calling the method delete deletes a row of test data from the test table and checks that the deleted row no longer exists.
+
+-   In the method teardown, the test data is deleted from the test table.
+
+Execution of the module test should always be successful, regardless of the content of SCARR.
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_func / ABAP SQL - Built-In Functions sql_func / ABAP SQL - Special Functions / ABAP SQL - Date Functions and Time Functions
+
+**Files**: 6 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - System Classes
+
+Included pages: 3
+
+
+### abencl_osql.htm
+
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) → 
+
+ABAP SQL - System Classes
+
+The following system classes are available for extending the scope of the ABAP SQL language:
+
+-   [CL\_OSQL\_EXTENDED\_RESULT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results
+
+-   s[CL\_OSQL\_REPLACE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm) provides a replacement service for executing [module tests](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunit_test_glosry.htm "Glossary Entry")
+
+Continue
+[CL\_OSQL\_EXTENDED\_RESULT - Extended Result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
+[CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
+
+
+### abencl_osql_extended_result.htm
+
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - System Classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm) → 
+
+CL\_OSQL\_EXTENDED\_RESULT - Extended Result
+
+An object of the system class CL\_OSQL\_EXTENDED\_RESULT can be specified with the addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_extended_result.htm) of a [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) clause as the target object for an extended result of a [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm), [WITH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith.htm), or [FETCH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfetch.htm)statement. First, the object must be created and the instance constructor must be told which values the extended result will contain.
+
+Currently, an extended result can be used to check whether a [query](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenquery_glosry.htm "Glossary Entry") can read data from the cache when accessing a [cached view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views.htm) of the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry").
+
+Example
+
+See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+
 
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -3954,16 +4033,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -3984,16 +4066,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -4012,16 +4097,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -4166,16 +4254,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -4196,16 +4287,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -4224,16 +4318,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -4378,16 +4475,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -4408,16 +4508,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -4436,16 +4539,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -4590,16 +4696,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -4620,16 +4729,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -4648,16 +4760,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -4802,16 +4917,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -4832,16 +4950,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -4860,16 +4981,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -5014,16 +5138,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -5044,16 +5171,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -5072,16 +5202,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -5217,25 +5350,28 @@ Execution of the module test should always be successful, regardless of the cont
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_win
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Operands and Expressions / ABAP SQL - SQL Expressions sql_exp / sql_exp - sql_win / ABAP SQL - Examples of Window Expressions
 
-**Files**: 9 | **Difficulty**: intermediate
+**Files**: 6 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - System Classes
 
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -5256,16 +5392,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -5284,16 +5423,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -5438,16 +5580,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -5468,16 +5613,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -5496,16 +5644,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -5650,16 +5801,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -5680,16 +5834,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -5708,16 +5865,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -5862,16 +6022,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -5892,16 +6055,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -5920,16 +6086,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -6074,16 +6243,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -6104,16 +6276,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -6132,16 +6307,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -6286,16 +6464,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -6316,16 +6497,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -6344,16 +6528,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -6498,16 +6685,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -6528,16 +6718,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -6556,16 +6749,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -6710,16 +6906,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -6740,16 +6939,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -6768,16 +6970,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -6922,16 +7127,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -6952,16 +7160,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -6980,16 +7191,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -7134,16 +7348,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -7164,16 +7381,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -7192,16 +7412,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -7346,16 +7569,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -7376,16 +7602,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -7404,16 +7633,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -7558,16 +7790,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -7588,16 +7823,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -7616,16 +7854,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -7770,16 +8011,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -7800,16 +8044,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -7828,16 +8075,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -7982,16 +8232,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -8012,16 +8265,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -8040,16 +8296,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -8194,16 +8453,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -8224,16 +8486,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -8252,16 +8517,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -8397,25 +8665,28 @@ Execution of the module test should always be successful, regardless of the cont
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Reads / SELECT clauses / SELECT - select_clause
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Reads / SELECT clauses / SELECT - select_clause / SELECT - select_list
 
-**Files**: 4 | **Difficulty**: intermediate
+**Files**: 2 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - System Classes
 
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -8436,16 +8707,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -8464,16 +8738,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -8618,16 +8895,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -8648,16 +8928,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -8676,16 +8959,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -8830,16 +9116,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -8860,16 +9149,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -8888,16 +9180,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -9042,16 +9337,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -9072,16 +9370,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -9100,16 +9401,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -9254,16 +9558,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -9284,16 +9591,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -9312,16 +9622,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -9466,16 +9779,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -9496,16 +9812,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -9524,16 +9843,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -9678,16 +10000,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -9708,16 +10033,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -9736,16 +10064,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -9890,16 +10221,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -9920,16 +10254,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -9948,16 +10285,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -10093,25 +10433,28 @@ Execution of the module test should always be successful, regardless of the cont
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Write Accesses / UPDATE dbtab
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Write Accesses / UPDATE dbtab / UPDATE dbtab - source
 
-**Files**: 6 | **Difficulty**: intermediate
+**Files**: 4 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - System Classes
 
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -10132,16 +10475,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -10160,16 +10506,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -10314,16 +10663,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -10344,16 +10696,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -10372,16 +10727,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -10526,16 +10884,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -10556,16 +10917,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -10584,16 +10948,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -10729,25 +11096,28 @@ Execution of the module test should always be successful, regardless of the cont
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Write Accesses / INSERT, UPDATE, MODIFY, DELETE - target
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - Write Accesses / INSERT, UPDATE, MODIFY, DELETE - target / INSERT, UPDATE, MODIFY, DELETE dbtab - CLIENT, CLIENTS
 
-**Files**: 5 | **Difficulty**: intermediate
+**Files**: 3 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP SQL / ABAP SQL - System Classes
 
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -10768,16 +11138,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -10796,16 +11169,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -10950,16 +11326,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -10980,16 +11359,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -11008,16 +11390,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -11162,16 +11547,19 @@ Execution of the module test should always be successful, regardless of the cont
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abencl_osql.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP SQL - System Classes"
+description: |
+  The following system classes are available for extending the scope of the ABAP SQL language: -   CL_OSQL_EXTENDED_RESULT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results -   sCL_OSQL_REPLACE(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm"
+abapFile: "abencl_osql.htm"
+keywords: ["do", "try", "class", "data", "abencl", "osql"]
+---
 
 * * *
 
@@ -11192,16 +11580,19 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
 
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  See SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm"
+abapFile: "abencl_osql_extended_result.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencl", "osql", "extended", "result"]
+---
 
 * * *
 
@@ -11220,16 +11611,19 @@ Example
 See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
 
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-
 ### abencl_osql_replace.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Defining Replacement Rules"
+description: |
+  The static method ACTIVATE_REPLACEMENT of the system class CL_OSQL_REPLACE is used to define replacement rules. -   A three-column internal table is passed to the parameter REPLACEMENT_TABLE: -   The first column, SOURCE, contains the name of a data source defined in ABAP Dictionary, namely a da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm"
+abapFile: "abencl_osql_replace.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "osql", "replace"]
+---
 
 * * *
 
@@ -11365,25 +11759,28 @@ Execution of the module test should always be successful, regardless of the cont
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / AMDP - ABAP Managed Database Procedures / AMDP - Methods / METHOD - BY DATABASE PROCEDURE, FUNCTION
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / AMDP - ABAP Managed Database Procedures / AMDP - Methods / METHOD - BY DATABASE PROCEDURE, FUNCTION / AMDP - SQL Script for the SAP HANA Database
 
-**Files**: 5 | **Difficulty**: advanced
+**Files**: 2 | **Difficulty**: advanced
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / AMDP - ABAP Managed Database Procedures / AMDP Macros
 
 Included pages: 3
 
 
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 ### abenamdp_macros.htm
 
-> **📖 Official SAP Documentation**: [abenamdp_macros.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AMDP Macros"
+description: |
+  Syntax ... '$ABAP.macro( ... )' ... Effect Specifies an (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry')AMDP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') macro in an AMDP method, whic
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm"
+abapFile: "abenamdp_macros.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abenamdp", "macros"]
+---
 
 * * *
 
@@ -11420,16 +11817,19 @@ Continue
 [AMDP - Macro for Logical Schemas](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
 
 
-
-**📖 Source**: [abenamdp_macros.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm)
-
 ### abenamdp_abap_types.htm
 
-> **📖 Official SAP Documentation**: [abenamdp_abap_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AMDP - Macro for ABAP Types"
+description: |
+  Syntax ... '$ABAP.type( name = abap_type )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') $ABAP.type for an ABAP type. In an AMDP method implemented in SQLScript, the AMDP macro $ABAP.type
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm"
+abapFile: "abenamdp_abap_types.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenamdp", "abap"]
+---
 
 * * *
 
@@ -11490,16 +11890,19 @@ Executable Example
 [Access to ABAP Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types_abexa.htm)
 
 
-
-**📖 Source**: [abenamdp_abap_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm)
-
 ### abenamdp_logical_db_schemas.htm
 
-> **📖 Official SAP Documentation**: [abenamdp_logical_db_schemas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AMDP - Macro for Logical Schemas"
+description: |
+  Syntax ... '$ABAP.schema( name = schema_name quote = SINGLEDOUBLE )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm"
+abapFile: "abenamdp_logical_db_schemas.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "abenamdp", "logical", "schemas"]
+---
 
 * * *
 
@@ -11553,16 +11956,19 @@ Executable Example
 Included pages: 3
 
 
-
-**📖 Source**: [abenamdp_logical_db_schemas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
-
 ### abenamdp_macros.htm
 
-> **📖 Official SAP Documentation**: [abenamdp_macros.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AMDP Macros"
+description: |
+  Syntax ... '$ABAP.macro( ... )' ... Effect Specifies an (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry')AMDP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') macro in an AMDP method, whic
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm"
+abapFile: "abenamdp_macros.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abenamdp", "macros"]
+---
 
 * * *
 
@@ -11599,16 +12005,19 @@ Continue
 [AMDP - Macro for Logical Schemas](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
 
 
-
-**📖 Source**: [abenamdp_macros.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm)
-
 ### abenamdp_abap_types.htm
 
-> **📖 Official SAP Documentation**: [abenamdp_abap_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AMDP - Macro for ABAP Types"
+description: |
+  Syntax ... '$ABAP.type( name = abap_type )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') $ABAP.type for an ABAP type. In an AMDP method implemented in SQLScript, the AMDP macro $ABAP.type
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm"
+abapFile: "abenamdp_abap_types.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenamdp", "abap"]
+---
 
 * * *
 
@@ -11669,16 +12078,19 @@ Executable Example
 [Access to ABAP Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types_abexa.htm)
 
 
-
-**📖 Source**: [abenamdp_abap_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm)
-
 ### abenamdp_logical_db_schemas.htm
 
-> **📖 Official SAP Documentation**: [abenamdp_logical_db_schemas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "AMDP - Macro for Logical Schemas"
+description: |
+  Syntax ... '$ABAP.schema( name = schema_name quote = SINGLEDOUBLE )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm"
+abapFile: "abenamdp_logical_db_schemas.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "abenamdp", "logical", "schemas"]
+---
 
 * * *
 
@@ -11732,16 +12144,19 @@ Executable Example
 Included pages: 7
 
 
-
-**📖 Source**: [abenamdp_logical_db_schemas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
-
 ### abenadbc_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC Examples"
+description: |
+  !Example(exa.gif 'Example') ADBC, DDL, and DML(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm) !Example(exa.gif 'Example') ADBC, Parameter Binding(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm) !Example(
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm"
+abapFile: "abenadbc_abexas.htm"
+keywords: ["do", "if", "data", "abenadbc", "abexas"]
+---
 
 * * *
 
@@ -11760,16 +12175,19 @@ Continue
 ![Example](exa.gif "Example") [ADBC, Prepared Statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
 
 
-
-**📖 Source**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-
 ### abenadbc_dml_ddl_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, DDL, and DML"
+description: |
+  This example demonstrates the use of the DDL and DML statements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_ddl_dml.htm) with ADBC. Source Code REPORT demo_adbc_ddl_dml. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RA
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm"
+abapFile: "abenadbc_dml_ddl_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "abexa"]
+---
 
 * * *
 
@@ -11887,16 +12305,19 @@ This program makes it possible to create a database table whose name can be chos
 Any exceptions are handled. When rows are exported, quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-
 ### abenadbc_dml_ddl_binding_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Parameter Binding"
+description: |
+  The example demonstrates the binding of parameters in ADBC. Source Code REPORT demo_adbc_ddl_dml_binding. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm"
+abapFile: "abenadbc_dml_ddl_binding_abexa.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "binding", "abexa"]
+---
 
 * * *
 
@@ -12042,16 +12463,19 @@ The program is identical to the executable example for [DDL and DML](https://hel
 The parameter binding removes the need to escape quotation marks in the user input for the key when reading data.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-
 ### abenadbc_dml_ddl_bulk_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Bulk Access"
+description: |
+  This example demonstrates bulk access in ADBC. Source Code REPORT demo_adbc_ddl_dml_bulk_access. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_delete RADIOBUTTON GROUP grp, p_select
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm"
+abapFile: "abenadbc_dml_ddl_bulk_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "dml", "ddl", "bulk", "abexa"]
+---
 
 * * *
 
@@ -12191,16 +12615,19 @@ In all methods for DML statements, parameters are bound using an internal table.
 -   select reads the results set of a query across all rows of the database table to an internal table.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-
 ### abenadbc_query_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Query"
+description: |
+  This example demonstrates the execution of a query(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query.htm) with ADBC. Source Code REPORT demo_adbc_query. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF result_line, carrid T
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm"
+abapFile: "abenadbc_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "query", "abexa"]
+---
 
 * * *
 
@@ -12261,16 +12688,19 @@ The method EXECUTE\_QUERY from the class CL\_SQL\_STATEMENT is used to extract t
 Quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-
 ### abenadbc_procedure_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Stored Procedure"
+description: |
+  The example demonstrates the execution of a stored procedure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure.htm) using ADBC. Source Code REPORT demo_adbc_stored_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATI
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm"
+abapFile: "abenadbc_procedure_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abenadbc", "procedure", "abexa"]
+---
 
 * * *
 
@@ -12387,16 +12817,19 @@ This procedure must be implemented specially for each database. The databases in
 The executable example [AMDP, simple procedure call of an SQL Script procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abexa.htm) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp.htm). A further [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_db_procedure_abexa.htm), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_database_procedure.htm).
 
 
-
-**📖 Source**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-
 ### abenadbc_sql_prepared_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Prepared Statement"
+description: |
+  The example demonstrates how a prepared statement(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_sql_prepared_statement.htm) is created and executed using ADBC. Source Code REPORT demo_adbc_prepared_statement. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm"
+abapFile: "abenadbc_sql_prepared_abexa.htm"
+keywords: ["select", "loop", "do", "while", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "sql", "prepared", "abexa"]
+---
 
 * * *
 
@@ -12474,16 +12907,19 @@ The work process cannot switch between the calls of the prepared statement, whic
 Included pages: 7
 
 
-
-**📖 Source**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-
 ### abenadbc_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC Examples"
+description: |
+  !Example(exa.gif 'Example') ADBC, DDL, and DML(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm) !Example(exa.gif 'Example') ADBC, Parameter Binding(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm) !Example(
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm"
+abapFile: "abenadbc_abexas.htm"
+keywords: ["do", "if", "data", "abenadbc", "abexas"]
+---
 
 * * *
 
@@ -12502,16 +12938,19 @@ Continue
 ![Example](exa.gif "Example") [ADBC, Prepared Statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
 
 
-
-**📖 Source**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-
 ### abenadbc_dml_ddl_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, DDL, and DML"
+description: |
+  This example demonstrates the use of the DDL and DML statements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_ddl_dml.htm) with ADBC. Source Code REPORT demo_adbc_ddl_dml. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RA
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm"
+abapFile: "abenadbc_dml_ddl_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "abexa"]
+---
 
 * * *
 
@@ -12629,16 +13068,19 @@ This program makes it possible to create a database table whose name can be chos
 Any exceptions are handled. When rows are exported, quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-
 ### abenadbc_dml_ddl_binding_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Parameter Binding"
+description: |
+  The example demonstrates the binding of parameters in ADBC. Source Code REPORT demo_adbc_ddl_dml_binding. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm"
+abapFile: "abenadbc_dml_ddl_binding_abexa.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "binding", "abexa"]
+---
 
 * * *
 
@@ -12784,16 +13226,19 @@ The program is identical to the executable example for [DDL and DML](https://hel
 The parameter binding removes the need to escape quotation marks in the user input for the key when reading data.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-
 ### abenadbc_dml_ddl_bulk_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Bulk Access"
+description: |
+  This example demonstrates bulk access in ADBC. Source Code REPORT demo_adbc_ddl_dml_bulk_access. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_delete RADIOBUTTON GROUP grp, p_select
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm"
+abapFile: "abenadbc_dml_ddl_bulk_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "dml", "ddl", "bulk", "abexa"]
+---
 
 * * *
 
@@ -12933,16 +13378,19 @@ In all methods for DML statements, parameters are bound using an internal table.
 -   select reads the results set of a query across all rows of the database table to an internal table.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-
 ### abenadbc_query_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Query"
+description: |
+  This example demonstrates the execution of a query(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query.htm) with ADBC. Source Code REPORT demo_adbc_query. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF result_line, carrid T
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm"
+abapFile: "abenadbc_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "query", "abexa"]
+---
 
 * * *
 
@@ -13003,16 +13451,19 @@ The method EXECUTE\_QUERY from the class CL\_SQL\_STATEMENT is used to extract t
 Quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-
 ### abenadbc_procedure_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Stored Procedure"
+description: |
+  The example demonstrates the execution of a stored procedure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure.htm) using ADBC. Source Code REPORT demo_adbc_stored_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATI
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm"
+abapFile: "abenadbc_procedure_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abenadbc", "procedure", "abexa"]
+---
 
 * * *
 
@@ -13129,16 +13580,19 @@ This procedure must be implemented specially for each database. The databases in
 The executable example [AMDP, simple procedure call of an SQL Script procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abexa.htm) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp.htm). A further [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_db_procedure_abexa.htm), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_database_procedure.htm).
 
 
-
-**📖 Source**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-
 ### abenadbc_sql_prepared_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Prepared Statement"
+description: |
+  The example demonstrates how a prepared statement(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_sql_prepared_statement.htm) is created and executed using ADBC. Source Code REPORT demo_adbc_prepared_statement. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm"
+abapFile: "abenadbc_sql_prepared_abexa.htm"
+keywords: ["select", "loop", "do", "while", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "sql", "prepared", "abexa"]
+---
 
 * * *
 
@@ -13216,16 +13670,19 @@ The work process cannot switch between the calls of the prepared statement, whic
 Included pages: 7
 
 
-
-**📖 Source**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-
 ### abenadbc_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC Examples"
+description: |
+  !Example(exa.gif 'Example') ADBC, DDL, and DML(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm) !Example(exa.gif 'Example') ADBC, Parameter Binding(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm) !Example(
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm"
+abapFile: "abenadbc_abexas.htm"
+keywords: ["do", "if", "data", "abenadbc", "abexas"]
+---
 
 * * *
 
@@ -13244,16 +13701,19 @@ Continue
 ![Example](exa.gif "Example") [ADBC, Prepared Statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
 
 
-
-**📖 Source**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-
 ### abenadbc_dml_ddl_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, DDL, and DML"
+description: |
+  This example demonstrates the use of the DDL and DML statements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_ddl_dml.htm) with ADBC. Source Code REPORT demo_adbc_ddl_dml. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RA
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm"
+abapFile: "abenadbc_dml_ddl_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "abexa"]
+---
 
 * * *
 
@@ -13371,16 +13831,19 @@ This program makes it possible to create a database table whose name can be chos
 Any exceptions are handled. When rows are exported, quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-
 ### abenadbc_dml_ddl_binding_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Parameter Binding"
+description: |
+  The example demonstrates the binding of parameters in ADBC. Source Code REPORT demo_adbc_ddl_dml_binding. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm"
+abapFile: "abenadbc_dml_ddl_binding_abexa.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "catch", "method", "class", "data", "abenadbc", "dml", "ddl", "binding", "abexa"]
+---
 
 * * *
 
@@ -13526,16 +13989,19 @@ The program is identical to the executable example for [DDL and DML](https://hel
 The parameter binding removes the need to escape quotation marks in the user input for the key when reading data.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-
 ### abenadbc_dml_ddl_bulk_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Bulk Access"
+description: |
+  This example demonstrates bulk access in ADBC. Source Code REPORT demo_adbc_ddl_dml_bulk_access. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_delete RADIOBUTTON GROUP grp, p_select
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm"
+abapFile: "abenadbc_dml_ddl_bulk_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "dml", "ddl", "bulk", "abexa"]
+---
 
 * * *
 
@@ -13675,16 +14141,19 @@ In all methods for DML statements, parameters are bound using an internal table.
 -   select reads the results set of a query across all rows of the database table to an internal table.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-
 ### abenadbc_query_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Query"
+description: |
+  This example demonstrates the execution of a query(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query.htm) with ADBC. Source Code REPORT demo_adbc_query. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF result_line, carrid T
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm"
+abapFile: "abenadbc_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "query", "abexa"]
+---
 
 * * *
 
@@ -13745,16 +14214,19 @@ The method EXECUTE\_QUERY from the class CL\_SQL\_STATEMENT is used to extract t
 Quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-
 ### abenadbc_procedure_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Stored Procedure"
+description: |
+  The example demonstrates the execution of a stored procedure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure.htm) using ADBC. Source Code REPORT demo_adbc_stored_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATI
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm"
+abapFile: "abenadbc_procedure_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abenadbc", "procedure", "abexa"]
+---
 
 * * *
 
@@ -13871,16 +14343,19 @@ This procedure must be implemented specially for each database. The databases in
 The executable example [AMDP, simple procedure call of an SQL Script procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abexa.htm) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp.htm). A further [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_db_procedure_abexa.htm), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_database_procedure.htm).
 
 
-
-**📖 Source**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-
 ### abenadbc_sql_prepared_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ADBC, Prepared Statement"
+description: |
+  The example demonstrates how a prepared statement(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_sql_prepared_statement.htm) is created and executed using ADBC. Source Code REPORT demo_adbc_prepared_statement. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm"
+abapFile: "abenadbc_sql_prepared_abexa.htm"
+keywords: ["select", "loop", "do", "while", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "sql", "prepared", "abexa"]
+---
 
 * * *
 
@@ -13949,857 +14424,28 @@ The work process cannot switch between the calls of the prepared statement, whic
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Native SQL / EXEC SQL - Embedded Native SQL
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Native SQL / EXEC SQL - Embedded Native SQL / EXEC SQL
 
-**Files**: 14 | **Difficulty**: intermediate
+**Files**: 8 | **Difficulty**: intermediate
 
-# ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Native SQL / EXEC SQL - Embedded Native SQL
+# ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Native SQL / EXEC SQL - Embedded Native SQL / EXEC SQL - Examples
 
-Included pages: 14
+Included pages: 3
 
-
-
-**📖 Source**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-
-### abennativesql.htm
-
-> **📖 Official SAP Documentation**: [abennativesql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) → 
-
-EXEC SQL - Embedded Native SQL
-
-The following ABAP statements are used to embed [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statically in ABAP programs:
-
-[EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm)
-  ...
-[ENDEXEC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendexec.htm)
-
-Native SQL statements embedded between EXEC SQL and ENDEXEC do not fall within the scope of ABAP and do not follow ABAP syntax. Mainly, database-specific [SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_glosry.htm "Glossary Entry") statements can be embedded that are passed unchanged from the Native SQL interface to a database system, and executed there. Almost the full SQL language scope of the relevant database can be used and the addressed database tables do not have to be declared in ABAP Dictionary. In addition, a small set of SAP-specific Native SQL statements and additions are available that can only be specified between EXEC SQL and ENDEXEC and that are subject to special handling by the Native SQL interface.
-
-Programming Guideline
-
-[Using ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_access_guidl.htm "Guideline")
-
-Note
-
-If Native SQL is used instead of ABAP SQL, the use of [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) is recommended.
-
-Continue
-[EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm)
-[EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm)
-
-
-
-**📖 Source**: [abennativesql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm)
-
-### abapexec.htm
-
-> **📖 Official SAP Documentation**: [abapexec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) → 
-
-EXEC SQL
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_sql_shortref.htm)
-
-Syntax
-
-EXEC SQL.
-  ...
-ENDEXEC.
-
-Effect
-
-These statements define an area in an ABAP program in which one or more [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statements can be specified statically. The area between EXEC and ENDEXEC is not checked completely by the syntax check. The statements entered there are passed to the Native SQL interface and processed there as follows:
-
--   SQL statements that are valid for the addressed database system can be included between EXEC and ENDEXEC, in particular the [DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddl_glosry.htm "Glossary Entry") statements. These SQL statements are passed from the Native SQL interface to the database system largely unchanged. The syntax rules are specified by the database system, in particular the case sensitivity rules for database objects. If the syntax allows a separator character between individual statements, multiple Native SQL statements can be included between EXEC and ENDEXEC. Generally, the semicolon (;) is used as the separator character.
-    
--   SAP-specific Native SQL language elements can also be included between EXEC and ENDEXEC. These statements are not passed directly from the Native SQL interface to the database, but are converted appropriately. These SAP-specific language elements are:
-    
-
--   [Literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_literal.htm)
-
--   [Host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm)
-
--   [INTO clause](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm)
-
--   [Statements for cursor processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm)
-
--   [Database procedure calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_procedure.htm)
-
--   [Statements for establishing database connections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_connection.htm)
-
-All Native SQL statements bypass [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry") and no [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm) is performed.
-
-System Fields
-
-The statement ENDEXEC sets the system fields sy-subrc and sy-dbcnt. When using the obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_implicit.htm), note that implicit cursor processing is carried out and the system fields are set for every read.
-
-sy-subrc
-
-Meaning
-
-0
-
-The statements between EXEC and ENDEXEC were executed successfully.
-
-4
-
-The statements between EXEC and ENDEXEC were not successful. After implicit cursor processing with PERFORMING, sy-subrc always contains the value 4.
-
-The statement ENDEXEC sets sy-dbcnt to the number of table rows processed in the last Native SQL statement. After implicit cursor processing with PERFORMING, sy-dbcnt contains the total number of rows read. If an overflow occurs because the number or rows is greater than 2,147,483,647, sy-dbcnt is set to -1.
-
-Notes
-
--   Programs with Native SQL statements are generally dependent on the database system used, so that they cannot be executed in all [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") systems. This is especially true for the examples in this section, which were tested on a [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry") (unless otherwise stated).
-    
--   If insertions or modifications using the Native SQL statements INSERT or UPDATE would produce duplicate rows with respect to the primary table key, no exception is raised. Instead, sy-subrc is set to 4. However, if another operation, such as executing a [Stored Procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstored_procedure_glosry.htm "Glossary Entry"), would produce a duplicate row, an exception would be raised.
-    
--   The [client ID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_identifier_glosry.htm "Glossary Entry") of a database table or a view must be specified explicitly. Note that application programs should only use data from the current client. See also the associated [security note](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_dependent_scrty.htm) and the [programming guideline](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_handling_guidl.htm "Guideline").
-    
-
--   When the [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry") of a [client-specific](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) CDS view is accessed using Native SQL and the client handling of the view is specified by the annotation @ClientHandling.algorithm:#SESSION\_VARIABLE, the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) is generally evaluated here. Only on [SAP HANA databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"), is an instance of this session variables created as a HANA session variable [CDS\_CLIENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm). Its current value is used here. On other platforms, there can be unexpected behavior or the program may crash.
-    
-
--   The obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_implicit.htm) (not allowed in classes) executes implicit cursor processing and must no longer be used. The obsolete statement [EXIT FROM SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_sql.htm) can be used to exit this type of processing.
-    
--   Native SQL statements used for transaction control (COMMIT and ROLLBACK) are detected by the database interface and the actions required at the end of a transaction are performed.
-    
--   The static embedding of Native SQL statements between EXEC SQL and ENDEXEC is replaced by dynamic passes to objects from [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) classes. New features in the Native SQL interface are now developed only in ADBC. Only ADBC should be used in new programs.
-    
-
-Example
-
-The following example demonstrates how an embedded Native SQL statement can be replaced by [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm). For single statements, the use of the [instance operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_new.htm) removes the need for a helper variable of type CL\_SQL\_STATEMENT when creating objects.
-
-"Embedded Native SQL
-EXEC SQL.
-  INSERT INTO demo\_update VALUES( :sy-mandt, 'X', 1, 2, 3, 4 )
-ENDEXEC.
-"ADBC
-NEW cl\_sql\_statement( )->execute\_update(
-  |INSERT INTO demo\_update VALUES( '{ sy-mandt }', 'X', 1, 2, 3, 4 )| ).
-
-Executable Example
-
-[Static Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm)
-
-[Exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_exceptions.htm)
-
-Handleable Exceptions
-
-CX\_SY\_NATIVE\_SQL\_ERROR
-
--   Cause: Error when making a secondary connection.
-    Runtime error: DBIF\_DSQL2\_CONNECTERR
-    
--   Cause: Illegal interruption of a database selection. The cursor was closed.
-    Runtime error: DBIF\_DSQL2\_INVALID\_CURSOR:
-    
--   Cause: There is insufficient memory available for a Native SQL statement.
-    Runtime error: DBIF\_DSQL2\_NO\_MEMORY
-    
--   Cause: Database object already exists in the database. An attempt was made to create a database object (for example, table, view, index) on the database, but this object already exists.
-    Runtime error: DBIF\_DSQL2\_OBJ\_EXISTS
-    
--   Cause: The name of a table or view that does not exist on the database was used.
-    Runtime error: DBIF\_DSQL2\_OBJ\_UNKNOWN
-    
--   Cause: An SQL error occurred while executing a native SQL command.
-    Runtime error: DBIF\_DSQL2\_SQL\_ERROR
-    
--   Cause: The maximum number of secondary connections was exceeded.
-    Runtime error: EXSQL\_CONNECTION\_LIMIT
-    
--   Cause: The maximum number of database cursors was exceeded.
-    Runtime error: EXSQL\_DSQL\_CURSOR\_LIMIT
-    
-
-Non-Handleable Exceptions
-
--   Cause: The specified cursor does not exist. A CLOSE or SELECT command in Native SQL has a specified cursor, but this cursor is unknown to cursor administration.
-    Runtime error: EXSQL\_DSQL\_CURSOR\_NOT\_FOUND
-    
--   Cause: The specified cursor is already open. An OPEN command in Native SQL has a specified cursor, which the cursor administration knows is already open.
-    Runtime error: EXSQL\_DSQL\_DUPLICATE\_CURSOR
-    
--   Cause: There is insufficient roll memory available. When a Native SQL statement is processed, the internal memory is required to prepare the SQL Call.
-    Runtime error: EXSQL\_DSQL\_NOROLL
-    
--   Cause: An indicator variable has an incorrect type. It must be the type INT2.
-    Runtime error: EXSQL\_DSQL\_WRONG\_IVAR\_TYPE
-    
--   Cause: The connection name has already been used for another connection. A CONNECT command in Native SQL has a specified connection name, which is already used for another connection.
-    Runtime error: EXSQL\_ILLEGAL\_CONNECTION
-    
--   Cause: The connection "DEFAULT" was specified for a DISCONNECT command in Native SQL. This connection cannot be terminated with DISCONNECT.
-    Runtime error: EXSQL\_ILLEGAL\_DISCONNECTION
-    
--   Cause: A Native SQL command contains too many variables. In this context, variables means all ABAP fields preceded by a colon (":"). If the INTO clause has the form INTO :wa for a work area wa, then all the fields of wa also count as variables.
-    Runtime error: EXSQL\_TOO\_MANY\_VARS
-    
--   Cause: A SET CONNECTION or DISCONNECT command in Native SQL has a specified connection that is unknown to the connection administration.
-    Runtime error: EXSQL\_UNKNOWN\_CONNECTION
-    
--   Cause: The target area specified in the INTO clause is not structured despite the assertion INTO STRUCTURE.
-    Runtime error: EXSQL\_UNSTRUCTURED\_INTO
-    
--   Cause: A LOB variable has the wrong type. LOB variables must have the type string, xstring, c, x, or n.
-    Runtime error: EXSQL\_WRONG\_TYPE\_FOR\_LOB
-    
-
-Continue
-[EXEC SQL - Literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_literal.htm)
-[EXEC SQL - Host Variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm)
-[EXEC SQL - INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm)
-[EXEC SQL - OPEN, FETCH, CLOSE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm)
-[EXEC SQL - EXECUTE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_procedure.htm)
-[EXEC SQL - CONNECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_connection.htm)
-[ENDEXEC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendexec.htm)
-
-
-
-**📖 Source**: [abapexec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm)
-
-### abapexec_literal.htm
-
-> **📖 Official SAP Documentation**: [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_literal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) → 
-
-EXEC SQL - Literals
-
-Syntax
-
-... *{* *\[*+*|*\-*\]*n*\[*n*\[*n*\[*...*\]**\]**\]*
-    *|* 'c*\[*c*\[*c*\[*...*\]**\]**\]*' *|* \`*\[*c*\[*c*\[*c*\[*...*\]**\]**\]**\]*\` *}* ...
-
-Effect
-
-Appropriate [literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenliteral_glosry.htm "Glossary Entry") can be specified in ABAP syntax in suitable reading positions in embedded [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statements.
-
-The [literal operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenliteral_operator_glosry.htm "Glossary Entry") cannot be used in static Native SQL.
-
-Example
-
-Reads a row from the database table SPFLI using static Native SQL. The required row is specified using literals. The target range of the [INTO clause](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm) is specified as a [host variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm). If a row was found, sy-subrc is set to 0; if not, it is set to 4.
-
-DATA: BEGIN OF wa,
-        cityfrom TYPE spfli-cityfrom,
-        cityto   TYPE spfli-cityto,
-      END OF wa.
-EXEC SQL.
-  SELECT cityfrom, cityto
-         INTO :wa
-         FROM spfli
-         WHERE mandt  = '100' AND
-               carrid = 'LH'  AND connid = '0400'
-ENDEXEC.
-
-
-
-**📖 Source**: [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_literal.htm)
-
-### abapexec_host.htm
-
-> **📖 Official SAP Documentation**: [abapexec_host.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) → 
-
-EXEC SQL - Host Variables
-
-Syntax
-
-... :dobj ...
-
-Effect
-
-[Host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhost_variable_glosry.htm "Glossary Entry") are global or local data objects (usually variables) declared in the ABAP program that are used in operand positions of embedded [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statements. [Named](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennamed_data_object_glosry.htm "Glossary Entry") data objects can be identified by an escape character (a colon :)placed in front of the names of the data objects. Instead of the data object itself, a field symbol to which the data object is assigned can be specified. Dereferenced data reference variables cannot be dereferenced. Depending on the operand position, the data objects can be [variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariable_glosry.htm "Glossary Entry") or [constants](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariable_glosry.htm "Glossary Entry"). Constant host variables are [host constants](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhost_variable_glosry.htm "Glossary Entry").
-
-Usually, only flat elementary fields and flat structures with elementary components can be used as host variables. If a structure is specified after the [INTO clause](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm) by Native SQL, it is transformed by the Native SQL interface as if its components were specified as individual fields separated by commas.
-
-In assignments between host variables and fields in database tables, a [mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_type_mapping.htm) takes place between the ABAP types and the database types. The ABAP types must match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
-
-Notes
-
--   When passed to a host variable, a [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry") is transformed to its type-dependent initial value.
-    
--   The indicator variables provided in the SAP standard, which can be specified after an operand to identify null values, can be specified in static Native SQL by a host variable that has to be of an [external data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexternal_data_type_glosry.htm "Glossary Entry") INT2.
-    
--   Host variables cannot be [enumerated objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
-    
-
-Example
-
-Like the example for [literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_literal.htm). Here, the row to read is specified using host variables.
-
-DATA: carrid TYPE spfli-carrid VALUE 'LH',
-      connid TYPE spfli-connid VALUE '400'.
-cl\_demo\_input=>new(
-  )->add\_field( CHANGING field = carrid
-  )->add\_field( CHANGING field = connid )->request( ).
-DATA: BEGIN OF wa,
-        cityfrom TYPE spfli-cityfrom,
-        cityto   TYPE spfli-cityto,
-      END OF wa.
-EXEC SQL.
-  SELECT cityfrom, cityto
-         INTO :wa
-         FROM spfli
-         WHERE mandt  = :sy-mandt AND
-               carrid = :carrid AND connid = :connid
-ENDEXEC.
-cl\_demo\_output=>display( wa ).
-
-
-
-**📖 Source**: [abapexec_host.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm)
-
-### abapexec_into.htm
-
-> **📖 Official SAP Documentation**: [abapexec_into.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) → 
-
-EXEC SQL - INTO
-
-Syntax
-
-EXEC SQL.
-  SELECT ... INTO \[STRUCTURE\] :host1 *\[*, host2*\]* ...
-ENDEXEC.
-
-Effect
-
-In a native SELECT or FETCH statement specified between EXEC and ENDEXEC, an INTO clause can be specified to pass the read data to [host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm) host1, host2, ... specified after the statement. If there are multiple rows in the results set, any one of the rows is read.
-
-If a structure is specified as a [host variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm) in after INTO, it is transformed by the Native SQL interface as if its components were specified as individual fields separated by commas. The addition STRUCTURE can be specified between INTO and a single host variable. This addition has the effect that the host variable is handled like a structure, even if a non-typed formal parameter or a non-typed field symbol is specified. Otherwise, when multiple values are being passed, depending on the platform, either the first value only is passed or an exception is raised.
-
-Notes
-
--   The SAP-specific addition INTO is removed from the statement by the Native SQL interface before it can be passed to the database.
-    
--   The addition INTO can only be used in statements introduced using SELECT and FETCH. In a statement introduced using WITH to define a common table expression (CTE), for example, INTO is not possible. In cases like this, either [OPEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm) or [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) (recommended) must be used.
-    
-
-Example
-
-As in the example for [host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm). The addition STRUCTURE is specified after INTO. However, this is not necessary since wa is known statically as a structure. The structure wa is handled in the INTO clause as if all substrings were specified separately: INTO :wa-cityfrom, :wa-cityto.
-
-DATA: carrid TYPE spfli-carrid VALUE 'LH',
-      connid TYPE spfli-connid VALUE '400'.
-cl\_demo\_input=>new(
-  )->add\_field( CHANGING field = carrid
-  )->add\_field( CHANGING field = connid )->request( ).
-DATA: BEGIN OF wa,
-        cityfrom TYPE spfli-cityfrom,
-        cityto   TYPE spfli-cityto,
-      END OF wa.
-EXEC SQL.
-  SELECT cityfrom, cityto
-         INTO STRUCTURE :wa
-         FROM spfli
-         WHERE mandt  = :sy-mandt AND
-               carrid = :carrid AND connid = :connid
-ENDEXEC.
-cl\_demo\_output=>display( wa ).
-
-
-
-**📖 Source**: [abapexec_into.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm)
-
-### abapexec_cursor.htm
-
-> **📖 Official SAP Documentation**: [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) → 
-
-EXEC SQL - OPEN, FETCH, CLOSE
-
-In embedded [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry"), similar statements to those in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") can be specified to read data using a [database cursor](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_cursor_glosry.htm "Glossary Entry").
-
-Syntax
-
-EXEC SQL.
-  OPEN dbcur FOR SELECT ...
-ENDEXEC.
-
-Effect
-
-Opens a database cursor dbcur. For dbcur, a [flat](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_glosry.htm "Glossary Entry") character-like [host variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm) can be specified.
-
-Note
-
-The number of database cursor open simultaneously is restricted by platform. Any attempts to open too many database cursors raise an exception of the class CX\_SY\_NATIVE\_SQL\_ERROR.
-
-Syntax
-
-EXEC SQL.
-  FETCH NEXT dbcur INTO ...
-ENDEXEC.
-
-Effect
-
-Uses an open database cursor dbcur to read data to the [host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm) specified after [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm).
-
-Syntax
-
-EXEC SQL.
-  CLOSE dbcur
-ENDEXEC.
-
-Effect
-
-Closes an opened database cursor dbcur.
-
-If no row can be read using FETCH, sy-subrc is set to 4 by ENDEXEC. After a FETCH statement, the system field sy-dbcnt is set to the number of rows read up to that point using the cursor in question. If an overflow occurs because the number or rows is greater than 2,147,483,647, sy-dbcnt is set to -1.
-
-Note
-
-It depends on the database system whether the database cursor in the database is closed implicitly after the extraction of the final row of the results set or not. For this reason, it is advisable to use the statement CLOSE dbcur explicitly.
-
-Example
-
-Reads multiple rows from the database table SPFLI using cursor handling and host variables in static Native SQL. If rows are found, sy-subrc is set to 0 and sy-dbcnt is increased by one for each row read.
-
-DATA: carrid   TYPE spfli-carrid VALUE 'LH',
-      connid   TYPE spfli-connid,
-      cityfrom TYPE spfli-cityfrom,
-      cityto   TYPE spfli-cityto.
-cl\_demo\_input=>request( CHANGING field = carrid ).
-EXEC SQL.
-  OPEN dbcur FOR
-    SELECT connid, cityfrom, cityto
-           FROM spfli
-           WHERE mandt  = :sy-mandt AND
-                 carrid = :carrid
-ENDEXEC.
-DO.
-  EXEC SQL.
-    FETCH NEXT dbcur INTO :connid, :cityfrom, :cityto
-  ENDEXEC.
-  IF sy-subrc <> 0.
-    EXIT.
-  ELSE.
-    cl\_demo\_output=>write(
-      |{ carrid }, { connid }, { cityfrom }, { cityto }| ).
-  ENDIF.
-ENDDO.
-cl\_demo\_output=>display( ).
-EXEC SQL.
-  CLOSE dbcur
-ENDEXEC.
-
-
-
-**📖 Source**: [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm)
-
-### abapexec_procedure.htm
-
-> **📖 Official SAP Documentation**: [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_procedure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) → 
-
-EXEC SQL - EXECUTE PROCEDURE
-
-Syntax
-
-EXEC SQL.
-  EXECUTE PROCEDURE proc ( IN    p\_in1,    IN    p\_in2, ...
-                           OUT   p\_out1,   OUT   p\_out2, ...
-                           INOUT p\_inout1, INOUT p\_inout2, ... )
-ENDEXEC.
-
-Effect
-
-In database systems, procedures can be defined as [stored procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstored_procedure_glosry.htm "Glossary Entry"). Since the syntax for calling this type of procedure and the associated parameter passing can vary widely for various database systems, a uniform command exists in statically embedded [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry").
-
-The statement EXECUTE PROCEDURE calls a procedure proc stored in the database. For all formal parameters of the procedure, the actual parameters must be specified, separated by commas. IN, OUT, or INOUT must be specified before every actual parameter, to indicate whether the parameter is an input, output, or input/output parameter. Literals or [host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm) indicated by colons (:) can be used for the actual parameters.
-
-Notes
-
--   On the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"), the stored procedures are [database procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") written in [SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm "Glossary Entry"). In ABAP, these procedures can be managed and called using [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp.htm) and the special statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_database_procedure.htm). This statement enables access using a [secondary connection](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry").
-    
--   EXECUTE PROCEDURE can be used to call procedures with input and output parameters but cannot be used to call functions with return values. In SQL, functions are used directly in suitable operand positions (see [Executable Example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)).
-    
-
-Example
-
-Defines a procedure abap\_docu\_demo\_incprice using database-specific SQL statements and by calling the procedure with the SAP-specific Native SQL statement EXECUTE PROCEDURE. The execution of the program section raises the price of every flight for the current client in the table SFLIGHT by a specific amount. See also the corresponding executable [example for ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm).
-
-DATA incprice TYPE sflight-price VALUE '0.5'.
-cl\_demo\_input=>request( CHANGING field = incprice ).
-TRY.
-    EXEC SQL.
-      DROP PROCEDURE abap\_docu\_demo\_incprice;
-    ENDEXEC.
-  CATCH cx\_sy\_native\_sql\_error.
-ENDTRY.
-TRY.
-    EXEC SQL.
-      CREATE PROCEDURE
-        abap\_docu\_demo\_incprice ( IN inc  DECIMAL(15,2),
-                                  IN clnt NVARCHAR(3) ) AS
-          BEGIN
-            UPDATE sflight SET price = price + inc
-                           WHERE mandt = clnt;
-          END;
-    ENDEXEC.
-    EXEC SQL.
-      EXECUTE PROCEDURE abap\_docu\_demo\_incprice ( IN :incprice,
-                                                  IN :sy-mandt )
-    ENDEXEC.
-  CATCH cx\_sy\_native\_sql\_error INTO DATA(exc).
-    cl\_demo\_output=>write( exc->get\_text( ) ).
-ENDTRY.
-cl\_demo\_output=>display( ).
-
-
-
-**📖 Source**: [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_procedure.htm)
-
-### abapexec_connection.htm
-
-> **📖 Official SAP Documentation**: [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_connection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) → 
-
-EXEC SQL - CONNECT
-
-A connection must be defined with the database before [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statements can be used. When [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") is started, a [standard connection](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") from the database interface to the [standard AS ABAP database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_db_glosry.htm "Glossary Entry") is opened. This connection is defined as the current connection for embedded Native SQL statements and as a standard connection for [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements when an ABAP program is started. Use the following SAP-specific Native SQL statements, to start additional database connections. These connections can be accessed in static Native SQL.
-
-The possible additional AS ABAP connections to database systems are [secondary connections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") defined in the database table DBCON or [service connections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenservice_connection_glosry.htm "Glossary Entry") whose name starts with R/3\*.
-
--   [Open Connection](#abapexec-connection-1--------selecting-a-connection---@ITOC@@ABAPEXEC_CONNECTION_2)
-
--   [Determining the Connection](#abapexec-connection-3--------close-connection---@ITOC@@ABAPEXEC_CONNECTION_4)
-
--   [Example](#abapexec-connection-5---note--detailed-information-about-database-connections-can-be-found--here--javascript-call-link---abenopensql-multiconnect-htm-------open-connection--syntax--exec-sql----connect-to-conn-----as-name-----endexec---effect--this-static-native-sql-statement-requests-a-database-connection-called-conn--this-connection-is-opened--or-reused--if-it-already-exists-in-an-inactive-state-for-the-current-work-process--once-connect-to-is-executed--the-specified-connection-is-the-current-connection-of-the-internal-session--which-means-that-all-subsequent-static-native-sql-statements-work-with-this-connection-until-a-connection-other-than-the-current-is-set-using-a-new-connect-to-statement-or-using-set-connection---for-conn--a-a-literal-or-a--host-variable--javascript-call-link---abapexec-host-htm-----that-contains-one-of-the-following-values-can-be-specified-------a-name-from-the-column-con--name-of-the-database-table-dbcon-used-to-specify-a--secondary-connection--javascript-call-link---abensecondary-db-connection-glosry-htm-----glossary-entry------------a-name-with-the-prefix-r-3---used-to-specify-a--service-connection--javascript-call-link---abenservice-connection-glosry-htm-----glossary-entry---------both-of-these-instances-are-case-sensitive--if-a-secondary-connection-that-is-not-in-the-database-table-dbcon-is-specified--a-handleable-exception-of-the-class-cx--sy--native--sql--error-is-raised--if-a--secondary-database--javascript-call-link---abensecondary-db-glosry-htm-----glossary-entry---cannot-be-reached--sy-subrc-is-set-to-4---the-addition-as-can-be-used-to-specify-a-name-name-for-the-connection--for-name--a-literal-or-a-character-like-host-variable-can-be-specified-whose-content-is-used-as-the-name--a-connection-called-name-is-not-the-same-connection-as-a-connection-requested-without-using-the-addition-as--this-makes-it-possible-to-open-parallel-connections-with-separate-database-luws-for-the-same-secondary-connection-or-service-connection-within-an-internal-session--in-an-internal-session--only-one-active-database-session-can-be-called-name--any-attempt-to-activate-a-further-connection-with-the-same-name-produces-a-runtime-error--a-connection-called-name-can-only-be-specified-in-the-statement-set-connection-using-this-name---notes------the--standard-connection--javascript-call-link---abenstandard-db-connection-glosry-htm-----glossary-entry---cannot-be-requested-using-connect-to-----------a-name-granted-using-as-can-also-be-used-in-abap-sql-after-the-addition-connection-and-in-the-statements--commit-connection--javascript-call-link---abapcommit-rollback-connection-htm-----and--rollback-connection--javascript-call-link---abapcommit-rollback-connection-htm------as-long-as-it-is-in-uppercase-letters--------selecting-a-connection--syntax--exec-sql----set-connection----conn---default----endexec---effect--this-static-native-sql-statement-sets-the-current-connection-for-all-following-static-native-sql-statements--for-conn--a-literal-or-a-character-like-host-variable-can-be-specified-that-contains-the-name-of-connection-activated-in-the-current-connection-------default-in-uppercase-letters-or-default-specified-directly-can-be-used-to-specified-the--standard-connection--javascript-call-link---abenstandard-db-connection-glosry-htm-----glossary-entry-------------a-secondary-or-service-connection-activated-using-connect-to-without-specifying-a-name-after-as-can-be-specified-under-its-name-conn-----------a-secondary-or-service-connection-activated-using-connect-to-while-specifying-a-name-after-as-can-be-specified-under-this-name-name--------all-of-these-instances-are-case-sensitive--when-an-unknown-connection-is-specified--the-current-connection-remains-unchanged-and-sy-subrc-is-set-to-4---notes------when-a-current-connection-is-switched-to-a-different-current-connection--no-database-luw-is-closed-and-no-new-luw-is-opened-----------any-changes-to-the-current-connection-are-applied-only-in-static-native-sql-after-exec-sql--abap-sql-and-any-other-variant-of-native-sql-remain-unaffected-----------the-current-connection-is-switched-regardless-of-whether-the-connections-in-question-are-active-or--after-their-database-luws-are-closed--inactive--------determining-the-connection--syntax--exec-sql----get-connection--conn-endexec---effect--this-static-native-sql-statement-assigns-the-name-of-the-current-connection-to-conn--conn-expects-a-character-like-host-variable--if-the-current-connection-was-activated-using-the-statement-connect-to-and-as-was-used-to-give-it-a-name-at-the-same-time--this-name-is-assigned--if-the-connection-is-activated-without-being-given-a-name--the-name-of-the-secondary-connection-or-service-connection-is-assigned--if-the-current-connection-is-the-standard-connection--the-value-default-is-assigned---note--the-current-connection-can-be-active-or--after-its-database-luw-is-closed--inactive---close-connection--syntax--exec-sql----disconnect-conn-endexec---effect--this-static-native-sql-statement-closes-the-connection-conn-for-the-current-work-process--which-discards-all-database-changes-not-yet-committed-using-a--database-commit--javascript-call-link---abendb-commit-htm------for-conn--a-literal-or-a-character-like-host-variable-can-be-specified-that-contains-the-name-of-a-secondary-connection-or-service-connection-activated-in-the-internal-session-------a-secondary-or-service-connection-activated-using-connect-to-without-specifying-a-name-after-as-can-be-specified-under-its-name-conn-----------a-secondary-or-service-connection-activated-using-connect-to-while-specifying-a-name-after-as-can-be-specified-under-this-name-name--------if-anything-else-is-specified--most-specifically-default---a-runtime-error-occurs--if-the-closed-secondary-connection-or-service-connection-is-the-current-connection--the-standard-connection-is-set-as-the-new-current-connection-implicitly--all-of-these-instances-are-case-sensitive---notes------the-closed-connection-can-be-active-or--after-its-database-luw-is-closed--inactive-----------it-is-recommended-that-database-connections-are-only-closed-implicitly-by-the-abap-runtime-environment-and-not-explicitly--since-it-takes-a-lot-of-resources-to-restore-a-connection--------example--example--opens-a-connection-to-an-sap-hana-database-and-imports-all-entries-of-a-column-in-the-database-table-scarr---data-conn-type-dbcon-con--name--cl--demo--input--request--changing-field---conn----select-single-dbms--------from-dbcon--------where-con--name---conn AND
-             dbms     = 'HDB'
-       INTO @DATA(dbtype).
-IF sy-subrc <> 0.
-  RETURN.
-ENDIF.
-TRY.
-    EXEC SQL.
-      CONNECT TO :conn
-    ENDEXEC.
-    IF sy-subrc <> 0.
-      RAISE EXCEPTION TYPE cx\_sy\_native\_sql\_error
-        EXPORTING
-          textid = cx\_sy\_native\_sql\_error=>cx\_sy\_native\_sql\_error.
-    ENDIF.
-    EXEC SQL.
-      OPEN dbcur FOR
-        SELECT carrid
-               FROM scarr
-               WHERE mandt = :sy-mandt
-    ENDEXEC.
-    DATA carrid TYPE scarr-carrid.
-    DO.
-      EXEC SQL.
-        FETCH NEXT dbcur INTO :carrid
-      ENDEXEC.
-      IF sy-subrc <> 0.
-        EXIT.
-      ELSE.
-        cl\_demo\_output=>write( |{ carrid }| ).
-      ENDIF.
-    ENDDO.
-    EXEC SQL.
-      CLOSE dbcur
-    ENDEXEC.
-    EXEC SQL.
-      DISCONNECT :conn
-    ENDEXEC.
-  CATCH cx\_sy\_native\_sql\_error INTO DATA(exc).
-    cl\_demo\_output=>write( exc->get\_text( ) ).
-ENDTRY.
-cl\_demo\_output=>display( ).
-
-
-
-**📖 Source**: [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_connection.htm)
-
-### abapendexec.htm
-
-> **📖 Official SAP Documentation**: [abapendexec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendexec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) → 
-
-ENDEXEC
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_sql_shortref.htm)
-
-Syntax
-
-ENDEXEC.
-
-Effect
-
-The statement ENDEXEC closes an embedded [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statement introduced using [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm).
-
-
-
-**📖 Source**: [abapendexec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendexec.htm)
-
-### abapexec.htm
-
-> **📖 Official SAP Documentation**: [abapexec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) → 
-
-EXEC SQL
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_sql_shortref.htm)
-
-Syntax
-
-EXEC SQL.
-  ...
-ENDEXEC.
-
-Effect
-
-These statements define an area in an ABAP program in which one or more [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statements can be specified statically. The area between EXEC and ENDEXEC is not checked completely by the syntax check. The statements entered there are passed to the Native SQL interface and processed there as follows:
-
--   SQL statements that are valid for the addressed database system can be included between EXEC and ENDEXEC, in particular the [DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddl_glosry.htm "Glossary Entry") statements. These SQL statements are passed from the Native SQL interface to the database system largely unchanged. The syntax rules are specified by the database system, in particular the case sensitivity rules for database objects. If the syntax allows a separator character between individual statements, multiple Native SQL statements can be included between EXEC and ENDEXEC. Generally, the semicolon (;) is used as the separator character.
-    
--   SAP-specific Native SQL language elements can also be included between EXEC and ENDEXEC. These statements are not passed directly from the Native SQL interface to the database, but are converted appropriately. These SAP-specific language elements are:
-    
-
--   [Literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_literal.htm)
-
--   [Host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm)
-
--   [INTO clause](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm)
-
--   [Statements for cursor processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm)
-
--   [Database procedure calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_procedure.htm)
-
--   [Statements for establishing database connections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_connection.htm)
-
-All Native SQL statements bypass [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry") and no [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm) is performed.
-
-System Fields
-
-The statement ENDEXEC sets the system fields sy-subrc and sy-dbcnt. When using the obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_implicit.htm), note that implicit cursor processing is carried out and the system fields are set for every read.
-
-sy-subrc
-
-Meaning
-
-0
-
-The statements between EXEC and ENDEXEC were executed successfully.
-
-4
-
-The statements between EXEC and ENDEXEC were not successful. After implicit cursor processing with PERFORMING, sy-subrc always contains the value 4.
-
-The statement ENDEXEC sets sy-dbcnt to the number of table rows processed in the last Native SQL statement. After implicit cursor processing with PERFORMING, sy-dbcnt contains the total number of rows read. If an overflow occurs because the number or rows is greater than 2,147,483,647, sy-dbcnt is set to -1.
-
-Notes
-
--   Programs with Native SQL statements are generally dependent on the database system used, so that they cannot be executed in all [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") systems. This is especially true for the examples in this section, which were tested on a [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry") (unless otherwise stated).
-    
--   If insertions or modifications using the Native SQL statements INSERT or UPDATE would produce duplicate rows with respect to the primary table key, no exception is raised. Instead, sy-subrc is set to 4. However, if another operation, such as executing a [Stored Procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstored_procedure_glosry.htm "Glossary Entry"), would produce a duplicate row, an exception would be raised.
-    
--   The [client ID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_identifier_glosry.htm "Glossary Entry") of a database table or a view must be specified explicitly. Note that application programs should only use data from the current client. See also the associated [security note](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_dependent_scrty.htm) and the [programming guideline](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_handling_guidl.htm "Guideline").
-    
-
--   When the [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry") of a [client-specific](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) CDS view is accessed using Native SQL and the client handling of the view is specified by the annotation @ClientHandling.algorithm:#SESSION\_VARIABLE, the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) is generally evaluated here. Only on [SAP HANA databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"), is an instance of this session variables created as a HANA session variable [CDS\_CLIENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm). Its current value is used here. On other platforms, there can be unexpected behavior or the program may crash.
-    
-
--   The obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_implicit.htm) (not allowed in classes) executes implicit cursor processing and must no longer be used. The obsolete statement [EXIT FROM SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_sql.htm) can be used to exit this type of processing.
-    
--   Native SQL statements used for transaction control (COMMIT and ROLLBACK) are detected by the database interface and the actions required at the end of a transaction are performed.
-    
--   The static embedding of Native SQL statements between EXEC SQL and ENDEXEC is replaced by dynamic passes to objects from [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) classes. New features in the Native SQL interface are now developed only in ADBC. Only ADBC should be used in new programs.
-    
-
-Example
-
-The following example demonstrates how an embedded Native SQL statement can be replaced by [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm). For single statements, the use of the [instance operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_new.htm) removes the need for a helper variable of type CL\_SQL\_STATEMENT when creating objects.
-
-"Embedded Native SQL
-EXEC SQL.
-  INSERT INTO demo\_update VALUES( :sy-mandt, 'X', 1, 2, 3, 4 )
-ENDEXEC.
-"ADBC
-NEW cl\_sql\_statement( )->execute\_update(
-  |INSERT INTO demo\_update VALUES( '{ sy-mandt }', 'X', 1, 2, 3, 4 )| ).
-
-Executable Example
-
-[Static Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm)
-
-[Exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_exceptions.htm)
-
-Handleable Exceptions
-
-CX\_SY\_NATIVE\_SQL\_ERROR
-
--   Cause: Error when making a secondary connection.
-    Runtime error: DBIF\_DSQL2\_CONNECTERR
-    
--   Cause: Illegal interruption of a database selection. The cursor was closed.
-    Runtime error: DBIF\_DSQL2\_INVALID\_CURSOR:
-    
--   Cause: There is insufficient memory available for a Native SQL statement.
-    Runtime error: DBIF\_DSQL2\_NO\_MEMORY
-    
--   Cause: Database object already exists in the database. An attempt was made to create a database object (for example, table, view, index) on the database, but this object already exists.
-    Runtime error: DBIF\_DSQL2\_OBJ\_EXISTS
-    
--   Cause: The name of a table or view that does not exist on the database was used.
-    Runtime error: DBIF\_DSQL2\_OBJ\_UNKNOWN
-    
--   Cause: An SQL error occurred while executing a native SQL command.
-    Runtime error: DBIF\_DSQL2\_SQL\_ERROR
-    
--   Cause: The maximum number of secondary connections was exceeded.
-    Runtime error: EXSQL\_CONNECTION\_LIMIT
-    
--   Cause: The maximum number of database cursors was exceeded.
-    Runtime error: EXSQL\_DSQL\_CURSOR\_LIMIT
-    
-
-Non-Handleable Exceptions
-
--   Cause: The specified cursor does not exist. A CLOSE or SELECT command in Native SQL has a specified cursor, but this cursor is unknown to cursor administration.
-    Runtime error: EXSQL\_DSQL\_CURSOR\_NOT\_FOUND
-    
--   Cause: The specified cursor is already open. An OPEN command in Native SQL has a specified cursor, which the cursor administration knows is already open.
-    Runtime error: EXSQL\_DSQL\_DUPLICATE\_CURSOR
-    
--   Cause: There is insufficient roll memory available. When a Native SQL statement is processed, the internal memory is required to prepare the SQL Call.
-    Runtime error: EXSQL\_DSQL\_NOROLL
-    
--   Cause: An indicator variable has an incorrect type. It must be the type INT2.
-    Runtime error: EXSQL\_DSQL\_WRONG\_IVAR\_TYPE
-    
--   Cause: The connection name has already been used for another connection. A CONNECT command in Native SQL has a specified connection name, which is already used for another connection.
-    Runtime error: EXSQL\_ILLEGAL\_CONNECTION
-    
--   Cause: The connection "DEFAULT" was specified for a DISCONNECT command in Native SQL. This connection cannot be terminated with DISCONNECT.
-    Runtime error: EXSQL\_ILLEGAL\_DISCONNECTION
-    
--   Cause: A Native SQL command contains too many variables. In this context, variables means all ABAP fields preceded by a colon (":"). If the INTO clause has the form INTO :wa for a work area wa, then all the fields of wa also count as variables.
-    Runtime error: EXSQL\_TOO\_MANY\_VARS
-    
--   Cause: A SET CONNECTION or DISCONNECT command in Native SQL has a specified connection that is unknown to the connection administration.
-    Runtime error: EXSQL\_UNKNOWN\_CONNECTION
-    
--   Cause: The target area specified in the INTO clause is not structured despite the assertion INTO STRUCTURE.
-    Runtime error: EXSQL\_UNSTRUCTURED\_INTO
-    
--   Cause: A LOB variable has the wrong type. LOB variables must have the type string, xstring, c, x, or n.
-    Runtime error: EXSQL\_WRONG\_TYPE\_FOR\_LOB
-    
-
-Continue
-[EXEC SQL - Literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_literal.htm)
-[EXEC SQL - Host Variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm)
-[EXEC SQL - INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_into.htm)
-[EXEC SQL - OPEN, FETCH, CLOSE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm)
-[EXEC SQL - EXECUTE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_procedure.htm)
-[EXEC SQL - CONNECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_connection.htm)
-[ENDEXEC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendexec.htm)
-
-
-
-**📖 Source**: [abapexec.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm)
 
 ### abenexec_sql_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EXEC SQL - Examples"
+description: |
+  !Example(exa.gif 'Example') EXEC SQL, Use(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm) !Example(exa.gif 'Example') EXEC SQL, Accessing a Database Function(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm"
+abapFile: "abenexec_sql_abexas.htm"
+keywords: ["do", "if", "data", "abenexec", "sql", "abexas"]
+---
 
 * * *
 
@@ -14814,16 +14460,19 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL, Accessing a Database Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)
 
 
-
-**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm)
-
 ### abennative_sql_abexa.htm
 
-> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EXEC SQL, Use"
+description: |
+  This example demonstrates the use of embedded static Native SQL. Source Code REPORT demo_exec_sql. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p_drop   RADIOBUTTON GROUP grp. SELECTION-SCREEN SKIP. PARAMETERS  p_key TYPE i DEFAUL
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm"
+abapFile: "abennative_sql_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "abennative", "sql", "abexa"]
+---
 
 * * *
 
@@ -14932,16 +14581,19 @@ Description
 The program is the static equivalent of the executable [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert rows that already exist are caught using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
-
-**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm)
-
 ### abenexec_sql_db_function_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EXEC SQL, Accessing a Database Function"
+description: |
+  This example demonstrates how a database function is accessed using static Native SQL. Source Code REPORT demo_exec_sql_db_function. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TRY. EXEC SQL. DROP FUNCTION abap_docu_demo_scalar
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm"
+abapFile: "abenexec_sql_db_function_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "try", "catch", "method", "class", "data", "abenexec", "sql", "function", "abexa"]
+---
 
 * * *
 
@@ -15011,16 +14663,31 @@ Description
 After [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm), this example creates a scalar [database function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_function_glosry.htm "Glossary Entry") with two input parameters and uses this function in the WHERE condition of a SELECT statement.
 
 
+---
 
-**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)
+
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Native SQL / EXEC SQL - Embedded Native SQL / EXEC SQL - Examples
+
+**Files**: 3 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Native SQL / EXEC SQL - Embedded Native SQL / EXEC SQL - Examples
+
+Included pages: 3
+
 
 ### abenexec_sql_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "EXEC SQL - Examples"
+description: |
+  !Example(exa.gif 'Example') EXEC SQL, Use(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm) !Example(exa.gif 'Example') EXEC SQL, Accessing a Database Function(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm"
+abapFile: "abenexec_sql_abexas.htm"
+keywords: ["do", "if", "data", "abenexec", "sql", "abexas"]
+---
 
 * * *
 
@@ -15035,6 +14702,209 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL, Accessing a Database Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm)
 
 
+### abennative_sql_abexa.htm
+
+---
+title: "EXEC SQL, Use"
+description: |
+  This example demonstrates the use of embedded static Native SQL. Source Code REPORT demo_exec_sql. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p_drop   RADIOBUTTON GROUP grp. SELECTION-SCREEN SKIP. PARAMETERS  p_key TYPE i DEFAUL
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_abexa.htm"
+abapFile: "abennative_sql_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "abennative", "sql", "abexa"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm) → 
+
+EXEC SQL, Use
+
+This example demonstrates the use of embedded static Native SQL.
+
+Source Code
+
+REPORT demo\_exec\_sql.
+PARAMETERS: p\_create RADIOBUTTON GROUP grp,
+            p\_insert RADIOBUTTON GROUP grp,
+            p\_select RADIOBUTTON GROUP grp,
+            p\_drop   RADIOBUTTON GROUP grp.
+SELECTION-SCREEN SKIP.
+PARAMETERS  p\_key TYPE i DEFAULT 1.
+CLASS native\_sql DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+  PRIVATE SECTION.
+    CLASS-DATA: wa1 TYPE c LENGTH 10,
+                wa2 TYPE c LENGTH 10,
+                err TYPE REF TO cx\_sy\_native\_sql\_error.
+    CLASS-METHODS: create RAISING cx\_sy\_native\_sql\_error,
+                   insert RAISING cx\_sy\_native\_sql\_error,
+                   select RAISING cx\_sy\_native\_sql\_error,
+                   drop   RAISING cx\_sy\_native\_sql\_error.
+ENDCLASS.
+CLASS native\_sql IMPLEMENTATION.
+  METHOD main.
+    TRY.
+        IF p\_create = 'X'.
+          create( ).
+          MESSAGE 'Create was successful' TYPE 'S'.
+        ELSEIF p\_insert = 'X'.
+          insert( ).
+          MESSAGE 'Insert was successful' TYPE 'S'.
+        ELSEIF p\_select = 'X'.
+          select( ).
+          MESSAGE 'Select was successful' TYPE 'S'.
+        ELSEIF p\_drop   = 'X'.
+          drop( ).
+          MESSAGE 'Drop was successful' TYPE 'S'.
+        ENDIF.
+      CATCH cx\_sy\_native\_sql\_error INTO err.
+        MESSAGE err TYPE 'I' DISPLAY LIKE 'E'.
+    ENDTRY.
+  ENDMETHOD.
+  METHOD create.
+    EXEC SQL.
+      CREATE TABLE abap\_docu\_demo\_mytab (
+               val1 char(10) NOT NULL,
+               val2 char(10) NOT NULL,
+               PRIMARY KEY (val1)      )
+    ENDEXEC.
+  ENDMETHOD.
+  METHOD insert.
+    DO 100 TIMES.
+      wa1 = sy-index.
+      wa2 = sy-index \*\* 2.
+      EXEC SQL.
+        INSERT INTO abap\_docu\_demo\_mytab VALUES (:wa1, :wa2)
+      ENDEXEC.
+      IF sy-subrc <> 0.
+        RAISE EXCEPTION TYPE cx\_sy\_native\_sql\_error
+          EXPORTING
+            textid = cx\_sy\_native\_sql\_error=>key\_already\_exists.
+      ENDIF.
+    ENDDO.
+  ENDMETHOD.
+  METHOD select.
+    DATA: msg TYPE c LENGTH 30,
+          key TYPE c LENGTH 10.
+    p\_key = cl\_abap\_dyn\_prg=>escape\_quotes( CONV string( p\_key ) ).
+    key = p\_key.
+    EXEC SQL.
+      SELECT val1, val2
+             INTO :wa1, :wa2
+             FROM abap\_docu\_demo\_mytab
+             WHERE val1 = :key
+    ENDEXEC.
+    IF sy-subrc = 0.
+      WRITE: 'Result:' TO msg,
+             wa1 TO msg+10,
+             wa2 TO msg+20.
+    ELSE.
+      msg = 'No entry found'.
+    ENDIF.
+    MESSAGE msg TYPE 'I'.
+  ENDMETHOD.
+  METHOD drop.
+    EXEC SQL.
+      DROP TABLE abap\_docu\_demo\_mytab
+    ENDEXEC.
+  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  native\_sql=>main( ).
+
+Description
+
+The program is the static equivalent of the executable [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert rows that already exist are caught using sy-subrc and the corresponding SQL exception must be raised explicitly.
+
+
+### abenexec_sql_db_function_abexa.htm
+
+---
+title: "EXEC SQL, Accessing a Database Function"
+description: |
+  This example demonstrates how a database function is accessed using static Native SQL. Source Code REPORT demo_exec_sql_db_function. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TRY. EXEC SQL. DROP FUNCTION abap_docu_demo_scalar
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_db_function_abexa.htm"
+abapFile: "abenexec_sql_db_function_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "try", "catch", "method", "class", "data", "abenexec", "sql", "function", "abexa"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) →  [EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm) → 
+
+EXEC SQL, Accessing a Database Function
+
+This example demonstrates how a database function is accessed using static Native SQL.
+
+Source Code
+
+REPORT demo\_exec\_sql\_db\_function.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    TRY.
+        EXEC SQL.
+          DROP FUNCTION abap\_docu\_demo\_scalar\_function;
+        ENDEXEC.
+        EXEC SQL.
+          CREATE FUNCTION
+            abap\_docu\_demo\_scalar\_function
+              ( IN p1 NVARCHAR(5), IN p2 NVARCHAR(5) )
+              RETURNS r NVARCHAR(10) AS
+              BEGIN
+                r = concat(p1,p2);
+              END;
+        ENDEXEC.
+      CATCH cx\_sy\_native\_sql\_error INTO DATA(exc).
+        cl\_demo\_output=>display( exc->get\_text( ) ).
+        RETURN.
+    ENDTRY.
+    DELETE FROM demo\_expressions.
+    INSERT demo\_expressions
+      FROM TABLE @( VALUE #( ( id = 'X' char1 = 'xxxxxaaaaa' )
+                             ( id = 'Y' char1 = 'yyyyybbbbb' )
+                             ( id = 'Z' char1 = 'zzzzzccccc' ) ) ).
+    DATA in1 TYPE c LENGTH 5 VALUE 'yyyyy'.
+    DATA in2 TYPE c LENGTH 5 VALUE 'bbbbb'.
+    cl\_demo\_input=>new(
+      )->add\_field( CHANGING field = in1
+      )->add\_field( CHANGING field = in2 )->request( ).
+    DATA result TYPE demo\_expressions-id.
+    TRY.
+        EXEC SQL.
+          select id
+                 from demo\_expressions
+                 where char1 = abap\_docu\_demo\_scalar\_function(:in1,
+                                                              :in2)
+                 into :result
+        ENDEXEC.
+      CATCH cx\_sy\_native\_sql\_error INTO exc.
+        cl\_demo\_output=>write( exc->get\_text( ) ).
+    ENDTRY.
+    cl\_demo\_output=>display( result ).  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  demo=>main( ).
+
+Description
+
+After [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm), this example creates a scalar [database function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_function_glosry.htm "Glossary Entry") with two input parameters and uses this function in the WHERE condition of a SELECT statement.
+
+
 ---
 
 
@@ -15047,16 +14917,19 @@ Continue
 Included pages: 6
 
 
-
-**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexec_sql_abexas.htm)
-
 ### abenabap_and_hana_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP and SAP HANA, Examples"
+description: |
+  !Example(exa.gif 'Example') SAP HANA, ABAP-Specific Session Variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm) !Example(exa.gif 'Example') SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm"
+abapFile: "abenabap_and_hana_abexas.htm"
+keywords: ["do", "if", "data", "abenabap", "and", "hana", "abexas"]
+---
 
 * * *
 
@@ -15074,16 +14947,19 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
 
 
-
-**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm)
-
 ### abenhana_session_variables_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, ABAP-Specific Session Variables"
+description: |
+  This example demonstrates potential Native SQL reads on session variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm) on the SAP HANA database. Source Code REPORT demo_hana_session_variables. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS mai
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm"
+abapFile: "abenhana_session_variables_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "session", "variables", "abexa"]
+---
 
 * * *
 
@@ -15221,16 +15097,19 @@ ENDMETHOD.
 This method is an [AMDP method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm)
-
 ### abenhana_cached_views_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Cached Views"
+description: |
+  This example demonstrates ABAP SQL access to a cached view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views.htm) on the SAP HANA database. Source Code REPORT demo_select_cached_view. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm"
+abapFile: "abenhana_cached_views_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "cached", "views", "abexa"]
+---
 
 * * *
 
@@ -15322,16 +15201,19 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](https://help
 The addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_extended_result.htm) of the [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) clause can be used to determine whether a cache is available and the cache properties are read.
 
 
-
-**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
-
 ### abenfrom_adbc_to_amdp_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, from ADBC to AMDP"
+description: |
+  This example demonstrates how a task can be performed using HANA-specific language elements. Source Code REPORT demo_from_adbc_to_amdp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). IF NOT cl_ab
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm"
+abapFile: "abenfrom_adbc_to_amdp_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenfrom", "adbc", "amdp", "abexa"]
+---
 
 * * *
 
@@ -15527,16 +15409,19 @@ The method AMDP solves the task in the easiest possible way by calling an [AMDP 
 Method was not found
 
 
-
-**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-
 ### abencall_hana_db_proc_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Call Database Procedure"
+description: |
+  This example demonstrates how a database procedure in the SAP HANA database can be called. Source Code REPORT demo_call_hana_db_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). IF NOT cl
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm"
+abapFile: "abencall_hana_db_proc_abexa.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "hana", "proc", "abexa"]
+---
 
 * * *
 
@@ -15685,16 +15570,19 @@ The method AMDP calls the [AMDP method](https://help.sap.com/doc/abapdocu_754_in
 Method was not found
 
 
-
-**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm)
-
 ### abensql_script_curr_conv_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Currency Conversion with SQLScript"
+description: |
+  This example demonstrates how the SQLScript operator CE_CONVERSION is used. Source Code REPORT demo_sqlscript_curr_conv. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS setup. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm"
+abapFile: "abensql_script_curr_conv_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abensql", "script", "curr", "conv", "abexa"]
+---
 
 * * *
 
@@ -15827,25 +15715,28 @@ See also [Conversion Functions in ABAP CDS](https://help.sap.com/doc/abapdocu_75
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP and SAP HANA / Access to Objects in SAP HANA XS / Access to SAP HANA XSC Objects
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP and SAP HANA / Access to Objects in SAP HANA XS / Access to SAP HANA XSC Objects / Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository
 
-**Files**: 10 | **Difficulty**: intermediate
+**Files**: 7 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / ABAP and SAP HANA / ABAP and SAP HANA, Examples
 
 Included pages: 6
 
 
-
-**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
-
 ### abenabap_and_hana_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP and SAP HANA, Examples"
+description: |
+  !Example(exa.gif 'Example') SAP HANA, ABAP-Specific Session Variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm) !Example(exa.gif 'Example') SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm"
+abapFile: "abenabap_and_hana_abexas.htm"
+keywords: ["do", "if", "data", "abenabap", "and", "hana", "abexas"]
+---
 
 * * *
 
@@ -15863,16 +15754,19 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
 
 
-
-**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm)
-
 ### abenhana_session_variables_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, ABAP-Specific Session Variables"
+description: |
+  This example demonstrates potential Native SQL reads on session variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm) on the SAP HANA database. Source Code REPORT demo_hana_session_variables. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS mai
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm"
+abapFile: "abenhana_session_variables_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "session", "variables", "abexa"]
+---
 
 * * *
 
@@ -16010,16 +15904,19 @@ ENDMETHOD.
 This method is an [AMDP method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm)
-
 ### abenhana_cached_views_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Cached Views"
+description: |
+  This example demonstrates ABAP SQL access to a cached view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views.htm) on the SAP HANA database. Source Code REPORT demo_select_cached_view. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm"
+abapFile: "abenhana_cached_views_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "cached", "views", "abexa"]
+---
 
 * * *
 
@@ -16111,16 +16008,19 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](https://help
 The addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_extended_result.htm) of the [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) clause can be used to determine whether a cache is available and the cache properties are read.
 
 
-
-**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
-
 ### abenfrom_adbc_to_amdp_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, from ADBC to AMDP"
+description: |
+  This example demonstrates how a task can be performed using HANA-specific language elements. Source Code REPORT demo_from_adbc_to_amdp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). IF NOT cl_ab
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm"
+abapFile: "abenfrom_adbc_to_amdp_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenfrom", "adbc", "amdp", "abexa"]
+---
 
 * * *
 
@@ -16316,16 +16216,19 @@ The method AMDP solves the task in the easiest possible way by calling an [AMDP 
 Method was not found
 
 
-
-**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-
 ### abencall_hana_db_proc_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Call Database Procedure"
+description: |
+  This example demonstrates how a database procedure in the SAP HANA database can be called. Source Code REPORT demo_call_hana_db_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). IF NOT cl
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm"
+abapFile: "abencall_hana_db_proc_abexa.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "hana", "proc", "abexa"]
+---
 
 * * *
 
@@ -16474,16 +16377,19 @@ The method AMDP calls the [AMDP method](https://help.sap.com/doc/abapdocu_754_in
 Method was not found
 
 
-
-**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm)
-
 ### abensql_script_curr_conv_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Currency Conversion with SQLScript"
+description: |
+  This example demonstrates how the SQLScript operator CE_CONVERSION is used. Source Code REPORT demo_sqlscript_curr_conv. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS setup. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm"
+abapFile: "abensql_script_curr_conv_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abensql", "script", "curr", "conv", "abexa"]
+---
 
 * * *
 
@@ -16625,16 +16531,19 @@ See also [Conversion Functions in ABAP CDS](https://help.sap.com/doc/abapdocu_75
 Included pages: 6
 
 
-
-**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
-
 ### abenabap_and_hana_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP and SAP HANA, Examples"
+description: |
+  !Example(exa.gif 'Example') SAP HANA, ABAP-Specific Session Variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm) !Example(exa.gif 'Example') SAP HANA, Cached Views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm"
+abapFile: "abenabap_and_hana_abexas.htm"
+keywords: ["do", "if", "data", "abenabap", "and", "hana", "abexas"]
+---
 
 * * *
 
@@ -16652,16 +16561,19 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
 
 
-
-**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_and_hana_abexas.htm)
-
 ### abenhana_session_variables_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, ABAP-Specific Session Variables"
+description: |
+  This example demonstrates potential Native SQL reads on session variables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm) on the SAP HANA database. Source Code REPORT demo_hana_session_variables. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS mai
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm"
+abapFile: "abenhana_session_variables_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "session", "variables", "abexa"]
+---
 
 * * *
 
@@ -16799,16 +16711,19 @@ ENDMETHOD.
 This method is an [AMDP method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables_abexa.htm)
-
 ### abenhana_cached_views_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Cached Views"
+description: |
+  This example demonstrates ABAP SQL access to a cached view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views.htm) on the SAP HANA database. Source Code REPORT demo_select_cached_view. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm"
+abapFile: "abenhana_cached_views_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "cached", "views", "abexa"]
+---
 
 * * *
 
@@ -16900,16 +16815,19 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](https://help
 The addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_extended_result.htm) of the [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) clause can be used to determine whether a cache is available and the cache properties are read.
 
 
-
-**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
-
 ### abenfrom_adbc_to_amdp_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, from ADBC to AMDP"
+description: |
+  This example demonstrates how a task can be performed using HANA-specific language elements. Source Code REPORT demo_from_adbc_to_amdp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). IF NOT cl_ab
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm"
+abapFile: "abenfrom_adbc_to_amdp_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenfrom", "adbc", "amdp", "abexa"]
+---
 
 * * *
 
@@ -17105,16 +17023,19 @@ The method AMDP solves the task in the easiest possible way by calling an [AMDP 
 Method was not found
 
 
-
-**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-
 ### abencall_hana_db_proc_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Call Database Procedure"
+description: |
+  This example demonstrates how a database procedure in the SAP HANA database can be called. Source Code REPORT demo_call_hana_db_procedure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). IF NOT cl
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm"
+abapFile: "abencall_hana_db_proc_abexa.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "hana", "proc", "abexa"]
+---
 
 * * *
 
@@ -17263,16 +17184,19 @@ The method AMDP calls the [AMDP method](https://help.sap.com/doc/abapdocu_754_in
 Method was not found
 
 
-
-**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_hana_db_proc_abexa.htm)
-
 ### abensql_script_curr_conv_abexa.htm
 
-> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP HANA, Currency Conversion with SQLScript"
+description: |
+  This example demonstrates how the SQLScript operator CE_CONVERSION is used. Source Code REPORT demo_sqlscript_curr_conv. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS setup. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm"
+abapFile: "abensql_script_curr_conv_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abensql", "script", "curr", "conv", "abexa"]
+---
 
 * * *
 
@@ -17405,25 +17329,28 @@ See also [Conversion Functions in ABAP CDS](https://help.sap.com/doc/abapdocu_75
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Object Services / Persistence Service
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Object Services / transaction service
 
-**Files**: 9 | **Difficulty**: intermediate
+**Files**: 8 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Object Services / Query Service
 
 Included pages: 6
 
 
-
-**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_curr_conv_abexa.htm)
-
 ### abenabap_object_services_query.htm
 
-> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Query Service"
+description: |
+  The query service enables makes it possible to search for and load persistent objects using logical expressions. -   Query Service Overview(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm) -   Query Service Components(https://help.sap.com/doc/abapdocu_754_index_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm"
+abapFile: "abenabap_object_services_query.htm"
+keywords: ["do", "if", "data", "abenabap", "object", "services", "query"]
+---
 
 * * *
 
@@ -17451,16 +17378,19 @@ Continue
 ![Example](exa.gif "Example") [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_abexa.htm)
 
 
-
-**📖 Source**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm)
-
 ### abenos_query_terms.htm
 
-> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Query Service Overview"
+description: |
+  A query is used to search for persistent objects in the database using conditions and to create the corresponding instances of the persistent class in the ABAP program. A query is implemented by an object (query object) that implements the interface IF_OS_QUERY and is created by a query manager. A
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm"
+abapFile: "abenos_query_terms.htm"
+keywords: ["do", "if", "method", "class", "data", "abenos", "query", "terms"]
+---
 
 * * *
 
@@ -17485,16 +17415,19 @@ Note
 When the result quantity of a query is determined, the changes that are made in the current transaction to persistent objects are not considered. The query is executed directly in the database.
 
 
-
-**📖 Source**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm)
-
 ### abenos_query_comps.htm
 
-> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_comps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Query Service Components"
+description: |
+  A query is represented by a query object, which is managed by a query manager (also an object). The query manager represents the query service with respect to the ABAP program. To create a query manager, the static method GET_QUERY_MANAGER of the general system service class CL_OS_SYSTEM is requ
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_comps.htm"
+abapFile: "abenos_query_comps.htm"
+keywords: ["do", "if", "method", "class", "data", "abenos", "query", "comps"]
+---
 
 * * *
 
@@ -17639,16 +17572,19 @@ Creates a sort condition. The sort condition is returned in the return value RES
 The attributes used for the sort are appended one after the other when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
 
 
-
-**📖 Source**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_comps.htm)
-
 ### abenos_query_filter_cond.htm
 
-> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Query Conditions"
+description: |
+  A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condit
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm"
+abapFile: "abenos_query_filter_cond.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenos", "query", "filter", "cond"]
+---
 
 * * *
 
@@ -17664,15 +17600,669 @@ A query condition is a logical expression that compares the attributes of a pers
 
 -   [IS NULL](#abenos-query-filter-cond-3--------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
 
--   [AND, OR, NOT](#abenos-query-filter-cond-5---when-a-query-is-executed-using-a-class-agent--the-query-is-bound-precisely-to-its-persistent-class--the-attributes-specified-in-a-query-condition-must-exist-in-the-persistent-class-as-public-persistent-attributes--if-not--an-exception-is-raised--on-the-other-hand--a-query-that-has-been-created-can-certainly-be-executed-in-succession-by-class-agents-of-different-persistent-classes--as-long-as-the-specified-attributes-exist--when-a-query-is-executed--a-select-statement-is-created-internally-with-a-where-condition--in-which-the-attributes-are-replaced-by-concrete-column-identifiers-and-the-free-parameters-are-replaced-by-current-values---the-elementary-relational-operators-below-are-supported-in-a-query-condition--an-attribute--attr--of-a-persistent-class-must-be-specified-as-the-first-operand-of-a-condition--the-second-operand-operand-or-pattern-of-a-comparison-may-be-an-attribute--a-parameter-par--or-a-literal-value---the-names-of-parameters-can-be-defined-freely-by-specifying-a-parameter-list--the-parameter-list-is-a-list-of-parameter-names-that-can-be-used-in-the-query-condition--the-position-of-the-parameter-in-the-parameter-list-defines-the-index-of-the-parameter-in-the-parameter-table--if-no-parameter-list-is-specified--a-predefined-parameter-list-with-the-three-parameter-names-par1--par2--and-par3-is-used---literal-values-are-generally-enclosed-by-quotation-marks--the-semantics-of-the-relational-operators-are-defined-by-the-corresponding-abap-sql-language-element-into-which-the-logical-expression-is-converted---note--the-query-condition-and-its-parameter-list-are-analyzed-when-a-query-is-executed-and-transformed-into-an-internal-display--to-bypass-parsing-each-time-the-query-is-executed--the-methods-of-the-interface-if--os--query--expr--factory-can-be-used-to-create-multiple-use-query-conditions-in-the-internal-representation---security-notes------the-layout-of-a-query-condition-in-a-program-is-one-of-the-dynamic-programming-techniques--if-used-wrongly--dynamic-programming-techniques-can-present-a-serious-security-risk--any-dynamic-content-that-is-passed-to-a-program-from-the-outside-must-be-checked-thoroughly-or-escaped-before-being-used-in-dynamic-statements--this-can-be-done-using-the-system-class-cl--abap--dyn--prg-or-the-predefined-function--escape--javascript-call-link---abenescape-functions-htm-----------to-avoid--sql-injections--javascript-call-link---abensql-injection-glosry-htm-----glossary-entry----the-use-of-parameters-from-the-parameter-list-of-a-chaining-is-recommended--where-dynamic-values-are-represented-as-literals-------see-also--sql-injections-using-object-services--javascript-call-link---abensql-inj-os-query-scrty-htm-------relational-operators--attr--------------------------------operand------like--attr-----not-----like-----pattern---------escape-escape------is-null--attr-is-----not-----null--equalsref--attr-equalsref-par--compares-two-object-references--when-the-query-is-executed--parameter-par-has-to-be-bound-to-a-reference-variable-that-refers-to-a-persistent-instance-of-a-persistent-class---and--or--not--not-expr--expr-and-expr--expr-or-expr--the-semantics-of-the-boolean-operators-and--or--and-not-are-also-defined-by-their-semantics-in-abap-sql--explicit-parentheses-are-possible--if-no-parentheses-are-specified--the-abap-sql-priority-rules-apply---examples--price----100--and-currency----eur---name-like-par1-and-age----45--and-age----65-----department-equalsref-dep1-or-department-equalsref-dep2---and-not---salary----50000--and-currency----eur--------------source-----abenos-query-filter-cond-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-filter-cond-htm-------abenos-query-sort-cond-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------sort-conditions--a-sort-condition-is-a-list-of-attributes-attr-that-specifies-the-direction-in-which-they-are-sorted--only-attributes-with-an-elementary-type-can-be-specified--for-each-attribute--an-order-must-be-specified--either-ascending-or-descending--and-this-information-is-placed-after-the-attribute--only-public-attributes-can-be-used---ascending--attr-ascending--descending--attr-descending--note--the-sort-condition-and-its-parameter-list-are-analyzed-when-a-query-is-executed-and-transformed-into-an-internal-display--to-bypass-parsing-each-time-the-query-is-executed--the-methods-of-the-interface-if--os--query--expr--factory-can-be-used-to-create-multiple-use-sort-conditions-in-the-internal-display---example--price-ascending-date-descending---------source-----abenos-query-sort-cond-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-sort-cond-htm-------abenos-query-abexa-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-service--this-example-demonstrates-how-an-object-oriented-query-is-used---source-code--report-demo--query--service--class-demo-definition----public-section------class-methods-main--endclass--class-demo-implementation----method-main------data--airpfrom-type-s--fromairp-value--fra-------------airpto---type-s--toairp---value--sin-------cl--demo--input--new-----------add--field--changing-field---airpfrom----------add--field--changing-field---airpto----request---------types--begin-of-result---------------carrid-type-s--carr--id---------------connid-type-s--conn--id-------------end-of-result-------------results-type-table-of-result-with-empty-key------try----------data-query----cl--os--system--get--query--manager-----create--query------------i--filter-------airpfrom---par1-and-airpto---par2-------------i--ordering-----carrid-ascending-connid-ascending--------------data-agent----ca--spfli--persistent--agent----------cl--demo--output--display------------value-results--------------for--connection--------------in-agent--if--os--ca--persistency-get--persistent--by--query----------------i--query-----query---------------i--par1------airpfrom---------------i--par2------airpto-------------------carrid---cast-cl--spfli--persistent-----------------------------------connection-----get--carrid--------------------connid---cast-cl--spfli--persistent-----------------------------------connection-----get--connid-----------------catch-cx--root-into-data-exc-----------cl--demo--output--display--exc--get--text-----------endtry---endmethod--endclass--start-of-selection----demo--main------description--a-query-manager-is-called-using-the-method-get--query--manager-of-the-class-cl--os--system-and-a-query-created-using-the-method-create--query-and-a-specified-filter-and-sort-conditions--the-query-is-executed-using-the-interface-method-get--persistent--by--query-of-the-interface-if--os--ca--persistency-and-the-flights-found-are-displayed---since-the-predefined-parameters-par1--par2-from-a-parameter-list-are-used-here--an--sql-injection--javascript-call-link---abensql-injection-glosry-htm-----glossary-entry---is-not-possible-in-this-example-------------abap-keyword-documentation---abap---reference---processing-external-data---abap-database-access---object-services---transaction-service----files----8-----difficulty----intermediate----abap-keyword-documentation---abap---reference---processing-external-data---abap-database-access---object-services---query-service--included-pages--6---------source-----abenos-query-abexa-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-abexa-htm-------abenabap-object-services-query-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--the-query-service-enables-makes-it-possible-to-search-for-and-load-persistent-objects-using-logical-expressions--------query-service-overview--javascript-call-link---abenos-query-terms-htm-----------query-service-components--javascript-call-link---abenos-query-comps-htm-----------query-conditions--javascript-call-link---abenos-query-filter-cond-htm-----------sort-conditions--javascript-call-link---abenos-query-sort-cond-htm------continue--query-service-overview--javascript-call-link---abenos-query-terms-htm------query-service-components--javascript-call-link---abenos-query-comps-htm------query-conditions--javascript-call-link---abenos-query-filter-cond-htm------sort-conditions--javascript-call-link---abenos-query-sort-cond-htm-------example--exa-gif--example----query-service--javascript-call-link---abenos-query-abexa-htm-------------source-----abenabap-object-services-query-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-object-services-query-htm-------abenos-query-terms-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-service-overview--a-query-is-used-to-search-for-persistent-objects-in-the-database-using-conditions-and-to-create-the-corresponding-instances-of-the-persistent-class-in-the-abap-program---a-query-is-implemented-by-an-object--query-object--that-implements-the-interface-if--os--query-and-is-created-by-a-query-manager---a-query-is-a-logical-expression-that-compares-the-attributes-of-a-persistent-class-with-parameters-or-values-that-comprise-the--query-condition--javascript-call-link---abenos-query-filter-cond-htm------those-objects-are-loaded-whose-attributes-meet-the-query-conditions--a-query-also-contains-a--sort-condition--javascript-call-link---abenos-query-sort-cond-htm------which-determines-the-order-of-the-loaded-objects-in-the-results-table---when-a-query-is-created-using-the-query-manager-method-create--query-method--the-query-conditions-and-sort-conditions-are-passed-to-it---the-query-itself-is-merely-a-container-for-the-query-condition-and-the-sort-condition--a-query-is-executed-by-calling-the-interface-method-if--os--ca--persistency-get--persistent--by--query-in-the-class-agent-of-a-persistent-class--similarly--the-result-of-an-executed-query-is-not-bound-to-the-query--but-is-returned-by-the-class-agent-s-method-as-a-table-of-references---note--when-the-result-quantity-of-a-query-is-determined--the-changes-that-are-made-in-the-current-transaction-to-persistent-objects-are-not-considered--the-query-is-executed-directly-in-the-database----------source-----abenos-query-terms-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-terms-htm-------abenos-query-comps-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-service-components--a-query-is-represented-by-a-query-object--which-is-managed-by-a-query-manager--also-an-object---the-query-manager-represents-the-query-service-with-respect-to-the-abap-program---to-create-a-query-manager--the-static-method-get--query--manager-of-the-general-system-service-class-cl--os--system-is-required---an-abap-program-does-not-work-with-the-query-manager-and-queries-by-using-class-reference-variables--instead--it-uses-the-interfaces-if--os--query--manager--if--os--query--and-if--os--query--factory---a-query-is-not-executed-directly--but-using-the-method-get--persistent--by--query-of-the-interface-if--os--ca--persistency-of-a-class-agent--this-means-a-search-is-carried-out-for-persistent-objects-of-the-associated-persistent-class-that-match-the-query-condition---the-options-for-executing-a-query-are-controlled-using-the-interface-if--os--query--options--to-enable-this--a-structure-of-the-type-if--os--query--options--options-can-be-passed-to-the-method-get--persistent--by--query---relevant-method-of-the-system-service--most-of-the-components-of-the-system-service-class-cl--os--system-are-used-internally-by-the-object-services--a-method-must-be-used-in-an-application-program-to-be-able-to-work-explicitly-with-object-oriented-queries-------get--query--manager--this-static-method-returns-the-return-value-result-of-type-if--os--query--manager-containing-a-reference-to-the-query-manager--the-query-manager-is-created-when-the-object-services-are-initialized---methods-of-the-query-manager--the-query-manager-manages-the-object-oriented-queries-of-the-abap-program-and-is-executed-from-interface-if--os--query--manager-------if--os--query--manager-create--query--creates-a-query-and-returns-a-reference-to-the-query-object-in-the-return-value-result-of-type-if--os--query--the-query-condition-is-passed-to-the-parameter-i--filter-of-type-string--the-sort-condition-is-passed-to-the-parameter-i--ordering-of-type-string--if-the-parameters-of-the-query-are-specified-using-a-parameter-list--this-must-be-passed-to-the-parameter-i--parameters-of-type-string---methods-of-a-query--queries-are-executed-from-interfaces-if--os--query-and-if--os--query--expr--factory---methods-of-the-interface-if--os--query------if--os--query-get--expr--factory--returns-a-reference-to-a-query-expression-factory-in-the-return-parameter-result-of-type-if--os--query--expr--factory--technically-speaking--a-query-expression-factory-is-part-of-a-query-object--although-it-is-executed-using-the-interface-if--os--query--expr--factory--like-a-separate-object-------if--os--query-set--filter--expr--sets-the-query-condition--the-internal-display-of-the-query-condition-that-is-created-with-a-query-expression-factory-is-passed-to-the-parameter-i--filter--expr-of-type-if--os--query--filter--expr-------if--os--query-set--parameters--expr--sets-the-parameter-list-of-the-query-condition--the-internal-display-of-the-parameter-list-that-is-created-with-a-query-expression-factory-is-passed-to-the-parameter-i--parameters--expr-of-type-if--os--query--parameters--expr-------if--os--query-set--ordering--expr--sets-the-sort-condition--the-internal-display-of-a-sort-condition-created-with-the-query-expression-factory-is-passed-to-the-parameter-i--ordering--expr-of-type-if--os--query--ordering--expr-------if--os--query-parse--creates-the-internal-displays-of-the-query-condition--the-parameter-list--and-the-sort-term-if-these-have-not-yet-been-created-or-set---methods-of-the-interface-if--os--query--expr--factory------if--os--query--expr--factory-create--operator--expr--creates-either-a--query-condition--javascript-call-link---abenos-query-filter-cond-htm-----of-the-form-attr1-operator-attr2--where-attr1--operator--and-attr2-are-the-values-of-the-parameters-i--attr--i--operator--and-i--attr2-or-a-query-condition-of-the-form-attr1-operator--val--or-attr1-operator-val--w--quotes-where-val-and-val--w--quotes-are-the-values-of-the-parameters-i--val-and-i--val--w--quotes---if-the-parameter-i--idx-of-type-i-is-passed--val-is-the-value-of-the-parameter-from-the-parameter-list--for-which-the-index-when-the-query-is-executed-is-determined-by-the-value-of-the-parameter-i--idx---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--like--expr--depending-on-the-value-of-the-parameter-i--not--creates-a-query-condition-of-the-form-attr-----not-----like--pattern--or-attr-----not-----like-pattern--w--quotes--where-attr--pattern--and-pattern--w--quotes-are-the-values-of-the-parameters-i--attr--i--pattern-and-i--pattern--w--quotes---if-the-parameter-i--idx-of-type-i-is-passed--pattern-is-the-value-of-the-parameter-from-the-parameter-list--for-which-the-index-when-the-query-is-executed-is-determined-by-the-value-of-the-parameter-i--idx---passing-one-of-the-parameters-i--escape-or-i--escape--w--quotes-appends-the-definition-of-an-escape-character-of-the-form-----escape--escape--or-------escape-escape--w--quotes-where-escape-and-escape--w--quotes-are-the-values-of-the-parameters-i--escape-and-i--escape--w--quotes---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--isnull--expr--depending-on-the-value-of-the-parameter-i--not--creates-a-query-condition-of-the-form-attr-is-----not-----null--where-attr-is-the-value-of-the-parameter-i--attr---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--ref--expr--creates-a-query-condition-of-the-form-attr-equalsref-ref--where-attr-is-the-value-of-the-parameter-i--attr-and-ref-is-the-value-of-the-parameter-from-the-parameter-list-whose-index-when-the-query-is-executed-is-determined-by-the-value-of-the-parameter-i--idx---instead-of-using-a-parameter-to-set-the-persistent-object-reference--the-instance-guid-and-class-guid-can-be-specified-using-the-parameters-i--guid-and-i--clsguid-of-type-os--guid---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--not--expr--creates-a-query-condition-of-the-form-not---expr----where-expr-is-a-query-condition-that-already-exists-and-was-passed-to-the-parameter-i--expr---the-new-query-condition-is-returned-in-the-return-value-result-------if--os--query--expr--factory-create--and--expr--creates-a-query-condition-of-the-form---expr1---and---expr2---where-expr1-or-expr2-are-query-conditions-that-already-exist-and-were-passed-to-the-parameters-i--expr1-or-i--expr2---the-new-query-condition-is-returned-in-the-return-value-result-------if--os--query--expr--factory-create--or--expr--creates-a-query-condition-of-the-form---expr1---or---expr2---where-expr1-or-expr2-are-query-conditions-that-already-exist-and-were-passed-to-the-parameters-i--expr1-or-i--expr2---the-new-query-condition-is-returned-in-the-return-value-result-------if--os--query--expr--factory-create--parameters--expr--creates-a-parameter-list--the-parameter-list-that-is-created-is-returned-in-return-value-result-of-type-if--os--query--parameters--expr---the-parameters-are-appended-in-succession-when-the-method-append-of-an-additional-interface-if--os--query--parameters--expr-is-called--the-parameter-name-is-passed-to-the-parameter-i--par-------if--os--query--expr--factory-create--ordering--expr--creates-a-sort-condition--the-sort-condition-is-returned-in-the-return-value-result-of-type-if--os--query--ordering--expr---the-attributes-used-for-the-sort-are-appended-one-after-the-other-when-the-method-append--ascending-or-append--descending-of-the-additional-interface-if--os--query--ordering--expr-is-called--the-parameter-name-is-passed-to-the-parameter-i--attr----------source-----abenos-query-comps-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-comps-htm-------abenos-query-filter-cond-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-conditions--a-query-condition-is-a-logical-expression-that-compares-the-attributes-of-a-persistent-class-with-free-parameters-or-values--the-syntax-of-a-query-condition-is-based-on-the-syntax-of-the-abap-sql-where-condition--where-reference-variables-for-object-references-are-also-supported--like-a-where-condition--a-query-condition-is-made-up-of-elementary-comparisons-that-can-be-joined-using-the-boolean-operators-and--or--and-not--where-grouping-using-parentheses-is-supported--------relational-operators---abenos-query-filter-cond-1--------like---ITOC@@ABENOS_QUERY_FILTER_COND_2)
+-   [AND, OR, NOT](#@@ITOC@@ABENOS_QUERY_FILTER_COND_5)
+
+When a query is executed using a class agent, the query is bound precisely to its persistent class. The attributes specified in a query condition must exist in the persistent class as public persistent attributes. If not, an exception is raised. On the other hand, a query that has been created can certainly be executed in succession by class agents of different persistent classes, as long as the specified attributes exist. When a query is executed, a SELECT statement is created internally with a WHERE condition, in which the attributes are replaced by concrete column identifiers and the free parameters are replaced by current values.
+
+The elementary relational operators below are supported in a query condition. An attribute, attr, of a persistent class must be specified as the first operand of a condition. The second operand operand or pattern of a comparison may be an attribute, a parameter par, or a literal value.
+
+The names of parameters can be defined freely by specifying a parameter list, The parameter list is a list of parameter names that can be used in the query condition. The position of the parameter in the parameter list defines the index of the parameter in the parameter table. If no parameter list is specified, a predefined parameter list with the three parameter names PAR1, PAR2, and PAR3 is used.
+
+Literal values are generally enclosed by quotation marks. The semantics of the relational operators are defined by the corresponding ABAP SQL language element into which the logical expression is converted.
+
+Note
+
+The query condition and its parameter list are analyzed when a query is executed and transformed into an internal display. To bypass parsing each time the query is executed, the methods of the interface IF\_OS\_QUERY\_EXPR\_FACTORY can be used to create multiple-use query conditions in the internal representation.
+
+Security Notes
+
+-   The layout of a query condition in a program is one of the dynamic programming techniques. If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_functions.htm).
+
+-   To avoid [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry"), the use of parameters from the parameter list of a chaining is recommended, where dynamic values are represented as literals.
+
+-   See also [SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_os_query_scrty.htm).
+
+Relational Operators
+
+attr =*|*<>*|*<*|*\>*|*<=*|*\>= *{* operand *}*
+
+LIKE
+
+attr *\[*NOT*\]* LIKE *{* pattern *}* *\[*ESCAPE escape*\]*
+
+IS NULL
+
+attr IS *\[*NOT*\]* NULL
+
+EQUALSREF
+
+attr EQUALSREF par
+
+Compares two object references. When the query is executed, parameter par has to be bound to a reference variable that refers to a persistent instance of a persistent class.
+
+AND, OR, NOT
+
+NOT expr
+
+expr AND expr
+
+expr OR expr
+
+The semantics of the Boolean operators AND, OR, and NOT are also defined by their semantics in ABAP SQL. Explicit parentheses are possible. If no parentheses are specified, the ABAP SQL priority rules apply.
+
+Examples
+
+price < '100' AND currency = 'EUR'
+
+name LIKE PAR1 AND age > '45' AND age < '65'
+
+( department EQUALSREF DEP1 OR department EQUALSREF DEP2 ) AND NOT
+( salary > '50000' AND currency = 'EUR' ) )
+
+
+### abenos_query_sort_cond.htm
+
+---
+title: "Sort Conditions"
+description: |
+  A sort condition is a list of attributes attr that specifies the direction in which they are sorted. Only attributes with an elementary type can be specified. For each attribute, an order must be specified, either ascending or descending. and this information is placed after the attribute. Only publ
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_sort_cond.htm"
+abapFile: "abenos_query_sort_cond.htm"
+keywords: ["do", "if", "method", "data", "abenos", "query", "sort", "cond"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
+
+Sort Conditions
+
+A sort condition is a list of attributes attr that specifies the direction in which they are sorted. Only attributes with an elementary type can be specified. For each attribute, an order must be specified, either ascending or descending. and this information is placed after the attribute. Only public attributes can be used.
+
+ASCENDING
+
+attr ASCENDING
+
+DESCENDING
+
+attr DESCENDING
+
+Note
+
+The sort condition and its parameter list are analyzed when a query is executed and transformed into an internal display. To bypass parsing each time the query is executed, the methods of the interface IF\_OS\_QUERY\_EXPR\_FACTORY can be used to create multiple-use sort conditions in the internal display.
+
+Example
+
+price ASCENDING date DESCENDING
+
+
+### abenos_query_abexa.htm
+
+---
+title: "Query Service"
+description: |
+  This example demonstrates how an object-oriented query is used. Source Code REPORT demo_query_service. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: airpfrom TYPE s_fromairp VALUE 'FRA', airpto   TYPE s_toairp   VALUE 'SIN'. cl
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_abexa.htm"
+abapFile: "abenos_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenos", "query", "abexa"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
+
+Query Service
+
+This example demonstrates how an object-oriented query is used.
+
+Source Code
+
+REPORT demo\_query\_service.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    DATA: airpfrom TYPE s\_fromairp VALUE 'FRA',
+          airpto   TYPE s\_toairp   VALUE 'SIN'.
+    cl\_demo\_input=>new(
+      )->add\_field( CHANGING field = airpfrom
+      )->add\_field( CHANGING field = airpto )->request( ).
+    TYPES: BEGIN OF result,
+             carrid TYPE s\_carr\_id,
+             connid TYPE s\_conn\_id,
+           END OF result,
+           results TYPE TABLE OF result WITH EMPTY KEY.
+    TRY.
+        DATA(query) = cl\_os\_system=>get\_query\_manager( )->create\_query(
+          i\_filter   = \`AIRPFROM = PAR1 AND AIRPTO = PAR2\`
+          i\_ordering = \`CARRID ASCENDING CONNID ASCENDING\` ).
+        DATA(agent) = ca\_spfli\_persistent=>agent.
+        cl\_demo\_output=>display(
+          VALUE results(
+            FOR <connection>
+            IN agent->if\_os\_ca\_persistency~get\_persistent\_by\_query(
+              i\_query   = query
+              i\_par1    = airpfrom
+              i\_par2    = airpto )
+              ( carrid = CAST cl\_spfli\_persistent(
+                                <connection> )->get\_carrid( )
+                connid = CAST cl\_spfli\_persistent(
+                                <connection> )->get\_connid( ) ) ) ).
+      CATCH cx\_root INTO DATA(exc).
+        cl\_demo\_output=>display( exc->get\_text( ) ).
+    ENDTRY.  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  demo=>main( ).
+
+Description
+
+A query manager is called using the method GET\_QUERY\_MANAGER of the class CL\_OS\_SYSTEM and a query created using the method CREATE\_QUERY and a specified filter and sort conditions. The query is executed using the interface method GET\_PERSISTENT\_BY\_QUERY of the interface IF\_OS\_CA\_PERSISTENCY and the flights found are displayed.
+
+Since the predefined parameters PAR1, PAR2 from a parameter list are used here, an [SQL injection](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry") is not possible in this example.
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Object Services / Query Service
+
+**Files**: 6 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Object Services / Query Service
+
+Included pages: 6
+
+
+### abenabap_object_services_query.htm
+
+---
+title: "Query Service"
+description: |
+  The query service enables makes it possible to search for and load persistent objects using logical expressions. -   Query Service Overview(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm) -   Query Service Components(https://help.sap.com/doc/abapdocu_754_index_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm"
+abapFile: "abenabap_object_services_query.htm"
+keywords: ["do", "if", "data", "abenabap", "object", "services", "query"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) → 
+
+Query Service
+
+The query service enables makes it possible to search for and load persistent objects using logical expressions.
+
+-   [Query Service Overview](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm)
+
+-   [Query Service Components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_comps.htm)
+
+-   [Query Conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm)
+
+-   [Sort Conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_sort_cond.htm)
+
+Continue
+[Query Service Overview](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm)
+[Query Service Components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_comps.htm)
+[Query Conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm)
+[Sort Conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_sort_cond.htm)
+![Example](exa.gif "Example") [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_abexa.htm)
+
+
+### abenos_query_terms.htm
+
+---
+title: "Query Service Overview"
+description: |
+  A query is used to search for persistent objects in the database using conditions and to create the corresponding instances of the persistent class in the ABAP program. A query is implemented by an object (query object) that implements the interface IF_OS_QUERY and is created by a query manager. A
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_terms.htm"
+abapFile: "abenos_query_terms.htm"
+keywords: ["do", "if", "method", "class", "data", "abenos", "query", "terms"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
+
+Query Service Overview
+
+A query is used to search for persistent objects in the database using conditions and to create the corresponding instances of the persistent class in the ABAP program.
+
+A query is implemented by an object (query object) that implements the interface IF\_OS\_QUERY and is created by a query manager.
+
+A query is a logical expression that compares the attributes of a persistent class with parameters or values that comprise the [query condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm). Those objects are loaded whose attributes meet the query conditions. A query also contains a [sort condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_sort_cond.htm), which determines the order of the loaded objects in the results table.
+
+When a query is created using the query manager method CREATE\_QUERY method, the query conditions and sort conditions are passed to it.
+
+The query itself is merely a container for the query condition and the sort condition. A query is executed by calling the interface method IF\_OS\_CA\_PERSISTENCY~GET\_PERSISTENT\_BY\_QUERY in the class agent of a persistent class. Similarly, the result of an executed query is not bound to the query, but is returned by the class agent’s method as a table of references.
+
+Note
+
+When the result quantity of a query is determined, the changes that are made in the current transaction to persistent objects are not considered. The query is executed directly in the database.
+
+
+### abenos_query_comps.htm
+
+---
+title: "Query Service Components"
+description: |
+  A query is represented by a query object, which is managed by a query manager (also an object). The query manager represents the query service with respect to the ABAP program. To create a query manager, the static method GET_QUERY_MANAGER of the general system service class CL_OS_SYSTEM is requ
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_comps.htm"
+abapFile: "abenos_query_comps.htm"
+keywords: ["do", "if", "method", "class", "data", "abenos", "query", "comps"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
+
+Query Service Components
+
+A query is represented by a query object, which is managed by a query manager (also an object). The query manager represents the query service with respect to the ABAP program.
+
+To create a query manager, the static method GET\_QUERY\_MANAGER of the general system service class CL\_OS\_SYSTEM is required.
+
+An ABAP program does not work with the query manager and queries by using class reference variables. Instead, it uses the interfaces IF\_OS\_QUERY\_MANAGER, IF\_OS\_QUERY, and IF\_OS\_QUERY\_FACTORY.
+
+A query is not executed directly, but using the method GET\_PERSISTENT\_BY\_QUERY of the interface IF\_OS\_CA\_PERSISTENCY of a class agent. This means a search is carried out for persistent objects of the associated persistent class that match the query condition.
+
+The options for executing a query are controlled using the interface IF\_OS\_QUERY\_OPTIONS. To enable this, a structure of the type IF\_OS\_QUERY\_OPTIONS=>OPTIONS can be passed to the method GET\_PERSISTENT\_BY\_QUERY.
+
+Relevant Method of the System Service
+
+Most of the components of the system service class CL\_OS\_SYSTEM are used internally by the Object Services. A method must be used in an application program to be able to work explicitly with object-oriented queries.
+
+-   GET\_QUERY\_MANAGER
+
+This static method returns the return value RESULT of type IF\_OS\_QUERY\_MANAGER containing a reference to the Query Manager. The query manager is created when the Object Services are initialized.
+
+Methods of the Query Manager
+
+The query manager manages the object-oriented queries of the ABAP program and is executed from interface IF\_OS\_QUERY\_MANAGER.
+
+-   IF\_OS\_QUERY\_MANAGER~CREATE\_QUERY
+
+Creates a query and returns a reference to the query object in the return value RESULT of type IF\_OS\_QUERY. The query condition is passed to the parameter I\_FILTER of type string. The sort condition is passed to the parameter I\_ORDERING of type string. If the parameters of the query are specified using a parameter list, this must be passed to the parameter I\_PARAMETERS of type string.
+
+Methods of a Query
+
+Queries are executed from interfaces IF\_OS\_QUERY and IF\_OS\_QUERY\_EXPR\_FACTORY.
+
+Methods of the Interface IF\_OS\_QUERY
+
+-   IF\_OS\_QUERY~GET\_EXPR\_FACTORY
+
+Returns a reference to a query expression factory in the return parameter RESULT of type IF\_OS\_QUERY\_EXPR\_FACTORY. Technically speaking, a query expression factory is part of a query object, although it is executed using the interface IF\_OS\_QUERY\_EXPR\_FACTORY, like a separate object.
+
+-   IF\_OS\_QUERY~SET\_FILTER\_EXPR
+
+Sets the query condition. The internal display of the query condition that is created with a query expression factory is passed to the parameter I\_FILTER\_EXPR of type IF\_OS\_QUERY\_FILTER\_EXPR.
+
+-   IF\_OS\_QUERY~SET\_PARAMETERS\_EXPR
+
+Sets the parameter list of the query condition. The internal display of the parameter list that is created with a query expression factory is passed to the parameter I\_PARAMETERS\_EXPR of type IF\_OS\_QUERY\_PARAMETERS\_EXPR.
+
+-   IF\_OS\_QUERY~SET\_ORDERING\_EXPR
+
+Sets the sort condition. The internal display of a sort condition created with the query expression factory is passed to the parameter I\_ORDERING\_EXPR of type IF\_OS\_QUERY\_ORDERING\_EXPR.
+
+-   IF\_OS\_QUERY~PARSE
+
+Creates the internal displays of the query condition, the parameter list, and the sort term if these have not yet been created or set.
+
+Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_OPERATOR\_EXPR
+
+Creates either a [query condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm) of the form
+attr1 operator attr2,
+where attr1, operator, and attr2 are the values of the parameters I\_ATTR, I\_OPERATOR, and I\_ATTR2 or a query condition of the form
+attr1 operator 'val' or
+attr1 operator val\_w\_quotes
+where val and val\_w\_quotes are the values of the parameters I\_VAL and I\_VAL\_W\_QUOTES.
+
+If the parameter I\_IDX of type i is passed, val is the value of the parameter from the parameter list, for which the index when the query is executed is determined by the value of the parameter I\_IDX.
+
+The query condition that is created is returned in the return value RESULT of type IF\_OS\_QUERY\_FILTER\_EXPR.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_LIKE\_EXPR
+
+Depending on the value of the parameter I\_NOT, creates a query condition of the form
+attr *\[*NOT*\]* LIKE 'pattern' or
+attr *\[*NOT*\]* LIKE pattern\_w\_quotes,
+where attr, pattern, and pattern\_w\_quotes are the values of the parameters I\_ATTR, I\_PATTERN and I\_PATTERN\_W\_QUOTES.
+
+If the parameter I\_IDX of type i is passed, pattern is the value of the parameter from the parameter list, for which the index when the query is executed is determined by the value of the parameter I\_IDX.
+
+Passing one of the parameters I\_ESCAPE or I\_ESCAPE\_W\_QUOTES appends the definition of an escape character of the form ... ESCAPE 'escape' or . ... ESCAPE escape\_w\_quotes where escape and escape\_w\_quotes are the values of the parameters I\_ESCAPE and I\_ESCAPE\_W\_QUOTES.
+
+The query condition that is created is returned in the return value RESULT of type IF\_OS\_QUERY\_FILTER\_EXPR.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_ISNULL\_EXPR
+
+Depending on the value of the parameter I\_NOT, creates a query condition of the form
+attr IS *\[*NOT*\]* NULL,
+where attr is the value of the parameter I\_ATTR.
+
+The query condition that is created is returned in the return value RESULT of type IF\_OS\_QUERY\_FILTER\_EXPR.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_REF\_EXPR
+
+Creates a query condition of the form
+attr EQUALSREF ref,
+where attr is the value of the parameter I\_ATTR and ref is the value of the parameter from the parameter list whose index when the query is executed is determined by the value of the parameter I\_IDX.
+
+Instead of using a parameter to set the persistent object reference, the instance GUID and class GUID can be specified using the parameters I\_GUID and I\_CLSGUID of type OS\_GUID.
+
+The query condition that is created is returned in the return value RESULT of type IF\_OS\_QUERY\_FILTER\_EXPR.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_NOT\_EXPR
+
+Creates a query condition of the form
+NOT ( expr ),
+where expr is a query condition that already exists and was passed to the parameter I\_EXPR.
+
+The new query condition is returned in the return value RESULT.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_AND\_EXPR
+
+Creates a query condition of the form
+( expr1 ) AND ( expr2 )
+where expr1 or expr2 are query conditions that already exist and were passed to the parameters I\_EXPR1 or I\_EXPR2.
+
+The new query condition is returned in the return value RESULT.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_OR\_EXPR
+
+Creates a query condition of the form
+( expr1 ) OR ( expr2 )
+where expr1 or expr2 are query conditions that already exist and were passed to the parameters I\_EXPR1 or I\_EXPR2.
+
+The new query condition is returned in the return value RESULT.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_PARAMETERS\_EXPR
+
+Creates a parameter list. The parameter list that is created is returned in return value RESULT of type IF\_OS\_QUERY\_PARAMETERS\_EXPR.
+
+The parameters are appended in succession when the method APPEND of an additional interface IF\_OS\_QUERY\_PARAMETERS\_EXPR is called. The parameter name is passed to the parameter I\_PAR.
+
+-   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_ORDERING\_EXPR
+
+Creates a sort condition. The sort condition is returned in the return value RESULT of type IF\_OS\_QUERY\_ORDERING\_EXPR.
+
+The attributes used for the sort are appended one after the other when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
+
+
+### abenos_query_filter_cond.htm
+
+---
+title: "Query Conditions"
+description: |
+  A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condit
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm"
+abapFile: "abenos_query_filter_cond.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenos", "query", "filter", "cond"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
+
+Query Conditions
+
+A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condition, a query condition is made up of elementary comparisons that can be joined using the Boolean operators AND, OR, and NOT, where grouping using parentheses is supported.
+
+-   [Relational Operators](#abenos-query-filter-cond-1--------like---@ITOC@@ABENOS_QUERY_FILTER_COND_2)
 
 -   [IS NULL](#abenos-query-filter-cond-3--------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
 
--   [AND, OR, NOT](#abenos-query-filter-cond-5---when-a-query-is-executed-using-a-class-agent--the-query-is-bound-precisely-to-its-persistent-class--the-attributes-specified-in-a-query-condition-must-exist-in-the-persistent-class-as-public-persistent-attributes--if-not--an-exception-is-raised--on-the-other-hand--a-query-that-has-been-created-can-certainly-be-executed-in-succession-by-class-agents-of-different-persistent-classes--as-long-as-the-specified-attributes-exist--when-a-query-is-executed--a-select-statement-is-created-internally-with-a-where-condition--in-which-the-attributes-are-replaced-by-concrete-column-identifiers-and-the-free-parameters-are-replaced-by-current-values---the-elementary-relational-operators-below-are-supported-in-a-query-condition--an-attribute--attr--of-a-persistent-class-must-be-specified-as-the-first-operand-of-a-condition--the-second-operand-operand-or-pattern-of-a-comparison-may-be-an-attribute--a-parameter-par--or-a-literal-value---the-names-of-parameters-can-be-defined-freely-by-specifying-a-parameter-list--the-parameter-list-is-a-list-of-parameter-names-that-can-be-used-in-the-query-condition--the-position-of-the-parameter-in-the-parameter-list-defines-the-index-of-the-parameter-in-the-parameter-table--if-no-parameter-list-is-specified--a-predefined-parameter-list-with-the-three-parameter-names-par1--par2--and-par3-is-used---literal-values-are-generally-enclosed-by-quotation-marks--the-semantics-of-the-relational-operators-are-defined-by-the-corresponding-abap-sql-language-element-into-which-the-logical-expression-is-converted---note--the-query-condition-and-its-parameter-list-are-analyzed-when-a-query-is-executed-and-transformed-into-an-internal-display--to-bypass-parsing-each-time-the-query-is-executed--the-methods-of-the-interface-if--os--query--expr--factory-can-be-used-to-create-multiple-use-query-conditions-in-the-internal-representation---security-notes------the-layout-of-a-query-condition-in-a-program-is-one-of-the-dynamic-programming-techniques--if-used-wrongly--dynamic-programming-techniques-can-present-a-serious-security-risk--any-dynamic-content-that-is-passed-to-a-program-from-the-outside-must-be-checked-thoroughly-or-escaped-before-being-used-in-dynamic-statements--this-can-be-done-using-the-system-class-cl--abap--dyn--prg-or-the-predefined-function--escape--javascript-call-link---abenescape-functions-htm-----------to-avoid--sql-injections--javascript-call-link---abensql-injection-glosry-htm-----glossary-entry----the-use-of-parameters-from-the-parameter-list-of-a-chaining-is-recommended--where-dynamic-values-are-represented-as-literals-------see-also--sql-injections-using-object-services--javascript-call-link---abensql-inj-os-query-scrty-htm-------relational-operators--attr--------------------------------operand------like--attr-----not-----like-----pattern---------escape-escape------is-null--attr-is-----not-----null--equalsref--attr-equalsref-par--compares-two-object-references--when-the-query-is-executed--parameter-par-has-to-be-bound-to-a-reference-variable-that-refers-to-a-persistent-instance-of-a-persistent-class---and--or--not--not-expr--expr-and-expr--expr-or-expr--the-semantics-of-the-boolean-operators-and--or--and-not-are-also-defined-by-their-semantics-in-abap-sql--explicit-parentheses-are-possible--if-no-parentheses-are-specified--the-abap-sql-priority-rules-apply---examples--price----100--and-currency----eur---name-like-par1-and-age----45--and-age----65-----department-equalsref-dep1-or-department-equalsref-dep2---and-not---salary----50000--and-currency----eur--------------source-----abenos-query-filter-cond-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-filter-cond-htm-------abenos-query-sort-cond-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------sort-conditions--a-sort-condition-is-a-list-of-attributes-attr-that-specifies-the-direction-in-which-they-are-sorted--only-attributes-with-an-elementary-type-can-be-specified--for-each-attribute--an-order-must-be-specified--either-ascending-or-descending--and-this-information-is-placed-after-the-attribute--only-public-attributes-can-be-used---ascending--attr-ascending--descending--attr-descending--note--the-sort-condition-and-its-parameter-list-are-analyzed-when-a-query-is-executed-and-transformed-into-an-internal-display--to-bypass-parsing-each-time-the-query-is-executed--the-methods-of-the-interface-if--os--query--expr--factory-can-be-used-to-create-multiple-use-sort-conditions-in-the-internal-display---example--price-ascending-date-descending---------source-----abenos-query-sort-cond-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-sort-cond-htm-------abenos-query-abexa-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-service--this-example-demonstrates-how-an-object-oriented-query-is-used---source-code--report-demo--query--service--class-demo-definition----public-section------class-methods-main--endclass--class-demo-implementation----method-main------data--airpfrom-type-s--fromairp-value--fra-------------airpto---type-s--toairp---value--sin-------cl--demo--input--new-----------add--field--changing-field---airpfrom----------add--field--changing-field---airpto----request---------types--begin-of-result---------------carrid-type-s--carr--id---------------connid-type-s--conn--id-------------end-of-result-------------results-type-table-of-result-with-empty-key------try----------data-query----cl--os--system--get--query--manager-----create--query------------i--filter-------airpfrom---par1-and-airpto---par2-------------i--ordering-----carrid-ascending-connid-ascending--------------data-agent----ca--spfli--persistent--agent----------cl--demo--output--display------------value-results--------------for--connection--------------in-agent--if--os--ca--persistency-get--persistent--by--query----------------i--query-----query---------------i--par1------airpfrom---------------i--par2------airpto-------------------carrid---cast-cl--spfli--persistent-----------------------------------connection-----get--carrid--------------------connid---cast-cl--spfli--persistent-----------------------------------connection-----get--connid-----------------catch-cx--root-into-data-exc-----------cl--demo--output--display--exc--get--text-----------endtry---endmethod--endclass--start-of-selection----demo--main------description--a-query-manager-is-called-using-the-method-get--query--manager-of-the-class-cl--os--system-and-a-query-created-using-the-method-create--query-and-a-specified-filter-and-sort-conditions--the-query-is-executed-using-the-interface-method-get--persistent--by--query-of-the-interface-if--os--ca--persistency-and-the-flights-found-are-displayed---since-the-predefined-parameters-par1--par2-from-a-parameter-list-are-used-here--an--sql-injection--javascript-call-link---abensql-injection-glosry-htm-----glossary-entry---is-not-possible-in-this-example-------------abap-keyword-documentation---abap---reference---processing-external-data---abap-database-access---object-services---query-service----files----6-----difficulty----intermediate----abap-keyword-documentation---abap---reference---processing-external-data---abap-database-access---object-services---query-service--included-pages--6---------source-----abenos-query-abexa-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-abexa-htm-------abenabap-object-services-query-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--the-query-service-enables-makes-it-possible-to-search-for-and-load-persistent-objects-using-logical-expressions--------query-service-overview--javascript-call-link---abenos-query-terms-htm-----------query-service-components--javascript-call-link---abenos-query-comps-htm-----------query-conditions--javascript-call-link---abenos-query-filter-cond-htm-----------sort-conditions--javascript-call-link---abenos-query-sort-cond-htm------continue--query-service-overview--javascript-call-link---abenos-query-terms-htm------query-service-components--javascript-call-link---abenos-query-comps-htm------query-conditions--javascript-call-link---abenos-query-filter-cond-htm------sort-conditions--javascript-call-link---abenos-query-sort-cond-htm-------example--exa-gif--example----query-service--javascript-call-link---abenos-query-abexa-htm-------------source-----abenabap-object-services-query-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-object-services-query-htm-------abenos-query-terms-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-service-overview--a-query-is-used-to-search-for-persistent-objects-in-the-database-using-conditions-and-to-create-the-corresponding-instances-of-the-persistent-class-in-the-abap-program---a-query-is-implemented-by-an-object--query-object--that-implements-the-interface-if--os--query-and-is-created-by-a-query-manager---a-query-is-a-logical-expression-that-compares-the-attributes-of-a-persistent-class-with-parameters-or-values-that-comprise-the--query-condition--javascript-call-link---abenos-query-filter-cond-htm------those-objects-are-loaded-whose-attributes-meet-the-query-conditions--a-query-also-contains-a--sort-condition--javascript-call-link---abenos-query-sort-cond-htm------which-determines-the-order-of-the-loaded-objects-in-the-results-table---when-a-query-is-created-using-the-query-manager-method-create--query-method--the-query-conditions-and-sort-conditions-are-passed-to-it---the-query-itself-is-merely-a-container-for-the-query-condition-and-the-sort-condition--a-query-is-executed-by-calling-the-interface-method-if--os--ca--persistency-get--persistent--by--query-in-the-class-agent-of-a-persistent-class--similarly--the-result-of-an-executed-query-is-not-bound-to-the-query--but-is-returned-by-the-class-agent-s-method-as-a-table-of-references---note--when-the-result-quantity-of-a-query-is-determined--the-changes-that-are-made-in-the-current-transaction-to-persistent-objects-are-not-considered--the-query-is-executed-directly-in-the-database----------source-----abenos-query-terms-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-terms-htm-------abenos-query-comps-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-service-components--a-query-is-represented-by-a-query-object--which-is-managed-by-a-query-manager--also-an-object---the-query-manager-represents-the-query-service-with-respect-to-the-abap-program---to-create-a-query-manager--the-static-method-get--query--manager-of-the-general-system-service-class-cl--os--system-is-required---an-abap-program-does-not-work-with-the-query-manager-and-queries-by-using-class-reference-variables--instead--it-uses-the-interfaces-if--os--query--manager--if--os--query--and-if--os--query--factory---a-query-is-not-executed-directly--but-using-the-method-get--persistent--by--query-of-the-interface-if--os--ca--persistency-of-a-class-agent--this-means-a-search-is-carried-out-for-persistent-objects-of-the-associated-persistent-class-that-match-the-query-condition---the-options-for-executing-a-query-are-controlled-using-the-interface-if--os--query--options--to-enable-this--a-structure-of-the-type-if--os--query--options--options-can-be-passed-to-the-method-get--persistent--by--query---relevant-method-of-the-system-service--most-of-the-components-of-the-system-service-class-cl--os--system-are-used-internally-by-the-object-services--a-method-must-be-used-in-an-application-program-to-be-able-to-work-explicitly-with-object-oriented-queries-------get--query--manager--this-static-method-returns-the-return-value-result-of-type-if--os--query--manager-containing-a-reference-to-the-query-manager--the-query-manager-is-created-when-the-object-services-are-initialized---methods-of-the-query-manager--the-query-manager-manages-the-object-oriented-queries-of-the-abap-program-and-is-executed-from-interface-if--os--query--manager-------if--os--query--manager-create--query--creates-a-query-and-returns-a-reference-to-the-query-object-in-the-return-value-result-of-type-if--os--query--the-query-condition-is-passed-to-the-parameter-i--filter-of-type-string--the-sort-condition-is-passed-to-the-parameter-i--ordering-of-type-string--if-the-parameters-of-the-query-are-specified-using-a-parameter-list--this-must-be-passed-to-the-parameter-i--parameters-of-type-string---methods-of-a-query--queries-are-executed-from-interfaces-if--os--query-and-if--os--query--expr--factory---methods-of-the-interface-if--os--query------if--os--query-get--expr--factory--returns-a-reference-to-a-query-expression-factory-in-the-return-parameter-result-of-type-if--os--query--expr--factory--technically-speaking--a-query-expression-factory-is-part-of-a-query-object--although-it-is-executed-using-the-interface-if--os--query--expr--factory--like-a-separate-object-------if--os--query-set--filter--expr--sets-the-query-condition--the-internal-display-of-the-query-condition-that-is-created-with-a-query-expression-factory-is-passed-to-the-parameter-i--filter--expr-of-type-if--os--query--filter--expr-------if--os--query-set--parameters--expr--sets-the-parameter-list-of-the-query-condition--the-internal-display-of-the-parameter-list-that-is-created-with-a-query-expression-factory-is-passed-to-the-parameter-i--parameters--expr-of-type-if--os--query--parameters--expr-------if--os--query-set--ordering--expr--sets-the-sort-condition--the-internal-display-of-a-sort-condition-created-with-the-query-expression-factory-is-passed-to-the-parameter-i--ordering--expr-of-type-if--os--query--ordering--expr-------if--os--query-parse--creates-the-internal-displays-of-the-query-condition--the-parameter-list--and-the-sort-term-if-these-have-not-yet-been-created-or-set---methods-of-the-interface-if--os--query--expr--factory------if--os--query--expr--factory-create--operator--expr--creates-either-a--query-condition--javascript-call-link---abenos-query-filter-cond-htm-----of-the-form-attr1-operator-attr2--where-attr1--operator--and-attr2-are-the-values-of-the-parameters-i--attr--i--operator--and-i--attr2-or-a-query-condition-of-the-form-attr1-operator--val--or-attr1-operator-val--w--quotes-where-val-and-val--w--quotes-are-the-values-of-the-parameters-i--val-and-i--val--w--quotes---if-the-parameter-i--idx-of-type-i-is-passed--val-is-the-value-of-the-parameter-from-the-parameter-list--for-which-the-index-when-the-query-is-executed-is-determined-by-the-value-of-the-parameter-i--idx---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--like--expr--depending-on-the-value-of-the-parameter-i--not--creates-a-query-condition-of-the-form-attr-----not-----like--pattern--or-attr-----not-----like-pattern--w--quotes--where-attr--pattern--and-pattern--w--quotes-are-the-values-of-the-parameters-i--attr--i--pattern-and-i--pattern--w--quotes---if-the-parameter-i--idx-of-type-i-is-passed--pattern-is-the-value-of-the-parameter-from-the-parameter-list--for-which-the-index-when-the-query-is-executed-is-determined-by-the-value-of-the-parameter-i--idx---passing-one-of-the-parameters-i--escape-or-i--escape--w--quotes-appends-the-definition-of-an-escape-character-of-the-form-----escape--escape--or-------escape-escape--w--quotes-where-escape-and-escape--w--quotes-are-the-values-of-the-parameters-i--escape-and-i--escape--w--quotes---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--isnull--expr--depending-on-the-value-of-the-parameter-i--not--creates-a-query-condition-of-the-form-attr-is-----not-----null--where-attr-is-the-value-of-the-parameter-i--attr---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--ref--expr--creates-a-query-condition-of-the-form-attr-equalsref-ref--where-attr-is-the-value-of-the-parameter-i--attr-and-ref-is-the-value-of-the-parameter-from-the-parameter-list-whose-index-when-the-query-is-executed-is-determined-by-the-value-of-the-parameter-i--idx---instead-of-using-a-parameter-to-set-the-persistent-object-reference--the-instance-guid-and-class-guid-can-be-specified-using-the-parameters-i--guid-and-i--clsguid-of-type-os--guid---the-query-condition-that-is-created-is-returned-in-the-return-value-result-of-type-if--os--query--filter--expr-------if--os--query--expr--factory-create--not--expr--creates-a-query-condition-of-the-form-not---expr----where-expr-is-a-query-condition-that-already-exists-and-was-passed-to-the-parameter-i--expr---the-new-query-condition-is-returned-in-the-return-value-result-------if--os--query--expr--factory-create--and--expr--creates-a-query-condition-of-the-form---expr1---and---expr2---where-expr1-or-expr2-are-query-conditions-that-already-exist-and-were-passed-to-the-parameters-i--expr1-or-i--expr2---the-new-query-condition-is-returned-in-the-return-value-result-------if--os--query--expr--factory-create--or--expr--creates-a-query-condition-of-the-form---expr1---or---expr2---where-expr1-or-expr2-are-query-conditions-that-already-exist-and-were-passed-to-the-parameters-i--expr1-or-i--expr2---the-new-query-condition-is-returned-in-the-return-value-result-------if--os--query--expr--factory-create--parameters--expr--creates-a-parameter-list--the-parameter-list-that-is-created-is-returned-in-return-value-result-of-type-if--os--query--parameters--expr---the-parameters-are-appended-in-succession-when-the-method-append-of-an-additional-interface-if--os--query--parameters--expr-is-called--the-parameter-name-is-passed-to-the-parameter-i--par-------if--os--query--expr--factory-create--ordering--expr--creates-a-sort-condition--the-sort-condition-is-returned-in-the-return-value-result-of-type-if--os--query--ordering--expr---the-attributes-used-for-the-sort-are-appended-one-after-the-other-when-the-method-append--ascending-or-append--descending-of-the-additional-interface-if--os--query--ordering--expr-is-called--the-parameter-name-is-passed-to-the-parameter-i--attr----------source-----abenos-query-comps-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-comps-htm-------abenos-query-filter-cond-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-conditions--a-query-condition-is-a-logical-expression-that-compares-the-attributes-of-a-persistent-class-with-free-parameters-or-values--the-syntax-of-a-query-condition-is-based-on-the-syntax-of-the-abap-sql-where-condition--where-reference-variables-for-object-references-are-also-supported--like-a-where-condition--a-query-condition-is-made-up-of-elementary-comparisons-that-can-be-joined-using-the-boolean-operators-and--or--and-not--where-grouping-using-parentheses-is-supported--------relational-operators---abenos-query-filter-cond-1--------like---ITOC@@ABENOS_QUERY_FILTER_COND_2)
+-   [AND, OR, NOT](#@@ITOC@@ABENOS_QUERY_FILTER_COND_5)
 
--   [IS NULL](#abenos-query-filter-cond-3--------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
+When a query is executed using a class agent, the query is bound precisely to its persistent class. The attributes specified in a query condition must exist in the persistent class as public persistent attributes. If not, an exception is raised. On the other hand, a query that has been created can certainly be executed in succession by class agents of different persistent classes, as long as the specified attributes exist. When a query is executed, a SELECT statement is created internally with a WHERE condition, in which the attributes are replaced by concrete column identifiers and the free parameters are replaced by current values.
 
--   [AND, OR, NOT](#abenos-query-filter-cond-5---when-a-query-is-executed-using-a-class-agent--the-query-is-bound-precisely-to-its-persistent-class--the-attributes-specified-in-a-query-condition-must-exist-in-the-persistent-class-as-public-persistent-attributes--if-not--an-exception-is-raised--on-the-other-hand--a-query-that-has-been-created-can-certainly-be-executed-in-succession-by-class-agents-of-different-persistent-classes--as-long-as-the-specified-attributes-exist--when-a-query-is-executed--a-select-statement-is-created-internally-with-a-where-condition--in-which-the-attributes-are-replaced-by-concrete-column-identifiers-and-the-free-parameters-are-replaced-by-current-values---the-elementary-relational-operators-below-are-supported-in-a-query-condition--an-attribute--attr--of-a-persistent-class-must-be-specified-as-the-first-operand-of-a-condition--the-second-operand-operand-or-pattern-of-a-comparison-may-be-an-attribute--a-parameter-par--or-a-literal-value---the-names-of-parameters-can-be-defined-freely-by-specifying-a-parameter-list--the-parameter-list-is-a-list-of-parameter-names-that-can-be-used-in-the-query-condition--the-position-of-the-parameter-in-the-parameter-list-defines-the-index-of-the-parameter-in-the-parameter-table--if-no-parameter-list-is-specified--a-predefined-parameter-list-with-the-three-parameter-names-par1--par2--and-par3-is-used---literal-values-are-generally-enclosed-by-quotation-marks--the-semantics-of-the-relational-operators-are-defined-by-the-corresponding-abap-sql-language-element-into-which-the-logical-expression-is-converted---note--the-query-condition-and-its-parameter-list-are-analyzed-when-a-query-is-executed-and-transformed-into-an-internal-display--to-bypass-parsing-each-time-the-query-is-executed--the-methods-of-the-interface-if--os--query--expr--factory-can-be-used-to-create-multiple-use-query-conditions-in-the-internal-representation---security-notes------the-layout-of-a-query-condition-in-a-program-is-one-of-the-dynamic-programming-techniques--if-used-wrongly--dynamic-programming-techniques-can-present-a-serious-security-risk--any-dynamic-content-that-is-passed-to-a-program-from-the-outside-must-be-checked-thoroughly-or-escaped-before-being-used-in-dynamic-statements--this-can-be-done-using-the-system-class-cl--abap--dyn--prg-or-the-predefined-function--escape--javascript-call-link---abenescape-functions-htm-----------to-avoid--sql-injections--javascript-call-link---abensql-injection-glosry-htm-----glossary-entry----the-use-of-parameters-from-the-parameter-list-of-a-chaining-is-recommended--where-dynamic-values-are-represented-as-literals-------see-also--sql-injections-using-object-services--javascript-call-link---abensql-inj-os-query-scrty-htm-------relational-operators--attr--------------------------------operand------like--attr-----not-----like-----pattern---------escape-escape------is-null--attr-is-----not-----null--equalsref--attr-equalsref-par--compares-two-object-references--when-the-query-is-executed--parameter-par-has-to-be-bound-to-a-reference-variable-that-refers-to-a-persistent-instance-of-a-persistent-class---and--or--not--not-expr--expr-and-expr--expr-or-expr--the-semantics-of-the-boolean-operators-and--or--and-not-are-also-defined-by-their-semantics-in-abap-sql--explicit-parentheses-are-possible--if-no-parentheses-are-specified--the-abap-sql-priority-rules-apply---examples--price----100--and-currency----eur---name-like-par1-and-age----45--and-age----65-----department-equalsref-dep1-or-department-equalsref-dep2---and-not---salary----50000--and-currency----eur--------------source-----abenos-query-filter-cond-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-filter-cond-htm-------abenos-query-sort-cond-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------sort-conditions--a-sort-condition-is-a-list-of-attributes-attr-that-specifies-the-direction-in-which-they-are-sorted--only-attributes-with-an-elementary-type-can-be-specified--for-each-attribute--an-order-must-be-specified--either-ascending-or-descending--and-this-information-is-placed-after-the-attribute--only-public-attributes-can-be-used---ascending--attr-ascending--descending--attr-descending--note--the-sort-condition-and-its-parameter-list-are-analyzed-when-a-query-is-executed-and-transformed-into-an-internal-display--to-bypass-parsing-each-time-the-query-is-executed--the-methods-of-the-interface-if--os--query--expr--factory-can-be-used-to-create-multiple-use-sort-conditions-in-the-internal-display---example--price-ascending-date-descending---------source-----abenos-query-sort-cond-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-sort-cond-htm-------abenos-query-abexa-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------object-services--javascript-call-link---abenabap-object-services-htm---------query-service--javascript-call-link---abenabap-object-services-query-htm---------query-service--this-example-demonstrates-how-an-object-oriented-query-is-used---source-code--report-demo--query--service--class-demo-definition----public-section------class-methods-main--endclass--class-demo-implementation----method-main------data--airpfrom-type-s--fromairp-value--fra-------------airpto---type-s--toairp---value--sin-------cl--demo--input--new-----------add--field--changing-field---airpfrom----------add--field--changing-field---airpto----request---------types--begin-of-result---------------carrid-type-s--carr--id---------------connid-type-s--conn--id-------------end-of-result-------------results-type-table-of-result-with-empty-key------try----------data-query----cl--os--system--get--query--manager-----create--query------------i--filter-------airpfrom---par1-and-airpto---par2-------------i--ordering-----carrid-ascending-connid-ascending--------------data-agent----ca--spfli--persistent--agent----------cl--demo--output--display------------value-results--------------for--connection--------------in-agent--if--os--ca--persistency-get--persistent--by--query----------------i--query-----query---------------i--par1------airpfrom---------------i--par2------airpto-------------------carrid---cast-cl--spfli--persistent-----------------------------------connection-----get--carrid--------------------connid---cast-cl--spfli--persistent-----------------------------------connection-----get--connid-----------------catch-cx--root-into-data-exc-----------cl--demo--output--display--exc--get--text-----------endtry---endmethod--endclass--start-of-selection----demo--main------description--a-query-manager-is-called-using-the-method-get--query--manager-of-the-class-cl--os--system-and-a-query-created-using-the-method-create--query-and-a-specified-filter-and-sort-conditions--the-query-is-executed-using-the-interface-method-get--persistent--by--query-of-the-interface-if--os--ca--persistency-and-the-flights-found-are-displayed---since-the-predefined-parameters-par1--par2-from-a-parameter-list-are-used-here--an--sql-injection--javascript-call-link---abensql-injection-glosry-htm-----glossary-entry---is-not-possible-in-this-example-------------abap-keyword-documentation---abap---reference---processing-external-data---abap-database-access---data-consistency---database-luw----files----5-----difficulty----intermediate----abap-keyword-documentation---abap---reference---processing-external-data---abap-database-access---data-consistency---sap-locks--included-pages--2---------source-----abenos-query-abexa-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenos-query-abexa-htm-------abensap-lock-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-external-data--javascript-call-link---abenabap-language-external-data-htm---------abap-database-access--javascript-call-link---abenabap-sql-htm---------data-consistency--javascript-call-link---abentransaction-htm---------sap-locks--sap-locks-must-be-persisted-for-the-duration-of--sap-luws--javascript-call-link---abensap-luw-glosry-htm-----glossary-entry----for-this-reason--different-work-processes-and--if-applicable--a-new--as-instances--javascript-call-link---abenapplication-server-glosry-htm-----glossary-entry---must-be-able-to-handle-these-locks---sap-locks-are-based-on-lock-objects--these-are-defined-in-abap-dictionary-and-enable-locks-to-be-set-on-one-or-more-rows-in-a-single-database-table-or-locks-to-be-set-on-rows-in-multiple-database-tables-associated-using--foreign-key-dependencies--javascript-call-link---abenforeign-key-dependency-glosry-htm-----glossary-entry-----when-a-lock-object-is-created--two-lock-function-modules-are-generated-whose-names-consist-of-the-prefixes-enqueue---and-dequeue---and-the-name-of-the-lock-object--------setting-sap-locks---abensap-lock-1--------releasing-sap-locks---ITOC@@ABENSAP_LOCK_2)
+The elementary relational operators below are supported in a query condition. An attribute, attr, of a persistent class must be specified as the first operand of a condition. The second operand operand or pattern of a comparison may be an attribute, a parameter par, or a literal value.
+
+The names of parameters can be defined freely by specifying a parameter list, The parameter list is a list of parameter names that can be used in the query condition. The position of the parameter in the parameter list defines the index of the parameter in the parameter table. If no parameter list is specified, a predefined parameter list with the three parameter names PAR1, PAR2, and PAR3 is used.
+
+Literal values are generally enclosed by quotation marks. The semantics of the relational operators are defined by the corresponding ABAP SQL language element into which the logical expression is converted.
+
+Note
+
+The query condition and its parameter list are analyzed when a query is executed and transformed into an internal display. To bypass parsing each time the query is executed, the methods of the interface IF\_OS\_QUERY\_EXPR\_FACTORY can be used to create multiple-use query conditions in the internal representation.
+
+Security Notes
+
+-   The layout of a query condition in a program is one of the dynamic programming techniques. If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_functions.htm).
+
+-   To avoid [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry"), the use of parameters from the parameter list of a chaining is recommended, where dynamic values are represented as literals.
+
+-   See also [SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_os_query_scrty.htm).
+
+Relational Operators
+
+attr =*|*<>*|*<*|*\>*|*<=*|*\>= *{* operand *}*
+
+LIKE
+
+attr *\[*NOT*\]* LIKE *{* pattern *}* *\[*ESCAPE escape*\]*
+
+IS NULL
+
+attr IS *\[*NOT*\]* NULL
+
+EQUALSREF
+
+attr EQUALSREF par
+
+Compares two object references. When the query is executed, parameter par has to be bound to a reference variable that refers to a persistent instance of a persistent class.
+
+AND, OR, NOT
+
+NOT expr
+
+expr AND expr
+
+expr OR expr
+
+The semantics of the Boolean operators AND, OR, and NOT are also defined by their semantics in ABAP SQL. Explicit parentheses are possible. If no parentheses are specified, the ABAP SQL priority rules apply.
+
+Examples
+
+price < '100' AND currency = 'EUR'
+
+name LIKE PAR1 AND age > '45' AND age < '65'
+
+( department EQUALSREF DEP1 OR department EQUALSREF DEP2 ) AND NOT
+( salary > '50000' AND currency = 'EUR' ) )
+
+
+### abenos_query_sort_cond.htm
+
+---
+title: "Sort Conditions"
+description: |
+  A sort condition is a list of attributes attr that specifies the direction in which they are sorted. Only attributes with an elementary type can be specified. For each attribute, an order must be specified, either ascending or descending. and this information is placed after the attribute. Only publ
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_sort_cond.htm"
+abapFile: "abenos_query_sort_cond.htm"
+keywords: ["do", "if", "method", "data", "abenos", "query", "sort", "cond"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
+
+Sort Conditions
+
+A sort condition is a list of attributes attr that specifies the direction in which they are sorted. Only attributes with an elementary type can be specified. For each attribute, an order must be specified, either ascending or descending. and this information is placed after the attribute. Only public attributes can be used.
+
+ASCENDING
+
+attr ASCENDING
+
+DESCENDING
+
+attr DESCENDING
+
+Note
+
+The sort condition and its parameter list are analyzed when a query is executed and transformed into an internal display. To bypass parsing each time the query is executed, the methods of the interface IF\_OS\_QUERY\_EXPR\_FACTORY can be used to create multiple-use sort conditions in the internal display.
+
+Example
+
+price ASCENDING date DESCENDING
+
+
+### abenos_query_abexa.htm
+
+---
+title: "Query Service"
+description: |
+  This example demonstrates how an object-oriented query is used. Source Code REPORT demo_query_service. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: airpfrom TYPE s_fromairp VALUE 'FRA', airpto   TYPE s_toairp   VALUE 'SIN'. cl
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_abexa.htm"
+abapFile: "abenos_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenos", "query", "abexa"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
+
+Query Service
+
+This example demonstrates how an object-oriented query is used.
+
+Source Code
+
+REPORT demo\_query\_service.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    DATA: airpfrom TYPE s\_fromairp VALUE 'FRA',
+          airpto   TYPE s\_toairp   VALUE 'SIN'.
+    cl\_demo\_input=>new(
+      )->add\_field( CHANGING field = airpfrom
+      )->add\_field( CHANGING field = airpto )->request( ).
+    TYPES: BEGIN OF result,
+             carrid TYPE s\_carr\_id,
+             connid TYPE s\_conn\_id,
+           END OF result,
+           results TYPE TABLE OF result WITH EMPTY KEY.
+    TRY.
+        DATA(query) = cl\_os\_system=>get\_query\_manager( )->create\_query(
+          i\_filter   = \`AIRPFROM = PAR1 AND AIRPTO = PAR2\`
+          i\_ordering = \`CARRID ASCENDING CONNID ASCENDING\` ).
+        DATA(agent) = ca\_spfli\_persistent=>agent.
+        cl\_demo\_output=>display(
+          VALUE results(
+            FOR <connection>
+            IN agent->if\_os\_ca\_persistency~get\_persistent\_by\_query(
+              i\_query   = query
+              i\_par1    = airpfrom
+              i\_par2    = airpto )
+              ( carrid = CAST cl\_spfli\_persistent(
+                                <connection> )->get\_carrid( )
+                connid = CAST cl\_spfli\_persistent(
+                                <connection> )->get\_connid( ) ) ) ).
+      CATCH cx\_root INTO DATA(exc).
+        cl\_demo\_output=>display( exc->get\_text( ) ).
+    ENDTRY.  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  demo=>main( ).
+
+Description
+
+A query manager is called using the method GET\_QUERY\_MANAGER of the class CL\_OS\_SYSTEM and a query created using the method CREATE\_QUERY and a specified filter and sort conditions. The query is executed using the interface method GET\_PERSISTENT\_BY\_QUERY of the interface IF\_OS\_CA\_PERSISTENCY and the flights found are displayed.
+
+Since the predefined parameters PAR1, PAR2 from a parameter list are used here, an [SQL injection](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry") is not possible in this example.
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Data Consistency / Database LUW
+
+**Files**: 5 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Data Consistency / SAP Locks
+
+Included pages: 2
+
+
+### abensap_lock.htm
+
+---
+title: "SAP Locks"
+description: |
+  SAP locks must be persisted for the duration of SAP LUWs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_glosry.htm 'Glossary Entry'). For this reason, different work processes and, if applicable, a new AS Instances(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-U
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm"
+abapFile: "abensap_lock.htm"
+keywords: ["update", "do", "if", "try", "data", "abensap", "lock"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction.htm) → 
+
+SAP Locks
+
+SAP locks must be persisted for the duration of [SAP LUWs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_glosry.htm "Glossary Entry"). For this reason, different work processes and, if applicable, a new [AS Instances](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm "Glossary Entry") must be able to handle these locks.
+
+SAP locks are based on lock objects. These are defined in ABAP Dictionary and enable locks to be set on one or more rows in a single database table or locks to be set on rows in multiple database tables associated using [foreign key dependencies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry").
+
+When a lock object is created, two lock function modules are generated whose names consist of the prefixes ENQUEUE\_ and DEQUEUE\_ and the name of the lock object.
+
+-   [Setting SAP Locks](#abensap-lock-1--------releasing-sap-locks---@ITOC@@ABENSAP_LOCK_2)
 
 More details can be found under SAP Lock Concept in the SAP Help Portal.
 
@@ -17726,16 +18316,19 @@ Continue
 ![Example](exa.gif "Example") [SAP Locks, Set and Release](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
 
 
-
-**📖 Source**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
-
 ### abenenqueue_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP Locks, Set and Release"
+description: |
+  This example demonstrates how SAP locks are set and released (enqueue and dequeued). Source Code REPORT demo_transaction_enqueue MESSAGE-ID sabapdemos. TABLES  demo_conn. DATA sflight_tab TYPE TABLE OF sflight. DATA  text TYPE c LENGTH 8. DATA  ok_code TYPE sy-ucomm. CALL SCREEN 100. MODULE ini
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm"
+abapFile: "abenenqueue_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abenenqueue", "abexa"]
+---
 
 * * *
 
@@ -17837,25 +18430,28 @@ Once the data records have been locked by a user, no other user can lock the sam
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Data Consistency / SAP LUW
+## ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Data Consistency / SAP LUW / SAP LUW, Examples
 
-**Files**: 12 | **Difficulty**: intermediate
+**Files**: 3 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing External Data / ABAP Database Access / Data Consistency / SAP Locks
 
 Included pages: 2
 
 
-
-**📖 Source**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-
 ### abensap_lock.htm
 
-> **📖 Official SAP Documentation**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP Locks"
+description: |
+  SAP locks must be persisted for the duration of SAP LUWs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_glosry.htm 'Glossary Entry'). For this reason, different work processes and, if applicable, a new AS Instances(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-U
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm"
+abapFile: "abensap_lock.htm"
+keywords: ["update", "do", "if", "try", "data", "abensap", "lock"]
+---
 
 * * *
 
@@ -17925,16 +18521,19 @@ Continue
 ![Example](exa.gif "Example") [SAP Locks, Set and Release](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
 
 
-
-**📖 Source**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
-
 ### abenenqueue_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP Locks, Set and Release"
+description: |
+  This example demonstrates how SAP locks are set and released (enqueue and dequeued). Source Code REPORT demo_transaction_enqueue MESSAGE-ID sabapdemos. TABLES  demo_conn. DATA sflight_tab TYPE TABLE OF sflight. DATA  text TYPE c LENGTH 8. DATA  ok_code TYPE sy-ucomm. CALL SCREEN 100. MODULE ini
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm"
+abapFile: "abenenqueue_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abenenqueue", "abexa"]
+---
 
 * * *
 
@@ -18045,16 +18644,19 @@ Once the data records have been locked by a user, no other user can lock the sam
 Included pages: 2
 
 
-
-**📖 Source**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-
 ### abensap_lock.htm
 
-> **📖 Official SAP Documentation**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP Locks"
+description: |
+  SAP locks must be persisted for the duration of SAP LUWs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_glosry.htm 'Glossary Entry'). For this reason, different work processes and, if applicable, a new AS Instances(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-U
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm"
+abapFile: "abensap_lock.htm"
+keywords: ["update", "do", "if", "try", "data", "abensap", "lock"]
+---
 
 * * *
 
@@ -18124,16 +18726,19 @@ Continue
 ![Example](exa.gif "Example") [SAP Locks, Set and Release](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
 
 
-
-**📖 Source**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
-
 ### abenenqueue_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "SAP Locks, Set and Release"
+description: |
+  This example demonstrates how SAP locks are set and released (enqueue and dequeued). Source Code REPORT demo_transaction_enqueue MESSAGE-ID sabapdemos. TABLES  demo_conn. DATA sflight_tab TYPE TABLE OF sflight. DATA  text TYPE c LENGTH 8. DATA  ok_code TYPE sy-ucomm. CALL SCREEN 100. MODULE ini
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm"
+abapFile: "abenenqueue_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "data", "abenenqueue", "abexa"]
+---
 
 * * *
 
@@ -18235,25 +18840,28 @@ Once the data records have been locked by a user, no other user can lock the sam
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete ABAP SQL
+## ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete ABAP SQL / Obsolete Short Forms in ABAP SQL
 
-**Files**: 15 | **Difficulty**: intermediate
+**Files**: 6 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (Obsolete) / Logical Databases - Examples
 
 Included pages: 6
 
 
-
-**📖 Source**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -18281,16 +18889,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -18357,16 +18968,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -18432,16 +19046,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -18620,16 +19237,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -18681,16 +19301,590 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
+### abenlogical_database_abexa.htm
 
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
+
+Logical Database, Call by Function Module
+
+This example demonstrates calling a logical database using the function module LDB\_PROCESS.
+
+Source Code
+
+REPORT demo\_logical\_database.
+DATA wa\_spfli TYPE spfli.
+SELECTION-SCREEN BEGIN OF SCREEN 1100.
+SELECT-OPTIONS s\_carr FOR wa\_spfli-carrid.
+SELECTION-SCREEN END OF SCREEN 1100.
+CLASS demo DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS main.
+ENDCLASS.
+CLASS demo IMPLEMENTATION.
+  METHOD main.
+    DATA callback    TYPE TABLE OF ldbcb.
+    DATA: seltab    TYPE TABLE OF rsparams,
+          seltab\_wa LIKE LINE OF seltab,
+          scarr\_wa  LIKE LINE OF s\_carr.
+    CALL SELECTION-SCREEN 1100 STARTING AT 10 10.
+    IF sy-subrc <> 0.
+      RETURN.
+    ENDIF.
+    callback = VALUE #( ( ldbnode     = 'SPFLI'
+                          get         = 'X'
+                          get\_late    = 'X'
+                          cb\_prog     = sy-repid
+                          cb\_form     = 'CALLBACK\_SPFLI' )
+                        ( ldbnode     = 'SFLIGHT'
+                          get         = 'X'
+                          cb\_prog     = sy-repid
+                          cb\_form     = 'CALLBACK\_SFLIGHT' ) ).
+    seltab\_wa-kind = 'S'.
+    seltab\_wa-selname = 'CARRID'.
+    LOOP AT s\_carr INTO scarr\_wa.
+      MOVE-CORRESPONDING scarr\_wa TO seltab\_wa.
+      APPEND seltab\_wa TO seltab.
+    ENDLOOP.
+    CALL FUNCTION 'LDB\_PROCESS'
+      EXPORTING
+        ldbname                     = 'F1S'
+        variant                     = ' '
+      TABLES
+        callback                    = callback
+        selections                  = seltab
+      EXCEPTIONS
+        OTHERS                      = 4.
+    IF sy-subrc <> 0.
+      WRITE: 'Exception with SY-SUBRC', sy-subrc.
+    ENDIF.  ENDMETHOD.
+ENDCLASS.
+START-OF-SELECTION.
+  demo=>main( ).
+FORM callback\_spfli USING name  TYPE ldbn-ldbnode
+                          wa    TYPE spfli
+                          evt   TYPE c
+                          check TYPE c.
+  CASE evt.
+    WHEN 'G'.
+      WRITE: / wa-carrid, wa-connid, wa-cityfrom, wa-cityto.
+      ULINE.
+    WHEN 'L'.
+      ULINE.
+  ENDCASE.
+ENDFORM.
+FORM callback\_sflight USING name  TYPE ldbn-ldbnode
+                            wa    TYPE sflight
+                            evt   TYPE c
+                            check TYPE c.
+  WRITE: / wa-fldate, wa-seatsocc, wa-seatsmax.
+ENDFORM.
+
+Description
+
+The program reads data using the logical database F1S. First a program-specific selection screen is defined. The data object wa\_spfli is only required here. Next, suitable variables for the interface are declared.
+
+The internal table callback is filled in such a way that, for the two nodes SPFLI and SFLIGHT, different callback routines in the calling program are called. For the node SPFLI, the corresponding routine for GET and GET LATE is only to be called for GET in the case of SFLIGHT.
+
+The internal table seltab is filled with values from the selection table s\_carr of the standalone selection screen 1100 for the selections of node SPFLI.
+
+The function module LDB\_PROCESS is called with these parameters.
+
+The subroutines callback\_spfli and callback\_sflight are used as callback routines. Since the interface parameter wa is completely typed, the individual components of the work area can be accessed. In callback\_spfli, the events GET and GET LATE are handled differently.
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete ABAP SQL / Obsolete Syntax in ABAP SQL
+
+**Files**: 5 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (Obsolete) / Logical Databases - Examples
+
+Included pages: 6
+
+
+### abenldb_examples.htm
+
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) → 
+
+Logical Databases - Examples
+
+-   [Example of a logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
+
+-   [Example of selection include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
+
+-   [Example of a database program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
+
+-   [Logical database, associated with a program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
+
+-   [Logical database, called by function module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
+
+Continue
+[Example of a Logical Database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
+[Example of a Selection Include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
+[Example of a Database Program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
+![Example](exa.gif "Example") [Logical Database, Associated with a Program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
+![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
+
+
+### abenldb_example.htm
+
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
+
+Example of a Logical Database
+
+This example demonstrates all significant components of the imaginary logical database TEST\_LDB.
+
+-   [Structure](#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2)
+
+-   [Database Program](#abenldb-example-3---structure--lfa1------------lfb1--------------------------lfc1--------------------------bkpf--selections-in-the-selection-include--select-options--slifnr---for-lfa1-lifnr------------------sbukrs---for-lfb1-bukrs------------------sgjahr---for-lfc1-gjahr------------------sbelnr---for-bkpf-belnr---database-program-----------------------------------------------------------------database-program-of-logical-database-test--ldb-------------------------------------------------------------program-sapdbtest--ldb-defining-database-test--ldb--nodes--lfa1---------lfb1---------lfc1---------bkpf-----------------------------------------------------------------initialize-selection-screen--processed-before-pbo--------------------------------------------------------------form-init-------endform-----------------------------------------------------------------pbo-of-selection-screen-------------------------------------------------------------form-pbo-------endform-----------------------------------------------------------------pai-of-selection-screen-------------------------------------------------------------form-pai-using-fname-mark----case-fname------when--slifnr-----------------when--sbukrs-----------------when--sgjahr-----------------when--sbelnr---------------endcase--endform-----------------------------------------------------------------raise-event-get-lfa1-------------------------------------------------------------form-put--lfa1----select----from-lfa1------------where-lifnr-in-slifnr INTO @lfa1.
+    PUT lfa1.
+  ENDSELECT.
+ENDFORM.
+\*-------------------------------------------------------\*
+\* Raise event GET lfb1
+\*-------------------------------------------------------\*
+FORM put\_lfb1.
+  SELECT \* FROM lfb1
+           WHERE lifnr = @lfa1-lifnr
+             AND bukrs IN @sbulrs
+           INTO @lfb1.
+    PUT lfb1.
+  ENDSELECT.
+ENDFORM.
+\*-------------------------------------------------------\*
+\* Raise event GET lfc1
+\*-------------------------------------------------------\*
+FORM put\_lfc1.
+  SELECT \* FROM lfc1
+           WHERE lifnr = @lfa1-lifnr
+             AND bukrs      =  @lfb1-bukrs
+             AND gjahr      IN @sgjahr
+           INTO lfc1.
+    PUT lfc1.
+  ENDSELECT.
+ENDFORM.
+\*-------------------------------------------------------\*
+\* Raise event GET bkpf
+\*-------------------------------------------------------\*
+FORM put\_bkpf.
+  SELECT \* FROM bkpf
+           WHERE bukrs      =  @lfb1-bukrs
+             AND belnr      IN @sbelnr
+             AND gjahr      IN @sgjahr
+           INTO @bkpf.
+    PUT bkpf.
+  ENDSELECT.
+ENDFORM.
+
+The PROGRAM statement has the addition [DEFINING DATABASE test\_ldb](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_defining.htm). This defines the association of the database program with the logical database TEST\_LDB.
+
+The nodes of the structure are declared using the [NODES statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnodes.htm). This creates the required interface work areas as table work areas. The statement [TABLES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables.htm) can be used, as a node, in the same way for database tables If the nodes do not have any database tables, they need to be declared using NODES. The interface work areas are shared by the database program and an associated executable program or the function module LDB\_PROCESS and become the interface used for passing data.
+
+The selection screen can be initialized in the subroutines init and pbo.
+
+The user input on the selection screen can be, for example, checked for authorizations in the subroutine pai. Other checks, such as plausibility or value range checks, are also possible here. If a check is negative, an error dialog can be programmed and the field in question can be initialized again.
+
+The database tables are read in accordance with the user's selection criteria and the associated GET events are triggered in the subroutines put\_....
+
+This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
+
+
+### abenldb_selections_example.htm
+
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
+
+Example of a Selection Include
+
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows:
+
+\*-----------------------------------------------------------\*
+\* Include DBTEST\_LDBSEL
+\* It will be automatically included into the database program
+\*-----------------------------------------------------------\*
+\* If the source is automatically generated,
+\* please perform the following steps:
+\* 1. Replace ? by suitable names (at most 8 characters).
+\* 2. Activate SELECT-OPTIONS and PARAMETERS (delete stars).
+\* 3. Save source code.
+\* 4. Edit database program.
+\*
+\* Hint: Syntax check is not possible within this include!
+\* It will be checked during syntax check of database program.
+\*-----------------------------------------------------------\*
+\* SELECT-OPTIONS :  ?  FOR LFA1-LIFNR.
+\* Parameter for search pattern selection:
+\* PARAMETERS p\_sp AS SEARCH PATTERN FOR TABLE LFA1.
+\* SELECT-OPTIONS :
+\*                   ?  FOR LFB1-LIFNR,
+\*                   ?  FOR LFB1-BUKRS.
+\* SELECT-OPTIONS :
+\*                   ?  FOR LFC1-LIFNR,
+\*                   ?  FOR LFC1-BUKRS,
+\*                   ?  FOR LFC1-GJAHR.
+\* SELECT-OPTIONS :
+\*                   ?  FOR BKPF-BUKRS,
+\*                   ?  FOR BKPF-BELNR,
+\*                   ?  FOR BKPF-GJAHR.
+\* Enable DYNAMIC SELECTIONS for selected nodes :
+\* Enable FIELD SELECTION for selected nodes :
+
+If the nodes LFA1 and LFB1 are defined for dynamic selections and the node LFC1 defined for field selections, the following additional program lines are generated:
+
+SELECTION-SCREEN DYNAMIC SELECTIONS FOR TABLE LFA1.
+SELECTION-SCREEN DYNAMIC SELECTIONS FOR TABLE LFB1.
+SELECTION-SCREEN FIELD SELECTION FOR TABLE LFC1.
+
+This automatically generated selection include can be complete, for example, as follows:
+
+\* Selection criteria:
+  SELECT-OPTIONS slifnr  FOR lfa1-lifnr.
+  SELECT-OPTIONS sbukrs  FOR lfb1-bukrs.
+  SELECT-OPTIONS sgjahr  FOR flc1-gjahr.
+  SELECT-OPTIONS sbelnr  FOR bkpf-belnr.
+\* Self-defined parameters:
+  PARAMETERS pstida LIKE sy-datum FOR NODE bkpf.
+\* Dynamic selections for LFA1 and LFB1:
+  SELECTION-SCREEN DYNAMIC SELECTIONS FOR NODE: lfa1, lfb1.
+\* Field selection for LFB1 and LFC1:
+  SELECTION-SCREEN FIELD SELECTION FOR NODE: lfb1, lfc1.
+
+A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
+
+
+### abenldb_program_example.htm
+
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
+
+Example of a Database Program
+
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include:
+
+SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR.
+SELECT-OPTIONS SBUKRS  FOR LFB1-BUKRS.
+SELECT-OPTIONS SGJAHR  FOR LFC1-GJAHR.
+SELECT-OPTIONS SBELNR  FOR BKPF-BELNR.
+
+The generated proposal for the database program is then as follows:
+
+Master program SAPDBTEST\_LDB
+
+\*----------------------------------------------------------\*
+\*      DATABASE PROGRAM OF LOGICAL DATABASE TEST\_LDB
+\*----------------------------------------------------------\*
+INCLUDE DBTEST\_LDBTOP .    " header
+INCLUDE DBTEST\_LDBXXX .    " all system routines
+\* INCLUDE DBTEST\_LDBF001 . " user defined include
+
+Include program DBTEST\_LDBTOP
+
+PROGRAM SAPDBTEST\_LDB DEFINING DATABASE TEST\_LDB.
+TABLES: LFA1,
+         LFB1,
+         LFC1,
+         BKPF.
+\* DATA: ...          "user defined variables
+
+Include program DBTEST\_LDB001
+
+\*----------------------------------------------------------\*
+\* Call event GET LFA1
+\*----------------------------------------------------------\*
+FORM PUT\_LFA1.
+\* SELECT \* FROM LFA1
+\*   INTO LFA1
+\*   INTO TABLE ? (choose one!)
+\*   WHERE LIFNR = ?.
+    PUT LFA1.
+\* ENDSELECT.
+ENDFORM.                               "PUT\_LFA1
+\*----------------------------------------------------------\*
+\* Authority Check for node LFA1
+\*----------------------------------------------------------\*
+\* FORM AUTHORITY\_CHECK\_LFA1.
+\*   AUTHORITY-CHECK ...
+\* ENDFORM.
+
+Include programs DBTEST\_LDB002 and DBTEST\_LDB003
+
+Like DBTEST\_LDB001 for the nodes LFB1 and LFC1
+
+Include program DBTEST\_LDB004
+
+\*----------------------------------------------------------\*
+\* Call event GET BKPF
+\*----------------------------------------------------------\*
+FORM PUT\_BKPF.
+\* STATICS FLAG.
+\* IF FLAG = SPACE.
+\*   FLAG = 'X'.
+\*\*\* Declarations for field selection for node BKPF \*\*\*
+\*   STATICS BKPF\_FIELDS TYPE RSFS\_TAB\_FIELDS.
+\*   MOVE 'BKPF' TO BKPF\_FIELDS-TABLENAME.
+\*   READ TABLE SELECT\_FIELDS WITH KEY BKPF\_FIELDS-TABLENAME
+\*     INTO BKPF\_FIELDS.
+\* ENDIF.
+\* SELECT (BKPF\_FIELDS-FIELDS) INTO CORRESPONDING FIELDS OF
+\*     BKPF / TABLE ? " (choose one of them)
+\*     FROM BKPF
+\*   WHERE BUKRS = LFB1-BUKRS
+\*     AND BELNR IN SBELNR
+\*     AND GJAHR = ?.
+    PUT BKPF.
+ENDFORM.                               "PUT\_BKPF
+\*----------------------------------------------------------\*
+\* Authority Check for node BKPF
+\*----------------------------------------------------------\*
+\* FORM AUTHORITYCHECK\_BKPF.
+\*   AUTHORITY-CHECK ...
+\* ENDFORM.                             "AUTHORITY\_CHECK\_BKPF
+
+Include program DBTEST\_LDBFXXX
+
+\*----------------------------------------------------------\*
+\* BEFORE\_EVENT will be called before event EVENT
+\* Possible values for EVENT: 'START-OF-SELECTION'
+\*----------------------------------------------------------\*
+\* FORM BEFORE\_EVENT USING EVENT.
+\*   CASE EVENT.
+\*     WHEN 'START-OF-SELECTION'
+\*
+\*   ENDCASE.
+\* ENDFORM.                             "BEFORE\_EVENT
+\*----------------------------------------------------------\*
+\* AFTER\_EVENT will be called after event EVENT
+\* Possible values for EVENT: 'END-OF-SELECTION'
+\*----------------------------------------------------------\*
+\* FORM AFTER\_EVENT USING EVENT.
+\*   CASE EVENT.
+\*     WHEN 'END-OF-SELECTION'
+\*
+\*   ENDCASE.
+\* ENDFORM.                             "AFTER\_EVENT
+\*-----------------------------------------------------------\*
+\* Initialize global data for multiple processing of
+\* one logical database.
+\* Set returncode:
+\*      0 -> all data are initialized, multiple processing o.k.
+\*  other -> no multiple processing allowed
+\*------------------------------------------------------------\*
+FORM  LDB\_PROCESS\_INIT CHANGING SUBRC LIKE SY-SUBRC.
+ENDFORM.                    "LDB\_PROCESS\_INIT
+\*------------------------------------------------------------\*
+\* LDB\_PROCESS\_CHECK\_SELECTIONS is called
+\* after select-options and parameters are filled
+\*------------------------------------------------------------\*
+FORM  LDB\_PROCESS\_CHECK\_SELECTIONS CHANGING SUBRC LIKE SY-SUBRC
+                                            MSG LIKE SYMSG.
+ENDFORM.                    "LDB\_PROCESS\_CHECK\_SELECTIONS
+\*----------------------------------------------------------\*
+\* Initialize selection screen (processed before PBO)
+\*----------------------------------------------------------\*
+FORM INIT.
+ENDFORM.                               "INIT.
+\*----------------------------------------------------------\*
+\* PBO of selection screen (processed always after ENTER)
+\*----------------------------------------------------------\*
+FORM PBO.
+ENDFORM.                               "PBO.
+\*----------------------------------------------------------\*
+\* PAI of selection screen (processed always after ENTER)
+\*----------------------------------------------------------\*
+FORM PAI USING FNAME MARK.
+\* CASE FNAME.
+\*   WHEN 'SLIFNR  '.
+\*   WHEN 'SBUKRS  '.
+\*   WHEN 'SBELNR  '.
+\*   WHEN 'SGJAHR  '.
+\*   WHEN '\*'.
+\*   ENDCASE.
+ENDFORM.                               "PAI
+
+Include program DBTEST\_LDBSXXX
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\* !!! PLEASE DO NOT CHANGE MANUALLY (BEGIN OF BLOCK) !!!!!! \*
+\*-----------------------------------------------------------\*
+\* Data structures for search pattern selection
+\*
+\* !!! PLEASE DO NOT CHANGE MANUALLY (END OF BLOCK) !!!!!!!! \*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*-----------------------------------------------------------\*
+\* PUT\_TEST\_LDB\_SP.
+\* Processed when search pattern selection is used,
+\* i.e. user input into PARAMETERS p\_sp AS SEARCH PATTERN
+\* STRUCTURE.
+\*-----------------------------------------------------------\*
+\* FORM PUT\_TEST\_LDB\_SP.
+\* ENDFORM.                             "PUT\_EXAMPLE\_SP
+
+The comment characters before ABAP statements used in addition to the mandatory statements can be deleted and the question marks can be replaced by appropriate expressions. The syntax check checks all include programs that match the naming conventions and also the selection include.
+
+When the database is accessed in the subroutines put\_node, SELECT statements with conditions for the primary key fields in the WHERE clauses are generated. The performance of these statements is, however, not yet optimized. In particular, the subroutines put\_node of a subtree of the structure represent nested SELECT loops, which should generally be avoided. Instead, the data read can be buffered in internal tables, for example, and passed from here to the application program using the PUT statement. The statement PUT node, though, should always be located in a subroutine whose name starts with put\_node for technical reasons.
+
+If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_free_selections.htm) or [field selections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_field_selections.htm) for a node, corresponding statements are generated in the subroutine put\_node and the SELECT statement created automatically is modified, as seen in the example for the node BKPF.
+
+The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
+
+
+### abenreport_abexa.htm
+
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
+
+Logical Database, Associated with a Program
+
+This example demonstrates how a logical database is associated with an executable program.
+
+Source Code
+
+REPORT demo\_report.
+NODES: spfli, sflight, sbook.
+DATA: weight       TYPE p LENGTH 8 DECIMALS 4,
+      total\_weight TYPE p LENGTH 8 DECIMALS 4.
+INITIALIZATION.
+  carrid-sign = 'I'.
+  carrid-option = 'EQ'.
+  carrid-low = 'AA'.
+  carrid-high = 'LH'.
+  APPEND carrid TO carrid.
+START-OF-SELECTION.
+  WRITE 'Luggage weight of flights'.
+GET spfli FIELDS carrid connid cityfrom cityto.
+  SKIP.
+  ULINE.
+  WRITE: / 'Carrid:', spfli-carrid,
+           'Connid:', spfli-connid,
+         / 'From:  ', spfli-cityfrom,
+           'To:    ', spfli-cityto.
+  ULINE.
+GET sflight FIELDS fldate.
+  SKIP.
+  WRITE: / 'Date:', sflight-fldate.
+GET sbook FIELDS luggweight.
+  weight += sbook-luggweight.
+GET sflight LATE FIELDS carrid .
+  WRITE: / 'Luggage weight =', weight.
+  total\_weight += weight.
+  weight = 0.
+END-OF-SELECTION.
+  ULINE.
+  WRITE: / 'Sum of luggage weights =', total\_weight.
+
+Description
+
+This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
+
 
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -18797,16 +19991,19 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -18834,16 +20031,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -18910,16 +20110,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -18985,16 +20188,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -19173,16 +20379,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -19234,16 +20443,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -19350,16 +20562,19 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -19387,16 +20602,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -19463,16 +20681,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -19538,16 +20759,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -19726,16 +20950,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -19787,16 +21014,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -19894,25 +21124,28 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (Obsolete) / Logical Databases - Components
+## ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (Obsolete) / Logical Databases - Components / Logical Databases - Further Elements
 
-**Files**: 10 | **Difficulty**: intermediate
+**Files**: 5 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (Obsolete) / Logical Databases - Examples
 
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -19940,16 +21173,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -20016,16 +21252,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -20091,16 +21330,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -20279,16 +21521,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -20340,16 +21585,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -20456,16 +21704,19 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -20493,16 +21744,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -20569,16 +21823,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -20644,16 +21901,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -20832,16 +22092,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -20893,16 +22156,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -21009,16 +22275,19 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -21046,16 +22315,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -21122,16 +22394,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -21197,16 +22472,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -21385,16 +22663,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -21446,16 +22727,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -21562,16 +22846,19 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -21599,16 +22886,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -21675,16 +22965,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -21750,16 +23043,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -21938,16 +23234,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -21999,16 +23298,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -22115,16 +23417,19 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -22152,16 +23457,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -22228,16 +23536,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -22303,16 +23614,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -22491,16 +23805,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -22552,16 +23869,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -22668,16 +23988,19 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 ### abenldb_examples.htm
 
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -22705,16 +24028,19 @@ Continue
 ![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-
 ### abenldb_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -22781,16 +24107,19 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -22856,16 +24185,19 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
 
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -23044,16 +24376,19 @@ If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -23105,19 +24440,19 @@ Description
 This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-
 ### abenlogical_database_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
-
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 
@@ -23210,6 +24545,485 @@ The internal table seltab is filled with values from the selection table s\_carr
 The function module LDB\_PROCESS is called with these parameters.
 
 The subroutines callback\_spfli and callback\_sflight are used as callback routines. Since the interface parameter wa is completely typed, the individual components of the work area can be accessed. In callback\_spfli, the events GET and GET LATE are handled differently.
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Security Notes / Security Risks Caused by Input from Outside / SQL Injections
+
+**Files**: 6 | **Difficulty**: intermediate
+
+# ABAP Keyword Documentation / ABAP - Security Notes / Security Risks Caused by Input from Outside / SQL Injections
+
+Included pages: 6
+
+
+### abensql_injections_scrty.htm
+
+---
+title: "SQL Injections"
+description: |
+  An SQL injection(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm 'Glossary Entry') is a widely used attack method on insufficiently secure input from outside. An SQL injection passes malicious SQL code injected into a program to the database system, unchecke
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injections_scrty.htm"
+abapFile: "abensql_injections_scrty.htm"
+keywords: ["do", "if", "try", "method", "data", "abensql", "injections", "scrty"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_programming_scrty.htm) → 
+
+SQL Injections
+
+An [SQL injection](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry") is a widely used attack method on insufficiently secure input from outside. An SQL injection passes malicious SQL code injected into a program to the database system, unchecked and unmasked. In ABAP, this can occur when the following programming techniques are used:
+
+-   [Dynamically specified tokens in ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_dyn_tokens_scrty.htm)
+
+-   [Using ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_adbc_scrty.htm)
+
+-   [Using AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_amdp_scrty.htm)
+
+-   [Using Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_os_query_scrty.htm)
+
+-   [Generic Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_gen_prog_scrty.htm)
+
+Continue
+[SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_dyn_tokens_scrty.htm)
+[SQL Injections Using ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_adbc_scrty.htm)
+[SQL Injections Using AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_amdp_scrty.htm)
+[SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_os_query_scrty.htm)
+[SQL Injections Using Generic Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_gen_prog_scrty.htm)
+
+
+### abensql_inj_dyn_tokens_scrty.htm
+
+---
+title: "SQL Injections Using Dynamic Tokens"
+description: |
+  The ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry') syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_dyn_tokens_scrty.htm"
+abapFile: "abensql_inj_dyn_tokens_scrty.htm"
+keywords: ["select", "update", "do", "if", "try", "catch", "method", "class", "data", "abensql", "inj", "dyn", "tokens", "scrty"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injections_scrty.htm) → 
+
+SQL Injections Using Dynamic Tokens
+
+The [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of these data objects originates from outside of the program, there is a risk of one of the following SQL injections:
+
+-   [Access to Non-Permitted Database Tables](#abensql-inj-dyn-tokens-scrty-1--------access-to-non-permitted-table-columns---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_2)
+
+-   [Manipulation of the Dynamic WHERE Condition](#abensql-inj-dyn-tokens-scrty-3--------manipulation-of-a-dynamic-change-expression---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_4)
+
+Note
+
+In a dynamic token, it is more secure to specify the name of an ABAP data object as an operand, instead of entering a value as a literal.
+
+Example
+
+The first dynamic WHERE condition is insecure compared to an SQL injection, if input is an external input, which is not checked or masked beforehand. This is not necessary for the second dynamic WHERE condition.
+
+DATA(sql\_cond1) = \`CARRID = '\` && input && \`'\`.
+SELECT SINGLE \* FROM scarr WHERE (sql\_cond1) INTO @wa.
+DATA(sql\_cond2) = \`CARRID = @input\`.
+SELECT SINGLE \* FROM scarr WHERE (sql\_cond2) INTO @wa.
+
+Access to Non-Permitted Database Tables
+
+If dynamically specified database tables [source\_syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfrom_clause.htm) (for the statement [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) or target\_syntax for [writes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_writing.htm)) originate in full or in part from outside the program, users could potentially access databases for which they usually do not have authorization. If the use of external input in dynamically specified database tables is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with a whitelist.
+
+Example
+
+In the following program section, the method CHECK\_TABLE\_NAME\_STR only allows access to tables of the flight data model. Input from other or nonexistent database tables are rejected. Access to oversized database tables is also not allowed, to avoid putting too much strain on system performance.
+
+DATA dbtab TYPE string.
+cl\_demo\_input=>request( CHANGING field = dbtab ).
+TRY.
+    dbtab =
+      cl\_abap\_dyn\_prg=>check\_table\_name\_str(
+        val = to\_upper( dbtab )
+        packages = 'SAPBC\_DATAMODEL' ).
+  CATCH cx\_abap\_not\_a\_table cx\_abap\_not\_in\_package.
+    cl\_demo\_output=>display( 'Wrong input' ).
+    LEAVE PROGRAM.
+ENDTRY.
+DATA dref TYPE REF TO data.
+FIELD-SYMBOLS <fs> TYPE STANDARD TABLE.
+CREATE DATA dref TYPE STANDARD TABLE OF (dbtab)
+                 WITH EMPTY KEY.
+ASSIGN dref->\* TO <fs>.
+DATA lines TYPE i.
+SELECT COUNT(\*)
+       FROM (dbtab)
+       INTO (@lines).
+IF lines > 1000.
+  cl\_demo\_output=>display( 'Table too large' ).
+  LEAVE PROGRAM.
+ENDIF.
+SELECT \*
+       FROM (dbtab)
+       INTO TABLE @<fs>.
+cl\_demo\_output=>display( <fs> ).
+
+Access to Non-Permitted Table Columns
+
+If the dynamically specified table columns column\_syntax in the [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_list.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) originate fully or in part from outside the program, users could potentially access table columns for which they usually do not have authorization. Users could also rename columns without permission or use aggregate functions to perform unauthorized calculations. If the use of external input in a dynamically specified table columns is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with a whitelist.
+
+Note
+
+When specifying columns after [GROUP BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgroupby_clause.htm), the same security advice applies as to columns specified dynamically directly after SELECT.
+
+Example
+
+See the example in [column \_syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_list.htm). Here only columns from a whitelist are permitted to be read.
+
+Manipulation of the Dynamic WHERE Condition
+
+If a dynamic WHERE condition [cond\_syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_dynamic.htm) originates completely or partially from outside the program, then users could potentially access data for which they usually do not have authorization. If the use of external input in a dynamic WHERE condition cannot be avoided, the input must be properly checked and usually masked as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
+
+Note
+
+When dynamically specifying a [HAVING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaphaving_clause.htm) condition, the same security advice applies as for the dynamic WHERE condition.
+
+Example
+
+In the following program section, a potential SQL injection is prevented by using the method QUOTE of the class CL\_ABAP\_DYN\_PRG, which adds quotation marks at the beginning and end. If this method is not used, and if "x' OR name <> '" is entered, for example, all the data in the SCUSTOM table would be displayed.
+
+DATA name TYPE string.
+DATA customers TYPE TABLE OF scustom WITH EMPTY KEY.
+cl\_demo\_input=>request( CHANGING field = name ).
+DATA(cond) = \`country = 'DE' AND name = \` &&
+             cl\_abap\_dyn\_prg=>quote( name ).
+TRY.
+    SELECT \* FROM scustom
+             WHERE (cond)
+             INTO TABLE @customers.
+    cl\_demo\_output=>display( customers ).
+  CATCH cx\_sy\_dynamic\_osql\_syntax.
+    cl\_demo\_output=>display( 'Wrong input' ).
+ENDTRY.
+
+More examples under [dynamic WHERE condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_dynamic.htm).
+
+Manipulation of a Dynamic Change Expression
+
+If a dynamic change expression [expr\_syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate_set_expression.htm) (for the statement [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm)) originates completely or partially from outside the program, then users could potentially change data for which they usually do not have authorization. If the use of external input in a dynamic change expression cannot be avoided, the input must be properly checked and usually masked as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
+
+Example
+
+In the following program section, a potential SQL injection is prevented by using the method QUOTE of the class CL\_ABAP\_DYN\_PRG, which adds quotation marks at the beginning and end. If this method is not used, and if "...' discount = '90", for example, is entered in one of the input fields, the discount for the relevant customer would be set to 90.
+
+DATA in TYPE REF TO if\_demo\_input.
+DATA customer TYPE scustom.
+DATA: id TYPE scustom-id,
+      name     TYPE string,
+      street   TYPE string,
+      city     TYPE string,
+      postcode TYPE string.
+id = '00000001'.
+SELECT SINGLE \*
+       FROM scustom
+       WHERE id = @id
+       INTO @customer.
+name    = customer-name.
+street  = customer-street.
+city    = customer-city.
+postcode = customer-postcode.
+in = cl\_demo\_input=>new( ).
+in->add\_field( CHANGING field = name
+)->add\_field( CHANGING field = street
+)->add\_field( CHANGING field = city
+)->add\_field( CHANGING field = postcode
+)->request( ).
+DATA(set\_expr) =
+  COND string( WHEN name IS NOT INITIAL
+               THEN \` NAME = \` &&
+               cl\_abap\_dyn\_prg=>quote( name ) ) &&
+  COND string( WHEN street IS NOT INITIAL
+               THEN \` STREET = \`   &&
+               cl\_abap\_dyn\_prg=>quote( street ) ) &&
+  COND string( WHEN city IS NOT INITIAL
+               THEN \` CITY = \` &&
+               cl\_abap\_dyn\_prg=>quote( city ) ) &&
+  COND string( WHEN postcode IS NOT INITIAL
+               THEN \` POSTCODE = \` &&
+               cl\_abap\_dyn\_prg=>quote( postcode ) ).
+TRY.
+    UPDATE scustom SET (set\_expr) WHERE id = @id.
+  CATCH cx\_sy\_dynamic\_osql\_syntax.
+    cl\_demo\_output=>display( 'Wrong input' ).
+ENDTRY.
+
+
+### abensql_inj_adbc_scrty.htm
+
+---
+title: "SQL Injections Using ADBC"
+description: |
+  When ADBC(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_glosry.htm 'Glossary Entry') is used, SQL statements are passed as strings to objects of class ADBC and then passed on to the database system. If all of part of one of these SQL statements originates from outside of the
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_adbc_scrty.htm"
+abapFile: "abensql_inj_adbc_scrty.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abensql", "inj", "adbc", "scrty"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injections_scrty.htm) → 
+
+SQL Injections Using ADBC
+
+When [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_glosry.htm "Glossary Entry") is used, SQL statements are passed as strings to objects of class ADBC and then passed on to the database system. If all of part of one of these SQL statements originates from outside of the program, there is a risk of an SQL injection.
+
+To prevent SQL Injections, make sure that SQL statements passed to ADBC contain as few parts as possible that originate from outside of the program. If the statements do contain parts from outside the program, the contents of these parts should not be chained to the SQL statement. Instead these contents should be addressed using the ? placeholder and the associated SET\_PARAM methods. If this is not possible, the parts from outside must be checked using the CL\_ABAP\_DYN\_PRG class and masked if necessary.
+
+Example
+
+In the following program section, the key value key (entered from outside ) is chained to the SQL statement. It must therefore be masked using the method QUOTE (which also adds quotation marks at the start and at the end), to prevent SQL injections.
+
+DATA key TYPE string.
+cl\_demo\_input=>request( CHANGING field = key ).
+TRY.
+    DATA(result) = NEW cl\_sql\_statement( )->execute\_query(
+          \`SELECT carrname \` &&
+          \`FROM scarr \` &&
+          \`WHERE mandt  = \` && \`'\` && sy-mandt && \`' AND\` &&
+          \`      carrid = \` &&
+          cl\_abap\_dyn\_prg=>quote( to\_upper( key ) ) ).
+    DATA name TYPE scarr-carrname.
+    result->set\_param( REF #( name ) ).
+    result->next( ).
+    cl\_demo\_output=>display( name ).
+  CATCH cx\_sql\_exception INTO DATA(err).
+    cl\_demo\_output=>display( err->get\_text( ) ).
+ENDTRY.
+
+Example
+
+In this example, the same functionality is used as in the previous example. Here it is not necessary to mask the value, because the input is connected to a parameter (and not chained).
+
+DATA key TYPE string.
+cl\_demo\_input=>request( CHANGING field = key ).
+TRY.
+    DATA(sql) = NEW cl\_sql\_statement( ).
+    sql->set\_param( REF #( sy-mandt ) ).
+    sql->set\_param( REF #( key ) ).
+    DATA(result) = sql->execute\_query(
+          \`SELECT carrname \` &&
+          \`FROM scarr \` &&
+          \`WHERE mandt  = ? AND carrid = ?\` ).
+    DATA name TYPE scarr-carrname.
+    result->set\_param( REF #( name ) ).
+    result->next( ).
+    cl\_demo\_output=>display( name ).
+  CATCH cx\_sql\_exception INTO DATA(err).
+    cl\_demo\_output=>display( err->get\_text( ) ).
+ENDTRY.
+
+
+### abensql_inj_amdp_scrty.htm
+
+---
+title: "SQL Injections Using AMDP"
+description: |
+  When AMDP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_glosry.htm 'Glossary Entry') is used, database procedures are created and called that are currently usually implemented in SQLScript(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_amdp_scrty.htm"
+abapFile: "abensql_inj_amdp_scrty.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abensql", "inj", "amdp", "scrty"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injections_scrty.htm) → 
+
+SQL Injections Using AMDP
+
+When [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_glosry.htm "Glossary Entry") is used, database procedures are created and called that are currently usually implemented in [SQLScript](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm "Glossary Entry") for the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"). The implementation of the database procedures in AMDP methods is managed by ABAP, but their content and security is not ABAP's responsibility. Risks are incurred whenever a database procedure contains dynamic parts or whenever it calls further database procedures whose functions are unknown in ABAP and cannot be checked there.
+
+There are currently no test tools available for checking the security of the implementation of a AMDP methods. Developers of AMDP methods are themselves responsible for their security, with dual control (Code Inspections) being a useful principle here. This is partly why the use of dynamic programming techniques is strongly [discouraged](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp.htm). In cases where AMDP methods do contain dynamic parts that could produce SQL injections when combined with input from outside, they must be flagged accordingly to allow the caller to implement any checks needed.
+
+Implementations of [AMDP methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry") are not currently supported by ABAP test tools, which means the caller of a method is responsible for ensuring that only non-malicious content is passed to it. If the implementation of an AMDP method contains dynamic parts into which formal parameters are injected, no input from outside can be passed to these parameters that is not checked or escaped appropriately, to avoid SQL injections.
+
+Note
+
+The statements about AMDP made here apply in principle to all places in which implementations made in other programming languages are called from ABAP.
+
+Example
+
+An AMDP method is implemented as follows:
+
+CLASS cl\_dyn\_amdp IMPLEMENTATION.
+  METHOD increase\_seatsocc BY DATABASE PROCEDURE FOR HDB
+                           LANGUAGE SQLSCRIPT.
+    EXEC 'UPDATE sflight SET seatsocc = seatsocc + ' || :seats;
+  ENDMETHOD.
+ENDCLASS.
+
+This method uses the SQLScript statement EXEC in the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry") to execute an SQL statement specified as a character string into which the input parameter seats is merged. A method like this should be classified as a potential risk, since the input parameter is not checked. If possible, an input check should be implemented in SQLScript directly before the statement EXEC is executed.
+
+If the method is delivered without an appropriate check and the caller wants to pass value entered outside to it, the validity of the value must be checked first. In the case in question, only integers can be passed, which can be verified using the method CHECK\_INT\_VALUE of the class CL\_ABAP\_DYN\_PRG in calls from ABAP. If not, input such as 2, seatsmax = seatsmax + 10 would be possible, which would change the column SEATSMAX and not just the column SEATSOCC.
+
+DATA seats TYPE string.
+cl\_demo\_input=>request( CHANGING field = seats ).
+TRY.
+    NEW cl\_dyn\_amdp( )->increase\_seatsocc(
+      seats = |{ cl\_abap\_dyn\_prg=>check\_int\_value( seats ) }| ).
+  CATCH cx\_abap\_not\_an\_integer INTO DATA(exc).
+    cl\_demo\_output=>display( exc->get\_text( ) ).
+ENDTRY.
+
+Example
+
+An AMDP method is implemented as follows:
+
+CLASS cl\_dyn\_amdp IMPLEMENTATION.
+  METHOD get\_flights BY DATABASE PROCEDURE FOR HDB
+                        LANGUAGE SQLSCRIPT
+                        USING spfli.
+    flights = SELECT \* FROM SPFLI WHERE mandt = :mandt;
+    flights = APPLY\_FILTER(:flights, :filter);
+  ENDMETHOD.
+ENDCLASS.
+
+This method uses the SQLScript statement APPLY\_FILTER in the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"), which sets a dynamic condition on a results set. This statement can also produce SQL injections when combined with input from outside if the input is not validated appropriately. As used in ABAP, methods of the class CL\_ABAP\_DYN\_PRG can validate this input..
+
+DATA column TYPE string.
+cl\_demo\_input=>add\_field( CHANGING field = column ).
+DATA value TYPE string.
+cl\_demo\_input=>request( CHANGING field = value ).
+TRY.
+    DATA(filter) = cl\_abap\_dyn\_prg=>check\_column\_name( column ) &&
+                   \` = \` &&
+                   cl\_abap\_dyn\_prg=>quote( value ).
+    NEW cl\_dyn\_amdp( )->get\_flights( EXPORTING mandt = sy-mandt
+                                              filter = filter
+                                   IMPORTING flights = DATA(result) ).
+  CATCH cx\_abap\_invalid\_name cx\_amdp\_execution\_failed INTO DATA(exc).
+    cl\_demo\_output=>display( exc->get\_text( ) ).
+ENDTRY.
+
+
+### abensql_inj_os_query_scrty.htm
+
+---
+title: "SQL Injections Using Object Services"
+description: |
+  Filter conditions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm) are passed to a query as character strings in the query service(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenquery_service_glosry.htm 'Glossary Entry') in the Object Serv
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_os_query_scrty.htm"
+abapFile: "abensql_inj_os_query_scrty.htm"
+keywords: ["do", "if", "try", "class", "data", "abensql", "inj", "query", "scrty"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injections_scrty.htm) → 
+
+SQL Injections Using Object Services
+
+[Filter conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_filter_cond.htm) are passed to a query as character strings in the [query service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenquery_service_glosry.htm "Glossary Entry") in the [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_services_glosry.htm "Glossary Entry"). If a filter condition like this (or part of it) originates outside the program, the same risk of an SQL injection is incurred as when a dynamic WHERE condition is manipulated in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_dyn_tokens_scrty.htm). To prevent SQL injections of this nature, either parameters from a parameter list or must be used or parts escaped using the class CL\_ABAP\_DYN\_PRG.
+
+Example
+
+The executable example [DEMO\_QUERY\_SERVICE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_abexa.htm) is secure, since the interactive input is passed to the query using parameter bindings. If the source code after the statement TRY is replaced as follows, however, SQL injections are possible:
+
+TRY.
+    query\_manager = cl\_os\_system=>get\_query\_manager( ).
+    query = query\_manager->create\_query(
+              i\_filter  = \`AIRPFROM = '\` &&  airpfrom  &&
+                           \`' AND AIRPTO = '\` && airpto  && \`'\` ).
+    connections =
+      agent->if\_os\_ca\_persistency~get\_persistent\_by\_query(
+               i\_query = query ).
+    ...
+
+If airpfrom and airpto contain the values "FRA' OR AIRPFROM <> '" and "SIN' OR AIRPTO <> '", for example, all existing data is read. If no parameter bindings are used, therefore, airpfrom and airpto must be escaped.
+
+   query = query\_manager->create\_query(
+      i\_filter  = \`AIRPFROM = \` &&
+                  cl\_abap\_dyn\_prg=>quote( airpfrom ) &&
+                  \`  AND AIRPTO = \` &&
+                  cl\_abap\_dyn\_prg=>quote( airpto ) ).
+
+
+### abensql_inj_gen_prog_scrty.htm
+
+---
+title: "SQL Injections Using Generic Programming"
+description: |
+  Generic programming is the most unsafe of all dynamic programming techniques. In principle, the ABAP command injections(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_prog_scrty.htm) cover all individual security risks that can occur in dynamic programming, and most signifi
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_gen_prog_scrty.htm"
+abapFile: "abensql_inj_gen_prog_scrty.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abensql", "inj", "gen", "prog", "scrty"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injections_scrty.htm) → 
+
+SQL Injections Using Generic Programming
+
+Generic programming is the most unsafe of all dynamic programming techniques. In principle, the [ABAP command injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_prog_scrty.htm) cover all individual security risks that can occur in dynamic programming, and most significantly SQL injections. The more generic the programming, the more difficult it is to prevent SQL injections from exploiting input that originates outside the program.
+
+Example
+
+The following program section demonstrates [static embedded of Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennativesql.htm) in a program generated using [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_subroutine_pool.htm). Before [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_glosry.htm "Glossary Entry") was introduced, this was the only way of creating dynamic parts in [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry"). In the case in question, the input key must be escaped using the method ESCAPE\_QUOTES of the class CL\_ABAP\_DYN\_PRG to prevent SQL injections. In a more realistic example, of course, [host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_host.htm) would be the preferred method.
+
+DATA source TYPE TABLE OF string WITH EMPTY KEY.
+source = VALUE #(
+  ( \`PROGRAM.\` )
+  ( \`FORM exec\_sql CHANGING name TYPE string.\` )
+  ( \`  EXEC SQL.\` )
+  ( \`    SELECT carrname\` )
+  ( \`           INTO :name\` )
+  ( \`           FROM scarr\` )
+  ( \`           WHERE mandt  = 'sy-mandt' AND\` )
+  ( \`                 carrid = 'key'\` )
+  ( \`  ENDEXEC.\` )
+  ( \`ENDFORM.\`                                ) ).
+DATA key TYPE string.
+cl\_demo\_input=>request( CHANGING field = key ).
+REPLACE \`sy-mandt\` IN TABLE source WITH sy-mandt.
+REPLACE \`key\` IN TABLE source
+              WITH cl\_abap\_dyn\_prg=>escape\_quotes( to\_upper( key ) ).
+DATA name TYPE string.
+GENERATE SUBROUTINE POOL source NAME DATA(pool).
+IF sy-subrc = 0.
+  PERFORM exec\_sql IN PROGRAM (pool) CHANGING name.
+ENDIF.
+cl\_demo\_output=>display( name ).
 
 
 ---

@@ -1,4 +1,14 @@
-  
+---
+title: "class_reference_variabl_glosry"
+description: |
+  class_reference_variabl_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_reference_variabl_glosry.htm"
+abapFile: "abenclass_reference_variabl_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenclass", "reference", "variabl", "glosry"]
+---
 
 * * *
 

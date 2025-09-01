@@ -1,4 +1,14 @@
-  
+---
+title: "RAP action"
+description: |
+  A RAP BO non-standard operation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_nstandard_operation_glosry.htm 'Glossary Entry') that modifies the state of a RAP BO entity instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_inst_glos
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_action_glosry.htm"
+abapFile: "abenrap_action_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenrap", "action", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_parsing DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS: process_errors IMPORTING parser TYPE REF TO if_ixml_parser, process_dom IMPORTING document TYPE REF TO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_parsing_abexa.htm"
+abapFile: "abenixml_parsing_abexa.htm"
+keywords: ["do", "while", "if", "case", "method", "class", "data", "abenixml", "parsing", "abexa"]
+---
 
 * * *
 

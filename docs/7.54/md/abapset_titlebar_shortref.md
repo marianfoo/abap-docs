@@ -1,4 +1,14 @@
-  
+---
+title: "SET TITLEBAR - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_titlebar_dynpro.htm) Syntax SET TITLEBAR title OF PROGRAM prog WITH text1 ... text9. Effect Sets the GUI title(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengui_title_glosry.htm 'Glossar
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_titlebar_shortref.htm"
+abapFile: "abapset_titlebar_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapset", "titlebar", "shortref"]
+---
 
 * * *
 

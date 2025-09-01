@@ -1,4 +1,14 @@
-  
+---
+title: "Correctness and Quality"
+description: |
+  Background Most organizations that develop professional software have product standards that must be adhered to. These product standards define what is meant by correctness and quality of a program. SAP has many such standards, which development departments have to comply with. The current product s
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm"
+abapFile: "abencorrectness_quality_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abencorrectness", "quality", "guidl"]
+---
 
 * * *
 

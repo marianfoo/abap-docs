@@ -1,4 +1,14 @@
-  
+---
+title: "Table Buffering - Restrictions"
+description: |
+  Only transparent tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransparent_table_glosry.htm 'Glossary Entry') and pooled tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpooled_table_glosry.htm 'Glossary Entry') can be buffered. There is no special re
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuffer_restrictions.htm"
+abapFile: "abenbuffer_restrictions.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "class", "data", "internal-table", "abenbuffer", "restrictions"]
+---
 
 * * *
 

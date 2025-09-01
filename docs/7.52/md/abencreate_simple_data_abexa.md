@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Elementary Data Objects"
+description: |
+  The example demonstrates how elementary data objects are created. Source Code REPORT demo_create_simple_data. CLASS create_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS create_data IMPORTING VALUE(typ) TYPE c VALUE(len) TYPE i VALUE(dec) TYPE i RETURNING VA
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_simple_data_abexa.htm"
+abapFile: "abencreate_simple_data_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abencreate", "simple", "abexa"]
+---
 
 * * *
 

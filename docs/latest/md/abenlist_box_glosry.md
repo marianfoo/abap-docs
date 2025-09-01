@@ -1,4 +1,14 @@
-  
+---
+title: "list_box_glosry"
+description: |
+  list_box_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_box_glosry.htm"
+abapFile: "abenlist_box_glosry.htm"
+keywords: ["do", "if", "try", "abenlist", "box", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Query Service"
+description: |
+  This example demonstrates how an object-oriented query is used. Source Code REPORT demo_query_service. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: airpfrom TYPE s_fromairp VALUE 'FRA', airpto   TYPE s_toairp   VALUE 'SIN'. cl
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_query_abexa.htm"
+abapFile: "abenos_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenos", "query", "abexa"]
+---
 
 * * *
 

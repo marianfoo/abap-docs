@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS, FOR DDL OBJECT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_shortref.htm) Syntax CLASS-METHODS meth FOR DDL OBJECT OPTIONS CDS CLIENT REQUIRED. Additions: 1. ... OPTIONS CDS CLIENT REQUIRED.(#!ABAP_ADDITION_1@1@) Effect Methods defined with FOR DDL
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_for_ddl_object.htm"
+abapFile: "abapclass-methods_for_ddl_object.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abapclass", "methods", "for", "ddl", "object"]
+---
 
 * * *
 

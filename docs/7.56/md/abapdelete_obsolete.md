@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab, Short Form"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_dbtab_shortref.htm) Obsolete Syntax DELETE  dbtab  dbtab  ... Effect This statement is a short form of the following ABAP SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_g
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_obsolete.htm"
+abapFile: "abapdelete_obsolete.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "abapdelete", "obsolete"]
+---
 
 * * *
 

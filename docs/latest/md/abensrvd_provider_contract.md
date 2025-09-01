@@ -1,4 +1,14 @@
-  
+---
+title: "CDS SDL - PROVIDER CONTRACTS"
+description: |
+  Syntax ... PROVIDER CONTRACTS INA  SQL ... Effect A provider contract can optionally be specified in a CDS service definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_service_definition_glosry.htm 'Glossary Entry'). It defines the scenario for which the service de
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensrvd_provider_contract.htm"
+abapFile: "abensrvd_provider_contract.htm"
+keywords: ["do", "if", "case", "try", "data", "abensrvd", "provider", "contract"]
+---
 
 * * *
 

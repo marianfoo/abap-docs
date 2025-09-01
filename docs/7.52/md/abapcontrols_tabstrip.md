@@ -1,4 +1,14 @@
-  
+---
+title: "CONTROLS - TYPE TABSTRIP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_shortref.htm) Syntax CONTROLS contrl TYPE TABSTRIP. Effect Declares a tabstrip control(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentabstrip_control_glosry.htm 'Glossary Entry'). If the type
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tabstrip.htm"
+abapFile: "abapcontrols_tabstrip.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapcontrols", "tabstrip"]
+---
 
 * * *
 

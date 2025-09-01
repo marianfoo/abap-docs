@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  rel_exp - Binary Comparison Operators(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_any_operand.htm) rel_exp - Ternary Comparison Operator BETWEEN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_between.htm) rel_exp - Tabular Comparison Operator
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_compare_all.htm"
+abapFile: "abenlogexp_compare_all.htm"
+keywords: ["select", "do", "data", "types", "abenlogexp", "compare", "all"]
+---
 
 * * *
 

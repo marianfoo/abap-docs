@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE ABSTRACT ENTITY"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_entity_annotations.htm) ... DEFINE ABSTRACT ENTITY cds_entity p
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_abstract_entity.htm"
+abapFile: "abencds_f1_define_abstract_entity.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abencds", "define", "abstract", "entity"]
+---
 
 * * *
 

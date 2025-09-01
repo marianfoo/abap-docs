@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_f1_help. DATA:  text     TYPE c LENGTH 30, docu_num TYPE c LENGTH 4, int      TYPE i, links    TYPE TABLE OF tline, field5   TYPE c LENGTH 10, field6   TYPE c LENGTH 10. TABLES demof1help. text = text-001. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. MODULE
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_f1_help_abexa.htm"
+abapFile: "abendynpro_f1_help_abexa.htm"
+keywords: ["do", "if", "case", "class", "data", "abendynpro", "help", "abexa"]
+---
 
 * * *
 

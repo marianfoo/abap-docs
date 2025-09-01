@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - DEFINE ROLE, operator"
+description: |
+  Syntax ... operator ... Effect Operator of a comparison expression in a literal condition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_literal.htm) in an access rule(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_rule_glosry.htm 'Glo
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_cond_expression.htm"
+abapFile: "abencds_f1_dcl_cond_expression.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "cond", "expression"]
+---
 
 * * *
 

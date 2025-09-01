@@ -1,4 +1,14 @@
-  
+---
+title: "RAP global feature control"
+description: |
+  Feature control(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_feature_control_glosry.htm 'Glossary Entry') that defines access restrictions independently of the state of a BO entity instance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_inst_gl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_glo_feature_control_glosry.htm"
+abapFile: "abenrap_glo_feature_control_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "glo", "feature", "control", "glosry"]
+---
 
 * * *
 

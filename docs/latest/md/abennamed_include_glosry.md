@@ -1,4 +1,14 @@
-  
+---
+title: "named_include_glosry"
+description: |
+  named_include_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennamed_include_glosry.htm"
+abapFile: "abennamed_include_glosry.htm"
+keywords: ["do", "if", "try", "abennamed", "include", "glosry"]
+---
 
 * * *
 

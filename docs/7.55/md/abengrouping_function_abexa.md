@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Grouping Function"
+description: |
+  This example demonstrates the grouping function GROUPING(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengrouping_function.htm). Source Code REPORT demo_grouping_function. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengrouping_function_abexa.htm"
+abapFile: "abengrouping_function_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abengrouping", "function", "abexa"]
+---
 
 * * *
 

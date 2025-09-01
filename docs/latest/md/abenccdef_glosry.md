@@ -1,4 +1,14 @@
-  
+---
+title: "CCDEF include"
+description: |
+  Include program(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninclude_program_glosry.htm 'Glossary Entry') of a class pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_pool_glosry.htm 'Glossary Entry') that is included in front of the declarati
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenccdef_glosry.htm"
+abapFile: "abenccdef_glosry.htm"
+keywords: ["do", "if", "try", "class", "types", "abenccdef", "glosry"]
+---
 
 * * *
 

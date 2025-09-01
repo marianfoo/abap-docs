@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Input Checks in the Flow Logic"
+description: |
+  The example illustrates how the input checks can be performed in PAI processing. Source Code PROGRAM demo_dynpro_value_select. DATA: ok_code TYPE sy-ucomm, carrier TYPE spfli-carrid, connect TYPE spfli-connid. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMOD
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_check_flow_abexa.htm"
+abapFile: "abendynpro_check_flow_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "check", "flow", "abexa"]
+---
 
 * * *
 

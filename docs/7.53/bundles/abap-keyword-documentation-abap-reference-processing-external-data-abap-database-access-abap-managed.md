@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenabap_managed_db_objects_access.htm
 
-  
+---
+title: "Access to ABAP-Managed Database Objects"
+description: |
+  ABAP-managed database objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry') can be accessed as follows: -   ABAP SQL Access to ABAP-Managed Database Objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ma
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_access.htm"
+abapFile: "abenabap_managed_db_objects_access.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenabap", "managed", "objects", "access"]
+---
 
 * * *
 
@@ -114,7 +124,17 @@ Continue
 
 ### abenabap_managed_db_objects_osql.htm
 
-  
+---
+title: "ABAP SQL Access to ABAP-Managed Database Objects"
+description: |
+  ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry') includes a set of ABAP SQL statements(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) for use in ABAP programs. The database is accessed using the ABAP SQL i
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_osql.htm"
+abapFile: "abenabap_managed_db_objects_osql.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenabap", "managed", "objects", "osql"]
+---
 
 * * *
 
@@ -193,7 +213,17 @@ Some of the semantic attributes defined in ABAP Dictionary or ABAP CDS, such as 
 
 ### abenabap_managed_db_objects_amdp.htm
 
-  
+---
+title: "AMDP Access to ABAP-Managed Database Objects"
+description: |
+  ABAP Managed Database Procedures (AMDP)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_proc_glosry.htm 'Glossary Entry') is a class-based AS ABAP framework for managing and calling database procedures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/aben
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_amdp.htm"
+abapFile: "abenabap_managed_db_objects_amdp.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "abenabap", "managed", "objects", "amdp"]
+---
 
 * * *
 
@@ -282,7 +312,17 @@ Implementations of AMDP methods can be debugged in the [ABAP Development Tools (
 
 ### abenabap_managed_db_objects_nsql.htm
 
-  
+---
+title: "Native SQL Access to ABAP-Managed Database Objects"
+description: |
+  Two methods of Native SQL access to ABAP-managed database objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry') can be distinguished. -   Access Using ABAP-Managed Native SQL(#abenabap-managed-db-objects-nsql-1--------access-us
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_nsql.htm"
+abapFile: "abenabap_managed_db_objects_nsql.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenabap", "managed", "objects", "nsql"]
+---
 
 * * *
 
@@ -294,9 +334,7 @@ Native SQL Access to ABAP-Managed Database Objects
 
 Two methods of Native SQL access to [ABAP-managed database objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_object_glosry.htm "Glossary Entry") can be distinguished.
 
--   [Access Using ABAP-Managed Native SQL](#@@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_1)
-
--   [Access Using Non-ABAP-Managed Native SQL](#@@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_2)
+-   [Access Using ABAP-Managed Native SQL](#abenabap-managed-db-objects-nsql-1--------access-using-non-abap-managed-native-sql---@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_2)
 
 Access Using ABAP-Managed Native SQL
 

@@ -1,4 +1,14 @@
-  
+---
+title: "chaining_glosry"
+description: |
+  chaining_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenchaining_glosry.htm"
+abapFile: "abenchaining_glosry.htm"
+keywords: ["select", "do", "if", "try", "method", "abenchaining", "glosry"]
+---
 
 * * *
 

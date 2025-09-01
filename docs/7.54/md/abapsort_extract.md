@@ -1,4 +1,14 @@
-  
+---
+title: "SORT - Extract"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_shortref.htm) Obsolete Syntax SORT ASCENDINGDESCENDING AS TEXT STABLE sort_key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_key.htm). Extras: 1. ... AS
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_extract.htm"
+abapFile: "abapsort_extract.htm"
+keywords: ["insert", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abapsort", "extract"]
+---
 
 * * *
 

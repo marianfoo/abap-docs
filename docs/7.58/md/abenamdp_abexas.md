@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Examples"
+description: |
+  -   AMDP - Procedures and Functions in a Nutshell(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensheet_amdp_abexa.htm) -   AMDP - Implementation of an SQLScript Procedure(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_abexa.htm) -   AMDP - Calling an AMDP Pr
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_abexas.htm"
+abapFile: "abenamdp_abexas.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenamdp", "abexas"]
+---
 
 * * *
 

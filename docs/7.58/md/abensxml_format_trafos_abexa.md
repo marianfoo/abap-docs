@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_xml_to_bnr_to_xop DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_sxml_xml_to_bnr_to_xop IMPLEMENTATION. METHOD main. 'XML
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensxml_format_trafos_abexa.htm"
+abapFile: "abensxml_format_trafos_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abensxml", "format", "trafos", "abexa"]
+---
 
 * * *
 

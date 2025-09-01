@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE-CORRESPONDING - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove-corresponding.htm) Syntax MOVE-CORRESPONDING EXACT  struc1 TO struc2 EXPANDING NESTED TABLES    itab1  TO itab2  EXPANDING NESTED TABLES KEEPING TARGET LINES . Effect A
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove-corresponding_shortref.htm"
+abapFile: "abapmove-corresponding_shortref.htm"
+keywords: ["do", "if", "internal-table", "abapmove", "corresponding", "shortref"]
+---
 
 * * *
 

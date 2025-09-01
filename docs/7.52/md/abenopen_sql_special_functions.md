@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Special Functions"
+description: |
+  These built-in functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_special_functions.htm) are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenop
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_special_functions.htm"
+abapFile: "abenopen_sql_special_functions.htm"
+keywords: ["do", "data", "abenopen", "sql", "special", "functions"]
+---
 
 * * *
 

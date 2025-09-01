@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE EXCEPTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_exception_class.htm) Syntax RAISE RESUMABLE EXCEPTION   TYPE cx_class MESSAGE tn(id)   ID mid TYPE mtype NUMBER num  WITH dobj1 ... dobj4 EXPORTING p1 = a1 p2 = a2 ...
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_exception_shortref.htm"
+abapFile: "abapraise_exception_shortref.htm"
+keywords: ["do", "if", "try", "class", "abapraise", "exception", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO consumer"
+description: |
+  Software that consumes the implementation of a RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). A RAP BO consumer is either the RAP transactional engine(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_transac_engine_glo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_consumer_glosry.htm"
+abapFile: "abenrap_bo_consumer_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "consumer", "glosry"]
+---
 
 * * *
 

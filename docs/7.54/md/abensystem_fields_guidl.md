@@ -1,4 +1,14 @@
-  
+---
+title: "System Fields"
+description: |
+  An ABAP program can request the status of the ABAP runtime environment using the system fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm). From a technical viewpoint, these system fields are a set of predefined variables - the components of the predefined sy
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields_guidl.htm"
+abapFile: "abensystem_fields_guidl.htm"
+keywords: ["do", "while", "case", "data", "abensystem", "fields", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  operand1 =EQ<>NE>GT<LT>=GE<=LE COCNCANACSNSCPNP BYTE-COBYTE-CNBYTE-CABYTE-NABYTE-CSBYTE-NS OZM operand2   operand  NOT BETWEEN operand1 AND operand2  operand NOT
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlog_exp_shortref.htm"
+abapFile: "abenlog_exp_shortref.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abenlog", "exp", "shortref"]
+---
 
 * * *
 

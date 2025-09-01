@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP, Implementation of an L Procedure"
+description: |
+  This example demonstrates the implementation of a procedure in the programming language L(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenllang_glosry.htm 'Glossary Entry') using AMDP. Source Code REPORT demo_amdp_l_language. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS m
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_l_abexa.htm"
+abapFile: "abenamdp_l_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "abexa"]
+---
 
 * * *
 

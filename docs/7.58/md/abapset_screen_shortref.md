@@ -1,4 +1,14 @@
-  
+---
+title: "SET SCREEN - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_screen.htm) Syntax SET SCREEN dynnr. Effect Defines the dynpro(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm 'Glossary Entry') with the dynpro number(https://help.sap.com/doc/abapdoc
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_screen_shortref.htm"
+abapFile: "abapset_screen_shortref.htm"
+keywords: ["do", "if", "try", "abapset", "screen", "shortref"]
+---
 
 * * *
 

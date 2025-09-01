@@ -1,4 +1,14 @@
-  
+---
+title: "Accessibility"
+description: |
+  Background Accessibility is a product standard(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm 'Guideline') that ensures that information technology products can also be used by people with impairments. For user interfaces, for instance, this means
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccessibility_guidl.htm"
+abapFile: "abenaccessibility_guidl.htm"
+keywords: ["select", "do", "if", "class", "abenaccessibility", "guidl"]
+---
 
 * * *
 

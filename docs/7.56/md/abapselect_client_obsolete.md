@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, CLIENT SPECIFIED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_shortref.htm) Obsolete Syntax ... CLIENT SPECIFIED  entity1~clnt , entity2~clnt ...   (clnt_syntax) ... Additions: 1. ... entity1~clnt , entity2~clnt ...(#!ABA
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_client_obsolete.htm"
+abapFile: "abapselect_client_obsolete.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapselect", "client", "obsolete"]
+---
 
 * * *
 

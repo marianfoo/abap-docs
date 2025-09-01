@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - operations for associations"
+description: |
+  Syntax ... internal(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm) association _Assoc abbreviation _newName without response  internal(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm) create
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association.htm"
+abapFile: "abenbdl_association.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "association"]
+---
 
 * * *
 

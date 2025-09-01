@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ALLOW_PRECISION_LOSS( SUM(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_agg_func.htm)( DISTINCT sql_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsql_expr.htm) ) Effect The ALLOW_PRECISION_LOSS statement can improve the performance of an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_allow_precision_loss.htm"
+abapFile: "abapselect_allow_precision_loss.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselect", "allow", "precision", "loss"]
+---
 
 * * *
 

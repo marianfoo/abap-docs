@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP-managed database object"
+description: |
+  Database object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_object_glosry.htm 'Glossary Entry') in the standard database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_db_glosry.htm 'Glossary Entry') in AS ABAP(https://help.sap.com/doc/abapdocu_75
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_object_glosry.htm"
+abapFile: "abenabap_managed_db_object_glosry.htm"
+keywords: ["do", "try", "data", "abenabap", "managed", "object", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Assigning Reference Variables"
+description: |
+  Special rules apply when setting the reference or pointer of a reference variable: -   Assignment Rules for Reference Variables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_references.htm) A reference is always set as an upcast(https://help.sap.com/doc/abapdocu_757_i
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenset_references.htm"
+abapFile: "abenset_references.htm"
+keywords: ["do", "if", "try", "data", "abenset", "references"]
+---
 
 * * *
 

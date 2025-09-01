@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, FUNCTION KEY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_shortref.htm) Syntax SELECTION-SCREEN FUNCTION KEY n ldb_additions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_ldb_additions.htm). Effect In the GUI status
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_functionkey.htm"
+abapFile: "abapselection-screen_functionkey.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "functionkey"]
+---
 
 * * *
 

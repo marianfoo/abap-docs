@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %cid is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is a string to define a content ID. Content IDs are used as a unique and preliminary identifier for RAP BO(https://help.sap.com/doc/abapdocu_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_cid.htm"
+abapFile: "abapderived_types_cid.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abapderived", "cid"]
+---
 
 * * *
 

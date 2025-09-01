@@ -1,4 +1,14 @@
-  
+---
+title: "SEARCH"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsearch_shortref.htm) Obsolete Syntax SEARCH dobj FOR pattern IN CHARACTERBYTE MODE STARTING AT p1 ENDING AT p2 ABBREVIATED AND MARK. Additions: 1. ... IN CHARACTER
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsearch-.htm"
+abapFile: "abapsearch-.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abapsearch"]
+---
 
 * * *
 

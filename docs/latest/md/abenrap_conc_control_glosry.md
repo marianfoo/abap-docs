@@ -1,4 +1,14 @@
-  
+---
+title: "RAP concurrency control"
+description: |
+  A concept in RAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_glosry.htm 'Glossary Entry') that ensures correct results for concurrent operations. See also: -   optimistic concurrency control(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoptimisti
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_conc_control_glosry.htm"
+abapFile: "abenrap_conc_control_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "conc", "control", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_push_button . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output(8) TYPE c. CALL SCREEN 100. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok_code. CASE save_ok. WHEN 'BUTTON_EXIT'. LEAVE PROGRAM. WHEN 'BUTTON_1'. output = 'Button 1'(001). WHEN 'BU
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_push_button_abexa.htm"
+abapFile: "abendynpro_push_button_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "push", "button", "abexa"]
+---
 
 * * *
 

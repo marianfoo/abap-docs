@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (authorization:update) ... Effect The RAP BO operation addition authorization:update delegates the authorization check(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization.htm) for the operation in question to the update operation. That means that an operation speci
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_actions_auth_update.htm"
+abapFile: "abenbdl_actions_auth_update.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbdl", "actions", "auth"]
+---
 
 * * *
 

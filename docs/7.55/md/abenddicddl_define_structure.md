@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm) DEFINE STRUCTURE struct  ... component;(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm) ... include;(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm"
+abapFile: "abenddicddl_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddicddl", "define", "structure"]
+---
 
 * * *
 

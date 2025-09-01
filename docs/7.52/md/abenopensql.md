@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL"
+description: |
+  Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm 'Glossary Entry') is a set of ABAP statements, based on SQL, that asre transformed to platform-specific SQL by the Open SQL interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sq
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm"
+abapFile: "abenopensql.htm"
+keywords: ["insert", "do", "if", "try", "class", "data", "abenopensql"]
+---
 
 * * *
 

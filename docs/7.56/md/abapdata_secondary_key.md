@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... UNIQUE HASHEDUNIQUE SORTEDNON-UNIQUE SORTED KEY key_name ALIAS alias_name COMPONENTS comp1 comp2 ... Effect Definition of a secondary table key(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm 'Glossary Entry') of a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_secondary_key.htm"
+abapFile: "abapdata_secondary_key.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapdata", "secondary", "key"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Elements in ABAP Behavior Pool Implementations"
+description: |
+  The following elements are obsolete: -   METHODS, FOR BEHAVIOR(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_for_behavior.htm) -   METHODS, FOR DETERMINATION, VALIDATION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_for_det_val_obs.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_obsolete.htm"
+abapFile: "abenabp_obsolete.htm"
+keywords: ["do", "if", "method", "abenabp", "obsolete"]
+---
 
 * * *
 

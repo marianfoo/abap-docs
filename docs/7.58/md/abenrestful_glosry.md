@@ -1,4 +1,14 @@
-  
+---
+title: "RESTful"
+description: |
+  Programming models and their services, APIs, and protocols are called RESTful if they meet the REST(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrest_glosry.htm 'Glossary Entry') principles. See also ABAP RESTful Application Programming Model(https://help.sap.com/doc/abapdocu_7
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrestful_glosry.htm"
+abapFile: "abenrestful_glosry.htm"
+keywords: ["do", "if", "try", "abenrestful", "glosry"]
+---
 
 * * *
 

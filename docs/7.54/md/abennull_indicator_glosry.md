@@ -1,4 +1,14 @@
-  
+---
+title: "Null Indicator"
+description: |
+  Substructure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubstructure_glosry.htm 'Glossary Entry') of a structured target area of an ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry') query(https://help.sap.com/doc/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_indicator_glosry.htm"
+abapFile: "abennull_indicator_glosry.htm"
+keywords: ["select", "do", "try", "abennull", "indicator", "glosry"]
+---
 
 * * *
 

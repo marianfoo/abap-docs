@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, TABLE OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_shortref.htm) Syntax DATA itab  TYPE STANDARDSORTEDHASHED TABLE OF REF TO type  LIKE STANDARDSORTEDHASHED TABLE OF dobj  tabkeys(https://help.sap.com/d
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_itab.htm"
+abapFile: "abapdata_itab.htm"
+keywords: ["select", "insert", "do", "try", "data", "types", "internal-table", "abapdata", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for SAP Cloud Platform"
+description: |
+  Abbreviated as ABAP for SAP CP. ABAP language version(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_version_glosry.htm 'Glossary Entry') with restricted language scope and restricted access to repository objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_for_sap_cloud_glosry.htm"
+abapFile: "abenabap_for_sap_cloud_glosry.htm"
+keywords: ["do", "try", "abenabap", "for", "sap", "cloud", "glosry"]
+---
 
 * * *
 

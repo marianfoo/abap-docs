@@ -1,4 +1,14 @@
-  
+---
+title: "Operand Type"
+description: |
+  An operand position is typed by an operand type, which can be complete or generic and can also be dependent on other operand positions, for example in assignments. When a statement is executed, an operand with a suitable data type is expected. If an operand specified at an operand position has a dif
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperand_type.htm"
+abapFile: "abenoperand_type.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenoperand", "type"]
+---
 
 * * *
 
@@ -12,10 +22,8 @@ Operand Type
 
 An operand position is typed by an operand type, which can be complete or generic and can also be dependent on other operand positions, for example in assignments. When a statement is executed, an operand with a suitable data type is expected. If an operand specified at an operand position has a different data type than the operand type, an attempt is usually made to convert the content of the operand to the operand type according to the [conversion rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm) at [read positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenread_position_glosry.htm "Glossary Entry"), and in the other direction at [write positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwrite_position_glosry.htm "Glossary Entry"). Here, it should be noted that every conversion incurs increased runtime costs. If no corresponding conversion rule is defined, or the content cannot be converted, a syntax error occurs or an exception is raised. Any deviations from this rule, for example that the operand must exactly match the operand type or the operand is [cast](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencast_casting_glosry.htm "Glossary Entry") to the operand type regardless of its actual type, are described in the documentation of the individual statements.
 
--   [Operand Positions with Elementary Data Type](#@@ITOC@@ABENOPERAND_TYPE_1)
--   [Operand Positions with Structured Data Type](#@@ITOC@@ABENOPERAND_TYPE_2)
--   [Operand Positions with Tabular Data Type](#@@ITOC@@ABENOPERAND_TYPE_3)
--   [Operand Positions with Reference Data Type](#@@ITOC@@ABENOPERAND_TYPE_4)
+-   [Operand Positions with Elementary Data Type](#abenoperand-type-1-------operand-positions-with-structured-data-type---@ITOC@@ABENOPERAND_TYPE_2)
+-   [Operand Positions with Tabular Data Type](#abenoperand-type-3-------operand-positions-with-reference-data-type---@ITOC@@ABENOPERAND_TYPE_4)
 
 Operand Positions with Elementary Data Type   
 

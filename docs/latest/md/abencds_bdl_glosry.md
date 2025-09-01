@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BDL"
+description: |
+  Behavior Definition Language in ABAP RAP. RAP BDL contains language elements for RAP behavior definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') in BDL source code(https://help.sap.com/doc/abapdocu_latest_index_htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm"
+abapFile: "abencds_bdl_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "bdl", "glosry"]
+---
 
 * * *
 

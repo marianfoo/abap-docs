@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP RESTful Programming Model"
+description: |
+  ABAP RESTful Programming Model is an ABAP programming model for browser-based applications that are optimized for SAP HANA. This is a methodology for developing architectures for distributed systems that use the Web to communicate with each other. This methodology is based on a set of rules that spe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm"
+abapFile: "abenrestful_abap_programming.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenrestful", "abap", "programming"]
+---
 
 * * *
 

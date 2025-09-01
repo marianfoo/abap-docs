@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Classes"
+description: |
+  This example demonstrates a class for counters. Source Code REPORT demo_class_counter . CLASS counter DEFINITION. PUBLIC SECTION. METHODS: set IMPORTING value(set_value) TYPE i, increment, get EXPORTING value(get_value) TYPE i. PRIVATE SECTION. DATA count TYPE i. ENDCLASS. CLASS counter IMPLEMEN
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_abexa.htm"
+abapFile: "abenclass_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abenclass", "abexa"]
+---
 
 * * *
 

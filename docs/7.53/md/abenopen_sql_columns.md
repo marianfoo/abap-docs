@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Specified Columns"
+description: |
+  Syntax ... data_sourcetabalias~colname  data_sourcetabalias~path_expr(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm)-element ... Variants: 1. ... colname(#!ABAP_VARIANT_1@1@) 2. ... path_expr-element(#!ABAP_VARIANT_2@2@) Additi
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm"
+abapFile: "abenopen_sql_columns.htm"
+keywords: ["select", "do", "if", "try", "data", "abenopen", "sql", "columns"]
+---
 
 * * *
 

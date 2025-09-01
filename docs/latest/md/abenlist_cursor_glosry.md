@@ -1,4 +1,14 @@
-  
+---
+title: "list_cursor_glosry"
+description: |
+  list_cursor_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_cursor_glosry.htm"
+abapFile: "abenlist_cursor_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenlist", "cursor", "glosry"]
+---
 
 * * *
 

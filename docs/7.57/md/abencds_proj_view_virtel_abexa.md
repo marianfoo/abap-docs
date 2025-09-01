@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS Projection View, Calculating a Virtual Element"
+description: |
+  This example demonstrates how a virtual element(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_virtual_element_glosry.htm 'Glossary Entry') is calculated at runtime. Source Code REPORT demo_consume_bs_proj_view_virt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS mai
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_virtel_abexa.htm"
+abapFile: "abencds_proj_view_virtel_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abencds", "proj", "view", "virtel", "abexa"]
+---
 
 * * *
 

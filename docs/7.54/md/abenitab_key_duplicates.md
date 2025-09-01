@@ -1,4 +1,14 @@
-  
+---
+title: "Duplicate Unique Keys"
+description: |
+  When rows are inserted into internal tables with a unique primary key or unique secondary key, duplicates can occur with respect to one or more of these keys. Depending on whether the insert takes place as a single record operation or a mass operation, the ABAP runtime environment responds as follow
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_key_duplicates.htm"
+abapFile: "abenitab_key_duplicates.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "internal-table", "abenitab", "key", "duplicates"]
+---
 
 * * *
 

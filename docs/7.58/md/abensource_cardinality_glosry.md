@@ -1,4 +1,14 @@
-  
+---
+title: "source_cardinality_glosry"
+description: |
+  source_cardinality_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensource_cardinality_glosry.htm"
+abapFile: "abensource_cardinality_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensource", "cardinality", "glosry"]
+---
 
 * * *
 

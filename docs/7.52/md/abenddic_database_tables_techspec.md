@@ -1,4 +1,14 @@
-  
+---
+title: "Table-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are provided specifically for database tables. They define attributes of the physical database table and how the database interface is used for access. With the exception of the activation type, these technical settings constitute a standalone object and can be act
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techspec.htm"
+abapFile: "abenddic_database_tables_techspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "techspec"]
+---
 
 * * *
 

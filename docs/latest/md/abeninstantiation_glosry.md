@@ -1,4 +1,14 @@
-  
+---
+title: "instantiation_glosry"
+description: |
+  instantiation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstantiation_glosry.htm"
+abapFile: "abeninstantiation_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abeninstantiation", "glosry"]
+---
 
 * * *
 

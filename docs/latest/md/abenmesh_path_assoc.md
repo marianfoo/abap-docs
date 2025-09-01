@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... _assoc+ ...   _assoc~node+ ...   ^_assoc~node+ ...  ... Variants: 1. ... _assoc(#!ABAP_VARIANT_1@1@) 2. ... _assoc~node(#!ABAP_VARIANT_2@2@) 3. ... ^_assoc~node(#!ABAP_VARIANT_3@3@) Additions: 1. ...  ...
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc.htm"
+abapFile: "abenmesh_path_assoc.htm"
+keywords: ["delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abenmesh", "path", "assoc"]
+---
 
 * * *
 

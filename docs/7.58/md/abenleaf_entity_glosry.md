@@ -1,4 +1,14 @@
-  
+---
+title: "leaf_entity_glosry"
+description: |
+  leaf_entity_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleaf_entity_glosry.htm"
+abapFile: "abenleaf_entity_glosry.htm"
+keywords: ["do", "if", "try", "abenleaf", "entity", "glosry"]
+---
 
 * * *
 

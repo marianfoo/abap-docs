@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect.htm) Syntax SELECT SINGLE FOR UPDATE  DISTINCT     ..., data_source~, ..., sql_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_exp_shortref.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_shortref.htm"
+abapFile: "abapselect_shortref.htm"
+keywords: ["select", "update", "loop", "do", "if", "try", "data", "internal-table", "abapselect", "shortref"]
+---
 
 * * *
 

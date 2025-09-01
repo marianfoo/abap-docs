@@ -1,4 +1,14 @@
-  
+---
+title: "Append view"
+description: |
+  Object of the ABAP Dictionary(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry'), used to extend a database view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_view_glosry.htm 'Glossary Entry') with further fields
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenappend_view_glosry.htm"
+abapFile: "abenappend_view_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenappend", "view", "glosry"]
+---
 
 * * *
 

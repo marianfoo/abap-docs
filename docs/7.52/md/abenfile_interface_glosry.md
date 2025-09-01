@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP file interface"
+description: |
+  The ABAP file interface makes it possible to edit files(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_glosry.htm 'Glossary Entry') on the application servers(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm 'Glossary Entry') using
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_glosry.htm"
+abapFile: "abenfile_interface_glosry.htm"
+keywords: ["do", "try", "abenfile", "interface", "glosry"]
+---
 
 * * *
 

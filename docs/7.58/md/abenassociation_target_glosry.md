@@ -1,4 +1,14 @@
-  
+---
+title: "association_target_glosry"
+description: |
+  association_target_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassociation_target_glosry.htm"
+abapFile: "abenassociation_target_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenassociation", "target", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Classes and Interfaces"
+description: |
+  This section describes the definition of classes(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass.htm) and interfaces(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface.htm) and of their components(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclasses_and_interfaces.htm"
+abapFile: "abenclasses_and_interfaces.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenclasses", "and", "interfaces"]
+---
 
 * * *
 

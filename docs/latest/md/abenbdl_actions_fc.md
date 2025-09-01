@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - feature control"
+description: |
+  Syntax ... (features:instance)  (features:global) ... Variants: 1. ... (features:instance)(#!ABAP_VARIANT_1@1@) 2. ... (features:global)(#!ABAP_VARIANT_2@2@) Effect Defines feature control(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_feature_control_glosry.htm '
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_fc.htm"
+abapFile: "abenbdl_actions_fc.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "actions"]
+---
 
 * * *
 

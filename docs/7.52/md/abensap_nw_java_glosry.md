@@ -1,4 +1,14 @@
-  
+---
+title: "AS Java"
+description: |
+  → Application Server Java(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjava_personality_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_java_glosry.htm"
+abapFile: "abensap_nw_java_glosry.htm"
+keywords: ["do", "try", "abensap", "java", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   A splitter control can only be created in the alphanumeric Screen Painter by using Edit → Create Element → Splitter Control. For this reason, it should only be used in cases when the functions offered are required on classic dynpros. SAPUI5(https://help.sap.com/doc/abapdocu_latest_index_htm/la
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP Using a Function"
+description: |
+  This example demonstrates the construction of the group key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengroup_key_glosry.htm 'Glossary Entry') using a string function. Source Code REPORT demo_loop_group_by_string_func. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: m
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_group_by_func_abexa.htm"
+abapFile: "abenloop_group_by_func_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "internal-table", "field-symbol", "abenloop", "group", "func", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Switching Spooling On and Off"
+description: |
+  If spooling is switched off, all list output is written to the list buffer for the current screen list. When spooling is switched on, a spool list is created. Spooling can be switched on as follows: -   Using the statement NEW-PAGE PRINT ON(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-U
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprint_on_off.htm"
+abapFile: "abenprint_on_off.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenprint", "off"]
+---
 
 * * *
 

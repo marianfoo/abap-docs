@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Engine, Supported SQL Expressions"
+description: |
+  The evaluation of SQL expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm) as well as the execution of built-in functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_builtin_functions.htm) as operands of such expressions i
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_engine_expr.htm"
+abapFile: "abensql_engine_expr.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abensql", "engine", "expr"]
+---
 
 * * *
 
@@ -33,5 +43,4 @@ Hints
     -   Operands of the type [SSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) that do not have trailing blanks on the database, unlike in ABAP.
     -   Any [null values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_value_glosry.htm "Glossary Entry") produced as results of nested expressions, for example in the [COALESCE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_coalesce.htm) function or in [comparisons](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_expr_logexp.htm), are handled as null values.
     -   The result of a [relational expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_stmt_logexp.htm) with columns that contain [null values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_value_glosry.htm "Glossary Entry") is unknown, except in the case of the expression [IS *\[*NOT*\]* NULL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwhere_logexp_null.htm).
-    -   Calculations for built-in type [DECFLOAT16](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2) are done with the respective arithmetic. The ABAP [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarith_type.htm) for [decfloat16](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm) is [decfloat34](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm) in contrast.
--   When calculating with the built-in types [DF16\_DEC](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2) and [DF34\_DEC](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2), the ABAP SQL engine uses the respective decimal floating point arithmetic, while the database uses packed number arithmetic. This can lead to different results.
+    -   Calculations for built-in type [DECFLOAT16](abenddic_builtin_types.htm#abenddic-builtin-types-2--are-done-with-the-respective-arithmetic--the-abap--calculation-type--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenarith-type-htm--for--decfloat16--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenbuiltin-types-numeric-htm--is--decfloat34--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenbuiltin-types-numeric-htm--in-contrast------when-calculating-with-the-built-in-types--df16--dec--abenddic-builtin-types-htm-@ITOC@@ABENDDIC_BUILTIN_TYPES_2) and [DF34\_DEC](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2), the ABAP SQL engine uses the respective decimal floating point arithmetic, while the database uses packed number arithmetic. This can lead to different results.

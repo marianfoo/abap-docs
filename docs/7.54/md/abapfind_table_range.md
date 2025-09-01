@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FROM lin1 OFFSET off1 TO   lin2 OFFSET off2 ... Effect This addition limits the search in the statement FIND IN TABLE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab.htm) to the table range specified in lin1, off1, lin2 and off2. Without
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_table_range.htm"
+abapFile: "abapfind_table_range.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abapfind", "table", "range"]
+---
 
 * * *
 

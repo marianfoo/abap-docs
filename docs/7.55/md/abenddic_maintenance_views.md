@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Maintenance Views"
+description: |
+  A DDIC maintenance view is a special view for performing writes on multiple tables using extended table maintenance. A single maintenance view can be used to modify the content of multiple related database tables consistently. A DDIC maintenance view is not defined on the database. The structure typ
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_maintenance_views.htm"
+abapFile: "abenddic_maintenance_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "abenddic", "maintenance", "views"]
+---
 
 * * *
 

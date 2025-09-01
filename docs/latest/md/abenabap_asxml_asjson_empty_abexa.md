@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_asxml_asjson_strct_cps DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_asxml_asjson_strct_cps IMPLEMENTATION. METHOD main. out->beg
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asxml_asjson_empty_abexa.htm"
+abapFile: "abenabap_asxml_asjson_empty_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "asxml", "asjson", "empty", "abexa"]
+---
 
 * * *
 

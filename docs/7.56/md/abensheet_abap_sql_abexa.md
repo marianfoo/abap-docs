@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Working with Persisted Data in Database Tables"
+description: |
+  This example demonstrates the syntactical options for working with persisted data in database tables as outlined in the ABAP cheat sheet ABAP SQL: Working with persisted data in database tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql.htm). Source Code REPORT d
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_abap_sql_abexa.htm"
+abapFile: "abensheet_abap_sql_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abensheet", "abap", "sql", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Nested Tables"
+description: |
+  This example demonstrates how nested internal tables are declared and used. Source Code REPORT demo_nested_internal_tables. CLASS table_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF t_address, street TYPE c LENGTH 20, city   TYPE c LENGTH 20, END OF t_ad
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennested_internal_tables_abexa.htm"
+abapFile: "abennested_internal_tables_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "field-symbol", "abennested", "internal", "tables", "abexa"]
+---
 
 * * *
 

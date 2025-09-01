@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA Studio"
+description: |
+  Tool based on Eclipse for XSV(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsc_glosry.htm 'Glossary Entry') objects saved in the SAP HANA repository(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_hana_repository_glosry.htm 'Glossary Entry'). In XSA(https:/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_studio_glosry.htm"
+abapFile: "abenhana_studio_glosry.htm"
+keywords: ["do", "try", "abenhana", "studio", "glosry"]
+---
 
 * * *
 

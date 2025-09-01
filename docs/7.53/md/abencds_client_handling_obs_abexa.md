@@ -1,4 +1,14 @@
-  
+---
+title: "CDS Views, Obsolete Client Handling"
+description: |
+  This example demonstrates how obsolete cross-client(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_client_handling_obs.htm) CDS views are handled. Source Code REPORT demo_cds_client_handling_obs. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLAS
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_client_handling_obs_abexa.htm"
+abapFile: "abencds_client_handling_obs_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abencds", "client", "handling", "obs", "abexa"]
+---
 
 * * *
 

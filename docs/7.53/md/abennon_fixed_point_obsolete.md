@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Disabling of Fixed Point Arithmetic"
+description: |
+  The program attribute(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_glosry.htm 'Glossary Entry') fixed point arithmetic(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixed_point_arithmetic_glosry.htm 'Glossary Entry') is set by default when a p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennon_fixed_point_obsolete.htm"
+abapFile: "abennon_fixed_point_obsolete.htm"
+keywords: ["do", "if", "try", "class", "types", "abennon", "fixed", "point", "obsolete"]
+---
 
 * * *
 

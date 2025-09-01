@@ -1,4 +1,14 @@
-  
+---
+title: "database_program_glosry"
+description: |
+  database_program_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_program_glosry.htm"
+abapFile: "abendatabase_program_glosry.htm"
+keywords: ["select", "do", "try", "data", "abendatabase", "program", "glosry"]
+---
 
 * * *
 

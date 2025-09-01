@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion of Integer Numbers to Bytes"
+description: |
+  This example demonstrates the conversion of integers into byte fields and byte strings. Source Code REPORT demo_int_to_hex. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF line, int1 TYPE c LENGTH 60, int2 TYPE c LENGTH 60, int4 TYPE c LENGTH 60, int8 T
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_int_to_hex_abexa.htm"
+abapFile: "abenconversion_int_to_hex_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abenconversion", "int", "hex", "abexa"]
+---
 
 * * *
 

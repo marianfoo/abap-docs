@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   Since sorted tables and hashed tables have real key administration for the primary key, unlike standard tables, these tables are also grouped under the term key tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkey_table_glosry.htm 'Glossary Entry'). -   To achieve optimize
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_key_primary.htm"
+abapFile: "abenitab_key_primary.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "key", "primary"]
+---
 
 * * *
 

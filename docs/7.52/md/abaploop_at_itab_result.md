@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT itab - result"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_shortref.htm) Syntax ...  INTO wa    ASSIGNING <fs> CASTING    REFERENCE INTO dref    TRANSPORTING NO FIELDS  ... Effect Defines the output behavior of a LOOP(http
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_result.htm"
+abapFile: "abaploop_at_itab_result.htm"
+keywords: ["insert", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abaploop", "itab", "result"]
+---
 
 * * *
 

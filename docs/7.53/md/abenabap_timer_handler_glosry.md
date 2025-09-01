@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Timer handler"
+description: |
+  Class(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm 'Glossary Entry') that implements the interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_glosry.htm 'Glossary Entry') IF_ABAP_TIMER_HANDLER. The interface method ON_TIMEOUT o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_timer_handler_glosry.htm"
+abapFile: "abenabap_timer_handler_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabap", "timer", "handler", "glosry"]
+---
 
 * * *
 

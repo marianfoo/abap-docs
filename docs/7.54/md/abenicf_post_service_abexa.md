@@ -1,4 +1,14 @@
-  
+---
+title: "Calling an HTTP Service Using the POST Method"
+description: |
+  This example demonstrates calls of an HTTP service in ICF(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_glosry.htm 'Glossary Entry') and a Web browser. The input data is passed using the POST method. Source Code REPORT demo_http_post_service. CLASS demo DEFINITION. PUBLIC S
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_post_service_abexa.htm"
+abapFile: "abenicf_post_service_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenicf", "post", "service", "abexa"]
+---
 
 * * *
 

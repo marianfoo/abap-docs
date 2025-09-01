@@ -1,4 +1,14 @@
-  
+---
+title: "input_stream_glosry"
+description: |
+  input_stream_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninput_stream_glosry.htm"
+abapFile: "abeninput_stream_glosry.htm"
+keywords: ["do", "if", "try", "abeninput", "stream", "glosry"]
+---
 
 * * *
 

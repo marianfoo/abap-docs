@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - implementation in class unique"
+description: |
+  Syntax ... implementation in class ClassName unique Effect Specifies an ABAP behavior pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') for the RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/ab
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_in_class_unique.htm"
+abapFile: "abenbdl_in_class_unique.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "abenbdl", "unique"]
+---
 
 * * *
 

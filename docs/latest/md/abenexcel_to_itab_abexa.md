@@ -1,4 +1,14 @@
-  
+---
+title: "Uploading an Excel File"
+description: |
+  This example loads an Excel file from the presentation server and converts it into an internal table. Source Code  Public class definition CLASS cl_demo_read_excel_to_itab DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexcel_to_itab_abexa.htm"
+abapFile: "abenexcel_to_itab_abexa.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenexcel", "itab", "abexa"]
+---
 
 * * *
 

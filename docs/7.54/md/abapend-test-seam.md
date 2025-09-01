@@ -1,4 +1,14 @@
-  
+---
+title: "END-TEST-SEAM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-seam_shortref.htm) Syntax END-TEST-SEAM. Effect The statement END-TEST-SEAM closes a test seam introduced using TEST-SEAM(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-seam.htm).
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-test-seam.htm"
+abapFile: "abapend-test-seam.htm"
+keywords: ["do", "abapend", "test", "seam"]
+---
 
 * * *
 

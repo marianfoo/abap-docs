@@ -1,4 +1,14 @@
-  
+---
+title: "Programming Guideline"
+description: |
+  Secondary Key(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_key_guidl.htm 'Guideline') Hints -   Optimized access times to the individual lines using secondary keys are bought(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_key_memory.htm) in exchan
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_key_secondary.htm"
+abapFile: "abenitab_key_secondary.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abenitab", "key", "secondary"]
+---
 
 * * *
 

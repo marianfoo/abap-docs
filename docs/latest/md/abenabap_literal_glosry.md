@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP literal"
+description: |
+  Unnamed data object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunnamed_data_object_glosry.htm 'Glossary Entry') defined by direct character-like specification of a value in the ABAP source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sour
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_literal_glosry.htm"
+abapFile: "abenabap_literal_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "literal", "glosry"]
+---
 
 * * *
 

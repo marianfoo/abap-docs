@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Subject Directory"
+description: |
+  A(#A) B(#B) C(#C) D(#D) E(#E) F(#F) G(#G) H(#H) I(#I) J(#J) K(#K) L(#L) M(#M) N(#N) O(#O) P(#P) Q(#Q) R(#R) S(#S) T(#T) U(#U) V(#V) W(#W) X(#X)  @, ABAP Annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_subjects.htm"
+abapFile: "abenabap_subjects.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "exception-handling", "abenabap", "subjects"]
+---
 
 * * *
 

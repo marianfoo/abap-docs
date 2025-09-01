@@ -1,4 +1,14 @@
-  
+---
+title: "Components of classes"
+description: |
+  The content of a class is composed of components. The components define the attributes of the objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject.htm) in a class. Each component is declared in the definition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abe
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_components.htm"
+abapFile: "abenclass_components.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenclass", "components"]
+---
 
 * * *
 

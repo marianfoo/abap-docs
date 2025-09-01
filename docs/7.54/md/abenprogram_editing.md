@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  Testing and Checking Programs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_tests.htm) Dynamic Program Editing(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_dynamic.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_editing.htm"
+abapFile: "abenprogram_editing.htm"
+keywords: ["do", "abenprogram", "editing"]
+---
 
 * * *
 

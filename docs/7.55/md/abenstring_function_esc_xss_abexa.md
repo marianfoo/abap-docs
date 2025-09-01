@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_xss. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. CLASS-DATA: in  TYPE REF TO if_demo_input, icf_node TYPE string. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. CONSTANTS xss_demo TYPE string VALUE `foo' onmouseover='alert('Go
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_function_esc_xss_abexa.htm"
+abapFile: "abenstring_function_esc_xss_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenstring", "function", "esc", "xss", "abexa"]
+---
 
 * * *
 

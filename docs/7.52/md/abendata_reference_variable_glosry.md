@@ -1,4 +1,14 @@
-  
+---
+title: "Data Reference Variable"
+description: |
+  Reference variable(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_variable_glosry.htm 'Glossary Entry') for data references(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_reference_glosry.htm 'Glossary Entry'). The static type(https://help.sap.com
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_reference_variable_glosry.htm"
+abapFile: "abendata_reference_variable_glosry.htm"
+keywords: ["do", "try", "data", "types", "abendata", "reference", "variable", "glosry"]
+---
 
 * * *
 

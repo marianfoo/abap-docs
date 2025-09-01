@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Area Handles"
+description: |
+  Creating Area Handles Area handles are instances of the area class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarea_class_glosry.htm 'Glossary Entry') of an area. An individual area handle is created using one of the following static methods from the area class. During this proc
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_instance_handle.htm"
+abapFile: "abenshm_area_instance_handle.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "method", "class", "internal-table", "abenshm", "area", "instance", "handle"]
+---
 
 * * *
 

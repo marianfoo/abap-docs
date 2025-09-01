@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT itab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab_variants.htm) Syntax LOOP AT itab   INTO wa    ASSIGNING <fs> CASTING    REFERENCE INTO dref    TRANSPORTING NO FIELDS    USING KEY key_name(name)
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab_shortref.htm"
+abapFile: "abaploop_at_itab_shortref.htm"
+keywords: ["loop", "do", "if", "try", "internal-table", "field-symbol", "abaploop", "itab", "shortref"]
+---
 
 * * *
 

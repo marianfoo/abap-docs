@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE - PERCENTAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_percentage_shortref.htm) Obsolete Syntax MOVE source TO destination PERCENTAGE perc LEFTRIGHT. Effect This variant of the statement MOVE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_percentage.htm"
+abapFile: "abapmove_percentage.htm"
+keywords: ["do", "if", "class", "data", "abapmove", "percentage"]
+---
 
 * * *
 

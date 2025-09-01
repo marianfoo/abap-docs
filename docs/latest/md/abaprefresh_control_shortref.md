@@ -1,4 +1,14 @@
-  
+---
+title: "REFRESH CONTROL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprefresh_control.htm) Syntax REFRESH CONTROL contrl FROM SCREEN dynnr. Effect Assigns the values predefined in the dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary E
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprefresh_control_shortref.htm"
+abapFile: "abaprefresh_control_shortref.htm"
+keywords: ["do", "if", "try", "abaprefresh", "control", "shortref"]
+---
 
 * * *
 

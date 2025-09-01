@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... AVG( DISTINCT col(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) AS dtype(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_avg_as.htm) )  MAX( DISTINCT sql_exp(https://help.sap.com/doc/abapdocu_754_index
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_agg_func.htm"
+abapFile: "abensql_agg_func.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "case", "try", "class", "data", "types", "abensql", "agg", "func"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Boxed Components"
+description: |
+  Boxed components are structures that are not saved in the higher-level context itself. Instead, an internal reference that points to the actual structure is stored in place of the structure. A boxed component is always a deep(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glos
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboxed_components.htm"
+abapFile: "abenboxed_components.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenboxed", "components"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator, Lookup Table"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expr_corresponding.htm) with FROM ... USING. Source Code  Public class definition CLASS cl_demo_crrspndng_using DEFINITION INHERITING FROM cl_demo_classrun PUBLIC
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_using_abexa.htm"
+abapFile: "abencorresponding_using_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abencorresponding", "using", "abexa"]
+---
 
 * * *
 

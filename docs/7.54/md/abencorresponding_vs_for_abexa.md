@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator, Comparison with FOR Expression"
+description: |
+  This example compares the component operator(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expr_corresponding.htm) with table comprehensions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_comprehension_glosry.htm 'Glossary Entry'), Source Code R
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_vs_for_abexa.htm"
+abapFile: "abencorresponding_vs_for_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencorresponding", "for", "abexa"]
+---
 
 * * *
 

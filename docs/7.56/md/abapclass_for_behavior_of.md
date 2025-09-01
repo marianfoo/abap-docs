@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS, FOR BEHAVIOR OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_shortref.htm) Syntax CLASS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_definition.htm) class DEFINITION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_definition.
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_for_behavior_of.htm"
+abapFile: "abapclass_for_behavior_of.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abapclass", "for", "behavior"]
+---
 
 * * *
 

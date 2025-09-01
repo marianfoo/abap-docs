@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... - sql_exp1 +-/ - sql_exp2 +-/ - sql_exp3 ...  ... Effect Arithmetic expression in ABAP SQL. The operators perform arithmetic calculations between two adjacent operands sql_exp1, sql_exp2, and so on. The possible operators are: -   +
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_arith.htm"
+abapFile: "abensql_arith.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abensql", "arith"]
+---
 
 * * *
 

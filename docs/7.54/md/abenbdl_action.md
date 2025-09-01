@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - DEFINE BEHAVIOR, action"
+description: |
+  Syntax ... internal static action ActionName external LongName parameter InputParameterEntity$self result cardinality OutputParameterEntity$self; Effect In behavior definitions, actions can be specified as application-specific operations. Actions can eit
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_action.htm"
+abapFile: "abenbdl_action.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "abenbdl", "action"]
+---
 
 * * *
 

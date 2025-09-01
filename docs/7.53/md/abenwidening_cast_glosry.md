@@ -1,4 +1,14 @@
-  
+---
+title: "widening_cast_glosry"
+description: |
+  widening_cast_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwidening_cast_glosry.htm"
+abapFile: "abenwidening_cast_glosry.htm"
+keywords: ["do", "try", "abenwidening", "cast", "glosry"]
+---
 
 * * *
 

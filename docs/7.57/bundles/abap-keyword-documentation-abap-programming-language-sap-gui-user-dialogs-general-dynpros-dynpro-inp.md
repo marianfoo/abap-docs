@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenabap_dynpros_checks.htm
 
-  
+---
+title: "Hint"
+description: |
+  Obsolete input checks are possible using the additions VALUES(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpfield_value_select.htm) and SELECT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpfield_value_select.htm) of the dynpro logic statement FIELD(https://hel
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_checks.htm"
+abapFile: "abenabap_dynpros_checks.htm"
+keywords: ["select", "do", "if", "abenabap", "dynpros", "checks"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenabap_dynpros_checks_auto.htm
 
-  
+---
+title: "Executable Example"
+description: |
+  Automatic Input Checks(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_auto_check_abexa.htm)
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_checks_auto.htm"
+abapFile: "abenabap_dynpros_checks_auto.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "dynpros", "checks", "auto"]
+---
 
 * * *
 
@@ -79,7 +99,17 @@ Executable Example
 
 ### abenabap_dynpros_checks_mod.htm
 
-  
+---
+title: "Checking Single Fields"
+description: |
+  If a warning or error message(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_field_messages.htm) is sent in a module mod whose call is combined with a FIELD(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpfield.htm) statement FIELD f MODULE mod. the input fiel
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_checks_mod.htm"
+abapFile: "abenabap_dynpros_checks_mod.htm"
+keywords: ["do", "if", "case", "data", "abenabap", "dynpros", "checks", "mod"]
+---
 
 * * *
 
@@ -94,10 +124,8 @@ dynpro - Input Checks in Dialog Modules
 
 Input checks in PAI modules are enabled by first transporting the content of the input fields to the ABAP program. This is where the content can then be checked. Any errors can be corrected on the screen before further modules are called. This is achieved by combining the statements [FIELD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpfield.htm) and [CHAIN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpchain.htm) of the dynpro flow logic with [messages](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_field_messages.htm).
 
--   [Checking Single Fields](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_1)
--   [Checking Multiple Fields](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_2)
--   [Defining Input-Enabled Fields and Data Transport](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_3)
--   [Checking Fields Repeatedly](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_4)
+-   [Checking Single Fields](#abenabap-dynpros-checks-mod-1-------checking-multiple-fields---@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_2)
+-   [Defining Input-Enabled Fields and Data Transport](#abenabap-dynpros-checks-mod-3-------checking-fields-repeatedly---@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_4)
 -   [Other Functions in the FIELD and CHAIN Statements](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_5)
 
 Checking Single Fields   
@@ -145,7 +173,17 @@ Executable Example
 
 ### abeninput_check_abexas.htm
 
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Automatic Input Checks(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_auto_check_abexa.htm) !Example(exa.gif 'Example') dynpro - Input Checks in Dialog Modules(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_fi
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_check_abexas.htm"
+abapFile: "abeninput_check_abexas.htm"
+keywords: ["do", "if", "abeninput", "check", "abexas"]
+---
 
 * * *
 
@@ -165,7 +203,17 @@ Continue
 
 ### abendynpro_auto_check_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_automatic_checks . DATA: ok_code TYPE sy-ucomm, date TYPE d. TABLES demo_conn. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMODULE. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. MODULE pai INPUT. MESSAGE i888(sabapdemos) WITH text-001. E
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_auto_check_abexa.htm"
+abapFile: "abendynpro_auto_check_abexa.htm"
+keywords: ["do", "if", "try", "data", "abendynpro", "auto", "check", "abexa"]
+---
 
 * * *
 
@@ -222,7 +270,17 @@ The user can exit the dynpro using Cancel (F12) without correctly entering all v
 
 ### abendynpro_field_chain_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_field_chain. DATA: ok_code TYPE sy-ucomm, input1 TYPE i, input2 TYPE i, input3 TYPE i, input4 TYPE i, input5 TYPE i, input6 TYPE i, sum TYPE i. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. CLEAR: input1, input2, input3, input4, input5, input6. SET PF-STATUS 'STATUS_100'
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_field_chain_abexa.htm"
+abapFile: "abendynpro_field_chain_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "field", "chain", "abexa"]
+---
 
 * * *
 
@@ -315,7 +373,17 @@ The execution module, from which an information message is displayed, is not exe
 
 ### abeninput_check_abexas.htm
 
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Automatic Input Checks(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_auto_check_abexa.htm) !Example(exa.gif 'Example') dynpro - Input Checks in Dialog Modules(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_fi
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_check_abexas.htm"
+abapFile: "abeninput_check_abexas.htm"
+keywords: ["do", "if", "abeninput", "check", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP extensibility"
+description: |
+  Extending a RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') with the respective RAP BO extensions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_extension_glosry.htm 'Glossary Entry'). Before
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extensibility_glosry.htm"
+abapFile: "abenrap_extensibility_glosry.htm"
+keywords: ["do", "if", "case", "try", "abenrap", "extensibility", "glosry"]
+---
 
 * * *
 

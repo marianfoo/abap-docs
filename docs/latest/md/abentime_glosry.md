@@ -1,4 +1,14 @@
-  
+---
+title: "time_glosry"
+description: |
+  time_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_glosry.htm"
+abapFile: "abentime_glosry.htm"
+keywords: ["do", "if", "try", "abentime", "glosry"]
+---
 
 * * *
 

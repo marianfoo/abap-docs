@@ -1,4 +1,14 @@
-  
+---
+title: "Empty Table Key"
+description: |
+  The primary table key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm 'Glossary Entry') of a standard table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm 'Glossary Entry') can be empty. An empty table key does
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_empty_key.htm"
+abapFile: "abenitab_empty_key.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "empty", "key"]
+---
 
 * * *
 
@@ -10,27 +20,11 @@ Empty Table Key
 
 The [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") of a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") can be empty. An empty table key does not contain any key fields.
 
--   [Declaration](#@@ITOC@@ABENITAB_EMPTY_KEY_1)
+-   [Declaration](#abenitab-empty-key-1--------notes-on-use---@ITOC@@ABENITAB_EMPTY_KEY_2)
 
--   [Notes on Use](#@@ITOC@@ABENITAB_EMPTY_KEY_2)
+-   [Uncritical use](#abenitab-empty-key-3--------critical-use---@ITOC@@ABENITAB_EMPTY_KEY_4)
 
--   [Uncritical use](#@@ITOC@@ABENITAB_EMPTY_KEY_3)
-
--   [Critical use](#@@ITOC@@ABENITAB_EMPTY_KEY_4)
-
--   [Example](#@@ITOC@@ABENITAB_EMPTY_KEY_5)
-
-Note
-
-[Sorted keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_key_glosry.htm "Glossary Entry") and [hash keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhash_key_glosry.htm "Glossary Entry") are never empty, regardless of whether they are primary or [secondary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_key_glosry.htm "Glossary Entry").
-
-Declaration
-
-An empty primary table key can be created as follows:
-
--   Explicitly with the addition [EMPTY KEY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_primary_key.htm) of the statements [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_primary_key.htm), [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_primary_key.htm), and so on.
-
--   Explicitly using an inline declaration [INTO TABLE @DATA(itab)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm) in the statement SELECT
+-   [Example](#abenitab-empty-key-5---note---sorted-keys--https---help-sap-com-doc-abapdocu-752-index-htm-7-52-en-us-abensorted-key-glosry-htm--glossary-entry---and--hash-keys--https---help-sap-com-doc-abapdocu-752-index-htm-7-52-en-us-abenhash-key-glosry-htm--glossary-entry---are-never-empty--regardless-of-whether-they-are-primary-or--secondary--https---help-sap-com-doc-abapdocu-752-index-htm-7-52-en-us-abensecondary-key-glosry-htm--glossary-entry-----declaration--an-empty-primary-table-key-can-be-created-as-follows-------explicitly-with-the-addition--empty-key--https---help-sap-com-doc-abapdocu-752-index-htm-7-52-en-us-abaptypes-primary-key-htm--of-the-statements--types--https---help-sap-com-doc-abapdocu-752-index-htm-7-52-en-us-abaptypes-primary-key-htm----data--https---help-sap-com-doc-abapdocu-752-index-htm-7-52-en-us-abapdata-primary-key-htm---and-so-on-------explicitly-using-an-inline-declaration--into-table-DATA(itab)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm) in the statement SELECT
 
 -   Implicitly when using the [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_standard_key.htm) if a structured row type does not contain any non-numeric elementary components or if an unstructured row type is table-like.
 

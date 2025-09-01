@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Loops Across Mesh Paths"
+description: |
+  This example demonstrates loops across mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_loop_at_flights DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor . PRIVATE SECTION. TYPES: t_scarr    T
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_loops_abexa.htm"
+abapFile: "abenmesh_loops_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abenmesh", "loops", "abexa"]
+---
 
 * * *
 

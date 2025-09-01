@@ -1,4 +1,14 @@
-  
+---
+title: "byte_like_expression_glosry"
+description: |
+  byte_like_expression_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_like_expression_glosry.htm"
+abapFile: "abenbyte_like_expression_glosry.htm"
+keywords: ["do", "try", "data", "abenbyte", "like", "expression", "glosry"]
+---
 
 * * *
 

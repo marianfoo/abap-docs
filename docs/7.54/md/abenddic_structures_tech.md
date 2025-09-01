@@ -1,4 +1,14 @@
-  
+---
+title: "Technical Attributes of Structures"
+description: |
+  A structure describes a structure type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructured_type_glosry.htm 'Glossary Entry') constructed from components and with the following technical attributes: -   Component name The name of a component can have a maximum of 30 characters
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_structures_tech.htm"
+abapFile: "abenddic_structures_tech.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "tech"]
+---
 
 * * *
 

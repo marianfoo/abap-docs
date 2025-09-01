@@ -1,4 +1,14 @@
-  
+---
+title: "Information Access protocol"
+description: |
+  InA(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenina_glosry.htm 'Glossary Entry') for short. InA is a standardized protocol for defining and consuming multidimensional analytical queries. InA can be specified as a type of service binding(https://help.sap.com/doc/abapdocu_l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenina_protocol_glosry.htm"
+abapFile: "abenina_protocol_glosry.htm"
+keywords: ["do", "if", "try", "abenina", "protocol", "glosry"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 10
 
 ### abentextpool.htm
 
-  
+---
+title: "The statements"
+description: |
+  -   READ TEXTPOOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_textpool.htm) -   INSERT TEXTPOOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_textpool.htm) for dynamically creating and editing text elements(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentextpool.htm"
+abapFile: "abentextpool.htm"
+keywords: ["insert", "do", "if", "try", "abentextpool"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abapread_textpool.htm
 
-  
+---
+title: "READ TEXTPOOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_textpool_shortref.htm) Syntax READ TEXTPOOL prog INTO itab LANGUAGE lang. Effect This statement reads the text elements of the text pool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_pool_gl
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_textpool.htm"
+abapFile: "abapread_textpool.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapread", "textpool"]
+---
 
 * * *
 
@@ -128,7 +148,17 @@ Continue
 
 ### abapread_textpool_internal.htm
 
-  
+---
+title: "READ TEXTPOOL - Internal Addition"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... STATE state Effect This addition determines whether the statement uses the active version or an inactive version of the repository object. state can have the values 'A' (for active) and 'I' (for inacti
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_textpool_internal.htm"
+abapFile: "abapread_textpool_internal.htm"
+keywords: ["insert", "do", "if", "abapread", "textpool", "internal"]
+---
 
 * * *
 
@@ -176,7 +206,17 @@ Non-Handleable Exceptions
 
 ### abapread_textpool.htm
 
-  
+---
+title: "READ TEXTPOOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_textpool_shortref.htm) Syntax READ TEXTPOOL prog INTO itab LANGUAGE lang. Effect This statement reads the text elements of the text pool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_pool_gl
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_textpool.htm"
+abapFile: "abapread_textpool.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapread", "textpool"]
+---
 
 * * *
 
@@ -273,7 +313,17 @@ Continue
 
 ### abapinsert_textpool.htm
 
-  
+---
+title: "INSERT TEXTPOOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_textpool_shortref.htm) Syntax INSERT TEXTPOOL prog FROM itab LANGUAGE lang. Effect This statement places the contents of table itab into the repository(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_textpool.htm"
+abapFile: "abapinsert_textpool.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abapinsert", "textpool"]
+---
 
 * * *
 
@@ -366,7 +416,17 @@ Continue
 
 ### abapinsert_textpool_internal.htm
 
-  
+---
+title: "INSERT TEXTPOOL - Internal Addition"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... STATE state Effect This addition determines whether the statement uses the active version or an inactive version of the repository object. state can have the values 'A' (for active) and 'I' (for inacti
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_textpool_internal.htm"
+abapFile: "abapinsert_textpool_internal.htm"
+keywords: ["insert", "do", "if", "abapinsert", "textpool", "internal"]
+---
 
 * * *
 
@@ -414,7 +474,17 @@ Non-Handleable Exceptions
 
 ### abapinsert_textpool.htm
 
-  
+---
+title: "INSERT TEXTPOOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_textpool_shortref.htm) Syntax INSERT TEXTPOOL prog FROM itab LANGUAGE lang. Effect This statement places the contents of table itab into the repository(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_textpool.htm"
+abapFile: "abapinsert_textpool.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abapinsert", "textpool"]
+---
 
 * * *
 
@@ -507,7 +577,17 @@ Continue
 
 ### abengeneric_text_internal.htm
 
-  
+---
+title: "Internal Statement for Editing Text Elements"
+description: |
+  This statement is for internal use only. It must not be used in application programs. -   DELETE TEXTPOOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_textpool.htm) DELETE TEXTPOOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_textpool.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_text_internal.htm"
+abapFile: "abengeneric_text_internal.htm"
+keywords: ["delete", "do", "abengeneric", "text", "internal"]
+---
 
 * * *
 
@@ -528,7 +608,17 @@ Continue
 
 ### abapdelete_textpool.htm
 
-  
+---
+title: "DELETE TEXTPOOL"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DELETE TEXTPOOL prog LANGUAGE lg. Addition: ... STATE state(#!ABAP_ONE_ADD@1@) Effect All(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_element_glosry.htm 'Glossary Entry') text ele
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_textpool.htm"
+abapFile: "abapdelete_textpool.htm"
+keywords: ["insert", "delete", "do", "if", "try", "data", "abapdelete", "textpool"]
+---
 
 * * *
 
@@ -596,7 +686,17 @@ Non-Handleable Exceptions
 
 ### abengeneric_text_internal.htm
 
-  
+---
+title: "Internal Statement for Editing Text Elements"
+description: |
+  This statement is for internal use only. It must not be used in application programs. -   DELETE TEXTPOOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_textpool.htm) DELETE TEXTPOOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_textpool.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_text_internal.htm"
+abapFile: "abengeneric_text_internal.htm"
+keywords: ["delete", "do", "abengeneric", "text", "internal"]
+---
 
 * * *
 

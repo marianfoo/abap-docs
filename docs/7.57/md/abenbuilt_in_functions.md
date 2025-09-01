@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Functions"
+description: |
+  ABAP provides a set of built-in functions. A built-in function returns a return value for one or more arguments. There are functions with exactly one unnamed argument and functions with one or more named arguments. Built-in functions can be called functionally in certain operand positions(https://
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm"
+abapFile: "abenbuilt_in_functions.htm"
+keywords: ["do", "if", "method", "data", "types", "abenbuilt", "functions"]
+---
 
 * * *
 

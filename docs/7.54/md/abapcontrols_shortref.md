@@ -1,4 +1,14 @@
-  
+---
+title: "CONTROLS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontrols.htm) Syntax CONTROLS contrl TYPE  TABLEVIEW USING SCREEN dynnr    TABSTRIP . Effect Declares the use of a control(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontrol_glosry.htm 'Gl
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontrols_shortref.htm"
+abapFile: "abapcontrols_shortref.htm"
+keywords: ["do", "if", "try", "abapcontrols", "shortref"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenenumerated_types_usage.htm
 
-  
+---
+title: "Enumerated Objects (enum)"
+description: |
+  This section summarizes the use of enumerated objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_object_glosry.htm 'Glossary Entry'), that is, data objects with enumerated types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_type_glosry.h
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_types_usage.htm"
+abapFile: "abenenumerated_types_usage.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenenumerated", "usage"]
+---
 
 * * *
 
@@ -20,16 +30,11 @@ Enumerated Objects (enum)
 
 This section summarizes the use of [enumerated objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_object_glosry.htm "Glossary Entry"), that is, data objects with [enumerated types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
--   [Declaration](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_1)
--   [Processing of Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
-    -   [Operand Positions for Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_3)
-    -   [Value Assignments](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
-    -   [Comparisons](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_5)
-    -   [Typing of Formal Parameters and Field Symbols](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
-    -   [Access to the Enumerated Value](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_7)
-    -   [Type Descriptions](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
-    -   [Data Interfaces](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_9)
-    -   [Forbidden Uses](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
+-   [Declaration](#abenenumerated-types-usage-1-------processing-of-enumerated-objects---@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
+    -   [Operand Positions for Enumerated Objects](#abenenumerated-types-usage-3-----------value-assignments---@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
+    -   [Comparisons](#abenenumerated-types-usage-5-----------typing-of-formal-parameters-and-field-symbols---@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
+    -   [Access to the Enumerated Value](#abenenumerated-types-usage-7-----------type-descriptions---@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
+    -   [Data Interfaces](#abenenumerated-types-usage-9-----------forbidden-uses---@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
 
 Executable Example
 
@@ -339,7 +344,17 @@ Continue
 
 ### abenenum_usage_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_enumerated_types. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA html TYPE string. CLASS-METHODS: class_constructor, main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: size   TYPE  cl_demo_wrap_browser=>size VALUE cl_demo_wrap_browser=>sz-l, format TYPE  cl_demo_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenum_usage_abexa.htm"
+abapFile: "abenenum_usage_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenenum", "usage", "abexa"]
+---
 
 * * *
 
@@ -423,7 +438,17 @@ Enumerated values can be entered for the size and format when the program is exe
 
 ### abenenum_description_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_describe_enums. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). TYPES: BEGIN OF ENUM size, s, m, l, xl, xxl, END OF ENUM size. FINAL(size) = VALUE size( ). out->begin_section( 'DESCRIBE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenum_description_abexa.htm"
+abapFile: "abenenum_description_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenenum", "description", "abexa"]
+---
 
 * * *
 
@@ -479,7 +504,17 @@ The statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_757_index_htm/7
 
 ### abenenum_deserialization_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA input TYPE c LENGTH 3 VALUE 'XL'. cl_demo_input=>request( CHANGING field = input ). input = to_upper( input ). TYPES: BEGIN OF ENUM size, s, m, l, xl, xxl, END OF ENUM size. F
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenum_deserialization_abexa.htm"
+abapFile: "abenenum_deserialization_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenenum", "deserialization", "abexa"]
+---
 
 * * *
 

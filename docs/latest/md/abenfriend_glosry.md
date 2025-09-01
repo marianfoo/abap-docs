@@ -1,4 +1,14 @@
-  
+---
+title: "friend_glosry"
+description: |
+  friend_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriend_glosry.htm"
+abapFile: "abenfriend_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenfriend", "glosry"]
+---
 
 * * *
 

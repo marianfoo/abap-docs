@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Fields with Reference to ABAP Dictionary"
+description: |
+  The example shows how dynpro fields can be associated with ABAP Dictionary. Source Code PROGRAM demo_dynpro_dictionary . TABLES demo_conn. DATA wa_spfli TYPE spfli. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. CLEAR demo_conn-mark. MOVE-CORRESPONDING wa_spfli TO demo_conn. CLEAR wa_spfl
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_dict_abexa.htm"
+abapFile: "abendynpro_dict_abexa.htm"
+keywords: ["select", "do", "while", "if", "data", "abendynpro", "dict", "abexa"]
+---
 
 * * *
 

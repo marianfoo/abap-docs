@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenc0_contract_rules_bdef.htm
 
-  
+---
+title: "Caution"
+description: |
+  BDEF extensions for unmanaged RAP BOs are currently still under development. They are not fully supported yet. C0 Contract Rules for Providers of CDS Behavior Definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm) C0 Contract Rules for Consumers of
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm"
+abapFile: "abenc0_contract_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "contract", "rules", "bdef"]
+---
 
 * * *
 
@@ -42,7 +52,17 @@ Continue
 
 ### abenc0_provider_rules_bdef.htm
 
-  
+---
+title: "General Rules"
+description: |
+  -   CDS behavior definitions can be released under the C0 stability contract for ABAP for Cloud Development(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_sap_cloud_glosry.htm 'Glossary Entry'). C0 release for ABAP for Key Users(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm"
+abapFile: "abenc0_provider_rules_bdef.htm"
+keywords: ["delete", "do", "if", "case", "try", "class", "abenc0", "provider", "rules", "bdef"]
+---
 
 * * *
 
@@ -59,10 +79,8 @@ Generally, a [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_ind
 
 The following sections show the most important rules that a C0 contract imposes on CDS behavior definitions.
 
--   [Prerequisites for C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_1)
--   [Naming Rules](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
+-   [Prerequisites for C0 Release](#abenc0-provider-rules-bdef-1-------naming-rules---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
+-   [Stability Rules After Release](#abenc0-provider-rules-bdef-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
 
 Prerequisites for C0 Release   
 
@@ -165,7 +183,17 @@ Example Topics  
 
 ### abenc0_consumer_rules_bdef.htm
 
-  
+---
+title: "Naming"
+description: |
+  -   If the extension has a namespace prefix, such as /PREFIX/, the names of its elements must not start with a different namespace prefix, nor with Z, nor with Y. -   If the name of the extension starts with Z or with Y, there is no check. -   In all other cases, the names of the elements must not s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm"
+abapFile: "abenc0_consumer_rules_bdef.htm"
+keywords: ["do", "if", "case", "try", "abenc0", "consumer", "rules", "bdef"]
+---
 
 * * *
 
@@ -215,7 +243,17 @@ Example Topics  
 
 ### abenc0_demo_rap_bo.htm
 
-  
+---
+title: "c0_demo_rap_bo"
+description: |
+  c0_demo_rap_bo - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm"
+abapFile: "abenc0_demo_rap_bo.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenc0", "demo", "rap"]
+---
 
 * * *
 
@@ -269,7 +307,17 @@ extend behavior for DEMO\_RAP\_BASE\_DET\_VAL
 
 ### abenc0_demo_service_proj.htm
 
-  
+---
+title: "c0_demo_service_proj"
+description: |
+  c0_demo_service_proj - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm"
+abapFile: "abenc0_demo_service_proj.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenc0", "demo", "service", "proj"]
+---
 
 * * *
 

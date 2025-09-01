@@ -1,4 +1,14 @@
-  
+---
+title: "RAP projection behavior definition"
+description: |
+  RAP projection BDEF or projection BDEF for short. A RAP projection behavior definition is a RAP behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') of implementation type(https://help.sap.com/doc/abapdocu_la
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_bdef_glosry.htm"
+abapFile: "abencds_proj_bdef_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "proj", "bdef", "glosry"]
+---
 
 * * *
 

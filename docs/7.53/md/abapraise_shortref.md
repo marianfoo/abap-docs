@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception.htm) Syntax RAISE exception. Effect Raises a non-class-based exception(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_based_exception_glosry.htm 'Glossary Entry') in a function module
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortref.htm"
+abapFile: "abapraise_shortref.htm"
+keywords: ["do", "try", "method", "class", "abapraise", "shortref"]
+---
 
 * * *
 

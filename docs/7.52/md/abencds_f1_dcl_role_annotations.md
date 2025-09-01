@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_role_annotations.htm"
+abapFile: "abencds_f1_dcl_role_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "role", "annotations"]
+---
 
 * * *
 
@@ -18,9 +28,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_DCL_ROLE_ANNOTATIONS_1)
-
--   [MappingRole Annotations](#@@ITOC@@ABENCDS_F1_DCL_ROLE_ANNOTATIONS_2)
+-   [EndUserText Annotations](#abencds-f1-dcl-role-annotations-1--------mappingrole-annotations---@ITOC@@ABENCDS_F1_DCL_ROLE_ANNOTATIONS_2)
 
 The first column displays the (possibly structured) name annotation of an ABAP annotation and the second column displays its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the value set implicitly for the annotation value if the annotation is not used explicitly. The fifth column displays the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Classes for Messages"
+description: |
+  The exception texts(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexception_texts.htm) described in the previous section are assigned to an exception class statically and express a predefined semantic meaning. This applies to both categories of exception texts, namely messages as
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_exceptions.htm"
+abapFile: "abenmessage_exceptions.htm"
+keywords: ["select", "do", "if", "case", "class", "exception-handling", "abenmessage", "exceptions"]
+---
 
 * * *
 

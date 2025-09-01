@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  .... lhs IS NOT NULL ... Effect Identifies the null value(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm 'Glossary Entry') in a CDS view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm 'Glossary Entry'). The relatio
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_null.htm"
+abapFile: "abencds_cond_expr_null.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "null"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Entity Behavior Body, Abstract BDEF"
+description: |
+  Syntax ... field characteristics(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_abstract.htm); associations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association_abstract.htm); mapping(https://help.sap.com/doc/abapdocu_7
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body_abstract.htm"
+abapFile: "abenbdl_body_abstract.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "body", "abstract"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  WITH VALUE HELP value_help WHERE parameter1 = structure.component1 AND parameter2 = structure.component2 ... ... Effect Assigns a search help(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_help_glosry.htm 'Glossary Entry') to a structure component(https://hel
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm"
+abapFile: "abenddicddl_define_struct_valuhelp.htm"
+keywords: ["do", "try", "data", "types", "abenddicddl", "define", "struct", "valuhelp"]
+---
 
 * * *
 

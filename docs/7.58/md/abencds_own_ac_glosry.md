@@ -1,4 +1,14 @@
-  
+---
+title: "RAP full authorization context"
+description: |
+  A RAP authorization context(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_auth_con_glosry.htm 'Glossary Entry') that serves as a container for authorization objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthorization_object_glosry.htm 'Glossary Entry
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_own_ac_glosry.htm"
+abapFile: "abencds_own_ac_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "own", "glosry"]
+---
 
 * * *
 

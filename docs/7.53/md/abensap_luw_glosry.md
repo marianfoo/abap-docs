@@ -1,4 +1,14 @@
-  
+---
+title: "SAP LUW"
+description: |
+  Related sequence of programming units, whose execution , for example in dialog steps(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendialog_step_glosry.htm 'Glossary Entry') or in remote function calls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenremote_function_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw_glosry.htm"
+abapFile: "abensap_luw_glosry.htm"
+keywords: ["update", "do", "if", "try", "data", "abensap", "luw", "glosry"]
+---
 
 * * *
 

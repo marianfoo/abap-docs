@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Insertions in Mesh Paths"
+description: |
+  This example demonstrates how lines are inserted in mesh paths. Source Code REPORT demo_mesh_insert_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TABLE OF line1 WITH
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_insert_abexa.htm"
+abapFile: "abenmesh_insert_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenmesh", "abexa"]
+---
 
 * * *
 

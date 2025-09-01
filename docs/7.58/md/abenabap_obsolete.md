@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Language Elements"
+description: |
+  The language elements described in this subnode are obsolete and are only available for reasons of compatibility with older releases. These statements may still be encountered in older programs but should no longer be used in new programs. Most of the obsolete language elements listed here are forbi
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm"
+abapFile: "abenabap_obsolete.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "obsolete"]
+---
 
 * * *
 

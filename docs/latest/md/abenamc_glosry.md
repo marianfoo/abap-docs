@@ -1,4 +1,14 @@
-  
+---
+title: "AMC"
+description: |
+  → ABAP Messaging Channels(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_messaging_channels_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_glosry.htm"
+abapFile: "abenamc_glosry.htm"
+keywords: ["do", "if", "try", "abenamc", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_group_by_values. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, initialize. PRIVATE SECTION. CLASS-DATA: carrier TYPE spfli-carrid VALUE 'LH', flights TYPE TABLE OF spfli WITH EMPTY KEY. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. initialize( ). DATA(out) = cl
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_values_abexa.htm"
+abapFile: "abenloop_group_by_values_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "internal-table", "abenloop", "group", "values", "abexa"]
+---
 
 * * *
 

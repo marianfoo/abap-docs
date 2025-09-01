@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %create is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used as an indicator for getting or providing standard operation control information. For example, in the context of CREATE(https://hel
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_create.htm"
+abapFile: "abapderived_types_create.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abapderived", "create"]
+---
 
 * * *
 

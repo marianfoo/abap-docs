@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - SQL Script for the SAP HANA Database"
+description: |
+  SQL Script(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm 'Glossary Entry') is a script language, documented in the SAP HANA SQLScript Reference(https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.00/en-US), and used to program SQLScript proced
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_hdb_sqlscript.htm"
+abapFile: "abenamdp_hdb_sqlscript.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenamdp", "hdb", "sqlscript"]
+---
 
 * * *
 
@@ -10,21 +20,13 @@ AMDP - SQL Script for the SAP HANA Database
 
 [SQL Script](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm "Glossary Entry") is a script language, documented in the [SAP HANA SQLScript Reference](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.00/en-US), and used to program [SQLScript procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") and [SQLScript functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_function_glosry.htm "Glossary Entry") in the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"). L is the implementation language of an [AMDP method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_methods.htm) that specifies the addition [FOR HDB LANGUAGE SQLSCRIPT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethod_by_db_proc.htm) when the statement METHOD is used.
 
--   [AMDP procedures and functions in SAP HANA](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_1)
+-   [AMDP procedures and functions in SAP HANA](#abenamdp-hdb-sqlscript-1--------syntax---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_2)
 
--   [Syntax](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_2)
+-   [Parameter Interface](#abenamdp-hdb-sqlscript-3--------sqlscript-procedures---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_4)
 
--   [Parameter Interface](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_3)
+-   [SQLScript Functions](#abenamdp-hdb-sqlscript-5--------use---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_6)
 
--   [SQLScript Procedures](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_4)
-
--   [SQLScript Functions](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_5)
-
--   [Use](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_6)
-
--   [Access to ABAP Types](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_7)
-
--   [Access to Database Schemas](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_8)
+-   [Access to ABAP Types](#abenamdp-hdb-sqlscript-7--------access-to-database-schemas---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_8)
 
 Notes
 

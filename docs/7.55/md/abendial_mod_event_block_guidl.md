@@ -1,4 +1,14 @@
-  
+---
+title: "Dialog Modules and Event Blocks"
+description: |
+  Background Besides procedures, there are two further types of processing blocks. However, they do not have a parameter interface and do not allow declaration of local data: (AT SELECTION-SCREEN and GET are exceptions but they should not be exploited): -   Dialog modules Dialog modules are introduced
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendial_mod_event_block_guidl.htm"
+abapFile: "abendial_mod_event_block_guidl.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abendial", "mod", "event", "block", "guidl"]
+---
 
 * * *
 

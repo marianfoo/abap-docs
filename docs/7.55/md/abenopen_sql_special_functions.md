@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  sql_func - Conversion Functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_conversion_functions.htm) sql_func - Date Functions and Time Functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_date_time_functions.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_special_functions.htm"
+abapFile: "abenopen_sql_special_functions.htm"
+keywords: ["do", "data", "abenopen", "sql", "special", "functions"]
+---
 
 * * *
 

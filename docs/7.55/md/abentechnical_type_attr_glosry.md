@@ -1,4 +1,14 @@
-  
+---
+title: "technical_type_attr_glosry"
+description: |
+  technical_type_attr_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentechnical_type_attr_glosry.htm"
+abapFile: "abentechnical_type_attr_glosry.htm"
+keywords: ["do", "try", "data", "types", "abentechnical", "type", "attr", "glosry"]
+---
 
 * * *
 

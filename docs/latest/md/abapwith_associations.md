@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, ASSOCIATIONS"
+description: |
+  Syntax ... WITH ASSOCIATIONS ( path(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations_using.htm) join(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations_defining.htm), ... ) (assoc_syntax) Effect The addition W
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations.htm"
+abapFile: "abapwith_associations.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "class", "data", "internal-table", "abapwith", "associations"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Casting"
+description: |
+  This example demonstrates how castings are performed when the type is specified both implicitly and explicitly. Source Code REPORT demo_field_symbols_casting. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF t_date, year
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencasting_imp_exp_abexa.htm"
+abapFile: "abencasting_imp_exp_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "field-symbol", "abencasting", "imp", "exp", "abexa"]
+---
 
 * * *
 

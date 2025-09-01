@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - RAP Calculator"
+description: |
+  This example demonstrates a calculator that is implemented in a RAP context using a simple managed RAP BO. Here, a create operation with an ABAP EML MODIFY ENTITY statement takes up user input - numbers and an arithmetic operator - on whose basis a calculation is done. The RAP BO is draft-enabled wh
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_calculator_abexa.htm"
+abapFile: "abeneml_calculator_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "abeneml", "calculator", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Levenshtein distance"
+description: |
+  → Edit distance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenedit_distance_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlevenshtein_distance_glosry.htm"
+abapFile: "abenlevenshtein_distance_glosry.htm"
+keywords: ["do", "if", "try", "abenlevenshtein", "distance", "glosry"]
+---
 
 * * *
 

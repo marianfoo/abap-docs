@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDLX"
+description: |
+  A CDS DDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm 'Glossary Entry') dialect that contains language elements for CDS metadata extensions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_metadata_extension_glosry.htm 'Glossary Entry') in
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddlx_glosry.htm"
+abapFile: "abencds_ddlx_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddlx", "glosry"]
+---
 
 * * *
 

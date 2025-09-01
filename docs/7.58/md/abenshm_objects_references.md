@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - References"
+description: |
+  Objects in area instance versions are instances of classes or anonymous data objects and therefore can only be addressed using heap references(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenheap_reference_glosry.htm 'Glossary Entry'). Access to Shared Objects To use a reference of
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_objects_references.htm"
+abapFile: "abenshm_objects_references.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenshm", "objects", "references"]
+---
 
 * * *
 

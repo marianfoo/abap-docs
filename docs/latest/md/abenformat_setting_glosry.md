@@ -1,4 +1,14 @@
-  
+---
+title: "format_setting_glosry"
+description: |
+  format_setting_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenformat_setting_glosry.htm"
+abapFile: "abenformat_setting_glosry.htm"
+keywords: ["do", "if", "try", "abenformat", "setting", "glosry"]
+---
 
 * * *
 

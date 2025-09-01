@@ -1,4 +1,14 @@
-  
+---
+title: "lock_function_module_glosry"
+description: |
+  lock_function_module_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlock_function_module_glosry.htm"
+abapFile: "abenlock_function_module_glosry.htm"
+keywords: ["do", "try", "abenlock", "function", "module", "glosry"]
+---
 
 * * *
 

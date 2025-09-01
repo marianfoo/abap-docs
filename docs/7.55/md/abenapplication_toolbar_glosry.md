@@ -1,4 +1,14 @@
-  
+---
+title: "application_toolbar_glosry"
+description: |
+  application_toolbar_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapplication_toolbar_glosry.htm"
+abapFile: "abenapplication_toolbar_glosry.htm"
+keywords: ["do", "try", "abenapplication", "toolbar", "glosry"]
+---
 
 * * *
 

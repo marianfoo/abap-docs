@@ -1,4 +1,14 @@
-  
+---
+title: "expression_position_glosry"
+description: |
+  expression_position_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_position_glosry.htm"
+abapFile: "abenexpression_position_glosry.htm"
+keywords: ["do", "if", "try", "abenexpression", "position", "glosry"]
+---
 
 * * *
 

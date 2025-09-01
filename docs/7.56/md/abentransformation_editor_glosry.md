@@ -1,4 +1,14 @@
-  
+---
+title: "Transformation Editor"
+description: |
+  Tool in the ABAP Workbench(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') for creating XSLT programs(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxslt_program_glosry.htm 'Glossary Entry') or Simple Transformations(ht
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransformation_editor_glosry.htm"
+abapFile: "abentransformation_editor_glosry.htm"
+keywords: ["do", "try", "abentransformation", "editor", "glosry"]
+---
 
 * * *
 

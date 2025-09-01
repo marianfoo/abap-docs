@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_token_rdr_mthds DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS get_node_type IMPORTING node_type_int           TYPE if_sxml_node=>node_type RETURNING VAL
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_parsing_methods_abexa.htm"
+abapFile: "abensxml_parsing_methods_abexa.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "method", "class", "data", "abensxml", "parsing", "methods", "abexa"]
+---
 
 * * *
 

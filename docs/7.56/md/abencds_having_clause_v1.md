@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, SELECT, HAVING"
+description: |
+  Syntax ... HAVING cds_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v1.htm) ... Effect Defines a HAVING condition for the result set of a CDS DDIC-based view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm 'G
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_having_clause_v1.htm"
+abapFile: "abencds_having_clause_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "having", "clause"]
+---
 
 * * *
 

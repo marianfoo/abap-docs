@@ -1,4 +1,14 @@
-  
+---
+title: "Attribute"
+description: |
+  Details Program The name of the ABAP program (executable program, module pool, or function group) to which the dynpro belongs. Dynpro number A four-digit number, unique within the ABAP program, that identifies the dynpro within the program. If a program contains selection screens, the dynpro numbers
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_attributes.htm"
+abapFile: "abenabap_dynpro_attributes.htm"
+keywords: ["select", "do", "while", "if", "data", "abenabap", "dynpro", "attributes"]
+---
 
 * * *
 

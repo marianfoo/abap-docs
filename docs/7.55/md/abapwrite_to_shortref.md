@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE TO - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur DEC
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS FDL - WITH REFERENCE TYPE"
+description: |
+  Syntax Forms Static Reference Type Specification WITH REFERENCE TYPE #CUKY  #UNIT  #CALC  #NONE  WITH REFERENCE TYPE OF pname Dynamic Reference Type Specification WITH REFERENCE TYPE CASE WHEN pname1: reference AND pname2: referenceAND... THEN reference WHEN ...
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm"
+abapFile: "abencds_with_reference_type.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "with", "reference", "type"]
+---
 
 * * *
 

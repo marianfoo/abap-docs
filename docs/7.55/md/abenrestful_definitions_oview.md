@@ -1,4 +1,14 @@
-  
+---
+title: "Involved Objects"
+description: |
+  Work in progress  -   CDS data model -   CDS entities (just views?), there must be at least one key field if used in a service binding, no hierarchies, no functions DDLS, -   Business services -   Service definitions SRVD, source-code-based in ... editor in ADT, same namespace as CDS entities,
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_definitions_oview.htm"
+abapFile: "abenrestful_definitions_oview.htm"
+keywords: ["do", "if", "class", "data", "abenrestful", "definitions", "oview"]
+---
 
 * * *
 

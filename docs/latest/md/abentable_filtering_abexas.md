@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') FILTER, Single Values(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') FILTER, Filter Table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfilter_table_abexa.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 

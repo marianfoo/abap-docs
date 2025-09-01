@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE IN TABLE - options"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_shortref.htm) Syntax ... RESPECTINGIGNORING CASE REPLACEMENT COUNT rcnt  REPLACEMENT LINE rlin REPLACEMENT OFFSET roff REPLACEMENT LENGTH rlen  RE
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_itab_options.htm"
+abapFile: "abapreplace_itab_options.htm"
+keywords: ["do", "if", "case", "data", "types", "internal-table", "abapreplace", "itab", "options"]
+---
 
 * * *
 

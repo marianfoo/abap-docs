@@ -1,4 +1,14 @@
-  
+---
+title: "ADD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd_shortref.htm) Syntax ADD dobj1 TO dobj2. Effect This statement has the same effect as the statement dobj2 = dobj2 + dobj1.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm) The
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd.htm"
+abapFile: "abapadd.htm"
+keywords: ["do", "while", "if", "try", "data", "abapadd"]
+---
 
 * * *
 

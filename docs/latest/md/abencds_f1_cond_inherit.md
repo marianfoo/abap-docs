@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...   INHERIT parent_role FOR GRANT SELECT ON cds_entity    INHERITING CONDITIONS FROM  ENTITY cds_entity DEFAULT TRUEFALSE   SUPER    replacing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_inherit_replacing.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_inherit.htm"
+abapFile: "abencds_f1_cond_inherit.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abencds", "cond", "inherit"]
+---
 
 * * *
 

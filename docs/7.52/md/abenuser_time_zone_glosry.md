@@ -1,4 +1,14 @@
-  
+---
+title: "User time zone"
+description: |
+  Time zone(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_zone_glosry.htm 'Glossary Entry') defined in the user master record(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_master_record_glosry.htm 'Glossary Entry') for the local user time(https://help.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_time_zone_glosry.htm"
+abapFile: "abenuser_time_zone_glosry.htm"
+keywords: ["do", "try", "abenuser", "time", "zone", "glosry"]
+---
 
 * * *
 

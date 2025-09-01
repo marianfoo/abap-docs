@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Comparison Expressions"
+description: |
+  -   Obsolete Comparison Operators(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobsolete_logexp_op.htm) -   log_exp - IN, short form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_in_short_form.htm) -   Checking Output Parameters for Actual Par
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobsolete_logexp.htm"
+abapFile: "abenobsolete_logexp.htm"
+keywords: ["do", "if", "abenobsolete", "logexp"]
+---
 
 * * *
 

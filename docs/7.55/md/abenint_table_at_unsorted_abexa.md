@@ -1,4 +1,14 @@
-  
+---
+title: "Group Level Processing for Unsorted Tables"
+description: |
+  This example demonstrates group level processing for an unsorted internal table. Source Code REPORT demo_int_tables_at_unsorted. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor . PRIVATE SECTION. TYPES: BEGIN OF t_line, col1 TYPE string, col2 TYPE string, END OF t
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenint_table_at_unsorted_abexa.htm"
+abapFile: "abenint_table_at_unsorted_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenint", "table", "unsorted", "abexa"]
+---
 
 * * *
 

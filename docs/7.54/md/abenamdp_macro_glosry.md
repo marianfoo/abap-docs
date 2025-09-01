@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP macro"
+description: |
+  For implementing an AMDP method(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm 'Glossary Entry') in syntax (specified in SQLScript(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_glosry.htm 'Glossary Entry')), which is replaced by
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm"
+abapFile: "abenamdp_macro_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenamdp", "macro", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SET DATASET"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_dataset_shortref.htm) Syntax SET DATASET dset POSITION posEND OF FILE ATTRIBUTES attr. Additions: 1. ... POSITION posEND OF FILE(#!ABAP_ADDITION_1@1@) 2. ... A
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_dataset.htm"
+abapFile: "abapset_dataset.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "abapset", "dataset"]
+---
 
 * * *
 

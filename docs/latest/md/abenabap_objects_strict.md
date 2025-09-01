@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Stricter Syntax Rules"
+description: |
+  The ABAP language has been cleaned up in ABAP Objects. As part of this language cleanup, stricter syntax checks are performed for constructs that were previously allowed, or obsolete statements are no longer allowed at all. The stricter syntax checks usually result in syntax that should also be used
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_strict.htm"
+abapFile: "abenabap_objects_strict.htm"
+keywords: ["do", "if", "abenabap", "objects", "strict"]
+---
 
 * * *
 

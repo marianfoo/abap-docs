@@ -1,4 +1,14 @@
-  
+---
+title: "RAP validation"
+description: |
+  An optional part of the RAP BO behavior(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_behavior_glosry.htm 'Glossary Entry') that checks the consistency of RAP BO instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm '
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_validation_glosry.htm"
+abapFile: "abenrap_validation_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "validation", "glosry"]
+---
 
 * * *
 

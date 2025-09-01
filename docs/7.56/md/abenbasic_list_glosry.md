@@ -1,4 +1,14 @@
-  
+---
+title: "basic_list_glosry"
+description: |
+  basic_list_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbasic_list_glosry.htm"
+abapFile: "abenbasic_list_glosry.htm"
+keywords: ["do", "try", "class", "abenbasic", "list", "glosry"]
+---
 
 * * *
 

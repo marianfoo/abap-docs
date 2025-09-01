@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Unconditional Module Call"
+description: |
+  This example demonstrates how a dynpro can be exited without the automatic input checks. Source Code PROGRAM demo_dynpro_at_exit_command . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, input1(20) TYPE c, input2(20) TYPE c. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_at_exit_comm_abexa.htm"
+abapFile: "abendynpro_at_exit_comm_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "exit", "comm", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC annotation"
+description: |
+  A DDIC annotation adds metadata to a DDIC object. It can be used, for example, to add technical or semantic properties to a DDIC database table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_db_table_glosry.htm 'Glossary Entry') or a DDIC structure(https://help.sap.com/
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_annotation_glosry.htm"
+abapFile: "abenddic_annotation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "annotation", "glosry"]
+---
 
 * * *
 

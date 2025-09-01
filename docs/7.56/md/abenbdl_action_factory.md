@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - action, factory"
+description: |
+  Syntax internal(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm)static factory action ( features: instance  global(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_fc.htm) precheck(https://help.s
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_factory.htm"
+abapFile: "abenbdl_action_factory.htm"
+keywords: ["update", "do", "if", "try", "data", "abenbdl", "action", "factory"]
+---
 
 * * *
 

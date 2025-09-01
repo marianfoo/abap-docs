@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Data Objects with Implicit Type"
+description: |
+  This example demonstrates how data objects are created with an implicit type. Source Code REPORT demo_create_data_implicit. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES t_itab TYPE TABLE OF i WITH NON-UNIQUE KEY table_line. D
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_data_implicit_abexa.htm"
+abapFile: "abencreate_data_implicit_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencreate", "implicit", "abexa"]
+---
 
 * * *
 

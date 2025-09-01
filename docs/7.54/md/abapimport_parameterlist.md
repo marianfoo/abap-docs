@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... p1 = dobj1 p2 = dobj2 ...  p1 TO dobj1  p2 TO dobj2 ...  (ptab) ... Extras: 1. ... p1 = dobj1 p2 = dobj2 ...(#!ABAP_ADDITION_1@1@) 2. ... p1 TO dobj1 p2 TO dobj2 ...(#!ABAP_ADDITION_2@2@) 3. ... (ptab)(#!ABAP_ADDITION_3@3@) Effect A data cluster(https://help.sap.com/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapimport_parameterlist.htm"
+abapFile: "abapimport_parameterlist.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapimport", "parameterlist"]
+---
 
 * * *
 

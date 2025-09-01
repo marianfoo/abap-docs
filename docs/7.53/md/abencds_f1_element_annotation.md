@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  For each element annotation that is not part of an annotation arrays(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenannotation_array_glosry.htm 'Glossary Entry') you can specify the special value null(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm"
+abapFile: "abencds_f1_element_annotation.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencds", "element", "annotation"]
+---
 
 * * *
 
@@ -20,9 +30,7 @@ The elements of the SELECT list in a CDS view and the elements of a CDS table fu
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
 
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_1)
-
--   [Environment Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
+-   [EndUserText Annotations](#abencds-f1-element-annotation-1--------environment-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
 
 -   [Semantics Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_3)
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Technical Type Properties of Compatible Data Types"
+description: |
+  The compatibility(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompatible_glosry.htm 'Glossary Entry') of two data types apart from reference types is based on the technical type properties(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentechnical_type_prpt_glosr
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompatibility.htm"
+abapFile: "abencompatibility.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "internal-table", "field-symbol", "abencompatibility"]
+---
 
 * * *
 
@@ -20,8 +30,7 @@ In addition, the compatibility of [value assignments](https://help.sap.com/doc/a
 
 In the case of reference types with data objects (reference variables) that have a [dynamic type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_type_glosry.htm "Glossary Entry") apart from the [static type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_type_glosry.htm "Glossary Entry"), the term compatibility that is based entirely on technical type properties is not sufficient.
 
--   [Non-Generic Data Types Except Reference Types](#@@ITOC@@ABENCOMPATIBILITY_1)
--   [Generic Data Types](#@@ITOC@@ABENCOMPATIBILITY_2)
+-   [Non-Generic Data Types Except Reference Types](#abencompatibility-1-------generic-data-types---@ITOC@@ABENCOMPATIBILITY_2)
 -   [Reference Types](#@@ITOC@@ABENCOMPATIBILITY_3)
 
 Non-Generic Data Types Except Reference Types   

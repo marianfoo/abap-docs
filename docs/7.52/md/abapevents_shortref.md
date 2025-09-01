@@ -1,4 +1,14 @@
-  
+---
+title: "EVENTS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapevents.htm) Syntax EVENTS evt  EXPORTING VALUE(p1) typing(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_shortref.htm) OPTIONALDEFAULT def1 VALUE(p2) typing(https://help.sap.com
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapevents_shortref.htm"
+abapFile: "abapevents_shortref.htm"
+keywords: ["do", "if", "class", "abapevents", "shortref"]
+---
 
 * * *
 

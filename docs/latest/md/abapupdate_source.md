@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE dbtab, source"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_shortref.htm) Syntax ...  SET set_expression1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_set_expression.htm), set_expression2(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_source.htm"
+abapFile: "abapupdate_source.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapupdate", "source"]
+---
 
 * * *
 

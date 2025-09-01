@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens"
+description: |
+  -   Selection Screens - Overview(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_overview.htm) -   Selection Screens - Create(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_create.htm) -   Selection Screens - Calls(http
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen.htm"
+abapFile: "abenselection_screen.htm"
+keywords: ["select", "do", "if", "abenselection", "screen"]
+---
 
 * * *
 

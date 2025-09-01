@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_concatenation. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(n) = 10000. cl_demo_input=>request( CHANGING field = n ). IF n <= 0 OR n >= 100000. EXIT. ENDIF. GET RUN TIME FIELD FINAL(t1). FINAL(result1) = REDU
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_concatenation_abexa.htm"
+abapFile: "abenstring_concatenation_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "abenstring", "concatenation", "abexa"]
+---
 
 * * *
 

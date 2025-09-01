@@ -1,4 +1,14 @@
-  
+---
+title: "table_work_area_glosry"
+description: |
+  table_work_area_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_work_area_glosry.htm"
+abapFile: "abentable_work_area_glosry.htm"
+keywords: ["do", "try", "data", "abentable", "work", "area", "glosry"]
+---
 
 * * *
 

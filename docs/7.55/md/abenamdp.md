@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Managed Database Procedures (AMDP)"
+description: |
+  ABAP Managed Database Procedures are a framework for managing and calling -   stored procedures(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstored_procedure_glosry.htm 'Glossary Entry') or database procedures(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatab
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp.htm"
+abapFile: "abenamdp.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenamdp"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "external_procedure_call_glosry"
+description: |
+  external_procedure_call_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexternal_procedure_call_glosry.htm"
+abapFile: "abenexternal_procedure_call_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenexternal", "procedure", "call", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Logging Database Tables"
+description: |
+  If logging is activated, any changes to table entries in ABAP SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm 'Glossary Entry') are logged in the log table DBTABLOG. This also requires the profile parameter rec/client to be set accordingly. This profile param
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_protocol.htm"
+abapFile: "abenddic_database_tables_protocol.htm"
+keywords: ["insert", "update", "do", "if", "try", "method", "class", "data", "types", "abenddic", "database", "tables", "protocol"]
+---
 
 * * *
 

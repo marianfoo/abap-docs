@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETER-TABLE ptab Effect The addition PARAMETER-TABLE uses a hashed table ptab to assign actual parameters to the input and output parameters defined in the database procedure. This method of passing parameters can be used in dynamic calls only. The internal table ptab must have the type abap
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_db_proc_parameter_tables.htm"
+abapFile: "abapcall_db_proc_parameter_tables.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "abapcall", "proc", "parameter", "tables"]
+---
 
 * * *
 

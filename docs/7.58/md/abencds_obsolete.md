@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete CDS Language Elements"
+description: |
+  The CDS language elements described in this subnode are obsolete and are only available for reasons of compatibility with older releases. These statements may still be encountered in older repository objects but should no longer be used in new repository objects. There are replacement constructs for
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_obsolete.htm"
+abapFile: "abencds_obsolete.htm"
+keywords: ["do", "if", "data", "abencds", "obsolete"]
+---
 
 * * *
 

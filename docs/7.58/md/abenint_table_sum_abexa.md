@@ -1,4 +1,14 @@
-  
+---
+title: "Group Level Processing with Nested Groups"
+description: |
+  This example demonstrates nested groups in group level processing in internal tables. Source Code  Public class definition CLASS cl_demo_int_tbls_at_nested DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenint_table_sum_abexa.htm"
+abapFile: "abenint_table_sum_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenint", "table", "sum", "abexa"]
+---
 
 * * *
 

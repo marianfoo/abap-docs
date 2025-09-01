@@ -1,4 +1,14 @@
-  
+---
+title: "authorization_object_glosry"
+description: |
+  authorization_object_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm"
+abapFile: "abenauthorization_object_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenauthorization", "object", "glosry"]
+---
 
 * * *
 

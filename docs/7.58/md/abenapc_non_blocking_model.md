@@ -1,4 +1,14 @@
-  
+---
+title: "APC - Non-Blocking Mode"
+description: |
+  Stateful APC processing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc_processing_glosry.htm 'Glossary Entry') takes place in an event-driven way: -   AS ABAP as a stateful APC server -   AS ABAP as a stateful detached APC client To stop APC sessions(https://help.sap.com/doc/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc_non_blocking_model.htm"
+abapFile: "abenapc_non_blocking_model.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenapc", "non", "blocking", "model"]
+---
 
 * * *
 

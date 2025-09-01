@@ -1,4 +1,14 @@
-  
+---
+title: "Complexity"
+description: |
+  The aim of program complexity is to keep the source code as clear and readable as possible for the human reader. The computer has no problems with compiling or executing highly complex programs. Unformatted source code does also not constitute any problems. The human reader, however, is usually over
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomplexity_gdl.htm"
+abapFile: "abencomplexity_gdl.htm"
+keywords: ["do", "if", "case", "method", "class", "abencomplexity", "gdl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables (itab)"
+description: |
+  The following topics describe statements, expressions and functions for internal tables. -   itab - Processing Statements(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_processing_statements.htm) -   itab - Expressions and Functions(https://help.sap.com/doc/abapdocu_758_ind
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab.htm"
+abapFile: "abenitab.htm"
+keywords: ["do", "if", "class", "data", "internal-table", "abenitab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, extend"
+description: |
+  Syntax ... foreign_key_annos(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_table_fkprps.htm) EXTEND component : value_help(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_valuhelp.htm) foreign_key ..
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comp_ext.htm"
+abapFile: "abenddicddl_define_struct_comp_ext.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "comp", "ext"]
+---
 
 * * *
 

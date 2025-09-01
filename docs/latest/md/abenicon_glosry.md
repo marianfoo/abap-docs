@@ -1,4 +1,14 @@
-  
+---
+title: "icon_glosry"
+description: |
+  icon_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicon_glosry.htm"
+abapFile: "abenicon_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenicon", "glosry"]
+---
 
 * * *
 

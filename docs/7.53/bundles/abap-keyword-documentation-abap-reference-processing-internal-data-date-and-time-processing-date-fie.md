@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abencharacter_date_time.htm
 
-  
+---
+title: "Date Fields and Time Fields"
+description: |
+  The ABAP types d(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) and t(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) are built-in types for data objects that specify dates and times. The date type d describ
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_date_time.htm"
+abapFile: "abencharacter_date_time.htm"
+keywords: ["do", "if", "data", "types", "abencharacter", "date", "time"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abenchar_date_time_fields_access.htm
 
-  
+---
+title: "Access to Date Fields and Time Fields"
+description: |
+  Only a few operand positions are affected by the fact that date fields and time fields contain a local date in the format 'yyyymmdd' or a local time in the format 'hhmmss': -   When using date fields and time fields as source fields or target fields of a lossless assignment(https://help.sap.com/do
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_access.htm"
+abapFile: "abenchar_date_time_fields_access.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenchar", "date", "time", "fields", "access"]
+---
 
 * * *
 
@@ -84,7 +104,17 @@ Continue
 
 ### abenchar_date_time_fields_charlike.htm
 
-  
+---
+title: "Character-Like Access to Date Fields and Time Fields"
+description: |
+  Character-like access to character-like content of date fields and time fields is evaluated in a character-like manner. The character-like nature of date fields and time fields can be exploited, for example, to access detailed information. To avoid unexpected results from this type of access, the v
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_charlike.htm"
+abapFile: "abenchar_date_time_fields_charlike.htm"
+keywords: ["do", "if", "data", "abenchar", "date", "time", "fields", "charlike"]
+---
 
 * * *
 
@@ -120,7 +150,17 @@ second = substring( val = time off = 4 len = 2 ).
 
 ### abenchar_date_time_fields_numlike.htm
 
-  
+---
+title: "Numeric Access to Date Fields and Time Fields"
+description: |
+  Numeric access to date fields and time fields exploits the fact that the conversion(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) of the types d and t to numeric values produces an integer number of days or seconds. This applies particularly when using d
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_numlike.htm"
+abapFile: "abenchar_date_time_fields_numlike.htm"
+keywords: ["do", "if", "data", "types", "abenchar", "date", "time", "fields", "numlike"]
+---
 
 * * *
 
@@ -173,7 +213,17 @@ date     = date - 1.
 
 ### abendate_time_abexa.htm
 
-  
+---
+title: "Evaluating Date Fields and Time Fields"
+description: |
+  This example demonstrates calculations with date and time fields. Source Code REPORT demo_data_date_time. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: ultimo TYPE d, t1 TYPE t VALUE '000000', t2 TYPE t, diff TYPE i, seconds TYP
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_abexa.htm"
+abapFile: "abendate_time_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abendate", "time", "abexa"]
+---
 
 * * *
 
@@ -226,7 +276,17 @@ In the second part, the number of hours between midnight and the current time ar
 
 ### abenchar_date_time_fields_access.htm
 
-  
+---
+title: "Access to Date Fields and Time Fields"
+description: |
+  Only a few operand positions are affected by the fact that date fields and time fields contain a local date in the format 'yyyymmdd' or a local time in the format 'hhmmss': -   When using date fields and time fields as source fields or target fields of a lossless assignment(https://help.sap.com/do
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_access.htm"
+abapFile: "abenchar_date_time_fields_access.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenchar", "date", "time", "fields", "access"]
+---
 
 * * *
 
@@ -282,7 +342,17 @@ Continue
 
 ### abenchar_date_time_fields_validity.htm
 
-  
+---
+title: "Validity of Date Fields and Time Fields"
+description: |
+  Date fields and time fields of the types d and t can contain any alphanumeric characters. -   Valid values for the type d, however, are only those digits that are valid dates according to the calendar rules in the format 'yyyymmdd': 'yyyy' (year): 0001 to 9999, 'mm' (month): 01 to 12, 'dd' (day): 01
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_validity.htm"
+abapFile: "abenchar_date_time_fields_validity.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenchar", "date", "time", "fields", "validity"]
+---
 
 * * *
 

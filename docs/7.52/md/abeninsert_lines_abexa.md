@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Inserting Rows"
+description: |
+  This example demonstrates how rows are inserted into internal tables. Source Code REPORT demo_int_tables_insert. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). TYPES: BEGIN OF line, col1 TYPE i, co
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninsert_lines_abexa.htm"
+abapFile: "abeninsert_lines_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abeninsert", "lines", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "cds_set_operators_glosry"
+description: |
+  cds_set_operators_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_set_operators_glosry.htm"
+abapFile: "abencds_set_operators_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "set", "operators", "glosry"]
+---
 
 * * *
 

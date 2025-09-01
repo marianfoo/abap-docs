@@ -1,4 +1,14 @@
-  
+---
+title: "Grouping Internal Tables"
+description: |
+  The example is a step-by-step introduction to grouping with LOOP AT GROUP BY(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm). Source Code REPORT demo_loop_at_itab_group_by. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS dem
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_abexa.htm"
+abapFile: "abenloop_group_by_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "internal-table", "abenloop", "group", "abexa"]
+---
 
 * * *
 

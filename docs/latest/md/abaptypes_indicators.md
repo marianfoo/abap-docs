@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, INDICATORS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_shortref.htm) Syntax TYPES dtype TYPE struct WITH INDICATORS ind TYPE type  AS BITFIELD. Additions: 1. ... TYPE type(#!ABAP_ADDITION_1@1@) 2. ... AS BITFIELD(#!ABAP_ADDITION_2@2@)
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_indicators.htm"
+abapFile: "abaptypes_indicators.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "data", "types", "internal-table", "abaptypes", "indicators"]
+---
 
 * * *
 

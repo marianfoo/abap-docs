@@ -1,4 +1,14 @@
-  
+---
+title: "Substring Access"
+description: |
+  In operand positions, subareas of certain data objects can be accessed by specifying an offset/length: Syntax dobj+off(len) <fs>+off(len) dref->+off(len) Effect A specified offset or length is directly appended to either the dobj descriptor of the da
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm"
+abapFile: "abenoffset_length.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "field-symbol", "abenoffset", "length"]
+---
 
 * * *
 

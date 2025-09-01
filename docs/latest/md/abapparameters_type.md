@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  TYPE type DECIMALS dec    LIKE dobj    LIKE (name)  ... Alternatives: 1. ... TYPE type DECIMALS dec(#!ABAP_ALTERNATIVE_1@1@) 2. ... LIKE dobj(#!ABAP_ALTERNATIVE_2@2@) 3. ... LIKE (name)(#!ABAP_ALTERNATIVE_3@3@) Effect These additions define the d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters_type.htm"
+abapFile: "abapparameters_type.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapparameters", "type"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes"
+description: |
+  Meshes are instances of mesh types defined as follows: TYPES BEGIN OF MESH(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_mesh.htm) ... TYPES snode ... ASSOCIATION _assoc(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_mesh_association.htm) TO tnode ON
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_meshes.htm"
+abapFile: "abenabap_meshes.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abenabap", "meshes"]
+---
 
 * * *
 

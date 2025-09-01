@@ -1,4 +1,14 @@
-  
+---
+title: "Page header"
+description: |
+  Rows at the start of a page in a list(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_glosry.htm 'Glossary Entry') that are excluded from vertical (top to bottom) scrolling. Can be filled with the content of the standard page header(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpage_header_glosry.htm"
+abapFile: "abenpage_header_glosry.htm"
+keywords: ["do", "try", "abenpage", "header", "glosry"]
+---
 
 * * *
 

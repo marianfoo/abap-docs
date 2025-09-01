@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  INHERIT parent_role FOR GRANT SELECT ON cds_entity    INHERITING CONDITIONS FROM cds_entity REPLACING PFCG_FILTER OBJECT auth_object FIELD auth_field VALUE old WITH new, PFCG_FILTER ...   ... Variants: 1. ... INHERIT parent_role FOR GRANT SELEC
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cond_inherit.htm"
+abapFile: "abencds_f1_cond_inherit.htm"
+keywords: ["select", "insert", "do", "if", "try", "data", "abencds", "cond", "inherit"]
+---
 
 * * *
 

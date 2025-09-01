@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  result = bit_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute_bit.htm). Effect If a bit expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbit_expression_glosry.htm 'Glossary Entry') bit_exp(https://help.sap.com/doc/abapdocu_latest_i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm"
+abapFile: "abenequals_bit_expr.htm"
+keywords: ["do", "if", "try", "method", "data", "abenequals", "bit", "expr"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Calling Processing Blocks"
+description: |
+  In every processing block(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') of an ABAP program, processing blocks of the same program can be called (using internal calls) or processing blocks of other ABAP programs can be called (using ext
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_processing_blocks.htm"
+abapFile: "abencall_processing_blocks.htm"
+keywords: ["do", "try", "method", "class", "abencall", "processing", "blocks"]
+---
 
 * * *
 

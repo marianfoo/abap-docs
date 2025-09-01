@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - implementation in class unique, Extension"
+description: |
+  Syntax ... implementation in class ClassName unique; Effect Specifies an ABAP behavior pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') for the extended RAP business object. Valid abbreviations are extension(https://help.sap.com/
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_in_class_unique_ext.htm"
+abapFile: "abenbdl_in_class_unique_ext.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "unique", "ext"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - draft table"
+description: |
+  Syntax ... draft table DraftTableName query DraftQueryView(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_query_view.htm) ... Effect A draft table is only relevant for draft-enabled RAP BOs and for these, it is mandatory. It specifies the DDIC database table(htt
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_table.htm"
+abapFile: "abenbdl_draft_table.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "abenbdl", "draft", "table"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Primary Table Key"
+description: |
+  Each internal table has a primary table key that enables access to individual rows in the table by means of a key specification. -   The components of the primary table key are declared using the UNIQUENON-UNIQUE KEY(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_primary_k
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_key_primary.htm"
+abapFile: "abenitab_key_primary.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "key", "primary"]
+---
 
 * * *
 

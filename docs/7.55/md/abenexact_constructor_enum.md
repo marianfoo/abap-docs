@@ -1,4 +1,14 @@
-  
+---
+title: "EXACT, Lossless Conversion of Enumerated Types"
+description: |
+  If the constructor expression CONV(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm) is applied to enumerated types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm 'Glossary Entry'), the same rules(https://
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexact_constructor_enum.htm"
+abapFile: "abenexact_constructor_enum.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "abenexact", "constructor", "enum"]
+---
 
 * * *
 

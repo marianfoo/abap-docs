@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Macros"
+description: |
+  Syntax ... '$ABAP.macro( ... )' ... Effect Specifies an AMDP macro(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') in an AMDP method, which is implemented in an SQLScript(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_hd
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_macros.htm"
+abapFile: "abenamdp_macros.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abenamdp", "macros"]
+---
 
 * * *
 

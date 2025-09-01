@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm"
+abapFile: "abencds_f1_view_entity_annotations.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "class", "data", "abencds", "view", "entity", "annotations"]
+---
 
 * * *
 
@@ -16,189 +26,13 @@ Effect
 
 Specifies an [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) as a view annotation in the definition of a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry") in front of the statement [DEFINE VIEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_view.htm). The character @ must be placed directly in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #VIEW.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_1)
+-   [AbapCatalog Annotations](#abencds-f1-view-entity-annotations-1--------accesscontrol-annotations---@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_2)
 
--   [AccessControl Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_2)
+-   [ClientDependent Annotations (Obsolete)](#abencds-f1-view-entity-annotations-3--------clienthandling-annotations---@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_4)
 
--   [ClientDependent Annotations (Obsolete)](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_3)
+-   [DataAging Annotations](#abencds-f1-view-entity-annotations-5--------metadata-annotations---@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_6)
 
--   [ClientHandling Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_4)
-
--   [DataAging Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_5)
-
--   [Metadata Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_6)
-
--   [ObjectModel Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_7)
-
-The first column of the table displays the (possibly structured) name annotation of an ABAP annotation and the second column displays its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the value set implicitly for the annotation value if the annotation is not used explicitly. The fifth column displays the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value. INCLUDE ABENCDS\_GENERAL\_COMP\_ANNOT OBJECT DOKU ID SD
-
-Note
-
-Alongside the view annotations shown here, the globally valid [entity annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm) can also be specified for a view.
-
-AbapCatalog Annotations
-
-Technical settings of a CDS view.
-
-Annotation
-
-Meaning
-
-Annotation Values
-
-Default Value if Not Used
-
-Default Value if Used Without Value
-
-AbapCatalog.buffering.status
-
-Activates and deactivates [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_sap_puffer.htm) for the CDS view
-
-#ACTIVE:
-table buffering active
-#SWITCHED\_OFF:
-table buffering allowed but not active
-#NOT\_ALLOWED:
-table buffering not allowed
-
-#SWITCHED\_OFF
-
-#SWITCHED\_OFF
-
-AbapCatalog.buffering.type
-
-Buffering type in [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_sap_puffer.htm)
-
-#SINGLE:
-Single records
-#GENERIC:
-Generic area
-#FULL:
-Full
-#NONE:
-None
-
-#NONE
-
-#NONE
-
-AbapCatalog.buffering.numberOfKeyFields
-
-Number of key elements in [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_sap_puffer.htm) of generic areas
-
-Number between 0 and k-1, where k is the number of key elements
-
-0
-
-0
-
-AbapCatalog.compiler.compareFilter
-
-Defines the evaluation of [filter conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_attr.htm) in [path expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm) of the CDS view
-
-true:
-The filter conditions of CDS associations occurring more than once in path expressions are compared and, if they match, the associated join expression is created only once.
-false:
-For each CDS association with a filter condition, a separate join expression is created and evaluated.
-
-false
-
-true
-
-AbapCatalog.dbHints\[ \].dbSystem
-
-Obsolete: Database system for which a [database hint](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_hint_glosry.htm "Glossary Entry") is specified (evaluated using [SADL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensadl_glosry.htm "Glossary Entry")).
-[Consumption.dbHintsCalculatedBy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_frmwrk.htm) should be used instead.
-
-#ADA:
-SAP MaxDB
-#DB2:
-IBM DB2
-#DB4:
-IBM DB2 for AS/400
-#DB6:
-IBM DB2 UDB
-#INF:
-Informix
-#MSS:
-Microsoft SQL Server
-#ORA:
-Oracle DB
-#HDB:
-SAP HANA database
-#ASE:
-Sybase ASE
-#ALL:
-all database systems
-
-\-
-
-\-
-
-AbapCatalog.dbHints\[ \].hint
-
-Obsolete: [Database hint](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_hint_glosry.htm "Glossary Entry") (evaluated using [SADL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensadl_glosry.htm "Glossary Entry")).
-[Consumption.dbHints\[ \]](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_frmwrk.htm) should be used instead.
-
-Platform-dependent database hint
-
-\-
-
-\-
-
-AbapCatalog.preserveKey
-
-Specifies the definition of the key fields in the [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry") of the CDS view.
-
-true:
-The key fields of the CDS database view are defined as dictated by the addition [KEY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_entry.htm).
-false:
-The key fields of the CDS database view are determined as for database views in ABAP Dictionary, regardless of the addition [KEY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_entry.htm).
-
-false
-
-true
-
-AbapCatalog.sqlViewName
-
-Name of the [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry") of the CDS view
-
-Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
-
-\-
-
-\-
-
-AbapCatalog.viewEnhancementCategory\[ \]
-
-Specifies how the CDS view is extended using [CDS view enhancements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_extend_glosry.htm "Glossary Entry"). A comma-separated list of values can be specified in the square brackets of the [annotation array](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenannotation_array_glosry.htm "Glossary Entry").
-
-#PROJECTION\_LIST:
-Extensions of the SELECT list and additional CDS associations are allowed; extensions of CDS views whose SELECT lists contain [aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm) or have a [UNION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_union.htm) clause must be permitted using further values
-#GROUP\_BY:
-Aggregated or non-aggregated elements are allowed to be added to a SELECT list with [aggregated expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm) and the associated extensions of the of the [GROUP-BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_group_by.htm) clause are also permitted; can only be specified together with #PROJECTION\_LIST
-#UNION:
-Extensions of the SELECT list of a CDS view with a [UNION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_union.htm) clause are allowed; can only be specified together with #PROJECTION\_LIST
-#NONE:
-No extensions allowed; cannot be specified together with other values
-
-#PROJECTION\_LIST
-
-#PROJECTION\_LIST
-
-Notes
-
--   Each definition of a CDS view must contain the ABAP annotation AbapCatalog.sqlViewName, which defines the name of the [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry") in ABAP Dictionary.
-
--   The name given to the database view can no longer be changed after the CDS view is transported into a follow-on system.
-
--   In the [annotation array](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenannotation_array_glosry.htm "Glossary Entry") AbapCatalog.viewEnhancementCategory\[ \], #GROUP\_BY and #UNION can only be specified together with the default value #PROJECTION\_LIST. The value #NONE excludes any other values.
-
--   Extensions of a view with aggregate expressions or with a UNION clause modify the cardinality of the results set. This means that these extensions must have special permission in the view to enable consumers of the view to handle any changes to cardinalities.
-
--   It is advisable to use the annotation AbapCatalog.compiler.compareFilter with the value true. ADT suggests this when a new CDS view is created.
-
--   The [framework-specific annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponent_annotation_glosry.htm "Glossary Entry") [@Consumption.dbHints](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_frmwrk_tables.htm) replaces the [ABAP annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") [@AbapCatalog.dbHints](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm) and makes it obsolete. The ABAP annotation is evaluated by frameworks such as SADL and not by the ABAP runtime environment.
+-   [ObjectModel Annotations](#abencds-f1-view-entity-annotations-7---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value--include-abencds--general--comp--annot-object-doku-id-sd--note--alongside-the-view-annotations-shown-here--the-globally-valid--entity-annotations--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-entity-annotations-htm--can-also-be-specified-for-a-view---abapcatalog-annotations--technical-settings-of-a-cds-view---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--abapcatalog-buffering-status--activates-and-deactivates--table-buffering--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-sap-puffer-htm--for-the-cds-view---active--table-buffering-active--switched--off--table-buffering-allowed-but-not-active--not--allowed--table-buffering-not-allowed---switched--off---switched--off--abapcatalog-buffering-type--buffering-type-in--table-buffering--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-sap-puffer-htm----single--single-records--generic--generic-area--full--full--none--none---none---none--abapcatalog-buffering-numberofkeyfields--number-of-key-elements-in--table-buffering--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-sap-puffer-htm--of-generic-areas--number-between-0-and-k-1--where-k-is-the-number-of-key-elements--0--0--abapcatalog-compiler-comparefilter--defines-the-evaluation-of--filter-conditions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-path-expression-attr-htm--in--path-expressions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-path-expression-htm--of-the-cds-view--true--the-filter-conditions-of-cds-associations-occurring-more-than-once-in-path-expressions-are-compared-and--if-they-match--the-associated-join-expression-is-created-only-once--false--for-each-cds-association-with-a-filter-condition--a-separate-join-expression-is-created-and-evaluated---false--true--abapcatalog-dbhints------dbsystem--obsolete--database-system-for-which-a--database-hint--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abendatabase-hint-glosry-htm--glossary-entry---is-specified--evaluated-using--sadl--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensadl-glosry-htm--glossary-entry------consumption-dbhintscalculatedby--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-frmwrk-htm--should-be-used-instead----ada--sap-maxdb--db2--ibm-db2--db4--ibm-db2-for-as-400--db6--ibm-db2-udb--inf--informix--mss--microsoft-sql-server--ora--oracle-db--hdb--sap-hana-database--ase--sybase-ase--all--all-database-systems----------abapcatalog-dbhints------hint--obsolete---database-hint--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abendatabase-hint-glosry-htm--glossary-entry----evaluated-using--sadl--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensadl-glosry-htm--glossary-entry------consumption-dbhints-------https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-frmwrk-htm--should-be-used-instead---platform-dependent-database-hint----------abapcatalog-preservekey--specifies-the-definition-of-the-key-fields-in-the--cds-database-view--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-database-view-glosry-htm--glossary-entry---of-the-cds-view---true--the-key-fields-of-the-cds-database-view-are-defined-as-dictated-by-the-addition--key--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-select-list-entry-htm---false--the-key-fields-of-the-cds-database-view-are-determined-as-for-database-views-in-abap-dictionary--regardless-of-the-addition--key--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-select-list-entry-htm----false--true--abapcatalog-sqlviewname--name-of-the--cds-database-view--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-database-view-glosry-htm--glossary-entry---of-the-cds-view--character-string-with-a-maximum-of-16-characters-consisting-of-letters--numbers-and-underscores-and-that-starts-with-a--namespace-prefix--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenname-space-prefix-glosry-htm--glossary-entry-------------abapcatalog-viewenhancementcategory-------specifies-how-the-cds-view-is-extended-using--cds-view-enhancements--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-view-extend-glosry-htm--glossary-entry----a-comma-separated-list-of-values-can-be-specified-in-the-square-brackets-of-the--annotation-array--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-array-glosry-htm--glossary-entry------projection--list--extensions-of-the-select-list-and-additional-cds-associations-are-allowed--extensions-of-cds-views-whose-select-lists-contain--aggregate-expressions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-aggregate-functions-htm--or-have-a--union--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-union-htm--clause-must-be-permitted-using-further-values--group--by--aggregated-or-non-aggregated-elements-are-allowed-to-be-added-to-a-select-list-with--aggregated-expressions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-aggregate-functions-htm--and-the-associated-extensions-of-the-of-the--group-by--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-group-by-htm--clause-are-also-permitted--can-only-be-specified-together-with--projection--list--union--extensions-of-the-select-list-of-a-cds-view-with-a--union--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-union-htm--clause-are-allowed--can-only-be-specified-together-with--projection--list--none--no-extensions-allowed--cannot-be-specified-together-with-other-values---projection--list---projection--list--notes------each-definition-of-a-cds-view-must-contain-the-abap-annotation-abapcatalog-sqlviewname--which-defines-the-name-of-the--cds-database-view--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-database-view-glosry-htm--glossary-entry---in-abap-dictionary-------the-name-given-to-the-database-view-can-no-longer-be-changed-after-the-cds-view-is-transported-into-a-follow-on-system-------in-the--annotation-array--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-array-glosry-htm--glossary-entry---abapcatalog-viewenhancementcategory--------group--by-and--union-can-only-be-specified-together-with-the-default-value--projection--list--the-value--none-excludes-any-other-values-------extensions-of-a-view-with-aggregate-expressions-or-with-a-union-clause-modify-the-cardinality-of-the-results-set--this-means-that-these-extensions-must-have-special-permission-in-the-view-to-enable-consumers-of-the-view-to-handle-any-changes-to-cardinalities-------it-is-advisable-to-use-the-annotation-abapcatalog-compiler-comparefilter-with-the-value-true--adt-suggests-this-when-a-new-cds-view-is-created-------the--framework-specific-annotation--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencomponent-annotation-glosry-htm--glossary-entry----Consumption.dbHints](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_frmwrk_tables.htm) replaces the [ABAP annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") [@AbapCatalog.dbHints](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm) and makes it obsolete. The ABAP annotation is evaluated by frameworks such as SADL and not by the ABAP runtime environment.
 
 Example
 

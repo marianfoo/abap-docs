@@ -1,4 +1,14 @@
-  
+---
+title: "APC, Creating a Detached Client"
+description: |
+  This example demonstrates how a detached client is created for the WebSocket protocol. Source Code REPORT demo_apc_detached_client. CLASS apc_handler DEFINITION FINAL. PUBLIC SECTION. INTERFACES if_apc_wsp_event_handler_pcp. DATA: connection_attach_handle TYPE string, message
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_detached_client_abexa.htm"
+abapFile: "abenapc_detached_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "detached", "client", "abexa"]
+---
 
 * * *
 

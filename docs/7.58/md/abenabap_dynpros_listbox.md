@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Examples"
+description: |
+  -   List Box with Value List from Input Help(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_drop1_abexa.htm) -   List Box with Value List from PBO Module(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_drop2_abexa.htm)
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_listbox.htm"
+abapFile: "abenabap_dynpros_listbox.htm"
+keywords: ["select", "do", "if", "try", "internal-table", "abenabap", "dynpros", "listbox"]
+---
 
 * * *
 

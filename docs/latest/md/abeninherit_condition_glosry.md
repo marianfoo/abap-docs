@@ -1,4 +1,14 @@
-  
+---
+title: "inherit_condition_glosry"
+description: |
+  inherit_condition_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninherit_condition_glosry.htm"
+abapFile: "abeninherit_condition_glosry.htm"
+keywords: ["do", "if", "try", "abeninherit", "condition", "glosry"]
+---
 
 * * *
 

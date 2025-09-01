@@ -1,4 +1,14 @@
-  
+---
+title: "Table Expressions, Default Value"
+description: |
+  This example demonstrates default values for table expressions. Source Code REPORT demo_tab_exp_default. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, id    TYPE i, value TYPE string, END OF line, itab TYPE SORTE
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_default_abexa.htm"
+abapFile: "abentable_exp_default_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abentable", "exp", "default", "abexa"]
+---
 
 * * *
 

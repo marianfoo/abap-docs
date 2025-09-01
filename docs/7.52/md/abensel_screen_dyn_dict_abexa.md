@@ -1,4 +1,14 @@
-  
+---
+title: "Selection screens, dynamic Dictionary reference"
+description: |
+  The example demonstrates how you can create a dynamic Dictionary reference to a parameter. Source Code REPORT demo_sel_screen_parameters_2 . SELECTION-SCREEN BEGIN OF SCREEN 100. PARAMETERS name(20) TYPE c DEFAULT 'SPFLI-CARRID'. SELECTION-SCREEN END OF SCREEN 100. SELECTION-SCREEN BEGIN OF SCRE
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_dyn_dict_abexa.htm"
+abapFile: "abensel_screen_dyn_dict_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensel", "screen", "dyn", "dict", "abexa"]
+---
 
 * * *
 

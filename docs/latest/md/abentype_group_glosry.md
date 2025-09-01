@@ -1,4 +1,14 @@
-  
+---
+title: "type_group_glosry"
+description: |
+  type_group_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_group_glosry.htm"
+abapFile: "abentype_group_glosry.htm"
+keywords: ["do", "if", "try", "abentype", "group", "glosry"]
+---
 
 * * *
 

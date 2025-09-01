@@ -1,4 +1,14 @@
-  
+---
+title: "FOR LOCK, RAP Handler Method"
+description: |
+  Syntax Handler method definition: METHODS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods.htm) meth FINAL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) FOR LOCK IMPORTING(https://help.sap.com/doc/abapdocu_758_index
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaphandler_meth_lock.htm"
+abapFile: "abaphandler_meth_lock.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abaphandler", "meth", "lock"]
+---
 
 * * *
 

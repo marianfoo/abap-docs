@@ -1,4 +1,14 @@
-  
+---
+title: "Specifying Numbers"
+description: |
+  Background There are no special literals available for numbers with decimal places, or with mantissa plus exponent. If required, these numbers must be expressed using character literals. The following notations can be used: -   Mathematical notation A string of digits with a maximum of one period (.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumbers_guidl.htm"
+abapFile: "abennumbers_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abennumbers", "guidl"]
+---
 
 * * *
 

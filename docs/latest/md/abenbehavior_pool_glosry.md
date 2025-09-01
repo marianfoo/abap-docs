@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP behavior pool"
+description: |
+  ABP for short. A special class pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_pool_glosry.htm 'Glossary Entry') for an ABAP behavior implementation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_implement_glosry.htm 'Glossary Entry').
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm"
+abapFile: "abenbehavior_pool_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenbehavior", "pool", "glosry"]
+---
 
 * * *
 

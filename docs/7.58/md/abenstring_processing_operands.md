@@ -1,4 +1,14 @@
-  
+---
+title: "Operands in Character String and Byte String Processing"
+description: |
+  -   Operands in Character String Processing(#abenstring-processing-operands-1-------operands-in-byte-string-processing---@ITOC@@ABENSTRING_PROCESSING_OPERANDS_2) Operands in Character String Processing In character string processing, which is defined by the addition IN CHARACTER MODE in overloaded
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_processing_operands.htm"
+abapFile: "abenstring_processing_operands.htm"
+keywords: ["do", "if", "try", "data", "types", "abenstring", "processing", "operands"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ uggestion%20for%20improvement:)
 
 Operands in Character String and Byte String Processing
 
--   [Operands in Character String Processing](#@@ITOC@@ABENSTRING_PROCESSING_OPERANDS_1)
--   [Operands in Byte String Processing](#@@ITOC@@ABENSTRING_PROCESSING_OPERANDS_2)
+-   [Operands in Character String Processing](#abenstring-processing-operands-1-------operands-in-byte-string-processing---@ITOC@@ABENSTRING_PROCESSING_OPERANDS_2)
 
 Operands in Character String Processing   
 

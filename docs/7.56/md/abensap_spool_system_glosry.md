@@ -1,4 +1,14 @@
-  
+---
+title: "SAP spool system"
+description: |
+  Process of an AS instance(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_instance_glosry.htm 'Glossary Entry') for managing sequential data streams that are stored as spool lists(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspool_list_glosry.htm 'Glossary Ent
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_spool_system_glosry.htm"
+abapFile: "abensap_spool_system_glosry.htm"
+keywords: ["do", "try", "data", "abensap", "spool", "system", "glosry"]
+---
 
 * * *
 

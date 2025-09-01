@@ -1,4 +1,14 @@
-  
+---
+title: "interface_glosry"
+description: |
+  interface_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_glosry.htm"
+abapFile: "abeninterface_glosry.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abeninterface", "glosry"]
+---
 
 * * *
 

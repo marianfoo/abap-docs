@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, ABAP class"
+description: |
+  Syntax ... @ObjectModel.query.implementedBy : 'ABAP:class_name'(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm) ... Effect The annotation @ObjectModel.query.implementedBy(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_a
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_custom_query.htm"
+abapFile: "abencds_f1_custom_query.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "internal-table", "abencds", "custom", "query"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenddic_data_elements.htm
 
-  
+---
+title: "Data Elements"
+description: |
+  A data element in ABAP Dictionary defines an elementary data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_type_glosry.htm 'Glossar
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_elements.htm"
+abapFile: "abenddic_data_elements.htm"
+keywords: ["do", "try", "class", "data", "types", "abenddic", "elements"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenddic_data_elements_tech.htm
 
-  
+---
+title: "Technical Attributes of Data Elements"
+description: |
+  A data element describes an elementary data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_type_glosry.htm 'Glossary Entry') with th
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_elements_tech.htm"
+abapFile: "abenddic_data_elements_tech.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "elements", "tech"]
+---
 
 * * *
 
@@ -72,7 +92,17 @@ The data element S\_CONN\_ID takes its technical attributes (data type NUMC, len
 
 ### abenddic_data_elements_sema.htm
 
-  
+---
+title: "Semantic Attributes of Data Elements"
+description: |
+  The semantic attributes of data elements are mainly significant when they are used as types of fields on user interfaces such as dynpro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry') (or Web Dynpro(https://help.sap.com/doc/abapdocu_753_index_ht
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_elements_sema.htm"
+abapFile: "abenddic_data_elements_sema.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "elements", "sema"]
+---
 
 * * *
 
@@ -159,7 +189,17 @@ It is highly significant that many semantic attributes of a data element define 
 
 ### abenddic_domains.htm
 
-  
+---
+title: "Domains"
+description: |
+  A domain is a standalone dictionary object that defines technical and semantic attributes of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_elements.htm) can be defined with reference to a domain and inherit its attributes. Domains can
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 
@@ -194,7 +234,17 @@ Continue
 
 ### abenddic_domains_tech.htm
 
-  
+---
+title: "Technical Attributes of Domains"
+description: |
+  The only technical attribute of a domain is the description of an elementary data type whose following technical attributes are defined directly in the domain: -   Built-in data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) in ABAP Dictionary -   Lengt
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_domains_tech.htm"
+abapFile: "abenddic_domains_tech.htm"
+keywords: ["do", "if", "class", "data", "types", "abenddic", "domains", "tech"]
+---
 
 * * *
 
@@ -219,7 +269,17 @@ When existing domains are modified, all consumers of the domain are also affecte
 
 ### abenddic_domains_sema.htm
 
-  
+---
+title: "Semantic Attributes of Domains"
+description: |
+  Domains can be given the following semantic attributes: -   Short text Each domain has a short description specified when it is created. -   Documentation A domain can be given (optional) documentation. -   Output attributes The output attributes determine how fields defined with reference to a data
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_domains_sema.htm"
+abapFile: "abenddic_domains_sema.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "domains", "sema"]
+---
 
 * * *
 
@@ -289,7 +349,17 @@ The domain S\_CLASS with the type CHAR describes the possible classes in a fligh
 
 ### abenddic_domains.htm
 
-  
+---
+title: "Domains"
+description: |
+  A domain is a standalone dictionary object that defines technical and semantic attributes of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_data_elements.htm) can be defined with reference to a domain and inherit its attributes. Domains can
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 

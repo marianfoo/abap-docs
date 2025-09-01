@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  table_key(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_itab_key.htm)   index(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_itab_index.htm) . Effect In this variant, the statement DELETE deletes a row specified by a table key in tab
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_itab_line.htm"
+abapFile: "abapdelete_itab_line.htm"
+keywords: ["delete", "do", "if", "data", "internal-table", "abapdelete", "itab", "line"]
+---
 
 * * *
 

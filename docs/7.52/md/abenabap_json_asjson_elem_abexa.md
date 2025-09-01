@@ -1,4 +1,14 @@
-  
+---
+title: "JSON, asJSON for Elementary ABAP Types"
+description: |
+  This example demonstrates asJSON(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson_abap_types_elem.htm) for all elementary ABAP types. Source Code REPORT demo_asjson_elementary_types. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json_asjson_elem_abexa.htm"
+abapFile: "abenabap_json_asjson_elem_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenabap", "json", "asjson", "elem", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO root entity"
+description: |
+  RAP BO entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') that defines the behavior of a CDS root entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenroot_entity_glosry.htm 'Glossary Entry'). The RAP BO root entity i
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_root_entity_glosry.htm"
+abapFile: "abenrap_bo_root_entity_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "root", "entity", "glosry"]
+---
 
 * * *
 

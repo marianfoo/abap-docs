@@ -1,4 +1,14 @@
-  
+---
+title: "constructor_operator_glosry"
+description: |
+  constructor_operator_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_operator_glosry.htm"
+abapFile: "abenconstructor_operator_glosry.htm"
+keywords: ["do", "try", "abenconstructor", "operator", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE ABSTRACT ENTITY, composition"
+description: |
+  Syntax ... COMPOSITION cardinality(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cardinality_v2.htm) OF target ... Effect Defines a CDS to-child association(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_child_association_glosry.htm 'Glossary Entry
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_absent_composition.htm"
+abapFile: "abencds_absent_composition.htm"
+keywords: ["do", "if", "try", "data", "abencds", "absent", "composition"]
+---
 
 * * *
 

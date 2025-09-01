@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO instance"
+description: |
+  Concrete data set of a BO composition tree(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_composition_tree_glosry.htm 'Glossary Entry'). One BO instance at least consists of one RAP BO root entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_root_enti
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm"
+abapFile: "abenrap_bo_instance_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "instance", "glosry"]
+---
 
 * * *
 

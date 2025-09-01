@@ -1,4 +1,14 @@
-  
+---
+title: "Assignments"
+description: |
+  An assignment passes the content of a source to a target data object. The source can be one of the following: -   Data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_object_glosry.htm 'Glossary Entry') -   Return values or results of functional methods(https://h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm"
+abapFile: "abenvalue_assignments.htm"
+keywords: ["do", "if", "try", "method", "data", "abenvalue", "assignments"]
+---
 
 * * *
 

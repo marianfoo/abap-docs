@@ -1,4 +1,14 @@
-  
+---
+title: "DML"
+description: |
+  Short for Data Manipulation Language. Subset of SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_glosry.htm 'Glossary Entry'). The statements in DML perform CRUD(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencrud_glosry.htm 'Glossary Entry') opera
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendml_glosry.htm"
+abapFile: "abendml_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendml", "glosry"]
+---
 
 * * *
 

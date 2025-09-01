@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC external view"
+description: |
+  A special dictionary view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendictionary_view_glosry.htm 'Glossary Entry') that defines an SAP HANA view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_view_glosry.htm 'Glossary Entry') of the SAP HANA Repository(h
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexternal_view_glosry.htm"
+abapFile: "abenexternal_view_glosry.htm"
+keywords: ["do", "if", "try", "abenexternal", "view", "glosry"]
+---
 
 * * *
 

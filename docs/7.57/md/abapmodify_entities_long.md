@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY ENTITIES, Long Form"
+description: |
+  Syntax MODIFY ENTITIES OF bdef  IN LOCAL MODE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_privileged.htm) ENTITY bdef1 operations(https://help.sap.com/doc/abapdocu_757_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entities_long.htm"
+abapFile: "abapmodify_entities_long.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "method", "data", "abapmodify", "entities", "long"]
+---
 
 * * *
 

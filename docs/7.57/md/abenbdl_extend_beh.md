@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Entity Behavior Extension"
+description: |
+  Syntax extend behavior for EntityName implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm) with additional save with full data(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_sa
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh.htm"
+abapFile: "abenbdl_extend_beh.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenbdl", "extend", "beh"]
+---
 
 * * *
 

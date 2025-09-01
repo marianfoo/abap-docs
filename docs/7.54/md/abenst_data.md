@@ -1,4 +1,14 @@
-  
+---
+title: "ST - data, Assertions"
+description: |
+  Syntax ... data='...' ... Effect The following assertions can be specified for the content of the attribute data of an element tt:cond(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_cond.htm): Assertion Meaning initial(node) Met if the bound ABAP data object is initial initia
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_data.htm"
+abapFile: "abenst_data.htm"
+keywords: ["do", "if", "data", "abenst"]
+---
 
 * * *
 

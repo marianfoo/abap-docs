@@ -1,4 +1,14 @@
-  
+---
+title: "System Fields"
+description: |
+  An ABAP program can request the state of the ABAP runtime framework using the system fields(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields.htm). From a technical viewpoint, these system fields are a set of built-in variables (the components of the built-in sy structur
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields_gdl.htm"
+abapFile: "abensystem_fields_gdl.htm"
+keywords: ["do", "if", "case", "data", "abensystem", "fields", "gdl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Database tables in AS ABAP in a nutshell"
+description: |
+  Database tables in AS ABAP(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm 'Glossary Entry') ... -   are objects of the ABAP Dictionary (DDIC)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') -   consist
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql.htm"
+abapFile: "abapsheet_abap_sql.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapsheet", "abap", "sql"]
+---
 
 * * *
 
@@ -12,22 +22,14 @@ ABAP SQL: Working with persisted data in database tables
 
 This cheat sheet provides quick information and tips about working with persisted data in database tables using ABAP SQL. Furthermore, it serves as a collection of syntax and code snippets in one place for your reference. For more details, refer to the respective topic in the ABAP Keyword Documentation.
 
--   [Database tables in AS ABAP in a nutshell](#@@ITOC@@ABAPSHEET_ABAP_SQL_1)
-    -   [Excursion: Views](#@@ITOC@@ABAPSHEET_ABAP_SQL_2)
--   [ABAP SQL](#@@ITOC@@ABAPSHEET_ABAP_SQL_3)
--   [Read data using SELECT](#@@ITOC@@ABAPSHEET_ABAP_SQL_4)
-    -   [Basic syntax](#@@ITOC@@ABAPSHEET_ABAP_SQL_5)
-    -   [Using SELECT 1: Basics](#@@ITOC@@ABAPSHEET_ABAP_SQL_6)
-    -   [Using SELECT 2: Clause variations and additions](#@@ITOC@@ABAPSHEET_ABAP_SQL_7)
-    -   [Using SELECT 3: Further clauses](#@@ITOC@@ABAPSHEET_ABAP_SQL_8)
-    -   [Using SELECT 4: Read from multiple tables](#@@ITOC@@ABAPSHEET_ABAP_SQL_9)
-    -   [Using SELECT 5: Excursions](#@@ITOC@@ABAPSHEET_ABAP_SQL_10)
--   [Changing data in database tables](#@@ITOC@@ABAPSHEET_ABAP_SQL_11)
-    -   [Using INSERT](#@@ITOC@@ABAPSHEET_ABAP_SQL_12)
-    -   [Using UPDATE](#@@ITOC@@ABAPSHEET_ABAP_SQL_13)
-    -   [Using MODIFY](#@@ITOC@@ABAPSHEET_ABAP_SQL_14)
-    -   [Using DELETE](#@@ITOC@@ABAPSHEET_ABAP_SQL_15)
--   [Demonstration program](#@@ITOC@@ABAPSHEET_ABAP_SQL_16)
+-   [Database tables in AS ABAP in a nutshell](#abapsheet-abap-sql-1-----------excursion--views---@ITOC@@ABAPSHEET_ABAP_SQL_2)
+-   [ABAP SQL](#abapsheet-abap-sql-3-------read-data-using-select---@ITOC@@ABAPSHEET_ABAP_SQL_4)
+    -   [Basic syntax](#abapsheet-abap-sql-5-----------using-select-1--basics---@ITOC@@ABAPSHEET_ABAP_SQL_6)
+    -   [Using SELECT 2: Clause variations and additions](#abapsheet-abap-sql-7-----------using-select-3--further-clauses---@ITOC@@ABAPSHEET_ABAP_SQL_8)
+    -   [Using SELECT 4: Read from multiple tables](#abapsheet-abap-sql-9-----------using-select-5--excursions---@ITOC@@ABAPSHEET_ABAP_SQL_10)
+-   [Changing data in database tables](#abapsheet-abap-sql-11-----------using-insert---@ITOC@@ABAPSHEET_ABAP_SQL_12)
+    -   [Using UPDATE](#abapsheet-abap-sql-13-----------using-modify---@ITOC@@ABAPSHEET_ABAP_SQL_14)
+    -   [Using DELETE](#abapsheet-abap-sql-15-------demonstration-program---@ITOC@@ABAPSHEET_ABAP_SQL_16)
 
 Database tables in AS ABAP in a nutshell
 

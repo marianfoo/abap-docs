@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes.htm) Syntax TYPES dtype(len) TYPE  abap_type LENGTH len DECIMALS dec  LINE OF type  REF TO type   STANDARD TABLE  SORTED TABLE
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_shortref.htm"
+abapFile: "abaptypes_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abaptypes", "shortref"]
+---
 
 * * *
 

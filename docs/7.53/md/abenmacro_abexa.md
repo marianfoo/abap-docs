@@ -1,4 +1,14 @@
-  
+---
+title: "Macros"
+description: |
+  This example demonstrates how macros are created and included. Source Code REPORT  DEMO_MACRO. DATA: x TYPE i, y TYPE i, l TYPE i. DEFINE write_frame. x = sy-colno. y = sy-linno. WRITE: '' NO-GAP, &1 NO-GAP, '' NO-GAP. l = sy-colno - x. y = y - 1. SKIP TO LINE y. POSITION x. ULINE AT x(l). y = y
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmacro_abexa.htm"
+abapFile: "abenmacro_abexa.htm"
+keywords: ["do", "data", "abenmacro", "abexa"]
+---
 
 * * *
 

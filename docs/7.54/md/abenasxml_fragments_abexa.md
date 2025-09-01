@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_asxml_fragment. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA out TYPE REF TO if_demo_output. CLASS-METHODS prepare_fragment RETURNING VALUE(xml) TYPE xstring. CLASS-METHODS serialize IMPORTING source TYPE any node   TYPE string trafo  TYPE s
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasxml_fragments_abexa.htm"
+abapFile: "abenasxml_fragments_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenasxml", "fragments", "abexa"]
+---
 
 * * *
 

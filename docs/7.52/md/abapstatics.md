@@ -1,4 +1,14 @@
-  
+---
+title: "STATICS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapstatics_shortref.htm) Syntax STATICS stat options(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm). Effect Declares static variables stat. The statement STATICS for declaring static var
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapstatics.htm"
+abapFile: "abapstatics.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abapstatics"]
+---
 
 * * *
 

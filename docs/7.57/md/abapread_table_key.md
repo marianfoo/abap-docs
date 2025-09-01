@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  FROM wa USING KEY keyname(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm)    WITH TABLE KEY keyname(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm) COMPONENTS comp_name1(name1) = operand1 comp_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_key.htm"
+abapFile: "abapread_table_key.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapread", "table", "key"]
+---
 
 * * *
 

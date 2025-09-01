@@ -1,4 +1,14 @@
-  
+---
+title: "CDS virtual element"
+description: |
+  Element in the element list of a projection view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') which is not included in the projected entity. Virtual elements are not persistent on the database, but calculated during runtime. In ord
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_virtual_element_glosry.htm"
+abapFile: "abencds_virtual_element_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "virtual", "element", "glosry"]
+---
 
 * * *
 

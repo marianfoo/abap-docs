@@ -1,4 +1,14 @@
-  
+---
+title: "Coverage Analyzer"
+description: |
+  Tool for recording how often programs or individual processing blocks(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') are executed, classified by time period, ABAP user(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaba
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencoverage_analyzer_glosry.htm"
+abapFile: "abencoverage_analyzer_glosry.htm"
+keywords: ["do", "if", "try", "class", "abencoverage", "analyzer", "glosry"]
+---
 
 * * *
 

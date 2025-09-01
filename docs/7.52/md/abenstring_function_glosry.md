@@ -1,4 +1,14 @@
-  
+---
+title: "String Function"
+description: |
+  Predefined function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_function_glosry.htm 'Glossary Entry') for processing strings(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_string_1_glosry.htm 'Glossary Entry'). → More(https://help.sap.com
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_function_glosry.htm"
+abapFile: "abenstring_function_glosry.htm"
+keywords: ["do", "try", "abenstring", "function", "glosry"]
+---
 
 * * *
 

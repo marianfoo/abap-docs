@@ -1,4 +1,14 @@
-  
+---
+title: "replace_function_glosry"
+description: |
+  replace_function_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreplace_function_glosry.htm"
+abapFile: "abenreplace_function_glosry.htm"
+keywords: ["do", "if", "try", "abenreplace", "function", "glosry"]
+---
 
 * * *
 

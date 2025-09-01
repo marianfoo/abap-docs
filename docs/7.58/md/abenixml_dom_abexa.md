@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_dom DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_ixml_dom IMPLEMENTATION. METHOD main. FINAL(o) = out->begin_section( `XML-Da
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenixml_dom_abexa.htm"
+abapFile: "abenixml_dom_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenixml", "dom", "abexa"]
+---
 
 * * *
 

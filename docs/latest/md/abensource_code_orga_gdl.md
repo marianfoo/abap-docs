@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code Organization"
+description: |
+  ABAP source code is saved in the ABAP Repository in the standard database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_db_glosry.htm 'Glossary Entry') of an AS ABAP, and not in source code files like in most other programming environments. Source codes can be split
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_orga_gdl.htm"
+abapFile: "abensource_code_orga_gdl.htm"
+keywords: ["do", "if", "try", "data", "abensource", "code", "orga", "gdl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Database Procedure Proxies for SQLScript Procedures in XSC"
+description: |
+  When calling SQLScript procedures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm 'Glossary Entry') in the SAP HANA repository(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_hana_repository_glosry.htm 'Glossary Entry') in SAP HA
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script.htm"
+abapFile: "abensql_script.htm"
+keywords: ["do", "try", "method", "data", "types", "abensql", "script"]
+---
 
 * * *
 

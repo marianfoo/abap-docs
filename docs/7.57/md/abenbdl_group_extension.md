@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Implementation Grouping, Extension"
+description: |
+  Syntax ... group Group1 implementation in class Class1 unique(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm)  // implementation-relevant content  group Group2 implementation in class Class2 unique(https://help.sap.com/doc/abapdocu_757_index_htm/7.57
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_group_extension.htm"
+abapFile: "abenbdl_group_extension.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "group", "extension"]
+---
 
 * * *
 

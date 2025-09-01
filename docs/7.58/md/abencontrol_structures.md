@@ -1,4 +1,14 @@
-  
+---
+title: "Control Structures"
+description: |
+  The statements in a processing block(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') are organized in control structures. These define statement blocks and control the progress of the program within a processing block. They determine the
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_structures.htm"
+abapFile: "abencontrol_structures.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "exception-handling", "abencontrol", "structures"]
+---
 
 * * *
 

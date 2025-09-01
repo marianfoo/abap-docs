@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Examples of Actions"
+description: |
+  !Example(exa.gif 'Example') CDS BDL - Action(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action1_abexa.htm) !Example(exa.gif 'Example') CDS BDL - Action with Input Parameter(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action2_abexa.htm) !Example
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_abexas.htm"
+abapFile: "abenbdl_action_abexas.htm"
+keywords: ["do", "if", "data", "abenbdl", "action", "abexas"]
+---
 
 * * *
 

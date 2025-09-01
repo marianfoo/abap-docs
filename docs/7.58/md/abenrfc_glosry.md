@@ -1,4 +1,14 @@
-  
+---
+title: "RFC"
+description: |
+  → remote function call(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenremote_function_call_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_glosry.htm"
+abapFile: "abenrfc_glosry.htm"
+keywords: ["do", "if", "try", "abenrfc", "glosry"]
+---
 
 * * *
 

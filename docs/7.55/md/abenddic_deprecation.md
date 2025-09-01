@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Flagging of Deprecated Data in Check Tables"
+description: |
+  Rows in check tables(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the input check(https://help.sap.com/doc/abapdocu_755_index
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_deprecation.htm"
+abapFile: "abenddic_deprecation.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "deprecation"]
+---
 
 * * *
 

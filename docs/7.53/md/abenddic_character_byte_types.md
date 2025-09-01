@@ -1,4 +1,14 @@
-  
+---
+title: "Character-Like Types and Byte-Like Types"
+description: |
+  -   Character Strings(#abenddic-character-byte-types-1--------byte-chains---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_2) -   Notes on Strings(#abenddic-character-byte-types-3--------use-in-abap-sql---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_4) -   Handling in Dynpros(#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TY
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm"
+abapFile: "abenddic_character_byte_types.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abenddic", "character", "byte"]
+---
 
 * * *
 
@@ -8,13 +18,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Character-Like Types and Byte-Like Types
 
--   [Character Strings](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_1)
+-   [Character Strings](#abenddic-character-byte-types-1--------byte-chains---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_2)
 
--   [Byte Chains](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_2)
-
--   [Notes on Strings](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_3)
-
--   [Use in ABAP SQL](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_4)
+-   [Notes on Strings](#abenddic-character-byte-types-3--------use-in-abap-sql---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_4)
 
 -   [Handling in Dynpros](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_5)
 

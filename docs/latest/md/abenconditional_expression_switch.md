@@ -1,4 +1,14 @@
-  
+---
+title: "SWITCH, Conditional Operator"
+description: |
+  Syntax ... SWITCH type( let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) operand WHEN const1 THEN  let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) result1(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_switch.htm"
+abapFile: "abenconditional_expression_switch.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenconditional", "expression", "switch"]
+---
 
 * * *
 

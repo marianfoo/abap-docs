@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP connection"
+description: |
+  Secondary(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensecondary_db_connection_glosry.htm 'Glossary Entry') or service connection(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenservice_connection_glosry.htm 'Glossary Entry') that is shared by ABAP SQL
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_connection_glosry.htm"
+abapFile: "abenabap_connection_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "connection", "glosry"]
+---
 
 * * *
 

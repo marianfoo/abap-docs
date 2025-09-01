@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenfrontend_services.htm
 
-  
+---
+title: "Access to the Presentation Server"
+description: |
+  Programs that are executed in dialog(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_processing_glosry.htm 'Glossary Entry') and from SAP GUI can use the methods of the class CL_GUI_FRONTEND_SERVICES to access the current presentation server(https://help.sap.com/doc/abap
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm"
+abapFile: "abenfrontend_services.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenfrontend", "services"]
+---
 
 * * *
 
@@ -115,7 +125,17 @@ Continue
 
 ### abenexcel_to_itab_abexa.htm
 
-  
+---
+title: "Uploading an Excel File"
+description: |
+  This example loads an Excel file from the presentation server and converts it into an internal table. Source Code  Public class definition CLASS cl_demo_read_excel_to_itab DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm"
+abapFile: "abenexcel_to_itab_abexa.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenexcel", "itab", "abexa"]
+---
 
 * * *
 

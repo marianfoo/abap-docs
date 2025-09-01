@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Cursor Processing in Native SQL"
+description: |
+  -   EXEC SQL - PERFORMING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec_implicit.htm) -   EXIT FROM SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_sql.htm) EXEC SQL - PERFORMING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec_i
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_cursor_implicit.htm"
+abapFile: "abenexec_sql_cursor_implicit.htm"
+keywords: ["do", "if", "data", "abenexec", "sql", "cursor", "implicit"]
+---
 
 * * *
 

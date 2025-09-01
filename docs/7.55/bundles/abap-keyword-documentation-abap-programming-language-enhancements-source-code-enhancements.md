@@ -5,7 +5,17 @@ Included pages: 12
 
 ### abensource_code_enhancement.htm
 
-  
+---
+title: "Source Code Enhancements"
+description: |
+  ABAP source code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') can be enhanced using source code plug-ins(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_plugin_glosry.htm 'Glossary Entry'), as part of the
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_enhancement.htm"
+abapFile: "abensource_code_enhancement.htm"
+keywords: ["do", "try", "abensource", "code", "enhancement"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenimplicit_enh_points.htm
 
-  
+---
+title: "Implicit Enhancement Options"
+description: |
+  In addition to enhancement points(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_point_glosry.htm 'Glossary Entry') that can be created explicitly using ENHANCEMENT-POINT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-point.htm) and ENHANC
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenimplicit_enh_points.htm"
+abapFile: "abenimplicit_enh_points.htm"
+keywords: ["select", "do", "try", "method", "class", "abenimplicit", "enh", "points"]
+---
 
 * * *
 
@@ -80,7 +100,17 @@ Hints
 
 ### abenexplicit_enh_points.htm
 
-  
+---
+title: "Explicit enhancement options"
+description: |
+  Explicit enhancement options(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_point_glosry.htm 'Glossary Entry') are created in ABAP programs by the following statements: -   ENHANCEMENT-POINT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-po
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexplicit_enh_points.htm"
+abapFile: "abenexplicit_enh_points.htm"
+keywords: ["insert", "do", "try", "abenexplicit", "enh", "points"]
+---
 
 * * *
 
@@ -106,7 +136,17 @@ Continue
 
 ### abapenhancement-point.htm
 
-  
+---
+title: "ENHANCEMENT-POINT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-point_shortref.htm) Syntax ENHANCEMENT-POINT enh_id SPOTS spot1 spot2 ... STATIC INCLUDE BOUND. Additions: 1. ... STATIC(#!ABAP_ADDITION_1@1@) 2. ... INCLUDE BOUND(#!ABAP_ADDITION_2@2@
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-point.htm"
+abapFile: "abapenhancement-point.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "try", "data", "abapenhancement", "point"]
+---
 
 * * *
 
@@ -183,7 +223,17 @@ Hints
 
 ### abapenhancement-section.htm
 
-  
+---
+title: "ENHANCEMENT-SECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section_shortref.htm) Syntax ENHANCEMENT-SECTION enh_id SPOTS spot1 spot2 ... STATIC INCLUDE BOUND. ... END-ENHANCEMENT-SECTION. Additions: 1. ... STATIC(#!ABAP_ADDITION_1@1@) 2. ... IN
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section.htm"
+abapFile: "abapenhancement-section.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapenhancement", "section"]
+---
 
 * * *
 
@@ -259,7 +309,17 @@ Continue
 
 ### abapend-enhancement-section.htm
 
-  
+---
+title: "END-ENHANCEMENT-SECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section_shortref.htm) Syntax END-ENHANCEMENT-SECTION. Effect The statement END-ENHANCEMENT-SECTION ends an enhancement point(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_point
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapend-enhancement-section.htm"
+abapFile: "abapend-enhancement-section.htm"
+keywords: ["do", "try", "abapend", "enhancement", "section"]
+---
 
 * * *
 
@@ -282,7 +342,17 @@ The statement END-ENHANCEMENT-SECTION ends an [enhancement point](https://help.s
 
 ### abapenhancement-section.htm
 
-  
+---
+title: "ENHANCEMENT-SECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section_shortref.htm) Syntax ENHANCEMENT-SECTION enh_id SPOTS spot1 spot2 ... STATIC INCLUDE BOUND. ... END-ENHANCEMENT-SECTION. Additions: 1. ... STATIC(#!ABAP_ADDITION_1@1@) 2. ... IN
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section.htm"
+abapFile: "abapenhancement-section.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "abapenhancement", "section"]
+---
 
 * * *
 
@@ -358,7 +428,17 @@ Continue
 
 ### abenexplicit_enh_points.htm
 
-  
+---
+title: "Explicit enhancement options"
+description: |
+  Explicit enhancement options(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_point_glosry.htm 'Glossary Entry') are created in ABAP programs by the following statements: -   ENHANCEMENT-POINT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-po
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexplicit_enh_points.htm"
+abapFile: "abenexplicit_enh_points.htm"
+keywords: ["insert", "do", "try", "abenexplicit", "enh", "points"]
+---
 
 * * *
 
@@ -384,7 +464,17 @@ Continue
 
 ### abenenh_implementation.htm
 
-  
+---
+title: "Continue"
+description: |
+  ENHANCEMENT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement.htm) ENDENHANCEMENT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendenhancement.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenh_implementation.htm"
+abapFile: "abenenh_implementation.htm"
+keywords: ["do", "try", "abenenh", "implementation"]
+---
 
 * * *
 
@@ -407,7 +497,17 @@ Continue
 
 ### abapenhancement.htm
 
-  
+---
+title: "ENHANCEMENT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement_shortref.htm) Syntax ENHANCEMENT id. ... ENDENHANCEMENT. Effect These statements define a source code plug-in(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_plugin_glosry.htm 'G
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement.htm"
+abapFile: "abapenhancement.htm"
+keywords: ["do", "try", "abapenhancement"]
+---
 
 * * *
 
@@ -444,7 +544,17 @@ Hints
 
 ### abapendenhancement.htm
 
-  
+---
+title: "ENDENHANCEMENT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement_shortref.htm) Syntax ENDENHANCEMENT. Effect The statement ENDENHANCEMENT closes a source code plug-in(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_plugin_glosry.htm 'Glossary
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendenhancement.htm"
+abapFile: "abapendenhancement.htm"
+keywords: ["do", "try", "abapendenhancement"]
+---
 
 * * *
 
@@ -467,7 +577,17 @@ The statement ENDENHANCEMENT closes a [source code plug-in](https://help.sap.com
 
 ### abenenh_implementation.htm
 
-  
+---
+title: "Continue"
+description: |
+  ENHANCEMENT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement.htm) ENDENHANCEMENT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendenhancement.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenh_implementation.htm"
+abapFile: "abenenh_implementation.htm"
+keywords: ["do", "try", "abenenh", "implementation"]
+---
 
 * * *
 

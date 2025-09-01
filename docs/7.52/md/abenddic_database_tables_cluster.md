@@ -1,4 +1,14 @@
-  
+---
+title: "Cluster Tables in Table Clusters"
+description: |
+  Cluster tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table clusters rather than being defined as cluster tables on the database. -   Table Cluster(#abenddic-database-tables-cluster-1--------cluster-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_C
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_cluster.htm"
+abapFile: "abenddic_database_tables_cluster.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "cluster"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Cluster Tables in Table Clusters
 
 Cluster tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table clusters rather than being defined as cluster tables on the database.
 
--   [Table Cluster](#@@ITOC@@ABENDDIC_DATABASE_TABLES_CLUSTER_1)
-
--   [Cluster Tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_CLUSTER_2)
+-   [Table Cluster](#abenddic-database-tables-cluster-1--------cluster-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_CLUSTER_2)
 
 Table Cluster
 

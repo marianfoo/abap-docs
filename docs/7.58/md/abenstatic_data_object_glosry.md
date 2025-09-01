@@ -1,4 +1,14 @@
-  
+---
+title: "static_data_object_glosry"
+description: |
+  static_data_object_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_data_object_glosry.htm"
+abapFile: "abenstatic_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenstatic", "object", "glosry"]
+---
 
 * * *
 

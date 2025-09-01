@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FOR  wa<fs> IN GROUP group INDEX INTO idx  WHERE ( log_exp )(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_cond.htm)    GROUPS OF wa<fs> IN GROUP group INDEX INTO idx  WHERE ( log_exp )(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_in_group.htm"
+abapFile: "abenfor_in_group.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abenfor", "group"]
+---
 
 * * *
 

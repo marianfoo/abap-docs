@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenconstructor.htm
 
-  
+---
+title: "ABAP Objects - Constructors of Classes"
+description: |
+  Constructors are special methods that produce a defined initial state for objects and classes. The state of an object or class is determined by its instance attributes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninstance_attribute_glosry.htm 'Glossary Entry') and static attribu
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor.htm"
+abapFile: "abenconstructor.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenconstructor"]
+---
 
 * * *
 
@@ -23,8 +33,7 @@ Like regular methods, there are two types of constructors: instance constructors
 
 Special rules apply to constructors in inheritance that are not described in the following, but can be found [here](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_constructors.htm).
 
--   [Instance Constructors](#@@ITOC@@ABENCONSTRUCTOR_1)
--   [Static Constructors](#@@ITOC@@ABENCONSTRUCTOR_2)
+-   [Instance Constructors](#abenconstructor-1-------static-constructors---@ITOC@@ABENCONSTRUCTOR_2)
 
 Instance Constructors   
 
@@ -54,7 +63,17 @@ Continue
 
 ### abenconstructor_visibility.htm
 
-  
+---
+title: "ABAP Objects - Visibility of Instance Constructors"
+description: |
+  For technical reasons, the instance constructor of a class is declared in a visibility section(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm 'Glossary Entry') and is therefore theoretically visible to the corresponding consumers. However, an instance
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_visibility.htm"
+abapFile: "abenconstructor_visibility.htm"
+keywords: ["do", "if", "try", "method", "class", "abenconstructor", "visibility"]
+---
 
 * * *
 

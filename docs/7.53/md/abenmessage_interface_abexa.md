@@ -1,4 +1,14 @@
-  
+---
+title: "This example demonstrates how a local exception class is associated with a message"
+description: |
+  Source Code REPORT demo_message_oref. CLASS cx_t100 DEFINITION INHERITING FROM cx_dynamic_check. PUBLIC SECTION. INTERFACES if_t100_message. METHODS constructor IMPORTING id    TYPE symsgid no    TYPE symsgno text1 TYPE csequence OPTIONAL text2 TYPE csequence OPTIONAL text3 TYPE csequence OPT
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_interface_abexa.htm"
+abapFile: "abenmessage_interface_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenmessage", "interface", "abexa"]
+---
 
 * * *
 

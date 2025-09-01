@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, BEGIN OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_bos_shortref.htm) Syntax Forms Selection screens as regular dynpros(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_normal.htm) 1. SELECTION-SCREEN BEGIN OF SCREEN dyn
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_definition.htm"
+abapFile: "abapselection-screen_definition.htm"
+keywords: ["select", "do", "try", "abapselection", "screen", "definition"]
+---
 
 * * *
 

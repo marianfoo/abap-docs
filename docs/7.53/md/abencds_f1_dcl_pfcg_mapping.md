@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE ROLE, Converting Field Values"
+description: |
+  Elements of CDS entities are associated with an authorization object(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_object_glosry.htm 'Glossary Entry') in PFCG conditions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cond_pfcg.htm) in the CD
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pfcg_mapping.htm"
+abapFile: "abencds_f1_dcl_pfcg_mapping.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "dcl", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ ABAP CDS - DEFINE ROLE, Converting Field Values
 
 Elements of CDS entities are associated with an [authorization object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_object_glosry.htm "Glossary Entry") in [PFCG conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cond_pfcg.htm) in the [CDS DCL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_glosry.htm "Glossary Entry"). The [access condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaccess_condition_glosry.htm "Glossary Entry") itself is generated from [authorizations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_glosry.htm "Glossary Entry") of the current user for the authorization object. Here, comparisons of the content of [CDS elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_element_glosry.htm "Glossary Entry") with field values of the authorizations are created. The following points should be noted.
 
--   [Invalid Values](#@@ITOC@@ABENCDS_F1_DCL_PFCG_MAPPING_1)
-
--   [Wildcard Characters](#@@ITOC@@ABENCDS_F1_DCL_PFCG_MAPPING_2)
+-   [Invalid Values](#abencds-f1-dcl-pfcg-mapping-1--------wildcard-characters---@ITOC@@ABENCDS_F1_DCL_PFCG_MAPPING_2)
 
 Invalid Values
 

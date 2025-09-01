@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Data Class of Database Tables"
+description: |
+  For the database platform Oracle, the data class determines the physical area (tablespace) of the database in which a DDIC database table is created (otherwise it is ignored). The most important data classes for application data are: -   APPL0 (master data) Data that is rarely changed. One example o
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_dat_type.htm"
+abapFile: "abenddic_database_tables_dat_type.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "dat", "type"]
+---
 
 * * *
 

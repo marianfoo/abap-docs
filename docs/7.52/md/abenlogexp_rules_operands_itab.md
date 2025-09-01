@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  If an internal table with a header line(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm 'Glossary Entry') is specified as an operand of an assignment, the header line is addressed in nearly all operand positions(https://help.sap.com/doc/abapdocu_752_index_ht
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_itab.htm"
+abapFile: "abenlogexp_rules_operands_itab.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abenlogexp", "rules", "operands", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RETURN - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm) Syntax RETURN. Effect Exits the current processing block(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocessing_block_glosry.htm 'Glossary Entry').
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn_shortref.htm"
+abapFile: "abapreturn_shortref.htm"
+keywords: ["do", "try", "abapreturn", "shortref"]
+---
 
 * * *
 

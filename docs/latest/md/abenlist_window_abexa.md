@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Dialog Box"
+description: |
+  The example shows how to display a details list in the dialog box. Source Code REPORT demo_list_window NO STANDARD PAGE HEADING. START-OF-SELECTION. SET PF-STATUS 'BASIC'. WRITE 'Select line for a demonstration of windows'. AT USER-COMMAND. CASE sy-ucomm. WHEN 'SELE'. IF sy-lsind = 1. SET PF-STATU
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_window_abexa.htm"
+abapFile: "abenlist_window_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "class", "abenlist", "window", "abexa"]
+---
 
 * * *
 

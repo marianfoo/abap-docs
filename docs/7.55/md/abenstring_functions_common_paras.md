@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  string_func - case(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_case.htm) string_func - occ(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_occ.htm) string_func - off, len(https://help.sap.com/doc/abapdocu_755_index_htm/7.55
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_common_paras.htm"
+abapFile: "abenstring_functions_common_paras.htm"
+keywords: ["do", "case", "data", "abenstring", "functions", "common", "paras"]
+---
 
 * * *
 

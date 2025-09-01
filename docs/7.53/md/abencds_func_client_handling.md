@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Client Handling in CDS Table Functions"
+description: |
+  The CDS annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_glosry.htm 'Glossary Entry') @ClientHandling.type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_function_annotations.htm) can be used to switch client dependency(https://hel
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_func_client_handling.htm"
+abapFile: "abencds_func_client_handling.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abencds", "func", "client", "handling"]
+---
 
 * * *
 

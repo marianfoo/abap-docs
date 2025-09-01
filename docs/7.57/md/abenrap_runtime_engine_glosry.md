@@ -1,4 +1,14 @@
-  
+---
+title: "RAP runtime engine"
+description: |
+  Processor that handles the consumption of RAP queries(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_query_glosry.htm 'Glossary Entry') and RAP BOs(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). There is the RAP query engi
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_runtime_engine_glosry.htm"
+abapFile: "abenrap_runtime_engine_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "runtime", "engine", "glosry"]
+---
 
 * * *
 

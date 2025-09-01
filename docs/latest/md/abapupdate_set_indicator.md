@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE dbtab, set indicators"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_shortref.htm) Syntax ... INDICATORS NOT SET STRUCTURE set_ind  (indicator_syntax) ... Alternatives: 1. ... INDICATORS NOT SET STRUCTURE set_ind(#!ABAP_ALTERNATIVE_1@1@) 2. ..
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_set_indicator.htm"
+abapFile: "abapupdate_set_indicator.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapupdate", "set", "indicator"]
+---
 
 * * *
 

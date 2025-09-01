@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - parameters"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_shortref.htm) Syntax ...  VALUE(p1)  REFERENCE(p1)  p1  typing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_syntax.htm) OPTIONALDEFAULT def1  VALUE(p2)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_parameters.htm"
+abapFile: "abapmethods_parameters.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abapmethods", "parameters"]
+---
 
 * * *
 

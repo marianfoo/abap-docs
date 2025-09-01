@@ -1,4 +1,14 @@
-  
+---
+title: "cds_formula_glosry"
+description: |
+  cds_formula_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_formula_glosry.htm"
+abapFile: "abencds_formula_glosry.htm"
+keywords: ["do", "if", "case", "try", "abencds", "formula", "glosry"]
+---
 
 * * *
 

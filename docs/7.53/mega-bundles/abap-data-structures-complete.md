@@ -1,26 +1,11 @@
 # ABAP DATA-STRUCTURES - Complete Reference (7.53)
 
-**Generated**: 2025-09-01T11:14:58.542Z
-**Bundles Combined**: 34
+**Generated**: 2025-09-01T19:37:26.787Z
+**Bundles Combined**: 35
 **Category**: data-structures
 
 ---
 
-
-
-## 🔗 Complete Source Documentation
-
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-**🏷️ Category**: DATA-STRUCTURES
-**🔍 Search Specific Topics**: Use `abap_search query:"data-structures"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
-
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
-
----
 
 ## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - Table Functions
 
@@ -33,11 +18,17 @@ Included pages: 2
 
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -101,16 +92,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -273,16 +267,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -346,16 +343,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -513,885 +513,24 @@ id = '1';
 
 **Files**: 3 | **Difficulty**: intermediate
 
-# ABAP Keyword Documentation / ABAP − Reference / Calling and Exiting Program Units / Calling Programs / Calling Transactions / CALL TRANSACTION
+# ABAP Keyword Documentation / ABAP − Reference / Calling and Exiting Program Units / Calling Programs / Calling Transactions / CALL TRANSACTION / Transaction Call - Examples
 
-Included pages: 13
+Included pages: 5
 
-
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
-
-### abapcall_transaction.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) → 
-
-CALL TRANSACTION
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax Forms
-
-[Simple transaction call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-1\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
-[Transaction call using batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-2\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-                      USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
-                                    *|*  *\[*OPTIONS FROM opt*\]* *}*
-                                       *\[*MESSAGES INTO itab*\]*.
-
-Effect
-
-The statement CALL TRANSACTION calls the [transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry") whose transaction code is contained in the data object ta. The calling program and its data are preserved. After the transaction call, the program execution of the calling program resumes after the statement CALL TRANSACTION. The data object ta must be character-like, flat and contain the transaction code in uppercase letters. The following can be specified for ta:
-
--   Literal or constant
-    
-
-If the data object ta is specified as a [text field literal](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_field_literal_glosry.htm "Glossary Entry") or as a [constant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstant_glosry.htm "Glossary Entry"), it is evaluated as a statically specified object by tools such as the [extended program check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_glosry.htm "Glossary Entry") or the where-used list.
-
--   Variable
-    
-
-If the data object ta is specified as a [variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvariable_glosry.htm "Glossary Entry"), it is specified only dynamically and the content is not evaluated statically.
-
-When the statement is executed, ta is not evaluated until runtime (in both cases). If the transaction specified in ta cannot be found, a non-handleable exception is raised.
-
--   In the [first variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm), the display of the initial screen can be suppressed.
-    
--   In the [second variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm), the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry").
-    
-
-In both variants, an [authorization check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_check_glosry.htm "Glossary Entry") can be performed on the called transaction.
-
-When the transaction is called, the ABAP program associated with the transaction code is loaded in a new [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the current [call sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_sequence_glosry.htm "Glossary Entry"). The session of the calling program and the current [SAP LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw_glosry.htm "Glossary Entry") are preserved. The called program runs in its own SAP LUW.
-
--   If the called transaction is a dialog transaction, the event [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapload-of-program.htm) is raised after the ABAP program is loaded and the [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") defined as the initial dynpro of the transaction is called. The initial dynpro is the first dynpro of a [dynpro sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_sequence_glosry.htm "Glossary Entry"). The transaction is finished when the dynpro sequence is ended by encountering the next dynpro with dynpro number 0 or when the program is exited using the statement [LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_program.htm).
-    
--   If the called transaction is an [OO transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoo_transaction_glosry.htm "Glossary Entry"), the event LOAD-OF-PROGRAM is raised and the method associated with the transaction code is called when any program is loaded (except [class pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_pool_glosry.htm "Glossary Entry")). If the method is an instance method, an object of the associated class is generated implicitly and referenced by the runtime environment. The transaction is finished when the method is finished or when the program is exited using the statement LEAVE PROGRAM.
-    
-
-Notes
-
--   CALL TRANSACTION does not end the current [database LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). A [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [database rollback](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") in the called program works in exactly the same way as in the current program.
-    
--   The statement CALL TRANSACTION opens a new [SAP LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw_glosry.htm "Glossary Entry") but it does not open a new [database LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). This means that a [database rollback](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_rollback_glosry.htm "Glossary Entry") in this SAP LUW can roll back all registration entries made by the statements [CALL FUNCTION IN UPDATE TASK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_update.htm) or [CALL FUNCTION IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_background_task.htm) in the tables VB... or ARFCSSTATE and ARFCSDATA. Under certain circumstances, the statement [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaprollback.htm) in the called program can also affect the interrupted SAP LUW. To prevent this, an explicit [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") must be executed before the program is called. This problem does not occur in [local updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_update_glosry.htm "Glossary Entry").
-    
--   The number of internal sessions in a [call sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_sequence_glosry.htm "Glossary Entry") is restricted to nine. If this is exceeded by CALL TRANSACTION, the program terminates and the entire call sequence is deleted.
-    
-
-Security Note
-
-If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, the result is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_call_scrty.htm).
-
-Example
-
-Calling transaction DEMO\_TRANSACTION in the executable example program DEMO\_CALL\_TRANSACTION\_SPA\_GPA.
-
-TRY.
-    CALL TRANSACTION 'DEMO\_TRANSACTION' WITH AUTHORITY-CHECK.
-  CATCH cx\_sy\_authorization\_error.
-    ...
-ENDTRY.
-
-Executable Examples
-
-[Transaction Call - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
-[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
-
-Handleable Exceptions
-
-CX\_SY\_AUTHORIZATION\_ERROR
-
--   Cause: No authorization for this transaction.
-    Runtime error: CALL\_TRANSACTION\_FAILED
-    
-
-Non-Handleable Exceptions
-
--   Cause: Transaction not found.
-    Runtime error: CALL\_TRANSACTION\_NOT\_FOUND
-    
--   Cause: Transaction is an area menu and cannot be called.
-    Runtime error: CALL\_TRANSACTION\_IS\_MENU
-    
--   Cause: Transaction is locked.
-    Runtime error: CALL\_TRANSACTION\_LOCKED
-    
--   Cause: Error in internal memory management.
-    Runtime error: CALL\_TRANSACTION\_MSG\_NO\_PAGING
-    
--   Cause: Recursive call of a transaction using the addition USING.
-    Runtime error: CALL\_TRANSACTION\_USING\_NESTED
-    
-
-Continue
-[CALL TRANSACTION - standard](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-[CALL TRANSACTION - USING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-[Transaction Call - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
-
-
-**📖 Source**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
-
-### abapcall_transaction_standard.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - standard
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
-
-Addition:
-
-[... AND SKIP FIRST SCREEN](#!ABAP_ONE_ADD@1@)
-
-Effect
-
-This variant calls the version described in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to skip the initial screen.
-
-Note
-
-This variant does not set the system field sy-subrc.
-
-Addition
-
-... AND SKIP FIRST SCREEN
-
-Effect
-
-This addition suppresses the display of a [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
-
--   On the initial dynpro, the dynpro number must not be specified as a static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
-    
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry").
-    
-
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
-
-Example
-
-If the static next dynpro of the initial dynpro of the called dialog transaction FLIGHT\_TA is not the initial dynpro itself, its screen is suppressed, since its input fields are filled using the SPA/GPA parameters CAR and CON.
-
-DATA: carrid TYPE spfli-carrid,
-      connid TYPE spfli-connid.
-...
-SET PARAMETER ID: 'CAR' FIELD carrid,
-                  'CON' FIELD connid.
-TRY.
-    CALL TRANSACTION 'FLIGHT\_TA' WITH AUTHORITY-CHECK
-                                 AND SKIP FIRST SCREEN.
-    CATCH cx\_sy\_authorization\_error.
-      RETURN.
-ENDTRY.
-
-Continue
-[CALL TRANSACTION - AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-
-### abapcall_transaction_authority.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION - standard](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm) → 
-
-CALL TRANSACTION - AUTHORITY-CHECK
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-... WITH*|*WITHOUT AUTHORITY-CHECK ...
-
-Extras:
-
-[1\. ... WITH AUTHORITY-CHECK](#!ABAP_ADDITION_1@1@)
-[2\. ... WITHOUT AUTHORITY-CHECK](#!ABAP_ADDITION_2@2@)
-
-Effect
-
-These additions control the authorization checks when the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) is executed.
-
-Note
-
-The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is now [obsolete](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm).
-
-Addition 1
-
-... WITH AUTHORITY-CHECK
-
-Effect
-
-If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_object_glosry.htm "Glossary Entry") before the transaction is called:
-
--   The authorization object S\_TCODE
-    
--   Any authorization object entered in the definition of the transaction code (transaction SE93). Fields of the authorization object for which no value is specified here are not checked.
-    
-
-If no authorization is found, a handleable exception of the class CX\_SY\_AUTHORIZATION\_ERROR is raised.
-
-Note
-
-The addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces checks using the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapauthority-check_shortref.htm), the function module AUTHORITY\_CHECK\_TCODE, and checks associated with the content of the database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm).
-
-Addition 2
-
-... WITHOUT AUTHORITY-CHECK
-
-Effect
-
-If this addition is specified, the authorization of the current user is not checked when the called transaction is executed.
-
-Notes
-
--   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization checks are required when the transaction is called. It suppresses the corresponding error message from the security test in the [extended program checks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_glosry.htm "Glossary Entry").
-    
--   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm) is ignored.
-
-
-
-**📖 Source**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-
-### abapcall_transaction_standard.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - standard
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
-
-Addition:
-
-[... AND SKIP FIRST SCREEN](#!ABAP_ONE_ADD@1@)
-
-Effect
-
-This variant calls the version described in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to skip the initial screen.
-
-Note
-
-This variant does not set the system field sy-subrc.
-
-Addition
-
-... AND SKIP FIRST SCREEN
-
-Effect
-
-This addition suppresses the display of a [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
-
--   On the initial dynpro, the dynpro number must not be specified as a static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
-    
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry").
-    
-
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
-
-Example
-
-If the static next dynpro of the initial dynpro of the called dialog transaction FLIGHT\_TA is not the initial dynpro itself, its screen is suppressed, since its input fields are filled using the SPA/GPA parameters CAR and CON.
-
-DATA: carrid TYPE spfli-carrid,
-      connid TYPE spfli-connid.
-...
-SET PARAMETER ID: 'CAR' FIELD carrid,
-                  'CON' FIELD connid.
-TRY.
-    CALL TRANSACTION 'FLIGHT\_TA' WITH AUTHORITY-CHECK
-                                 AND SKIP FIRST SCREEN.
-    CATCH cx\_sy\_authorization\_error.
-      RETURN.
-ENDTRY.
-
-Continue
-[CALL TRANSACTION - AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-
-### abapcall_transaction_using.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - USING
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-                    USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
-                                  *|*  *\[*OPTIONS FROM opt*\]* *}*
-                                     *\[*MESSAGES INTO itab*\]*.
-
-Extras:
-
-[1\. ... MODE mode](#!ABAP_ADDITION_1@1@)
-[2\. ... UPDATE upd](#!ABAP_ADDITION_2@2@)
-[3\. ... OPTIONS FROM opt](#!ABAP_ADDITION_3@3@)
-[4\. ... MESSAGES INTO itab](#!ABAP_ADDITION_4@4@)
-
-Effect
-
-In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
-
-bdc\_tab expects an internal table with the row type BDCDATA from ABAP Dictionary. The additions control how it is processed.
-
-When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program. No other transaction can be called using this addition while this transaction is running.
-
-In a program, a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
-
-Component
-
-Meaning
-
-PROGRAM
-
-Name of the program of the called transaction
-
-DYNPRO
-
-Number of the dynpro processed
-
-DYNBEGIN
-
-Flags the start of a new dynpro (possible values are "X" and " ")
-
-FNAM
-
-Name of a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
-
-FVAL
-
-Value to be passed to the dynpro field or to the control statement
-
-Using the [content](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be filled with input and user actions.
-
-System Fields
-
-sy-subrc
-
-Meaning
-
-0
-
-The called transaction was processed successfully.
-
-< 1000
-
-Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
-
-1001
-
-Processing error.
-
-Notes
-
--   Calling a transaction using a batch input table is not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). There is no exact dividing line between the two, however, since batch input-based frameworks such as [CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. In this way, they can use certain options not available in genuine batch input.
-    
--   The control options for a batch input table cover the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"), plus some extra options.
-    
-
-Example
-
-Calling transaction SE24 in the executable example program DEMO\_CALL\_TRANSACTION\_BDC.
-
-DATA: bdcdata\_tab TYPE TABLE OF bdcdata,
-      opt         TYPE ctu\_params.
-...
-TRY.
-    CALL TRANSACTION 'SE24' WITH AUTHORITY-CHECK
-                            USING bdcdata\_tab OPTIONS FROM opt.
-  CATCH cx\_sy\_authorization\_error.
-    ...
-ENDTRY.
-
-Addition 1
-
-... MODE mode
-
-Effect
-
-The addition MODE determines the processing mode for processing. mode can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions MODE or OPTIONS FROM is not used, the effect is the same as if mode had the content "A".
-
-mode
-
-Effect
-
-"A"
-
-Processed with displayed [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry")
-
-"E"
-
-Screens displayed only if an error occurs
-
-"N"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. The field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
-
-"P"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called transactions, the system branches to the ABAP Debugger.
-
-Others
-
-As for "A".
-
-Addition 2
-
-... UPDATE upd
-
-Effect
-
-The addition UPDATE determines the update mode for processing. upd can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions UPDATE or OPTIONS FROM is not used, the effect is the same as if upd had the content "A".
-
-upd
-
-Effect
-
-"A"
-
-Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_glosry.htm "Glossary Entry") of called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm).
-
-"S"
-
-Synchronous update. Updates of the called programs are executed in the same way as if the addition AND WAIT were specified in the statement COMMIT WORK.
-
-"L"
-
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_update_task_local.htm) were executed in the program.
-
-Others
-
-As for "A".
-
-Note
-
-This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous.
-
-Addition 3
-
-... OPTIONS FROM opt
-
-Effect
-
-The addition OPTIONS covers the functions of the additions MODE and UPDATE and provides further options for controlling processing of the batch input table. The control parameters are specified in an opt structure of the type CTU\_PARAMS from ABAP Dictionary. The CTU\_PARAMS structure has the components displayed in the following table:
-
-Component
-
-Meaning
-
-DISMODE
-
-Processing mode. Values as for the addition MODE.
-
-UPMODE
-
-Update mode for processing. Values as for the addition UPDATE.
-
-CATTMODE
-
-[CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are more complex [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), since they are reusable tests. Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
-
-DEFSIZE
-
-Specifies whether the [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
-
-RACOMMIT
-
-Specifies whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm) terminates processing or not. Values: " " (COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
-
-NOBINPT
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" in the called transaction), "X" (sy-binpt contains " " in the called transaction).
-
-NOBIEND
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" after the end of the data from the batch input table in the called transaction) "X" (sy-binpt contains " " after the end of the data in the called transaction).
-
-If the addition OPTIONS FROM is not used, the values set by the additions MODE or UPDATE or the default values specified there ("A") apply to DISMODE and UPMODE. The other components are set to the value " ".
-
-Addition 4
-
-... MESSAGES INTO itab
-
-Effect
-
-Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are saved to an internal table itab of the type BDCMSGCOLL from ABAP Dictionary.
-
-Executable Example
-
-[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
-Continue
-[CALL TRANSACTION - Batch Input Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-
-### abenbatch_input_table.htm
-
-> **📖 Official SAP Documentation**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION - USING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm) → 
-
-CALL TRANSACTION - Batch Input Table
-
-A [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") of the [row type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrow_type_glosry.htm "Glossary Entry") BDCDATA specified after the addition USING of the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) in [transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry") calls must have the following content. This content is achieved by appending rows to an initial table in this order:
-
--   For each new dynpro, a new row with
-
--   a program name in the column PROGRAM
-
--   a dynpro number in the column DYNPRO
-
--   an "X" in the column DYNBEGIN
-
--   For each filled input field, a row with
-
--   the name of the dynpro field in the column FNAM
-
--   the passed value in the column FVAL
-
-If the field is part of a [table control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the required row number must be appended to the field name.
-
--   If the cursor is to be positioned on a screen element
-
--   The value "BDC\_CURSOR" in the column FNAM
-
--   the name of the screen element in the column FVAL
-
-If the cursor is to be positioned on a screen element in a table control or step loop, the required row number must be appended to the name of the element.
-
--   For each dynpro, the function code
-
--   The value "BDC\_OKCODE" in the column FNAM
-
--   a function code in the column FVAL
-
-Any columns not used in a row remain initial.
-
-Note
-
-Transaction Recorder (transaction SHDB) records executed transactions as batch input tables. The resulting batch input tables can be displayed and edited. Programs and function modules can be generated to use these tables.
-
-Executable Example
-
-[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
-
-
-**📖 Source**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-
-### abapcall_transaction_using.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - USING
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-                    USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
-                                  *|*  *\[*OPTIONS FROM opt*\]* *}*
-                                     *\[*MESSAGES INTO itab*\]*.
-
-Extras:
-
-[1\. ... MODE mode](#!ABAP_ADDITION_1@1@)
-[2\. ... UPDATE upd](#!ABAP_ADDITION_2@2@)
-[3\. ... OPTIONS FROM opt](#!ABAP_ADDITION_3@3@)
-[4\. ... MESSAGES INTO itab](#!ABAP_ADDITION_4@4@)
-
-Effect
-
-In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
-
-bdc\_tab expects an internal table with the row type BDCDATA from ABAP Dictionary. The additions control how it is processed.
-
-When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program. No other transaction can be called using this addition while this transaction is running.
-
-In a program, a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
-
-Component
-
-Meaning
-
-PROGRAM
-
-Name of the program of the called transaction
-
-DYNPRO
-
-Number of the dynpro processed
-
-DYNBEGIN
-
-Flags the start of a new dynpro (possible values are "X" and " ")
-
-FNAM
-
-Name of a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
-
-FVAL
-
-Value to be passed to the dynpro field or to the control statement
-
-Using the [content](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be filled with input and user actions.
-
-System Fields
-
-sy-subrc
-
-Meaning
-
-0
-
-The called transaction was processed successfully.
-
-< 1000
-
-Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
-
-1001
-
-Processing error.
-
-Notes
-
--   Calling a transaction using a batch input table is not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). There is no exact dividing line between the two, however, since batch input-based frameworks such as [CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. In this way, they can use certain options not available in genuine batch input.
-    
--   The control options for a batch input table cover the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"), plus some extra options.
-    
-
-Example
-
-Calling transaction SE24 in the executable example program DEMO\_CALL\_TRANSACTION\_BDC.
-
-DATA: bdcdata\_tab TYPE TABLE OF bdcdata,
-      opt         TYPE ctu\_params.
-...
-TRY.
-    CALL TRANSACTION 'SE24' WITH AUTHORITY-CHECK
-                            USING bdcdata\_tab OPTIONS FROM opt.
-  CATCH cx\_sy\_authorization\_error.
-    ...
-ENDTRY.
-
-Addition 1
-
-... MODE mode
-
-Effect
-
-The addition MODE determines the processing mode for processing. mode can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions MODE or OPTIONS FROM is not used, the effect is the same as if mode had the content "A".
-
-mode
-
-Effect
-
-"A"
-
-Processed with displayed [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry")
-
-"E"
-
-Screens displayed only if an error occurs
-
-"N"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. The field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
-
-"P"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called transactions, the system branches to the ABAP Debugger.
-
-Others
-
-As for "A".
-
-Addition 2
-
-... UPDATE upd
-
-Effect
-
-The addition UPDATE determines the update mode for processing. upd can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions UPDATE or OPTIONS FROM is not used, the effect is the same as if upd had the content "A".
-
-upd
-
-Effect
-
-"A"
-
-Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_glosry.htm "Glossary Entry") of called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm).
-
-"S"
-
-Synchronous update. Updates of the called programs are executed in the same way as if the addition AND WAIT were specified in the statement COMMIT WORK.
-
-"L"
-
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_update_task_local.htm) were executed in the program.
-
-Others
-
-As for "A".
-
-Note
-
-This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous.
-
-Addition 3
-
-... OPTIONS FROM opt
-
-Effect
-
-The addition OPTIONS covers the functions of the additions MODE and UPDATE and provides further options for controlling processing of the batch input table. The control parameters are specified in an opt structure of the type CTU\_PARAMS from ABAP Dictionary. The CTU\_PARAMS structure has the components displayed in the following table:
-
-Component
-
-Meaning
-
-DISMODE
-
-Processing mode. Values as for the addition MODE.
-
-UPMODE
-
-Update mode for processing. Values as for the addition UPDATE.
-
-CATTMODE
-
-[CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are more complex [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), since they are reusable tests. Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
-
-DEFSIZE
-
-Specifies whether the [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
-
-RACOMMIT
-
-Specifies whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm) terminates processing or not. Values: " " (COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
-
-NOBINPT
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" in the called transaction), "X" (sy-binpt contains " " in the called transaction).
-
-NOBIEND
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" after the end of the data from the batch input table in the called transaction) "X" (sy-binpt contains " " after the end of the data in the called transaction).
-
-If the addition OPTIONS FROM is not used, the values set by the additions MODE or UPDATE or the default values specified there ("A") apply to DISMODE and UPMODE. The other components are set to the value " ".
-
-Addition 4
-
-... MESSAGES INTO itab
-
-Effect
-
-Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are saved to an internal table itab of the type BDCMSGCOLL from ABAP Dictionary.
-
-Executable Example
-
-[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
-Continue
-[CALL TRANSACTION - Batch Input Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
 
 ### abentransactions_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call - Examples"
+description: |
+  !Example(exa.gif 'Example') Transaction Call, SPA/GPAParameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm) !Example(exa.gif 'Example') Transaction Call, BDC Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_b
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm"
+abapFile: "abentransactions_abexas.htm"
+keywords: ["do", "if", "abentransactions", "abexas"]
+---
 
 * * *
 
@@ -1408,16 +547,19 @@ Continue
 ![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
 
 
-
-**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
 ### abencall_transaction_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_call_transaction_spa_gpa. PARAMETERS: carrid TYPE spfli-carrid, connid TYPE spfli-connid. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SET PARAMETER ID: 'CAR' FIELD carrid, 'CON' FIELD connid. TRY. CALL TRANSACTION 'DEMO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm"
+abapFile: "abencall_transaction_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "abencall", "transaction", "abexa"]
+---
 
 * * *
 
@@ -1456,16 +598,19 @@ Description
 The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
-
-**📖 Source**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
-
 ### abencall_transaction_bdc_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call, BDC Table"
+description: |
+  This example shows how a transaction is called using a batch input table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm 'Glossary Entry'). Source Code REPORT demo_call_transaction_bdc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLA
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm"
+abapFile: "abencall_transaction_bdc_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "internal-table", "abencall", "transaction", "bdc", "abexa"]
+---
 
 * * *
 
@@ -1510,16 +655,19 @@ Description
 Call Class Builder (transaction SE24) and display the class CL\_ABAP\_BROWSER. The required authorization is checked by using the addition WITH AUTHORITY-CHECK. The internal table bdcdata\_tab contains the entry for the processing of the first dynpro (1000) in the transaction. The structure opt is used to configure processing to skip the first screen and display the subsequent screen in standard size.
 
 
-
-**📖 Source**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
 ### abencall_transaction_repo_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call, Report Transaction"
+description: |
+  The example illustrates how a selection screen can be called using a report transaction. Source Code REPORT demo_call_selection_screen. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK sel1 WITH FRAME TITLE tit1. PARAMETERS: cityfr TYPE spfli-cityfrom, cityto TYPE spfli-cityt
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm"
+abapFile: "abencall_transaction_repo_abexa.htm"
+keywords: ["select", "do", "method", "class", "abencall", "transaction", "repo", "abexa"]
+---
 
 * * *
 
@@ -1571,16 +719,19 @@ Description
 When the associated transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. The further process is described in the executable example [Selection Screens, Calling Standalone Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_call_sel_scr_abexa.htm).
 
 
-
-**📖 Source**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
-
 ### abencall_transaction_dialog_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call, Dialog Transaction"
+description: |
+  This example demonstrates a dialog transaction where the first dynpro is a selection screen. Source Code &--------------------------------------------------------------------- & Modulpool  SAPMSSLS                                                  &------------------------------------------
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm"
+abapFile: "abencall_transaction_dialog_abexa.htm"
+keywords: ["select", "do", "abencall", "transaction", "dialog", "abexa"]
+---
 
 * * *
 
@@ -1616,32 +767,6 @@ AT SELECTION-SCREEN.
 Description
 
 When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program starts by displaying selection screen 500. The user input on the selection screen can be processed, for example, at the event AT SELECTION-SCREEN or later in the application logic. After the event AT SELECTION-SCREEN is processed (PAI of the selection screen), the program branches to a next dynpro, 100.
-
-
-
-**📖 Source**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
-
-### abentransactions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-Transaction Call - Examples
-
-Continue
-![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
-![Example](exa.gif "Example") [Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-![Example](exa.gif "Example") [Transaction Call, Report Transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
-![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
 
 
 ---
@@ -1651,885 +776,24 @@ Continue
 
 **Files**: 3 | **Difficulty**: intermediate
 
-# ABAP Keyword Documentation / ABAP − Reference / Calling and Exiting Program Units / Calling Programs / Calling Transactions / CALL TRANSACTION
+# ABAP Keyword Documentation / ABAP − Reference / Calling and Exiting Program Units / Calling Programs / Calling Transactions / CALL TRANSACTION / Transaction Call - Examples
 
-Included pages: 13
+Included pages: 5
 
-
-
-**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
-### abapcall_transaction.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) → 
-
-CALL TRANSACTION
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax Forms
-
-[Simple transaction call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-1\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
-[Transaction call using batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-2\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-                      USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
-                                    *|*  *\[*OPTIONS FROM opt*\]* *}*
-                                       *\[*MESSAGES INTO itab*\]*.
-
-Effect
-
-The statement CALL TRANSACTION calls the [transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry") whose transaction code is contained in the data object ta. The calling program and its data are preserved. After the transaction call, the program execution of the calling program resumes after the statement CALL TRANSACTION. The data object ta must be character-like, flat and contain the transaction code in uppercase letters. The following can be specified for ta:
-
--   Literal or constant
-    
-
-If the data object ta is specified as a [text field literal](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_field_literal_glosry.htm "Glossary Entry") or as a [constant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstant_glosry.htm "Glossary Entry"), it is evaluated as a statically specified object by tools such as the [extended program check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_glosry.htm "Glossary Entry") or the where-used list.
-
--   Variable
-    
-
-If the data object ta is specified as a [variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvariable_glosry.htm "Glossary Entry"), it is specified only dynamically and the content is not evaluated statically.
-
-When the statement is executed, ta is not evaluated until runtime (in both cases). If the transaction specified in ta cannot be found, a non-handleable exception is raised.
-
--   In the [first variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm), the display of the initial screen can be suppressed.
-    
--   In the [second variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm), the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry").
-    
-
-In both variants, an [authorization check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_check_glosry.htm "Glossary Entry") can be performed on the called transaction.
-
-When the transaction is called, the ABAP program associated with the transaction code is loaded in a new [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the current [call sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_sequence_glosry.htm "Glossary Entry"). The session of the calling program and the current [SAP LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw_glosry.htm "Glossary Entry") are preserved. The called program runs in its own SAP LUW.
-
--   If the called transaction is a dialog transaction, the event [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapload-of-program.htm) is raised after the ABAP program is loaded and the [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") defined as the initial dynpro of the transaction is called. The initial dynpro is the first dynpro of a [dynpro sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_sequence_glosry.htm "Glossary Entry"). The transaction is finished when the dynpro sequence is ended by encountering the next dynpro with dynpro number 0 or when the program is exited using the statement [LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_program.htm).
-    
--   If the called transaction is an [OO transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoo_transaction_glosry.htm "Glossary Entry"), the event LOAD-OF-PROGRAM is raised and the method associated with the transaction code is called when any program is loaded (except [class pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_pool_glosry.htm "Glossary Entry")). If the method is an instance method, an object of the associated class is generated implicitly and referenced by the runtime environment. The transaction is finished when the method is finished or when the program is exited using the statement LEAVE PROGRAM.
-    
-
-Notes
-
--   CALL TRANSACTION does not end the current [database LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). A [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [database rollback](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") in the called program works in exactly the same way as in the current program.
-    
--   The statement CALL TRANSACTION opens a new [SAP LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw_glosry.htm "Glossary Entry") but it does not open a new [database LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). This means that a [database rollback](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_rollback_glosry.htm "Glossary Entry") in this SAP LUW can roll back all registration entries made by the statements [CALL FUNCTION IN UPDATE TASK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_update.htm) or [CALL FUNCTION IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_background_task.htm) in the tables VB... or ARFCSSTATE and ARFCSDATA. Under certain circumstances, the statement [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaprollback.htm) in the called program can also affect the interrupted SAP LUW. To prevent this, an explicit [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") must be executed before the program is called. This problem does not occur in [local updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_update_glosry.htm "Glossary Entry").
-    
--   The number of internal sessions in a [call sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_sequence_glosry.htm "Glossary Entry") is restricted to nine. If this is exceeded by CALL TRANSACTION, the program terminates and the entire call sequence is deleted.
-    
-
-Security Note
-
-If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, the result is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_call_scrty.htm).
-
-Example
-
-Calling transaction DEMO\_TRANSACTION in the executable example program DEMO\_CALL\_TRANSACTION\_SPA\_GPA.
-
-TRY.
-    CALL TRANSACTION 'DEMO\_TRANSACTION' WITH AUTHORITY-CHECK.
-  CATCH cx\_sy\_authorization\_error.
-    ...
-ENDTRY.
-
-Executable Examples
-
-[Transaction Call - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
-[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
-
-Handleable Exceptions
-
-CX\_SY\_AUTHORIZATION\_ERROR
-
--   Cause: No authorization for this transaction.
-    Runtime error: CALL\_TRANSACTION\_FAILED
-    
-
-Non-Handleable Exceptions
-
--   Cause: Transaction not found.
-    Runtime error: CALL\_TRANSACTION\_NOT\_FOUND
-    
--   Cause: Transaction is an area menu and cannot be called.
-    Runtime error: CALL\_TRANSACTION\_IS\_MENU
-    
--   Cause: Transaction is locked.
-    Runtime error: CALL\_TRANSACTION\_LOCKED
-    
--   Cause: Error in internal memory management.
-    Runtime error: CALL\_TRANSACTION\_MSG\_NO\_PAGING
-    
--   Cause: Recursive call of a transaction using the addition USING.
-    Runtime error: CALL\_TRANSACTION\_USING\_NESTED
-    
-
-Continue
-[CALL TRANSACTION - standard](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-[CALL TRANSACTION - USING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-[Transaction Call - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
-
-
-**📖 Source**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
-
-### abapcall_transaction_standard.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - standard
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
-
-Addition:
-
-[... AND SKIP FIRST SCREEN](#!ABAP_ONE_ADD@1@)
-
-Effect
-
-This variant calls the version described in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to skip the initial screen.
-
-Note
-
-This variant does not set the system field sy-subrc.
-
-Addition
-
-... AND SKIP FIRST SCREEN
-
-Effect
-
-This addition suppresses the display of a [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
-
--   On the initial dynpro, the dynpro number must not be specified as a static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
-    
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry").
-    
-
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
-
-Example
-
-If the static next dynpro of the initial dynpro of the called dialog transaction FLIGHT\_TA is not the initial dynpro itself, its screen is suppressed, since its input fields are filled using the SPA/GPA parameters CAR and CON.
-
-DATA: carrid TYPE spfli-carrid,
-      connid TYPE spfli-connid.
-...
-SET PARAMETER ID: 'CAR' FIELD carrid,
-                  'CON' FIELD connid.
-TRY.
-    CALL TRANSACTION 'FLIGHT\_TA' WITH AUTHORITY-CHECK
-                                 AND SKIP FIRST SCREEN.
-    CATCH cx\_sy\_authorization\_error.
-      RETURN.
-ENDTRY.
-
-Continue
-[CALL TRANSACTION - AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-
-### abapcall_transaction_authority.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION - standard](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm) → 
-
-CALL TRANSACTION - AUTHORITY-CHECK
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-... WITH*|*WITHOUT AUTHORITY-CHECK ...
-
-Extras:
-
-[1\. ... WITH AUTHORITY-CHECK](#!ABAP_ADDITION_1@1@)
-[2\. ... WITHOUT AUTHORITY-CHECK](#!ABAP_ADDITION_2@2@)
-
-Effect
-
-These additions control the authorization checks when the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) is executed.
-
-Note
-
-The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is now [obsolete](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm).
-
-Addition 1
-
-... WITH AUTHORITY-CHECK
-
-Effect
-
-If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_object_glosry.htm "Glossary Entry") before the transaction is called:
-
--   The authorization object S\_TCODE
-    
--   Any authorization object entered in the definition of the transaction code (transaction SE93). Fields of the authorization object for which no value is specified here are not checked.
-    
-
-If no authorization is found, a handleable exception of the class CX\_SY\_AUTHORIZATION\_ERROR is raised.
-
-Note
-
-The addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces checks using the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapauthority-check_shortref.htm), the function module AUTHORITY\_CHECK\_TCODE, and checks associated with the content of the database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm).
-
-Addition 2
-
-... WITHOUT AUTHORITY-CHECK
-
-Effect
-
-If this addition is specified, the authorization of the current user is not checked when the called transaction is executed.
-
-Notes
-
--   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization checks are required when the transaction is called. It suppresses the corresponding error message from the security test in the [extended program checks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_glosry.htm "Glossary Entry").
-    
--   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm) is ignored.
-
-
-
-**📖 Source**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-
-### abapcall_transaction_standard.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - standard
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
-
-Addition:
-
-[... AND SKIP FIRST SCREEN](#!ABAP_ONE_ADD@1@)
-
-Effect
-
-This variant calls the version described in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to skip the initial screen.
-
-Note
-
-This variant does not set the system field sy-subrc.
-
-Addition
-
-... AND SKIP FIRST SCREEN
-
-Effect
-
-This addition suppresses the display of a [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
-
--   On the initial dynpro, the dynpro number must not be specified as a static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
-    
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry").
-    
-
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
-
-Example
-
-If the static next dynpro of the initial dynpro of the called dialog transaction FLIGHT\_TA is not the initial dynpro itself, its screen is suppressed, since its input fields are filled using the SPA/GPA parameters CAR and CON.
-
-DATA: carrid TYPE spfli-carrid,
-      connid TYPE spfli-connid.
-...
-SET PARAMETER ID: 'CAR' FIELD carrid,
-                  'CON' FIELD connid.
-TRY.
-    CALL TRANSACTION 'FLIGHT\_TA' WITH AUTHORITY-CHECK
-                                 AND SKIP FIRST SCREEN.
-    CATCH cx\_sy\_authorization\_error.
-      RETURN.
-ENDTRY.
-
-Continue
-[CALL TRANSACTION - AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
-
-### abapcall_transaction_using.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - USING
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-                    USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
-                                  *|*  *\[*OPTIONS FROM opt*\]* *}*
-                                     *\[*MESSAGES INTO itab*\]*.
-
-Extras:
-
-[1\. ... MODE mode](#!ABAP_ADDITION_1@1@)
-[2\. ... UPDATE upd](#!ABAP_ADDITION_2@2@)
-[3\. ... OPTIONS FROM opt](#!ABAP_ADDITION_3@3@)
-[4\. ... MESSAGES INTO itab](#!ABAP_ADDITION_4@4@)
-
-Effect
-
-In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
-
-bdc\_tab expects an internal table with the row type BDCDATA from ABAP Dictionary. The additions control how it is processed.
-
-When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program. No other transaction can be called using this addition while this transaction is running.
-
-In a program, a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
-
-Component
-
-Meaning
-
-PROGRAM
-
-Name of the program of the called transaction
-
-DYNPRO
-
-Number of the dynpro processed
-
-DYNBEGIN
-
-Flags the start of a new dynpro (possible values are "X" and " ")
-
-FNAM
-
-Name of a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
-
-FVAL
-
-Value to be passed to the dynpro field or to the control statement
-
-Using the [content](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be filled with input and user actions.
-
-System Fields
-
-sy-subrc
-
-Meaning
-
-0
-
-The called transaction was processed successfully.
-
-< 1000
-
-Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
-
-1001
-
-Processing error.
-
-Notes
-
--   Calling a transaction using a batch input table is not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). There is no exact dividing line between the two, however, since batch input-based frameworks such as [CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. In this way, they can use certain options not available in genuine batch input.
-    
--   The control options for a batch input table cover the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"), plus some extra options.
-    
-
-Example
-
-Calling transaction SE24 in the executable example program DEMO\_CALL\_TRANSACTION\_BDC.
-
-DATA: bdcdata\_tab TYPE TABLE OF bdcdata,
-      opt         TYPE ctu\_params.
-...
-TRY.
-    CALL TRANSACTION 'SE24' WITH AUTHORITY-CHECK
-                            USING bdcdata\_tab OPTIONS FROM opt.
-  CATCH cx\_sy\_authorization\_error.
-    ...
-ENDTRY.
-
-Addition 1
-
-... MODE mode
-
-Effect
-
-The addition MODE determines the processing mode for processing. mode can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions MODE or OPTIONS FROM is not used, the effect is the same as if mode had the content "A".
-
-mode
-
-Effect
-
-"A"
-
-Processed with displayed [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry")
-
-"E"
-
-Screens displayed only if an error occurs
-
-"N"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. The field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
-
-"P"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called transactions, the system branches to the ABAP Debugger.
-
-Others
-
-As for "A".
-
-Addition 2
-
-... UPDATE upd
-
-Effect
-
-The addition UPDATE determines the update mode for processing. upd can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions UPDATE or OPTIONS FROM is not used, the effect is the same as if upd had the content "A".
-
-upd
-
-Effect
-
-"A"
-
-Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_glosry.htm "Glossary Entry") of called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm).
-
-"S"
-
-Synchronous update. Updates of the called programs are executed in the same way as if the addition AND WAIT were specified in the statement COMMIT WORK.
-
-"L"
-
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_update_task_local.htm) were executed in the program.
-
-Others
-
-As for "A".
-
-Note
-
-This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous.
-
-Addition 3
-
-... OPTIONS FROM opt
-
-Effect
-
-The addition OPTIONS covers the functions of the additions MODE and UPDATE and provides further options for controlling processing of the batch input table. The control parameters are specified in an opt structure of the type CTU\_PARAMS from ABAP Dictionary. The CTU\_PARAMS structure has the components displayed in the following table:
-
-Component
-
-Meaning
-
-DISMODE
-
-Processing mode. Values as for the addition MODE.
-
-UPMODE
-
-Update mode for processing. Values as for the addition UPDATE.
-
-CATTMODE
-
-[CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are more complex [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), since they are reusable tests. Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
-
-DEFSIZE
-
-Specifies whether the [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
-
-RACOMMIT
-
-Specifies whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm) terminates processing or not. Values: " " (COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
-
-NOBINPT
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" in the called transaction), "X" (sy-binpt contains " " in the called transaction).
-
-NOBIEND
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" after the end of the data from the batch input table in the called transaction) "X" (sy-binpt contains " " after the end of the data in the called transaction).
-
-If the addition OPTIONS FROM is not used, the values set by the additions MODE or UPDATE or the default values specified there ("A") apply to DISMODE and UPMODE. The other components are set to the value " ".
-
-Addition 4
-
-... MESSAGES INTO itab
-
-Effect
-
-Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are saved to an internal table itab of the type BDCMSGCOLL from ABAP Dictionary.
-
-Executable Example
-
-[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
-Continue
-[CALL TRANSACTION - Batch Input Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-
-### abenbatch_input_table.htm
-
-> **📖 Official SAP Documentation**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION - USING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm) → 
-
-CALL TRANSACTION - Batch Input Table
-
-A [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") of the [row type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrow_type_glosry.htm "Glossary Entry") BDCDATA specified after the addition USING of the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) in [transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry") calls must have the following content. This content is achieved by appending rows to an initial table in this order:
-
--   For each new dynpro, a new row with
-
--   a program name in the column PROGRAM
-
--   a dynpro number in the column DYNPRO
-
--   an "X" in the column DYNBEGIN
-
--   For each filled input field, a row with
-
--   the name of the dynpro field in the column FNAM
-
--   the passed value in the column FVAL
-
-If the field is part of a [table control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the required row number must be appended to the field name.
-
--   If the cursor is to be positioned on a screen element
-
--   The value "BDC\_CURSOR" in the column FNAM
-
--   the name of the screen element in the column FVAL
-
-If the cursor is to be positioned on a screen element in a table control or step loop, the required row number must be appended to the name of the element.
-
--   For each dynpro, the function code
-
--   The value "BDC\_OKCODE" in the column FNAM
-
--   a function code in the column FVAL
-
-Any columns not used in a row remain initial.
-
-Note
-
-Transaction Recorder (transaction SHDB) records executed transactions as batch input tables. The resulting batch input tables can be displayed and edited. Programs and function modules can be generated to use these tables.
-
-Executable Example
-
-[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
-
-
-**📖 Source**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-
-### abapcall_transaction_using.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-CALL TRANSACTION - USING
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
-
-Syntax
-
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
-                    USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
-                                  *|*  *\[*OPTIONS FROM opt*\]* *}*
-                                     *\[*MESSAGES INTO itab*\]*.
-
-Extras:
-
-[1\. ... MODE mode](#!ABAP_ADDITION_1@1@)
-[2\. ... UPDATE upd](#!ABAP_ADDITION_2@2@)
-[3\. ... OPTIONS FROM opt](#!ABAP_ADDITION_3@3@)
-[4\. ... MESSAGES INTO itab](#!ABAP_ADDITION_4@4@)
-
-Effect
-
-In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
-
-bdc\_tab expects an internal table with the row type BDCDATA from ABAP Dictionary. The additions control how it is processed.
-
-When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program. No other transaction can be called using this addition while this transaction is running.
-
-In a program, a [batch input table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
-
-Component
-
-Meaning
-
-PROGRAM
-
-Name of the program of the called transaction
-
-DYNPRO
-
-Number of the dynpro processed
-
-DYNBEGIN
-
-Flags the start of a new dynpro (possible values are "X" and " ")
-
-FNAM
-
-Name of a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
-
-FVAL
-
-Value to be passed to the dynpro field or to the control statement
-
-Using the [content](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be filled with input and user actions.
-
-System Fields
-
-sy-subrc
-
-Meaning
-
-0
-
-The called transaction was processed successfully.
-
-< 1000
-
-Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
-
-1001
-
-Processing error.
-
-Notes
-
--   Calling a transaction using a batch input table is not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). There is no exact dividing line between the two, however, since batch input-based frameworks such as [CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. In this way, they can use certain options not available in genuine batch input.
-    
--   The control options for a batch input table cover the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"), plus some extra options.
-    
-
-Example
-
-Calling transaction SE24 in the executable example program DEMO\_CALL\_TRANSACTION\_BDC.
-
-DATA: bdcdata\_tab TYPE TABLE OF bdcdata,
-      opt         TYPE ctu\_params.
-...
-TRY.
-    CALL TRANSACTION 'SE24' WITH AUTHORITY-CHECK
-                            USING bdcdata\_tab OPTIONS FROM opt.
-  CATCH cx\_sy\_authorization\_error.
-    ...
-ENDTRY.
-
-Addition 1
-
-... MODE mode
-
-Effect
-
-The addition MODE determines the processing mode for processing. mode can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions MODE or OPTIONS FROM is not used, the effect is the same as if mode had the content "A".
-
-mode
-
-Effect
-
-"A"
-
-Processed with displayed [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry")
-
-"E"
-
-Screens displayed only if an error occurs
-
-"N"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. The field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
-
-"P"
-
-Processed without displayed screens. If a breakpoint is reached in one of the called transactions, the system branches to the ABAP Debugger.
-
-Others
-
-As for "A".
-
-Addition 2
-
-... UPDATE upd
-
-Effect
-
-The addition UPDATE determines the update mode for processing. upd can be specified as a character-like data object whose content and purpose are shown in the following table. If one of the additions UPDATE or OPTIONS FROM is not used, the effect is the same as if upd had the content "A".
-
-upd
-
-Effect
-
-"A"
-
-Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_glosry.htm "Glossary Entry") of called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm).
-
-"S"
-
-Synchronous update. Updates of the called programs are executed in the same way as if the addition AND WAIT were specified in the statement COMMIT WORK.
-
-"L"
-
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_update_task_local.htm) were executed in the program.
-
-Others
-
-As for "A".
-
-Note
-
-This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous.
-
-Addition 3
-
-... OPTIONS FROM opt
-
-Effect
-
-The addition OPTIONS covers the functions of the additions MODE and UPDATE and provides further options for controlling processing of the batch input table. The control parameters are specified in an opt structure of the type CTU\_PARAMS from ABAP Dictionary. The CTU\_PARAMS structure has the components displayed in the following table:
-
-Component
-
-Meaning
-
-DISMODE
-
-Processing mode. Values as for the addition MODE.
-
-UPMODE
-
-Update mode for processing. Values as for the addition UPDATE.
-
-CATTMODE
-
-[CATT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are more complex [transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry"), since they are reusable tests. Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
-
-DEFSIZE
-
-Specifies whether the [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
-
-RACOMMIT
-
-Specifies whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm) terminates processing or not. Values: " " (COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
-
-NOBINPT
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" in the called transaction), "X" (sy-binpt contains " " in the called transaction).
-
-NOBIEND
-
-Specifies the system field sy-binpt. Values: " " (sy-binpt contains "X" after the end of the data from the batch input table in the called transaction) "X" (sy-binpt contains " " after the end of the data in the called transaction).
-
-If the addition OPTIONS FROM is not used, the values set by the additions MODE or UPDATE or the default values specified there ("A") apply to DISMODE and UPMODE. The other components are set to the value " ".
-
-Addition 4
-
-... MESSAGES INTO itab
-
-Effect
-
-Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are saved to an internal table itab of the type BDCMSGCOLL from ABAP Dictionary.
-
-Executable Example
-
-[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
-Continue
-[CALL TRANSACTION - Batch Input Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
-
-
-
-**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
 
 ### abentransactions_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call - Examples"
+description: |
+  !Example(exa.gif 'Example') Transaction Call, SPA/GPAParameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm) !Example(exa.gif 'Example') Transaction Call, BDC Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_b
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm"
+abapFile: "abentransactions_abexas.htm"
+keywords: ["do", "if", "abentransactions", "abexas"]
+---
 
 * * *
 
@@ -2546,16 +810,19 @@ Continue
 ![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
 
 
-
-**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
 ### abencall_transaction_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_call_transaction_spa_gpa. PARAMETERS: carrid TYPE spfli-carrid, connid TYPE spfli-connid. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SET PARAMETER ID: 'CAR' FIELD carrid, 'CON' FIELD connid. TRY. CALL TRANSACTION 'DEMO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm"
+abapFile: "abencall_transaction_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "abencall", "transaction", "abexa"]
+---
 
 * * *
 
@@ -2594,16 +861,19 @@ Description
 The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
-
-**📖 Source**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
-
 ### abencall_transaction_bdc_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call, BDC Table"
+description: |
+  This example shows how a transaction is called using a batch input table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm 'Glossary Entry'). Source Code REPORT demo_call_transaction_bdc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLA
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm"
+abapFile: "abencall_transaction_bdc_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "internal-table", "abencall", "transaction", "bdc", "abexa"]
+---
 
 * * *
 
@@ -2648,16 +918,19 @@ Description
 Call Class Builder (transaction SE24) and display the class CL\_ABAP\_BROWSER. The required authorization is checked by using the addition WITH AUTHORITY-CHECK. The internal table bdcdata\_tab contains the entry for the processing of the first dynpro (1000) in the transaction. The structure opt is used to configure processing to skip the first screen and display the subsequent screen in standard size.
 
 
-
-**📖 Source**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-
 ### abencall_transaction_repo_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call, Report Transaction"
+description: |
+  The example illustrates how a selection screen can be called using a report transaction. Source Code REPORT demo_call_selection_screen. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK sel1 WITH FRAME TITLE tit1. PARAMETERS: cityfr TYPE spfli-cityfrom, cityto TYPE spfli-cityt
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm"
+abapFile: "abencall_transaction_repo_abexa.htm"
+keywords: ["select", "do", "method", "class", "abencall", "transaction", "repo", "abexa"]
+---
 
 * * *
 
@@ -2709,16 +982,19 @@ Description
 When the associated transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. The further process is described in the executable example [Selection Screens, Calling Standalone Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_call_sel_scr_abexa.htm).
 
 
-
-**📖 Source**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
-
 ### abencall_transaction_dialog_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Transaction Call, Dialog Transaction"
+description: |
+  This example demonstrates a dialog transaction where the first dynpro is a selection screen. Source Code &--------------------------------------------------------------------- & Modulpool  SAPMSSLS                                                  &------------------------------------------
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm"
+abapFile: "abencall_transaction_dialog_abexa.htm"
+keywords: ["select", "do", "abencall", "transaction", "dialog", "abexa"]
+---
 
 * * *
 
@@ -2754,32 +1030,6 @@ AT SELECTION-SCREEN.
 Description
 
 When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program starts by displaying selection screen 500. The user input on the selection screen can be processed, for example, at the event AT SELECTION-SCREEN or later in the application logic. After the event AT SELECTION-SCREEN is processed (PAI of the selection screen), the program branches to a next dynpro, 100.
-
-
-
-**📖 Source**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
-
-### abentransactions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) → 
-
-Transaction Call - Examples
-
-Continue
-![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
-![Example](exa.gif "Example") [Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
-![Example](exa.gif "Example") [Transaction Call, Report Transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
-![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
 
 
 ---
@@ -2794,16 +1044,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
-
 ### abenlogic_functions.htm
 
-> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogic_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Functions"
+description: |
+  Logical functions are a type of built-in function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions.htm). They are divided into: -   Boolean functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_functions.htm) -   Predicate functions(htt
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogic_functions.htm"
+abapFile: "abenlogic_functions.htm"
+keywords: ["do", "abenlogic", "functions"]
+---
 
 * * *
 
@@ -2827,16 +1080,19 @@ Continue
 [boolc, boolx, xsdbool - Boolean Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_functions.htm)
 
 
-
-**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogic_functions.htm)
-
 ### abenboole_functions.htm
 
-> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Effect"
+description: |
+  The Boolean functions determine the truth value(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_value_glosry.htm 'Glossary Entry') of a logical expression log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) specified as an argument. For log
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_functions.htm"
+abapFile: "abenboole_functions.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenboole", "functions"]
+---
 
 * * *
 
@@ -2979,359 +1235,28 @@ ENDIF.
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Key
+## ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Key / Primary Table Keys
 
-**Files**: 12 | **Difficulty**: beginner
+**Files**: 3 | **Difficulty**: beginner
 
-# ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Key
+# ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Key / Secondary Table Key
 
-Included pages: 12
+Included pages: 4
 
-
-
-**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_functions.htm)
-
-### abenitab_key.htm
-
-> **📖 Official SAP Documentation**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) → 
-
-Table Key
-
-Internal tables always have a primary key and can have up to 15 optional secondary table keys. If no explicit primary key is defined in a standard table, it has a standard key automatically.
-
--   [Primary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
-
--   [Secondary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
-
--   [Duplicate unique keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
-
--   [Duplicate non-unique keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)
-
-Continue
-[Primary Table Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
-[Secondary Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
-[Duplicate Unique Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
-[Duplicate Non-Unique Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)
-
-
-
-**📖 Source**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm)
-
-### abenitab_key_primary.htm
-
-> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) → 
-
-Primary Table Keys
-
-Each internal table has a primary table key that enables access to individual rows in the table by means of a key specification.
-
--   The components of the primary table key are declared using the [UNIQUE*|*NON-UNIQUE KEY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm) additions of the statements [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm), [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_primary_key.htm), and so on.
-
--   The [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm), which can be declared both explicitly and implicitly, has a special part to play here.
-
--   The primary table key of a [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") can also be [empty](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm), meaning that it does not contain any key fields.
-
--   In the case of key accesses for internal tables, the primary key is always used implicitly [processing statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) as long as no secondary key is specified. In [table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expressions.htm), the primary key must also always be specified explicitly.
-
--   The primary key has the predefined name primary\_key, with which it can also be addressed explicitly in processing statements. In table expressions, primary\_key or an alias name must be specified, if the primary key is to be used explicitly.
-
--   Access to an internal table using the primary table key is determined by the [table category](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_category_glosry.htm "Glossary Entry") and not the table key. For sorted tables and hashed tables, key access is always optimized using the primary table key. Primary key access to standard tables, however, uses a linear search.
-
--   The key fields of the primary table key of sorted tables and hashed tables are always read-only.
-
--   In the case of sorted tables and hashed tables, separate key administration exists for the primary table key, which enables optimized access but also affects the [memory requirement](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_memory.htm) of the internal table. There is no separate key administration for the primary table key of standard tables.
-
-Notes
-
--   Since sorted tables and hashed tables have real key administration for the primary key, unlike standard tables, these tables are also grouped under the term [key tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkey_table_glosry.htm "Glossary Entry").
-
--   To achieve optimized key access to standard tables, [secondary keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") can be used.
-
-Example
-
-Declaration of a hashed table with a unique primary key. The table is filled with data from a database table, read using a [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry") with values specified for the primary key.
-
-DATA carrid TYPE spfli-carrid VALUE 'LH'.
-cl\_demo\_input=>add\_field( CHANGING field = carrid ).
-DATA connid TYPE spfli-connid VALUE '0400'.
-cl\_demo\_input=>request( CHANGING field = connid ).
-DATA spfli\_tab
-  TYPE HASHED TABLE OF spfli
-       WITH UNIQUE KEY primary\_key COMPONENTS carrid connid.
-SELECT \*
-       FROM spfli
-       INTO TABLE @spfli\_tab.
-cl\_demo\_output=>display(
-  VALUE #( spfli\_tab\[ KEY primary\_key
-                      carrid = carrid
-                      connid = connid \] OPTIONAL ) ).
-
-Continue
-[Standard Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm)
-[Empty Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm)
-
-
-
-**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
-
-### abenitab_standard_key.htm
-
-> **📖 Official SAP Documentation**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) →  [Primary Table Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm) → 
-
-Standard Key
-
-The standard key is a special [primary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") in an internal table.
-
--   [Key Fields of the Standard Key](#abenitab-standard-key-1--------declaration-of-the-standard-key---@ITOC@@ABENITAB_STANDARD_KEY_2)
-
--   [Notes on Use](#abenitab-standard-key-3--------example---@ITOC@@ABENITAB_STANDARD_KEY_4)
-
-Key Fields of the Standard Key
-
-The key fields of the standard key are defined as follows:
-
--   In tables with a structured row type, the standard key is formed from all components with [character-like](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry") and [byte-like data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry"), with any substructures being expanded by elementary components. If the row type does not contain components like these, the standard key is [empty](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm) for standard tables, meaning it does not contain any key fields.
-
--   The standard key for tables with non-structured row types is the entire table row, if the row type itself is not table-like. If the row type is table-like, the standard key is [empty](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm) for standard tables.
-
-Empty standard keys are not possible for sorted tables and hashed tables, and an error occurs if an attempt is made to create a key like this.
-
-Notes
-
--   In tables with non-structured row types, the standard key can also have a numeric type or reference type; this does not apply for the key fields if the row types are structured.
-
--   The [static boxes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_box_glosry.htm "Glossary Entry") of a structured row type are handled like regular components, with respect to the standard key.
-
-Declaration of the Standard Key
-
-The standard key can be declared as follows:
-
--   Explicitly using the additions [UNIQUE*|*NON-UNIQUE KEY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm) of the statements [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm), [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_primary_key.htm) and so on, with the addition DEFAULT KEY being specified rather than a list of components.
-
--   Implicitly if no explicit primary key specification is made in the declaration of a standard table with the statement [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_primary_key.htm).
-
--   Implicitly, if a standard table type with a [generic primary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_keydef.htm) is specified behind TYPE in the statement [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_referring.htm).
-
-Notes on Use
-
-Using standard keys is critical for various reasons:
-
--   It is not usually enough to identify the key fields just by their data type and not their semantic properties. This often leads to unexpected behavior in sorts and other access types.
-
--   The potential for [empty](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm) standard keys in standard tables often causes unexpected behavior too. For example, using keys like this for [sorting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm) is useless, whereas a corresponding [read](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_table.htm) finds the first row.
-
--   The standard key often contains too many key fields, leading to performance problems in key accesses.
-
--   If using the standard key and a structured row type, all character-like and byte-like fields of sorted tables and hashed tables are read-only, which can cause unexpected runtime errors.
-
-For this reason, declare the primary key by listing the components explicitly, if possible. In particular, the primary key must not be set as the standard key by mistake, the key must not be forgotten in declarations of standard tables using DATA, and that the generic table type must not be used unknowingly.
-
-Example
-
-Example
-
-Internal table with standard key. In the structure SCARR, all five components meet the requirements for the standard key and are used as key fields. In a key access using a [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry"), the syntax check requires that each key field of the primary table key is specified.
-
-DATA scarr\_tab
-  TYPE HASHED TABLE OF scarr
-       WITH UNIQUE DEFAULT KEY.
-...
-DATA(scarr\_line) =
-  VALUE #( scarr\_tab\[ KEY primary\_key
-                      mandt    = sy-mandt
-                      carrid   = '...'
-                      carrname = '...'
-                      currcode = '...'
-                      url      = '...' \] OPTIONAL ).
-
-
-
-**📖 Source**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm)
-
-### abenitab_empty_key.htm
-
-> **📖 Official SAP Documentation**: [abenitab_empty_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) →  [Primary Table Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm) → 
-
-Empty Table Key
-
-The [primary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") of a [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") can be empty. An empty table key does not contain any key fields.
-
--   [Declaration](#abenitab-empty-key-1--------notes-on-use---@ITOC@@ABENITAB_EMPTY_KEY_2)
-
--   [Uncritical use](#abenitab-empty-key-3--------critical-use---@ITOC@@ABENITAB_EMPTY_KEY_4)
-
--   [Example](#abenitab-empty-key-5---note---sorted-keys--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry---and--hash-keys--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---are-never-empty--regardless-of-whether-they-are-primary-or--secondary--javascript-call-link---abensecondary-key-glosry-htm-----glossary-entry-----declaration--an-empty-primary-table-key-can-be-created-as-follows-------explicitly-with-the-addition--empty-key--javascript-call-link---abaptypes-primary-key-htm-----of-the-statements--types--javascript-call-link---abaptypes-primary-key-htm-------data--javascript-call-link---abapdata-primary-key-htm------and-so-on-------explicitly-using-an-inline-declaration--into-table-DATA(itab)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) in the statement SELECT
-
--   Implicitly when using the [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm) if a structured row type does not contain any non-numeric elementary components or if an unstructured row type is table-like.
-
-Notes on Use
-
-Uncritical use
-
-An empty primary table key can be used to handle a table like an array. This means that filling the table and other access do not rely on an order determined by key values. In this case, an empty internal table key can be used in all statements that determine (implicitly or explicitly) the order in which the internal table is accessed.
-
-Notes
-
--   Developers should always be aware of the fact that they are handling an empty primary table key. This is really achieved only when the empty key is declared explicitly. This implicit declaration using the [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm) (in which the row type determines whether the primary table key is empty or not) is not usually suitable.
-
--   Even an empty primary key in a standard table has the order specified by the [primary index](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"), which can be exploited in related index accesses or loops.
-
-Example
-
-A particularly prominent example is the statement [LOOP AT itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm), which when used implicitly or explicitly (using [USING primary\_key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm)) defines the processing order with respect to the [primary table index](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"), but is otherwise ignored.
-
-Critical use
-
-In the following statements, which work with the primary table key without specifying the key fields explicitly, specifying an empty primary table key is critical and generally produces unexpected behavior. An empty table key that is known statically produces a syntax check warning.
-
--   Primary table key specified by a work area:
-
--   If [FROM wa](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_table_key.htm) is used to specify an empty table key for the statement [READ TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_table.htm), the first row of the internal table is read.
-
--   If [FROM wa](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab_single.htm) is used to specify an empty table key for the statement [MODIFY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab.htm), the first row of the internal table is modified.
-
--   If [FROM wa](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab_key.htm) is used to specify an empty table key for the statement [DELETE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab.htm), the first row of the internal table is deleted.
-
--   If the statement [SORT itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm) is executed without the addition BY and the primary table key is empty, the statement is ignored and the table is not sorted.
-
--   If the statement [DELETE ADJACENT DUPLICATES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_duplicates.htm) is executed and the primary table key is empty, no rows are deleted.
-
--   If the primary table key is empty and the statement [COLLECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcollect.htm) is executed, the first row of the internal table is compressed. In this case, all components of the row type must be numeric.
-
-Note
-
-The statements described above can be particularly unpredictable when using the [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm) (which itself can be declared implicitly) to declare an empty internal table key.
-
-Example
-
-Example
-
-Typical use of a table with an empty table key, in which the order of the rows should not be changed by sorting. A SORT source statement would have no effect.
-
-DATA source
-  TYPE STANDARD TABLE OF string
-       WITH EMPTY KEY.
-READ REPORT 'DEMO\_TAB\_EXP\_LINE' INTO source.
-cl\_demo\_output=>display( source ).
-
-
-
-**📖 Source**: [abenitab_empty_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm)
-
-### abenitab_key_primary.htm
-
-> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) → 
-
-Primary Table Keys
-
-Each internal table has a primary table key that enables access to individual rows in the table by means of a key specification.
-
--   The components of the primary table key are declared using the [UNIQUE*|*NON-UNIQUE KEY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm) additions of the statements [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm), [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_primary_key.htm), and so on.
-
--   The [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm), which can be declared both explicitly and implicitly, has a special part to play here.
-
--   The primary table key of a [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") can also be [empty](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm), meaning that it does not contain any key fields.
-
--   In the case of key accesses for internal tables, the primary key is always used implicitly [processing statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) as long as no secondary key is specified. In [table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expressions.htm), the primary key must also always be specified explicitly.
-
--   The primary key has the predefined name primary\_key, with which it can also be addressed explicitly in processing statements. In table expressions, primary\_key or an alias name must be specified, if the primary key is to be used explicitly.
-
--   Access to an internal table using the primary table key is determined by the [table category](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_category_glosry.htm "Glossary Entry") and not the table key. For sorted tables and hashed tables, key access is always optimized using the primary table key. Primary key access to standard tables, however, uses a linear search.
-
--   The key fields of the primary table key of sorted tables and hashed tables are always read-only.
-
--   In the case of sorted tables and hashed tables, separate key administration exists for the primary table key, which enables optimized access but also affects the [memory requirement](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_memory.htm) of the internal table. There is no separate key administration for the primary table key of standard tables.
-
-Notes
-
--   Since sorted tables and hashed tables have real key administration for the primary key, unlike standard tables, these tables are also grouped under the term [key tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkey_table_glosry.htm "Glossary Entry").
-
--   To achieve optimized key access to standard tables, [secondary keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") can be used.
-
-Example
-
-Declaration of a hashed table with a unique primary key. The table is filled with data from a database table, read using a [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry") with values specified for the primary key.
-
-DATA carrid TYPE spfli-carrid VALUE 'LH'.
-cl\_demo\_input=>add\_field( CHANGING field = carrid ).
-DATA connid TYPE spfli-connid VALUE '0400'.
-cl\_demo\_input=>request( CHANGING field = connid ).
-DATA spfli\_tab
-  TYPE HASHED TABLE OF spfli
-       WITH UNIQUE KEY primary\_key COMPONENTS carrid connid.
-SELECT \*
-       FROM spfli
-       INTO TABLE @spfli\_tab.
-cl\_demo\_output=>display(
-  VALUE #( spfli\_tab\[ KEY primary\_key
-                      carrid = carrid
-                      connid = connid \] OPTIONAL ) ).
-
-Continue
-[Standard Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm)
-[Empty Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm)
-
-
-
-**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
 
 ### abenitab_key_secondary.htm
 
-> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Secondary Table Key"
+description: |
+  Hash keys(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhash_key_glosry.htm 'Glossary Entry') and sorted keys(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensorted_key_glosry.htm 'Glossary Entry') can be declared as secondary table keys(https://help.sap.com/doc
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm"
+abapFile: "abenitab_key_secondary.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abenitab", "key", "secondary"]
+---
 
 * * *
 
@@ -3416,16 +1341,19 @@ Continue
 [Restrictions for Secondary Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm)
 
 
-
-**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
-
 ### abenitab_key_secondary_update.htm
 
-> **📖 Official SAP Documentation**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_update.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Updating Secondary Keys"
+description: |
+  For all statements that change the content and structure of an internal table, the internal administration of the secondary keys is updated automatically as follows: -   For all operations that insert rows into tables or delete rows from tables, the secondary key administration for unique keys is up
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_update.htm"
+abapFile: "abenitab_key_secondary_update.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "field-symbol", "abenitab", "key", "secondary"]
+---
 
 * * *
 
@@ -3456,16 +1384,19 @@ Executable Example
 The example of [Deletion Using Table Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendelete_itab_using_key_abexa.htm) demonstrates the runtimes that are required to create the secondary key and when they occur.
 
 
-
-**📖 Source**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_update.htm)
-
 ### abenitab_key_secondary_usage.htm
 
-> **📖 Official SAP Documentation**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_usage.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Secondary Keys"
+description: |
+  Notes on Using Secondary Table Keys -   The standard scenario for sensibly using secondary table keys relates to a very large internal table that is created in the memory and whose content is changed very infrequently. Costs(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_m
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_usage.htm"
+abapFile: "abenitab_key_secondary_usage.htm"
+keywords: ["insert", "update", "delete", "do", "while", "if", "case", "try", "data", "internal-table", "abenitab", "key", "secondary", "usage"]
+---
 
 * * *
 
@@ -3500,16 +1431,19 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates how a secondary table key is specified and the resulting performance gain.
 
 
-
-**📖 Source**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_usage.htm)
-
 ### abenitab_key_secondary_restrict.htm
 
-> **📖 Official SAP Documentation**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Restrictions for Secondary Keys"
+description: |
+  Internal tables with secondary keys can be used in all processing statements for internal tables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) and other statements that work with internal tables. However, there are also operand positions for intern
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm"
+abapFile: "abenitab_key_secondary_restrict.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "data", "internal-table", "abenitab", "key", "secondary", "restrict"]
+---
 
 * * *
 
@@ -3554,16 +1488,31 @@ The use of tables with secondary keys causes syntax or runtime errors for the fo
 -   itab in [WRITE TO itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm)
 
 
+---
 
-**📖 Source**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm)
+
+## ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Key / Secondary Table Key
+
+**Files**: 4 | **Difficulty**: beginner
+
+# ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Key / Secondary Table Key
+
+Included pages: 4
+
 
 ### abenitab_key_secondary.htm
 
-> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Secondary Table Key"
+description: |
+  Hash keys(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhash_key_glosry.htm 'Glossary Entry') and sorted keys(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensorted_key_glosry.htm 'Glossary Entry') can be declared as secondary table keys(https://help.sap.com/doc
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm"
+abapFile: "abenitab_key_secondary.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abenitab", "key", "secondary"]
+---
 
 * * *
 
@@ -3648,134 +1597,151 @@ Continue
 [Restrictions for Secondary Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm)
 
 
+### abenitab_key_secondary_update.htm
 
-**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
-
-### abenitab_key_duplicates.htm
-
-> **📖 Official SAP Documentation**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) → 
-
-Duplicate Unique Keys
-
-When rows are inserted into internal tables with a unique primary key or unique secondary key, duplicates can occur with respect to one or more of these keys. Depending on whether the insert takes place as a single record operation or a mass operation, the ABAP runtime environment responds as follows to an attempt to insert an entry with duplicate key values:
-
--   First, it checks whether duplicate key values would occur with respect to the primary key. The system behavior is as follows depending on the operation:
-
--   When single rows are inserted using the variant
-    [INSERT wa INTO TABLE itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_position.htm)
-    duplicate with respect to the primary key are ignored and sy-subrc is set to 4. This is often used to filter out duplicates when the table is constructed.
-
--   In all other cases, such as
-    [INSERT ... INTO itab INDEX idx](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_position.htm)
-    [INSERT LINES OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_linespec.htm) (mass operation)
-    [APPEND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapappend.htm)
-    [COLLECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcollect.htm)
-    [\=](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove.htm), [IMPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_data_cluster.htm) (mass operations)
-    the runtime error ITAB\_DUPLICATE\_KEY occurs.
-
--   A check is then made to see whether duplicate key values would occur with respect to any existing unique secondary keys. If this is the case,
-
--   an exception of the class CX\_SY\_ITAB\_DUPLICATE\_KEY is raised for the statements [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab.htm) and [APPEND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapappend.htm), if the operation is a single record operation.
-
--   For all other insert and assignment operations, particularly for all mass operations, the runtime error ITAB\_DUPLICATE\_KEY occurs.
-
-Example
-
-The first INSERT statement does not insert a line and sets sy-subrc to the value 4. The second INSERT statement produces a runtime error.
-
-DATA itab TYPE SORTED TABLE OF i WITH UNIQUE KEY table\_line.
-itab = VALUE #( ( 1 ) ( 2 ) ( 3 ) ).
-INSERT 2 INTO TABLE itab.
-INSERT 2 INTO itab INDEX 2.
-
-
-
-**📖 Source**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
-
-### abenitab_key_secondary_duplicates.htm
-
-> **📖 Official SAP Documentation**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Updating Secondary Keys"
+description: |
+  For all statements that change the content and structure of an internal table, the internal administration of the secondary keys is updated automatically as follows: -   For all operations that insert rows into tables or delete rows from tables, the secondary key administration for unique keys is up
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_update.htm"
+abapFile: "abenitab_key_secondary_update.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "field-symbol", "abenitab", "key", "secondary"]
+---
 
 * * *
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) →  [Secondary Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm) → 
 
-Duplicate Non-Unique Keys
+Updating Secondary Keys
 
-Non-unique table keys can produce duplicate rows with respect to these keys. This section describes the order of these duplicates when data is inserted into table with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables.
+For all statements that change the content and structure of an internal table, the internal administration of the secondary keys is updated automatically as follows:
 
--   [Single Record Operations](#abenitab-key-secondary-duplicates-1--------block-operations---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
+-   For all operations that insert rows into tables or delete rows from tables, the secondary key administration for unique keys is updated immediately. This means that a unique secondary key is up-to-date immediately after the operation ([direct update](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendirect_update_glosry.htm "Glossary Entry")). Non-unique secondary table keys are not updated immediately. Instead, they are updated when the secondary key is next used explicitly using USING KEY or WITH KEY ... COMPONENTS ([lazy update](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlazy_update_glosry.htm "Glossary Entry")). If updating the administration causes a secondary key uniqueness violation, a [handled exception or runtime error occurs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm).
 
--   [Special Features](#abenitab-key-secondary-duplicates-3--------example---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_4)
+Inserting operations include table statements such as [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab.htm) and [APPEND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapappend.htm) and block operations for which the entire body of the table is filled at once, like for statements between internal tables, passing parameters to procedures, filling internal tables with SELECT, importing with [IMPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_data_cluster.htm), and so on. The operation for deleting table rows is the table statement [DELETE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab.htm).
 
-Single Record Operations
+-   For operations that change the components of secondary table keys in existing rows, the secondary key administration is either updated directly or when a specified synchronization point is reached.
 
-When individual rows are inserted where the insert position is determined using a table key, that is, in the case of
+-   If [MODIFY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab.htm) is used to modify individual rows, any unique secondary keys are updated directly ([direct update](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendirect_update_glosry.htm "Glossary Entry")). If the modification produces duplicate entries, a non-handleable exception is raised.
 
--   the operations [INSERT ... INTO TABLE ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_position.htm) or
+-   If field symbols or data references are used to modify individual rows, and these symbols or references point to table rows, any unique secondary keys are updated the next time the internal table is accessed ([delayed update](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendelayed_update_glosry.htm "Glossary Entry")). The uniqueness check also waits until the synchronization point is reached. An internal table can therefore be in an inconsistent state with respect to the secondary key following a modification to existing rows using field symbols or data references. The corresponding [exception](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm) is only raised when the table is next used.
 
--   in [lazy update](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlazy_update_glosry.htm "Glossary Entry")s of sorted secondary keys
+In both cases, a non-unique key not updated until the secondary table key is next used explicitly ([lazy update](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlazy_update_glosry.htm "Glossary Entry")).
 
-the order of the duplicates with respect to the table key of the target table is determined in accordance with the insert order of the individual rows. The duplicate row last inserted into the table is sorted before all other duplicates.
+The methods FLUSH\_ITAB\_KEY and FLUSH\_ITAB\_KEYS of the class CL\_ABAP\_ITAB\_UTILITIES can be used to update individual secondary keys or all secondary keys of an internal table explicitly in exceptional circumstances. These methods can be used for analysis and test purposes. It might also make sense to use them after making changes if the next access does not take place immediately afterwards to handle possible exceptions there and then.
 
-Block Operations
+Executable Example
 
-For block operations such as an [assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove.htm) of an internal table to another table or when inserting multiple rows using [INSERT LINES OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_linespec.htm), the order of duplicates with respect to a sorted key of the target table in the block is taken from the source table. If there are already one or more duplicates in the target table, the source block duplicates are inserted in their original order in front of the first duplicate in the target table.
+The example of [Deletion Using Table Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendelete_itab_using_key_abexa.htm) demonstrates the runtimes that are required to create the secondary key and when they occur.
 
-Special Features
 
-Some operations have the characteristics of block operations but are executed internally as sequences of single record operations. In this case, the original order of duplicates with respect to a sorted key in the target table is not retained. This is the case for the following operations:
+### abenitab_key_secondary_usage.htm
 
--   Filling an internal table using [IMPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_data_cluster.htm) from a table previously created with [EXPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster.htm) and all operations that are based internally on such an import, such as [posting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_update.htm) operations.
+---
+title: "Using Secondary Keys"
+description: |
+  Notes on Using Secondary Table Keys -   The standard scenario for sensibly using secondary table keys relates to a very large internal table that is created in the memory and whose content is changed very infrequently. Costs(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_m
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_usage.htm"
+abapFile: "abenitab_key_secondary_usage.htm"
+keywords: ["insert", "update", "delete", "do", "while", "if", "case", "try", "data", "internal-table", "abenitab", "key", "secondary", "usage"]
+---
 
--   Passing and applying internal tables for [Remote Function Calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_destination_para.htm).
+* * *
 
--   The deserialization of an internal table from a table previously serialized to XML using [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation.htm).
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) →  [Secondary Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm) → 
+
+Using Secondary Keys
+
+Notes on Using Secondary Table Keys
+
+-   The standard scenario for sensibly using secondary table keys relates to a very large internal table that is created in the memory and whose content is changed very infrequently. [Costs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_memory.htm) for administrating the secondary keys are then only incurred when setting up the internal table.
+
+-   As a matter of principle, secondary hash keys should not have too many components, since otherwise the system has to deal with a high system load for the additional hash management. Sorted keys are preferable for secondary keys with a large number of components.
+
+-   For an index table with secondary keys, the primary index of the table is updated immediately when rows are inserted or deleted using a secondary key. Note deleting a row from a standard table using a secondary key cannot be optimized because the index entry to be deleted must be searched linearly.
+
+-   Secondary keys might be useful for small internal tables in some circumstances because they ensure unique table entries in relation to particular components. Primary keys do not allow this, especially in the case of standard tables.
+
+-   In the case of read-only reads (where ensuring unique table entries is not relevant), non-unique secondary keys are usually sufficient. Performing reads here is almost as quick as for unique keys, while the update following a table modification is quicker and is performed using a lazy update.
+
+-   Secondary table keys should not be used in the following situations:
+
+-   For small internal tables (less than 50 rows), the performance benefits in the case of reads are far outweighed by the increased memory and administration costs.
+
+-   In tables where a large number of changes are made, the load incurred by updating the secondary keys outweighs the performance benefits in the case of reads. In delayed updates and lazy updates in particular, the update load can actually be incurred by the read for which the optimization was actually required.
+
+-   Unless the uniqueness of table entries is of absolute importance, it is better to avoid using secondary hash keys.
 
 Example
 
-Example
+The program DEMO\_SECONDARY\_KEYS demonstrates how a secondary table key is specified and the resulting performance gain.
 
-The result of the following insertion is
 
-a a
-b z
-b y
-b x
-b b
+### abenitab_key_secondary_restrict.htm
 
-TYPES:
-  BEGIN OF line,
-    col1 TYPE string,
-    col2 TYPE string,
-  END OF line,
-  itab TYPE SORTED TABLE OF line
-            WITH NON-UNIQUE KEY col1.
-DATA(itab) = VALUE itab(
-( col1 = 'b' col2 = 'b' )
-( col1 = 'a' col2 = 'a' ) ).
-DATA(jtab) = VALUE itab(
-( col1 = 'b' col2 = 'x' )
-( col1 = 'b' col2 = 'y' )
-( col1 = 'b' col2 = 'z' ) ).
-INSERT LINES OF jtab INTO TABLE itab.
-cl\_demo\_output=>display( itab ).
+---
+title: "Restrictions for Secondary Keys"
+description: |
+  Internal tables with secondary keys can be used in all processing statements for internal tables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) and other statements that work with internal tables. However, there are also operand positions for intern
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm"
+abapFile: "abenitab_key_secondary_restrict.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "data", "internal-table", "abenitab", "key", "secondary", "restrict"]
+---
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) →  [Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm) →  [Secondary Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm) → 
+
+Restrictions for Secondary Keys
+
+Internal tables with secondary keys can be used in all [processing statements for internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) and other statements that work with internal tables. However, there are also operand positions for internal tables for which it does not make sense to use secondary keys. Secondary keys are therefore not supported for those operand positions.
+
+The use of tables with secondary keys causes syntax or runtime errors for the following operand positions:
+
+-   An internal table as an actual parameter for a [TABLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_destination_para.htm) parameter for RFC can have any table type but no secondary key.
+
+-   Only standard tables without secondary keys are possible for the following:
+
+-   rspar in [SUBMIT WITH rspar](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_selscreen_parameters.htm) and rtab in [SUBMIT WITH sel IN rtab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_selscreen_parameters.htm)
+
+-   itab in [FIND IN TABLE itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_itab.htm) and [REPLACE IN TABLE itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_itab.htm)
+
+-   result\_tab in [SPLIT INTO TABLE result\_tab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsplit.htm)
+
+-   column\_syntax in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm), in [GROUP BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgroupby_clause.htm), and in [ORDER BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaporderby_clause.htm)
+
+-   cond\_syntax in [WHERE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_dynamic.htm)
+
+-   source\_syntax in [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfrom_clause.htm)
+
+-   target\_syntax in [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_target.htm), [UPDATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapupdate_target.htm), [MODIFY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_target.htm), and [DELETE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_target.htm)
+
+-   expr\_syntax in [UPDATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapupdate_set_expression.htm)
+
+-   IN, OUT, and INOUT parameters in [EXEC SQL - EXECUTE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_procedure.htm)
+
+-   itab in [EXPORT TO INTERNAL TABLE itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster_medium.htm) and [IMPORT FROM INTERNAL TABLE itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_medium.htm)
+
+-   itab in [GENERATE SUBROUTINE POOL itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subroutine_pool.htm), [READ REPORT INTO itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report.htm), [INSERT REPORT FROM itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_report.htm), and [SYNTAX-CHECK FOR itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsyntax-check_for_itab.htm).
+
+-   itab in [EDITOR-CALL FOR itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapeditor-call_for_itab.htm)
+
+-   itab in [WRITE TO itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm)
 
 
 ---
@@ -3790,16 +1756,19 @@ cl\_demo\_output=>display( itab ).
 Included pages: 4
 
 
-
-**📖 Source**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -3817,16 +1786,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -4006,16 +1978,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -4036,16 +2011,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -4237,16 +2215,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -4264,16 +2245,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -4453,16 +2437,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -4483,16 +2470,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -4684,16 +2674,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -4711,16 +2704,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -4900,16 +2896,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -4930,16 +2929,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -5131,16 +3133,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -5158,16 +3163,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -5347,16 +3355,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -5377,16 +3388,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -5578,16 +3592,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -5605,16 +3622,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -5794,16 +3814,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -5824,16 +3847,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -6016,25 +4042,28 @@ Continue
 ---
 
 
-## ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Processing Statements for Internal Tables / MODIFY itab
+## ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Processing Statements for Internal Tables / MODIFY itab / MODIFY itab - itab_line
 
-**Files**: 8 | **Difficulty**: intermediate
+**Files**: 5 | **Difficulty**: intermediate
 
 # ABAP Keyword Documentation / ABAP − Reference / Processing Internal Data / Internal Tables / Processing Statements for Internal Tables / Interval Join of Internal Tables
 
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -6052,16 +4081,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -6241,16 +4273,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -6271,16 +4306,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -6472,16 +4510,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -6499,16 +4540,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -6688,16 +4732,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -6718,16 +4765,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -6919,16 +4969,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -6946,16 +4999,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -7135,16 +5191,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -7165,16 +5224,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -7366,16 +5428,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -7393,16 +5458,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -7582,16 +5650,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -7612,16 +5683,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -7813,16 +5887,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -7840,16 +5917,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -8029,16 +6109,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -8059,16 +6142,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -8260,16 +6346,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -8287,16 +6376,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -8476,16 +6568,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -8506,16 +6601,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -8707,16 +6805,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -8734,16 +6835,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -8923,16 +7027,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -8953,16 +7060,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -9154,16 +7264,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abeninternal_table_interval_spcl.htm
 
-> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Interval Join of Internal Tables"
+description: |
+  These language elements should be used only by specialists with in-depth knowledge of the corresponding environment. -   PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm) PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 
@@ -9181,16 +7294,19 @@ Continue
 [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
 
 
-
-**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -9370,16 +7486,19 @@ Continue
 [ENDPROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abapendprovide.htm
 
-> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 
@@ -9400,16 +7519,19 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm).
 
 
-
-**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
-
 ### abapprovide.htm
 
-> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "PROVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_shortref.htm) Syntax PROVIDE FIELDS comp1 comp2 ... FROM itab1 INTO wa1 VALID flag1 BOUNDS intliml1 AND intlimu1 WHERE log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm"
+abapFile: "abapprovide.htm"
+keywords: ["loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapprovide"]
+---
 
 * * *
 
@@ -9601,16 +7723,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -9687,16 +7812,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -9792,16 +7920,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -9922,16 +8053,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -9947,16 +8081,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -10009,16 +8146,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -10079,16 +8219,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -10171,16 +8314,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -10208,16 +8354,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -10294,16 +8443,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -10399,16 +8551,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -10529,16 +8684,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -10554,16 +8712,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -10616,16 +8777,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -10686,16 +8850,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -10778,16 +8945,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -10815,16 +8985,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -10901,16 +9074,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -11006,16 +9182,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -11136,16 +9315,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -11161,16 +9343,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -11223,16 +9408,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -11293,16 +9481,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -11385,16 +9576,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -11422,16 +9616,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -11508,16 +9705,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -11613,16 +9813,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -11743,16 +9946,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -11768,16 +9974,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -11830,16 +10039,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -11900,16 +10112,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -11992,16 +10207,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -12029,16 +10247,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -12115,16 +10336,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -12220,16 +10444,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -12350,16 +10577,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -12375,16 +10605,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -12437,16 +10670,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -12507,16 +10743,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -12599,16 +10838,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -12636,16 +10878,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -12722,16 +10967,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -12827,16 +11075,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -12957,16 +11208,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -12982,16 +11236,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -13044,16 +11301,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -13114,16 +11374,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -13206,16 +11469,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -13243,16 +11509,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -13329,16 +11598,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -13434,16 +11706,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -13564,16 +11839,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -13589,16 +11867,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -13651,16 +11932,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -13721,16 +12005,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -13813,16 +12100,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -13850,16 +12140,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -13936,16 +12229,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -14041,16 +12337,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -14171,16 +12470,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -14196,16 +12498,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -14258,16 +12563,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -14328,16 +12636,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -14420,16 +12731,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -14457,16 +12771,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -14543,16 +12860,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -14648,16 +12968,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -14778,16 +13101,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -14803,16 +13129,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -14865,16 +13194,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -14935,16 +13267,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -15027,16 +13362,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -15064,16 +13402,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenconstructor_expression_filter.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -15150,16 +13491,19 @@ Continue
 [Examples of Table Filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
 
 
-
-**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
-
 ### abenconstructor_expr_filter_basic.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -15255,16 +13599,19 @@ Executable Example
 [Table Filtering, Single Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
-
 ### abenconstructor_expr_filter_table.htm
 
-> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -15385,16 +13732,19 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -15410,16 +13760,19 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenfilter_value_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -15472,16 +13825,19 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
-
-**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
-
 ### abenfilter_table_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -15542,16 +13898,19 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
-
-**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
-
 ### abenfilter_table_condition_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -15634,16 +13993,19 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
-
-**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
-
 ### abentable_filtering_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -15671,16 +14033,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
-
 ### abenitab_perfo.htm
 
-> **📖 Official SAP Documentation**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Table sharing"
+description: |
+  When assignments are made between internal tables of the same type whose row type does not contain any table types (for performance reasons), only the internal administration functions are passed to the table body(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_body_glosry.htm
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm"
+abapFile: "abenitab_perfo.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "perfo"]
+---
 
 * * *
 
@@ -15698,9 +14063,9 @@ Internal Tables: Performance Notes
 
 -   [Deleting Table Rows](#abenitab-perfo-7--------free-key-specification-for-sorted-tables-and-hashed-tables---@ITOC@@ABENITAB_PERFO_8)
 
--   [Sorting](#abenitab-perfo-9---table-sharing--when-assignments-are-made-between-internal-tables-of-the-same-type-whose-row-type-does-not-contain-any-table-types--for-performance-reasons---only-the-internal-administration-functions-are-passed-to-the--table-body--javascript-call-link---abentable-body-glosry-htm-----glossary-entry-----table-sharing--javascript-call-link---abentable-sharing-glosry-htm-----glossary-entry---is-revoked-only-when-change-access-to-one-of-the-tables-involved-is-initiated--at-this-point--the-actual-copy-process-takes-place---initial-allocated-memory-area--internal-tables-are--dynamic-data-objects--javascript-call-link---abendynamic-data-object-glosry-htm-----glossary-entry---whose-area-in-the-memory-is-increased-block-by-block--the-size-of-the-first-block-in-the-memory-can-be-controlled-in-the-declaration-of-an-internal-table-using-the-additions--initial-size--javascript-call-link---abaptypes-itab-htm-----and-the-obsolete--occurs--javascript-call-link---abapdata-occurs-htm------if-the-first-block-is-no-longer-enough--further-blocks-are-created-using-an-internal-duplication-strategy-until-a-maximum-size-is-reached--all-additional-blocks-are-then-created-with-a-constant-size-of-between-8-and-16-kb---in-general--the-system-can-be-left-to-determine-the-size-of-the-first-block--by-not-specifying-initial-size--or-by-entering-the-value-0---in-this-case--when-the-first-rows-are-entered-in-an-internal-table--a-suitable-block-size-is-chosen---entering-a-concrete-value-greater-than-0-after-initial-size-is-only-practical-if-it-is-known-in-advance-how-many-entries-are-to-be-made-in-the-table--and-the-first-block-is-therefore-to-be-created-with-the-most-suitable-dimensions--this-can-be-particularly-important-for-internal-tables-that-are-components-of-other-internal-tables--and-which-only-contain-a-few-rows--no-more-than-around-5----to-avoid-excessive-memory-demands--the-system-ignores-values-that-produce-memory-demands-greater-than-the-constant-block-size---index-administration--in-an--index-table--javascript-call-link---abenindex-table-glosry-htm-----glossary-entry----the-logical-order-of-the-table-entries-is-not-generally-consistent-with-the-physical-order-of-the-entries-in-the-main-memory--in-this-case--the-logical-order-is-no-longer-administrated-by-a-physical-index--but-by-a-logical-index-instead--the-same-is-basically-true-for-the--secondary-table-indexes--javascript-call-link---abensecondary-table-index-glosry-htm-----glossary-entry---used-to-manage--secondary--javascript-call-link---abensecondary-table-key-glosry-htm-----glossary-entry----sorted-keys--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry-----use-of-the-logical-index-produces-additional-memory-requirements--and-index-maintenance-places-a-high-demand-on-resources--time-and-memory--when-inserting-or-deleting-table-rows--the-resource-requirements-rise-in-proportion-to-the-number-of-remaining-rows-after-the-insertion-or-deletion-position--for-very-large-internal-tables--this-can-result-in-considerable-demands-on-performance-at-runtime---the-logical-index-is-not-created-until-the-moment-at-which-it-is-required--in-other-words--when-a-row-is-inserted-before-another-row--if-the-order-of-the-table-rows-is-changed--or-a-row-other-than-the-last-row-is-deleted--a-logical-index-is-not-required-if-an-internal-table-is-filled-using-only--append--javascript-call-link---abapappend-htm------and-if-only-its-last-row-s--is-are-deleted-using--delete--javascript-call-link---abapdelete-itab-htm-------note--in-contrast-to-filling-a-table-with--insert--javascript-call-link---abapinsert-itab-htm------appending-rows-with--append--javascript-call-link---abapappend-htm-----does-not-require-any-resources-for-index-maintenance--it-is-therefore-preferable-to-use-append-instead-of-insert-to-create-a--standard-table--javascript-call-link---abenstandard-table-glosry-htm-----glossary-entry----this-is-possible-if-the-order-of-the-entries-is-not-important--or-if-entries-can-be-appended-in-the-correct-order---block-processing-of-table-rows--if-whole-row-areas-of-a-table-can-be-processed-at-once--this-should-not-be-done-in-rows--but-using-block-operations-instead--block-operations-are-possible-using-the-from-and-to-additions-of-the-statements--insert--javascript-call-link---abapinsert-itab-htm-------append--javascript-call-link---abapappend-htm-----and--delete--javascript-call-link---abapdelete-itab-htm------block-operations-are-also-more-efficient-than-single-record-operations-when-reading-from-or-modifying-database-tables-with--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry---statements-with-the-additions-from---appending---to-table---selective-data-transport--if--when-reading-table-rows-using--read-table--javascript-call-link---abapread-table-htm-----or--loop-at--javascript-call-link---abaploop-at-itab-htm------a-work-area-is-used-or-table-rows-can-be-changed-using--modify--javascript-call-link---abapmodify-itab-htm-----instead-of-by-direct-access--the-transporting-addition-can-be-used-to-prevent-unnecessary-assignments-of-table-components-to-the-work-area--this-can-lead-to-a-noticeable-acceleration-in-performance--particularly-if-table-like-components-are-excluded-from-processing---using-secondary-keys--the--use-of-secondary-table-keys--javascript-call-link---abenitab-key-secondary-usage-htm-----should-be-planned-and-executed-with-care--the-time-gained-when-accessing-individual-rows-should-not-be-lost-again-by-the-increased-storage-and-time-requirements-for-managing-the-secondary-keys--secondary-keys-are-generally-recommended-for-internal-tables-that-are-filled-once-and-rarely-changed-during-program-execution---example--the-program-demo--secondary--keys-demonstrates-how-a-secondary-table-key-is-specified-and-the-resulting-performance-gain---deleting-table-rows--when-you-delete-rows-from-an-internal-table--overhead-is-produced-for-all-table-keys-and-table-indexes--the-primary-key-and-all-unique-secondary-keys-are-updated-directly--but-non-unique-secondary-keys-are-updated-only-if-the-row-being-deleted-is-included-in-the-updated-part-of-an-associated-index---lazy-update--javascript-call-link---abenlazy-update-glosry-htm-----glossary-entry------also-note-that--for-standard-tables--the-mean-runtime-of-the-statement--delete--javascript-call-link---abapdelete-itab-htm-----always-has-a-linear-dependency-on-the-number-of-table-rows--even-when-secondary-keys-are-specified-using--with-table-key--javascript-call-link---abapdelete-itab-key-htm-----or--using-key--javascript-call-link---abapdelete-itab-key-htm------this-is-because-a-linear-search-is-required-to-update-the-primary-index--even-though-the-row-being-deleted-can-itself-be-found-quickly---deleting-rows-in-internal-tables-using--delete--javascript-call-link---abapdelete-itab-htm-----does-not-usually-free-any-memory-in-the-internal-table--statements-such-as--clear--javascript-call-link---abapclear-htm-----or--free--javascript-call-link---abapfree-dataobject-htm-----must-be-used-to-free-memory-in-internal-tables---free-key-specification-for-sorted-tables-and-hashed-tables--when-using-the--read--javascript-call-link---abapread-table-htm-----statement-with-a-free-key-specification-of-the-form--with-key------javascript-call-link---abapread-table-free-htm------the-search-is-optimized-in-all-cases-where-this-is-possible-------in--sorted-tables--javascript-call-link---abensorted-table-glosry-htm-----glossary-entry----if-any-initial-section-of-the--table-key--javascript-call-link---abentable-key-glosry-htm-----glossary-entry---or-the-complete-table-key-is-covered-by-the-specified-key-------in--hashed-tables--javascript-call-link---abenhashed-table-glosry-htm-----glossary-entry----if-the-complete-table-key-is-covered---if-part-of-a-free-key-meets-these-conditions--this-partial-key-is-first-used-to-search-for-an-entry--in-sorted-tables--this-is-performed-using-a-binary-search-with-a-logarithmic-consumption-of-resources--and-in-hashed-tables-by-using-a-hash-algorithm--that-is--with-constant-resource-consumption---if-an-entry-is-found--the-system-checks-whether-the-rest-of-the-key-conditions-are-also-met--this-means-that-over-specific-key-specifications-in-particular-are-optimized---note--see-also--optimization-of-the-where-condition--javascript-call-link---abenitab-where-optimization-htm-------sorting--for-textual-sorting-of-an-internal-table-in-accordance-with-the-current--text-environment--javascript-call-link---abentext-environment-glosry-htm-----glossary-entry----it-is-more-beneficial-for-performance-to-use-the-statement--convert-text-into-sortable-code--javascript-call-link---abapconvert-text-htm-----instead-of--sort-as-text--javascript-call-link---abapsort-itab-htm-----in-the-following-cases-------if-an-internal-table-is-sorted-by-locale-and-then-subjected-to-a-binary-search-using-the-statement-read-table-or-using-a--table-expression--javascript-call-link---abentable-expressions-htm-----------an-internal-table-must-be-sorted-more-than-once-------indices-for-database-tables-are-to-be-structured-in-accordance-with-a-locale---this-translation-does-not-reflect-the-current-version-of-the-documentation--continue--optimization-of-the-where-condition--javascript-call-link---abenitab-where-optimization-htm-----------abenitab-where-optimization-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--javascript-call-link---abenitab-htm---------internal-tables--performance-notes--javascript-call-link---abenitab-perfo-htm---------optimization-of-the-where-condition--the-statements--loop-at--javascript-call-link---abaploop-at-itab-htm-------delete--javascript-call-link---abapdelete-itab-htm------and--modify--javascript-call-link---abapmodify-itab-htm-----can-be-specified-together-with-a-where-condition-that-selects-specific-rows-of-the-internal-table--searches-in-a--standard-table--javascript-call-link---abenstandard-table-glosry-htm-----glossary-entry---using-the--primary-table-key--javascript-call-link---abenprimary-table-key-glosry-htm-----glossary-entry---are-always-linear-and-cannot-be-optimized--searches-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry---or-a--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry----however--can-be-optimized-in-certain-circumstances--these-keys-are-used-when-------editing-a--sorted-table--javascript-call-link---abensorted-table-glosry-htm-----glossary-entry---using-its-primary-key-------editing-a--hashed-table--javascript-call-link---abenhashed-table-glosry-htm-----glossary-entry---using-its-primary-key-------editing-a-table--any-type--using-a--secondary-table-key--javascript-call-link---abensecondary-table-key-glosry-htm-----glossary-entry---specified-by-using-key---the-optimization-takes-place-because-all--relational-expressions--javascript-call-link---abenrelational-expression-glosry-htm-----glossary-entry---or-a-group-of-the-relational-expressions-in-the-where-condition-are-mapped-to-a-specified-key--this-specified-key-performs-an-appropriate-optimized-key-read--binary-search-or-hash-algorithm-as-in-the-statement--read-table--javascript-call-link---abapread-table-htm-----or-a--table-expression--javascript-call-link---abentable-expressions-htm-------to-find-one-or-more-rows--the-row-or-rows-in-question-are-then-checked-using-those-remaining-relational-expressions-from-the-where-condition-that-were-not-mapped-to-the-specified-key---prerequisites-for-the-optimization-are--therefore--as-follows-------the-relational-expressions-of-the-where-condition-can-be-transformed-to-a-specified-key-------the-corresponding-key-read-returns-the-same-results-as-would-the-evaluation-of-this-part-of-the-logical-expression--this-is-guaranteed-only-for-compatible-data-types--since-in-the-case-of-incompatible-data-types-------the-content-of-the-specified-data-objects-is-converted-to-the-data-type-of-the-columns-before-the-evaluation-in-the-case-of-key-reads-------the--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types-apply-when-evaluating-a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry----here--all-the-data-types-involved-play-a-part-in-determining-which-operand-is-converted-into-which-comparison-type---if-there-are-no-relational-expressions-or-too-few-to-meet-both-of-these-prerequisites--no-optimizations-are-possible-and-the-behavior-is-as-followed-------if-the-primary-table-key-is-used-to-access-a-sorted-table-or-a-hashed-table--all-rows-of-the-internal-table-are-checked--as-in-a-standard-table--------if-the-table-is-read-using-a-secondary-table-key--if-specified-after-using-key---a-syntax-error-or-warning-is-produced-or-an-exception-raised--accesses-that-use-a-secondary-table-key-must-always-be-optimized---the-following-sections-describe-exactly-when-an-access-can-be-optimized--------prerequisites-for-the-optimization-of-hash-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
+-   [Sorting](#abenitab-perfo-9---table-sharing--when-assignments-are-made-between-internal-tables-of-the-same-type-whose-row-type-does-not-contain-any-table-types--for-performance-reasons---only-the-internal-administration-functions-are-passed-to-the--table-body--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-body-glosry-htm--glossary-entry-----table-sharing--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-sharing-glosry-htm--glossary-entry---is-revoked-only-when-change-access-to-one-of-the-tables-involved-is-initiated--at-this-point--the-actual-copy-process-takes-place---initial-allocated-memory-area--internal-tables-are--dynamic-data-objects--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abendynamic-data-object-glosry-htm--glossary-entry---whose-area-in-the-memory-is-increased-block-by-block--the-size-of-the-first-block-in-the-memory-can-be-controlled-in-the-declaration-of-an-internal-table-using-the-additions--initial-size--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abaptypes-itab-htm--and-the-obsolete--occurs--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-occurs-htm---if-the-first-block-is-no-longer-enough--further-blocks-are-created-using-an-internal-duplication-strategy-until-a-maximum-size-is-reached--all-additional-blocks-are-then-created-with-a-constant-size-of-between-8-and-16-kb---in-general--the-system-can-be-left-to-determine-the-size-of-the-first-block--by-not-specifying-initial-size--or-by-entering-the-value-0---in-this-case--when-the-first-rows-are-entered-in-an-internal-table--a-suitable-block-size-is-chosen---entering-a-concrete-value-greater-than-0-after-initial-size-is-only-practical-if-it-is-known-in-advance-how-many-entries-are-to-be-made-in-the-table--and-the-first-block-is-therefore-to-be-created-with-the-most-suitable-dimensions--this-can-be-particularly-important-for-internal-tables-that-are-components-of-other-internal-tables--and-which-only-contain-a-few-rows--no-more-than-around-5----to-avoid-excessive-memory-demands--the-system-ignores-values-that-produce-memory-demands-greater-than-the-constant-block-size---index-administration--in-an--index-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenindex-table-glosry-htm--glossary-entry----the-logical-order-of-the-table-entries-is-not-generally-consistent-with-the-physical-order-of-the-entries-in-the-main-memory--in-this-case--the-logical-order-is-no-longer-administrated-by-a-physical-index--but-by-a-logical-index-instead--the-same-is-basically-true-for-the--secondary-table-indexes--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensecondary-table-index-glosry-htm--glossary-entry---used-to-manage--secondary--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensecondary-table-key-glosry-htm--glossary-entry----sorted-keys--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensorted-key-glosry-htm--glossary-entry-----use-of-the-logical-index-produces-additional-memory-requirements--and-index-maintenance-places-a-high-demand-on-resources--time-and-memory--when-inserting-or-deleting-table-rows--the-resource-requirements-rise-in-proportion-to-the-number-of-remaining-rows-after-the-insertion-or-deletion-position--for-very-large-internal-tables--this-can-result-in-considerable-demands-on-performance-at-runtime---the-logical-index-is-not-created-until-the-moment-at-which-it-is-required--in-other-words--when-a-row-is-inserted-before-another-row--if-the-order-of-the-table-rows-is-changed--or-a-row-other-than-the-last-row-is-deleted--a-logical-index-is-not-required-if-an-internal-table-is-filled-using-only--append--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapappend-htm---and-if-only-its-last-row-s--is-are-deleted-using--delete--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-htm----note--in-contrast-to-filling-a-table-with--insert--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapinsert-itab-htm---appending-rows-with--append--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapappend-htm--does-not-require-any-resources-for-index-maintenance--it-is-therefore-preferable-to-use-append-instead-of-insert-to-create-a--standard-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenstandard-table-glosry-htm--glossary-entry----this-is-possible-if-the-order-of-the-entries-is-not-important--or-if-entries-can-be-appended-in-the-correct-order---block-processing-of-table-rows--if-whole-row-areas-of-a-table-can-be-processed-at-once--this-should-not-be-done-in-rows--but-using-block-operations-instead--block-operations-are-possible-using-the-from-and-to-additions-of-the-statements--insert--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapinsert-itab-htm----append--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapappend-htm--and--delete--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-htm---block-operations-are-also-more-efficient-than-single-record-operations-when-reading-from-or-modifying-database-tables-with--abap-sql--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenopen-sql-glosry-htm--glossary-entry---statements-with-the-additions-from---appending---to-table---selective-data-transport--if--when-reading-table-rows-using--read-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapread-table-htm--or--loop-at--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abaploop-at-itab-htm---a-work-area-is-used-or-table-rows-can-be-changed-using--modify--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapmodify-itab-htm--instead-of-by-direct-access--the-transporting-addition-can-be-used-to-prevent-unnecessary-assignments-of-table-components-to-the-work-area--this-can-lead-to-a-noticeable-acceleration-in-performance--particularly-if-table-like-components-are-excluded-from-processing---using-secondary-keys--the--use-of-secondary-table-keys--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-key-secondary-usage-htm--should-be-planned-and-executed-with-care--the-time-gained-when-accessing-individual-rows-should-not-be-lost-again-by-the-increased-storage-and-time-requirements-for-managing-the-secondary-keys--secondary-keys-are-generally-recommended-for-internal-tables-that-are-filled-once-and-rarely-changed-during-program-execution---example--the-program-demo--secondary--keys-demonstrates-how-a-secondary-table-key-is-specified-and-the-resulting-performance-gain---deleting-table-rows--when-you-delete-rows-from-an-internal-table--overhead-is-produced-for-all-table-keys-and-table-indexes--the-primary-key-and-all-unique-secondary-keys-are-updated-directly--but-non-unique-secondary-keys-are-updated-only-if-the-row-being-deleted-is-included-in-the-updated-part-of-an-associated-index---lazy-update--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenlazy-update-glosry-htm--glossary-entry------also-note-that--for-standard-tables--the-mean-runtime-of-the-statement--delete--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-htm--always-has-a-linear-dependency-on-the-number-of-table-rows--even-when-secondary-keys-are-specified-using--with-table-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-key-htm--or--using-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-key-htm---this-is-because-a-linear-search-is-required-to-update-the-primary-index--even-though-the-row-being-deleted-can-itself-be-found-quickly---deleting-rows-in-internal-tables-using--delete--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-htm--does-not-usually-free-any-memory-in-the-internal-table--statements-such-as--clear--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapclear-htm--or--free--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapfree-dataobject-htm--must-be-used-to-free-memory-in-internal-tables---free-key-specification-for-sorted-tables-and-hashed-tables--when-using-the--read--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapread-table-htm--statement-with-a-free-key-specification-of-the-form--with-key------https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapread-table-free-htm---the-search-is-optimized-in-all-cases-where-this-is-possible-------in--sorted-tables--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensorted-table-glosry-htm--glossary-entry----if-any-initial-section-of-the--table-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-key-glosry-htm--glossary-entry---or-the-complete-table-key-is-covered-by-the-specified-key-------in--hashed-tables--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenhashed-table-glosry-htm--glossary-entry----if-the-complete-table-key-is-covered---if-part-of-a-free-key-meets-these-conditions--this-partial-key-is-first-used-to-search-for-an-entry--in-sorted-tables--this-is-performed-using-a-binary-search-with-a-logarithmic-consumption-of-resources--and-in-hashed-tables-by-using-a-hash-algorithm--that-is--with-constant-resource-consumption---if-an-entry-is-found--the-system-checks-whether-the-rest-of-the-key-conditions-are-also-met--this-means-that-over-specific-key-specifications-in-particular-are-optimized---note--see-also--optimization-of-the-where-condition--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-where-optimization-htm----sorting--for-textual-sorting-of-an-internal-table-in-accordance-with-the-current--text-environment--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentext-environment-glosry-htm--glossary-entry----it-is-more-beneficial-for-performance-to-use-the-statement--convert-text-into-sortable-code--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapconvert-text-htm--instead-of--sort-as-text--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapsort-itab-htm--in-the-following-cases-------if-an-internal-table-is-sorted-by-locale-and-then-subjected-to-a-binary-search-using-the-statement-read-table-or-using-a--table-expression--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-expressions-htm--------an-internal-table-must-be-sorted-more-than-once-------indices-for-database-tables-are-to-be-structured-in-accordance-with-a-locale---this-translation-does-not-reflect-the-current-version-of-the-documentation--continue--optimization-of-the-where-condition--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-where-optimization-htm--------abenitab-where-optimization-htm------title---optimization-of-the-where-condition--description------the-statements-loop-at-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abaploop-at-itab-htm---delete-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-htm---and-modify-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapmodify-itab-htm--can-be-spe-version---7-53--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-where-optimization-htm--abapfile---abenitab-where-optimization-htm--keywords----select----update----delete----loop----do----if----case----try----catch----data----types----internal-table----abenitab----where----optimization---------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-htm------abap---reference--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-reference-htm------processing-internal-data--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-data-working-htm------internal-tables--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-htm------internal-tables--performance-notes--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-perfo-htm------optimization-of-the-where-condition--the-statements--loop-at--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abaploop-at-itab-htm----delete--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdelete-itab-htm---and--modify--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapmodify-itab-htm--can-be-specified-together-with-a-where-condition-that-selects-specific-rows-of-the-internal-table--searches-in-a--standard-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenstandard-table-glosry-htm--glossary-entry---using-the--primary-table-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenprimary-table-key-glosry-htm--glossary-entry---are-always-linear-and-cannot-be-optimized--searches-using-a--sorted-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensorted-key-glosry-htm--glossary-entry---or-a--hash-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenhash-key-glosry-htm--glossary-entry----however--can-be-optimized-in-certain-circumstances--these-keys-are-used-when-------editing-a--sorted-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensorted-table-glosry-htm--glossary-entry---using-its-primary-key-------editing-a--hashed-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenhashed-table-glosry-htm--glossary-entry---using-its-primary-key-------editing-a-table--any-type--using-a--secondary-table-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensecondary-table-key-glosry-htm--glossary-entry---specified-by-using-key---the-optimization-takes-place-because-all--relational-expressions--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenrelational-expression-glosry-htm--glossary-entry---or-a-group-of-the-relational-expressions-in-the-where-condition-are-mapped-to-a-specified-key--this-specified-key-performs-an-appropriate-optimized-key-read--binary-search-or-hash-algorithm-as-in-the-statement--read-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapread-table-htm--or-a--table-expression--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-expressions-htm----to-find-one-or-more-rows--the-row-or-rows-in-question-are-then-checked-using-those-remaining-relational-expressions-from-the-where-condition-that-were-not-mapped-to-the-specified-key---prerequisites-for-the-optimization-are--therefore--as-follows-------the-relational-expressions-of-the-where-condition-can-be-transformed-to-a-specified-key-------the-corresponding-key-read-returns-the-same-results-as-would-the-evaluation-of-this-part-of-the-logical-expression--this-is-guaranteed-only-for-compatible-data-types--since-in-the-case-of-incompatible-data-types-------the-content-of-the-specified-data-objects-is-converted-to-the-data-type-of-the-columns-before-the-evaluation-in-the-case-of-key-reads-------the--comparison-rules--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenlogexp-rules-htm--for-incompatible-data-types-apply-when-evaluating-a--comparison-expression--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abencomparison-expression-glosry-htm--glossary-entry----here--all-the-data-types-involved-play-a-part-in-determining-which-operand-is-converted-into-which-comparison-type---if-there-are-no-relational-expressions-or-too-few-to-meet-both-of-these-prerequisites--no-optimizations-are-possible-and-the-behavior-is-as-followed-------if-the-primary-table-key-is-used-to-access-a-sorted-table-or-a-hashed-table--all-rows-of-the-internal-table-are-checked--as-in-a-standard-table--------if-the-table-is-read-using-a-secondary-table-key--if-specified-after-using-key---a-syntax-error-or-warning-is-produced-or-an-exception-raised--accesses-that-use-a-secondary-table-key-must-always-be-optimized---the-following-sections-describe-exactly-when-an-access-can-be-optimized--------prerequisites-for-the-optimization-of-hash-keys---abenitab-where-optimization-1--------prerequisites-for-the-optimization-of-sorted-keys---ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
 
--   [Prerequisites for the Optimization of Sorted Keys](#abenitab-where-optimization-2--------requirements-made-on-the-operands---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
+-   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
 
 Note
 
@@ -15917,16 +14282,19 @@ cl\_demo\_output=>display( |Expression: { text\_short }| ).
 Included pages: 11
 
 
-
-**📖 Source**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm)
-
 ### abendynp_subscreens.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -15952,16 +14320,19 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
 
 
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
-
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -15984,16 +14355,19 @@ Executable Example
 [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
-
 ### abendynp_tabstrip.htm
 
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -16022,16 +14396,19 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
-
 ### abendynp_splitter_control_spcl.htm
 
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Splitter Controls"
+description: |
+  A splitter control is a screen element that divides the area it covers into two subscreen areas(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_arrea_glosry.htm 'Glossary Entry'), either horizontally beside each other or vertically one above the other. The division is made
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -16069,16 +14446,19 @@ Executable Example
 [Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
-
 ### dynpcall.htm
 
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CALL SUBSCREEN"
+description: |
+  Syntax CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscree
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -16157,16 +14537,19 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -16183,16 +14566,19 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abendynpro_subscreen_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Subscreens"
+description: |
+  This example demonstrates how to include subscreens. Source Code REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODUL
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -16299,16 +14685,19 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling in SAP GUI"
+description: |
+  This example demonstrates the use of tabstrip controls with local scrolling. Source Code REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -16352,16 +14741,19 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Tabstrips with Scrolling on the ABAP Server"
+description: |
+  This example demonstrates the use of tabstrip controls with centralized scrolling. Source Code REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -16417,16 +14809,19 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
-
 ### abendynpro_splitter_control_abexa.htm
 
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Dynpros, Splitter Control"
+description: |
+  This example demonstrates a splitter control(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensplitter_control_glosry.htm 'Glossary Entry'). Source Code REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -16465,16 +14860,19 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
 
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Subscreens(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') Dynpros, Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -16503,16 +14901,19 @@ Continue
 Included pages: 9
 
 
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
-
 ### abenitab_declare_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenitab_declare_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_declare_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internal Tables"
+description: |
+  -   TYPES - OCCURS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs.htm) -   DATA - OCCURS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs.htm) -   TABLE LINE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptable_line.htm) -
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_declare_obsolete.htm"
+abapFile: "abenitab_declare_obsolete.htm"
+keywords: ["do", "data", "types", "internal-table", "abenitab", "declare", "obsolete"]
+---
 
 * * *
 
@@ -16537,16 +14938,19 @@ Continue
 [Internal Tables with Header Line](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm)
 
 
-
-**📖 Source**: [abenitab_declare_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_declare_obsolete.htm)
-
 ### abaptypes_occurs.htm
 
-> **📖 Official SAP Documentation**: [abaptypes_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "TYPES - OCCURS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs_shortref.htm) Obsolete Syntax TYPES dtype  TYPE REF TO type  LIKE REF TO dobj  OCCURS n. Effect This statement is forbidden in classes. The statement has the same functi
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs.htm"
+abapFile: "abaptypes_occurs.htm"
+keywords: ["do", "try", "class", "types", "internal-table", "abaptypes", "occurs"]
+---
 
 * * *
 
@@ -16573,16 +14977,19 @@ TYPES dtype *{* *{*TYPE STANDARD TABLE OF *\[*REF TO*\]* type*}*
             INITIAL SIZE n.
 
 
-
-**📖 Source**: [abaptypes_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs.htm)
-
 ### abapdata_occurs.htm
 
-> **📖 Official SAP Documentation**: [abapdata_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DATA - OCCURS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs_shortref.htm) Obsolete Syntax DATA itab  TYPE REF TO type  LIKE REF TO dobj  OCCURS n WITH HEADER LINE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-U
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs.htm"
+abapFile: "abapdata_occurs.htm"
+keywords: ["do", "try", "class", "data", "internal-table", "abapdata", "occurs"]
+---
 
 * * *
 
@@ -16613,16 +15020,19 @@ DATA itab *{* *{*TYPE STANDARD TABLE OF *\[*REF TO*\]* type*}*
 The use of the addition [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_header_line.htm) is obsolete
 
 
-
-**📖 Source**: [abapdata_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs.htm)
-
 ### abaptable_line.htm
 
-> **📖 Official SAP Documentation**: [abaptable_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptable_line.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Obsolete Syntax"
+description: |
+  TYPES(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_itab.htm) ... WITH(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_keydef.htm) ... KEY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm) TABLE LINE. DATA(https:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptable_line.htm"
+abapFile: "abaptable_line.htm"
+keywords: ["do", "if", "class", "data", "types", "internal-table", "abaptable", "line"]
+---
 
 * * *
 
@@ -16655,16 +15065,19 @@ Good Example
 TYPES itab TYPE SORTED TABLE OF i WITH UNIQUE KEY table\_line.
 
 
-
-**📖 Source**: [abaptable_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptable_line.htm)
-
 ### abenitab_header_line.htm
 
-> **📖 Official SAP Documentation**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internal Tables with Header Line"
+description: |
+  Outside classes, and if it is not a component of a structure or row in another internal table, it is still possible to create an internal table with a header line. -   Declaration of Header Lines(#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2) -   Use(#
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm"
+abapFile: "abenitab_header_line.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenitab", "header", "line"]
+---
 
 * * *
 
@@ -16678,7 +15091,34 @@ Outside classes, and if it is not a component of a structure or row in another i
 
 -   [Declaration of Header Lines](#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2)
 
--   [Use](#abenitab-header-line-3---declaration-of-header-lines--header-lines-of-internal-tables-are-created------by-using-the-addition--with-header-line--javascript-call-link---abapdata-header-line-htm-----of-the-statement-data-to-declare-internal-tables-------when-using-the-obsolete-statement-string--data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm-----to-declare-structured-standard-tables-------when-using-the-obsolete-statement--ranges--javascript-call-link---abapranges-htm-----to-declare--ranges-tables--javascript-call-link---abenranges-table-glosry-htm-----glossary-entry---------when-declaring--selection-tables--javascript-call-link---abenselection-table-glosry-htm-----glossary-entry---with-the-statement--select-options--javascript-call-link---abapselect-options-htm-----------when-using--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry---for--function-modules--javascript-call-link---abaptables-parameters-obsolete-htm-----and--subroutines--javascript-call-link---abapform-tables-htm-------note--the-statement--create-data--javascript-call-link---abapcreate-data-htm-----cannot-be-used-to-create-internal-tables-with-header-lines---properties-of-header-lines--a-header-line-is-a-work-area-whose------data-type-is-the-same-as-the-row-type-of-the-internal-table------whose-name-is-the-same-as-the-name-of-the-internal-table---if-a-header-line-exists--therefore--an-abap-program-includes-two-data-objects-with-the-same-name--the-actual-internal-table-and-the-header-line---the-internal-table-and-header-line-are-accessed-as-follows-------many-processing-statements-for-internal-tables-have--obsolete--javascript-call-link---abenitab-short-forms-htm-----short-forms-in-which-the-header-lines-is-used-as-an-implicit-work-area-if-no-explicit-work-area-is-specified-------in-all-other-cases--the-statement-and--operand-position--javascript-call-link---abenoperands-data-objects-htm-----decide-whether-the--table-body--javascript-call-link---abentable-body-glosry-htm-----glossary-entry---or-the-header-line-is-used-when-the-table-name-is-specified--the-header-line-is-the-usual-choice--the-name--and-just-the-name--of-an-internal-table-with-header-line-is-interpreted-as-the-table-body-only-in-the-following-cases-------operand-positions-in-the--processing-statements-for-internal-tables--javascript-call-link---abentable-processing-statements-htm-----in-which-the-internal-table-to-be-processed-is-specified-------operand-positions-in-expressions-in-which-an-internal-table-is-expected--as-after--for-----in--javascript-call-link---abenfor-itab-htm-----in-a--table-iteration--javascript-call-link---abentable-iteration-glosry-htm-----glossary-entry---------operand-positions-in-other-statements-whose-operand-type-is-an-internal-table--such-as-after--split-----into-table--javascript-call-link---abapsplit-htm-------concatenate-lines-of--javascript-call-link---abapconcatenate-htm-------select-----into-table--javascript-call-link---abapinto-clause-htm------and--read-report-----into--javascript-call-link---abapread-report-htm-----------internal-table-specified-in-a--table-expression--javascript-call-link---abentable-expressions-htm----------when-saving-and-reading--data-clusters--javascript-call-link---abendata-cluster-glosry-htm-----glossary-entry---using--export--javascript-call-link---abapexport-data-cluster-htm-----and--import--javascript-call-link---abapimport-data-cluster-htm-----------in-the-statement--free--javascript-call-link---abapfree-dataobject-htm-----------in-the-obsolete-statement--search--javascript-call-link---abapsearch-itab-htm-----------when-a-token-is-specified-dynamically-in--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry----except-when-database-tables-are-specified----to-force-access-to-the-table-body-in-any-operand-position-when-a-header-line-exists--square-brackets-can-be-specified-directly-after-the-name-of-an-internal-table-in-all-operand-positions--for-example--itab-------this-does-not-apply--however--when-specifying-the-internal-table-in-a--table-expression--javascript-call-link---abentable-expression-glosry-htm-----glossary-entry-----notes------when-a-like-reference-is-made-to-an-internal-table-with-header-line--either-the-header-line-itself-can-be-referenced-or------can-be-specified-to-reference-the-table-body--it-is-not-possible--however--to-reference-the-internal-table-including-the-header-line-------a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry-----or-a-data-reference-can-only-address-either-the-table-body-or-the-header-line--this-means-that-a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry-----or-a-data-reference-can-never-be-ambiguous-------both-the-table-body-and-the-header-line-are-passed-when-a-table-with-header-line-is-passed-to--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry--------------can-be-specified-for-internal-tables-without-header-line--but-does-not-need-to-be--this-is-because-the-name--without-------of-an-internal-table-without-header-line-is-interpreted-as-the-table-body-in-all-operand-positions-regardless-------in-many-operand-positions-that-expect-internal-tables--the-syntax-check-forces------to-be-specified-after-the-name-of-an-internal-table-with-header-line--------rtts--javascript-call-link---abenrun-time-type-services-glosry-htm-----glossary-entry---does-not-support-internal-tables-with-header-lines--a-type-description-object-can-describe-either-only-the-header-line-or-the-table-body-------in-very-old-programs--it-may-be-the-case-that-the-obsolete-pseudo-component----sys----javascript-call-link---abensys-table-body-htm-----is-used-to-address-the-header-line--instead-of---------use--the-use-of-header-lines-is-highly-error-prone--due-to-the-repeated-use-of-one-name-for-two-data-objects--if-at-all-possible--avoid-creating-and-using-header-lines--even-outside-of-classes--------the-addition--with-header-line--javascript-call-link---abapdata-header-line-htm-----and-the-statement-string--data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm-----should-no-longer-be-used-and-ranges-tables-should-no-longer-be-declared-using--ranges--javascript-call-link---abapranges-htm-----------avoid-using-table-parameters-if-at-all-possible-------in-cases-where-a-header-line-absolutely-has-to-be-created--such-as-in-selection-tables-or-in-procedures-that-still-require-table-parameters--generally-only--remote-enabled-function-modules--javascript-call-link---abenremote-enabled-fm-glosry-htm-----glossary-entry------never-work-with-the-header-line-and-use-the-additional-explicitly-work-areas-declared-explicitly-instead---notes------a-work-area-for-replacing-a-header-line-can-be-declared-very-simply-by-using-the-addition-line-of-of-the-statements-types--data--and-so-on-------the-use-of-an-additional-work-area-should-not-be-confused-with-the-explicit-completion-of-the-implicit--short-forms--javascript-call-link---abenitab-short-forms-htm------such-as-loop-at-itab-into-itab--the-latter-case-is-one-of-the-undesired-ways-to-use-a-header-line-------tables-with-header-lines-do-not-offer-any-performance-advantages---example--the-following-example-shows-a-typical-instance-of-handling-internal-tables-with-header-lines--an-internal-table-with-header-line--here-the-table-parameter-of-a-function-module--is-initialized-using--clear--javascript-call-link---abapclear-htm------but-the------is-not-appended-to-the-name--in-this-case--only-the-header-line-is-deleted--which-is-not-usually-noticed-until-runtime---function-work--with--tables---------------------------------------------local-interface------tables----------table-structure--structure-----------------------------------------clear-table--------endfunction---continue--data---header-line--javascript-call-link---abapdata-header-line-htm------data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm------ranges--javascript-call-link---abapranges-htm-----------abapdata-header-line-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-declarations--javascript-call-link---abenobsolete-declarations-htm---------internal-tables--javascript-call-link---abenitab-declare-obsolete-htm---------internal-tables-with-header-line--javascript-call-link---abenitab-header-line-htm---------data---header-line---quick-reference--javascript-call-link---abapdata-htm------obsolete-syntax------with-header-line------effect--this-addition-of-the-statements--data-table-of--javascript-call-link---abapdata-itab-htm-------data-range-of--javascript-call-link---abapdata-ranges-htm------and-the-obsolete-statement--data-occurs--javascript-call-link---abapdata-occurs-htm------which-is-not-allowed-in-classes--declares-a-further-data-object-alongside-the-internal-table--known-as-the--header-line--javascript-call-link---abenheader-line-glosry-htm-----glossary-entry----this-object-has-exactly-the-same-name-as-the-internal-table-and-has-the-row-type-of-the-internal-table-as-its-data-type--a-header-line-cannot-be-declared-for-internal-tables-with-a-table-like-row-type--this-is-possible-for-structured-row-types-with-table-like-components--however---if-the-name-of-an-internal-table-itab-is-specified-in-an-operand-position-of-an-abap-statement--the-statement-determines-whether-the--table-body--javascript-call-link---abentable-body-glosry-htm-----glossary-entry---or-header-line-is-used--as-a-rule--all-table-specific-statements-such-as--sort--javascript-call-link---abapsort-itab-htm-----or--loop--javascript-call-link---abaploop-at-itab-htm-----use-the-internal-table--whereas-all-other-statements-use-the-header-line--exceptions-to-this-rule-are-listed-under--internal-tables-with-header-line--javascript-call-link---abenitab-header-line-htm-------to-address-the-table-body-instead-of-the-header-line-in-statements-------can-be-appended-to-the-table-name-------itab----------for-internal-tables-without-a-header-line--the-table-body-is-always-used--an-internal-table-with-a-header-line-cannot-be-a-component-of-a-structure-or-a-row-of-another-internal-table---notes------these-statements-for-processing-individual-table-rows-have--obsolete-short-forms--javascript-call-link---abenitab-short-forms-htm-----that-use-the-header-line-as-a-work-area-implicitly--these-short-forms-are-allowed-only-outside-of-abap-objects-----------if-the-name-primary--key-is-explicitly-specified-or-a--secondary-key--javascript-call-link---abapdata-secondary-key-htm-----is-defined-when-the--primary-key--javascript-call-link---abapdata-primary-key-htm-----is-being-defined--the-addition-with-header-line-can-no-longer-be-specified--either-inside-or-outside-of-classes--------abapdata-begin-of-occurs-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-declarations--javascript-call-link---abenobsolete-declarations-htm---------internal-tables--javascript-call-link---abenitab-declare-obsolete-htm---------internal-tables-with-header-line--javascript-call-link---abenitab-header-line-htm---------data---begin-of-occurs---quick-reference--javascript-call-link---abapdata-begin-of-shortref-htm------obsolete-syntax--data-begin-of-itab-occurs-n--------data-end-of-itab-----valid-between-intlim1-and-intlim2-------addition--------valid-between-intlim1-and-intlim2----abap-one-add1@)
+-   [Use](#abenitab-header-line-3---declaration-of-header-lines--header-lines-of-internal-tables-are-created------by-using-the-addition--with-header-line--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-header-line-htm--of-the-statement-data-to-declare-internal-tables-------when-using-the-obsolete-statement-string--data---begin-of-occurs--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-begin-of-occurs-htm--to-declare-structured-standard-tables-------when-using-the-obsolete-statement--ranges--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapranges-htm--to-declare--ranges-tables--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenranges-table-glosry-htm--glossary-entry---------when-declaring--selection-tables--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenselection-table-glosry-htm--glossary-entry---with-the-statement--select-options--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapselect-options-htm--------when-using--table-parameters--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-parameter-glosry-htm--glossary-entry---for--function-modules--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abaptables-parameters-obsolete-htm--and--subroutines--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapform-tables-htm----note--the-statement--create-data--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapcreate-data-htm--cannot-be-used-to-create-internal-tables-with-header-lines---properties-of-header-lines--a-header-line-is-a-work-area-whose------data-type-is-the-same-as-the-row-type-of-the-internal-table------whose-name-is-the-same-as-the-name-of-the-internal-table---if-a-header-line-exists--therefore--an-abap-program-includes-two-data-objects-with-the-same-name--the-actual-internal-table-and-the-header-line---the-internal-table-and-header-line-are-accessed-as-follows-------many-processing-statements-for-internal-tables-have--obsolete--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-short-forms-htm--short-forms-in-which-the-header-lines-is-used-as-an-implicit-work-area-if-no-explicit-work-area-is-specified-------in-all-other-cases--the-statement-and--operand-position--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenoperands-data-objects-htm--decide-whether-the--table-body--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-body-glosry-htm--glossary-entry---or-the-header-line-is-used-when-the-table-name-is-specified--the-header-line-is-the-usual-choice--the-name--and-just-the-name--of-an-internal-table-with-header-line-is-interpreted-as-the-table-body-only-in-the-following-cases-------operand-positions-in-the--processing-statements-for-internal-tables--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-processing-statements-htm--in-which-the-internal-table-to-be-processed-is-specified-------operand-positions-in-expressions-in-which-an-internal-table-is-expected--as-after--for-----in--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenfor-itab-htm--in-a--table-iteration--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-iteration-glosry-htm--glossary-entry---------operand-positions-in-other-statements-whose-operand-type-is-an-internal-table--such-as-after--split-----into-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapsplit-htm----concatenate-lines-of--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapconcatenate-htm----select-----into-table--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapinto-clause-htm---and--read-report-----into--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapread-report-htm--------internal-table-specified-in-a--table-expression--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-expressions-htm-------when-saving-and-reading--data-clusters--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abendata-cluster-glosry-htm--glossary-entry---using--export--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapexport-data-cluster-htm--and--import--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapimport-data-cluster-htm--------in-the-statement--free--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapfree-dataobject-htm--------in-the-obsolete-statement--search--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapsearch-itab-htm--------when-a-token-is-specified-dynamically-in--abap-sql--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenopen-sql-glosry-htm--glossary-entry----except-when-database-tables-are-specified----to-force-access-to-the-table-body-in-any-operand-position-when-a-header-line-exists--square-brackets-can-be-specified-directly-after-the-name-of-an-internal-table-in-all-operand-positions--for-example--itab-------this-does-not-apply--however--when-specifying-the-internal-table-in-a--table-expression--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-expression-glosry-htm--glossary-entry-----notes------when-a-like-reference-is-made-to-an-internal-table-with-header-line--either-the-header-line-itself-can-be-referenced-or------can-be-specified-to-reference-the-table-body--it-is-not-possible--however--to-reference-the-internal-table-including-the-header-line-------a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-parameter-glosry-htm--glossary-entry-----or-a-data-reference-can-only-address-either-the-table-body-or-the-header-line--this-means-that-a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-parameter-glosry-htm--glossary-entry-----or-a-data-reference-can-never-be-ambiguous-------both-the-table-body-and-the-header-line-are-passed-when-a-table-with-header-line-is-passed-to--table-parameters--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-parameter-glosry-htm--glossary-entry--------------can-be-specified-for-internal-tables-without-header-line--but-does-not-need-to-be--this-is-because-the-name--without-------of-an-internal-table-without-header-line-is-interpreted-as-the-table-body-in-all-operand-positions-regardless-------in-many-operand-positions-that-expect-internal-tables--the-syntax-check-forces------to-be-specified-after-the-name-of-an-internal-table-with-header-line--------rtts--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenrun-time-type-services-glosry-htm--glossary-entry---does-not-support-internal-tables-with-header-lines--a-type-description-object-can-describe-either-only-the-header-line-or-the-table-body-------in-very-old-programs--it-may-be-the-case-that-the-obsolete-pseudo-component----sys----https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abensys-table-body-htm--is-used-to-address-the-header-line--instead-of---------use--the-use-of-header-lines-is-highly-error-prone--due-to-the-repeated-use-of-one-name-for-two-data-objects--if-at-all-possible--avoid-creating-and-using-header-lines--even-outside-of-classes--------the-addition--with-header-line--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-header-line-htm--and-the-statement-string--data---begin-of-occurs--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-begin-of-occurs-htm--should-no-longer-be-used-and-ranges-tables-should-no-longer-be-declared-using--ranges--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapranges-htm--------avoid-using-table-parameters-if-at-all-possible-------in-cases-where-a-header-line-absolutely-has-to-be-created--such-as-in-selection-tables-or-in-procedures-that-still-require-table-parameters--generally-only--remote-enabled-function-modules--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenremote-enabled-fm-glosry-htm--glossary-entry------never-work-with-the-header-line-and-use-the-additional-explicitly-work-areas-declared-explicitly-instead---notes------a-work-area-for-replacing-a-header-line-can-be-declared-very-simply-by-using-the-addition-line-of-of-the-statements-types--data--and-so-on-------the-use-of-an-additional-work-area-should-not-be-confused-with-the-explicit-completion-of-the-implicit--short-forms--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-short-forms-htm---such-as-loop-at-itab-into-itab--the-latter-case-is-one-of-the-undesired-ways-to-use-a-header-line-------tables-with-header-lines-do-not-offer-any-performance-advantages---example--the-following-example-shows-a-typical-instance-of-handling-internal-tables-with-header-lines--an-internal-table-with-header-line--here-the-table-parameter-of-a-function-module--is-initialized-using--clear--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapclear-htm---but-the------is-not-appended-to-the-name--in-this-case--only-the-header-line-is-deleted--which-is-not-usually-noticed-until-runtime---function-work--with--tables---------------------------------------------local-interface------tables----------table-structure--structure-----------------------------------------clear-table--------endfunction---continue--data---header-line--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-header-line-htm---data---begin-of-occurs--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-begin-of-occurs-htm---ranges--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapranges-htm--------abapdata-header-line-htm------title---data---header-line--description------quick-reference-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-htm--obsolete-syntax-----with-header-line-----effect-this-addition-of-the-statements-data-table-of-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-itab-htm---data-range-of-https---help-sap-c-version---7-53--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-header-line-htm--abapfile---abapdata-header-line-htm--keywords----loop----do----if----try----class----data----types----internal-table----abapdata----header----line---------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-htm------abap---reference--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-reference-htm------obsolete-language-elements--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-obsolete-htm------obsolete-declarations--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenobsolete-declarations-htm------internal-tables--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-declare-obsolete-htm------internal-tables-with-header-line--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-header-line-htm------data---header-line---quick-reference--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-htm---obsolete-syntax------with-header-line------effect--this-addition-of-the-statements--data-table-of--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-itab-htm----data-range-of--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-ranges-htm---and-the-obsolete-statement--data-occurs--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-occurs-htm---which-is-not-allowed-in-classes--declares-a-further-data-object-alongside-the-internal-table--known-as-the--header-line--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenheader-line-glosry-htm--glossary-entry----this-object-has-exactly-the-same-name-as-the-internal-table-and-has-the-row-type-of-the-internal-table-as-its-data-type--a-header-line-cannot-be-declared-for-internal-tables-with-a-table-like-row-type--this-is-possible-for-structured-row-types-with-table-like-components--however---if-the-name-of-an-internal-table-itab-is-specified-in-an-operand-position-of-an-abap-statement--the-statement-determines-whether-the--table-body--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abentable-body-glosry-htm--glossary-entry---or-header-line-is-used--as-a-rule--all-table-specific-statements-such-as--sort--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapsort-itab-htm--or--loop--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abaploop-at-itab-htm--use-the-internal-table--whereas-all-other-statements-use-the-header-line--exceptions-to-this-rule-are-listed-under--internal-tables-with-header-line--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-header-line-htm----to-address-the-table-body-instead-of-the-header-line-in-statements-------can-be-appended-to-the-table-name-------itab----------for-internal-tables-without-a-header-line--the-table-body-is-always-used--an-internal-table-with-a-header-line-cannot-be-a-component-of-a-structure-or-a-row-of-another-internal-table---notes------these-statements-for-processing-individual-table-rows-have--obsolete-short-forms--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-short-forms-htm--that-use-the-header-line-as-a-work-area-implicitly--these-short-forms-are-allowed-only-outside-of-abap-objects-----------if-the-name-primary--key-is-explicitly-specified-or-a--secondary-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-secondary-key-htm--is-defined-when-the--primary-key--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-primary-key-htm--is-being-defined--the-addition-with-header-line-can-no-longer-be-specified--either-inside-or-outside-of-classes--------abapdata-begin-of-occurs-htm------title---data---begin-of-occurs--description------quick-reference-https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapdata-begin-of-shortref-htm--obsolete-syntax-data-begin-of-itab-occurs-n------data-end-of-itab-valid-between-intlim1-and-intlim2--addition------valid-between-intlim1-and-intlim2---abap-one-add1@) Effect This v
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_begin_of_occurs.htm"
+abapFile: "abapdata_begin_of_occurs.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abapdata", "begin", "occurs"]
+---
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_declarations.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_declare_obsolete.htm) →  [Internal Tables with Header Line](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm) → 
+
+DATA - BEGIN OF OCCURS
+
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_begin_of_shortref.htm)
+
+Obsolete Syntax
+
+DATA BEGIN OF itab OCCURS n.
+  ...
+DATA END OF itab *\[*VALID BETWEEN intlim1 AND intlim2*\]*.
+
+Addition:
+
+[... VALID BETWEEN intlim1 AND intlim2](#!ABAP_ONE_ADD@1@)
 
 Effect
 
@@ -16710,16 +15150,19 @@ Effect
 The VALID BETWEEN addition of the DATA END OF statement is only important if the internal table is to be processed using the obsolete form of the statement [PROVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide_obsolete.htm). intlim1 and intlim2 expect columns from the internal table of the data type d, i, n, or t. These columns are used implicitly as interval limits in their obsolete form of the statement PROVIDE.
 
 
-
-**📖 Source**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm)
-
 ### abapranges.htm
 
-> **📖 Official SAP Documentation**: [abapranges.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "RANGES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges_shortref.htm) Obsolete Syntax RANGES rtab FOR dobj OCCURS n. Effect Obsolete declaration of a ranges table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm 'Glossar
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm"
+abapFile: "abapranges.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapranges"]
+---
 
 * * *
 
@@ -16755,16 +15198,19 @@ Notes
 -   The sign and option columns of a ranges table declared using RANGES are not related to data types in ABAP Dictionary. For a ranges table defined in ABAP Dictionary, these columns are based on the data elements DDSIGN and DDOPTION.
 
 
-
-**📖 Source**: [abapranges.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm)
-
 ### abenitab_header_line.htm
 
-> **📖 Official SAP Documentation**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internal Tables with Header Line"
+description: |
+  Outside classes, and if it is not a component of a structure or row in another internal table, it is still possible to create an internal table with a header line. -   Declaration of Header Lines(#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2) -   Use(#
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm"
+abapFile: "abenitab_header_line.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenitab", "header", "line"]
+---
 
 * * *
 
@@ -16778,713 +15224,137 @@ Outside classes, and if it is not a component of a structure or row in another i
 
 -   [Declaration of Header Lines](#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2)
 
--   [Use](#abenitab-header-line-3---declaration-of-header-lines--header-lines-of-internal-tables-are-created------by-using-the-addition--with-header-line--javascript-call-link---abapdata-header-line-htm-----of-the-statement-data-to-declare-internal-tables-------when-using-the-obsolete-statement-string--data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm-----to-declare-structured-standard-tables-------when-using-the-obsolete-statement--ranges--javascript-call-link---abapranges-htm-----to-declare--ranges-tables--javascript-call-link---abenranges-table-glosry-htm-----glossary-entry---------when-declaring--selection-tables--javascript-call-link---abenselection-table-glosry-htm-----glossary-entry---with-the-statement--select-options--javascript-call-link---abapselect-options-htm-----------when-using--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry---for--function-modules--javascript-call-link---abaptables-parameters-obsolete-htm-----and--subroutines--javascript-call-link---abapform-tables-htm-------note--the-statement--create-data--javascript-call-link---abapcreate-data-htm-----cannot-be-used-to-create-internal-tables-with-header-lines---properties-of-header-lines--a-header-line-is-a-work-area-whose------data-type-is-the-same-as-the-row-type-of-the-internal-table------whose-name-is-the-same-as-the-name-of-the-internal-table---if-a-header-line-exists--therefore--an-abap-program-includes-two-data-objects-with-the-same-name--the-actual-internal-table-and-the-header-line---the-internal-table-and-header-line-are-accessed-as-follows-------many-processing-statements-for-internal-tables-have--obsolete--javascript-call-link---abenitab-short-forms-htm-----short-forms-in-which-the-header-lines-is-used-as-an-implicit-work-area-if-no-explicit-work-area-is-specified-------in-all-other-cases--the-statement-and--operand-position--javascript-call-link---abenoperands-data-objects-htm-----decide-whether-the--table-body--javascript-call-link---abentable-body-glosry-htm-----glossary-entry---or-the-header-line-is-used-when-the-table-name-is-specified--the-header-line-is-the-usual-choice--the-name--and-just-the-name--of-an-internal-table-with-header-line-is-interpreted-as-the-table-body-only-in-the-following-cases-------operand-positions-in-the--processing-statements-for-internal-tables--javascript-call-link---abentable-processing-statements-htm-----in-which-the-internal-table-to-be-processed-is-specified-------operand-positions-in-expressions-in-which-an-internal-table-is-expected--as-after--for-----in--javascript-call-link---abenfor-itab-htm-----in-a--table-iteration--javascript-call-link---abentable-iteration-glosry-htm-----glossary-entry---------operand-positions-in-other-statements-whose-operand-type-is-an-internal-table--such-as-after--split-----into-table--javascript-call-link---abapsplit-htm-------concatenate-lines-of--javascript-call-link---abapconcatenate-htm-------select-----into-table--javascript-call-link---abapinto-clause-htm------and--read-report-----into--javascript-call-link---abapread-report-htm-----------internal-table-specified-in-a--table-expression--javascript-call-link---abentable-expressions-htm----------when-saving-and-reading--data-clusters--javascript-call-link---abendata-cluster-glosry-htm-----glossary-entry---using--export--javascript-call-link---abapexport-data-cluster-htm-----and--import--javascript-call-link---abapimport-data-cluster-htm-----------in-the-statement--free--javascript-call-link---abapfree-dataobject-htm-----------in-the-obsolete-statement--search--javascript-call-link---abapsearch-itab-htm-----------when-a-token-is-specified-dynamically-in--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry----except-when-database-tables-are-specified----to-force-access-to-the-table-body-in-any-operand-position-when-a-header-line-exists--square-brackets-can-be-specified-directly-after-the-name-of-an-internal-table-in-all-operand-positions--for-example--itab-------this-does-not-apply--however--when-specifying-the-internal-table-in-a--table-expression--javascript-call-link---abentable-expression-glosry-htm-----glossary-entry-----notes------when-a-like-reference-is-made-to-an-internal-table-with-header-line--either-the-header-line-itself-can-be-referenced-or------can-be-specified-to-reference-the-table-body--it-is-not-possible--however--to-reference-the-internal-table-including-the-header-line-------a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry-----or-a-data-reference-can-only-address-either-the-table-body-or-the-header-line--this-means-that-a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry-----or-a-data-reference-can-never-be-ambiguous-------both-the-table-body-and-the-header-line-are-passed-when-a-table-with-header-line-is-passed-to--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry--------------can-be-specified-for-internal-tables-without-header-line--but-does-not-need-to-be--this-is-because-the-name--without-------of-an-internal-table-without-header-line-is-interpreted-as-the-table-body-in-all-operand-positions-regardless-------in-many-operand-positions-that-expect-internal-tables--the-syntax-check-forces------to-be-specified-after-the-name-of-an-internal-table-with-header-line--------rtts--javascript-call-link---abenrun-time-type-services-glosry-htm-----glossary-entry---does-not-support-internal-tables-with-header-lines--a-type-description-object-can-describe-either-only-the-header-line-or-the-table-body-------in-very-old-programs--it-may-be-the-case-that-the-obsolete-pseudo-component----sys----javascript-call-link---abensys-table-body-htm-----is-used-to-address-the-header-line--instead-of---------use--the-use-of-header-lines-is-highly-error-prone--due-to-the-repeated-use-of-one-name-for-two-data-objects--if-at-all-possible--avoid-creating-and-using-header-lines--even-outside-of-classes--------the-addition--with-header-line--javascript-call-link---abapdata-header-line-htm-----and-the-statement-string--data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm-----should-no-longer-be-used-and-ranges-tables-should-no-longer-be-declared-using--ranges--javascript-call-link---abapranges-htm-----------avoid-using-table-parameters-if-at-all-possible-------in-cases-where-a-header-line-absolutely-has-to-be-created--such-as-in-selection-tables-or-in-procedures-that-still-require-table-parameters--generally-only--remote-enabled-function-modules--javascript-call-link---abenremote-enabled-fm-glosry-htm-----glossary-entry------never-work-with-the-header-line-and-use-the-additional-explicitly-work-areas-declared-explicitly-instead---notes------a-work-area-for-replacing-a-header-line-can-be-declared-very-simply-by-using-the-addition-line-of-of-the-statements-types--data--and-so-on-------the-use-of-an-additional-work-area-should-not-be-confused-with-the-explicit-completion-of-the-implicit--short-forms--javascript-call-link---abenitab-short-forms-htm------such-as-loop-at-itab-into-itab--the-latter-case-is-one-of-the-undesired-ways-to-use-a-header-line-------tables-with-header-lines-do-not-offer-any-performance-advantages---example--the-following-example-shows-a-typical-instance-of-handling-internal-tables-with-header-lines--an-internal-table-with-header-line--here-the-table-parameter-of-a-function-module--is-initialized-using--clear--javascript-call-link---abapclear-htm------but-the------is-not-appended-to-the-name--in-this-case--only-the-header-line-is-deleted--which-is-not-usually-noticed-until-runtime---function-work--with--tables---------------------------------------------local-interface------tables----------table-structure--structure-----------------------------------------clear-table--------endfunction---continue--data---header-line--javascript-call-link---abapdata-header-line-htm------data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm------ranges--javascript-call-link---abapranges-htm----------------abap-keyword-documentation---abap---reference---obsolete-language-elements---obsolete-processing-of-internal-data---obsolete-internal-table-processing----files----11-----difficulty----intermediate----abap-keyword-documentation---abap---reference---obsolete-language-elements---obsolete-processing-of-internal-data---obsolete-extracts--included-pages--17---------source-----abenitab-header-line-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-header-line-htm-------abenabap-extracts-extended-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--an-extract-dataset--or-extract-for-short--is-a-dataset-in-the--internal-session--javascript-call-link---abeninternal-session-glosry-htm-----glossary-entry---of-an-abap-program-that-is-not-handled-as-a-data-object-and-therefore-has-no-data-type--there-is-only-one-extract-dataset-for-every-abap-program--it-can-be-filled-and-read-using-abap-statements--the-content-of-the-extract-dataset-cannot-be-deleted-explicitly---in-the-same-way-as-an-internal-table--an-extract-dataset-is-made-up-of-a-dynamic-number-of-lines--the-size-of-the-extract-dataset-is-theoretically-unlimited--if-the-size-exceeds-500-kb--it-is-stored-in-a-file-of-the-operating-system--sizes-of-up-to-2-gb--and-larger-for-64-bit-processors--are-workable--unlike-internal-tables--the-individual-lines-can-have-different-structures--the-row-structures-are-declared-as-field-groups-using-the-statement--field-groups--javascript-call-link---abapfield-groups-htm-------the-exact-structure-of-each-row-is-not-determined-until-the-program-is-executed-using-the-statement--insert--javascript-call-link---abapinsert-fg-htm-------the-statements-used-for-processing-extracts-are--------extract--javascript-call-link---abapextract-htm-----------sort--javascript-call-link---abapsort-extract-htm-----------loop--javascript-call-link---abaploop--htm-----------at--javascript-call-link---abapat-extract-htm------notes------field-groups-cannot-be-defined-in-class-or-interface-pools--their-extract-dataset--however--can-be-edited-in-methods-of-local-classes-of-other-programs-------extracts-are-obsolete---internal-tables--javascript-call-link---abenitab-htm-----are-recommended-instead---continue--field-groups--javascript-call-link---abapfield-groups-htm------insert---field--group--javascript-call-link---abapinsert-fg-htm------extract--javascript-call-link---abapextract-htm------sort---extract--javascript-call-link---abapsort-extract-htm------loop---extract--javascript-call-link---abaploop--htm------at---extract--javascript-call-link---abapat-extract-htm------examples-of-extracts--javascript-call-link---abenextract-abexas-htm-------------source-----abenabap-extracts-extended-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-extracts-extended-htm-------abapfield-groups-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--javascript-call-link---abenabap-extracts-extended-htm---------field-groups---quick-reference--javascript-call-link---abapfield-groups-shortref-htm------obsolete-syntax--field-groups-----header-----field--group-------effect--declares-a-field-group-for-the--extract-dataset--javascript-call-link---abenextract-dataset-glosry-htm-----glossary-entry---of-the-program--each-field-group-represents-the-name-of-a-row-structure-of-the-extract-dataset--as-many-field-groups-as-required-can-be-created-in-a-program--the-actual-components-of-a-field-group-are-defined-using-the-statement--insert--javascript-call-link---abapinsert-fg-htm-------the-name-of-a-field-group-is-either-the-predefined-name-header-or-any-name-field--group--if-a-field-group-header-is-declared--it-automatically-becomes-the-initial-part-of-all-remaining-field-groups-of-the-program-and-its-components-constitute-the-standard-sort-key-of-the-extract-dataset-for-the-statement--sort--javascript-call-link---abapsort-extract-htm-------the-statement-field-groups-is-possible-in-the-global-declaration-part-of-an-executable-program--of-a-function-group--of-a-module-pool--or-of-a-subroutine-pool--as-well-as-in-the-subroutines-and-function-modules--field-groups-that-are-declared-in--procedures--javascript-call-link---abenprocedure-glosry-htm-----glossary-entry---are-visible-only-there---notes------since-global-data-objects-can-only-be-defined-as-components-of-field-groups-using-the-statement-insert--it-is-best-to-declare-field-groups-only-in-the-global-declaration-part-of-a-program-----------the-field-groups-statement-is-forbidden-in-class-pools-or-interface-pools-and-in-the-methods-of-local-classes-of-other-programs--------example--see--insert--javascript-call-link---abapinsert-fg-htm--------------source-----abapfield-groups-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapfield-groups-htm-------abapinsert-fg-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--javascript-call-link---abenabap-extracts-extended-htm---------insert---field--group---quick-reference--javascript-call-link---abapinsert-field-group-shortref-htm------obsolete-syntax--insert-dobj1-dobj2-----into-----header-----field--group-------effect--this-statement-is-used-to-build-a-structure-of-a-field-group-of-the--extract-dataset--javascript-call-link---abenextract-dataset-glosry-htm-----glossary-entry---of-the-program--where-the-field-group-is-defined-using--field-groups--javascript-call-link---abapfield-groups-htm-------a-list-of-global--flat--javascript-call-link---abenflat-glosry-htm-----glossary-entry---data-objects-dobj-can-be-inserted-after-insert--specifying-local-data-objects-raises-an-exception--the-list-defines-the-components-of-the-field-group-header-or-field--group--any-name-can-be-specified-directly-for-field--group--whereas-header-is-a-predefined-name-of-a-special-field-group-whose-components-are-automatically-a-part-and-a-key-of-all-other-field-groups--the-components-of-a-field-group-have-the-function-of-a-pointer-to-data-objects-whose-contents-can-be-attached-as-a-line-to-the-extract-dataset-when-executing-the-statement--extract--javascript-call-link---abapextract-htm-------the-statement-insert-can-be-used-in-any--processing-block--javascript-call-link---abenprocessing-block-glosry-htm-----glossary-entry---of-a-program-and-is-executed-at-the-given-time-during-the-program-execution--a-field-group-can-have-different-insert-statements--additional-components-can-be-added-to-a-field-group-until-the-first-corresponding-line-with-extract-is-attached-to-the-extract-dataset--more-specifically--components-can-only-be-added-to-the-field-group-header-until-a-field-group-of-the-program-is-extracted-because-it-is-a-part-of-all-field-groups--an-insert-statement-for-an-already-extracted-field-group-raises-a-non-handleable-exception---field-symbols-can-be-specified-for-dobj-but-not-dereferenced-data-references--a-field-symbol-is-ignored-if-no-data-object-is-assigned-to-it--specifying-a-data-reference-raises-a-non-handleable-exception---notes------a-field-group-field--group-to-which-no-fields-are-explicitly-added-still-contains-the-field-of-the-special-field-group-header-----------in-global-classes--no-field-groups-can-be-defined-or-edited--in-methods-of-local-classes-of-programs-other-than-class-pools--the-statement-insert-is-possible-for-globally-defined-field-groups-----------extracts-are-obsolete---internal-tables--javascript-call-link---abenitab-htm-----are-recommended-instead--------example--in-this-example--three-field-groups-are-declared-in-the-global-declaration-part-of-an--executable-program--javascript-call-link---abenexecutable-program-glosry-htm-----glossary-entry---and-its-components-are-specified-in-the-event-block-start-of-selection--the-field-group-flight--info-contains-five-components-of-the-field-group-header-and-its-own--the-field-group-flight--date-contains-only-the-components-of-the-field-group-header---report-----data--spfli--wa----type-spfli--------sflight--wa-type-sflight--field-groups--header--flight--info--flight--date--start-of-selection----insert--spfli--wa-carrid-spfli--wa-connid-sflight--wa-fldate-------------into-header------------spfli--wa-cityfrom-spfli--wa-cityto-------------into-flight--info----exceptions--javascript-call-link---abenabap-language-exceptions-htm------non-handleable-exceptions------cause--inserts-local-data-objects-into-a-field-group------runtime-error--extract--insert--local--data----------cause--field-group-contains-insert-after-sets-of-this-set-type-have-been-extracted-using-extract------runtime-error--insert--into--locked--field--group---------source-----abapinsert-fg-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapinsert-fg-htm-------abapextract-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--javascript-call-link---abenabap-extracts-extended-htm---------extract---quick-reference--javascript-call-link---abapextract-shortref-htm------obsolete-syntax--extract------header-----field--group--------effect--this-statement-appends-the-current-content-of-the-fields-previously-included-in-the-field-group-header-or-field--group-using-the-statement--insert--javascript-call-link---abapinsert-fg-htm-----to-the--extract-dataset--javascript-call-link---abenextract-dataset-glosry-htm-----glossary-entry---of-the-program--if-there-is-no-field-group-specified-after-extract--the-field-group-header-is-added-implicitly---the-extract-dataset-is-created-the-first-time-extract-is-executed-and-the-first-row-added--once-an-extract-statement-is-executed--no-other-fields-can-be-included-in-the-specified-field-group-field--group-using-insert--if-not--a-non-handleable-exception-is-raised-by-the-next-extract-statement-for-the-same-field-group---fields-of-the-types--s--javascript-call-link---abenbuiltin-types-numeric-htm-------i--javascript-call-link---abenbuiltin-types-numeric-htm------and--int8--javascript-call-link---abenbuiltin-types-numeric-htm-----with-the-minimum-value--32768---2147483648--or--9223372036854775808-respectively-are-set-to-the-value-0-when-extracted-to-the-field-group-header---notes------the-field-group-header-is-the-initial-part-and-sort-key-of-every-field-group--which-means-that-no-more-fields-can-be-included-in-header-after-extract-is-executed-for-the-first-time-----------the-rows-of-an-extract-dataset-cannot-be-deleted-explicitly-and-are-persisted-as-long-as-the--internal-session--javascript-call-link---abeninternal-session-glosry-htm-----glossary-entry---of-the-program-----------in-global-classes--no-field-groups-can-be-defined-or-edited--in-methods-of-local-classes-of-programs-other-than-class-pools--the-statement-extract-is-possible-for-globally-defined-field-groups-----------extracts-are-obsolete---internal-tables--javascript-call-link---abenitab-htm-----are-recommended-instead--------example--this-example-continues-the-example-under--insert--javascript-call-link---abapinsert-fg-htm------the-fields-of-the-field-groups-flight--info-and-flight--date-are-filled-in-a-nested-loop-and-appended-to-the-extract-dataset---report-----data--spfli--wa----type-spfli--------sflight--wa--type-sflight--------spfli--tab---like-table-of-spfli--wa--------sflight--tab-like-table-of-sflight--wa--field-groups--header--flight--info--flight--date--start-of-selection----insert--spfli--wa-carrid-spfli--wa-connid-sflight--wa-fldate-------------into-header------------spfli--wa-cityfrom-spfli--wa-cityto-------------into-flight--info----select-------------from-spfli----------into-table-spfli\_tab.
-  SELECT \*
-         FROM sflight
-         INTO TABLE @sflight\_tab.
-  LOOP AT spfli\_tab INTO spfli\_wa.
-    sflight\_wa-fldate ='--------'.
-    EXTRACT flight\_info.
-    LOOP AT sflight\_tab INTO sflight\_wa
-            WHERE carrid = spfli\_wa-carrid AND
-                  connid = spfli\_wa-connid.
-      EXTRACT flight\_date.
-    ENDLOOP.
-  ENDLOOP.
+-   [Use](#@@ITOC@@ABENITAB_HEADER_LINE_3)
 
-[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
+Declaration of Header Lines
 
-Non-Handleable Exceptions
+Header lines of internal tables are created
 
--   Cause: EXTRACT after SORT or LOOP.
-    Runtime error: EXTRACT\_AFTER\_SORT/LOOP
-    
--   Cause: Not enough roll memory to create the extracts.
-    Runtime error: EXTRACT\_BUFFER\_NO\_ROLL
-    Runtime error: EXTRACT\_NO\_ROLL\_OLD\_KEY
-    
--   Cause: Too much length of a single field is occupied.
-    Runtime error: EXTRACT\_FIELD\_TOO\_LARGE
-    
--   Cause: Problems when creating the extract dataset master file.
-    Runtime error: EXTRACT\_FILE\_PTR\_NOT\_EMPTY
-    Runtime error: EXTRACT\_INIT\_DIR\_EXTRACT
-    Runtime error: EXTRACT\_INIT\_FILEMASK\_INVALID
-    Runtime error: EXTRACT\_INIT\_FILEMASK\_TOO\_LARG
-    Runtime error: EXTRACT\_INIT\_FN\_EXTRACT
-    
--   Cause: The field group HEADER was modified after EXTRACT was used to extract records.
-    Runtime error: EXTRACT\_HEADER\_NOT\_UNIQUE
-    
--   Cause: Local data is not allowed in field groups.
-    Runtime error: EXTRACT\_INSERT\_LOCAL\_DATA
-    
--   Cause: Error when opening the external dataset file.
-    Runtime error: EXTRACT\_OPEN\_EXTRACTFILE\_OPEN
-    
--   Cause: Total data length of a record to be extracted (including HEADER fields) is too big.
-    Runtime error: EXTRACT\_TOO\_LARGE
+-   by using the addition [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_header_line.htm) of the statement DATA to declare internal tables,
 
+-   when using the obsolete statement string [DATA - BEGIN OF OCCURS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_begin_of_occurs.htm) to declare structured standard tables,
 
+-   when using the obsolete statement [RANGES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm) to declare [ranges tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm "Glossary Entry"),
 
-**📖 Source**: [abapextract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm)
+-   when declaring [selection tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_table_glosry.htm "Glossary Entry") with the statement [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm),
 
-### abapsort_extract.htm
-
-> **📖 Official SAP Documentation**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) → 
-
-SORT - Extract
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_shortref.htm)
-
-Obsolete Syntax
-
-SORT *\[*ASCENDING*|*DESCENDING*\]*
-     *\[*AS TEXT*\]*
-     *\[*STABLE*\]*
-     *\[*[sort\_key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)*\]*.
-
-Extras:
-
-[1\. ... ASCENDING*|*DESCENDING](#!ABAP_ADDITION_1@1@)
-[2\. ... AS TEXT](#!ABAP_ADDITION_2@2@)
-[3\. ... STABLE](#!ABAP_ADDITION_3@3@)
-
-Effect
-
-This statement sorts the [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry") of the program. A prerequisite for executing the statement is that the field group header is defined using the statement [FIELD-GROUPS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-groups.htm), and is therefore a component of all field groups. If no explicit sort key [sort\_key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm) is specified, the extract dataset is sorted by the components of the field group header. Numeric and byte-like components are sorted according to their value and character-like components are sorted by default according to their binary representation ([code page](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_glosry.htm "Glossary Entry")). Here, components containing hexadecimal 0 are placed before other entries. Text sorting for character-like components can be done using the addition AS TEXT.
-
-The priority of sorting is based on the order in which the components are inserted into the field group header using [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_fg.htm).
-
-Sorting is unstable by default, which means that the relative order of rows that do not have different sort keys is not preserved when they are sorted, and can change when a sort is performed multiple times. The addition STABLE can be used for stable sorting.
-
-The statement SORT also finalizes the structure of the extract dataset. Executing the statement [EXTRACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm) after executing the statement SORT raises an non-handleable exception.
-
-Notes
-
--   The only difference in the syntax of the statement SORT for the [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry") and the statement [SORT for internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm) is that no internal table is specified. Regardless of this, the two should not be confused with one another.
-    
--   If components with the content hexadecimal 0 are placed before other entries, this can lead to unexpected behavior when sorting numeric data types.
-    
--   In global classes, no field groups can be defined or edited. In methods of local classes of programs other than class pools, the statement SORT is possible for globally defined field groups.
-    
--   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) are recommended instead.
-    
-
-Addition 1
-
-... ASCENDING*|*DESCENDING
-
-Effect
-
--   The addition ASCENDING or DESCENDING can be used to specify the sort direction explicitly as ascending or descending. If neither addition is specified, the data is sorted in ascending order by default. The sort direction can be overwritten for individual components in the explicit sort key sort\_key.
-    
-
-Addition 2
-
-... AS TEXT
-
-Effect
-
-The addition AS TEXT specifies that [text-like](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentextlike_data_type_glosry.htm "Glossary Entry") components are sorted according to the [locale](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocale_glosry.htm "Glossary Entry") of the current text environment. If AS TEXT is not specified, text-like components are sorted according to the encoding in the code page of the current text environment. For more information, see [SORT for internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm).
-
-Addition 3
-
-... STABLE
-
-Effect
-
-STABLE can be used to perform stable sorting. The relative order of rows, which is the same in the sort key, remains unchanged when sorting. Without the addition STABLE, the order is not stable and repeated sorting of the extract dataset with the same sort key can change the order in each sort.
-
-Executable Example
-
-[Extracts, Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
-
-[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
-
-Non-Handleable Exceptions
-
--   Cause: A sort field with the explicit addition AS TEXT is not text-like.
-    Runtime error: SORT\_AS\_TEXT\_EX\_BAD\_TYPE
-    
--   Cause: More than 50 sort criteria.
-    Runtime error: SORT\_EXTRACT\_TOO\_MANY\_FIELDS
-    
--   Cause: The field group HEADER does not contain a sort criterion.
-    Runtime error: SORT\_FIELD\_NOT\_IN\_HEADER
-    
--   Cause: The field group HEADER is not defined.
-    Runtime error: SORT\_NO\_HEADER
-    
--   Cause: It is not possible to use SORT in a loop through an extract dataset.
-    Runtime error: SORT\_WITHIN\_LOOP
-    
--   Cause: Insufficient memory space.
-    Runtime error: SORT\_EXTRACT\_INDEX\_NO\_ROLL
-    
-
-Continue
-[SORT - sort\_key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
-
-
-
-**📖 Source**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
-
-### abapsort_key.htm
-
-> **📖 Official SAP Documentation**: [abapsort_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) →  [SORT - Extract](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm) → 
-
-SORT - sort\_key
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_shortref.htm)
-
-Obsolete Syntax
-
-... BY field1 *\[*ASCENDING*|*DESCENDING*\]* *\[*AS TEXT*\]*
-       field2 *\[*ASCENDING*|*DESCENDING*\]* *\[*AS TEXT*\]*
-       ...
-
-Extras:
-
-[1\. ... ASCENDING*|*DESCENDING](#!ABAP_ADDITION_1@1@)
-[2\. ... AS TEXT](#!ABAP_ADDITION_2@2@)
-
-Effect
-
-When a sort key is specified using the addition BY, sorting is not done by field group header, but by the field1 field2 ... fields specified after it. For field1 field2 ..., only components of field group header or field groups that contain solely fields of field group header can be specified. The sort order depends on the order in which the components field1 field2 ... are specified. The number of fields to be used for sorting is limited to 50.
-
-For field1 field2 ..., field symbols can also be specified. If a component of the field group header is assigned to a field symbol when the statement is executed, sorting takes place according to the respective component. If no data object is assigned to a field symbol, the specification is ignored. If a different data object is assigned to a field symbol, a non-handleable exception is raised.
+-   when using [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry") for [function modules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_parameters_obsolete.htm) and [subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm).
 
 Note
 
-No [customizing includes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencustomizing_include_glosry.htm "Glossary Entry") may be specified for field1 field2 ... if they are empty.
+The statement [CREATE DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data.htm) cannot be used to create internal tables with header lines.
 
-Addition 1
+Properties of Header Lines
 
-... ASCENDING*|*DESCENDING
+A header line is a work area whose
 
-If, after a component field1 field2 ..., neither of the ASCENDING or DESCENDING additions is specified, the predefined sort direction is applied. If one of the additions ASCENDING or DESCENDING is specified, it overwrites the default for this component.
+-   data type is the same as the row type of the internal table
 
-Addition 2
+-   whose name is the same as the name of the internal table.
 
-... AS TEXT
+If a header line exists, therefore, an ABAP program includes two data objects with the same name (the actual internal table and the header line). The internal table and header line are accessed as follows:
 
-Without the addition AS TEXT after a text-like component field1 field2 ..., the default is applied. If the addition AS TEXT is specified after a text-like component, it overwrites the default for this component. In the case of non-text-like components, AS TEXT cannot be specified. If AS TEXT is specified after a field group, the addition is only applied to the text-like components of this group.
+-   Many processing statements for internal tables have [obsolete](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_short_forms.htm) short forms in which the header lines is used as an implicit work area if no explicit work area is specified.
 
+-   In all other cases, the statement and [operand position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_data_objects.htm) decide whether the [table body](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_body_glosry.htm "Glossary Entry") or the header line is used when the table name is specified. The header line is the usual choice. The name (and just the name) of an internal table with header line is interpreted as the table body only in the following cases:
 
+-   Operand positions in the [processing statements for internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) in which the internal table to be processed is specified.
 
-**📖 Source**: [abapsort_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
+-   Operand positions in expressions in which an internal table is expected, as after [FOR ... IN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_itab.htm) in a [table iteration](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_iteration_glosry.htm "Glossary Entry").
 
-### abapsort_extract.htm
+-   Operand positions in other statements whose operand type is an internal table, such as after [SPLIT ... INTO TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsplit.htm), [CONCATENATE LINES OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconcatenate.htm), [SELECT ... INTO TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm), and [READ REPORT ... INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report.htm).
 
-> **📖 Official SAP Documentation**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+-   Internal table specified in a [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expressions.htm)
 
+-   When saving and reading [data clusters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_cluster_glosry.htm "Glossary Entry") using [EXPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster.htm) and [IMPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_data_cluster.htm).
 
-  
+-   In the statement [FREE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_dataobject.htm).
 
-* * *
+-   In the obsolete statement [SEARCH](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsearch_itab.htm).
 
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+-   When a token is specified dynamically in [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") (except when database tables are specified).
 
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) → 
-
-SORT - Extract
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_shortref.htm)
-
-Obsolete Syntax
-
-SORT *\[*ASCENDING*|*DESCENDING*\]*
-     *\[*AS TEXT*\]*
-     *\[*STABLE*\]*
-     *\[*[sort\_key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)*\]*.
-
-Extras:
-
-[1\. ... ASCENDING*|*DESCENDING](#!ABAP_ADDITION_1@1@)
-[2\. ... AS TEXT](#!ABAP_ADDITION_2@2@)
-[3\. ... STABLE](#!ABAP_ADDITION_3@3@)
-
-Effect
-
-This statement sorts the [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry") of the program. A prerequisite for executing the statement is that the field group header is defined using the statement [FIELD-GROUPS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-groups.htm), and is therefore a component of all field groups. If no explicit sort key [sort\_key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm) is specified, the extract dataset is sorted by the components of the field group header. Numeric and byte-like components are sorted according to their value and character-like components are sorted by default according to their binary representation ([code page](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_glosry.htm "Glossary Entry")). Here, components containing hexadecimal 0 are placed before other entries. Text sorting for character-like components can be done using the addition AS TEXT.
-
-The priority of sorting is based on the order in which the components are inserted into the field group header using [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_fg.htm).
-
-Sorting is unstable by default, which means that the relative order of rows that do not have different sort keys is not preserved when they are sorted, and can change when a sort is performed multiple times. The addition STABLE can be used for stable sorting.
-
-The statement SORT also finalizes the structure of the extract dataset. Executing the statement [EXTRACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm) after executing the statement SORT raises an non-handleable exception.
+To force access to the table body in any operand position when a header line exists, square brackets can be specified directly after the name of an internal table in all operand positions (for example, itab\[\]). This does not apply, however, when specifying the internal table in a [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry").
 
 Notes
 
--   The only difference in the syntax of the statement SORT for the [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry") and the statement [SORT for internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm) is that no internal table is specified. Regardless of this, the two should not be confused with one another.
-    
--   If components with the content hexadecimal 0 are placed before other entries, this can lead to unexpected behavior when sorting numeric data types.
-    
--   In global classes, no field groups can be defined or edited. In methods of local classes of programs other than class pools, the statement SORT is possible for globally defined field groups.
-    
--   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) are recommended instead.
-    
+-   When a LIKE reference is made to an internal table with header line, either the header line itself can be referenced or \[\] can be specified to reference the table body. It is not possible, however, to reference the internal table including the header line.
 
-Addition 1
+-   A field symbol, a formal parameter (with the exception of [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry")), or a data reference can only address either the table body or the header line. This means that a field symbol, a formal parameter (with the exception of [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry")), or a data reference can never be ambiguous.
 
-... ASCENDING*|*DESCENDING
+-   Both the table body and the header line are passed when a table with header line is passed to [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry").
 
-Effect
+-   \[\] can be specified for internal tables without header line, but does not need to be. This is because the name (without \[\]) of an internal table without header line is interpreted as the table body in all operand positions regardless.
 
--   The addition ASCENDING or DESCENDING can be used to specify the sort direction explicitly as ascending or descending. If neither addition is specified, the data is sorted in ascending order by default. The sort direction can be overwritten for individual components in the explicit sort key sort\_key.
-    
+-   In many operand positions that expect internal tables, the syntax check forces \[\] to be specified after the name of an internal table with header line.
 
-Addition 2
+-   [RTTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") does not support internal tables with header lines. A type description object can describe either only the header line or the table body.
 
-... AS TEXT
+-   In very old programs, it may be the case that the obsolete pseudo component [\*sys\*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensys_table_body.htm) is used to address the header line (instead of \[\]).
 
-Effect
+Use
 
-The addition AS TEXT specifies that [text-like](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentextlike_data_type_glosry.htm "Glossary Entry") components are sorted according to the [locale](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocale_glosry.htm "Glossary Entry") of the current text environment. If AS TEXT is not specified, text-like components are sorted according to the encoding in the code page of the current text environment. For more information, see [SORT for internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm).
+The use of header lines is highly error-prone, due to the repeated use of one name for two data objects. If at all possible, avoid creating and using header lines (even outside of classes).
 
-Addition 3
+-   The addition [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_header_line.htm) and the statement string [DATA - BEGIN OF OCCURS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_begin_of_occurs.htm) should no longer be used and ranges tables should no longer be declared using [RANGES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm).
 
-... STABLE
+-   Avoid using table parameters if at all possible.
 
-Effect
+-   In cases where a header line absolutely has to be created (such as in selection tables or in procedures that still require table parameters (generally only [remote-enabled function modules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenremote_enabled_fm_glosry.htm "Glossary Entry"))), never work with the header line and use the additional explicitly work areas declared explicitly instead.
 
-STABLE can be used to perform stable sorting. The relative order of rows, which is the same in the sort key, remains unchanged when sorting. Without the addition STABLE, the order is not stable and repeated sorting of the extract dataset with the same sort key can change the order in each sort.
+Notes
 
-Executable Example
+-   A work area for replacing a header line can be declared very simply by using the addition LINE OF of the statements TYPES, DATA, and so on.
 
-[Extracts, Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
+-   The use of an additional work area should not be confused with the explicit completion of the implicit [short forms](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_short_forms.htm), such as LOOP AT itab INTO itab. The latter case is one of the undesired ways to use a header line.
 
-[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
+-   Tables with header lines do not offer any performance advantages.
 
-Non-Handleable Exceptions
+Example
 
--   Cause: A sort field with the explicit addition AS TEXT is not text-like.
-    Runtime error: SORT\_AS\_TEXT\_EX\_BAD\_TYPE
-    
--   Cause: More than 50 sort criteria.
-    Runtime error: SORT\_EXTRACT\_TOO\_MANY\_FIELDS
-    
--   Cause: The field group HEADER does not contain a sort criterion.
-    Runtime error: SORT\_FIELD\_NOT\_IN\_HEADER
-    
--   Cause: The field group HEADER is not defined.
-    Runtime error: SORT\_NO\_HEADER
-    
--   Cause: It is not possible to use SORT in a loop through an extract dataset.
-    Runtime error: SORT\_WITHIN\_LOOP
-    
--   Cause: Insufficient memory space.
-    Runtime error: SORT\_EXTRACT\_INDEX\_NO\_ROLL
-    
+The following example shows a typical instance of handling internal tables with header lines: An internal table with header line (here the table parameter of a function module) is initialized using [CLEAR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclear.htm), but the \[\] is not appended to the name. In this case, only the header line is deleted, which is not usually noticed until runtime.
 
-Continue
-[SORT - sort\_key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
-
-
-
-**📖 Source**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
-
-### abaploop-.htm
-
-> **📖 Official SAP Documentation**: [abaploop-.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) → 
-
-LOOP - Extract
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_shortref.htm)
-
-Obsolete Syntax
-
-LOOP.
+FUNCTION work\_with\_tables.
+\*"---------------------------------
+\*"\*"Local Interface
+\*"  TABLES
+\*"      table STRUCTURE  structure
+\*"----------------------------------
+  CLEAR table.
   ...
-ENDLOOP.
-
-Effect
-
-The statements LOOP and ENDLOOP define a loop across a statement block. The loop is passed for each row from the [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry") until it is exited using one of the statements from the section [Exit Loops](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_loops.htm). In each loop pass, the statement LOOP assigns the contents of the components from the current row of the extract dataset to the data objects that make up the field group of the row. If the extract dataset is not sorted, the order in which the rows are read is the same in which they were appended using the statement [EXTRACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm). If the extract dataset is sorted using [SORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm), the read order is the same as the sort order.
-
-A LOOP loop also ends the process of structuring the extract dataset. If the statement EXTRACT is executed after the statement LOOP, a non-handleable exception is raised. In addition, it is not possible to edit the extract dataset using either LOOP or SORT within a LOOP block. LOOP blocks that read the extract dataset cannot be nested.
-
-System Fields
-
-sy-subrc
-
-Meaning
-
-0
-
-The loop was run at least once.
-
-4
-
-The loop was not run at all.
-
-Notes
-
--   The statement LOOP for the extract dataset must not be confused with the statement [LOOP AT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm) for internal tables.
-    
--   In global classes, no field groups can be defined or edited. In methods of local classes of programs other than class pools, the statement LOOP can be used for field groups defined in these methods.
-    
--   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) are recommended instead.
-    
-
-Executable Example
-
-[Extracts, Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
-
-[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
-
-Non-Handleable Exceptions
-
--   Cause: Nested loop at an extracted dataset.
-    Runtime error: LOOP\_WITHIN\_LOOP
-
-
-
-**📖 Source**: [abaploop-.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm)
-
-### abapat_extract.htm
-
-> **📖 Official SAP Documentation**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) → 
-
-AT - Extract
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_shortref.htm)
-
-Obsolete Syntax
-
-LOOP.
-  *\[*AT FIRST.
-     ...
-   ENDAT.*\]*
-  *\[*AT field\_groupi *\[*WITH field\_groupj*\]*
-     ...
-   ENDAT.*\]*
-    *\[*AT NEW field1.
-       ...
-     ENDAT.
-      *\[*AT NEW field2.
-         ...
-       ENDAT.
-         *\[*...*\]**\]**\]*
-           *\[* ... *\]*
-        *\[**\[**\[*...*\]*
-        AT END OF field2.
-         ...
-       ENDAT.*\]*
-     AT END OF field1.
-       ...
-     ENDAT.*\]*
-  *\[*AT LAST.
-     ...
-  ENDAT.*\]*
-ENDLOOP.
-
-Extras:
-
-[1\. ... FIRST](#!ABAP_ADDITION_1@1@)
-[2\. ... field\_groupi *\[*WITH field\_groupj*\]*](#!ABAP_ADDITION_2@2@)
-[3\. ... *{*NEW*}**|**{*END OF*}* fieldi](#!ABAP_ADDITION_3@3@)
-[4\. ... LAST](#!ABAP_ADDITION_4@4@)
-
-Effect
-
-The statement block of a [LOOP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm) for extracts can contain control structures for [group level processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_level_processin_glosry.htm "Glossary Entry"). The corresponding control statement is AT. The statements AT and ENDAT define statement blocks that are executed at [group breaks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_break_glosry.htm "Glossary Entry"). Group breaks between group levels are a result of the row structure and the processing order in which the LOOP reads the rows of the [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry"). Within some of the statement blocks, it is possible to access the automatically created data objects [sum(field)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm) and [cnt(field)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm).
-
-Apart from the special variants AT FIRST, AT field\_group, and AT LAST, group levels are defined using the variant AT NEW and the sequence of rows in the extract. These are the rows that have the same content in a group key defined in their initial parts. It is possible, from a syntax point of view, to arrange AT control structures in any order and to nest them, however effective group level processing is usually only achieved by the arrangement above. Here, the control structures are specified in accordance with the arrangement of the components in the group key and are not nested.
-
-The statement blocks within the AT\-ENDAT control structures are executed if an appropriate group break is made in the current row. Statements in the LOOP\-ENDLOOP control structure that are not executed within an AT\-ENDAT control structure are executed in each pass of the loop.
-
-Notes
-
--   In one very common case, the extract dataset is sorted exactly in accordance with the group key.
-    
--   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) are recommended instead.
-    
-
-Addition 1
-
-...  FIRST
-
-Effect
-
-The control level is defined by the first row of the extract dataset.
-
-Addition 2
-
-... field\_groupi *\[*WITH field\_groupj*\]*
-
-Effect
-
-A row that is attached to the extract dataset using the statement [EXTRACT field\_groupi](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm). If the WITH addition is specified, the next row must be defined by the field group field\_groupj.
-
-Addition 3
-
-... *{*NEW*}**|**{*END OF*}* fieldi
-
-Effect
-
-The group level is defined by the beginning or end of a group of rows with the same content in the component fieldi and in the component links of fieldi. The content of these components determines the control key. The component field must be part of the field group header. Components whose content is hexadecimal 0 are not included as a control break criterion.
-
-For fieldi, a field symbol can also be specified. If a component of field group header is assigned to the field symbol when the statement is executed, this has the same effect as specifying the respective component. If no data object is assigned to the field symbol, the specification is ignored. If another data object is assigned to the field symbol, a non-handleable exception is raised.
-
-Addition 4
-
-... LAST
-
-Effect
-
-The control level is defined by the last row of the extraction dataset.
-
-Executable Example
-
-[Extracts, Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
+ENDFUNCTION.
 
 Continue
-[cnt( )](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
-[sum( )](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
+[DATA - HEADER LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_header_line.htm)
+[DATA - BEGIN OF OCCURS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_begin_of_occurs.htm)
+[RANGES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm)
 
 
+---
 
-**📖 Source**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
 
-### abapcnt.htm
+## ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Internal Table Processing
 
-> **📖 Official SAP Documentation**: [abapcnt.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+**Files**: 11 | **Difficulty**: intermediate
 
+# ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts / Examples of Extracts
 
-  
+Included pages: 4
 
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) →  [AT - Extract](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm) → 
-
-cnt( )
-
-Obsolete Syntax
-
-... cnt(field) ....
-
-Effect
-
-For the fields field1, field2, ... of the field groups of an [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry"), automatically data objects named cnt(field1), cnt(field2), ... of data type i are created. These fields can be accessed only within a LOOP and are filled with values for sorted extract datasets using the statements [AT END OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm) and [AT LAST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm).
-
-If field1, field2, ... are fields with a non-numeric data type of the field group header and the extract dataset was sorted by field1, field2, ... , then cnt(field1), cnt(field2), ... contain the number of different values that field1, field2, ... have within the group level or the entire dataset.
-
-If the fields cnt(field1), cnt(field2), ... are accessed without the extract dataset first being sorted, a non-handleable exception can be raised.
-
-Notes
-
--   No [substring access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoffset_length.htm) cnt(len) can be made on a data object called cnt without an offset being specified explicitly. The compiler always interprets an offset specified like this as a field for an extract dataset.
-    
--   No [customizing include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencustomizing_include_glosry.htm "Glossary Entry") may be specified for field if it is empty.
-
-
-
-**📖 Source**: [abapcnt.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
-
-### abapsum_extract.htm
-
-> **📖 Official SAP Documentation**: [abapsum_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) →  [AT - Extract](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm) → 
-
-sum( )
-
-Obsolete Syntax
-
-... sum(field) ....
-
-Effect
-
-For the fields field1, field2, ... of the field groups of an [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry"), automatically data objects named sum(field1), sum(field2), ... of the same data type as field1, field2, ... are created. These fields can be accessed only within a LOOP and are filled with values for sorted extract datasets using the statements [AT END OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm) and [AT LAST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm): If field1, field2, ... are fields with numeric data type, sum(field1), sum(field2), ... contain the total of the values of field1, field2, ... within the group level or the full dataset.
-
-If the fields sum(field1), sum(field1), ... are accessed without the extract dataset first being sorted, a non-handleable exception can be raised.
-
-Notes
-
--   No [substring access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoffset_length.htm) sum(len) can be made on a data object called sum without an offset being specified explicitly. The compiler always interprets an offset specified like this as a field for an extract dataset.
-    
--   No [customizing include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencustomizing_include_glosry.htm "Glossary Entry") may be specified for field if it is empty.
-
-
-
-**📖 Source**: [abapsum_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
-
-### abapat_extract.htm
-
-> **📖 Official SAP Documentation**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) → 
-
-AT - Extract
-
-[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_shortref.htm)
-
-Obsolete Syntax
-
-LOOP.
-  *\[*AT FIRST.
-     ...
-   ENDAT.*\]*
-  *\[*AT field\_groupi *\[*WITH field\_groupj*\]*
-     ...
-   ENDAT.*\]*
-    *\[*AT NEW field1.
-       ...
-     ENDAT.
-      *\[*AT NEW field2.
-         ...
-       ENDAT.
-         *\[*...*\]**\]**\]*
-           *\[* ... *\]*
-        *\[**\[**\[*...*\]*
-        AT END OF field2.
-         ...
-       ENDAT.*\]*
-     AT END OF field1.
-       ...
-     ENDAT.*\]*
-  *\[*AT LAST.
-     ...
-  ENDAT.*\]*
-ENDLOOP.
-
-Extras:
-
-[1\. ... FIRST](#!ABAP_ADDITION_1@1@)
-[2\. ... field\_groupi *\[*WITH field\_groupj*\]*](#!ABAP_ADDITION_2@2@)
-[3\. ... *{*NEW*}**|**{*END OF*}* fieldi](#!ABAP_ADDITION_3@3@)
-[4\. ... LAST](#!ABAP_ADDITION_4@4@)
-
-Effect
-
-The statement block of a [LOOP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm) for extracts can contain control structures for [group level processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_level_processin_glosry.htm "Glossary Entry"). The corresponding control statement is AT. The statements AT and ENDAT define statement blocks that are executed at [group breaks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_break_glosry.htm "Glossary Entry"). Group breaks between group levels are a result of the row structure and the processing order in which the LOOP reads the rows of the [extract dataset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_dataset_glosry.htm "Glossary Entry"). Within some of the statement blocks, it is possible to access the automatically created data objects [sum(field)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm) and [cnt(field)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm).
-
-Apart from the special variants AT FIRST, AT field\_group, and AT LAST, group levels are defined using the variant AT NEW and the sequence of rows in the extract. These are the rows that have the same content in a group key defined in their initial parts. It is possible, from a syntax point of view, to arrange AT control structures in any order and to nest them, however effective group level processing is usually only achieved by the arrangement above. Here, the control structures are specified in accordance with the arrangement of the components in the group key and are not nested.
-
-The statement blocks within the AT\-ENDAT control structures are executed if an appropriate group break is made in the current row. Statements in the LOOP\-ENDLOOP control structure that are not executed within an AT\-ENDAT control structure are executed in each pass of the loop.
-
-Notes
-
--   In one very common case, the extract dataset is sorted exactly in accordance with the group key.
-    
--   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) are recommended instead.
-    
-
-Addition 1
-
-...  FIRST
-
-Effect
-
-The control level is defined by the first row of the extract dataset.
-
-Addition 2
-
-... field\_groupi *\[*WITH field\_groupj*\]*
-
-Effect
-
-A row that is attached to the extract dataset using the statement [EXTRACT field\_groupi](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm). If the WITH addition is specified, the next row must be defined by the field group field\_groupj.
-
-Addition 3
-
-... *{*NEW*}**|**{*END OF*}* fieldi
-
-Effect
-
-The group level is defined by the beginning or end of a group of rows with the same content in the component fieldi and in the component links of fieldi. The content of these components determines the control key. The component field must be part of the field group header. Components whose content is hexadecimal 0 are not included as a control break criterion.
-
-For fieldi, a field symbol can also be specified. If a component of field group header is assigned to the field symbol when the statement is executed, this has the same effect as specifying the respective component. If no data object is assigned to the field symbol, the specification is ignored. If another data object is assigned to the field symbol, a non-handleable exception is raised.
-
-Addition 4
-
-... LAST
-
-Effect
-
-The control level is defined by the last row of the extraction dataset.
-
-Executable Example
-
-[Extracts, Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
-
-Continue
-[cnt( )](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
-[sum( )](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
-
-
-
-**📖 Source**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
 
 ### abenextract_abexas.htm
 
-> **📖 Official SAP Documentation**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Examples of Extracts"
+description: |
+  !Example(exa.gif 'Example') Extracts, Processing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm) !Example(exa.gif 'Example') Extracts, Control Level Processing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm) !Examp
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm"
+abapFile: "abenextract_abexas.htm"
+keywords: ["do", "if", "data", "abenextract", "abexas"]
+---
 
 * * *
 
@@ -17500,16 +15370,19 @@ Continue
 ![Example](exa.gif "Example") [Extracts, Determining Numbers and Totals](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
 
 
-
-**📖 Source**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
-
 ### abenextract_at_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenextract_at_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Extracts, Processing"
+description: |
+  This example demonstrates how extracts are processed. Source Code REPORT demo_extract_at. DATA: spfli_wa    TYPE spfli, sflight_wa  TYPE sflight. FIELD-GROUPS: header, flight_info, flight_date. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METH
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm"
+abapFile: "abenextract_at_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "method", "class", "data", "abenextract", "abexa"]
+---
 
 * * *
 
@@ -17586,16 +15459,19 @@ Description
 This example continues the example given under [EXTRACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm). After the extract dataset is filled, it is sorted by field group header and, afterwards, control level processing is executed in a LOOP. Here, structured output is created.
 
 
-
-**📖 Source**: [abenextract_at_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
-
 ### abenextract_group_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenextract_group_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Extracts, Control Level Processing"
+description: |
+  This example demonstrates control level processing of extracts. Source Code REPORT demo_extract_at_new. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. DATA: t1 TYPE c LENGTH 4, t2 TYPE i. FIELD-GROUPS header. CLASS demo IMPLEMENTATION. METHOD main. INSERT t2 t1 INTO header.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm"
+abapFile: "abenextract_group_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "method", "class", "data", "abenextract", "group", "abexa"]
+---
 
 * * *
 
@@ -17664,16 +15540,19 @@ Description
 An example extract is created that contains only the fields from the field group header and is sorted by these fields. The content of the data set and the resulting group level change are produced in the LOOP.
 
 
-
-**📖 Source**: [abenextract_group_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
-
 ### abenextract_sum_abexa.htm
 
-> **📖 Official SAP Documentation**: [abenextract_sum_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Extracts, Determining Numbers and Totals"
+description: |
+  This example demonstrates how numbers and totals are determined in extracts. Source Code REPORT demo_extract_cnt_sum. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. DATA: t1 TYPE c LENGTH 4, t2 TYPE i. FIELD-GROUPS: header, test. CLASS demo IMPLEMENTATION. METHOD main. INSER
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm"
+abapFile: "abenextract_sum_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "abenextract", "sum", "abexa"]
+---
 
 * * *
 
@@ -17737,31 +15616,6 @@ Description
 An example extract is created that contains only fields from the field group header. After being sorted, the contents of the data set, plus the numbers from the different fields t1 and the sums of the fields t2, are produced at the end of every control level and at the end of the loop.
 
 
-
-**📖 Source**: [abenextract_sum_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
-
-### abenextract_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) → 
-
-Examples of Extracts
-
-Continue
-![Example](exa.gif "Example") [Extracts, Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
-![Example](exa.gif "Example") [Extracts, Control Level Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
-![Example](exa.gif "Example") [Extracts, Determining Numbers and Totals](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
-
-
 ---
 
 
@@ -17774,16 +15628,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
-
 ### abenitab_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenitab_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Internal Tables"
+description: |
+  An internal table is a dynamic data object consisting of a sequence of rows with the same data type. The data type of an internal table is a table type that has the following basic properties of every internal table: -   Row type The row type can be any data type. In particular, tables of elementary
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_guidl.htm"
+abapFile: "abenitab_guidl.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "internal-table", "abenitab", "guidl"]
+---
 
 * * *
 
@@ -17851,16 +15708,19 @@ Continue
 [Loop Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_guidl.htm)
 
 
-
-**📖 Source**: [abenitab_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_guidl.htm)
-
 ### abenselect_table_type_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_type_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Selecting the Table Category"
+description: |
+  Background The table category specifies the internal administration for an internal table and the primary access type: -   Standard tables that are managed with a primary table index. When inserting or deleting table rows, only the table index is reorganized, but not the remaining table rows. If row
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_type_guidl.htm"
+abapFile: "abenselect_table_type_guidl.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenselect", "table", "type", "guidl"]
+---
 
 * * *
 
@@ -17918,16 +15778,19 @@ Depending on the length of the key and the number of rows in an internal table, 
 If you use [secondary keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_key_guidl.htm "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
 
 
-
-**📖 Source**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_type_guidl.htm)
-
 ### abensecondary_key_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_key_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Secondary Key"
+description: |
+  Background Secondary keys can be declared for internal tables. The following options are possible: -   Sorted keys (non-unique or unique) -   Hash keys that can only be unique These keys are assigned a name when they are declared and can be created for any table category. The primary key (nameless u
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_key_guidl.htm"
+abapFile: "abensecondary_key_guidl.htm"
+keywords: ["update", "delete", "loop", "do", "if", "case", "data", "types", "internal-table", "abensecondary", "key", "guidl"]
+---
 
 * * *
 
@@ -18014,16 +15877,19 @@ LOOP AT itab USING KEY second\_key.
 ENDLOOP.
 
 
-
-**📖 Source**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_key_guidl.htm)
-
 ### abeninitial_memory_requ_guidl.htm
 
-> **📖 Official SAP Documentation**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_memory_requ_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Initial Memory Requirements"
+description: |
+  Background Internal tables are stored in the memory block by block. The ABAP runtime environment allocates a suitable memory area for the data of the table by default. If the initial memory area is insufficient, further blocks are created using an internal duplication strategy until a threshold is r
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_memory_requ_guidl.htm"
+abapFile: "abeninitial_memory_requ_guidl.htm"
+keywords: ["do", "if", "class", "data", "types", "internal-table", "abeninitial", "memory", "requ", "guidl"]
+---
 
 * * *
 
@@ -18084,16 +15950,19 @@ TYPES: BEGIN OF line\_structure,
                  WITH UNIQUE KEY ...
 
 
-
-**📖 Source**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_memory_requ_guidl.htm)
-
 ### abensort_guidl.htm
 
-> **📖 Official SAP Documentation**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensort_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Sorted Filling"
+description: |
+  Background The statement APPEND for attaching rows to an internal table has the addition SORTED BY. This addition can be used to fill a standard table by using sorted filling. The prerequisites are: -   A value greater than zero must be specified for the addition INITIAL SIZE(https://help.sap.com/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensort_guidl.htm"
+abapFile: "abensort_guidl.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abensort", "guidl"]
+---
 
 * * *
 
@@ -18155,16 +16024,19 @@ ENDLOOP.
 ...
 
 
-
-**📖 Source**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensort_guidl.htm)
-
 ### abencollect_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencollect_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Collected Filling"
+description: |
+  Background The statement COLLECT can be used to collect rows and insert them in an internal table. If a row with the relevant primary key already exists in the target table, the values of numeric components are added to the values in the existing table row. Otherwise, a new row is inserted in the ta
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencollect_guidl.htm"
+abapFile: "abencollect_guidl.htm"
+keywords: ["insert", "do", "if", "internal-table", "abencollect", "guidl"]
+---
 
 * * *
 
@@ -18193,16 +16065,19 @@ The statement COLLECT is based on unique entries with respect to the primary key
 -   COLLECT can be used for sorted tables and hashed tables without any problems since these, unlike standard tables, always have a separate, stable key administration that can be utilized by COLLECT. COLLECT can work properly for sorted tables only if the primary key is unique. If a sorted table has a non-unique key, only COLLECT can be used to fill the table, which is difficult to guarantee. In hashed tables, the key values are always unique.
 
 
-
-**📖 Source**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencollect_guidl.htm)
-
 ### abentable_output_guidl.htm
 
-> **📖 Official SAP Documentation**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_output_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Output Behavior"
+description: |
+  Background Internal tables can be read by accessing individual rows (using READ TABLE or table expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm 'Glossary Entry')) or sequentially (using LOOP AT). In both cases, the following output behavior can
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_output_guidl.htm"
+abapFile: "abentable_output_guidl.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abentable", "output", "guidl"]
+---
 
 * * *
 
@@ -18274,19 +16149,19 @@ LOOP AT itab ASSIGNING <fs>.
 ENDLOOP.
 
 
-
-**📖 Source**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_output_guidl.htm)
-
 ### abenloop_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_guidl.htm)
-
-
-  
+---
+title: "Loop Processing"
+description: |
+  Background Alongside the statements for editing individual rows in internal tables, other statements can be used to address and modify the entire body of the table. Examples: -   All categories of assignments applying to whole internal tables -   Deleting the whole of an internal table using CLEAR o
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_guidl.htm"
+abapFile: "abenloop_guidl.htm"
+keywords: ["select", "loop", "do", "if", "class", "types", "internal-table", "abenloop", "guidl"]
+---
 
 * * *
 

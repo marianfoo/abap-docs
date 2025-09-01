@@ -1,4 +1,14 @@
-  
+---
+title: "RAP persistent data"
+description: |
+  Data on the RAP persistent table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_persistent_table_glosry.htm 'Glossary Entry').
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_persistent_data_glosry.htm"
+abapFile: "abenrap_persistent_data_glosry.htm"
+keywords: ["do", "try", "data", "abenrap", "persistent", "glosry"]
+---
 
 * * *
 

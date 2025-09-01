@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Date Functions"
+description: |
+  Syntax ... DATS_IS_VALID(date)  DATS_DAYS_BETWEEN(date1,date2)  DATS_ADD_DAYS(date,days,on_error)  DATS_ADD_MONTHS(date,months,on_error) ... Variants: 1. ... DATS_IS_VALID(date)(#!ABAP_VARIANT_1@1@) 2. ... DATS_DAYS_BETWEEN(date1,date2)(#!ABAP_VARIANT_2@2@) 3. ... DATS
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_functions.htm"
+abapFile: "abencds_f1_date_functions.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "date", "functions"]
+---
 
 * * *
 

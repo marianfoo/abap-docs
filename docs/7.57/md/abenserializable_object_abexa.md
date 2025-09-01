@@ -1,4 +1,14 @@
-  
+---
+title: "Adjusted Serialization and Deserialization"
+description: |
+  This example demonstrates the adjusted serialization and deserialization of objects. Source Code REPORT demo_serializable_object. INTERFACE intf. METHODS get_attr RETURNING VALUE(attr) TYPE string. ENDINTERFACE. CLASS cls_unsafe DEFINITION. PUBLIC SECTION. INTERFACES: if_serializable_object, i
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenserializable_object_abexa.htm"
+abapFile: "abenserializable_object_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenserializable", "object", "abexa"]
+---
 
 * * *
 

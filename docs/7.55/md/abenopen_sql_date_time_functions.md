@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  The date, time, and time stamp types DATN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm), TIMN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm), and UTCLONG(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_date_time_functions.htm"
+abapFile: "abenopen_sql_date_time_functions.htm"
+keywords: ["do", "data", "types", "abenopen", "sql", "date", "time", "functions"]
+---
 
 * * *
 

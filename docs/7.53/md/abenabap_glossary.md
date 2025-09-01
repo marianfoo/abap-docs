@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Glossary"
+description: |
+  A(#A) B(#B) C(#C) D(#D) E(#E) F(#F) G(#G) H(#H) I(#I) J(#J) K(#K) L(#L) M(#M) N(#N) O(#O) P(#P) Q(#Q) R(#R) S(#S) T(#T) U(#U) V(#V) W(#W) X(#X) A  ABAP(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glosry.htm) ABAP annotation(
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm"
+abapFile: "abenabap_glossary.htm"
+keywords: ["select", "insert", "update", "loop", "do", "if", "case", "catch", "method", "class", "data", "internal-table", "field-symbol", "abenabap", "glossary"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SET EXTENDED CHECK - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_extended_check.htm) Syntax SET EXTENDED CHECK ONOFF. Effect Obsolete: Switches the extended program check on and off.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_extended_check_shortref.htm"
+abapFile: "abapset_extended_check_shortref.htm"
+keywords: ["do", "if", "abapset", "extended", "check", "shortref"]
+---
 
 * * *
 

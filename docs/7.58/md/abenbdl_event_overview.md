@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Events"
+description: |
+  Syntax Forms RAP Business Event(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_event.htm) event EventName deep parameter ParamName; RAP Derived Event(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_managed_event.htm) managed event DerivedEve
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_event_overview.htm"
+abapFile: "abenbdl_event_overview.htm"
+keywords: ["do", "if", "try", "abenbdl", "event", "overview"]
+---
 
 * * *
 

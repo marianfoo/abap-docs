@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI class"
+description: |
+  Specific global class that is created when a BAdI(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbadi_glosry.htm 'Glossary Entry') is defined in the Enhancement Builder(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenhancement_builder_glosry.htm 'Glossa
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbadi_class_glosry.htm"
+abapFile: "abenbadi_class_glosry.htm"
+keywords: ["do", "if", "try", "class", "types", "abenbadi", "glosry"]
+---
 
 * * *
 

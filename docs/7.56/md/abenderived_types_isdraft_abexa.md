@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_UNMANAGED_ROOT_DRAFT and its child entity DEMO_UNMANAGED_CHILD_DRAFT. The child entity is not used in the example. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label: 'CDS view entity, RAP unmanaged, draft' defi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_isdraft_abexa.htm"
+abapFile: "abenderived_types_isdraft_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenderived", "isdraft", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "dependency_rule_glosry"
+description: |
+  dependency_rule_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendependency_rule_glosry.htm"
+abapFile: "abendependency_rule_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abendependency", "rule", "glosry"]
+---
 
 * * *
 

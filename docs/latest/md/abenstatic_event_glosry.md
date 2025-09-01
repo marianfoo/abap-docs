@@ -1,4 +1,14 @@
-  
+---
+title: "static_event_glosry"
+description: |
+  static_event_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_event_glosry.htm"
+abapFile: "abenstatic_event_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenstatic", "event", "glosry"]
+---
 
 * * *
 

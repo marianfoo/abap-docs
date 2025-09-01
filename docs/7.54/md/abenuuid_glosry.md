@@ -1,4 +1,14 @@
-  
+---
+title: "UUID"
+description: |
+  Universal Unique Identifier. Universally unique identifier, generated in accordance with OSF standards(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/http://www.opengroup.org/onlinepubs/9629399/apdxa.htm) from the system time stamp and the network address. In ABAP, a UUID can be create
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm"
+abapFile: "abenuuid_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenuuid", "glosry"]
+---
 
 * * *
 

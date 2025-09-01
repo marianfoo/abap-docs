@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Date Types, Time Types, and Time Stamp Types"
+description: |
+  The data objects of the date types, time types, and time stamp types are used to store calendar dates, times, and time stamps. Attributes Type Length Standard Length Meaning Data Object d 8 characters Date type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.ht
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_date_time.htm"
+abapFile: "abenbuiltin_types_date_time.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenbuiltin", "date", "time"]
+---
 
 * * *
 

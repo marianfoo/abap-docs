@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Object Creation"
+description: |
+  A shared object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_object_glosry.htm 'Glossary Entry') in an area instance version(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarea_instance_version_glosry.htm 'Glossary Entry') of the shared memory is created
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_objects_create_object.htm"
+abapFile: "abenshm_objects_create_object.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenshm", "objects", "create", "object"]
+---
 
 * * *
 

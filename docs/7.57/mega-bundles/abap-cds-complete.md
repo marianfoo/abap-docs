@@ -1,43 +1,34 @@
 # ABAP CDS - Complete Reference (7.57)
 
-**Generated**: 2025-09-01T11:14:57.618Z
-**Bundles Combined**: 45
+**Generated**: 2025-09-01T19:38:22.899Z
+**Bundles Combined**: 42
 **Category**: cds
 
 ---
 
 
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Amounts and Quantities
 
-## 🔗 Complete Source Documentation
+**Files**: 4 | **Difficulty**: advanced
 
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-**🏷️ Category**: CDS
-**🔍 Search Specific Topics**: Use `abap_search query:"cds"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Amounts and Quantities
 
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
+Included pages: 4
+
+
+### abencds_calc_quan.htm
 
 ---
-
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Syntax
-
-**Files**: 3 | **Difficulty**: advanced
-
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Syntax
-
-Included pages: 3
-
-
-### abencds_syntax.htm
-
-> **📖 Official SAP Documentation**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+title: "ABAP CDS - Amounts and Quantities"
+description: |
+  In ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry'), a special handling for amounts and quantities is implemented. ABAP CDS amount fields(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field_glosry.htm 'Gloss
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calc_quan.htm"
+abapFile: "abencds_calc_quan.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "calc", "quan"]
+---
 
 * * *
 
@@ -45,126 +36,7 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 [ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) → 
 
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Syntax, ABENCDS_SYNTAX, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugge
-stion for improvement:)
-
-ABAP CDS - Syntax
-
-The syntax of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") and the [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS comprises elements of the general [SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_glosry.htm "Glossary Entry") [DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_glosry.htm "Glossary Entry") and [DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendcl_glosry.htm "Glossary Entry") and also makes it possible to define annotations and CDS associations. The syntax and semantics basically match the general [CDS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_glosry.htm "Glossary Entry") concept.
-
--   [ABAP CDS - General Syntax Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_general_syntax_rules.htm)
--   [ABAP CDS - Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_language_elements.htm)
-
-Continue
-[ABAP CDS - General Syntax Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_general_syntax_rules.htm)
-[ABAP CDS - Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_language_elements.htm)
-
-
-
-**📖 Source**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_syntax.htm)
-
-### abencds_general_syntax_rules.htm
-
-> **📖 Official SAP Documentation**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_general_syntax_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_syntax.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - General Syntax Rules, ABENCDS_GENERAL_SYNTAX_RULES, 757%0D%0A%0D%0AError:%
-0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - General Syntax Rules
-
-The general syntax rules for the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry"), [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry"), and [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") for defining [CDS objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm "Glossary Entry") in [ABAP CDS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm "Glossary Entry") are as follows:
-
--   Keywords
-    -   Keywords must be all uppercase, all lowercase, or in lowercase with an uppercase initial letter. Other mixes of uppercase and lowercase are not allowed.
--   Names
-    -   Names are not case-sensitive.
-    -   A name must contain at least 2 characters but no more than 30 characters.
-    -   A name can consist of letters, numbers, underscores (\_), and slashes (/).
-    -   A name must start with a letter, slash character, or underscore. Underscores are recommended as the naming convention for [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry").
-    -   The separator for names with multiple parts is a period (.). Names with multiple parts can be paths, columns with a prefixed data source, and structured annotations.
-    -   The following CDS keywords cannot be used as names:
-        
-        ALL, AND, AS, ASSOCIATION, AVG, CASE, CAST, COUNT, CROSS, DISTINCT, EXISTS, EXTEND, EXTENSION, FROM, FULL, GROUP, HAVING, INNER, JOIN, KEY, LEFT, MAX, MIN, NOT, NULL, ON, OR, ORDER, RIGHT, SELECT, SUM, UNION, VIEW, WHEN, WHERE
-        
--   Literals
-    -   In general ABAP CDS, [untyped](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuntyped_literal_glosry.htm "Glossary Entry") numeric and untyped character literals are available:
-        
-        An untyped character literal is a character string enclosed in single quotation marks (').
-        An untyped numeric literal is a series of digits between 0 and 9. It can be directly prefixed by a + or \- sign and can contain a decimal point (.) after the first digit.
-        
-    -   In [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry"), [typed literals](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentyped_literal_glosry.htm "Glossary Entry") are available for [CDS view entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm "Glossary Entry") and [CDS hierarchies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_hierarchy_glosry.htm "Glossary Entry"). Typed literals are available for almost all built-in ABAP Dictionary data types. A typed literal is specified by writing an ABAP Dictionary data type with the type namespace abap. as prefix followed by the character-like representation of the value in single quotation marks (').
-        
-        Example: abap.dats'20200101'
-        
-    -   Escaping literals in ABAP CDS:
-        
-        A single quote (') is escaped with a single quote:'...''...'.
-        A backslash (\\) is escaped with a backslash: '...\\\\...'
-        
-        Exception: Escaping with a backslash is not supported in [CDS DDIC-based views (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry").
-        
--   Comments
-    -   Two forward slashes (//) introduce a comment, which continues until the end of the line.
-    -   Comments within lines or that span multiple lines are enclosed by the characters /\* and \*/.
--   Separators
-    -   Statements can be closed using a semicolon (;). Sometimes this is mandatory.
--   Protected words
-    -   Certain keywords are protected and cannot be used as self-defined names. The reserved names that cannot be used are specified in the DDIC database table TRESE.
-
-Hints
-
--   The closing semicolon after a statement is sometimes optional because one piece of CDS source code can currently only contain a single statement.
--   In [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") for [CDS data definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_definition_glosry.htm "Glossary Entry") and [DCL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendcl_source_code_glosry.htm "Glossary Entry") for [CDS roles](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_role_glosry.htm "Glossary Entry"), as well as two slashes, two dashes (\--) can also be used to introduce a comment. Slashes (//), however, are the recommended method. Two dashes are not allowed in [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") for [annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"), in [DDLX source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddlx_source_code_glosry.htm "Glossary Entry") for [metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"), and in [BDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_source_code_glosry.htm "Glossary Entry") for behavior definitions.
-
-Examples
-
--   SELECT, select, and Select are all valid ways of specifying a keyword. seLect and SeLect, on the other hand, produce syntax errors.
--   MYVIEW, myview, and myView all identify the same operand.
--   0.5 is a valid numeric literal, but .5 is not.
-
-
-
-**📖 Source**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_general_syntax_rules.htm)
-
-### abencds_language_elements.htm
-
-> **📖 Official SAP Documentation**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_language_elements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_syntax.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Language Elements, ABENCDS_LANGUAGE_ELEMENTS, 757%0D%0A%0D%0AError:%0D%0A%
-0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - Language Elements
-
-The following sections summarize the language elements of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry"), [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry"), and [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") in [ABAP CDS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm "Glossary Entry"), arranged by topics.
-
--   [DDL](#abencds-language-elements-1-----------cds-annotation-definitions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_2)
-    -   [CDS Views](#abencds-language-elements-3-----------cds-entity-extensions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_4)
-    -   [CDS Table Functions](#abencds-language-elements-5-----------cds-hierarchies---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_6)
-    -   [CDS Custom Entities](#abencds-language-elements-7-----------cds-abstract-entities---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_8)
-    -   [CDS Metadata Extensions](#abencds-language-elements-9-------bdl---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
-    -   [CDS Behavior Definitions](#abencds-language-elements-11-----------bdef-extensions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_12)
--   [DCL](#abencds-language-elements-13-----------cds-roles---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_14)
-    -   [CDS Access Policy](#abencds-language-elements-15---in-addition-to-the-language-elements-shown-here--cds-source-code-can-also-contain--annotations--javascript-call-link---abencds-annotations-htm-----with-metadata---ddl-----cds-annotation-definitions-----keywords-and-additions--language-element--meaning---define-annotation------javascript-call-link---abencds-f1-define-annotation-htm------defines-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----enum--javascript-call-link---abencds-f1-define-annotation-type-htm------defines-enumeration-symbols-of-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----default--javascript-call-link---abencds-f1-define-annotation-type-htm------defines-default-values-of-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----array-of--javascript-call-link---abencds-f1-define-annotation-arr-htm------defines-an--annotation-arras--javascript-call-link---abenannotation-array-glosry-htm-----glossary-entry-----cds-views-----keywords-and-additions--language-element--meaning---define-view-----javascript-call-link---abencds-define-view-v1-htm-----as--javascript-call-link---abencds-define-view-v1-htm------defines-a--cds-ddic-based-view--obsolete---javascript-call-link---abencds-v1-view-glosry-htm-----glossary-entry-----define-view-entity---as--javascript-call-link---abencds-define-view-entity-htm------defines-a--cds-view-entity--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry-----define-view-entity----as-projection-on--javascript-call-link---abencds-define-view-as-projection-htm------defines-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry-----define-transient-view-entity----as-projection-on--javascript-call-link---abencds-define-view-as-analytical-htm------defines-a--cds-analytical-projection-view--javascript-call-link---abencds-analytical-pv-glosry-htm-----glossary-entry-----root--javascript-call-link---abencds-define-root-view-v2-htm------defines-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---as-a--root-entity--javascript-call-link---abenroot-entity-glosry-htm-----glossary-entry-----provider-contract-transactional--query------------------transactional--interface------------------analytical--query-----------------------javascript-call-link---abencds-pv-provider-contract-htm------specifies-the-scenario-in-which-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry---is-used----with-parameters--javascript-call-link---abencds-parameter-list-v2-htm------defines-input-parameters-of-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry-----select-----distinct---------from--javascript-call-link---abencds-select-statement-v2-htm------select-statement-of-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry-----inner-join-----on--javascript-call-link---abencds-joined-data-source-v2-htm------inner-join-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------left---right-outer-join-----on--javascript-call-link---abencds-joined-data-source-v2-htm------outer-join-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------association-----to-----as-----on--javascript-call-link---abencds-association-v2-htm------defines-a-cds-association-for-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-----in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------redefine-association--javascript-call-link---abencds-proj-view-redefined-assoc-htm------redefines-a--cds-association--javascript-call-link---abencds-association-glosry-htm-----glossary-entry---in-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry------with-default-filter--javascript-call-link---abencds-association-v2-htm------specifies-a-default-filter-condition-of-a-cds-association---1---javascript-call-link---abencds-path-expr-card-v2-htm------attribute-of-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-------inner-----where--javascript-call-link---abencds-path-expr-jointype-v2-htm------attribute-of-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-------left-outer-----where--javascript-call-link---abencds-path-expr-jointype-v2-htm------attribute-of-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-------composition-----of--javascript-call-link---abencds-composition-v2-htm------defines-a-cds-composition---association-to-parent-----as-----on--javascript-call-link---abencds-to-parent-assoc-v2-htm------defines-a-cds-to-parent-association---key--javascript-call-link---abencds-select-list-entry-v2-htm------defines-an-element-of-a--select-list--javascript-call-link---abencds-select-list-v2-htm-----as-key-field---as--javascript-call-link---abencds-select-list-entry-v2-htm------defines-an-alias-name-for-an-element-of-a--select--javascript-call-link---abencds-select-list-v2-htm-----list----extension-----javascript-call-link---abencds-select-list-entry-v1-htm------elements-of-an-extension-in-a--select-list--javascript-call-link---abencds-select-list-v1-htm------only-available-in-cds-ddic-based-views--obsolete------projection-----javascript-call-link---abencds-select-list-entry-v2-htm------reuses-expressions-defined-in-the--select-list--javascript-call-link---abencds-select-list-v2-htm-----of-a--cds-view-entity--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry---in-an-operand-position-of-the-select-list-of-the-same-cds-view-entity----where------javascript-call-link---abencds-where-clause-v2-htm------where-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------group-by------javascript-call-link---abencds-group-by-v2-htm------group-by-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------having------javascript-call-link---abencds-having-clause-v2-htm------having-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------except------javascript-call-link---abencds-except-v2-htm------except-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------currently-only-available-for--cds-view-entities--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry------intersect------javascript-call-link---abencds-intersect-v2-htm------intersect-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------currently-only-available-for--cds-view-entities--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry------union-----all----------javascript-call-link---abencds-union-v2-htm------union-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------virtual--javascript-call-link---abencds-proj-view-element-htm------defines-a-new-element-of-a-cds-projection-view---localized--javascript-call-link---abencds-proj-view-element-htm------defines-the--cardinality--javascript-call-link---abencardinality-glosry-htm-----glossary-entry---of-a-text-association---redirected-to--javascript-call-link---abencds-proj-view-element-htm------redirects-a--cds-association--javascript-call-link---abencds-association-glosry-htm-----glossary-entry---in-a-cds-projection-view-to-a-projection-of-the-association-target----redirected-to-composition-child--javascript-call-link---abencds-proj-view-expose-assoc-htm------redirects-a--cds-composition--javascript-call-link---abencds-composition-glosry-htm-----glossary-entry---in-a-cds-projection-view-to-a-projection-of-the-composition-target----redirected-to-parent--javascript-call-link---abencds-proj-view-expose-assoc-htm------redirects-a--cds-to-parent-association--javascript-call-link---abento-parent-association-glosry-htm-----glossary-entry---in-a-cds-projection-view-to-a-projection-of-the-association-target---expressions--operators--meaning---max--javascript-call-link---abencds-aggregate-functions-v2-htm-------min--javascript-call-link---abencds-aggregate-functions-v2-htm-------avg-----as-dtype------javascript-call-link---abencds-aggregate-functions-v2-htm-------sum--javascript-call-link---abencds-aggregate-functions-v2-htm-------count--javascript-call-link---abencds-aggregate-functions-v2-htm------aggregate-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm----------javascript-call-link---abencds-arithmetic-expression-v2-htm-----------javascript-call-link---abencds-arithmetic-expression-v2-htm-----------javascript-call-link---abencds-arithmetic-expression-v2-htm----------javascript-call-link---abencds-arithmetic-expression-v2-htm------arithmetic-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------case--javascript-call-link---abencds-case-expression-v2-htm-------when--javascript-call-link---abencds-case-expression-v2-htm-------then--javascript-call-link---abencds-case-expression-v2-htm-------else--javascript-call-link---abencds-case-expression-v2-htm-------else-null--javascript-call-link---abencds-case-expression-v2-htm-------end--javascript-call-link---abencds-case-expression-v2-htm------case-distinction-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------cast--javascript-call-link---abencds-cast-expression-v2-htm------cast-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm----------javascript-call-link---abencds-cond-expr-comp-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm------------javascript-call-link---abencds-cond-expr-comp-v2-htm-------between--javascript-call-link---abencds-cond-expr-betw-v2-htm-------like--javascript-call-link---abencds-cond-expr-like-v2-htm-------is-null--javascript-call-link---abencds-cond-expr-null-v2-htm-------not--javascript-call-link---abencds-conditional-expression-v2-htm-------and--javascript-call-link---abencds-conditional-expression-v2-htm-------or--javascript-call-link---abencds-conditional-expression-v2-htm------relational-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------built-in-functions--function--meaning---abs--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------ceil--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------div--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------division--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------floor--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------mod--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------round--javascript-call-link---abencds-sql-functions-numeric-v2-htm------numeric-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------concat--javascript-call-link---abencds-sql-functions-character-v2-htm-------concat--with--space--javascript-call-link---abencds-sql-functions-character-v2-htm-------instr--javascript-call-link---abencds-sql-functions-character-v2-htm-------left--javascript-call-link---abencds-sql-functions-character-v2-htm-------length--javascript-call-link---abencds-sql-functions-character-v2-htm-------lpad--javascript-call-link---abencds-sql-functions-character-v2-htm-------lower--javascript-call-link---abencds-sql-functions-character-v2-htm-------ltrim--javascript-call-link---abencds-sql-functions-character-v2-htm-------replace--javascript-call-link---abencds-sql-functions-character-v2-htm-------right--javascript-call-link---abencds-sql-functions-character-v2-htm-------rpad--javascript-call-link---abencds-sql-functions-character-v2-htm-------rtrim--javascript-call-link---abencds-sql-functions-character-v2-htm-------substring--javascript-call-link---abencds-sql-functions-character-v2-htm-------upper--javascript-call-link---abencds-sql-functions-character-v2-htm------string-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------bintohex--javascript-call-link---abencds-conv-func-types-v2-htm-------hextobin--javascript-call-link---abencds-conv-func-types-v2-htm------byte-string-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------coalesce--javascript-call-link---abencds-coalesce-expression-v2-htm------coalesce-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------fltp--to--dec--javascript-call-link---abencds-conv-func-types-v2-htm-------unit--conversion--javascript-call-link---abencds-conv-func-unit-curr-v2-htm-------currency--conversion--javascript-call-link---abencds-conv-func-unit-curr-v2-htm-------decimal--shift--javascript-call-link---abencds-conv-func-unit-curr-v1-htm-------get--numeric--value--javascript-call-link---abencds-conv-func-unit-curr-v2-htm-------curr--to--decfloat--amount--javascript-call-link---abencds-conv-func-unit-curr-v2-htm------conversion-functions-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------dats--is--valid--javascript-call-link---abencds-date-functions-v2-htm-------dats--days--between--javascript-call-link---abencds-date-functions-v2-htm-------dats--add--days--javascript-call-link---abencds-date-functions-v2-htm-------dats--add--months--javascript-call-link---abencds-date-functions-v2-htm------date-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------tims--is--valid--javascript-call-link---abencds-time-functions-v2-htm------time-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------tstmp--is--valid--javascript-call-link---abencds-timestamp-functions-v2-htm-------tstmp--current--utctimestamp--javascript-call-link---abencds-timestamp-functions-v2-htm-------tstmp--seconds--between--javascript-call-link---abencds-timestamp-functions-v2-htm-------tstmp--add--seconds--javascript-call-link---abencds-timestamp-functions-v2-htm------time-stamp-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------abap--system--timezone--javascript-call-link---abencds-timezone-functions-v2-htm-------abap--user--timezone--javascript-call-link---abencds-timezone-functions-v2-htm------time-zone-functions-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------tstmp--to--dats--javascript-call-link---abencds-date-time-conversions-v2-htm-------tstmp--to--tims--javascript-call-link---abencds-date-time-conversions-v2-htm-------tstmp--to--dst--javascript-call-link---abencds-date-time-conversions-v2-htm-------dats--tims--to--tstmp--javascript-call-link---abencds-date-time-conversions-v2-htm------date-time-conversions-functions-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------cds-entity-extensions-----keywords-and-additions--language-element--meaning---extend-view-entity---with--javascript-call-link---abencds-extend-view-entity-htm------extends-a--cds-view-entity--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry---or-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry---using-a--cds-view-entity-extension--javascript-call-link---abencds-view-entity-extend-glosry-htm-----glossary-entry-----extend-custom-entity---with--javascript-call-link---abencds-extend-custom-entity-htm------extends-a--cds-custom-entity--javascript-call-link---abencds-custom-entity-glosry-htm-----glossary-entry---using-a--cds-custom-entity-extension--javascript-call-link---abencds-cus-entity-extend-glosry-htm-----glossary-entry-----extend-abstract-entity---with--javascript-call-link---abencds-extend-abstract-entity-htm------extends-a--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry---using-a--cds-abstract-entity-extension--javascript-call-link---abencds-abs-entity-extend-glosry-htm-----glossary-entry-----extend-view------javascript-call-link---abencds-extend-view-htm-----with--javascript-call-link---abencds-extend-view-htm------extends-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---using-a--cds-view-extension--javascript-call-link---abencds-view-extend-glosry-htm-----glossary-entry----cds-table-functions-----keywords-and-additions--language-element--meaning---define-table-function-----returns-----implemented-by-method------javascript-call-link---abencds-f1-define-table-function-htm------defines-a--cds-table-function--javascript-call-link---abencds-table-function-glosry-htm-----glossary-entry----cds-hierarchies-----keywords-and-additions--language-element--meaning---define-hierarchy------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----with-parameters--javascript-call-link---abencds-f1-hiera-parameter-list-htm------defines-input-parameters-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----as-parent-child-hierarchy--javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry---using-parent-child-relationships---source------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-data-source-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----child-to-parent-association--javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the--hierarchy-association--javascript-call-link---abenhierarchy-association-glosry-htm-----glossary-entry---of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----period-from-----to-----valid-from-----to------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--temporal-hierarchy--javascript-call-link---abentemporal-hierarchy-glosry-htm-----glossary-entry-----directory-----filter-by------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-a-condition-for-the-source-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----start-where------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-start-condition-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----siblings-order-by------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-sort-order-of--sibling-nodes--javascript-call-link---abensibling-node-glosry-htm-----glossary-entry---in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----depth------javascript-call-link---abencds-f1-define-hierarchy-htm------delimits-the--hierarchy-levels--javascript-call-link---abenhierarchy-level-glosry-htm-----glossary-entry---of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----nodetype------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-an-element-as-a-node-type-for-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----multiple-parents------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if-multiple--parent-nodes--javascript-call-link---abenparent-node-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----orphans------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if--orphan-nodes--javascript-call-link---abenorphan-node-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----cycles------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if--node-cycles--javascript-call-link---abennode-cycle-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----generate-spantree--javascript-call-link---abencds-f1-define-hierarchy-htm------reduces-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry---to-a-tree--cds-custom-entities-----keywords-and-additions--language-element--meaning---define-custom-entity------javascript-call-link---abencds-f1-define-custom-entity-htm------defines-a-cds-custom-entity---root--javascript-call-link---abencds-f1-define-custom-entity-htm------defines-a-cds-custom-entity-as-a-root-entity---with-parameters--javascript-call-link---abencds-f1-custom-parameter-list-htm------defines-input-parameters-of-a-cds-custom-entity---association-----to------javascript-call-link---abencds-f1-custom-association-htm-----on--javascript-call-link---abencds-f1-absent-association-htm------defines-a-cds-association-in-the--element-list--javascript-call-link---abencds-f1-custom-element-htm-----of-a-cds-custom-entity----with-default-filter--javascript-call-link---abencds-f1-custom-association-htm------specifies-a-default-filter-condition-of-a-cds-association---composition-----of--javascript-call-link---abencds-f1-custom-composition-htm------defines-a-cds-composition-in-the-element-list-of-a-cds-custom-entity---association-to-parent-----on--javascript-call-link---abencds-f1-custom-tp-association-htm------defines-a-cds-to-parent-association-in-the-element-list-of-a-cds-custom-entity--cds-abstract-entities-----keywords-and-additions--language-element--meaning---define-abstract-entity------javascript-call-link---abencds-f1-define-abstract-entity-htm------defines-an--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry-----root--javascript-call-link---abencds-f1-define-abstract-entity-htm------defines-a-cds-abstract-entity-as-a-root-entity---with-parameters--javascript-call-link---abencds-f1-entity-parameter-list-htm------defines-input-parameters-of-an--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry------association-----to-----on--javascript-call-link---abencds-f1-absent-association-htm------defines-a-cds-association-in-the--element-list--javascript-call-link---abencds-f1-absent-element-list-htm-----of-an--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry-----with-default-filter--javascript-call-link---abencds-f1-absent-association-htm------specifies-a-default-filter-condition-of-a-cds-association---composition-----of--javascript-call-link---abencds-absent-composition-htm------defines-a-cds-composition-in-the-element-list-of-a-cds-abstract-entity---association-to-parent-----on--javascript-call-link---abencds-absent-to-parent-assoc-htm------defines-a-cds-to-parent-association-in-the-element-list-of-a-cds-abstract-entity--cds-metadata-extensions-----keywords-and-additions--language-element--meaning---annotate-entity---view-----with--javascript-call-link---abencds-f1-annotate-view-htm------defines-a--cds-metadata-extension--javascript-call-link---abencds-metadata-extension-glosry-htm-----glossary-entry---for-a--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry-----variant--javascript-call-link---abencds-f1-annotate-view-htm------joins-a--cds-metadata-extension--javascript-call-link---abencds-metadata-extension-glosry-htm-----glossary-entry---with-a--cds-variant--javascript-call-link---abencds-variant-glosry-htm-----glossary-entry-----parameters--javascript-call-link---abencds-f1-annotate-view-para-list-htm------extends-the-annotations-of-the-input-parameters-of-a--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry----bdl-----cds-behavior-definitions-----cds-behavior-definition-header--language-element--meaning---managed--javascript-call-link---abenbdl-impl-type-htm------defines-a--managed-rap-bo--javascript-call-link---abenmanaged-rap-bo-glosry-htm-----glossary-entry-----unmanaged--javascript-call-link---abenbdl-impl-type-htm------defines-an--unmanaged-rap-bo--javascript-call-link---abenunmanaged-rap-bo-glosry-htm-----glossary-entry-----abstract--javascript-call-link---abenbdl-impl-type-htm------defines-an-abstract-bdef---projection--javascript-call-link---abenbdl-impl-type-htm------defines-a-projection-rap-bo---interface--javascript-call-link---abenbdl-impl-type-htm------defines-a-rap-bo-interface---implementation-in-class-----unique------javascript-call-link---abenbdl-in-class-unique-htm------class-for-manual-method-implementation---strict--javascript-call-link---abenbdl-strict-1-htm----------strict-2---javascript-call-link---abenbdl-strict-2-htm------enables-bdef-strict-mode---extensible---------with-validations-on-save---------with-determinations-on-save---------with-determinations-on-modify----------javascript-call-link---abenbdl-extensible-htm------enables--bdef-extensions--javascript-call-link---abenrap-extension-glosry-htm-----glossary-entry---for-the-indicated-entities---with-draft--javascript-call-link---abenbdl-with-draft-htm------enables-the-draft-concept-for-a--rap-business-object--javascript-call-link---abenrap-bo-glosry-htm-----glossary-entry-----use-draft--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-draft-handling--javascript-call-link---abenrap-draft-handling-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------with-privileged-mode-disabling-----base-context-----and----------javascript-call-link---abenbdl-privileged-mode-htm------enables-privileged-access-to-a--rap-business-object--javascript-call-link---abenrap-bo-glosry-htm-----glossary-entry-----foreign-entity--javascript-call-link---abenbdl-foreign-htm------defines-an-entity-which-is-not-part-of-the-bo-structure-as-component-for-the-response-structures--thus-enabling-message-mapping-for-other-bos---entity-behavior-definition--language-element--meaning---define-behavior-for---alias--javascript-call-link---abenbdl-define-beh-htm------defines-an--entity-behavior-definition--javascript-call-link---abencds-entity-bdef-glosry-htm-----glossary-entry----authorization-context-definition--language-element--meaning---define-authorization-context---------for-disable----modify---read---modify-read---------javascript-call-link---abenbdl-def-auth-context-htm------defines-an--authorization-context--javascript-call-link---abencds-auth-context-glosry-htm-----glossary-entry---that-lists--authorization-objects--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---that-can-be-skipped-when-the-respective-authorization-context-is-activated----define-own-authorization-context-----by-privileged-mode-----and---------------javascript-call-link---abenbdl-def-own-auth-context-htm------defines-an--own-authorization-context--javascript-call-link---abencds-own-ac-glosry-htm-----glossary-entry---that-documents-authorization-objects-used-in-the-implementation-of-the-rap-bo-in-question---entity-behavior-characteristics--language-element--meaning---persistent-table--javascript-call-link---abenbdl-persistent-table-htm------defines-a-persistent-database-table-for-storing-the-data-changes-that-result-from-transactional-behavior----draft-table--javascript-call-link---abenbdl-draft-table-htm------defines-the--draft-database-table--javascript-call-link---abendraft-table-glosry-htm-----glossary-entry---used-to-store-draft-data----with-additional-save--javascript-call-link---abenbdl-saving-htm-------with-unmanaged-save--javascript-call-link---abenbdl-saving-htm-------and-cleanup--javascript-call-link---abenbdl-saving-htm-------with-full-data--javascript-call-link---abenbdl-saving-htm------user-defined-saving-strategy-for-managed-rap-bos---etag-master--javascript-call-link---abenbdl-etag-htm-------etag-dependent--javascript-call-link---abenbdl-etag-htm-------total-etag--javascript-call-link---abenbdl-etag-htm------defines-an-etag-field-for-optimistic-concurrency-control---use-etag--javascript-call-link---abenbdl-use-projection-htm------reuse-of-etag-fields-for-optimistic-concurrency-control-in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------lock-master-----unmanaged------javascript-call-link---abenbdl-locking-htm-------lock-dependent---javascript-call-link---abenbdl-locking-htm------lock-none--javascript-call-link---abenbdl-locking-htm------defines-an-exclusive-lock-that-enables-pessimistic-concurrency-control---authorization-master-------global---------instance---------global--instance--------javascript-call-link---abenbdl-authorization-htm-------authorization-dependent--javascript-call-link---abenbdl-authorization-htm-------authorization-none--javascript-call-link---abenbdl-authorization-htm-------authorization-update--javascript-call-link---abenbdl-authorization-htm------defines-an-authorization-concept-for-a-business-object-to-protect-it-against-unauthorized-access-to-data----early-numbering--javascript-call-link---abenbdl-early-numb-htm------defines-unmanaged--early-numbering--javascript-call-link---abenrap-early-numbering-glosry-htm-----glossary-entry---for-all-primary-key-fields-of-a-business-object-entity----late-numbering--javascript-call-link---abenbdl-late-numbering-htm------enables-gapless-assignment-for-unique-keys-when-creating-new-entity-instances---entity-behavior-body--language-element--meaning---field----------readonly--------------------mandatory---------------------features-instance--------------------mandatory-create--------------------readonly-update--------------------numbering-managed-------------------------suppress-----------javascript-call-link---abenbdl-field-char-htm------defines-field-additions---field--modify---javascript-call-link---abenbdl-augment-projection-htm------augmentation-of-a--cds-virtual-element--javascript-call-link---abencds-virtual-element-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------group--javascript-call-link---abenbdl-grouping-htm------splits-the-implementation-relevant-parts-of-a-business-object-s-logic-into-multiple-groups-to-allow-simultaneous-work----create--javascript-call-link---abenbdl-standard-operations-htm-------update--javascript-call-link---abenbdl-standard-operations-htm-------delete--javascript-call-link---abenbdl-standard-operations-htm------enables--crud-operations--javascript-call-link---abencrud-glosry-htm-----glossary-entry---for-a-rap-business-object----use--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-bo-operations--javascript-call-link---abenrap-bo-operation-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------association-----abbreviation---------with-draft---------without-response------javascript-call-link---abenbdl-association-htm------enables-read-by-association-and-create-by-association-operations-for-associations--------static--------factory--------static-factory-----action---------external------javascript-call-link---abenbdl-action-htm------defines-an-action-------static-----function---------external------javascript-call-link---abenbdl-function-htm------defines-a-function---determine-action---------always------javascript-call-link---abenbdl-determine-action-htm------defines-a--determine-action--javascript-call-link---abenrap-bo-det-action-glosry-htm-----glossary-entry---that-allows-a--rap-bo-consumer--javascript-call-link---abenrap-bo-consumer-glosry-htm-----glossary-entry---to-execute--determinations--javascript-call-link---abenrap-determination-glosry-htm-----glossary-entry---and--validations--javascript-call-link---abenrap-validation-glosry-htm-----glossary-entry---on-request-------draft-action-edit--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-activate--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-discard--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-resume-----with-additional-implementation------javascript-call-link---abenbdl-draft-action-htm-----------draft-determine-action-prepare--javascript-call-link---abenbdl-draft-action-htm------defines-a-draft-action-in-a-draft-enabled-scenario---parameter----------self------javascript-call-link---abenbdl-action-input-param-htm------defines-an-input-parameter-for-an-action-or-function---result-----selective-------cardinality--------self-----entity------javascript-call-link---abenbdl-action-output-para-htm------defines-an-output-parameter-for-an-action-or-function---mapping-for---------control--------------corresponding---------except------javascript-call-link---abenbdl-type-mapping-htm------maps-field-names-from-database-tables-to-field-names-from-the-current-data-model---validation-----on-save----------javascript-call-link---abenbdl-validations-htm------defines-a-validation-which-is-called-during-the-save-sequence----determination-----on-save-------------on-modify----------javascript-call-link---abenbdl-determinations-htm------defines-a-determination-which-is-called-during-the-save-sequence-or-immediately-after-data-has-been-changed----features--global--features--instance--javascript-call-link---abenbdl-actions-fc-htm------rap-bo-operation-addition--can-be-used-to-define-global-or-instance-feature-control-for-a-rap-bo-operation----internal--javascript-call-link---abenbdl-internal-htm------defines-a-rap-bo-operation-as-internal----precheck--javascript-call-link---abenbdl-precheck-htm------prevents-illegal-changes-from-reaching-the-application-buffer-by-prechecking-modify-operations----augment--javascript-call-link---abenbdl-augment-projection-htm------augments-modify-requests-on-the-projection-layer-in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----abstract-behavior-definitions--language-element--meaning---with-hierarchy--javascript-call-link---abenbdl-bdef-abstract-header-htm------causes-the-construction-of-a-new-kind-of-bdef-derived-type--only-available-in-abstract-bdefs----with-control--javascript-call-link---abenbdl-define-beh-abstract-htm------optional-addition-of-the-define-behavior-statement-that-is-only-available-in-abstract-bdefs--adds-the--control-structure-to-the-corresponding-derived-type-structure----scalar-entity-----field--javascript-call-link---abenbdl-define-beh-abstract-htm------alternative-to-an-entity-behavior-definition-that-is-only-available-in-abstract-bdefs--integrates-a-node-of-the-cds-composition-tree-into-the-hierarchical-derived-type-of-the-abstract-bdef-as-a-scalar-type----association---------with-hierarchy------javascript-call-link---abenbdl-association-abstract-htm------in-an-abstract-bdef--an-association-can-be-defined-with-the-optional-addition-with-hierarchy--this-addition-is-available-for-to-parent-associations-and-cross-bo-associations-to-include-them-multiple-times-in-the-type-structure----deep-mapping-for---------corresponding---------sub------javascript-call-link---abenbdl-type-mapping-abstract-htm------defines-a-deep-mapping-in-an-abstract-bdef---bdef-extensions-----keywords-and-additions--this-list-displays-special-language-elements-for-bdef-extensions--you-can-also-use-statements-from--cds-behavior-definitions--javascript-call-link---abencds-behavior-definition-glosry-htm-----glossary-entry-----language-element--meaning---extension--javascript-call-link---abenbdl-extensibility-managed-unm-htm------defines-a--bdef-extension--javascript-call-link---abenrap-extension-glosry-htm-----glossary-entry------extend-behavior-for--javascript-call-link---abenbdl-extend-beh-htm------defines-a--rap-entity-behavior-extension--javascript-call-link---abenrap-behavior-extension-glosry-htm-----glossary-entry------extend-own-authorization-context--javascript-call-link---abenbdl-extend-own-auth-context-htm------extends-an--own-authorization-context--javascript-call-link---abencds-own-ac-glosry-htm-----glossary-entry------extend-determine-action--javascript-call-link---abenbdl-determine-action-ext-htm------extends-an-existing--rap-bo-determine-action--javascript-call-link---abenrap-bo-det-action-glosry-htm-----glossary-entry------extend-draft-determine-action-prepare--javascript-call-link---abenbdl-draft-action-ext-htm------extends-an-existing--draft-determine-action-prepare--javascript-call-link---abenrap-bo-draft-action-glosry-htm-----glossary-entry------extend-mapping-for--javascript-call-link---abenbdl-type-mapping-ext-htm------extends-an-existing--rap-type-mapping--javascript-call-link---abenrap-type-mapping-glosry-htm-----glossary-entry------extension-for-projection--javascript-call-link---abenbdl-extensibility-projection-htm------extends-a--cds-projection-behavior-definition--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------ancestor-association--javascript-call-link---abenbdl-ancestor-ext-htm------defines-a-cds-association-as-ancestor-association--the--association-target--javascript-call-link---abenassociation-target-glosry-htm-----glossary-entry---must-be-an-extension-node---dcl-----cds-roles-----keywords-and-additions--language-element--meaning---define-role--javascript-call-link---abencds-f1-define-role-htm------defines-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----grant-select-on--javascript-call-link---abencds-dcl-role-rules-htm------defines-an-access-rule-in-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----combination-mode-or---and--javascript-call-link---abencds-dcl-role-cond-rule-htm------specifies-multiple-access-rules-for-the-same-cds-entity---redefinition--javascript-call-link---abencds-dcl-role-cond-rule-htm------specifies-the-only-existing-access-rule-for-the-cds-entity---where--javascript-call-link---abencds-dcl-role-cond-rule-htm------where-clause-in-a-conditional-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----and--javascript-call-link---abencds-dcl-role-cond-expr-htm-------or--javascript-call-link---abencds-dcl-role-cond-expr-htm-------not--javascript-call-link---abencds-dcl-role-cond-expr-htm------boolean-operator-in-a-conditional-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----inherit--javascript-call-link---abencds-dcl-role-inherited-rule-htm------defines-an-inherited-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry----obsolete----aspect-pfcg--auth--javascript-call-link---abencds-f1-cond-pfcg-htm-------aspect-user--javascript-call-link---abencds-f1-cond-user-htm------conditions-for--cds-roles--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----pfcg--mapping--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm------specifies-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---in-a--pfcg-condition--javascript-call-link---abenpfcg-condition-glosry-htm-----glossary-entry---of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----inherit-----for-grant-select-on--javascript-call-link---abencds-f1-cond-inherit-htm------defines-an--inheritance-condition--javascript-call-link---abeninherit-condition-glosry-htm-----glossary-entry---of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry------------------------------------------javascript-call-link---abencds-f1-dcl-cond-expression-htm--------between---like---is-null--javascript-call-link---abencds-f1-cond-literal-htm----------operators-for-literal-conditions---bypass-when--javascript-call-link---abencds-f1-cond-pfcg-htm------specifies-the-condition-for-authorization-filtering---in-scenario--javascript-call-link---abencds-f1-cond-pfcg-htm------specifies-the-switchable-authorization-check---inherit-conditions-from-entity--javascript-call-link---abencds-f1-cond-inherit-htm------defines-an-inheritance-condition-of-a-cds-role---inherit-conditions-from-super--javascript-call-link---abencds-f1-cond-inherit-htm------defines-an-inheritance-condition-of-a-cds-role--cds-access-policy-----keywords-and-additions--language-element--meaning---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------defines-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry-----define-pfcg--mapping-----between-----and-----using------javascript-call-link---abencds-f1-define-pfcg-mapping-htm------defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---in-an-access-policy---define-aspect-----as-select-from-----with-user-element--javascript-call-link---abencds-f1-define-generic-aspect-htm------defines-a-self-defined-aspect-as-part-of-a-cds-access-policy------------abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---amounts-and-quantities----files----4-----difficulty----advanced----abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---amounts-and-quantities--included-pages--4---------source-----abencds-language-elements-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-language-elements-htm-------abencds-calc-quan-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Amounts and Quantities, ABENCDS_CALC_QUAN, 757%0D%0A%0D%0AError:%0D%0A%0D%
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Amounts and Quantities, ABENCDS_CALC_QUAN, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP CDS - Amounts and Quantities
@@ -185,16 +57,19 @@ Continue
 [ABAP CDS - Calculated Quantity with Calculated Unit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm)
 
 
-
-**📖 Source**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calc_quan.htm)
-
 ### abencds_amount_field.htm
 
-> **📖 Official SAP Documentation**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Amount Fields"
+description: |
+  An ABAP CDS amount field(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.s
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field.htm"
+abapFile: "abencds_amount_field.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "amount", "field"]
+---
 
 * * *
 
@@ -245,16 +120,19 @@ Hints
 -   Currencies are handled as specified by the data saved in the database tables TCUR... of the package SFIB. The exchange rates and other settings can be maintained in transaction OB08.
 
 
-
-**📖 Source**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field.htm)
-
 ### abencds_quantity_field.htm
 
-> **📖 Official SAP Documentation**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_field.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Quantity Fields"
+description: |
+  An ABAP CDS quantity field(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_field.htm"
+abapFile: "abencds_quantity_field.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "quantity", "field"]
+---
 
 * * *
 
@@ -301,16 +179,19 @@ Hints
 -   Quantities and units are handled as specified by the data saved in the DDIC database tables T006... in the package SZME. This data can be maintained using the transaction CUNI.
 
 
-
-**📖 Source**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_field.htm)
-
 ### abencds_calculated_quantity.htm
 
-> **📖 Official SAP Documentation**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Calculated Quantity with Calculated Unit"
+description: |
+  A CDS calculated quantity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity_glosry.htm 'Glossary Entry') is a component of a CDS view entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') or of a CDS p
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm"
+abapFile: "abencds_calculated_quantity.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "types", "abencds", "calculated", "quantity"]
+---
 
 * * *
 
@@ -377,102 +258,28 @@ The program DEMO\_CDS\_CALCULATED\_QUANTITY accesses the view, inserts values in
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations / ABAP CDS - DDL for Annotation Definitions / CDS DDL - DEFINE ANNOTATION
 
-**Files**: 9 | **Difficulty**: advanced
+**Files**: 5 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations / ABAP CDS - DDL for Annotation Definitions / CDS DDL - DEFINE ANNOTATION
 
-Included pages: 9
+Included pages: 5
 
-
-
-**📖 Source**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm)
-
-### abencds_anno_definition.htm
-
-> **📖 Official SAP Documentation**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Definition of Annotations, ABENCDS_ANNO_DEFINITION, 757%0D%0A%0D%0AError:%
-0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - Definition of Annotations
-
-The [CDS annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm "Glossary Entry") that can be specified in [CDS source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm "Glossary Entry") are governed by [CDS annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"). A CDS annotation definition defines a [CDS annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm "Glossary Entry") as a [CDS object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm "Glossary Entry"). It describes how this annotation is intended to be used in [CDS source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm "Glossary Entry"). The description covers the following:
-
--   The name of a [main annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmain_annotation_glosry.htm "Glossary Entry")
--   The possible [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry")
--   Whether it can be structured using [subannotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_annotation_glosry.htm "Glossary Entry")
--   Whether [annotation arrays](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") can be specified
-
-An annotation is defined in a separate piece of [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") and is transported with this code. DDLA source code for annotation definitions can define exactly one identically named [CDS annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm) using the CDS DDL statement [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm) (this annotation can, however, be the main annotation of subannotations). DDLA source code of this type can only be edited in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"). DDLA source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
-
-Hints
-
--   The annotations defined as CDS objects are used by the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry") for source code coloring and Code Completion when [annotations are specified](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_usage.htm).
--   The syntax check for the definition of a CDS entity in [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") for [CDS entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry") does not yet evaluate the annotation definitions. It only checks the correctness of the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry").
--   Customers and partners cannot currently define their own annotations. Only [SAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_annotation_glosry.htm "Glossary Entry") should currently be used.
--   [SAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_sap.htm) lists all DDLA source code delivered by SAP.
-
-Continue
-[ABAP CDS - DDL for Annotation Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
-
-
-
-**📖 Source**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm)
-
-### abencds_f1_ddla_syntax.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - DDL for Annotation Definitions, ABENCDS_F1_DDLA_SYNTAX, 757%0D%0A%0D%0AErr
-or:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - DDL for Annotation Definitions
-
-Alongside the [DDL statements for data definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm), the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") in ABAP CDS makes it possible to define [CDS annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm "Glossary Entry") as [CDS objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm "Glossary Entry") in [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry"). The following statement is used here:
-
--   [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-
-Hints
-
--   The [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of annotation definitions has its own editor in [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DDLA source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
--   Two slashes (//) can be used as [comment characters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_general_syntax_rules.htm) in [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") for annotation definitions, but not two dashes (\--).
-
-Continue
-[CDS DDL - DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-
-
-
-**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
 
 ### abencds_f1_define_annotation.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION"
+description: |
+  Syntax @annotation_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) @annotation_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) ... define annotation Anno   : type
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm"
+abapFile: "abencds_f1_define_annotation.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencds", "define", "annotation"]
+---
 
 * * *
 
@@ -558,16 +365,19 @@ Continue
 [CDS DDL - DEFINE ANNOTATION, arrelem](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-
 ### abencds_f1_define_anno_annos.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm"
+abapFile: "abencds_f1_define_anno_annos.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "method", "class", "data", "abencds", "define", "anno", "annos"]
+---
 
 * * *
 
@@ -873,16 +683,19 @@ Hint
 While the annotation value #ENTITY defines that an annotation can be specified in the definition of any CDS entity, this is not the case for the annotation value #VIEW. The annotation value #VIEW defines that an annotation can be specified in the definition of one of the possible kinds of CDS views (view entity, projection view, DDIC-based view) but it does not define exactly where. There is a special a set of [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be used in [DDIC-based views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry") only. The ABAP annotations that can be specified for a kind of view are documented for the respective DEFINE statement. For an overview see [ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_tables.htm).
 
 
-
-**📖 Source**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)
-
 ### abencds_f1_define_annotation_type.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION, type"
+description: |
+  Syntax ... dtype enum  SYMBOL1; SYMBOL2; ...  default val#SYMBOL Effect Defines the annotation values(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm 'Glossary Entry') to be specified when a CDS annotation(https://help.sap.com/doc/a
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm"
+abapFile: "abencds_f1_define_annotation_type.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "define", "annotation", "type"]
+---
 
 * * *
 
@@ -1025,16 +838,19 @@ The following annotation definition has incorrect syntax. The specified length 1
 annotation DemoAnno : String(1) default 'XXX';
 
 
-
-**📖 Source**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm)
-
 ### abencds_f1_define_annotation_sub.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION, subannos"
+description: |
+  Syntax ... @annotation_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) @annotation_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) ... subAnno1: type(https://help.sap.co
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm"
+abapFile: "abencds_f1_define_annotation_sub.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "annotation", "sub"]
+---
 
 * * *
 
@@ -1105,16 +921,19 @@ The exact same result can be achieved as follows:
 @DemoAnnoMain.subAnno3.subsubAnno2:200
 
 
-
-**📖 Source**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm)
-
 ### abencds_f1_define_annotation_arr.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - DEFINE ANNOTATION, arrelem"
+description: |
+  Syntax ... type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm); subannos(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm); Effect Defines the elements of an annotation arr
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm"
+abapFile: "abencds_f1_define_annotation_arr.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "annotation", "arr"]
+---
 
 * * *
 
@@ -1174,136 +993,6 @@ The annotation can be used as follows in CDS source code, for example, to specif
                       {subAnno1:true, subAnno2:'Other Text'} \]
 
 
-
-**📖 Source**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm)
-
-### abencds_f1_define_annotation.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm) →  [ABAP CDS - DDL for Annotation Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DEFINE ANNOTATION, ABENCDS_F1_DEFINE_ANNOTATION, 757%0D%0A%0D%0AError:%0D%0
-A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DEFINE ANNOTATION
-
-Syntax
-
-*\[*[@annotation\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)*\]*
-*\[*[@annotation\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)*\]*
-...
-*\[*define*\]* annotation Anno *{*  : [type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm); *}*
-                       *|* *{* *\[*:*\]* {[subannos](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm)}*\[*;*\]* *}*
-                       *|* *{*  :   array of [arrelem](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm) *}*
-
-Effect
-
-The statement define annotation defines a [CDS annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm "Glossary Entry") with the name Anno in the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") in the [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry"). The annotation Anno is the [main annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmain_annotation_glosry.htm "Glossary Entry") of the current [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"), which can be structured with optional [subannotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_annotation_glosry.htm "Glossary Entry"). The DDLA source code of an annotation definition can contain the definition of exactly one main annotation, whose name must match the name of the DDLA source code. The names are case-sensitive. Annotations of the definition annotation, [@annotation\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm), [@annotation\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm), ..., can be specified before the statement define annotation. These are inherited by subannotations or overwritten there.
-
-The statement define annotation creates the annotation Anno as a [CDS object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm "Glossary Entry"), which is transported using the DDLA source code. The definition of the annotation Anno describes how it is to be used in other CDS source code in [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
-
--   Anno is the name of the annotation. It can contain letters, numbers, and underscores, and must start with a letter. Only annotations with names defined in this way should be [used](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm).
--   One of the following must be specified after the name:
-    -   A colon (:) followed by the definition of the type [type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm) of the annotation. Enumerations and a default value can be defined when the type is specified. The type specification must be closed using a (;).
-    -   An optional colon (:) followed by the structuring of the annotation using [subannotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_annotation_glosry.htm "Glossary Entry") [subannos](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm) in curly brackets {...}. This can be closed using an optional semicolon (;).
-    -   A colon (:) followed by the definition of the elements of an array using array of. This makes the annotation Anno into an [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") of the elements defined using [arrelem](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm). These elements can be a type specification or subannotations.
-
-Hints
-
--   Put simply, an annotation definition specifies how the annotation needs to be specified in CDS source code in [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"). When annotations are specified, the annotation definitions are used for the color of the source code and for code completion.
-    -   The type specification determines which [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry") can be specified in the annotation syntax when the annotation is used.
-    -   In the annotation syntax, subannotations are specified either as [comma-separated lists in curly brackets](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_subanno.htm) or as [structured names](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_name.htm).
-    -   The elements of an array are specified in annotation syntax as [comma-separated lists in square brackets](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_array.htm).
--   The syntax check in [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") for data definitions currently ignores annotation definitions. It checks only the formal correctness of any names, [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry"), [subannotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_annotation_glosry.htm "Glossary Entry"), and [annotation arrays](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") specified.
--   When [annotations are evaluated](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm) in a [CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry") using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE, the annotations are respected as specified in the [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of the entity. The associated annotation definitions are ignored.
--   Alongside the rules defined by the statement define annotation, an annotation definition also has annotation documentation that describes its meaning and how it is used by the framework in question.
-
-Example
-
-Defines a structured annotation. The [main annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmain_annotation_glosry.htm "Glossary Entry") DEMOANNOSTRUCT has [subannotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_annotation_glosry.htm "Glossary Entry") subAnno1 to subAnno4. The subannotations subAnno3 and subAnno4 are [annotation arrays](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry"). (Here, subAnno4 is structured.)
-
-@Scope:\[#VIEW, #EXTEND\_VIEW\]  
-define annotation DemoAnnoStruct  
-  { subAnno1 : Boolean default true;  
-    subAnno2 : Integer enum { I1; I2; I3; } default #I1;  
-    subAnno3 : array of String(10);  
-    subAnno4 : array of { comp1 : String(1);  
-                          comp2 : String(2);  
-                        };  
-  };
-
-The annotation defined in this way allows the following to be specified in [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") in a piece of [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") that defines a [CDS view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_glosry.htm "Glossary Entry") or a [CDS table function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_function_glosry.htm "Glossary Entry") as a view annotation ([CDS view entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity_anno.htm), [CDS projection view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_annotations.htm), [CDS DDIC-based views (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm)) or as a [function annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_function_annotations.htm):
-
--   Specifies the subannotation subAnno1 once (the default value true is used here implicitly):
-    
-    @DemoAnnoStruct.subAnno1
-    
--   Specifies the subannotations subAnno1 and subAnno2 together in curly brackets (the default values are overwritten by explicit [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry") here. In subAnno2, one of the fixed enumerated values is used:
-    
-    @DemoAnnoStruct:{subAnno1:false, subAnno2:#I2}
-    
--   Specifies annotation values for the annotation array subAnno3. The values within the quotation marks can have a maximum of ten characters:
-    
-    @DemoAnnoStruct.subAnno3:\['a','abc','abcdefghij'\]
-    
--   Specifies annotation values for the structured annotation array subAnno4.
-    
-    @DemoAnnoStruct.subAnno4:\[ {comp1: 'a', comp2: 'b' },
-                               {comp1: 'c', comp2: 'd' },
-                               {comp1: 'e', comp2: 'f' } \]
-    
-
-Continue
-[CDS DDL - DEFINE ANNOTATION, annotation\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)
-[CDS DDL - DEFINE ANNOTATION, type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm)
-[CDS DDL - DEFINE ANNOTATION, subannos](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm)
-[CDS DDL - DEFINE ANNOTATION, arrelem](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm)
-
-
-
-**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-
-### abencds_f1_ddla_syntax.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - DDL for Annotation Definitions, ABENCDS_F1_DDLA_SYNTAX, 757%0D%0A%0D%0AErr
-or:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - DDL for Annotation Definitions
-
-Alongside the [DDL statements for data definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm), the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") in ABAP CDS makes it possible to define [CDS annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm "Glossary Entry") as [CDS objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm "Glossary Entry") in [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry"). The following statement is used here:
-
--   [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-
-Hints
-
--   The [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of annotation definitions has its own editor in [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DDLA source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
--   Two slashes (//) can be used as [comment characters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_general_syntax_rules.htm) in [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") for annotation definitions, but not two dashes (\--).
-
-Continue
-[CDS DDL - DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
-
-
 ---
 
 
@@ -1316,16 +1005,19 @@ Continue
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
-
 ### abencds_f1_ddlx_syntax.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddlx_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DDL for Metadata Extensions"
+description: |
+  Alongside the DDL statements for data definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm), the CDS DDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm 'Glossary Entry') in ABAP CDS makes it possible to define metada
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddlx_syntax.htm"
+abapFile: "abencds_f1_ddlx_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddlx", "syntax"]
+---
 
 * * *
 
@@ -1351,16 +1043,19 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
 
 
-
-**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddlx_syntax.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entit
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -1513,16 +1208,19 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm)
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_f1_metadata_ext_annos.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm"
+abapFile: "abencds_f1_metadata_ext_annos.htm"
+keywords: ["do", "if", "try", "data", "abencds", "metadata", "ext", "annos"]
+---
 
 * * *
 
@@ -1545,7 +1243,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings.
 
--   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
+-   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
 
 Metadata Annotations   
 
@@ -1581,16 +1279,19 @@ ABAP Platform
 \-
 
 
-
-**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm)
-
 ### abencds_f1_annotate_view_para_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_para_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETERS @parameter_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) ... pname1, @parameter_annot1(http
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_para_list.htm"
+abapFile: "abencds_f1_annotate_view_para_list.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "annotate", "view", "para", "list"]
+---
 
 * * *
 
@@ -1638,16 +1339,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_para_list.htm)
-
 ### abencds_f1_annotate_view_sele_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @element_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) ... element1; @element_annot1(https://help.sap.com/doc/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm"
+abapFile: "abencds_f1_annotate_view_sele_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "annotate", "view", "sele", "list"]
+---
 
 * * *
 
@@ -1696,16 +1400,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entit
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -1870,16 +1577,19 @@ Continue
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_f1_ddlx_syntax.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddlx_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DDL for Metadata Extensions"
+description: |
+  Alongside the DDL statements for data definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm), the CDS DDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm 'Glossary Entry') in ABAP CDS makes it possible to define metada
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddlx_syntax.htm"
+abapFile: "abencds_f1_ddlx_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddlx", "syntax"]
+---
 
 * * *
 
@@ -1905,16 +1615,19 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
 
 
-
-**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddlx_syntax.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entit
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -2067,16 +1780,19 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm)
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_f1_metadata_ext_annos.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm"
+abapFile: "abencds_f1_metadata_ext_annos.htm"
+keywords: ["do", "if", "try", "data", "abencds", "metadata", "ext", "annos"]
+---
 
 * * *
 
@@ -2099,7 +1815,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings.
 
--   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
+-   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@entity\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., [@view\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), [@view\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm), ..., used to expand the entity.
 
 Metadata Annotations   
 
@@ -2135,16 +1851,19 @@ ABAP Platform
 \-
 
 
-
-**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm)
-
 ### abencds_f1_annotate_view_para_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_para_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETERS @parameter_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) ... pname1, @parameter_annot1(http
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_para_list.htm"
+abapFile: "abencds_f1_annotate_view_para_list.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "annotate", "view", "para", "list"]
+---
 
 * * *
 
@@ -2192,16 +1911,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_para_list.htm)
-
 ### abencds_f1_annotate_view_sele_list.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @element_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) ... element1; @element_annot1(https://help.sap.com/doc/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm"
+abapFile: "abencds_f1_annotate_view_sele_list.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "annotate", "view", "sele", "list"]
+---
 
 * * *
 
@@ -2250,16 +1972,19 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
-
-**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view_sele_list.htm)
-
 ### abencds_f1_annotate_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DDL - ANNOTATE ENTITY, VIEW"
+description: |
+  Syntax Forms ANNOTATE ENTITY 1. @Metadata.layer: #CORE#LOCALIZATION#INDUSTRY#PARTNER#CUSTOMER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm) @entity_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entit
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm"
+abapFile: "abencds_f1_annotate_view.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "annotate", "view"]
+---
 
 * * *
 
@@ -2424,16 +2149,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_annotate_view.htm)
-
 ### abencds_annotations_analysis.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_analysis.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Evaluation of Annotations"
+description: |
+  When an object defined in the CDS source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm 'Glossary Entry') is activated, the annotations defined in the CDS annotation syntax(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotati
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_analysis.htm"
+abapFile: "abencds_annotations_analysis.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abencds", "annotations", "analysis"]
+---
 
 * * *
 
@@ -2767,16 +2495,19 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS, Evaluation of Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm)
 
 
-
-**📖 Source**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_analysis.htm)
-
 ### abencds_semantics_annotation_abexa.htm
 
-> **📖 Official SAP Documentation**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS, Evaluation of Annotations"
+description: |
+  This example demonstrates how semantics annotations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm) of DDL source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') are evaluated. Source Code
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm"
+abapFile: "abencds_semantics_annotation_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencds", "semantics", "annotation", "abexa"]
+---
 
 * * *
 
@@ -2884,1269 +2615,28 @@ This view wraps the DDIC database table SCUSTOM, which contains address data. Th
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, data_source
 
-**Files**: 3 | **Difficulty**: advanced
-
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
-
-Included pages: 3
-
-
-
-**📖 Source**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm)
-
-### abencds_annotations_abap.htm
-
-> **📖 Official SAP Documentation**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_sap.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - ABAP Annotations, ABENCDS_ANNOTATIONS_ABAP, 757%0D%0A%0D%0AError:%0D%0A%0D
-%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - ABAP Annotations
-
-ABAP annotations are [SAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_annotation_glosry.htm "Glossary Entry") that are evaluated by the ABAP runtime framework. The following sections show the associated [annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
-
--   [ABAP annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_ddla.htm)
--   [ABAP annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_tables.htm)
-
-The detailed meanings of the ABAP annotations is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_scopes.htm) in this documentation.
-
-Hint
-
-An ABAP annotation can also be evaluated by frameworks of other software components.
-
-Continue
-[ABAP CDS - ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_ddla.htm)
-[ABAP CDS - ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_tables.htm)
-
-
-
-**📖 Source**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap.htm)
-
-### abencds_annotations_abap_ddla.htm
-
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_ddla.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - ABAP Annotation Definitions, ABENCDS_ANNOTATIONS_ABAP_DDLA, 757%0D%0A%0D%0
-AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - ABAP Annotation Definitions
-
-The following [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
-
--   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm).
--   The semantics of the annotations can be found in the links in the DDLA source code.
-
-The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
-
--   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1-------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
--   [AccessControl-Annotations](#abencds-annotations-abap-ddla-3-------api-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_4)
--   [ClientDependent-Annotations](#abencds-annotations-abap-ddla-5-------clienthandling-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_6)
--   [CompatibilityContract-Annotations](#abencds-annotations-abap-ddla-7-------dataaging-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_8)
--   [EndUserText-Annotations](#abencds-annotations-abap-ddla-9-------environment-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_10)
--   [LanguageDependency-Annotations](#abencds-annotations-abap-ddla-11-------mappingrole-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_12)
--   [Metadata-Annotations](#abencds-annotations-abap-ddla-13-------metadataextension-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_14)
--   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15-------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---hint--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations-----Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)\]
-annotation AbapAnnotation {
-  definitionHidden : Boolean default true;
-};
-
-AbapCatalog-Annotations   
-
-@Scope:\[#VIEW\]
-@CompatibilityContract.c2.usageAllowed: false
-@API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM\]
-annotation AbapCatalog
-{
-   @CompatibilityContract.c0.usageAllowed: false
-   @CompatibilityContract.c1: {
-       usageAllowed: true,
-       allowedChanges: {
-           annotation: \[#CUSTOM\],
-           value: \[#NONE\]
-       }
-   }
-   buffering
-   {
-      @API.state:\[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-      status : String(20) enum { NOT\_ALLOWED; ACTIVE; SWITCHED\_OFF; } default #SWITCHED\_OFF;
-      type : String(10) enum { SINGLE; GENERIC; FULL; NONE; } default #NONE;
-      numberOfKeyFields : Integer default 000;
-   };
-   @CompatibilityContract.c0: {
-       usageAllowed: true,
-       allowedChanges: {
-           annotation: \[#ANY\],
-           value: \[#ANY\]
-       }
-   }
-   @CompatibilityContract.c1: {
-       usageAllowed: true,
-       allowedChanges: {
-           annotation: \[#ANY\],
-           value: \[#ANY\]
-       }
-   }
-   dbHints : array of
-   {
-      dbSystem : String(3) enum
-      {
-         ADA;
-         DB2;
-         DB4;
-         DB6;
-         INF;
-         MSS;
-         ORA;
-         HDB;
-         ASE;
-         ALL;
-      };
-      hint : String(1298);
-   };
-   @CompatibilityContract.c0: {
-       usageAllowed: true,
-       allowedChanges: {
-           annotation: \[#CUSTOM\],
-           value: \[#CUSTOM\]
-       }
-   }
-   @CompatibilityContract.c1: {
-       usageAllowed: true,
-       allowedChanges: {
-           annotation: \[#NONE\],
-           value: \[#NONE\]
-       }
-   }
-   @API.state:\[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-   viewEnhancementCategory : array of String(20) enum
-   {
-      NONE;
-      PROJECTION\_LIST;
-      GROUP\_BY;
-      UNION;
-   };
-   @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM\]
-   @CompatibilityContract: {  
-      c0: {
-          usageAllowed: true,
-          allowedChanges: {
-              annotation: \[#NONE\],
-              value: \[#NONE\]
-          }
-      },
-      c1: {
-          usageAllowed: true,
-          allowedChanges: {
-              annotation: \[#ANY\],
-              value: \[#ANY\]
-          }
-      },
-      c2: {
-          usageAllowed: true,
-          allowedChanges: {
-              annotation: \[#ANY\],
-              value: \[#ANY\]
-          }
-      }
-   }
-   @Scope: \[[#ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm), [#SERVICE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_service_annos.htm)\]
-   extensibility : {  
-      extensible : Boolean default true;
-      @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm)\]
-      elementSuffix: String(3);
-      @CompatibilityContract: {
-        c0: {
-            allowedChanges: {
-                annotation: \[#NONE\],
-                value: \[#CUSTOM\]  
-            }
-        }
-      }
-      @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm)\]
-      quota: {  
-        maximumFields:  Integer;
-        maximumBytes:   Integer;
-      }
-      @CompatibilityContract: {
-        c0: {
-            allowedChanges: {
-                annotation: \[#ADD\],
-                value: \[#ADD\]
-            }
-        }
-      }
-      @Scope: \[#VIEW\]
-      dataSources: array of LocalDefinitionRef;    
-      @CompatibilityContract: {
-        c0: {
-            allowedChanges: {
-                annotation: \[#ADD\],
-                value: \[#FALSE\_TO\_TRUE\]
-            }
-        }
-      }
-      @Scope: \[#VIEW\]
-      allowNewDatasources: Boolean default true;    
-      @CompatibilityContract: {  
-        c0 : {  
-          allowedChanges: {  
-            annotation: \[#ADD\],
-            value : \[#FALSE\_TO\_TRUE\]
-          }
-        }
-      }
-      @Scope: \[[#ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm)\]
-      allowNewCompositions: Boolean default true;
-   }
-   @CompatibilityContract: {
-        c0: {
-           usageAllowed: true,
-           allowedChanges: {
-               annotation: \[#NONE\],
-               value: \[#NONE\]
-           }
-       },
-       c1: {
-           usageAllowed: true,
-           allowedChanges: {
-               annotation: \[#CUSTOM\],
-               value: \[#NONE\]
-           }
-       },
-       c2: {
-           usageAllowed: true,
-           allowedChanges: {
-               annotation: \[#CUSTOM\],
-               value: \[#NONE\]
-           }
-       }
-   }
-   @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]    
-   sqlViewName : String(16);
-   @CompatibilityContract: {
-      c0: {
-          usageAllowed: true,
-          allowedChanges: {
-            annotation: \[#ANY\],
-            value: \[#ANY\]
-          }
-      },
-      c1: {
-          usageAllowed: true,
-          allowedChanges: {
-            annotation: \[#CUSTOM\],
-            value: \[#FALSE\_TO\_TRUE\]
-          }
-      },
-      c2: {
-          usageAllowed: true,
-          allowedChanges: {
-            annotation: \[#CUSTOM\],
-            value: \[#FALSE\_TO\_TRUE\]
-          }
-      }
-   }
-   @API.state:\[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-   preserveKey : Boolean default true;
-   @CompatibilityContract: {
-       c0: {
-           usageAllowed: true,
-           allowedChanges: {
-               annotation: \[#ANY\],
-               value: \[#ANY\]
-           }
-       },
-       c1: {
-           usageAllowed: true,
-           allowedChanges: {
-               annotation: \[#NONE\],
-               value: \[#NONE\]
-           }
-       },
-       c2: {
-           usageAllowed: true,
-           allowedChanges: {
-               annotation: \[#NONE\],
-               value: \[#NONE\]
-           }
-       }
-   }
-   compiler
-   {
-        @CompatibilityContract: {
-           c1: {
-               usageAllowed: true,
-               allowedChanges: {
-                   annotation: \[#CUSTOM\],
-                   value: \[#NONE\]
-               }
-           },
-           c2: {
-               usageAllowed: true,
-               allowedChanges: {
-                   annotation: \[#CUSTOM\],
-                   value: \[#NONE\]
-               }
-           }
-       }
-      @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]  
-      compareFilter : Boolean default true;
-      @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-      @AbapAnnotation.definitionHidden: true
-      @CompatibilityContract: {
-        c1: {
-            usageAllowed: true,
-            allowedChanges: {
-                annotation: \[#ANY\],
-                value: \[#ANY\]
-            }
-        },
-        c2: {
-            usageAllowed: true,
-            allowedChanges: {
-                annotation: \[#ANY\],
-                value: \[#ANY\]
-            }
-        }
-      }
-      @API.state: \[#NOT\_RELEASED\]        
-      caseJoin : Boolean default true;
-      @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-      @AbapAnnotation.definitionHidden: true
-      @CompatibilityContract: {
-        c1: {
-            usageAllowed: true,
-            allowedChanges: {
-                annotation: \[#ANY\],
-                value: \[#ANY\]
-            }
-        },
-        c2: {
-            usageAllowed: true,
-            allowedChanges: {
-                annotation: \[#ANY\],
-                value: \[#ANY\]
-            }
-        }
-      }
-      @API.state: \[#RELEASED\_FOR\_KEY\_USER\_APPS\]
-      preferredAssociationOnElements: array of ElementRef;
-   };
-   @AbapAnnotation.definitionHidden: true
-   @CompatibilityContract.c1.usageAllowed: false
-   @API.state: \[#NOT\_RELEASED\]
-   internal
-   {  
-      @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-      isMandt : Boolean default true;
-      @Scope:\[#VIEW, [#EXTEND\_VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)\]
-      @CompatibilityContract: {
-        c1: {
-            usageAllowed: true,
-            allowedChanges: {
-                annotation: \[#ANY\],
-                value: \[#ANY\]
-            }
-        },
-        c2: {
-            usageAllowed: true,
-            allowedChanges: {
-                annotation: \[#ANY\],
-                value: \[#ANY\]
-            }
-        }
-      }      
-      setChange : String(30);  
-      inheritedType : Boolean default true;    
-   };
-   @Scope:\[[#EXTEND\_VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)\]
-   @CompatibilityContract.c0.usageAllowed: false
-   @CompatibilityContract.c1.usageAllowed: false
-   sqlViewAppendName : String(16);
-   @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm)\]
-   @MetadataExtension.usageAllowed: false
-   @AbapAnnotation.definitionHidden: true
-   @CompatibilityContract.c0.usageAllowed: false
-   @CompatibilityContract.c1.usageAllowed: false
-   @API.state: \[#NOT\_RELEASED\]    
-   sqlName : String(256);    
-   @Scope:\[#VIEW, [#HIERARCHY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hierarchy_annotations.htm), [#TABLE\_FUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_function_annotations.htm)\]
-   @CompatibilityContract: {
-   c0: { usageAllowed: true,
-         allowedChanges: {  
-              annotation: \[#ANY\],  
-              value: \[#ANY\]
-                         }
-        },
-   c1: { usageAllowed: true,
-         allowedChanges: {  
-              annotation: \[#ANY\],  
-              value: \[#ANY\]
-                         }
-        },
-   c2: { usageAllowed: true,  
-         allowedChanges: {  
-              annotation: \[#ANY\],
-              value: \[#ANY\]
-                          }
-       }
-   }
-   @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]  
-   dataMaintenance: String(20) enum { ALLOWED; NOT\_ALLOWED; RESTRICTED; DISPLAY\_ONLY; } default #RESTRICTED;    
-   @CompatibilityContract: {
-   c0: { usageAllowed: false },
-   c1: { usageAllowed: true,
-         allowedChanges: {
-              annotation: \[#CUSTOM\],      
-              value : \[#FALSE\_TO\_TRUE\]  
-                         }
-       },
-   c2: { usageAllowed: true,
-         allowedChanges: {
-              annotation: \[#CUSTOM\],      
-              value : \[#FALSE\_TO\_TRUE\]  
-                         }
-       }
-   }
-   @MetadataExtension.usageAllowed: false
-   @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM\]  
-   entityBuffer {
-         definitionAllowed : Boolean default true;  
-   }
-   @CompatibilityContract.c0.usageAllowed: false
-   @CompatibilityContract.c1.usageAllowed: true
-   @CompatibilityContract.c2.usageAllowed: true
-   @Scope:\[#SIMPLE\_TYPE\]
-   @MetadataExtension.usageAllowed: false
-   typeSpec {
-        @CompatibilityContract: {
-        c1: { allowedChanges: {
-                 annotation: \[#CUSTOM\],
-                 value: \[#NONE\]
-                            }
-          },
-        c2: { allowedChanges: {
-                 annotation: \[#CUSTOM\],
-                  value: \[#NONE\]
-                              }
-            }
-        }      
-        conversionExit : String(5);
-        @CompatibilityContract: {
-        c1: { allowedChanges: {
-                 annotation: \[#ANY\],
-                 value: \[#ANY\]
-                            }
-          },
-        c2: { allowedChanges: {
-                 annotation: \[#ANY\],
-                  value: \[#ANY\]
-                              }
-            }
-        }              
-        changeDocumentRelevant : Boolean default true;
-   }  
-};
-
-AccessControl-Annotations   
-
-See [Framework Specific Annotation Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk_ddla.htm).
-
-API-Annotations   
-
-define annotation API
-{
-  @Scope:\[[#ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)\]
-  state: array of String(40) enum {
-    NOT\_RELEASED;
-    RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM;
-    RELEASED\_FOR\_KEY\_USER\_APPS;
-  };
-  @Scope:\[[#ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)\]
-  annotation {    
-    releaseState: String(30) enum {DEPRECATED;};
-    successor: String(240);    
-  };
-  @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-  @CompatibilityContract.c1.usageAllowed: true
-  @CompatibilityContract.c2.usageAllowed: false
-  @API.state:\[#RELEASED\_FOR\_KEY\_USER\_APPS\]
-  element {    
-    @CompatibilityContract.c1.allowedChanges: {annotation: \[#CUSTOM\], value: \[#CUSTOM\]}
-    releaseState: String(30) enum {DEPRECATED;};
-    @CompatibilityContract.c1.allowedChanges: {annotation: \[#CUSTOM\], value: \[#CUSTOM\]}
-    successor: ElementRef;
-  };
-};
-
-ClientDependent-Annotations   
-
-Obsolete annotations for scopes #VIEW, #TABLE\_FUNCTION.
-
-ClientHandling-Annotations   
-
-@Scope:\[#VIEW, [#TABLE\_FUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_function_annotations.htm)\]
-@CompatibilityContract: {
-    c0: {  
-        usageAllowed: false
-    },
-    c1: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#CUSTOM\],
-            value: \[#NONE\]
-        }
-    },
-    c2: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#CUSTOM\],
-            value: \[#NONE\]
-        }
-    }
-}  
-@API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-annotation ClientHandling
-{
-   type : String(20) enum { CLIENT\_DEPENDENT; CLIENT\_INDEPENDENT; INHERITED; } default #INHERITED;
-   algorithm : String(20) enum { NONE; AUTOMATED; SESSION\_VARIABLE; };
-};
-
-CompatibilityContract-Annotations   
-
-@Scope:\[[#ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)\]
-define annotation CompatibilityContract {
-  c0 {  
-    usageAllowed: Boolean default true;
-    allowedChanges {
-      annotation: array of String(20) enum {ADD; REMOVE; ANY; NONE; CUSTOM;};
-      value: array of String(20) enum {ADD; REMOVE; UPDATE; FALSE\_TO\_TRUE; TRUE\_TO\_FALSE; ANY; NONE; CUSTOM;};
-    };
-  };
-  c1 {  
-    usageAllowed: Boolean default true;
-    allowedChanges {
-      annotation: array of String(20) enum {ADD; REMOVE; ANY; NONE; CUSTOM;};
-      value: array of String(20) enum {ADD; REMOVE; UPDATE; FALSE\_TO\_TRUE; TRUE\_TO\_FALSE; ANY; NONE; CUSTOM;};
-    };
-  };
-  c2 {  
-    usageAllowed: Boolean default true;
-    allowedChanges {
-      annotation: array of String(20) enum {ADD; REMOVE; ANY; NONE; CUSTOM;};
-      value: array of String(20) enum {ADD; REMOVE; UPDATE; FALSE\_TO\_TRUE; TRUE\_TO\_FALSE; ANY; NONE; CUSTOM;};
-    };
-  };    
-}
-
-DataAging-Annotations   
-
-@Scope:\[#VIEW, [#TABLE\_FUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_function_annotations.htm)\]
-@CompatibilityContract: {
-    c0: {  
-        usageAllowed: true,
-        allowedChanges: {  
-           annotation: \[#ANY\],
-           value: \[#ANY\]
-        }
-    },
-    c1: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#CUSTOM\],
-            value: \[#FALSE\_TO\_TRUE\]
-        }
-    },
-    c2: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#CUSTOM\],
-            value: \[#FALSE\_TO\_TRUE\]
-        }
-    }
-}
-@API.state: \[#RELEASED\_FOR\_KEY\_USER\_APPS\]  
-annotation DataAging
-{
-   noAgingRestriction : Boolean default true;
-};
-
-EndUserText-Annotations   
-
-@CompatibilityContract: {
-    c0: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#ANY\],
-            value: \[#ANY\]
-        }
-    },
-    c1: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#ANY\],
-            value: \[#ANY\]
-        }
-    },
-    c2: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#ANY\],
-            value: \[#ANY\]
-        }
-    }        
-}
-@API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-annotation EndUserText
-{
-   @MetadataExtension.usageAllowed : true
-   @LanguageDependency.maxLength : 40
-   @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm), [#PARAMETER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm), [#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm), [#EXTEND\_VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm), [#ROLE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_role_annotations.htm), [#ASPECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm), [#PFCG\_MAPPING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm), [#ACCESSPOLICY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm),
-      [#SERVICE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_service_annos.htm), #SIMPLE\_TYPE, #ENUM\_VALUE\]
-   label : String(60);
-   @MetadataExtension.usageAllowed : true
-   @LanguageDependency.maxLength : 67  
-   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm), [#PARAMETER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm), [#ANNOTATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm), #SIMPLE\_TYPE, #ENUM\_VALUE\]
-   quickInfo : String(100);
-   @LanguageDependency.maxLength : 37
-   @Scope:\[#SIMPLE\_TYPE\]
-   @API.state: \[#NOT\_RELEASED\]
-   heading : String(55);
-};
-
-Environment-Annotations   
-
-@CompatibilityContract: {
-    c0.usageAllowed: false,
-    c1: {
-        usageAllowed: true,
-        allowedChanges: {
-            annotation: \[#NONE\],
-            value: \[#NONE\]
-        }
-    },
-    c2.usageAllowed: false
-}
-@API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM\]
-annotation Environment
-{
-   @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-   @Scope:\[[#PARAMETER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm)\]
-   systemField : String(20) enum { CLIENT; SYSTEM\_LANGUAGE; USER; SYSTEM\_DATE; SYSTEM\_TIME; USER\_DATE; USER\_TIMEZONE; };
-   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-   sql
-   {
-      passValue : Boolean default true;
-   };
-};
-
-LanguageDependency-Annotations   
-
-@Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)\]
-annotation LanguageDependency {
-  maxLength : Integer;
-};
-
-MappingRole-Annotations   
-
-@Scope:\[[#ROLE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_role_annotations.htm)\]
-@CompatibilityContract: {
-   c1: { usageAllowed: true },
-   c1: {
-      allowedChanges: { annotation: \[#ADD, #REMOVE \],
-                        value: \[#FALSE\_TO\_TRUE \] }
-       },
-   c2: { usageAllowed: true },  
-   c2: {
-      allowedChanges: { annotation: \[#ADD, #REMOVE \],
-                        value: \[#FALSE\_TO\_TRUE \] }
-       }
-}  
-@API.state: \[#RELEASED\_FOR\_KEY\_USER\_APPS, #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM\]
-annotation MappingRole
-: Boolean default true  
-;
-
-Metadata-Annotations   
-
-annotation Metadata {
-  @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm)\]
-  @CompatibilityContract: {
-      c1: {
-          usageAllowed: true,
-          allowedChanges: {
-              annotation: \[#ADD\],
-              value: \[#FALSE\_TO\_TRUE\]
-          }
-      },
-      c2.usageAllowed: false
-  }
-  @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-  allowExtensions : Boolean default true;
-  @Scope:\[#VIEW\]
-  @CompatibilityContract: {
-      c1: {
-          usageAllowed: true,
-          allowedChanges: {
-              annotation: \[#NONE\],
-              value: \[#NONE\]
-          }
-      },
-      c2: {
-          usageAllowed: true,
-          allowedChanges: {
-              annotation: \[#NONE\],
-              value: \[#NONE\]
-          }
-      }
-  }
-  @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-  ignorePropagatedAnnotations : Boolean default true;
-  @MetadataExtension.usageAllowed : true
-  @Scope:\[[#ANNOTATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_metadata_ext_annos.htm)\]
-  @CompatibilityContract.c1: {
-      usageAllowed: true,
-      allowedChanges: {
-          annotation: \[#NONE\],
-          value: \[#NONE\]
-      }
-  }
-  @CompatibilityContract.c2.usageAllowed: false
-  @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-  layer : Integer  
-    enum {
-      CORE;      
-      LOCALIZATION;
-      INDUSTRY;
-      PARTNER;
-      CUSTOMER;
-    };
-};
-
-MetadataExtension-Annotations   
-
-@Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)\]
-annotation MetadataExtension {
-  usageAllowed : Boolean default true;
-};
-
-ObjectModel-Annotations   
-
-See [Framework Specific Annotation Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk_ddla.htm).
-
-Scope\[ \]-Annotations   
-
-@Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)\]
-annotation Scope : array of String(20)  
-  enum {  
-    ENTITY;                
-    VIEW;                  
-    TABLE\_FUNCTION;        
-    EXTEND\_VIEW;          
-    ROLE;                  
-    ACCESSPOLICY;          
-    ANNOTATION;            
-    ANNOTATE;              
-    SERVICE;              
-    CUSTOM\_ENTITY;        
-    HIERARCHY;            
-    PARAMETER;            
-    ELEMENT;              
-    ASPECT;                
-    PFCG\_MAPPING;          
-    SIMPLE\_TYPE;          
-    ENUM\_VALUE;            
-  };
-
-Semantics-Annotations   
-
-...
-define annotation Semantics
-{
-  ...
-   @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
-   amount
-   {
-       currencyCode    : ElementRef;
-   };
-   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-   @CompatibilityContract: {
-   c1: { usageAllowed: true,
-         allowedChanges.annotation: \[ #CUSTOM \],
-         allowedChanges.value: \[ #NONE \] },
-   c2: { usageAllowed: true,
-         allowedChanges.annotation: \[ #CUSTOM \],
-         allowedChanges.value: \[ #NONE \] } }
-   @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
-   quantity
-   {
-       unitOfMeasure   : ElementRef;
-       @CompatibilityContract: {
-       c1: { usageAllowed: false },
-       c2: { usageAllowed: true,
-             allowedChanges.annotation: \[ #ADD \],
-             allowedChanges.value:      \[ #NONE \] } }
-       unitOfMeasureSapCode   : ElementRef;
-       @CompatibilityContract: {
-       c1: { usageAllowed: false },
-       c2: { usageAllowed: true,
-             allowedChanges.annotation: \[ #ADD \],
-             allowedChanges.value:      \[ #NONE \] } }
-       unitOfMeasureIsoCode   : ElementRef;
-   };
-   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-   @CompatibilityContract: {
-   c1: { usageAllowed: true,
-         allowedChanges.annotation: \[ #CUSTOM \],
-         allowedChanges.value:      \[ #NONE \] },
-   c2: { usageAllowed: true,
-         allowedChanges.annotation: \[ #CUSTOM \],
-         allowedChanges.value:      \[ #NONE \] } }
-   @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
-   currencyCode        : Boolean default true;
-   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-   @CompatibilityContract: {
-   c1: { usageAllowed: true,
-         allowedChanges.annotation: \[ #CUSTOM \],
-         allowedChanges.value:      \[ #NONE \] },
-   c2: { usageAllowed: true,
-         allowedChanges.annotation: \[ #CUSTOM \],
-         allowedChanges.value:      \[ #NONE \] } }
-   @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
-   unitOfMeasure       : Boolean default true;
-   @CompatibilityContract: {
-   c1: { usageAllowed: true,
-         allowedChanges.annotation: \[ #NONE \],
-         allowedChanges.value:      \[ #NONE \] },
-   c2: { usageAllowed: true,
-         allowedChanges.annotation: \[ #NONE \],
-         allowedChanges.value:      \[ #NONE \] } }
-   @API.state: \[#RELEASED\_FOR\_KEY\_USER\_APPS\]
-   booleanIndicator    : Boolean default true;
-   @CompatibilityContract: {
-   c1: { usageAllowed: true,
-         allowedChanges.annotation: \[ #NONE \],
-         allowedChanges.value:      \[ #NONE \] },
-   c2: { usageAllowed: true,
-         allowedChanges.annotation: \[ #NONE \],
-         allowedChanges.value:      \[ #NONE \] } }
-   @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
-   uuid            : Boolean default true;
-   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm)\]
-   @CompatibilityContract: {
-   c1: { usageAllowed: true,
-         allowedChanges.annotation: \[ #NONE \],
-         allowedChanges.value:      \[ #NONE \] },
-   c2: { usageAllowed: true,
-         allowedChanges.annotation: \[ #NONE \],
-         allowedChanges.value:      \[ #NONE \] } }
-   @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
-   largeObject
-   {    
-       mimeType : ElementRef;
-       fileName : ElementRef;
-       @CompatibilityContract: {
-       c1: { usageAllowed: true,
-             allowedChanges.annotation: \[ #ANY \],
-             allowedChanges.value:      \[ #ANY \] },  
-       c2: { usageAllowed: true,
-             allowedChanges.annotation: \[ #ANY \],
-             allowedChanges.value:      \[ #ANY \] } }
-       acceptableMimeTypes: array of String(255);
-       contentDispositionPreference: String(30) enum { ATTACHMENT;
-                                                       INLINE; };
-       cacheControl:  
-       {    
-           maxAge: String( 30 ) enum { SHORT;  
-                                       MEDIUM;
-                                       LONG;  
-                                       VERY\_LONG; };  
-       };                                                        
-   };
-  ...
-};
-
-
-
-**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_ddla.htm)
-
-### abencds_annotations_abap_tables.htm
-
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - ABAP Annotation Syntax, ABENCDS_ANNOTATIONS_ABAP_TABLES, 757%0D%0A%0D%0AEr
-ror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-ABAP CDS - ABAP Annotation Syntax
-
-The following tables summarize the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") of all [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS. Any specified subannotations are shown using [chainings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_name.htm). If square brackets \[ \] are specified after a name in the column Annotation, this means that the annotation in front of the square brackets is an [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry"). Any enumeration symbols in an annotation are specified in the column Enums. The column Default shows the default values applied to the evaluation when an annotation is specified without a value. The columns Text and MDE indicate whether the annotation values are translatable texts and whether the annotation can be specified in a [metadata extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"). The API column indicates whether the annotation is [released as an API](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreleased_api_glosry.htm "Glossary Entry"). The detailed meanings of each ABAP annotation is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_scopes.htm) in this documentation.
-
--   [AbapAnnotation-Annotations](#abencds-annotations-abap-tables-1-------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_2)
--   [AccessControl-Annotations](#abencds-annotations-abap-tables-3-------api-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_4)
--   [ClientDependent-Annotations](#abencds-annotations-abap-tables-5-------clienthandling-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_6)
--   [CompatibilityContract-Annotations](#abencds-annotations-abap-tables-7-------dataaging-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_8)
--   [EndUserText-Annotations](#abencds-annotations-abap-tables-9-------environment-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_10)
--   [LanguageDependency-Annotations](#abencds-annotations-abap-tables-11-------mappingrole-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_12)
--   [Metadata-Annotations](#abencds-annotations-abap-tables-13-------metadataextension-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_14)
--   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15-------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
--   [Semantics-Annotations](#abencds-annotations-abap-tables-17---hint--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas-of-ddic-based-views---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering-of-ddic-based-views---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type-of-ddic-based-views---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-datamaintenance--cds-entity--specifies-how-the-data-contents-of-the-entity-can-be-maintained---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----allowed--display--only--not--allowed--restricted---restricted----------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-entitybuffer-definitionallowed--table-buffering--enables-and-disables-buffering-of-view-entities--view--boolean------true----------released--for--sap--cloud--platform--abapcatalog-extensibility-allownewcompositions--can-be-used-to-explicitly-allow-node-extensibility-by-means-of-cds-compositions----entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-extensibility-allownewdatasources--defines-whether-a-cds-view-entity-extension-is-allowed-to-use-new-data-sources--particularly-newly-defined-associations---view--boolean------true----------released--for--sap--cloud--platform--abapcatalog-extensibility-datasources-------defines-an-allowlist-for-stable-alias-names-of-data-sources-and-locally-defined-associations-to-be-used-in-extensions---view--localdefinitionref------------------released--for--sap--cloud--platform--abapcatalog-extensibility-elementsuffix--defines-an-element-suffix-which-must-be-used-for-fields-and-associations-when-extending-a-released-api----entity--javascript-call-link---abencds-f1-entity-annotations-htm------string-3-------------------released--for--sap--cloud--platform--abapcatalog-extensibility-extensible--cds-entity--controls-cds-entity-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------service-definition--javascript-call-link---abencds-define-service-annos-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-extensibility-quota-maximumbytes--defines-the-maximum-number-of-bytes-that-can-be-added-to-a-released-api-via-extensions----entity--javascript-call-link---abencds-f1-entity-annotations-htm------integer------------------released--for--sap--cloud--platform--abapcatalog-extensibility-quota-maximumfields--defines-the-maximum-number-of-fields-that-can-be-added-to-a-released-api-via-extensions----entity--javascript-call-link---abencds-f1-entity-annotations-htm------integer------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-16-------------------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-typespec-changedocumentrelevant--undocumented--simple-type--boolean------true----------released--for--sap--cloud--platform--abapcatalog-typespec-conversionexit--undocumented--simple-type--string-5-------------------released--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--key--user--apps-released--for--sap--cloud--platform--accesscontrol-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----check--mandatory--not--allowed--not--required--privileged--only---not--required----------released--for--key--user--apps-released--for--sap--cloud--platform--api-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--api-annotation-releasestate--undocumented---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-30----deprecated------------------api-annotation-successor--undocumented---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-240-----------------------api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated--------------released--for--key--user--apps--api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps--api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--clientdependent--obsolete--specifies-client-dependency-and-how-clients-are-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true--------------clienthandling-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----automated--none--session--variable--------------released--for--key--user--apps-released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--key--user--apps-released--for--sap--cloud--platform--compatibilitycontract-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------boolean------true----------released--for--key--user--apps--endusertext-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header--simple-type--string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------aspect--javascript-call-link---abencds-f1-dcl-as-annotations-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm-----enum-value--view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------service-definition--javascript-call-link---abencds-define-service-annos-htm-----simple-type--string-60-----------x--x--released--for--key--user--apps-released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm-----enum-value--parameter--javascript-call-link---abencds-f1-parameter-annotations-htm-----simple-type--string-100-----------x--x--released--for--key--user--apps-released--for--sap--cloud--platform--environment-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--user--date--user--timezone--------------released--for--key--user--apps-released--for--sap--cloud--platform--languagedependency-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--metadata-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x--released--for--key--user--apps-released--for--sap--cloud--platform--metadataextension-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-outsourcing-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--objectmodel-query-implementedby--specifies-the-abap-class-where-a-cds-custom-entity-is-implemented---custom-entity--javascript-call-link---abencds-f1-entity-annotations-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------string-255-------------------released--for--sap--cloud--platform--objectmodel-usagetype-dataclass--specifies-the-data-type-of-the-cds-view---entity--javascript-call-link---abencds-f1-entity-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed----------released--for--key--user--apps-released--for--sap--cloud--platform--objectmodel-usagetype-servicequality--the-quality-of-the-service-with-respect-to-the-performance-expected-by-the-consumer-of-the-cds-view----entity--javascript-call-link---abencds-f1-entity-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------string-30----a--b--c--d--p--x---x----------released--for--key--user--apps-released--for--sap--cloud--platform--objectmodel-usagetype-sizecategory--specifies-the-size-of-the-data-record-that-needs-to-be-searched-to-return-the-result----entity--javascript-call-link---abencds-f1-entity-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------string-3----l--m--s--xl--xxl---s----------released--for--key--user--apps-released--for--sap--cloud--platform--objectmodel-virtualelementcalculatedby--specifies-where-a-virtual-element-is-implemented---element--javascript-call-link---abencds-f1-element-annotation-htm------string-255-------------------released--for--sap--cloud--platform--scope------annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--scope-------annotation-definition--defines-the-scope-in-which-an-annotation-can-be-specified---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--enum--value--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations-----annotation--meaning--scope--type--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-quantity-unitofmeasureisocode--undocumented---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-quantity-unitofmeasuresapcode--undocumented---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform------------abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---data-definitions---abap-cds---ddl-for-data-definitions---abap-cds---cds-entities---abap-cds---view-entities---cds-ddl---define-view-entity---cds-ddl---cds-view-entity--select---cds-ddl---cds-view-entity--select--data-source----files----2-----difficulty----advanced----abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---data-definitions---abap-cds---ddl-for-data-definitions---abap-cds---cds-entity-extension---cds-ddl---extend-view-ddic-based--included-pages--2---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-annotations-abap-tables-htm-------abencds-extend-view-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---data-definitions--javascript-call-link---abencds-entities-htm---------abap-cds---ddl-for-data-definitions--javascript-call-link---abencds-f1-ddl-syntax-htm---------abap-cds---cds-entity-extension--javascript-call-link---abencds-view-extension-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - EXTEND VIEW ddic_based, ABENCDS_EXTEND_VIEW, 757%0D%0A%0D%0AError:%0D%0A%0D
-%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - EXTEND VIEW ddic\_based
-
-Syntax
-
-[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)*\]*
-*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)*\]*
-...
-EXTEND VIEW ddic\_based\_view
-       WITH cds\_view\_extension
-            *\[*association1
-             association2 ...*\]*
-            { select\_list\_extension }
-            *\[*GROUP BY field1, field2, ...  *\]*
-            *\[*UNION *\[*ALL*\]* { ... }*\]* *\[*;*\]*
-
-Additions:
-
-[1\. ... GROUP BY field1, field2, ...](#!ABAP_ADDITION_1@1@)
-[2\. ... UNION *\[*ALL*\]* { ... }](#!ABAP_ADDITION_2@2@)
-
-Effect
-
-Extends an existing [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry"). An existing CDS DDIC-based view (obsolete) can have one or more CDS view extensions.
-
-The extended CDS view ddic\_based\_view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
-
-Prerequisite
-
-As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm):
-
--   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm) clause can be extended.
--   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
--   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
--   If the annotation array contains the value #NONE, the view cannot be extended.
-
-Components of a View Extension
-
-View extensions can make additions to the original view, but it cannot modify, overwrite, or delete elements from the original view. The following components are possible in a CDS view extension:
-
--   The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) is mandatory. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
--   New associations association1, association2 can be defined and exposed in the CDS view extension. The same rules apply that are described in topic [CDS DDL - DDIC-based view, ASSOCIATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_simple_association_v1.htm).
-    
-    Note: It is not allowed to define new [CDS compositions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry") or [CDS to-parent associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry") in a view extension.
-    
--   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of all data sources of the extended view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm), namely:
-    -   [field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_field_v2.htm) of a data source
-    -   [Input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_parameter_v1.htm) of the extended CDS view. It is not possible to specify new input parameters in a view extension.
-    -   It can expose a [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v2.htm) of the extended view or a newly defined association
-    -   Using a [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm), a field of an association target can be included. Path expressions are possible for associations of the extended view or for newly defined associations.
-    -   [literals, session variables, expressions and functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm)
-        
-        Note: To add aggregate expressions to a view extension, special rules apply. See below.
-        
--   Aggregate expressions are possible in the SELECT list of a view extension only if the following conditions are met:
-    -   The original view must contain [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm). If the original view does not contain any aggregate expressions, this is not possible.
-    -   The extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #GROUP\_BY\]
-    -   If non-aggregated elements are added to a CDS view with aggregate expressions, then the [GROUP-BY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_group_by_v1.htm) clause must be extended using the addition GROUP BY
--   If the original view contains [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW. As a prerequisite, the extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #UNION\]
-    
-    If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS.
-    
-
-Restrictions
-
--   CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_name_list_v1.htm) cannot currently be extended.
--   CDS view extensions themselves cannot be extended.
--   It is not possible to specify new input parameters in a view extension.
--   No addition [ROOT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroot_entity_glosry.htm "Glossary Entry").
--   An appended field cannot be defined as a key field using KEY.
--   It is not allowed to define new to-parent or composition associations in a view extension.
--   For views that have an element of data type LRAW or LCHR in the SELECT list, no view extension is possible and the annotation AbapCatalog.viewEnhancementCategory\[#NONE\] is enforced. The reason is that elements of data types LRAW or LCHR must always be in the last position of the SELECT list.
-
-Naming
-
-Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
-
--   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
--   The name CDS\_APPEND\_VIEW for an [append view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the annotation [@AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm). This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary, see topic [DDIC - Naming Rules for DDIC Views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_view_names.htm). The new DDIC append view extends the [CDS-managed DDIC view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
-
-The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
-
--   Once the DDL source code of a CDS view extension has been transported, the actual name cds\_view\_extension and the name of the DDIC append view CDS\_APPEND\_VIEW can no longer be changed. The extended view ddic\_based\_view can also no longer be changed.
-
-Note: The DDL source code of a CDS view extension does not need to have the same name as the CDS view extension entity, but it is advisable to use the name of the entity.
-
-Hints
-
--   Currently it is not possible to define extension categories for CDS views. As a consequence, the following restrictions apply:
-    -   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
-    -   The properties of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
--   CDS view extensions specified with EXTEND ENTITY are recommended for CDS DDIC-based views (obsolete) only. However, for compatibility and migration reasons, it is also possible to extend [CDS projection views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm "Glossary Entry") or [CDS view entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm "Glossary Entry") with the statement EXTEND VIEW. However, view extends defined using EXTEND VIEW do not support the syntax elements specific to projection views and CDS view entities. Therefore, it is recommended that the statement [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view_entity.htm) is used for extensions of CDS projection views and CDS view entities instead.
--   If, for some reason, a CDS projection view or a CDS view entity is extended with EXTEND VIEW, the [CDS-managed DDIC view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is deleted (as CDS projection views and CDS view entities do not have any DDIC artefacts), and entity annotations referring to the CDS-managed DDIC view are ignored.
--   CDS DDIC-based views (obsolete) are [obsolete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm). If new CDS views are required, CDS view entities should be used.
-
-Example
-
-The following CDS view extension
-
-@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTENS'
-extend view demo\_cds\_original\_view with demo\_cds\_view\_extension  
-  {
-    spfli.distance,
-    spfli.distid as unit
-  };
-
-adds two view fields to the existing CDS view.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ORIG'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST\]
-@EndUserText.label: 'Further information about the CDS entity'
-define view demo\_cds\_original\_view  
-  as select from
-           spfli
-      join scarr on
-        scarr.carrid = spfli.carrid
-    {
-      key scarr.carrname     as carrier,
-      key spfli.connid       as flight,
-          spfli.cityfrom     as departure,
-          spfli.cityto       as destination
-    };
-
-The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
-
-Addition 1   
-
-... GROUP BY field1, field2, ...
-
-Effect
-
-This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
-
-The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
-
-Hint
-
-Extensions of a view with aggregate expressions require it to contain the annotation array viewEnhancementCategory\[ \] with the value #GROUP\_BY.
-
-Example
-
-The following CDS view extension
-
-@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTAGG'
-extend view demo\_cds\_aggregate with demo\_cds\_extend\_aggregate
-  {
-    connid,  
-    sum(distance) as sum\_distance
-  }
-  group by
-    connid;
-
-extends the existing CDS view.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_AGG'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#GROUP\_BY\]
-define view demo\_cds\_aggregate
-  as select from
-    spfli  
-    {
-      carrid,
-      sum(fltime) as sum\_fltime
-    }
-    group by
-      carrid;
-
-A database field connid and an aggregate expression sum(distance) are added to the SELECT list. Accordingly, the addition GROUP BY must be used to add the database field to the GROUP-BY clause of the original view.
-
-Addition 2   
-
-... UNION *\[*ALL*\]* { ... }
-
-Effect
-
-This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
-
-The addition cannot be specified if the definition of the original view does not have a UNION clause.
-
-Hint
-
-Extensions of a view with UNION clauses require it to contain the annotation array viewEnhancementCategory\[ \] with the value #UNION.
-
-Example
-
-The following CDS view extension
-
-@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTUNI'
-extend view demo\_cds\_union with demo\_cds\_extend\_union
-  {
-    c as c3,
-    d as c4
-  }
-union
-  {
-    f as c3,
-    g as c4
-  }
-union all
-  {
-    k as c3,
-    l as c4
-  };
-
-extends the existing CDS view.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_UIO'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#UNION\]
-define view demo\_cds\_union
-  as select from
-    demo\_join1
-    {
-      a as c1,
-      b as c2
-    }
-union select from
-  demo\_join2
-    {
-      d as c1,
-      e as c2
-    }
-union all select from
-  demo\_join3
-    {
-      i as c1,
-      j as c2
-    };
-
-The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
-
-Continue
-[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
-
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
-### abencds_f1_extend_view_annotations.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entity Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - EXTEND VIEW, extension_annot, ABENCDS_F1_EXTEND_VIEW_ANNOTATIONS, 757%0D%0A
-%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - EXTEND VIEW, extension\_annot
-
-Syntax
-
-... @[annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ...
-
-Effect
-
-Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) as an extension annotation in the definition of a [CDS view extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extend_glosry.htm "Glossary Entry") before the statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #EXTEND\_VIEW.
-
-The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
-
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
-
-AbapCatalog Annotations   
-
-Technical settings of a CDS view extension.
-
-Annotation
-
-Meaning
-
-Annotation Values
-
-Default Value if Not Used
-
-Default Value if Used Without Value
-
-AbapCatalog.sqlViewAppendName
-
-Name of the DDIC append view of the CDS view extension
-
-Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
-
-\-
-
-\-
-
-Hints
-
--   Each definition of a CDS view extension must contain the ABAP annotation AbapCatalog.sqlViewAppendName that defines the name of the DDIC append view in ABAP Dictionary.
--   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, Associations
-
-**Files**: 5 | **Difficulty**: advanced
+**Files**: 2 | **Difficulty**: advanced
 
 # ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entity Extension / CDS DDL - EXTEND VIEW ddic_based
 
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -4393,16 +2883,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -4469,16 +2962,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -4725,16 +3221,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -4801,16 +3300,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5057,16 +3559,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -5124,25 +3629,28 @@ Hints
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - SELECT, CDS View Entity, Operands and Expressions / CDS DDL - CDS View Entity, Elementary CDS Operands
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - SELECT, CDS View Entity, Operands and Expressions / CDS DDL - CDS View Entity, Elementary CDS Operands / CDS DDL - CDS View Entity, literal
 
-**Files**: 11 | **Difficulty**: advanced
+**Files**: 3 | **Difficulty**: advanced
 
 # ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entity Extension / CDS DDL - EXTEND VIEW ddic_based
 
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5389,16 +3897,357 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
+### abencds_f1_extend_view_annotations.htm
 
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entity Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - EXTEND VIEW, extension_annot, ABENCDS_F1_EXTEND_VIEW_ANNOTATIONS, 757%0D%0A
+%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+CDS DDL - EXTEND VIEW, extension\_annot
+
+Syntax
+
+... @[annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ...
+
+Effect
+
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) as an extension annotation in the definition of a [CDS view extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extend_glosry.htm "Glossary Entry") before the statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #EXTEND\_VIEW.
+
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
+
+The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+
+AbapCatalog Annotations   
+
+Technical settings of a CDS view extension.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+AbapCatalog.sqlViewAppendName
+
+Name of the DDIC append view of the CDS view extension
+
+Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
+
+\-
+
+\-
+
+Hints
+
+-   Each definition of a CDS view extension must contain the ABAP annotation AbapCatalog.sqlViewAppendName that defines the name of the DDIC append view in ABAP Dictionary.
+-   The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+
+
+---
+
+
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - SELECT, CDS View Entity, Operands and Expressions / CDS DDL - CDS View Entity, Elementary CDS Operands / CDS DDL - CDS View Entity, session_variable
+
+**Files**: 3 | **Difficulty**: advanced
+
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entity Extension / CDS DDL - EXTEND VIEW ddic_based
+
+Included pages: 2
+
+
+### abencds_extend_view.htm
+
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
+
+* * *
+
+AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entity Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extension.htm) → 
+
+ [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - EXTEND VIEW ddic_based, ABENCDS_EXTEND_VIEW, 757%0D%0A%0D%0AError:%0D%0A%0D
+%0A%0D%0A%0D%0ASuggestion for improvement:)
+
+CDS DDL - EXTEND VIEW ddic\_based
+
+Syntax
+
+[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
+*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+...
+EXTEND VIEW ddic\_based\_view
+       WITH cds\_view\_extension
+            *\[*association1
+             association2 ...*\]*
+            { select\_list\_extension }
+            *\[*GROUP BY field1, field2, ...  *\]*
+            *\[*UNION *\[*ALL*\]* { ... }*\]* *\[*;*\]*
+
+Additions:
+
+[1\. ... GROUP BY field1, field2, ...](#!ABAP_ADDITION_1@1@)
+[2\. ... UNION *\[*ALL*\]* { ... }](#!ABAP_ADDITION_2@2@)
+
+Effect
+
+Extends an existing [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry"). An existing CDS DDIC-based view (obsolete) can have one or more CDS view extensions.
+
+The extended CDS view ddic\_based\_view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
+
+Prerequisite
+
+As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm):
+
+-   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm) clause can be extended.
+-   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
+-   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
+-   If the annotation array contains the value #NONE, the view cannot be extended.
+
+Components of a View Extension
+
+View extensions can make additions to the original view, but it cannot modify, overwrite, or delete elements from the original view. The following components are possible in a CDS view extension:
+
+-   The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) is mandatory. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
+-   New associations association1, association2 can be defined and exposed in the CDS view extension. The same rules apply that are described in topic [CDS DDL - DDIC-based view, ASSOCIATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_simple_association_v1.htm).
+    
+    Note: It is not allowed to define new [CDS compositions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry") or [CDS to-parent associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry") in a view extension.
+    
+-   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of all data sources of the extended view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm), namely:
+    -   [field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_field_v2.htm) of a data source
+    -   [Input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_parameter_v1.htm) of the extended CDS view. It is not possible to specify new input parameters in a view extension.
+    -   It can expose a [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v2.htm) of the extended view or a newly defined association
+    -   Using a [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm), a field of an association target can be included. Path expressions are possible for associations of the extended view or for newly defined associations.
+    -   [literals, session variables, expressions and functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm)
+        
+        Note: To add aggregate expressions to a view extension, special rules apply. See below.
+        
+-   Aggregate expressions are possible in the SELECT list of a view extension only if the following conditions are met:
+    -   The original view must contain [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm). If the original view does not contain any aggregate expressions, this is not possible.
+    -   The extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #GROUP\_BY\]
+    -   If non-aggregated elements are added to a CDS view with aggregate expressions, then the [GROUP-BY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_group_by_v1.htm) clause must be extended using the addition GROUP BY
+-   If the original view contains [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW. As a prerequisite, the extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #UNION\]
+    
+    If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS.
+    
+
+Restrictions
+
+-   CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_name_list_v1.htm) cannot currently be extended.
+-   CDS view extensions themselves cannot be extended.
+-   It is not possible to specify new input parameters in a view extension.
+-   No addition [ROOT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroot_entity_glosry.htm "Glossary Entry").
+-   An appended field cannot be defined as a key field using KEY.
+-   It is not allowed to define new to-parent or composition associations in a view extension.
+-   For views that have an element of data type LRAW or LCHR in the SELECT list, no view extension is possible and the annotation AbapCatalog.viewEnhancementCategory\[#NONE\] is enforced. The reason is that elements of data types LRAW or LCHR must always be in the last position of the SELECT list.
+
+Naming
+
+Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
+
+-   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
+-   The name CDS\_APPEND\_VIEW for an [append view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the annotation [@AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm). This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary, see topic [DDIC - Naming Rules for DDIC Views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_view_names.htm). The new DDIC append view extends the [CDS-managed DDIC view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+
+The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
+
+-   Once the DDL source code of a CDS view extension has been transported, the actual name cds\_view\_extension and the name of the DDIC append view CDS\_APPEND\_VIEW can no longer be changed. The extended view ddic\_based\_view can also no longer be changed.
+
+Note: The DDL source code of a CDS view extension does not need to have the same name as the CDS view extension entity, but it is advisable to use the name of the entity.
+
+Hints
+
+-   Currently it is not possible to define extension categories for CDS views. As a consequence, the following restrictions apply:
+    -   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
+    -   The properties of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
+-   CDS view extensions specified with EXTEND ENTITY are recommended for CDS DDIC-based views (obsolete) only. However, for compatibility and migration reasons, it is also possible to extend [CDS projection views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm "Glossary Entry") or [CDS view entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm "Glossary Entry") with the statement EXTEND VIEW. However, view extends defined using EXTEND VIEW do not support the syntax elements specific to projection views and CDS view entities. Therefore, it is recommended that the statement [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view_entity.htm) is used for extensions of CDS projection views and CDS view entities instead.
+-   If, for some reason, a CDS projection view or a CDS view entity is extended with EXTEND VIEW, the [CDS-managed DDIC view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is deleted (as CDS projection views and CDS view entities do not have any DDIC artefacts), and entity annotations referring to the CDS-managed DDIC view are ignored.
+-   CDS DDIC-based views (obsolete) are [obsolete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm). If new CDS views are required, CDS view entities should be used.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTENS'
+extend view demo\_cds\_original\_view with demo\_cds\_view\_extension  
+  {
+    spfli.distance,
+    spfli.distid as unit
+  };
+
+adds two view fields to the existing CDS view.
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ORIG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST\]
+@EndUserText.label: 'Further information about the CDS entity'
+define view demo\_cds\_original\_view  
+  as select from
+           spfli
+      join scarr on
+        scarr.carrid = spfli.carrid
+    {
+      key scarr.carrname     as carrier,
+      key spfli.connid       as flight,
+          spfli.cityfrom     as departure,
+          spfli.cityto       as destination
+    };
+
+The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
+
+Addition 1   
+
+... GROUP BY field1, field2, ...
+
+Effect
+
+This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
+
+The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
+
+Hint
+
+Extensions of a view with aggregate expressions require it to contain the annotation array viewEnhancementCategory\[ \] with the value #GROUP\_BY.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTAGG'
+extend view demo\_cds\_aggregate with demo\_cds\_extend\_aggregate
+  {
+    connid,  
+    sum(distance) as sum\_distance
+  }
+  group by
+    connid;
+
+extends the existing CDS view.
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_AGG'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#GROUP\_BY\]
+define view demo\_cds\_aggregate
+  as select from
+    spfli  
+    {
+      carrid,
+      sum(fltime) as sum\_fltime
+    }
+    group by
+      carrid;
+
+A database field connid and an aggregate expression sum(distance) are added to the SELECT list. Accordingly, the addition GROUP BY must be used to add the database field to the GROUP-BY clause of the original view.
+
+Addition 2   
+
+... UNION *\[*ALL*\]* { ... }
+
+Effect
+
+This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
+
+The addition cannot be specified if the definition of the original view does not have a UNION clause.
+
+Hint
+
+Extensions of a view with UNION clauses require it to contain the annotation array viewEnhancementCategory\[ \] with the value #UNION.
+
+Example
+
+The following CDS view extension
+
+@AbapCatalog.sqlViewAppendName: 'DEMO\_CDS\_EXTUNI'
+extend view demo\_cds\_union with demo\_cds\_extend\_union
+  {
+    c as c3,
+    d as c4
+  }
+union
+  {
+    f as c3,
+    g as c4
+  }
+union all
+  {
+    k as c3,
+    l as c4
+  };
+
+extends the existing CDS view.
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_UIO'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+@AbapCatalog.viewEnhancementCategory: \[#PROJECTION\_LIST,#UNION\]
+define view demo\_cds\_union
+  as select from
+    demo\_join1
+    {
+      a as c1,
+      b as c2
+    }
+union select from
+  demo\_join2
+    {
+      d as c1,
+      e as c2
+    }
+union all select from
+  demo\_join3
+    {
+      i as c1,
+      j as c2
+    };
+
+The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
+
+Continue
+[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
+
 
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -5465,16 +4314,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -5721,16 +4573,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -5797,16 +4652,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6053,16 +4911,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -6129,16 +4990,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6385,16 +5249,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -6461,16 +5328,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -6717,16 +5587,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -6793,16 +5666,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7049,16 +5925,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -7125,16 +6004,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7381,16 +6263,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -7457,16 +6342,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -7713,16 +6601,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -7789,16 +6680,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8045,16 +6939,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -8121,16 +7018,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8377,16 +7277,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -8453,16 +7356,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -8709,16 +7615,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -8776,25 +7685,28 @@ Hints
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Custom Entities / CDS DDL - DEFINE CUSTOM ENTITY
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Custom Entities / CDS DDL - DEFINE CUSTOM ENTITY / CDS DDL - DEFINE CUSTOM ENTITY, element_list
 
-**Files**: 13 | **Difficulty**: advanced
+**Files**: 7 | **Difficulty**: advanced
 
 # ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entity Extension / CDS DDL - EXTEND VIEW ddic_based
 
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9041,16 +7953,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -9108,25 +8023,28 @@ Hints
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Abstract Entities
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - Abstract Entities / CDS DDL - DEFINE ABSTRACT ENTITY
 
-**Files**: 12 | **Difficulty**: advanced
+**Files**: 10 | **Difficulty**: advanced
 
 # ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entity Extension / CDS DDL - EXTEND VIEW ddic_based
 
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9373,16 +8291,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -9449,16 +8370,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -9705,16 +8629,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -9781,16 +8708,19 @@ Hints
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_extend_view.htm
 
-> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.sqlViewAppendName: 'CDS_APPEND_VIEW'(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_annot1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm) @extension_an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm"
+abapFile: "abencds_extend_view.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abencds", "extend", "view"]
+---
 
 * * *
 
@@ -10037,16 +8967,19 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
 
 
-
-**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
-
 ### abencds_f1_extend_view_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm"
+abapFile: "abencds_f1_extend_view_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "extend", "view", "annotations"]
+---
 
 * * *
 
@@ -10113,16 +9046,19 @@ Hints
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -10164,16 +9100,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -10229,16 +9168,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -10334,16 +9276,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -10366,7 +9311,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-57--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE PFCG\_MAPPING
@@ -10454,16 +9399,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_eleme
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -10536,16 +9484,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -10568,7 +9519,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element-with-filter-elements---filter-element1-as-filter-alias1--filter-eleme-version---7-57--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE ASPECT
@@ -10645,16 +9596,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -10696,16 +9650,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -10761,16 +9718,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -10866,16 +9826,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -10898,7 +9861,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-57--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE PFCG\_MAPPING
@@ -10986,16 +9949,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_eleme
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -11068,16 +10034,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -11100,7 +10069,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element-with-filter-elements---filter-element1-as-filter-alias1--filter-eleme-version---7-57--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE ASPECT
@@ -11177,16 +10146,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -11228,16 +10200,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -11293,16 +10268,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -11398,16 +10376,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -11430,7 +10411,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-57--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE PFCG\_MAPPING
@@ -11518,16 +10499,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_eleme
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -11600,16 +10584,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -11632,7 +10619,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element-with-filter-elements---filter-element1-as-filter-alias1--filter-eleme-version---7-57--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE ASPECT
@@ -11709,16 +10696,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -11760,16 +10750,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -11825,16 +10818,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -11930,16 +10926,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -11962,7 +10961,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-57--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE PFCG\_MAPPING
@@ -12050,16 +11049,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_eleme
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -12132,16 +11134,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -12164,7 +11169,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element-with-filter-elements---filter-element1-as-filter-alias1--filter-eleme-version---7-57--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE ASPECT
@@ -12241,16 +11246,19 @@ Continue
 Included pages: 8
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -12292,16 +11300,19 @@ Continue
 [CDS DCL - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -12357,16 +11368,19 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -12462,16 +11476,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -12494,7 +11511,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-57--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----data----abencds----define----pfcg----mapping---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE PFCG_MAPPING, ABENCDS_F1_DEFINE_PFCG_MAPPING, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE PFCG\_MAPPING
@@ -12582,16 +11599,19 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_eleme
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -12664,16 +11684,19 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_dcl_as_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -12696,7 +11719,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-access-control-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------cds-dcl---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
+-   [EndUserText Annotations](#abencds-f1-dcl-as-annotations-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations-----translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-a-maximum-of-60-characters----------hint--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-generic-aspect-htm------title---cds-dcl---define-aspect--description------syntax-aspect-annot-https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-as-annotations-htm--define-aspect-aspect-as-select-from-aspect-entity-with-user-element-user-element-with-filter-elements---filter-element1-as-filter-alias1--filter-eleme-version---7-57--category---cds--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-generic-aspect-htm--abapfile---abencds-f1-define-generic-aspect-htm--keywords----select----do----if----case----try----data----abencds----define----generic----aspect---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-htm------abap---core-data-services--abap-cds---https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-access-control-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-dcl-syntax-htm------cds-dcl---define-accesspolicy--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abencds-f1-define-accesspolicy-htm------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DCL - DEFINE ASPECT
@@ -12773,16 +11796,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)
-
 ### abencds_system_entities.htm
 
-> **📖 Official SAP Documentation**: [abencds_system_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - System Entities"
+description: |
+  CDS system entities provide basic functionality and can be used in other CDS entities and in ABAP SQL. -   ABAP CDS - System Table Functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm) ABAP CDS - System Table Functions(https://help.sap.com/doc/a
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entities.htm"
+abapFile: "abencds_system_entities.htm"
+keywords: ["do", "if", "data", "abencds", "system", "entities"]
+---
 
 * * *
 
@@ -12803,16 +11829,19 @@ Continue
 [ABAP CDS - System Table Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
 
 
-
-**📖 Source**: [abencds_system_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entities.htm)
-
 ### abencds_system_table_functions.htm
 
-> **📖 Official SAP Documentation**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - System Table Functions"
+description: |
+  CDS system table functions are system entities realized as CDS table functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_functions.htm). -   SERIES_GENERATE_, Series Generators(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.h
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm"
+abapFile: "abencds_system_table_functions.htm"
+keywords: ["do", "if", "data", "abencds", "system", "table", "functions"]
+---
 
 * * *
 
@@ -12833,16 +11862,19 @@ Continue
 [SERIES\_GENERATE\_, Series Generators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.htm)
 
 
-
-**📖 Source**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
-
 ### abencds_series_generators.htm
 
-> **📖 Official SAP Documentation**: [abencds_series_generators.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Example"
+description: |
+  The following CDS view entity demonstrates the creation of a series of dates using the CDS system entity SERIES_GENERATE_DATE. @EndUserText.label: 'CDS view entity, generate date' @AccessControl.authorizationCheck: #NOT_REQUIRED define view entity DEMO_CDS_SERIES_GENERATOR_DATE as select from
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.htm"
+abapFile: "abencds_series_generators.htm"
+keywords: ["select", "do", "if", "try", "catch", "data", "types", "abencds", "series", "generators"]
+---
 
 * * *
 
@@ -12859,7 +11891,7 @@ Series generators are a set of [CDS system table functions](https://help.sap.com
 
 -   [Common Parameters and Result](#abencds-series-generators-1-------series--generate--date---@ITOC@@ABENCDS_SERIES_GENERATORS_2)
 -   [SERIES\_GENERATE\_INTEGER](#abencds-series-generators-3-------series--generate--time---@ITOC@@ABENCDS_SERIES_GENERATORS_4)
--   [SERIES\_GENERATE\_TIMESTAMP](#abencds-series-generators-5---hint--in-abap-sql--usage-of-an-series-generator-enforces--strict-mode-from-release-7-56--javascript-call-link---abenabap-sql-strictmode-756-htm-------common-parameters-and-result-----all-series-generators-have-the-following-mandatory-parameters---parameter--details--step--number-that-defines-the-increment-value-for-the-series-to-be-generated--for-example--numbers--seconds-or-days-depending-on-the-table-function-used--step-is-of-type--int4--javascript-call-link---abenddic-builtin-types-htm------it-must-be-greater-than-0--if-step-is-greater-than-the-difference-of-the-parameters-to--value-and-from--value--the-result-is-an-initial-table---from--value--start-value-of-the-series--the-type-depends-on-the-series-generator-used---to--value--final-value-of-the-series--the-value-is-not-included-as-value-in-the-generated--period--end-field-in-the-generated-table-since-the-series-ends-with-the-step-before-the-to--value-is-reached--the-data-type-of-to--value-depends-on-the-table-function-used---the-generated-result-tables-have-the-following-fields---field--details--generated--period--start--start-value-of-a-generated-period-of-the-series--the-value-of-generated--period--end-becomes-the-new-value-for-generated--period--start-of-the-next-period---generated--period--end--final-value-of-a-generated-period-of-the-series--the-defined-parameter-to--value-is-not-included-in-the-table---element--number--number-of-the-period--it-is-consecutively-numbered--starting-with-1--in-integer-steps---fraction--of--min--max--range--the-calculated-value-of---generated--period--end---generated--period--start-------to--value---from--value-----series--generate--date-----the-cds-table-function-series--generate--date-creates-a-table-with-a-series-of-dates--the-following-types-are-used-------parameters----------step---int4--javascript-call-link---abenddic-builtin-types-htm-------------from--value---datn--javascript-call-link---abenddic-builtin-types-htm-------------to--value---datn--javascript-call-link---abenddic-builtin-types-htm---------the-table-is-of-type-series--generate--date-and-has-the-following-fields----------generated--period--start---datn--javascript-call-link---abenddic-builtin-types-htm-------------generated--period--end---datn--javascript-call-link---abenddic-builtin-types-htm-------------element--number---int8--javascript-call-link---abenddic-builtin-types-htm-------------fraction--of--min--max--range---fltp--javascript-call-link---abenddic-builtin-types-htm------example--the-following-source-code-demonstrates-the-creation-of-a-series-of-dates-using-the-cds-system-entity-series--generate--date---final-current--date----sy-datum--final-one--year--later----current--date---365--select----from-series--generate--date--step---------30--------------------------------------from--value---current\_date,
+-   [SERIES\_GENERATE\_TIMESTAMP](#abencds-series-generators-5---hint--in-abap-sql--usage-of-an-series-generator-enforces--strict-mode-from-release-7-56--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenabap-sql-strictmode-756-htm----common-parameters-and-result-----all-series-generators-have-the-following-mandatory-parameters---parameter--details--step--number-that-defines-the-increment-value-for-the-series-to-be-generated--for-example--numbers--seconds-or-days-depending-on-the-table-function-used--step-is-of-type--int4--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm---it-must-be-greater-than-0--if-step-is-greater-than-the-difference-of-the-parameters-to--value-and-from--value--the-result-is-an-initial-table---from--value--start-value-of-the-series--the-type-depends-on-the-series-generator-used---to--value--final-value-of-the-series--the-value-is-not-included-as-value-in-the-generated--period--end-field-in-the-generated-table-since-the-series-ends-with-the-step-before-the-to--value-is-reached--the-data-type-of-to--value-depends-on-the-table-function-used---the-generated-result-tables-have-the-following-fields---field--details--generated--period--start--start-value-of-a-generated-period-of-the-series--the-value-of-generated--period--end-becomes-the-new-value-for-generated--period--start-of-the-next-period---generated--period--end--final-value-of-a-generated-period-of-the-series--the-defined-parameter-to--value-is-not-included-in-the-table---element--number--number-of-the-period--it-is-consecutively-numbered--starting-with-1--in-integer-steps---fraction--of--min--max--range--the-calculated-value-of---generated--period--end---generated--period--start-------to--value---from--value-----series--generate--date-----the-cds-table-function-series--generate--date-creates-a-table-with-a-series-of-dates--the-following-types-are-used-------parameters----------step---int4--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----------from--value---datn--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----------to--value---datn--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm------the-table-is-of-type-series--generate--date-and-has-the-following-fields----------generated--period--start---datn--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----------generated--period--end---datn--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----------element--number---int8--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----------fraction--of--min--max--range---fltp--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm---example--the-following-source-code-demonstrates-the-creation-of-a-series-of-dates-using-the-cds-system-entity-series--generate--date---final-current--date----sy-datum--final-one--year--later----current--date---365--select----from-series--generate--date--step---------30--------------------------------------from--value---current\_date,
                                     to\_value   = @one\_year\_later )
   ORDER BY element\_number
   INTO TABLE @FINAL(date\_series\_gen).
@@ -13032,16 +12064,19 @@ CX\_SY\_OPEN\_SQL\_DB
     Runtime error: DBSQL\_SQL\_ERROR
 
 
-
-**📖 Source**: [abencds_series_generators.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.htm)
-
 ### abencds_system_table_functions.htm
 
-> **📖 Official SAP Documentation**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - System Table Functions"
+description: |
+  CDS system table functions are system entities realized as CDS table functions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_functions.htm). -   SERIES_GENERATE_, Series Generators(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.h
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm"
+abapFile: "abencds_system_table_functions.htm"
+keywords: ["do", "if", "data", "abencds", "system", "table", "functions"]
+---
 
 * * *
 
@@ -13069,169 +12104,24 @@ Continue
 
 **Files**: 4 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -13262,16 +12152,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -13304,16 +12197,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -13351,16 +12247,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -13548,16 +12447,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -13580,16 +12482,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -13775,267 +12680,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -14045,169 +12689,24 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 **Files**: 2 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -14238,16 +12737,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -14280,16 +12782,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -14327,16 +12832,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -14524,16 +13032,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -14556,16 +13067,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -14751,1415 +13265,33 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Associations
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, select_list / CDS DDL - DDIC-Based View, SELECT, element / CDS DDL - DDIC-Based View, SELECT, expose_assoc
 
-**Files**: 6 | **Difficulty**: advanced
+**Files**: 2 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_path_expr_card_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, Cardinality, ABENCDS_PATH_EXPR_CARD_V1, 757%0D%
-0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, Cardinality
-
-Syntax
-
-...  1*|*\*: ...
-
-Effect
-
-Specifies the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the current CDS association:
-
--   If the attribute 1: is specified, the current CDS association is declared as unique.
--   If the attribute \*: is specified, the current CDS association is declared as non-unique.
-
-The addition 1: makes it possible to use filter conditions in path expressions, which are used in [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clauses or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clauses. In a clause like this, it overwrites the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm). (The variant of the path expression can, however, be affected differently on certain database systems.)
-
-The addition 1: or \*: cannot be specified as the only addition in square brackets.
-
-Hint
-
-The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
-
-
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
-### abencds_path_expr_jointype_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, join_type, ABENCDS_PATH_EXPR_JOINTYPE_V1, 757%0
-D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, join\_type
-
-Syntax
-
-... INNER*|**{*LEFT OUTER*}* ...
-
-Effect
-
-Defines the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") with which the current CDS association is implemented:
-
--   INNER determines an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry")
--   LEFT OUTER determines a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry")
-
-If the join type is not specified explicitly, the type depends on the place where the path expression is used:
-
--   After [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm), it is an inner join (INNER JOIN)
--   In all other locations, it is a left outer join (LEFT OUTER JOIN)
-
-Hint
-
-In the DDL Source Text Editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), you can view the configuration of the join in the display of the generated SQL DDL statement.
-
-Executable Example
-
-[Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
-### abencds_path_expression_filter_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, Filter, ABENCDS_PATH_EXPRESSION_FILTER_V1, 757%
-0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, Filter
-
-Syntax
-
-... *\[*WHERE*\]* [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ...
-
-Effect
-
-[Filter condition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm "Glossary Entry") for the current CDS association. If the join type is explicitly defined with [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm), the addition WHERE must be specified explicitly. If this is not the case, WHERE must not be specified.
-
-A filter condition is a condition [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) implemented as an expanded condition for the join when resolving the CDS association with the join in question. For the operands, [general](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_operands_v1.htm) and [special rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm) apply when specifying the condition.
-
-If no filter condition is specified in the path expression, any default filter condition specified for the [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) is used.
-
-Hint
-
-In most cases, a filter condition modifies the join expression defined for a CDS association of a path expression on the database. This means that a separate join expression is defined for each CDS association with a filter condition by default. This is not necessary, however, if a CDS association is used more than once and the same filter condition is specified. This is why the [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can be used to configure whether the filter conditions of multiple CDS associations are compared semantically for the path expressions defined as joins when a view is activated. If the filter condition matches, the associated join expression is created only once, which generally improves performance. In most cases, it is best to use the annotation and it is automatically proposed when creating a CDS view in the ADT. The result sets of the two configurations can, however, differ.
-
-Example
-
-The following three views contain path expressions with filter conditions in their SELECT list that are implemented as join expressions upon activation.
-
-@AbapCatalog.sqlViewName: 'DEMOCDSASSFI1'
-@AbapCatalog.compiler.compareFilter: true
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_assoc\_filter1  
-   as select from
-    demo\_join1
-    association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-      \_demo\_join2.d = demo\_join1.d
-    {
-      \_demo\_join2\[  
-        inner where d = '1' \].d                         as d\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].e                         as e\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].i as i\_3,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].j as j\_3
-    }
-
-@AbapCatalog.sqlViewName: 'DEMOCDSASSFI2'
-@AbapCatalog.compiler.compareFilter: false
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_assoc\_filter2  
-   as select from
-    demo\_join1
-    association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-      \_demo\_join2.d = demo\_join1.d
-    {
-      \_demo\_join2\[  
-        inner where d = '1' \].d                         as d\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].e                         as e\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].i as i\_3,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].j as j\_3
-    }
-
-@AbapCatalog.sqlViewName: 'DEMOCDSASSFI3'
-@AbapCatalog.compiler.compareFilter: true
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_assoc\_filter3  
-   as select from
-    demo\_join1
-    association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-      \_demo\_join2.d = demo\_join1.d
-    {
-      \_demo\_join2\[  
-        inner where d = '1' \].d                         as d\_2,
-      \_demo\_join2\[  
-        inner where d = '2' \].e                         as e\_2,
-      \_demo\_join2\[  
-        inner where d = '3' \].\_demo\_join3\[  
-                                inner where i = '5' \].i as i\_3,
-      \_demo\_join2\[  
-        inner where d = '4' \].\_demo\_join3\[  
-                                inner where i = '6' \].j as j\_3
-    }
-
-In the first view, the annotation AbapCatalog.compiler.compareFilter has the recommended value true. The conditions are detected as identical and the variants of the path expressions on a SAP HANA database looks something like this:
-
-CREATE VIEW "DEMOCDSASSFI1" AS SELECT
-  "=A0"."D" AS "D\_2",
-  "=A0"."E" AS "E\_2",
-  "=A1"."I" AS "I\_3",
-  "=A1"."J" AS "J\_3"
-FROM (
-  "DEMO\_JOIN1" "DEMO\_JOIN1" INNER JOIN "DEMO\_CDS\_ASJO2" "=A0" ON (
-    "=A0"."D" = "DEMO\_JOIN1"."D" AND
-    "=A0"."D" = N'1'
-  )
-) INNER JOIN "DEMO\_JOIN3" "=A1" ON (
-  "=A1"."L" = "=A0"."D" AND
-  "=A1"."I" = N'2'
-)
-
-In the second view, AbapCatalog.compiler.compareFilter has the value false and a join expression is defined for each CDS association of the path expressions regardless of the identical conditions. This means that this variant looks like the variant of the third views (in which all conditions are different):
-
-CREATE VIEW "DEMOCDSASSFI2" AS SELECT
-  "=A0"."D" AS "D\_2",
-  "=A1"."E" AS "E\_2",
-  "=A3"."I" AS "I\_3",
-  "=A5"."J" AS "J\_3"
-FROM (
-  (
-    (
-      (
-        (
-          "DEMO\_JOIN1" "DEMO\_JOIN1" INNER JOIN "DEMO\_CDS\_ASJO2" "=A0" ON (
-            "=A0"."D" = "DEMO\_JOIN1"."D" AND
-            "=A0"."D" = N'1'
-          )
-        ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A1" ON (
-          "=A1"."D" = "DEMO\_JOIN1"."D" AND
-          "=A1"."D" = N'1'
-        )
-      ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A2" ON (
-        "=A2"."D" = "DEMO\_JOIN1"."D" AND
-        "=A2"."D" = N'1'
-      )
-    ) INNER JOIN "DEMO\_JOIN3" "=A3" ON (
-      "=A3"."L" = "=A2"."D" AND
-      "=A3"."I" = N'2'
-    )
-  ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A4" ON (
-    "=A4"."D" = "DEMO\_JOIN1"."D" AND
-    "=A4"."D" = N'1'
-  )
-) INNER JOIN "DEMO\_JOIN3" "=A5" ON (
-  "=A5"."L" = "=A4"."D" AND
-  "=A5"."I" = N'2'
-)
-CREATE VIEW "DEMOCDSASSFI3" AS SELECT
-  "=A0"."D" AS "D\_2",
-  "=A1"."E" AS "E\_2",
-  "=A3"."I" AS "I\_3",
-  "=A5"."J" AS "J\_3"
-FROM (
-  (
-    (
-      (
-        (
-          "DEMO\_JOIN1" "DEMO\_JOIN1" INNER JOIN "DEMO\_CDS\_ASJO2" "=A0" ON (
-            "=A0"."D" = "DEMO\_JOIN1"."D" AND
-            "=A0"."D" = N'1'
-          )
-        ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A1" ON (
-          "=A1"."D" = "DEMO\_JOIN1"."D" AND
-          "=A1"."D" = N'2'
-        )
-      ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A2" ON (
-        "=A2"."D" = "DEMO\_JOIN1"."D" AND
-        "=A2"."D" = N'3'
-      )
-    ) INNER JOIN "DEMO\_JOIN3" "=A3" ON (
-      "=A3"."L" = "=A2"."D" AND
-      "=A3"."I" = N'5'
-    )
-  ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A4" ON (
-    "=A4"."D" = "DEMO\_JOIN1"."D" AND
-    "=A4"."D" = N'4'
-  )
-) INNER JOIN "DEMO\_JOIN3" "=A5" ON (
-  "=A5"."L" = "=A4"."D" AND
-  "=A5"."I" = N'6'
-)
-
-Continue
-[CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_cond_expr_filter_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, cds_cond, Filter, ABENCDS_COND_EXPR_FILTER_V1, 757%0D%0A%0
-D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, cds\_cond, Filter
-
-Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) in a
-
-[filter condition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"):
-
--   All relational operators are allowed.
--   lhs expects a [field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_field_v1.htm) of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the current [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry").
--   A [field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_field_v1.htm) of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the current [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm), a [literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_literal_v1.htm) with optional domain prefix, a [parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_parameter_v1.htm), a [session variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_session_variable_v1.htm), or a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm) can be specified for rhs (with the exception of the operator [LIKE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_like_v1.htm)).
--   No path expressions or other expressions or function calls can be specified.
-
-
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-### abencds_path_expression_filter_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, Filter, ABENCDS_PATH_EXPRESSION_FILTER_V1, 757%
-0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, Filter
-
-Syntax
-
-... *\[*WHERE*\]* [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ...
-
-Effect
-
-[Filter condition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm "Glossary Entry") for the current CDS association. If the join type is explicitly defined with [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm), the addition WHERE must be specified explicitly. If this is not the case, WHERE must not be specified.
-
-A filter condition is a condition [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) implemented as an expanded condition for the join when resolving the CDS association with the join in question. For the operands, [general](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_operands_v1.htm) and [special rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm) apply when specifying the condition.
-
-If no filter condition is specified in the path expression, any default filter condition specified for the [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) is used.
-
-Hint
-
-In most cases, a filter condition modifies the join expression defined for a CDS association of a path expression on the database. This means that a separate join expression is defined for each CDS association with a filter condition by default. This is not necessary, however, if a CDS association is used more than once and the same filter condition is specified. This is why the [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can be used to configure whether the filter conditions of multiple CDS associations are compared semantically for the path expressions defined as joins when a view is activated. If the filter condition matches, the associated join expression is created only once, which generally improves performance. In most cases, it is best to use the annotation and it is automatically proposed when creating a CDS view in the ADT. The result sets of the two configurations can, however, differ.
-
-Example
-
-The following three views contain path expressions with filter conditions in their SELECT list that are implemented as join expressions upon activation.
-
-@AbapCatalog.sqlViewName: 'DEMOCDSASSFI1'
-@AbapCatalog.compiler.compareFilter: true
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_assoc\_filter1  
-   as select from
-    demo\_join1
-    association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-      \_demo\_join2.d = demo\_join1.d
-    {
-      \_demo\_join2\[  
-        inner where d = '1' \].d                         as d\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].e                         as e\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].i as i\_3,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].j as j\_3
-    }
-
-@AbapCatalog.sqlViewName: 'DEMOCDSASSFI2'
-@AbapCatalog.compiler.compareFilter: false
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_assoc\_filter2  
-   as select from
-    demo\_join1
-    association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-      \_demo\_join2.d = demo\_join1.d
-    {
-      \_demo\_join2\[  
-        inner where d = '1' \].d                         as d\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].e                         as e\_2,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].i as i\_3,
-      \_demo\_join2\[  
-        inner where d = '1' \].\_demo\_join3\[  
-                                inner where i = '2' \].j as j\_3
-    }
-
-@AbapCatalog.sqlViewName: 'DEMOCDSASSFI3'
-@AbapCatalog.compiler.compareFilter: true
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_assoc\_filter3  
-   as select from
-    demo\_join1
-    association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-      \_demo\_join2.d = demo\_join1.d
-    {
-      \_demo\_join2\[  
-        inner where d = '1' \].d                         as d\_2,
-      \_demo\_join2\[  
-        inner where d = '2' \].e                         as e\_2,
-      \_demo\_join2\[  
-        inner where d = '3' \].\_demo\_join3\[  
-                                inner where i = '5' \].i as i\_3,
-      \_demo\_join2\[  
-        inner where d = '4' \].\_demo\_join3\[  
-                                inner where i = '6' \].j as j\_3
-    }
-
-In the first view, the annotation AbapCatalog.compiler.compareFilter has the recommended value true. The conditions are detected as identical and the variants of the path expressions on a SAP HANA database looks something like this:
-
-CREATE VIEW "DEMOCDSASSFI1" AS SELECT
-  "=A0"."D" AS "D\_2",
-  "=A0"."E" AS "E\_2",
-  "=A1"."I" AS "I\_3",
-  "=A1"."J" AS "J\_3"
-FROM (
-  "DEMO\_JOIN1" "DEMO\_JOIN1" INNER JOIN "DEMO\_CDS\_ASJO2" "=A0" ON (
-    "=A0"."D" = "DEMO\_JOIN1"."D" AND
-    "=A0"."D" = N'1'
-  )
-) INNER JOIN "DEMO\_JOIN3" "=A1" ON (
-  "=A1"."L" = "=A0"."D" AND
-  "=A1"."I" = N'2'
-)
-
-In the second view, AbapCatalog.compiler.compareFilter has the value false and a join expression is defined for each CDS association of the path expressions regardless of the identical conditions. This means that this variant looks like the variant of the third views (in which all conditions are different):
-
-CREATE VIEW "DEMOCDSASSFI2" AS SELECT
-  "=A0"."D" AS "D\_2",
-  "=A1"."E" AS "E\_2",
-  "=A3"."I" AS "I\_3",
-  "=A5"."J" AS "J\_3"
-FROM (
-  (
-    (
-      (
-        (
-          "DEMO\_JOIN1" "DEMO\_JOIN1" INNER JOIN "DEMO\_CDS\_ASJO2" "=A0" ON (
-            "=A0"."D" = "DEMO\_JOIN1"."D" AND
-            "=A0"."D" = N'1'
-          )
-        ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A1" ON (
-          "=A1"."D" = "DEMO\_JOIN1"."D" AND
-          "=A1"."D" = N'1'
-        )
-      ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A2" ON (
-        "=A2"."D" = "DEMO\_JOIN1"."D" AND
-        "=A2"."D" = N'1'
-      )
-    ) INNER JOIN "DEMO\_JOIN3" "=A3" ON (
-      "=A3"."L" = "=A2"."D" AND
-      "=A3"."I" = N'2'
-    )
-  ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A4" ON (
-    "=A4"."D" = "DEMO\_JOIN1"."D" AND
-    "=A4"."D" = N'1'
-  )
-) INNER JOIN "DEMO\_JOIN3" "=A5" ON (
-  "=A5"."L" = "=A4"."D" AND
-  "=A5"."I" = N'2'
-)
-CREATE VIEW "DEMOCDSASSFI3" AS SELECT
-  "=A0"."D" AS "D\_2",
-  "=A1"."E" AS "E\_2",
-  "=A3"."I" AS "I\_3",
-  "=A5"."J" AS "J\_3"
-FROM (
-  (
-    (
-      (
-        (
-          "DEMO\_JOIN1" "DEMO\_JOIN1" INNER JOIN "DEMO\_CDS\_ASJO2" "=A0" ON (
-            "=A0"."D" = "DEMO\_JOIN1"."D" AND
-            "=A0"."D" = N'1'
-          )
-        ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A1" ON (
-          "=A1"."D" = "DEMO\_JOIN1"."D" AND
-          "=A1"."D" = N'2'
-        )
-      ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A2" ON (
-        "=A2"."D" = "DEMO\_JOIN1"."D" AND
-        "=A2"."D" = N'3'
-      )
-    ) INNER JOIN "DEMO\_JOIN3" "=A3" ON (
-      "=A3"."L" = "=A2"."D" AND
-      "=A3"."I" = N'5'
-    )
-  ) INNER JOIN "DEMO\_CDS\_ASJO2" "=A4" ON (
-    "=A4"."D" = "DEMO\_JOIN1"."D" AND
-    "=A4"."D" = N'4'
-  )
-) INNER JOIN "DEMO\_JOIN3" "=A5" ON (
-  "=A5"."L" = "=A4"."D" AND
-  "=A5"."I" = N'6'
-)
-
-Continue
-[CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
-
 
 ---
-
-
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, select_list / CDS DDL - DDIC-Based View, SELECT, element
-
-**Files**: 5 | **Difficulty**: advanced
-
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
-
-Included pages: 9
-
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -16190,16 +13322,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -16232,16 +13367,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -16279,16 +13417,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -16476,16 +13617,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -16508,16 +13652,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -16703,267 +13850,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -16973,169 +13859,24 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 **Files**: 9 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -17166,16 +13907,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -17208,16 +13952,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -17255,16 +14002,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -17452,16 +14202,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -17484,16 +14237,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -17679,267 +14435,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -17949,169 +14444,24 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 **Files**: 5 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -18142,16 +14492,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -18184,16 +14537,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -18231,16 +14587,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -18428,16 +14787,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -18460,16 +14822,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -18655,267 +15020,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -18925,169 +15029,24 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 **Files**: 2 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -19118,16 +15077,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -19160,16 +15122,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -19207,16 +15172,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -19404,16 +15372,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -19436,16 +15407,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -19631,267 +15605,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -19901,169 +15614,24 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 **Files**: 5 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -20094,16 +15662,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -20136,16 +15707,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -20183,16 +15757,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -20380,16 +15957,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -20412,16 +15992,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -20607,267 +16190,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -20877,169 +16199,24 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 **Files**: 2 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -21070,16 +16247,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -21112,16 +16292,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -21159,16 +16342,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -21356,16 +16542,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -21388,16 +16577,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -21583,267 +16775,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -21853,169 +16784,24 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 **Files**: 9 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -22046,16 +16832,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -22088,16 +16877,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -22135,16 +16927,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -22332,16 +17127,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -22364,16 +17162,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -22559,439 +17360,33 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-**Files**: 9 | **Difficulty**: advanced
+**Files**: 6 | **Difficulty**: advanced
 
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr
+# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / Obsolete CDS Language Elements / Obsolete CDS Entities / ABAP CDS - DDIC-Based Entities (Obsolete) / ABAP CDS - DDIC-Based Views (Obsolete) / CDS DDL - DEFINE VIEW ddic_based / CDS DDL - DDIC-Based View, SELECT / CDS DDL - DDIC-Based View, SELECT, Operands and Expressions / CDS DDL - DDIC-Based View, path_expr / CDS DDL - DDIC-Based View, path_expr, attributes
 
-Included pages: 9
+Included pages: 6
 
-
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-### abencds_path_expression_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, ABENCDS_PATH_EXPRESSION_V1, 757%0D%0A%0D%0AErro
-r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr
-
-Syntax
-
-... *\[*source.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]*
-           *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)*\]* ... *\]* ...
-
-Effect
-
-Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_path_expression_glosry.htm "Glossary Entry") that can be used in a SELECT statement of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). A path expression of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") is a sequence of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on. The name of the CDS entity source in which the first CDS association is defined or exposed can be specified in front of this CDS association. The first CDS association of a path expression must be either:
-
--   Defined in the current CDS view.
--   Exposed as an element of the SELECT list or of the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_hiera_element_list.htm) in a CDS view or CDS hierarchy that is a data source of the current view.
-
-All further CDS associations must be exposed in the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed CDS association in the path expression. It is not possible to use a CDS association in a path expression that is defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or in a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
-
-[attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) can be used to specify attributes in angle brackets after every CDS association. These attributes define the following further properties of this section of the path expression:
-
--   [Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
--   [Join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) implemented when used
--   [Filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-If the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a specified [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_param.htm), then actual parameters must be passed to them, using [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_parameters_v1.htm) after the name \_assoc. No parameters can be specified for a CDS association exposed as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) list.
-
-Use of Path Expressions
-
-Path expressions can be used as follows in the CDS DDL in ABAP CDS:
-
--   They can [expose](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) their final CDS associations as [elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) for use in other CDS entities or in ABAP SQL.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is not an [CDS abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be used as follows:
-    
-    -   To specify the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the final CDS association as the data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm). The path expression represents an [inner join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninner_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an [element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm), [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm), or [WHEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_searched_case_expr_v1.htm) conditions. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association after GROUP BY. The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    -   To specify an element .element of the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the last CDS association as an operand of an [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), a [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_builtin_functions_v1.htm), a [case expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_case_expression_v1.htm), or a [cast expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v1.htm). The path expression represents a [left outer join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") by default.
-    
-    In the case of self associations in which the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is the same as the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), these usages are not possible in the CDS entity where they are defined.
-    
-
-For a non-aggregated element of a SELECT list that contains [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_aggregate_functions_v1.htm), as well as in a WHERE and HAVING condition, the result of the path expression must be unique. This means that the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of all CDS associations used must be either to-one or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) that are declared as unique using the addition 1:.
-
-The following is evaluated when a CDS entity is accessed using a path expression:
-
--   The joins defined by the CDS associations, from left to right.
--   All other conditions of the CDS entities involved.
-
-The path expression addresses the full result of this evaluation or a single element .element.
-
-Hints
-
--   The most simple path expression is the name of a single CDS association.
--   For joins of CDS associations used in path expressions, note that their left side is always the CDS entity that exposes the CDS association. This applies particularly to CDS associations that are exposed in data sources of CDS entities and passed on.
--   CDS DDL path expressions can also be used in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS to specify [conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_conditions.htm).
--   A CDS association whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") does not expose a CDS association cannot be followed by any further associations in a path expression. More specifically, for CDS associations whose association targets are DDIC database tables or DDIC views, no further CDS associations can be specified in a path expression.
--   When the CDS associations of the path expressions of a view are implemented as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_anno_v1.htm) can serve as support. It this annotation is used with the value true, it guarantees that CDS associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) do not produce differing join expressions.
--   Path expressions with CDS associations whose [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is a [non-SQL CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_non_sql_entity_glosry.htm "Glossary Entry") cannot be used anywhere where they could produce instances of join expressions.
-
-Example
-
-The following DDIC-based view contains the simple path expression \_scarr\[inner\].carrname in its SELECT list. The attribute [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm) controls the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry"). The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in ABAP SQL.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_JN2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view demo\_cds\_join2
-  as select from spfli
-  association to scarr as \_scarr on
-    spfli.carrid = \_scarr.carrid
-  {
-    \_scarr\[inner\].carrname as carrier,
-    spfli.connid           as flight,
-    spfli.cityfrom         as departure,
-    spfli.cityto           as arrival
-  }    
-
-Example
-
-This example shows three CDS views, sales\_order, business\_partner, and invoice. The CDS view invoice uses its own CDS association and CDS associations from the other two views in path expressions:
-
--   The CDS association sales\_order of the CDS view business\_partner is specified as a data source after FROM. A filter condition guarantees that only certain orders can be used as data sources.
--   The CDS association invoice\_header, which is defined by the view invoice itself, is used in a path expression as an operand in the WHERE condition.
--   The CDS association note\_header of the CDS view sales\_order is addressed using the alternative name bpa in business\_partner and defined as an element of the SELECT list. This means this CDS association can also be used in CDS views that use invoice as a data source.
-    
-    @AbapCatalog.sqlViewName: 'SALES\_ORDER\_VW'
-    define view sales\_order as
-      select from snwd\_so
-             association \[0..1\] to snwd\_text\_key as \_note\_header
-               on snwd\_so.note\_guid = \_note\_header.node\_key
-      { \* } // Include all fields from snwd\_text\_key
-    
-    @AbapCatalog.sqlViewName: 'BPA\_VW'
-    define view business\_partner as
-      select from snwd\_bpa
-             association \[0..\*\] to sales\_order
-               on snwd\_bpa.node\_key = sales\_order.buyer\_guid
-      { \* }
-    
-    @AbapCatalog.sqlViewName: 'SALESO\_INV\_VW'
-    define view invoice as
-      select from
-             /\* Association "sales\_order" with filter as data source \*/
-             business\_partner.sales\_order\[
-               lifecycle\_status <> 'C' and lifecycle\_status <> 'X'\]
-               as bpa\_so //alias for data source
-             /\* Association only used in this view definition \*/
-             association \[0..1\] to snwd\_so\_inv\_head as \_invoice\_header
-               on bpa\_so.node\_key = \_invoice\_header.so\_guid
-            { key bpa\_so.node\_key, //Field from ON-condition in \_invoice\_header
-                  bpa\_so.so\_id,
-                  bpa\_so.note\_guid, //Field from ON-condition in note\_header
-                  bpa\_so.lifecycle\_status,
-                  /\* Association is not exposed, but its element \*/
-                  \_invoice\_header.dunning\_level,
-                  /\* Association from data source is exposed here \*/
-                  bpa\_so.note\_header }
-              /\* Path expression in WHERE clause \*/
-              where \_invoice\_header.dunning\_level > '0';
-    
-
-Executable Example
-
-[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_colspec_abexa.htm)
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm)
 
 ### abencds_path_expr_attr_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1:(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) INNERLEFT OUTER(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) WHERE cds_cond(https://help.sap.com/d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm"
+abapFile: "abencds_path_expr_attr_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "attr"]
+---
 
 * * *
 
@@ -23022,16 +17417,19 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
 ### abencds_path_expr_card_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribute
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 
@@ -23064,16 +17462,19 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_where_clause_v1.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_having_clause_v1.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
-
-**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-
 ### abencds_path_expr_jointype_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... INNERLEFT OUTER ... Effect Defines the join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') with which the current CDS association is implemented: -   INNER determines an inner join(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm"
+abapFile: "abencds_path_expr_jointype_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "jointype"]
+---
 
 * * *
 
@@ -23111,16 +17512,19 @@ Executable Example
 [Joins of CDS Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
 
 
-
-**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -23308,16 +17712,19 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
 
 
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
 ### abencds_cond_expr_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "cds_cond_expr_filter_v1"
+description: |
+  cds_cond_expr_filter_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm"
+abapFile: "abencds_cond_expr_filter_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "filter"]
+---
 
 * * *
 
@@ -23340,16 +17747,19 @@ Rules for conditions [cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm
 -   No path expressions or other expressions or function calls can be specified.
 
 
-
-**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
 ### abencds_path_expression_filter_v1.htm
 
-> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ... Effect Filter condition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_condition_glosry.htm 'Glossary Entry') for the current CDS association.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm"
+abapFile: "abencds_path_expression_filter_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "filter"]
+---
 
 * * *
 
@@ -23535,267 +17945,6 @@ FROM (
 
 Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-### abencds_path_expr_attr_v1.htm
-
-> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, path_expr, attributes, ABENCDS_PATH_EXPR_ATTR_V1, 757%0D%0
-A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, path\_expr, attributes
-
-Syntax
-
-... \[ [*\[*1*|*\*:*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm) [*\[*INNER*|**{*LEFT OUTER*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) [*\[*WHERE*\]* *\[*cds\_cond*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) \] ...
-
-Effect
-
-For every CDS association [\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) of a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following attributes can be specified:
-
--   With [1*|*\*:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm), the [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") of the section can be specified.
--   With [INNER*|**{*LEFT OUTER*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) the [join type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm "Glossary Entry") can be specified.
--   With [*\[*WHERE*\]* cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm) a filter condition cds\_cond can be specified.
-
-Continue
-[CDS DDL - DDIC-Based View, path\_expr, Cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_card_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, join\_type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm)
-[CDS DDL - DDIC-Based View, path\_expr, Filter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_filter_v1.htm)
-
-
-
-**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_attr_v1.htm)
-
-### abencds_assoc_join_v1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, path\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, Joins of Associations, ABENCDS_ASSOC_JOIN_V1_ABEXA, 757%0D
-%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CDS DDL - DDIC-Based View, Joins of Associations
-
-This example demonstrates how path expressions are transformed to joins in ABAP CDS.
-
-Source Code   
-
-REPORT demo\_cds\_assoc\_joins.
-CLASS demo DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS:
-      class\_constructor,
-      main.
-  PRIVATE SECTION.
-    TYPES: wa1 TYPE demo\_join1,
-           wa2 TYPE demo\_join2,
-           wa3 TYPE demo\_join3.
-    TYPES BEGIN OF wa.
-    INCLUDE TYPE wa1 AS wa1 RENAMING WITH SUFFIX \_1.
-    INCLUDE TYPE wa2 AS wa2 RENAMING WITH SUFFIX \_2.
-    INCLUDE TYPE wa3 AS wa3 RENAMING WITH SUFFIX \_3.
-    TYPES END OF wa.
-    CLASS-DATA out TYPE REF TO if\_demo\_output.
-ENDCLASS.
-CLASS demo IMPLEMENTATION.
-  METHOD main.
-    DATA:
-      path\_outer TYPE TABLE OF demo\_cds\_assoc\_join1\_o WITH DEFAULT KEY,
-      path\_inner TYPE TABLE OF demo\_cds\_assoc\_join1\_i WITH DEFAULT KEY,
-      join\_outer TYPE TABLE OF wa WITH DEFAULT KEY,
-      join\_inner TYPE TABLE OF wa WITH DEFAULT KEY.
-    out->begin\_section( 'CDS Views'
-      )->begin\_section( 'Path with \[left outer\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_o
-           INTO TABLE @path\_outer.
-    SORT path\_outer.
-    out->write( path\_outer
-      )->next\_section( 'Path with \[inner\]' ).
-    SELECT \*
-           FROM demo\_cds\_assoc\_join1\_i
-           INTO TABLE @path\_inner.
-    SORT path\_inner.
-    out->write( path\_inner
-      )->end\_section( )->end\_section(
-      )->begin\_section( \`ABAP SQL Joins\`
-      )->begin\_section(
-        \`LEFT OUTER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_o AS t1
-               LEFT OUTER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     LEFT OUTER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_outer.
-    SORT join\_outer.
-    out->write( join\_outer
-      )->next\_section( \`INNER JOINs\` ).
-    SELECT FROM
-             demo\_cds\_assoc\_join1\_i AS t1
-               INNER JOIN
-                 demo\_cds\_assoc\_join2 AS t2 ON t2~d = t1~d\_1
-                     INNER JOIN
-                       demo\_join3 AS t3 ON t3~l = t2~d
-           FIELDS t1~a\_1,
-                  t1~b\_1,
-                  t1~c\_1,
-                  t1~d\_1,
-                  t2~d AS d\_2,
-                  t2~e AS e\_2,
-                  t2~f AS f\_2,
-                  t2~g AS g\_2,
-                  t2~h AS h\_2,
-                  t3~i AS i\_3,
-                  t3~j AS j\_3,
-                  t3~k AS k\_3,
-                  t3~l AS l\_3
-           INTO CORRESPONDING FIELDS OF TABLE @join\_inner.
-    SORT join\_inner.
-    out->write( join\_inner )->display( ).
-    ASSERT path\_inner = join\_inner.
-    ASSERT path\_outer = join\_outer.  ENDMETHOD.
-  METHOD class\_constructor.
-    out = cl\_demo\_output=>new( )->begin\_section( \`Database Tables\` ).
-    DELETE FROM demo\_join1.
-    INSERT demo\_join1 FROM TABLE @( VALUE #(
-      ( a = 'a1' b = 'b1' c = 'c1' d = 'uu' )
-      ( a = 'a2' b = 'b2' c = 'c2' d = 'uu' )
-      ( a = 'a3' b = 'b3' c = 'c3' d = 'vv' )
-      ( a = 'a4' b = 'b4' c = 'c4' d = 'ww' ) ) ).
-    SELECT \* FROM demo\_join1 INTO TABLE @FINAL(itab1).
-    DELETE FROM demo\_join2.
-    INSERT demo\_join2 FROM TABLE @( VALUE #(
-      ( d = 'uu' e = 'e1' f = 'f1' g = 'g1'  h = 'h1' )
-      ( d = 'ww' e = 'e2' f = 'f2' g = 'g2'  h = 'h2' )
-      ( d = 'xx' e = 'e3' f = 'f3' g = 'g3'  h = 'h3' ) ) ).
-    SELECT \* FROM demo\_join2 INTO TABLE @FINAL(itab2).
-    DELETE FROM demo\_join3.
-    INSERT demo\_join3 FROM TABLE @( VALUE #(
-      ( i = 'i1' j = 'j1' k = 'k1' l = 'vv' )
-      ( i = 'i2' j = 'j2' k = 'k2' l = 'vv' )
-      ( i = 'i3' j = 'j3' k = 'k3' l = 'ww' ) ) ).
-    SELECT \* FROM demo\_join3 INTO TABLE @FINAL(itab3).
-    out->begin\_section( \`demo\_join1\`
-      )->write( itab1
-      )->next\_section( \`demo\_join2\`
-      )->write( itab2
-      )->next\_section( \`demo\_join3\`
-      )->write( itab3
-      )->end\_section(
-      )->end\_section( ).
-  ENDMETHOD.
-ENDCLASS.
-START-OF-SELECTION.
-  demo=>main( ).
-
-Description   
-
-This example demonstrates which joins are implemented for [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) containing [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [exposed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_association_v1.htm) CDS association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_o
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                                      as a\_1,
-  demo\_join1.b                                      as b\_1,
-  demo\_join1.c                                      as c\_1,
-  demo\_join1.d                                      as d\_1,
-  \_demo\_join2\[left outer\].d                         as d\_2,
-  \_demo\_join2\[left outer\].e                         as e\_2,
-  \_demo\_join2\[left outer\].f                         as f\_2,
-  \_demo\_join2\[left outer\].g                         as g\_2,
-  \_demo\_join2\[left outer\].h                         as h\_2,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].i as i\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].j as j\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].k as k\_3,
-  \_demo\_join2\[left outer\].\_demo\_join3\[left outer\].l as l\_3
-}  
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1I'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join1\_i
-  as select from demo\_join1
-  association to Demo\_Cds\_Assoc\_Join2 as \_demo\_join2 on
-    \_demo\_join2.d = demo\_join1.d
-{
-  demo\_join1.a                            as a\_1,
-  demo\_join1.b                            as b\_1,
-  demo\_join1.c                            as c\_1,
-  demo\_join1.d                            as d\_1,
-  \_demo\_join2\[inner\].d                    as d\_2,
-  \_demo\_join2\[inner\].e                    as e\_2,
-  \_demo\_join2\[inner\].f                    as f\_2,
-  \_demo\_join2\[inner\].g                    as g\_2,
-  \_demo\_join2\[inner\].h                    as h\_2,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].i as i\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].j as j\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].k as k\_3,
-  \_demo\_join2\[inner\].\_demo\_join3\[inner\].l as l\_3
-}    
-
-@AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO2'
-@AccessControl.authorizationCheck: #NOT\_REQUIRED
-define view Demo\_Cds\_Assoc\_Join2
-  as select from demo\_join2
-  association \[\*\] to demo\_join3 as \_demo\_join3 on
-    \_demo\_join3.l = demo\_join2.d
-{
-  \_demo\_join3,
-  demo\_join2.d,
-  demo\_join2.e,
-  demo\_join2.f,
-  demo\_join2.g,
-  demo\_join2.h
-}  
-
-[LEFT OUTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) and [INNER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expr_jointype_v1.htm) are explicitly specified in the path expressions.
-
--   LEFT OUTER specifies the implementation of CDS associations as a left outer join, which is the default behavior at these places.
--   INNER specifies the implementation of CDS associations as an inner join, which overwrites the default behavior at these places.
-
-In the DDL source code editor of the [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"), the respective join can be seen in the display of the generated SQL DDL statement.
-
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the DDIC database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 ---
@@ -23810,16 +17959,19 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 Included pages: 5
 
 
-
-**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1_abexa.htm)
-
 ### abenc0_contract_rules_bdef.htm
 
-> **📖 Official SAP Documentation**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Caution"
+description: |
+  BDEF extensions for unmanaged RAP BOs are currently still under development. They are not fully supported yet. C0 Contract Rules for Providers of CDS Behavior Definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm) C0 Contract Rules for Consumers of
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm"
+abapFile: "abenc0_contract_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "contract", "rules", "bdef"]
+---
 
 * * *
 
@@ -23854,16 +18006,19 @@ Continue
 [Example: C0 Released Service Projection, Design and Consumption](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm)
 
 
-
-**📖 Source**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm)
-
 ### abenc0_provider_rules_bdef.htm
 
-> **📖 Official SAP Documentation**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "General Rules"
+description: |
+  -   CDS behavior definitions can be released under the C0 stability contract for ABAP for Cloud Development(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_sap_cloud_glosry.htm 'Glossary Entry'). C0 release for ABAP for Key Users(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm"
+abapFile: "abenc0_provider_rules_bdef.htm"
+keywords: ["delete", "do", "if", "case", "try", "class", "abenc0", "provider", "rules", "bdef"]
+---
 
 * * *
 
@@ -23982,16 +18137,19 @@ Example Topics  
 [Example for a C0 released service projection view which is extended from ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm).
 
 
-
-**📖 Source**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm)
-
 ### abenc0_consumer_rules_bdef.htm
 
-> **📖 Official SAP Documentation**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Naming"
+description: |
+  -   If the extension has a namespace prefix, such as /PREFIX/, the names of its elements must not start with a different namespace prefix, nor with Z, nor with Y. -   If the name of the extension starts with Z or with Y, there is no check. -   In all other cases, the names of the elements must not s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm"
+abapFile: "abenc0_consumer_rules_bdef.htm"
+keywords: ["do", "if", "case", "try", "abenc0", "consumer", "rules", "bdef"]
+---
 
 * * *
 
@@ -24039,16 +18197,19 @@ Example Topics  
 [Example for a C0 released service projection view which is extended from ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm).
 
 
-
-**📖 Source**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm)
-
 ### abenc0_demo_rap_bo.htm
 
-> **📖 Official SAP Documentation**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "c0_demo_rap_bo"
+description: |
+  c0_demo_rap_bo - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm"
+abapFile: "abenc0_demo_rap_bo.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenc0", "demo", "rap"]
+---
 
 * * *
 
@@ -24100,16 +18261,19 @@ extend behavior for DEMO\_RAP\_BASE\_DET\_VAL
 }
 
 
-
-**📖 Source**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm)
-
 ### abenc0_demo_service_proj.htm
 
-> **📖 Official SAP Documentation**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "c0_demo_service_proj"
+description: |
+  c0_demo_service_proj - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm"
+abapFile: "abenc0_demo_service_proj.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenc0", "demo", "service", "proj"]
+---
 
 * * *
 
@@ -24175,16 +18339,19 @@ define behavior for DEMO\_RAP\_PROJ\_EXT\_BEH\_CH alias Child
 Included pages: 5
 
 
-
-**📖 Source**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm)
-
 ### abenc0_contract_rules_bdef.htm
 
-> **📖 Official SAP Documentation**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Caution"
+description: |
+  BDEF extensions for unmanaged RAP BOs are currently still under development. They are not fully supported yet. C0 Contract Rules for Providers of CDS Behavior Definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm) C0 Contract Rules for Consumers of
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm"
+abapFile: "abenc0_contract_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "contract", "rules", "bdef"]
+---
 
 * * *
 
@@ -24219,16 +18386,19 @@ Continue
 [Example: C0 Released Service Projection, Design and Consumption](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm)
 
 
-
-**📖 Source**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm)
-
 ### abenc0_provider_rules_bdef.htm
 
-> **📖 Official SAP Documentation**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "General Rules"
+description: |
+  -   CDS behavior definitions can be released under the C0 stability contract for ABAP for Cloud Development(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_sap_cloud_glosry.htm 'Glossary Entry'). C0 release for ABAP for Key Users(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm"
+abapFile: "abenc0_provider_rules_bdef.htm"
+keywords: ["delete", "do", "if", "case", "try", "class", "abenc0", "provider", "rules", "bdef"]
+---
 
 * * *
 
@@ -24347,16 +18517,19 @@ Example Topics  
 [Example for a C0 released service projection view which is extended from ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm).
 
 
-
-**📖 Source**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm)
-
 ### abenc0_consumer_rules_bdef.htm
 
-> **📖 Official SAP Documentation**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Naming"
+description: |
+  -   If the extension has a namespace prefix, such as /PREFIX/, the names of its elements must not start with a different namespace prefix, nor with Z, nor with Y. -   If the name of the extension starts with Z or with Y, there is no check. -   In all other cases, the names of the elements must not s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm"
+abapFile: "abenc0_consumer_rules_bdef.htm"
+keywords: ["do", "if", "case", "try", "abenc0", "consumer", "rules", "bdef"]
+---
 
 * * *
 
@@ -24404,16 +18577,19 @@ Example Topics  
 [Example for a C0 released service projection view which is extended from ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm).
 
 
-
-**📖 Source**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm)
-
 ### abenc0_demo_rap_bo.htm
 
-> **📖 Official SAP Documentation**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "c0_demo_rap_bo"
+description: |
+  c0_demo_rap_bo - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm"
+abapFile: "abenc0_demo_rap_bo.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenc0", "demo", "rap"]
+---
 
 * * *
 
@@ -24465,19 +18641,19 @@ extend behavior for DEMO\_RAP\_BASE\_DET\_VAL
 }
 
 
-
-**📖 Source**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_rap_bo.htm)
-
 ### abenc0_demo_service_proj.htm
 
-> **📖 Official SAP Documentation**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm)
-
-
-  
+---
+title: "c0_demo_service_proj"
+description: |
+  c0_demo_service_proj - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_demo_service_proj.htm"
+abapFile: "abenc0_demo_service_proj.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenc0", "demo", "service", "proj"]
+---
 
 * * *
 

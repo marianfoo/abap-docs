@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Examples of LOB Handles"
+description: |
+  !Example(exa.gif 'Example') ABAP SQL - Writer Stream, Fill Database Table(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_writer_abexa.htm) !Example(exa.gif 'Example') ABAP SQL - Reader Stream, Read Database Table(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/a
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlobs_abexas.htm"
+abapFile: "abenlobs_abexas.htm"
+keywords: ["do", "if", "data", "abenlobs", "abexas"]
+---
 
 * * *
 

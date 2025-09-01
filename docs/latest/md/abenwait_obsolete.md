@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Wait"
+description: |
+  -   WAIT UNTIL - Short Form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_obsolete.htm) WAIT UNTIL, Short Form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_obsolete.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait_obsolete.htm"
+abapFile: "abenwait_obsolete.htm"
+keywords: ["do", "if", "data", "abenwait", "obsolete"]
+---
 
 * * *
 

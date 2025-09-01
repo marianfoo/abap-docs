@@ -1,4 +1,14 @@
-  
+---
+title: "Views"
+description: |
+  A view in ABAP Dictionary is a grouping of columns in one or more database tables in accordance with an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as data types (like flat structures). Views can be used like database tables in ABAP SQL read stat
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_views.htm"
+abapFile: "abenddic_views.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenddic", "views"]
+---
 
 * * *
 

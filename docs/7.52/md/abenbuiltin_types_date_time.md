@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Date Types and Time Types"
+description: |
+  The data objects of the date types and time types are used to handle calendar dates and times. Attributes Type Length Default Length Name d 8 characters Date field(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_field_glosry.htm 'Glossary Entry') t 6 characters Time field(htt
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_date_time.htm"
+abapFile: "abenbuiltin_types_date_time.htm"
+keywords: ["do", "try", "data", "types", "abenbuiltin", "date", "time"]
+---
 
 * * *
 

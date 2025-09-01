@@ -1,4 +1,14 @@
-  
+---
+title: "Enums, Type Description"
+description: |
+  This example demonstrates type description in enumerated objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_object_glosry.htm 'Glossary Entry'). Source Code REPORT demo_describe_enums. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenum_description_abexa.htm"
+abapFile: "abenenum_description_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "abenenum", "description", "abexa"]
+---
 
 * * *
 

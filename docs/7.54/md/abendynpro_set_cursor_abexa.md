@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Setting the Cursor Position"
+description: |
+  This example demonstrates how to define the cursor position on dynpros. Source Code REPORT demo_dynpro_set_cursor. DATA:  field1(14) TYPE c, field2(14) TYPE c, field3(14) TYPE c, name(10) TYPE c. SELECTION-SCREEN BEGIN OF BLOCK bloc WITH FRAME. PARAMETERS: def RADIOBUTTON GROUP rad, txt RADIOBUTT
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_set_cursor_abexa.htm"
+abapFile: "abendynpro_set_cursor_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "set", "cursor", "abexa"]
+---
 
 * * *
 

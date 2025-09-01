@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - DEFINE ROLE"
+description: |
+  Syntax @MappingRole: true(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_role_annotations.htm) @role_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_role_annotations.htm) @role_annot2(https://help.sap.com/doc/a
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_role.htm"
+abapFile: "abencds_f1_define_role.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "define", "role"]
+---
 
 * * *
 

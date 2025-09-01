@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE TO LIST-PROCESSING - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_to_list-processing.htm) Syntax LEAVE TO LIST-PROCESSING AND RETURN TO SCREEN dynnr. Effect Calls list processing when the current dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abe
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_to_list-process_shortref.htm"
+abapFile: "abapleave_to_list-process_shortref.htm"
+keywords: ["do", "if", "try", "abapleave", "list", "process", "shortref"]
+---
 
 * * *
 

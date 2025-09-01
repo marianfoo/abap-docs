@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete List Event"
+description: |
+  -   AT PFnn(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_pfnn.htm) AT PF(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_pfnn.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_event_obsolete.htm"
+abapFile: "abenlist_event_obsolete.htm"
+keywords: ["do", "abenlist", "event", "obsolete"]
+---
 
 * * *
 

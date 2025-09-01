@@ -1,4 +1,14 @@
-  
+---
+title: "SORT itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_itab_shortref.htm) Syntax SORT itab STABLE   ASCENDINGDESCENDING AS TEXT BY  comp1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_components.htm) A
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_itab.htm"
+abapFile: "abapsort_itab.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abapsort", "itab"]
+---
 
 * * *
 

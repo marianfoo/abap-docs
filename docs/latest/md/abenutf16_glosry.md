@@ -1,4 +1,14 @@
-  
+---
+title: "utf16_glosry"
+description: |
+  utf16_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenutf16_glosry.htm"
+abapFile: "abenutf16_glosry.htm"
+keywords: ["do", "if", "try", "abenutf16", "glosry"]
+---
 
 * * *
 

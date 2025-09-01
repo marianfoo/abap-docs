@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Streaming"
+description: |
+  ABAP SQL supports streaming(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstreaming_glosry.htm 'Glossary Entry') for LOBs(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlob_glosry.htm 'Glossary Entry') in data sources. -   System Classes and System Interfaces fo
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_streaming.htm"
+abapFile: "abenabap_sql_streaming.htm"
+keywords: ["select", "insert", "update", "loop", "do", "if", "try", "method", "class", "data", "types", "abenabap", "sql", "streaming"]
+---
 
 * * *
 
@@ -13,14 +23,10 @@ ABAP SQL - Streaming
 
 ABAP SQL supports [streaming](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstreaming_glosry.htm "Glossary Entry") for [LOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlob_glosry.htm "Glossary Entry") in data sources.
 
--   [System Classes and System Interfaces for Reader and Writer Streams](#@@ITOC@@ABENABAP_SQL_STREAMING_1)
--   [Important Methods](#@@ITOC@@ABENABAP_SQL_STREAMING_2)
--   [Data Sources and Data Sinks](#@@ITOC@@ABENABAP_SQL_STREAMING_3)
--   [Creating Data Streams for LOBs](#@@ITOC@@ABENABAP_SQL_STREAMING_4)
-    -   [Reader Streams](#@@ITOC@@ABENABAP_SQL_STREAMING_5)
-    -   [Writer Streams](#@@ITOC@@ABENABAP_SQL_STREAMING_6)
--   [Closing Data Streams for LOBs](#@@ITOC@@ABENABAP_SQL_STREAMING_7)
--   [Examples](#@@ITOC@@ABENABAP_SQL_STREAMING_8)
+-   [System Classes and System Interfaces for Reader and Writer Streams](#abenabap-sql-streaming-1-------important-methods---@ITOC@@ABENABAP_SQL_STREAMING_2)
+-   [Data Sources and Data Sinks](#abenabap-sql-streaming-3-------creating-data-streams-for-lobs---@ITOC@@ABENABAP_SQL_STREAMING_4)
+    -   [Reader Streams](#abenabap-sql-streaming-5-----------writer-streams---@ITOC@@ABENABAP_SQL_STREAMING_6)
+-   [Closing Data Streams for LOBs](#abenabap-sql-streaming-7-------examples---@ITOC@@ABENABAP_SQL_STREAMING_8)
 
 System Classes and System Interfaces for Reader and Writer Streams   
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Converting Database Tables"
+description: |
+  When an existing modified table is activated, existing content must be converted on the database in the following cases: -   When a client column(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_column_glosry.htm 'Glossary Entry') is inserted. Here, the data of the table is co
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_conv.htm"
+abapFile: "abenddic_database_tables_conv.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "class", "data", "abenddic", "database", "tables", "conv"]
+---
 
 * * *
 

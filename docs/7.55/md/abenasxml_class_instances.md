@@ -1,4 +1,14 @@
-  
+---
+title: "Namespace"
+description: |
+  Where Defined classes/global Class Library classes/program/PRG Program PRG classes/class-pool/CPOOL Class Pool CPOOL classes/function-pool/FPOOL Function pool FPOOL The serializable values of an instance of a class (instance attributes or output parameters of a special helper method) are represented
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_class_instances.htm"
+abapFile: "abenasxml_class_instances.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenasxml", "instances"]
+---
 
 * * *
 
@@ -50,9 +60,7 @@ The serializable values of an instance of a class are specified in the class by 
 
 If the class or one of its superclasses does not implement the interface IF\_SERIALIZABLE\_OBJECT, the element class does not contain any subelements. By default, all instance attributes of a class in which the interface IF\_SERIALIZABLE\_OBJECT is implemented directly or in a superclass are serialized and deserialized to this class. This behavior can be changed by declaring special helper methods. [Static attributes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") are ignored in serializations or deserializations (with the exception of special constant SERIALIZABLE\_CLASS\_VERSION).
 
--   [Standard Behavior](#@@ITOC@@ABENASXML_CLASS_INSTANCES_1)
-
--   [Adjusted Behavior](#@@ITOC@@ABENASXML_CLASS_INSTANCES_2)
+-   [Standard Behavior](#abenasxml-class-instances-1--------adjusted-behavior---@ITOC@@ABENASXML_CLASS_INSTANCES_2)
 
 Standard Behavior
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - BDEF extension"
+description: |
+  Work in progress  BDEF extensions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_extension_glosry.htm 'Glossary Entry') extend a CDS behavior definition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry').
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_extension.htm"
+abapFile: "abenbdl_extension.htm"
+keywords: ["do", "try", "data", "abenbdl", "extension"]
+---
 
 * * *
 

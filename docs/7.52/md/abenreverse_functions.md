@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... reverse( val = text(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm)  ) ... Effect This function returns a character string that reverses the content of text(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.ht
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreverse_functions.htm"
+abapFile: "abenreverse_functions.htm"
+keywords: ["do", "data", "abenreverse", "functions"]
+---
 
 * * *
 

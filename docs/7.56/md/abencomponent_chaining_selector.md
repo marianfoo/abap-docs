@@ -1,4 +1,14 @@
-  
+---
+title: "Chainings"
+description: |
+  If a deeply nested subcomponent is used at an operand position, the operand must be denoted as a chaining of all components leading to this subcomponent. This chaining contains a suitable component selector between each component. The following rules apply to such chained names(https://help.sap.co
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_chaining_selector.htm"
+abapFile: "abencomponent_chaining_selector.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencomponent", "chaining", "selector"]
+---
 
 * * *
 

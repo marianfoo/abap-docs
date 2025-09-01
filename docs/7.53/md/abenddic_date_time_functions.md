@@ -1,4 +1,14 @@
-  
+---
+title: "Date Functions and Time Functions"
+description: |
+  The following table shows the date and time functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm"
+abapFile: "abenddic_date_time_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "date", "time", "functions"]
+---
 
 * * *
 

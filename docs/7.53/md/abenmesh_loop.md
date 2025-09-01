@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  LOOP AT mesh_path(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm) result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm). ... ENDLOOP. Effect Reads all rows described by the results(https://help.sap.com/doc/abapdocu_753_ind
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_loop.htm"
+abapFile: "abenmesh_loop.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "data", "internal-table", "abenmesh"]
+---
 
 * * *
 

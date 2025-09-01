@@ -1,4 +1,14 @@
-  
+---
+title: "SPLIT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsplit.htm) Syntax SPLIT dobj AT sep INTO  result1 result2 ...  TABLE result_tab  IN CHARACTERBYTE MODE. Effect Splits a character string or byte string dobj. Additions -   AT sep Specifi
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsplit_shortref.htm"
+abapFile: "abapsplit_shortref.htm"
+keywords: ["do", "if", "internal-table", "abapsplit", "shortref"]
+---
 
 * * *
 

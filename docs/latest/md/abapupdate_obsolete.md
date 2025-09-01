@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE dbtab, Short Form"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_shortref.htm) Obsolete Syntax UPDATE  dbtab  dbtab  ... Effect This statement is a short form of the following ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_s
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_obsolete.htm"
+abapFile: "abapupdate_obsolete.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abapupdate", "obsolete"]
+---
 
 * * *
 

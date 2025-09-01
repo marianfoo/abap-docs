@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP messaging channel"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that defines the properties of AMC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_messaging_channels_glosry.htm 'Glossary Entry') communi
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_messaging_channel_glosry.htm"
+abapFile: "abenabap_messaging_channel_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "messaging", "channel", "glosry"]
+---
 
 * * *
 

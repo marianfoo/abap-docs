@@ -1,4 +1,14 @@
-  
+---
+title: "logical_data_base_glosry"
+description: |
+  logical_data_base_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_data_base_glosry.htm"
+abapFile: "abenlogical_data_base_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenlogical", "base", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "local_interface_glosry"
+description: |
+  local_interface_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_interface_glosry.htm"
+abapFile: "abenlocal_interface_glosry.htm"
+keywords: ["do", "try", "class", "data", "types", "abenlocal", "interface", "glosry"]
+---
 
 * * *
 

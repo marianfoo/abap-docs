@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... MESSAGE mess INCLUDE incl LINE lin WORD wrd OFFSET off MESSAGE-ID mid SHORTDUMP-ID sid ... Additions: 1. ... MESSAGE mess(#!ABAP_ADDITION_1@1@) 2. ... INCLUDE incl(#!ABAP_ADDITION_2@2@) 3. ... LINE lin(#!ABAP_ADDITION_3@3@) 4. ..
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapgenerate_subr_error_handling.htm"
+abapFile: "abapgenerate_subr_error_handling.htm"
+keywords: ["select", "do", "if", "try", "data", "abapgenerate", "subr", "error", "handling"]
+---
 
 * * *
 

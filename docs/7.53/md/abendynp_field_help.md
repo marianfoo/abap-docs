@@ -1,4 +1,14 @@
-  
+---
+title: "Field Help and Input Help"
+description: |
+  In the event blocks at POH(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpoh_glosry.htm 'Glossary Entry') and POV(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpov_glosry.htm 'Glossary Entry'), only FIELD statements are possible. The statement MODULE can only be
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_field_help.htm"
+abapFile: "abendynp_field_help.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "data", "abendynp", "field", "help"]
+---
 
 * * *
 
@@ -12,9 +22,7 @@ In the event blocks at [POH](https://help.sap.com/doc/abapdocu_753_index_htm/7.5
 
 If the statement FIELD is specified more than once for the same [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry"), only the first statement is executed. If the event blocks at POH and POV are not implemented, field or input help fields are displayed that are defined in the system or in ABAP Dictionary . If no help is defined, this is displayed in a message in the task bar.
 
--   [Calling a Dialog Module](#@@ITOC@@ABENDYNP_FIELD_HELP_1)
-
--   [Calling the data element supplement documentation](#@@ITOC@@ABENDYNP_FIELD_HELP_2)
+-   [Calling a Dialog Module](#abendynp-field-help-1--------calling-the-data-element-supplement-documentation---@ITOC@@ABENDYNP_FIELD_HELP_2)
 
 Calling a Dialog Module
 

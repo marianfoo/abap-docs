@@ -1,4 +1,14 @@
-  
+---
+title: "BOPF-managed RAP draft provider"
+description: |
+  Draft provider of BOs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry') with BOPF-managed draft. The draft handling(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_draft_handling_glosry.htm 'Glossary Entry') is managed by BOPF.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbopf_man_rap_dra_prov_glosry.htm"
+abapFile: "abenbopf_man_rap_dra_prov_glosry.htm"
+keywords: ["do", "if", "try", "abenbopf", "man", "rap", "dra", "prov", "glosry"]
+---
 
 * * *
 

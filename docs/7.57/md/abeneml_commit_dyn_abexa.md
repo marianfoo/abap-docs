@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - COMMIT ENTITIES, Dynamic Form"
+description: |
+  This example demonstrates the dynamic form of the COMMIT ENTITIES statement. Data model The CDS data model consists of two simple root entities: -   DEMO_MANAGED_ROOT_2 -   DEMO_MANAGED_ASSOC_CUSTOM They are not related to each other and are only used to have responses for more than one root e
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_commit_dyn_abexa.htm"
+abapFile: "abeneml_commit_dyn_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abeneml", "commit", "dyn", "abexa"]
+---
 
 * * *
 

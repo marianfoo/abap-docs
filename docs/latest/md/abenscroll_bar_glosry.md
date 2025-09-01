@@ -1,4 +1,14 @@
-  
+---
+title: "scroll_bar_glosry"
+description: |
+  scroll_bar_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscroll_bar_glosry.htm"
+abapFile: "abenscroll_bar_glosry.htm"
+keywords: ["do", "if", "try", "abenscroll", "bar", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - ABAP Context"
+description: |
+  The following subjects introduce the context of ABAP developments. -   ABAP Platform(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_platform.htm) -   ABAP Language Versions, Release Contracts and Released APIs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_context.htm"
+abapFile: "abenabap_context.htm"
+keywords: ["do", "if", "abenabap", "context"]
+---
 
 * * *
 

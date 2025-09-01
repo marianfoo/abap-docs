@@ -1,4 +1,14 @@
-  
+---
+title: "executable_program_glosry"
+description: |
+  executable_program_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexecutable_program_glosry.htm"
+abapFile: "abenexecutable_program_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenexecutable", "program", "glosry"]
+---
 
 * * *
 

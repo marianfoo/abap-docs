@@ -1,4 +1,14 @@
-  
+---
+title: "truth_value_glosry"
+description: |
+  truth_value_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentruth_value_glosry.htm"
+abapFile: "abentruth_value_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentruth", "value", "glosry"]
+---
 
 * * *
 

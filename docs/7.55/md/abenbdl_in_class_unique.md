@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR, in class unique"
+description: |
+  Work in progress  Syntax ... implementation in class ClassName unique Effect A behavior definition can specify one or more global classes(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_global_class.htm) that allow the behavior implementation of a business object. T
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm"
+abapFile: "abenbdl_in_class_unique.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "unique"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Type Conversion Functions"
+description: |
+  Syntax ... FLTP_TO_DEC( arg AS dtype ) ... ... BINTOHEX( arg ) ... ... HEXTOBIN( arg ) ... Variants: 1. ... FLTP_TO_DEC( arg AS dtype )(#!ABAP_VARIANT_1@1@) 2a. ... BINTOHEX( arg )(#!ABAP_VARIANT_2A@2@) 2b. ... HEXTOBIN( arg )(#!ABAP_VARIANT_2B@3@) Effect Functions for conversions between
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_types.htm"
+abapFile: "abencds_f1_conv_func_types.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "conv", "func"]
+---
 
 * * *
 

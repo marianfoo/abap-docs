@@ -1,4 +1,14 @@
-  
+---
+title: "Date and Time Processing"
+description: |
+  This section describes how the current values of date and time are accessed in ABAP programs to create and process such values: -   Date, Time, Time Stamp, and Time Zones - Overview(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendate_time_oview.htm) -   Date Fields and Time Fields
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendate_time_processing.htm"
+abapFile: "abendate_time_processing.htm"
+keywords: ["do", "if", "data", "abendate", "time", "processing"]
+---
 
 * * *
 

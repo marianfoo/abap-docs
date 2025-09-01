@@ -1,4 +1,14 @@
-  
+---
+title: "Separation of Concerns"
+description: |
+  Background The term 'separation of concerns' (SoC) was coined in Edsger W. Dijkstra's article On the role of scientific thought from 1974: '... But nothing is gained --on the contrary!-- by tackling these various aspects simultaneously. It is what I sometimes have called 'the separation of concerns'
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm"
+abapFile: "abenseparation_concerns_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenseparation", "concerns", "guidl"]
+---
 
 * * *
 

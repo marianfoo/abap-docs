@@ -1,4 +1,14 @@
-  
+---
+title: "Semantic Attributes of Structures"
+description: |
+  Structures in ABAP Dictionary can be given the following semantic attributes: -   Short text of the structure Each structure has a short description specified when it is created. -   Documentation A structure can be given (optional) documentation. -   Short text of components Each component is assig
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures_sema.htm"
+abapFile: "abenddic_structures_sema.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "structures", "sema"]
+---
 
 * * *
 

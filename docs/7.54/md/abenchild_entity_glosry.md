@@ -1,4 +1,14 @@
-  
+---
+title: "Child Entity"
+description: |
+  A node in the structure of a business object(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') that is connected directly with another node when traversing away from the root entity(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchild_entity_glosry.htm"
+abapFile: "abenchild_entity_glosry.htm"
+keywords: ["do", "try", "abenchild", "entity", "glosry"]
+---
 
 * * *
 

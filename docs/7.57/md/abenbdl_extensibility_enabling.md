@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - BDEF Extension, Extensibility Enabling"
+description: |
+  CDS behavior definitions must be explicitly enabled to allow for behavior extensibility. They must fulfill technical requirements and explicitly allow extensions. Otherwise, their behavior must not be extended. The following sections describe how to enable CDS behavior definitions of type managed(
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_enabling.htm"
+abapFile: "abenbdl_extensibility_enabling.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "extensibility", "enabling"]
+---
 
 * * *
 

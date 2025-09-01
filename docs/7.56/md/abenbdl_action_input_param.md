@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - InputParameter"
+description: |
+  Syntax Forms Flat parameter ... parameter  ParameterEntity  $self ; Deep parameter ... deep table parameter AbstractBDEF; Alternatives: 1. ... parameter  ParameterEntity  $self ;(#!ABAP_ALTERNATIVE_1@1@) 2. ... deep table parameter AbstractBDEF;
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_input_param.htm"
+abapFile: "abenbdl_action_input_param.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "class", "data", "abenbdl", "action", "input", "param"]
+---
 
 * * *
 

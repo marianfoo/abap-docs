@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Case"
+description: |
+  This example demonstrates how case is specified for embedded expressions. Source Code REPORT demo_string_template_case. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: output  TYPE TABLE OF string, formats TYPE abap_attrdescr_ta
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_template_case_abexa.htm"
+abapFile: "abenstring_template_case_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "method", "class", "data", "abenstring", "template", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Injections Using Generic Programming"
+description: |
+  Generic programming is the most unsafe of all dynamic programming techniques. In principle, the ABAP statement injections(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneric_prog_scrty.htm) cover all individual security risks that can occur in dynamic programming, and most signi
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_inj_gen_prog_scrty.htm"
+abapFile: "abensql_inj_gen_prog_scrty.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abensql", "inj", "gen", "prog", "scrty"]
+---
 
 * * *
 

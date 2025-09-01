@@ -1,4 +1,14 @@
-  
+---
+title: "ASSIGN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_shortref.htm) Syntax ASSIGN mem_area(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area.htm) TO <fs> casting_spec(https://help.sap.com/doc/abapdocu_latest_index_htm/lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm"
+abapFile: "abapassign.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "field-symbol", "abapassign"]
+---
 
 * * *
 

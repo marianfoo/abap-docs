@@ -1,4 +1,14 @@
-  
+---
+title: "length_function_glosry"
+description: |
+  length_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlength_function_glosry.htm"
+abapFile: "abenlength_function_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenlength", "function", "glosry"]
+---
 
 * * *
 

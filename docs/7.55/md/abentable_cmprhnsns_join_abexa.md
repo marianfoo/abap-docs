@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_table_comprh_join. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line1, key TYPE c LENGTH 1, col1 TYPE i, col2 TYPE i, END OF line1, itab1 TYPE STANDARD TABLE OF line1 WITH EMPTY KEY, BEGIN OF line2, key TY
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_cmprhnsns_join_abexa.htm"
+abapFile: "abentable_cmprhnsns_join_abexa.htm"
+keywords: ["select", "do", "case", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "join", "abexa"]
+---
 
 * * *
 

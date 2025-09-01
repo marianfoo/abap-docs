@@ -1,4 +1,14 @@
-  
+---
+title: "obsolete_statement_glosry"
+description: |
+  obsolete_statement_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_statement_glosry.htm"
+abapFile: "abenobsolete_statement_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenobsolete", "statement", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Local Declarations in Expressions"
+description: |
+  In most constructor expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_glosry.htm 'Glossary Entry'), variables and field symbols can be used as local helper fields. They are defined using the language element LET in a -   LET expression let_exp(htt
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_expr_declarations.htm"
+abapFile: "abenlocal_expr_declarations.htm"
+keywords: ["do", "try", "class", "internal-table", "field-symbol", "abenlocal", "expr", "declarations"]
+---
 
 * * *
 

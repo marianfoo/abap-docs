@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenddic_enhancements.htm
 
-  
+---
+title: "Enhancements"
+description: |
+  A structure(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm), database table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables.htm), database view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_v
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_enhancements.htm"
+abapFile: "abenddic_enhancements.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "enhancements"]
+---
 
 * * *
 
@@ -42,7 +52,17 @@ Continue
 
 ### abenddic_customizing_includes.htm
 
-  
+---
+title: "Customizing Includes"
+description: |
+  A customizing include is a structure in ABAP Dictionary whose name has the prefix CI_ for customers and SI_ for partners and is in the customer namespace. Customizing includes can be included in structures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm) and d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_customizing_includes.htm"
+abapFile: "abenddic_customizing_includes.htm"
+keywords: ["insert", "do", "if", "class", "data", "abenddic", "customizing", "includes"]
+---
 
 * * *
 
@@ -61,7 +81,17 @@ Enhancements of a delivered structure or database table using a customizing incl
 
 ### abenddic_append_structures.htm
 
-  
+---
+title: "Append Structures"
+description: |
+  An append structure is a structure in ABAP Dictionary appended to another structure(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm) or database table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables.htm) and which appends the
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_structures.htm"
+abapFile: "abenddic_append_structures.htm"
+keywords: ["insert", "do", "if", "try", "class", "data", "abenddic", "append", "structures"]
+---
 
 * * *
 
@@ -102,7 +132,17 @@ The same structure can be appended to multiple database tables or structures by 
 
 ### abenddic_append_views.htm
 
-  
+---
+title: "Append Views"
+description: |
+  Database views(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm) delivered by SAP can be enhanced by partners and customers using views known as append views, without making any modifications. The name of an append view is subject to the same rules as the name
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_views.htm"
+abapFile: "abenddic_append_views.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abenddic", "append", "views"]
+---
 
 * * *
 
@@ -133,7 +173,17 @@ The database view DEMO\_ORIGINAL is enhanced using the append view DEMO\_APPEND\
 
 ### abenddic_fixed_value_appends.htm
 
-  
+---
+title: "Fixed Value Appends"
+description: |
+  Domains(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_domains.htm) delivered by SAP can be enhanced by partners and customers using appends known as fixed value appends, without making any modifications. The name of a fixed value append is subject to the same rules as the nam
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_fixed_value_appends.htm"
+abapFile: "abenddic_fixed_value_appends.htm"
+keywords: ["do", "if", "try", "class", "abenddic", "fixed", "value", "appends"]
+---
 
 * * *
 

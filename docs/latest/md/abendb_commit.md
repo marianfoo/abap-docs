@@ -1,4 +1,14 @@
-  
+---
+title: "Database Commit"
+description: |
+  In AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry'), database commits are triggered either implicitly or explicitly. -   Implicit Database Commits(#abendb-commit-1-------explicit-database-commits---@ITOC@@ABENDB_COMMIT_2) -   Datab
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_commit.htm"
+abapFile: "abendb_commit.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "abendb", "commit"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ Database Commit
 
 In [AS ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm "Glossary Entry"), database commits are triggered either implicitly or explicitly.
 
--   [Implicit Database Commits](#@@ITOC@@ABENDB_COMMIT_1)
--   [Explicit Database Commits](#@@ITOC@@ABENDB_COMMIT_2)
+-   [Implicit Database Commits](#abendb-commit-1-------explicit-database-commits---@ITOC@@ABENDB_COMMIT_2)
 -   [Database Commit on Secondary Connections](#@@ITOC@@ABENDB_COMMIT_3)
 
 Hint

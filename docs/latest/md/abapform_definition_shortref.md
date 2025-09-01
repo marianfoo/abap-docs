@@ -1,4 +1,14 @@
-  
+---
+title: "FORM, DEFINITION, IMPLEMENTATION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform_definition.htm) Syntax FORM subr DEFINITION  ... . FORM subr IMPLEMENTATION. ... ENDFORM. Effect Obsolete: Defines a subroutine subr. The definition of the subroutine is shared between a declaration part and
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform_definition_shortref.htm"
+abapFile: "abapform_definition_shortref.htm"
+keywords: ["do", "if", "abapform", "definition", "shortref"]
+---
 
 * * *
 

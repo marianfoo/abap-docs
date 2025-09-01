@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP in Overlaps"
+description: |
+  This example demonstrates the construction of the group key(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengroup_key_glosry.htm 'Glossary Entry') if conditions overlap. Source Code REPORT demo_group_by_overlap. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_c
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_group_by_overlap_abexa.htm"
+abapFile: "abenloop_group_by_overlap_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenloop", "group", "overlap", "abexa"]
+---
 
 * * *
 

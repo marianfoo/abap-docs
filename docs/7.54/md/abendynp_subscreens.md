@@ -1,4 +1,14 @@
-  
+---
+title: "Subscreens, Tabstrips, and Splitter Controls"
+description: |
+  Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special controls(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontrol_glosry.htm 'Glossary Entry'). -   Including Subscreens Directly(htt
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 

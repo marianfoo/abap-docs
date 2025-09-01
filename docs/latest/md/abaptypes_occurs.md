@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, OCCURS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_occurs_shortref.htm) Obsolete Syntax TYPES dtype  TYPE REF TO type  LIKE REF TO dobj  OCCURS n. Effect This statement is forbidden in classes. The statement has the same f
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_occurs.htm"
+abapFile: "abaptypes_occurs.htm"
+keywords: ["do", "if", "try", "class", "types", "internal-table", "abaptypes", "occurs"]
+---
 
 * * *
 

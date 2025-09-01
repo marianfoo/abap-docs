@@ -1,4 +1,14 @@
-  
+---
+title: "Memory Inspector"
+description: |
+  Tool for displaying and analyzing memory snapshots(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmemory_snapshot_glosry.htm 'Glossary Entry'). Called using transaction code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction_code_glosry.htm 'Glossary Entry
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmemory_inspector_glosry.htm"
+abapFile: "abenmemory_inspector_glosry.htm"
+keywords: ["do", "try", "abenmemory", "inspector", "glosry"]
+---
 
 * * *
 

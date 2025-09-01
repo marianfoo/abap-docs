@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC domain"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm 'Glossary Entry') in the ABAP Dictionary(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') that describes the properties of DDI
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendomain_glosry.htm"
+abapFile: "abendomain_glosry.htm"
+keywords: ["do", "try", "data", "abendomain", "glosry"]
+---
 
 * * *
 

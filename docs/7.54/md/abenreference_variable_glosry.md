@@ -1,4 +1,14 @@
-  
+---
+title: "reference_variable_glosry"
+description: |
+  reference_variable_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreference_variable_glosry.htm"
+abapFile: "abenreference_variable_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenreference", "variable", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "primary_table_index_glosry"
+description: |
+  primary_table_index_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_index_glosry.htm"
+abapFile: "abenprimary_table_index_glosry.htm"
+keywords: ["update", "delete", "do", "if", "try", "internal-table", "abenprimary", "table", "index", "glosry"]
+---
 
 * * *
 

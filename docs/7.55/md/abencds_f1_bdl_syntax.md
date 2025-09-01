@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - BDL for Behavior Definitions"
+description: |
+  In construction CDS BDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm"
+abapFile: "abencds_f1_bdl_syntax.htm"
+keywords: ["do", "data", "abencds", "bdl", "syntax"]
+---
 
 * * *
 

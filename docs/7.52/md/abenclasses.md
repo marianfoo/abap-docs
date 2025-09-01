@@ -1,4 +1,14 @@
-  
+---
+title: "Classes"
+description: |
+  The type of an object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_glosry.htm 'Glossary Entry') is known as its class. A class is an abstract representation of an object. Alternatively, it can be viewed as a set of instructions for building an object. The attributes of obj
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses.htm"
+abapFile: "abenclasses.htm"
+keywords: ["do", "if", "try", "method", "class", "types", "abenclasses"]
+---
 
 * * *
 

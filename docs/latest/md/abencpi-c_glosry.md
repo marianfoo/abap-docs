@@ -1,4 +1,14 @@
-  
+---
+title: "CPI-C"
+description: |
+  Standardized internal interface for cross-system communication between programs. → More about(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cpic.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencpi-c_glosry.htm"
+abapFile: "abencpi-c_glosry.htm"
+keywords: ["do", "if", "abencpi", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "dialog_processing_glosry"
+description: |
+  dialog_processing_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendialog_processing_glosry.htm"
+abapFile: "abendialog_processing_glosry.htm"
+keywords: ["do", "if", "try", "abendialog", "processing", "glosry"]
+---
 
 * * *
 

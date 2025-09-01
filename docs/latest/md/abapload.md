@@ -1,4 +1,14 @@
-  
+---
+title: "LOAD REPORT"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax LOAD REPORT prog PART part INTO itab. Effect The part specified in part of the generated form (load(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenload_glosry.htm 'Glossary Entry')) of
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload.htm"
+abapFile: "abapload.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abapload"]
+---
 
 * * *
 

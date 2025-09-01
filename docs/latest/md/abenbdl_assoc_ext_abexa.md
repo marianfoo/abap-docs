@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Node Extension"
+description: |
+  This example demonstrates how to add an extension node with behavior to a RAP BO. Original RAP BO Data model The CDS data model consists of four nodes which form a hierarchical CDS composition tree. They are connected via CDS compositions. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIR
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_assoc_ext_abexa.htm"
+abapFile: "abenbdl_assoc_ext_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "assoc", "ext", "abexa"]
+---
 
 * * *
 

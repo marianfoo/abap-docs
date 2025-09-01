@@ -1,4 +1,14 @@
-  
+---
+title: "Control Structure"
+description: |
+  Means of structuring a processing block(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') in statement blocks(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatement_block_glosry.htm 'Glossary Entry'). The possible contr
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_structure_glosry.htm"
+abapFile: "abencontrol_structure_glosry.htm"
+keywords: ["loop", "do", "try", "exception-handling", "abencontrol", "structure", "glosry"]
+---
 
 * * *
 

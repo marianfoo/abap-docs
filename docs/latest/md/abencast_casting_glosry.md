@@ -1,4 +1,14 @@
-  
+---
+title: "cast_casting_glosry"
+description: |
+  cast_casting_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencast_casting_glosry.htm"
+abapFile: "abencast_casting_glosry.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abencast", "casting", "glosry"]
+---
 
 * * *
 

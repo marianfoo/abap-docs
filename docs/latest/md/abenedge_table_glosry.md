@@ -1,4 +1,14 @@
-  
+---
+title: "edge_table_glosry"
+description: |
+  edge_table_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenedge_table_glosry.htm"
+abapFile: "abenedge_table_glosry.htm"
+keywords: ["do", "if", "try", "abenedge", "table", "glosry"]
+---
 
 * * *
 

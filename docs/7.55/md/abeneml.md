@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Entity Manipulation Language"
+description: |
+  Work in progress  Entity Manipulation Language (or EML for short) is a set of ABAP statements for manipulating the CDS entities(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm 'Glossary Entry') that are granted a behavior by the behavior definition(https
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm"
+abapFile: "abeneml.htm"
+keywords: ["do", "if", "try", "method", "abeneml"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LDQ"
+description: |
+  → Local Data Queue(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlocal_data_queue_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenldq_glosry.htm"
+abapFile: "abenldq_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenldq", "glosry"]
+---
 
 * * *
 

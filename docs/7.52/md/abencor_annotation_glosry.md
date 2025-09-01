@@ -1,4 +1,14 @@
-  
+---
+title: "cor_annotation_glosry"
+description: |
+  cor_annotation_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencor_annotation_glosry.htm"
+abapFile: "abencor_annotation_glosry.htm"
+keywords: ["do", "try", "abencor", "annotation", "glosry"]
+---
 
 * * *
 

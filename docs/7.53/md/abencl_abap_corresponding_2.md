@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   The methods CREATE_USING and EXECUTE_USING of the system class CL_ABAP_CORRESPONDING produce an assignment similar to the statement dst = CORRESPONDING(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_using.htm) #( dst FROM lookup_tab KEY key_name ... )
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_corresponding_2.htm"
+abapFile: "abencl_abap_corresponding_2.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abencl", "abap", "corresponding"]
+---
 
 * * *
 

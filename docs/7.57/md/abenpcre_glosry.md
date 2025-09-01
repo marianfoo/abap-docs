@@ -1,4 +1,14 @@
-  
+---
+title: "Perl Compatible Regular Expression"
+description: |
+  PCRE for short. Regular expressions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregular_expression_glosry.htm 'Glossary Entry') using the same syntax and semantics as Perl 5(https://www.perl.org/). In general, ABAP supports PCRE syntax(https://help.sap.com/doc/abapdocu_757_i
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpcre_glosry.htm"
+abapFile: "abenpcre_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenpcre", "glosry"]
+---
 
 * * *
 

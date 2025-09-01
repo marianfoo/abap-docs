@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_modify_simple . DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA flag(1) TYPE c. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. LOOP AT SCREEN INTO DATA(screen_wa). IF screen_wa-group1 = 'MOD'. IF flag = ' '. screen_wa-input = '0'. ELSEIF
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_mod_simple_abexa.htm"
+abapFile: "abendynpro_mod_simple_abexa.htm"
+keywords: ["loop", "do", "if", "case", "data", "abendynpro", "mod", "simple", "abexa"]
+---
 
 * * *
 

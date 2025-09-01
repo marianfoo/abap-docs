@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_select_over_group. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). SELECT char1 && '_' && char2 AS group, COUNT()                   AS cnt, AVG( num1 AS DEC( 12,2
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_over_group_abexa.htm"
+abapFile: "abensql_expr_over_group_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abensql", "expr", "over", "group", "abexa"]
+---
 
 * * *
 

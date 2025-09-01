@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Input Checks in Dialog Modules"
+description: |
+  This example demonstrates how to check input fields in dialog modules. Source Code PROGRAM demo_dynpro_field_chain. DATA: ok_code TYPE sy-ucomm, input1 TYPE i, input2 TYPE i, input3 TYPE i, input4 TYPE i, input5 TYPE i, input6 TYPE i, sum TYPE i. CALL SCREEN 100. MODULE init_screen_100 OUTPUT.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_chain_abexa.htm"
+abapFile: "abendynpro_field_chain_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "field", "chain", "abexa"]
+---
 
 * * *
 

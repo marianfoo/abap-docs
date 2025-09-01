@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abaphide.htm
 
-  
+---
+title: "HIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaphide_shortref.htm) Syntax HIDE dobj. Effect This statement stores the content of a variable dobj together with the current list line whose line number is contained in sy-linno in the hide area(https://help.sap.com/doc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaphide.htm"
+abapFile: "abaphide.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "field-symbol", "abaphide"]
+---
 
 * * *
 
@@ -86,7 +96,17 @@ Continue
 
 ### abenlist_hide_abexa.htm
 
-  
+---
+title: "Lists, HIDE Technique"
+description: |
+  This example demonstrates how to implement program-driven data passes for lists to the ABAP program using HIDE. Source Code REPORT demo_list_hide NO STANDARD PAGE HEADING. TABLES: spfli, sbook. DATA: num TYPE i, dat TYPE d. START-OF-SELECTION. num = 0. SET PF-STATUS 'FLIGHT'. GET spfli. num += 1.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_hide_abexa.htm"
+abapFile: "abenlist_hide_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "class", "data", "abenlist", "hide", "abexa"]
+---
 
 * * *
 

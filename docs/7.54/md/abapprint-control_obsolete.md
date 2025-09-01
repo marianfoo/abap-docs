@@ -1,4 +1,14 @@
-  
+---
+title: "PRINT-CONTROL - formats"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprint-control_shortref.htm) Obsolete Syntax PRINT-CONTROL formatsFUNCTION code LINE line POSITION col. Effect This obsolete variant of the statement PRINT-CONTROL(https://help.sap.com/doc/abap
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprint-control_obsolete.htm"
+abapFile: "abapprint-control_obsolete.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapprint", "control", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Naming"
+description: |
+  -   If the extension has a namespace prefix, such as /PREFIX/, the names of its elements must not start with a different namespace prefix, nor with Z, nor with Y. -   If the name of the extension starts with Z or with Y, there is no check. -   In all other cases, the names of the elements must not s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_bdef.htm"
+abapFile: "abenc0_consumer_rules_bdef.htm"
+keywords: ["do", "if", "case", "try", "abenc0", "consumer", "rules", "bdef"]
+---
 
 * * *
 

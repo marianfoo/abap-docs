@@ -1,4 +1,14 @@
-  
+---
+title: "sub_annotation_glosry"
+description: |
+  sub_annotation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensub_annotation_glosry.htm"
+abapFile: "abensub_annotation_glosry.htm"
+keywords: ["do", "if", "try", "abensub", "annotation", "glosry"]
+---
 
 * * *
 

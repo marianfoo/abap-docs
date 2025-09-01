@@ -1,4 +1,14 @@
-  
+---
+title: "predicate_method_glosry"
+description: |
+  predicate_method_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_method_glosry.htm"
+abapFile: "abenpredicate_method_glosry.htm"
+keywords: ["do", "try", "method", "abenpredicate", "glosry"]
+---
 
 * * *
 

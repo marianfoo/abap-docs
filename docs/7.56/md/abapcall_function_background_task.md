@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION, IN BACKGROUND TASK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_shortref.htm) Obsolete Syntax CALL FUNCTION func IN BACKGROUND TASK AS SEPARATE UNIT DESTINATION dest parameter_list(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_f
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm"
+abapFile: "abapcall_function_background_task.htm"
+keywords: ["delete", "do", "if", "try", "data", "abapcall", "function", "background", "task"]
+---
 
 * * *
 

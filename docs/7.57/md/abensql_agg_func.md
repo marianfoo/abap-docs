@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... AVG( DISTINCT col(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_columns.htm) AS dtype(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_avg_as.htm) )  MEDIAN( DISTINCT sql_exp(https://help.sap.com/doc/abapdocu_757_in
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm"
+abapFile: "abensql_agg_func.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "case", "try", "catch", "class", "data", "types", "abensql", "agg", "func"]
+---
 
 * * *
 

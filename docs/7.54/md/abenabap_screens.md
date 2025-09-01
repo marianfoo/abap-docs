@@ -1,4 +1,14 @@
-  
+---
+title: "SAP GUI User Dialogs"
+description: |
+  This section handles dialog processing(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_processing_glosry.htm 'Glossary Entry') in dialog sessions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_session_glosry.htm 'Glossary Entry') based on SAP GUI(ht
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm"
+abapFile: "abenabap_screens.htm"
+keywords: ["select", "do", "if", "try", "class", "abenabap", "screens"]
+---
 
 * * *
 

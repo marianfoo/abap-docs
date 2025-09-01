@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenfree_selections.htm
 
-  
+---
+title: "Dynamic Selections"
+description: |
+  A dynamic selection is a selection condition that can be entered on a dynamically created selection screen. The associated selection screens are created, displayed, and processed by the system function modules FREE_SELECTIONS_.... of the function group SSEL. The selection screens can be displayed
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selections.htm"
+abapFile: "abenfree_selections.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abenfree", "selections"]
+---
 
 * * *
 
@@ -17,9 +27,7 @@ Dynamic Selections
 
 A dynamic selection is a selection condition that can be entered on a dynamically created selection screen. The associated selection screens are created, displayed, and processed by the system function modules FREE\_SELECTIONS\_.... of the function group SSEL. The selection screens can be displayed as standalone screens, or integrated into the screens of other dynpros or selection screens as a subscreen. Dynamic selections can be incorporated into logical database or used in any programs.
 
--   [Dynamic Selections in Logical Databases](#@@ITOC@@ABENFREE_SELECTIONS_1)
-
--   [Dynamic Selections in All Programs](#@@ITOC@@ABENFREE_SELECTIONS_2)
+-   [Dynamic Selections in Logical Databases](#abenfree-selections-1--------dynamic-selections-in-all-programs---@ITOC@@ABENFREE_SELECTIONS_2)
 
 Security Note
 
@@ -68,7 +76,17 @@ Continue
 
 ### abenfree_selection_abexa.htm
 
-  
+---
+title: "Dynamic Selections"
+description: |
+  This example demonstrates how a dynamic selection is used in a program. Source Code REPORT demo_free_selections. PARAMETERS dbtab TYPE tabname DEFAULT 'SPFLI'. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS check_existence_and_authority RETURNING VALUE
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selection_abexa.htm"
+abapFile: "abenfree_selection_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenfree", "selection", "abexa"]
+---
 
 * * *
 

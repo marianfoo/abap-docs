@@ -1,4 +1,14 @@
-  
+---
+title: "Character-like data type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm 'Glossary Entry') whose data objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_object_glosry.htm 'Glossary Entry') contain characters(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm"
+abapFile: "abencharlike_data_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "abencharlike", "type", "glosry"]
+---
 
 * * *
 

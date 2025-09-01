@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_asxml_elementary. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: num    TYPE i VALUE 20, dat    TYPE d VALUE '20060627', xmlstr TYPE xstring. CALL TRANSFORMATION id SOURCE number = num date   = dat RESULT XML xmlstr. c
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasxml_elementary_abexa.htm"
+abapFile: "abenasxml_elementary_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "abenasxml", "elementary", "abexa"]
+---
 
 * * *
 

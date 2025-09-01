@@ -1,4 +1,14 @@
-  
+---
+title: "presentation_server_glosry"
+description: |
+  presentation_server_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpresentation_server_glosry.htm"
+abapFile: "abenpresentation_server_glosry.htm"
+keywords: ["do", "if", "try", "abenpresentation", "server", "glosry"]
+---
 
 * * *
 

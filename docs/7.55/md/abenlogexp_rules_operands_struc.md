@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  The following comparison is true because the structure is handled like a field of type c with length 8. TYPES: BEGIN OF struc, year  TYPE c LENGTH 4, month TYPE c LENGTH 2, day   TYPE c LENGTH 2, END OF struc. DATA(date)  = sy-datlo. DATA(struc) = VALUE struc( year  = date(4) month = date+4(2) day
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_rules_operands_struc.htm"
+abapFile: "abenlogexp_rules_operands_struc.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenlogexp", "rules", "operands", "struc"]
+---
 
 * * *
 

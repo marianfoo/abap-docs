@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Object Transaction"
+description: |
+  This example demonstrates how a transaction code is linked with the method of a local class. Source Code &--------------------------------------------------------------------- & Subroutine pool  DEMO_OO_TRANSACTION                                 &
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoo_transaction_abexa.htm"
+abapFile: "abenoo_transaction_abexa.htm"
+keywords: ["do", "if", "method", "class", "abenoo", "transaction", "abexa"]
+---
 
 * * *
 

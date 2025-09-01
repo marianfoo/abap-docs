@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Methods for Handling Code Pages"
+description: |
+  The class CL_ABAP_CODEPAGE contains methods for converting the representation of character strings between different code pages. The interface IF_ABAP_CODEPAGE enables objects in the class to be accessed. Note The methods CONVERT of the interfaces IF_ABAP_CONV_OUT(https://help.sap.com/doc/a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_codepage_obsolete.htm"
+abapFile: "abencl_abap_codepage_obsolete.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "codepage", "obsolete"]
+---
 
 * * *
 

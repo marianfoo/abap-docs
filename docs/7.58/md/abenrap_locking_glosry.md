@@ -1,4 +1,14 @@
-  
+---
+title: "RAP locking"
+description: |
+  Locking mechanism that is based on the SAP lock(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_lock_glosry.htm 'Glossary Entry') concept. It uses lock function modules(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlock_function_module_glosry.htm 'Glossary Ent
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_locking_glosry.htm"
+abapFile: "abenrap_locking_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "locking", "glosry"]
+---
 
 * * *
 

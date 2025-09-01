@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETERS @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname1, @parameter_annot1(http
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_annotate_view_para_list.htm"
+abapFile: "abencds_f1_annotate_view_para_list.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencds", "annotate", "view", "para", "list"]
+---
 
 * * *
 

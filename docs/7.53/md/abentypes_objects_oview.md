@@ -1,4 +1,14 @@
-  
+---
+title: "Types and Objects - Overview"
+description: |
+  ABAP distinguishes between types and objects. Types are purely descriptions, to which no data memory is attached apart from administration information. Objects are instances of types and take up memory space. A type characterizes the technical attributes of all objects of the relevant type. The ABAP
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentypes_objects_oview.htm"
+abapFile: "abentypes_objects_oview.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abentypes", "objects", "oview"]
+---
 
 * * *
 

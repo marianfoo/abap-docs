@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CASE operand WHEN operand1 THEN result1 WHEN operand2 THEN result2 ... ELSE resultn  ELSE NULL END ... Effect Simple case distinction(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_case_expression_v2.htm) in a SELECT statement(https://help.sap.com
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_case_expression_v2.htm"
+abapFile: "abencds_simple_case_expression_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "simple", "expression"]
+---
 
 * * *
 

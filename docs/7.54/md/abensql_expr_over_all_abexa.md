@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Window Expressions Without Partition"
+description: |
+  This example demonstrates window expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) without partition. Source Code REPORT demo_select_over_all. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENT
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_all_abexa.htm"
+abapFile: "abensql_expr_over_all_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "method", "class", "data", "types", "abensql", "expr", "over", "all", "abexa"]
+---
 
 * * *
 

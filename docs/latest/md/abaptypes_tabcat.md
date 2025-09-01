@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, tabkind"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_shortref.htm) Syntax ...  STANDARD TABLE  SORTED TABLE  HASHED TABLE  ANY TABLE  INDEX TABLE  ... Additions: 1. ... STANDARD TABLE(#!ABAP_ADD
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_tabcat.htm"
+abapFile: "abaptypes_tabcat.htm"
+keywords: ["select", "insert", "do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abaptypes", "tabcat"]
+---
 
 * * *
 

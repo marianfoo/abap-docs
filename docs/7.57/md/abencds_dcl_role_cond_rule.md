@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  GRANT SELECT ON cds_entity WITH OPTIONAL ELEMENTS ( element1 DEFAULT   TRUE  FALSE , ...  )  COMBINATION MODE OR  COMBINATION MODE AND  REDEFINITION WHERE cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_cond_expr.htm); Additions: 1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_role_cond_rule.htm"
+abapFile: "abencds_dcl_role_cond_rule.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "dcl", "role", "cond", "rule"]
+---
 
 * * *
 

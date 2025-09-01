@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Generic Date Functions(abensql_date_func.htm#abensql-date-func-1---1-------is--valid--date---time---utclong-----------extract--year--date---utclong-----------extract--month--date---utclong-----------extract--day--date---utclong-----------dayname--date---utclong-----------monthname--date---utclong-
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_date_func.htm"
+abapFile: "abensql_date_func.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "case", "try", "catch", "class", "data", "types", "abensql", "date", "func"]
+---
 
 * * *
 
@@ -12,54 +22,13 @@ sql\_func - Date Functions
 
 Syntax Forms
 
-[Generic Date Functions](abensql_date_func.htm#@@ITOC@@ABENSQL_DATE_FUNC_1)
-
-1\. ... IS\_VALID( date*|*time*|*utclong )
-    *|* EXTRACT\_YEAR( date*|*utclong )
-    *|* EXTRACT\_MONTH( date*|*utclong )
-    *|* EXTRACT\_DAY( date*|*utclong )
-    *|* DAYNAME( date*|*utclong )
-    *|* MONTHNAME( date*|*utclong )
-    *|* WEEKDAY( date*|*utclong )
-    *|* DAYS\_BETWEEN( *{*date1*|*utclong1*}*,*{*date2*|*utclong2*}* )
-    *|* ADD\_DAYS( *{*date*|*utclong*}*,days )
-    *|* ADD\_MONTHS( *{*date*|*utclong*}*,months ) ...
-
-[Functions for DATN](abensql_date_func.htm#@@ITOC@@ABENSQL_DATE_FUNC_2)
+[Generic Date Functions](abensql_date_func.htm#abensql-date-func-1---1-------is--valid--date---time---utclong-----------extract--year--date---utclong-----------extract--month--date---utclong-----------extract--day--date---utclong-----------dayname--date---utclong-----------monthname--date---utclong-----------weekday--date---utclong-----------days--between-----date1---utclong1-------date2---utclong2--------------add--days-----date---utclong----days-----------add--months-----date---utclong----months---------functions-for-datn--abensql-date-func-htm-@ITOC@@ABENSQL_DATE_FUNC_2)
 
 2\. ... DATN\_DAYS\_BETWEEN( date1,date2 )
     *|* DATN\_ADD\_DAYS( date,days )
     *|* DATN\_ADD\_MONTHS( date,months ) ...
 
-[Functions for DATS](abensql_date_func.htm#@@ITOC@@ABENSQL_DATE_FUNC_3)
-
-3\. ... DATS\_IS\_VALID( date )
-    *|* DATS\_DAYS\_BETWEEN( date1,date2 )
-    *|* DATS\_ADD\_DAYS( date,days )
-    *|* DATS\_ADD\_MONTHS( date,months ) ...
-
-Effect
-
-These SQL functions perform operations on dates with arguments of the built-in data types [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), and [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The first set covers generic functions, the second set covers a function depending on the data type [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), and the third set covers a function depending on the data type [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The arguments of the functions are specified as a comma-separated list in parentheses. A blank must be placed after the opening parenthesis and in front of the closing parenthesis. [SQL expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm) of matching data types can be passed as actual parameters. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_value_glosry.htm "Glossary Entry"), every function except IS\_VALID and DATS\_IS\_VALID returns a null value.
-
-Generic Date Functions   
-
-Syntax
-
-... IS\_VALID( date*|*time*|*utclong )
-  *|* EXTRACT\_YEAR( date*|*utclong )
-  *|* EXTRACT\_MONTH( date*|*utclong )
-  *|* EXTRACT\_DAY( date*|*utclong )
-  *|* DAYNAME( date*|*utclong )
-  *|* MONTHNAME( date*|*utclong )
-  *|* WEEKDAY( date*|*utclong )
-  *|* DAYS\_BETWEEN( *{*date1*|*utclong1*}*,*{*date2*|*utclong2*}* )
-  *|* ADD\_DAYS( *{*date*|*utclong*}*,days )
-  *|* ADD\_MONTHS( *{*date*|*utclong*}*,months ) ...
-
-Variants:
-
-[1\. ... IS\_VALID( date*|*time*|*utclong )](#!ABAP_VARIANT_1@1@)
+[Functions for DATS](abensql_date_func.htm#abensql-date-func-3---3-------dats--is--valid--date-----------dats--days--between--date1-date2-----------dats--add--days--date-days-----------dats--add--months--date-months--------effect--these-sql-functions-perform-operations-on-dates-with-arguments-of-the-built-in-data-types--datn--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm----dats--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm----timn--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm----tims--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm---and--utclong--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm---the-first-set-covers-generic-functions--the-second-set-covers-a-function-depending-on-the-data-type--datn--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm---and-the-third-set-covers-a-function-depending-on-the-data-type--dats--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-builtin-types-htm---the-arguments-of-the-functions-are-specified-as-a-comma-separated-list-in-parentheses--a-blank-must-be-placed-after-the-opening-parenthesis-and-in-front-of-the-closing-parenthesis---sql-expressions--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abapsql-expr-htm--of-matching-data-types-can-be-passed-as-actual-parameters--if-an-actual-parameter-contains-the--null-value--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abennull-value-glosry-htm--glossary-entry----every-function-except-is--valid-and-dats--is--valid-returns-a-null-value---generic-date-functions-----syntax------is--valid--date---time---utclong---------extract--year--date---utclong---------extract--month--date---utclong---------extract--day--date---utclong---------dayname--date---utclong---------monthname--date---utclong---------weekday--date---utclong---------days--between-----date1---utclong1-------date2---utclong2------------add--days-----date---utclong----days---------add--months-----date---utclong----months--------variants----1-------is--valid--date---time---utclong------abap-variant-11@)
 [2\. ... EXTRACT\_YEAR( date*|*utclong )](#!ABAP_VARIANT_2@2@)
 [3\. ... EXTRACT\_MONTH( date*|*utclong )](#!ABAP_VARIANT_3@3@)
 [4\. ... EXTRACT\_DAY( date*|*utclong )](#!ABAP_VARIANT_4@4@)

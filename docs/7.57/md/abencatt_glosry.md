@@ -1,4 +1,14 @@
-  
+---
+title: "CATT"
+description: |
+  Abbreviation for Computer Aided Test Tool. Allows application process flows to be stored for test purposes.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencatt_glosry.htm"
+abapFile: "abencatt_glosry.htm"
+keywords: ["do", "if", "abencatt", "glosry"]
+---
 
 * * *
 

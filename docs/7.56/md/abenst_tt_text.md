@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...>literal<... ...><tt:text>literal</tt:text><... Effect Here, literal stands for literal text. Each piece of content of a template that is not an element (in other words, not positioned between < >), is literal text. This includes line breaks and blanks that are combined under the term whitespace.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_text.htm"
+abapFile: "abenst_tt_text.htm"
+keywords: ["do", "if", "data", "abenst", "text"]
+---
 
 * * *
 

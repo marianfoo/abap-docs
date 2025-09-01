@@ -1,4 +1,14 @@
-  
+---
+title: "line_element_glosry"
+description: |
+  line_element_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_element_glosry.htm"
+abapFile: "abenline_element_glosry.htm"
+keywords: ["do", "try", "abenline", "element", "glosry"]
+---
 
 * * *
 

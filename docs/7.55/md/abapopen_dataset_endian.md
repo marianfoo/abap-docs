@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET, endian"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapopen_dataset_shortref.htm) Syntax ... BIGLITTLE ENDIAN ... Effect This addition specifies that, when a legacy file(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlegacy_file_glosry.htm 'Glossa
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapopen_dataset_endian.htm"
+abapFile: "abapopen_dataset_endian.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "types", "abapopen", "dataset", "endian"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, ASSOCIATION TO PARENT"
+description: |
+  Syntax ... ASSOCIATION TO PARENT target AS _assoc ON $projection.cds_cond(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v1.htm) ... Effect A CDS to-parent association(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_parent_as
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_to_parent_assoc_v1.htm"
+abapFile: "abencds_to_parent_assoc_v1.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "data", "abencds", "parent", "assoc"]
+---
 
 * * *
 

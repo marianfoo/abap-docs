@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenamdp_macros.htm
 
-  
+---
+title: "AMDP Macros"
+description: |
+  Syntax ... '$ABAP.macro( ... )' ... Effect Specifies an (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry')AMDP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') macro in an AMDP method, whic
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm"
+abapFile: "abenamdp_macros.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abenamdp", "macros"]
+---
 
 * * *
 
@@ -44,7 +54,17 @@ Continue
 
 ### abenamdp_abap_types.htm
 
-  
+---
+title: "AMDP - Macro for ABAP Types"
+description: |
+  Syntax ... '$ABAP.type( name = abap_type )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') $ABAP.type for an ABAP type. In an AMDP method implemented in SQLScript, the AMDP macro $ABAP.type
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm"
+abapFile: "abenamdp_abap_types.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenamdp", "abap"]
+---
 
 * * *
 
@@ -107,7 +127,17 @@ Executable Example
 
 ### abenamdp_logical_db_schemas.htm
 
-  
+---
+title: "AMDP - Macro for Logical Schemas"
+description: |
+  Syntax ... '$ABAP.schema( name = schema_name quote = SINGLEDOUBLE )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm"
+abapFile: "abenamdp_logical_db_schemas.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "abenamdp", "logical", "schemas"]
+---
 
 * * *
 

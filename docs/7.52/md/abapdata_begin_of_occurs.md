@@ -1,4 +1,14 @@
-  
+---
+title: "DATA - BEGIN OF OCCURS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_begin_of_shortref.htm) Obsolete Syntax DATA BEGIN OF itab OCCURS n. ... DATA END OF itab VALID BETWEEN intlim1 AND intlim2. Addition: ... VALID BETWEEN intlim1 AND intlim2(#!ABAP_ONE_ADD@1@) Effect This v
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_begin_of_occurs.htm"
+abapFile: "abapdata_begin_of_occurs.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abapdata", "begin", "occurs"]
+---
 
 * * *
 

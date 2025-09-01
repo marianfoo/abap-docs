@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Restrictions"
+description: |
+  In contrast to the normal function module call, the following restrictions apply to an RFC: -   Pass-by value(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpass_by_value_glosry.htm 'Glossary Entry') must be selected for the IMPORTING, EXPORTING, and CHANGING parameters of a remot
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_limitations.htm"
+abapFile: "abenrfc_limitations.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "data", "types", "abenrfc", "limitations"]
+---
 
 * * *
 

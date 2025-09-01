@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_anno_annos.htm"
+abapFile: "abencds_f1_define_anno_annos.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "method", "class", "data", "abencds", "define", "anno", "annos"]
+---
 
 * * *
 
@@ -20,17 +30,11 @@ The annotations of an annotation definition can be specified in front of the nam
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
 
--   [AbapAnnotation Annotations](#@@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_1)
+-   [AbapAnnotation Annotations](#abencds-f1-define-anno-annos-1--------api-annotations---@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_2)
 
--   [API Annotations](#@@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_2)
+-   [CompatibilityContract Annotations](#abencds-f1-define-anno-annos-3--------languagedependency-annotations---@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_4)
 
--   [CompatibilityContract Annotations](#@@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_3)
-
--   [LanguageDependency Annotations](#@@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_4)
-
--   [MetadataExtension Annotations](#@@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_5)
-
--   [Scope Annotations](#@@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_6)
+-   [MetadataExtension Annotations](#abencds-f1-define-anno-annos-5--------scope-annotations---@ITOC@@ABENCDS_F1_DEFINE_ANNO_ANNOS_6)
 
 The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 

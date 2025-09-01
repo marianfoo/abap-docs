@@ -1,4 +1,14 @@
-  
+---
+title: "RFC server"
+description: |
+  Instance of a system that provides services that can be called using RFC(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenremote_function_call_glosry.htm 'Glossary Entry').
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_server_glosry.htm"
+abapFile: "abenrfc_server_glosry.htm"
+keywords: ["do", "try", "abenrfc", "server", "glosry"]
+---
 
 * * *
 

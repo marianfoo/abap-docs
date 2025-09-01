@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Editor"
+description: |
+  ABAP Workbench(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') tool for creating ABAP programs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm 'Glossary Entry'). It is either called directly using
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_editor_glosry.htm"
+abapFile: "abenabap_editor_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "editor", "glosry"]
+---
 
 * * *
 

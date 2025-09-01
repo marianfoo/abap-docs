@@ -1,4 +1,14 @@
-  
+---
+title: "client_server_system_glosry"
+description: |
+  client_server_system_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_server_system_glosry.htm"
+abapFile: "abenclient_server_system_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenclient", "server", "system", "glosry"]
+---
 
 * * *
 

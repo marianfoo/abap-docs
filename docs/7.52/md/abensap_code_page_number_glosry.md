@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Code Page Number"
+description: |
+  SAP internal identification for a code page(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencodepage_glosry.htm 'Glossary Entry') that is stored in the TCP00 database table. If the byte order(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_order_glosry.htm 'Glo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_code_page_number_glosry.htm"
+abapFile: "abensap_code_page_number_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensap", "code", "page", "number", "glosry"]
+---
 
 * * *
 

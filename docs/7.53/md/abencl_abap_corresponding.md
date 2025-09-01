@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  CL_ABAP_CORRESPONDING - Simple Assignment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_corresponding_1.htm) CL_ABAP_CORRESPONDING - Assignment of Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_corresponding_3.htm) CL_ABAP_CORRESPOND
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_corresponding.htm"
+abapFile: "abencl_abap_corresponding.htm"
+keywords: ["do", "if", "method", "class", "data", "internal-table", "abencl", "abap", "corresponding"]
+---
 
 * * *
 

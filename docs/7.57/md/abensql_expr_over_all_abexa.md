@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_select_over_all. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). SELECT char1 && '_' && char2 AS group, num1, COUNT()      OVER( ) AS cnt, ROW_NUMBER( ) OVER( )
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_all_abexa.htm"
+abapFile: "abensql_expr_over_all_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abensql", "expr", "over", "all", "abexa"]
+---
 
 * * *
 

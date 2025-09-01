@@ -1,4 +1,14 @@
-  
+---
+title: "Time Stamps in Packed Numbers"
+description: |
+  In this format, time stamps(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_stamp_glosry.htm 'Glossary Entry') are represented using packed numbers of the type p(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_types_numeric.htm). -   Representation of
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_stamps_packed.htm"
+abapFile: "abentime_stamps_packed.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abentime", "stamps", "packed"]
+---
 
 * * *
 
@@ -13,10 +23,8 @@ Time Stamps in Packed Numbers
 
 In this format, [time stamps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_stamp_glosry.htm "Glossary Entry") are represented using packed numbers of the type [p](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_types_numeric.htm).
 
--   [Representation of Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_1)
--   [Accessing Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_2)
--   [Notes on Handling Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_3)
--   [Examples for Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_4)
+-   [Representation of Time Stamps in Packed Numbers](#abentime-stamps-packed-1-------accessing-time-stamps-in-packed-numbers---@ITOC@@ABENTIME_STAMPS_PACKED_2)
+-   [Notes on Handling Time Stamps in Packed Numbers](#abentime-stamps-packed-3-------examples-for-time-stamps-in-packed-numbers---@ITOC@@ABENTIME_STAMPS_PACKED_4)
 
 Representation of Time Stamps in Packed Numbers   
 

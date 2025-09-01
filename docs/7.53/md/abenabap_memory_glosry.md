@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP memory"
+description: |
+  Memory area within every ABAP session(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmain_session_glosry.htm 'Glossary Entry') that can be accessed jointly by the programs of a call sequence(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_sequence_glosry.htm '
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_memory_glosry.htm"
+abapFile: "abenabap_memory_glosry.htm"
+keywords: ["do", "try", "data", "abenabap", "memory", "glosry"]
+---
 
 * * *
 

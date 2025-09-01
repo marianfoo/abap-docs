@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP"
+description: |
+  → ABAP Managed Database Procedures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_managed_db_proc_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_glosry.htm"
+abapFile: "abenamdp_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenamdp", "glosry"]
+---
 
 * * *
 

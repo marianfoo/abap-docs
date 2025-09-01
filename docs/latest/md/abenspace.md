@@ -1,4 +1,14 @@
-  
+---
+title: "The Constant space"
+description: |
+  The program-global constant space has the data type c, length 1, and contains a blank character. Hints -   For the constant space, trailing blanks are ignored in most operand positions, as for all character-like fields with fixed lengths. The constant space should therefore not be used in such posit
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenspace.htm"
+abapFile: "abenspace.htm"
+keywords: ["do", "if", "try", "data", "types", "abenspace"]
+---
 
 * * *
 

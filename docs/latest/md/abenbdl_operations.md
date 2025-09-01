@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - RAP BO Operations"
+description: |
+  The following types of RAP BO operations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') are available: -   Standard operations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_standard_operations.htm): Crea
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_operations.htm"
+abapFile: "abenbdl_operations.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "data", "types", "abenbdl", "operations"]
+---
 
 * * *
 

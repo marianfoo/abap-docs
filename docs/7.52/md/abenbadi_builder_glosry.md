@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI Builder"
+description: |
+  ABAP Workbench(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') tool used to create and edit BAdIs(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_glosry.htm 'Glossary Entry'). BAdI Builder is the BAdI-specific access
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_builder_glosry.htm"
+abapFile: "abenbadi_builder_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenbadi", "builder", "glosry"]
+---
 
 * * *
 

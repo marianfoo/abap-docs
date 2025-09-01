@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP and OLE"
+description: |
+  You can use ABAP to process automation objects whose functions are available in the presentation layer in the form of an OLE Automation server. Only automation objects for Windows are supported. Typical applications that offer an automation interface are Microsoft Office products Excel and Word, in
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm"
+abapFile: "abenole2.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenole2"]
+---
 
 * * *
 

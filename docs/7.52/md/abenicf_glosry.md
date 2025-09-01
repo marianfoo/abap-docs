@@ -1,4 +1,14 @@
-  
+---
+title: "ICF"
+description: |
+  → Internet Communication Framework(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternet_con_fra_glosry.htm 'Glossary Entry').
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf_glosry.htm"
+abapFile: "abenicf_glosry.htm"
+keywords: ["do", "try", "abenicf", "glosry"]
+---
 
 * * *
 

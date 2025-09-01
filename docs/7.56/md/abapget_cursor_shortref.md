@@ -1,4 +1,14 @@
-  
+---
+title: "GET CURSOR - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_dynpro.htm) Syntax GET CURSOR   FIELD field VALUE val LENGTH len DISPLAYMEMORY OFFSET off LINE line AREA area    LINE line VALUE val LEN
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_shortref.htm"
+abapFile: "abapget_cursor_shortref.htm"
+keywords: ["loop", "do", "try", "abapget", "cursor", "shortref"]
+---
 
 * * *
 

@@ -1,26 +1,11 @@
 # ABAP ERROR-HANDLING - Complete Reference (7.53)
 
-**Generated**: 2025-09-01T11:14:58.571Z
+**Generated**: 2025-09-01T19:37:26.802Z
 **Bundles Combined**: 4
 **Category**: error-handling
 
 ---
 
-
-
-## 🔗 Complete Source Documentation
-
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-**🏷️ Category**: ERROR-HANDLING
-**🔍 Search Specific Topics**: Use `abap_search query:"error-handling"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
-
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
-
----
 
 ## ABAP Keyword Documentation / ABAP − Reference / Program Flow Logic / Exception Handling / Exceptions in ABAP Statements
 
@@ -33,11 +18,17 @@ Included pages: 2
 
 ### abenabap_language_exceptions.htm
 
-> **📖 Official SAP Documentation**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Exceptions in ABAP Statements"
+description: |
+  Error situations that occur during the execution of an ABAP statement raise exceptions. These exceptions are fully integrated into the exception concept(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_exceptions.htm) and are raised by the runtime environment. Two types of excep
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm"
+abapFile: "abenabap_language_exceptions.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "exception-handling", "abenabap", "language", "exceptions"]
+---
 
 * * *
 
@@ -95,16 +86,19 @@ Continue
 [Exception Classes for ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_exception_classes.htm)
 
 
-
-**📖 Source**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
-
 ### abenabap_exception_classes.htm
 
-> **📖 Official SAP Documentation**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_exception_classes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Exception Classes for ABAP Statements"
+description: |
+  The handleable exceptions in ABAP statements(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm) can be caught using the predefined exception classes listed below. These classes are subclasses of the classes CX_DYNAMIC_CHECK and CX_NO_CHECK. These excep
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_exception_classes.htm"
+abapFile: "abenabap_exception_classes.htm"
+keywords: ["loop", "do", "try", "catch", "method", "class", "data", "exception-handling", "abenabap", "exception", "classes"]
+---
 
 * * *
 
@@ -425,16 +419,19 @@ CX\_ROOT
 Included pages: 4
 
 
-
-**📖 Source**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_exception_classes.htm)
-
 ### abennoncat_exceptions.htm
 
-> **📖 Official SAP Documentation**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennoncat_exceptions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Runtime Error"
+description: |
+  Runtime errors identify situations in which the system cannot continue running an ABAP program and has to terminate it. Runtime errors can occur in one of the following situations when ABAP programs are executed: -   Non-handled exceptions: -   A handleable exception is not handled. -   A non-handle
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennoncat_exceptions.htm"
+abapFile: "abennoncat_exceptions.htm"
+keywords: ["do", "if", "try", "class", "data", "exception-handling", "abennoncat", "exceptions"]
+---
 
 * * *
 
@@ -476,16 +473,19 @@ Continue
 [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm)
 
 
-
-**📖 Source**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennoncat_exceptions.htm)
-
 ### abapraise_shortdump.htm
 
-> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "RAISE SHORTDUMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_shortref.htm) Syntax RAISE SHORTDUMP  TYPE cx_class  message(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_message.htm) EXPORTING p1 = a1 p2 = a2 ...
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm"
+abapFile: "abapraise_shortdump.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abapraise", "shortdump"]
+---
 
 * * *
 
@@ -584,16 +584,19 @@ Continue
 [RAISE SHORTDUMP - message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_message.htm)
 
 
-
-**📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm)
-
 ### abapraise_shortdump_message.htm
 
-> **📖 Official SAP Documentation**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_message.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "RAISE SHORTDUMP - message"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_shortref.htm) Syntax ...  MESSAGE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception_message.htm) tn(id)   ID mid TYPE mtype NUMBER num  WITH dobj1 ... dobj4
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_message.htm"
+abapFile: "abapraise_shortdump_message.htm"
+keywords: ["do", "if", "try", "class", "exception-handling", "abapraise", "shortdump", "message"]
+---
 
 * * *
 
@@ -654,16 +657,19 @@ RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
                 USING MESSAGE.
 
 
-
-**📖 Source**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_message.htm)
-
 ### abapraise_shortdump.htm
 
-> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "RAISE SHORTDUMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_shortref.htm) Syntax RAISE SHORTDUMP  TYPE cx_class  message(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_message.htm) EXPORTING p1 = a1 p2 = a2 ...
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm"
+abapFile: "abapraise_shortdump.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abapraise", "shortdump"]
+---
 
 * * *
 
@@ -774,16 +780,19 @@ Continue
 Included pages: 6
 
 
-
-**📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm)
-
 ### abensystem-exceptions.htm
 
-> **📖 Official SAP Documentation**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem-exceptions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Obsolete Catchable Runtime Errors"
+description: |
+  Before class-based exceptions were introduced, exceptions for exception situations of the runtime environment that could be successfully handled in the program were defined exclusively as catchable runtime errors and could be handled using the statement CATCH SYSTEM-EXCEPTIONS. All catchable runtime
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem-exceptions.htm"
+abapFile: "abensystem-exceptions.htm"
+keywords: ["do", "catch", "class", "abensystem", "exceptions"]
+---
 
 * * *
 
@@ -813,16 +822,19 @@ Continue
 [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm)
 
 
-
-**📖 Source**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem-exceptions.htm)
-
 ### abenueb-abfb-sysexc.htm
 
-> **📖 Official SAP Documentation**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenueb-abfb-sysexc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Alphabetical Overview of Catchable Runtime Errors"
+description: |
+  The following is an alphabetical list of the obsolete catchable runtime errors. For each catchable runtime error, the associated predefined exception class(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_exception_classes.htm) used to handle the corresponding runtime error is s
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenueb-abfb-sysexc.htm"
+abapFile: "abenueb-abfb-sysexc.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abenueb", "abfb", "sysexc"]
+---
 
 * * *
 
@@ -1509,16 +1521,19 @@ Error in configuration of the [text environment](https://help.sap.com/doc/abapdo
 Exception class: CX\_SY\_LOCALIZATION\_ERROR
 
 
-
-**📖 Source**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenueb-abfb-sysexc.htm)
-
 ### abensysexc-errkl.htm
 
-> **📖 Official SAP Documentation**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensysexc-errkl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Assignment of Catchable Runtime Errors to Exception Groups"
+description: |
+  Most of the obsolete catchable runtime errors are assigned to exception groups. Using the name of an exception group, all catchable runtime errors of the group can be caught simultaneously using CATCH SYSTEM-EXCEPTIONS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm).
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensysexc-errkl.htm"
+abapFile: "abensysexc-errkl.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abensysexc", "errkl"]
+---
 
 * * *
 
@@ -2205,16 +2220,19 @@ REPLACE\_INFINITE\_LOOP
 CX\_SY\_REPLACE\_INFINITE\_LOOP
 
 
-
-**📖 Source**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensysexc-errkl.htm)
-
 ### abapcatch_sys.htm
 
-> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CATCH SYSTEM-EXCEPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax CATCH SYSTEM-EXCEPTIONS exc1 = n1 exc2 = n2... OTHERS = n_others. statement_block ENDCATCH. Effect Handling Catchable Runtime Errors(https://
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm"
+abapFile: "abapcatch_sys.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abapcatch", "sys"]
+---
 
 * * *
 
@@ -2277,16 +2295,19 @@ Continue
 [ENDCATCH](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendcatch.htm)
 
 
-
-**📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm)
-
 ### abapendcatch.htm
 
-> **📖 Official SAP Documentation**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendcatch.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ENDCATCH"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax ENDCATCH. Effect The statement ENDCATCH closes a control structure introduced by CATCH SYSTEM-EXCEPTIONS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/aba
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendcatch.htm"
+abapFile: "abapendcatch.htm"
+keywords: ["do", "catch", "abapendcatch"]
+---
 
 * * *
 
@@ -2307,16 +2328,19 @@ Effect
 The statement ENDCATCH closes a control structure introduced by [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm).
 
 
-
-**📖 Source**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendcatch.htm)
-
 ### abapcatch_sys.htm
 
-> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "CATCH SYSTEM-EXCEPTIONS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax CATCH SYSTEM-EXCEPTIONS exc1 = n1 exc2 = n2... OTHERS = n_others. statement_block ENDCATCH. Effect Handling Catchable Runtime Errors(https://
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm"
+abapFile: "abapcatch_sys.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abapcatch", "sys"]
+---
 
 * * *
 
@@ -2391,16 +2415,19 @@ Continue
 Included pages: 10
 
 
-
-**📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm)
-
 ### abenerror_handling_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenerror_handling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_handling_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Error Handling"
+description: |
+  Error situations are always a possibility when a program is being executed. These can be caused by: -   internal errors produced by faulty implementations or incorrect use of services -   external errors produced by incorrect user input or unexpected resource bottlenecks ABAP offers various method f
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_handling_guidl.htm"
+abapFile: "abenerror_handling_guidl.htm"
+keywords: ["do", "method", "class", "abenerror", "handling", "guidl"]
+---
 
 * * *
 
@@ -2448,16 +2475,19 @@ Continue
 [Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessages_guidl.htm)
 
 
-
-**📖 Source**: [abenerror_handling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_handling_guidl.htm)
-
 ### abenreaction_error_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreaction_error_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Reaction to Error Situations"
+description: |
+  Background ABAP provides the following concepts that a program can use to properly react to different error situations: -   Exceptions Exceptions are events in the execution of an ABAP program that interrupt the program when it is not possible for the program to continue in a meaningful way. Excepti
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreaction_error_guidl.htm"
+abapFile: "abenreaction_error_guidl.htm"
+keywords: ["select", "do", "if", "class", "exception-handling", "abenreaction", "error", "guidl"]
+---
 
 * * *
 
@@ -2512,16 +2542,19 @@ The statement MESSAGE is not only used to display dialog messages in a classic d
 For contemporary programming that takes the [separation of concerns](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseperation_concerns_guidl.htm "Guideline") (SoC) into account, the question of whether a message is to be sent to the user in the event of an error can usually only be answered in a higher software layer. The layer in which such an error situation occurs must therefore react with an exception initially, which in turn represents a new situation for a higher layer, to which it can react with a dialog message or any other error message.
 
 
-
-**📖 Source**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreaction_error_guidl.htm)
-
 ### abenclass_exception_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Classic and Class-Based Exceptions"
+description: |
+  Background For reasons of downward compatibility, there are two options for defining standalone handleable exceptions in ABAP: -   Classic exceptions These exceptions can only be declared in the interfaces of methods or function modules using EXCEPTIONS and can be raised within such a procedure usin
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm"
+abapFile: "abenclass_exception_guidl.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abenclass", "exception", "guidl"]
+---
 
 * * *
 
@@ -2632,16 +2665,19 @@ ENDTRY.
 This simple example is perhaps not the most obvious demonstration of the great advantage of class-based exceptions over classic exceptions. However, the advantage is clearly seen in nested procedure calls and the handling of exceptions that were raised in more distant call levels.
 
 
-
-**📖 Source**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm)
-
 ### abenexception_category_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_category_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Exception Categories"
+description: |
+  Background Each class-based exception belongs to one of three different exception categories, each of which define whether the exceptions need to be declared in procedure interfaces. The assignment of an exception to an exception class is realized (technically) using inheritance. All exception class
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_category_guidl.htm"
+abapFile: "abenexception_category_guidl.htm"
+keywords: ["do", "if", "case", "catch", "method", "class", "abenexception", "category", "guidl"]
+---
 
 * * *
 
@@ -2691,16 +2727,19 @@ Note
 The resumability of a class-based exception is not an attribute of the exception class; it is defined instead by the RESUMABLE addition of the RAISE EXCEPTION statement when the exception is raised. This attribute can be lost for exceptions of the categories CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK during propagation, if the exceptions are not also declared there using RESUMABLE. CX\_NO\_CHECK always preserves its resumability implicitly.
 
 
-
-**📖 Source**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_category_guidl.htm)
-
 ### abenexception_texts_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Exception Texts"
+description: |
+  Background Each global exception class has a predefined exception text(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts.htm) that has the same name as the exception class. This text can be edited and further exception texts can be defined. The exception texts of an ex
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts_guidl.htm"
+abapFile: "abenexception_texts_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenexception", "texts", "guidl"]
+---
 
 * * *
 
@@ -2763,16 +2802,19 @@ RAISE EXCEPTION TYPE cx\_system\_exception
 ...
 
 
-
-**📖 Source**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts_guidl.htm)
-
 ### abenuse_exception_class_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Using Exception Classes"
+description: |
+  Background The concept of freely definable exception classes involves being able to create an exception class that adequately describes the exception situation in question. The description consists both of the name of the exception class, the associated exception texts, and their documentation. You
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm"
+abapFile: "abenuse_exception_class_guidl.htm"
+keywords: ["do", "if", "method", "class", "abenuse", "exception", "guidl"]
+---
 
 * * *
 
@@ -2843,16 +2885,19 @@ CLASS warehouse IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm)
-
 ### abenhandl_prop_except_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhandl_prop_except_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Handling and Propagating Exceptions"
+description: |
+  Background If a class-based exception is raised, it is propagated automatically by the call layers until the exception is handled or an interface is violated: -   If the exception is raised in a TRY block, the system searches for a suitable CATCH block to handle it. -   If the user leaves the proced
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhandl_prop_except_guidl.htm"
+abapFile: "abenhandl_prop_except_guidl.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "class", "abenhandl", "prop", "except", "guidl"]
+---
 
 * * *
 
@@ -2891,16 +2936,19 @@ Note
 Forwarding the exceptions to higher software layers usually results in a generalization of previously very special exceptions. The more general an exception is, the higher the software layer usually is in which it is handled. In particular, the most general of all possible exceptions (in other words, the exceptions of type CX\_STATIC\_CHECK, CX\_DYNAMIC\_ CHECK, CX\_NO\_CHECK, or CX\_ROOT) should only be caught at the highest software layers and only if a runtime error must be avoided at all costs.
 
 
-
-**📖 Source**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhandl_prop_except_guidl.htm)
-
 ### abencleanup_guidl.htm
 
-> **📖 Official SAP Documentation**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencleanup_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Cleanups After Exceptions"
+description: |
+  Background Every TRY control structure can contain a CLEANUP block. If a class-based exception is raised in the TRY block of the same TRY control structure, but is handled in a CATCH block of an external TRY control structure, the CLEANUP block is executed before the context of the exception is dele
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencleanup_guidl.htm"
+abapFile: "abencleanup_guidl.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "catch", "class", "data", "exception-handling", "abencleanup", "guidl"]
+---
 
 * * *
 
@@ -2955,16 +3003,19 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencleanup_guidl.htm)
-
 ### abenassertions_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassertions_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Assertions"
+description: |
+  Background The ASSERT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassert.htm) statement is used to express an assertion in an ABAP program. Such an assertion is either always active or can be activated externally by assignment to a checkpoint group. When the program reaches an a
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassertions_guidl.htm"
+abapFile: "abenassertions_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenassertions", "guidl"]
+---
 
 * * *
 
@@ -3016,19 +3067,19 @@ ASSERT sy-subrc = 0.
 ...
 
 
-
-**📖 Source**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassertions_guidl.htm)
-
 ### abenmessages_guidl.htm
 
-> **📖 Official SAP Documentation**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessages_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessages_guidl.htm)
-
-
-  
+---
+title: "Messages"
+description: |
+  Background Messages are texts that are created using a message editor (transaction SE91). They are stored in the system table T100. In ABAP programs, the statement MESSAGE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm) is the main element for using messages. In its bas
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessages_guidl.htm"
+abapFile: "abenmessages_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "types", "exception-handling", "abenmessages", "guidl"]
+---
 
 * * *
 

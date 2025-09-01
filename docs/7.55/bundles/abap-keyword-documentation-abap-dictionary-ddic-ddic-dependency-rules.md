@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenddic_dependency_rules.htm
 
-  
+---
+title: "DDIC - Dependency Rules"
+description: |
+  A dependency rule is a dictionary object, an instance of which is created on an SAP HANA database(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm 'Glossary Entry'). A dependency rule is defined for one or more DDIC database tables. From a relational expressi
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_dependency_rules.htm"
+abapFile: "abenddic_dependency_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenddic", "dependency", "rules"]
+---
 
 * * *
 
@@ -41,7 +51,17 @@ Continue
 
 ### abenddic_define_dependency_rule.htm
 
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dependency Rules"
+description: |
+  An ABAP Dictionary dependency rule(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendependency_rule_glosry.htm 'Glossary Entry') is defined as a source-code-based rule in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm"
+abapFile: "abenddic_define_dependency_rule.htm"
+keywords: ["do", "try", "abenddic", "define", "dependency", "rule"]
+---
 
 * * *
 
@@ -67,7 +87,17 @@ Continue
 
 ### abenddicddl_define_drul.htm
 
-  
+---
+title: "DDIC DDL - DEFINE DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm) JOIN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm) DEPENDENCY RULE drul ON dbtab , ... IF  cond_pattern  THEN  derived
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm"
+abapFile: "abenddicddl_define_drul.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenddicddl", "define", "drul"]
+---
 
 * * *
 
@@ -127,7 +157,17 @@ Continue
 
 ### abenddicddl_define_filter_drul.htm
 
-  
+---
+title: "DDIC DDL - DEFINE FILTER DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER DEPENDENCY RULE drul ON dbtab IF  cond_pattern  THEN  derived_cond  Effect Variant of the Dictionary DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry') statement DEFINE DEPENDENCY RULE(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm"
+abapFile: "abenddicddl_define_filter_drul.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abenddicddl", "define", "filter", "drul"]
+---
 
 * * *
 
@@ -268,7 +308,17 @@ If the data in the DDIC database table is structured so that in rows where the c
 
 ### abenddicddl_define_join_drul.htm
 
-  
+---
+title: "DDIC DDL - DEFINE JOIN DEPENDENCY RULE"
+description: |
+  Syntax DEFINE JOIN DEPENDENCY RULE drul ON dbtab1, dbtab2 IF  cond_pattern  THEN  derived_cond  Effect Variant of the Dictionary DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry') statement DEFINE DEPENDENCY RULE(https://help.sap.
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm"
+abapFile: "abenddicddl_define_join_drul.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abenddicddl", "define", "join", "drul"]
+---
 
 * * *
 
@@ -386,7 +436,17 @@ If the data in the DDIC database tables is structured correctly, the dependency 
 
 ### abenddicddl_define_drul.htm
 
-  
+---
+title: "DDIC DDL - DEFINE DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm) JOIN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm) DEPENDENCY RULE drul ON dbtab , ... IF  cond_pattern  THEN  derived
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm"
+abapFile: "abenddicddl_define_drul.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenddicddl", "define", "drul"]
+---
 
 * * *
 
@@ -446,7 +506,17 @@ Continue
 
 ### abenddic_define_dependency_rule.htm
 
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dependency Rules"
+description: |
+  An ABAP Dictionary dependency rule(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendependency_rule_glosry.htm 'Glossary Entry') is defined as a source-code-based rule in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm"
+abapFile: "abenddic_define_dependency_rule.htm"
+keywords: ["do", "try", "abenddic", "define", "dependency", "rule"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Publishing Associations"
+description: |
+  This example demonstrates how associations are published using WITH ASSOCIATIONS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_associations.htm) after a common table expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwith_associations_abexa.htm"
+abapFile: "abenwith_associations_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "case", "try", "method", "class", "data", "abenwith", "associations", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT WORK - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm) Syntax COMMIT WORK AND WAIT. Effect Ends an SAP LUW(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw_glosry.htm 'Glossary Entry'); executes subroutines registered using PERFORM ON C
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit_shortref.htm"
+abapFile: "abapcommit_shortref.htm"
+keywords: ["update", "do", "try", "abapcommit", "shortref"]
+---
 
 * * *
 

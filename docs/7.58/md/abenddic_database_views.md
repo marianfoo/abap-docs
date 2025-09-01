@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Database Views"
+description: |
+  A DDIC database view defines a view on one or more basis tables. If there are multiple basis tables, they are joined using an inner join. An SQL view(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_view_glosry.htm 'Glossary Entry') is created as a database object(https://help.
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm"
+abapFile: "abenddic_database_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "method", "data", "types", "abenddic", "database", "views"]
+---
 
 * * *
 
@@ -12,110 +22,7 @@ DDIC - Database Views
 
 A DDIC database view defines a view on one or more basis tables. If there are multiple basis tables, they are joined using an inner join. An [SQL view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_view_glosry.htm "Glossary Entry") is created as a [database object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_object_glosry.htm "Glossary Entry") on the database when the view is activated. The structure type defined using the view fields of the database view can be referenced in ABAP programs using TYPE. A database view can be accessed using [ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm "Glossary Entry"), [AMDP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_glosry.htm "Glossary Entry"), [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_glosry.htm "Glossary Entry"), [CDS views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry"), and also from outside AS ABAP using the programming interface of the database. The latter method is, however, [not recommended](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_recomm.htm).
 
--   [Basis Tables](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_1)
--   [View Fields](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_2)
--   [Join Conditions](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_3)
--   [Maintenance Status](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_4)
--   [Table Buffering](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_5)
-
-Hints
-
--   A DDIC database view can be activated in ABAP Dictionary without its basis tables being defined on the database. The view is also not created on the database in this case.
--   As in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_client.htm), the client dependency of a database view is determined by a column with the built-in dictionary type CLNT. This column must be the first column of the view.
--   [DDIC append views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_append_views.htm) are available for extending DDIC database views delivered by SAP without modifying the original object.
--   Suitable [CDS views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry") can be defined as [replacement objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm) for database views. In this case, reads in [ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm "Glossary Entry") access the replacement objects rather than the database views.
--   Database views managed by ABAP Dictionary should not be accessed directly in the database (see [Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_recomm.htm)).
-
-Basis Tables   
-
-The basis tables of database views can be [transparent tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransparent_table_glosry.htm "Glossary Entry") and [global temporary tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry").
-
-View Fields   
-
-The view fields of a DDIC database view can be one or more fields from the basis tables. An include mechanism can be used to add all fields from a basis table. When individual fields are used, a name other than the name in the basis tables can be defined for a view field. This name can have a maximum of 30 characters, must meet the naming conventions for component names of [DDIC structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures.htm), and cannot be a reserved name. The reserved names that cannot be used are specified in the database table TRESE. Fields with the type CHAR can have a maximum of 1333 characters. Fields with the type LRAW or LCHR must be at the end of the view. Only one such field is allowed per view. Furthermore, each field of type LRAW or LCHR must have a field with the type INT2 or INT4 directly in front of it. The value of this integer field specifies the maximum length of the LRAW or LCHR field.
-
-To include all fields from a basis table in a DDIC view, the asterisk character (\*) can be used instead of the field name. If the minus character (\-) is used for individual fields of a basis table included using \*, all fields except for the fields specified with \- become view fields. If the structure of a DDIC database table whose fields were added with \* is modified, the structure of the view is also modified.
-
-Hints
-
--   If a [foreign key field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") is added as a view field, it keeps its foreign key attribute and all associated foreign key fields become the foreign key of the view.
--   For [CDS-managed DDIC views (obsolete)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") [](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v1_views.htm), the view fields shown as key fields are in no way related to the key fields defined using [DEFINE VIEW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_v1.htm) for the [CDS entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm "Glossary Entry").
--   A DDIC database view in the software component SAP\_BASIS can contain a maximum of 750 view fields and the total of the field lengths (the number of bytes in non-character-like fields plus the number of characters in flat character-like fields) must not exceed 4096. A database view in any other software component can contain a maximum of 1500 view fields and the total of the field lengths is not checked in ABAP Dictionary.
-
-Join Conditions   
-
-The join conditions for an inner join that combines two basis tables can be formulated using equality operators between any two table fields in the basis tables. The inner join joins the rows of the basis tables in question. The result set contains all combinations of rows whose columns meet the join conditions. If there are no rows in the basis tables that meet the join conditions, the result set is empty. If there is a suitable [foreign key dependency](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkeyrel.htm) (including generic and constant foreign keys) between two basis tables, this dependency can be used as a default for defining join conditions in ABAP Dictionary.
-
-Maintenance Status   
-
-The Access setting in the maintenance status of a DDIC database view can have the following values:
-
--   Read only
-    
-    The database view can only be used to read data with ABAP SQL.
-    
--   Read, change, delete, and insert
-    
-    If the database view contains only a single basis table, data can be [changed](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_writing.htm) using ABAP SQL.
-    
-
-A database view with multiple basis tables can only be read with ABAP SQL. If a database view is based on a single table, data can be inserted in this table using the view with the ABAP SQL statements [INSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_dbtab.htm) or [MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_dbtab.htm). Fields from the basis table that are not included in the DDIC view can be handled as follows:
-
--   If the table field is defined with [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database, the field is filled with the type-specific initial value.
--   If the table field is defined with [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database, and there is no initial value, nothing can be inserted and a database error occurs with a corresponding exception.
--   If the table field is not defined with [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database, the field is filled with the [null value](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennull_value_glosry.htm "Glossary Entry").
-
-Hints
-
--   A DDIC database view should only be used to insert data in the basis table if the flag for initial values is set for all table fields that are not included in the DDIC view.
--   Modifying existing data records via a DDIC database view does not cause any issues as long as the database view contains all key fields of the table.
--   Like a DDIC database table, the maintenance status of a database view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The Display and Maintain setting must match the Access setting. In database views containing multiple basis tables, only the setting Display/maintenance not allowed is possible.
-
-Table Buffering   
-
-Just like in DDIC database tables, it is possible to define for a database view whether the data in the [table buffer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_buffer_glosry.htm "Glossary Entry") is buffered. The same [buffering types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_buffer.htm) can be defined and [table buffering in ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_puffering.htm) is handled in the same way for views and for DDIC database tables with the only difference being that, when data is modified in one of the basis tables, the entire buffer is invalidated when the [buffers are synchronized](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuffer_synchro.htm), regardless of the buffering type. In client-dependent views, however, this only affects the content of the current client. As for DDIC database tables, the settings for buffering are separate technical settings, that can be transported independently from the view.
-
-The following prerequisites must be met before a DDIC database view can be buffered:
-
--   A basis table can occur in no more than nine buffered database views.
--   If all fields of the database view are key fields, these fields must also be key fields of the basis tables.
--   A DDIC view that allows ABAP SQL write access must not have a [replacement object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm).
-
-Hint
-
-For an existing DDIC view that already has a buffer and allows ABAP SQL write access, no [replacement object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm) can be created.
-
-Example
-
-The DDIC database view DEMO\_SCARR\_SPFLI contains fields of the tables SCARR and SPFLI. Other names are assigned to these fields in the view.
-
-The associated database object looks as follows:
-
-CREATE VIEW DEMO\_SCARR\_SPFLI
-   (CLIENT,
-   ID,
-   CARRIER,
-   FLIGHT,
-   DEPARTURE,
-   DESTINATION )
-AS SELECT
-   T1."MANDT",
-   T2."CARRID",
-   T1."CARRNAME",
-   T2."CONNID",
-   T2."CITYFROM",
-   T2."CITYTO"
-FROM
-    "SCARR" T1,
-    "SPFLI" T2
-WHERE
-    T1."MANDT"  = T2."MANDT" AND
-    T1."CARRID" = T2."CARRID"
-
-The view can be accessed as follows using ABAP SQL:
-
-SELECT \*
-       FROM demo\_scarr\_spfli
-       ORDER BY id, carrier, flight
-       INTO TABLE @FINAL(result).
+-   [Basis Tables](#abenddic-database-views-1-------view-fields---@ITOC@@ABENDDIC_DATABASE_VIEWS_2)
+-   [Join Conditions](#abenddic-database-views-3-------maintenance-status---@ITOC@@ABENDDIC_DATABASE_VIEWS_4)
+-   [Table Buffering](#abenddic-database-views-5---hints------a-ddic-database-view-can-be-activated-in-abap-dictionary-without-its-basis-tables-being-defined-on-the-database--the-view-is-also-not-created-on-the-database-in-this-case------as-in-a--ddic-database-table--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-database-tables-client-htm---the-client-dependency-of-a-database-view-is-determined-by-a-column-with-the-built-in-dictionary-type-clnt--this-column-must-be-the-first-column-of-the-view-------ddic-append-views--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-append-views-htm--are-available-for-extending-ddic-database-views-delivered-by-sap-without-modifying-the-original-object------suitable--cds-views--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abencds-view-glosry-htm--glossary-entry---can-be-defined-as--replacement-objects--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-replacement-objects-htm--for-database-views--in-this-case--reads-in--abap-sql--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenabap-sql-glosry-htm--glossary-entry---access-the-replacement-objects-rather-than-the-database-views------database-views-managed-by-abap-dictionary-should-not-be-accessed-directly-in-the-database--see--access-to-abap-managed-database-objects--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abendatabase-access-recomm-htm-----basis-tables-----the-basis-tables-of-database-views-can-be--transparent-tables--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abentransparent-table-glosry-htm--glossary-entry---and--global-temporary-tables--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenglobal-temporary-table-glosry-htm--glossary-entry-----view-fields-----the-view-fields-of-a-ddic-database-view-can-be-one-or-more-fields-from-the-basis-tables--an-include-mechanism-can-be-used-to-add-all-fields-from-a-basis-table--when-individual-fields-are-used--a-name-other-than-the-name-in-the-basis-tables-can-be-defined-for-a-view-field--this-name-can-have-a-maximum-of-30-characters--must-meet-the-naming-conventions-for-component-names-of--ddic-structures--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-structures-htm---and-cannot-be-a-reserved-name--the-reserved-names-that-cannot-be-used-are-specified-in-the-database-table-trese--fields-with-the-type-char-can-have-a-maximum-of-1333-characters--fields-with-the-type-lraw-or-lchr-must-be-at-the-end-of-the-view--only-one-such-field-is-allowed-per-view--furthermore--each-field-of-type-lraw-or-lchr-must-have-a-field-with-the-type-int2-or-int4-directly-in-front-of-it--the-value-of-this-integer-field-specifies-the-maximum-length-of-the-lraw-or-lchr-field---to-include-all-fields-from-a-basis-table-in-a-ddic-view--the-asterisk-character------can-be-used-instead-of-the-field-name--if-the-minus-character------is-used-for-individual-fields-of-a-basis-table-included-using-----all-fields-except-for-the-fields-specified-with----become-view-fields--if-the-structure-of-a-ddic-database-table-whose-fields-were-added-with----is-modified--the-structure-of-the-view-is-also-modified---hints------if-a--foreign-key-field--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenforeign-key-field-glosry-htm--glossary-entry---is-added-as-a-view-field--it-keeps-its-foreign-key-attribute-and-all-associated-foreign-key-fields-become-the-foreign-key-of-the-view------for--cds-managed-ddic-views--obsolete---https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abencds-mngdddic-view-glosry-htm--glossary-entry------https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abencds-v1-views-htm---the-view-fields-shown-as-key-fields-are-in-no-way-related-to-the-key-fields-defined-using--define-view--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abencds-define-view-v1-htm--for-the--cds-entity--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abencds-entity-glosry-htm--glossary-entry--------a-ddic-database-view-in-the-software-component-sap--basis-can-contain-a-maximum-of-750-view-fields-and-the-total-of-the-field-lengths--the-number-of-bytes-in-non-character-like-fields-plus-the-number-of-characters-in-flat-character-like-fields--must-not-exceed-4096--a-database-view-in-any-other-software-component-can-contain-a-maximum-of-1500-view-fields-and-the-total-of-the-field-lengths-is-not-checked-in-abap-dictionary---join-conditions-----the-join-conditions-for-an-inner-join-that-combines-two-basis-tables-can-be-formulated-using-equality-operators-between-any-two-table-fields-in-the-basis-tables--the-inner-join-joins-the-rows-of-the-basis-tables-in-question--the-result-set-contains-all-combinations-of-rows-whose-columns-meet-the-join-conditions--if-there-are-no-rows-in-the-basis-tables-that-meet-the-join-conditions--the-result-set-is-empty--if-there-is-a-suitable--foreign-key-dependency--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-database-tables-forkeyrel-htm---including-generic-and-constant-foreign-keys--between-two-basis-tables--this-dependency-can-be-used-as-a-default-for-defining-join-conditions-in-abap-dictionary---maintenance-status-----the-access-setting-in-the-maintenance-status-of-a-ddic-database-view-can-have-the-following-values-------read-only----------the-database-view-can-only-be-used-to-read-data-with-abap-sql-----------read--change--delete--and-insert----------if-the-database-view-contains-only-a-single-basis-table--data-can-be--changed--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenabap-sql-writing-htm--using-abap-sql--------a-database-view-with-multiple-basis-tables-can-only-be-read-with-abap-sql--if-a-database-view-is-based-on-a-single-table--data-can-be-inserted-in-this-table-using-the-view-with-the-abap-sql-statements--insert--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abapinsert-dbtab-htm--or--modify--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abapinsert-dbtab-htm---fields-from-the-basis-table-that-are-not-included-in-the-ddic-view-can-be-handled-as-follows-------if-the-table-field-is-defined-with--not-null--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-database-tables-init-htm--on-the-database--the-field-is-filled-with-the-type-specific-initial-value------if-the-table-field-is-defined-with--not-null--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-database-tables-init-htm--on-the-database--and-there-is-no-initial-value--nothing-can-be-inserted-and-a-database-error-occurs-with-a-corresponding-exception------if-the-table-field-is-not-defined-with--not-null--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-database-tables-init-htm--on-the-database--the-field-is-filled-with-the--null-value--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abennull-value-glosry-htm--glossary-entry-----hints------a-ddic-database-view-should-only-be-used-to-insert-data-in-the-basis-table-if-the-flag-for-initial-values-is-set-for-all-table-fields-that-are-not-included-in-the-ddic-view------modifying-existing-data-records-via-a-ddic-database-view-does-not-cause-any-issues-as-long-as-the-database-view-contains-all-key-fields-of-the-table------like-a-ddic-database-table--the-maintenance-status-of-a-database-view-has-a--display-and-maintain--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-database-tables-maint-htm--setting-alongside-the-access-setting--the-display-and-maintain-setting-must-match-the-access-setting--in-database-views-containing-multiple-basis-tables--only-the-setting-display-maintenance-not-allowed-is-possible---table-buffering-----just-like-in-ddic-database-tables--it-is-possible-to-define-for-a-database-view-whether-the-data-in-the--table-buffer--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abentable-buffer-glosry-htm--glossary-entry---is-buffered--the-same--buffering-types--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-database-tables-buffer-htm--can-be-defined-and--table-buffering-in-abap-sql--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abensap-puffering-htm--is-handled-in-the-same-way-for-views-and-for-ddic-database-tables-with-the-only-difference-being-that--when-data-is-modified-in-one-of-the-basis-tables--the-entire-buffer-is-invalidated-when-the--buffers-are-synchronized--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenbuffer-synchro-htm---regardless-of-the-buffering-type--in-client-dependent-views--however--this-only-affects-the-content-of-the-current-client--as-for-ddic-database-tables--the-settings-for-buffering-are-separate-technical-settings--that-can-be-transported-independently-from-the-view---the-following-prerequisites-must-be-met-before-a-ddic-database-view-can-be-buffered-------a-basis-table-can-occur-in-no-more-than-nine-buffered-database-views------if-all-fields-of-the-database-view-are-key-fields--these-fields-must-also-be-key-fields-of-the-basis-tables------a-ddic-view-that-allows-abap-sql-write-access-must-not-have-a--replacement-object--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-replacement-objects-htm----hint--for-an-existing-ddic-view-that-already-has-a-buffer-and-allows-abap-sql-write-access--no--replacement-object--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenddic-replacement-objects-htm--can-be-created---example--the-ddic-database-view-demo--scarr--spfli-contains-fields-of-the-tables-scarr-and-spfli--other-names-are-assigned-to-these-fields-in-the-view---the-associated-database-object-looks-as-follows---create-view-demo--scarr--spfli-----client-----id-----carrier-----flight-----departure-----destination---as-select----t1--mandt------t2--carrid------t1--carrname------t2--connid------t2--cityfrom------t2--cityto--from------scarr--t1-------spfli--t2-where-----t1--mandt-----t2--mandt--and-----t1--carrid----t2--carrid---the-view-can-be-accessed-as-follows-using-abap-sql---select-----------from-demo--scarr--spfli--------order-by-id--carrier--flight--------into-table-FINAL(result).
 cl\_demo\_output=>display( result ).

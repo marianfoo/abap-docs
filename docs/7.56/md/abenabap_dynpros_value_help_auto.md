@@ -1,4 +1,14 @@
-  
+---
+title: "Overview of ABAP Dictionary Input Helps"
+description: |
+  -   Search helps There are two kinds of search helps: elementary and collective. An elementary search help represents a search path and defines where the data in the proposal list is read from, how data is transported between the screen layout and the infrastructure, and how the input help dialog is
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_value_help_auto.htm"
+abapFile: "abenabap_dynpros_value_help_auto.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenabap", "dynpros", "value", "help", "auto"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ dynpro - Input Helps in the ABAP Dictionary
 
 The primary input helps used in the ABAP Dictionary are [search helps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensearch_help_glosry.htm "Glossary Entry"). A search help is a standalone [repository object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm "Glossary Entry") that is used specifically to provide input helps on screen fields. Search helps can be linked with table fields and data elements. The content of [check tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencheck_table_glosry.htm "Glossary Entry"), [fixed values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfixed_value_glosry.htm "Glossary Entry"), or calendar helps and clock helps can be used instead of search helps.
 
--   [Overview of ABAP Dictionary Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_1)
--   [Hierarchy of the Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_2)
--   [Data Transport of Search Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_3)
--   [Search Help Exits](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_4)
+-   [Overview of ABAP Dictionary Input Helps](#abenabap-dynpros-value-help-auto-1-------hierarchy-of-the-input-helps---@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_2)
+-   [Data Transport of Search Helps](#abenabap-dynpros-value-help-auto-3-------search-help-exits---@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_4)
 
 Overview of ABAP Dictionary Input Helps
 

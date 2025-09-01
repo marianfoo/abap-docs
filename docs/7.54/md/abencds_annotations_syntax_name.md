@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... .subAnno:   value(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax_value.htm)   :  subannos(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax_subanno.htm)   :  arrelem(https://help.sap.co
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax_name.htm"
+abapFile: "abencds_annotations_syntax_name.htm"
+keywords: ["do", "if", "try", "abencds", "annotations", "syntax", "name"]
+---
 
 * * *
 

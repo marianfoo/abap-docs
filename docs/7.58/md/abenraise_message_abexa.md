@@ -1,4 +1,14 @@
-  
+---
+title: "This example demonstrates how a local exception class is linked with a message"
+description: |
+  Source Code  CCDEF CLASS cx_dyn_t100 DEFINITION INHERITING FROM cx_dynamic_check. PUBLIC SECTION. INTERFACES if_t100_dyn_msg. ALIASES msgty FOR if_t100_dyn_msg~msgty. ENDCLASS.  Public class definition CLASS cl_demo_raise_msg DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREA
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenraise_message_abexa.htm"
+abapFile: "abenraise_message_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "abenraise", "message", "abexa"]
+---
 
 * * *
 

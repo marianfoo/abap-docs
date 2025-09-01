@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for Consuming RAP Business Objects"
+description: |
+  The following topics are covered in this section: -   ABAP EML - Consuming RAP BOs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml.htm) -   ABAP EML - Testing RAP Business Objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm) ABAP E
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_consume_rap_bos.htm"
+abapFile: "abenabap_consume_rap_bos.htm"
+keywords: ["do", "if", "abenabap", "consume", "rap", "bos"]
+---
 
 * * *
 

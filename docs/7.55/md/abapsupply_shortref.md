@@ -1,4 +1,14 @@
-  
+---
+title: "SUPPLY - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsupply.htm) Syntax SUPPLY key1 = f1 key2 = f2 ... TO CONTEXT context_ref. Effect Obsolete: Fills the key fields key1, key2, ... of a context(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontext_glosry.htm
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsupply_shortref.htm"
+abapFile: "abapsupply_shortref.htm"
+keywords: ["do", "try", "data", "abapsupply", "shortref"]
+---
 
 * * *
 

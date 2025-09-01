@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_character_comparison. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF result, operand TYPE string, result  TYPE string, fdpos   TYPE sy-fdpos, END OF result. DATA results TYPE STANDARD TABLE OF result WITH EMP
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_comparisons_abexa.htm"
+abapFile: "abencharacter_comparisons_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abencharacter", "comparisons", "abexa"]
+---
 
 * * *
 

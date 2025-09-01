@@ -1,4 +1,14 @@
-  
+---
+title: "Deserializing Missing Elements"
+description: |
+  This example demonstrates the deserialization of empty elements. Source Code  Public class definition CLASS cl_demo_asxml_asjson_no_vals DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLAS
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_deserl_no_elem_abexa.htm"
+abapFile: "abenabap_deserl_no_elem_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "deserl", "elem", "abexa"]
+---
 
 * * *
 

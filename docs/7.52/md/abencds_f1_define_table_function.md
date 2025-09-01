@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE TABLE FUNCTION"
+description: |
+  Syntax @function_annot1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_function_annotations.htm) @function_annot2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_function_annotations.htm) ... DEFINE TABLE FUNCTION cds_entity
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_table_function.htm"
+abapFile: "abencds_f1_define_table_function.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencds", "define", "table", "function"]
+---
 
 * * *
 

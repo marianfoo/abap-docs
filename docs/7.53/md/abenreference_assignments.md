@@ -1,4 +1,14 @@
-  
+---
+title: "Assigning References"
+description: |
+  This section discusses the assignments and special statements that set the references (or pointers) used in data references and field symbols. -   Setting Reference Variables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenset_references.htm) -   Setting Field Symbols(https://help
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_assignments.htm"
+abapFile: "abenreference_assignments.htm"
+keywords: ["do", "try", "data", "internal-table", "field-symbol", "abenreference", "assignments"]
+---
 
 * * *
 

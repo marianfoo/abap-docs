@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - internal"
+description: |
+  Syntax ... internal ... Effect Defines a RAP BO operation(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') as internal(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_internal_operation_glosry.htm 'Glossary Entry'). T
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_internal.htm"
+abapFile: "abenbdl_internal.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "internal"]
+---
 
 * * *
 

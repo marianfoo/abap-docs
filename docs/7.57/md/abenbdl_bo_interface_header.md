@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - CDS Behavior Definition Header, Interface BDEF"
+description: |
+  Syntax implementation type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm); extensible; use draft;(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_use_projection.htm)  with privileged mode;(https://help.sap.com/doc/abapdo
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_bo_interface_header.htm"
+abapFile: "abenbdl_bo_interface_header.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "types", "abenbdl", "interface", "header"]
+---
 
 * * *
 

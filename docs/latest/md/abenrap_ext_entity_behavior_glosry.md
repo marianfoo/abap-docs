@@ -1,4 +1,14 @@
-  
+---
+title: "RAP extension entity behavior"
+description: |
+  Node extension for short. Component of a BDEF extension(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extension_glosry.htm 'Glossary Entry') that defines the behavior for an extension node. Extension entity behavior is defined using define behavior for(https://help.sap.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_ext_entity_behavior_glosry.htm"
+abapFile: "abenrap_ext_entity_behavior_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "ext", "entity", "behavior", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Calls"
+description: |
+  -   CALL METHOD - obsolete(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_static.htm) -   CALL DIALOG(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_dialog.htm) -   CALL CUSTOMER-FUNCTION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-U
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_call_obsolete.htm"
+abapFile: "abenprogram_call_obsolete.htm"
+keywords: ["do", "if", "method", "abenprogram", "call", "obsolete"]
+---
 
 * * *
 

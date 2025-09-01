@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Persistence Service"
+description: |
+  The persistence service manages objects from persistent classes. Persistent classes are created by object-relational mappings in the Class Builder(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_builder_glosry.htm 'Glossary Entry'). The mappings are based on existing database
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_object_services_persist.htm"
+abapFile: "abenabap_object_services_persist.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "object", "services", "persist"]
+---
 
 * * *
 

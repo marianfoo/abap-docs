@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenddic_builtin_types_special.htm
 
-  
+---
+title: "DDIC - Special Dictionary Types"
+description: |
+  -   Date types and time types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_date_time_types.htm) -   Special character-like types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_special_character_types.htm) -   Currency fields(https://help.sa
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types_special.htm"
+abapFile: "abenddic_builtin_types_special.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "builtin", "special"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abenddic_date_time_types.htm
 
-  
+---
+title: "DDIC - Date Fields, Time Fields, and Time Stamp Fields"
+description: |
+  The following data types in ABAP Dictionary describe date fields, time fields, and time stamp fields: -   Date Types, Time Types, and Time Stamp Types(#abenddic-date-time-types-1-------character-like-date-fields-and-time-fields---@ITOC@@ABENDDIC_DATE_TIME_TYPES_2) Date Types, Time Types, and Time
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_date_time_types.htm"
+abapFile: "abenddic_date_time_types.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abenddic", "date", "time"]
+---
 
 * * *
 
@@ -49,8 +69,7 @@ DDIC - Date Fields, Time Fields, and Time Stamp Fields
 
 The following data types in ABAP Dictionary describe date fields, time fields, and time stamp fields:
 
--   [Date Types, Time Types, and Time Stamp Types](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_1)
--   [Character-Like Date Fields and Time Fields](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_2)
+-   [Date Types, Time Types, and Time Stamp Types](#abenddic-date-time-types-1-------character-like-date-fields-and-time-fields---@ITOC@@ABENDDIC_DATE_TIME_TYPES_2)
 
 Date Types, Time Types, and Time Stamp Types   
 
@@ -94,7 +113,17 @@ Hints
 
 ### abenddic_special_character_types.htm
 
-  
+---
+title: "DDIC - Special Character-Like Types"
+description: |
+  The following character-like data types in ABAP Dictionary have a special semantic meaning: -   NUMC(abenddic_builtin_types.htm#abenddic-builtin-types-7--for--numeric-texts--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abennumeric-text-glosry-htm--glossary-entry------------from-
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_special_character_types.htm"
+abapFile: "abenddic_special_character_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "special", "character"]
+---
 
 * * *
 
@@ -109,11 +138,7 @@ DDIC - Special Character-Like Types
 
 The following character-like data types in ABAP Dictionary have a special semantic meaning:
 
--   [NUMC](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_7) for [numeric texts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_text_glosry.htm "Glossary Entry")
-    
-    From a technical perspective, the built-in data type NUMC describes objects of the type CHAR with a maximum length of 255 characters. It is intended for numeric texts. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to NUMC. In ABAP, NUMC is assigned to the special type [n](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_character.htm) and the associated rules apply.
-    
--   [CLNT](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_7) for [client columns](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_column_glosry.htm "Glossary Entry")
+-   [NUMC](abenddic_builtin_types.htm#abenddic-builtin-types-7--for--numeric-texts--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abennumeric-text-glosry-htm--glossary-entry------------from-a-technical-perspective--the-built-in-data-type-numc-describes-objects-of-the-type-char-with-a-maximum-length-of-255-characters--it-is-intended-for-numeric-texts--this-is-not-checked-however-when-writing-to-or-reading-from-database-fields-of-this-type--automatic-checks-are-only-made-for-dynpro-fields-typed-with-reference-to-numc--in-abap--numc-is-assigned-to-the-special-type--n--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenbuiltin-types-character-htm--and-the-associated-rules-apply------------clnt--abenddic-builtin-types-htm-@ITOC@@ABENDDIC_BUILTIN_TYPES_7) for [client columns](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_column_glosry.htm "Glossary Entry")
     
     From a technical perspective, the data type CLNT describes objects of the type CHAR with length 3. If the data type CLNT is used for the first key field of a DDIC database table, this makes the DDIC database table [client-dependent](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_client.htm).
     
@@ -129,7 +154,17 @@ When the statements [WRITE](https://help.sap.com/doc/abapdocu_latest_index_htm/l
 
 ### abenddic_currency_field.htm
 
-  
+---
+title: "DDIC - Currency Fields"
+description: |
+  A currency field is a component of a DDIC structure, DDIC database table, or DDIC view used to store an amount in a specific currency. A currency amount is an integer in the smallest unit of the currency. The integer is constructed from all figures in a currency field while ignoring the position of
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_currency_field.htm"
+abapFile: "abenddic_currency_field.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "types", "abenddic", "currency", "field"]
+---
 
 * * *
 
@@ -149,8 +184,7 @@ The currency key specifies the currency and the number of decimal places of a cu
 
 By default, the number of decimal places for a currency is always two. Currencies with a different number of decimal places must also be entered in the table TCURX, where the number of decimal places can be defined explicitly.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_1)
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
+-   [Handling in ABAP Dictionary](#abenddic-currency-field-1-------handling-in-dynpros---@ITOC@@ABENDDIC_CURRENCY_FIELD_2)
 -   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_CURRENCY_FIELD_3)
 
 Hints
@@ -212,7 +246,17 @@ Hints
 
 ### abenddic_quantity_field.htm
 
-  
+---
+title: "DDIC - Quantity Fields"
+description: |
+  A quantity field is a component of a DDIC structure, DDIC database table, or DDIC view used to store a quantity in a specific unit. A quantity field can have data type QUAN, DECFLOAT16, or DECFLOAT34. In case of data type QUAN, a field is automatically interpreted as quantity field and a reference t
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_quantity_field.htm"
+abapFile: "abenddic_quantity_field.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenddic", "quantity", "field"]
+---
 
 * * *
 
@@ -228,8 +272,7 @@ A quantity field is a component of a DDIC structure, DDIC database table, or DDI
 
 The unit key defines the unit and the number of decimal places. It is a component of a DDIC structure, DDIC database table, or DDIC view of type UNIT and can contain a [unit ID](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunit_id_glosry.htm "Glossary Entry") from the DDIC database table T006.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_1)
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_2)
+-   [Handling in ABAP Dictionary](#abenddic-quantity-field-1-------handling-in-dynpros---@ITOC@@ABENDDIC_QUANTITY_FIELD_2)
 -   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
 
 Hints
@@ -275,7 +318,17 @@ The unit defined for a quantity field only plays a part in ABAP programs if it i
 
 ### abenddic_geo_data.htm
 
-  
+---
+title: "DDIC - Geodata Types"
+description: |
+  The geodata type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeo_data_type_glosry.htm 'Glossary Entry') GEOM_EWKB(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is a built-in data type in ABAP Dictionary that describes the geo
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_geo_data.htm"
+abapFile: "abenddic_geo_data.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "geo"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - entity behavior body"
+description: |
+  Syntax ... field characteristics(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_char.htm) field numbering(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_numbering.htm) RAP BO operations(https://help.sap.com/doc/abapdocu
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body.htm"
+abapFile: "abenbdl_body.htm"
+keywords: ["do", "if", "try", "class", "data", "abenbdl", "body"]
+---
 
 * * *
 

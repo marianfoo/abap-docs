@@ -1,4 +1,14 @@
-  
+---
+title: "This example demonstrates how a global exception class is linked with a message"
+description: |
+  Source Code  Public class definition CLASS cl_demo_message_oref_global DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS meth RAISING cx_demo_t100. ENDCLASS.  Public class implementation CLASS cl_demo_m
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_interface_global_abexa.htm"
+abapFile: "abenmessage_interface_global_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "abenmessage", "interface", "global", "abexa"]
+---
 
 * * *
 

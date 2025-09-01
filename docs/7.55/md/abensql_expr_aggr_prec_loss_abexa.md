@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_allow_precision_loss. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES result_type TYPE p LENGTH 6 DECIMALS 2. DATA: allow_precision_loss_result TYPE result_type, normal_sum_result           TYPE result_type. DE
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_aggr_prec_loss_abexa.htm"
+abapFile: "abensql_expr_aggr_prec_loss_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abensql", "expr", "aggr", "prec", "loss", "abexa"]
+---
 
 * * *
 

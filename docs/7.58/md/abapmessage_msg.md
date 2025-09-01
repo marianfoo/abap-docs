@@ -1,4 +1,14 @@
-  
+---
+title: "MESSAGE, msg"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_shortref.htm) Syntax ...  tn    tn(id)    ID mid TYPE mtype NUMBER num    oref TYPE mtype  ... Alternatives: 1. ... tn ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... tn(id) ...
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm"
+abapFile: "abapmessage_msg.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "field-symbol", "abapmessage", "msg"]
+---
 
 * * *
 

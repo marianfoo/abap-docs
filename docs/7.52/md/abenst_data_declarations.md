@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Data Declarations"
+description: |
+  In ST programs, data can be declared using the following statements: -   tt:root(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_root.htm) defines data roots for ABAP data interfaces. -   tt:parameter(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_param
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_data_declarations.htm"
+abapFile: "abenst_data_declarations.htm"
+keywords: ["do", "if", "data", "abenst", "declarations"]
+---
 
 * * *
 

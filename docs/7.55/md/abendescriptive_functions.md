@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  These functions can be used in suitable operand positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexpression_positions.htm), for example directly as an operand of arithmetic(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarithmetic_expression_glosry.htm 'Gl
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendescriptive_functions.htm"
+abapFile: "abendescriptive_functions.htm"
+keywords: ["do", "try", "data", "abendescriptive", "functions"]
+---
 
 * * *
 

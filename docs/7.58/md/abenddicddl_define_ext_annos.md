@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.enhancement.fieldSuffix: 'suffix' @AbapCatalog.enhancement.quotaMaximumFields: integer @AbapCatalog.enhancement.quotaMaximumBytes: integer @AbapCatalog.enhancement.quotaShareCustomer: integer @AbapCatalog.enhancement.quotaSharePartner: integer Effect The following annotations are requir
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_ext_annos.htm"
+abapFile: "abenddicddl_define_ext_annos.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "ext", "annos"]
+---
 
 * * *
 

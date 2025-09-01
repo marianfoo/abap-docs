@@ -1,4 +1,14 @@
-  
+---
+title: "Language Settings"
+description: |
+  The language setting(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_setting_glosry.htm 'Glossary Entry') comprises the following settings: -   Logon language(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogon_language.htm) The logon language is the lang
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_settings.htm"
+abapFile: "abenlanguage_settings.htm"
+keywords: ["select", "do", "if", "try", "abenlanguage", "settings"]
+---
 
 * * *
 

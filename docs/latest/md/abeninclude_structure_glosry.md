@@ -1,4 +1,14 @@
-  
+---
+title: "include_structure_glosry"
+description: |
+  include_structure_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninclude_structure_glosry.htm"
+abapFile: "abeninclude_structure_glosry.htm"
+keywords: ["do", "if", "try", "abeninclude", "structure", "glosry"]
+---
 
 * * *
 

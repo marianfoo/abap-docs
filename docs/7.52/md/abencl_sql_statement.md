@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   Exactly one SQL statement can be passed to each method of class CL_SQL_STATEMENT for execution. Passing multiple SQL statements separated by delimiters such as ; is not possible. -   The CL_SQL_STATEMENT class allows the statement passed to be executed once. To execute a statement multiple t
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_sql_statement.htm"
+abapFile: "abencl_sql_statement.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abencl", "sql", "statement"]
+---
 
 * * *
 

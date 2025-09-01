@@ -1,4 +1,14 @@
-  
+---
+title: "cds_selection_glosry"
+description: |
+  cds_selection_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_selection_glosry.htm"
+abapFile: "abencds_selection_glosry.htm"
+keywords: ["select", "do", "if", "case", "try", "abencds", "selection", "glosry"]
+---
 
 * * *
 

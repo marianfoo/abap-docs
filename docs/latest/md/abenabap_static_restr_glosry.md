@@ -1,4 +1,14 @@
-  
+---
+title: "Static ABAP with restricted object use"
+description: |
+  Obsolete ABAP language version(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_version_glosry.htm 'Glossary Entry') with restricted use of repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry'
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_static_restr_glosry.htm"
+abapFile: "abenabap_static_restr_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "static", "restr", "glosry"]
+---
 
 * * *
 

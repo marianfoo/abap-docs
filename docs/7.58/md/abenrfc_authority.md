@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Authorizations"
+description: |
+  If the profile parameter(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprofile_parameter_glosry.htm 'Glossary Entry') auth/rfc_authority_check is set to 1, an automatic authorization check is executed when a function module is called by remote call. More Information For detailed
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_authority.htm"
+abapFile: "abenrfc_authority.htm"
+keywords: ["do", "if", "try", "data", "abenrfc", "authority"]
+---
 
 * * *
 

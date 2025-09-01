@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DDL for Data Definitions"
+description: |
+  The CDS data definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_definition_glosry.htm 'Glossary Entry') in ABAP CDS are created using the data definition language CDS DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddl_glosry.htm
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddl_syntax.htm"
+abapFile: "abencds_f1_ddl_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddl", "syntax"]
+---
 
 * * *
 

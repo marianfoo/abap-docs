@@ -1,4 +1,14 @@
-  
+---
+title: "Call Event Handler"
+description: |
+  Event handlers are special methods that are declared using the addition FOR EVENT ... OF(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods_event_handler.htm) of the statements METHODS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods.htm) and CLASS-METH
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_event_handler.htm"
+abapFile: "abencall_event_handler.htm"
+keywords: ["do", "if", "method", "class", "abencall", "event", "handler"]
+---
 
 * * *
 

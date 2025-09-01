@@ -1,4 +1,14 @@
-  
+---
+title: "ENHANCEMENT-POINT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapenhancement-point.htm) Syntax ENHANCEMENT-POINT enh_id SPOTS spot1 spot2 ... STATIC INCLUDE BOUND. Effect Defines a point in the source code as an enhancement point(https://help.sap.com/doc/abapdocu_757_ind
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapenhancement-point_shortref.htm"
+abapFile: "abapenhancement-point_shortref.htm"
+keywords: ["do", "if", "try", "abapenhancement", "point", "shortref"]
+---
 
 * * *
 

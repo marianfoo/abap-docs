@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_bigint_sqrt DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA:p_int    TYPE i VALUE 2, p_digits TYPE i VALUE 1000. ENDCLASS.  Public class implementation CLASS cl_demo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint1_abexa.htm"
+abapFile: "abenbigint1_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenbigint1", "abexa"]
+---
 
 * * *
 

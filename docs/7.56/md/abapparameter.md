@@ -1,4 +1,14 @@
-  
+---
+title: "PARAMETER"
+description: |
+  Obsolete Syntax PARAMETER para ... Effect Obsolete spelling of the statement PARAMETERS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapparameters.htm).
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapparameter.htm"
+abapFile: "abapparameter.htm"
+keywords: ["select", "do", "abapparameter"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - AUTHORITY-CHECK DISABLE"
+description: |
+  Syntax AUTHORITY-CHECK DISABLE BEGIN CONTEXT bdef~context_name ... AUTHORITY-CHECK DISABLE END. Effect AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... and AUTHORITY-CHECK DISABLE END. form a statement block to activate and deactivate an authorization context(https://help.sap.com/doc/abapdocu_latest_ind
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm"
+abapFile: "abapauthority-check_disable.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abapauthority", "check", "disable"]
+---
 
 * * *
 

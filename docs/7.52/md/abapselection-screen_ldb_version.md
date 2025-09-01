@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN BEGIN OF VERSION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_bov_shortref.htm) Obsolete Syntax SELECTION-SCREEN BEGIN OF VERSION vers text. ... SELECTION-SCREEN EXCLUDE  PARAMETERS para  SELECT-OPTIONS selcrit  RADIOBUTTON GROUPS group
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_ldb_version.htm"
+abapFile: "abapselection-screen_ldb_version.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "ldb", "version"]
+---
 
 * * *
 

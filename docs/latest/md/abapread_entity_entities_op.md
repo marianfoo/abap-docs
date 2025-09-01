@@ -1,4 +1,14 @@
-  
+---
+title: "READ ENTITY, ENTITIES, operations"
+description: |
+  Syntax ... field_spec(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_fields.htm) RESULT result_tab(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm) BY _assoc field_spec(https://help.sap.com/doc/abapd
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_op.htm"
+abapFile: "abapread_entity_entities_op.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapread", "entity", "entities"]
+---
 
 * * *
 

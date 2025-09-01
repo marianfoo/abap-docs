@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_on_condition . DATA: ok_code TYPE sy-ucomm, input1(20) TYPE c, input2(20) TYPE c, input3(20) TYPE c, fld(20) TYPE c. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMODULE. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. MODULE cursor INPUT. G
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_on_cond_abexa.htm"
+abapFile: "abendynpro_on_cond_abexa.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynpro", "cond", "abexa"]
+---
 
 * * *
 

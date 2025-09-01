@@ -1,4 +1,14 @@
-  
+---
+title: "program_construct_event_glosry"
+description: |
+  program_construct_event_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_construct_event_glosry.htm"
+abapFile: "abenprogram_construct_event_glosry.htm"
+keywords: ["do", "try", "class", "abenprogram", "construct", "event", "glosry"]
+---
 
 * * *
 

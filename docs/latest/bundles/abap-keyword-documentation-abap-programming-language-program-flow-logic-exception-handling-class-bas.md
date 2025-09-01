@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenexception_abexas.htm
 
-  
+---
+title: "Examples of Exceptions"
+description: |
+  -   Exceptions, RAISE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm) -   Exceptions, TRY(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm) -   Exceptions, CATCH(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-U
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm"
+abapFile: "abenexception_abexas.htm"
+keywords: ["do", "if", "try", "catch", "class", "exception-handling", "abenexception", "abexas"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abenraise_abexa.htm
 
-  
+---
+title: "Exceptions, RAISE"
+description: |
+  This example demonstrates the statement RAISE EXCEPTION. Source Code  Public class definition CLASS cl_demo_raise_exception DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_rai
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm"
+abapFile: "abenraise_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abenraise", "abexa"]
+---
 
 * * *
 
@@ -89,7 +109,17 @@ The output of the line number in which the exception was raised indicates that, 
 
 ### abentry_abexa.htm
 
-  
+---
+title: "Exceptions, TRY"
+description: |
+  This example demonstrates the TRY control structure. Source Code  Public class definition CLASS cl_demo_try DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. DATA: result TYPE p LENGTH 8 DECIMALS 2, oref   TYPE REF TO cx_root, text   TYPE string. METHODS main R
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm"
+abapFile: "abentry_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abentry", "abexa"]
+---
 
 * * *
 
@@ -171,7 +201,17 @@ Description  
 
 ### abencatch_exception_abexa.htm
 
-  
+---
+title: "Exceptions, CATCH"
+description: |
+  This example demonstrates how class-based exceptions are caught. Source Code  Public class definition CLASS cl_demo_catch_exception DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS lcx_exception DEFINITION
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm"
+abapFile: "abencatch_exception_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "exception-handling", "abencatch", "exception", "abexa"]
+---
 
 * * *
 

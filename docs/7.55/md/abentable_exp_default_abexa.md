@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_tab_exp_default. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, id    TYPE i, value TYPE string, END OF line, itab TYPE SORTED TABLE OF line WITH UNIQUE KEY id. DATA(def) = VALUE line( id = 0 value =
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_default_abexa.htm"
+abapFile: "abentable_exp_default_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abentable", "exp", "default", "abexa"]
+---
 
 * * *
 

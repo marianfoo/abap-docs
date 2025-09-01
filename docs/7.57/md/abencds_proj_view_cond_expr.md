@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - WHERE, Transactional Query"
+description: |
+  Syntax ... WHERE cds_cond ... Effect Defines a WHERE condition for the result set of a CDS projection view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm 'Glossary Entry'). When the CDS projection view is accessed, the result set contains only the da
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_cond_expr.htm"
+abapFile: "abencds_proj_view_cond_expr.htm"
+keywords: ["do", "if", "try", "data", "abencds", "proj", "view", "cond", "expr"]
+---
 
 * * *
 

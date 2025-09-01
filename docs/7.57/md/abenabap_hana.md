@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP and SAP HANA"
+description: |
+  SAP HANA(http://help.sap.com/hana) is a platform, independent from AS ABAP, used for high-performance analysis of large volumes of data. SAP HANA works with the SAP HANA database(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_database_glosry.htm 'Glossary Entry'), which is b
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_hana.htm"
+abapFile: "abenabap_hana.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenabap", "hana"]
+---
 
 * * *
 

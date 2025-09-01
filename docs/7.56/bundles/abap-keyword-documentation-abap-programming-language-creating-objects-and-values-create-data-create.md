@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapcreate_data_area_handle.htm
 
-  
+---
+title: "CREATE DATA, AREA HANDLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref AREA HANDLE handle ... Effect This statement creates an anonymous data object as a shared object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshared_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_data_area_handle.htm"
+abapFile: "abapcreate_data_area_handle.htm"
+keywords: ["update", "do", "if", "try", "catch", "method", "class", "data", "types", "abapcreate", "area", "handle"]
+---
 
 * * *
 
@@ -110,7 +120,17 @@ Continue
 
 ### abencreate_shared_data_objct_abexa.htm
 
-  
+---
+title: "Creating a Data Object as a Shared Object"
+description: |
+  This example demonstrates how a data object is created in an area instance version(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarea_instance_version_glosry.htm 'Glossary Entry'). Source Code REPORT demo_create_shared_data_object. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_shared_data_objct_abexa.htm"
+abapFile: "abencreate_shared_data_objct_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "field-symbol", "abencreate", "shared", "objct", "abexa"]
+---
 
 * * *
 

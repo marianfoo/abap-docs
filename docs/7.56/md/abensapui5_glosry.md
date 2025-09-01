@@ -1,4 +1,14 @@
-  
+---
+title: "sapui5_glosry"
+description: |
+  sapui5_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensapui5_glosry.htm"
+abapFile: "abensapui5_glosry.htm"
+keywords: ["do", "try", "data", "abensapui5", "glosry"]
+---
 
 * * *
 

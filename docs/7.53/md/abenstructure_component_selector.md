@@ -1,4 +1,14 @@
-  
+---
+title: "Structure Component Selector"
+description: |
+  A component comp of a structured data type or a structure struct is accessed using the name struct-comp In this case, the character - is the structure component selector. A structured data type or a structure struct must be specified as follows on the left of the structure component selector: -   N
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm"
+abapFile: "abenstructure_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenstructure", "component", "selector"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "strict_abap_dev_envir_glosry"
+description: |
+  strict_abap_dev_envir_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstrict_abap_dev_envir_glosry.htm"
+abapFile: "abenstrict_abap_dev_envir_glosry.htm"
+keywords: ["do", "if", "try", "abenstrict", "abap", "dev", "envir", "glosry"]
+---
 
 * * *
 

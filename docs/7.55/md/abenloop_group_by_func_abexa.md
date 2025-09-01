@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_group_by_string_func. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. CLASS-DATA text TYPE TABLE OF string WITH EMPTY KEY. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). out->begin_sectio
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenloop_group_by_func_abexa.htm"
+abapFile: "abenloop_group_by_func_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "internal-table", "field-symbol", "abenloop", "group", "func", "abexa"]
+---
 
 * * *
 

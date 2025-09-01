@@ -1,4 +1,14 @@
-  
+---
+title: "HDI object"
+description: |
+  Native HDI(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhdi_glosry.htm 'Glossary Entry')-managed database object in an HDI container(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhdi_container_glosry.htm 'Glossary Entry') of the SAP HANA database(https://hel
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhdi_object_glosry.htm"
+abapFile: "abenhdi_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenhdi", "object", "glosry"]
+---
 
 * * *
 

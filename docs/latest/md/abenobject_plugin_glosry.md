@@ -1,4 +1,14 @@
-  
+---
+title: "object_plugin_glosry"
+description: |
+  object_plugin_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_plugin_glosry.htm"
+abapFile: "abenobject_plugin_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenobject", "plugin", "glosry"]
+---
 
 * * *
 

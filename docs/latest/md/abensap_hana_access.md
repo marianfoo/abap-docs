@@ -1,4 +1,14 @@
-  
+---
+title: "Access to Objects in SAP HANA XS"
+description: |
+  SAP HANA XS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxs_glosry.htm 'Glossary Entry') (SAP HANA extended application services) covers tools used to develop, manage, and execute native objects on the SAP HANA platform. This section describes the different ways of accessing
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_access.htm"
+abapFile: "abensap_hana_access.htm"
+keywords: ["do", "if", "try", "method", "data", "abensap", "hana", "access"]
+---
 
 * * *
 

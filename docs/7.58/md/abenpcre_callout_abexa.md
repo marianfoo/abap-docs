@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  CCDEF CLASS o DEFINITION. PUBLIC SECTION. CLASS-DATA out TYPE REF TO if_demo_output. ENDCLASS.  Public class definition CLASS cl_demo_pcre_callout DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS handle
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcre_callout_abexa.htm"
+abapFile: "abenpcre_callout_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenpcre", "callout", "abexa"]
+---
 
 * * *
 

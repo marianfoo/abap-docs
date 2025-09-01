@@ -1,4 +1,14 @@
-  
+---
+title: "EXIT FROM STEP-LOOP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexit_from_step-loop_shortref.htm) Syntax EXIT FROM STEP-LOOP. Effect When processing table controls(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_control_glosry.htm 'Glossary Entry') or step lo
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexit_step-loop.htm"
+abapFile: "abapexit_step-loop.htm"
+keywords: ["loop", "do", "if", "try", "abapexit", "step"]
+---
 
 * * *
 

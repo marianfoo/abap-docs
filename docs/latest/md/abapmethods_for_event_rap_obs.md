@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, FOR EVENT, FOR"
+description: |
+  Syntax METHODS ... FOR EVENT ... FOR ... Effect Obsolete declaration of ABP handler methods(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') in the handler class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abe
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_for_event_rap_obs.htm"
+abapFile: "abapmethods_for_event_rap_obs.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "for", "event", "rap", "obs"]
+---
 
 * * *
 

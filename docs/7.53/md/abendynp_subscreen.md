@@ -1,4 +1,14 @@
-  
+---
+title: "Including Subscreens Directly"
+description: |
+  The statement CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) can be used to insert other screens directly into the screen(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm 'Glossary Entry') of a dynpro(https://help.sap.com
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 

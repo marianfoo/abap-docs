@@ -1,4 +1,14 @@
-  
+---
+title: "implementation_part_glosry"
+description: |
+  implementation_part_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenimplementation_part_glosry.htm"
+abapFile: "abenimplementation_part_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenimplementation", "part", "glosry"]
+---
 
 * * *
 

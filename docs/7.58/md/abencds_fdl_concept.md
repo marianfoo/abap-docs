@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - CDS Functions, Overview"
+description: |
+  A CDS function(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_function_glosry.htm 'Glossary Entry') is a function that can be used in operand positions of CDS entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry'). The
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_fdl_concept.htm"
+abapFile: "abencds_fdl_concept.htm"
+keywords: ["do", "if", "try", "class", "data", "abencds", "fdl", "concept"]
+---
 
 * * *
 

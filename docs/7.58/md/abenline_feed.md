@@ -1,4 +1,14 @@
-  
+---
+title: "Line Feeds in Character String Processing"
+description: |
+  A line feed (LF) is a control character(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm 'Glossary Entry') that positions the cursor when writing an output. Other of such control characters are return (CR from carriage return) or a tabulator. There are al
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_feed.htm"
+abapFile: "abenline_feed.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "types", "field-symbol", "abenline", "feed"]
+---
 
 * * *
 
@@ -12,12 +22,9 @@ Line Feeds in Character String Processing
 
 A line feed (LF) is a [control character](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") that positions the cursor when writing an output. Other of such control characters are return (CR from carriage return) or a tabulator. There are also combinations possible as CRLF for return plus line feed. If a character string contains control characters, it depends on the framework handling the character string how these are interpreted. While, for example, most notepad applications or text editors handle control characters as such, HTML or XML browsers handle control characters as whitespace characters.
 
--   [Control Characters in ABAP](#@@ITOC@@ABENLINE_FEED_1)
--   [Using the Line Feed Character in ABAP](#@@ITOC@@ABENLINE_FEED_2)
-    -   [Line Feed in Outputs](#@@ITOC@@ABENLINE_FEED_3)
-    -   [Line Feed in Files](#@@ITOC@@ABENLINE_FEED_4)
-    -   [Line Feed in Classic Lists](#@@ITOC@@ABENLINE_FEED_5)
-    -   [Replacing Line Feeds](#@@ITOC@@ABENLINE_FEED_6)
+-   [Control Characters in ABAP](#abenline-feed-1-------using-the-line-feed-character-in-abap---@ITOC@@ABENLINE_FEED_2)
+    -   [Line Feed in Outputs](#abenline-feed-3-----------line-feed-in-files---@ITOC@@ABENLINE_FEED_4)
+    -   [Line Feed in Classic Lists](#abenline-feed-5-----------replacing-line-feeds---@ITOC@@ABENLINE_FEED_6)
 
 Control Characters in ABAP   
 

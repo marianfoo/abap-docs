@@ -1,4 +1,14 @@
-  
+---
+title: "Text Pools"
+description: |
+  Text pools are persistent repositories for the following text elements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_element_glosry.htm 'Glossary Entry'): -   Text symbols(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_symbol_glosry.htm 'Gloss
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_pool.htm"
+abapFile: "abentext_pool.htm"
+keywords: ["select", "do", "while", "if", "try", "class", "types", "abentext", "pool"]
+---
 
 * * *
 

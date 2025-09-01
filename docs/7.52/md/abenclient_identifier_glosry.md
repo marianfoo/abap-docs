@@ -1,4 +1,14 @@
-  
+---
+title: "Client Identifier"
+description: |
+  Three-character client(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_glosry.htm 'Glossary Entry') identifier that is sent to an AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') upon logon(https://help.sap.co
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_identifier_glosry.htm"
+abapFile: "abenclient_identifier_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenclient", "identifier", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  meth(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_meth_ident_stat.htm)( )  meth(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_meth_ident_stat.htm)( a )  meth(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_static_short.htm"
+abapFile: "abapcall_method_static_short.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapcall", "static", "short"]
+---
 
 * * *
 

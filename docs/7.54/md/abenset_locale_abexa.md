@@ -1,4 +1,14 @@
-  
+---
+title: "Setting the Text Environment"
+description: |
+  This example demonstrates how to set the text environment explicitly. Source Code REPORT demo_set_locale. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA text_tab TYPE HASHED TABLE OF string WITH UNIQUE KEY table_line. text_tab =
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenset_locale_abexa.htm"
+abapFile: "abenset_locale_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenset", "locale", "abexa"]
+---
 
 * * *
 

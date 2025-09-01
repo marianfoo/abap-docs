@@ -1,4 +1,14 @@
-  
+---
+title: "root_node_set_glosry"
+description: |
+  root_node_set_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroot_node_set_glosry.htm"
+abapFile: "abenroot_node_set_glosry.htm"
+keywords: ["do", "if", "try", "abenroot", "node", "set", "glosry"]
+---
 
 * * *
 

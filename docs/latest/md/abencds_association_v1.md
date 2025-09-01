@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, SELECT, Associations"
+description: |
+  CDS associations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm 'Glossary Entry') offer an advanced modelling capability for CDS data models. A CDS association defines a relationship between two CDS entities(https://help.sap.com/doc/abapdocu_latest
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_v1.htm"
+abapFile: "abencds_association_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "association"]
+---
 
 * * *
 

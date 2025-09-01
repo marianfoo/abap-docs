@@ -1,4 +1,14 @@
-  
+---
+title: "Native SQL"
+description: |
+  Database-specific SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_glosry.htm 'Glossary Entry') statements handled by the Native SQL interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_interface_glosry.htm 'Glossary Entry') of the database i
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_glosry.htm"
+abapFile: "abennative_sql_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abennative", "sql", "glosry"]
+---
 
 * * *
 

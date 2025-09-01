@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, Conversion Functions"
+description: |
+  Conversion functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_conversion_functions.htm) in a CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm 'Glossary Entry'): -   Type conversion functions
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conversion_functions_v1.htm"
+abapFile: "abencds_conversion_functions_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "conversion", "functions"]
+---
 
 * * *
 

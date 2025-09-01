@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_timezones. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF timezone, tzone    TYPE ttzz-tzone, descript TYPE ttzzt-descript, datetime TYPE string, END OF timezone. DATA: timezones TYPE TABLE O
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_template_timezone_abexa.htm"
+abapFile: "abenstring_template_timezone_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenstring", "template", "timezone", "abexa"]
+---
 
 * * *
 

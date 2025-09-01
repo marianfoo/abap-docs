@@ -1,4 +1,14 @@
-  
+---
+title: "Mesh Path Expressions"
+description: |
+  Syntax ... mesh_path(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path.htm) ... Effect Specifies a mesh path mesh_path(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path.htm) as a standalone mesh path expression at an operand position. The result of
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm"
+abapFile: "abenmesh_path_expression.htm"
+keywords: ["select", "do", "if", "data", "abenmesh", "path", "expression"]
+---
 
 * * *
 

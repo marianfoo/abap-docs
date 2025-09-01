@@ -1,4 +1,14 @@
-  
+---
+title: "Inline Declarations"
+description: |
+  An inline declaration is performed using a declaration operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_operator_glosry.htm 'Glossary Entry') in a declaration expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_expres
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninline_declarations.htm"
+abapFile: "abeninline_declarations.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abeninline", "declarations"]
+---
 
 * * *
 

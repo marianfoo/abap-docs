@@ -1,4 +1,14 @@
-  
+---
+title: "General Properties of Data Objects"
+description: |
+  -   Creating and Addressing Data Objects(#abendobj-general-1-------data-types-of-data-objects---@ITOC@@ABENDOBJ_GENERAL_2) -   Variable and Constant Data Objects(#abendobj-general-3-------static-and-dynamic-data-objects---@ITOC@@ABENDOBJ_GENERAL_4) -   Flat and Deep Data Objects(#@@ITOC@@ABEND
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendobj_general.htm"
+abapFile: "abendobj_general.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abendobj", "general"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 General Properties of Data Objects
 
--   [Creating and Addressing Data Objects](#@@ITOC@@ABENDOBJ_GENERAL_1)
--   [Data Types of Data Objects](#@@ITOC@@ABENDOBJ_GENERAL_2)
--   [Variable and Constant Data Objects](#@@ITOC@@ABENDOBJ_GENERAL_3)
--   [Static and Dynamic Data Objects](#@@ITOC@@ABENDOBJ_GENERAL_4)
+-   [Creating and Addressing Data Objects](#abendobj-general-1-------data-types-of-data-objects---@ITOC@@ABENDOBJ_GENERAL_2)
+-   [Variable and Constant Data Objects](#abendobj-general-3-------static-and-dynamic-data-objects---@ITOC@@ABENDOBJ_GENERAL_4)
 -   [Flat and Deep Data Objects](#@@ITOC@@ABENDOBJ_GENERAL_5)
 
 Creating and Addressing Data Objects   

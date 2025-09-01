@@ -1,4 +1,14 @@
-  
+---
+title: "Working with Structures"
+description: |
+  This example demonstrates the syntactical options for working with structures outlined in the ABAP cheat sheet Structures in a nutshell(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_structures.htm). Source Code REPORT demo_cs_structures. CLASS demo DEFINITION. PUBLIC SECT
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_structures_abexa.htm"
+abapFile: "abensheet_structures_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abensheet", "structures", "abexa"]
+---
 
 * * *
 

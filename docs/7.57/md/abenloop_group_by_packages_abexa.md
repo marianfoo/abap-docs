@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_loop_group_by_packages. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. CLASS-DATA itab TYPE TABLE OF decfloat34 WITH EMPTY KEY. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(n) = 10. cl_demo_input=>request( EXPORTING text
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_group_by_packages_abexa.htm"
+abapFile: "abenloop_group_by_packages_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenloop", "group", "packages", "abexa"]
+---
 
 * * *
 

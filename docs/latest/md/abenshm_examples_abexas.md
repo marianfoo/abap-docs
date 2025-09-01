@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Examples"
+description: |
+  -   Shared Objects - Example(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm) -   Shared Objects - Writing to and Reading from an Area(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm) !Example(exa.gif 'E
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm"
+abapFile: "abenshm_examples_abexas.htm"
+keywords: ["do", "if", "abenshm", "examples", "abexas"]
+---
 
 * * *
 

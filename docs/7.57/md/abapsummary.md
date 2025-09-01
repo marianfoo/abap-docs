@@ -1,4 +1,14 @@
-  
+---
+title: "SUMMARY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsummary_shortref.htm) Obsolete Syntax SUMMARY. Effect This statement is forbidden in classes, has the same function as the following statement and is replaced by it: FORMAT(https://help.sap.com/doc/abapdocu_757_index_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsummary.htm"
+abapFile: "abapsummary.htm"
+keywords: ["do", "if", "class", "abapsummary"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Formatting Settings"
+description: |
+  The example demonstrates the formatting settings for numbers, date output, and time output. Source Code REPORT demo_string_template_env_sett. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: num    TYPE p DECIMALS 2, date   TYPE d
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_user_abexa.htm"
+abapFile: "abenstring_template_user_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "try", "method", "class", "data", "abenstring", "template", "user", "abexa"]
+---
 
 * * *
 

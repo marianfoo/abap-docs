@@ -1,4 +1,14 @@
-  
+---
+title: "Pooled table"
+description: |
+  Before Release 7.53, table category(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_tab_type.htm) of a database table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_table_glosry.htm 'Glossary Entry') in ABAP Dictionary(https://help.s
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpooled_table_glosry.htm"
+abapFile: "abenpooled_table_glosry.htm"
+keywords: ["do", "try", "data", "abenpooled", "table", "glosry"]
+---
 
 * * *
 

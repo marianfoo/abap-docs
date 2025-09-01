@@ -1,4 +1,14 @@
-  
+---
+title: "Blank-Separated Lists"
+description: |
+  The following lists of an Open SQL statement can still be specified with blanks as separators instead of commas, unless one of the strict modes(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_modes.htm) of the syntax check applies from Release 7.40, SP05. -   In the s
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_lists_obsolete.htm"
+abapFile: "abenopen_sql_lists_obsolete.htm"
+keywords: ["select", "update", "do", "if", "data", "abenopen", "sql", "lists", "obsolete"]
+---
 
 * * *
 

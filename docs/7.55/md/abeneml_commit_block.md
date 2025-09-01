@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - COMMIT ENTITIES BLOCK"
+description: |
+  Work in progress  Syntax COMMIT ENTITIES BEGIN RESPONSES OF root_names FAILED   it_failed  DATA(it_failed) REPORTED it_reported DATA(it_reported). ... COMMIT ENTITIES END. Effect In the context of the statement COMMIT ENTITIES(https://help.sap.com/do
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_block.htm"
+abapFile: "abeneml_commit_block.htm"
+keywords: ["delete", "do", "try", "data", "abeneml", "commit", "block"]
+---
 
 * * *
 

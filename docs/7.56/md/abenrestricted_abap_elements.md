@@ -1,4 +1,14 @@
-  
+---
+title: "Language Elements in ABAP Versions"
+description: |
+  The following table shows which ABAP language elements are allowed in which ABAP language version(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_version_glosry.htm 'Glossary Entry'). While all language elements are allowed in Standard ABAP(https://help.sap.com/doc/abapdocu_7
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_abap_elements.htm"
+abapFile: "abenrestricted_abap_elements.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenrestricted", "abap", "elements"]
+---
 
 * * *
 

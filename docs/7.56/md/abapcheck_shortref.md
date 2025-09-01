@@ -1,4 +1,14 @@
-  
+---
+title: "CHECK - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcheck_loop.htm) Syntax CHECK log_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlog_exp_shortref.htm)SELECT-OPTIONS. Effect Exits a loop(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/a
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcheck_shortref.htm"
+abapFile: "abapcheck_shortref.htm"
+keywords: ["select", "loop", "do", "if", "abapcheck", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Updates"
+description: |
+  During updates(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_glosry.htm 'Glossary Entry'), the behavior of messages depends on the work process. -   During synchronous updates(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensynchronous_update_glosry.htm 'Gl
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_message_update.htm"
+abapFile: "abenabap_message_update.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "types", "abenabap", "message"]
+---
 
 * * *
 

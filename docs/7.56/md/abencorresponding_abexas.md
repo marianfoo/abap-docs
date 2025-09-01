@@ -1,4 +1,14 @@
-  
+---
+title: "Assigning Components, Examples"
+description: |
+  !Example(exa.gif 'Example') MOVE-CORRESPONDING for Structures(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_corresponding_struc_abexa.htm) !Example(exa.gif 'Example') MOVE-CORRESPONDING for Internal Tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenm
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencorresponding_abexas.htm"
+abapFile: "abencorresponding_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abencorresponding", "abexas"]
+---
 
 * * *
 

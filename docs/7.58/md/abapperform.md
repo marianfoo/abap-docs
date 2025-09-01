@@ -1,4 +1,14 @@
-  
+---
+title: "PERFORM"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_shortref.htm) Syntax Forms General Subroutine Call(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_general.htm) 1. PERFORM subr_identifier(https://help.sap.com/doc/abapdocu_758_index
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform.htm"
+abapFile: "abapperform.htm"
+keywords: ["do", "if", "try", "method", "abapperform"]
+---
 
 * * *
 

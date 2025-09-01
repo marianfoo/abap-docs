@@ -1,4 +1,14 @@
-  
+---
+title: "DCL source code"
+description: |
+  CDS source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm 'Glossary Entry') for the definition of CDS roles(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_role_glosry.htm 'Glossary Entry') and of CDS access policies(https://he
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendcl_source_code_glosry.htm"
+abapFile: "abendcl_source_code_glosry.htm"
+keywords: ["do", "if", "try", "abendcl", "source", "code", "glosry"]
+---
 
 * * *
 

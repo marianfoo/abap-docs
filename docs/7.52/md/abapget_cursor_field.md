@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... VALUE val LENGTH len OFFSET off LINE lin AREA area. Extras: 1. ... VALUE val(#!ABAP_ADDITION_1@1@) 2. ... LENGTH len(#!ABAP_ADDITION_2@2@) 3. ... OFFSET off(#!ABAP_ADDITION_3@3@) 4. ... LINE lin(#!ABAP_ADDITION_4@4@) 5. ... AREA area(#!ABAP_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_field.htm"
+abapFile: "abapget_cursor_field.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapget", "cursor", "field"]
+---
 
 * * *
 

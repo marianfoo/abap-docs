@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Addressing the Current Node"
+description: |
+  In all ST commands in which the name of a node can be specified, the current node(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_ref.htm) can be addressed explicitly with $ref. An alias name can be also be defined for $ref in tt:loop loops(https://help.sap.com/doc/abapdocu_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_addressing_current_node.htm"
+abapFile: "abenst_addressing_current_node.htm"
+keywords: ["loop", "do", "while", "if", "data", "internal-table", "abenst", "addressing", "current", "node"]
+---
 
 * * *
 

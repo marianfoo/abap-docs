@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_delete_table_using_key DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: BEGIN OF tline, col1 TYPE i, col2 TYPE i, END OF tline, itab LIKE HASHED TABLE OF tline WITH UNI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendelete_itab_using_key_abexa.htm"
+abapFile: "abendelete_itab_using_key_abexa.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abendelete", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

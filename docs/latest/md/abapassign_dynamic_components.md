@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  struc-(comp)    dref->(comp_name)    COMPONENT comp OF STRUCTURE struc  ... Alternatives: 1. ... struc-(comp)(#!ABAP_ALTERNATIVE_1@1@) 2. ... dref->(comp_name)(#!ABAP_ALTERNATIVE_2@2@) 3. ... COMPONENT comp OF STRUCTURE struc(#!ABAP_ALTERNATIVE_3@3@) Effect Th
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_dynamic_components.htm"
+abapFile: "abapassign_dynamic_components.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abapassign", "dynamic", "components"]
+---
 
 * * *
 

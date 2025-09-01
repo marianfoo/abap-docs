@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Data and Communication Interfaces"
+description: |
+  -   Transactional RFC(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_obsolete.htm) -   ABAP and XML(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_obsolete.htm) -   CPI-C Interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextern_obsolete.htm"
+abapFile: "abenextern_obsolete.htm"
+keywords: ["do", "data", "abenextern", "obsolete"]
+---
 
 * * *
 

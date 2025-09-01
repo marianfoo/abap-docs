@@ -1,4 +1,14 @@
-  
+---
+title: "cds_cte_assoc_path_glosry"
+description: |
+  cds_cte_assoc_path_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cte_assoc_path_glosry.htm"
+abapFile: "abencds_cte_assoc_path_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "cte", "assoc", "path", "glosry"]
+---
 
 * * *
 

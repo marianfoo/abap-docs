@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( element1 , element2 ... ) =?= ASPECT pfcg_auth ( object, mapped_field1 , mapped_field2 ... , auth_field1 = 'value' , auth_field2= 'value' ... ) ... Effect PFCG condition as part of an access condition(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm"
+abapFile: "abencds_f1_cond_pfcg.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "cond", "pfcg"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_modify_elements DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_ixml_modify_elements IMPLEMENTATION. METHOD main. DATA(xml) = cl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenixml_modify_dom_abexa.htm"
+abapFile: "abenixml_modify_dom_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenixml", "modify", "dom", "abexa"]
+---
 
 * * *
 

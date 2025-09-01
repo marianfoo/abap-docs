@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - foreign entity"
+description: |
+  Syntax ... foreign entity ForeignEntityName alias AliasName; ... Effect Defines a RAP BO entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') which is not part of the CDS composition tree(https://help.sap.com/doc/abapdocu_758_in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_foreign.htm"
+abapFile: "abenbdl_foreign.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "types", "abenbdl", "foreign"]
+---
 
 * * *
 

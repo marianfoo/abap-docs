@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens, Changing the Default GUI Status"
+description: |
+  The example shows how to change the GUI status of a selection screen. Source Code REPORT demo_sel_screen_status . DATA itab TYPE TABLE OF sy-ucomm. PARAMETERS test(10) TYPE c. AT SELECTION-SCREEN OUTPUT. itab = VALUE #( ( CONV sy-ucomm( 'PRIN' ) ) ( CONV sy-ucomm( 'SPOS' ) ) ). CALL FUNCTION 'RS
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_gui_status_abexa.htm"
+abapFile: "abensel_screen_gui_status_abexa.htm"
+keywords: ["select", "do", "data", "abensel", "screen", "gui", "status", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 

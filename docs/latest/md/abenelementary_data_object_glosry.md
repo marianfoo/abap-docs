@@ -1,4 +1,14 @@
-  
+---
+title: "elementary_data_object_glosry"
+description: |
+  elementary_data_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenelementary_data_object_glosry.htm"
+abapFile: "abenelementary_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenelementary", "object", "glosry"]
+---
 
 * * *
 

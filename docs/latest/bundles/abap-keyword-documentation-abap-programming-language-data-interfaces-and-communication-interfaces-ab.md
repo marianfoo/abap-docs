@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenabap_system_commands.htm
 
-  
+---
+title: "ABAP and Operating System Statements"
+description: |
+  Operating system statements or system commands execute statements or programs directly on the operating system of the host computer of an AS instance or of a presentation server. Executing operating system statements from ABAP programs should be the exception rather than the rule, however it may bec
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm"
+abapFile: "abenabap_system_commands.htm"
+keywords: ["do", "if", "data", "abenabap", "system", "commands"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abenabap_system_commands_appl.htm
 
-  
+---
+title: "Operating System Statements of the Host Computer"
+description: |
+  There is one recommended framework when executing operating system statements on the host computer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/e
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm"
+abapFile: "abenabap_system_commands_appl.htm"
+keywords: ["do", "if", "try", "method", "data", "abenabap", "system", "commands", "appl"]
+---
 
 * * *
 
@@ -58,7 +78,17 @@ Continue
 
 ### abenabap_system_commands_appl_sxpg.htm
 
-  
+---
+title: "SXPG Framework for Operating System Statements"
+description: |
+  The only recommended way of executing operating system statements from ABAP on the operating system of the host computer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance or another server is to use the SXPG fr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm"
+abapFile: "abenabap_system_commands_appl_sxpg.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abenabap", "system", "commands", "appl", "sxpg"]
+---
 
 * * *
 
@@ -117,7 +147,17 @@ ENDIF.
 
 ### abenabap_system_commands_appl_depr.htm
 
-  
+---
+title: "Unwanted Calls of Operating System Statements"
+description: |
+  In addition to calls of function modules in the SXPG framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm), operating system statements for the host computer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_compu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm"
+abapFile: "abenabap_system_commands_appl_depr.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "abenabap", "system", "commands", "appl", "depr"]
+---
 
 * * *
 
@@ -189,7 +229,17 @@ cl\_demo\_output=>display( result ).
 
 ### abenabap_system_commands_appl.htm
 
-  
+---
+title: "Operating System Statements of the Host Computer"
+description: |
+  There is one recommended framework when executing operating system statements on the host computer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/e
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm"
+abapFile: "abenabap_system_commands_appl.htm"
+keywords: ["do", "if", "try", "method", "data", "abenabap", "system", "commands", "appl"]
+---
 
 * * *
 
@@ -214,7 +264,17 @@ Continue
 
 ### abenabap_system_commands_pres.htm
 
-  
+---
+title: "Operating System Statements of the Presentation Server"
+description: |
+  The method EXECUTE of the class CL_GUI_FRONTEND_SERVICES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrontend_services.htm) can be used to call operating system statements of the presentation server. The prerequisite is that the current ABAP program is executed in dialo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm"
+abapFile: "abenabap_system_commands_pres.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "system", "commands", "pres"]
+---
 
 * * *
 

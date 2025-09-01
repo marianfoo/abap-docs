@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  CALL SCREEN(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_screen.htm) SET PF-STATUS, Dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_pf-status_dynpro.htm) GET PF-STATUS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/aba
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_abap_statements.htm"
+abapFile: "abenabap_dynpros_abap_statements.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenabap", "dynpros", "abap", "statements"]
+---
 
 * * *
 

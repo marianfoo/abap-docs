@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - authorization"
+description: |
+  Syntax Forms Declaration on entity level ... authorization master ( global ) ( instance ) ( global, instance )  authorization dependent by _Assoc ... RAP BO operation additions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_operations_additions.htm), declaration
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization.htm"
+abapFile: "abenbdl_authorization.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "authorization"]
+---
 
 * * *
 

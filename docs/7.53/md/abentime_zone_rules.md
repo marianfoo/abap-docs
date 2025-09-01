@@ -1,4 +1,14 @@
-  
+---
+title: "Rules for Time Zones"
+description: |
+  The conversion of the UTC reference time to the local date and the local time zone is based on a set of rules stored in AS ABAP system tables. The names of all associated tables start with TTZ. The following database tables , whose content can be edited using transaction STZBD, are relevant for time
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm"
+abapFile: "abentime_zone_rules.htm"
+keywords: ["do", "while", "if", "data", "abentime", "zone", "rules"]
+---
 
 * * *
 

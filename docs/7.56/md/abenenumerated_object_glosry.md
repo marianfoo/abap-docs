@@ -1,4 +1,14 @@
-  
+---
+title: "enumerated_object_glosry"
+description: |
+  enumerated_object_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenumerated_object_glosry.htm"
+abapFile: "abenenumerated_object_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenenumerated", "object", "glosry"]
+---
 
 * * *
 

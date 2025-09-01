@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS"
+description: |
+  Syntax ...  USING CLIENT clnt     CLIENT SPECIFIED    USING  CLIENT clnt    CLIENTS IN @client_range_tab    CLIENTS IN T000    ALL CLIENTS   ... Variants: 1. ... USING CLIENT clntCLIENT SPECIFIED(#!ABAP_VARIANT_1@1@) 2. .
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapiumd_client.htm"
+abapFile: "abapiumd_client.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "data", "internal-table", "abapiumd", "client"]
+---
 
 * * *
 

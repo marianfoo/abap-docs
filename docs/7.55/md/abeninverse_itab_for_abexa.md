@@ -1,4 +1,14 @@
-  
+---
+title: "Inverse Reads on Internal Table with FOR"
+description: |
+  This example demonstrates how sequential inverse reads are performed on an internal table. Source Code REPORT demo_for_reverse_iteration. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA itab TYPE STANDARD TABLE OF i WITH EMPTY KEY
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninverse_itab_for_abexa.htm"
+abapFile: "abeninverse_itab_for_abexa.htm"
+keywords: ["select", "do", "while", "method", "class", "data", "internal-table", "abeninverse", "itab", "for", "abexa"]
+---
 
 * * *
 

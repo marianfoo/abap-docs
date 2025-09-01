@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP RESTful Application Programming Model"
+description: |
+  Also ABAP RESTful Programming Model, ABAP RAP, or RAP for short. ABAP programming model that is RESTful(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_glosry.htm 'Glossary Entry') or that meets the requirements of a REST(https://help.sap.com/doc/abapdocu_755_index_htm/7.5
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarap_glosry.htm"
+abapFile: "abenarap_glosry.htm"
+keywords: ["do", "try", "data", "abenarap", "glosry"]
+---
 
 * * *
 

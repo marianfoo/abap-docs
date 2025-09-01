@@ -1,4 +1,14 @@
-  
+---
+title: "sxml_library_glosry"
+description: |
+  sxml_library_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensxml_library_glosry.htm"
+abapFile: "abensxml_library_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abensxml", "library", "glosry"]
+---
 
 * * *
 

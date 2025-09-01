@@ -1,4 +1,14 @@
-  
+---
+title: "CDS entity buffer"
+description: |
+  An ABAP tuning object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_tuning_object_glosry.htm 'Glossary Entry') that defines the kind of table buffering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_buffering_glosry.htm 'Glossary Entry') for a CDS ent
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_buffer_glosry.htm"
+abapFile: "abencds_entity_buffer_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "entity", "buffer", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "persistent_object_glosry"
+description: |
+  persistent_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpersistent_object_glosry.htm"
+abapFile: "abenpersistent_object_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenpersistent", "object", "glosry"]
+---
 
 * * *
 

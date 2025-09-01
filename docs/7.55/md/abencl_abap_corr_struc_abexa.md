@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_corresponding_class_str. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF struct1, a1 TYPE string VALUE 'a1', a2 TYPE string VALUE 'a2', a3 TYPE string VALUE 'a3', a4 TYPE string VALUE 'a4', a5 TYPE string VALU
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_corr_struc_abexa.htm"
+abapFile: "abencl_abap_corr_struc_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abencl", "abap", "corr", "struc", "abexa"]
+---
 
 * * *
 

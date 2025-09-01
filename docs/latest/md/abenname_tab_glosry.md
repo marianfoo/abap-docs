@@ -1,4 +1,14 @@
-  
+---
+title: "name_tab_glosry"
+description: |
+  name_tab_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenname_tab_glosry.htm"
+abapFile: "abenname_tab_glosry.htm"
+keywords: ["do", "if", "try", "abenname", "tab", "glosry"]
+---
 
 * * *
 

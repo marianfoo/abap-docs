@@ -1,4 +1,14 @@
-  
+---
+title: "Loop Processing"
+description: |
+  Background Alongside the statements for processing individual lines in internal tables, other statements can be used to address and modify the entire body of the table. Examples: -   All categories of assignments applying to whole internal tables -   Deleting the whole of an internal table using CLE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_guidl.htm"
+abapFile: "abenloop_guidl.htm"
+keywords: ["select", "loop", "do", "if", "class", "types", "internal-table", "abenloop", "guidl"]
+---
 
 * * *
 

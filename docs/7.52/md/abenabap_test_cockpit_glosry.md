@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Test Cockpit"
+description: |
+  Abbreviated as ATC. Framework for executing and evaluating various tests for repository objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm 'Glossary Entry') integrated into ABAP Workbench(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_test_cockpit_glosry.htm"
+abapFile: "abenabap_test_cockpit_glosry.htm"
+keywords: ["do", "try", "abenabap", "test", "cockpit", "glosry"]
+---
 
 * * *
 

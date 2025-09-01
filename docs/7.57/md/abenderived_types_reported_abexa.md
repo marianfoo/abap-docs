@@ -1,4 +1,14 @@
-  
+---
+title: "Example for Message-Related BDEF Derived Type Components"
+description: |
+  This example demonstrates the use of the following message-related BDEF derived type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') components with a managed(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenderived_types_reported_abexa.htm"
+abapFile: "abenderived_types_reported_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenderived", "reported", "abexa"]
+---
 
 * * *
 

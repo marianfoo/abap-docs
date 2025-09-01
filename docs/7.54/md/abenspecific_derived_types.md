@@ -1,4 +1,14 @@
-  
+---
+title: "Specific Derived Types"
+description: |
+  Syntax TYPES type_for_update TYPE TABLE FOR UPDATE CDS_entity_name. TYPES type_for_id     TYPE LINE OF          type_for_update-%key. TYPES type_for_data   TYPE LINE OF          type_for_update-%data. TYPES type_for_row    TYPE STRUCTURE FOR    type_for_update. Effect Alongside deriv
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspecific_derived_types.htm"
+abapFile: "abenspecific_derived_types.htm"
+keywords: ["update", "do", "if", "class", "data", "types", "abenspecific", "derived"]
+---
 
 * * *
 

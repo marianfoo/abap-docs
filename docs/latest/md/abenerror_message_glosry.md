@@ -1,4 +1,14 @@
-  
+---
+title: "error_message_glosry"
+description: |
+  error_message_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenerror_message_glosry.htm"
+abapFile: "abenerror_message_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenerror", "message", "glosry"]
+---
 
 * * *
 

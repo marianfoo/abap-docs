@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_data_calculate. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA num1 TYPE decfloat34. cl_demo_input=>add_field( CHANGING field = num1 ). DATA num2 TYPE decfloat34. cl_demo_input=>request(   CHANGING field = num2 ).
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendivisions_abexa.htm"
+abapFile: "abendivisions_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "abendivisions", "abexa"]
+---
 
 * * *
 

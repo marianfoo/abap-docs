@@ -1,4 +1,14 @@
-  
+---
+title: "REFRESH"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprefresh_shortref.htm) Obsolete Syntax REFRESH itab. Effect This statement deletes all lines in an internal table itab. This releases the memory space required for the table, except for the initial memory requirement (se
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprefresh_itab.htm"
+abapFile: "abaprefresh_itab.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abaprefresh", "itab"]
+---
 
 * * *
 

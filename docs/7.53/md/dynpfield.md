@@ -1,4 +1,14 @@
-  
+---
+title: "FIELD"
+description: |
+  Syntax FIELD dynp_field   MODULE mod cond(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpfield_module.htm)    MODULE mod WITH(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_field_help.htm) hlp  . Effect The statement
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpfield.htm"
+abapFile: "dynpfield.htm"
+keywords: ["select", "do", "if", "try", "data", "dynpfield"]
+---
 
 * * *
 

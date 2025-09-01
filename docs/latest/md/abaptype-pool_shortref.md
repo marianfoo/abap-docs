@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE-POOL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype-pool.htm) Syntax TYPE-POOL tpool. Effect Initiates a type pool tpool.
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype-pool_shortref.htm"
+abapFile: "abaptype-pool_shortref.htm"
+keywords: ["do", "if", "abaptype", "pool", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  dobj+off(len) <fs>+off(len) dref->+off(len) Effect An offset off can be appended directly with the character + to the identifier dobj of a data object, <fs> of a field symbol, or to a dereferenced data reference variable dref->. A length len can be
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoffset_length.htm"
+abapFile: "abenoffset_length.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abenoffset", "length"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "TRANSLATE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptranslate.htm) Syntax TRANSLATE dobj TO UPPERLOWER CASE  USING mask. Effect Translates the content of a data object dobj. Additions -   TO UPPERLOWER CASE(https://help.sap.com/doc/abapd
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptranslate_shortref.htm"
+abapFile: "abaptranslate_shortref.htm"
+keywords: ["do", "if", "case", "data", "abaptranslate", "shortref"]
+---
 
 * * *
 

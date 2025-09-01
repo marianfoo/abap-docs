@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete ABAP EML Language Elements"
+description: |
+  -   Obsolete BDEF-Derived Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_obsolete.htm) ABAP EML - Obsolete BDEF Derived Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_obsolete.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_le_obsolete.htm"
+abapFile: "abenrap_le_obsolete.htm"
+keywords: ["do", "if", "types", "abenrap", "obsolete"]
+---
 
 * * *
 

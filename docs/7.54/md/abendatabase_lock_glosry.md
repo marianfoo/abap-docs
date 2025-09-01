@@ -1,4 +1,14 @@
-  
+---
+title: "database_lock_glosry"
+description: |
+  database_lock_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_lock_glosry.htm"
+abapFile: "abendatabase_lock_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "lock", "glosry"]
+---
 
 * * *
 

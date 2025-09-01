@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_type_glosry.htm 'Glossary Entry') or object type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_type_glosry.htm 'Glossary Entry') organized in the ABAP type hierarchy(https://help.sap.com/doc/aba
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_type_glosry.htm"
+abapFile: "abenabap_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "type", "glosry"]
+---
 
 * * *
 

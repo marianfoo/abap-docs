@@ -1,4 +1,14 @@
-  
+---
+title: "RFC Exceptions"
+description: |
+  In the interface of a remote enabled function module(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenremote_enabled_fm_glosry.htm 'Glossary Entry'), it is currently only possible to specify classic exceptions, in other words non-class-based exceptions(https://help.sap.com/doc/abap
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_exception.htm"
+abapFile: "abenrfc_exception.htm"
+keywords: ["do", "if", "try", "class", "data", "exception-handling", "abenrfc", "exception"]
+---
 
 * * *
 

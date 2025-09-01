@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... TABLES p1  TYPE itab_type   STRUCTURE struc(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfunction_typing_obsolete.htm) OPTIONAL p2  TYPE itab_type   STRUCTURE struc(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfunction_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_parameters_obsolete.htm"
+abapFile: "abaptables_parameters_obsolete.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abaptables", "parameters", "obsolete"]
+---
 
 * * *
 

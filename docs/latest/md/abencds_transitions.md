@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Changing the Type of a CDS Entity"
+description: |
+  A CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') can be changed into another CDS source type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddl_source_type_glosry.htm 'Glossary Entry') by replacing the s
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_transitions.htm"
+abapFile: "abencds_transitions.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "transitions"]
+---
 
 * * *
 

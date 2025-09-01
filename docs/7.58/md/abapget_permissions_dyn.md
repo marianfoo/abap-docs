@@ -1,4 +1,14 @@
-  
+---
+title: "GET PERMISSIONS OPERATIONS, Dynamic Form"
+description: |
+  Syntax GET PERMISSIONS  only_clause(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions_only_clause.htm) OPERATIONS perm_tab response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm). Additions: 1. ... PRIVILEG
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions_dyn.htm"
+abapFile: "abapget_permissions_dyn.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapget", "permissions", "dyn"]
+---
 
 * * *
 

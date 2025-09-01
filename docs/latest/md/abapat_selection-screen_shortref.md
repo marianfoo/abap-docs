@@ -1,4 +1,14 @@
-  
+---
+title: "AT SELECTION-SCREEN - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_selection-screen.htm) Syntax AT SELECTION-SCREEN  OUTPUT  ON parselcrit  ON END OF selcrit  ON BLOCK block  ON RADIOBUTTON GROUP group  ON HELP-REQUESTVALUE
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_selection-screen_shortref.htm"
+abapFile: "abapat_selection-screen_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapat", "selection", "screen", "shortref"]
+---
 
 * * *
 

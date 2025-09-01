@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator, Handling Duplicates"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expr_corresponding.htm) with the addition DISCARDING DUPLICATES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_dupl.htm). Sou
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_duplicates_abexa.htm"
+abapFile: "abencorresponding_duplicates_abexa.htm"
+keywords: ["insert", "loop", "do", "if", "method", "class", "data", "types", "abencorresponding", "duplicates", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_reduce_simple. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA itab TYPE TABLE OF i WITH EMPTY KEY. itab = VALUE #( FOR j = 1 WHILE j <= 10 ( j ) ). cl_demo_output=>write( itab ). FINAL(sum) = REDUCE i( INIT x = 0 FOR
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_simple_abexa.htm"
+abapFile: "abenreduce_simple_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "internal-table", "abenreduce", "simple", "abexa"]
+---
 
 * * *
 

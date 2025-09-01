@@ -1,4 +1,14 @@
-  
+---
+title: "Convert Time Stamp in Time Stamp Field"
+description: |
+  This example demonstrates the statements CONVERT INTO UTCLONG(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_utclong.htm) and CONVERT UTCLONG(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_utclong.htm). Source Code REPORT demo_convert_into_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_utc_abexa.htm"
+abapFile: "abenconvert_utc_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "abenconvert", "utc", "abexa"]
+---
 
 * * *
 

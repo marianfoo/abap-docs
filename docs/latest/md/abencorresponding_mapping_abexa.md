@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator, Mapping Rule"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expr_corresponding.htm) with explicit mapping rules. Source Code  Public class definition CLASS cl_demo_crrspndng_mapping DEFINITION INHERITING FROM cl_demo_class
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_mapping_abexa.htm"
+abapFile: "abencorresponding_mapping_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abencorresponding", "mapping", "abexa"]
+---
 
 * * *
 

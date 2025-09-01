@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP, Implementation of an SQLScript Procedure"
+description: |
+  This example demonstrates how an SQLScript procedure is implemented using AMDP. Source Code REPORT demo_amdp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. IF NOT cl_abap_dbfeatures=>use_features( EXPORTING requested_features = VALU
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_abexa.htm"
+abapFile: "abenamdp_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abenamdp", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DEFINE DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_filter_drul.htm) JOIN(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_join_drul.htm) DEPENDENCY RULE drul ON dbtab , ... IF  cond_pattern  THEN  derived
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_drul.htm"
+abapFile: "abenddicddl_define_drul.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenddicddl", "define", "drul"]
+---
 
 * * *
 

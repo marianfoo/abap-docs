@@ -1,4 +1,14 @@
-  
+---
+title: "System Classes for Numbers"
+description: |
+  -   System Class CL_ABAP_MATH(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_class.htm) -   Random Numbers(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrandom_number_class.htm) System class CL_ABAP_MATH(https://help.sap.com/doc/abapdocu_752_
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_math.htm"
+abapFile: "abencl_abap_math.htm"
+keywords: ["do", "class", "data", "abencl", "abap", "math"]
+---
 
 * * *
 

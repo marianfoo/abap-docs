@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... log_exp1 AND log_exp2 AND log_exp3 ... Effect The combination of multiple logical expressions log_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm) using AND creates a new logical expression that is true if all logical expressions log_exp are true. If one
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_and.htm"
+abapFile: "abenlogexp_and.htm"
+keywords: ["do", "if", "try", "abenlogexp", "and"]
+---
 
 * * *
 

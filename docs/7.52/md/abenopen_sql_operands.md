@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Operands and Expressions"
+description: |
+  In Open SQL statements, the following objects can be specified as operands alongside data sources (database tables, classic views, and CDS entities) and the following expressions can be used: -   Elements of data sources -   Open SQL - Specified columns(https://help.sap.com/doc/abapdocu_752_index_
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_operands.htm"
+abapFile: "abenopen_sql_operands.htm"
+keywords: ["select", "do", "if", "class", "data", "abenopen", "sql", "operands"]
+---
 
 * * *
 

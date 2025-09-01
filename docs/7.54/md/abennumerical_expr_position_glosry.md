@@ -1,4 +1,14 @@
-  
+---
+title: "numerical_expr_position_glosry"
+description: |
+  numerical_expr_position_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumerical_expr_position_glosry.htm"
+abapFile: "abennumerical_expr_position_glosry.htm"
+keywords: ["do", "if", "try", "data", "abennumerical", "expr", "position", "glosry"]
+---
 
 * * *
 

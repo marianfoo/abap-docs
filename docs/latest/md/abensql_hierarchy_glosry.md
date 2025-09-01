@@ -1,4 +1,14 @@
-  
+---
+title: "SQL hierarchy"
+description: |
+  Tabular SQL data source(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_data_source_glosry.htm 'Glossary Entry') in ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossary Entry') whose rows form the hierarchy nodes(htt
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_hierarchy_glosry.htm"
+abapFile: "abensql_hierarchy_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abensql", "hierarchy", "glosry"]
+---
 
 * * *
 

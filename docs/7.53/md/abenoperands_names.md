@@ -1,4 +1,14 @@
-  
+---
+title: "Names for Individual Operands"
+description: |
+  An individual operand, meaning an operand that is not an expression, can be elementary or made up of components. Composite operands are: -   Structured data types or data objects (structure) -   Instances of classes (objects) -   Classes -   Interfaces Accordingly, names for operands are either elem
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm"
+abapFile: "abenoperands_names.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenoperands", "names"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Examples"
+description: |
+  A(#A) B(#B) C(#C) D(#D) E(#E) F(#F) G(#G) H(#H) I(#I) J(#J) L(#L) M(#M) N(#N) O(#O) P(#P) R(#R) S(#S) T(#T) U(#U) V(#V) W(#W) X(#X) A  ABAP CDS - Consuming Business Services with Demo Class(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_examples.htm"
+abapFile: "abenabap_examples.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "exception-handling", "abenabap", "examples"]
+---
 
 * * *
 

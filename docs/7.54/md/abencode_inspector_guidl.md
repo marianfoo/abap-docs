@@ -1,4 +1,14 @@
-  
+---
+title: "Code Inspector"
+description: |
+  Background The Code Inspector tool performs a static check of repository objects regarding performance, security, syntax, and adherence to naming conventions. Transaction SCI can be called to use the full range of functions of Code Inspector to perform complex static checks and regular mass tests fo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencode_inspector_guidl.htm"
+abapFile: "abencode_inspector_guidl.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abencode", "inspector", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "L, Internal SAP Programming Language for HANA"
+description: |
+  This documentation is only available internally at SAP.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenllang_internal.htm"
+abapFile: "abenllang_internal.htm"
+keywords: ["do", "if", "data", "abenllang", "internal"]
+---
 
 * * *
 

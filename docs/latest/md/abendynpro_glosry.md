@@ -1,4 +1,14 @@
-  
+---
+title: "dynpro_glosry"
+description: |
+  dynpro_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm"
+abapFile: "abendynpro_glosry.htm"
+keywords: ["select", "do", "if", "try", "abendynpro", "glosry"]
+---
 
 * * *
 

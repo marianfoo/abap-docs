@@ -1,4 +1,14 @@
-  
+---
+title: "Introductory Statements for Programs"
+description: |
+  The introductory statements for programs are: -   REPORT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm) -   PROGRAM(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm) -   FUNCTION-POOL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm"
+abapFile: "abenabap_program_statement.htm"
+keywords: ["do", "if", "case", "try", "class", "types", "abenabap", "program", "statement"]
+---
 
 * * *
 

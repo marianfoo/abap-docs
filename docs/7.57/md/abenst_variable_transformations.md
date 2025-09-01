@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Reading and Writing Variables"
+description: |
+  -   tt:write, Write Variables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_write.htm) -   tt:read, Read Variables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_read.htm) -   tt:read-write, Read or Write Variables(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_variable_transformations.htm"
+abapFile: "abenst_variable_transformations.htm"
+keywords: ["do", "if", "data", "abenst", "variable", "transformations"]
+---
 
 * * *
 

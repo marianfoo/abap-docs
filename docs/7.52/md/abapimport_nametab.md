@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT - Get a structure description"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax IMPORT NAMETAB h f ID id. Effect Gets a structure description saved using EXPORT NAMETAB. The statement must only be used by tools of ABAP Workbench. For the field list f, a standard table without a secondar
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_nametab.htm"
+abapFile: "abapimport_nametab.htm"
+keywords: ["do", "if", "abapimport", "nametab"]
+---
 
 * * *
 

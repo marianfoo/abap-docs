@@ -1,4 +1,14 @@
-  
+---
+title: "Tip"
+description: |
+  Ideally, the late numbering is implemented separately from the save. In many legacy applications, however, the final numbers are determined during the save. In this case, we recommend implementing the save logic in the method adjust_numbers and leaving the method save empty.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_adjust_numbers.htm"
+abapFile: "abensaver_adjust_numbers.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "types", "abensaver", "adjust", "numbers"]
+---
 
 * * *
 

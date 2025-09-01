@@ -1,4 +1,14 @@
-  
+---
+title: "METHOD, BY DATABASE PROCEDURE, FUNCTION, GRAPH WORKSPACE"
+description: |
+  Syntax METHOD meth BY DATABASE PROCEDUREFUNCTIONGRAPH WORKSPACE FOR db LANGUAGE db_lang OPTIONS db_options USING   entities USING   SCHEMA schema1 OBJECTS db_entities USING   SCHEMA schema2 OBJECTS db_entities ... . ... ENDMETHOD. Additions: 1. ... F
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethod_by_db_proc.htm"
+abapFile: "abapmethod_by_db_proc.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abapmethod", "proc"]
+---
 
 * * *
 

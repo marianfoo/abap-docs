@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... IMPORTING  p1 = a1 p2 = a2 ... TABLES     t1 = itab1 t2 = itab2 ... CHANGING   p1 = a1 p2 = a2 ... EXCEPTIONS exc1 = n1 exc2 = n2 ... system_failure = ns MESSAGE smess communication_failure = nc MESSAGE cmess OTHERS = n_o
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive_para.htm"
+abapFile: "abapreceive_para.htm"
+keywords: ["do", "if", "class", "data", "exception-handling", "abapreceive", "para"]
+---
 
 * * *
 

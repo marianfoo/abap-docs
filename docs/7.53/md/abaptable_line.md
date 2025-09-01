@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  TYPES(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_itab.htm) ... WITH(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_keydef.htm) ... KEY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_primary_key.htm) TABLE LINE. DATA(https:
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptable_line.htm"
+abapFile: "abaptable_line.htm"
+keywords: ["do", "if", "class", "data", "types", "internal-table", "abaptable", "line"]
+---
 
 * * *
 

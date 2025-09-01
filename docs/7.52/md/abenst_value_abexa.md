@@ -1,4 +1,14 @@
-  
+---
+title: "Serializes and deserializes elementary data objects"
+description: |
+  Source Code REPORT demo_st_value. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: dat         TYPE d, tim         TYPE t, time_stamp  TYPE xsddatetime_z. dat = sy-datlo. tim = sy-timlo. CONVERT DATE dat TIME tim INTO TIME STAMP t
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_value_abexa.htm"
+abapFile: "abenst_value_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "abenst", "value", "abexa"]
+---
 
 * * *
 

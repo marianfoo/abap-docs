@@ -1,4 +1,14 @@
-  
+---
+title: "Native SQL Access to ABAP-Managed Database Objects"
+description: |
+  There are two types of Native SQL access to ABAP-managed database objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry'). -   Access Using ABAP-Managed Native SQL(#abenabap-managed-db-objects-nsql-1-------access-using-non-abap-m
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_managed_db_objects_nsql.htm"
+abapFile: "abenabap_managed_db_objects_nsql.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenabap", "managed", "objects", "nsql"]
+---
 
 * * *
 
@@ -10,8 +20,7 @@ Native SQL Access to ABAP-Managed Database Objects
 
 There are two types of Native SQL access to [ABAP-managed database objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_managed_db_object_glosry.htm "Glossary Entry").
 
--   [Access Using ABAP-Managed Native SQL](#@@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_1)
--   [Access Using Non-ABAP-Managed Native SQL](#@@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_2)
+-   [Access Using ABAP-Managed Native SQL](#abenabap-managed-db-objects-nsql-1-------access-using-non-abap-managed-native-sql---@ITOC@@ABENABAP_MANAGED_DB_OBJECTS_NSQL_2)
 
 Access Using ABAP-Managed Native SQL
 

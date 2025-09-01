@@ -1,4 +1,14 @@
-  
+---
+title: "area_class_glosry"
+description: |
+  area_class_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarea_class_glosry.htm"
+abapFile: "abenarea_class_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenarea", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete ABAP SQL"
+description: |
+  -   Obsolete Access to CDS DDIC-based views (obsolete) in ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_cds_obsolete.htm) -   Obsolete Short Forms in ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_short_forms_obsolete
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_obsolete.htm"
+abapFile: "abenabap_sql_obsolete.htm"
+keywords: ["do", "if", "data", "abenabap", "sql", "obsolete"]
+---
 
 * * *
 

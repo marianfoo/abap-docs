@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE ABSTRACT ENTITY, element"
+description: |
+  Syntax ... @element_annot1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_return_list_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_return_list_annotation.htm) ...  KEY name   : typing(h
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_absent_list_element.htm"
+abapFile: "abencds_f1_absent_list_element.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "absent", "list", "element"]
+---
 
 * * *
 

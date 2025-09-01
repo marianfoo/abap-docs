@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - extend determine action"
+description: |
+  Syntax extend determine action DetermineActionName  determination(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determinations.htm) (always) MyDetermination1; determination(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determinations.htm) (a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determine_action_ext.htm"
+abapFile: "abenbdl_determine_action_ext.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenbdl", "determine", "action", "ext"]
+---
 
 * * *
 

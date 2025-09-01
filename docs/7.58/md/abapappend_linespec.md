@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... wa  INITIAL LINE  LINES OF jtab FROM idx1 TO idx2 STEP n USING KEY keyname(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkeyname.htm) ... Alternatives: 1. ... wa(#!ABAP_ALTERNATIVE_1@1@) 2. ... INITIAL LINE(#!ABAP_ALTERNA
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapappend_linespec.htm"
+abapFile: "abapappend_linespec.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "field-symbol", "abapappend", "linespec"]
+---
 
 * * *
 

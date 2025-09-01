@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abennew_constructor_params_class.htm
 
-  
+---
+title: "NEW, Classes"
+description: |
+  Syntax ... NEW class#( let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) p1 = a1 p2 = a2 ... ) ... Effect If a class class is specified or # stands for a class like this, the non-optional input parameters p1 p2 ... of the instance constructor of the i
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_constructor_params_class.htm"
+abapFile: "abennew_constructor_params_class.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "abennew", "constructor", "params"]
+---
 
 * * *
 
@@ -159,7 +169,17 @@ Continue
 
 ### abennew_on_the_left_abexa.htm
 
-  
+---
+title: "Instance Operator NEW on the Left"
+description: |
+  Constructor expression with NEW on the left side of an expression. Source Code  Public class definition CLASS cl_demo_new_on_the_left DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS class DEFINITION. PUBL
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_on_the_left_abexa.htm"
+abapFile: "abennew_on_the_left_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abennew", "the", "left", "abexa"]
+---
 
 * * *
 

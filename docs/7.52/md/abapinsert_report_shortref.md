@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT REPORT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_report.htm) Syntax INSERT REPORT prog FROM itab MAXIMUM WIDTH INTO wid  KEEPING DIRECTORY ENTRY   PROGRAM TYPE pt FIXED-POINT ARITHMETIC fp VERSIONUNICODE ENABLING
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_report_shortref.htm"
+abapFile: "abapinsert_report_shortref.htm"
+keywords: ["insert", "do", "if", "try", "internal-table", "abapinsert", "report", "shortref"]
+---
 
 * * *
 

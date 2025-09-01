@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Literal Template Content"
+description: |
+  Literal template content can be either literal XML elements or literal texts, which can be introduced using a special ST command. -   Literal XML Elements and Attributes(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_xml_literals.htm) -   tt:text, Literal Text(https://help.sap
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_literals.htm"
+abapFile: "abenst_literals.htm"
+keywords: ["do", "data", "abenst", "literals"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS, FOR SCALAR FUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-methods_shortref.htm) Syntax CLASS-METHODS meth FOR SCALAR FUNCTION cds_scalar_func. Effect This statement declares the static method(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_metho
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-methods_for_scalfunc.htm"
+abapFile: "abapclass-methods_for_scalfunc.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abapclass", "methods", "for", "scalfunc"]
+---
 
 * * *
 

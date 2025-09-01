@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols"
+description: |
+  -   Obsolete Typing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols_obsolete_typing.htm) FIELD-SYMBOLS, obsolete_typing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols_obsolete_typing.htm) !Example(exa.gif 'Example') Field Symbols, Ca
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield_symbols_obsolete.htm"
+abapFile: "abenfield_symbols_obsolete.htm"
+keywords: ["do", "if", "field-symbol", "abenfield", "symbols", "obsolete"]
+---
 
 * * *
 

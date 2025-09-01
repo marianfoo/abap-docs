@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Activating ABAP Dictionary Types"
+description: |
+  When a data type in ABAP Dictionary is activated, a DDIC runtime object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_runtime_object_glosry.htm 'Glossary Entry') is created that consumers such as dictionary objects, ABAP programs, or dynpros can use to effectively access all
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_activation.htm"
+abapFile: "abenddic_activation.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "data", "types", "abenddic", "activation"]
+---
 
 * * *
 
@@ -15,12 +25,9 @@ When a data type in ABAP Dictionary is activated, a [DDIC runtime object](https:
 
 A data type can only be activated if the dependent dictionary objects can be activated as well. However, if an incompatible change to a Dictionary type leads to an error in an ABAP program or dynpro, this does not prevent activation. This type of error is detected in the system the next time the program is executed or during an explicit syntax check. When changed dictionary types are transported to target systems, dependent ABAP programs and dynpros are activated by the transport as well. If an error occurs, the transport is reported as unsuccessful.
 
--   [DDIC Runtime Objects](#@@ITOC@@ABENDDIC_ACTIVATION_1)
--   [Activating Dependent Objects](#@@ITOC@@ABENDDIC_ACTIVATION_2)
-    -   [Activating Dependent ABAP Programs and Dynpros](#@@ITOC@@ABENDDIC_ACTIVATION_3)
-    -   [Activating Dependent Dictionary Objects](#@@ITOC@@ABENDDIC_ACTIVATION_4)
--   [Mass Activation](#@@ITOC@@ABENDDIC_ACTIVATION_5)
--   [Cyclical Dependencies](#@@ITOC@@ABENDDIC_ACTIVATION_6)
+-   [DDIC Runtime Objects](#abenddic-activation-1-------activating-dependent-objects---@ITOC@@ABENDDIC_ACTIVATION_2)
+    -   [Activating Dependent ABAP Programs and Dynpros](#abenddic-activation-3-----------activating-dependent-dictionary-objects---@ITOC@@ABENDDIC_ACTIVATION_4)
+-   [Mass Activation](#abenddic-activation-5-------cyclical-dependencies---@ITOC@@ABENDDIC_ACTIVATION_6)
 
 Hint
 

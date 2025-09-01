@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL expression"
+description: |
+  Expression in a CDS DDL operand position that is passed to the database system for evaluation. → More about(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_expressions_v2.htm)
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_expression_glosry.htm"
+abapFile: "abencds_expression_glosry.htm"
+keywords: ["do", "if", "data", "abencds", "expression", "glosry"]
+---
 
 * * *
 

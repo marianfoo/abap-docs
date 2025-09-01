@@ -1,4 +1,14 @@
-  
+---
+title: "node_cycle_glosry"
+description: |
+  node_cycle_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennode_cycle_glosry.htm"
+abapFile: "abennode_cycle_glosry.htm"
+keywords: ["do", "if", "try", "abennode", "cycle", "glosry"]
+---
 
 * * *
 

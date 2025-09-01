@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Cardinality Syntax Written in Words ... EXACT ONE  MANY  ONE  TO EXACT ONE MANY  ONE : Numeric Syntax ... 1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencardinality_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v2.htm"
+abapFile: "abencds_path_expr_card_v2.htm"
+keywords: ["select", "insert", "do", "if", "try", "class", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 

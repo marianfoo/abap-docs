@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - READ, Variants"
+description: |
+  This example demonstrates the variants of the ABAP EML READ statement to read data from a simple managed RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'): -   READ ENTITY bdef -   READ ENTITIES OF bdef -   READ ENTITIES OPERATIONS dynop Data
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_read_alternatives_abexa.htm"
+abapFile: "abeneml_read_alternatives_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abeneml", "read", "alternatives", "abexa"]
+---
 
 * * *
 

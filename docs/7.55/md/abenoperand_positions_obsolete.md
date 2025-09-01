@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Operand Positions"
+description: |
+  The following method of using operand positions is obsolete and should no longer be used: -   Enhanced Functional Operand Positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextended_functional_positions.htm) Extended Functional Operand Positions(https://help.sap.com/doc/aba
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperand_positions_obsolete.htm"
+abapFile: "abenoperand_positions_obsolete.htm"
+keywords: ["do", "method", "abenoperand", "positions", "obsolete"]
+---
 
 * * *
 

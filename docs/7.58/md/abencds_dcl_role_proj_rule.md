@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  GRANT SELECT ON cds_entity_projection AS PROJECTION ON cds_entity_base FALLBACK ASSOCIATION fallback_association; Effect Creates an access rule for the CDS projection view(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') cds_enti
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dcl_role_proj_rule.htm"
+abapFile: "abencds_dcl_role_proj_rule.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "dcl", "role", "proj", "rule"]
+---
 
 * * *
 

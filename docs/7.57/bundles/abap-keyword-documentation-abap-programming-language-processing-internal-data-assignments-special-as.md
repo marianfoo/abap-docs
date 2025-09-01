@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenabap_data_move.htm
 
-  
+---
+title: "Special Assignments"
+description: |
+  This section handles statements for special assignments: -   The assignment operator =(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmove_multiples.htm) for multiple assignments -   UNPACK(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapunpack.htm) for a special
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_move.htm"
+abapFile: "abenabap_data_move.htm"
+keywords: ["do", "if", "data", "abenabap", "move"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abapmove_multiples.htm
 
-  
+---
+title: "Syntax"
+description: |
+  destination1 = destination2 = ... = destination = rhs. Effect The assignment operator =(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenequals_operator.htm) can be used to perform multiple assignments at once within a single statement. This statement is the same as: destination  =
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmove_multiples.htm"
+abapFile: "abapmove_multiples.htm"
+keywords: ["do", "if", "data", "types", "abapmove", "multiples"]
+---
 
 * * *
 
@@ -76,7 +96,17 @@ name3 = name2 = name1 = name.
 
 ### abapunpack.htm
 
-  
+---
+title: "UNPACK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapunpack_shortref.htm) Syntax UNPACK source TO destination. Effect This statement converts the content of the data object source in accordance with special rules and assigns the converted content to the data object destin
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapunpack.htm"
+abapFile: "abapunpack.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "abapunpack"]
+---
 
 * * *
 

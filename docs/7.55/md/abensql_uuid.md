@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... UUID( ) ... Effect Calls the UUID function as an SQL expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsql_expr.htm) or operand of an expression in ABAP SQL. The function UUID does not have any parameters and creates a new unique UUID(https://help.sap.com/doc/abapdocu
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_uuid.htm"
+abapFile: "abensql_uuid.htm"
+keywords: ["select", "do", "try", "data", "types", "abensql", "uuid"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "codepage_glosry"
+description: |
+  codepage_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_glosry.htm"
+abapFile: "abencodepage_glosry.htm"
+keywords: ["select", "do", "while", "try", "data", "abencodepage", "glosry"]
+---
 
 * * *
 

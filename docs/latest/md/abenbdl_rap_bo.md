@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Managed and Unmanaged Behavior Definitions"
+description: |
+  RAP business objects of the implementation types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef_impl_type_glosry.htm 'Glossary Entry') managed and unmanaged are realized through the same set of keywords. These keywords are listed in the following sections, structured
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo.htm"
+abapFile: "abenbdl_rap_bo.htm"
+keywords: ["do", "if", "try", "types", "abenbdl", "rap"]
+---
 
 * * *
 

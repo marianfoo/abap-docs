@@ -1,4 +1,14 @@
-  
+---
+title: "CALL CUSTOMER SUBSCREEN"
+description: |
+  Obsolete Syntax CALL CUSTOMER SUBSCREEN sub_area INCLUDING prog dynnr. Effect Like the corresonding variant of CALL SUBSCREEN(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm), with the difference that the subscreen dynpro is only included if it was activated in transaction
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall_customer_subscreen.htm"
+abapFile: "dynpcall_customer_subscreen.htm"
+keywords: ["do", "if", "try", "dynpcall", "customer", "subscreen"]
+---
 
 * * *
 

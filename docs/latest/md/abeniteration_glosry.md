@@ -1,4 +1,14 @@
-  
+---
+title: "iteration_glosry"
+description: |
+  iteration_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeniteration_glosry.htm"
+abapFile: "abeniteration_glosry.htm"
+keywords: ["loop", "do", "if", "try", "abeniteration", "glosry"]
+---
 
 * * *
 

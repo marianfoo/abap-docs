@@ -1,4 +1,14 @@
-  
+---
+title: "Further Information"
+description: |
+  For more information, see the class documentation and the Runtime Type Services (RTTS)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm) topic. Executable Example Getting Type Information Using CL_ABAP_BEHVDESCR(https://help.sap.com/doc/abapdocu_latest_index_htm/lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm"
+abapFile: "abapcl_abap_behvdescr.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abapcl", "abap", "behvdescr"]
+---
 
 * * *
 

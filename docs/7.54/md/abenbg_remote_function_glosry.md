@@ -1,4 +1,14 @@
-  
+---
+title: "Background Remote Function Call"
+description: |
+  Asynchronous remote function call for which the called RFMs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfm_glosry.htm 'Glossary Entry') can be executed in a transactional manner and in the prescribed call order. bgRFC replaces tRFC(https://help.sap.com/doc/abapdocu_754_index_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbg_remote_function_glosry.htm"
+abapFile: "abenbg_remote_function_glosry.htm"
+keywords: ["do", "try", "data", "abenbg", "remote", "function", "glosry"]
+---
 
 * * *
 

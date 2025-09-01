@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 

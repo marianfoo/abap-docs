@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   If multiple logical expressions are joined, the explicit and implicit parentheses always produce exactly one logical expression that is either true or false. -   The smallest unit of a joined logical expression is always a relational expression(https://help.sap.com/doc/abapdocu_755_index_htm/7
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_boole.htm"
+abapFile: "abenlogexp_boole.htm"
+keywords: ["do", "if", "try", "method", "field-symbol", "abenlogexp", "boole"]
+---
 
 * * *
 

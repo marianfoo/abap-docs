@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS, Evaluation of Annotations"
+description: |
+  This example demonstrates how semantics annotations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk.htm) in DDL source code(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') are evaluated. Source Code
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_semantics_annotation_abexa.htm"
+abapFile: "abencds_semantics_annotation_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abencds", "semantics", "annotation", "abexa"]
+---
 
 * * *
 

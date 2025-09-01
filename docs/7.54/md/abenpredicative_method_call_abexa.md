@@ -1,4 +1,14 @@
-  
+---
+title: "Predicative Method Calls"
+description: |
+  This example demonstrates predicative method calls(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicative_method_call_glosry.htm 'Glossary Entry'). Source Code REPORT demo_predicative_method_call. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS dem
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicative_method_call_abexa.htm"
+abapFile: "abenpredicative_method_call_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenpredicative", "call", "abexa"]
+---
 
 * * *
 

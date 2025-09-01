@@ -1,4 +1,14 @@
-  
+---
+title: "Reading Positions for Functions and Expressions"
+description: |
+  -   General Expression Positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expression_positions.htm) -   Numeric Expression Positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_expression_positions.htm) -   Character-Like Expression Posit
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions_read.htm"
+abapFile: "abenexpression_positions_read.htm"
+keywords: ["do", "abenexpression", "positions", "read"]
+---
 
 * * *
 

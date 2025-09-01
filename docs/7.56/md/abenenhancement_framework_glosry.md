@@ -1,4 +1,14 @@
-  
+---
+title: "Enhancement Framework"
+description: |
+  → enhancement concept(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenhancement_concept_glosry.htm 'Glossary Entry')
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenhancement_framework_glosry.htm"
+abapFile: "abenenhancement_framework_glosry.htm"
+keywords: ["do", "try", "abenenhancement", "framework", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "chained_statement_glosry"
+description: |
+  chained_statement_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchained_statement_glosry.htm"
+abapFile: "abenchained_statement_glosry.htm"
+keywords: ["do", "if", "try", "abenchained", "statement", "glosry"]
+---
 
 * * *
 

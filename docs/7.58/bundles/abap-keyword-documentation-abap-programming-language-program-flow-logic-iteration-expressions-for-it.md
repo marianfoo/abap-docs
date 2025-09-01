@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenfor.htm
 
-  
+---
+title: "FOR, Iteration Expressions"
+description: |
+  Syntax ... REDUCE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_reduce.htm) NEW(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_itab.htm) VALUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenval
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor.htm"
+abapFile: "abenfor.htm"
+keywords: ["loop", "do", "while", "if", "try", "data", "types", "internal-table", "abenfor"]
+---
 
 * * *
 
@@ -44,7 +54,17 @@ Continue
 
 ### abenfor_conditional.htm
 
-  
+---
+title: "FOR, Conditional Iteration"
+description: |
+  Syntax ... FOR var = rhs THEN expr UNTILWHILE log_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) ... Effect This syntax form of an iteration expression(https://h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm"
+abapFile: "abenfor_conditional.htm"
+keywords: ["insert", "loop", "do", "while", "if", "case", "try", "method", "data", "internal-table", "field-symbol", "abenfor", "conditional"]
+---
 
 * * *
 
@@ -107,7 +127,17 @@ Executable Examples
 
 ### abeniteration_expressions_abexas.htm
 
-  
+---
+title: "Examples of Iteration Expressions"
+description: |
+  -   Creating Values with FOR and REDUCE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_reduce_abexa.htm) -   Creating Tables Using FOR and VALUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_value_abexa.htm) -   Creating a Matrix Us
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm"
+abapFile: "abeniteration_expressions_abexas.htm"
+keywords: ["do", "if", "internal-table", "abeniteration", "expressions", "abexas"]
+---
 
 * * *
 
@@ -134,7 +164,17 @@ Continue
 
 ### abencond_iteration_reduce_abexa.htm
 
-  
+---
+title: "Creating Values with FOR and REDUCE"
+description: |
+  This example demonstrates conditional iterations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm) with the operator REDUCE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_reduce.htm). Source Code  Public class definition
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_reduce_abexa.htm"
+abapFile: "abencond_iteration_reduce_abexa.htm"
+keywords: ["do", "while", "if", "case", "method", "class", "data", "abencond", "iteration", "reduce", "abexa"]
+---
 
 * * *
 
@@ -194,7 +234,17 @@ This example demonstrates the following simple iterations, which can be used to 
 
 ### abencond_iteration_value_abexa.htm
 
-  
+---
+title: "Creating Tables Using FOR and VALUE"
+description: |
+  This example demonstrates conditional iterations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm) with the operator VALUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_value.htm). Source Code  Public class definition CL
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_value_abexa.htm"
+abapFile: "abencond_iteration_value_abexa.htm"
+keywords: ["do", "while", "if", "method", "class", "types", "internal-table", "abencond", "iteration", "value", "abexa"]
+---
 
 * * *
 
@@ -247,7 +297,17 @@ This example demonstrates the construction of internal tables using condition it
 
 ### abencond_iteration_matrix_abexa.htm
 
-  
+---
+title: "Creating a Matrix Using FOR and VALUE"
+description: |
+  This example demonstrates how a matrix is created using iterations. Source Code  Public class definition CLASS cl_demo_matrix DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. TYPES: t_column TYPE STANDARD TABLE OF string   WITH EMPTY KEY, t_rows   TYPE STANDA
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_matrix_abexa.htm"
+abapFile: "abencond_iteration_matrix_abexa.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abencond", "iteration", "matrix", "abexa"]
+---
 
 * * *
 
@@ -328,7 +388,17 @@ The lines and columns of a matrix are simulated using an internal table whose li
 
 ### abeninverse_itab_for_abexa.htm
 
-  
+---
+title: "Inverse Reads on Internal Table without STEP"
+description: |
+  This example demonstrates a table reduction(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_reduction_glosry.htm 'Glossary Entry') implemented by a conditional iteration. Source Code  Public class definition CLASS cl_demo_for_reverse_iteration DEFINITION INHERITING FROM
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninverse_itab_for_abexa.htm"
+abapFile: "abeninverse_itab_for_abexa.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "internal-table", "abeninverse", "itab", "for", "abexa"]
+---
 
 * * *
 
@@ -378,7 +448,17 @@ The example shows how an inverse [table iteration](https://help.sap.com/doc/abap
 
 ### abeniteration_expressions_abexas.htm
 
-  
+---
+title: "Examples of Iteration Expressions"
+description: |
+  -   Creating Values with FOR and REDUCE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_reduce_abexa.htm) -   Creating Tables Using FOR and VALUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_value_abexa.htm) -   Creating a Matrix Us
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm"
+abapFile: "abeniteration_expressions_abexas.htm"
+keywords: ["do", "if", "internal-table", "abeniteration", "expressions", "abexas"]
+---
 
 * * *
 

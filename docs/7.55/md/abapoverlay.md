@@ -1,4 +1,14 @@
-  
+---
+title: "OVERLAY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapoverlay_shortref.htm) Syntax OVERLAY text1 WITH text2 ONLY mask. Effect Characters in the variable text1 are replaced by the characters in the operand text2 that are in the same place there. text2 is a characte
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapoverlay.htm"
+abapFile: "abapoverlay.htm"
+keywords: ["do", "if", "case", "try", "data", "abapoverlay"]
+---
 
 * * *
 

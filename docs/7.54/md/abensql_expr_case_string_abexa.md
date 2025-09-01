@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Simple CASE"
+description: |
+  This example demonstrates simple case distinctions in SQL expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm). Source Code REPORT demo_sql_expr_case_string. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METH
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_case_string_abexa.htm"
+abapFile: "abensql_expr_case_string_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "method", "class", "data", "internal-table", "abensql", "expr", "string", "abexa"]
+---
 
 * * *
 

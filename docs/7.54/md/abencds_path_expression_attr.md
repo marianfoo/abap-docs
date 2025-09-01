@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  1: INNERLEFT OUTER WHERE  cond_expr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conditional_expression.htm)  ... Extras: 1. ... 1:(#!ABAP_ADDITION_1@1@) 2. ... INNERLEFT OUTER WHERE(#!ABAP
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_attr.htm"
+abapFile: "abencds_path_expression_attr.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "path", "expression", "attr"]
+---
 
 * * *
 

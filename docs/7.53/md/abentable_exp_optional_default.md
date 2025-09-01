@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... OPTIONALDEFAULT def ... Effect Specifies a default value for table rows not found. if the type of the result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_exp_result.htm) of a table expression table_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_exp_optional_default.htm"
+abapFile: "abentable_exp_optional_default.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "class", "data", "internal-table", "field-symbol", "abentable", "exp", "optional", "default"]
+---
 
 * * *
 

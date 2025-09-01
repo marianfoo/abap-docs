@@ -1,4 +1,14 @@
-  
+---
+title: "Delivery Class for Database Tables"
+description: |
+  The delivery class of a database table controls the transport of table data in installations, upgrades, or client copies, and in transports between customer systems. It is also applied in extended table maintenance (transaction code SM30). -   Delivery class A Application table for master data and t
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm"
+abapFile: "abenddic_database_tables_delivery.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "class", "data", "abenddic", "database", "tables", "delivery"]
+---
 
 * * *
 

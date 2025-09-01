@@ -1,4 +1,14 @@
-  
+---
+title: "cds_cond_expr_case_v1"
+description: |
+  cds_cond_expr_case_v1 - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_case_v1.htm"
+abapFile: "abencds_cond_expr_case_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "cond", "expr"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Table Builds Using Mesh Paths"
+description: |
+  This example demonstrates how a table is built using a mesh path. Source Code  Public class definition CLASS cl_demo_mesh_insrt_bld_table DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TYPES:
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_build_abexa.htm"
+abapFile: "abenmesh_build_abexa.htm"
+keywords: ["insert", "loop", "do", "if", "method", "class", "data", "types", "abenmesh", "build", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Pseudo Comments for Test Classes"
+description: |
+  Obsolete Syntax ... '#AU Risk_Level CriticalDangerousHarmless ... '#AU Duration ShortMediumLong Effect The string '#AU in the statement CLASS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass_definition.htm) with the addition FOR TESTING(https://help.sap.com/doc/a
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpseudo_comment_test_class.htm"
+abapFile: "abenpseudo_comment_test_class.htm"
+keywords: ["do", "if", "case", "try", "class", "abenpseudo", "comment", "test"]
+---
 
 * * *
 

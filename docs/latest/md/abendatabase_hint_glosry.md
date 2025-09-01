@@ -1,4 +1,14 @@
-  
+---
+title: "database_hint_glosry"
+description: |
+  database_hint_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_hint_glosry.htm"
+abapFile: "abendatabase_hint_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendatabase", "hint", "glosry"]
+---
 
 * * *
 

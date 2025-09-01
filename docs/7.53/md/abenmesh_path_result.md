@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Mesh Path Result"
+description: |
+  The mesh path result is a description of a set of rows in the last node path node of the expression. The result is used in statements and expressions for using mesh paths(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_usage.htm) (with one exception); either for navigating
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_result.htm"
+abapFile: "abenmesh_path_result.htm"
+keywords: ["loop", "do", "data", "abenmesh", "path", "result"]
+---
 
 * * *
 

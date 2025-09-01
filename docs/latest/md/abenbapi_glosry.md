@@ -1,4 +1,14 @@
-  
+---
+title: "BAPI"
+description: |
+  → Business Application Programming Interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_app_prog_inter_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbapi_glosry.htm"
+abapFile: "abenbapi_glosry.htm"
+keywords: ["do", "if", "try", "abenbapi", "glosry"]
+---
 
 * * *
 

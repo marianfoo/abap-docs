@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT REPORT - UNICODE ENABLING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_report_shortref.htm) Obsolete Syntax INSERT REPORT ... UNICODE ENABLING ... Effect The addition UNICODE ENABLING of the statement INSERT REPORT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapins
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_report_obsolete.htm"
+abapFile: "abapinsert_report_obsolete.htm"
+keywords: ["insert", "do", "if", "try", "abapinsert", "report", "obsolete"]
+---
 
 * * *
 

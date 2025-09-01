@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenldb_examples.htm
 
-  
+---
+title: "Logical Databases - Examples"
+description: |
+  -   Example of a logical database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_example.htm) -   Example of selection include(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_selections_example.htm) -   Example of a database program(https://help.sap.com/d
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_examples.htm"
+abapFile: "abenldb_examples.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "examples"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenldb_example.htm
 
-  
+---
+title: "Example of a Logical Database"
+description: |
+  This example demonstrates all significant components of the imaginary logical database TEST_LDB. -   Structure(#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2) -   Database Program(#abenldb-example-3---structure--lfa1------------lfb1---------------------
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_example.htm"
+abapFile: "abenldb_example.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abenldb", "example"]
+---
 
 * * *
 
@@ -47,72 +67,9 @@ Example of a Logical Database
 
 This example demonstrates all significant components of the imaginary logical database TEST\_LDB.
 
--   [Structure](#@@ITOC@@ABENLDB_EXAMPLE_1)
+-   [Structure](#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2)
 
--   [Selections in the Selection Include](#@@ITOC@@ABENLDB_EXAMPLE_2)
-
--   [Database Program](#@@ITOC@@ABENLDB_EXAMPLE_3)
-
-Structure
-
-LFA1
-  |
-  |----LFB1
-         |
-         |----LFC1
-         |
-         |----BKPF
-
-Selections in the Selection Include
-
-SELECT-OPTIONS: slifnr   FOR lfa1-lifnr,
-                sbukrs   FOR lfb1-bukrs,
-                sgjahr   FOR lfc1-gjahr,
-                sbelnr   FOR bkpf-belnr.
-
-Database Program
-
-\*-------------------------------------------------------\*
-\* DATABASE PROGRAM OF LOGICAL DATABASE TEST\_LDB
-\*-------------------------------------------------------\*
-PROGRAM sapdbtest\_ldb DEFINING DATABASE test\_ldb.
-NODES: lfa1,
-       lfb1,
-       lfc1,
-       bkpf.
-\*-------------------------------------------------------\*
-\* Initialize selection screen (processed before PBO)
-\*-------------------------------------------------------\*
-FORM init.
-....
-ENDFORM.
-\*-------------------------------------------------------\*
-\* PBO of selection screen
-\*-------------------------------------------------------\*
-FORM pbo.
-....
-ENDFORM.
-\*-------------------------------------------------------\*
-\* PAI of selection screen
-\*-------------------------------------------------------\*
-FORM pai USING fname mark.
-  CASE fname.
-    WHEN 'SLIFNR'.
-     ....
-    WHEN 'SBUKRS'.
-     ....
-    WHEN 'SGJAHR'.
-     ....
-    WHEN 'SBELNR'.
-     ....
-  ENDCASE.
-ENDFORM.
-\*-------------------------------------------------------\*
-\* Raise event GET lfa1
-\*-------------------------------------------------------\*
-FORM put\_lfa1.
-  SELECT \* FROM lfa1
-           WHERE lifnr IN @slifnr INTO @lfa1.
+-   [Database Program](#abenldb-example-3---structure--lfa1------------lfb1--------------------------lfc1--------------------------bkpf--selections-in-the-selection-include--select-options--slifnr---for-lfa1-lifnr------------------sbukrs---for-lfb1-bukrs------------------sgjahr---for-lfc1-gjahr------------------sbelnr---for-bkpf-belnr---database-program-----------------------------------------------------------------database-program-of-logical-database-test--ldb-------------------------------------------------------------program-sapdbtest--ldb-defining-database-test--ldb--nodes--lfa1---------lfb1---------lfc1---------bkpf-----------------------------------------------------------------initialize-selection-screen--processed-before-pbo--------------------------------------------------------------form-init-------endform-----------------------------------------------------------------pbo-of-selection-screen-------------------------------------------------------------form-pbo-------endform-----------------------------------------------------------------pai-of-selection-screen-------------------------------------------------------------form-pai-using-fname-mark----case-fname------when--slifnr-----------------when--sbukrs-----------------when--sgjahr-----------------when--sbelnr---------------endcase--endform-----------------------------------------------------------------raise-event-get-lfa1-------------------------------------------------------------form-put--lfa1----select----from-lfa1------------where-lifnr-in-slifnr INTO @lfa1.
     PUT lfa1.
   ENDSELECT.
 ENDFORM.
@@ -167,7 +124,17 @@ This program is only designed to demonstrates the principles of the structure of
 
 ### abenldb_selections_example.htm
 
-  
+---
+title: "Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 
@@ -235,7 +202,17 @@ A selection is made from the available selection criteria and is given a name. T
 
 ### abenldb_program_example.htm
 
-  
+---
+title: "Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 
@@ -416,7 +393,17 @@ The subroutines before\_event, after\_event, and put\_ldb\_sp are created as com
 
 ### abenreport_abexa.htm
 
-  
+---
+title: "Logical Database, Associated with a Program"
+description: |
+  This example demonstrates how a logical database is associated with an executable program. Source Code REPORT demo_report. NODES: spfli, sflight, sbook. DATA: weight       TYPE p LENGTH 8 DECIMALS 4, total_weight TYPE p LENGTH 8 DECIMALS 4. INITIALIZATION. carrid-sign = 'I'. carrid-option = 'EQ'.
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreport_abexa.htm"
+abapFile: "abenreport_abexa.htm"
+keywords: ["select", "do", "try", "data", "abenreport", "abexa"]
+---
 
 * * *
 
@@ -470,7 +457,17 @@ This example shows a typical report where the [logical database](https://help.sa
 
 ### abenlogical_database_abexa.htm
 
-  
+---
+title: "Logical Database, Call by Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 

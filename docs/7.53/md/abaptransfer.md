@@ -1,4 +1,14 @@
-  
+---
+title: "TRANSFER"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptransfer_shortref.htm) Syntax TRANSFER dobj TO dset LENGTH len NO END OF LINE. Extras: 1. ... LENGTH len(#!ABAP_ADDITION_1@1@) 2. ... NO END OF LINE(#!ABAP_ADDITION_2@2@) Effect This statement pass
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptransfer.htm"
+abapFile: "abaptransfer.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "data", "types", "field-symbol", "abaptransfer"]
+---
 
 * * *
 

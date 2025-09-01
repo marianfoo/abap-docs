@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED EXPONENT exp NO-GROUPI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 

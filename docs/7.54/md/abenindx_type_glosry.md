@@ -1,4 +1,14 @@
-  
+---
+title: "INDX-type tables"
+description: |
+  Obsolete name for export/import tables(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexport_import_table_glosry.htm 'Glossary Entry').
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenindx_type_glosry.htm"
+abapFile: "abenindx_type_glosry.htm"
+keywords: ["do", "try", "abenindx", "type", "glosry"]
+---
 
 * * *
 

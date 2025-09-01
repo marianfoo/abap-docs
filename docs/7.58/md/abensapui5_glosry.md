@@ -1,4 +1,14 @@
-  
+---
+title: "sapui5_glosry"
+description: |
+  sapui5_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensapui5_glosry.htm"
+abapFile: "abensapui5_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensapui5", "glosry"]
+---
 
 * * *
 

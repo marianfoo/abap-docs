@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_asxml_fragment DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS prepare_fragment RETURNING VALUE(xml) TYPE xstring. METHODS serialize IMPORTING source        TYPE any n
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenasxml_fragments_abexa.htm"
+abapFile: "abenasxml_fragments_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenasxml", "fragments", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Editor Calls"
+description: |
+  The following statements trigger calls of editors integrated into GUI windows(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengui_window_glosry.htm 'Glossary Entry'). -   EDITOR-CALL FOR itab.(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeditor-call_for_itab.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentexteditor.htm"
+abapFile: "abentexteditor.htm"
+keywords: ["do", "if", "try", "abentexteditor"]
+---
 
 * * *
 

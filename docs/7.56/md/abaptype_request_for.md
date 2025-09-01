@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE REQUEST FOR"
+description: |
+  Syntax ... REQUEST FOR   CHANGE  DELETE  bdef  ... Alternatives: 1. ... CHANGE bdef(#!ABAP_ALTERNATIVE_1@1@) 2. ... DELETE bdef(#!ABAP_ALTERNATIVE_2@2@) Effect A structured data type that is only used in the context of managed implementations with additional save(https://help.
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_request_for.htm"
+abapFile: "abaptype_request_for.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abaptype", "request", "for"]
+---
 
 * * *
 

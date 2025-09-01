@@ -1,4 +1,14 @@
-  
+---
+title: "table_filtering_glosry"
+description: |
+  table_filtering_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_filtering_glosry.htm"
+abapFile: "abentable_filtering_glosry.htm"
+keywords: ["do", "try", "internal-table", "abentable", "filtering", "glosry"]
+---
 
 * * *
 

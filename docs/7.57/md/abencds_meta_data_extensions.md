@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Metadata Extensions"
+description: |
+  A CDS metadata extension(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm 'Glossary Entry') (MDE) adds CDS annotations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_glosry.htm 'Glossary Entry') to a CDS entity(http
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_meta_data_extensions.htm"
+abapFile: "abencds_meta_data_extensions.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "meta", "extensions"]
+---
 
 * * *
 

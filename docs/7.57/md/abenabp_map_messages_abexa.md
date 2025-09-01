@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_UNMANAGED_MAP_MESSAGES, which represents the exposed RAP BO, and the foreign entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_foreign_entity_glosry.htm 'Glossary Entry') DEMO_UNMANAGED_FOREIGN_ENTITY, i. e. the RAP
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_map_messages_abexa.htm"
+abapFile: "abenabp_map_messages_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenabp", "map", "messages", "abexa"]
+---
 
 * * *
 

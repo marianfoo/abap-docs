@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, JOIN"
+description: |
+  Syntax ...  INNER cardinality JOIN  LEFT OUTER cardinality JOIN  RIGHT OUTER JOIN  CROSS JOIN  data_source(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_source_v2.htm) ON cds_cond(https://help.sap.com/doc/abapdocu_latest
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_joined_data_source_v2.htm"
+abapFile: "abencds_joined_data_source_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "joined", "source"]
+---
 
 * * *
 

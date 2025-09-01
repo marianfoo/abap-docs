@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Regular Expression Syntax"
+description: |
+  ABAP supports several syntax flavors(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_syntax.htm) for regular expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregular_expression_glosry.htm 'Glossary Entry'). Because of these, the POSIX syn
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregular_expressions_obsolete.htm"
+abapFile: "abenregular_expressions_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abenregular", "expressions", "obsolete"]
+---
 
 * * *
 

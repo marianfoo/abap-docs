@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...ALLEXISTS element =<>?=(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_cond_expression.htm) ASPECT user ... Variants: 1. ... ( element ) = ASPECT user_alias ...(#!ABAP_VARIANT_1@1@) 2. ... ( element ) = ASPECT user_business_partner_numb
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_user.htm"
+abapFile: "abencds_f1_cond_user.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "user"]
+---
 
 * * *
 

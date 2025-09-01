@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for API Providers(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm) C1 Contract Rules for API Consumers(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm"
+abapFile: "abenc1_compatibility_rules.htm"
+keywords: ["do", "try", "abenc1", "compatibility", "rules"]
+---
 
 * * *
 

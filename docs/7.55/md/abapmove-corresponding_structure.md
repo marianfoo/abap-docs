@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE-CORRESPONDING, structure"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove-corresponding_shortref.htm) Syntax MOVE-CORRESPONDING EXACT struc1 TO struc2 EXPANDING NESTED TABLES. Additions: 1. ... EXACT(#!ABAP_ADDITION_1@1@) 2. ... EXPANDING NESTED TABLES(#!ABAP_ADDITI
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove-corresponding_structure.htm"
+abapFile: "abapmove-corresponding_structure.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abapmove", "corresponding", "structure"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Analytical Scalar Functions"
+description: |
+  Analytical scalar functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ana_scalar_glosry.htm 'Glossary Entry') are scalar functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm 'Glossary Entry') that are evaluated
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ana_scalar_function.htm"
+abapFile: "abencds_ana_scalar_function.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "ana", "scalar", "function"]
+---
 
 * * *
 

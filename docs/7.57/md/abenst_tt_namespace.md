@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:namespace name='prefix'name=''/> Effect The ST statement tt.namespace declares an explicit namespace. By default, in serializations, namespace declarations are written to the resulting XML data only if the associated namespace prefix is used as part of the name in a literal XML element or att
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_namespace.htm"
+abapFile: "abenst_tt_namespace.htm"
+keywords: ["insert", "do", "if", "data", "abenst", "namespace"]
+---
 
 * * *
 

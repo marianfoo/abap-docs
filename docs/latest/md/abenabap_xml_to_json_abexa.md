@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Transformation of XML Data"
+description: |
+  Transforms XML data to JSON. Source Code REPORT demo_xml_to_json. cl_demo_xml_to_json=>main( ). Description This example demonstrates the transformation of XML data to JSON. This is achieved in CL_DEMO_XML_TO_JSON via token-based parsing of the XML data using methods of the sXML library
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_to_json_abexa.htm"
+abapFile: "abenabap_xml_to_json_abexa.htm"
+keywords: ["do", "if", "try", "method", "data", "abenabap", "xml", "json", "abexa"]
+---
 
 * * *
 

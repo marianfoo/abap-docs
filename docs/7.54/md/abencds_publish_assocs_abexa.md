@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Publishing CDS Associations"
+description: |
+  This example demonstrates how CDS associations are published(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_association.htm) in the SELECT list of a CDS view. Source Code REPORT demo_cds_publish_associations. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHOD
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_publish_assocs_abexa.htm"
+abapFile: "abencds_publish_assocs_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abencds", "publish", "assocs", "abexa"]
+---
 
 * * *
 

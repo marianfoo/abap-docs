@@ -1,4 +1,14 @@
-  
+---
+title: "client_dependence_glosry"
+description: |
+  client_dependence_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_dependence_glosry.htm"
+abapFile: "abenclient_dependence_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenclient", "dependence", "glosry"]
+---
 
 * * *
 

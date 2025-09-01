@@ -1,4 +1,14 @@
-  
+---
+title: "SET UPDATE TASK - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_update_task_local.htm) Syntax SET UPDATE TASK LOCAL. Effect Determines that update function modules(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenupdate_function_module_glosry.htm 'Glossary Entry') regi
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_update_task_shortref.htm"
+abapFile: "abapset_update_task_shortref.htm"
+keywords: ["update", "do", "try", "data", "abapset", "task", "shortref"]
+---
 
 * * *
 

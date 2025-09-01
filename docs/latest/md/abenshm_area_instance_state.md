@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - States of Area Instance Versions"
+description: |
+  Area instance versions can have the following states. -   Under Construction An area instance version that has a change lock(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_area_instance_locks.htm) is being built. Change locks automatically create a version under constructi
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_area_instance_state.htm"
+abapFile: "abenshm_area_instance_state.htm"
+keywords: ["update", "delete", "do", "if", "case", "method", "data", "abenshm", "area", "instance", "state"]
+---
 
 * * *
 

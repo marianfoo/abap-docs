@@ -1,4 +1,14 @@
-  
+---
+title: "Messages as Exception Texts"
+description: |
+  The exception texts of an exception class are usually defined by referencing messages(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm 'Glossary Entry') from the table T100(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_storing.htm).
+version: "7.52"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_texts_t100.htm"
+abapFile: "abenexception_texts_t100.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "exception-handling", "abenexception", "texts", "t100"]
+---
 
 * * *
 

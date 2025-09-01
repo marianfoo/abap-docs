@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Symmetry of Serialization and Deserialization"
+description: |
+  The language constructs of Simple Transformations support the formulation of reversible transformations, that is, of programs that provide the original values in the execution order serialization - deserialization (or vice versa). However, it is also possible to write programs that cannot be reverse
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_symmetry.htm"
+abapFile: "abenst_symmetry.htm"
+keywords: ["do", "while", "if", "try", "data", "abenst", "symmetry"]
+---
 
 * * *
 

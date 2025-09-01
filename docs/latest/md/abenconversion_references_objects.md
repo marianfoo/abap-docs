@@ -1,4 +1,14 @@
-  
+---
+title: "Assignments Between Object Reference Variables"
+description: |
+  Object reference variables are either class references or interface reference variables. -   Upcast in Object References(#abenconversion-references-objects-1-------downcast-in-object-references---@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2) Upcast in Object References An upcast(https://help.sap.c
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_references_objects.htm"
+abapFile: "abenconversion_references_objects.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenconversion", "references", "objects"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ Assignments Between Object Reference Variables
 
 Object reference variables are either class references or interface reference variables.
 
--   [Upcast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_1)
--   [Downcast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
+-   [Upcast in Object References](#abenconversion-references-objects-1-------downcast-in-object-references---@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
 
 Upcast in Object References   
 

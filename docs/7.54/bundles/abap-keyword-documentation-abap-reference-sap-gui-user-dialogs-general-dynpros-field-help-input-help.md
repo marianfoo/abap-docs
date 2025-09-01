@@ -1,392 +1,21 @@
-# ABAP Keyword Documentation / ABAP − Reference / SAP GUI User Dialogs / General Dynpros / Field Help, Input Help, and Dropdown List Boxes
+# ABAP Keyword Documentation / ABAP − Reference / SAP GUI User Dialogs / General Dynpros / Field Help, Input Help, and Dropdown List Boxes / Field Helps, Input Helps, and Dropdown List Boxes - Examples
 
-Included pages: 15
-
-
-### abenabap_dynpros_help.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) → 
-
-Field Help, Input Help, and Dropdown List Boxes
-
-The field help (F1) and input help (F4) are standard functions. No other function codes can be associated with the function keys F1 and F4.
-
--   When the function key F1 or the corresponding icon on the toolbar is chosen, a help text is displayed for the field with the cursor.
-
--   When the function key F4 or the input help button on the right of a screen field is chosen, all possible input values for the field with the cursor are displayed. The user can then choose one or more values, which are then entered in the screen field.
-
-There are various ways of providing field help and input help, some of which involve predefined ABAP Dictionary functions and some which require self-programmed solutions.
-
-One special way to display value list, for example, are dropdown list boxes.
-
--   [Field help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_field_help.htm)
-
--   [Input help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm)
-
--   [Dropdown list boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_listbox.htm)
-
-Continue
-[Field Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_field_help.htm)
-[Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm)
-[Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_listbox.htm)
-[Field Helps, Input Helps, and Dropdown List Boxes - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_help_abexas.htm)
-
-
-### abenabap_dynpros_field_help.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) → 
-
-Field Help
-
-There are three ways of displaying field help for screen elements on dynpros:
-
--   [Displaying the Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_1)
-
--   [Displaying the Supplement Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2)
-
--   [Calling Help Texts in Dialog Modules](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_3)
-
-Displaying the Documentation of the Data Element
-
-If a screen element in Screen Painter was defined by taking a field from ABAP Dictionary, the [documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_data_elements_sema.htm) of the associated data element is displayed automatically when the F1 help is selected for this field (unless this step is overridden in the dynpro flow logic).
-
-Displaying the Supplement Documentation of the Data Element
-
-The documentation of some data elements has additional [supplement documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_data_elements_sema.htm). Supplement documentation for a dynpro field is created in Screen Painter and not in ABAP Dictionary in ABAP Workbench. Here, the supplement documentation is defined for the data element using a number.
-
-Supplement documentation of this type is specific to a program and to a dynpro. Any supplement documentation with the same number defined in ABAP Dictionary is overridden by any dynpro-specific supplement documentation. Supplement documentation defined in ABAP Dictionary can still be associated with a dynpro field in table THLPF. This requires a new row in table THLPF containing the program name, dynpro number, field name, and the number of the supplement documentation.
-
-To be able to display the supplement documentation, the dynpro flow logic must respond to the POH event as follows:
-
-PROCESS ON HELP-REQUEST.
-...
-  [FIELD field \[MODULE mod\] WITH hlp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_help.htm).
-  ...
-
-Only [FIELD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield.htm) statements are allowed after [PROCESS ON HELP-REQUEST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpprocess.htm). If the flow logic of a dynpro does not contain the event keyword PROCESS ON HELP-REQUEST, F1 displays either the data element documentation of the field with the cursor or no help documentation is displayed. In other cases, the following FIELD statement is executed whose field field has the cursor.
-
-If dynpro-specific supplement documentation exists for the field field, this is displayed by its number hlp being specified. A variable hlp can be filled before the help is displayed, for example, by calling the dialog module mod. At the event PROCESS ON HELP-REQUEST, the FIELD statement does not, however, transport the content of the dynpro field field to the ABAP program.
-
-Calling Help Texts in Dialog Modules
-
-Any help text can be displayed by calling dialog modules at POH:
-
-PROCESS ON HELP-REQUEST.
-  ...
-  [FIELD field MODULE mod.](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_help.htm)
-  ...
-
-After [PROCESS ON HELP-REQUEST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpprocess.htm), the MODULE statement can only be used in combination with the FIELD statement. When F1 is selected, the dialog module mod of the FIELD statement whose field field has the cursor. If multiple FIELD statements are specified for the same field field, only the first statement is executed. The dialog module mod does not provide the content of the dynpro field field, since this content is not transported by the FIELD statement at PROCESS ON HELP-REQUEST time.
-
-The dialog module mod is defined like a regular PAI module in the ABAP program. The processing logic of the module must ensure that adequate help is displayed for the field in question. Function modules such as HELP\_OBJECT\_SHOW\_FOR\_FIELD or HELP\_OBJECT\_SHOW can be used to do this.
-
-Executable Example
-
-[Field Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f1_help_abexa.htm)
-
-
-### abenabap_dynpros_value_help.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) → 
-
-Input Help
-
-Dynpros use input helps to support interactive input. This can be done in three different ways.
-
--   [Input helps from ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_auto.htm)
-
-The associated [search help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry") is provided automatically for dynpro fields from ABAP Dictionary. If a field has no search help defined, ABAP Dictionary still offers the content of a check table, the fixed values of the underlying domain, or static calendar help or clock help.
-
--   [Input helps on the dynpro](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_dynp.htm)
-
-ABAP Dictionary search helps can be associated with individual dynpro fields.
-
--   [Input helps in dialog modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_mod.htm)
-
-In dynpro flow logic, dialog modules providing self-programmed input help can be called at POV time.
-
-These three options are ordered by priority. If you use more than one technique at the same time, the POV module calls override any definition on the dynpro, which in turn overrides the binding to ABAP Dictionary.
-
-These three options should, however, be applied in the given order. If possible, a search help from ABAP Dictionary should always be defined for the input help and input help should only be defined in dialog modules if no other option is available. In particular, you should consider using a search help exit to enhance a search help before writing your own dialog modules.
-
-Continue
-[Input Helps from ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_auto.htm)
-[Input Helps on Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_dynp.htm)
-[Input Help in Dialog Modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_mod.htm)
-
-
-### abenabap_dynpros_value_help_auto.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) →  [Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm) → 
-
-Input Helps from ABAP Dictionary
-
-The primary input helps used in ABAP Dictionary are [search helps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry"). A search help is a standalone [repository object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_object_glosry.htm "Glossary Entry") used specifically to provide input helps on screen fields. Search helps can be associated with table fields and data elements. The content of [check tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencheck_table_glosry.htm "Glossary Entry"), [fixed values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfixed_value_glosry.htm "Glossary Entry"), or calendar helps and clock helps can be used instead of search helps.
-
--   [Overview of ABAP Dictionary Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_1)
-
--   [Hierarchy of the Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_2)
-
--   [Data Transport of Search Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_3)
-
--   [Search Help Exits](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_4)
-
-Overview of ABAP Dictionary Input Helps
-
--   Search helps
-
-There are two kinds of search helps: elementary and collective. An elementary search help represents a search path and defines the source of the data in the proposal list, how data is transported between the screen and the infrastructure, and how the input help dialog is designed. A collective search help comprises multiple elementary search helps. A collective search help combines all the search paths that are meaningful for a field.
-
--   Check tables
-
-In the case of [foreign key relationships](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry") defined in ABAP Dictionary, the key fields of the check table can be used as an input help for a [foreign key field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") used as a dynpro field.
-
--   Fixed values
-
-The [fixed values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfixed_value_glosry.htm "Glossary Entry") of a domain can be used as an input help for dynpro fields that reference the domain in question. The [value table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_table_glosry.htm "Glossary Entry") of a domain, on the other hand, cannot be used for input helps.
-
--   Calendar helps and clock helps
-
-Predefined calendar helps and clock helps are available for use as input helps for fields of the type DATS and TIMS.
-
-Hierarchy of the Input Helps
-
-Search helps can be bound in various ways to fields of database tables or components of ABAP Dictionary structures. The input help available to a user depends on the way a search help is bound. The following list shows, in ascending order of priority, the input help used:
-
--   Calendar helps and clock helps
-
-If no other input helps are defined for fields of the type DATS or TIMS, the calendar help or clock help is used.
-
--   Fixed values
-
-If no check table or search help is defined for a field, any fixed values of the domain are used for the input help.
-
--   Search help of the data element
-
-If no check table or search help is defined for a field, the search help associated with the data element of the field is used.
-
--   Check table
-
-If the check table of a field does not have a [text table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_table_glosry.htm "Glossary Entry") and does not have its own search help, and no dedicated search help is specified for a field, the content of the key fields of the check table are used as an input help.
-
--   Check table with text table
-
-If the [foreign key table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_table_glosry.htm "Glossary Entry") of the check table of the fields is a [text table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_table_glosry.htm "Glossary Entry"), the associated text from the text table is displayed in the input help in the logon language of the user.
-
--   Check table with search help
-
-If a search help is bound to the check table of a field, the search help is used with the values from the check table, but also enables a data transport of multiple parameters.
-
--   Search help of the field
-
-If the dynpro field is defined with reference to a field of a structure or a database table and a search help is associated with this field directly, this binding has the highest priority and is always used as an input help. To avoid errors in the [automatic input check](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks_auto.htm), the bound search help should only propose values that also exist in a check table.
-
-If necessary, the input help is modified using methods of [flagging obsolete data in check tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm).
-
-Data Transport of Search Helps
-
-Search helps have an interface (a search help parameter) that defines which input is respected by the screen and which screen fields can be filled with data from the row chosen in the proposal list. Parameters of a search help can be defined as import and export parameters. A parameter can be both an input and an export parameter at the same time.
-
-When the input help is called, data is transported between the dynpro fields and the import parameters of the search help. If a search help is bound to a data element or directly to a screen of the dynpro, only a single search help parameter is associated with the field. In this case, data is transported only between the field and this parameter. If the search help is bound to the table field or structure field or to the check table of the field, it may be necessary to fill multiple search help parameters. When the input help is called, an attempt is made to find an identically named field for each import parameter of the search help that is associated with a table field or structure field. If an appropriate field is found, its content is passed to the search help parameter.
-
-When a row in the proposal list of the search help is selected, data is transported between the export parameters of the search help and the associated dynpro fields. The values of the proposal list are passed only to input-enabled fields and to fields that are associated with only a single export parameter of the search help.
-
-Search Help Exits
-
-A search help exit can be used to modify the standard way an input help for a field works. A search help exit is a function module with a predefined interface and can be called at defined points within the input help process. A search help exit can be programmed to modify the program flow of the search help or replace certain steps.
-
-The function module can modify data such as the properties of the search helps, the selection options that apply when selecting from the proposal list, the proposal list itself, or the next step in the program flow.
-
-Each search help exit must have the same interface as the function module F4IF\_SHLP\_EXIT\_EXAMPLE, which is used as a pattern for any new search exits. Further optional parameters can also be defined, such as any number of export parameters. For more information, see the documentation for this function module.
-
-If a search help exit is associated with a search help, it is called by the help processor at the following events. These events are points where user actions are permitted and it makes sense for the user to respond:
-
--   Before the dialog box with a search path selection is displayed.
-
-SELONE event (only in collective search helps). The search help exit can be used here, for example, to restrict which search helps are available. This is the only event in which the search help exit is called for collective search helps. All other events call the search help exit for the selected elementary search help.
-
--   After an elementary search help is selected.
-
-PRESEL1 event. This is when the binding of the search help to the dynpro can be modified, for example by associating search help parameters with dynpro fields.
-
--   Before the dialog box for entering conditions is displayed.
-
-PRESEL event. This is when the default content of the dialog box can be modified (or the dialog box hidden).
-
--   Before the data selection.
-
-SELECT time. The selection of values can be passed from the search help exit, in part or in full.
-
--   Before displaying the proposal list.
-
-DISP event. This is when the proposal list display can be modified by the search help exit. This makes it possible, for example, to hide certain entries or fields of a table from the user depending on the user’s authorizations.
-
--   Before the values chosen by the user are passed to the screen.
-
-RETURN event. It may be useful to modify the further program flow here in response to which value is chosen.
-
-Some requirements made on search helps occur repeatedly. One example is the option of specifying a search help dynamically at POH time. Cases like this are covered by default function modules that are used either directly as search help exits or that can be called in search help exits. These function modules are prefixed with F4UT\_.
-
-Executable Example
-
-[Input Helps from ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dic_abexa.htm)
-
-
-### abenabap_dynpros_value_help_dynp.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) →  [Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm) → 
-
-Input Helps on Dynpros
-
-An ABAP Dictionary [search help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry") can be bound directly to a dynpro field. Here, the first parameter of the search help is associated with the dynpro field. Only values from the proposal list of the screen can be transported.
-
-Note
-
-Obsolete input helps on dynpros are possible using the additions [VALUES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield_value_select.htm) and [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield_value_select.htm) of the dynpro logic statement [FIELD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield.htm).
-
-
-### abenabap_dynpros_value_help_mod.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) →  [Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm) → 
-
-Input Help in Dialog Modules
-
-To define input helps in dialog modules, dialog modules can be called at POV time:
-
-PROCESS ON VALUE-REQUEST.
-  ...
-  FIELD field MODULE mod.
-  ...
-
-After [PROCESS ON VALUE-REQUEST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpprocess.htm), the MODULE statement can only be used in combination with the FIELD statement. When F4 is selected, the dialog module mod of the FIELD statement whose field field has the cursor. If multiple FIELD statements are specified for the same field field, only the first statement is executed. The dialog module mod does not provide the content of the dynpro field field, since this content is not transported by the FIELD statement at PROCESS ON HELP-REQUEST time. If the recommended [search helps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry") and search help exits do not meet requirements, proposal lists for the input help can be programmed in this dialog module.
-
-Function modules are available here that support both search helps and all other types of input help, and which also transport data between the dynpro and the ABAP program. These function modules are prefixed with F4IF\_. The most important are:
-
--   F4IF\_FIELD\_VALUE\_REQUEST
-
-Calls the input help in ABAP Dictionary dynamically. The import parameters TABNAME and FIELDNAME can be used to pass the name of the component of a structure or database in ABAP Dictionary to the function module. The ABAP Dictionary input help defined for this component is called. All of the relevant dynpro fields are read. Any fields selected from the proposal list are either passed to the relevant input-enabled screen fields, if the import parameters DYNPPROG, DYNPNR, and DYNPROFIELD are specified, or passed back in the table parameter RETURN\_TAB.
-
--   F4IF\_INT\_TABLE\_VALUE\_REQUEST
-
-This function module displays a proposal list created in the ABAP program. This list is passed to the function module in the table parameter VALUE\_TAB. The selection of the user is either passed to the relevant input-enabled screen fields, if the import parameters DYNPPROG, DYNPNR, and DYNPROFIELD are specified, or passed back in the table parameter RETURN\_TAB.
-
-The additional function modules DYNP\_VALUES\_READ and DYNP\_VALUES\_UPDATE read and return dynpro fields at POV time. For further information, refer to the relevant function module documentation.
-
-Executable Example
-
-[Input Helps in Dialog Modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dial_abexa.htm)
-
-
-### abenabap_dynpros_value_help.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) → 
-
-Input Help
-
-Dynpros use input helps to support interactive input. This can be done in three different ways.
-
--   [Input helps from ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_auto.htm)
-
-The associated [search help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry") is provided automatically for dynpro fields from ABAP Dictionary. If a field has no search help defined, ABAP Dictionary still offers the content of a check table, the fixed values of the underlying domain, or static calendar help or clock help.
-
--   [Input helps on the dynpro](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_dynp.htm)
-
-ABAP Dictionary search helps can be associated with individual dynpro fields.
-
--   [Input helps in dialog modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_mod.htm)
-
-In dynpro flow logic, dialog modules providing self-programmed input help can be called at POV time.
-
-These three options are ordered by priority. If you use more than one technique at the same time, the POV module calls override any definition on the dynpro, which in turn overrides the binding to ABAP Dictionary.
-
-These three options should, however, be applied in the given order. If possible, a search help from ABAP Dictionary should always be defined for the input help and input help should only be defined in dialog modules if no other option is available. In particular, you should consider using a search help exit to enhance a search help before writing your own dialog modules.
-
-Continue
-[Input Helps from ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_auto.htm)
-[Input Helps on Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_dynp.htm)
-[Input Help in Dialog Modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_mod.htm)
-
-
-### abenabap_dynpros_listbox.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) → 
-
-Dropdown List Boxes
-
-[Dropdown list boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendropdown_listbox_glosry.htm "Glossary Entry"), which contain a predefined set of proposal values, can be defined for input/output fields on dynpros. It is not possible to enter a value in this type of input field and a value must be chosen from the proposal list instead. If a dropdown list box is associated with a field, the input help key (F4) cannot be used.
-
-A dropdown list box is a single-column list of text fields with a maximum length of 80 characters. Internally, each text field is associated with a key of up to 40 characters. When the user selects a row, the content of the text field is entered in the input field on the screen and the content of the key is passed to the dynpro field. This means that the content and length of the screen field and dynpro field are not generally identical.
-
-If a function code is associated with an input/output field with a dropdown list box, selecting a value triggers PAI immediately and the function code is passed to the fields sy-ucomm and the OK field. If no function code is associated, PAI must be triggered as usual using a different screen element.
-
-If a dropdown list box is associated with an input/output field, the attribute Value List of the screen element can be used to define how the texts in the dropdown list box are created. There are two options:
-
--   Value list from the input help (recommended)
-
-If the attribute Value List is empty, the text field of the dropdown list box takes the first column of the [input help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm) associated with the screen field. This input help should have two columns. The key of the dropdown list box is filled automatically from the second column.
-
--   Value list from PBO modules (not recommended)
-
-If the attribute Value List has the value "A", the value list must be filled using the function module VRM\_SET\_VALUES before the screen is sent. This is done by passing an internal table of the type VRM\_VALUES of the type group VRM to the import parameterVALUES of the function module. The row type is a structure consisting of two text fields, KEY and TEXT, with a length of 40 or 80 characters respectively. The table rows can combine values in the component KEY with any texts in the component TEXT. The associated input/output field is passed to the import parameter ID.
-
-Executable Examples
-
--   [List Box with Value List from Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop1_abexa.htm)
-
--   [List Box with Value List from PBO Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop2_abexa.htm)
+Included pages: 6
 
 
 ### abeninput_help_abexas.htm
 
-  
+---
+title: "Field Helps, Input Helps, and Dropdown List Boxes - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Field Help(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f1_help_abexa.htm) !Example(exa.gif 'Example') Dynpros, Input Help from ABAP Dictionary(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dic_abex
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_help_abexas.htm"
+abapFile: "abeninput_help_abexas.htm"
+keywords: ["do", "if", "abeninput", "help", "abexas"]
+---
 
 * * *
 
@@ -406,7 +35,17 @@ Continue
 
 ### abendynpro_f1_help_abexa.htm
 
-  
+---
+title: "Dynpros, Field Help"
+description: |
+  This example demonstrates how a field help is implemented on dynpros. Source Code REPORT demo_dynpro_f1_help. DATA:  text     TYPE c LENGTH 30, docu_num TYPE c LENGTH 4, int      TYPE i, links    TYPE TABLE OF tline, field5   TYPE c LENGTH 10, field6   TYPE c LENGTH 10. TABLES demof1help. text =
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f1_help_abexa.htm"
+abapFile: "abendynpro_f1_help_abexa.htm"
+keywords: ["do", "if", "case", "class", "data", "abendynpro", "help", "abexa"]
+---
 
 * * *
 
@@ -489,7 +128,17 @@ The components FIELD1 through FIELD4 of the structure DEMOF1HELP refer to the da
 
 ### abendynpro_f4_help_dic_abexa.htm
 
-  
+---
+title: "Dynpros, Input Help from ABAP Dictionary"
+description: |
+  This example demonstrates how input helps from ABAP Dictionary can be used. Source Code REPORT demo_dynpro_f4_help_dictionary. TABLES demof4help. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. Description The static next dynpro number of dynpro 100 is 100. The input fields are a
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dic_abexa.htm"
+abapFile: "abendynpro_f4_help_dic_abexa.htm"
+keywords: ["select", "do", "if", "data", "types", "abendynpro", "help", "dic", "abexa"]
+---
 
 * * *
 
@@ -527,7 +176,17 @@ The static next dynpro number of dynpro 100 is 100. The input fields are assigne
 
 ### abendynpro_f4_help_dial_abexa.htm
 
-  
+---
+title: "Dynpros, Input Help in Dialog Modules"
+description: |
+  This example demonstrates how input helps can be implemented in dialog modules. Source Code REPORT demo_dynpro_f4_help_module . TYPES: BEGIN OF values, carrid TYPE spfli-carrid, connid TYPE spfli-connid, END OF values. DATA: carrier(3) TYPE c, connection(4) TYPE c. DATA: progname TYPE sy-repid,
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dial_abexa.htm"
+abapFile: "abendynpro_f4_help_dial_abexa.htm"
+keywords: ["select", "do", "if", "data", "types", "internal-table", "abendynpro", "help", "dial", "abexa"]
+---
 
 * * *
 
@@ -618,7 +277,17 @@ When selecting the F4 help for the individual fields, the user is shown the foll
 
 ### abendynpro_drop1_abexa.htm
 
-  
+---
+title: "Dynpros, List Box with Value List from Input Help"
+description: |
+  This example demonstrates the recommended way to enable a dropdown list box. Source Code &--------------------------------------------------------------------- & Report  DEMO_DROPDOWN_LIST_BOX                                       &-------------------------------------------------------
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop1_abexa.htm"
+abapFile: "abendynpro_drop1_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abendynpro", "drop1", "abexa"]
+---
 
 * * *
 
@@ -708,7 +377,17 @@ When the user chooses a line in the list box, the PAI event is triggered using t
 
 ### abendynpro_drop2_abexa.htm
 
-  
+---
+title: "Dynpros, List Box with Value List from PBO Module"
+description: |
+  This example demonstrates a non-recommended way to enable a dropdown list box. Source Code REPORT demo_dynpro_dropdown_listbox. DATA: name  TYPE vrm_id, list  TYPE vrm_values, value LIKE LINE OF list. DATA: wa_spfli TYPE spfli, ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. TABLES demof4help.
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop2_abexa.htm"
+abapFile: "abendynpro_drop2_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abendynpro", "drop2", "abexa"]
+---
 
 * * *
 
@@ -796,23 +475,3 @@ PROCESS AFTER INPUT.
 The user is not allowed to enter values in the screen fields. When selecting the input field on dynpro 100, the user sees a value list in the list box derived from the input help of the DEMOF4HELP-CARRIER2 field. In this case, this is the search help H\_SCARR assigned to the SCARR check table in ABAP Dictionary. The value list contains the names of the airlines. When the user selects an entry, the dynpro field is filled with the ID of the airline, and the event PAI is triggered. The module user\_command\_100 checks the OK field and calls dynpro 200.
 
 At the PBO event of dynpro 200, the system fills an internal table called list with values from database table SPFLI. The key component is filled with the flight numbers, and other relevant information is placed in the text field. The list table is passed to the VRM\_SET\_VALUES function module. When the user chooses the input field on dynpro 200, the text column of the internal table is displayed in the list box. When the user selects an entry, the dynpro field is filled with the associated entry from the key column, and the event PAI is triggered. The module user\_command\_200 checks and processes the OK field.
-
-
-### abeninput_help_abexas.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) → 
-
-Field Helps, Input Helps, and Dropdown List Boxes - Examples
-
-Continue
-![Example](exa.gif "Example") [Dynpros, Field Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f1_help_abexa.htm)
-![Example](exa.gif "Example") [Dynpros, Input Help from ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dic_abexa.htm)
-![Example](exa.gif "Example") [Dynpros, Input Help in Dialog Modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dial_abexa.htm)
-![Example](exa.gif "Example") [Dynpros, List Box with Value List from Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop1_abexa.htm)
-![Example](exa.gif "Example") [Dynpros, List Box with Value List from PBO Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop2_abexa.htm)

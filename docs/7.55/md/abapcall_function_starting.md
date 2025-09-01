@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION STARTING NEW TASK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_shortref.htm) Syntax CALL FUNCTION func STARTING NEW TASK task DESTINATION destIN GROUP groupDEFAULT CALLING methPERFORMING subr ON END OF TASK param
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_starting.htm"
+abapFile: "abapcall_function_starting.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "abapcall", "function", "starting"]
+---
 
 * * *
 

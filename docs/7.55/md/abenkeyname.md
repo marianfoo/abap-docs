@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... key_name  (name)  ... Effect The name of a table key can either be specified directly, as key_name, or dynamically, as the contents of a parenthesized character-like data object name. This is not case-sensitive. If the name is specified directly, it must be known statically that the interna
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenkeyname.htm"
+abapFile: "abenkeyname.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abenkeyname"]
+---
 
 * * *
 

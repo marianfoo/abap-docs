@@ -1,4 +1,14 @@
-  
+---
+title: "Branches"
+description: |
+  This section describes the branches defined using the following: -   IF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm) -   CASE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm) -   CASE TYPE OF(https://help.sap.com/doc/abapdocu_latest_i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm"
+abapFile: "abenabap_branches.htm"
+keywords: ["do", "if", "case", "try", "types", "internal-table", "exception-handling", "abenabap", "branches"]
+---
 
 * * *
 

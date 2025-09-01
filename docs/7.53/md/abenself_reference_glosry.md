@@ -1,4 +1,14 @@
-  
+---
+title: "self_reference_glosry"
+description: |
+  self_reference_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenself_reference_glosry.htm"
+abapFile: "abenself_reference_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenself", "reference", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Creating a Matrix Using FOR and VALUE"
+description: |
+  This example demonstrates how a matrix is created using iterations. Source Code REPORT demo_matrix. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: t_column TYPE STANDARD TABLE OF string   WITH EMPTY KEY, t_rows   TYPE STANDARD TABLE OF t_column WITH EMPTY KEY. CLASS-METHODS: main. PRIVATE SECTION
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencond_iteration_matrix_abexa.htm"
+abapFile: "abencond_iteration_matrix_abexa.htm"
+keywords: ["select", "loop", "do", "try", "catch", "method", "class", "data", "types", "internal-table", "abencond", "iteration", "matrix", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... (meth_name)  oref->(meth_name)  class=>(meth_name)  (class_name)=>(meth_name)  (class_name)=>meth ... Extras: 1. ... (meth_name) ...(#!ABAP_ADDITION_1@1@) 2. ... (class_name) ...(#!ABAP_ADDITION_2@2@) Alternatives: 1. ... (meth_name) ...(#!ABAP_ALTERNATIVE_1@1@) 2
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_meth_ident_dyna.htm"
+abapFile: "abapcall_method_meth_ident_dyna.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abapcall", "meth", "ident", "dyna"]
+---
 
 * * *
 

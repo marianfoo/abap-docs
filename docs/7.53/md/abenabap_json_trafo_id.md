@@ -1,4 +1,14 @@
-  
+---
+title: "Identity Transformation for JSON"
+description: |
+  The predefined identity transformation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_id.htm) ID is executed internally so that all requirements for JSON transformations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos.htm) are met. The fo
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafo_id.htm"
+abapFile: "abenabap_json_trafo_id.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "json", "trafo"]
+---
 
 * * *
 

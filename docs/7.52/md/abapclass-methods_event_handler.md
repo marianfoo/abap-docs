@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS - FOR EVENT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-methods_shortref.htm) Syntax CLASS-METHODS meth DEFAULT IGNOREFAIL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_default.htm) FOR EVENT evt OF classintf IMPORTING
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-methods_event_handler.htm"
+abapFile: "abapclass-methods_event_handler.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapclass", "methods", "event", "handler"]
+---
 
 * * *
 

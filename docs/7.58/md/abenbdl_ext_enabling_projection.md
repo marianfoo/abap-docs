@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Extensibility Enabling for Projection BDEFs"
+description: |
+  Syntax projection(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_impl_type.htm) strict(version)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_strict.htm); extensible(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensible.h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_ext_enabling_projection.htm"
+abapFile: "abenbdl_ext_enabling_projection.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenbdl", "ext", "enabling", "projection"]
+---
 
 * * *
 

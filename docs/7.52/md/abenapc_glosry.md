@@ -1,4 +1,14 @@
-  
+---
+title: "APC"
+description: |
+  → ABAP push channels(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_push_channels_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_glosry.htm"
+abapFile: "abenapc_glosry.htm"
+keywords: ["do", "try", "abenapc", "glosry"]
+---
 
 * * *
 

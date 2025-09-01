@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_select_ovr_win_frm_spe DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_select_ovr_win_frm_spe IMPLEMENTATION. METHOD main. DELETE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_expr_over_win_frame_abexa.htm"
+abapFile: "abensql_expr_over_win_frame_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abensql", "expr", "over", "win", "frame", "abexa"]
+---
 
 * * *
 

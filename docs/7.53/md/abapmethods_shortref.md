@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods.htm) Syntax METHODS meth ABSTRACTFINAL DEFAULT IGNOREFAIL FOR EVENT evt OF classintf AMDP OPTIONS READ-ONLY CDS SESSION CLIENT clntCURRENT  IMPORT
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_shortref.htm"
+abapFile: "abapmethods_shortref.htm"
+keywords: ["do", "try", "method", "class", "types", "abapmethods", "shortref"]
+---
 
 * * *
 

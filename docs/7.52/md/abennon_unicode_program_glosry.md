@@ -1,4 +1,14 @@
-  
+---
+title: "non_unicode_program_glosry"
+description: |
+  non_unicode_program_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_program_glosry.htm"
+abapFile: "abennon_unicode_program_glosry.htm"
+keywords: ["do", "try", "abennon", "unicode", "program", "glosry"]
+---
 
 * * *
 

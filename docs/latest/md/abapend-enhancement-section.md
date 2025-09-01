@@ -1,4 +1,14 @@
-  
+---
+title: "END-ENHANCEMENT-SECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapenhancement-section_shortref.htm) Syntax END-ENHANCEMENT-SECTION. Effect The statement END-ENHANCEMENT-SECTION ends an enhancement option(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenhanc
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-enhancement-section.htm"
+abapFile: "abapend-enhancement-section.htm"
+keywords: ["do", "if", "try", "abapend", "enhancement", "section"]
+---
 
 * * *
 

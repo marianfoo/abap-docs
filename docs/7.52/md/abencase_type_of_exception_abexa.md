@@ -1,4 +1,14 @@
-  
+---
+title: "Case Distinction CASE TYPE OF for Exceptions"
+description: |
+  This example demonstrates the case distinction CASE TYPE OF(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcase_type.htm) for exception classes. Source Code REPORT demo_case_type_of_exception. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DAT
+version: "7.52"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencase_type_of_exception_abexa.htm"
+abapFile: "abencase_type_of_exception_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abencase", "type", "exception", "abexa"]
+---
 
 * * *
 

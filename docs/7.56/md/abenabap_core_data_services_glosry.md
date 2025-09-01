@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Core Data Services"
+description: |
+  ABAP CDS for short. The ABAP Core Data Services implement the general CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_glosry.htm 'Glossary Entry') concept for AS ABAP(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm 'Glossary Entry'). They
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_core_data_services_glosry.htm"
+abapFile: "abenabap_core_data_services_glosry.htm"
+keywords: ["do", "try", "data", "abenabap", "core", "services", "glosry"]
+---
 
 * * *
 

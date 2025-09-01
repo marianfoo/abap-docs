@@ -1,4 +1,14 @@
-  
+---
+title: "batch_session_glosry"
+description: |
+  batch_session_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbatch_session_glosry.htm"
+abapFile: "abenbatch_session_glosry.htm"
+keywords: ["do", "if", "try", "abenbatch", "session", "glosry"]
+---
 
 * * *
 

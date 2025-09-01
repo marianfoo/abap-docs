@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_env_sett. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: num     TYPE p DECIMALS 2, date    TYPE d, time    TYPE t, utclong TYPE utclong, tstamp  TYPE timestamp, BEGIN OF country, key  TYPE t005x-land
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_template_user_abexa.htm"
+abapFile: "abenstring_template_user_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenstring", "template", "user", "abexa"]
+---
 
 * * *
 

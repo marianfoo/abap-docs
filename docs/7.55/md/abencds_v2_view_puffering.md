@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Table Buffering of CDS View Entities"
+description: |
+  Buffering for CDS view entities is not yet supported. Work in progress.
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_view_puffering.htm"
+abapFile: "abencds_v2_view_puffering.htm"
+keywords: ["do", "data", "abencds", "view", "puffering"]
+---
 
 * * *
 

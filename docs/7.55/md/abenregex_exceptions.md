@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The occurrence of the CX_SY_REGEX_TOO_COMPLEX exception depends on both the regular expression and the text to be matched. A regular expression that works for one text may raise an exception for another text. -   As a rule, the Boost.Regex Library(http://www.boost.org/doc/libs/1_31_0/libs/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_exceptions.htm"
+abapFile: "abenregex_exceptions.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abenregex", "exceptions"]
+---
 
 * * *
 

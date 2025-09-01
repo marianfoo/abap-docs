@@ -1,4 +1,14 @@
-  
+---
+title: "compound_interface_glosry"
+description: |
+  compound_interface_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompound_interface_glosry.htm"
+abapFile: "abencompound_interface_glosry.htm"
+keywords: ["do", "if", "try", "abencompound", "interface", "glosry"]
+---
 
 * * *
 

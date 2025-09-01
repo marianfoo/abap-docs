@@ -1,4 +1,14 @@
-  
+---
+title: "RAP behavior definition header"
+description: |
+  BDEF header short. A BDEF header is the part of a RAP behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') that defines the implementation type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef_header_glosry.htm"
+abapFile: "abencds_bdef_header_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "bdef", "header", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data Objects"
+description: |
+  Data objects are instances of data types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_types.htm) and contain the concrete data that a program uses at runtime. This is done by specifying data objects in operand positions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm"
+abapFile: "abendata_objects.htm"
+keywords: ["do", "if", "data", "types", "internal-table", "abendata", "objects"]
+---
 
 * * *
 

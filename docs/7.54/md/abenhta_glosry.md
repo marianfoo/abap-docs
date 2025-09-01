@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA Transport for ABAP"
+description: |
+  HTA for short. Infrastructure that provides an interface between transports of database objects in the SAP HANA database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm 'Glossary Entry') (SAP HANA Repository(https://help.sap.com/doc/abapdocu_754_index_htm/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhta_glosry.htm"
+abapFile: "abenhta_glosry.htm"
+keywords: ["do", "try", "data", "abenhta", "glosry"]
+---
 
 * * *
 

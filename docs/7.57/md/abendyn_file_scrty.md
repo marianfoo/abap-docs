@@ -1,4 +1,14 @@
-  
+---
+title: "Directory Traversal"
+description: |
+  Physical file names can be specified as the content of a character-like data object in the statements and system class of the ABAP file interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_glosry.htm 'Glossary Entry'). If some or all of this content originates ou
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_file_scrty.htm"
+abapFile: "abendyn_file_scrty.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "abendyn", "file", "scrty"]
+---
 
 * * *
 

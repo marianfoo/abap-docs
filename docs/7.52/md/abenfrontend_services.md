@@ -1,4 +1,14 @@
-  
+---
+title: "Access to the Presentation Server"
+description: |
+  Programs that are executed in dialog(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_processing_glosry.htm 'Glossary Entry') and from SAP GUI can use the methods of the class CL_GUI_FRONTEND_SERVICES to access the current presentation server(https://help.sap.com/doc/abap
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfrontend_services.htm"
+abapFile: "abenfrontend_services.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenfrontend", "services"]
+---
 
 * * *
 

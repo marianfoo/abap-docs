@@ -1,4 +1,14 @@
-  
+---
+title: "match_function_glosry"
+description: |
+  match_function_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmatch_function_glosry.htm"
+abapFile: "abenmatch_function_glosry.htm"
+keywords: ["do", "try", "abenmatch", "function", "glosry"]
+---
 
 * * *
 

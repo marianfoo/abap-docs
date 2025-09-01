@@ -1,4 +1,14 @@
-  
+---
+title: "GET PF-STATUS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_pf-status_shortref.htm) Syntax GET PF-STATUS status PROGRAM prog EXCLUDINGfcode. Extras: 1. ... PROGRAM prog(#!ABAP_ADDITION_1@1@) 2. ... EXCLUDING fcode(#!ABAP_ADDITION_2@2@) Effect This state
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_pf.htm"
+abapFile: "abapget_pf.htm"
+keywords: ["insert", "do", "if", "try", "data", "internal-table", "abapget"]
+---
 
 * * *
 

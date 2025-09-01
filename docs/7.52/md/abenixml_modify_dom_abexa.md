@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_modify_elements. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. DATA(xml) = cl_abap_codepage=>convert_to( `<text>` && `<line>aaaa</line>` && `<line>bbbb</line>` && `<line>cccc</line>` && `</text
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_modify_dom_abexa.htm"
+abapFile: "abenixml_modify_dom_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenixml", "modify", "dom", "abexa"]
+---
 
 * * *
 

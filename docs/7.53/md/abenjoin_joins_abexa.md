@@ -1,4 +1,14 @@
-  
+---
+title: "Multiple Joins"
+description: |
+  This example demonstrates chaining and compounding of multiple joins(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_join.htm) in the SELECT statement. Source Code REPORT demo_join_joins. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVAT
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjoin_joins_abexa.htm"
+abapFile: "abenjoin_joins_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abenjoin", "joins", "abexa"]
+---
 
 * * *
 

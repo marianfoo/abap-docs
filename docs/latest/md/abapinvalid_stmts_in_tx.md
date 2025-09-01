@@ -1,4 +1,14 @@
-  
+---
+title: "Restrictions in Transactional Phases"
+description: |
+  The following restrictions apply to operations and/or statements in the modify and save transactional phases. X means it is allowed. Operations/Statements modify phase save phase Notes Database commits using secondary connections(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/aben
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinvalid_stmts_in_tx.htm"
+abapFile: "abapinvalid_stmts_in_tx.htm"
+keywords: ["update", "do", "if", "try", "method", "data", "abapinvalid", "stmts"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "WAIT UP TO"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm) Syntax WAIT UP TO sec SECONDS. Effect This statement interrupts the execution of the program by the number of seconds specified in sec. sec is a numerical expression position(https://help.sap.com/do
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm"
+abapFile: "abapwait_up_to.htm"
+keywords: ["update", "do", "if", "try", "data", "abapwait"]
+---
 
 * * *
 

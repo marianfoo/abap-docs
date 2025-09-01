@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  INSERT line_spec(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_linespec.htm) INTO TABLE mesh_path(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm) result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_resul
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_insert.htm"
+abapFile: "abenmesh_insert.htm"
+keywords: ["insert", "do", "if", "case", "data", "types", "abenmesh"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Transformation of XML Element Names"
+description: |
+  This example demonstrates the transformation of letters in XML element names. Source Code REPORT demo_trafo_upper_lower. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). DATA: BEGIN OF simple_struc
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_trafo_upper_lower_abexa.htm"
+abapFile: "abencall_trafo_upper_lower_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencall", "trafo", "upper", "lower", "abexa"]
+---
 
 * * *
 

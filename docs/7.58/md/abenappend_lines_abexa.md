@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_int_tbls_append DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_int_tbls_append IMPLEMENTATION. METHOD main. 'Part 1 TYPES: BEGIN OF
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenappend_lines_abexa.htm"
+abapFile: "abenappend_lines_abexa.htm"
+keywords: ["loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenappend", "lines", "abexa"]
+---
 
 * * *
 

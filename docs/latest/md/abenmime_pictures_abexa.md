@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_picture_in_html. CLASS picture_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main1, main2. PRIVATE SECTION. TYPES: html     TYPE c LENGTH 255, html_tab TYPE STANDARD TABLE OF html WITH EMPTY KEY. TYPES: pict_line(1022) TYPE x, pict_tab        TYPE STANDARD TABLE OF pict_line WI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmime_pictures_abexa.htm"
+abapFile: "abenmime_pictures_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmime", "pictures", "abexa"]
+---
 
 * * *
 

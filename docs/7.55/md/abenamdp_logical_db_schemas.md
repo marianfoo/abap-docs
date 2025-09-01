@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Macro for Logical Schemas"
+description: |
+  Syntax ... '$ABAP.schema( name = schema_name quote = SINGLEDOUBLE )' ... Effect Specifies the predefined AMDP macro(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') $ABAP.schema(https://help.sap.com/doc/abapdocu_755_index_ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_logical_db_schemas.htm"
+abapFile: "abenamdp_logical_db_schemas.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "abenamdp", "logical", "schemas"]
+---
 
 * * *
 

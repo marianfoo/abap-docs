@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, UP TO, OFFSET"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_shortref.htm) Syntax ... UP TO n ROWS OFFSET o ... Additions: 1.... UP TO n ROWS(#!ABAP_ADDITION_1@1@) 2.... OFFSET o(#!ABAP_ADDITION_2@2@) Effect These optional additions of a query(https:/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_up_to_offset.htm"
+abapFile: "abapselect_up_to_offset.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abapselect", "offset"]
+---
 
 * * *
 

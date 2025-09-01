@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Technical Properties of Structures"
+description: |
+  A DDIC structure describes a structure type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructured_type_glosry.htm 'Glossary Entry') constructed from components and with the following technical properties: -   Component name The name of a component can have a maximum of 30 chara
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures_tech.htm"
+abapFile: "abenddic_structures_tech.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "tech"]
+---
 
 * * *
 

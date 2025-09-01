@@ -1,4 +1,14 @@
-  
+---
+title: "text_field_type_glosry"
+description: |
+  text_field_type_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_field_type_glosry.htm"
+abapFile: "abentext_field_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentext", "field", "type", "glosry"]
+---
 
 * * *
 
@@ -10,6 +20,6 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 text field type
 
-[Character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry") for storing [character strings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_string_glosry.htm "Glossary Entry") of fixed length. The associated [built-in ABAP type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry") is [c](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_character.htm). The [built-in DDIC types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_ddic_type_glosry.htm "Glossary Entry") are [CHAR](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_3) and [LCHR](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_3). The internal representation takes place in the [character representation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchar_representation_glosry.htm "Glossary Entry") of the current [code page](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm "Glossary Entry"). A [data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_object_glosry.htm "Glossary Entry") of a text field type is a [text field](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_field_glosry.htm "Glossary Entry").
+[Character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry") for storing [character strings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_string_glosry.htm "Glossary Entry") of fixed length. The associated [built-in ABAP type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry") is [c](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_character.htm). The [built-in DDIC types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_ddic_type_glosry.htm "Glossary Entry") are [CHAR](abenddic_builtin_types.htm#abenddic-builtin-types-3--and--lchr--abenddic-builtin-types-htm-@ITOC@@ABENDDIC_BUILTIN_TYPES_3). The internal representation takes place in the [character representation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchar_representation_glosry.htm "Glossary Entry") of the current [code page](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm "Glossary Entry"). A [data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_object_glosry.htm "Glossary Entry") of a text field type is a [text field](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_field_glosry.htm "Glossary Entry").
 
 [→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_character.htm)

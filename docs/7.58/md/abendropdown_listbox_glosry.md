@@ -1,4 +1,14 @@
-  
+---
+title: "dropdown_listbox_glosry"
+description: |
+  dropdown_listbox_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendropdown_listbox_glosry.htm"
+abapFile: "abendropdown_listbox_glosry.htm"
+keywords: ["select", "do", "if", "try", "abendropdown", "listbox", "glosry"]
+---
 
 * * *
 

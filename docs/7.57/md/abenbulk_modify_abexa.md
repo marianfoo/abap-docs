@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY, FROM TABLE"
+description: |
+  This example demonstrates the statement MODIFY(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_dbtab.htm) ... FROM TABLE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_source.htm). Source Code REPORT demo_bulk_modify. CLASS demo DEFINITION. PUBLIC S
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbulk_modify_abexa.htm"
+abapFile: "abenbulk_modify_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "method", "class", "data", "internal-table", "abenbulk", "modify", "abexa"]
+---
 
 * * *
 

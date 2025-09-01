@@ -1,4 +1,14 @@
-  
+---
+title: "standard_page_header_glosry"
+description: |
+  standard_page_header_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_page_header_glosry.htm"
+abapFile: "abenstandard_page_header_glosry.htm"
+keywords: ["do", "if", "try", "abenstandard", "page", "header", "glosry"]
+---
 
 * * *
 

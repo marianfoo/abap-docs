@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... BY field1 ASCENDINGDESCENDING AS TEXT field2 ASCENDINGDESCENDING AS TEXT ... Additions: 1. ... ASCENDINGDESCENDING(#!ABAP_ADDITION_1@1@) 2. ... AS TEXT(#!ABAP_ADDITION_2@2@) Effect When a sort key is specified using the addition BY, sorting is not d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsort_key.htm"
+abapFile: "abapsort_key.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "field-symbol", "abapsort", "key"]
+---
 
 * * *
 

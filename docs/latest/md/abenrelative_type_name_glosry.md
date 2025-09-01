@@ -1,4 +1,14 @@
-  
+---
+title: "relative_type_name_glosry"
+description: |
+  relative_type_name_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrelative_type_name_glosry.htm"
+abapFile: "abenrelative_type_name_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenrelative", "type", "name", "glosry"]
+---
 
 * * *
 

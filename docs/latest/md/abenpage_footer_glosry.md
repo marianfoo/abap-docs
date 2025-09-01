@@ -1,4 +1,14 @@
-  
+---
+title: "page_footer_glosry"
+description: |
+  page_footer_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpage_footer_glosry.htm"
+abapFile: "abenpage_footer_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenpage", "footer", "glosry"]
+---
 
 * * *
 

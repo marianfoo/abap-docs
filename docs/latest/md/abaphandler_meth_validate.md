@@ -1,4 +1,14 @@
-  
+---
+title: "FOR VALIDATE, RAP Handler Method"
+description: |
+  Syntax Handler method definitions: METHODS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods.htm) meth FINAL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_abstract_final.htm) FOR VALIDATE ON SAVE IMPORTING(https://help.sap.com
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphandler_meth_validate.htm"
+abapFile: "abaphandler_meth_validate.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abaphandler", "meth", "validate"]
+---
 
 * * *
 

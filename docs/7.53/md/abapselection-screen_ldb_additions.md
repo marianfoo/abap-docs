@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... FOR TABLENODE node ID id ... Extras: 1. ... FOR TABLENODE node(#!ABAP_ADDITION_1@1@) 2. ... ID id(#!ABAP_ADDITION_2@2@) Effect These additions of the statement SELECTION-SCREEN(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_ldb_additions.htm"
+abapFile: "abapselection-screen_ldb_additions.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abapselection", "screen", "ldb", "additions"]
+---
 
 * * *
 

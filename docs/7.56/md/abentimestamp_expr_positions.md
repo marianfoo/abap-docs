@@ -1,4 +1,14 @@
-  
+---
+title: "Timestamp-Like Expression Positions"
+description: |
+  Timestamp-like expression positions are read positions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenread_position_glosry.htm 'Glossary Entry') where time stamp fields(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentimestamp_field_glosry.htm 'Glossary Entry') and
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentimestamp_expr_positions.htm"
+abapFile: "abentimestamp_expr_positions.htm"
+keywords: ["do", "if", "try", "method", "data", "abentimestamp", "expr", "positions"]
+---
 
 * * *
 

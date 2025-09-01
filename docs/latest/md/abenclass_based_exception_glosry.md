@@ -1,4 +1,14 @@
-  
+---
+title: "class_based_exception_glosry"
+description: |
+  class_based_exception_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_based_exception_glosry.htm"
+abapFile: "abenclass_based_exception_glosry.htm"
+keywords: ["do", "if", "try", "catch", "class", "abenclass", "based", "exception", "glosry"]
+---
 
 * * *
 

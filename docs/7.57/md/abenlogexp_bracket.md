@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( log_exp ) ... Effect A complete logical expression log_exp(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) can be placed in parentheses in order to define the priority of processing. log_exp can be a combination of multiple expressions using AND(https://help.s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_bracket.htm"
+abapFile: "abenlogexp_bracket.htm"
+keywords: ["do", "if", "try", "abenlogexp", "bracket"]
+---
 
 * * *
 

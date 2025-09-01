@@ -1,4 +1,14 @@
-  
+---
+title: "CALL CUSTOMER-FUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_customer_func_shortref.htm) Obsolete Syntax CALL CUSTOMER-FUNCTION function_exit parameter_list(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_parameter.htm). Effect This statement
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_customer-function.htm"
+abapFile: "abapcall_customer-function.htm"
+keywords: ["do", "if", "try", "method", "exception-handling", "abapcall", "customer", "function"]
+---
 
 * * *
 

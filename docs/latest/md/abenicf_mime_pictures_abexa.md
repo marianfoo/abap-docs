@@ -1,4 +1,14 @@
-  
+---
+title: "ICF - Accessing the MIME Repository Using ICF"
+description: |
+  This example demonstrates how the MIME repository is accessed using a HTTP service in ICF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicf_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_picture_from_mime DEFINITION INHERITING FROM cl_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicf_mime_pictures_abexa.htm"
+abapFile: "abenicf_mime_pictures_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenicf", "mime", "pictures", "abexa"]
+---
 
 * * *
 

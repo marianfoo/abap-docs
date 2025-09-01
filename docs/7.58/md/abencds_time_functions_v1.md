@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, Time Functions"
+description: |
+  Syntax ... TIMS_IS_VALID(time) ... Variants: 1. ... TIMS_IS_VALID(time)(#!ABAP_VARIANT_1@1@) Effect In a CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v1_view_glosry.htm 'Glossary Entry'), these functions execute operations with arguments
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_time_functions_v1.htm"
+abapFile: "abencds_time_functions_v1.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abencds", "time", "functions"]
+---
 
 * * *
 

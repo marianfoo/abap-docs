@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS Projection View, No Contract"
+description: |
+  It is possible, but not recommended, to define a CDS projection view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') without a provider contract(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_provider_contract
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_no_contract.htm"
+abapFile: "abencds_pv_no_contract.htm"
+keywords: ["do", "if", "try", "data", "abencds", "contract"]
+---
 
 * * *
 

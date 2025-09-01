@@ -1,4 +1,14 @@
-  
+---
+title: "External Procedure Call"
+description: |
+  The following procedures of the same AS ABAP can be called externally: -   Procedures which are intended for external calls: -   Methods of global classes in class pools that are visible at the calling position, that is, public(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpublic_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_procedures_extern.htm"
+abapFile: "abencall_procedures_extern.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abencall", "procedures", "extern"]
+---
 
 * * *
 

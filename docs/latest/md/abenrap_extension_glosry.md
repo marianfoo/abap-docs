@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF extension"
+description: |
+  A repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that extends a RAP behavior definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry').
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extension_glosry.htm"
+abapFile: "abenrap_extension_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "extension", "glosry"]
+---
 
 * * *
 

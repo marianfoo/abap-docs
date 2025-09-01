@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Structured Data Objects"
+description: |
+  This example demonstrates how structured data objects are created. Source Code REPORT demo_create_structured_data. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA dref TYPE REF TO data. DATA: dbtab TYPE tabname VALUE 'SPFLI', rows
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_structured_data_abexa.htm"
+abapFile: "abencreate_structured_data_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "field-symbol", "abencreate", "structured", "abexa"]
+---
 
 * * *
 

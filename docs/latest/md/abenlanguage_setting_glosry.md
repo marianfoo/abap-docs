@@ -1,4 +1,14 @@
-  
+---
+title: "language_setting_glosry"
+description: |
+  language_setting_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlanguage_setting_glosry.htm"
+abapFile: "abenlanguage_setting_glosry.htm"
+keywords: ["do", "if", "try", "abenlanguage", "setting", "glosry"]
+---
 
 * * *
 

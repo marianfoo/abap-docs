@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Query"
+description: |
+  This example demonstrates the execution of a query(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_query.htm) with ADBC. Source Code  Public class definition CLASS cl_demo_adbc_query DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_query_abexa.htm"
+abapFile: "abenadbc_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "query", "abexa"]
+---
 
 * * *
 

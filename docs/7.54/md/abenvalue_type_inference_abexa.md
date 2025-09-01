@@ -1,4 +1,14 @@
-  
+---
+title: "Value Operator, Type Inference"
+description: |
+  This example demonstrates a type inference for the value operator VALUE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_value.htm). Source Code REPORT demo_value_type_inference. CLASS demo DEFINITION. PUBLIC SECTION. TYPES c10 TYPE c LENGTH 10. CLASS-METHOD
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_type_inference_abexa.htm"
+abapFile: "abenvalue_type_inference_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenvalue", "type", "inference", "abexa"]
+---
 
 * * *
 

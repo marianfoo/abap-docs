@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Query Service"
+description: |
+  The query service makes it possible to search for and load persistent objects using logical expressions. -   Query Service Overview(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_terms.htm) -   Query Service Components(https://help.sap.com/doc/abapdocu_latest_index_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services_query.htm"
+abapFile: "abenabap_object_services_query.htm"
+keywords: ["do", "if", "data", "abenabap", "object", "services", "query"]
+---
 
 * * *
 

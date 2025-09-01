@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN DYNAMIC SELECTIONS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_dyna_shortref.htm) Obsolete Syntax SELECTION-SCREEN DYNAMIC SELECTIONS FOR NODETABLE node ID id. Effect This variant of statement SELECTION-SCREEN(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_ldb_dynamic.htm"
+abapFile: "abapselection-screen_ldb_dynamic.htm"
+keywords: ["select", "do", "while", "if", "try", "data", "types", "internal-table", "abapselection", "screen", "ldb", "dynamic"]
+---
 
 * * *
 

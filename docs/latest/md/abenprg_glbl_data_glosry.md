@@ -1,4 +1,14 @@
-  
+---
+title: "prg_glbl_data_glosry"
+description: |
+  prg_glbl_data_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprg_glbl_data_glosry.htm"
+abapFile: "abenprg_glbl_data_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenprg", "glbl", "glosry"]
+---
 
 * * *
 

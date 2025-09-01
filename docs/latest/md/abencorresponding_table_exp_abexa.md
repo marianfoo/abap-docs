@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator for Table Expression"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expr_corresponding.htm) for a table expression. Source Code  Public class definition CLASS cl_demo_crrspndng_table_exp DEFINITION INHERITING FROM cl_demo_classru
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_table_exp_abexa.htm"
+abapFile: "abencorresponding_table_exp_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencorresponding", "table", "exp", "abexa"]
+---
 
 * * *
 

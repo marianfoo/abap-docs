@@ -1,4 +1,14 @@
-  
+---
+title: "Arrangement in the Source Code"
+description: |
+  Background The arrangement of comments plays an important role (in addition to comment language and comment content) in making programs easy to read. Rule Arrange comments correctly Place comments in front of the statements that they describe. The horizontal arrangement of comments should follow the
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarrange_guidl.htm"
+abapFile: "abenarrange_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "class", "data", "abenarrange", "guidl"]
+---
 
 * * *
 

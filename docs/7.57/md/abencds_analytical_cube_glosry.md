@@ -1,4 +1,14 @@
-  
+---
+title: "cds_analytical_cube_glosry"
+description: |
+  cds_analytical_cube_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_analytical_cube_glosry.htm"
+abapFile: "abencds_analytical_cube_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "analytical", "cube", "glosry"]
+---
 
 * * *
 

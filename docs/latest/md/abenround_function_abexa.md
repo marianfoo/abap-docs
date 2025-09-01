@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_round DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: BEGIN OF mode, value LIKE cl_abap_math=>round_half_up, name  TYPE abap_attrdescr-name, END OF mode, modes LIKE S
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm"
+abapFile: "abenround_function_abexa.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "method", "class", "data", "types", "abenround", "function", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Expressions and Functions for Internal Tables"
+description: |
+  Expressions and functions for reading internal tables can be processed in many operand positions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpression_positions.htm). -   Table Expressions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expressions.htm) -
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_processing_expr_func.htm"
+abapFile: "abentable_processing_expr_func.htm"
+keywords: ["do", "data", "internal-table", "abentable", "processing", "expr", "func"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Checking Elementary Data Objects"
+description: |
+  In conversions between incompatible elementary data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_object_glosry.htm 'Glossary Entry'), the operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) ensu
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm"
+abapFile: "abenmove_exact_elementary.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenmove", "exact", "elementary"]
+---
 
 * * *
 

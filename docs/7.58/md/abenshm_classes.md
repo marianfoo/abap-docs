@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Classes and Interfaces"
+description: |
+  The hierarchy of global classes that are involved when working with shared objects is as follows: CL_ABAP_MEMORY_AREA(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_cl_abap_memory_area.htm)  --CL_SHM_AREA(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abens
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_classes.htm"
+abapFile: "abenshm_classes.htm"
+keywords: ["do", "if", "try", "class", "abenshm", "classes"]
+---
 
 * * *
 

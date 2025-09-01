@@ -1,4 +1,14 @@
-  
+---
+title: "WINDOW"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect This statement initiates the display of the current details list in a dialog box. It only works in the event blocks for an in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm"
+abapFile: "abapwindow.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapwindow"]
+---
 
 * * *
 

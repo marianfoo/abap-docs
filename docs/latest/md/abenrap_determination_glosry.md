@@ -1,4 +1,14 @@
-  
+---
+title: "RAP determination"
+description: |
+  An optional part of the RAP BO behavior(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_behavior_glosry.htm 'Glossary Entry') that modifies RAP BO instances(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_determination_glosry.htm"
+abapFile: "abenrap_determination_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "determination", "glosry"]
+---
 
 * * *
 

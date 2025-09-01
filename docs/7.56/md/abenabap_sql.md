@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL"
+description: |
+  ABAP SQL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm 'Glossary Entry') is a set of ABAP statements, based on SQL, that are transformed to platform-dependent SQL by the ABAP SQL interface(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sq
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm"
+abapFile: "abenabap_sql.htm"
+keywords: ["insert", "update", "do", "if", "try", "class", "data", "abenabap", "sql"]
+---
 
 * * *
 

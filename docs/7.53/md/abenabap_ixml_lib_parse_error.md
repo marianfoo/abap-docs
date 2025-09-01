@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  The parsed XML data contains tags that are not closed correctly, which means that parsing is canceled after the first incorrect tag. The parser corrects the first closing tag but does not write any further data to DOM. The method handle_errors reads the errors. DATA(ixml)           = cl_ixml=>crea
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_error.htm"
+abapFile: "abenabap_ixml_lib_parse_error.htm"
+keywords: ["do", "while", "if", "method", "class", "data", "abenabap", "ixml", "lib", "parse", "error"]
+---
 
 * * *
 

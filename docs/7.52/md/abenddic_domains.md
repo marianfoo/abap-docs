@@ -1,4 +1,14 @@
-  
+---
+title: "Domains"
+description: |
+  A domain is a standalone dictionary object that defines technical and semantic attributes of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_elements.htm) can be defined with reference to a domain and inherit its attributes. Domains can
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 

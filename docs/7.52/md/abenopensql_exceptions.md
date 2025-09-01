@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Exceptions"
+description: |
+  Handleable Exceptions CX_SY_OPEN_SQL_DB -   Cause: A general database error occurred. Runtime error: DBIF_RSQL_SQL_ERROR -   Cause: Error in module RSQL of the database interface. Runtime error: DBIF_RSQL_INVALID_RSQL -   Cause: No data found for the specified key. Runtime error: DBIF_RSQ
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_exceptions.htm"
+abapFile: "abenopensql_exceptions.htm"
+keywords: ["select", "update", "do", "while", "if", "try", "data", "abenopensql", "exceptions"]
+---
 
 * * *
 

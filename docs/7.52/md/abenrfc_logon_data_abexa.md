@@ -1,4 +1,14 @@
-  
+---
+title: "Implicit Logon Data in RFC"
+description: |
+  This example demonstrates how the logon data of an RFC session is set implicitly. Source Code REPORT demo_rfc_implicit_logon_data. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF logon_data, uname       TYPE sy-uname, m
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_logon_data_abexa.htm"
+abapFile: "abenrfc_logon_data_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenrfc", "logon", "abexa"]
+---
 
 * * *
 

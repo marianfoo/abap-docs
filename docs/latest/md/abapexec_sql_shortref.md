@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec.htm) Syntax EXEC SQL PERFORMING subr. ... ENDEXEC. Effect Defines an area in which Native SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql_glosry.htm 'Glossary Entry') sta
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec_sql_shortref.htm"
+abapFile: "abapexec_sql_shortref.htm"
+keywords: ["select", "do", "if", "try", "data", "abapexec", "sql", "shortref"]
+---
 
 * * *
 

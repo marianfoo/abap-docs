@@ -1,4 +1,14 @@
-  
+---
+title: "Wrong Lengths"
+description: |
+  Obsolete Syntax ... dtype(len)dobj(len) TYPE dfit ... Effect Lengths specified in declarations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) using the statements TYPES, DATA, STATICS, and CONSTANTS and the predefined ABAP types d, f, i, and t are
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_wrong_length.htm"
+abapFile: "abendeclaration_wrong_length.htm"
+keywords: ["do", "if", "class", "data", "types", "abendeclaration", "wrong", "length"]
+---
 
 * * *
 

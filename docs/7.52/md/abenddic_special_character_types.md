@@ -1,4 +1,14 @@
-  
+---
+title: "Special Character-Like Types"
+description: |
+  The following character-like data types in ABAP Dictionary have a special semantic meaning: -   NUMC(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) for numeric texts(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_text_glosry.htm 'Gl
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_special_character_types.htm"
+abapFile: "abenddic_special_character_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "special", "character"]
+---
 
 * * *
 

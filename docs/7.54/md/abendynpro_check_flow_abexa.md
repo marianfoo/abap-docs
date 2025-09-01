@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Obsolete Input Check Using SELECT"
+description: |
+  The example illustrates how input checks work in PAI processing. Source Code PROGRAM demo_dynpro_value_select. DATA: ok_code TYPE sy-ucomm, carrier TYPE spfli-carrid, connect TYPE spfli-connid. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMODULE. MODULE canc
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_check_flow_abexa.htm"
+abapFile: "abendynpro_check_flow_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "check", "flow", "abexa"]
+---
 
 * * *
 

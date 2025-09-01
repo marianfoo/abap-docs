@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... hierarchy(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy.htm)  hierarchy_navigator(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_navigators.htm) ... Effect Specifies hierarchy data as a data source data_source(https://
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_data.htm"
+abapFile: "abenselect_hierarchy_data.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenselect", "hierarchy"]
+---
 
 * * *
 

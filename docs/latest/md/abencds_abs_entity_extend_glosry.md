@@ -1,4 +1,14 @@
-  
+---
+title: "CDS abstract entity extension"
+description: |
+  CDS entity extension(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_extend_glosry.htm 'Glossary Entry') of a CDS abstract entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm 'Glossary Entry'). A CDS abstract en
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abs_entity_extend_glosry.htm"
+abapFile: "abencds_abs_entity_extend_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "abs", "entity", "extend", "glosry"]
+---
 
 * * *
 

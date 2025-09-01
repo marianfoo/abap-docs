@@ -1,4 +1,14 @@
-  
+---
+title: "ENHANCEMENT-SECTION - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section.htm) Syntax ENHANCEMENT-SECTION enh_id SPOTS spot1 spot2 ... STATIC INCLUDE BOUND. ... END-ENHANCEMENT-SECTION. Effect Defines a section of the source code as an enhancement point(https:
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section_shortref.htm"
+abapFile: "abapenhancement-section_shortref.htm"
+keywords: ["do", "try", "abapenhancement", "section", "shortref"]
+---
 
 * * *
 

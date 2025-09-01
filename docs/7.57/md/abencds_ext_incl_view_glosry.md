@@ -1,4 +1,14 @@
-  
+---
+title: "cds_ext_incl_view_glosry"
+description: |
+  cds_ext_incl_view_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ext_incl_view_glosry.htm"
+abapFile: "abencds_ext_incl_view_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ext", "incl", "view", "glosry"]
+---
 
 * * *
 

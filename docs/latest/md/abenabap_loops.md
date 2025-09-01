@@ -1,4 +1,14 @@
-  
+---
+title: "Loops"
+description: |
+  This section describes the loops defined using the following: -   DO - ENDDO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdo.htm) -   WHILE - ENDWHILE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhile.htm) Further keywords for defining loops are: -
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_loops.htm"
+abapFile: "abenabap_loops.htm"
+keywords: ["select", "loop", "do", "while", "if", "data", "internal-table", "abenabap", "loops"]
+---
 
 * * *
 

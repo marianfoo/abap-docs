@@ -1,4 +1,14 @@
-  
+---
+title: "TDL source code"
+description: |
+  CDS source code(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_source_code_glosry.htm 'Glossary Entry') for CDS type definitions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_type_definition_glosry.htm 'Glossary Entry') in CDS TDL(https://help.sap.com/d
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentdl_source_code_glosry.htm"
+abapFile: "abentdl_source_code_glosry.htm"
+keywords: ["do", "if", "try", "types", "abentdl", "source", "code", "glosry"]
+---
 
 * * *
 

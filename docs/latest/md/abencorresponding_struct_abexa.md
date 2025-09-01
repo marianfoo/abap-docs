@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator for Structures"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expr_corresponding.htm) for structures. Source Code  Public class definition CLASS cl_demo_crrspndng_struct DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CRE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_struct_abexa.htm"
+abapFile: "abencorresponding_struct_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abencorresponding", "struct", "abexa"]
+---
 
 * * *
 

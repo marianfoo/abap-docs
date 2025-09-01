@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-based View, Special Functions"
+description: |
+  These built-in functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_special_functions.htm) are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencd
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_special_functions_v1.htm"
+abapFile: "abencds_special_functions_v1.htm"
+keywords: ["select", "do", "data", "abencds", "special", "functions"]
+---
 
 * * *
 

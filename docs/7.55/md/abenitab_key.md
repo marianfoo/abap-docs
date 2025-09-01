@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  itab - Primary Table Key(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_key_primary.htm) itab - Secondary Table Key(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_key_secondary.htm) itab - Duplicate Unique Keys(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_key.htm"
+abapFile: "abenitab_key.htm"
+keywords: ["do", "if", "data", "internal-table", "abenitab", "key"]
+---
 
 * * *
 

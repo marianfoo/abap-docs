@@ -1,4 +1,14 @@
-  
+---
+title: "Source Field Type f"
+description: |
+  -   Numeric Target Fields(#abenconversion-type-f-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_F_2) -   Byte-Like Target Fields(#abenconversion-type-f-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_F_4) Numeric Target Fields Target Conversion i, int8,
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_f.htm"
+abapFile: "abenconversion_type_f.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "abenconversion", "type"]
+---
 
 * * *
 
@@ -11,10 +21,8 @@ D%0ASuggestion for improvement:)
 
 Source Field Type f
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_4)
+-   [Numeric Target Fields](#abenconversion-type-f-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_F_2)
+-   [Byte-Like Target Fields](#abenconversion-type-f-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_F_4)
 
 Numeric Target Fields   
 

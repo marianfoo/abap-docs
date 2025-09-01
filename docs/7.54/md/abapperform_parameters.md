@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TABLES   itab1 itab2 ... USING    a1 a2 ... CHANGING a1 a2 .... Extras: 1. ... TABLES itab1 itab2 ...(#!ABAP_ADDITION_1@1@) 2. ... USING a1 a2 ...(#!ABAP_ADDITION_2@2@) 3. ... CHANGING a1 a2 ...(#!ABAP_ADDITION_3@3@) Effect These additions assign actual parameter
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapperform_parameters.htm"
+abapFile: "abapperform_parameters.htm"
+keywords: ["select", "do", "while", "if", "try", "data", "internal-table", "abapperform", "parameters"]
+---
 
 * * *
 

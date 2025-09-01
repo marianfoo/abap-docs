@@ -1,4 +1,14 @@
-  
+---
+title: "join_type_glosry"
+description: |
+  join_type_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjoin_type_glosry.htm"
+abapFile: "abenjoin_type_glosry.htm"
+keywords: ["do", "try", "data", "abenjoin", "type", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Miscellaneous Components"
+description: |
+  -   %action(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_action.htm) -   %assoc(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_assoc.htm) -   %control(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_cont
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_misc.htm"
+abapFile: "abapderived_types_misc.htm"
+keywords: ["update", "delete", "do", "if", "data", "types", "abapderived", "misc"]
+---
 
 * * *
 

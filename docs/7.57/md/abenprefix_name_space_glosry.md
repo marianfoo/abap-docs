@@ -1,4 +1,14 @@
-  
+---
+title: "prefix_name_space_glosry"
+description: |
+  prefix_name_space_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprefix_name_space_glosry.htm"
+abapFile: "abenprefix_name_space_glosry.htm"
+keywords: ["do", "if", "try", "abenprefix", "name", "space", "glosry"]
+---
 
 * * *
 

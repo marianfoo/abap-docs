@@ -1,4 +1,14 @@
-  
+---
+title: "redefinition_glosry"
+description: |
+  redefinition_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenredefinition_glosry.htm"
+abapFile: "abenredefinition_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenredefinition", "glosry"]
+---
 
 * * *
 

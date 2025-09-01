@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm"
+abapFile: "abencds_f1_view_entity_annotations.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abencds", "view", "entity", "annotations"]
+---
 
 * * *
 
@@ -18,21 +28,13 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/e
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_1)
+-   [AbapCatalog Annotations](#abencds-f1-view-entity-annotations-1--------accesscontrol-annotations---@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_2)
 
--   [AccessControl Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_2)
+-   [ClientDependent Annotations (Obsolete)](#abencds-f1-view-entity-annotations-3--------clienthandling-annotations---@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_4)
 
--   [ClientDependent Annotations (Obsolete)](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_3)
+-   [DataAging Annotations](#abencds-f1-view-entity-annotations-5--------endusertext-annotations---@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_6)
 
--   [ClientHandling Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_4)
-
--   [DataAging Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_5)
-
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_6)
-
--   [Metadata Annotations](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_7)
-
--   [Examples](#@@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_8)
+-   [Metadata Annotations](#abencds-f1-view-entity-annotations-7--------examples---@ITOC@@ABENCDS_F1_VIEW_ENTITY_ANNOTATIONS_8)
 
 The first column displays the (possibly structured) name annotation of an ABAP annotation and the second column displays its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the value set implicitly for the annotation value if the annotation is not used explicitly. The fifth column displays the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 

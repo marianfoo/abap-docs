@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects as a Programming Model"
+description: |
+  Background ABAP is a hybrid programming language that supports both a procedural and an object-oriented programming model. The procedural programming model is based on the modularization of programs in classic processing blocks (event blocks, dialog modules, function modules, and subroutines). In AB
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm"
+abapFile: "abenabap_obj_progr_model_guidl.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "exception-handling", "abenabap", "obj", "progr", "model", "guidl"]
+---
 
 * * *
 

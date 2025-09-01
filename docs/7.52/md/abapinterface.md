@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterface_shortref.htm) Syntax Forms Declaration of Interfaces(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterface_definition.htm) 1. INTERFACE intf PUBLIC. components(https://help.
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterface.htm"
+abapFile: "abapinterface.htm"
+keywords: ["select", "do", "if", "class", "data", "abapinterface"]
+---
 
 * * *
 

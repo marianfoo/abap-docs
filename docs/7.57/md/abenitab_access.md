@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   Internal tables must be specified at operand positions for internal tables when the statement is executed. Only index tables can be specified at operand positions that include index access. -   In processing statements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_proces
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_access.htm"
+abapFile: "abenitab_access.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "data", "types", "internal-table", "field-symbol", "abenitab", "access"]
+---
 
 * * *
 

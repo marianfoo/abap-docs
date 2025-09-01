@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - FIELDS"
+description: |
+  Syntax ... FIELDS select_clause(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_clause.htm) ... Effect The addition FIELDS must prefix the SELECT clause select_clause(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_clause.htm) of a query(https://he
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfields_clause.htm"
+abapFile: "abapfields_clause.htm"
+keywords: ["select", "do", "if", "try", "data", "abapfields", "clause"]
+---
 
 * * *
 

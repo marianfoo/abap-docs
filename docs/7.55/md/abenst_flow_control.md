@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Flow Control"
+description: |
+  -   tt:serialize, tt:deserialize, Transformation Direction(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_serialize_deserialize.htm) -   tt:skip, Skip Elements(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_skip.htm) -   tt:cond, Conditional Transform
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_flow_control.htm"
+abapFile: "abenst_flow_control.htm"
+keywords: ["do", "case", "data", "abenst", "flow", "control"]
+---
 
 * * *
 

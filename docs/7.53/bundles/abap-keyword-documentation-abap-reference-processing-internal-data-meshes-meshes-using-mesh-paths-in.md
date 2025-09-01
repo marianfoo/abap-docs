@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenmesh_insert.htm
 
-  
+---
+title: "Syntax"
+description: |
+  INSERT line_spec(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_linespec.htm) INTO TABLE mesh_path(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm) result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_resul
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_insert.htm"
+abapFile: "abenmesh_insert.htm"
+keywords: ["insert", "do", "if", "case", "data", "types", "abenmesh"]
+---
 
 * * *
 
@@ -70,7 +80,17 @@ Continue
 
 ### abenmesh_insert_abexa.htm
 
-  
+---
+title: "Insertions in Mesh Paths"
+description: |
+  This example demonstrates how rows are inserted in mesh paths. Source Code REPORT demo_mesh_insert_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TABLE OF line1 WITH N
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_insert_abexa.htm"
+abapFile: "abenmesh_insert_abexa.htm"
+keywords: ["select", "insert", "do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "abexa"]
+---
 
 * * *
 
@@ -218,7 +238,17 @@ As in the previous step, but here three rows of an internal table are inserted f
 
 ### abenmesh_build_abexa.htm
 
-  
+---
+title: "Table Builds Using Mesh Paths"
+description: |
+  This example demonstrates how a table is built using a mesh path. Source Code REPORT demo_mesh_insert_build_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TABLE OF line
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_build_abexa.htm"
+abapFile: "abenmesh_build_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "method", "class", "data", "types", "abenmesh", "build", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abapexport_data_cluster.htm
 
-  
+---
+title: "EXPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_shortref.htm) Syntax EXPORT parameter_list(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster_param.htm) TO medium(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/a
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster.htm"
+abapFile: "abapexport_data_cluster.htm"
+keywords: ["select", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abapexport", "cluster"]
+---
 
 * * *
 
@@ -102,7 +112,17 @@ Continue
 
 ### abapexport_data_cluster_param.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... p1 = dobj1 p2 = dobj2 ...  p1 FROM dobj1 p2 FROM dobj2 ...  (ptab) ... Extras: 1. ... p1 = dobj1 p2 = dobj2 ...(#!ABAP_ADDITION_1@1@) 2. ... p1 FROM dobj1 p2 FROM dobj2 ...(#!ABAP_ADDITION_2@2@) 3. ... (ptab)(#!ABAP_ADDITION_3@3@) Effect A data cluster(https://help.s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster_param.htm"
+abapFile: "abapexport_data_cluster_param.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapexport", "cluster", "param"]
+---
 
 * * *
 
@@ -227,7 +247,17 @@ cl\_demo\_output=>display( wa ).
 
 ### abapexport_data_cluster_medium.htm
 
-  
+---
+title: "EXPORT - medium"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_shortref.htm) Syntax ...  DATA BUFFER xstr    INTERNAL TABLE itab    MEMORY ID id    DATABASE      dbtab(ar) FROM wa CLIENT cl ID id    SHARED MEMORY dbtab(a
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster_medium.htm"
+abapFile: "abapexport_data_cluster_medium.htm"
+keywords: ["select", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapexport", "cluster", "medium"]
+---
 
 * * *
 
@@ -468,7 +498,17 @@ EXPORT scarr\_tab = itab
 
 ### abenexport_data_cluster_indx.htm
 
-  
+---
+title: "Notes"
+description: |
+  -   The structure for data clusters in a single row is the newer variant and is recommended for new database tables. -   Status information about the actual data cluster, such as date, user, or language, can be saved in custom fields. -   Notes about how to edit export/import tables(https://help.s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexport_data_cluster_indx.htm"
+abapFile: "abenexport_data_cluster_indx.htm"
+keywords: ["delete", "do", "while", "if", "try", "class", "data", "types", "abenexport", "cluster", "indx"]
+---
 
 * * *
 
@@ -480,9 +520,7 @@ Export/Import Tables
 
 When storing [data clusters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_cluster_glosry.htm "Glossary Entry") in database tables and application buffers of the [shared memory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshared_memory_glosry.htm "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are known as [export/import tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexport_import_table_glosry.htm "Glossary Entry").
 
--   [Structure for Data Clusters in One Row](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_1)
-
--   [Structure for Data Clusters in Multiple Rows](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
+-   [Structure for Data Clusters in One Row](#abenexport-data-cluster-indx-1--------structure-for-data-clusters-in-multiple-rows---@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
 
 Notes
 
@@ -554,7 +592,17 @@ Continue
 
 ### abenindx_type_table_and_sql.htm
 
-  
+---
+title: "Example"
+description: |
+  An export table/import table can be searched systematically for a particular data cluster using SELECT; at the same time, information in the freely definable columns can be evaluated. Example The following example deletes all data clusters of an area from the export tables/import tables DEMO_INDX_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenindx_type_table_and_sql.htm"
+abapFile: "abenindx_type_table_and_sql.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "data", "abenindx", "type", "table", "and", "sql"]
+---
 
 * * *
 
@@ -603,7 +651,17 @@ UPDATE demo\_indx\_table
 
 ### abenexport_data_cluster_indx.htm
 
-  
+---
+title: "Notes"
+description: |
+  -   The structure for data clusters in a single row is the newer variant and is recommended for new database tables. -   Status information about the actual data cluster, such as date, user, or language, can be saved in custom fields. -   Notes about how to edit export/import tables(https://help.s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexport_data_cluster_indx.htm"
+abapFile: "abenexport_data_cluster_indx.htm"
+keywords: ["delete", "do", "while", "if", "try", "class", "data", "types", "abenexport", "cluster", "indx"]
+---
 
 * * *
 
@@ -615,9 +673,7 @@ Export/Import Tables
 
 When storing [data clusters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_cluster_glosry.htm "Glossary Entry") in database tables and application buffers of the [shared memory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshared_memory_glosry.htm "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are known as [export/import tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexport_import_table_glosry.htm "Glossary Entry").
 
--   [Structure for Data Clusters in One Row](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_1)
-
--   [Structure for Data Clusters in Multiple Rows](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
+-   [Structure for Data Clusters in One Row](#abenexport-data-cluster-indx-1--------structure-for-data-clusters-in-multiple-rows---@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
 
 Notes
 
@@ -689,7 +745,17 @@ Continue
 
 ### abapexport_internal.htm
 
-  
+---
+title: "EXPORT - Internal Additions"
+description: |
+  Internal Additions These additions are for internal use only. Do not use them in application programs. Extras: 1. ... CODE PAGE HINT cp(#!ABAP_ADDITION_1@1@) 2. ... USING subr(prog)(#!ABAP_ADDITION_2@2@) Addition 1 ... CODE PAGE HINT cp Effect In cp, a code page(https://help.sap.com/
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_internal.htm"
+abapFile: "abapexport_internal.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapexport", "internal"]
+---
 
 * * *
 
@@ -743,7 +809,17 @@ See [IMPORT - Internal Additions](https://help.sap.com/doc/abapdocu_753_index_ht
 
 ### abenrabax_export_to_database.htm
 
-  
+---
+title: "Exceptions in EXPORT"
+description: |
+  Exceptions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm) Handleable Exceptions CX_SY_COMPRESSION_ERROR -   Cause: More than 2 GB of data is exported. Runtime error: EXPORT_TOO_MUCH_DATA CX_SY_EXPIMP_DB_SQL_ERROR -   Cause: SQL error in expo
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrabax_export_to_database.htm"
+abapFile: "abenrabax_export_to_database.htm"
+keywords: ["update", "do", "if", "data", "abenrabax", "export", "database"]
+---
 
 * * *
 

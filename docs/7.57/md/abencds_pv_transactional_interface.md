@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS Projection View, Transactional Interface"
+description: |
+  A CDS transactional interface(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_trans_interface_glosry.htm 'Glossary Entry') is a CDS projection view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') that is intended
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_transactional_interface.htm"
+abapFile: "abencds_pv_transactional_interface.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "transactional", "interface"]
+---
 
 * * *
 

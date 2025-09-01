@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_shortref.htm) Syntax Forms Implementing Interfaces in Classes(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_class.htm) 1. INTERFACES intf PARTIALLY IMPLEMENTED(https://hel
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces.htm"
+abapFile: "abapinterfaces.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapinterfaces"]
+---
 
 * * *
 

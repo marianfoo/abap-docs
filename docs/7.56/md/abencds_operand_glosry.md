@@ -1,4 +1,14 @@
-  
+---
+title: "CDS operand"
+description: |
+  Component of a CDS data definition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_definition_glosry.htm 'Glossary Entry'). Defined directly or as a formal parameter(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenformal_parameter_glosry.htm 'Glossary Entry
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_operand_glosry.htm"
+abapFile: "abencds_operand_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "operand", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand1 && operand2  && operand3 ...  ... Effect String expression in ABAP SQL. The operator && chains the character strings in two adjacent operand to a single character string. The operands can have the following data types: -   Dictionary types CHAR(https://help.sap.com/doc/abapdoc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_string.htm"
+abapFile: "abensql_string.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abensql", "string"]
+---
 
 * * *
 

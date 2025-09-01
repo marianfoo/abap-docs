@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  TABLES table_wa. Effect This statement declares an additional table work area(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_work_area_glosry.htm 'Glossary Entry') table_wa, whose data type, like that of the regular TABLES(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_asterisk.htm"
+abapFile: "abaptables_asterisk.htm"
+keywords: ["select", "do", "try", "class", "data", "types", "abaptables", "asterisk"]
+---
 
 * * *
 

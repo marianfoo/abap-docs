@@ -1,4 +1,14 @@
-  
+---
+title: "PROTECTED SECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_shortref.htm) Syntax PROTECTED SECTION. Effect This statement can only be used in the declaration part(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_definition.htm) of a class. It defines
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprotected.htm"
+abapFile: "abapprotected.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "field-symbol", "abapprotected"]
+---
 
 * * *
 

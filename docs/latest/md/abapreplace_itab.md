@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE IN TABLE itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_shortref.htm) Syntax REPLACE FIRST OCCURRENCEALL OCCURRENCES OF pattern(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_pattern.htm) IN TABLE itab t
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_itab.htm"
+abapFile: "abapreplace_itab.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abapreplace", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  LOOP AT SCREEN, Short Form(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_at_screen_obsolete.htm) MODIFY SCREEN, Short Form(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodify_screen_obsolete.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_obsolet.htm"
+abapFile: "abenabap_dynpro_obsolet.htm"
+keywords: ["loop", "do", "if", "abenabap", "dynpro", "obsolet"]
+---
 
 * * *
 

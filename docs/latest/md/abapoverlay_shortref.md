@@ -1,4 +1,14 @@
-  
+---
+title: "OVERLAY - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapoverlay.htm) Syntax OVERLAY text1 WITH text2 ONLY mask. Effect Replaces blanks in text1 with characters in the same position in text2. Addition -   ONLY mask Instead of blanks, replaces all characters that occur
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapoverlay_shortref.htm"
+abapFile: "abapoverlay_shortref.htm"
+keywords: ["do", "if", "data", "abapoverlay", "shortref"]
+---
 
 * * *
 

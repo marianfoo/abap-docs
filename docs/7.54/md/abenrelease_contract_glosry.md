@@ -1,4 +1,14 @@
-  
+---
+title: "release_contract_glosry"
+description: |
+  release_contract_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelease_contract_glosry.htm"
+abapFile: "abenrelease_contract_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenrelease", "contract", "glosry"]
+---
 
 * * *
 

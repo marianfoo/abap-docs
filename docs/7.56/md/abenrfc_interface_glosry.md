@@ -1,4 +1,14 @@
-  
+---
+title: "RFC interface"
+description: |
+  Interface for remote function calls(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenremote_function_call_glosry.htm 'Glossary Entry') (RFC). The RFC interface consists of an interface for ABAP programs(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_glo
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_interface_glosry.htm"
+abapFile: "abenrfc_interface_glosry.htm"
+keywords: ["do", "try", "abenrfc", "interface", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Comparisons with Fields of Data Sources"
+description: |
+  The following table shows the possible combinations of data source fields on the left side (lhs) with data source fields on the right side (rhs) of comparisons. lhs/rhs INT1 INT2 INT4 INT8 DEC CURR QUAN DECFLOAT16 DECFLOAT34 FLTP CHAR SSTRING NUMC CLNT LANG DATS TIMS DATN TIMN UTCLONG ACCP UNIT CUKY
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_cond_expr_types_v2.htm"
+abapFile: "abencds_cond_expr_types_v2.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "cond", "expr"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ CDS DDL - CDS View Entity, cds\_cond, Comparable Types
 
 The following tables show which [built-in data types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) in ABAP Dictionary can be compared with each other in a [condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conditional_expression_v2.htm) of a [CDS view entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_view_glosry.htm "Glossary Entry").
 
--   [Comparisons with Fields of Data Sources](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_1)
-
--   [Comparisons with Parameters](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_2)
+-   [Comparisons with Fields of Data Sources](#abencds-cond-expr-types-v2-1--------comparisons-with-parameters---@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_2)
 
 -   [Comparisons with Literals](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_3)
 

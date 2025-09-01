@@ -1,4 +1,14 @@
-  
+---
+title: "Temporary Storage of Data"
+description: |
+  -   LOCAL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplocal.htm) LOCAL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplocal.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocal_obsolete.htm"
+abapFile: "abenlocal_obsolete.htm"
+keywords: ["do", "data", "abenlocal", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Storing Messages"
+description: |
+  Messages(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm 'Glossary Entry') are created in the message editor (transaction SE91). The message short texts are saved as language-specific texts to the database table T100, which offers an interface to the translation t
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_storing.htm"
+abapFile: "abenabap_messages_storing.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "messages", "storing"]
+---
 
 * * *
 

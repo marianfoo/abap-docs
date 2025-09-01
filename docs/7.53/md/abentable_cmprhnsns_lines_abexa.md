@@ -1,4 +1,14 @@
-  
+---
+title: "Table Comprehensions, Multiple Rows"
+description: |
+  This example demonstrates how multiple rows in a FOR expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_in_itab.htm) of a table comprehension(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_comprehension_glosry.htm 'Glossary Entry') are created. So
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_cmprhnsns_lines_abexa.htm"
+abapFile: "abentable_cmprhnsns_lines_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "lines", "abexa"]
+---
 
 * * *
 

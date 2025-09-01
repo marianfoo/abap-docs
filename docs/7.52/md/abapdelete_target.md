@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab - target"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_dbtab_shortref.htm) Syntax ... dbtabview(target_syntax) USING CLIENT clnt  CLIENT SPECIFIED ... Alternatives: 1. ... dbtabview(#!ABAP_ALTERNATIVE_1@1@) 2. ... (target_syntax)(#
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_target.htm"
+abapFile: "abapdelete_target.htm"
+keywords: ["delete", "do", "if", "case", "try", "class", "data", "internal-table", "abapdelete", "target"]
+---
 
 * * *
 

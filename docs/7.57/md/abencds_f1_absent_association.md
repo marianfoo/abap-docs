@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE ABSTRACT ENTITY, association"
+description: |
+  Syntax ... ASSOCIATION  min..max  TO target ON cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v2.htm)  WITH DEFAULT FILTER cds_cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v2.h
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_absent_association.htm"
+abapFile: "abencds_f1_absent_association.htm"
+keywords: ["do", "if", "try", "data", "abencds", "absent", "association"]
+---
 
 * * *
 

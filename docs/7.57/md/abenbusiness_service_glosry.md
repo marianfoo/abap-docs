@@ -1,4 +1,14 @@
-  
+---
+title: "business_service_glosry"
+description: |
+  business_service_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbusiness_service_glosry.htm"
+abapFile: "abenbusiness_service_glosry.htm"
+keywords: ["do", "if", "try", "abenbusiness", "service", "glosry"]
+---
 
 * * *
 

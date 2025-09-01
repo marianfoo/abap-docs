@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Costs"
+description: |
+  This example demonstrates costs for type conversions in assignments and operand positions. Source Code  Public class definition CLASS cl_demo_conversion_costs DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_costs_abexa.htm"
+abapFile: "abenconversion_costs_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenconversion", "costs", "abexa"]
+---
 
 * * *
 

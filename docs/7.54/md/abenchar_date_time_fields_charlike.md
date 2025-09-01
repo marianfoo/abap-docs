@@ -1,4 +1,14 @@
-  
+---
+title: "Character-Like Access to Date Fields and Time Fields"
+description: |
+  Character-like access to character-like content of date fields and time fields is evaluated in a character-like manner. The character-like nature of date fields and time fields can be exploited, for example, to access detailed information. To avoid unexpected results from this type of access, the v
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm"
+abapFile: "abenchar_date_time_fields_charlike.htm"
+keywords: ["do", "if", "data", "abenchar", "date", "time", "fields", "charlike"]
+---
 
 * * *
 

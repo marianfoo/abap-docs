@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Inline Declarations"
+description: |
+  This example demonstrates inline declarations in the statement SELECT. Source Code  Public class definition CLASS cl_demo_select_inline_dclrtn DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_inline_decl_abexa.htm"
+abapFile: "abenselect_inline_decl_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenselect", "inline", "decl", "abexa"]
+---
 
 * * *
 

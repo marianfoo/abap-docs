@@ -1,4 +1,14 @@
-  
+---
+title: "ENDCLASS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_shortref.htm) Syntax ENDCLASS. Effect The statement ENDCLASS closes a class declaration introduced using: CLASS class DEFINITION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_def
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendclass.htm"
+abapFile: "abapendclass.htm"
+keywords: ["do", "if", "class", "abapendclass"]
+---
 
 * * *
 

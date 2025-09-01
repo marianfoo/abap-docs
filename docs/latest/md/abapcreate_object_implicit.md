@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE OBJECT oref"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_shortref.htm) Syntax CREATE OBJECT oref  area_handle(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_area_handle.htm)  parameter_list(https://help.s
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_implicit.htm"
+abapFile: "abapcreate_object_implicit.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapcreate", "object", "implicit"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  OUTPUT    ON paraselcrit    ON END OF selcrit    ON BLOCK block    ON RADIOBUTTON GROUP group       ON HELP-REQUESTVALUE-REQUEST FOR paraselcrit-lowselcrit-high    ON EXIT-COMMAND . Alternatives:
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_selection-screen_events.htm"
+abapFile: "abapat_selection-screen_events.htm"
+keywords: ["select", "update", "loop", "do", "if", "try", "data", "abapat", "selection", "screen", "events"]
+---
 
 * * *
 

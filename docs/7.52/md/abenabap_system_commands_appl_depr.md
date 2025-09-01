@@ -1,4 +1,14 @@
-  
+---
+title: "Unwanted Calls of Operating System Statements"
+description: |
+  Alongside calls of function modules in the SXPG framework(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_system_commands_appl_sxpg.htm), operating system statements can be executed in ABAP programs as follows: -   The addition FILTER(https://help.sap.com/doc/abapdocu_752_ind
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_system_commands_appl_depr.htm"
+abapFile: "abenabap_system_commands_appl_depr.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abenabap", "system", "commands", "appl", "depr"]
+---
 
 * * *
 

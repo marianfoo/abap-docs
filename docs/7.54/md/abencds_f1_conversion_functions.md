@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Conversion Functions"
+description: |
+  Conversion functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_conversion_functions.htm) in a CDS view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm 'Glossary Entry'): -   Type conversion functions(https://help.sap.com/doc/abapdocu
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conversion_functions.htm"
+abapFile: "abencds_f1_conversion_functions.htm"
+keywords: ["select", "do", "case", "try", "data", "types", "abencds", "conversion", "functions"]
+---
 
 * * *
 

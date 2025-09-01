@@ -1,4 +1,14 @@
-  
+---
+title: "list_header_glosry"
+description: |
+  list_header_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_header_glosry.htm"
+abapFile: "abenlist_header_glosry.htm"
+keywords: ["do", "try", "abenlist", "header", "glosry"]
+---
 
 * * *
 

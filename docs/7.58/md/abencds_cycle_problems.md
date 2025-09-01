@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Cyclical Dependencies"
+description: |
+  In ABAP CDS, CDS entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry') can be defined with mutual dependencies. For example, a CDS view(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm 'Glossary Entry') a
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cycle_problems.htm"
+abapFile: "abencds_cycle_problems.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "cycle", "problems"]
+---
 
 * * *
 

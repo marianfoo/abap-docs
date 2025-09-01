@@ -1,4 +1,14 @@
-  
+---
+title: "Logical Databases - Further Elements"
+description: |
+  -   Association with search helps(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_search_help.htm) -   Dynamic selections(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_free_selections.htm) -   Field selections(https://help.sap.com/doc/abapdocu_754_index_
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_others.htm"
+abapFile: "abenldb_others.htm"
+keywords: ["select", "do", "try", "data", "abenldb", "others"]
+---
 
 * * *
 

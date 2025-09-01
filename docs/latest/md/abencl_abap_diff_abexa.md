@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_itab_diff DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . PRIVATE SECTION. METHODS diff IMPORTING !itab1 TYPE INDEX TABLE !itab2 TYPE INDEX TABLE update TYPE abap_bool OPTIONAL. METHODS diff
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_diff_abexa.htm"
+abapFile: "abencl_abap_diff_abexa.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencl", "abap", "diff", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Interface"
+description: |
+  Part of the database interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_interface_glosry.htm 'Glossary Entry') responsible for ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossary Entry') statements. The AB
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_interface_glosry.htm"
+abapFile: "abenabap_sql_interface_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "sql", "interface", "glosry"]
+---
 
 * * *
 

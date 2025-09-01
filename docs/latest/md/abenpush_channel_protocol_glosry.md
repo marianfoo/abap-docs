@@ -1,4 +1,14 @@
-  
+---
+title: "Push Channel Protocol"
+description: |
+  PCP for short. Describes an SAP communications format used to exchange messages between programs and internal or external interfaces. Currently, PCP is used by ABAP Channels(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_channel_glosry.htm 'Glossary Entry') and ABAP daem
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpush_channel_protocol_glosry.htm"
+abapFile: "abenpush_channel_protocol_glosry.htm"
+keywords: ["do", "if", "try", "abenpush", "channel", "protocol", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "view_glosry"
+description: |
+  view_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenview_glosry.htm"
+abapFile: "abenview_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenview", "glosry"]
+---
 
 * * *
 

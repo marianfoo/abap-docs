@@ -1,4 +1,14 @@
-  
+---
+title: "SAP LUW, UPDATE TASK"
+description: |
+  This example demonstrates how SAP LUWs(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw.htm) are bundled using update function modules(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_function_module_glosry.htm 'Glossary Entry'). Source Code REPORT demo
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_luw_update_task_abexa.htm"
+abapFile: "abensap_luw_update_task_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abensap", "luw", "task", "abexa"]
+---
 
 * * *
 

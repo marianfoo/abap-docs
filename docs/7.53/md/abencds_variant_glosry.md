@@ -1,4 +1,14 @@
-  
+---
+title: "CDS variant"
+description: |
+  CDS object(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_object_glosry.htm 'Glossary Entry') defined in the ADT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadt_glosry.htm 'Glossary Entry') of ABAP CDS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_variant_glosry.htm"
+abapFile: "abencds_variant_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "variant", "glosry"]
+---
 
 * * *
 

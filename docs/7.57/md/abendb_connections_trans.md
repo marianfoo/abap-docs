@@ -1,4 +1,14 @@
-  
+---
+title: "Database Connections and Transactions"
+description: |
+  Every active database connection creates a separate transaction context or is linked with its own database LUW(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_luw_glosry.htm 'Glossary Entry'). This means that database changes on one connection can be committed or rolled bac
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_trans.htm"
+abapFile: "abendb_connections_trans.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abendb", "connections", "trans"]
+---
 
 * * *
 

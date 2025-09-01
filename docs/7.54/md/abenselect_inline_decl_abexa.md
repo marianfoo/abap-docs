@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Inline Declarations"
+description: |
+  This example demonstrates inline declarations in the statement SELECT. Source Code REPORT demo_select_inline_declaration. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES BEGIN OF output_line. INCLUDE TYPE scarr AS scarr RENAMING
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_inline_decl_abexa.htm"
+abapFile: "abenselect_inline_decl_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenselect", "inline", "decl", "abexa"]
+---
 
 * * *
 

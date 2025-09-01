@@ -1,4 +1,14 @@
-  
+---
+title: "END-TEST-INJECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection_shortref.htm) Syntax END-TEST-INJECTION. Effect The statement END-TEST-INJECTION closes a test injection that was initiated using TEST-INJECTION(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-U
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-injection.htm"
+abapFile: "abapend-test-injection.htm"
+keywords: ["do", "abapend", "test", "injection"]
+---
 
 * * *
 

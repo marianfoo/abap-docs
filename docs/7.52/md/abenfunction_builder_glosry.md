@@ -1,4 +1,14 @@
-  
+---
+title: "Function Builder"
+description: |
+  ABAP Workbench(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') tool which can be used to create and maintain function modules(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_module_glosry.htm 'Glossary Entry'). Ca
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_builder_glosry.htm"
+abapFile: "abenfunction_builder_glosry.htm"
+keywords: ["do", "try", "abenfunction", "builder", "glosry"]
+---
 
 * * *
 

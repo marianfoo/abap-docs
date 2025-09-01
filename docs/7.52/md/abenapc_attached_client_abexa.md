@@ -1,4 +1,14 @@
-  
+---
+title: "APC, AS ABAP as Attached Client"
+description: |
+  This example demonstrates the AS ABAP as an attached client for a detached client. Source Code REPORT demo_apc_attach_client. CLASS apc_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS apc_demo IMPLEMENTATION. METHOD main. DATA attach_handle TYPE string VALUE ' '. cl_demo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_attached_client_abexa.htm"
+abapFile: "abenapc_attached_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "attached", "client", "abexa"]
+---
 
 * * *
 

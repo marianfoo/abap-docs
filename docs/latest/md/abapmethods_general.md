@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, IMPORTING, EXPORTING, CHANGING, RAISING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_shortref.htm) Syntax METHODS meth ABSTRACTFINAL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_abstract_final.htm) DEFAULT IGNOREFAIL(https://help.sap.c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_general.htm"
+abapFile: "abapmethods_general.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abapmethods", "general"]
+---
 
 * * *
 

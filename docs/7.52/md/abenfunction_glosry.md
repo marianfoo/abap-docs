@@ -1,4 +1,14 @@
-  
+---
+title: "Function"
+description: |
+  A function calculates a return value(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreturn_value_glosry.htm 'Glossary Entry') from one or more arguments. In ABAP, functions are either predefined as predefined functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/ab
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_glosry.htm"
+abapFile: "abenfunction_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenfunction", "glosry"]
+---
 
 * * *
 

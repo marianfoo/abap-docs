@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Enhancements"
+description: |
+  A DDIC structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures.htm), DDIC database table(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables.htm), DDIC database view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/aben
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_enhancements.htm"
+abapFile: "abenddic_enhancements.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "enhancements"]
+---
 
 * * *
 

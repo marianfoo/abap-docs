@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - type mapping"
+description: |
+  Syntax ... mapping for PartnerType           control ControlType corresponding except Comp1,Comp2, ...  EntityComp1      = PartnerComp1 control ControlComp; EntityComp2      = PartnerComp2 control ControlComp; parameter Param1 = PartnerComp;
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping.htm"
+abapFile: "abenbdl_type_mapping.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abenbdl", "type", "mapping"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SAP LUW"
+description: |
+  An application program can be split into multiple program sections, which are processed in sequence using different work processes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwork_process_glosry.htm 'Glossary Entry'). Each switch of a work process is linked with an implicit
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw.htm"
+abapFile: "abensap_luw.htm"
+keywords: ["update", "do", "while", "if", "try", "method", "class", "data", "abensap", "luw"]
+---
 
 * * *
 
@@ -16,8 +26,7 @@ An application program can be split into multiple program sections, which are pr
 
 To ensure the data consistency of application programs that are executed across multiple work processes, the change statements are not executed directly in an [SAP LUW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw_glosry.htm "Glossary Entry"). Instead, they are first registered and then executed by a single work process, that is, in a single database LUW.
 
--   [Bundling Techniques](#@@ITOC@@ABENSAP_LUW_1)
--   [Statements for SAP LUWs](#@@ITOC@@ABENSAP_LUW_2)
+-   [Bundling Techniques](#abensap-luw-1-------statements-for-sap-luws---@ITOC@@ABENSAP_LUW_2)
 -   [SAP LUWs and Internal Sessions](#@@ITOC@@ABENSAP_LUW_3)
 
 Bundling Techniques   

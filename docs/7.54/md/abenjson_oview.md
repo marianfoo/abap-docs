@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Quick Overview"
+description: |
+  JSON (JavaScript Object Notation)(http://www.json.org/) is a data exchange format whose syntax generally represents a subset of the JavaScript syntax. JSON data is saved and transported as character strings in a character format. The syntax of JSON consists of the following components: -   Syntax
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_oview.htm"
+abapFile: "abenjson_oview.htm"
+keywords: ["do", "if", "try", "data", "abenjson", "oview"]
+---
 
 * * *
 

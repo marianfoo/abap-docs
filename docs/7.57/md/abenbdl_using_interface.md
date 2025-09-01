@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - using interface, Extension"
+description: |
+  Syntax ... using interface InterfaceBdef; Prerequisite As a prerequisite for using interface, the CDS interface behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_interface_bdef_glosry.htm 'Glossary Entry') InterfaceBdef must explicitly allow extensions. It must
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_using_interface.htm"
+abapFile: "abenbdl_using_interface.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "class", "data", "types", "abenbdl", "using", "interface"]
+---
 
 * * *
 

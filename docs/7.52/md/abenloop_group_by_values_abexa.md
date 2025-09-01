@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP Using Column Values"
+description: |
+  This example demonstrates the construction of the group key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengroup_key_glosry.htm 'Glossary Entry') using simple value assignments. Source Code REPORT demo_loop_group_by_values. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS:
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_values_abexa.htm"
+abapFile: "abenloop_group_by_values_abexa.htm"
+keywords: ["select", "loop", "do", "try", "method", "class", "data", "internal-table", "abenloop", "group", "values", "abexa"]
+---
 
 * * *
 

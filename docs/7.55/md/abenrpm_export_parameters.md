@@ -1,4 +1,14 @@
-  
+---
+title: "Type of the Output Parameter"
+description: |
+  Work in progress  Syntax TYPES type_for_export_parameter TYPE TABLE FOR FAILED LATE MAPPED LATE REPORTED LATE READ RESULT CDS_entity_name. TYPES type_for_action_export_parameter TYPE TABLE FOR ACTION RESULT CDS_entity_name~action_name. TYPES ts_repo
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm"
+abapFile: "abenrpm_export_parameters.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenrpm", "export", "parameters"]
+---
 
 * * *
 

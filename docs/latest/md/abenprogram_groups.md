@@ -1,4 +1,14 @@
-  
+---
+title: "Program Groups in External Procedure Calls"
+description: |
+  The programs within an internal session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm 'Glossary Entry') form program groups(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session.htm) there. There is always one main
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_groups.htm"
+abapFile: "abenprogram_groups.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenprogram", "groups"]
+---
 
 * * *
 

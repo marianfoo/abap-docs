@@ -1,4 +1,14 @@
-  
+---
+title: "value_semantics_glosry"
+description: |
+  value_semantics_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_semantics_glosry.htm"
+abapFile: "abenvalue_semantics_glosry.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abenvalue", "semantics", "glosry"]
+---
 
 * * *
 

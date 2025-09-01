@@ -1,4 +1,14 @@
-  
+---
+title: "MDMP system"
+description: |
+  Abbreviation of multi-display, multi-processing system. An MDMP system contains multiple non- Unicode(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_glosry.htm 'Glossary Entry') system code pages(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_codepa
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmdmp-system_glosry.htm"
+abapFile: "abenmdmp-system_glosry.htm"
+keywords: ["do", "try", "abenmdmp", "system", "glosry"]
+---
 
 * * *
 

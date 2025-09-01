@@ -1,4 +1,14 @@
-  
+---
+title: "Class Size"
+description: |
+  Background The class size is the number of components (attributes, methods, events) of a class. The ABAP Compiler predefines a maximum number of 65,536 components. The total memory consumption by static attributes, instance attributes, and constants is restricted to 500KB in each case. With regards
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_size_guidl.htm"
+abapFile: "abenclass_size_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenclass", "size", "guidl"]
+---
 
 * * *
 

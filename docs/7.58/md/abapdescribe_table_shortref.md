@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE TABLE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_table.htm) Syntax DESCRIBE TABLE itab KIND knd LINES lin OCCURS n. Effect Defines the properties of an internal table itab. Additions -   KIND knd Returns the table category in knd. -   LINES
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_table_shortref.htm"
+abapFile: "abapdescribe_table_shortref.htm"
+keywords: ["do", "if", "try", "internal-table", "abapdescribe", "table", "shortref"]
+---
 
 * * *
 

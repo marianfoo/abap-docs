@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Global Temporary Tables"
+description: |
+  Global temporary tables (GTTs) are special transparent tables(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransparent_table_glosry.htm 'Glossary Entry') used as repositories for temporary data. This data exists only within a database LUW(https://help.sap.com/doc/abapdocu_755_i
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_gtt.htm"
+abapFile: "abenddic_database_tables_gtt.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenddic", "database", "tables", "gtt"]
+---
 
 * * *
 

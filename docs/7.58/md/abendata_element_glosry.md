@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC data element"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm 'Glossary Entry') in the ABAP Dictionary(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') that defines an elementary data type
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_element_glosry.htm"
+abapFile: "abendata_element_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendata", "element", "glosry"]
+---
 
 * * *
 

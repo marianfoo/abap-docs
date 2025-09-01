@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Grouping Sets"
+description: |
+  This example demonstrates the GROUP BY(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgroupby_clause.htm) addition GROUPING SETS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgrouping_sets_clause.htm) of the statement SELECT(https://help.sap.com/doc/a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_grouping_sets_abexa.htm"
+abapFile: "abenselect_grouping_sets_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenselect", "grouping", "sets", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "replacement_object_glosry"
+description: |
+  replacement_object_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreplacement_object_glosry.htm"
+abapFile: "abenreplacement_object_glosry.htm"
+keywords: ["do", "if", "case", "try", "data", "abenreplacement", "object", "glosry"]
+---
 
 * * *
 

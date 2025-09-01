@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions, RAISE"
+description: |
+  This example demonstrates the statement RAISE EXCEPTION. Source Code REPORT demo_raise_exception. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: oref    TYPE REF TO cx_demo_constructor, text     TYPE string, position TYPE i. TRY
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_abexa.htm"
+abapFile: "abenraise_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "exception-handling", "abenraise", "abexa"]
+---
 
 * * *
 

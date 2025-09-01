@@ -1,4 +1,14 @@
-  
+---
+title: "ROLLBACK WORK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprollback_shortref.htm) Syntax ROLLBACK WORK. Effect The statement ROLLBACK WORK closes the current SAP LUW(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprollback.htm"
+abapFile: "abaprollback.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "catch", "class", "data", "abaprollback"]
+---
 
 * * *
 

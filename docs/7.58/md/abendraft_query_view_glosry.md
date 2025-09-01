@@ -1,4 +1,14 @@
-  
+---
+title: "RAP draft query view"
+description: |
+  CDS view entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') or CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v1_view_glosry.htm 'Glossary Entry') that selects from the RAP draft table
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendraft_query_view_glosry.htm"
+abapFile: "abendraft_query_view_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abendraft", "query", "view", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP system"
+description: |
+  An ABAP Platform(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_platform_glosry.htm 'Glossary Entry') implemented using a client-server system(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_server_system_glosry.htm 'Glossary Entry') consisting of -   A
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_system_glosry.htm"
+abapFile: "abenabap_system_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "system", "glosry"]
+---
 
 * * *
 

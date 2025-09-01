@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE, Output Length"
+description: |
+  When data is written using the statement WRITE, the output is stored in the list buffer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_buffer_glosry.htm 'Glossary Entry') and accessed from there for display when the list is called. -   Predefined Output Lengths(#abenwrite-ou
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_output_length.htm"
+abapFile: "abenwrite_output_length.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenwrite", "output", "length"]
+---
 
 * * *
 
@@ -13,14 +23,10 @@ WRITE, Output Length
 
 When data is written using the statement WRITE, the output is stored in the [list buffer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_buffer_glosry.htm "Glossary Entry") and accessed from there for display when the list is called.
 
--   [Predefined Output Lengths](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_1)
-    -   [Numeric Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_2)
-    -   [Character-Like Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_3)
-    -   [Byte-Like Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_4)
-    -   [Date Types, Time Types, and Time Stamp Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_5)
-    -   [Enumerated Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_6)
--   [Output Length in List Buffer](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_7)
--   [Output Length in the List](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_8)
+-   [Predefined Output Lengths](#abenwrite-output-length-1-----------numeric-data-types---@ITOC@@ABENWRITE_OUTPUT_LENGTH_2)
+    -   [Character-Like Data Types](#abenwrite-output-length-3-----------byte-like-data-types---@ITOC@@ABENWRITE_OUTPUT_LENGTH_4)
+    -   [Date Types, Time Types, and Time Stamp Types](#abenwrite-output-length-5-----------enumerated-types---@ITOC@@ABENWRITE_OUTPUT_LENGTH_6)
+-   [Output Length in List Buffer](#abenwrite-output-length-7-------output-length-in-the-list---@ITOC@@ABENWRITE_OUTPUT_LENGTH_8)
 -   [Class for Calculating Output Lengths](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_9)
 
 Each time a data object is output by a WRITE, an output length is defined, either implicitly in accordance with the tables below, or [explicitly](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite-.htm) if len is specified after the addition AT. The output length defines the following:

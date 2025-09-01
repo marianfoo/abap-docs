@@ -1,4 +1,14 @@
-  
+---
+title: "cor_annotation_glosry"
+description: |
+  cor_annotation_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencor_annotation_glosry.htm"
+abapFile: "abencor_annotation_glosry.htm"
+keywords: ["do", "if", "try", "abencor", "annotation", "glosry"]
+---
 
 * * *
 

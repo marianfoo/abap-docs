@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Append Views"
+description: |
+  DDIC database views(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_views.htm) delivered by SAP can be enhanced by partners and customers using views known as DDIC append views, without making any modifications. The name of an append view is subject to the same rules a
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_views.htm"
+abapFile: "abenddic_append_views.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenddic", "append", "views"]
+---
 
 * * *
 

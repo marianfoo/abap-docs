@@ -1,4 +1,14 @@
-  
+---
+title: "GET TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time_stamp_shortref.htm) Syntax GET TIME STAMP FIELD time_stamp. Effect This statement uses the system time(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_time_glosry.htm 'Glossary Entry')
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time-stamp.htm"
+abapFile: "abapget_time-stamp.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapget", "time", "stamp"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP unmanaged save"
+description: |
+  Save logic which replaces the default save method in managed RAP BOs(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmanaged_rap_bo_glosry.htm 'Glossary Entry'). It can be applied to the complete BO(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm '
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_unman_save_glosry.htm"
+abapFile: "abenrap_unman_save_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenrap", "unman", "save", "glosry"]
+---
 
 * * *
 

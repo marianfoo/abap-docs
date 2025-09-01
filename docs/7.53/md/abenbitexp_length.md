@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  The result of the following bit expression is hexadecimal 11111010, with a length of 4 bytes. DATA hex1 TYPE xstring VALUE '10101010'. DATA hex2 TYPE xstring VALUE '0101'. cl_demo_output=>display(  hex1 bit-or hex2 n xstrlen( conv xstring( hex1 bit-or hex2 ) )  ).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbitexp_length.htm"
+abapFile: "abenbitexp_length.htm"
+keywords: ["do", "if", "try", "method", "data", "abenbitexp", "length"]
+---
 
 * * *
 

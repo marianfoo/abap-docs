@@ -1,4 +1,14 @@
-  
+---
+title: "Extracts, Determining Numbers and Totals"
+description: |
+  This example demonstrates how numbers and totals are determined in extracts. Source Code REPORT demo_extract_cnt_sum. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. DATA: t1 TYPE c LENGTH 4, t2 TYPE i. FIELD-GROUPS: header, test. CLASS demo IMPLEMENTATION. METHOD main. INSER
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextract_sum_abexa.htm"
+abapFile: "abenextract_sum_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "abenextract", "sum", "abexa"]
+---
 
 * * *
 

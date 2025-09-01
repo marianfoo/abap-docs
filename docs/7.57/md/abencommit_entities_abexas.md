@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for ABAP EML COMMIT ENTITIES"
+description: |
+  !Example(exa.gif 'Example') ABAP EML - COMMIT ENTITIES, Short and Long Form(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommit_entities_sh_lo_abexa.htm) !Example(exa.gif 'Example') ABAP EML - COMMIT ENTITIES, Dynamic Form(https://help.sap.com/doc/abapdocu_757_index_htm/7.5
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommit_entities_abexas.htm"
+abapFile: "abencommit_entities_abexas.htm"
+keywords: ["do", "if", "abencommit", "entities", "abexas"]
+---
 
 * * *
 

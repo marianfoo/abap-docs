@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Literal XML Elements and Attributes"
+description: |
+  Literal XML elements are XML elements that are not ST commands or that do not lie within the namespace http://www.sap.com/transformation-templates (namespace prefix tt). Attributes of literal XML elements that do not lie within this namespace are called literal attributes. In serializations, literal
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_xml_literals.htm"
+abapFile: "abenst_xml_literals.htm"
+keywords: ["do", "if", "data", "abenst", "xml", "literals"]
+---
 
 * * *
 

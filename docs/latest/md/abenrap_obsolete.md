@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Statements for RAP"
+description: |
+  -   Obsolete EML Statements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_obsolete.htm) Obsolete Elements in ABAP Behavior Pool Implementations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_obsolete.htm) Obsolete ABAP EML Statements(https://h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_obsolete.htm"
+abapFile: "abenrap_obsolete.htm"
+keywords: ["do", "if", "abenrap", "obsolete"]
+---
 
 * * *
 

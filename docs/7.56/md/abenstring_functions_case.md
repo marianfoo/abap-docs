@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... case = case ...  ) ... Effect Searches and comparisons in string functions are case-sensitive by default, but this can be overridden, if necessary, using the parameter case. The argument case requires a constant or a literal of the type abap_bool from the type pool ABAP with the value of
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_functions_case.htm"
+abapFile: "abenstring_functions_case.htm"
+keywords: ["do", "if", "case", "data", "abenstring", "functions"]
+---
 
 * * *
 

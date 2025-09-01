@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Extensibility Enabling for Base BOs"
+description: |
+  Syntax managed(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_impl_type.htm)  unmanaged(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_impl_type.htm) strict(version)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abe
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extensibility_enabling_m_u.htm"
+abapFile: "abenbdl_extensibility_enabling_m_u.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "extensibility", "enabling"]
+---
 
 * * *
 

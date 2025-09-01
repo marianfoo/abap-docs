@@ -1,4 +1,14 @@
-  
+---
+title: "Using Shared Objects"
+description: |
+  Background Access to shared objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shared_objects.htm) is regulated by lock mechanisms. The individual locks are stored as administrative information with the area instances in the shared memory and are set and evaluated when the
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_shared_objects_guidl.htm"
+abapFile: "abenuse_shared_objects_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenuse", "shared", "objects", "guidl"]
+---
 
 * * *
 

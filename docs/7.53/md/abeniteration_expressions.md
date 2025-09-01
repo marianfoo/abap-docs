@@ -1,4 +1,14 @@
-  
+---
+title: "Iteration Expressions"
+description: |
+  An iteration expression is a subexpression of specific constructor expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_glosry.htm 'Glossary Entry') introduced using the iteration operator FOR and is used to perform an iteration in these expressions. Al
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeniteration_expressions.htm"
+abapFile: "abeniteration_expressions.htm"
+keywords: ["do", "if", "try", "internal-table", "abeniteration", "expressions"]
+---
 
 * * *
 

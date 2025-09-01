@@ -1,4 +1,14 @@
-  
+---
+title: "Input Checks in Dialog Modules"
+description: |
+  Input checks in PAI modules are enabled by first transporting the content of the input fields to the ABAP program. This is where the content can then be checked. Any errors can be corrected on the screen before further modules are called. This is made possible by combining the statements FIELD(htt
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks_mod.htm"
+abapFile: "abenabap_dynpros_checks_mod.htm"
+keywords: ["do", "if", "case", "data", "abenabap", "dynpros", "checks", "mod"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Input Checks in Dialog Modules
 
 Input checks in PAI modules are enabled by first transporting the content of the input fields to the ABAP program. This is where the content can then be checked. Any errors can be corrected on the screen before further modules are called. This is made possible by combining the statements [FIELD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield.htm) and [CHAIN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpchain.htm) in dynpro flow logic with [messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_messages.htm).
 
--   [Checking Single Fields](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_1)
+-   [Checking Single Fields](#abenabap-dynpros-checks-mod-1--------checking-multiple-fields---@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_2)
 
--   [Checking Multiple Fields](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_2)
-
--   [Defining Input-Enabled Fields and Data Transport](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_3)
-
--   [Checking Fields Repeatedly](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_4)
+-   [Defining Input-Enabled Fields and Data Transport](#abenabap-dynpros-checks-mod-3--------checking-fields-repeatedly---@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_4)
 
 -   [Other Functions in the FIELD and CHAIN Statements](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_5)
 

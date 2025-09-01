@@ -1,4 +1,14 @@
-  
+---
+title: "Dictionary"
+description: |
+  → ABAP Dictionary(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendictionary_glosry.htm"
+abapFile: "abendictionary_glosry.htm"
+keywords: ["do", "try", "abendictionary", "glosry"]
+---
 
 * * *
 

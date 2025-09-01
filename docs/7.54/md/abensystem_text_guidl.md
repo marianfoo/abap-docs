@@ -1,4 +1,14 @@
-  
+---
+title: "Storing System Texts"
+description: |
+  Background In ABAP programs, texts are used as parts of processed data but also as a means to communicate with the user. The latter are called system texts, which are delivered with an ABAP application. The ABAP Workbench manages system texts in such a way that they can be translated from the origi
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_text_guidl.htm"
+abapFile: "abensystem_text_guidl.htm"
+keywords: ["do", "if", "try", "class", "data", "abensystem", "text", "guidl"]
+---
 
 * * *
 

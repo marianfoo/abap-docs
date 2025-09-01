@@ -1,4 +1,14 @@
-  
+---
+title: "builtin_data_object_glosry"
+description: |
+  builtin_data_object_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_data_object_glosry.htm"
+abapFile: "abenbuiltin_data_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenbuiltin", "object", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP handler method"
+description: |
+  Special method in a RAP handler class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_class_glosry.htm 'Glossary Entry') of an ABAP behavior pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') that is
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm"
+abapFile: "abenabp_handler_method_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabp", "handler", "glosry"]
+---
 
 * * *
 

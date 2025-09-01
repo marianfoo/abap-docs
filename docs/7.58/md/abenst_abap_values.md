@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Transformation of ABAP Values"
+description: |
+  The following ST statements are used for transformations of ABAP values: -   tt:value(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_value_elementary.htm) for elementary data objects -   tt:value(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_value_str
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_abap_values.htm"
+abapFile: "abenst_abap_values.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abenst", "abap", "values"]
+---
 
 * * *
 

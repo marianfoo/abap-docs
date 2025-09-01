@@ -1,4 +1,14 @@
-  
+---
+title: "CONVERT KEY"
+description: |
+  Syntax CONVERT KEY OF bdef FROM TEMPORARY pre_key TO final_key. Effect This statement is only possible between COMMIT ENTITIES BEGIN, END(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapemlcommit_entities_late.htm). Syntax Part Details CONVERT KEY OF bdef. Specifies the RA
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconvert_key.htm"
+abapFile: "abapconvert_key.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "types", "internal-table", "abapconvert", "key"]
+---
 
 * * *
 

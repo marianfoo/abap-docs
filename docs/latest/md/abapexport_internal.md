@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT, Internal Additions"
+description: |
+  These additions are for internal use only. Do not use them in application programs. Additions: 1. ... CODE PAGE HINT cp(#!ABAP_ADDITION_1@1@) 2. ... USING subr(prog)(#!ABAP_ADDITION_2@2@) Addition 1 ... CODE PAGE HINT cp Effect In cp, a code page(https://help.sap.com/doc/abapdocu_lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_internal.htm"
+abapFile: "abapexport_internal.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapexport", "internal"]
+---
 
 * * *
 

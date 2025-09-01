@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Statements for Source Code Processing"
+description: |
+  Internal Statements These statements are for internal use only. They cannot be used in application programs. -   SYNTAX-CHECK FOR PROGRAM(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsyntax-check_for_program.htm) -   GENERATE REPORT(https://help.sap.com/doc/abapdocu_753_index_h
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_internal.htm"
+abapFile: "abengeneric_internal.htm"
+keywords: ["delete", "do", "abengeneric", "internal"]
+---
 
 * * *
 

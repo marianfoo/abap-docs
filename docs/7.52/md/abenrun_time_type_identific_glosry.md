@@ -1,4 +1,14 @@
-  
+---
+title: "run_time_type_identific_glosry"
+description: |
+  run_time_type_identific_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrun_time_type_identific_glosry.htm"
+abapFile: "abenrun_time_type_identific_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenrun", "time", "type", "identific", "glosry"]
+---
 
 * * *
 

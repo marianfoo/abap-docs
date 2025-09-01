@@ -1,4 +1,14 @@
-  
+---
+title: "Creating a Data Object as a Shared Object"
+description: |
+  This example demonstrates how a data object is created in an area instance version(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarea_instance_version_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_create_shared_data_obj DEFINITION INHERITI
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencreate_shared_data_objct_abexa.htm"
+abapFile: "abencreate_shared_data_objct_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abencreate", "shared", "objct", "abexa"]
+---
 
 * * *
 

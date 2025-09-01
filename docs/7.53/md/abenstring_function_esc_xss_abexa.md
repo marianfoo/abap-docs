@@ -1,4 +1,14 @@
-  
+---
+title: "String Functions, escape for XSS"
+description: |
+  This example demonstrates the string function escape(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenescape_functions.htm) for preventing XSS. Source Code REPORT demo_xss. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. CLASS-DATA: i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_function_esc_xss_abexa.htm"
+abapFile: "abenstring_function_esc_xss_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenstring", "function", "esc", "xss", "abexa"]
+---
 
 * * *
 

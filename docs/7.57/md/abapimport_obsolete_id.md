@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... MAJOR-ID id1 MINOR-ID id2 ... Effect Outside of classes, the addition ID of the statement IMPORT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_data_cluster.htm) FROM DATABASE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_medium.htm) can
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapimport_obsolete_id.htm"
+abapFile: "abapimport_obsolete_id.htm"
+keywords: ["do", "if", "try", "class", "data", "abapimport", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ST"
+description: |
+  → Simple transformation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensimple_transformation_glosry.htm 'Glossary Entry').
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_glosry.htm"
+abapFile: "abenst_glosry.htm"
+keywords: ["do", "if", "try", "abenst", "glosry"]
+---
 
 * * *
 

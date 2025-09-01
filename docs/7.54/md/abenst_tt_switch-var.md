@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:switch-var> <tt:s-d-cond-var ... <tt:s-d-cond-var ... ... </tt:switch-var> Effect The statement tt:switch-var allows case distinctions in which, unlike tt:switch, only cases for data content can be specified, not for data flow. In tt:switch, a list of cases can be shown whe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_switch-var.htm"
+abapFile: "abenst_tt_switch-var.htm"
+keywords: ["do", "if", "case", "data", "abenst", "switch", "var"]
+---
 
 * * *
 

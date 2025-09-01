@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Table, Append Rows"
+description: |
+  This example demonstrates how rows can be appended to internal tables. Source Code REPORT demo_int_tables_append. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). 'Part 1 TYPES: BEGIN OF wa, col1 TYP
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenappend_lines_abexa.htm"
+abapFile: "abenappend_lines_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "types", "internal-table", "abenappend", "lines", "abexa"]
+---
 
 * * *
 

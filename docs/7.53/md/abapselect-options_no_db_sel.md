@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT-OPTIONS - NO DATABASE SELECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_shortref.htm) Obsolete Syntax ...   NO DATABASE SELECTION  ... Effect The addition NO DATABASE SELECTION of the statement SELECT-OPTIONS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-U
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_no_db_sel.htm"
+abapFile: "abapselect-options_no_db_sel.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselect", "options", "sel"]
+---
 
 * * *
 

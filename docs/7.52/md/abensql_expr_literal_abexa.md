@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Constant in SELECT List"
+description: |
+  This example demonstrates one way to use a constant value in the SELECT list. Source Code REPORT demo_sql_expr_literal. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrier TYPE scarr-carrid. cl_demo_input=>request( CHANGING f
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_expr_literal_abexa.htm"
+abapFile: "abensql_expr_literal_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensql", "expr", "literal", "abexa"]
+---
 
 * * *
 

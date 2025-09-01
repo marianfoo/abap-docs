@@ -1,4 +1,14 @@
-  
+---
+title: "HDI object"
+description: |
+  Native HDI(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_glosry.htm 'Glossary Entry')-managed XSA(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsa_glosry.htm 'Glossary Entry') database object in an HDI container(https://help.sap.com/doc/abapdocu_752_inde
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_object_glosry.htm"
+abapFile: "abenhdi_object_glosry.htm"
+keywords: ["do", "try", "data", "abenhdi", "object", "glosry"]
+---
 
 * * *
 

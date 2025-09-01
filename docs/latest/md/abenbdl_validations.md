@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - validation"
+description: |
+  Syntax validation ValName on save  CUD1; CUD2; ...    field Field1, Field2, ... ;  Effect Checks the consistency of RAP business object instances based on trigger conditions. A validation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_validation_glosry.htm 'Glossary
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_validations.htm"
+abapFile: "abenbdl_validations.htm"
+keywords: ["update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "abenbdl", "validations"]
+---
 
 * * *
 

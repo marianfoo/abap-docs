@@ -1,4 +1,14 @@
-  
+---
+title: "RFC session"
+description: |
+  User session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_session_glosry.htm 'Glossary Entry') for RFC processing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_processing_glosry.htm 'Glossary Entry'). An RFC session is opened using a remote
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_session_glosry.htm"
+abapFile: "abenrfc_session_glosry.htm"
+keywords: ["do", "if", "try", "abenrfc", "session", "glosry"]
+---
 
 * * *
 

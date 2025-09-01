@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI interface"
+description: |
+  A BAdI interface is a global interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_oo_glosry.htm 'Glossary Entry') that integrates the (https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_glosry.htm 'Glossary Entry')tag interface(https://help.sap.
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbadi_interface_glosry.htm"
+abapFile: "abenbadi_interface_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenbadi", "interface", "glosry"]
+---
 
 * * *
 

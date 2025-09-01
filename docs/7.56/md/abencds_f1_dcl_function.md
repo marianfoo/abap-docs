@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  SACF_CHECK_IN_USE( NAME => scenario_name , OBJECT => auth_object  ) IS NOT INITIAL    OPTIONAL_ELEMENT_EXISTS( NAME >= element ) IS NOT INITIAL  ... Variants: 1. ... SACF_CHECK_IN_USE ...(#!ABAP_VARIANT_1@1@) 2. ... OPTIONAL_ELEMENT_EXISTS
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_function.htm"
+abapFile: "abencds_f1_dcl_function.htm"
+keywords: ["select", "do", "if", "case", "method", "data", "abencds", "dcl", "function"]
+---
 
 * * *
 

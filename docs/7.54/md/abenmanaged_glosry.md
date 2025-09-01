@@ -1,4 +1,14 @@
-  
+---
+title: "Managed"
+description: |
+  An implementation type of the business object behavior(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_glosry.htm 'Glossary Entry') in the context of the ABAP RESTful Programming Model(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenr_a_p_glosry.htm 'Glossa
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmanaged_glosry.htm"
+abapFile: "abenmanaged_glosry.htm"
+keywords: ["do", "case", "try", "abenmanaged", "glosry"]
+---
 
 * * *
 

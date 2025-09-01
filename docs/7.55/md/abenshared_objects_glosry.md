@@ -1,4 +1,14 @@
-  
+---
+title: "shared_objects_glosry"
+description: |
+  shared_objects_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_objects_glosry.htm"
+abapFile: "abenshared_objects_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenshared", "objects", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "END-OF-PAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-page_shortref.htm) Syntax END-OF-PAGE. Effect This statement defines an event block, whose event is triggered by the ABAP runtime environment(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-page.htm"
+abapFile: "abapend-of-page.htm"
+keywords: ["select", "loop", "do", "if", "try", "class", "data", "types", "abapend", "page"]
+---
 
 * * *
 

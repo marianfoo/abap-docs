@@ -1,4 +1,14 @@
-  
+---
+title: "Filling a Structure"
+description: |
+  The example demonstrates the filling of a nested structure. Source Code  Public class definition CLASS cl_demo_structure_filling DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. TYPES: BEGIN OF name_type, title   TYPE string, prenam
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_filling_abexa.htm"
+abapFile: "abenstructure_filling_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenstructure", "filling", "abexa"]
+---
 
 * * *
 

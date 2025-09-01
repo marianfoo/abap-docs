@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Generic date functions 1. ... IS_VALID( datetimeutclong )  EXTRACT_YEAR( dateutclong )  EXTRACT_MONTH( dateutclong )  EXTRACT_DAY( dateutclong )  DAYNAME( dateutclong )  MONTHNAME( dateutclong )  WEEKDAY( dateutclong )  DAYS_BETWEEN( date1utcl
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_date_func.htm"
+abapFile: "abensql_date_func.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "case", "try", "catch", "class", "data", "types", "abensql", "date", "func"]
+---
 
 * * *
 
@@ -37,32 +47,8 @@ Functions for DATS
     *|* DATS\_ADD\_DAYS( date,days )
     *|* DATS\_ADD\_MONTHS( date,months ) ...
 
--   [Generic Time Functions](#@@ITOC@@ABENSQL_DATE_FUNC_1)
--   [Functions for DATN](#@@ITOC@@ABENSQL_DATE_FUNC_2)
--   [Functions for DATS](#@@ITOC@@ABENSQL_DATE_FUNC_3)
-
-Effect
-
-These SQL functions perform operations on dates with arguments of the built-in data types [DATN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [TIMN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), and [UTCLONG](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm). The first set covers generic functions, the second set covers a function depending on the data type [DATN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), and the third set covers a function depending on the data type [DATS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm). The arguments of the functions are specified as a comma-separated list in parentheses. A blank must be placed after the opening parenthesis and in front of the closing parenthesis. [SQL expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) of matching data types can be passed as actual parameters. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_value_glosry.htm "Glossary Entry"), every function except IS\_VALID and DATS\_IS\_VALID returns a null value.
-
-Generic Time Functions   
-
-Syntax
-
-... IS\_VALID( date*|*time*|*utclong )
-  *|* EXTRACT\_YEAR( date*|*utclong )
-  *|* EXTRACT\_MONTH( date*|*utclong )
-  *|* EXTRACT\_DAY( date*|*utclong )
-  *|* DAYNAME( date*|*utclong )
-  *|* MONTHNAME( date*|*utclong )
-  *|* WEEKDAY( date*|*utclong )
-  *|* DAYS\_BETWEEN( *{*date1*|*utclong1*}*,*{*date2*|*utclong2*}* )
-  *|* ADD\_DAYS( *{*date*|*utclong*}*,days )
-  *|* ADD\_MONTHS( *{*date*|*utclong*}*,months ) ...
-
-Variants:
-
-[1\. ... IS\_VALID( date*|*time*|*utclong )](#!ABAP_VARIANT_1@1@)
+-   [Generic Time Functions](#abensql-date-func-1-------functions-for-datn---@ITOC@@ABENSQL_DATE_FUNC_2)
+-   [Functions for DATS](#abensql-date-func-3---effect--these-sql-functions-perform-operations-on-dates-with-arguments-of-the-built-in-data-types--datn--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----dats--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----timn--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm----tims--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm---and--utclong--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm---the-first-set-covers-generic-functions--the-second-set-covers-a-function-depending-on-the-data-type--datn--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm---and-the-third-set-covers-a-function-depending-on-the-data-type--dats--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-builtin-types-htm---the-arguments-of-the-functions-are-specified-as-a-comma-separated-list-in-parentheses--a-blank-must-be-placed-after-the-opening-parenthesis-and-in-front-of-the-closing-parenthesis---sql-expressions--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abapsql-expr-htm--of-matching-data-types-can-be-passed-as-actual-parameters--if-an-actual-parameter-contains-the--null-value--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abennull-value-glosry-htm--glossary-entry----every-function-except-is--valid-and-dats--is--valid-returns-a-null-value---generic-time-functions-----syntax------is--valid--date---time---utclong---------extract--year--date---utclong---------extract--month--date---utclong---------extract--day--date---utclong---------dayname--date---utclong---------monthname--date---utclong---------weekday--date---utclong---------days--between-----date1---utclong1-------date2---utclong2------------add--days-----date---utclong----days---------add--months-----date---utclong----months--------variants----1-------is--valid--date---time---utclong------abap-variant-11@)
 [2\. ... EXTRACT\_YEAR( date*|*utclong )](#!ABAP_VARIANT_2@2@)
 [3\. ... EXTRACT\_MONTH( date*|*utclong )](#!ABAP_VARIANT_3@3@)
 [4\. ... EXTRACT\_DAY( date*|*utclong )](#!ABAP_VARIANT_4@4@)

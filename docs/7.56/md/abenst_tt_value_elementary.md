@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:value ref='node' map='...' lengthminLengthmaxLength='len' xsd-type... option='...,...' /> Effect This form of the ST statement tt:value serializes and deserializes elementary data objects. The optional attribute ref can be used to define the current
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_elementary.htm"
+abapFile: "abenst_tt_value_elementary.htm"
+keywords: ["insert", "do", "if", "data", "types", "abenst", "value", "elementary"]
+---
 
 * * *
 

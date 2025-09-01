@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC, Query"
+description: |
+  This example demonstrates the execution of a query(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query.htm) with ADBC. Source Code REPORT demo_adbc_query. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF result_line, carrid T
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm"
+abapFile: "abenadbc_query_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "query", "abexa"]
+---
 
 * * *
 

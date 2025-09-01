@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  rel_exp - Predicate Expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicate_expressions.htm) rel_exp - Predicate Functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicate_functions.htm) rel_exp - Predicative Method Call(https:/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicate.htm"
+abapFile: "abenpredicate.htm"
+keywords: ["do", "if", "method", "abenpredicate"]
+---
 
 * * *
 

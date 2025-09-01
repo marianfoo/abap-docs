@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Client Handling"
+description: |
+  Open SQL by default uses automatic client handling(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_glosry.htm 'Glossary Entry'). The effect of automatic client handling is that when a client-specific(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_client_handling.htm"
+abapFile: "abenopen_sql_client_handling.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenopen", "sql", "client", "handling"]
+---
 
 * * *
 

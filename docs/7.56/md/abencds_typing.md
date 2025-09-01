@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - typing"
+description: |
+  Syntax ... dtype  data_element  ... Effect Types elements or parameters of CDS entities(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm 'Glossary Entry') in CDS DDL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddl_glosry.htm 'Glossar
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_typing.htm"
+abapFile: "abencds_typing.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "typing"]
+---
 
 * * *
 

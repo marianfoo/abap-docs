@@ -1,4 +1,14 @@
-  
+---
+title: "runtime_error_glosry"
+description: |
+  runtime_error_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_glosry.htm"
+abapFile: "abenruntime_error_glosry.htm"
+keywords: ["do", "if", "try", "catch", "data", "abenruntime", "error", "glosry"]
+---
 
 * * *
 

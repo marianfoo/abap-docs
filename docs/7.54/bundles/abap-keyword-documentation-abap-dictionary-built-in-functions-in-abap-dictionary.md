@@ -5,7 +5,17 @@ Included pages: 13
 
 ### abenddic_builtin_functions.htm
 
-  
+---
+title: "Built-In Functions in ABAP Dictionary"
+description: |
+  The following sections summarize the built-in SQL database functions managed by ABAP Dictionary and supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/a
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_functions.htm"
+abapFile: "abenddic_builtin_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "builtin", "functions"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abensql_functions.htm
 
-  
+---
+title: "SQL Functions"
+description: |
+  The following sections summarize the built-in SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry')
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions.htm"
+abapFile: "abensql_functions.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions"]
+---
 
 * * *
 
@@ -65,7 +85,17 @@ Continue
 
 ### abensql_functions_numeric.htm
 
-  
+---
+title: "SQL Functions for Numeric Values"
+description: |
+  The following table shows the numeric SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The co
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm"
+abapFile: "abensql_functions_numeric.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abensql", "functions", "numeric"]
+---
 
 * * *
 
@@ -210,7 +240,17 @@ MOD
 
 ### abensql_functions_string.htm
 
-  
+---
+title: "SQL Functions for Strings"
+description: |
+  The following table shows the SQL functions for strings supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). Th
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_string.htm"
+abapFile: "abensql_functions_string.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abensql", "functions", "string"]
+---
 
 * * *
 
@@ -384,7 +424,17 @@ Continue
 
 ### abensql_function_upper_abexa.htm
 
-  
+---
+title: "SQL Function UPPER"
+description: |
+  This example demonstrates the SQL function UPPER in ABAP SQL and ABAP CDS. Source Code REPORT demo_sql_upper. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: query TYPE string VALUE `ERROR`, rows  TYPE i      VALUE 100. cl_demo
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_function_upper_abexa.htm"
+abapFile: "abensql_function_upper_abexa.htm"
+keywords: ["select", "do", "case", "method", "class", "data", "abensql", "function", "upper", "abexa"]
+---
 
 * * *
 
@@ -458,7 +508,17 @@ Since SQL functions cannot yet be used on the left side of LIKE in the DDL of th
 
 ### abensql_functions_string.htm
 
-  
+---
+title: "SQL Functions for Strings"
+description: |
+  The following table shows the SQL functions for strings supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). Th
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_string.htm"
+abapFile: "abensql_functions_string.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abensql", "functions", "string"]
+---
 
 * * *
 
@@ -632,7 +692,17 @@ Continue
 
 ### abensql_functions_null.htm
 
-  
+---
+title: "SQL Functions for Null Values"
+description: |
+  The following table shows the SQL functions for null values(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm 'Glossary Entry') that are supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') a
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_null.htm"
+abapFile: "abensql_functions_null.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions", "null"]
+---
 
 * * *
 
@@ -669,7 +739,17 @@ Descriptions of the potential operands and data types can be found in the corres
 
 ### abensql_functions_uuid.htm
 
-  
+---
+title: "SQL functions for UUIDs"
+description: |
+  The following table shows the SQL functions for UUIDs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm 'Glossary Entry') that are supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_uuid.htm"
+abapFile: "abensql_functions_uuid.htm"
+keywords: ["do", "try", "abensql", "functions", "uuid"]
+---
 
 * * *
 
@@ -706,7 +786,17 @@ The function is described in the relevant [ABAP SQL](https://help.sap.com/doc/ab
 
 ### abensql_functions.htm
 
-  
+---
+title: "SQL Functions"
+description: |
+  The following sections summarize the built-in SQL functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry')
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions.htm"
+abapFile: "abensql_functions.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions"]
+---
 
 * * *
 
@@ -741,7 +831,17 @@ Continue
 
 ### abenddic_special_functions.htm
 
-  
+---
+title: "Special Functions"
+description: |
+  These built-in functions are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_conversion_functions.htm) -   Date functions and time functions(https://help.sap.com/doc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_special_functions.htm"
+abapFile: "abenddic_special_functions.htm"
+keywords: ["do", "data", "abenddic", "special", "functions"]
+---
 
 * * *
 
@@ -764,7 +864,17 @@ Continue
 
 ### abenddic_conversion_functions.htm
 
-  
+---
+title: "Conversion Functions"
+description: |
+  The following table shows the conversion functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The las
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_conversion_functions.htm"
+abapFile: "abenddic_conversion_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "conversion", "functions"]
+---
 
 * * *
 
@@ -837,7 +947,17 @@ Descriptions of the potential operands and data types and how they work can be f
 
 ### abenddic_date_time_functions.htm
 
-  
+---
+title: "Date Functions and Time Functions"
+description: |
+  The following table shows the date and time functions supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry'). The
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_date_time_functions.htm"
+abapFile: "abenddic_date_time_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "date", "time", "functions"]
+---
 
 * * *
 
@@ -982,7 +1102,17 @@ Descriptions of the potential operands and data types can be found in the corres
 
 ### abenddic_special_functions.htm
 
-  
+---
+title: "Special Functions"
+description: |
+  These built-in functions are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_conversion_functions.htm) -   Date functions and time functions(https://help.sap.com/doc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_special_functions.htm"
+abapFile: "abenddic_special_functions.htm"
+keywords: ["do", "data", "abenddic", "special", "functions"]
+---
 
 * * *
 

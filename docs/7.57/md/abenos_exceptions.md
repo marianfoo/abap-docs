@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Exception Classes"
+description: |
+  The exception classes of the Object Services start with the prefix CX_OS_. The exceptions of category CX_DYNAMIC_CHECK are propagated to the caller by Object Services and must be handled by the consumer. The subclasses CX_OS_NO_CHECK_CONTAINER and CX_OS_MIGRATION of CX_NO_CHECK are for i
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenos_exceptions.htm"
+abapFile: "abenos_exceptions.htm"
+keywords: ["select", "insert", "update", "delete", "do", "while", "if", "class", "data", "abenos", "exceptions"]
+---
 
 * * *
 

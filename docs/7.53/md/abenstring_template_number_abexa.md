@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Number Formats"
+description: |
+  The example demonstrates the various number formats for embedded expressions. Source Code REPORT demo_string_template_numb_form. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS: setup, teardown, check_system. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_number_abexa.htm"
+abapFile: "abenstring_template_number_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenstring", "template", "number", "abexa"]
+---
 
 * * *
 

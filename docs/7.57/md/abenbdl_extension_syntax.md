@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - extension"
+description: |
+  Syntax extension using interface InterfaceBdef(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_using_interface.htm); extension_header(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_header.htm) foreign entity(https://
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_syntax.htm"
+abapFile: "abenbdl_extension_syntax.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbdl", "extension", "syntax"]
+---
 
 * * *
 

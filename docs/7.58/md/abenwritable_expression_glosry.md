@@ -1,4 +1,14 @@
-  
+---
+title: "writable_expression_glosry"
+description: |
+  writable_expression_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwritable_expression_glosry.htm"
+abapFile: "abenwritable_expression_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenwritable", "expression", "glosry"]
+---
 
 * * *
 

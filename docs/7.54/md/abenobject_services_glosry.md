@@ -1,4 +1,14 @@
-  
+---
+title: "Object Services"
+description: |
+  Interfaces(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_oo_glosry.htm 'Glossary Entry') and classes(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_glosry.htm 'Glossary Entry') from the class library(https://help.sap.com/doc/abapdocu_754_index_h
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_services_glosry.htm"
+abapFile: "abenobject_services_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenobject", "services", "glosry"]
+---
 
 * * *
 

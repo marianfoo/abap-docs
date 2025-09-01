@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_shortref.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP int_format_options(https://help.sap.com/doc/abapdocu_752_index_htm/7.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite-.htm"
+abapFile: "abapwrite-.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abapwrite"]
+---
 
 * * *
 

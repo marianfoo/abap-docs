@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  By specifying format(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_option_format.htm) in the attribute option(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_option.htm) of the ST statement tt:value(https://help.sap.com/doc/abapdocu_latest_index_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asjson_schema.htm"
+abapFile: "abenabap_asjson_schema.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "asjson", "schema"]
+---
 
 * * *
 

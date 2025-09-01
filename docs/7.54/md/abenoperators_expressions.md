@@ -1,4 +1,14 @@
-  
+---
+title: "Operators and Expressions"
+description: |
+  Normally an operater links two operands with an expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm) or forms an expression with an operand. During the execution of a statement containing such expressions, the result of the expression is determined (operation)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm"
+abapFile: "abenoperators_expressions.htm"
+keywords: ["do", "abenoperators", "expressions"]
+---
 
 * * *
 

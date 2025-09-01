@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  destination_ref =?= source_ref. Effect Assignment between two reference variables. The reference in source_ref is assigned destination_ref. If the assignment is successful, destination_ref points to the same object as source_ref (reference semantics(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmove_cast.htm"
+abapFile: "abapmove_cast.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "abapmove", "cast"]
+---
 
 * * *
 

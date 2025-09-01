@@ -1,4 +1,14 @@
-  
+---
+title: "CONSTANTS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconstants.htm) Syntax CONSTANTS const options. Effect Declares a constant const. Addition -   options As in DATA(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_shortref.htm), except that the a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconstants_shortref.htm"
+abapFile: "abapconstants_shortref.htm"
+keywords: ["do", "if", "data", "abapconstants", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SYNTAX-CHECK FOR PROGRAM"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax SYNTAX-CHECK FOR PROGRAM prog MESSAGE mess LINE lin WORD wrd WITH CURRENT SWITCHSTATES error_handling(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_error_handling
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_program.htm"
+abapFile: "abapsyntax-check_for_program.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapsyntax", "check", "for", "program"]
+---
 
 * * *
 

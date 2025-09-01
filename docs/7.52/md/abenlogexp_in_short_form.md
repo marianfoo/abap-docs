@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... seltab ... Effect This relational expression has the same effect as the comparison expression ... operand IN seltab ...(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_select_option.htm) Here, operand is the data object for which the selection table seltab was declared us
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_in_short_form.htm"
+abapFile: "abenlogexp_in_short_form.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "abenlogexp", "short", "form"]
+---
 
 * * *
 

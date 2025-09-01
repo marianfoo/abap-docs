@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Assignments"
+description: |
+  -   MOVE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm) -   MOVE - PERCENTAGE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_percentage.htm) -   PACK(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abappack.htm) -   ASSIGN - obsole
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_assignments.htm"
+abapFile: "abenobsolete_assignments.htm"
+keywords: ["do", "data", "abenobsolete", "assignments"]
+---
 
 * * *
 

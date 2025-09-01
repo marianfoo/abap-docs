@@ -1,4 +1,14 @@
-  
+---
+title: "abap_sxml_lib_reader"
+description: |
+  abap_sxml_lib_reader - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_reader.htm"
+abapFile: "abenabap_sxml_lib_reader.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenabap", "sxml", "lib", "reader"]
+---
 
 * * *
 

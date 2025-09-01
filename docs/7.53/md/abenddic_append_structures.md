@@ -1,4 +1,14 @@
-  
+---
+title: "Append Structures"
+description: |
+  An append structure is a structure in ABAP Dictionary appended to another structure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures.htm) or database table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm) and which adds its co
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_append_structures.htm"
+abapFile: "abenddic_append_structures.htm"
+keywords: ["insert", "do", "if", "try", "class", "data", "abenddic", "append", "structures"]
+---
 
 * * *
 

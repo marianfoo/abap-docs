@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Saver Methods"
+description: |
+  The following topics are covered in this section: -   adjust_numbers, RAP Saver Method(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensaver_adjust_numbers.htm) -   check_before_save, RAP Saver Method(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensave
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_methods.htm"
+abapFile: "abenabp_saver_methods.htm"
+keywords: ["do", "if", "method", "class", "abenabp", "saver", "methods"]
+---
 
 * * *
 

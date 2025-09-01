@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ABAP_SYSTEM_TIMEZONE( client   = client, on_error = on_error )  ABAP_USER_TIMEZONE( user     = user , client   = client, on_error = on_error ) ... Variants: 1. ... ABAP_SYSTEM_TIMEZONE( ... )(#!ABAP_VARIANT_1@1@) 2. ... ABAP_USER_TIMEZO
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_timezone_func.htm"
+abapFile: "abensql_timezone_func.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abensql", "timezone", "func"]
+---
 
 * * *
 

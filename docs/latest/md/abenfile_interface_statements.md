@@ -1,4 +1,14 @@
-  
+---
+title: "Statements for the ABAP File Interface"
+description: |
+  The following statements make up the ABAP File Interface: -   OPEN DATASET(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset.htm) -   TRANSFER(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptransfer.htm) -   READ DATASET(https://help.sap.com/
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_interface_statements.htm"
+abapFile: "abenfile_interface_statements.htm"
+keywords: ["delete", "do", "if", "data", "abenfile", "interface", "statements"]
+---
 
 * * *
 

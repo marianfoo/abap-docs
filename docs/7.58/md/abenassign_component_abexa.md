@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Dynamic Structure Components"
+description: |
+  This example demonstrates dynamic assignments of structure components using ASSIGN. Source Code  Public class definition CLASS cl_demo_assign_component DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class imple
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassign_component_abexa.htm"
+abapFile: "abenassign_component_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "field-symbol", "abenassign", "component", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT DEMO_IXML_CREATE_SIMPLE_ELEM. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. DATA(ixml)     = cl_ixml=>create( ). DATA(document) = ixml->create_document( ). DATA(root) = document->create_simple_element_ns( pref
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenixml_crea_simple_elem_abexa.htm"
+abapFile: "abenixml_crea_simple_elem_abexa.htm"
+keywords: ["select", "insert", "do", "method", "class", "data", "abenixml", "crea", "simple", "elem", "abexa"]
+---
 
 * * *
 

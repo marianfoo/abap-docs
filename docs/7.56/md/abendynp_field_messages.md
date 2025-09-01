@@ -1,4 +1,14 @@
-  
+---
+title: "Handling Outside a Processing Chain"
+description: |
+  If FIELD is specified outside a processing chain introduced using CHAIN(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpchain.htm), and if a warning or an error message is sent in the dialog module specified after MODULE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/d
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_field_messages.htm"
+abapFile: "abendynp_field_messages.htm"
+keywords: ["do", "if", "try", "abendynp", "field", "messages"]
+---
 
 * * *
 

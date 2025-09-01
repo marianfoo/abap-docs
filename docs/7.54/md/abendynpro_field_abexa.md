@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, FIELD Statement"
+description: |
+  This example demonstrates how to transport data using the statement FIELD. Source Code PROGRAM demo_dynpro_field. DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, box1(1) TYPE c, box2(1) TYPE c, box3(1) TYPE c, box4(1) TYPE c, mod1_result1(1) TYPE c, mod1_result2(1) TYPE c, mod1_result3(1)
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_field_abexa.htm"
+abapFile: "abendynpro_field_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "field", "abexa"]
+---
 
 * * *
 

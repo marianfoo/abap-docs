@@ -1,4 +1,14 @@
-  
+---
+title: "Transaction Mode"
+description: |
+  Since the transaction service of the Object Services is connected to classic transaction processing or is built on SAP LUWs, it is important that a program can specify whether it is working with classic or object-oriented transactions. This requires the term 'transaction mode' to be introduced, whic
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_transaction_mode.htm"
+abapFile: "abenos_transaction_mode.htm"
+keywords: ["select", "update", "delete", "do", "while", "if", "try", "catch", "method", "class", "data", "abenos", "transaction", "mode"]
+---
 
 * * *
 

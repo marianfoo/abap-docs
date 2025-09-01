@@ -1,4 +1,14 @@
-  
+---
+title: "Classes and Interfaces for Streams"
+description: |
+  The classes and interfaces of streams are in the package SABP_STREAMS_AND_LOCATORS. Interfaces and classes that have been released for use are exposed in their package interface SABP_STREAMS_AND_LOCATORS. The following figure shows the hierarchy of the most important interfaces and classes for
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstreaming_classes_interfaces.htm"
+abapFile: "abenstreaming_classes_interfaces.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "internal-table", "abenstreaming", "classes", "interfaces"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Inserting and Deleting Lines"
+description: |
+  In the statement block of a LOOP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab_variants.htm) control statement, the content of the currently processed internal table can be changed by inserting or deleting lines. The position of inserted or deleted lines with regard t
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_loop_change.htm"
+abapFile: "abenitab_loop_change.htm"
+keywords: ["insert", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenitab", "change"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ ement:)
 
 itab - Changing Internal Tables in a Loop
 
--   [Inserting and Deleting Lines](#@@ITOC@@ABENITAB_LOOP_CHANGE_1)
--   [Replacing or Clearing the Entire Table Body](#@@ITOC@@ABENITAB_LOOP_CHANGE_2)
+-   [Inserting and Deleting Lines](#abenitab-loop-change-1-------replacing-or-clearing-the-entire-table-body---@ITOC@@ABENITAB_LOOP_CHANGE_2)
 
 Inserting and Deleting Lines   
 

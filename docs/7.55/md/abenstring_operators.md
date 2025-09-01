@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand1 && operand2 ... Effect The concatenation operator(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconcatenation_operator_glosry.htm 'Glossary Entry') && concatenates two operands in a string expression into one character string. The operand positions operand are enhance
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_operators.htm"
+abapFile: "abenstring_operators.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "data", "types", "abenstring", "operators"]
+---
 
 * * *
 

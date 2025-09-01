@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_shortref.htm) Syntax OPEN DATASET dset FOR access(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_access.htm) IN mode(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset.htm"
+abapFile: "abapopen_dataset.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "internal-table", "abapopen", "dataset"]
+---
 
 * * *
 

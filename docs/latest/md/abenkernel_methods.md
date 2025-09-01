@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Kernel Methods"
+description: |
+  For internal use, kernel methods can be implemented in the ABAP kernel(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkernel_glosry.htm 'Glossary Entry') instead of in the ABAP language. Introduction Kernel methods provide the option of directly calling the ABAP kernel functio
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkernel_methods.htm"
+abapFile: "abenkernel_methods.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenkernel", "methods"]
+---
 
 * * *
 

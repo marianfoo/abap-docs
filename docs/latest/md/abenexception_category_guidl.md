@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Categories"
+description: |
+  Background Each class-based exception belongs to one of three different exception categories, each of which define whether the exceptions need to be declared in procedure interfaces. The assignment of an exception to an exception class is realized (technically) using inheritance. All exception class
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_category_guidl.htm"
+abapFile: "abenexception_category_guidl.htm"
+keywords: ["do", "if", "case", "catch", "method", "class", "abenexception", "category", "guidl"]
+---
 
 * * *
 

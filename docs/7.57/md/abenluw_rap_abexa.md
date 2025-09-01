@@ -1,4 +1,14 @@
-  
+---
+title: "SAP LUW, RAP"
+description: |
+  This example demonstrates how SAP LUWs(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_luw.htm) are bundled in the context of RAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_glosry.htm 'Glossary Entry'). The RAP artifacts are as follows: -   Data model:
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenluw_rap_abexa.htm"
+abapFile: "abenluw_rap_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenluw", "rap", "abexa"]
+---
 
 * * *
 

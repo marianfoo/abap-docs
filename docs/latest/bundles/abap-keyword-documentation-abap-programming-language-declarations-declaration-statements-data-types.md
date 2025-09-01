@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abaptypes_lob_handle.htm
 
-  
+---
+title: "TYPES, LOB HANDLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_shortref.htm) Syntax TYPES dtype TYPE dbtabview lob_handle_type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_lob_handle_type.htm) FOR lob_handle_columns(https://help.sa
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_lob_handle.htm"
+abapFile: "abaptypes_lob_handle.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abaptypes", "lob", "handle"]
+---
 
 * * *
 
@@ -83,7 +93,17 @@ Continue
 
 ### abaptypes_lob_handle_type.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  READERLOCATORLOB HANDLE    WRITERLOCATOR  ... Effect These additions define the static type of the LOB handle components(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlob_handle_component_glosry.htm 'Glossary Entry') when deriving a LOB han
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_lob_handle_type.htm"
+abapFile: "abaptypes_lob_handle_type.htm"
+keywords: ["do", "if", "try", "data", "types", "abaptypes", "lob", "handle", "type"]
+---
 
 * * *
 
@@ -137,7 +157,17 @@ Executable Example
 
 ### abaptypes_lob_handle_columns.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  COLUMNS blob1 blob2 ... clob1 clob2 ...    ALL OTHER BLOBCLOB COLUMNS  ... Effect These additions define which columns of the database table or the view dbtab are declared as LOB handle components(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-U
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_lob_handle_columns.htm"
+abapFile: "abaptypes_lob_handle_columns.htm"
+keywords: ["do", "if", "try", "data", "types", "abaptypes", "lob", "handle", "columns"]
+---
 
 * * *
 
@@ -203,7 +233,17 @@ Executable Example
 
 ### abentypes_lob_handle_abexa.htm
 
-  
+---
+title: "Deriving LOB Handle Structures"
+description: |
+  This example demonstrates how LOB handle structures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlob_handle_structure_glosry.htm 'Glossary Entry') are derived using the statement TYPES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_lob_handle.htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentypes_lob_handle_abexa.htm"
+abapFile: "abentypes_lob_handle_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abentypes", "lob", "handle", "abexa"]
+---
 
 * * *
 

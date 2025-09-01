@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE TO TRANSACTION - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_to_transaction.htm) Syntax LEAVE TO  TRANSACTION ta  CURRENT TRANSACTION  AND SKIP FIRST SCREEN. Effect Calls either the transaction(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_to_transaction_shortref.htm"
+abapFile: "abapleave_to_transaction_shortref.htm"
+keywords: ["do", "if", "try", "abapleave", "transaction", "shortref"]
+---
 
 * * *
 

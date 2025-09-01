@@ -1,4 +1,14 @@
-  
+---
+title: "Effect"
+description: |
+  The addition strict(2) enables BDEF strict mode(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_strict_mode_glosry.htm 'Glossary Entry'), version 2. When strict mode is switched on, outdated syntax which normally produces a syntax check warning leads to a syntax check error. Str
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_strict_2.htm"
+abapFile: "abenbdl_strict_2.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "strict"]
+---
 
 * * *
 

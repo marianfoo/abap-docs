@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  FROM(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfrom_clause.htm) source FIELDS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfields_clause.htm) select_clause(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_clause.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwith_subquery.htm"
+abapFile: "abapwith_subquery.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abapwith", "subquery"]
+---
 
 * * *
 

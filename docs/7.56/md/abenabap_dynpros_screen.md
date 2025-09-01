@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - Examples of Screen Elements(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_elements_abexas.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_screen.htm"
+abapFile: "abenabap_dynpros_screen.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpros", "screen"]
+---
 
 * * *
 

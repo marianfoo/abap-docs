@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Methods"
+description: |
+  Methods are declared using the statements -   METHODS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods.htm) for instance methods -   CLASS-METHODS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass-methods.htm) for static methods These are only possible in
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethods.htm"
+abapFile: "abenmethods.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenmethods"]
+---
 
 * * *
 

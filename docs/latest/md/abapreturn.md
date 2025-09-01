@@ -1,4 +1,14 @@
-  
+---
+title: "RETURN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreturn_shortref.htm) Syntax RETURN expr. Addition: ... expr(#!ABAP_ONE_ADD@1@) Effect This statement immediately terminates the current processing block. It can appear at any point in a processin
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreturn.htm"
+abapFile: "abapreturn.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abapreturn"]
+---
 
 * * *
 

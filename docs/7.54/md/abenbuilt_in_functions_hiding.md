@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Functions - Obscured by Methods"
+description: |
+  Within a class, a built-in function is always obscured by methods(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_glosry.htm 'Glossary Entry') of the class if they have the same name, regardless of the number and type of arguments in the function. The function is also obscure
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_functions_hiding.htm"
+abapFile: "abenbuilt_in_functions_hiding.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenbuilt", "functions", "hiding"]
+---
 
 * * *
 

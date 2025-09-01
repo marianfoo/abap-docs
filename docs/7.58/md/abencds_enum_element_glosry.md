@@ -1,4 +1,14 @@
-  
+---
+title: "CDS enumerated element"
+description: |
+  CDS element(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_glosry.htm 'Glossary Entry') that is typed with a CDS enumerated type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_glosry.htm 'Glossary Entry'). A CDS enumerated element can onl
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_element_glosry.htm"
+abapFile: "abencds_enum_element_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "enum", "element", "glosry"]
+---
 
 * * *
 

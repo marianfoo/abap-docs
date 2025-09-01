@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Structure"
+description: |
+  The structure of logical databases generally maps the foreign key relationships of hierarchical tables in the database. The structure of logical databases is tree-like and defined as follows: -   There is exactly one node at the highest level (the root). -   Each node can have one or more branches.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenldb_structure.htm"
+abapFile: "abenldb_structure.htm"
+keywords: ["do", "if", "data", "types", "abenldb", "structure"]
+---
 
 * * *
 

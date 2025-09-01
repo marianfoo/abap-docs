@@ -1,139 +1,21 @@
-# ABAP Keyword Documentation / ABAP − Reference / Data Interfaces and Communication Interfaces / ABAP and JSON / Transformations for JSON
+# ABAP Keyword Documentation / ABAP − Reference / Data Interfaces and Communication Interfaces / ABAP and JSON / Transformations for JSON / asJSON - Canonical JSON Representation
 
-Included pages: 18
-
-
-### abenabap_json_trafos.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json.htm) → 
-
-Transformations for JSON
-
-The [transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) that can be called from ABAP, namely [XSL transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenxsl_transformation_1_glosry.htm "Glossary Entry") and [simple transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensimple_transformation_glosry.htm "Glossary Entry"), can also be used for [JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_glosry.htm "Glossary Entry").
-
--   To call a transformation for JSON data as a source, the following XML sources can be specified in the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation.htm):
-
--   A string or internal table with [JSON data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_oview.htm) in character-like or byte-like representation.
-
--   A [JSON Reader](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_reader_glosry.htm "Glossary Entry").
-
-A JSON reader returns data in the [JSON XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm "Glossary Entry") format. The JSON data specified as a string or in an internal table is also handled like XML representing JSON data [JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm "Glossary Entry") format.
-
--   To call a transformation for JSON data as a target, a [JSON writer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_writer_glosry.htm "Glossary Entry") can be specified as an XML target in the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation.htm): A JSON writer expects data in [JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm "Glossary Entry") format.
-
-Any XSLT programs and ST programs can be called that can handle JSON-XML:
-
--   If the source is JSON data, the transformation must process JSON-XML as its input.
-
--   If the target is JSON data, the transformation must create JSON-XML.
-
-Self-written transformations must be programmed accordingly. The [identity transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID is handled appropriately internally.
-
--   [Self-Written Transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafos_self.htm)
-
--   [Identity Transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafo_id.htm)
-
-Continue
-[Self-Written Transformations for JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafos_self.htm)
-[Identity Transformation for JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafo_id.htm)
-[asJSON - Canonical JSON Representation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson.htm)
-
-
-### abenabap_json_trafos_self.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json.htm) →  [Transformations for JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafos.htm) → 
-
-Self-Written Transformations for JSON
-
-Self-written XSLT programs and simple transformations enable the following transformations:
-
--   Serialization of ABAP data objects to JSON
-
--   An [XSL transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt.htm) accesses the [asXML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasxml_glosry.htm "Glossary Entry") representation of the connected ABAP data, created internally. Its task is to transform asXML to JSON-XML.
-
--   A [simple transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st.htm) accesses the connected ABAP data directly. Its task is to create a valid JSON-XML representation.
-
--   Deserialization from JSON to ABAP data objects:
-
--   The task of a an [XSL transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt.htm) is to transform JSON-XML to an [asXML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasxml_glosry.htm "Glossary Entry") representation of the connected ABAP data objects.
-
--   The task of a [simple transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st.htm) is to process JSON-XML and write the data to the connected ABAP data objects.
-
--   XSL transformations between JSON and XML or between JSON and JSON.
-
--   Transformations can be called between JSON-XML and any XML or between JSON-XML and JSON-XML.
-
-Executable Example
-
-[Simple Transformation for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st_json_table_abexa.htm)
-
-
-### abenabap_json_trafo_id.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json.htm) →  [Transformations for JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafos.htm) → 
-
-Identity Transformation for JSON
-
-The predefined [identity transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_id.htm) ID is executed internally so that all requirements for [JSON transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafos.htm) are met. The following combinations are possible:
-
--   [JSON writer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_writer_glosry.htm "Glossary Entry") as XML target
-
--   ABAP data objects as source
-    The ABAP data is serialized directly to its canonical JSON format [asJSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasjson_glosry.htm "Glossary Entry"). In this concept, the ABAP data is serialized first to its XML format [asXML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasxml_glosry.htm "Glossary Entry"). This is then transformed to an [asJSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasjson_xml_glosry.htm "Glossary Entry") representation and passed to the writer.
-
--   XML data as XML source
-    The XML source must be in JSON-XML format and is passed to the writer directly.
-
--   JSON data or JSON reader as XML source
-    The JSON-XML data is passed to the writer directly.
-
--   JSON data or [JSON reader](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_reader_glosry.htm "Glossary Entry") as XML source
-
--   ABAP data objects as target
-    The JSON data must be in an [asJSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasjson_glosry.htm "Glossary Entry") format that matches the ABAP data objects. The JSON data is deserialized directly to the ABAP data objects. In this concept, an asJSON-XML representation of the asJSON data is edited that is first transformed to asXML and then deserialized to the ABAP data objects.
-
--   XML data as XML target
-    The JSON-XML data is passed to the XML target directly.
-
--   JSON writer as XML target
-    The JSON-XML data is passed to the writer directly.
-
-When XML data is specified as an XML source or XML target, this covers all data that can be specified behind XML in CALL TRANSFORMATION, except for JSON data and JSON readers and writers.
-
-Notes
-
--   If the identity transformation ID is used to serialize ABAP data to JSON and deserialize JSON data to ABAP, [asJSON, the canonical JSON representation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson.htm) of ABAP data, is applied.
-
--   Copies of the XSL transformation ID made from the repository to other XSLT programs are not handled like ID internally and cannot be used like ID for JSON data.
-
-Executable Examples
-
--   See [Identity Transformation with JSON Writer as Target](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_trafo_id_abexa.htm) for the various ways of specifying JSON data as an XML source.
-
--   See the [asJSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson.htm) examples.
+Included pages: 14
 
 
 ### abenabap_asjson.htm
 
-  
+---
+title: "Notes"
+description: |
+  -   asJSON only occurs in the identity transformation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenid_trafo_glosry.htm 'Glossary Entry') ID. In particular, asJSON is not generally needed for self-written transformations for JSON; JSON-XML(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson.htm"
+abapFile: "abenabap_asjson.htm"
+keywords: ["do", "while", "try", "data", "types", "abenabap", "asjson"]
+---
 
 * * *
 
@@ -167,7 +49,17 @@ Continue
 
 ### abenabap_asjson_general.htm
 
-  
+---
+title: "Executable Example"
+description: |
+  asJSON, General Format(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_hello_json_abexa.htm)
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_general.htm"
+abapFile: "abenabap_asjson_general.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenabap", "asjson", "general"]
+---
 
 * * *
 
@@ -199,7 +91,17 @@ Executable Example
 
 ### abenabap_asjson_abap_types.htm
 
-  
+---
+title: "Continue"
+description: |
+  asJSON - Mapping of Elementary ABAP Types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_elem.htm) asJSON - Mapping of Structures(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_struc.htm) asJSON - Mapping of Internal
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types.htm"
+abapFile: "abenabap_asjson_abap_types.htm"
+keywords: ["do", "data", "types", "internal-table", "abenabap", "asjson", "abap"]
+---
 
 * * *
 
@@ -241,7 +143,17 @@ Continue
 
 ### abenabap_asjson_abap_types_elem.htm
 
-  
+---
+title: "Note"
+description: |
+  An elementary ABAP data object that does not have an associated JSON object component in deserializations retains its previous value. To initialize the data object in this case, the transformation option clear(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation_optio
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_elem.htm"
+abapFile: "abenabap_asjson_abap_types_elem.htm"
+keywords: ["do", "case", "data", "types", "abenabap", "asjson", "abap", "elem"]
+---
 
 * * *
 
@@ -270,7 +182,17 @@ Executable Example
 
 ### abenabap_asjson_abap_types_struc.htm
 
-  
+---
+title: "Note"
+description: |
+  A structure that does not have an associated JSON object component in deserializations retains its previous value. A structure to which an empty object is assigned also remains unchanged, since this has the same effect on the structure components as a missing object component. To initialize the stru
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_struc.htm"
+abapFile: "abenabap_asjson_abap_types_struc.htm"
+keywords: ["do", "case", "data", "types", "abenabap", "asjson", "abap", "struc"]
+---
 
 * * *
 
@@ -293,7 +215,17 @@ Executable Example
 
 ### abenabap_asjson_abap_types_table.htm
 
-  
+---
+title: "Notes"
+description: |
+  -   An internal table that does not have an associated JSON object component in deserializations retains its previous value. If an empty array is assigned to an internal table, it is set to its type-dependent initial value (which means it is emptied). To initialize the internal table in either case,
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_table.htm"
+abapFile: "abenabap_asjson_abap_types_table.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenabap", "asjson", "abap", "table"]
+---
 
 * * *
 
@@ -318,7 +250,17 @@ Executable Example
 
 ### abenabap_asjson_abap_types_enum.htm
 
-  
+---
+title: "Example"
+description: |
+  Serialization of an internal table with enumerated values by JSON. TYPES: BEGIN OF ENUM color STRUCTURE col, red, blue, green, END OF ENUM color STRUCTURE col. DATA colors TYPE SORTED TABLE OF color WITH UNIQUE KEY table_line. DO. ASSIGN COMPONENT sy-index OF STRUCTURE col TO FIELD-SYMBOL(<fs>). IF
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_enum.htm"
+abapFile: "abenabap_asjson_abap_types_enum.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenabap", "asjson", "abap", "enum"]
+---
 
 * * *
 
@@ -367,7 +309,17 @@ The output is:
 
 ### abenabap_asxml_references.htm
 
-  
+---
+title: "Note"
+description: |
+  -   The asJSON representation of reference variables and referenced objects is only of relevance for XSL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenid_trafo_glosry.htm 'Glossary Entry') transformations and the identity transformation ID. You cannot currently use simple transfor
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asxml_references.htm"
+abapFile: "abenabap_asxml_references.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenabap", "asxml", "references"]
+---
 
 * * *
 
@@ -409,7 +361,17 @@ Continue
 
 ### abenabap_asjson_reference_var.htm
 
-  
+---
+title: "Executable Example"
+description: |
+  Serializing Data References(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenserialize_dref_abexa.htm)
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_reference_var.htm"
+abapFile: "abenabap_asjson_reference_var.htm"
+keywords: ["do", "case", "data", "types", "abenabap", "asjson", "reference", "var"]
+---
 
 * * *
 
@@ -434,7 +396,17 @@ Executable Example
 
 ### abenabap_asjson_anonym_do.htm
 
-  
+---
+title: "Executable Example"
+description: |
+  asJSON for Anonymous Data Objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_asjson_dref_abexa.htm).
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_anonym_do.htm"
+abapFile: "abenabap_asjson_anonym_do.htm"
+keywords: ["do", "if", "data", "types", "abenabap", "asjson", "anonym"]
+---
 
 * * *
 
@@ -470,7 +442,17 @@ Executable Example
 
 ### abenabap_asjson_class_instances.htm
 
-  
+---
+title: "Executable Example"
+description: |
+  asJSON for Object References(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_asjson_oref_abexa.htm)
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_class_instances.htm"
+abapFile: "abenabap_asjson_class_instances.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "asjson", "instances"]
+---
 
 * * *
 
@@ -510,7 +492,17 @@ Executable Example
 
 ### abenabap_asxml_references.htm
 
-  
+---
+title: "Note"
+description: |
+  -   The asJSON representation of reference variables and referenced objects is only of relevance for XSL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenid_trafo_glosry.htm 'Glossary Entry') transformations and the identity transformation ID. You cannot currently use simple transfor
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asxml_references.htm"
+abapFile: "abenabap_asxml_references.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenabap", "asxml", "references"]
+---
 
 * * *
 
@@ -552,7 +544,17 @@ Continue
 
 ### abenabap_asjson_abap_types.htm
 
-  
+---
+title: "Continue"
+description: |
+  asJSON - Mapping of Elementary ABAP Types(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_elem.htm) asJSON - Mapping of Structures(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types_struc.htm) asJSON - Mapping of Internal
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types.htm"
+abapFile: "abenabap_asjson_abap_types.htm"
+keywords: ["do", "data", "types", "internal-table", "abenabap", "asjson", "abap"]
+---
 
 * * *
 
@@ -594,7 +596,17 @@ Continue
 
 ### abenabap_asjson_schema.htm
 
-  
+---
+title: "Note"
+description: |
+  By specifying format(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute option(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command tt:value(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_schema.htm"
+abapFile: "abenabap_asjson_schema.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "asjson", "schema"]
+---
 
 * * *
 
@@ -615,37 +627,3 @@ By specifying [format](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-U
 Executable Example
 
 [asJSON for Additional XML Schema Data Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_asjson_xsd_abexa.htm)
-
-
-### abenabap_asjson.htm
-
-  
-
-* * *
-
-AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
-
-[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json.htm) →  [Transformations for JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafos.htm) → 
-
-asJSON - Canonical JSON Representation
-
-The canonical JSON representation asJSON is the format of [JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_glosry.htm "Glossary Entry") data that is produced by a serialization of ABAP data using the [identity transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID, or that is required for a deserialization using the identity transformation.
-
-asJSON is based closely on [asXML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml.htm). From a conceptual perspective, a asJSON representation is produced by a restructuring of the asXML representation of this ABAP data to a [JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm "Glossary Entry") representation, while keeping all value content. This means the same basic rules apply as for asXML. In particular, XML schema data types for the mapping of ABAP data types are also used in asJSON.
-
-Description of the asJSON format:
-
--   [General asJSON Format](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_general.htm)
-
--   [Mapping of ABAP Data Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types.htm)
-
-Notes
-
--   asJSON only occurs in the [identity transformation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID. In particular, asJSON is not generally needed for self-written transformations for JSON; [JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm "Glossary Entry") is used directly instead.
-
--   A JSON-XML representation of asJSON is known as [asJSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasjson_xml_glosry.htm "Glossary Entry"). asJSON-XML is not used as an intermediate format in transformations, but the asJSON-XML associated with a asJSON representation can be created to analyze it and compare it with asXML.
-
-Continue
-[asJSON - General Format](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_general.htm)
-[asJSON - Mapping of ABAP Data Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_abap_types.htm)
-[asJSON - Mapping Additional XML Schema Data Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson_schema.htm)

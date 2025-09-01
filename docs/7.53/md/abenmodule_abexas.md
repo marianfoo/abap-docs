@@ -1,4 +1,14 @@
-  
+---
+title: "Module Call - Examples"
+description: |
+  !Example(exa.gif 'Example') Dynpros, Simple Module Calls(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_simple_module_abexa.htm) !Example(exa.gif 'Example') Dynpros, Unconditional Module Call(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_at_exit
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodule_abexas.htm"
+abapFile: "abenmodule_abexas.htm"
+keywords: ["do", "if", "abenmodule", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP scalar function"
+description: |
+  Scalar function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscalar_function_glosry.htm 'Glossary Entry') of the SAP HANA database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database_glosry.htm 'Glossary Entry') implemented in an AMDP functio
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_scalar_function_glosry.htm"
+abapFile: "abenamdp_scalar_function_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenamdp", "scalar", "function", "glosry"]
+---
 
 * * *
 

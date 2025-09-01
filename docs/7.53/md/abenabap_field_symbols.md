@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols"
+description: |
+  Field symbols are placeholders or symbolic names for existing data objects (or parts of existing data objects), declared by the statement FIELD-SYMBOLS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-symbols.htm) or by the declaration operator FIELD-SYMBOL(https://help.sap.c
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_field_symbols.htm"
+abapFile: "abenabap_field_symbols.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "field-symbol", "abenabap", "field", "symbols"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, LINE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_line.htm) Syntax SELECTION-SCREEN BEGIN OF LINE. ... SELECTION-SCREEN END OF LINE. Effect Defines a line on the current selection screen(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_bol_shortref.htm"
+abapFile: "abapselection-screen_bol_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapselection", "screen", "bol", "shortref"]
+---
 
 * * *
 

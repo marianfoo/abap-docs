@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_for_groups_by_comparison. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: number_tab TYPE STANDARD TABLE OF i WITH EMPTY KEY. CLASS-DATA: numbers TYPE number_tab. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA out TYPE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_group_by_comparison_abexa.htm"
+abapFile: "abenfor_group_by_comparison_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "comparison", "abexa"]
+---
 
 * * *
 

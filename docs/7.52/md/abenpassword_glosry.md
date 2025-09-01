@@ -1,4 +1,14 @@
-  
+---
+title: "Password"
+description: |
+  Sequence of characters that is only known to a specific user(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_glosry.htm 'Glossary Entry') and is required by this user to log on(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogon_glosry.htm 'Glossary Entry') t
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpassword_glosry.htm"
+abapFile: "abenpassword_glosry.htm"
+keywords: ["do", "if", "try", "abenpassword", "glosry"]
+---
 
 * * *
 

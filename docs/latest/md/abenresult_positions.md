@@ -1,4 +1,14 @@
-  
+---
+title: "Result Positions"
+description: |
+  Result positions are write positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwrite_position_glosry.htm 'Glossary Entry') in which writable expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwritable_expression_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenresult_positions.htm"
+abapFile: "abenresult_positions.htm"
+keywords: ["do", "if", "try", "method", "data", "field-symbol", "abenresult", "positions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SET COUNTRY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_country_shortref.htm) Syntax SET COUNTRY cntry. Effect This statement sets the formatting settings(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry.htm) of the language environment
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_country.htm"
+abapFile: "abapset_country.htm"
+keywords: ["select", "do", "if", "try", "data", "abapset", "country"]
+---
 
 * * *
 

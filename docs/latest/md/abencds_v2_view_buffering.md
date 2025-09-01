@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Table Buffering of CDS View Entities"
+description: |
+  The following CDS annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm 'Glossary Entry') defines whether table buffering(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_puffering.htm) is allowed for a CDS view entity(h
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_buffering.htm"
+abapFile: "abencds_v2_view_buffering.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "view", "buffering"]
+---
 
 * * *
 

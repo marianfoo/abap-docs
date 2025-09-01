@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA, Currency Conversion with SQLScript"
+description: |
+  This example demonstrates how a built-in HANA SQL function is called in SQLScript. Source Code  Public class definition CLASS cl_demo_sqlscript_curr_cnvrsn DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS se
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm"
+abapFile: "abensql_script_curr_conv_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abensql", "script", "curr", "conv", "abexa"]
+---
 
 * * *
 

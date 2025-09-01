@@ -1,4 +1,14 @@
-  
+---
+title: "superclass_glosry"
+description: |
+  superclass_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensuperclass_glosry.htm"
+abapFile: "abensuperclass_glosry.htm"
+keywords: ["do", "if", "try", "class", "abensuperclass", "glosry"]
+---
 
 * * *
 

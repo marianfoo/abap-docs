@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CURRENCY_CONVERSION( p1 = a1, p2 = a2, ... ) ... Variants: 1. ... CURRENCY_CONVERSION( p1 = a1, p2 = a2, ... )(#!ABAP_VARIANT_1@1@) Effect Functions for converting between units currencies in an ABAP SQL statement. The functions have keyword parameters(https://help.sap.com/doc/abapdocu_75
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_curr_unit_conv_func.htm"
+abapFile: "abensql_curr_unit_conv_func.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abensql", "curr", "unit", "conv", "func"]
+---
 
 * * *
 

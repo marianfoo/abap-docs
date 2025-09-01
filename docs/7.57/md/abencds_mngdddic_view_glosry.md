@@ -1,4 +1,14 @@
-  
+---
+title: "CDS-managed DDIC view"
+description: |
+  Obsolete DDIC database view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_view_glosry.htm 'Glossary Entry') of the ABAP Dictionary(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') that is created in addition to
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_mngdddic_view_glosry.htm"
+abapFile: "abencds_mngdddic_view_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "mngdddic", "view", "glosry"]
+---
 
 * * *
 

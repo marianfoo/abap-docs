@@ -1,4 +1,14 @@
-  
+---
+title: "repository_browser_glosry"
+description: |
+  repository_browser_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_browser_glosry.htm"
+abapFile: "abenrepository_browser_glosry.htm"
+keywords: ["do", "if", "try", "abenrepository", "browser", "glosry"]
+---
 
 * * *
 

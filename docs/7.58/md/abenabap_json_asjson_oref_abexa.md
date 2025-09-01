@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - asJSON for Object References"
+description: |
+  Source Code  CCDEF INTERFACE intf. DATA attr TYPE string. ENDINTERFACE. CLASS serializable DEFINITION. PUBLIC SECTION. INTERFACES if_serializable_object. INTERFACES intf DATA VALUES attr = 'Interface Attribute'. DATA attr1 TYPE string VALUE `Attribute 1`. DATA attr2 TYPE string VALUE `Attribu
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_asjson_oref_abexa.htm"
+abapFile: "abenabap_json_asjson_oref_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "json", "asjson", "oref", "abexa"]
+---
 
 * * *
 

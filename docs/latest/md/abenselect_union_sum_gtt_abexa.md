@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Union with Global Temporary Table"
+description: |
+  This example demonstrates a union across a table and a global temporary table (GTT). Source Code  Public class definition CLASS cl_demo_select_union_sum_gtt DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_union_sum_gtt_abexa.htm"
+abapFile: "abenselect_union_sum_gtt_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenselect", "union", "sum", "gtt", "abexa"]
+---
 
 * * *
 

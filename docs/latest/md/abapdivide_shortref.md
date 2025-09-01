@@ -1,4 +1,14 @@
-  
+---
+title: "DIVIDE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubtract_multiply_divide.htm) Syntax DIVIDE dobj1 BY dobj2. Effect Obsolete: Divides the content of dobj1 by the content of dobj2 and assigns the result dobj1.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdivide_shortref.htm"
+abapFile: "abapdivide_shortref.htm"
+keywords: ["do", "if", "abapdivide", "shortref"]
+---
 
 * * *
 

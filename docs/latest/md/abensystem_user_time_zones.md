@@ -1,4 +1,14 @@
-  
+---
+title: "System Time Zone and User Time Zone"
+description: |
+  Two time zones(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_zone_glosry.htm 'Glossary Entry') are preconfigured in AS ABAP, the system time zone(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_time_zone_glosry.htm 'Glossary Entry') and the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_user_time_zones.htm"
+abapFile: "abensystem_user_time_zones.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abensystem", "user", "time", "zones"]
+---
 
 * * *
 

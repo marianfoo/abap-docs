@@ -1,4 +1,14 @@
-  
+---
+title: "RAP buffer data"
+description: |
+  Data on the RAP transactional buffer(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactional_buffer_glosry.htm 'Glossary Entry') that is either in an active or a draft state.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_buffer_data_glosry.htm"
+abapFile: "abenrap_buffer_data_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "buffer", "glosry"]
+---
 
 * * *
 

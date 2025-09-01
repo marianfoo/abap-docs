@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Enumerated Types"
+description: |
+  A CDS enumerated type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_glosry.htm 'Glossary Entry') is a CDS user-defined type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_user_defined_type_glosry.htm 'Glossary Entry') in ABAP CDS(htt
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enumeration_types.htm"
+abapFile: "abencds_enumeration_types.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abencds", "enumeration"]
+---
 
 * * *
 

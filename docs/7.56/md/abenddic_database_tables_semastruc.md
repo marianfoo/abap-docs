@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Structure-Dependent Semantic Attributes of Database Tables"
+description: |
+  The following semantic attributes are the same as those of a DDIC structure(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_sema.htm) in the ABAP Dictionary: -   Short text -   Documentation -   Short text of table fields -   Output style of table fields -   Referenc
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_semastruc.htm"
+abapFile: "abenddic_database_tables_semastruc.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "abenddic", "database", "tables", "semastruc"]
+---
 
 * * *
 

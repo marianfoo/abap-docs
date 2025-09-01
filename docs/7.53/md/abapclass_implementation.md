@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS - IMPLEMENTATION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_shortref.htm) Syntax CLASS class IMPLEMENTATION. ... METHOD ... ... ENDMETHOD. ... ENDCLASS. Effect In the statement block CLASS class IMPLEMENTATION - ENDCLASS, the following methods of a class class must be impl
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_implementation.htm"
+abapFile: "abapclass_implementation.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abapclass", "implementation"]
+---
 
 * * *
 

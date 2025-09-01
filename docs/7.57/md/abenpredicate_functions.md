@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  The return value of a predicate function cannot be used in all operand positions for data objects since ABAP does not recognize Boolean data objects for the truth values true or false. rel_exp - Predicate Functions for Character-Like Arguments(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpredicate_functions.htm"
+abapFile: "abenpredicate_functions.htm"
+keywords: ["do", "if", "try", "data", "abenpredicate", "functions"]
+---
 
 * * *
 

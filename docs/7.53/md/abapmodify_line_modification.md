@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY LINE - source"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_line_shortref.htm) Syntax ... LINE VALUE FROM wa FIELD VALUE dobj1 FROM wa1 dobj2 FROM wa2 ... LINE FORMAT ext_format_options FIELD FORMAT dobj1 ext_format_options1
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_line_modification.htm"
+abapFile: "abapmodify_line_modification.htm"
+keywords: ["do", "if", "class", "data", "abapmodify", "line", "modification"]
+---
 
 * * *
 

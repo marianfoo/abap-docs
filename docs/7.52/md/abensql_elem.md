@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... col  literal  @dobj  @( expr )  ... Effect Elementary expression in Open SQL. An elementary expression is either a column col(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_columns.htm) of a data source(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_elem.htm"
+abapFile: "abensql_elem.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abensql", "elem"]
+---
 
 * * *
 

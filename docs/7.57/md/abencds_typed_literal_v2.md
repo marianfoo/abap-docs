@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Typed Literals"
+description: |
+  Syntax ... dtype(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_typing.htm)'...' Effect Typed literal(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentyped_literal_glosry.htm 'Glossary Entry') in a SELECT statement(https://help.sap.com/doc/abapdocu_757_index_
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_typed_literal_v2.htm"
+abapFile: "abencds_typed_literal_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "typed", "literal"]
+---
 
 * * *
 
@@ -28,12 +38,9 @@ Hints
 
 Typed literals can be divided into the following categories:
 
--   [Typed Numeric Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_1)
--   [Typed Character Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_2)
--   [Typed Byte Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_3)
--   [Typed Literals for Character-Like Types with Special Semantics](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_4)
--   [Typed Date and Time Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_5)
--   [Typed Currency and Quantity Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_6)
+-   [Typed Numeric Literals](#abencds-typed-literal-v2-1-------typed-character-literals---@ITOC@@ABENCDS_TYPED_LITERAL_V2_2)
+-   [Typed Byte Literals](#abencds-typed-literal-v2-3-------typed-literals-for-character-like-types-with-special-semantics---@ITOC@@ABENCDS_TYPED_LITERAL_V2_4)
+-   [Typed Date and Time Literals](#abencds-typed-literal-v2-5-------typed-currency-and-quantity-literals---@ITOC@@ABENCDS_TYPED_LITERAL_V2_6)
 
 Typed Numeric Literals   
 

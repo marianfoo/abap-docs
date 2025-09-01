@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Conversion Functions"
+description: |
+  Conversion functions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_conversion_functions.htm) in a CDS view entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm 'Glossary Entry'): -   Type conversion functions(https://help.sap.com/do
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conversion_functions_v2.htm"
+abapFile: "abencds_conversion_functions_v2.htm"
+keywords: ["select", "do", "try", "data", "types", "abencds", "conversion", "functions"]
+---
 
 * * *
 

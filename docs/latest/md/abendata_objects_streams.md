@@ -1,4 +1,14 @@
-  
+---
+title: "Streaming for Data Objects"
+description: |
+  The abstract superclasses for streaming(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstreaming_glosry.htm 'Glossary Entry') for data objects are: -   CL_ABAP_MEMORY_C_READER -   CL_ABAP_MEMORY_C_WRITER -   CL_ABAP_MEMORY_X_READER -   CL_ABAP_MEMORY_X_WRITER S
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects_streams.htm"
+abapFile: "abendata_objects_streams.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "abendata", "objects", "streams"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  element operator(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm) 'value'  ...   element NOT BETWEEN 'value1' AND 'value2'    element NOT LIKE 'value' ESCAPE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_literal.htm"
+abapFile: "abencds_f1_cond_literal.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "cond", "literal"]
+---
 
 * * *
 

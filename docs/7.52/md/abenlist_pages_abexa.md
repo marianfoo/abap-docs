@@ -1,4 +1,14 @@
-  
+---
+title: "Lists, Page Layout"
+description: |
+  The example shows how to layout the page header and footer and the page breaks on lists. Source Code &--------------------------------------------------------------------- & Report  DEMO_LIST_PAGES & &--------------------------------------------------------------------- & & &----
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_pages_abexa.htm"
+abapFile: "abenlist_pages_abexa.htm"
+keywords: ["select", "do", "if", "class", "abenlist", "pages", "abexa"]
+---
 
 * * *
 

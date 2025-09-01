@@ -1,4 +1,14 @@
-  
+---
+title: "Return Code"
+description: |
+  Background The most prominent system field should be the return code sy-subrc. This indicates the successful execution of an ABAP statement or, if you are using classic exceptions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm 'Guideline'), a procedure
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_guidl.htm"
+abapFile: "abenreturn_value_guidl.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenreturn", "value", "guidl"]
+---
 
 * * *
 

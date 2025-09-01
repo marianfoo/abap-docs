@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - General Dictionary Types"
+description: |
+  -   Integers, packed numbers, binary floating point numbers(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types_int_pack.htm) -   Decimal floating point numbers(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_decimal_floating_point.htm)
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types_general.htm"
+abapFile: "abenddic_builtin_types_general.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "builtin", "general"]
+---
 
 * * *
 

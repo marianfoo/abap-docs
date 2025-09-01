@@ -1,4 +1,14 @@
-  
+---
+title: "application_layer_glosry"
+description: |
+  application_layer_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapplication_layer_glosry.htm"
+abapFile: "abenapplication_layer_glosry.htm"
+keywords: ["do", "try", "abenapplication", "layer", "glosry"]
+---
 
 * * *
 

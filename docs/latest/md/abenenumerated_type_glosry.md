@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP enumerated type"
+description: |
+  Enumerated type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm 'Glossary Entry') in ABAP. An enumerated variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_variable_glosry.htm 'Glossary Entry') of an enumerated type ca
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_type_glosry.htm"
+abapFile: "abenenumerated_type_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenenumerated", "type", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - event"
+description: |
+  Syntax event EventName deep parameter ParamName; Effect Defines a RAP business event(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_entity_event_glosry.htm 'Glossary Entry') in the root node of a managed(https://help.sap.com/doc/abapdocu_latest_index_htm/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_event.htm"
+abapFile: "abenbdl_event.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "event"]
+---
 
 * * *
 

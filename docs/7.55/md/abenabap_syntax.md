@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Syntax"
+description: |
+  The following sections describe the syntax of ABAP: -   ABAP statements(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_statements.htm) -   Naming conventions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennaming_conventions.htm) -   Chained statements(https
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_syntax.htm"
+abapFile: "abenabap_syntax.htm"
+keywords: ["do", "if", "abenabap", "syntax"]
+---
 
 * * *
 

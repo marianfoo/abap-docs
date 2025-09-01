@@ -1,4 +1,14 @@
-  
+---
+title: "ENDLOOP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab_shortref.htm) Syntax ENDLOOP. Effect The statement ENDLOOP statement closes a loop started by LOOP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab_variants.htm).
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendloop.htm"
+abapFile: "abapendloop.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendloop"]
+---
 
 * * *
 

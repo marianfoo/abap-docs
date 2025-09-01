@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  destination = dobj. Effect In the simplest assignment case, a data object dobj is on the right side of the assignment operator =(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_operator.htm). This data object can be specified as described under Reading Positions(https://he
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove.htm"
+abapFile: "abapmove.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "data", "types", "internal-table", "field-symbol", "abapmove"]
+---
 
 * * *
 

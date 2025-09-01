@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - ASSOCIATION, transactional query"
+description: |
+  Syntax ... ASSOCIATION  min..max  TO target AS _assoc ON cds_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v2.htm)  WITH DEFAULT FILTER cds_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditio
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_view_association.htm"
+abapFile: "abencds_proj_view_association.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "proj", "view", "association"]
+---
 
 * * *
 

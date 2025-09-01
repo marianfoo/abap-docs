@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Table Buffering"
+description: |
+  Table buffering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_buffering_glosry.htm 'Glossary Entry') buffers data from the database in a table buffer(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_buffer_glosry.htm 'Glossary Entry') in the shared mem
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_puffering.htm"
+abapFile: "abensap_puffering.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abensap", "puffering"]
+---
 
 * * *
 

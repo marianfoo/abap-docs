@@ -1,4 +1,14 @@
-  
+---
+title: "Handleable Exception"
+description: |
+  Exception(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_glosry.htm 'Glossary Entry') that can be handled in the program using the statements TRY - CATCH - ENDTRY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptry.htm) without causing a runtime error(h
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentreatable_exception_glosry.htm"
+abapFile: "abentreatable_exception_glosry.htm"
+keywords: ["do", "try", "catch", "method", "class", "abentreatable", "exception", "glosry"]
+---
 
 * * *
 

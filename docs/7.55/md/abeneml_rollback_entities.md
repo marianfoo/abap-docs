@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - ROLLBACK ENTITIES"
+description: |
+  Work in progress  Syntax ROLLBACK ENTITIES. Effect The statement ROLLBACK ENTITIES rolls back all changes since the last COMMIT and resets the transactional buffer.. Using the statement ROLLBACK ENTITIES is prohibited in the behavior implementation methods(https://help.sap.com/doc/abapdocu_75
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_rollback_entities.htm"
+abapFile: "abeneml_rollback_entities.htm"
+keywords: ["do", "if", "method", "abeneml", "rollback", "entities"]
+---
 
 * * *
 

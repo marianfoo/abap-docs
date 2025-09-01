@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX regular expression"
+description: |
+  Regular expression(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregular_expression_glosry.htm 'Glossary Entry') in accordance with POSIX(https://en.wikipedia.org/wiki/POSIX) standard 1003.2. ABAP supports POSIX syntax(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenposix_regex_glosry.htm"
+abapFile: "abenposix_regex_glosry.htm"
+keywords: ["do", "if", "try", "abenposix", "regex", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Overview"
+description: |
+  ABAP SQL defines the subset of ABAP statements that enable direct access to data from the standard database(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_db_glosry.htm 'Glossary Entry') of the current AS ABAP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/ab
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_oview.htm"
+abapFile: "abenopen_sql_oview.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenopen", "sql", "oview"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Transaction Call, Examples"
+description: |
+  -   Transaction Call, SPA/GPA Parameters(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_transaction_abexa.htm) -   Transaction Call, BDC Table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_transaction_bdc_abexa.htm) -   Transaction Call, Report Transac
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactions_abexas.htm"
+abapFile: "abentransactions_abexas.htm"
+keywords: ["do", "if", "abentransactions", "abexas"]
+---
 
 * * *
 

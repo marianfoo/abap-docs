@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-EVENTS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-events_shortref.htm) Syntax CLASS-EVENTS evt EXPORTING parameters(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapevents_parameters.htm). Addition: ... EXPORTING parameters(#!ABAP_ONE_AD
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-events.htm"
+abapFile: "abapclass-events.htm"
+keywords: ["do", "if", "method", "class", "abapclass", "events"]
+---
 
 * * *
 

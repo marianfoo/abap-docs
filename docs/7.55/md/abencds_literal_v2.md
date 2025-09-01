@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, literal"
+description: |
+  Syntax ... 'character_literal'numeric_literal ... Effect Literal in a SELECT statement(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_statement_v2.htm) of a CDS view entity(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_view_glosry.htm 'Glos
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_literal_v2.htm"
+abapFile: "abencds_literal_v2.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "literal"]
+---
 
 * * *
 

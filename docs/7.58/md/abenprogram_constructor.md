@@ -1,4 +1,14 @@
-  
+---
+title: "Program Constructor"
+description: |
+  The program constructor can be used to initialize the global data of a program. It is introduced using the statement: -   LOAD-OF-PROGRAM(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload-of-program.htm) The associated event occurs when a program is loaded into the internal sess
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm"
+abapFile: "abenprogram_constructor.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenprogram", "constructor"]
+---
 
 * * *
 

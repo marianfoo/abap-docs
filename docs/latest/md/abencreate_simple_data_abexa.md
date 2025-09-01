@@ -1,4 +1,14 @@
-  
+---
+title: "Creating Elementary Data Objects"
+description: |
+  This example demonstrates how elementary data objects are created. Source Code  Public class definition CLASS cl_demo_create_simple_data DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS create_data IMPORTIN
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_simple_data_abexa.htm"
+abapFile: "abencreate_simple_data_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "abencreate", "simple", "abexa"]
+---
 
 * * *
 

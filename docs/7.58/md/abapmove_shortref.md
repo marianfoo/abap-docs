@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_obs.htm) Syntax MOVE EXACT source  TO destination          source ?TO destination. Effect Obsolete: Assigns the content of source to destination. To assign a general reference variable to a more sp
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_shortref.htm"
+abapFile: "abapmove_shortref.htm"
+keywords: ["do", "if", "try", "abapmove", "shortref"]
+---
 
 * * *
 

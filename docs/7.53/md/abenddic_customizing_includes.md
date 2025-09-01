@@ -1,4 +1,14 @@
-  
+---
+title: "Customizing Includes"
+description: |
+  A customizing include is a structure in ABAP Dictionary whose name has the prefix CI_ for customers and SI_ for partners and is in the customer namespace. Customizing includes can be included in structures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures.htm) and d
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_customizing_includes.htm"
+abapFile: "abenddic_customizing_includes.htm"
+keywords: ["insert", "do", "if", "class", "data", "abenddic", "customizing", "includes"]
+---
 
 * * *
 

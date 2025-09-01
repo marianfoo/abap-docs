@@ -1,4 +1,14 @@
-  
+---
+title: "Access to Internal Tables"
+description: |
+  When internal tables are read, either the entire table or table body(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_body_glosry.htm 'Glossary Entry') can be accessed, or individual rows. -   The table body is read using special statements such as SORT(https://help.sap.com/d
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_access.htm"
+abapFile: "abenitab_access.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "data", "types", "internal-table", "field-symbol", "abenitab", "access"]
+---
 
 * * *
 

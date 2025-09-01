@@ -1,4 +1,14 @@
-  
+---
+title: "SET HOLD DATA - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data.htm) Syntax SET HOLD DATA ONOFF. Effect Enables or disables the standard menu entries Hold Data, Set Data, and Delete Data in the GUI status(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_hold_data_shortref.htm"
+abapFile: "abapset_hold_data_shortref.htm"
+keywords: ["delete", "do", "try", "data", "abapset", "hold", "shortref"]
+---
 
 * * *
 

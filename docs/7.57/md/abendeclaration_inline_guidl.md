@@ -1,4 +1,14 @@
-  
+---
+title: "Inline Declarations"
+description: |
+  Background The declaration operators -   DATA(var)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm) for variables -   FINAL(var)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm) for immutable variables -   FIELD-SYMBOL(<fs>)(https:
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclaration_inline_guidl.htm"
+abapFile: "abendeclaration_inline_guidl.htm"
+keywords: ["loop", "do", "if", "try", "method", "data", "types", "field-symbol", "abendeclaration", "inline", "guidl"]
+---
 
 * * *
 

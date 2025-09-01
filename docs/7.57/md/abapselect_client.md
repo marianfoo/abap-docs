@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, USING CLIENT, CLIENTS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_shortref.htm) Syntax ...  USING  CLIENT clnt    CLIENTS IN @client_range_tab    CLIENTS IN T000    ALL CLIENTS   ... Variants: 1. ... USING CLIENT clnt(#!ABAP_VARIANT_1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client.htm"
+abapFile: "abapselect_client.htm"
+keywords: ["select", "insert", "do", "while", "if", "case", "try", "data", "internal-table", "abapselect", "client"]
+---
 
 * * *
 

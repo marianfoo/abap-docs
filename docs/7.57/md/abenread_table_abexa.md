@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_read_table_result. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF line, col1 TYPE i, col2 TYPE i, END OF line. DATA itab LIKE SORTED TABLE OF line WITH UNIQUE KEY col1. DATA subrc TYPE sy-subrc. DATA tabix TY
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenread_table_abexa.htm"
+abapFile: "abenread_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "field-symbol", "abenread", "table", "abexa"]
+---
 
 * * *
 

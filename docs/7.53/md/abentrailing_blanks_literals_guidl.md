@@ -1,4 +1,14 @@
-  
+---
+title: "Trailing Blanks in Character Literals"
+description: |
+  Background Trailing blanks in text field literals use memory, but are generally(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_trail_blanks.htm) ignored in operand positions, like all data objects of the type c. In text string literals they are always relevant, as
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentrailing_blanks_literals_guidl.htm"
+abapFile: "abentrailing_blanks_literals_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abentrailing", "blanks", "literals", "guidl"]
+---
 
 * * *
 

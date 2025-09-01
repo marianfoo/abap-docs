@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_asxml_elementary DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_asxml_elementary IMPLEMENTATION. METHOD main. DATA: i          TYPE i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenasxml_elementary_abexa.htm"
+abapFile: "abenasxml_elementary_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenasxml", "elementary", "abexa"]
+---
 
 * * *
 

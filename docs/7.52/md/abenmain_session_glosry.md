@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP session"
+description: |
+  Instance for a user session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_session_glosry.htm 'Glossary Entry') in AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') with ABAP Memory(https://help.sap.com/doc/abap
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_session_glosry.htm"
+abapFile: "abenmain_session_glosry.htm"
+keywords: ["do", "try", "abenmain", "session", "glosry"]
+---
 
 * * *
 

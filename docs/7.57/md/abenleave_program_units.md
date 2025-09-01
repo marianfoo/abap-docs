@@ -1,4 +1,14 @@
-  
+---
+title: "Exiting Program Units"
+description: |
+  The following program units can be exited using ABAP statements: -   Complete ABAP programs(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_leave_program.htm) -   Processing blocks(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleave_processing_blocks.htm) -
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleave_program_units.htm"
+abapFile: "abenleave_program_units.htm"
+keywords: ["loop", "do", "if", "abenleave", "program", "units"]
+---
 
 * * *
 

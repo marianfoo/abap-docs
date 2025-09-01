@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abencds_f1_define_accesspolicy.htm
 
-  
+---
+title: "CDS DCL - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_pfcg_m
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -48,7 +58,17 @@ Continue
 
 ### abencds_f1_dcl_ap_annotations.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -106,7 +126,17 @@ This means that the short text for these objects should be entered here directly
 
 ### abencds_f1_define_pfcg_mapping.htm
 
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_fiel
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -203,7 +233,17 @@ Continue
 
 ### abencds_f1_dcl_pm_annotations.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -261,7 +301,17 @@ ABAP annotations introduced using EndUserText are used to define translatable se
 
 ### abencds_f1_define_pfcg_mapping.htm
 
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_fiel
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -358,7 +408,17 @@ Continue
 
 ### abencds_f1_define_generic_aspect.htm
 
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -432,7 +492,17 @@ Continue
 
 ### abencds_f1_dcl_as_annotations.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_as_annotations.htm"
+abapFile: "abencds_f1_dcl_as_annotations.htm"
+keywords: ["do", "if", "try", "data", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -490,7 +560,17 @@ ABAP annotations introduced using EndUserText are used to define translatable se
 
 ### abencds_f1_define_generic_aspect.htm
 
-  
+---
+title: "CDS DCL - DEFINE ASPECT"
+description: |
+  Syntax aspect_annot(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_as_annotations.htm) DEFINE ASPECT aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element WITH FILTER ELEMENTS ( filter_element1 AS filter_alias1, filter_
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "GET TIME STAMP - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_time-stamp.htm) Syntax GET TIME STAMP FIELD time_stamp. Effect Returns the current time stamp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamp_glosry.htm 'Glossary Entry') in time_stamp of the
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_time_stamp_shortref.htm"
+abapFile: "abapget_time_stamp_shortref.htm"
+keywords: ["do", "try", "abapget", "time", "stamp", "shortref"]
+---
 
 * * *
 

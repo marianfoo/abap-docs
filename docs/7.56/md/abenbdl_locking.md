@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - locking"
+description: |
+  Syntax Forms Declaration on entity level ... lock master unmanaged  lock dependent by _Assoc Syntax addition that can be used for an action(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm) ... lock:none Variants: 1. ... lock master unmanaged(#!ABAP_
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_locking.htm"
+abapFile: "abenbdl_locking.htm"
+keywords: ["update", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "abenbdl", "locking"]
+---
 
 * * *
 

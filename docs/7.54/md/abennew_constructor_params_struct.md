@@ -1,4 +1,14 @@
-  
+---
+title: "NEW - Structures"
+description: |
+  Syntax ... NEW dtype#( let_exp(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm) BASE dobj comp1 = dobj1 comp2 = dobj2 ... ) ... Effect If dtype is a structured data type or # stands for a type like this, the individual components can be specified as named
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennew_constructor_params_struct.htm"
+abapFile: "abennew_constructor_params_struct.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abennew", "constructor", "params", "struct"]
+---
 
 * * *
 

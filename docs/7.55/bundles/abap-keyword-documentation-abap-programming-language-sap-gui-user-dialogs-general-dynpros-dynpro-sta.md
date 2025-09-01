@@ -5,7 +5,17 @@ Included pages: 11
 
 ### abendynp_subscreens.htm
 
-  
+---
+title: "Continue"
+description: |
+  dynpro - Including Subscreens Directly(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_subscreen.htm) dynpro - Tabstrip Controls(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_tabstrip.htm) dynpro - Splitter Controls(https://help.sap.com/doc/abapdocu_75
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_subscreens.htm"
+abapFile: "abendynp_subscreens.htm"
+keywords: ["do", "try", "abendynp", "subscreens"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abendynp_subscreen.htm
 
-  
+---
+title: "Hint"
+description: |
+  Subscreens dynpros are defined like normal dynpros in Screen Painter(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_painter_glosry.htm 'Glossary Entry') and are flagged there as regular dynpros. Selection screens(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "insert", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 
@@ -58,7 +78,17 @@ Executable Example
 
 ### abendynp_tabstrip.htm
 
-  
+---
+title: "Hint"
+description: |
+  If a tab title entry is selected when browsing in SAP GUI, input checks are not made and data is not transported to the ABAP program. Only if a user action raises the PAI event are all the entries checked and the data of all screens transported. When browsing in the ABAP program, the input is checke
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 
@@ -89,7 +119,17 @@ Executable Examples
 
 ### abendynp_splitter_control_spcl.htm
 
-  
+---
+title: "Hints"
+description: |
+  -   A splitter control can only be created in the alphanumeric Screen Painter by using Edit → Create Element → Splitter Control. For this reason it should only be used in cases when the functions offered are required on classic dynpros. Use SAPUI5(https://help.sap.com/doc/abapdocu_755_index_htm/7.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_splitter_control_spcl.htm"
+abapFile: "abendynp_splitter_control_spcl.htm"
+keywords: ["insert", "do", "while", "if", "case", "try", "method", "class", "abendynp", "splitter", "control", "spcl"]
+---
 
 * * *
 
@@ -129,7 +169,17 @@ Executable Example
 
 ### dynpcall.htm
 
-  
+---
+title: "Syntax"
+description: |
+  CALL SUBSCREEN sub_area INCLUDING prog dynnr. Variants: 1. CALL SUBSCREEN sub_area INCLUDING prog dynnr.(#!ABAP_VARIANT_1@1@) 2. CALL SUBSCREEN sub_area.(#!ABAP_VARIANT_2@2@) Effect Includes a subscreen(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubscreen_glosr
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynpcall.htm"
+abapFile: "dynpcall.htm"
+keywords: ["loop", "do", "if", "try", "data", "dynpcall"]
+---
 
 * * *
 
@@ -209,7 +259,17 @@ PROCESS AFTER INPUT.
 
 ### abentab_strip_control_abexas.htm
 
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Subscreens(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') dynpro - Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentab_strip_control
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 
@@ -228,7 +288,17 @@ Continue
 
 ### abendynpro_subscreen_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_subscreens. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: number1(4) TYPE n VALUE '0110', number2(4) TYPE n VALUE '0130', field(10) TYPE c, field1(10) TYPE c, field2(10) TYPE c. CALL SCREEN 100. MODULE status_100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MOD
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_subscreen_abexa.htm"
+abapFile: "abendynpro_subscreen_abexa.htm"
+keywords: ["do", "if", "case", "try", "data", "abendynpro", "subscreen", "abexa"]
+---
 
 * * *
 
@@ -337,7 +407,17 @@ The function code of the pushbuttons of the subscreen dynpros is different and r
 
 ### abentab_strip_control1_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_tabstrip_local. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. mytabstrip-activetab = 'PUSH2'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. MODULE us
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentab_strip_control1_abexa.htm"
+abapFile: "abentab_strip_control1_abexa.htm"
+keywords: ["do", "if", "data", "abentab", "strip", "control1", "abexa"]
+---
 
 * * *
 
@@ -383,7 +463,17 @@ When the user chooses Continue, the PAI event is raised, and an information mess
 
 ### abentab_strip_control2_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_tabstrip_server. CONTROLS mytabstrip TYPE TABSTRIP. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA  number TYPE sy-dynnr. mytabstrip-activetab = 'PUSH2'. number = '0120'. CALL SCREEN 100. MODULE status_0100 OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODULE can
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentab_strip_control2_abexa.htm"
+abapFile: "abentab_strip_control2_abexa.htm"
+keywords: ["do", "if", "case", "data", "abentab", "strip", "control2", "abexa"]
+---
 
 * * *
 
@@ -441,7 +531,17 @@ This example works in exactly the same way as the [example with local scrolling]
 
 ### abendynpro_splitter_control_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_splitter_control. DATA splitter TYPE REF TO cl_dynpro_splitter. START-OF-SELECTION. CREATE OBJECT splitter EXPORTING splitter_name = 'SPLITTER'. CALL SCREEN 100. MODULE set_status OUTPUT. SET PF-STATUS 'SCREEN_100'. ENDMODULE. MODULE set_sash OUTPUT. splitter->set_sash(
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_splitter_control_abexa.htm"
+abapFile: "abendynpro_splitter_control_abexa.htm"
+keywords: ["select", "do", "try", "data", "abendynpro", "splitter", "control", "abexa"]
+---
 
 * * *
 
@@ -482,7 +582,17 @@ A subscreen is assigned to both parts of the splitter control. The subscreens ar
 
 ### abentab_strip_control_abexas.htm
 
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Subscreens(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') dynpro - Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentab_strip_control
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 

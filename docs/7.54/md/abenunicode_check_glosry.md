@@ -1,4 +1,14 @@
-  
+---
+title: "Unicode check"
+description: |
+  Syntax check(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensyntax_check_glosry.htm 'Glossary Entry') for ABAP programs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_glosry.htm 'Glossary Entry') that need to be executable in a Unicode system(https:
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunicode_check_glosry.htm"
+abapFile: "abenunicode_check_glosry.htm"
+keywords: ["do", "try", "abenunicode", "check", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DBA Cockpit"
+description: |
+  Central tool for managing and monitoring AS ABAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenas_abap_glosry.htm 'Glossary Entry') database connections(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_connection_glosry.htm 'Glossary Entry'). Called using
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendba_cockpit_glosry.htm"
+abapFile: "abendba_cockpit_glosry.htm"
+keywords: ["do", "try", "data", "abendba", "cockpit", "glosry"]
+---
 
 * * *
 

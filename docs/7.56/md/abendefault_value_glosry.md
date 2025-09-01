@@ -1,4 +1,14 @@
-  
+---
+title: "default_value_glosry"
+description: |
+  default_value_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendefault_value_glosry.htm"
+abapFile: "abendefault_value_glosry.htm"
+keywords: ["do", "try", "abendefault", "value", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Table Reductions, Method Calls"
+description: |
+  This example demonstrates a reduction(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_reduce.htm) of the columns of an internal table to an object. Source Code REPORT demo_reduce_method_call. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVAT
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreduce_method_call_abexa.htm"
+abapFile: "abenreduce_method_call_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenreduce", "call", "abexa"]
+---
 
 * * *
 

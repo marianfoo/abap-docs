@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP platform strict"
+description: |
+  ABAP platform(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_glosry.htm 'Glossary Entry') variant that is delivered as ABAP platform cloud(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_cloud_glosry.htm 'Glossary Entry') with SAP S/4HA
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_strict_glosry.htm"
+abapFile: "abenabap_platform_strict_glosry.htm"
+keywords: ["do", "try", "class", "abenabap", "platform", "strict", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Handler Class"
+description: |
+  Syntax CLASS lcl_handler_name DEFINITION INHERITING FROM cl_abap_behavior_handler ABSTRACT FINAL. PRIVATE SECTION. TYPES ... DATA ... CONSTANTS ... METHODS method_name FOR MODIFY IMPORTING create_import_parameter FOR CREATE entity_name create_import_parameter FOR C
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm"
+abapFile: "abenrpm_handler_class.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenrpm", "handler"]
+---
 
 * * *
 

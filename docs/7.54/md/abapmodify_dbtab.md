@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY dbtab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab_shortref.htm) Syntax MODIFY target connection FROM source(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_source.htm). Effect The ABAP SQL(https://help.sap.com/doc/abapdocu
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab.htm"
+abapFile: "abapmodify_dbtab.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "class", "data", "internal-table", "abapmodify", "dbtab"]
+---
 
 * * *
 

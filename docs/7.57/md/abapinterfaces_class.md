@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACES, implementation"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_shortref.htm) Syntax INTERFACES intf PARTIALLY IMPLEMENTED(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_partially.htm)  ABSTRACT METHODS meth1 meth2 ...
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_class.htm"
+abapFile: "abapinterfaces_class.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "abapinterfaces"]
+---
 
 * * *
 

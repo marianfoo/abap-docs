@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CHECK log_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm). Effect If the statement CHECK is listed outside a loop(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_glosry.htm 'Glossary Entry') and log_exp is false, it terminates the cu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcheck_processing_blocks.htm"
+abapFile: "abapcheck_processing_blocks.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "abapcheck", "processing", "blocks"]
+---
 
 * * *
 

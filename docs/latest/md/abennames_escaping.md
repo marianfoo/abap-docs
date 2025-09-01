@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... !operand ... Effect The character ! can be written directly before a name operand of a single operand in order to distinguish it from an ABAP word(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_words.htm) with the same notation in a statement. The escape character ! c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennames_escaping.htm"
+abapFile: "abennames_escaping.htm"
+keywords: ["select", "do", "if", "try", "data", "abennames", "escaping"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "char_representation_glosry"
+description: |
+  char_representation_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchar_representation_glosry.htm"
+abapFile: "abenchar_representation_glosry.htm"
+keywords: ["do", "try", "abenchar", "representation", "glosry"]
+---
 
 * * *
 

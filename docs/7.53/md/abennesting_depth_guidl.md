@@ -1,4 +1,14 @@
-  
+---
+title: "Nesting Depth"
+description: |
+  Background The nesting depth is the number of statement blocks that are nested due to the use of control structures (branches, loops). We will discuss the nesting depth at the level of a procedure (method(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennesting_depth_guidl.htm"
+abapFile: "abennesting_depth_guidl.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "abennesting", "depth", "guidl"]
+---
 
 * * *
 

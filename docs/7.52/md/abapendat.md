@@ -1,4 +1,14 @@
-  
+---
+title: "ENDAT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_shortref.htm) Syntax ENDAT. Effect The statement ENDAT closes a control structure started using AT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_itab.htm).
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendat.htm"
+abapFile: "abapendat.htm"
+keywords: ["loop", "do", "data", "internal-table", "abapendat"]
+---
 
 * * *
 

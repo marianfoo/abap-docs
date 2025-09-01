@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:write var='variable' map='...' lengthminLength='len' xsd-type... /> Effect The statement tt:write enables the writing of the value of a variable(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_variable.htm) or parameter(https://help.sap.co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_write.htm"
+abapFile: "abenst_tt_write.htm"
+keywords: ["insert", "do", "if", "data", "abenst", "write"]
+---
 
 * * *
 

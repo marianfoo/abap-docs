@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Structure of ST Programs"
+description: |
+  Syntax <?sap.transform simple?> <tt:transform template='tmpl' xmlns:tt='http://www.sap.com/transformation-templates'> <tt:type name='...' ...> ... </tt:type> ... <tt:root name='root1' ... /> <tt:root name='root2' ... /> ... <tt:parameter name='par
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_programs_structure.htm"
+abapFile: "abenst_programs_structure.htm"
+keywords: ["do", "if", "data", "abenst", "programs", "structure"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP annotation"
+description: |
+  SAP annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that can be specified in CDS source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_source_code_glosry.htm 'Glossary Entry') and that is eva
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_annotation_glosry.htm"
+abapFile: "abenabap_annotation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "annotation", "glosry"]
+---
 
 * * *
 

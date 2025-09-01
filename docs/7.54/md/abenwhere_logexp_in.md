@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Single operand(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_operand_in.htm) 1. ... operand(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_operand_in.htm) NOT IN  (operand1, operand2, ...)    ( SELECT
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_in.htm"
+abapFile: "abenwhere_logexp_in.htm"
+keywords: ["select", "do", "if", "data", "abenwhere", "logexp"]
+---
 
 * * *
 

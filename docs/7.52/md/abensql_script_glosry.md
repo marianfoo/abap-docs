@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Script"
+description: |
+  Script language for the programming of SQL Script procedures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm 'Glossary Entry') and SQLScript functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_function_glosry.htm 'Glo
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_glosry.htm"
+abapFile: "abensql_script_glosry.htm"
+keywords: ["do", "try", "data", "abensql", "script", "glosry"]
+---
 
 * * *
 

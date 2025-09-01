@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, TABLE OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_shortref.htm) Syntax TYPES table_type  TYPE tabkind(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_tabcat.htm) OF REF TO type  LIKE tabkind(https://help.sap.com/do
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_itab.htm"
+abapFile: "abaptypes_itab.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abaptypes", "itab"]
+---
 
 * * *
 

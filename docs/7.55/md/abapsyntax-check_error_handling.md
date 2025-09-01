@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... INCLUDE incl OFFSET off MESSAGE-ID mid ... Additions: 1. ... INCLUDE incl(#!ABAP_ADDITION_1@1@) 2. ... OFFSET off(#!ABAP_ADDITION_2@2@) 3. ... MESSAGE-ID mid(#!ABAP_ADDITION_3@3@) Effect These additions can be used for analyzing the syntax errors identified using
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_error_handling.htm"
+abapFile: "abapsyntax-check_error_handling.htm"
+keywords: ["do", "while", "if", "try", "data", "abapsyntax", "check", "error", "handling"]
+---
 
 * * *
 

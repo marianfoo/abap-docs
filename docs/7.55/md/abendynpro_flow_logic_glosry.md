@@ -1,4 +1,14 @@
-  
+---
+title: "dynpro_flow_logic_glosry"
+description: |
+  dynpro_flow_logic_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_flow_logic_glosry.htm"
+abapFile: "abendynpro_flow_logic_glosry.htm"
+keywords: ["do", "try", "abendynpro", "flow", "logic", "glosry"]
+---
 
 * * *
 

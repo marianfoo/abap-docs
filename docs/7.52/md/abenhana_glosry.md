@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA"
+description: |
+  SAP HANA(http://help.sap.com/hana) platform for SAP In-Memory Computing based on the SAP HANA database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm 'Glossary Entry'). In ABAP programs, SAP HANA can be accessed using secondary connections(https://help.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_glosry.htm"
+abapFile: "abenhana_glosry.htm"
+keywords: ["do", "try", "data", "abenhana", "glosry"]
+---
 
 * * *
 

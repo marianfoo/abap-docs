@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Control Level Processing"
+description: |
+  !Example(exa.gif 'Example') Control Level Processing(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenint_table_at_abexa.htm) !Example(exa.gif 'Example') Control Level Processing with Nested Groups(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenint_table_sum_abe
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenat_itab_abexas.htm"
+abapFile: "abenat_itab_abexas.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abenat", "itab", "abexas"]
+---
 
 * * *
 

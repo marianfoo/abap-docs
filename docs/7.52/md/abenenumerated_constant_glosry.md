@@ -1,4 +1,14 @@
-  
+---
+title: "enumerated_constant_glosry"
+description: |
+  enumerated_constant_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_constant_glosry.htm"
+abapFile: "abenenumerated_constant_glosry.htm"
+keywords: ["do", "try", "data", "abenenumerated", "constant", "glosry"]
+---
 
 * * *
 

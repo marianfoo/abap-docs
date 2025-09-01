@@ -1,4 +1,14 @@
-  
+---
+title: "ADF"
+description: |
+  → ABAP daemon framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_daemon_framework_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadf_glosry.htm"
+abapFile: "abenadf_glosry.htm"
+keywords: ["do", "if", "try", "abenadf", "glosry"]
+---
 
 * * *
 

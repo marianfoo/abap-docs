@@ -1,4 +1,14 @@
-  
+---
+title: "Runtime Type Services"
+description: |
+  RTTS for short. Combination of RTTC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_creation_glosry.htm 'Glossary Entry') and RTTI(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm 'Glossary Entry') in a class
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_services_glosry.htm"
+abapFile: "abenrun_time_type_services_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenrun", "time", "type", "services", "glosry"]
+---
 
 * * *
 

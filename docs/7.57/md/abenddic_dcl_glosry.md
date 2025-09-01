@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL"
+description: |
+  Short for Dictionary DDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry').
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_dcl_glosry.htm"
+abapFile: "abenddic_dcl_glosry.htm"
+keywords: ["do", "if", "try", "abenddic", "dcl", "glosry"]
+---
 
 * * *
 

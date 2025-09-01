@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_DRAFT_M. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label: 'Root entity: draft-enabled, managed BO' define root view entity demo_draft_m as select from demo_tab_root_4  key key_field, field1, field2, field3
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_messages_abexa.htm"
+abapFile: "abenrap_messages_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenrap", "messages", "abexa"]
+---
 
 * * *
 

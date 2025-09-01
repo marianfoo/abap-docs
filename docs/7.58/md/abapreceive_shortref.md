@@ -1,4 +1,14 @@
-  
+---
+title: "RECEIVE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreceive.htm) Syntax RECEIVE RESULTS FROM FUNCTION func KEEPING TASK IMPORTING p1 = a1 p2 = a2 ... TABLES t1 = itab1 t2 = itab2 ... EXCEPTIONS exc1 = n1 exc2 = n2 ... system_failure = n
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreceive_shortref.htm"
+abapFile: "abapreceive_shortref.htm"
+keywords: ["do", "if", "try", "class", "internal-table", "abapreceive", "shortref"]
+---
 
 * * *
 

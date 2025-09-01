@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE EVENT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapraise_event_shortref.htm) Syntax RAISE EVENT evt EXPORTING p1 = a1 p2 = a2 .... Addition: ... EXPORTING p1 = a1 p2 = a2 ...(#!ABAP_ONE_ADD@1@) Effect This statement can only be used in methods. It raises the e
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapraise_event.htm"
+abapFile: "abapraise_event.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abapraise", "event"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ENHANCEMENT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapenhancement_shortref.htm) Syntax ENHANCEMENT id. ... ENDENHANCEMENT. Effect These statements define a source code plug-in(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_plugin_glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapenhancement.htm"
+abapFile: "abapenhancement.htm"
+keywords: ["do", "if", "try", "abapenhancement"]
+---
 
 * * *
 

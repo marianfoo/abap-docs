@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   If an XML element has multiple attributes with the same name, only one of these attributes is passed to DOM, which is given the value of the last identically named attribute (see example program DEMO_XML_ATTRIBUTES). -   An alternative for complete parsing of XML data to the DOM representation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_ixml_lib_parse_dom.htm"
+abapFile: "abenabap_ixml_lib_parse_dom.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "ixml", "lib", "parse", "dom"]
+---
 
 * * *
 

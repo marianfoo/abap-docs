@@ -1,4 +1,14 @@
-  
+---
+title: "GET PERMISSIONS OF, Long Form"
+description: |
+  Syntax GET PERMISSIONS PRIVILEGED(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_privileged.htm)  only_clause(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions_only_clause.htm) OF bdef ENTITY entity1 FROM keys REQUEST requ
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions_long.htm"
+abapFile: "abapget_permissions_long.htm"
+keywords: ["insert", "do", "if", "try", "data", "internal-table", "abapget", "permissions", "long"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Entity Manipulation Language"
+description: |
+  ABAP EML or EML for short. Subset of ABAP that allows access to RAP business objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry') in an ABAP program(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm 'Gloss
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaeml_glosry.htm"
+abapFile: "abenaeml_glosry.htm"
+keywords: ["do", "if", "try", "types", "internal-table", "abenaeml", "glosry"]
+---
 
 * * *
 

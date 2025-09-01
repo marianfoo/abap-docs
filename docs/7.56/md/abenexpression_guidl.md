@@ -1,4 +1,14 @@
-  
+---
+title: "Expressions"
+description: |
+  Background An expression is part of an ABAP statement that returns a result. An expression consists of one or more operands in combination with operators or special ABAP words. Expressions can be logical expressions constructed from relational expressions and also calculation expressions. The latter
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexpression_guidl.htm"
+abapFile: "abenexpression_guidl.htm"
+keywords: ["loop", "do", "if", "method", "data", "abenexpression", "guidl"]
+---
 
 * * *
 

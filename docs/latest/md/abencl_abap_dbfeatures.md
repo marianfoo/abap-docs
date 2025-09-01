@@ -1,4 +1,14 @@
-  
+---
+title: "Use in ABAP SQL"
+description: |
+  Constant Database Feature Use in ABAP AMDP_TABLE_FUNCTION Table Functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_function_glosry.htm 'Glossary Entry') Access to CDS table functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_table_
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_dbfeatures.htm"
+abapFile: "abencl_abap_dbfeatures.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencl", "abap", "dbfeatures"]
+---
 
 * * *
 

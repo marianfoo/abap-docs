@@ -1,4 +1,14 @@
-  
+---
+title: "Kernel Methods"
+description: |
+  For internal use, kernel methods can be implemented in the ABAP kernel(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel_glosry.htm 'Glossary Entry') instead of in the ABAP language. Introduction Kernel methods allow ABAP kernel functions implemented in C or C++ to be called di
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel_methods.htm"
+abapFile: "abenkernel_methods.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenkernel", "methods"]
+---
 
 * * *
 

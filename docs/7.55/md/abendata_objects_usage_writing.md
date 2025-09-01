@@ -1,4 +1,14 @@
-  
+---
+title: "Write Positions"
+description: |
+  At a write position, the content of an operand is changed when the statement is executed. Only modifiable data objects (that is, no literals, text symbols, constants, or non-modifiable formal parameters) can be specified as follows at write positions: -   Specification of a visible data object(htt
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_writing.htm"
+abapFile: "abendata_objects_usage_writing.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "usage", "writing"]
+---
 
 * * *
 

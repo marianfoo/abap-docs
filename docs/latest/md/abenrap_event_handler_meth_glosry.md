@@ -1,4 +1,14 @@
-  
+---
+title: "RAP event handler method"
+description: |
+  Method that is declared and implemented in the CCIMP include(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenccimp_glosry.htm 'Glossary Entry') of a RAP event handler class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_event_handler_class_glosry.htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_event_handler_meth_glosry.htm"
+abapFile: "abenrap_event_handler_meth_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenrap", "event", "handler", "meth", "glosry"]
+---
 
 * * *
 

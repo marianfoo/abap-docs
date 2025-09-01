@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_tab_exp_side_effect. TYPES itab TYPE STANDARD TABLE OF i WITH EMPTY KEY. CLASS class DEFINITION. PUBLIC SECTION. CLASS-METHODS meth IMPORTING idx          TYPE i line1        TYPE i OPTIONAL VALUE(line2) TYPE i OPTIONAL CHANGING  ptab         TYPE itab. ENDCLASS. CLASS class IMPLEMEN
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_side_effect_abexa.htm"
+abapFile: "abentable_exp_side_effect_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "field-symbol", "abentable", "exp", "side", "effect", "abexa"]
+---
 
 * * *
 

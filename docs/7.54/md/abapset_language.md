@@ -1,4 +1,14 @@
-  
+---
+title: "SET LANGUAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_language_shortref.htm) Syntax SET LANGUAGE lang. Effect This statement loads the list headers(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_header_glosry.htm 'Glossary Entry') and text symbo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_language.htm"
+abapFile: "abapset_language.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapset", "language"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  1. ... to_upper( val = text(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_val.htm) ) ... 2. ... to_lower( val = text(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_val.htm) ) ... 3. ... to_mixed( val =
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencase_functions.htm"
+abapFile: "abencase_functions.htm"
+keywords: ["insert", "do", "if", "case", "try", "catch", "class", "data", "abencase", "functions"]
+---
 
 * * *
 

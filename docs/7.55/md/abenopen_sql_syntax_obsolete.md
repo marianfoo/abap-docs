@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax in ABAP SQL"
+description: |
+  -   Blank-Separated Lists(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_lists_obsolete.htm) -   Obsolete Host Variables(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_hostvar_obsolete.htm) -   SELECT - CLIENT SPECIFIED(https://help.sap.com/doc
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_syntax_obsolete.htm"
+abapFile: "abenopen_sql_syntax_obsolete.htm"
+keywords: ["select", "update", "delete", "do", "if", "data", "abenopen", "sql", "syntax", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  1. ... shift_left( val = text(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm) places = placescircular = places sub = substring(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_sub.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshift_functions.htm"
+abapFile: "abenshift_functions.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "abenshift", "functions"]
+---
 
 * * *
 

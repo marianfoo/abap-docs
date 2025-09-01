@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenabap_methods.htm
 
-  
+---
+title: "Methods"
+description: |
+  Methods are the procedures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm 'Glossary Entry') of a class whose functions are implemented between the following statements: METHOD(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm) ... END
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_methods.htm"
+abapFile: "abenabap_methods.htm"
+keywords: ["do", "try", "method", "class", "data", "abenabap", "methods"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abapmethod.htm
 
-  
+---
+title: "METHOD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_shortref.htm) Syntax METHOD meth. ... ENDMETHOD. Effect Between the statements METHOD and ENDMETHOD, the function of a method(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm 'Gl
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm"
+abapFile: "abapmethod.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "types", "abapmethod"]
+---
 
 * * *
 
@@ -97,7 +117,17 @@ Continue
 
 ### abapmethod_kernel_module_internal.htm
 
-  
+---
+title: "METHOD - Internal Additions"
+description: |
+  Internal Additions These additions are for internal use only. Do not use them in application programs. Addition: ... BY KERNEL MODULE p1 ... Effect This addition of the statement METHOD defines the method meth as a kernel method(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_kernel_module_internal.htm"
+abapFile: "abapmethod_kernel_module_internal.htm"
+keywords: ["do", "if", "method", "class", "abapmethod", "kernel", "module", "internal"]
+---
 
 * * *
 
@@ -127,7 +157,17 @@ In global classes, the addition must be entered directly in the source code edit
 
 ### abapmethod.htm
 
-  
+---
+title: "METHOD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_shortref.htm) Syntax METHOD meth. ... ENDMETHOD. Effect Between the statements METHOD and ENDMETHOD, the function of a method(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm 'Gl
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm"
+abapFile: "abapmethod.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "types", "abapmethod"]
+---
 
 * * *
 
@@ -190,7 +230,17 @@ Continue
 
 ### abapendmethod.htm
 
-  
+---
+title: "ENDMETHOD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_shortref.htm) Syntax ENDMETHOD. Effect The statement ENDMETHOD closes a method implementation introduced using METHOD(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm).
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmethod.htm"
+abapFile: "abapendmethod.htm"
+keywords: ["do", "method", "abapendmethod"]
+---
 
 * * *
 

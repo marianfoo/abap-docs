@@ -1,4 +1,14 @@
-  
+---
+title: "Static Methods"
+description: |
+  GET_HANDLE_BY_OREF Gets the area handle for an instance of a class. The instance can be in the shared memory or in the internal session(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm 'Glossary Entry'). Input Parameter -   OREF of type REF TO object Re
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_cl_abap_memory_area.htm"
+abapFile: "abenshm_cl_abap_memory_area.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "field-symbol", "abenshm", "abap", "memory", "area"]
+---
 
 * * *
 
@@ -10,16 +20,11 @@ Shared Objects - CL\_ABAP\_MEMORY\_AREA
 
 The class CL\_ABAP\_MEMORY\_AREA is the shared superclass of all area classes. It contains general methods for [area handles](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarea_handle_glosry.htm "Glossary Entry").
 
--   [Static Methods](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_1)
-    -   [GET\_HANDLE\_BY\_OREF](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_2)
-    -   [GET\_HANDLE\_BY\_DREF](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_3)
-    -   [GET\_HANDLE\_BY\_DATA](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_4)
--   [Instance Methods](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_5)
-    -   [IS\_SHARED](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_6)
-    -   [IS\_VALID](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_7)
-    -   [IS\_ACTIVE\_VERSION](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_8)
-    -   [HAS\_ACTIVE\_PROPERTIES](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_9)
-    -   [GET\_DETACH\_INFO](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_10)
+-   [Static Methods](#abenshm-cl-abap-memory-area-1-----------get--handle--by--oref---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_2)
+    -   [GET\_HANDLE\_BY\_DREF](#abenshm-cl-abap-memory-area-3-----------get--handle--by--data---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_4)
+-   [Instance Methods](#abenshm-cl-abap-memory-area-5-----------is--shared---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_6)
+    -   [IS\_VALID](#abenshm-cl-abap-memory-area-7-----------is--active--version---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_8)
+    -   [HAS\_ACTIVE\_PROPERTIES](#abenshm-cl-abap-memory-area-9-----------get--detach--info---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_10)
 
 Static Methods
 

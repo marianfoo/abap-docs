@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... element1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_element_apv.htm), element2(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_element_apv.htm), ... Effect Defines the elements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ele
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_element_list_apv.htm"
+abapFile: "abencds_element_list_apv.htm"
+keywords: ["do", "if", "try", "data", "abencds", "element", "list", "apv"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CONTEXTS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontexts.htm) Syntax CONTEXTS con. Effect Obsolete: Creates a structured data type context_con for creating an instance of the context(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontext_glosry.htm 'Glos
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontexts_shortref.htm"
+abapFile: "abapcontexts_shortref.htm"
+keywords: ["do", "try", "data", "abapcontexts", "shortref"]
+---
 
 * * *
 

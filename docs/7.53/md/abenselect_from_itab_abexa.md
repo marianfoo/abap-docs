@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Table as a Data Source of a SELECT Statement"
+description: |
+  This example demonstrates how an internal table is accessed using an ABAP SQL query(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_glosry.htm 'Glossary Entry'). Source Code REPORT demo_select_from_itab. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. C
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_from_itab_abexa.htm"
+abapFile: "abenselect_from_itab_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "internal-table", "abenselect", "from", "itab", "abexa"]
+---
 
 * * *
 

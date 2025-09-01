@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... RETURNS  element1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_return_list_element.htm); element2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_return_list_element.htm); ...;  ... Effect Defines the elements of a CDS table functio
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_return_list.htm"
+abapFile: "abencds_f1_return_list.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abencds", "return", "list"]
+---
 
 * * *
 

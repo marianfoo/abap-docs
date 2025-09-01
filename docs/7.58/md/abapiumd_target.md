@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, UPDATE, MODIFY, DELETE, target"
+description: |
+  Syntax ... dbtabview(target_syntax) client_handling(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapiumd_client.htm) ... Alternatives: 1. ... dbtabview(#!ABAP_ALTERNATIVE_1@1@) 2. ... (target_syntax)(#!ABAP_ALTERNATIVE_2@2@) Effect In the modifying ABAP SQL
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapiumd_target.htm"
+abapFile: "abapiumd_target.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "class", "data", "internal-table", "abapiumd", "target"]
+---
 
 * * *
 

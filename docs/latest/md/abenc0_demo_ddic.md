@@ -1,4 +1,14 @@
-  
+---
+title: "c0_demo_ddic"
+description: |
+  c0_demo_ddic - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_ddic.htm"
+abapFile: "abenc0_demo_ddic.htm"
+keywords: ["do", "if", "try", "class", "abenc0", "demo", "ddic"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  GRANT SELECT ON cds_entity; Effect Full control rule in statement DEFINE ROLE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_role.htm) of the CDS DCL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm 'Glossary Entry'). A full control
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_grant_rule.htm"
+abapFile: "abencds_dcl_role_grant_rule.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "dcl", "role", "grant", "rule"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE VIEW ENTITY"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm) ... @view_entity_annot1(https://help.sap.com/
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_entity.htm"
+abapFile: "abencds_define_view_entity.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "define", "view", "entity"]
+---
 
 * * *
 

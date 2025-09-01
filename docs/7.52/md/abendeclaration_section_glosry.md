@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration Part"
+description: |
+  Part of the definition in a class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry') in which the class components(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_component_glosry.htm 'Glossary Entry') are declared. → More(htt
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_section_glosry.htm"
+abapFile: "abendeclaration_section_glosry.htm"
+keywords: ["do", "try", "class", "abendeclaration", "section", "glosry"]
+---
 
 * * *
 

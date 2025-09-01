@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE dbtab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapupdate_shortref.htm) Syntax UPDATE target(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapupdate_target.htm)  connection(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_updat
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapupdate.htm"
+abapFile: "abapupdate.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "data", "internal-table", "abapupdate"]
+---
 
 * * *
 

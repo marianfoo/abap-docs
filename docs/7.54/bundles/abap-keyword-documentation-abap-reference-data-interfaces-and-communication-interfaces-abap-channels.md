@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenapc_abexas.htm
 
-  
+---
+title: "Examples of APC"
+description: |
+  !Example(exa.gif 'Example') APC, AS ABAP as WebSocket Server(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_abexa.htm) !Example(exa.gif 'Example') APC, AS ABAP as WebSocket Client(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_ws_client_abexa.htm) !Ex
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_abexas.htm"
+abapFile: "abenapc_abexas.htm"
+keywords: ["do", "if", "data", "abenapc", "abexas"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abenapc_abexa.htm
 
-  
+---
+title: "APC, AS ABAP as WebSocket Server"
+description: |
+  This example demonstrates ABAP push channel(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_glosry.htm 'Glossary Entry')s in AS ABAP as a WebSocket server. Source Code REPORT demo_apc_wsp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. CLASS-METHODS class_construc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_abexa.htm"
+abapFile: "abenapc_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenapc", "abexa"]
+---
 
 * * *
 
@@ -124,7 +144,17 @@ Before this example can work, the protocols WEBSOCKET and WEBSOCKETS must be spe
 
 ### abenapc_ws_client_abexa.htm
 
-  
+---
+title: "APC, AS ABAP as WebSocket Client"
+description: |
+  This example demonstrates AS ABAP as a WebSocket client. Source Code REPORT demo_apc_client. CLASS apc_handler DEFINITION FINAL. PUBLIC SECTION. INTERFACES if_apc_wsp_event_handler_pcp. DATA       message TYPE string. ENDCLASS. CLASS apc_handler IMPLEMENTATION. METHOD if_apc_wsp_event_h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_ws_client_abexa.htm"
+abapFile: "abenapc_ws_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "client", "abexa"]
+---
 
 * * *
 
@@ -279,7 +309,17 @@ It is possible to select how many messages are sent and how often the wait state
 
 ### abenapc_tcp_client_abexa.htm
 
-  
+---
+title: "APC, AS ABAP as TCP Socket Client"
+description: |
+  This example demonstrates AS ABAP as a TCP socket client. Source Code REPORT demo_apc_tcp_client. CLASS apc_handler DEFINITION FINAL . PUBLIC SECTION. INTERFACES if_apc_wsp_event_handler. DATA       message TYPE string. ENDCLASS. CLASS apc_handler IMPLEMENTATION. METHOD if_apc_wsp_event
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_tcp_client_abexa.htm"
+abapFile: "abenapc_tcp_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenapc", "tcp", "client", "abexa"]
+---
 
 * * *
 
@@ -408,7 +448,17 @@ When the program is executed, Ncat.exe is started and waits for messages from th
 
 ### abenapc_detached_client_abexa.htm
 
-  
+---
+title: "APC, Creating a Detached Client"
+description: |
+  This example demonstrates how a detached client is created for the WebSocket protocol. Source Code REPORT demo_apc_detached_client. CLASS apc_handler DEFINITION FINAL. PUBLIC SECTION. INTERFACES if_apc_wsp_event_handler_pcp. DATA: connection_attach_handle TYPE string, message
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_detached_client_abexa.htm"
+abapFile: "abenapc_detached_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "detached", "client", "abexa"]
+---
 
 * * *
 
@@ -549,7 +599,17 @@ A breakpoint in the method ON\_MESSAGE of the APC handler class CL\_APC\_WSP\_EX
 
 ### abenapc_attached_client_abexa.htm
 
-  
+---
+title: "APC, AS ABAP as Attached Client"
+description: |
+  This example demonstrates the AS ABAP as an attached client for a detached client. Source Code REPORT demo_apc_attach_client. CLASS apc_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS apc_demo IMPLEMENTATION. METHOD main. DATA attach_handle TYPE string VALUE ' '. cl_demo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_attached_client_abexa.htm"
+abapFile: "abenapc_attached_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "attached", "client", "abexa"]
+---
 
 * * *
 
@@ -622,7 +682,17 @@ The program expects a connection handle as input, as provided in the output of t
 
 ### abenapc_connect_via_handle_abexa.htm
 
-  
+---
+title: "APC, System-Wide Access"
+description: |
+  This example demonstrates access to any ABAP channel using a connection handle. Source Code REPORT demo_apc_access_connection. CLASS apc_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS apc_demo IMPLEMENTATION. METHOD main. DATA attach_handle TYPE string VALUE ' '. cl_demo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_connect_via_handle_abexa.htm"
+abapFile: "abenapc_connect_via_handle_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "catch", "method", "class", "data", "abenapc", "connect", "via", "handle", "abexa"]
+---
 
 * * *
 

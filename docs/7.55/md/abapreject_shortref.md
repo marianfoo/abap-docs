@@ -1,4 +1,14 @@
-  
+---
+title: "REJECT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreject.htm) Syntax REJECT node. Effect Exits the current GET event block of an executable program(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexecutable_program_glosry.htm 'Glossary Entry'). Addit
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreject_shortref.htm"
+abapFile: "abapreject_shortref.htm"
+keywords: ["do", "try", "data", "abapreject", "shortref"]
+---
 
 * * *
 

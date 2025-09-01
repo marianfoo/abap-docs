@@ -1,4 +1,14 @@
-  
+---
+title: "SCROLL LIST"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll_shortref.htm) Syntax SCROLL LIST horizontal(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll_list_horizontal.htm) vertical(https://help.sap.com/doc/abapdocu_latest_i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll.htm"
+abapFile: "abapscroll.htm"
+keywords: ["select", "do", "while", "if", "try", "class", "data", "abapscroll"]
+---
 
 * * *
 

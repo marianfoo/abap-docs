@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapcreate_data_handle.htm
 
-  
+---
+title: "CREATE DATA - HANDLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_area_handle.htm) TYPE HANDLE handle. Effect The statement CREATE DATA u
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_handle.htm"
+abapFile: "abapcreate_data_handle.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abapcreate", "handle"]
+---
 
 * * *
 
@@ -60,7 +70,17 @@ Continue
 
 ### abencreate_data_via_rttc_abexa.htm
 
-  
+---
+title: "Creating a Structure Using RTTC"
+description: |
+  The example demonstrates how a structure is created using RTTC(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrttc_glosry.htm 'Glossary Entry'). Source Code REPORT demo_create_data_via_handle. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLE
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_data_via_rttc_abexa.htm"
+abapFile: "abencreate_data_via_rttc_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abencreate", "via", "rttc", "abexa"]
+---
 
 * * *
 

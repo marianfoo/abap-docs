@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP method"
+description: |
+  Method(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_glosry.htm 'Glossary Entry') of an AMDP class(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_class_glosry.htm 'Glossary Entry') that is flagged as an AMDP procedure implementation(https://help.sap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_method_glosry.htm"
+abapFile: "abenamdp_method_glosry.htm"
+keywords: ["do", "try", "method", "class", "data", "abenamdp", "glosry"]
+---
 
 * * *
 

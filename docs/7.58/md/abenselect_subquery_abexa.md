@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_select_subquery DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_select_subquery IMPLEMENTATION. METHOD main. SELECT carrid, connid, pla
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_subquery_abexa.htm"
+abapFile: "abenselect_subquery_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "abenselect", "subquery", "abexa"]
+---
 
 * * *
 

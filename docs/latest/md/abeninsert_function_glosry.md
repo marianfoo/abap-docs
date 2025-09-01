@@ -1,4 +1,14 @@
-  
+---
+title: "insert_function_glosry"
+description: |
+  insert_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninsert_function_glosry.htm"
+abapFile: "abeninsert_function_glosry.htm"
+keywords: ["insert", "do", "if", "try", "abeninsert", "function", "glosry"]
+---
 
 * * *
 

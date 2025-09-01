@@ -1,4 +1,14 @@
-  
+---
+title: "Stability Rules After Release"
+description: |
+  -   The object in question must not be deleted and the release contract must not be removed. -   The type of dictionary object must not be changed after a C0 release. That means a database table must not be changed into a structure and vice versa. -   The storage type(https://help.sap.com/doc/abap
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_provider_rules_ddic.htm"
+abapFile: "abenc0_provider_rules_ddic.htm"
+keywords: ["delete", "do", "if", "try", "data", "abenc0", "provider", "rules", "ddic"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ C0 Contract Rules for Providers of DDIC Objects
 
 The following sections show the most important C0 contract rules for DDIC objects.
 
--   [Prerequisites for C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_DDIC_1)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_DDIC_2)
+-   [Prerequisites for C0 Release](#abenc0-provider-rules-ddic-1-------stability-rules-after-release---@ITOC@@ABENC0_PROVIDER_RULES_DDIC_2)
 
 Prerequisites for C0 Release   
 

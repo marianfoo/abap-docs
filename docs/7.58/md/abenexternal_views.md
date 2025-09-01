@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC External Views for SAP HANA Views in SAP HANA Repository (Obsolete)"
+description: |
+  Note: SAP HANA XSA(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsa_glosry.htm 'Glossary Entry') replaces SAP HANA XSC(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsc_glosry.htm 'Glossary Entry'). The access methods(https://help.sap.com/doc/abapdocu_758_ind
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexternal_views.htm"
+abapFile: "abenexternal_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abenexternal", "views"]
+---
 
 * * *
 

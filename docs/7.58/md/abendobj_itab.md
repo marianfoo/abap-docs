@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables"
+description: |
+  Internal tables provide a means of taking variable data from a fixed structure and storing it in working memory in ABAP. An internal table is a data object that contains any lines with any data type whose total is not defined statically. The data type of an internal table is a table type. As well as
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendobj_itab.htm"
+abapFile: "abendobj_itab.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "abendobj", "itab"]
+---
 
 * * *
 

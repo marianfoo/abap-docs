@@ -1,4 +1,14 @@
-  
+---
+title: "DETAIL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdetail.htm) Syntax DETAIL. Effect Obsolete: Sets the intensity of the background color of a list.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdetail_shortref.htm"
+abapFile: "abapdetail_shortref.htm"
+keywords: ["do", "if", "abapdetail", "shortref"]
+---
 
 * * *
 

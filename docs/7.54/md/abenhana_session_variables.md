@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP-Specific Session Variables in SAP HANA"
+description: |
+  Session variables are global variables in the SAP HANA database. They can be read there with the built-in function SESSION_CONTEXT(https://help.sap.com/viewer/4fe29514fd584807ac9f2a04f6754767/2.0.03/en-US) and provided with a value by the statement SET 'VAR' = :value;(https://help.sap.com/viewe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm"
+abapFile: "abenhana_session_variables.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenhana", "session", "variables"]
+---
 
 * * *
 

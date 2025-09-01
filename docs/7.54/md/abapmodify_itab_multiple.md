@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... itab FROM wa USING KEY keyname(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkeyname.htm) TRANSPORTING comp1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_components.htm) comp2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenita
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab_multiple.htm"
+abapFile: "abapmodify_itab_multiple.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abapmodify", "itab", "multiple"]
+---
 
 * * *
 

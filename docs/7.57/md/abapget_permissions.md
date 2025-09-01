@@ -1,4 +1,14 @@
-  
+---
+title: "GET PERMISSIONS"
+description: |
+  Syntax Forms GET PERMISSIONS, Short Form(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_permissions_short.htm) 1. GET PERMISSIONS PRIVILEGED(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_privileged.htm)  only_clause(https://help.sap.com/do
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_permissions.htm"
+abapFile: "abapget_permissions.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "data", "abapget", "permissions"]
+---
 
 * * *
 

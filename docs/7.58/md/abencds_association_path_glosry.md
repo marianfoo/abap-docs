@@ -1,4 +1,14 @@
-  
+---
+title: "CDS association path"
+description: |
+  A string of CDS associations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_glosry.htm 'Glossary Entry'). CDS association paths can be specified in the form of SQL path expressions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_path_expression_
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_path_glosry.htm"
+abapFile: "abencds_association_path_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "association", "path", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete ABAP Language Versions"
+description: |
+  The following ABAP language versions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_version_glosry.htm 'Glossary Entry') are obsolete. Language Version Meaning Version ID Static ABAP with restricted object use(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenab
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_versions_obsolete.htm"
+abapFile: "abenabap_versions_obsolete.htm"
+keywords: ["do", "if", "try", "abenabap", "versions", "obsolete"]
+---
 
 * * *
 

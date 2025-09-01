@@ -1,4 +1,14 @@
-  
+---
+title: "CDS projected entity"
+description: |
+  Used in the context of CDS projection views(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_projection_view_glosry.htm 'Glossary Entry'). The CDS view entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') that
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_pv_projected_entity_glosry.htm"
+abapFile: "abencds_pv_projected_entity_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "projected", "entity", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Table Comprehensions, Local Auxiliary Fields"
+description: |
+  This example demonstrates how local auxiliary fields are used in table comprehensions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_comprehension_glosry.htm 'Glossary Entry'). Source Code REPORT demo_table_comprh_locals. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHOD
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_cmprhnsns_locals_abexa.htm"
+abapFile: "abentable_cmprhnsns_locals_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "locals", "abexa"]
+---
 
 * * *
 

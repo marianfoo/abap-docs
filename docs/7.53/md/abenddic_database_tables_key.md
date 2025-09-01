@@ -1,4 +1,14 @@
-  
+---
+title: "Key Fields of Database Tables"
+description: |
+  At least one table field must be flagged as a key field(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkey_field_glosry.htm 'Glossary Entry') in the structure of a database table. The table fields flagged as the key field become the primary key(https://help.sap.com/doc/abapdocu_7
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_key.htm"
+abapFile: "abenddic_database_tables_key.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "key"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Validation of File Names"
+description: |
+  In addition to the automatic authorization checks(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfile_interface_authority.htm), it may be necessary to validate file names before they are used to prevent directory traversals(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendataset_auth_self.htm"
+abapFile: "abendataset_auth_self.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abendataset", "auth", "self"]
+---
 
 * * *
 
@@ -15,10 +25,8 @@ In addition to the [automatic authorization checks](https://help.sap.com/doc/aba
 
 However, if logical file names are consistently used, there is no need for validation.
 
--   [Using Logical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_1)
--   [Using Physical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_2)
-    -   [Self-Programmed Validation](#@@ITOC@@ABENDATASET_AUTH_SELF_3)
-    -   [Validation with logical file names](#@@ITOC@@ABENDATASET_AUTH_SELF_4)
+-   [Using Logical File Names](#abendataset-auth-self-1-------using-physical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_2)
+    -   [Self-Programmed Validation](#abendataset-auth-self-3-----------validation-with-logical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_4)
 
 Using Logical File Names
 

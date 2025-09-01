@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Restrictions for Path Expressions"
+description: |
+  In principle, the same restrictions apply to path expressions in ABAP SQL and the CDS associations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_association_glosry.htm 'Glossary Entry') or CTE expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencte_ass
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_path_restrictions.htm"
+abapFile: "abenopen_sql_path_restrictions.htm"
+keywords: ["select", "do", "if", "try", "data", "abenopen", "sql", "path", "restrictions"]
+---
 
 * * *
 

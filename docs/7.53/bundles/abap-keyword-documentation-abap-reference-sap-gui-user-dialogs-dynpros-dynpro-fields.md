@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenabap_dynpros_fields.htm
 
-  
+---
+title: "Dynpro Fields"
+description: |
+  The dynpro flow logic(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry') does not contain any data declarations. With the exception of the OK field(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenok_field_glosry.htm 'Gloss
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_fields.htm"
+abapFile: "abenabap_dynpros_fields.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "data", "types", "abenabap", "dynpros", "fields"]
+---
 
 * * *
 
@@ -69,7 +79,17 @@ Continue
 
 ### abendynpro_field_abexas.htm
 
-  
+---
+title: "Dynpro Fields - Examples"
+description: |
+  !Example(exa.gif 'Example') Screens, Processing Input and Output Fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm) !Example(exa.gif 'Example') Dynpros, Fields with Reference to ABAP Dictionary(https://help.sap.com/doc/abapdocu_753_index_htm/
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm"
+abapFile: "abendynpro_field_abexas.htm"
+keywords: ["do", "if", "abendynpro", "field", "abexas"]
+---
 
 * * *
 
@@ -89,7 +109,17 @@ Continue
 
 ### abendynpro_in_out_field_abexa.htm
 
-  
+---
+title: "Screens, Processing Input and Output Fields"
+description: |
+  The example shows how to process screen fields local in the program. Source Code PROGRAM demo_dynpro_input_output. DATA: input  TYPE i, output TYPE i, radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, box1(1) TYPE c, box2(1) TYPE c, box3(1) TYPE c. CALL SCREEN 100. MODULE init_screen_100 OU
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm"
+abapFile: "abendynpro_in_out_field_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "out", "field", "abexa"]
+---
 
 * * *
 
@@ -132,7 +162,17 @@ The static next screen number of screen 100 is 100. The screen fields of output,
 
 ### abendynpro_dict_abexa.htm
 
-  
+---
+title: "Dynpros, Fields with Reference to ABAP Dictionary"
+description: |
+  The example shows how dynpro fields can be associated with ABAP Dictionary. Source Code PROGRAM demo_dynpro_dictionary . TABLES demo_conn. DATA wa_spfli TYPE spfli. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. CLEAR demo_conn-mark. MOVE-CORRESPONDING wa_spfli TO demo_conn. CLEAR wa_spfl
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_dict_abexa.htm"
+abapFile: "abendynpro_dict_abexa.htm"
+keywords: ["select", "do", "while", "if", "data", "abendynpro", "dict", "abexa"]
+---
 
 * * *
 
@@ -174,7 +214,17 @@ The static next dynpro number of dynpro 100 is 100. The statement TABLES passes 
 
 ### abendynpro_push_button_abexa.htm
 
-  
+---
+title: "Dynpros, Pushbuttons"
+description: |
+  This example demonstrates how pushbuttons on dynpros can be processed. Source Code PROGRAM demo_dynpro_push_button . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output(8) TYPE c. CALL SCREEN 100. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok_code. CASE save_ok. WHEN
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_push_button_abexa.htm"
+abapFile: "abendynpro_push_button_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "push", "button", "abexa"]
+---
 
 * * *
 
@@ -219,7 +269,17 @@ The static next dynpro number of dynpro 100 is 100. The screen field of output i
 
 ### abendynpro_radio_button_abexa.htm
 
-  
+---
+title: "Dynpros, Checkboxes, and Radio Buttons"
+description: |
+  This example demonstrates how checkboxes and radio buttons can be processed on dynpros. Source Code PROGRAM demo_dynpro_check_radio . DATA: radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, field1(10) TYPE c, field2(10) TYPE c, field3(10) TYPE c, box TYPE c. DATA: ok_code TYPE sy-ucomm, save
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_radio_button_abexa.htm"
+abapFile: "abendynpro_radio_button_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "radio", "button", "abexa"]
+---
 
 * * *
 
@@ -267,7 +327,17 @@ The static next dynpro number of dynpro 100 is 100. The screen fields field1 to 
 
 ### abendynpro_strings_abexa.htm
 
-  
+---
+title: "Dynpros, Strings"
+description: |
+  This example demonstrates how to bind strings to dynpro fields. Source Code REPORT demo_dynpro_strings. DATA: string1 TYPE string, string2 TYPE string, char1   TYPE c LENGTH 10, char2   TYPE c LENGTH 100. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATIO
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_strings_abexa.htm"
+abapFile: "abendynpro_strings_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "abendynpro", "strings", "abexa"]
+---
 
 * * *
 
@@ -337,7 +407,17 @@ In both STRING2 and CHAR2, all characters that do not fit into the corresponding
 
 ### abendynpro_field_abexas.htm
 
-  
+---
+title: "Dynpro Fields - Examples"
+description: |
+  !Example(exa.gif 'Example') Screens, Processing Input and Output Fields(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_in_out_field_abexa.htm) !Example(exa.gif 'Example') Dynpros, Fields with Reference to ABAP Dictionary(https://help.sap.com/doc/abapdocu_753_index_htm/
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_abexas.htm"
+abapFile: "abendynpro_field_abexas.htm"
+keywords: ["do", "if", "abendynpro", "field", "abexas"]
+---
 
 * * *
 

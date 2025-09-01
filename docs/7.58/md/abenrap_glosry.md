@@ -1,4 +1,14 @@
-  
+---
+title: "RAP"
+description: |
+  → ABAP RESTful Application Programming Model(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarap_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_glosry.htm"
+abapFile: "abenrap_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "glosry"]
+---
 
 * * *
 

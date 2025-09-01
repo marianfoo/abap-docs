@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL"
+description: |
+  Data definition language (DDL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_glosry.htm 'Glossary Entry')) of the ABAP CDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS DDL contains language elements for CDS data de
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm"
+abapFile: "abencds_ddl_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "ddl", "glosry"]
+---
 
 * * *
 

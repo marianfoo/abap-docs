@@ -1,4 +1,14 @@
-  
+---
+title: "FORM, DEFINITION, IMPLEMENTATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform_definition_shortref.htm) Obsolete Syntax FORM subr DEFINITION TABLES table_parameters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform_tables.htm) USING parameters(http
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform_definition.htm"
+abapFile: "abapform_definition.htm"
+keywords: ["do", "if", "try", "abapform", "definition"]
+---
 
 * * *
 

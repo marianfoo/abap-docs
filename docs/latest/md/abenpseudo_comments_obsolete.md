@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Pseudo Comments"
+description: |
+  -   Pseudo comments for extended program check(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comment_slin.htm) -   Pseudo comments for test classes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comment_test_class.htm) Pseudo Comments for
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comments_obsolete.htm"
+abapFile: "abenpseudo_comments_obsolete.htm"
+keywords: ["do", "if", "class", "abenpseudo", "comments", "obsolete"]
+---
 
 * * *
 

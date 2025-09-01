@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Access to CDS Views in ABAP SQL"
+description: |
+  Obsolete Syntax SELECT ... FROM cds_db_view ... Effect Specifies a CDS DDIC-based views(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v1_view_glosry.htm 'Glossary Entry') that is based on a CDS-managed DDIC view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/ab
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_cds_obsolete.htm"
+abapFile: "abenopen_sql_cds_obsolete.htm"
+keywords: ["select", "do", "if", "try", "data", "abenopen", "sql", "cds", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Intersection with Aggregate Expression"
+description: |
+  This example demonstrates how an intersection is created across a table using an aggregate expression. Source Code REPORT DEMO_SELECT_INTERSECT_MAX. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SELECT carrid, connid, seatsocc FROM sf
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_intersect_max_abexa.htm"
+abapFile: "abenselect_intersect_max_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenselect", "intersect", "max", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "NEW, Single Value for All Data Types"
+description: |
+  Syntax ... NEW dtype#( let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) dobj ) ... Effect If dtype is a non-generic elementary data type, a structured type, a table type, or a reference type or # is used for a type like this, a single data object dobj can
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_single.htm"
+abapFile: "abennew_constructor_params_single.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "types", "internal-table", "abennew", "constructor", "params", "single"]
+---
 
 * * *
 

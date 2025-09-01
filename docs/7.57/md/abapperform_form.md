@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... subr  subr(sname) IN PROGRAM prog(pname) IF FOUND  n OF subr1 subr2 ... ... Alternatives: 1. ... subr ...(#!ABAP_ALTERNATIVE_1@1@) 2. ... subr(sname) IN PROGRAM prog(pname) IF FOUND ...(#!ABAP_ALTERNATIVE_2@2@) 3. ... n OF sub
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapperform_form.htm"
+abapFile: "abapperform_form.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abapperform", "form"]
+---
 
 * * *
 

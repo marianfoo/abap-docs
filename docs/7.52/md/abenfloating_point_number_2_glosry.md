@@ -1,4 +1,14 @@
-  
+---
+title: "Floating point number"
+description: |
+  Either a decimal floating point number(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecfloat_glosry.htm 'Glossary Entry') or a binary floating point number(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinfloat_glosry.htm 'Glossary Entry'). In floating point nu
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_number_2_glosry.htm"
+abapFile: "abenfloating_point_number_2_glosry.htm"
+keywords: ["do", "case", "try", "data", "types", "abenfloating", "point", "number", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_table_comprh_locals. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: array TYPE STANDARD TABLE OF i WITH EMPTY KEY, BEGIN OF line, col1 TYPE i, col2 TYPE i, col3 TYPE i, END OF line, itab TYPE STANDARD TABLE OF line W
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_cmprhnsns_locals_abexa.htm"
+abapFile: "abentable_cmprhnsns_locals_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "locals", "abexa"]
+---
 
 * * *
 

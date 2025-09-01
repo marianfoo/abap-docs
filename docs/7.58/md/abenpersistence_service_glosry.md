@@ -1,4 +1,14 @@
-  
+---
+title: "persistence_service_glosry"
+description: |
+  persistence_service_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpersistence_service_glosry.htm"
+abapFile: "abenpersistence_service_glosry.htm"
+keywords: ["do", "if", "try", "abenpersistence", "service", "glosry"]
+---
 
 * * *
 

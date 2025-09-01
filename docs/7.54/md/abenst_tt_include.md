@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:include name='trafo' templates='tmpl1 tmpl2 ...' /> Effect In an ST program, the statement tt:include can be used to include a different ST program trafo, as follows: This statement makes the templates and type definitions of the included program usable in the current ST program. The ST
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_include.htm"
+abapFile: "abenst_tt_include.htm"
+keywords: ["do", "if", "case", "data", "abenst", "include"]
+---
 
 * * *
 

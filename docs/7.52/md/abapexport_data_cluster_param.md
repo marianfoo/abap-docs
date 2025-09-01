@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... p1 = dobj1 p2 = dobj2 ...  p1 FROM dobj1 p2 FROM dobj2 ...  (ptab) ... Extras: 1. ... p1 = dobj1 p2 = dobj2 ...(#!ABAP_ADDITION_1@1@) 2. ... p1 FROM dobj1 p2 FROM dobj2 ...(#!ABAP_ADDITION_2@2@) 3. ... (ptab)(#!ABAP_ADDITION_3@3@) Effect A data cluster(https://help.s
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexport_data_cluster_param.htm"
+abapFile: "abapexport_data_cluster_param.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapexport", "cluster", "param"]
+---
 
 * * *
 

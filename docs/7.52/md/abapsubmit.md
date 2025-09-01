@@ -1,4 +1,14 @@
-  
+---
+title: "SUBMIT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit_shortref.htm) Syntax SUBMIT rep(name) selscreen_options(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit_interface.htm) list_options(https://help.sap.com/doc/abapdo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit.htm"
+abapFile: "abapsubmit.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "class", "data", "abapsubmit"]
+---
 
 * * *
 

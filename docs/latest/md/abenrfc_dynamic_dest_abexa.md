@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Dynamic Destination"
+description: |
+  This example demonstrates how dynamic destinations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_destination.htm) are created. Source Code  Public class definition CLASS cl_demo_rfc_dynamic_dest DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PU
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm"
+abapFile: "abenrfc_dynamic_dest_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenrfc", "dynamic", "dest", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Unit and Currency Conversion Functions"
+description: |
+  Syntax ... UNIT_CONVERSION(    quantity           => arg1, source_unit        => arg2, target_unit        => arg3, client             => arg4, error_handling     => arg5)  CURRENCY_CONVERSION(amount             => arg1, source_currency    => arg2, target_currency    => arg3
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conv_func_unit_curr_v2.htm"
+abapFile: "abencds_conv_func_unit_curr_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "conv", "func", "unit", "curr"]
+---
 
 * * *
 

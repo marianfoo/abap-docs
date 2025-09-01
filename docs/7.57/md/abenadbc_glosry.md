@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC"
+description: |
+  → ABAP Database Connectivity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_db_connectivity_glosry.htm 'Glossary Entry')
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_glosry.htm"
+abapFile: "abenadbc_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenadbc", "glosry"]
+---
 
 * * *
 

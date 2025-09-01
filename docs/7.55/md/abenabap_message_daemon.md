@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - ABAP Daemon Processing"
+description: |
+  Messages sent in ABAP Daemon processing(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_processing_glosry.htm 'Glossary Entry') (namely when ABAP Daemon(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_glosry.htm 'Glossary Entry') methods are
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_message_daemon.htm"
+abapFile: "abenabap_message_daemon.htm"
+keywords: ["do", "try", "method", "types", "abenabap", "message", "daemon"]
+---
 
 * * *
 

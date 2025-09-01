@@ -1,4 +1,14 @@
-  
+---
+title: "Internationalization"
+description: |
+  Business software used by internationally operating enterprises has to meet certain localization requirements, for example by providing different logon languages or by meeting different legal requirements. In the SAP environment, the language aspect is known as internationalization and is part of th
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternationalization_guidl.htm"
+abapFile: "abeninternationalization_guidl.htm"
+keywords: ["do", "if", "abeninternationalization", "guidl"]
+---
 
 * * *
 

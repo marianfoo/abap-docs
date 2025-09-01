@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...   operand  IS NOT INITIAL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_initial.htm)  ref      IS NOT BOUND(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_bound.htm)  oref     IS NOT INSTANCE OF(htt
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expressions.htm"
+abapFile: "abenpredicate_expressions.htm"
+keywords: ["do", "try", "abenpredicate", "expressions"]
+---
 
 * * *
 

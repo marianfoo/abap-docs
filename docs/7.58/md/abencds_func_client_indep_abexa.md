@@ -1,4 +1,14 @@
-  
+---
+title: "Client-Independent CDS Table Functions"
+description: |
+  This example demonstrates client-independent CDS table functions. Source Code  Public class definition CLASS cl_demo_cds_functions_no_clnt DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CL
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_func_client_indep_abexa.htm"
+abapFile: "abencds_func_client_indep_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abencds", "func", "client", "indep", "abexa"]
+---
 
 * * *
 

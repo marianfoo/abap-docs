@@ -1,4 +1,14 @@
-  
+---
+title: "Context Builder"
+description: |
+  Tool in the ABAP Workbench(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') for editing contexts(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontext_glosry.htm 'Glossary Entry'). Called using transaction(htt
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontext_builder_glosry.htm"
+abapFile: "abencontext_builder_glosry.htm"
+keywords: ["do", "if", "try", "abencontext", "builder", "glosry"]
+---
 
 * * *
 

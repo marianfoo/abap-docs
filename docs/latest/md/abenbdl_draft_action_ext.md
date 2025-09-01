@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - extend draft determine action Prepare"
+description: |
+  Syntax extend draft determine action Prepare   determination(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_determinations.htm) (always) DetName;  validation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_validations.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_action_ext.htm"
+abapFile: "abenbdl_draft_action_ext.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "abenbdl", "draft", "action", "ext"]
+---
 
 * * *
 

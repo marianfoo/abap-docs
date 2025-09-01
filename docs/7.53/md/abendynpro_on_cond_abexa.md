@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Conditional Module Calls"
+description: |
+  This example demonstrates how to call modules on the basis of conditions. Source Code PROGRAM demo_dynpro_on_condition . DATA: ok_code TYPE sy-ucomm, input1(20) TYPE c, input2(20) TYPE c, input3(20) TYPE c, fld(20) TYPE c. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. SET PF-STATUS 'STATUS_
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_on_cond_abexa.htm"
+abapFile: "abendynpro_on_cond_abexa.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynpro", "cond", "abexa"]
+---
 
 * * *
 

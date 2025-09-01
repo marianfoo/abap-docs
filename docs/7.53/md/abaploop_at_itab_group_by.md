@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT itab - GROUP BY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_shortref.htm) Syntax LOOP AT itab result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm)  cond(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abap
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_group_by.htm"
+abapFile: "abaploop_at_itab_group_by.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "internal-table", "abaploop", "itab", "group"]
+---
 
 * * *
 

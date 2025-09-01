@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenabap_dynpros_gui.htm
 
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - GUI Statuses and Function Codes(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_gui_status_abexa.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_gui.htm"
+abapFile: "abenabap_dynpros_gui.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpros", "gui"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abendynpro_gui_status_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_gui_status. DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, output  LIKE ok_code. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. SET TITLEBAR '100'. ENDMODULE. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok_code. CASE s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_gui_status_abexa.htm"
+abapFile: "abendynpro_gui_status_abexa.htm"
+keywords: ["do", "if", "case", "data", "abendynpro", "gui", "status", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "add_assignment_op_glosry"
+description: |
+  add_assignment_op_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadd_assignment_op_glosry.htm"
+abapFile: "abenadd_assignment_op_glosry.htm"
+keywords: ["do", "if", "try", "abenadd", "assignment", "glosry"]
+---
 
 * * *
 

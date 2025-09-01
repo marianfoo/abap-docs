@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm) TYPE abap_type(name) LENGTH len DECIMALS dec. Effect Creation of a data object with an explicitly specified data type. For the data type,
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_built_in.htm"
+abapFile: "abapcreate_data_built_in.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abapcreate", "built"]
+---
 
 * * *
 

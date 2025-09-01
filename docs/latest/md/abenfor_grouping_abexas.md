@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') itab - Grouping with FOR Using Column Values(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_group_by_values_abexa.htm) !Example(exa.gif 'Example') itab - Grouping with FOR Using a Method(https://help.sap.com/doc/abapdocu_latest_index_htm/l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_grouping_abexas.htm"
+abapFile: "abenfor_grouping_abexas.htm"
+keywords: ["do", "if", "method", "data", "internal-table", "abenfor", "grouping", "abexas"]
+---
 
 * * *
 

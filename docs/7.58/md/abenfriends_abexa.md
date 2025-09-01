@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Friendship"
+description: |
+  This example demonstrates an interface that is a friend(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends.htm) of a class. Source Code  Public class definition CLASS cl_demo_oo_friendship DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION.
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends_abexa.htm"
+abapFile: "abenfriends_abexa.htm"
+keywords: ["do", "if", "method", "class", "abenfriends", "abexa"]
+---
 
 * * *
 

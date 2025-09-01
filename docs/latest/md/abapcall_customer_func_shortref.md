@@ -1,4 +1,14 @@
-  
+---
+title: "CALL CUSTOMER-FUNCTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_customer-function.htm) Syntax CALL CUSTOMER-FUNCTION func EXPORTING  p1 = a1 p2 = a2 ... IMPORTING p1 = a1 p2 = a2 ... CHANGING   p1 = a1 p2 = a2 ... TABLES t1 = itab1 t2 = itab2 ...
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_customer_func_shortref.htm"
+abapFile: "abapcall_customer_func_shortref.htm"
+keywords: ["do", "if", "try", "abapcall", "customer", "func", "shortref"]
+---
 
 * * *
 

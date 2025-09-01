@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP and Operating System Statements"
+description: |
+  Operating system statements or system commands execute statements or programs directly on the operating system of an application server or a presentation server. Executing operating system statements from ABAP programs should be the exception not the rule, however it may become necessary in system o
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_system_commands.htm"
+abapFile: "abenabap_system_commands.htm"
+keywords: ["do", "data", "abenabap", "system", "commands"]
+---
 
 * * *
 

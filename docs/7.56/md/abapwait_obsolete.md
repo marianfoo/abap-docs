@@ -1,4 +1,14 @@
-  
+---
+title: "WAIT UNTIL, Short Form"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_shortref.htm) Obsolete Syntax WAIT UNTIL log_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm) UP TO sec SECONDS. Effect This statement works in the same way as WAIT FOR ASY
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm"
+abapFile: "abapwait_obsolete.htm"
+keywords: ["do", "try", "data", "abapwait", "obsolete"]
+---
 
 * * *
 

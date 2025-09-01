@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Comparison Type"
+description: |
+  If the comparison type is one of the numeric data types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm), the number values are compared. Notes -   Platform-dependent rounding errors may occur with data type f, which means it often does not make sense to co
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_type.htm"
+abapFile: "abencomparison_type.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "abencomparison", "type"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ rel\_exp - Comparison Rules for Comparison Types
 
 When operands with elementary data types are compared, the comparison uses a comparison type defined by the operands in question, as for [elementary data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_dobj.htm) and [calculation expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_expressions.htm). The comparison type can be one of the [predefined ABAP types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_abap_type_glosry.htm "Glossary Entry"). When incompatible operands are compared, the operands that do not have the comparison type are converted to this type.
 
--   [Numeric Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_1)
+-   [Numeric Comparison Type](#abencomparison-type-1--------character-like-comparison-type---@ITOC@@ABENCOMPARISON_TYPE_2)
 
--   [Character-Like Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_2)
-
--   [Byte-Like Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_3)
-
--   [Date/Time Type as Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_4)
+-   [Byte-Like Comparison Type](#abencomparison-type-3--------date-time-type-as-comparison-type---@ITOC@@ABENCOMPARISON_TYPE_4)
 
 Numeric Comparison Type
 

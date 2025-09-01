@@ -1,4 +1,14 @@
-  
+---
+title: "ENDPROVIDE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprovide_shortref.htm) Syntax ENDPROVIDE. Effect The statement ENDPROVIDE closes a loop started using PROVIDE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprovide.htm).
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendprovide.htm"
+abapFile: "abapendprovide.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abapendprovide"]
+---
 
 * * *
 

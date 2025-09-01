@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Simple Transformation for Name Attributes"
+description: |
+  The example demonstrates a Simple Transformation used to create name attributes in JSON data(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjson_oview.htm). Source Code REPORT demo_st_json_table_attributes. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CL
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st_json_table_attr_abexa.htm"
+abapFile: "abenabap_st_json_table_attr_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "internal-table", "abenabap", "json", "table", "attr", "abexa"]
+---
 
 * * *
 

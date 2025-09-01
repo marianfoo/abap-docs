@@ -1,4 +1,14 @@
-  
+---
+title: "RAP additional save"
+description: |
+  Save logic which can be added to managed RAP BOs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_glosry.htm 'Glossary Entry') to enhance the default save sequence(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_save_seq_glosry.htm 'Gloss
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_add_save_glosry.htm"
+abapFile: "abenrap_add_save_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenrap", "add", "save", "glosry"]
+---
 
 * * *
 

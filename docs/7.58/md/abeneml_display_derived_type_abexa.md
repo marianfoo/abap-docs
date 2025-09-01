@@ -1,4 +1,14 @@
-  
+---
+title: "Display BDEF Derived Type Components"
+description: |
+  This example allows multiple BDEF derived type components and their availability in variables typed with TYPE TABLE FOR ...(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_table_for.htm) and TYPE STRUCTURE FOR ...(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aba
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_display_derived_type_abexa.htm"
+abapFile: "abeneml_display_derived_type_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abeneml", "display", "derived", "type", "abexa"]
+---
 
 * * *
 

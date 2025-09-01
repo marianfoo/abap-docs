@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete ABP Statements"
+description: |
+  -   METHODS, FOR BEHAVIOR(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm) -   METHODS, FOR DETERMINATION, VALIDATION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm) METHODS, FOR BEHAVIOR(https://help.sap.com/d
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm"
+abapFile: "abenabp_obsolete.htm"
+keywords: ["do", "method", "abenabp", "obsolete"]
+---
 
 * * *
 

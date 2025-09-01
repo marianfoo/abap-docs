@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_f4_help_dictionary. TABLES demof4help. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. Description The static next dynpro number of dynpro 100 is 100. The input fields are assigned the components of the structure DEMOF4HELP from ABAP Dictionary. The function co
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_f4_help_dic_abexa.htm"
+abapFile: "abendynpro_f4_help_dic_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "help", "dic", "abexa"]
+---
 
 * * *
 

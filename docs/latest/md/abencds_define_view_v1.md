@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @entity_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) ... @AbapCatalog.sqlViewName: 'CDS_DB_VIEW'(ht
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_v1.htm"
+abapFile: "abencds_define_view_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "define", "view"]
+---
 
 * * *
 

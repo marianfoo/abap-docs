@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING, Basic Form"
+description: |
+  Syntax ...  CORRESPONDING dtype#( EXACT DEEP structitab  duplicates(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding_constr_dupl.htm) )    CORRESPONDING dtype#( DEEP APPENDING BASE ( base
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding_constr_arg_type.htm"
+abapFile: "abencorresponding_constr_arg_type.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abencorresponding", "constr", "arg", "type"]
+---
 
 * * *
 

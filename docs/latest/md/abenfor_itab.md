@@ -1,4 +1,14 @@
-  
+---
+title: "FOR, Table Iterations"
+description: |
+  Syntax Forms Read Lines of Internal Tables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_in_itab.htm) 1. ... FOR wa<fs> IN itab INDEX INTO idx  cond(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_cond.htm) let_exp(http
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_itab.htm"
+abapFile: "abenfor_itab.htm"
+keywords: ["loop", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenfor", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "unmanaged_rap_bo_glosry"
+description: |
+  unmanaged_rap_bo_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm"
+abapFile: "abenunmanaged_rap_bo_glosry.htm"
+keywords: ["do", "if", "try", "abenunmanaged", "rap", "glosry"]
+---
 
 * * *
 

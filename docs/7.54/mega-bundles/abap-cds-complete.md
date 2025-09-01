@@ -1,26 +1,11 @@
 # ABAP CDS - Complete Reference (7.54)
 
-**Generated**: 2025-09-01T11:14:58.226Z
-**Bundles Combined**: 24
+**Generated**: 2025-09-01T19:37:38.103Z
+**Bundles Combined**: 25
 **Category**: cds
 
 ---
 
-
-
-## 🔗 Complete Source Documentation
-
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-**🏷️ Category**: CDS
-**🔍 Search Specific Topics**: Use `abap_search query:"cds"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
-
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
-
----
 
 ## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Syntax
 
@@ -33,11 +18,17 @@ Included pages: 3
 
 ### abencds_syntax.htm
 
-> **📖 Official SAP Documentation**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Syntax"
+description: |
+  The syntax of the CDS DDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and the CDS DCL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm 'Glossary Entry') in ABAP CDS comprises elements of the general SQL(ht
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_syntax.htm"
+abapFile: "abencds_syntax.htm"
+keywords: ["do", "try", "abencds", "syntax"]
+---
 
 * * *
 
@@ -58,16 +49,19 @@ Continue
 [ABAP CDS - Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_language_elements.htm)
 
 
-
-**📖 Source**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_syntax.htm)
-
 ### abencds_general_syntax_rules.htm
 
-> **📖 Official SAP Documentation**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_general_syntax_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - General Syntax Rules"
+description: |
+  The general syntax rules for the CDS DDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and CDS DCL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm 'Glossary Entry') for defining CDS objects(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_general_syntax_rules.htm"
+abapFile: "abencds_general_syntax_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abencds", "general", "syntax", "rules"]
+---
 
 * * *
 
@@ -133,16 +127,19 @@ Examples
 -   0.5 is a valid numeric literal, but .5 is not.
 
 
-
-**📖 Source**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_general_syntax_rules.htm)
-
 ### abencds_language_elements.htm
 
-> **📖 Official SAP Documentation**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_language_elements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - Language Elements"
+description: |
+  The following sections summarize the language elements of the CDS DDL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm 'Glossary Entry') and CDS DCL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm 'Glossary Entry') in ABAP CDS(
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_language_elements.htm"
+abapFile: "abencds_language_elements.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "language", "elements"]
+---
 
 * * *
 
@@ -164,7 +161,460 @@ The following sections summarize the language elements of the [CDS DDL](https://
 
 -   [DCL](#abencds-language-elements-9--------cds-roles---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
 
--   [CDS access policy](#abencds-language-elements-11---in-addition-to-the-language-elements-shown-here--cds-source-code-can-also-contain--annotations--javascript-call-link---abencds-annotations-htm-----with-metadata---ddl--cds-annotation-definitions--keywords-and-additions--language-element--meaning---define-annotation------javascript-call-link---abencds-f1-define-annotation-htm------defines-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----enum--javascript-call-link---abencds-f1-define-annotation-type-htm------defines-enumeration-symbols-of-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----default--javascript-call-link---abencds-f1-define-annotation-type-htm------defines-default-values-of-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----array-of--javascript-call-link---abencds-f1-define-annotation-arr-htm------defines-an--annotation-arras--javascript-call-link---abenannotation-array-glosry-htm-----glossary-entry-----cds-views--keywords-and-additions--language-element--meaning---define-view-----as--javascript-call-link---abencds-f1-define-view-htm------defines-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry-----with-parameters--javascript-call-link---abencds-f1-parameter-list-htm------defines-input-parameters-of-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry-----select-----distinct---------from--javascript-call-link---abencds-f1-select-statement-htm------select-statement-of-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry-----inner-join-----on--javascript-call-link---abencds-f1-joined-data-source-htm------inner-join-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------left---right-outer-join-----on--javascript-call-link---abencds-f1-joined-data-source-htm------outer-join-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------association-----to-----as-----on--javascript-call-link---abencds-f1-association-htm------defines-a-cds-association-for-a--path-expression--javascript-call-link---abencds-f1-path-expression-htm-----in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------with-default-filter--javascript-call-link---abencds-f1-association-htm------specifies-a-default-filter-condition-of-a-cds-association---1---javascript-call-link---abencds-path-expression-attr-htm------attribute-of-a--path-expression--javascript-call-link---abencds-f1-path-expression-htm-------inner-----where--javascript-call-link---abencds-path-expression-attr-htm------attribute-of-a--path-expression--javascript-call-link---abencds-f1-path-expression-htm-------left-outer-----where--javascript-call-link---abencds-path-expression-attr-htm------attribute-of-a--path-expression--javascript-call-link---abencds-f1-path-expression-htm-------key-----as--javascript-call-link---abencds-f1-select-list-entry-htm------element-of-a--select-list--javascript-call-link---abencds-f1-select-list-htm--------extension-----javascript-call-link---abencds-f1-select-list-entry-htm------elements-of-an-enhancement-in-a--select-list--javascript-call-link---abencds-f1-select-list-htm-------where------javascript-call-link---abencds-f1-where-clause-htm------where-clause-of-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------group-by------javascript-call-link---abencds-f1-group-by-htm------group-by-clause-of-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------having------javascript-call-link---abencds-f1-having-clause-htm------having-clause-of-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------union-all------javascript-call-link---abencds-f1-union-htm------union-clause-of-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm------expressions--operators--meaning---max--javascript-call-link---abencds-f1-aggregate-functions-htm-------min--javascript-call-link---abencds-f1-aggregate-functions-htm-------avg-----as-dtype------javascript-call-link---abencds-f1-aggregate-functions-htm-------sum--javascript-call-link---abencds-f1-aggregate-functions-htm-------count--javascript-call-link---abencds-f1-aggregate-functions-htm------aggregate-expression-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm----------javascript-call-link---abencds-f1-arithmetic-expression-htm-----------javascript-call-link---abencds-f1-arithmetic-expression-htm-----------javascript-call-link---abencds-f1-arithmetic-expression-htm----------javascript-call-link---abencds-f1-arithmetic-expression-htm------arithmetic-expression-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------case--javascript-call-link---abencds-f1-case-expression-htm-------when--javascript-call-link---abencds-f1-case-expression-htm-------then--javascript-call-link---abencds-f1-case-expression-htm-------else--javascript-call-link---abencds-f1-case-expression-htm-------end--javascript-call-link---abencds-f1-case-expression-htm------case-distinction-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------cast--javascript-call-link---abencds-f1-cast-expression-htm------cast-expression-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-----------javascript-call-link---abencds-cond-expr-comp-htm-----------javascript-call-link---abencds-cond-expr-comp-htm----------javascript-call-link---abencds-cond-expr-comp-htm-----------javascript-call-link---abencds-cond-expr-comp-htm-----------javascript-call-link---abencds-cond-expr-comp-htm------------javascript-call-link---abencds-cond-expr-comp-htm-------between--javascript-call-link---abencds-cond-expr-between-htm-------like--javascript-call-link---abencds-cond-expr-like-htm-------is-null--javascript-call-link---abencds-cond-expr-null-htm-------not--javascript-call-link---abencds-f1-conditional-expression-htm-------and--javascript-call-link---abencds-f1-conditional-expression-htm-------or--javascript-call-link---abencds-f1-conditional-expression-htm------relational-expression-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm------built-in-functions--function--meaning---abs--javascript-call-link---abencds-f1-sql-functions-numeric-htm-------ceil--javascript-call-link---abencds-f1-sql-functions-numeric-htm-------div--javascript-call-link---abencds-f1-sql-functions-numeric-htm-------division--javascript-call-link---abencds-f1-sql-functions-numeric-htm-------floor--javascript-call-link---abencds-f1-sql-functions-numeric-htm-------mod--javascript-call-link---abencds-f1-sql-functions-numeric-htm-------round--javascript-call-link---abencds-f1-sql-functions-numeric-htm------numeric-function-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------concat--javascript-call-link---abencds-f1-sql-functions-character-htm-------concat--with--space--javascript-call-link---abencds-f1-sql-functions-character-htm-------instr--javascript-call-link---abencds-f1-sql-functions-character-htm-------left--javascript-call-link---abencds-f1-sql-functions-character-htm-------length--javascript-call-link---abencds-f1-sql-functions-character-htm-------lpad--javascript-call-link---abencds-f1-sql-functions-character-htm-------lower--javascript-call-link---abencds-f1-sql-functions-character-htm-------ltrim--javascript-call-link---abencds-f1-sql-functions-character-htm-------replace--javascript-call-link---abencds-f1-sql-functions-character-htm-------right--javascript-call-link---abencds-f1-sql-functions-character-htm-------rpad--javascript-call-link---abencds-f1-sql-functions-character-htm-------rtrim--javascript-call-link---abencds-f1-sql-functions-character-htm-------substring--javascript-call-link---abencds-f1-sql-functions-character-htm-------upper--javascript-call-link---abencds-f1-sql-functions-character-htm------string-function-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------bintohex--javascript-call-link---abencds-f1-conv-func-types-htm-------hextobin--javascript-call-link---abencds-f1-conv-func-types-htm------byte-string-function-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------coalesce--javascript-call-link---abencds-f1-coalesce-expression-htm------coalesce-function-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------fltp--to--dec--javascript-call-link---abencds-f1-conv-func-types-htm-------unit--conversion--javascript-call-link---abencds-f1-conv-func-unit-curr-htm-------currency--conversion--javascript-call-link---abencds-f1-conv-func-unit-curr-htm-------decimal--shift--javascript-call-link---abencds-f1-conv-func-unit-curr-htm------conversion-functions-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------dats--is--valid--javascript-call-link---abencds-f1-date-functions-htm-------dats--days--between--javascript-call-link---abencds-f1-date-functions-htm-------dats--add--days--javascript-call-link---abencds-f1-date-functions-htm-------dats--add--months--javascript-call-link---abencds-f1-date-functions-htm------date-function-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------tims--is--valid--javascript-call-link---abencds-f1-time-functions-htm------time-function-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------tstmp--is--valid--javascript-call-link---abencds-f1-timestamp-functions-htm-------tstmp--current--utctimestamp--javascript-call-link---abencds-f1-timestamp-functions-htm-------tstmp--seconds--between--javascript-call-link---abencds-f1-timestamp-functions-htm-------tstmp--add--seconds--javascript-call-link---abencds-f1-timestamp-functions-htm------time-stamp-function-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------abap--system--timezone--javascript-call-link---abencds-f1-timezone-functions-htm-------abap--user--timezone--javascript-call-link---abencds-f1-timezone-functions-htm------time-zone-functions-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm-------tstmp--to--dats--javascript-call-link---abencds-f1-date-time-conversions-htm-------tstmp--to--tims--javascript-call-link---abencds-f1-date-time-conversions-htm-------tstmp--to--dst--javascript-call-link---abencds-f1-date-time-conversions-htm-------dats--tims--to--tstmp--javascript-call-link---abencds-f1-date-time-conversions-htm------date-time-conversions-functions-in-a--select-statement--javascript-call-link---abencds-f1-select-statement-htm------cds-view-enhancements--keywords-and-additions--language-element--meaning---extend-view-----with--javascript-call-link---abencds-f1-extend-view-htm------extends-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---using-a--cds-view-extension--javascript-call-link---abencds-view-extend-glosry-htm-----glossary-entry----cds-table-functions--keywords-and-additions--language-element--meaning---define-table-function-----returns-----implemented-by-method------javascript-call-link---abencds-f1-define-table-function-htm------defines-a--cds-table-function--javascript-call-link---abencds-table-function-glosry-htm-----glossary-entry----cds-hierarchies--keywords-and-additions--language-element--meaning---define-hierarchy------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----with-parameters--javascript-call-link---abencds-f1-hiera-parameter-list-htm------defines-input-parameters-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----as-parent-child-hierarchy--javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry---using-parent-child-relationships---source------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-data-source-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----child-to-parent-association--javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the--hierarchy-association--javascript-call-link---abenhierarchy-association-glosry-htm-----glossary-entry---of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----period-from-----to-----valid-from-----to------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--temporal-hierarchy--javascript-call-link---abentemporal-hierarchy-glosry-htm-----glossary-entry-----directory-----filter-by------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-a-condition-for-the-source-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----start-where------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-start-condition-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----siblings-order-by------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-sort-order-of--sibling-nodes--javascript-call-link---abensibling-node-glosry-htm-----glossary-entry---in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----depth------javascript-call-link---abencds-f1-define-hierarchy-htm------delimits-the--hierarchy-levels--javascript-call-link---abenhierarchy-level-glosry-htm-----glossary-entry---of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----nodetype------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-an-element-as-a-node-type-for-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----multiple-parents------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if-multiple--parent-nodes--javascript-call-link---abenparent-node-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----orphans------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if--orphan-nodes--javascript-call-link---abenorphan-node-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----cycles------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if--node-cycles--javascript-call-link---abennode-cycle-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----generate-spantree--javascript-call-link---abencds-f1-define-hierarchy-htm------reduces-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry---to-a-tree--abstract-cds-entities--keywords-and-additions--language-element--meaning---define-abstract-entity------javascript-call-link---abencds-f1-define-abstract-entity-htm------defines-an--abstract-cds-entity--javascript-call-link---abenabstract-entity-glosry-htm-----glossary-entry-----with-parameters--javascript-call-link---abencds-f1-entity-parameter-list-htm------defines-input-parameters-of-an--abstract-cds-entity--javascript-call-link---abenabstract-entity-glosry-htm-----glossary-entry------association-----to-----on--javascript-call-link---abencds-f1-absent-association-htm------publishes-a-cds-association-in-the--element-list--javascript-call-link---abencds-f1-absent-element-list-htm-----of-an--abstract-cds-entity--javascript-call-link---abenabstract-entity-glosry-htm-----glossary-entry-----with-default-filter--javascript-call-link---abencds-f1-absent-association-htm------specifies-a-default-filter-condition-of-a-cds-association--cds-metadata-extensions--keywords-and-additions--language-element--meaning---annotate-entity---view-----with--javascript-call-link---abencds-f1-annotate-view-htm------defines-a--cds-metadata-extension--javascript-call-link---abencds-metadata-extension-glosry-htm-----glossary-entry---for-a--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry-----variant--javascript-call-link---abencds-f1-annotate-view-htm------joins-a--cds-metadata-extension--javascript-call-link---abencds-metadata-extension-glosry-htm-----glossary-entry---with-a--cds-variant--javascript-call-link---abencds-variant-glosry-htm-----glossary-entry-----parameters--javascript-call-link---abencds-f1-annotate-view-para-list-htm------extends-the-annotations-of-the-input-parameters-of-a--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry----dcl--cds-roles--keywords-and-additions--language-element--meaning---define-role--javascript-call-link---abencds-f1-define-role-htm------defines-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----grant-select-on--javascript-call-link---abencds-dcl-role-rules-htm------defines-an-access-rule-in-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----where--javascript-call-link---abencds-dcl-role-cond-rule-htm------where-clause-in-a-conditional-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----and--javascript-call-link---abencds-dcl-role-cond-expr-htm-------or--javascript-call-link---abencds-dcl-role-cond-expr-htm-------not--javascript-call-link---abencds-dcl-role-cond-expr-htm------boolean-operator-in-a-conditional-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----inherit--javascript-call-link---abencds-dcl-role-inherited-rule-htm------defines-an-inherited-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry----obsolete----aspect-pfcg--auth--javascript-call-link---abencds-f1-cond-pfcg-htm-------aspect-user--javascript-call-link---abencds-f1-cond-user-htm------conditions-for--cds-roles--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----pfcg--mapping--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm------specifies-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---in-a--pfcg-condition--javascript-call-link---abenpfcg-condition-glosry-htm-----glossary-entry---of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----inherit-----for-grant-select-on--javascript-call-link---abencds-f1-cond-inherit-htm------defines-an--inheritance-condition--javascript-call-link---abeninherit-condition-glosry-htm-----glossary-entry---of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry------------------------------------------javascript-call-link---abencds-f1-dcl-cond-expression-htm--------between---like---is-null--javascript-call-link---abencds-f1-cond-literal-htm----------operators-for-literal-conditions--cds-access-policy--keywords-and-additions--language-element--meaning---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------defines-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry-----define-pfcg--mapping-----between-----and-----using------javascript-call-link---abencds-f1-define-pfcg-mapping-htm------defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---in-an-access-policy------------abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---definition-of-annotations----files----9-----difficulty----advanced----abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---sap-annotations---abap-cds---abap-annotations--included-pages--3---------source-----abencds-language-elements-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-language-elements-htm-------abencds-annotations-abap-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--abap-annotations-are--sap-annotations--javascript-call-link---abensap-annotation-glosry-htm-----glossary-entry---that-are-evaluated-by-the-abap-runtime-environment--the-following-sections-show-the-associated--annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---and-the--annotation-syntax--javascript-call-link---abencds-annotation-syntax-glosry-htm-----glossary-entry----------abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-----------abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm------the-detailed-meanings-of-the-abap-annotations-is-documented-for-the-corresponding--scope--javascript-call-link---abencds-annotations-scopes-htm-----in-this-documentation---note--an-abap-annotation-can-also-be-evaluated-by-frameworks-of-other-software-components---continue--abap-cds---abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm------abap-cds---abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------------source-----abencds-annotations-abap-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-htm-------abencds-annotations-abap-ddla-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--javascript-call-link---abencds-annotations-abap-htm---------abap-cds---abap-annotation-definitions--the-following--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shows-the--cds-annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---in-all--abap-annotations--javascript-call-link---abencore-annotation-glosry-htm-----glossary-entry---in--cds-ddl--javascript-call-link---abencds-ddl-glosry-htm-----glossary-entry---and--cds-dcl--javascript-call-link---abencds-dcl-glosry-htm-----glossary-entry---in-abap-cds-------the-meaning-of-the--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shown-here-can-be-found-in-the-documentation-for--define-annotation--javascript-call-link---abencds-f1-define-annotation-htm-----------the-semantics-of-the-annotations-can-be-found-in-the-links-in-the-ddla-source-code---the-detailed-meanings-of-these-abap-annotations-are-described-under-the-relevant--scope--javascript-call-link---abencds-annotations-scopes-htm-----defined-after--Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
+-   [CDS access policy](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_11)
+
+In addition to the language elements shown here, CDS source code can also contain [annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) with metadata.
+
+DDL
+
+CDS Annotation Definitions
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[define annotation ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation.htm)
+
+Defines a [CDS annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm "Glossary Entry")
+
+[enum](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation_type.htm)
+
+Defines enumeration symbols of a [CDS annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm "Glossary Entry")
+
+[default](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation_type.htm)
+
+Defines default values of a [CDS annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm "Glossary Entry")
+
+[array of](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation_arr.htm)
+
+Defines an [annotation arras](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenannotation_array_glosry.htm "Glossary Entry").
+
+CDS Views
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[DEFINE VIEW ... AS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_view.htm)
+
+Defines a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry")
+
+[WITH PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_list.htm)
+
+Defines input parameters of a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry")
+
+[SELECT *\[*DISTINCT*\]* ... FROM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+SELECT statement of a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry")
+
+[INNER JOIN ... ON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_joined_data_source.htm)
+
+Inner join in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[LEFT*|*RIGHT OUTER JOIN ... ON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_joined_data_source.htm)
+
+Outer join in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[ASSOCIATION ... TO ... AS ... ON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_association.htm)
+
+Defines a CDS association for a [path expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm) in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[WITH DEFAULT FILTER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_association.htm)
+
+Specifies a default filter condition of a CDS association
+
+[1:](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_attr.htm)
+
+Attribute of a [path expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm)
+
+[INNER ... WHERE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_attr.htm)
+
+Attribute of a [path expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm)
+
+[LEFT OUTER ... WHERE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_attr.htm)
+
+Attribute of a [path expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm)
+
+[KEY ... AS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_entry.htm)
+
+Element of a [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list.htm)
+
+[$EXTENSION.\*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_entry.htm)
+
+Elements of an enhancement in a [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list.htm)
+
+[WHERE ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_where_clause.htm)
+
+WHERE clause of a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[GROUP BY ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_group_by.htm)
+
+GROUP-BY clause of a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[HAVING ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_having_clause.htm)
+
+HAVING clause of a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[UNION ALL ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_union.htm)
+
+UNION clause of a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+Expressions
+
+Operators
+
+Meaning
+
+[MAX](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm), [MIN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm), [AVG *\[*AS dtype*\]*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm), [SUM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm), [COUNT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm)
+
+Aggregate expression in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[+](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_arithmetic_expression.htm), [\-](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_arithmetic_expression.htm), [\*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_arithmetic_expression.htm), [/](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_arithmetic_expression.htm)
+
+Arithmetic expression in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[CASE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm), [WHEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm), [THEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm), [ELSE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm), [END](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm)
+
+Case distinction in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[CAST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm)
+
+Cast expression in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[\=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_comp.htm), [<>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_comp.htm), [<](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_comp.htm), [\>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_comp.htm), [<=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_comp.htm), [\>=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_comp.htm), [BETWEEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_between.htm), [LIKE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_like.htm), [IS NULL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_null.htm), [NOT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conditional_expression.htm), [AND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conditional_expression.htm), [OR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conditional_expression.htm)
+
+Relational expression in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+Built-In Functions
+
+Function
+
+Meaning
+
+[ABS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_numeric.htm), [CEIL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_numeric.htm), [DIV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_numeric.htm), [DIVISION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_numeric.htm), [FLOOR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_numeric.htm), [MOD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_numeric.htm), [ROUND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_numeric.htm)
+
+Numeric function in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[CONCAT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [CONCAT\_WITH\_SPACE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [INSTR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [LEFT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [LENGTH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [LPAD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [LOWER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [LTRIM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [REPLACE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [RIGHT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [RPAD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [RTRIM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [SUBSTRING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm), [UPPER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm)
+
+String function in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[BINTOHEX](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_types.htm), [HEXTOBIN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_types.htm)
+
+Byte string function in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[COALESCE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_coalesce_expression.htm)
+
+Coalesce function in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[FLTP\_TO\_DEC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_types.htm), [UNIT\_CONVERSION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_unit_curr.htm), [CURRENCY\_CONVERSION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_unit_curr.htm), [DECIMAL\_SHIFT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_unit_curr.htm)
+
+Conversion functions in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[DATS\_IS\_VALID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_functions.htm), [DATS\_DAYS\_BETWEEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_functions.htm), [DATS\_ADD\_DAYS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_functions.htm), [DATS\_ADD\_MONTHS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_functions.htm)
+
+Date function in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[TIMS\_IS\_VALID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_time_functions.htm)
+
+Time function in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[TSTMP\_IS\_VALID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_timestamp_functions.htm), [TSTMP\_CURRENT\_UTCTIMESTAMP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_timestamp_functions.htm), [TSTMP\_SECONDS\_BETWEEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_timestamp_functions.htm), [TSTMP\_ADD\_SECONDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_timestamp_functions.htm)
+
+Time stamp function in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[ABAP\_SYSTEM\_TIMEZONE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_timezone_functions.htm), [ABAP\_USER\_TIMEZONE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_timezone_functions.htm)
+
+Time zone functions in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+[TSTMP\_TO\_DATS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_time_conversions.htm), [TSTMP\_TO\_TIMS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_time_conversions.htm), [TSTMP\_TO\_DST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_time_conversions.htm), [DATS\_TIMS\_TO\_TSTMP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_time_conversions.htm)
+
+Date/time conversions functions in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm)
+
+CDS View Enhancements
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[EXTEND VIEW ... WITH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view.htm)
+
+Extends a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry") using a [CDS view extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_extend_glosry.htm "Glossary Entry")
+
+CDS Table Functions
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[DEFINE TABLE FUNCTION ... RETURNS ... IMPLEMENTED BY METHOD ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_table_function.htm)
+
+Defines a [CDS table function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry")
+
+CDS Hierarchies
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[DEFINE HIERARCHY ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Defines a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[WITH PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hiera_parameter_list.htm)
+
+Defines input parameters of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[AS PARENT CHILD HIERARCHY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Defines a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry") using parent-child relationships
+
+[SOURCE ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Specifies the data source of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[CHILD TO PARENT ASSOCIATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Specifies the [hierarchy association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_association_glosry.htm "Glossary Entry") of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[PERIOD FROM ... TO ... VALID FROM ... TO ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Defines a [temporal hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentemporal_hierarchy_glosry.htm "Glossary Entry")
+
+[DIRECTORY ... FILTER BY ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Specifies a condition for the source of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[START WHERE ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Specifies the start condition of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[SIBLINGS ORDER BY ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Specifies the sort order of [sibling nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensibling_node_glosry.htm "Glossary Entry") in a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[DEPTH ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Delimits the [hierarchy levels](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_level_glosry.htm "Glossary Entry") of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[NODETYPE ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Defines an element as a node type for a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[MULTIPLE PARENTS ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Defines the behavior that applies if multiple [parent nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenparent_node_glosry.htm "Glossary Entry") are specified in a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[ORPHANS ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Defines the behavior that applies if [orphan nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenorphan_node_glosry.htm "Glossary Entry") are specified in a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[CYCLES ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Defines the behavior that applies if [node cycles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennode_cycle_glosry.htm "Glossary Entry") are specified in a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+[GENERATE SPANTREE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm)
+
+Reduces a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry") to a tree
+
+Abstract CDS Entities
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[DEFINE ABSTRACT ENTITY ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_abstract_entity.htm)
+
+Defines an [abstract CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_entity_glosry.htm "Glossary Entry")
+
+[WITH PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_parameter_list.htm)
+
+Defines input parameters of an [abstract CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_entity_glosry.htm "Glossary Entry").
+
+[ASSOCIATION ... TO ... ON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_association.htm)
+
+Publishes a CDS association in the [element list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_element_list.htm) of an [abstract CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_entity_glosry.htm "Glossary Entry")
+
+[WITH DEFAULT FILTER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_association.htm)
+
+Specifies a default filter condition of a CDS association
+
+CDS Metadata Extensions
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[ANNOTATE ENTITY*|*VIEW ... WITH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_annotate_view.htm)
+
+Defines a [CDS metadata extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry") for a [CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry")
+
+[VARIANT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_annotate_view.htm)
+
+Joins a [CDS metadata extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry") with a [CDS variant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_variant_glosry.htm "Glossary Entry")
+
+[PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_annotate_view_para_list.htm)
+
+Extends the annotations of the input parameters of a [CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry")
+
+DCL
+
+CDS Roles
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[DEFINE ROLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_role.htm)
+
+Defines a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry")
+
+[GRANT SELECT ON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_rules.htm)
+
+Defines an access rule in a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry")
+
+[WHERE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_cond_rule.htm)
+
+WHERE clause in a conditional access rule of a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry")
+
+[AND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_cond_expr.htm), [OR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_cond_expr.htm), [NOT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_cond_expr.htm)
+
+Boolean operator in a conditional access rule of a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry")
+
+[INHERIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_inherited_rule.htm)
+
+Defines an inherited access rule of a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry") (obsolete)
+
+[ASPECT pfcg\_auth](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_pfcg.htm),
+[ASPECT user](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_user.htm)
+
+Conditions for [CDS roles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry")
+
+[PFCG\_MAPPING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_pfcg_mapping.htm)
+
+Specifies a [PFCG mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_pfcg_mapping_glosry.htm "Glossary Entry") in a [PFCG condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpfcg_condition_glosry.htm "Glossary Entry") of a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry")
+
+[INHERIT ... FOR GRANT SELECT ON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_inherit.htm)
+
+Defines an [inheritance condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninherit_condition_glosry.htm "Glossary Entry") of a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry")
+
+...[\=*|*<>*|*<*|*\>*|*<=*|*\>=*|*?=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm)*|*[BETWEEN*|*LIKE*|*IS NULL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_literal.htm) ...
+
+Operators for literal conditions
+
+CDS access policy
+
+Keywords and Additions
+
+Language Element
+
+Meaning
+
+[DEFINE ACCESSPOLICY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
+
+Defines a [CDS access policy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_policy_glosry.htm "Glossary Entry")
+
+[DEFINE PFCG\_MAPPING ... BETWEEN ... AND ... USING ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
+
+Defines a [PFCG mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_pfcg_mapping_glosry.htm "Glossary Entry") in an access policy
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations / ABAP CDS - DDL for Annotation Definitions / ABAP CDS - DEFINE ANNOTATION
+
+**Files**: 5 | **Difficulty**: advanced
+
+# ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
+
+Included pages: 3
+
+
+### abencds_annotations_abap.htm
+
+---
+title: "ABAP CDS - ABAP Annotations"
+description: |
+  ABAP annotations are SAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that are evaluated by the ABAP runtime environment. The following sections show the associated annotation definitions(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm"
+abapFile: "abencds_annotations_abap.htm"
+keywords: ["do", "try", "abencds", "annotations", "abap"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) → 
+
+ABAP CDS - ABAP Annotations
+
+ABAP annotations are [SAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm "Glossary Entry") that are evaluated by the ABAP runtime environment. The following sections show the associated [annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the [annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
+
+-   [ABAP annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+
+-   [ABAP annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+The detailed meanings of the ABAP annotations is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) in this documentation.
+
+Note
+
+An ABAP annotation can also be evaluated by frameworks of other software components.
+
+Continue
+[ABAP CDS - ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+[ABAP CDS - ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+
+### abencds_annotations_abap_ddla.htm
+
+---
+title: "ABAP CDS - ABAP Annotation Definitions"
+description: |
+  The following DDLA source code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm 'Glossary Entry') shows the CDS annotation definitions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in all
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm"
+abapFile: "abencds_annotations_abap_ddla.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "abencds", "annotations", "abap", "ddla"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm) → 
+
+ABAP CDS - ABAP Annotation Definitions
+
+The following [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
+
+-   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation.htm).
+
+-   The semantics of the annotations can be found in the links in the DDLA source code.
+
+The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
 
 -   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
 
@@ -182,7 +632,7 @@ The following sections summarize the language elements of the [CDS DDL](https://
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
+-   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm----abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation AbapAnnotation {
   definitionHidden : Boolean default true;
 };
@@ -689,16 +1139,19 @@ define annotation Semantics
 };
 
 
-
-**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
-
 ### abencds_annotations_abap_tables.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotation Syntax"
+description: |
+  The following tables summarize the annotation syntax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm 'Glossary Entry') of all ABAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm 'Glossary Entry
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm"
+abapFile: "abencds_annotations_abap_tables.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abencds", "annotations", "abap", "tables"]
+---
 
 * * *
 
@@ -726,7 +1179,1392 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-tables-17---note--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-16-------------------released--for--key--user--appsreleased--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--sap--cloud--platform--accesscontrol-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----check--not--allowed--not--required--privileged--only---check----------released--for--sap--cloud--platform--api-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated------------------api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref----------------------api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clientdependent--specifies-client-dependency-and-how-clients-are-handled--obsolete----table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------clienthandling-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----automated--none--session--variable--------------released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--sap--cloud--platform--compatibilitycontract-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------endusertext-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header-----string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------string-60-----------x--x--released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-100-----------x--x--released--for--sap--cloud--platform--environment-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--------------released--for--sap--cloud--platform--languagedependency-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true--------------metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x------metadataextension-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-distribution-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--objectmodel-usagetype-dataclass--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed--------------objectmodel-usagetype-servicequality--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----a--b--c--d--p--x---x--------------objectmodel-usagetype-sizecategory--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----l--m--s--xl--xxl---s--------------scope------annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--scope-------annotation-definition--defines-the-range-of-validity-of-the-annotation----annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform------------abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---specifying-annotations---abap-cds---annotation-syntax----files----5-----difficulty----advanced----abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---sap-annotations---abap-cds---abap-annotations--included-pages--3---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm-------abencds-annotations-abap-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--abap-annotations-are--sap-annotations--javascript-call-link---abensap-annotation-glosry-htm-----glossary-entry---that-are-evaluated-by-the-abap-runtime-environment--the-following-sections-show-the-associated--annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---and-the--annotation-syntax--javascript-call-link---abencds-annotation-syntax-glosry-htm-----glossary-entry----------abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-----------abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm------the-detailed-meanings-of-the-abap-annotations-is-documented-for-the-corresponding--scope--javascript-call-link---abencds-annotations-scopes-htm-----in-this-documentation---note--an-abap-annotation-can-also-be-evaluated-by-frameworks-of-other-software-components---continue--abap-cds---abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm------abap-cds---abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------------source-----abencds-annotations-abap-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-htm-------abencds-annotations-abap-ddla-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--javascript-call-link---abencds-annotations-abap-htm---------abap-cds---abap-annotation-definitions--the-following--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shows-the--cds-annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---in-all--abap-annotations--javascript-call-link---abencore-annotation-glosry-htm-----glossary-entry---in--cds-ddl--javascript-call-link---abencds-ddl-glosry-htm-----glossary-entry---and--cds-dcl--javascript-call-link---abencds-dcl-glosry-htm-----glossary-entry---in-abap-cds-------the-meaning-of-the--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shown-here-can-be-found-in-the-documentation-for--define-annotation--javascript-call-link---abencds-f1-define-annotation-htm-----------the-semantics-of-the-annotations-can-be-found-in-the-links-in-the-ddla-source-code---the-detailed-meanings-of-these-abap-annotations-are-described-under-the-relevant--scope--javascript-call-link---abencds-annotations-scopes-htm-----defined-after--Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_17)
+
+Note
+
+See also [ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm).
+
+AbapAnnotation-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapAnnotation.definitionHidden
+
+Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+AbapCatalog-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapCatalog.buffering.numberOfKeyFields
+
+Table buffering, number of key fields when buffering generic areas
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Integer
+
+\-
+
+000
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.status
+
+Table buffering, enables and disables buffering
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#ACTIVE
+#NOT\_ALLOWED
+#SWITCHED\_OFF
+
+#SWITCHED\_OFF
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.type
+
+Table buffering, defines the buffering type
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(10)
+
+#FULL
+#GENERIC
+#NONE
+#SINGLE
+
+#NONE
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.compiler.compareFilter
+
+CDS view, specifies how filter conditions are evaluated in path expressions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].dbSystem
+
+Obsolete: Replaced by Consumption.dbHintsCalculatedBy
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#ADA
+#ALL
+#ASE
+#DB2
+#DB4
+#DB6
+#HDB
+#INF
+#MSS
+#ORA
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].hint
+
+Obsolete: Replaced by Consumption.dbHints\[ \]
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(1298)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.preserveKey
+
+CDS view, specifies the definition of the key fields in the associated database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewAppendName
+
+CDS view extension, name of the append view
+
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewName
+
+CDS view, name of the database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_KEY\_USER\_APPSRELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.viewEnhancementCategory\[ \]
+
+CDS view, specifies how the view can be extended using CDS view extensions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#GROUP\_BY
+#NONE
+#PROJECTION\_LIST
+#UNION
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AccessControl-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AccessControl.authorizationCheck
+
+CDS access control, specifies implicit access control
+
+[Hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CHECK
+#NOT\_ALLOWED
+#NOT\_REQUIRED
+#PRIVILEGED\_ONLY
+
+#CHECK
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+API-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+API.element.releaseState
+
+Element annotation, release element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+String(30)
+
+#DEPRECATED
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.element.successor
+
+Element annotation, successor of rejected element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.state\[ \]
+
+Annotation definition, release annotation
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(40)
+
+#NOT\_RELEASED
+#RELEASED\_FOR\_KEY\_USER\_APPS
+#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+\-
+
+\-
+
+\-
+
+\-
+
+ClientDependent-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientDependent
+
+Specifies client dependency and how clients are handled (obsolete)
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ClientHandling-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientHandling.algorithm
+
+Specifies client handling
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#AUTOMATED
+#NONE
+#SESSION\_VARIABLE
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ClientHandling.type
+
+Specifies client dependency
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CLIENT\_DEPENDENT
+#CLIENT\_INDEPENDENT
+#INHERITED
+
+#INHERITED
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+CompatibilityContract-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+CompatibilityContract.c0.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+DataAging-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+DataAging.noAgingRestriction
+
+Data aging on SAP HANA, specifies how old data is handled
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+EndUserText-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+EndUserText.heading
+
+Texts, implicit annotation for data element header
+
+ 
+
+String(55)
+
+\-
+
+\-
+
+X
+
+\-
+
+NOT\_RELEASED
+
+EndUserText.label
+
+Texts, short text connected to translation
+
+[Access Policy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+[PFCG Mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+String(60)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+EndUserText.quickInfo
+
+Texts, tooltip connected to translation
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(100)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Environment.sql.passValue
+
+Defines pass-by-value of host variables in comparisons in ABAP SQL
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment.systemField
+
+Environment, assigns an ABAP system field
+
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(20)
+
+#CLIENT
+#SYSTEM\_DATE
+#SYSTEM\_LANGUAGE
+#SYSTEM\_TIME
+#USER
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+LanguageDependency-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+LanguageDependency.maxLength
+
+Annotation definition, specifies the translatibility of texts
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Integer
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+MappingRole-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MappingRole
+
+Access control, specifies the assignment of a CDS role to users
+
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Metadata.allowExtensions
+
+Metadata, specifies extensibility using metadata extensions
+
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+Metadata.ignorePropagatedAnnotations
+
+Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata.layer
+
+Metadata, specfies layer in CDS metadata extension
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+
+Integer
+
+#CORE
+#CUSTOMER
+#INDUSTRY
+#LOCALIZATION
+#PARTNER
+
+\-
+
+\-
+
+X
+
+\-
+
+MetadataExtension-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MetadataExtension.usageAllowed
+
+Annotation definition, specifies the distribution of the annotation in CDS metadata extensions
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ObjectModel-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ObjectModel.usageType.dataClass
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#CUSTOMIZING
+#MASTER
+#META
+#MIXED
+#ORGANIZATIONAL
+#TRANSACTIONAL
+
+#MIXED
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.serviceQuality
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#A
+#B
+#C
+#D
+#P
+#X
+
+#X
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.sizeCategory
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#L
+#M
+#S
+#XL
+#XXL
+
+#S
+
+\-
+
+\-
+
+\-
+
+Scope\[ \]-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Scope\[ \]
+
+Annotation definition (defines the range of validity of the annotation)
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ACCESSPOLICY
+#ANNOTATE
+#ANNOTATION
+#ASPECT
+#CUSTOM\_ENTITY
+#ELEMENT
+#ENTITY
+#EXTEND\_VIEW
+#HIERARCHY
+#PARAMETER
+#PFCG\_MAPPING
+#ROLE
+#SERVICE
+#SIMPLE\_TYPE
+#TABLE\_FUNCTION
+#VIEW
+
+\-
+
+\-
+
+\-
+
+\-
+
+Semantics-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Semantics.amount.currencyCode
+
+Currency field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.currencyCode
+
+Currency key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.quantity.unitOfMeasure
+
+Quantity field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.unitOfMeasure
+
+Unit key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Specifying Annotations / ABAP CDS - Annotation Syntax
+
+**Files**: 5 | **Difficulty**: advanced
+
+# ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
+
+Included pages: 3
+
+
+### abencds_annotations_abap.htm
+
+---
+title: "ABAP CDS - ABAP Annotations"
+description: |
+  ABAP annotations are SAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that are evaluated by the ABAP runtime environment. The following sections show the associated annotation definitions(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm"
+abapFile: "abencds_annotations_abap.htm"
+keywords: ["do", "try", "abencds", "annotations", "abap"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) → 
+
+ABAP CDS - ABAP Annotations
+
+ABAP annotations are [SAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm "Glossary Entry") that are evaluated by the ABAP runtime environment. The following sections show the associated [annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the [annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
+
+-   [ABAP annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+
+-   [ABAP annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+The detailed meanings of the ABAP annotations is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) in this documentation.
+
+Note
+
+An ABAP annotation can also be evaluated by frameworks of other software components.
+
+Continue
+[ABAP CDS - ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+[ABAP CDS - ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+
+### abencds_annotations_abap_ddla.htm
+
+---
+title: "ABAP CDS - ABAP Annotation Definitions"
+description: |
+  The following DDLA source code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm 'Glossary Entry') shows the CDS annotation definitions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in all
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm"
+abapFile: "abencds_annotations_abap_ddla.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "abencds", "annotations", "abap", "ddla"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm) → 
+
+ABAP CDS - ABAP Annotation Definitions
+
+The following [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
+
+-   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation.htm).
+
+-   The semantics of the annotations can be found in the links in the DDLA source code.
+
+The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
 
 -   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
 
@@ -744,7 +2582,7 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
+-   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm----abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation AbapAnnotation {
   definitionHidden : Boolean default true;
 };
@@ -1251,16 +3089,19 @@ define annotation Semantics
 };
 
 
-
-**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
-
 ### abencds_annotations_abap_tables.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotation Syntax"
+description: |
+  The following tables summarize the annotation syntax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm 'Glossary Entry') of all ABAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm 'Glossary Entry
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm"
+abapFile: "abencds_annotations_abap_tables.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abencds", "annotations", "abap", "tables"]
+---
 
 * * *
 
@@ -1288,7 +3129,1392 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-tables-17---note--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-16-------------------released--for--key--user--appsreleased--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--sap--cloud--platform--accesscontrol-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----check--not--allowed--not--required--privileged--only---check----------released--for--sap--cloud--platform--api-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated------------------api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref----------------------api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clientdependent--specifies-client-dependency-and-how-clients-are-handled--obsolete----table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------clienthandling-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----automated--none--session--variable--------------released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--sap--cloud--platform--compatibilitycontract-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------endusertext-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header-----string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------string-60-----------x--x--released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-100-----------x--x--released--for--sap--cloud--platform--environment-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--------------released--for--sap--cloud--platform--languagedependency-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true--------------metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x------metadataextension-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-distribution-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--objectmodel-usagetype-dataclass--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed--------------objectmodel-usagetype-servicequality--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----a--b--c--d--p--x---x--------------objectmodel-usagetype-sizecategory--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----l--m--s--xl--xxl---s--------------scope------annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--scope-------annotation-definition--defines-the-range-of-validity-of-the-annotation----annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform------------abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---specifying-annotations---abap-cds-metadata-extensions----files----10-----difficulty----advanced----abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---sap-annotations---abap-cds---abap-annotations--included-pages--3---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm-------abencds-annotations-abap-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--abap-annotations-are--sap-annotations--javascript-call-link---abensap-annotation-glosry-htm-----glossary-entry---that-are-evaluated-by-the-abap-runtime-environment--the-following-sections-show-the-associated--annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---and-the--annotation-syntax--javascript-call-link---abencds-annotation-syntax-glosry-htm-----glossary-entry----------abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-----------abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm------the-detailed-meanings-of-the-abap-annotations-is-documented-for-the-corresponding--scope--javascript-call-link---abencds-annotations-scopes-htm-----in-this-documentation---note--an-abap-annotation-can-also-be-evaluated-by-frameworks-of-other-software-components---continue--abap-cds---abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm------abap-cds---abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------------source-----abencds-annotations-abap-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-htm-------abencds-annotations-abap-ddla-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--javascript-call-link---abencds-annotations-abap-htm---------abap-cds---abap-annotation-definitions--the-following--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shows-the--cds-annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---in-all--abap-annotations--javascript-call-link---abencore-annotation-glosry-htm-----glossary-entry---in--cds-ddl--javascript-call-link---abencds-ddl-glosry-htm-----glossary-entry---and--cds-dcl--javascript-call-link---abencds-dcl-glosry-htm-----glossary-entry---in-abap-cds-------the-meaning-of-the--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shown-here-can-be-found-in-the-documentation-for--define-annotation--javascript-call-link---abencds-f1-define-annotation-htm-----------the-semantics-of-the-annotations-can-be-found-in-the-links-in-the-ddla-source-code---the-detailed-meanings-of-these-abap-annotations-are-described-under-the-relevant--scope--javascript-call-link---abencds-annotations-scopes-htm-----defined-after--Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_17)
+
+Note
+
+See also [ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm).
+
+AbapAnnotation-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapAnnotation.definitionHidden
+
+Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+AbapCatalog-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapCatalog.buffering.numberOfKeyFields
+
+Table buffering, number of key fields when buffering generic areas
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Integer
+
+\-
+
+000
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.status
+
+Table buffering, enables and disables buffering
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#ACTIVE
+#NOT\_ALLOWED
+#SWITCHED\_OFF
+
+#SWITCHED\_OFF
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.type
+
+Table buffering, defines the buffering type
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(10)
+
+#FULL
+#GENERIC
+#NONE
+#SINGLE
+
+#NONE
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.compiler.compareFilter
+
+CDS view, specifies how filter conditions are evaluated in path expressions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].dbSystem
+
+Obsolete: Replaced by Consumption.dbHintsCalculatedBy
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#ADA
+#ALL
+#ASE
+#DB2
+#DB4
+#DB6
+#HDB
+#INF
+#MSS
+#ORA
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].hint
+
+Obsolete: Replaced by Consumption.dbHints\[ \]
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(1298)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.preserveKey
+
+CDS view, specifies the definition of the key fields in the associated database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewAppendName
+
+CDS view extension, name of the append view
+
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewName
+
+CDS view, name of the database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_KEY\_USER\_APPSRELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.viewEnhancementCategory\[ \]
+
+CDS view, specifies how the view can be extended using CDS view extensions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#GROUP\_BY
+#NONE
+#PROJECTION\_LIST
+#UNION
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AccessControl-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AccessControl.authorizationCheck
+
+CDS access control, specifies implicit access control
+
+[Hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CHECK
+#NOT\_ALLOWED
+#NOT\_REQUIRED
+#PRIVILEGED\_ONLY
+
+#CHECK
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+API-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+API.element.releaseState
+
+Element annotation, release element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+String(30)
+
+#DEPRECATED
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.element.successor
+
+Element annotation, successor of rejected element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.state\[ \]
+
+Annotation definition, release annotation
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(40)
+
+#NOT\_RELEASED
+#RELEASED\_FOR\_KEY\_USER\_APPS
+#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+\-
+
+\-
+
+\-
+
+\-
+
+ClientDependent-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientDependent
+
+Specifies client dependency and how clients are handled (obsolete)
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ClientHandling-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientHandling.algorithm
+
+Specifies client handling
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#AUTOMATED
+#NONE
+#SESSION\_VARIABLE
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ClientHandling.type
+
+Specifies client dependency
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CLIENT\_DEPENDENT
+#CLIENT\_INDEPENDENT
+#INHERITED
+
+#INHERITED
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+CompatibilityContract-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+CompatibilityContract.c0.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+DataAging-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+DataAging.noAgingRestriction
+
+Data aging on SAP HANA, specifies how old data is handled
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+EndUserText-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+EndUserText.heading
+
+Texts, implicit annotation for data element header
+
+ 
+
+String(55)
+
+\-
+
+\-
+
+X
+
+\-
+
+NOT\_RELEASED
+
+EndUserText.label
+
+Texts, short text connected to translation
+
+[Access Policy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+[PFCG Mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+String(60)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+EndUserText.quickInfo
+
+Texts, tooltip connected to translation
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(100)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Environment.sql.passValue
+
+Defines pass-by-value of host variables in comparisons in ABAP SQL
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment.systemField
+
+Environment, assigns an ABAP system field
+
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(20)
+
+#CLIENT
+#SYSTEM\_DATE
+#SYSTEM\_LANGUAGE
+#SYSTEM\_TIME
+#USER
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+LanguageDependency-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+LanguageDependency.maxLength
+
+Annotation definition, specifies the translatibility of texts
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Integer
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+MappingRole-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MappingRole
+
+Access control, specifies the assignment of a CDS role to users
+
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Metadata.allowExtensions
+
+Metadata, specifies extensibility using metadata extensions
+
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+Metadata.ignorePropagatedAnnotations
+
+Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata.layer
+
+Metadata, specfies layer in CDS metadata extension
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+
+Integer
+
+#CORE
+#CUSTOMER
+#INDUSTRY
+#LOCALIZATION
+#PARTNER
+
+\-
+
+\-
+
+X
+
+\-
+
+MetadataExtension-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MetadataExtension.usageAllowed
+
+Annotation definition, specifies the distribution of the annotation in CDS metadata extensions
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ObjectModel-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ObjectModel.usageType.dataClass
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#CUSTOMIZING
+#MASTER
+#META
+#MIXED
+#ORGANIZATIONAL
+#TRANSACTIONAL
+
+#MIXED
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.serviceQuality
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#A
+#B
+#C
+#D
+#P
+#X
+
+#X
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.sizeCategory
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#L
+#M
+#S
+#XL
+#XXL
+
+#S
+
+\-
+
+\-
+
+\-
+
+Scope\[ \]-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Scope\[ \]
+
+Annotation definition (defines the range of validity of the annotation)
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ACCESSPOLICY
+#ANNOTATE
+#ANNOTATION
+#ASPECT
+#CUSTOM\_ENTITY
+#ELEMENT
+#ENTITY
+#EXTEND\_VIEW
+#HIERARCHY
+#PARAMETER
+#PFCG\_MAPPING
+#ROLE
+#SERVICE
+#SIMPLE\_TYPE
+#TABLE\_FUNCTION
+#VIEW
+
+\-
+
+\-
+
+\-
+
+\-
+
+Semantics-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Semantics.amount.currencyCode
+
+Currency field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.currencyCode
+
+Currency key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.quantity.unitOfMeasure
+
+Quantity field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.unitOfMeasure
+
+Unit key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Specifying Annotations / ABAP CDS Metadata Extensions / ABAP CDS - DDL for Metadata Extensions
+
+**Files**: 6 | **Difficulty**: advanced
+
+# ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
+
+Included pages: 3
+
+
+### abencds_annotations_abap.htm
+
+---
+title: "ABAP CDS - ABAP Annotations"
+description: |
+  ABAP annotations are SAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that are evaluated by the ABAP runtime environment. The following sections show the associated annotation definitions(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm"
+abapFile: "abencds_annotations_abap.htm"
+keywords: ["do", "try", "abencds", "annotations", "abap"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) → 
+
+ABAP CDS - ABAP Annotations
+
+ABAP annotations are [SAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm "Glossary Entry") that are evaluated by the ABAP runtime environment. The following sections show the associated [annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the [annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
+
+-   [ABAP annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+
+-   [ABAP annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+The detailed meanings of the ABAP annotations is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) in this documentation.
+
+Note
+
+An ABAP annotation can also be evaluated by frameworks of other software components.
+
+Continue
+[ABAP CDS - ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+[ABAP CDS - ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+
+### abencds_annotations_abap_ddla.htm
+
+---
+title: "ABAP CDS - ABAP Annotation Definitions"
+description: |
+  The following DDLA source code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm 'Glossary Entry') shows the CDS annotation definitions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in all
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm"
+abapFile: "abencds_annotations_abap_ddla.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "abencds", "annotations", "abap", "ddla"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm) → 
+
+ABAP CDS - ABAP Annotation Definitions
+
+The following [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
+
+-   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation.htm).
+
+-   The semantics of the annotations can be found in the links in the DDLA source code.
+
+The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
 
 -   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
 
@@ -1306,7 +4532,7 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
+-   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm----abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation AbapAnnotation {
   definitionHidden : Boolean default true;
 };
@@ -1813,16 +5039,19 @@ define annotation Semantics
 };
 
 
-
-**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
-
 ### abencds_annotations_abap_tables.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotation Syntax"
+description: |
+  The following tables summarize the annotation syntax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm 'Glossary Entry') of all ABAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm 'Glossary Entry
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm"
+abapFile: "abencds_annotations_abap_tables.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abencds", "annotations", "abap", "tables"]
+---
 
 * * *
 
@@ -1850,7 +5079,1392 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-tables-17---note--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-16-------------------released--for--key--user--appsreleased--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--sap--cloud--platform--accesscontrol-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----check--not--allowed--not--required--privileged--only---check----------released--for--sap--cloud--platform--api-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated------------------api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref----------------------api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clientdependent--specifies-client-dependency-and-how-clients-are-handled--obsolete----table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------clienthandling-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----automated--none--session--variable--------------released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--sap--cloud--platform--compatibilitycontract-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------endusertext-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header-----string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------string-60-----------x--x--released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-100-----------x--x--released--for--sap--cloud--platform--environment-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--------------released--for--sap--cloud--platform--languagedependency-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true--------------metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x------metadataextension-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-distribution-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--objectmodel-usagetype-dataclass--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed--------------objectmodel-usagetype-servicequality--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----a--b--c--d--p--x---x--------------objectmodel-usagetype-sizecategory--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----l--m--s--xl--xxl---s--------------scope------annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--scope-------annotation-definition--defines-the-range-of-validity-of-the-annotation----annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform------------abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---evaluation-of-annotations----files----2-----difficulty----advanced----abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---sap-annotations---abap-cds---abap-annotations--included-pages--3---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm-------abencds-annotations-abap-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--abap-annotations-are--sap-annotations--javascript-call-link---abensap-annotation-glosry-htm-----glossary-entry---that-are-evaluated-by-the-abap-runtime-environment--the-following-sections-show-the-associated--annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---and-the--annotation-syntax--javascript-call-link---abencds-annotation-syntax-glosry-htm-----glossary-entry----------abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-----------abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm------the-detailed-meanings-of-the-abap-annotations-is-documented-for-the-corresponding--scope--javascript-call-link---abencds-annotations-scopes-htm-----in-this-documentation---note--an-abap-annotation-can-also-be-evaluated-by-frameworks-of-other-software-components---continue--abap-cds---abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm------abap-cds---abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------------source-----abencds-annotations-abap-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-htm-------abencds-annotations-abap-ddla-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--javascript-call-link---abencds-annotations-abap-htm---------abap-cds---abap-annotation-definitions--the-following--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shows-the--cds-annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---in-all--abap-annotations--javascript-call-link---abencore-annotation-glosry-htm-----glossary-entry---in--cds-ddl--javascript-call-link---abencds-ddl-glosry-htm-----glossary-entry---and--cds-dcl--javascript-call-link---abencds-dcl-glosry-htm-----glossary-entry---in-abap-cds-------the-meaning-of-the--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shown-here-can-be-found-in-the-documentation-for--define-annotation--javascript-call-link---abencds-f1-define-annotation-htm-----------the-semantics-of-the-annotations-can-be-found-in-the-links-in-the-ddla-source-code---the-detailed-meanings-of-these-abap-annotations-are-described-under-the-relevant--scope--javascript-call-link---abencds-annotations-scopes-htm-----defined-after--Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_17)
+
+Note
+
+See also [ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm).
+
+AbapAnnotation-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapAnnotation.definitionHidden
+
+Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+AbapCatalog-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapCatalog.buffering.numberOfKeyFields
+
+Table buffering, number of key fields when buffering generic areas
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Integer
+
+\-
+
+000
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.status
+
+Table buffering, enables and disables buffering
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#ACTIVE
+#NOT\_ALLOWED
+#SWITCHED\_OFF
+
+#SWITCHED\_OFF
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.type
+
+Table buffering, defines the buffering type
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(10)
+
+#FULL
+#GENERIC
+#NONE
+#SINGLE
+
+#NONE
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.compiler.compareFilter
+
+CDS view, specifies how filter conditions are evaluated in path expressions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].dbSystem
+
+Obsolete: Replaced by Consumption.dbHintsCalculatedBy
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#ADA
+#ALL
+#ASE
+#DB2
+#DB4
+#DB6
+#HDB
+#INF
+#MSS
+#ORA
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].hint
+
+Obsolete: Replaced by Consumption.dbHints\[ \]
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(1298)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.preserveKey
+
+CDS view, specifies the definition of the key fields in the associated database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewAppendName
+
+CDS view extension, name of the append view
+
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewName
+
+CDS view, name of the database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_KEY\_USER\_APPSRELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.viewEnhancementCategory\[ \]
+
+CDS view, specifies how the view can be extended using CDS view extensions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#GROUP\_BY
+#NONE
+#PROJECTION\_LIST
+#UNION
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AccessControl-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AccessControl.authorizationCheck
+
+CDS access control, specifies implicit access control
+
+[Hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CHECK
+#NOT\_ALLOWED
+#NOT\_REQUIRED
+#PRIVILEGED\_ONLY
+
+#CHECK
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+API-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+API.element.releaseState
+
+Element annotation, release element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+String(30)
+
+#DEPRECATED
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.element.successor
+
+Element annotation, successor of rejected element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.state\[ \]
+
+Annotation definition, release annotation
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(40)
+
+#NOT\_RELEASED
+#RELEASED\_FOR\_KEY\_USER\_APPS
+#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+\-
+
+\-
+
+\-
+
+\-
+
+ClientDependent-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientDependent
+
+Specifies client dependency and how clients are handled (obsolete)
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ClientHandling-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientHandling.algorithm
+
+Specifies client handling
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#AUTOMATED
+#NONE
+#SESSION\_VARIABLE
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ClientHandling.type
+
+Specifies client dependency
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CLIENT\_DEPENDENT
+#CLIENT\_INDEPENDENT
+#INHERITED
+
+#INHERITED
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+CompatibilityContract-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+CompatibilityContract.c0.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+DataAging-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+DataAging.noAgingRestriction
+
+Data aging on SAP HANA, specifies how old data is handled
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+EndUserText-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+EndUserText.heading
+
+Texts, implicit annotation for data element header
+
+ 
+
+String(55)
+
+\-
+
+\-
+
+X
+
+\-
+
+NOT\_RELEASED
+
+EndUserText.label
+
+Texts, short text connected to translation
+
+[Access Policy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+[PFCG Mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+String(60)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+EndUserText.quickInfo
+
+Texts, tooltip connected to translation
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(100)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Environment.sql.passValue
+
+Defines pass-by-value of host variables in comparisons in ABAP SQL
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment.systemField
+
+Environment, assigns an ABAP system field
+
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(20)
+
+#CLIENT
+#SYSTEM\_DATE
+#SYSTEM\_LANGUAGE
+#SYSTEM\_TIME
+#USER
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+LanguageDependency-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+LanguageDependency.maxLength
+
+Annotation definition, specifies the translatibility of texts
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Integer
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+MappingRole-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MappingRole
+
+Access control, specifies the assignment of a CDS role to users
+
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Metadata.allowExtensions
+
+Metadata, specifies extensibility using metadata extensions
+
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+Metadata.ignorePropagatedAnnotations
+
+Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata.layer
+
+Metadata, specfies layer in CDS metadata extension
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+
+Integer
+
+#CORE
+#CUSTOMER
+#INDUSTRY
+#LOCALIZATION
+#PARTNER
+
+\-
+
+\-
+
+X
+
+\-
+
+MetadataExtension-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MetadataExtension.usageAllowed
+
+Annotation definition, specifies the distribution of the annotation in CDS metadata extensions
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ObjectModel-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ObjectModel.usageType.dataClass
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#CUSTOMIZING
+#MASTER
+#META
+#MIXED
+#ORGANIZATIONAL
+#TRANSACTIONAL
+
+#MIXED
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.serviceQuality
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#A
+#B
+#C
+#D
+#P
+#X
+
+#X
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.sizeCategory
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#L
+#M
+#S
+#XL
+#XXL
+
+#S
+
+\-
+
+\-
+
+\-
+
+Scope\[ \]-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Scope\[ \]
+
+Annotation definition (defines the range of validity of the annotation)
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ACCESSPOLICY
+#ANNOTATE
+#ANNOTATION
+#ASPECT
+#CUSTOM\_ENTITY
+#ELEMENT
+#ENTITY
+#EXTEND\_VIEW
+#HIERARCHY
+#PARAMETER
+#PFCG\_MAPPING
+#ROLE
+#SERVICE
+#SIMPLE\_TYPE
+#TABLE\_FUNCTION
+#VIEW
+
+\-
+
+\-
+
+\-
+
+\-
+
+Semantics-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Semantics.amount.currencyCode
+
+Currency field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.currencyCode
+
+Currency key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.quantity.unitOfMeasure
+
+Quantity field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.unitOfMeasure
+
+Unit key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Evaluation of Annotations
+
+**Files**: 2 | **Difficulty**: advanced
+
+# ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
+
+Included pages: 3
+
+
+### abencds_annotations_abap.htm
+
+---
+title: "ABAP CDS - ABAP Annotations"
+description: |
+  ABAP annotations are SAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that are evaluated by the ABAP runtime environment. The following sections show the associated annotation definitions(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm"
+abapFile: "abencds_annotations_abap.htm"
+keywords: ["do", "try", "abencds", "annotations", "abap"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) → 
+
+ABAP CDS - ABAP Annotations
+
+ABAP annotations are [SAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm "Glossary Entry") that are evaluated by the ABAP runtime environment. The following sections show the associated [annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the [annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
+
+-   [ABAP annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+
+-   [ABAP annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+The detailed meanings of the ABAP annotations is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) in this documentation.
+
+Note
+
+An ABAP annotation can also be evaluated by frameworks of other software components.
+
+Continue
+[ABAP CDS - ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+[ABAP CDS - ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+
+### abencds_annotations_abap_ddla.htm
+
+---
+title: "ABAP CDS - ABAP Annotation Definitions"
+description: |
+  The following DDLA source code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm 'Glossary Entry') shows the CDS annotation definitions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in all
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm"
+abapFile: "abencds_annotations_abap_ddla.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "abencds", "annotations", "abap", "ddla"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm) → 
+
+ABAP CDS - ABAP Annotation Definitions
+
+The following [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
+
+-   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation.htm).
+
+-   The semantics of the annotations can be found in the links in the DDLA source code.
+
+The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
 
 -   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
 
@@ -1868,7 +6482,7 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
+-   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm----abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation AbapAnnotation {
   definitionHidden : Boolean default true;
 };
@@ -2375,16 +6989,19 @@ define annotation Semantics
 };
 
 
-
-**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
-
 ### abencds_annotations_abap_tables.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotation Syntax"
+description: |
+  The following tables summarize the annotation syntax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm 'Glossary Entry') of all ABAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm 'Glossary Entry
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm"
+abapFile: "abencds_annotations_abap_tables.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abencds", "annotations", "abap", "tables"]
+---
 
 * * *
 
@@ -2412,7 +7029,1392 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-tables-17---note--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-16-------------------released--for--key--user--appsreleased--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--sap--cloud--platform--accesscontrol-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----check--not--allowed--not--required--privileged--only---check----------released--for--sap--cloud--platform--api-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated------------------api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref----------------------api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clientdependent--specifies-client-dependency-and-how-clients-are-handled--obsolete----table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------clienthandling-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----automated--none--session--variable--------------released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--sap--cloud--platform--compatibilitycontract-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------endusertext-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header-----string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------string-60-----------x--x--released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-100-----------x--x--released--for--sap--cloud--platform--environment-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--------------released--for--sap--cloud--platform--languagedependency-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true--------------metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x------metadataextension-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-distribution-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--objectmodel-usagetype-dataclass--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed--------------objectmodel-usagetype-servicequality--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----a--b--c--d--p--x---x--------------objectmodel-usagetype-sizecategory--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----l--m--s--xl--xxl---s--------------scope------annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--scope-------annotation-definition--defines-the-range-of-validity-of-the-annotation----annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform------------abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---sap-annotations---abap-cds---abap-annotations----files----3-----difficulty----advanced----abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---annotations---abap-cds---sap-annotations---abap-cds---abap-annotations--included-pages--3---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm-------abencds-annotations-abap-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--abap-annotations-are--sap-annotations--javascript-call-link---abensap-annotation-glosry-htm-----glossary-entry---that-are-evaluated-by-the-abap-runtime-environment--the-following-sections-show-the-associated--annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---and-the--annotation-syntax--javascript-call-link---abencds-annotation-syntax-glosry-htm-----glossary-entry----------abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-----------abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm------the-detailed-meanings-of-the-abap-annotations-is-documented-for-the-corresponding--scope--javascript-call-link---abencds-annotations-scopes-htm-----in-this-documentation---note--an-abap-annotation-can-also-be-evaluated-by-frameworks-of-other-software-components---continue--abap-cds---abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm------abap-cds---abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------------source-----abencds-annotations-abap-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-htm-------abencds-annotations-abap-ddla-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---annotations--javascript-call-link---abencds-annotations-htm---------abap-cds---sap-annotations--javascript-call-link---abencds-annotations-sap-htm---------abap-cds---abap-annotations--javascript-call-link---abencds-annotations-abap-htm---------abap-cds---abap-annotation-definitions--the-following--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shows-the--cds-annotation-definitions--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---in-all--abap-annotations--javascript-call-link---abencore-annotation-glosry-htm-----glossary-entry---in--cds-ddl--javascript-call-link---abencds-ddl-glosry-htm-----glossary-entry---and--cds-dcl--javascript-call-link---abencds-dcl-glosry-htm-----glossary-entry---in-abap-cds-------the-meaning-of-the--ddla-source-code--javascript-call-link---abenddla-source-code-glosry-htm-----glossary-entry---shown-here-can-be-found-in-the-documentation-for--define-annotation--javascript-call-link---abencds-f1-define-annotation-htm-----------the-semantics-of-the-annotations-can-be-found-in-the-links-in-the-ddla-source-code---the-detailed-meanings-of-these-abap-annotations-are-described-under-the-relevant--scope--javascript-call-link---abencds-annotations-scopes-htm-----defined-after--Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_17)
+
+Note
+
+See also [ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm).
+
+AbapAnnotation-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapAnnotation.definitionHidden
+
+Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+AbapCatalog-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapCatalog.buffering.numberOfKeyFields
+
+Table buffering, number of key fields when buffering generic areas
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Integer
+
+\-
+
+000
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.status
+
+Table buffering, enables and disables buffering
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#ACTIVE
+#NOT\_ALLOWED
+#SWITCHED\_OFF
+
+#SWITCHED\_OFF
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.type
+
+Table buffering, defines the buffering type
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(10)
+
+#FULL
+#GENERIC
+#NONE
+#SINGLE
+
+#NONE
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.compiler.compareFilter
+
+CDS view, specifies how filter conditions are evaluated in path expressions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].dbSystem
+
+Obsolete: Replaced by Consumption.dbHintsCalculatedBy
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#ADA
+#ALL
+#ASE
+#DB2
+#DB4
+#DB6
+#HDB
+#INF
+#MSS
+#ORA
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].hint
+
+Obsolete: Replaced by Consumption.dbHints\[ \]
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(1298)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.preserveKey
+
+CDS view, specifies the definition of the key fields in the associated database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewAppendName
+
+CDS view extension, name of the append view
+
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewName
+
+CDS view, name of the database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_KEY\_USER\_APPSRELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.viewEnhancementCategory\[ \]
+
+CDS view, specifies how the view can be extended using CDS view extensions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#GROUP\_BY
+#NONE
+#PROJECTION\_LIST
+#UNION
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AccessControl-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AccessControl.authorizationCheck
+
+CDS access control, specifies implicit access control
+
+[Hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CHECK
+#NOT\_ALLOWED
+#NOT\_REQUIRED
+#PRIVILEGED\_ONLY
+
+#CHECK
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+API-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+API.element.releaseState
+
+Element annotation, release element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+String(30)
+
+#DEPRECATED
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.element.successor
+
+Element annotation, successor of rejected element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.state\[ \]
+
+Annotation definition, release annotation
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(40)
+
+#NOT\_RELEASED
+#RELEASED\_FOR\_KEY\_USER\_APPS
+#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+\-
+
+\-
+
+\-
+
+\-
+
+ClientDependent-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientDependent
+
+Specifies client dependency and how clients are handled (obsolete)
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ClientHandling-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientHandling.algorithm
+
+Specifies client handling
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#AUTOMATED
+#NONE
+#SESSION\_VARIABLE
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ClientHandling.type
+
+Specifies client dependency
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CLIENT\_DEPENDENT
+#CLIENT\_INDEPENDENT
+#INHERITED
+
+#INHERITED
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+CompatibilityContract-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+CompatibilityContract.c0.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+DataAging-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+DataAging.noAgingRestriction
+
+Data aging on SAP HANA, specifies how old data is handled
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+EndUserText-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+EndUserText.heading
+
+Texts, implicit annotation for data element header
+
+ 
+
+String(55)
+
+\-
+
+\-
+
+X
+
+\-
+
+NOT\_RELEASED
+
+EndUserText.label
+
+Texts, short text connected to translation
+
+[Access Policy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+[PFCG Mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+String(60)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+EndUserText.quickInfo
+
+Texts, tooltip connected to translation
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(100)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Environment.sql.passValue
+
+Defines pass-by-value of host variables in comparisons in ABAP SQL
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment.systemField
+
+Environment, assigns an ABAP system field
+
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(20)
+
+#CLIENT
+#SYSTEM\_DATE
+#SYSTEM\_LANGUAGE
+#SYSTEM\_TIME
+#USER
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+LanguageDependency-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+LanguageDependency.maxLength
+
+Annotation definition, specifies the translatibility of texts
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Integer
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+MappingRole-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MappingRole
+
+Access control, specifies the assignment of a CDS role to users
+
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Metadata.allowExtensions
+
+Metadata, specifies extensibility using metadata extensions
+
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+Metadata.ignorePropagatedAnnotations
+
+Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata.layer
+
+Metadata, specfies layer in CDS metadata extension
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+
+Integer
+
+#CORE
+#CUSTOMER
+#INDUSTRY
+#LOCALIZATION
+#PARTNER
+
+\-
+
+\-
+
+X
+
+\-
+
+MetadataExtension-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MetadataExtension.usageAllowed
+
+Annotation definition, specifies the distribution of the annotation in CDS metadata extensions
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ObjectModel-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ObjectModel.usageType.dataClass
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#CUSTOMIZING
+#MASTER
+#META
+#MIXED
+#ORGANIZATIONAL
+#TRANSACTIONAL
+
+#MIXED
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.serviceQuality
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#A
+#B
+#C
+#D
+#P
+#X
+
+#X
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.sizeCategory
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#L
+#M
+#S
+#XL
+#XXL
+
+#S
+
+\-
+
+\-
+
+\-
+
+Scope\[ \]-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Scope\[ \]
+
+Annotation definition (defines the range of validity of the annotation)
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ACCESSPOLICY
+#ANNOTATE
+#ANNOTATION
+#ASPECT
+#CUSTOM\_ENTITY
+#ELEMENT
+#ENTITY
+#EXTEND\_VIEW
+#HIERARCHY
+#PARAMETER
+#PFCG\_MAPPING
+#ROLE
+#SERVICE
+#SIMPLE\_TYPE
+#TABLE\_FUNCTION
+#VIEW
+
+\-
+
+\-
+
+\-
+
+\-
+
+Semantics-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Semantics.amount.currencyCode
+
+Currency field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.currencyCode
+
+Currency key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.quantity.unitOfMeasure
+
+Quantity field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.unitOfMeasure
+
+Unit key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
+
+**Files**: 3 | **Difficulty**: advanced
+
+# ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - SAP Annotations / ABAP CDS - ABAP Annotations
+
+Included pages: 3
+
+
+### abencds_annotations_abap.htm
+
+---
+title: "ABAP CDS - ABAP Annotations"
+description: |
+  ABAP annotations are SAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that are evaluated by the ABAP runtime environment. The following sections show the associated annotation definitions(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm"
+abapFile: "abencds_annotations_abap.htm"
+keywords: ["do", "try", "abencds", "annotations", "abap"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) → 
+
+ABAP CDS - ABAP Annotations
+
+ABAP annotations are [SAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm "Glossary Entry") that are evaluated by the ABAP runtime environment. The following sections show the associated [annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the [annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
+
+-   [ABAP annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+
+-   [ABAP annotation syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+The detailed meanings of the ABAP annotations is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) in this documentation.
+
+Note
+
+An ABAP annotation can also be evaluated by frameworks of other software components.
+
+Continue
+[ABAP CDS - ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
+[ABAP CDS - ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
+
+
+### abencds_annotations_abap_ddla.htm
+
+---
+title: "ABAP CDS - ABAP Annotation Definitions"
+description: |
+  The following DDLA source code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm 'Glossary Entry') shows the CDS annotation definitions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry') in all
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm"
+abapFile: "abencds_annotations_abap_ddla.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "abencds", "annotations", "abap", "ddla"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap.htm) → 
+
+ABAP CDS - ABAP Annotation Definitions
+
+The following [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
+
+-   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_annotation.htm).
+
+-   The semantics of the annotations can be found in the links in the DDLA source code.
+
+The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
 
 -   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
 
@@ -2430,7 +8432,7 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
+-   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---note--see-also--abap-annotation-syntax--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm----abapannotation-annotations--Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation AbapAnnotation {
   definitionHidden : Boolean default true;
 };
@@ -2937,16 +8939,19 @@ define annotation Semantics
 };
 
 
-
-**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm)
-
 ### abencds_annotations_abap_tables.htm
 
-> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - ABAP Annotation Syntax"
+description: |
+  The following tables summarize the annotation syntax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_syntax_glosry.htm 'Glossary Entry') of all ABAP annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm 'Glossary Entry
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_tables.htm"
+abapFile: "abencds_annotations_abap_tables.htm"
+keywords: ["update", "do", "if", "try", "class", "data", "abencds", "annotations", "abap", "tables"]
+---
 
 * * *
 
@@ -2974,7 +8979,1349 @@ The following tables summarize the [annotation syntax](https://help.sap.com/doc/
 
 -   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15--------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
 
--   [Semantics-Annotations](#abencds-annotations-abap-tables-17---note--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-16-------------------released--for--key--user--appsreleased--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--sap--cloud--platform--accesscontrol-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----check--not--allowed--not--required--privileged--only---check----------released--for--sap--cloud--platform--api-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated------------------api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref----------------------api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clientdependent--specifies-client-dependency-and-how-clients-are-handled--obsolete----table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------clienthandling-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----automated--none--session--variable--------------released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--sap--cloud--platform--compatibilitycontract-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true--------------endusertext-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header-----string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------string-60-----------x--x--released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-100-----------x--x--released--for--sap--cloud--platform--environment-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--------------released--for--sap--cloud--platform--languagedependency-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true--------------metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---view--javascript-call-link---abencds-f1-view-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x------metadataextension-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-distribution-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--objectmodel-usagetype-dataclass--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed--------------objectmodel-usagetype-servicequality--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-30----a--b--c--d--p--x---x--------------objectmodel-usagetype-sizecategory--undocumented---table-function--javascript-call-link---abencds-f1-function-annotations-htm------view--javascript-call-link---abencds-f1-view-entity-annotations-htm------string-3----l--m--s--xl--xxl---s--------------scope------annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--scope-------annotation-definition--defines-the-range-of-validity-of-the-annotation----annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations--annotation--meaning--scope--typ--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform------------abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---data-definitions---abap-cds---views---abap-cds---client-handling-in-cds-views----files----4-----difficulty----advanced----abap-keyword-documentation---abap---dictionary---abap-cds-in-abap-dictionary---abap-cds---data-definitions---abap-cds---ddl-for-data-definitions---abap-cds---parameter--included-pages--2---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-abap-tables-htm-------abencds-f1-param-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---data-definitions--javascript-call-link---abenddic-cds-entities-htm---------abap-cds---ddl-for-data-definitions--javascript-call-link---abencds-f1-ddl-syntax-htm---------abap-cds---parameter--syntax-----------parameter\_annot1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)*\]*
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_17)
+
+Note
+
+See also [ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_abap_ddla.htm).
+
+AbapAnnotation-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapAnnotation.definitionHidden
+
+Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+AbapCatalog-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AbapCatalog.buffering.numberOfKeyFields
+
+Table buffering, number of key fields when buffering generic areas
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Integer
+
+\-
+
+000
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.status
+
+Table buffering, enables and disables buffering
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#ACTIVE
+#NOT\_ALLOWED
+#SWITCHED\_OFF
+
+#SWITCHED\_OFF
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.buffering.type
+
+Table buffering, defines the buffering type
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(10)
+
+#FULL
+#GENERIC
+#NONE
+#SINGLE
+
+#NONE
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.compiler.compareFilter
+
+CDS view, specifies how filter conditions are evaluated in path expressions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].dbSystem
+
+Obsolete: Replaced by Consumption.dbHintsCalculatedBy
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#ADA
+#ALL
+#ASE
+#DB2
+#DB4
+#DB6
+#HDB
+#INF
+#MSS
+#ORA
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.dbHints\[ \].hint
+
+Obsolete: Replaced by Consumption.dbHints\[ \]
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(1298)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.preserveKey
+
+CDS view, specifies the definition of the key fields in the associated database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewAppendName
+
+CDS view extension, name of the append view
+
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.sqlViewName
+
+CDS view, name of the database view
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(16)
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_KEY\_USER\_APPSRELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AbapCatalog.viewEnhancementCategory\[ \]
+
+CDS view, specifies how the view can be extended using CDS view extensions
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#GROUP\_BY
+#NONE
+#PROJECTION\_LIST
+#UNION
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+AccessControl-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+AccessControl.authorizationCheck
+
+CDS access control, specifies implicit access control
+
+[Hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CHECK
+#NOT\_ALLOWED
+#NOT\_REQUIRED
+#PRIVILEGED\_ONLY
+
+#CHECK
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+API-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+API.element.releaseState
+
+Element annotation, release element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+String(30)
+
+#DEPRECATED
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.element.successor
+
+Element annotation, successor of rejected element
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+API.state\[ \]
+
+Annotation definition, release annotation
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(40)
+
+#NOT\_RELEASED
+#RELEASED\_FOR\_KEY\_USER\_APPS
+#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+\-
+
+\-
+
+\-
+
+\-
+
+ClientDependent-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientDependent
+
+Specifies client dependency and how clients are handled (obsolete)
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ClientHandling-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ClientHandling.algorithm
+
+Specifies client handling
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#AUTOMATED
+#NONE
+#SESSION\_VARIABLE
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+ClientHandling.type
+
+Specifies client dependency
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(20)
+
+#CLIENT\_DEPENDENT
+#CLIENT\_INDEPENDENT
+#INHERITED
+
+#INHERITED
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+CompatibilityContract-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+CompatibilityContract.c0.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c0.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c1.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.annotation\[ \]
+
+Modifiability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#NONE
+#REMOVE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.allowedChanges.value\[ \]
+
+Modifiability of annotation values in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ADD
+#ANY
+#CUSTOM
+#FALSE\_TO\_TRUE
+#NONE
+#REMOVE
+#TRUE\_TO\_FALSE
+#UPDATE
+
+\-
+
+\-
+
+\-
+
+\-
+
+CompatibilityContract.c2.usageAllowed
+
+Usability of an annotation in released CDS entities
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+DataAging-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+DataAging.noAgingRestriction
+
+Data aging on SAP HANA, specifies how old data is handled
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+EndUserText-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+EndUserText.heading
+
+Texts, implicit annotation for data element header
+
+ 
+
+String(55)
+
+\-
+
+\-
+
+X
+
+\-
+
+NOT\_RELEASED
+
+EndUserText.label
+
+Texts, short text connected to translation
+
+[Access Policy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+[View Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_extend_view_annotations.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+[PFCG Mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+String(60)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+EndUserText.quickInfo
+
+Texts, tooltip connected to translation
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(100)
+
+\-
+
+\-
+
+X
+
+X
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Environment.sql.passValue
+
+Defines pass-by-value of host variables in comparisons in ABAP SQL
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Environment.systemField
+
+Environment, assigns an ABAP system field
+
+[Parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
+String(20)
+
+#CLIENT
+#SYSTEM\_DATE
+#SYSTEM\_LANGUAGE
+#SYSTEM\_TIME
+#USER
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+LanguageDependency-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+LanguageDependency.maxLength
+
+Annotation definition, specifies the translatibility of texts
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Integer
+
+\-
+
+\-
+
+\-
+
+\-
+
+\-
+
+MappingRole-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MappingRole
+
+Access control, specifies the assignment of a CDS role to users
+
+[Role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_role_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Metadata.allowExtensions
+
+Metadata, specifies extensibility using metadata extensions
+
+[Entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+Metadata.ignorePropagatedAnnotations
+
+Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
+
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Metadata.layer
+
+Metadata, specfies layer in CDS metadata extension
+
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_metadata_ext_annos.htm)
+
+Integer
+
+#CORE
+#CUSTOMER
+#INDUSTRY
+#LOCALIZATION
+#PARTNER
+
+\-
+
+\-
+
+X
+
+\-
+
+MetadataExtension-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+MetadataExtension.usageAllowed
+
+Annotation definition, specifies the distribution of the annotation in CDS metadata extensions
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+\-
+
+ObjectModel-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+ObjectModel.usageType.dataClass
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#CUSTOMIZING
+#MASTER
+#META
+#MIXED
+#ORGANIZATIONAL
+#TRANSACTIONAL
+
+#MIXED
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.serviceQuality
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(30)
+
+#A
+#B
+#C
+#D
+#P
+#X
+
+#X
+
+\-
+
+\-
+
+\-
+
+ObjectModel.usageType.sizeCategory
+
+undocumented
+
+[Table Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm)
+
+String(3)
+
+#L
+#M
+#S
+#XL
+#XXL
+
+#S
+
+\-
+
+\-
+
+\-
+
+Scope\[ \]-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Scope\[ \]
+
+Annotation definition (defines the range of validity of the annotation)
+
+[Annotation Definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm)
+
+String(20)
+
+#ACCESSPOLICY
+#ANNOTATE
+#ANNOTATION
+#ASPECT
+#CUSTOM\_ENTITY
+#ELEMENT
+#ENTITY
+#EXTEND\_VIEW
+#HIERARCHY
+#PARAMETER
+#PFCG\_MAPPING
+#ROLE
+#SERVICE
+#SIMPLE\_TYPE
+#TABLE\_FUNCTION
+#VIEW
+
+\-
+
+\-
+
+\-
+
+\-
+
+Semantics-Annotations
+
+Annotation
+
+Meaning
+
+Scope
+
+Typ
+
+Enums
+
+Default
+
+Text
+
+MDE
+
+API
+
+Semantics.amount.currencyCode
+
+Currency field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.currencyCode
+
+Currency key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.quantity.unitOfMeasure
+
+Quantity field
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+ElementRef
+
+\-
+
+\-
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+Semantics.unitOfMeasure
+
+Unit key
+
+[Element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_element_annotation.htm)
+
+Boolean
+
+\-
+
+true
+
+\-
+
+\-
+
+RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - Views / ABAP CDS - Client Handling in CDS Views
+
+**Files**: 4 | **Difficulty**: advanced
+
+# ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - parameter
+
+Included pages: 2
+
+
+### abencds_f1_param.htm
+
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) → 
+
+ABAP CDS - parameter
+
+Syntax
+
+... *\[*[@parameter\_annot1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)*\]*
     *\[*[@parameter\_annot2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)*\]*
     ...
     pname : [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_typing.htm)
@@ -3028,16 +10375,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -3202,16 +10552,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -3277,16 +10630,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -3451,16 +10807,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -3526,16 +10885,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -3700,16 +11062,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -3775,16 +11140,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -3949,16 +11317,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -4024,16 +11395,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -4198,16 +11572,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -4273,16 +11650,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -4447,16 +11827,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -4522,16 +11905,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -4696,16 +12082,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -4771,16 +12160,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -4945,16 +12337,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -5020,16 +12415,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -5185,25 +12583,28 @@ id = '1';
 ---
 
 
-## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - DEFINE VIEW / ABAP CDS - SELECT / ABAP CDS - SELECT, Operands and Expressions / ABAP CDS - cond_expr
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - DEFINE VIEW / ABAP CDS - SELECT / ABAP CDS - SELECT, Operands and Expressions / ABAP CDS - cond_expr / ABAP CDS - cond_expr, Relational Operators
 
-**Files**: 16 | **Difficulty**: advanced
+**Files**: 2 | **Difficulty**: advanced
 
 # ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - parameter
 
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -5269,16 +12670,274 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
+### abencds_f1_parameter_annotations.htm
 
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm) → 
+
+ABAP CDS - parameter\_annot
+
+Syntax
+
+... @[annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ...
+... @<[annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ...
+
+Effect
+
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) as a parameter annotation in the definition of an [CDS parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_parameter_glosry.htm "Glossary Entry") [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm) of one of the following:
+
+-   [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry")
+
+-   [CDS table function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry")
+
+-   [A CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+-   [An abstract CSD entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_entity_glosry.htm "Glossary Entry")
+
+Parameter annotations can be specified before and after the parameter: The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #PARAMETER.
+
+-   In front of the parameter, the character @ must be placed before the name annotation of the annotation.
+
+-   Following the parameter, the characters @< must be placed before the name annotation of the annotation.
+
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
+
+-   [EndUserText Annotations](#abencds-f1-parameter-annotations-1--------environment-annotations---@ITOC@@ABENCDS_F1_PARAMETER_ANNOTATIONS_2)
+
+The first column of the table displays the (possibly structured) name annotation of an ABAP annotation and the second column displays its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the value set implicitly for the annotation value if the annotation is not used explicitly. The fifth column displays the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+
+EndUserText Annotations
+
+Translatable texts of the parameter.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+EndUserText.label
+
+Translatable short text of the parameter
+
+Character string with maximum 60 characters
+
+\-
+
+\-
+
+EndUserText.quickInfo
+
+Translatable tooltip of the parameter
+
+String
+
+\-
+
+\-
+
+Note
+
+ABAP annotations introduced using EndUserText are used to define translatable semantic texts for a [CDS object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm "Glossary Entry"). The value of an annotation like this is saved in special tables that have a language key and that are translatable. The value specified in the source code should consist of text in the original language of the CDS source code and is translated into the required languages. The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE read these texts as specified by an input parameter for the language. If no language is passed to the input parameter, the [text environment language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_env_langu_glosry.htm "Glossary Entry") is used as the default. If no text is found for the language, the [secondary language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_language_glosry.htm "Glossary Entry") in AS ABAP is used.
+
+Environment Annotations
+
+Defines parameter passing to a CDS view.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+Environment.systemField
+
+Assigns an [ABAP system field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_field_glosry.htm "Glossary Entry") to the input parameter for implicit parameter passing in ABAP SQL.
+
+#CLIENT:
+[sy-mandt](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm)
+#SYSTEM\_DATE:
+[sy-datum](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm)
+#SYSTEM\_TIME:
+[sy-uzeit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm)
+#SYSTEM\_LANGUAGE:
+[sy-langu](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm)
+#USER:
+[sy-uname](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm)
+
+\-
+
+\-
+
+An input parameter can be annotated strictly once with the annotation Environment.systemField. If the CDS entity is used as a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) statement in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry"), this assignment has the following consequences:
+
+-   No explicit actual parameter can be assigned to an input parameter to which the system field sy-mandt was assigned using #CLIENT. ABAP SQL always passes (implicitly) the ID of the current [client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_glosry.htm "Glossary Entry") in accordance with the nominal value of sy-mandt or from the clients specified using [USING CLIENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client.htm). The obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) cannot be specified when a CDS entity of this type is accessed.
+
+-   An explicit actual parameter does not need to be assigned to an input parameter to which a system field other than sy-mandt is assigned using #SYSTEM\_.... If no explicit actual parameter is specified, ABAP SQL passes the nominal value of the assigned system field implicitly.
+
+Any other values for value are ignored using an exception. Instead of the value #USER, the value #APPLICATION\_USER can be specified too. This is, however, only offered for reasons of downward compatibility.
+
+Notes
+
+-   The annotation @Environment.systemField is ignored in parameter passing to the CDS entity in other CDS entities. Explicit actual parameters must be specified here, for example input parameters from the current entity or even [session variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm).
+
+-   The value #CLIENT of the annotation @Environment.systemField is particularly significant for [client-specific CDS table functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_func_client_handling.htm). If an input parameter is annotated accordingly, it is given the current client ID implicitly by the ABAP SQL statement [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) and can be used to restrict the results set in the platform-dependent implementation of the function. @Environment.systemField: #CLIENT cannot be specified in the case of [cross-client CDS table functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_func_client_handling.htm).
+
+Example
+
+The following CDS view associates all input parameters with ABAP system fields and the SELECT list consists only of the input parameters. The ABAP program DEMO\_CDS\_SYSTEM\_FIELDS accesses the CDS view by specifying parameters in full implicitly and explicitly and produces both results.
+
+@AbapCatalog.sqlViewName: 'DEMO\_CDS\_SYST'
+@AccessControl.authorizationCheck: #NOT\_REQUIRED
+define view demo\_cds\_system\_fields
+with parameters
+@Environment.systemField : #CLIENT
+p\_mandt : syst\_mandt,
+@Environment.systemField : #SYSTEM\_DATE
+p\_datum : syst\_datum,
+@Environment.systemField : #SYSTEM\_TIME
+p\_uzeit : syst\_uzeit,
+p\_langu : syst\_langu @<Environment.systemField : #SYSTEM\_LANGUAGE,
+p\_uname : syst\_uname @<Environment.systemField : #USER
+as select from
+demo\_expressions
+{
+:p\_mandt as client,
+:p\_datum as datum,
+:p\_uzeit as uzeit,
+:p\_langu as langu,
+:p\_uname as uname
+}
+where
+id = '1';
+
+
+---
+
+
+## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - DEFINE VIEW / ABAP CDS - SELECT / ABAP CDS - SELECT, Operands and Expressions / ABAP CDS - cond_expr / ABAP CDS - cond_expr, Operands
+
+**Files**: 7 | **Difficulty**: advanced
+
+# ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - parameter
+
+Included pages: 2
+
+
+### abencds_f1_param.htm
+
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
+
+* * *
+
+AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) → 
+
+ABAP CDS - parameter
+
+Syntax
+
+... *\[*[@parameter\_annot1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)*\]*
+    *\[*[@parameter\_annot2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)*\]*
+    ...
+    pname : [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_typing.htm)
+    *\[*[@<parameter\_annot1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)*\]*
+    *\[*[@<parameter\_annot2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)*\]*
+    ...
+
+Addition:
+
+[... @parameter\_annot ... @<parameter\_annot](#!ABAP_ONE_ADD@1@)
+
+Effect
+
+Defines a CDS parameter called pname in one of the following:
+
+-   [Parameter list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_list.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry")
+
+-   [Parameter list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_func_parameter_list.htm) of a [CDS table function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry")
+
+-   [Parameter list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hiera_parameter_list.htm) of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")
+
+-   [Parameter list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_parameter_list.htm) of an [abstract CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_entity_glosry.htm "Glossary Entry")
+
+The name pname must comply with the naming rules for [names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_general_syntax_rules.htm). Furthermore, pname cannot contain any slash (/) characters and cannot be a reserved name in ABAP Dictionary. The name pname must be unique and be located in the namespace of the elements and [published](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_association.htm) CDS associations of the current CDS entity. Also, the reserved name connection cannot be used in table functions. The reserved names that cannot be used are specified in the database table TRESE. They are not case-sensitive. The blanks in the comma-separated list are ignored and can be omitted. Each parameter must be typed with an elementary data type [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_typing.htm).
+
+A non-abstract CDS entity for which CDS parameters are defined as input parameters can be used as
+
+-   A [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm) or in a [path expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm) of a different CDS view
+
+-   A [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) statement from ABAP SQL in ABAP
+
+In these cases, each input parameter must be assigned a suitable actual parameter whose value is then used in the operand positions in which the parameter is specified. The actual parameters are assigned using a parenthesized comma-separated list as follows:
+
+[... cds\_entity( pname1 : act1, pname2 : act2, ...) ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_parameters.htm),
+
+This list must be specified directly after the name of the view when using an entity with parameters (both within the CDS DDL in ABAP CDS and in ABAP SQL). In ABAP SQL, an equals sign (\=) is used instead of a colon (:).
+
+Note
+
+It is not currently possible to define optional input parameters or replacement parameters for input parameters. The annotation [@Environment.systemField](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) can be used, however, to make ABAP SQL pass ABAP system fields to an input parameter implicitly.
+
+Addition
+
+... @parameter\_annot ... @<parameter\_annot
+
+Effect
+
+Specifies annotations for the parameter. The annotations can be specified before the parameter using [@parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) or after the parameter using [@parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm). The latter is possible only for [CDS views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry"), [CDS table functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry"), and [CDS hierarchies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry") and not for [abstract CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_entity_glosry.htm "Glossary Entry").
+
+Continue
+[ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
+
 
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -5443,16 +13102,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -5518,16 +13180,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -5692,16 +13357,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -5767,16 +13435,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -5941,16 +13612,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -6016,16 +13690,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -6190,16 +13867,19 @@ id = '1';
 Included pages: 2
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_param.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - parameter"
+description: |
+  Syntax ... @parameter_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) @parameter_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm) ... pname : typing(https://help.sap
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm"
+abapFile: "abencds_f1_param.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "param"]
+---
 
 * * *
 
@@ -6265,16 +13945,19 @@ Continue
 [ABAP CDS - parameter\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_param.htm)
-
 ### abencds_f1_parameter_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_in
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm"
+abapFile: "abencds_f1_parameter_annotations.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "parameter", "annotations"]
+---
 
 * * *
 
@@ -6439,16 +14122,19 @@ id = '1';
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter_annotations.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -6489,16 +14175,19 @@ Continue
 [ABAP CDS - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -6549,16 +14238,19 @@ Note
 ABAP annotations introduced using EndUserText are used to define translatable semantic texts for a [CDS object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm "Glossary Entry"). The value of an annotation like this is saved in special tables that have a language key and that are translatable. The value specified in the source code should consist of text in the original language of the CDS source code and is translated into the required languages.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -6656,16 +14348,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -6685,7 +14380,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-authorizations-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------abap-cds---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-precisely-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--javascript-call-link---abensql-trace-glosry-htm-----glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-54--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----abencds----define----pfcg----mapping---------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-htm------abap---dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-dictionary-htm------abap-cds-in-abap-dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-authorizations-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-syntax-htm------abap-cds---define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-precisely-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensql-trace-glosry-htm--glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -6703,16 +14398,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DEFINE ASPECT"
+description: |
+  Syntax DEFINE ASPECT generic_aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defines a generic aspect generic_aspect as part of a CDS access policy(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -6785,16 +14483,19 @@ Notes
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -6835,16 +14536,19 @@ Continue
 [ABAP CDS - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -6895,16 +14599,19 @@ Note
 ABAP annotations introduced using EndUserText are used to define translatable semantic texts for a [CDS object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm "Glossary Entry"). The value of an annotation like this is saved in special tables that have a language key and that are translatable. The value specified in the source code should consist of text in the original language of the CDS source code and is translated into the required languages.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -7002,16 +14709,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -7031,7 +14741,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-authorizations-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------abap-cds---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-precisely-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--javascript-call-link---abensql-trace-glosry-htm-----glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-54--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----abencds----define----pfcg----mapping---------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-htm------abap---dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-dictionary-htm------abap-cds-in-abap-dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-authorizations-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-syntax-htm------abap-cds---define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-precisely-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensql-trace-glosry-htm--glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -7049,16 +14759,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DEFINE ASPECT"
+description: |
+  Syntax DEFINE ASPECT generic_aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defines a generic aspect generic_aspect as part of a CDS access policy(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -7131,16 +14844,19 @@ Notes
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -7181,16 +14897,19 @@ Continue
 [ABAP CDS - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -7241,16 +14960,19 @@ Note
 ABAP annotations introduced using EndUserText are used to define translatable semantic texts for a [CDS object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm "Glossary Entry"). The value of an annotation like this is saved in special tables that have a language key and that are translatable. The value specified in the source code should consist of text in the original language of the CDS source code and is translated into the required languages.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -7348,16 +15070,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -7377,7 +15102,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-authorizations-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------abap-cds---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-precisely-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--javascript-call-link---abensql-trace-glosry-htm-----glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-54--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----abencds----define----pfcg----mapping---------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-htm------abap---dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-dictionary-htm------abap-cds-in-abap-dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-authorizations-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-syntax-htm------abap-cds---define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-precisely-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensql-trace-glosry-htm--glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -7395,16 +15120,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DEFINE ASPECT"
+description: |
+  Syntax DEFINE ASPECT generic_aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defines a generic aspect generic_aspect as part of a CDS access policy(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 
@@ -7477,16 +15205,19 @@ Notes
 Included pages: 6
 
 
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-
 ### abencds_f1_define_accesspolicy.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "ABAP CDS - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy  pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -7527,16 +15258,19 @@ Continue
 [ABAP CDS - DEFINE ASPECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm)
-
 ### abencds_f1_dcl_ap_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -7587,16 +15321,19 @@ Note
 ABAP annotations introduced using EndUserText are used to define translatable semantic texts for a [CDS object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm "Glossary Entry"). The value of an annotation like this is saved in special tables that have a language key and that are translatable. The value specified in the source code should consist of text in the original language of the CDS source code and is translated into the required languages.
 
 
-
-**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_ap_annotations.htm)
-
 ### abencds_f1_define_pfcg_mapping.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping(output1, output2 ...) BETWEEN mapping_entity AND auth_object IN SCENARIO scenario_name  input1 = auth_field1
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -7694,16 +15431,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_pfcg_mapping.htm)
-
 ### abencds_f1_dcl_pm_annotations.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -7723,7 +15463,7 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
 
 The table below shows the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified, and their meanings. No other annotations can be specified.
 
--   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--javascript-call-link---abencds-object-glosry-htm-----glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm-------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--javascript-call-link---abenabap-dictionary-htm---------abap-cds-in-abap-dictionary--javascript-call-link---abencds-htm---------abap-cds---access-control--javascript-call-link---abencds-authorizations-htm---------abap-cds---dcl-statements--javascript-call-link---abencds-f1-dcl-syntax-htm---------abap-cds---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm---------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--javascript-call-link---abencds-f1-dcl-pm-annotations-htm-------------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry---defined-using--define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-precisely-those--pfcg-conditions--javascript-call-link---abencds-f1-cond-pfcg-htm-----in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--javascript-call-link---abenauthorization-field-glosry-htm-----glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----in-a--pfcg--javascript-call-link---abencds-f1-cond-pfcg-htm-----condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--javascript-call-link---abencds-f1-cond-pfcg-htm-----of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--javascript-call-link---abensql-trace-glosry-htm-----glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm-----that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
+-   [EndUserText Annotations](#abencds-f1-dcl-pm-annotations-1---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---endusertext-annotations--translatable-texts-of-the-cds-role---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--endusertext-label--translatable-short-text-of-the-pfcg-mapping--character-string-with-maximum-60-characters----------note--abap-annotations-introduced-using-endusertext-are-used-to-define-translatable-semantic-texts-for-a--cds-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-object-glosry-htm--glossary-entry----the-value-of-an-annotation-like-this-is-saved-in-special-tables-that-have-a-language-key-and-that-are-translatable--the-value-specified-in-the-source-code-should-consist-of-text-in-the-original-language-of-the-cds-source-code-and-is-translated-into-the-required-languages--------abencds-f1-define-pfcg-mapping-htm------title---syntax--description------pfcg-mapping-annot-https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm--define-pfcg-mapping-pfcg-mapping-output1--output2------between-mapping-entity-and-auth-object-in-scenario-scenario-name--input1---auth-field1-version---7-54--category---general--type---abap-reference--sourceurl---https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-pfcg-mapping-htm--abapfile---abencds-f1-define-pfcg-mapping-htm--keywords----select----do----if----try----class----abencds----define----pfcg----mapping---------------as-abap-release-754---copyright-2019-sap-se--all-rights-reserved----abap-keyword-documentation--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-htm------abap---dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenabap-dictionary-htm------abap-cds-in-abap-dictionary--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-htm------abap-cds---access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-authorizations-htm------abap-cds---dcl-statements--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-syntax-htm------abap-cds---define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm------abap-cds---define-pfcg--mapping--syntax-------pfcg--mapping--annot--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-dcl-pm-annotations-htm----------define-----pfcg--mapping-pfcg--mapping-output1------output2------------between-mapping--entity-and-auth--object-----in-scenario-scenario--name---------input1---auth--field1-----constraint-id--------------input2---auth--field2-----constraint-id-----------------effect--defines-a--pfcg-mapping--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-pfcg-mapping-glosry-htm--glossary-entry---pfcg--mapping-as-part-of-a--cds-access-policy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-policy-glosry-htm--glossary-entry---defined-using--define-accesspolicy--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-define-accesspolicy-htm---the-name-of-the-pfcg-mapping-must-match-the-name-of-the-cds-access-policy---the-definition-of-a-pcfg-mapping-contains-the-following-------a-comma-separated-list-after-the-name-pfcg--mapping-in-which-the-output-fields-of-the-pfcg-mapping-are-defined--these-fields-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between--the-specified-order-applies-------a-cds-entity-mapping--entity-specified-after-the-keyword-between-to-define-the-fields-used-in-the-mapping--this-definition-specifies-the-input-and-output-fields-of-the-mapping-------an--authorization-object--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-object-glosry-htm--glossary-entry---auth--object-specified-after-the-keyword-and--the-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-precisely-those--pfcg-conditions--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--in-which-this-authorization-object-is-specified-after-aspect-pfcg--auth-------a-comma-separated-unordered-list-in-curly-brackets-that-associates-the-input-fields-input1--input2------of-the-mapping-with--authorization-fields--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenauthorization-field-glosry-htm--glossary-entry---auth--field-of-the-authorization-object-auth--object-------the-input-fields-on-the-left-sides-must-be-elements-of-the-cds-entity-mapping--entity-specified-after-between-------authorization-fields-of-the-authorization-object-auth--object-must-be-specified-on-the-right-sides-------any-number-of-optional-assignments-can-be-flagged-using-the-addition-constraint-id---a-pfcg-mapping-can-be--used--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--in-a--pfcg--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--condition-of-the-same-authorization-object--it-is-transformed-to-specific-access-conditions-as-follows-when-the-condition-is-evaluated-------the-values-of-the-current-user-for-the-authorization-fields-assigned-to-the-input-fields-fill-the-input-fields-of-the-mapping-------the-output-fields-of-the-mapping-are-assigned-to-the-elements-within-the--curly-brackets--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--of-the-pfcg-condition-in-the-specified-order-------the-following-applies-to-the-input-fields-flagged-with-constraint-id-------only-those-authorization-fields-of-the-authorization-object-can-be-assigned-that-contain-a-single-value-in-a-specific-authorization--multiple-values-or-patterns-are-not-allowed--with-the-exception-of-full-authorization-using-the-value--------otherwise-the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--false--for-the-authorization-in-question-------full-authorization-can-be-assigned-only-when-applied-to-all-input-fields-of-the-pfcg-mapping-------if-full-authorization-exists-for-all-input-fields-of-the-pfcg-mapping--value--------the-pfcg-mapping-in-the-pfcg-condition-returns-the-value--true--when-evaluated--this-makes-it-possible-to-read-entries-of-the-protected-entity-for-which-there-are-no-output-fields-in-the-mapping---addition------in-scenario--to-use-a-pfcg-mapping-in-a-pfcg-condition-where-the-authorization-object-is-subject-to-the-switchable-authorization-check--the-pfcg-mapping-must-also-name-the-same-scenario--as-well-as-the-same-authorization-object---for-more-information--see-the--pfcg-condition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-htm--of-the-statement-define-role---note--in-abap-sql-access-to-a-cds-entity-assigned-a-role-of-this-type--pfcg-mappings-are-defined-internally-using-a-subquery-after-exists--this-can-be-seen-in-an--sql-trace--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensql-trace-glosry-htm--glossary-entry-----example--the-following-example-shows-the-definition-of-a-pfcg-mapping-demo--cds--auth--pfcg--mapping-based-on-the-cds-entity-demo--cds--mapping--entity-below--the-output-fields-of-the-pfcg-mapping-are-the-authorization-fields-object--obj--name--and-devclass-of-the-authorization-object-s--develop--the-input-fields-of-the-pfcg-mapping-are-the-elements-of-the-cds-entity-to-which-the-output-fields-are-assigned--the--example--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-cond-pfcg-mapping-htm--that-demonstrates-how-a-pfcg-mapping-is-specified-in-a-role-shows-how-the-mapping-is-used-------pfcg-mapping--define-accesspolicy-demo--cds--pfcg--mapping------define-pfcg--mapping-demo--cds--pfcg--mapping--map--object-------------------------------------------------map--obj--name-------------------------------------------------map--devclass-------between-demo--cds--mapping--entity-------and-s--develop---------map--devclass---devclass----------map--object-----objtype----------map--obj--name---objname----------cds-entity--AbapCatalog.sqlViewName: 'DEMOCDSMAPPENT'
 define view demo\_cds\_mapping\_entity
   as select from
     tadir
@@ -7741,19 +15481,19 @@ Continue
 [ABAP CDS - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
 
 
-
-**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_pm_annotations.htm)
-
 ### abencds_f1_define_generic_aspect.htm
 
-> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm)
-
-
-  
+---
+title: "ABAP CDS - DEFINE ASPECT"
+description: |
+  Syntax DEFINE ASPECT generic_aspect AS SELECT FROM aspect_entity WITH USER ELEMENT user_element  output1 BYPASS WHEN aspect_bypass_condition , ...   Effect Defines a generic aspect generic_aspect as part of a CDS access policy(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_generic_aspect.htm"
+abapFile: "abencds_f1_define_generic_aspect.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "define", "generic", "aspect"]
+---
 
 * * *
 

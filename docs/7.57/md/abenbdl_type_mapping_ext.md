@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - extend mapping"
+description: |
+  Syntax ... extend mapping for PartnerType    control ControlType corresponding except Comp1,Comp2, ...  EntityComp1      = PartnerComp1 control ControlComp; EntityComp2      = PartnerComp2 control ControlComp; parameter Param1 = PartnerComp;
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping_ext.htm"
+abapFile: "abenbdl_type_mapping_ext.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "type", "mapping", "ext"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "TRANSLATE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptranslate_shortref.htm) Syntax TRANSLATE text TO UPPERLOWER CASE  USING mask. Extras:  1. ... TO UPPERLOWER CASE(#!ABAP_ADDITION_1@1@)  2. ... USING mask(#!ABAP_ADDITION_2@2@) Effe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptranslate.htm"
+abapFile: "abaptranslate.htm"
+keywords: ["do", "if", "case", "try", "data", "abaptranslate"]
+---
 
 * * *
 

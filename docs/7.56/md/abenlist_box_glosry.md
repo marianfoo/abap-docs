@@ -1,4 +1,14 @@
-  
+---
+title: "list_box_glosry"
+description: |
+  list_box_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_box_glosry.htm"
+abapFile: "abenlist_box_glosry.htm"
+keywords: ["do", "try", "abenlist", "box", "glosry"]
+---
 
 * * *
 

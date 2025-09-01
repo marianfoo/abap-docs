@@ -1,4 +1,14 @@
-  
+---
+title: "Literals"
+description: |
+  Background A literal is a data object defined in the source code of a program by specifying a character-like value. Possible literals are: -   Numeric literals String of digits with an optional sign. The data type is either i or p. -   Character literals -   Text field literals enclosed in single qu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenliterals_guidl.htm"
+abapFile: "abenliterals_guidl.htm"
+keywords: ["do", "if", "case", "data", "types", "abenliterals", "guidl"]
+---
 
 * * *
 

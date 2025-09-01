@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Byte Field Indicators"
+description: |
+  This example demonstrates a condensed indicator structure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencondensed_ind_structure_glosry.htm 'Glossary Entry') as a null indicator(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_indicator_glosry.htm 'Gl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_ind_bitfield_abexa.htm"
+abapFile: "abenselect_ind_bitfield_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenselect", "ind", "bitfield", "abexa"]
+---
 
 * * *
 

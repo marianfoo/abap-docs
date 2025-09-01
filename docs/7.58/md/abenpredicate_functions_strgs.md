@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  The predicate functions shown here can be used instead of comparison operators(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchar_comp_op_vs_funct.htm). rel_exp - contains, contains_...(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontains_functions.htm) rel
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate_functions_strgs.htm"
+abapFile: "abenpredicate_functions_strgs.htm"
+keywords: ["do", "if", "abenpredicate", "functions", "strgs"]
+---
 
 * * *
 

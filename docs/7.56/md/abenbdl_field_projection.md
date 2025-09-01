@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - field characteristics, projection BDEF"
+description: |
+  Syntax Forms Field characteristics that can be added for regular fields ... field(readonly) Field1, Field2, ...;  field(mandatory) Field1, Field2, ...;  field(mandatory:create) Field1, Field2, ...;  field(readonly:update) Field1, Field2, ...;  field(suppress) Field1, Field2, ...; Field c
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_projection.htm"
+abapFile: "abenbdl_field_projection.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "field", "projection"]
+---
 
 * * *
 

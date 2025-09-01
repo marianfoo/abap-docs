@@ -1,4 +1,14 @@
-  
+---
+title: "exception_group_glosry"
+description: |
+  exception_group_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_group_glosry.htm"
+abapFile: "abenexception_group_glosry.htm"
+keywords: ["do", "if", "try", "catch", "abenexception", "group", "glosry"]
+---
 
 * * *
 

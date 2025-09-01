@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Table Comprehensions"
+description: |
+  !Example(exa.gif 'Example') Table Comprehensions, Basic Properties(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_cmprhnsns_simple_abexa.htm) !Example(exa.gif 'Example') Table Comprehensions, Local Auxiliary Fields(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_comprehensions_abexas.htm"
+abapFile: "abentable_comprehensions_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "comprehensions", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Free Selections"
+description: |
+  Alongside static selections, the selection screen of a logical database can also contain dynamic selections(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynamic_selection_glosry.htm 'Glossary Entry'). Dynamic selections enable the user to instruct the logical database to make fur
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb_free_selections.htm"
+abapFile: "abenldb_free_selections.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abenldb", "free", "selections"]
+---
 
 * * *
 

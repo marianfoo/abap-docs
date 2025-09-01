@@ -1,4 +1,14 @@
-  
+---
+title: "physical_filename_glosry"
+description: |
+  physical_filename_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenphysical_filename_glosry.htm"
+abapFile: "abenphysical_filename_glosry.htm"
+keywords: ["do", "if", "try", "abenphysical", "filename", "glosry"]
+---
 
 * * *
 

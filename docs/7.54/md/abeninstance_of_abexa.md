@@ -1,4 +1,14 @@
-  
+---
+title: "Predicate Expression IS INSTANCE OF"
+description: |
+  This example demonstrates the predicate expression IS INSTANCE OF(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_instance_of.htm). Source Code REPORT demo_is_instance_of. INTERFACE intf. ENDINTERFACE. CLASS c1 DEFINITION. PUBLIC SECTION. INTERFACES intf. ENDCLASS. CLASS c
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_of_abexa.htm"
+abapFile: "abeninstance_of_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "field-symbol", "abeninstance", "abexa"]
+---
 
 * * *
 

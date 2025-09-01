@@ -1,4 +1,14 @@
-  
+---
+title: "Fixed Point Arithmetic in External Procedure Calls"
+description: |
+  A procedure called externally is executed in accordance with the attribute Fixed Point Arithmetic(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixed_point_arithmetic_glosry.htm 'Glossary Entry') set in its master program. Here, each actual parameter(https://help.sap.com/doc/aba
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixed_point_arith_external.htm"
+abapFile: "abenfixed_point_arith_external.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abenfixed", "point", "arith", "external"]
+---
 
 * * *
 

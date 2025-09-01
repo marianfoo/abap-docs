@@ -1,4 +1,14 @@
-  
+---
+title: "Web Application Builder"
+description: |
+  Tool in ABAP Workbench(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm 'Glossary Entry') for creating Business Server Pages(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbusiness_server_pages_glosry.htm 'Glossary Entry'). It can be called
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenweb_application_builder_glosry.htm"
+abapFile: "abenweb_application_builder_glosry.htm"
+keywords: ["do", "if", "try", "abenweb", "application", "builder", "glosry"]
+---
 
 * * *
 

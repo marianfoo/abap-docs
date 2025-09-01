@@ -1,4 +1,14 @@
-  
+---
+title: "source_code_plugin_glosry"
+description: |
+  source_code_plugin_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_plugin_glosry.htm"
+abapFile: "abensource_code_plugin_glosry.htm"
+keywords: ["do", "if", "try", "abensource", "code", "plugin", "glosry"]
+---
 
 * * *
 

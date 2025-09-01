@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, OCCURS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_occurs.htm) Syntax DATA itab  TYPE REF TO type  LIKE REF TO dobj  OCCURS n WITH HEADER LINE. Effect Obsolete: Declares a standard table(https://help.sap.com/doc/abapdocu_756
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_occurs_shortref.htm"
+abapFile: "abapdata_occurs_shortref.htm"
+keywords: ["do", "try", "data", "abapdata", "occurs", "shortref"]
+---
 
 * * *
 

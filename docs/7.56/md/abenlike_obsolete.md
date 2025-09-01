@@ -1,4 +1,14 @@
-  
+---
+title: "LIKE, obsolete"
+description: |
+  Obsolete Syntax ... LIKE dtype ... Effect Outside of classes, the addition LIKE can be used to refer to flat(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm 'Glossary Entry') structures in the ABAP Dictionary(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlike_obsolete.htm"
+abapFile: "abenlike_obsolete.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenlike", "obsolete"]
+---
 
 * * *
 

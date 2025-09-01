@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE STRUCTURE FOR"
+description: |
+  Syntax ... STRUCTURE FOR  ACTION IMPORT bdef~action    ACTION REQUEST bdef~action    ACTION RESULT bdef~action    INSTANCE AUTHORIZATION KEY bdef~group    INSTANCE AUTHORIZATION REQUEST bdef~group    INSTANCE AUT
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_structure_for.htm"
+abapFile: "abaptype_structure_for.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abaptype", "structure", "for"]
+---
 
 * * *
 

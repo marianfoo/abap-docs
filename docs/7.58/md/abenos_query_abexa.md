@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Query Service"
+description: |
+  This example demonstrates how an object-oriented query is used. Source Code  Public class definition CLASS cl_demo_query_service DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm"
+abapFile: "abenos_query_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenos", "query", "abexa"]
+---
 
 * * *
 

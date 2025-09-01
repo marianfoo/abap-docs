@@ -1,4 +1,14 @@
-  
+---
+title: "maintenance_view_glosry"
+description: |
+  maintenance_view_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmaintenance_view_glosry.htm"
+abapFile: "abenmaintenance_view_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenmaintenance", "view", "glosry"]
+---
 
 * * *
 

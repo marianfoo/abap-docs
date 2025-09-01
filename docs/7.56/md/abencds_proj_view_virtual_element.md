@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - VIRTUAL"
+description: |
+  Syntax ... VIRTUAL elem_name : typing(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_typing.htm) Effect Defines a virtual element(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_virtual_element_glosry.htm 'Glossary Entry') in the projection list(https://
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_view_virtual_element.htm"
+abapFile: "abencds_proj_view_virtual_element.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencds", "proj", "view", "virtual", "element"]
+---
 
 * * *
 

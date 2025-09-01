@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL"
+description: |
+  Behavior Definition Language in ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS BDL contains language elements for CDS behavior definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_gl
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm"
+abapFile: "abencds_bdl_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "bdl", "glosry"]
+---
 
 * * *
 

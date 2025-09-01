@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenassign_obsolete.htm
 
-  
+---
+title: "Obsolete Object Creation"
+description: |
+  This section describes the creation of a local data object with the statement ASSIGN LOCAL COPY(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_local_copy.htm). ASSIGN LOCAL COPY(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_local_copy.htm)
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassign_obsolete.htm"
+abapFile: "abenassign_obsolete.htm"
+keywords: ["do", "data", "abenassign", "obsolete"]
+---
 
 * * *
 
@@ -23,7 +33,17 @@ Continue
 
 ### abapassign_local_copy.htm
 
-  
+---
+title: "ASSIGN LOCAL COPY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_local_copy_shortref.htm) Obsolete Syntax ASSIGN LOCAL COPY OF  INITIAL mem_area  INITIAL LINE OF itab(itab_name)  MAIN TABLE FIELD (name)  TO <fs> casting_spec. A
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_local_copy.htm"
+abapFile: "abapassign_local_copy.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "internal-table", "field-symbol", "abapassign", "local", "copy"]
+---
 
 * * *
 

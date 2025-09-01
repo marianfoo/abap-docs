@@ -1,4 +1,14 @@
-  
+---
+title: "dynpro_sequence_glosry"
+description: |
+  dynpro_sequence_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_sequence_glosry.htm"
+abapFile: "abendynpro_sequence_glosry.htm"
+keywords: ["do", "if", "try", "abendynpro", "sequence", "glosry"]
+---
 
 * * *
 

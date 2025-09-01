@@ -5,7 +5,17 @@ Included pages: 16
 
 ### abenleave_program_units.htm
 
-  
+---
+title: "Exiting Program Units"
+description: |
+  The following program units can be exited using ABAP statements: -   Complete ABAP programs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_leave_program.htm) -   Processing blocks(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_processing_blocks.htm) -
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_program_units.htm"
+abapFile: "abenleave_program_units.htm"
+keywords: ["loop", "do", "if", "abenleave", "program", "units"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abenabap_leave_program.htm
 
-  
+---
+title: "Exiting Programs"
+description: |
+  This section describes the statement LEAVE PROGRAM(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_program.htm) used for exiting programs. Apart from LEAVE PROGRAM, the following statements are also used to exit programs that calls other programs without returning to the calle
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_leave_program.htm"
+abapFile: "abenabap_leave_program.htm"
+keywords: ["update", "do", "if", "try", "abenabap", "leave", "program"]
+---
 
 * * *
 
@@ -62,7 +82,17 @@ Continue
 
 ### abapleave_program.htm
 
-  
+---
+title: "LEAVE PROGRAM"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_program_shortref.htm) Syntax LEAVE PROGRAM. Effect This statement immediately terminates the current main program(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmain_program_glosry.htm 'Glossary
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_program.htm"
+abapFile: "abapleave_program.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "abapleave", "program"]
+---
 
 * * *
 
@@ -115,7 +145,17 @@ ENDIF.
 
 ### abenabap_leave_program.htm
 
-  
+---
+title: "Exiting Programs"
+description: |
+  This section describes the statement LEAVE PROGRAM(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_program.htm) used for exiting programs. Apart from LEAVE PROGRAM, the following statements are also used to exit programs that calls other programs without returning to the calle
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_leave_program.htm"
+abapFile: "abenabap_leave_program.htm"
+keywords: ["update", "do", "if", "try", "abenabap", "leave", "program"]
+---
 
 * * *
 
@@ -146,7 +186,17 @@ Continue
 
 ### abenleave_processing_blocks.htm
 
-  
+---
+title: "Exiting Processing Blocks"
+description: |
+  Processing blocks(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') can be exited implicitly using: -   regular exiting(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenend_processing_blocks.htm) or program-driven, using: -
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_processing_blocks.htm"
+abapFile: "abenleave_processing_blocks.htm"
+keywords: ["select", "update", "do", "if", "try", "data", "abenleave", "processing", "blocks"]
+---
 
 * * *
 
@@ -201,7 +251,17 @@ Continue
 
 ### abenend_processing_blocks.htm
 
-  
+---
+title: "Regular Exiting of a Processing Block"
+description: |
+  A processing block is terminated regularly when its end is reached. For processing blocks that are completed using an END statement, this is the end. Event blocks that are not completed explicitly with a statement have an implicit completion after their last statement. Depending on the processing bl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenend_processing_blocks.htm"
+abapFile: "abenend_processing_blocks.htm"
+keywords: ["do", "if", "try", "method", "class", "abenend", "processing", "blocks"]
+---
 
 * * *
 
@@ -250,7 +310,17 @@ ENDCLASS.
 
 ### abapreturn.htm
 
-  
+---
+title: "RETURN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreturn_shortref.htm) Syntax RETURN expr. Addition: ... expr(#!ABAP_ONE_ADD@1@) Effect This statement immediately terminates the current processing block. It can appear at any point in a processing blo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreturn.htm"
+abapFile: "abapreturn.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abapreturn"]
+---
 
 * * *
 
@@ -381,7 +451,17 @@ ENDCLASS.
 
 ### abapexit_processing_blocks.htm
 
-  
+---
+title: "Syntax"
+description: |
+  EXIT. Effect If the statement EXIT is outside a loop(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm 'Glossary Entry'), it immediately terminates the current processing block(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_processing_blocks.htm"
+abapFile: "abapexit_processing_blocks.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "types", "abapexit", "processing", "blocks"]
+---
 
 * * *
 
@@ -460,7 +540,17 @@ ENDCLASS.
 
 ### abapcheck_processing_blocks.htm
 
-  
+---
+title: "Syntax"
+description: |
+  CHECK log_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm). Effect If the statement CHECK is listed outside a loop(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm 'Glossary Entry') and log_exp is false, it terminates the current pro
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcheck_processing_blocks.htm"
+abapFile: "abapcheck_processing_blocks.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "abapcheck", "processing", "blocks"]
+---
 
 * * *
 
@@ -528,7 +618,17 @@ ENDCLASS.
 
 ### abapstop.htm
 
-  
+---
+title: "STOP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop_shortref.htm) Syntax STOP. Effect The statement STOP is only to be used in executable programs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexecutable_program_glosry.htm 'Glossary Entry') and in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop.htm"
+abapFile: "abapstop.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "data", "abapstop"]
+---
 
 * * *
 
@@ -595,7 +695,17 @@ Uncatchable Exceptions
 
 ### abenleave_processing_blocks.htm
 
-  
+---
+title: "Exiting Processing Blocks"
+description: |
+  Processing blocks(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') can be exited implicitly using: -   regular exiting(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenend_processing_blocks.htm) or program-driven, using: -
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_processing_blocks.htm"
+abapFile: "abenleave_processing_blocks.htm"
+keywords: ["select", "update", "do", "if", "try", "data", "abenleave", "processing", "blocks"]
+---
 
 * * *
 
@@ -650,7 +760,17 @@ Continue
 
 ### abenleave_loops.htm
 
-  
+---
+title: "Exiting Loops"
+description: |
+  The following statement can be used to exit a loop completely: -   EXIT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_loop.htm) The following statements can be used to exit the current loop pass: -   CONTINUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapco
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_loops.htm"
+abapFile: "abenleave_loops.htm"
+keywords: ["loop", "do", "if", "abenleave", "loops"]
+---
 
 * * *
 
@@ -679,7 +799,17 @@ Continue
 
 ### abapexit_loop.htm
 
-  
+---
+title: "EXIT, loop"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_shortref.htm) Syntax EXIT. Effect If the EXIT statement is listed within a loop(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm 'Glossary Entry'), it exits the loop by terminating t
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_loop.htm"
+abapFile: "abapexit_loop.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapexit"]
+---
 
 * * *
 
@@ -721,7 +851,17 @@ cl\_demo\_output=>display( ).
 
 ### abapcheck_loop.htm
 
-  
+---
+title: "CHECK, loop"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcheck_shortref.htm) Syntax CHECK log_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm). Effect If the statement CHECK is listed in a loop(https://help.sap.com/doc/abapdocu_758_index_htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcheck_loop.htm"
+abapFile: "abapcheck_loop.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapcheck"]
+---
 
 * * *
 
@@ -768,7 +908,17 @@ cl\_demo\_output=>display( ).
 
 ### abapcontinue.htm
 
-  
+---
+title: "CONTINUE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontinue_shortref.htm) Syntax CONTINUE. Effect The statement CONTINUE may only be used in loops(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm 'Glossary Entry'). If it is used, the curr
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontinue.htm"
+abapFile: "abapcontinue.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapcontinue"]
+---
 
 * * *
 
@@ -807,7 +957,17 @@ cl\_demo\_output=>display( ).
 
 ### abenleave_loops.htm
 
-  
+---
+title: "Exiting Loops"
+description: |
+  The following statement can be used to exit a loop completely: -   EXIT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_loop.htm) The following statements can be used to exit the current loop pass: -   CONTINUE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapco
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_loops.htm"
+abapFile: "abenleave_loops.htm"
+keywords: ["loop", "do", "if", "abenleave", "loops"]
+---
 
 * * *
 

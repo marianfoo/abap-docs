@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation"
+description: |
+  ST for short. SAP-specific programming language for transformations between XML(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxml_glosry.htm 'Glossary Entry') formats and ABAP data and vice versa. Serializations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenseri
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensimple_transformation_glosry.htm"
+abapFile: "abensimple_transformation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abensimple", "transformation", "glosry"]
+---
 
 * * *
 

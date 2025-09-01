@@ -1,4 +1,14 @@
-  
+---
+title: "PUT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapput.htm) Syntax PUT  node  <node> . Effect Obsolete: Raises the event GET node in a logical database(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_data_base_glosry.htm 'Glossary Entry'), if
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapput_shortref.htm"
+abapFile: "abapput_shortref.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abapput", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT carrname"
+description: |
+  FROM scarr WHERE carrid = @char INTO TABLE @FINAL(result). DATA: struc1 TYPE ddic_struc, BEGIN OF struc2, text TYPE c LENGTH 3, int  TYPE i, END OF struc2. 'Syntax errors when DDIC_DE_I is changed to int8 'or when the length of DDIC_DE_C is increased 'or when a component is added to DDIC_STRUC
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_demo_1.htm"
+abapFile: "abenc1_demo_1.htm"
+keywords: ["select", "insert", "do", "if", "data", "types", "abenc1", "demo"]
+---
 
 * * *
 

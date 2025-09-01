@@ -1,4 +1,14 @@
-  
+---
+title: "Serialization to Heap or Embedded"
+description: |
+  This example demonstrates serializations of an anonymous data object to asXML(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_glosry.htm 'Glossary Entry') and to asJSON(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasjson_glosry.htm 'Glossary Entry'). Source
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenserialize_ref_heap_embed_abexa.htm"
+abapFile: "abenserialize_ref_heap_embed_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenserialize", "ref", "heap", "embed", "abexa"]
+---
 
 * * *
 

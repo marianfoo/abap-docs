@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm) ... ... @<annotation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapd
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_element_annotation.htm"
+abapFile: "abencds_f1_element_annotation.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "element", "annotation"]
+---
 
 * * *
 
@@ -39,12 +49,9 @@ Element annotations can be specified before and after the element:
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
--   [Aggregation Annotation](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_1)
--   [API Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_3)
--   [Environment Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_4)
--   [Semantics Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_5)
--   [ObjectModel Annotation](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_6)
+-   [Aggregation Annotation](#abencds-f1-element-annotation-1-------api-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
+-   [EndUserText Annotations](#abencds-f1-element-annotation-3-------environment-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_4)
+-   [Semantics Annotations](#abencds-f1-element-annotation-5-------objectmodel-annotation---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_6)
 
 The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 

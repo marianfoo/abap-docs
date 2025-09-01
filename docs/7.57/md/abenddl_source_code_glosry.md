@@ -1,4 +1,14 @@
-  
+---
+title: "DDL source code"
+description: |
+  CDS source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm 'Glossary Entry') for CDS data definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_definition_glosry.htm 'Glossary Entry') or their extensions in CDS DDL(ht
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm"
+abapFile: "abenddl_source_code_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenddl", "source", "code", "glosry"]
+---
 
 * * *
 

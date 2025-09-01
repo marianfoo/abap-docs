@@ -1,4 +1,14 @@
-  
+---
+title: "Operating System Statements of the Presentation Server"
+description: |
+  The method EXECUTE of the class CL_GUI_FRONTEND_SERVICES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm) can be used to call operating system statements of the presentation server. The prerequisite is that the current ABAP program is executed in dialog pro
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_system_commands_pres.htm"
+abapFile: "abenabap_system_commands_pres.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "system", "commands", "pres"]
+---
 
 * * *
 

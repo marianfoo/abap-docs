@@ -1,4 +1,14 @@
-  
+---
+title: "RAP authorization context"
+description: |
+  A container for authorization objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm 'Glossary Entry') that lists one or more authorization objects. When an authorization context is activated, the authorization checks(https://help.sap.com/doc/abapd
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_auth_context_glosry.htm"
+abapFile: "abencds_auth_context_glosry.htm"
+keywords: ["do", "try", "abencds", "auth", "context", "glosry"]
+---
 
 * * *
 

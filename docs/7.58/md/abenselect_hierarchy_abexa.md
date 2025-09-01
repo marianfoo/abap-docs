@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_hrrchy_bulk_increment DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: all_lines   TYPE i VALUE 100000, hiera_lines TYPE i VALUE 10, start_node  TYPE demo_guid_hiera
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_hierarchy_abexa.htm"
+abapFile: "abenselect_hierarchy_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "abenselect", "hierarchy", "abexa"]
+---
 
 * * *
 

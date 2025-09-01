@@ -1,4 +1,14 @@
-  
+---
+title: "Special Characters in Regular Expressions"
+description: |
+  The following tables summarize the special characters in regular expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregular_expression_glosry.htm 'Glossary Entry'). -   Escape Character(#abenregex-syntax-specials-1--------special-characters-for-single-character-strings---
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_syntax_specials.htm"
+abapFile: "abenregex_syntax_specials.htm"
+keywords: ["do", "if", "case", "try", "data", "abenregex", "syntax", "specials"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Special Characters in Regular Expressions
 
 The following tables summarize the special characters in [regular expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregular_expression_glosry.htm "Glossary Entry").
 
--   [Escape Character](#@@ITOC@@ABENREGEX_SYNTAX_SPECIALS_1)
+-   [Escape Character](#abenregex-syntax-specials-1--------special-characters-for-single-character-strings---@ITOC@@ABENREGEX_SYNTAX_SPECIALS_2)
 
--   [Special Characters for Single Character Strings](#@@ITOC@@ABENREGEX_SYNTAX_SPECIALS_2)
-
--   [Special Characters for Character String Patterns](#@@ITOC@@ABENREGEX_SYNTAX_SPECIALS_3)
-
--   [Special Characters for Search Strings](#@@ITOC@@ABENREGEX_SYNTAX_SPECIALS_4)
+-   [Special Characters for Character String Patterns](#abenregex-syntax-specials-3--------special-characters-for-search-strings---@ITOC@@ABENREGEX_SYNTAX_SPECIALS_4)
 
 -   [Special Characters for Replacement Texts](#@@ITOC@@ABENREGEX_SYNTAX_SPECIALS_5)
 

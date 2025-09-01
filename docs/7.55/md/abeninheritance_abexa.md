@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Inheritance"
+description: |
+  This example demonstrates how a counter is specialized using inheritance. Source Code REPORT demo_inheritance. CLASS counter DEFINITION. PUBLIC SECTION. METHODS: set IMPORTING value(set_value) TYPE i, increment, get EXPORTING value(get_value) TYPE i. PROTECTED SECTION. DATA count TYPE i. ENDCLASS
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninheritance_abexa.htm"
+abapFile: "abeninheritance_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abeninheritance", "abexa"]
+---
 
 * * *
 

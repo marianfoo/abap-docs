@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Examples"
+description: |
+  -   WITH, Common Table Expressions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwith_cte_abexa.htm) -   WITH, Client Handling(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwith_client_handling_abexa.htm) -   WITH, Aggregation for Join Set(https://help.sap.com
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwith_abexas.htm"
+abapFile: "abenwith_abexas.htm"
+keywords: ["do", "if", "data", "abenwith", "abexas"]
+---
 
 * * *
 

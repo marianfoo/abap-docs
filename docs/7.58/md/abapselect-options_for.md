@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT-OPTIONS, FOR"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect-options_shortref.htm) Syntax ... FOR dobj(name) ... Alternatives: 1. ... FOR dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... FOR (name)(#!ABAP_ALTERNATIVE_2@2@) Effect This addition determines the data type o
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect-options_for.htm"
+abapFile: "abapselect-options_for.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abapselect", "options", "for"]
+---
 
 * * *
 

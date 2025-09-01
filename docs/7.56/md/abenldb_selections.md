@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Selections"
+description: |
+  The selections on a standard selection screen(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_selscreen_glosry.htm 'Glossary Entry') of a logical database are defined using the usual statements used to define selection screens: -   PARAMETERS(https://help.sap.com/doc/abap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections.htm"
+abapFile: "abenldb_selections.htm"
+keywords: ["select", "do", "if", "try", "data", "abenldb", "selections"]
+---
 
 * * *
 

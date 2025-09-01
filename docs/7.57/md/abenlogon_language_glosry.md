@@ -1,4 +1,14 @@
-  
+---
+title: "logon_language_glosry"
+description: |
+  logon_language_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogon_language_glosry.htm"
+abapFile: "abenlogon_language_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenlogon", "language", "glosry"]
+---
 
 * * *
 

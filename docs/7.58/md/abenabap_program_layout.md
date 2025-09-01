@@ -1,4 +1,14 @@
-  
+---
+title: "Program Structure"
+description: |
+  !Figure(abdoc_program.gif) -   Each ABAP program starts with a program-initiating statement(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_statement.htm) that depends on the program type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_type_ov
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_layout.htm"
+abapFile: "abenabap_program_layout.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "abenabap", "program", "layout"]
+---
 
 * * *
 

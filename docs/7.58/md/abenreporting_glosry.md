@@ -1,4 +1,14 @@
-  
+---
+title: "reporting_glosry"
+description: |
+  reporting_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_glosry.htm"
+abapFile: "abenreporting_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenreporting", "glosry"]
+---
 
 * * *
 

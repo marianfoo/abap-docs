@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSACTION - AUTHORITY-CHECK"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_shortref.htm) Syntax ... WITHWITHOUT AUTHORITY-CHECK ... Extras: 1. ... WITH AUTHORITY-CHECK(#!ABAP_ADDITION_1@1@) 2. ... WITHOUT AUTHORITY-CHECK(#!ABAP_ADDITION_2@2@) Effect These additions co
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_authority.htm"
+abapFile: "abapcall_transaction_authority.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapcall", "transaction", "authority"]
+---
 
 * * *
 

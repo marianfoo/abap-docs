@@ -1,4 +1,14 @@
-  
+---
+title: "EDITOR-CALL - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapeditor-call_for_report.htm) Syntax EDITOR-CALL FOR  REPORT prog DISPLAY-MODE  itab TITLE title DISPLAY-MODEBACKUP INTO jtab . Effect Obsolete: Calls ABAP Editor for
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapeditor-call_shortref.htm"
+abapFile: "abapeditor-call_shortref.htm"
+keywords: ["do", "internal-table", "abapeditor", "call", "shortref"]
+---
 
 * * *
 

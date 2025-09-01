@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Type Mapping"
+description: |
+  Syntax ... mapping for PartnerType           control ControlType corresponding  extensible(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_enabling_m_u.htm)except Comp1,Comp2, ...  EntityComp1      = PartnerComp1 control C
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_type_mapping.htm"
+abapFile: "abenbdl_type_mapping.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abenbdl", "type", "mapping"]
+---
 
 * * *
 

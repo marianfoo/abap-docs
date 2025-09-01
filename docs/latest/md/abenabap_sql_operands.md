@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Operands and Expressions"
+description: |
+  The following operands and expressions are possible in ABAP SQL statements: -   ABAP SQL - SQL operands(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_operands.htm) -   ABAP SQL - SQL expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_exp
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_operands.htm"
+abapFile: "abenabap_sql_operands.htm"
+keywords: ["do", "if", "data", "abenabap", "sql", "operands"]
+---
 
 * * *
 

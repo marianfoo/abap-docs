@@ -1,4 +1,14 @@
-  
+---
+title: "sorted_table_glosry"
+description: |
+  sorted_table_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_table_glosry.htm"
+abapFile: "abensorted_table_glosry.htm"
+keywords: ["do", "try", "data", "types", "internal-table", "abensorted", "table", "glosry"]
+---
 
 * * *
 

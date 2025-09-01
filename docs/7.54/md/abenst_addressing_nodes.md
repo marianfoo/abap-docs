@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Addressing Data Nodes"
+description: |
+  -   Addressing the Data Roots(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_addressing_root_node.htm) -   Addressing the Current Node(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_addressing_current_node.htm) -   Addressing Subnodes(https://help.sap.com/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_addressing_nodes.htm"
+abapFile: "abenst_addressing_nodes.htm"
+keywords: ["do", "data", "abenst", "addressing", "nodes"]
+---
 
 * * *
 

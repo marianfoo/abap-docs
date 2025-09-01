@@ -1,4 +1,14 @@
-  
+---
+title: "PAI"
+description: |
+  Short for Process After Input. Dynpro event(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_event_glosry.htm 'Glossary Entry') raised by a user action(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuser_action_glosry.htm 'Glossary Entry') on the GUI(https:
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpai_glosry.htm"
+abapFile: "abenpai_glosry.htm"
+keywords: ["do", "try", "data", "abenpai", "glosry"]
+---
 
 * * *
 

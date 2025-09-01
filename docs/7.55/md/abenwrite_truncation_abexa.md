@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE TO, Truncation Behavior"
+description: |
+  This example demonstrates the truncation behavior(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_truncations.htm) of the statement WRITE TO(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) for all elementary data types. Source Code REPORT demo_w
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_truncation_abexa.htm"
+abapFile: "abenwrite_truncation_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenwrite", "truncation", "abexa"]
+---
 
 * * *
 

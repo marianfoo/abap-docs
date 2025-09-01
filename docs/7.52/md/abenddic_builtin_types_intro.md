@@ -1,4 +1,14 @@
-  
+---
+title: "Predefined Data Types in ABAP Dictionary"
+description: |
+  The predefined data types in ABAP Dictionary -   are used to construct the actual data types (data elements, structures (including database tables and views), table types, and CDS entities) in ABAP Dictionary In ABAP, however, they cannot be addressed directly using only these types and are therefor
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_intro.htm"
+abapFile: "abenddic_builtin_types_intro.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "builtin", "intro"]
+---
 
 * * *
 

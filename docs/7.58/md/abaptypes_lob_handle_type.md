@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  READERLOCATORLOB HANDLE    WRITERLOCATOR  ... Effect These additions define the static type of the LOB handle components(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlob_handle_component_glosry.htm 'Glossary Entry') when deriving a LOB handle s
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_type.htm"
+abapFile: "abaptypes_lob_handle_type.htm"
+keywords: ["do", "if", "try", "data", "types", "abaptypes", "lob", "handle", "type"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT ENTITIES RESPONSES, Dynamic Form"
+description: |
+  Syntax COMMIT ENTITIES IN SIMULATION MODE RESPONSES OF dyn_tab response_param(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm). Addition: ... IN SIMULATION MODE(#!ABAP_ONE_ADD@1@) Effect Triggers the RAP save sequence and finishes the RAP transaction(h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapemlcommit_entities_dyn.htm"
+abapFile: "abapemlcommit_entities_dyn.htm"
+keywords: ["do", "if", "try", "method", "data", "internal-table", "abapemlcommit", "entities", "dyn"]
+---
 
 * * *
 

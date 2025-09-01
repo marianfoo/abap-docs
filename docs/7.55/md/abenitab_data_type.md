@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Table keys are evaluated when typing(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_glosry.htm 'Glossary Entry') is checked. Only actual parameters that have the same keys can be assigned to a formal parameter or a field symbol whose table type has a non-generic primary key
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_data_type.htm"
+abapFile: "abenitab_data_type.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenitab", "type"]
+---
 
 * * *
 

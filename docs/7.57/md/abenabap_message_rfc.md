@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - RFC Processing"
+description: |
+  As long as no list or dialog processing takes place during RFC processing(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_processing_glosry.htm 'Glossary Entry'), messages behave as follows: -   Messages of types I, S, and W are ignored. -   Messages of types A, E, and X cause p
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_message_rfc.htm"
+abapFile: "abenabap_message_rfc.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenabap", "message", "rfc"]
+---
 
 * * *
 

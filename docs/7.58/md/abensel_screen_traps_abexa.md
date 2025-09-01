@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Traps and Pitfalls"
+description: |
+  The example demonstrates some common traps and pitfalls of selection screens. Source Code REPORT demo_selscreen_traps. SELECTION-SCREEN COMMENT /1(50) text. SELECTION-SCREEN ULINE. PARAMETERS: lower    TYPE demo_lower_case, no_lower TYPE demo_no_lower_case, lowercas TYPE demo_no_lower_cas
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensel_screen_traps_abexa.htm"
+abapFile: "abensel_screen_traps_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abensel", "screen", "traps", "abexa"]
+---
 
 * * *
 

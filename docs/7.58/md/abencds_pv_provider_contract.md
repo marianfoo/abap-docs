@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - PROVIDER CONTRACT"
+description: |
+  Syntax ... PROVIDER CONTRACT  TRANSACTIONAL_QUERY  TRANSACTIONAL_INTERFACE  ANALYTICAL_QUERY  ...    ... Alternatives: 1. ... PROVIDER CONTRACT(#!ABAP_ALTERNATIVE_1@1@) 2. ...  (#!ABAP_ALTERNATIVE_2@2@) Effect The provider contract specifies the scenario in which
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_provider_contract.htm"
+abapFile: "abencds_pv_provider_contract.htm"
+keywords: ["do", "if", "try", "data", "abencds", "provider", "contract"]
+---
 
 * * *
 

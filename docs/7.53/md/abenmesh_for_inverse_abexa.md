@@ -1,4 +1,14 @@
-  
+---
+title: "Inverse Associations in Mesh Paths"
+description: |
+  This example demonstrates the results of inverse associations in mesh paths. Source Code REPORT demo_mesh_inverse_assoc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TABLE OF
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_for_inverse_abexa.htm"
+abapFile: "abenmesh_for_inverse_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "for", "inverse", "abexa"]
+---
 
 * * *
 

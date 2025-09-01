@@ -1,4 +1,14 @@
-  
+---
+title: "CDS behavior definition"
+description: |
+  A CDS behavior definition defines a RAP Business Object behavior(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm 'Glossary Entry'). It is a CDS RAP object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_object_glosry.htm 'Glossary
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm"
+abapFile: "abencds_behavior_definition_glosry.htm"
+keywords: ["do", "try", "abencds", "behavior", "definition", "glosry"]
+---
 
 * * *
 

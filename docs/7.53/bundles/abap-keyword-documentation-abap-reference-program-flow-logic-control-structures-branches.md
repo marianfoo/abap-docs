@@ -5,7 +5,17 @@ Included pages: 15
 
 ### abenabap_branches.htm
 
-  
+---
+title: "Branches"
+description: |
+  This section describes the branches defined using the following: -   IF - ENDIF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm) -   CASE - ENDCASE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase.htm) -   CASE TYPE OF - ENDCASE(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_branches.htm"
+abapFile: "abenabap_branches.htm"
+keywords: ["do", "if", "case", "try", "types", "internal-table", "exception-handling", "abenabap", "branches"]
+---
 
 * * *
 
@@ -37,7 +47,17 @@ Continue
 
 ### abapif.htm
 
-  
+---
+title: "IF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif_shortref.htm) Syntax IF log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm). statement_block1 ELSEIF log_exp2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm"
+abapFile: "abapif.htm"
+keywords: ["do", "while", "if", "try", "data", "abapif"]
+---
 
 * * *
 
@@ -102,7 +122,17 @@ Continue
 
 ### abapelseif.htm
 
-  
+---
+title: "ELSEIF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif_shortref.htm) Syntax ELSEIF log_exp(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm). Effect See IF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapelseif.htm"
+abapFile: "abapelseif.htm"
+keywords: ["do", "if", "abapelseif"]
+---
 
 * * *
 
@@ -125,7 +155,17 @@ See [IF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm).
 
 ### abapelse.htm
 
-  
+---
+title: "ELSE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif_shortref.htm) Syntax ELSE. Effect See IF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapelse.htm"
+abapFile: "abapelse.htm"
+keywords: ["do", "if", "abapelse"]
+---
 
 * * *
 
@@ -148,7 +188,17 @@ See [IF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm).
 
 ### abapendif.htm
 
-  
+---
+title: "ENDIF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif_shortref.htm) Syntax ENDIF. Effect See IF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendif.htm"
+abapFile: "abapendif.htm"
+keywords: ["do", "if", "abapendif"]
+---
 
 * * *
 
@@ -171,7 +221,17 @@ See [IF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm).
 
 ### abapif.htm
 
-  
+---
+title: "IF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif_shortref.htm) Syntax IF log_exp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm). statement_block1 ELSEIF log_exp2(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm"
+abapFile: "abapif.htm"
+keywords: ["do", "while", "if", "try", "data", "abapif"]
+---
 
 * * *
 
@@ -236,7 +296,17 @@ Continue
 
 ### abapcase.htm
 
-  
+---
+title: "CASE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_shortref.htm) Syntax CASE operand. WHEN operand1 OR operand2 OR operand3 .... statement_block1 ... WHEN OTHERS. statement_blockn ENDCASE. Effect Case Distin
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase.htm"
+abapFile: "abapcase.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abapcase"]
+---
 
 * * *
 
@@ -338,7 +408,17 @@ Continue
 
 ### abapwhen.htm
 
-  
+---
+title: "WHEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_shortref.htm) Syntax WHEN  operand1  OR operand2 OR operand2 ...  OTHERS . Effect See CASE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase.htm).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhen.htm"
+abapFile: "abapwhen.htm"
+keywords: ["do", "case", "abapwhen"]
+---
 
 * * *
 
@@ -362,7 +442,17 @@ See [CASE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase.h
 
 ### abapendcase.htm
 
-  
+---
+title: "ENDCASE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_shortref.htm) Syntax ENDCASE. Effect The statement ENDCASE closes a case distinction(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencase_distinction_glosry.htm 'Glossary Entry') introduced using
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendcase.htm"
+abapFile: "abapendcase.htm"
+keywords: ["do", "case", "try", "abapendcase"]
+---
 
 * * *
 
@@ -385,7 +475,17 @@ The statement ENDCASE closes a [case distinction](https://help.sap.com/doc/abapd
 
 ### abapcase.htm
 
-  
+---
+title: "CASE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_shortref.htm) Syntax CASE operand. WHEN operand1 OR operand2 OR operand3 .... statement_block1 ... WHEN OTHERS. statement_blockn ENDCASE. Effect Case Distin
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase.htm"
+abapFile: "abapcase.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abapcase"]
+---
 
 * * *
 
@@ -487,7 +587,17 @@ Continue
 
 ### abapcase_type.htm
 
-  
+---
+title: "CASE TYPE OF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_type_shortref.htm) Syntax CASE TYPE OF oref. WHEN TYPE classintf INTO target1. statement_block1 WHEN TYPE classintf INTO target2. statement_block2 ... WHE
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_type.htm"
+abapFile: "abapcase_type.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abapcase", "type"]
+---
 
 * * *
 
@@ -645,7 +755,17 @@ Continue
 
 ### abapwhen_type.htm
 
-  
+---
+title: "WHEN TYPE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_shortref.htm) Syntax WHEN TYPE ... INTO target. Effect See CASE TYPE OF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_type.htm).
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhen_type.htm"
+abapFile: "abapwhen_type.htm"
+keywords: ["do", "case", "abapwhen", "type"]
+---
 
 * * *
 
@@ -668,7 +788,17 @@ See [CASE TYPE OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/ab
 
 ### abencase_type_of_exception_abexa.htm
 
-  
+---
+title: "Case Distinction CASE TYPE OF for Exceptions"
+description: |
+  This example demonstrates the case distinction CASE TYPE OF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_type.htm) for exception classes. Source Code REPORT demo_case_type_of_exception. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DAT
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencase_type_of_exception_abexa.htm"
+abapFile: "abencase_type_of_exception_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abencase", "type", "exception", "abexa"]
+---
 
 * * *
 
@@ -723,7 +853,17 @@ Non-specific exceptions of the superclass CX\_DYNAMIC\_CHECK can be propagated f
 
 ### abencase_type_of_rtti_abexa.htm
 
-  
+---
+title: "Case Distinction CASE TYPE OF for RTTI"
+description: |
+  This example demonstrates the case distinction CASE TYPE OF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_type.htm) for type description classes. Source Code REPORT demo_case_type_of_rtti. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main IMPORTING param TYPE any.
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencase_type_of_rtti_abexa.htm"
+abapFile: "abencase_type_of_rtti_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencase", "type", "rtti", "abexa"]
+---
 
 * * *
 
@@ -777,7 +917,17 @@ Actual parameters of various types are passed to the generically typed parameter
 
 ### abapcase_type.htm
 
-  
+---
+title: "CASE TYPE OF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_type_shortref.htm) Syntax CASE TYPE OF oref. WHEN TYPE classintf INTO target1. statement_block1 WHEN TYPE classintf INTO target2. statement_block2 ... WHE
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase_type.htm"
+abapFile: "abapcase_type.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abapcase", "type"]
+---
 
 * * *
 

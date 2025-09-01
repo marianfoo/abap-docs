@@ -1,4 +1,14 @@
-  
+---
+title: "Inheritance Events"
+description: |
+  The example demonstrates the behavior of inheritance events(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_events.htm). Source Code REPORT demo_event_inheritance. CLASS c1 DEFINITION. PUBLIC SECTION. CLASS-EVENTS  ce1. CLASS-METHODS cm1. EVENTS  ie1. METHODS im1. ENDC
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_inheritance_abexa.htm"
+abapFile: "abenevent_inheritance_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenevent", "inheritance", "abexa"]
+---
 
 * * *
 

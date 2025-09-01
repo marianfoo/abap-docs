@@ -1,4 +1,14 @@
-  
+---
+title: "global_interface_glosry"
+description: |
+  global_interface_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenglobal_interface_glosry.htm"
+abapFile: "abenglobal_interface_glosry.htm"
+keywords: ["do", "if", "try", "abenglobal", "interface", "glosry"]
+---
 
 * * *
 

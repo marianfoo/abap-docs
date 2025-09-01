@@ -1,4 +1,14 @@
-  
+---
+title: "Byte-like data type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.htm 'Glossary Entry') that enables access to the non-encoded bytes in byte chains(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbyte_chain_glosry.htm 'Glossary Entry'). These data types are
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbyte_like_data_typ_glosry.htm"
+abapFile: "abenbyte_like_data_typ_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenbyte", "like", "typ", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_modify_table_using_key DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_modify_table_using_key IMPLEMENTATION. METHOD main. DATA: sf
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodify_itab_using_key_abexa.htm"
+abapFile: "abenmodify_itab_using_key_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "internal-table", "field-symbol", "abenmodify", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

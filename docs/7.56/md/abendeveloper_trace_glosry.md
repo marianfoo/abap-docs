@@ -1,4 +1,14 @@
-  
+---
+title: "developer_trace_glosry"
+description: |
+  developer_trace_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeveloper_trace_glosry.htm"
+abapFile: "abendeveloper_trace_glosry.htm"
+keywords: ["do", "try", "abendeveloper", "trace", "glosry"]
+---
 
 * * *
 

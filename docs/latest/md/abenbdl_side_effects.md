@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - side effects"
+description: |
+  Syntax side effects  field MyField affects Targets(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_side_effects_target.htm);    action MyAction affects Targets(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_side_effects_target.htm);
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_side_effects.htm"
+abapFile: "abenbdl_side_effects.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "abenbdl", "side", "effects"]
+---
 
 * * *
 

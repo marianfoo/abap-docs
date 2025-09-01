@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Access to CDS Entities"
+description: |
+  -   Access to and typing with CDS-managed DDIC views(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_mngdddic_view_glosry.htm 'Glossary Entry') is obsolete A CDS-managed DDIC view (obsolete), specified using the annotation @AbapCatalog.sqlViewName(https://help.sap.com/doc/abap
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_access_obsolete.htm"
+abapFile: "abencds_access_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abencds", "access", "obsolete"]
+---
 
 * * *
 

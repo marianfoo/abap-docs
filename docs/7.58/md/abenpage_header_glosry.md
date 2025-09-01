@@ -1,4 +1,14 @@
-  
+---
+title: "page_header_glosry"
+description: |
+  page_header_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpage_header_glosry.htm"
+abapFile: "abenpage_header_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenpage", "header", "glosry"]
+---
 
 * * *
 

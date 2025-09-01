@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE itab, duplicates"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_itab_shortref.htm) Syntax ... ADJACENT DUPLICATES FROM itab USING KEY keyname(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkeyname.htm) COMPARING  comp1(https://help.sap.com/d
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_duplicates.htm"
+abapFile: "abapdelete_duplicates.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapdelete", "duplicates"]
+---
 
 * * *
 

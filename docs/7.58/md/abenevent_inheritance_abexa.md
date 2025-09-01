@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Events in Inheritance"
+description: |
+  This example demonstrates the behavior of events in inheritance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_events.htm). Source Code  Public class definition CLASS cl_demo_event_inheritance DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBL
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_inheritance_abexa.htm"
+abapFile: "abenevent_inheritance_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenevent", "inheritance", "abexa"]
+---
 
 * * *
 

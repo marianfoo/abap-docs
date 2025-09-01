@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - CDS Entities"
+description: |
+  The following sections describe the possible CDS entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry'): -   CDS view entities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_views.htm) -   CDS projection v
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity.htm"
+abapFile: "abencds_view_entity.htm"
+keywords: ["do", "if", "try", "data", "abencds", "view", "entity"]
+---
 
 * * *
 

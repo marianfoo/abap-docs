@@ -1,4 +1,14 @@
-  
+---
+title: "Static Method Calls"
+description: |
+  There are two types of static method call, standalone static method calls and functional static method calls. Method chainings are a special form of static method call. -   meth( ... ) - Standalone Method Call(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_static_short.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_calls_static.htm"
+abapFile: "abenmethod_calls_static.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "types", "abenmethod", "calls", "static"]
+---
 
 * * *
 

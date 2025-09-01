@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Implementation Type"
+description: |
+  Syntax  implementation managed  unmanaged  abstract  projection   interface ... Effect RAP BDL offers the following statements for different implementation types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef_impl_type_glosry.htm 'Glossary En
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_impl_type.htm"
+abapFile: "abenbdl_impl_type.htm"
+keywords: ["update", "delete", "do", "if", "try", "types", "abenbdl", "impl", "type"]
+---
 
 * * *
 

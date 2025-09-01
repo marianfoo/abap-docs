@@ -1,4 +1,14 @@
-  
+---
+title: "interactive_list_proces_glosry"
+description: |
+  interactive_list_proces_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninteractive_list_proces_glosry.htm"
+abapFile: "abeninteractive_list_proces_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "abeninteractive", "list", "proces", "glosry"]
+---
 
 * * *
 

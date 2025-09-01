@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, coalesce Function"
+description: |
+  This example demonstrates the coalesce function in SQL expressions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm). Source Code REPORT demo_sql_expr_coalesce NO STANDARD PAGE HEADING. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PR
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_expr_coalesce_abexa.htm"
+abapFile: "abensql_expr_coalesce_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abensql", "expr", "coalesce", "abexa"]
+---
 
 * * *
 

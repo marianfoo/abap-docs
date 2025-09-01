@@ -1,4 +1,14 @@
-  
+---
+title: "CONTINUE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontinue.htm) Syntax CONTINUE. Effect Exits a loop. The current loop pass is exited and the loop is continued with the next loop pass.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontinue_shortref.htm"
+abapFile: "abapcontinue_shortref.htm"
+keywords: ["loop", "do", "if", "abapcontinue", "shortref"]
+---
 
 * * *
 

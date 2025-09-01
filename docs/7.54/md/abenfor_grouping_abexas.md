@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Grouping with FOR"
+description: |
+  !Example(exa.gif 'Example') Internal Table, Grouping with FOR Using Column Values(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_group_by_values_abexa.htm) !Example(exa.gif 'Example') Internal Tables, Grouping with FOR Using a Method(https://help.sap.com/doc/abapdocu_754_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_grouping_abexas.htm"
+abapFile: "abenfor_grouping_abexas.htm"
+keywords: ["do", "if", "method", "data", "internal-table", "abenfor", "grouping", "abexas"]
+---
 
 * * *
 

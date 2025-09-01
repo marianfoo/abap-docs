@@ -1,4 +1,14 @@
-  
+---
+title: "Functions and Expressions for Operand Positions"
+description: |
+  -   Write Positions(#abenfunctions-expressions-1--------read-positions---@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2) Write Positions The following expressions can be listed in write positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwriting_position_glosry.htm 'Glossary Entry'): -
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunctions_expressions.htm"
+abapFile: "abenfunctions_expressions.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "abenfunctions", "expressions"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Functions and Expressions for Operand Positions
 
--   [Write Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_1)
-
--   [Read Positions](#@@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
+-   [Write Positions](#abenfunctions-expressions-1--------read-positions---@ITOC@@ABENFUNCTIONS_EXPRESSIONS_2)
 
 Write Positions
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Streaming for Strings"
+description: |
+  The specific classes for streaming(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstreaming_glosry.htm 'Glossary Entry') for strings are: -   CL_ABAP_STRING_C_READER -   CL_ABAP_STRING_C_WRITER -   CL_ABAP_STRING_X_READER -   CL_ABAP_STRING_X_WRITER These classes ar
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_streams.htm"
+abapFile: "abenstring_streams.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "abenstring", "streams"]
+---
 
 * * *
 

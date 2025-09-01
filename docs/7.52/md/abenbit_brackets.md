@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( bit_exp ) ... Effect A full bit expression bit_exp can be placed in parentheses. A bit expression in parentheses can be used as the operand of another bit expression and is not calculated until used in this way. Example Parentheses in bit expressions TYPES output TYPE TABLE OF xstring WITH E
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbit_brackets.htm"
+abapFile: "abenbit_brackets.htm"
+keywords: ["do", "data", "types", "abenbit", "brackets"]
+---
 
 * * *
 

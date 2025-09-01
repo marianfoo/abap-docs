@@ -1,4 +1,14 @@
-  
+---
+title: "RAP static field characteristic"
+description: |
+  Field characteristic(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_field_char_glosry.htm 'Glossary Entry') that defines usage restrictions for a RAP BO field(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_field_glosry.htm 'Glossary Entry') in
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_static_field_char_glosry.htm"
+abapFile: "abenrap_static_field_char_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "static", "field", "char", "glosry"]
+---
 
 * * *
 

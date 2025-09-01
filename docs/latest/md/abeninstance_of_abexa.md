@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  CCDEF INTERFACE intf. ENDINTERFACE. CLASS c1 DEFINITION. PUBLIC SECTION. INTERFACES intf. ENDCLASS. CLASS c2 DEFINITION INHERITING FROM c1. ENDCLASS.  Public class definition CLASS cl_demo_is_instance_of DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. MET
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_of_abexa.htm"
+abapFile: "abeninstance_of_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "field-symbol", "abeninstance", "abexa"]
+---
 
 * * *
 

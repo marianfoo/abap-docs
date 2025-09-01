@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION EXCEPTIONS, Short Form"
+description: |
+  Obsolete Syntax CALL FUNCTION func ... EXCEPTIONS exc1 exc2 ... Effect This short form for specifying non-class-based exceptions in the parameter list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_parameter.htm) of the statement CALL FUNCTION(https://help.sap.
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_exc_short_form.htm"
+abapFile: "abapcall_function_exc_short_form.htm"
+keywords: ["do", "if", "catch", "class", "abapcall", "function", "exc", "short", "form"]
+---
 
 * * *
 

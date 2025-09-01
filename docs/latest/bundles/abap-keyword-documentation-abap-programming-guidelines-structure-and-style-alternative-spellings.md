@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenalternative_spelling_gdl.htm
 
-  
+---
+title: "Alternative Spellings"
+description: |
+  Some ABAP statements can be written with different spellings, but interpreted by the compiler in the same way. To make programming easier to understand, however, spellings should be kept the same, with alternative spelling used only in special situations. -   Alternative Language Constructs(https:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalternative_spelling_gdl.htm"
+abapFile: "abenalternative_spelling_gdl.htm"
+keywords: ["do", "if", "method", "abenalternative", "spelling", "gdl"]
+---
 
 * * *
 
@@ -35,7 +45,17 @@ Continue
 
 ### abenalternative_langu_guidl.htm
 
-  
+---
+title: "Alternative Language Constructs"
+description: |
+  Background Alternative language constructs are parts of statements that can be written in different ways. One reason for this are the constant new developments in the language. Often, new spellings are introduced and the old spellings retained for reasons of downward-compatibility. Rule Use consiste
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalternative_langu_guidl.htm"
+abapFile: "abenalternative_langu_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "data", "types", "abenalternative", "langu", "guidl"]
+---
 
 * * *
 
@@ -98,7 +118,17 @@ FIND SUBSTRING '...' IN text.
 
 ### abenchained_statements_guidl.htm
 
-  
+---
+title: "Chained Statements"
+description: |
+  Background Successive ABAP statements that have the same starting part can be expressed in a chained statement. A chained statement consists of the identical starting part that is specified once and that is concluded by a colon (:). Behind this colon, the remaining parts are separated by commas (,).
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchained_statements_guidl.htm"
+abapFile: "abenchained_statements_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "data", "types", "exception-handling", "abenchained", "statements", "guidl"]
+---
 
 * * *
 
@@ -247,7 +277,17 @@ cl\_demo\_output=>new(
 
 ### abenmethod_call_guidl.htm
 
-  
+---
+title: "Method Calls"
+description: |
+  Background Static calls of methods can be formulated in two different ways. The obsolete long form(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static.htm) CALL METHOD meth EXPORTING ... is based on the notation of the function module call. Alternatively, a shor
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_call_guidl.htm"
+abapFile: "abenmethod_call_guidl.htm"
+keywords: ["insert", "do", "if", "method", "class", "abenmethod", "call", "guidl"]
+---
 
 * * *
 
@@ -324,7 +364,17 @@ cl\_class=>do\_something(
 
 ### abenassign_calc_guidl.htm
 
-  
+---
+title: "Assignments"
+description: |
+  Background For explicit assignments in which the value of a source is assigned to a target, ABAP contains the general assignment operator =(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm) and the special casting operator ?=(https://help.sap.com/doc/abapd
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassign_calc_guidl.htm"
+abapFile: "abenassign_calc_guidl.htm"
+keywords: ["do", "if", "try", "method", "data", "abenassign", "calc", "guidl"]
+---
 
 * * *
 
@@ -415,7 +465,17 @@ FINAL(result) = CONV decfloat34( number1 \* number2 ).
 
 ### abencalc_expresssion_guidl.htm
 
-  
+---
+title: "Calculations"
+description: |
+  Background In ABAP, the arithmetic operators(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_operator_glosry.htm 'Glossary Entry') in arithmetic expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm 'Glossa
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalc_expresssion_guidl.htm"
+abapFile: "abencalc_expresssion_guidl.htm"
+keywords: ["do", "if", "try", "abencalc", "expresssion", "guidl"]
+---
 
 * * *
 

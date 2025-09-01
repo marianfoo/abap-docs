@@ -1,4 +1,14 @@
-  
+---
+title: "transaction_owner_glosry"
+description: |
+  transaction_owner_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransaction_owner_glosry.htm"
+abapFile: "abentransaction_owner_glosry.htm"
+keywords: ["do", "if", "abentransaction", "owner", "glosry"]
+---
 
 * * *
 

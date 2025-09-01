@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Delivery Class of Database Tables"
+description: |
+  The delivery class of a DDIC database table controls the transport of table data in installations, upgrades, or client copies, and in transports between customer systems. It is also considered in extended table maintenance (transaction code SM30). -   Delivery class A Application table for master da
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_delivery.htm"
+abapFile: "abenddic_database_tables_delivery.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "class", "data", "abenddic", "database", "tables", "delivery"]
+---
 
 * * *
 

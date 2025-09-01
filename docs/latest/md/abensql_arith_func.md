@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... func( arg1, arg2 ... ) ... Effect Calls an numeric function func as an SQL expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm) or operand of an expression in ABAP SQL. The arguments arg1, arg2, ... of the function are specified as a comma-separa
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_arith_func.htm"
+abapFile: "abensql_arith_func.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "data", "types", "internal-table", "abensql", "arith", "func"]
+---
 
 * * *
 

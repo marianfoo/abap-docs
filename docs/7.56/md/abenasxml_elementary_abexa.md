@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_asxml_elementary. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: i          TYPE i            VALUE -123, int8       TYPE int8         VALUE -123, p          TYPE p DECIMALS 2 VALUE `-1.23`, decfloat16 TYPE decfloat1
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasxml_elementary_abexa.htm"
+abapFile: "abenasxml_elementary_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "abenasxml", "elementary", "abexa"]
+---
 
 * * *
 

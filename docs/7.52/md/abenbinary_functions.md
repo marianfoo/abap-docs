@@ -1,4 +1,14 @@
-  
+---
+title: "Byte String Functions"
+description: |
+  Byte string functions belong to thepredefined functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions.htm). They are divided into: -   Description function for byte-like data types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescriptive_func
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinary_functions.htm"
+abapFile: "abenbinary_functions.htm"
+keywords: ["do", "if", "data", "types", "abenbinary", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ULINE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapuline.htm) Syntax ULINE AT /pos(len) NO-GAP. Effect Creates an unbroken horizontal line in a list. Additions -   AT /pos(len) Specifies line break/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapuline_shortref.htm"
+abapFile: "abapuline_shortref.htm"
+keywords: ["do", "if", "try", "abapuline", "shortref"]
+---
 
 * * *
 

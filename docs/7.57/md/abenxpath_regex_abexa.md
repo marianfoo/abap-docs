@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_xpath_regex. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(xml) = `<xml><Hello type='cheerful' lang='EN'></Hello>` && `<World text='world'><Ocean color='blue' /></World></xml>`. FINAL(matcher) = cl_abap_regex=>c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxpath_regex_abexa.htm"
+abapFile: "abenxpath_regex_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenxpath", "regex", "abexa"]
+---
 
 * * *
 

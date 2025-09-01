@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Projection Views"
+description: |
+  A DDIC projection view is a special view for hiding fields from a single basis table. An SQL view is not created on the database. No selection conditions can be specified for a DDIC projection view. The structure type defined using the view fields of the projection view can be referenced in ABAP pro
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_projection_views.htm"
+abapFile: "abenddic_projection_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "data", "abenddic", "projection", "views"]
+---
 
 * * *
 

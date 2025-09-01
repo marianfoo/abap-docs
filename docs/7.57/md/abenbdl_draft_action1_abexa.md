@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Draft Action Activate"
+description: |
+  This example demonstrates how the draft action Activate is defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of the root entity DEMO_RAP_MANAGED_DRAFT_1. Root entity: @AccessControl.authorizationCheck: #CHECK @EndUserText.label: 'CDS view entity, RAP
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_action1_abexa.htm"
+abapFile: "abenbdl_draft_action1_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "draft", "action1", "abexa"]
+---
 
 * * *
 

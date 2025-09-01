@@ -1,4 +1,14 @@
-  
+---
+title: "Function Module Interface"
+description: |
+  The parameter interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenparameter_interface_glosry.htm 'Glossary Entry') of a function module is defined in Function Builder. It defines interface parameters and specifies exceptions that can be raised by a function module. Function Bu
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm"
+abapFile: "abenfunction.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "abenfunction"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FAILED failed_resp MAPPED mapped_resp REPORTED reported_resp ... Effect Used to specify response parameters for ABAP EML statements to get information on the following: -   Failures, i. e. operations that could not get processed (FAILED failed_resp) -   Key mapping in
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_response.htm"
+abapFile: "abapeml_response.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "data", "types", "abapeml", "response"]
+---
 
 * * *
 

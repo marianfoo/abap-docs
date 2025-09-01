@@ -1,4 +1,14 @@
-  
+---
+title: "SUMMING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsumming_shortref.htm) Obsolete Syntax SUMMING dobj. Effect For every WRITE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite-.htm) statement that after executing the statement SUMMING, which is forb
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsumming.htm"
+abapFile: "abapsumming.htm"
+keywords: ["select", "do", "if", "try", "catch", "class", "data", "abapsumming"]
+---
 
 * * *
 

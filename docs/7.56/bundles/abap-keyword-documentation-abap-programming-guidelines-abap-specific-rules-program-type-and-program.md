@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenprogr_type_features_gdl.htm
 
-  
+---
+title: "Program Type and Program Attributes"
+description: |
+  As soon as an ABAP program is created, important decisions must be made about its robustness and maintainability by selecting its program type and attributes. Among other things, the program type and program attributes determine how strict the syntax check is. Another important property of a program
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogr_type_features_gdl.htm"
+abapFile: "abenprogr_type_features_gdl.htm"
+keywords: ["select", "do", "if", "abenprogr", "type", "features", "gdl"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abenprogram_type_guidl.htm
 
-  
+---
+title: "Program Type"
+description: |
+  Background Each ABAP program has a program type that specifies which declarations and processing blocks a program can contain, and how it can be executed using the ABAP runtime framework. These are the possible program types in ABAP: -   Executable program An executable program can contain all possi
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_type_guidl.htm"
+abapFile: "abenprogram_type_guidl.htm"
+keywords: ["select", "update", "do", "if", "case", "method", "class", "types", "internal-table", "abenprogram", "type", "guidl"]
+---
 
 * * *
 
@@ -121,7 +141,17 @@ In cases where program types other than class and interface pools are still used
 
 ### abenprogram_attribute_guidl.htm
 
-  
+---
+title: "Program Attributes"
+description: |
+  Background Alongside various, less important properties, each ABAP program has a set of program attributes that control specific aspects of the program behavior and syntax check severity: -   ABAP language version for configuring the ABAP language version(https://help.sap.com/doc/abapdocu_756_inde
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_attribute_guidl.htm"
+abapFile: "abenprogram_attribute_guidl.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "types", "abenprogram", "attribute", "guidl"]
+---
 
 * * *
 
@@ -198,7 +228,17 @@ The above code produces a syntax error when used in an ABAP program defined as [
 
 ### abenoriginal_langu_guidl.htm
 
-  
+---
+title: "Original Language"
+description: |
+  Background When a new repository object is created, such as a program, class, or database table in ABAP Dictionary, its original language must be specified. This is specified implicitly by the current logon language. All translatable texts created as part of a development object in a development pro
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoriginal_langu_guidl.htm"
+abapFile: "abenoriginal_langu_guidl.htm"
+keywords: ["do", "if", "case", "class", "data", "types", "abenoriginal", "langu", "guidl"]
+---
 
 * * *
 

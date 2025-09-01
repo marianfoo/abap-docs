@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - SELECT, CDS View Entity, Operands and Expressions"
+description: |
+  -   Elementary operands(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_operands_v2.htm): -   Literals(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_literal_v2.htm) -   Fields of data sources(https://help.sap.com/doc/abapdocu_latest_index_htm/l
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_operands_and_expr_v2.htm"
+abapFile: "abencds_operands_and_expr_v2.htm"
+keywords: ["select", "do", "if", "case", "data", "abencds", "operands", "and", "expr"]
+---
 
 * * *
 

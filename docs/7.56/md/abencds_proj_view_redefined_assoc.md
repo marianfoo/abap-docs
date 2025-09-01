@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - REDEFINE ASSOCIATION, transactional query"
+description: |
+  Syntax ... REDEFINE ASSOCIATION source._ProjAssoc  filter(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_pv_assoc_modified.htm) AS _RedefinedName redirection(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_pv_assoc_redirected.htm)
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_view_redefined_assoc.htm"
+abapFile: "abencds_proj_view_redefined_assoc.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "proj", "view", "redefined", "assoc"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC projection view"
+description: |
+  Special DDIC table view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_view_glosry.htm 'Glossary Entry') of the ABAP Dictionary(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) for a DDIC database table(https://help.sap.com/doc/abapdocu_
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_proj_view_glosry.htm"
+abapFile: "abenddic_proj_view_glosry.htm"
+keywords: ["do", "try", "data", "abenddic", "proj", "view", "glosry"]
+---
 
 * * *
 

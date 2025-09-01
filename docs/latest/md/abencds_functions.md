@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - FDL for Function Definitions"
+description: |
+  ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cds_glosry.htm 'Glossary Entry') offers the following user-defined CDS functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_function_glosry.htm 'Glossary Entry'): -   ABAP CDS - Scalar
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm"
+abapFile: "abencds_functions.htm"
+keywords: ["do", "if", "try", "data", "abencds", "functions"]
+---
 
 * * *
 

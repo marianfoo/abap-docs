@@ -1,4 +1,14 @@
-  
+---
+title: "vertex_attr_glosry"
+description: |
+  vertex_attr_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvertex_attr_glosry.htm"
+abapFile: "abenvertex_attr_glosry.htm"
+keywords: ["do", "if", "try", "abenvertex", "attr", "glosry"]
+---
 
 * * *
 

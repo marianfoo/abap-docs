@@ -1,4 +1,14 @@
-  
+---
+title: "Program Calls, Filling the Selection Screen"
+description: |
+  The example demonstrates how to fill the standard selection screen when a program is called. Source Code REPORT demo_program_submit_sel_screen. SELECTION-SCREEN BEGIN OF SCREEN 1100. PARAMETERS: rsparams  RADIOBUTTON GROUP grp1, withexpr  RADIOBUTTON GROUP grp1. SELECTION-SCREEN END OF SCREEN 11
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubmit_selscreen_abexa.htm"
+abapFile: "abensubmit_selscreen_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensubmit", "selscreen", "abexa"]
+---
 
 * * *
 

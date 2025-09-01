@@ -1,4 +1,14 @@
-  
+---
+title: "Operating System Statements of the Host Computer"
+description: |
+  There is one recommended framework when executing operating system statements on the host computer(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abena
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_system_commands_appl.htm"
+abapFile: "abenabap_system_commands_appl.htm"
+keywords: ["do", "try", "method", "data", "abenabap", "system", "commands", "appl"]
+---
 
 * * *
 

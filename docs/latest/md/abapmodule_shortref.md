@@ -1,4 +1,14 @@
-  
+---
+title: "MODULE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule.htm) Syntax MODULE mod OUTPUTINPUT. ... ENDMODULE. Effect Defines a dialog module(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendialog_module_glosry.htm 'Glossary Entry') m
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodule_shortref.htm"
+abapFile: "abapmodule_shortref.htm"
+keywords: ["do", "if", "try", "abapmodule", "shortref"]
+---
 
 * * *
 

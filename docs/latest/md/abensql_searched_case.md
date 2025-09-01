@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... CASE WHEN sql_cond1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_expr_logexp.htm) THEN result1 WHEN sql_cond2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_expr_logexp.htm) THEN result2 WHEN sql_cond3(https://hel
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_searched_case.htm"
+abapFile: "abensql_searched_case.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abensql", "searched"]
+---
 
 * * *
 

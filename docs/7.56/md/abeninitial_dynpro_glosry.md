@@ -1,4 +1,14 @@
-  
+---
+title: "initial_dynpro_glosry"
+description: |
+  initial_dynpro_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_dynpro_glosry.htm"
+abapFile: "abeninitial_dynpro_glosry.htm"
+keywords: ["do", "if", "try", "abeninitial", "dynpro", "glosry"]
+---
 
 * * *
 

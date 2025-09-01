@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE TO LIST-PROCESSING"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_to_list-process_shortref.htm) Syntax LEAVE TO LIST-PROCESSING AND RETURN TO SCREEN dynnr. Addition: ... AND RETURN TO SCREEN dynnr(#!ABAP_ONE_ADD@1@) Effect This statement can be executed during PBO(ht
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_to_list-processing.htm"
+abapFile: "abapleave_to_list-processing.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "class", "data", "abapleave", "list", "processing"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SQL view"
+description: |
+  ABAP-managed database object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry') that is generated automatically by the ABAP Dictionary(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary_glosry.htm 'Glossa
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_view_glosry.htm"
+abapFile: "abensql_view_glosry.htm"
+keywords: ["do", "try", "data", "abensql", "view", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Enhancements Using BAdIs"
+description: |
+  BAdIs are part of the enhancements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_glosry.htm 'Glossary Entry') made available by the ABAP Enhancement Framework(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_framework_glosry.htm 'Glossary En
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbadi_enhancement.htm"
+abapFile: "abenbadi_enhancement.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenbadi", "enhancement"]
+---
 
 * * *
 

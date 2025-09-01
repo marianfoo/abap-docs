@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenmesh_path_expression.htm
 
-  
+---
+title: "Mesh Path Expressions"
+description: |
+  Syntax ... mesh_path(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path.htm) ... Effect Specifies a mesh path mesh_path(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path.htm) as a standalone mesh path expression at an operand position. The result of
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm"
+abapFile: "abenmesh_path_expression.htm"
+keywords: ["select", "do", "if", "data", "abenmesh", "path", "expression"]
+---
 
 * * *
 
@@ -49,7 +59,17 @@ Continue
 
 ### abenmesh_table_expressions_abexa.htm
 
-  
+---
+title: "Mesh Path Expressions"
+description: |
+  This example demonstrates how mesh paths can be used as standalone expressions. Source Code REPORT demo_mesh_expressions_flights. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: t_scarr    TYPE HASHED TABLE OF scarr WITH UNIQUE KEY carrid,
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_table_expressions_abexa.htm"
+abapFile: "abenmesh_table_expressions_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenmesh", "table", "expressions", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Calling Transactions"
+description: |
+  A transaction is the execution of a program using a transaction code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransaction_code_glosry.htm 'Glossary Entry'). The process flow of the program depends on which initial dynpro(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_call_transaction.htm"
+abapFile: "abenabap_call_transaction.htm"
+keywords: ["select", "do", "try", "method", "abenabap", "call", "transaction"]
+---
 
 * * *
 

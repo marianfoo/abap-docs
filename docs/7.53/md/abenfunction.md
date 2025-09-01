@@ -1,4 +1,14 @@
-  
+---
+title: "Function Module Interface"
+description: |
+  The parameter interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenparameter_interface_glosry.htm 'Glossary Entry') of a function module is defined in Function Builder or in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadt_gl
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction.htm"
+abapFile: "abenfunction.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "abenfunction"]
+---
 
 * * *
 

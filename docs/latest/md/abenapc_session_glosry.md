@@ -1,4 +1,14 @@
-  
+---
+title: "APC session"
+description: |
+  User session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_session_glosry.htm 'Glossary Entry') for APC processing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_processing_glosry.htm 'Glossary Entry'). An APC session is opened by the APC fram
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_session_glosry.htm"
+abapFile: "abenapc_session_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenapc", "session", "glosry"]
+---
 
 * * *
 

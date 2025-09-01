@@ -1,4 +1,14 @@
-  
+---
+title: "RAP saver method"
+description: |
+  Special method in a RAP saver class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_class_glosry.htm 'Glossary Entry') of an ABAP behavior pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') that is cal
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_method_glosry.htm"
+abapFile: "abenabp_saver_method_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabp", "saver", "glosry"]
+---
 
 * * *
 

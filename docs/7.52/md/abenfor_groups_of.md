@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... FOR GROUPS group<group> OF wa<fs> IN itab INDEX INTO idx cond(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_cond.htm) GROUP BY group_key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_group_by_key.htm) ASCEN
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_groups_of.htm"
+abapFile: "abenfor_groups_of.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "data", "types", "internal-table", "field-symbol", "abenfor", "groups"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - entity behavior definition, abstract BDEF"
+description: |
+  Syntax  define behavior for AbstractEntity alias AliasName with control  entity behavior body(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_projection.htm)    scalar entity AbstractEntity field FieldName  behavior for ChildEntity1
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm"
+abapFile: "abenbdl_define_beh_abstract.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenbdl", "define", "beh", "abstract"]
+---
 
 * * *
 

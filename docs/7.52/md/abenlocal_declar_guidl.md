@@ -1,4 +1,14 @@
-  
+---
+title: "Local Declarations"
+description: |
+  Background Local declarations can be made in a procedure ( method(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm 'Guideline')). These are data types, data objects, and field symbols that are valid in the context of the procedure only. Therefore, th
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_declar_guidl.htm"
+abapFile: "abenlocal_declar_guidl.htm"
+keywords: ["select", "loop", "do", "if", "method", "data", "types", "field-symbol", "abenlocal", "declar", "guidl"]
+---
 
 * * *
 

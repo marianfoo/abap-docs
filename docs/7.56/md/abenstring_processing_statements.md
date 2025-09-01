@@ -1,4 +1,14 @@
-  
+---
+title: "Statements for Character String and Byte String Processing"
+description: |
+  The following table shows the key words for character and byte string processing and the processing supported by these statements. Keyword Character String Processing Byte String Processing CONCATENATE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconcatenate.htm) X X FIND(https
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_statements.htm"
+abapFile: "abenstring_processing_statements.htm"
+keywords: ["do", "if", "case", "data", "abenstring", "processing", "statements"]
+---
 
 * * *
 

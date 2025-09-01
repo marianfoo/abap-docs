@@ -1,4 +1,14 @@
-  
+---
+title: "charlike_expr_position_glosry"
+description: |
+  charlike_expr_position_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_expr_position_glosry.htm"
+abapFile: "abencharlike_expr_position_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencharlike", "expr", "position", "glosry"]
+---
 
 * * *
 

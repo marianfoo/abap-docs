@@ -1,4 +1,14 @@
-  
+---
+title: "GET node - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget-.htm) Syntax GET node LATE FIELDS f1 f2 .... Effect Obsolete: Introduces an event block whose event is raised by a logical database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/ab
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_shortref.htm"
+abapFile: "abapget_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapget", "shortref"]
+---
 
 * * *
 

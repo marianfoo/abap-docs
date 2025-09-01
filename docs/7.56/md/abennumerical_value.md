@@ -1,4 +1,14 @@
-  
+---
+title: "Representation of Numeric Values in Character-Like Fields"
+description: |
+  The values of data objects of character-like data types can be assigned to data objects of the numeric types i, int8, (b, s), p, decfloat16, decfloat34, and f if they contain the valid representation of a number. The following character strings are valid numbers: -   Mathematical notation An uninter
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumerical_value.htm"
+abapFile: "abennumerical_value.htm"
+keywords: ["do", "if", "data", "types", "abennumerical", "value"]
+---
 
 * * *
 

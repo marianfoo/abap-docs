@@ -1,4 +1,14 @@
-  
+---
+title: "Extracts - Ascertaining Numbers and Totals"
+description: |
+  This example demonstrates how numbers and totals are ascertained in extracts. Source Code REPORT demo_extract_cnt_sum. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. DATA: t1 TYPE c LENGTH 4, t2 TYPE i. FIELD-GROUPS: header, test. CLASS demo IMPLEMENTATION. METHOD main. INSE
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextract_sum_abexa.htm"
+abapFile: "abenextract_sum_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "abenextract", "sum", "abexa"]
+---
 
 * * *
 

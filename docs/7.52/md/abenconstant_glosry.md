@@ -1,4 +1,14 @@
-  
+---
+title: "Constant"
+description: |
+  Named data object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennamed_data_object_glosry.htm 'Glossary Entry') whose value cannot be changed during the runtime of an ABAP program(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm 'Glossary Ent
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstant_glosry.htm"
+abapFile: "abenconstant_glosry.htm"
+keywords: ["do", "try", "data", "abenconstant", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Overview"
+description: |
+  -   Selection Screens as Dynpros(#abenselection-screen-overview-1-------selection-screen-tasks---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2) -   GUI Status of Selection Screens(#abenselection-screen-overview-3-------selection-screen-events---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4) -   Selection Scr
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_overview.htm"
+abapFile: "abenselection_screen_overview.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenselection", "screen", "overview"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Selection Screens - Overview
 
--   [Selection Screens as Dynpros](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_1)
--   [Selection Screen Tasks](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2)
--   [GUI Status of Selection Screens](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_3)
--   [Selection Screen Events](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4)
+-   [Selection Screens as Dynpros](#abenselection-screen-overview-1-------selection-screen-tasks---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2)
+-   [GUI Status of Selection Screens](#abenselection-screen-overview-3-------selection-screen-events---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4)
 -   [Selection Screens and Logical Databases](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_5)
 
 Selection Screens as Dynpros   

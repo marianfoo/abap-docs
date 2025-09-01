@@ -1,4 +1,14 @@
-  
+---
+title: "Selecting the User Interface Technology"
+description: |
+  Background Various UI technologies can be used for ABAP. We distinguish between classic technologies, which are based on the SAP GUI and are almost completely integrated into the ABAP language, and new Web-based technologies, which display the UI in a Web browser and are accessed through object-orie
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_tech_guidl.htm"
+abapFile: "abeninterface_tech_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abeninterface", "tech", "guidl"]
+---
 
 * * *
 

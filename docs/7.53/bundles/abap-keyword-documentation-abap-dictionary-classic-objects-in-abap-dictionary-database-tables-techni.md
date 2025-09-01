@@ -5,7 +5,17 @@ Included pages: 11
 
 ### abenddic_database_tables_tech.htm
 
-  
+---
+title: "Technical Attributes of Database Tables"
+description: |
+  The technical attributes of a database table include the attributes of its structure and attributes specific to the table. -   Technical attributes of the structure of a database table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_techstruc.htm) -   Specific
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_tech.htm"
+abapFile: "abenddic_database_tables_tech.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "tech"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abenddic_database_tables_techstruc.htm
 
-  
+---
+title: "Structure-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are mostly the same as those of a structure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures_tech.htm) in ABAP Dictionary: -   Table fields (columns) A table field is a component of the structure of the database table and describes t
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_techstruc.htm"
+abapFile: "abenddic_database_tables_techstruc.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "techstruc"]
+---
 
 * * *
 
@@ -95,7 +115,17 @@ Notes
 
 ### abenddic_database_tables_techspec.htm
 
-  
+---
+title: "Table-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are provided specifically for database tables. They define attributes of the physical database table and how the database interface is used for access. With the exception of the table category and activation type, these technical settings constitute a standalone ob
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_techspec.htm"
+abapFile: "abenddic_database_tables_techspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "techspec"]
+---
 
 * * *
 
@@ -133,7 +163,17 @@ Continue
 
 ### abenddic_database_tables_tab_type.htm
 
-  
+---
+title: "Table Category of Database Tables"
+description: |
+  -   Transparent tables(#abenddic-database-tables-tab-type-1--------global-temporary-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_2) Transparent tables The default table category is the transparent table. In transparent tables, the database object has an identically named variant with the same
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_tab_type.htm"
+abapFile: "abenddic_database_tables_tab_type.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenddic", "database", "tables", "tab", "type"]
+---
 
 * * *
 
@@ -143,9 +183,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Table Category of Database Tables
 
--   [Transparent tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_1)
-
--   [Global temporary tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_2)
+-   [Transparent tables](#abenddic-database-tables-tab-type-1--------global-temporary-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_TYPE_2)
 
 Transparent tables
 
@@ -162,7 +200,17 @@ The ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/
 
 ### abenddic_database_tables_dat_type.htm
 
-  
+---
+title: "Data Class of Database Tables"
+description: |
+  For the database platform Oracle, the data class determines the physical area (tablespace) of the database in which a database table is created (otherwise it is ignored). The most important data classes for application data are: -   APPL0 (master data) Data that is rarely changed. One example of mas
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_dat_type.htm"
+abapFile: "abenddic_database_tables_dat_type.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "dat", "type"]
+---
 
 * * *
 
@@ -196,7 +244,17 @@ There are also other data classes for system tables used internally by the runti
 
 ### abenddic_database_tables_siz_cat.htm
 
-  
+---
+title: "Size Category of Database Tables"
+description: |
+  The size category determines the size of the initial memory reserved for the table on the database. Values between 0 and 9 can be specified and intervals of expected rows are assigned to these values. The interval limits assigned to each size category depend on the structure of the database table. T
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_siz_cat.htm"
+abapFile: "abenddic_database_tables_siz_cat.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "siz", "cat"]
+---
 
 * * *
 
@@ -265,7 +323,17 @@ Expected Rows
 
 ### abenddic_database_tables_buffer.htm
 
-  
+---
+title: "Table Buffering of Database Tables"
+description: |
+  It is possible to specify whether table buffering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm 'Glossary Entry') in the table buffer(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_buffer_glosry.htm 'Glossary Entry') of an AS Instan
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_buffer.htm"
+abapFile: "abenddic_database_tables_buffer.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "buffer"]
+---
 
 * * *
 
@@ -277,9 +345,7 @@ Table Buffering of Database Tables
 
 It is possible to specify whether [table buffering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm "Glossary Entry") in the [table buffer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_buffer_glosry.htm "Glossary Entry") of an AS Instance is allowed for a database table and also how it is performed.
 
--   [Buffering Permission](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_1)
-
--   [Buffering Type](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
+-   [Buffering Permission](#abenddic-database-tables-buffer-1--------buffering-type---@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
 
 The table buffer is managed by the [database interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_interface_glosry.htm "Glossary Entry"). When [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") reads are made on tables with activated buffering or if these tables are accessed from classic [dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") , the table buffer is used implicitly.
 
@@ -316,7 +382,17 @@ The buffering type determines which data is loaded from the table to the table b
 
 ### abenddic_database_tables_protocol.htm
 
-  
+---
+title: "Logging Database Tables"
+description: |
+  If logging is activated, any changes to table entries in ABAP SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm 'Glossary Entry') are logged in the log table DBTABLOG. This also requires the profile parameter rec/client to be set accordingly. This profile param
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_protocol.htm"
+abapFile: "abenddic_database_tables_protocol.htm"
+keywords: ["insert", "update", "do", "if", "try", "method", "class", "data", "types", "abenddic", "database", "tables", "protocol"]
+---
 
 * * *
 
@@ -355,7 +431,17 @@ Notes
 
 ### abenddic_database_tables_storage.htm
 
-  
+---
+title: "Storage Type of Database Tables"
+description: |
+  The storage type only applies if the current database is an SAP HANA(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm 'Glossary Entry') database. The specified storage type is ignored by other database systems and the platform-specific storage type is used in
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_storage.htm"
+abapFile: "abenddic_database_tables_storage.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "storage"]
+---
 
 * * *
 
@@ -390,7 +476,17 @@ For more information about the differences between row store and column store on
 
 ### abenddic_database_tables_act_type.htm
 
-  
+---
+title: "Activation Type of Database Tables"
+description: |
+  The activation type defines whether a database table can be activated interactively in an ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_tools.htm) or whether the ABAP runtime environment needs to be used instead. This setting is not relevant for database
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_act_type.htm"
+abapFile: "abenddic_database_tables_act_type.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "act", "type"]
+---
 
 * * *
 
@@ -420,7 +516,17 @@ The default setting in which a database table can be activated interactively in 
 
 ### abenddic_database_tables_techspec.htm
 
-  
+---
+title: "Table-Specific Technical Attributes of Database Tables"
+description: |
+  The following technical attributes are provided specifically for database tables. They define attributes of the physical database table and how the database interface is used for access. With the exception of the table category and activation type, these technical settings constitute a standalone ob
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_techspec.htm"
+abapFile: "abenddic_database_tables_techspec.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "techspec"]
+---
 
 * * *
 

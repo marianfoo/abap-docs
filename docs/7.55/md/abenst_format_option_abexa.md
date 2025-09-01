@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Formatting Options"
+description: |
+  This example demonstrates how ABAP types are mapped using formatting options. Source Code REPORT demo_st_format_option. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, call_transformation CHANGING writer TYPE REF TO cl_sxml_string_writer. CLASS-DATA: boolean        TYPE abap_bool
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_format_option_abexa.htm"
+abapFile: "abenst_format_option_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "abenst", "format", "option", "abexa"]
+---
 
 * * *
 

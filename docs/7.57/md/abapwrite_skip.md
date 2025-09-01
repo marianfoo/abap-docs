@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  WRITE /. Effect This special form of the statement WRITE works like the statement SKIP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapskip.htm).
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_skip.htm"
+abapFile: "abapwrite_skip.htm"
+keywords: ["do", "if", "class", "abapwrite", "skip"]
+---
 
 * * *
 

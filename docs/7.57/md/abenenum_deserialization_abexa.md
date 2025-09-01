@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA input TYPE c LENGTH 3 VALUE 'XL'. cl_demo_input=>request( CHANGING field = input ). input = to_upper( input ). TYPES: BEGIN OF ENUM size, s, m, l, xl, xxl, END OF ENUM size. F
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenum_deserialization_abexa.htm"
+abapFile: "abenenum_deserialization_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenenum", "deserialization", "abexa"]
+---
 
 * * *
 

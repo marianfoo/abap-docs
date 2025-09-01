@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenddic_structures.htm
 
-  
+---
+title: "Structures"
+description: |
+  A structure in ABAP Dictionary defines a structured type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructured_type_glosry.htm 'Glossary Entry') that contains other data types as components. These components can be: -   Elementary data types -   Reference types -   Structured t
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm"
+abapFile: "abenddic_structures.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "structures"]
+---
 
 * * *
 
@@ -63,7 +73,17 @@ Continue
 
 ### abenddic_structures_tech.htm
 
-  
+---
+title: "Technical Attributes of Structures"
+description: |
+  A structure describes a structure type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructured_type_glosry.htm 'Glossary Entry') with the following technical attributes: -   Component name The name of a component can have a maximum of 30 characters, can contain only letters, numb
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm"
+abapFile: "abenddic_structures_tech.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "tech"]
+---
 
 * * *
 
@@ -115,7 +135,17 @@ Continue
 
 ### abenddic_structures_enh_cat.htm
 
-  
+---
+title: "Enhancement Category of Structures"
+description: |
+  ABAP Dictionary structures and database tables that are delivered by SAP can be enhanced using customizing includes(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencustomizing_include_glosry.htm 'Glossary Entry') or append structures(https://help.sap.com/doc/abapdocu_752_index_htm
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_enh_cat.htm"
+abapFile: "abenddic_structures_enh_cat.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "enh", "cat"]
+---
 
 * * *
 
@@ -205,7 +235,17 @@ str = my\_struc+off(len).
 
 ### abenddic_structures_tech.htm
 
-  
+---
+title: "Technical Attributes of Structures"
+description: |
+  A structure describes a structure type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructured_type_glosry.htm 'Glossary Entry') with the following technical attributes: -   Component name The name of a component can have a maximum of 30 characters, can contain only letters, numb
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm"
+abapFile: "abenddic_structures_tech.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "tech"]
+---
 
 * * *
 
@@ -257,7 +297,17 @@ Continue
 
 ### abenddic_structures_sema.htm
 
-  
+---
+title: "Semantic Attributes of Structures"
+description: |
+  Structures in ABAP Dictionary can be given the following semantic attributes: -   Short text of the structure Each structure has a short description specified when it is created. -   Documentation A structure can be given (optional) documentation. -   Short text of components Each component is assig
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_sema.htm"
+abapFile: "abenddic_structures_sema.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "structures", "sema"]
+---
 
 * * *
 
@@ -308,7 +358,17 @@ Structure components whose type is defined using [data elements](https://help.sa
 
 ### abenddic_include_structure.htm
 
-  
+---
+title: "Include Structures"
+description: |
+  Components of a structure can be defined by including the components of other structures in ABAP Dictionary, such as database tables or views. These included structures are known as include structures (or includes for short). From a technical perspective, the structure in which an include structure
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_include_structure.htm"
+abapFile: "abenddic_include_structure.htm"
+keywords: ["select", "insert", "do", "if", "try", "class", "data", "types", "abenddic", "include", "structure"]
+---
 
 * * *
 

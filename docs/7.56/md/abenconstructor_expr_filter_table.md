@@ -1,4 +1,14 @@
-  
+---
+title: "FILTER, Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 

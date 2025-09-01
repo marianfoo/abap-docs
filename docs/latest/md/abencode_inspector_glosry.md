@@ -1,4 +1,14 @@
-  
+---
+title: "Code Inspector"
+description: |
+  CI for short. Tool for checking repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') in terms of performance, security, syntax, and adherence to naming conventions. Called using transaction code(https://help.sap.com
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencode_inspector_glosry.htm"
+abapFile: "abencode_inspector_glosry.htm"
+keywords: ["do", "if", "try", "abencode", "inspector", "glosry"]
+---
 
 * * *
 

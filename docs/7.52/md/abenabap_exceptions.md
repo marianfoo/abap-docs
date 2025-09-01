@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Handling"
+description: |
+  Exceptions are events in the execution of an ABAP program that interrupt the program when it is not possible for the program to continue in a meaningful way. Exception handling enables a response to be made to these events. Exception situations can be detected either by the program or by the runtime
+version: "7.52"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm"
+abapFile: "abenabap_exceptions.htm"
+keywords: ["do", "if", "try", "catch", "class", "exception-handling", "abenabap", "exceptions"]
+---
 
 * * *
 

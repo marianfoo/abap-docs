@@ -1,4 +1,14 @@
-  
+---
+title: "GET PF-STATUS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_pf.htm) Syntax GET PF-STATUS status PROGRAM prog EXCLUDINGfcode. Effect Returns the current GUI status(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengui_status_glosry.htm 'Glossary Entry
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_pf-status_shortref.htm"
+abapFile: "abapget_pf-status_shortref.htm"
+keywords: ["do", "try", "internal-table", "abapget", "status", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data.htm) Syntax CREATE DATA dref  AREA HANDLE handle   TYPE  abap_type(name) LENGTH len DECIMALS dec  LINE OF type(name)  REF TO type(name)
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_shortref.htm"
+abapFile: "abapcreate_data_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abapcreate", "shortref"]
+---
 
 * * *
 

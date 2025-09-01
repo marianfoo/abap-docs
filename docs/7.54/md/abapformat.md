@@ -1,4 +1,14 @@
-  
+---
+title: "FORMAT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapformat_shortref.htm) Syntax FORMAT COLOR       =color ONOFF= col INTENSIFIED ONOFF= flag INVERSE     ONOFF= fl
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapformat.htm"
+abapFile: "abapformat.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapformat"]
+---
 
 * * *
 

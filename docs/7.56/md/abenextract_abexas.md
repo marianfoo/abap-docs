@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Extracts"
+description: |
+  !Example(exa.gif 'Example') Extracts, Processing(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_at_abexa.htm) !Example(exa.gif 'Example') Extracts, Group Level Processing(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_group_abexa.htm) !Example
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_abexas.htm"
+abapFile: "abenextract_abexas.htm"
+keywords: ["do", "if", "data", "abenextract", "abexas"]
+---
 
 * * *
 

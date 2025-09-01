@@ -1,4 +1,14 @@
-  
+---
+title: "SXPG Framework"
+description: |
+  A framework for calling operating system statements of the current AS Instance(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm 'Glossary Entry') host computer(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhost_computer_glosry.htm 'Glo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensxpg_glosry.htm"
+abapFile: "abensxpg_glosry.htm"
+keywords: ["do", "try", "abensxpg", "glosry"]
+---
 
 * * *
 

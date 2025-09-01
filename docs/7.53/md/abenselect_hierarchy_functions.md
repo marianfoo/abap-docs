@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... HIERARCHY( ... )(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_definition.htm)  HIERARCHY_DESCENDANTS( ... )(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_access.htm)  HIERARCHY_ANCESTORS( ... )(https://help.sap.co
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_functions.htm"
+abapFile: "abenselect_hierarchy_functions.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenselect", "hierarchy", "functions"]
+---
 
 * * *
 

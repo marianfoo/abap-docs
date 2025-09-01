@@ -1,4 +1,14 @@
-  
+---
+title: "Formatting Settings"
+description: |
+  Formats The formatting settings of the language environment(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlanguage.htm) determine -   the number format (decimal and thousand separators) -   The date format (separators and order) -   The time format (24 hour or 12 hour format) for
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm"
+abapFile: "abencountry.htm"
+keywords: ["insert", "do", "if", "try", "method", "class", "data", "types", "abencountry"]
+---
 
 * * *
 

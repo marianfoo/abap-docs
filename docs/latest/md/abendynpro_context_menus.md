@@ -1,4 +1,14 @@
-  
+---
+title: "Method"
+description: |
+  Function LOAD_GUI_STATUS Appends a context menu predefined statically in Menu Painter to a context menu in the local program. ADD_FUNCTION Appends a single function to a context menu in the local program. ADD_MENU Appends another context menu to the current context menu in the local program. ADD
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_context_menus.htm"
+abapFile: "abendynpro_context_menus.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "abendynpro", "context", "menus"]
+---
 
 * * *
 

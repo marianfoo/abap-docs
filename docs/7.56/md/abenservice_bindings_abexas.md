@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Consuming Business Services"
+description: |
+  !Example(exa.gif 'Example') ABAP CDS - Consuming Business Services with Demo Class(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconsume_bs_abexa.htm) !Example(exa.gif 'Example') ABAP CDS - Consuming Business Services with Odata Client Proxy(https://help.sap.com/doc/abapdocu
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_bindings_abexas.htm"
+abapFile: "abenservice_bindings_abexas.htm"
+keywords: ["do", "if", "class", "data", "abenservice", "bindings", "abexas"]
+---
 
 * * *
 

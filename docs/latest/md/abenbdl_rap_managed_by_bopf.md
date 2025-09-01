@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - managed by BOPF"
+description: |
+  Syntax managed by BOPF ...; Effect Defines a BOPF-based RAP BO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bopf_bo_glosry.htm 'Glossary Entry') in BDL source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_source_code_glosry.htm 'Gloss
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm"
+abapFile: "abenbdl_rap_managed_by_bopf.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "types", "abenbdl", "rap", "managed", "bopf"]
+---
 
 * * *
 

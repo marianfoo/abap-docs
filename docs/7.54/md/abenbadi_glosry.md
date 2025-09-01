@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI"
+description: |
+  Business Add-In, template for BAdI objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbadi_object_glosry.htm 'Glossary Entry'). A BAdI consists of a BAdI interface(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbadi_interface_glosry.htm 'Glossary Entry'), a se
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbadi_glosry.htm"
+abapFile: "abenbadi_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenbadi", "glosry"]
+---
 
 * * *
 

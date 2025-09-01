@@ -1,4 +1,14 @@
-  
+---
+title: "string_expr_glosry"
+description: |
+  string_expr_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_expr_glosry.htm"
+abapFile: "abenstring_expr_glosry.htm"
+keywords: ["do", "try", "abenstring", "expr", "glosry"]
+---
 
 * * *
 

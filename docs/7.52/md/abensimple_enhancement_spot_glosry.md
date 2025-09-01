@@ -1,4 +1,14 @@
-  
+---
+title: "simple_enhancement_spot_glosry"
+description: |
+  simple_enhancement_spot_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensimple_enhancement_spot_glosry.htm"
+abapFile: "abensimple_enhancement_spot_glosry.htm"
+keywords: ["do", "try", "abensimple", "enhancement", "spot", "glosry"]
+---
 
 * * *
 

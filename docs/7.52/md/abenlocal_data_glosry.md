@@ -1,4 +1,14 @@
-  
+---
+title: "local_data_glosry"
+description: |
+  local_data_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_data_glosry.htm"
+abapFile: "abenlocal_data_glosry.htm"
+keywords: ["do", "try", "data", "abenlocal", "glosry"]
+---
 
 * * *
 

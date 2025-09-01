@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, SELECT"
+description: |
+  Syntax SELECT DISTINCT  select_list(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) FROM data_source(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_v1.htm) association1(https://help.sap.com/doc/abapdocu_757
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm"
+abapFile: "abencds_select_statement_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "statement"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internet Communication Framework"
+description: |
+  ICF for short. A software layer in AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry') that provides an ABAP interface for HTTP, HTTPS, and SMTP requests. Using the ICF, ABAP programs(https://help.sap.com/doc/abapdocu_latest_index_htm/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternet_con_fra_glosry.htm"
+abapFile: "abeninternet_con_fra_glosry.htm"
+keywords: ["do", "if", "try", "abeninternet", "con", "fra", "glosry"]
+---
 
 * * *
 

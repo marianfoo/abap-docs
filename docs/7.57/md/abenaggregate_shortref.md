@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  AVG( DISTINCT col AS dtype )  MAX( DISTINCT sql_exp(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_exp_shortref.htm) )  MIN( DISTINCT sql_exp(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_exp_shortref.htm) )
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenaggregate_shortref.htm"
+abapFile: "abenaggregate_shortref.htm"
+keywords: ["select", "do", "if", "try", "data", "abenaggregate", "shortref"]
+---
 
 * * *
 

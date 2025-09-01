@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dynamic Caches"
+description: |
+  A dynamic cache(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_cache_glosry.htm 'Glossary Entry') is a DDIC tuning object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_tuning_object_glosry.htm 'Glossary Entry') that serves as an interface between dy
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_dynamic_caches.htm"
+abapFile: "abenddic_dynamic_caches.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "data", "abenddic", "dynamic", "caches"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Deleting Rows Using WHERE"
+description: |
+  This example measures the runtime of the statement DELETE ... WHERE with various table keys. Source Code REPORT demo_delete_table_using_key. CLASS measure DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF tline, col1 TYPE i, col2 TYPE i, END OF tline, itab LIK
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendelete_itab_using_key_abexa.htm"
+abapFile: "abendelete_itab_using_key_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abendelete", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

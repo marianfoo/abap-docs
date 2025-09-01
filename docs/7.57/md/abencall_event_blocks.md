@@ -1,4 +1,14 @@
-  
+---
+title: "Call Event Blocks"
+description: |
+  Event blocks are processing blocks in an ABAP program that are executed when the associated event occurs in the ABAP runtime framework(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_frmwk_glosry.htm 'Glossary Entry'). In two cases, such events can be raised programmati
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_event_blocks.htm"
+abapFile: "abencall_event_blocks.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencall", "event", "blocks"]
+---
 
 * * *
 

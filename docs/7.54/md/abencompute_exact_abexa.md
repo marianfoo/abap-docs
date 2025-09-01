@@ -1,4 +1,14 @@
-  
+---
+title: "Lossless Calculations"
+description: |
+  The example demonstrates lossless calculations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_calculation_glosry.htm 'Glossary Entry') and the exceptions raised when roundings occur. Source Code REPORT demo_compute_exact. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METH
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_exact_abexa.htm"
+abapFile: "abencompute_exact_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abencompute", "exact", "abexa"]
+---
 
 * * *
 

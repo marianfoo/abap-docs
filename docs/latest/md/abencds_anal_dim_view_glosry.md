@@ -1,4 +1,14 @@
-  
+---
+title: "CDS analytical dimension view"
+description: |
+  CDS view entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') or CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm 'Glossary Entry') annotated with @Analytics.d
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anal_dim_view_glosry.htm"
+abapFile: "abencds_anal_dim_view_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "anal", "dim", "view", "glosry"]
+---
 
 * * *
 

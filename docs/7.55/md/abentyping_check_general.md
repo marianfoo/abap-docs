@@ -1,4 +1,14 @@
-  
+---
+title: "General Rules for Typing"
+description: |
+  The general rules for checking apply strictly to: -   The assignment of all data objects to field symbols(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_symbol_glosry.htm 'Glossary Entry') -   The binding of named data objects to input(https://help.sap.com/doc/abapdocu_755_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check_general.htm"
+abapFile: "abentyping_check_general.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "internal-table", "field-symbol", "abentyping", "check", "general"]
+---
 
 * * *
 

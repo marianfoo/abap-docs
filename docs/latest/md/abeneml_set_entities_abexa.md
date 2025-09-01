@@ -1,4 +1,14 @@
-  
+---
+title: "SET ENTITIES"
+description: |
+  This example demonstrates the SET ENTITIES statements with a managed RAP BO. Note that this example produces a short dump. Data model The CDS data model consists of the root entity DEMO_ROOT_M: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity demo_root_m as select from d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_set_entities_abexa.htm"
+abapFile: "abeneml_set_entities_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abeneml", "set", "entities", "abexa"]
+---
 
 * * *
 

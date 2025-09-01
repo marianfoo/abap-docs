@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_html_browser. PARAMETERS: modal  AS CHECKBOX DEFAULT 'X', no_box AS CHECKBOX. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: pict_line(1022) TYPE x, pict_tab        TYPE STANDARD TABLE OF pict_line WITH EMPTY KEY. CLASS-METHODS get_pict_tab IMP
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_browser_abexa.htm"
+abapFile: "abenhtml_browser_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "method", "class", "data", "types", "abenhtml", "browser", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  CLASS-METHODS class_constructor. Effect This statement declares the static constructor class_constructor of a class. It can only be used in the public(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpublic_glosry.htm 'Glossary Entry') visibility section(https://help.sap.com/doc/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-methods_constructor.htm"
+abapFile: "abapclass-methods_constructor.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abapclass", "methods", "constructor"]
+---
 
 * * *
 

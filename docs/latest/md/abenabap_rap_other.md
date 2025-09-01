@@ -1,4 +1,14 @@
-  
+---
+title: "Other RAP-Related ABAP Language Elements and Topics"
+description: |
+  The following topics are covered in this section: -   Type Mapping for RAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_type_mapping.htm) -   RAP-Related System Classes and Functionality(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_cla
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap_other.htm"
+abapFile: "abenabap_rap_other.htm"
+keywords: ["do", "if", "class", "abenabap", "rap", "other"]
+---
 
 * * *
 

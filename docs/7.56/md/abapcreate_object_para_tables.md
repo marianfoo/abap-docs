@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... PARAMETER-TABLE ptab EXCEPTION-TABLE etab. Effect The additions PARAMETER-TABLE and EXCEPTION-TABLE are used to pass actual parameters dynamically to the instance constructor or assign return codes to the non-class-based exceptions. These additions can only be used if the instant
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_para_tables.htm"
+abapFile: "abapcreate_object_para_tables.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "internal-table", "abapcreate", "object", "para", "tables"]
+---
 
 * * *
 

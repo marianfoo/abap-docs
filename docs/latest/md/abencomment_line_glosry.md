@@ -1,4 +1,14 @@
-  
+---
+title: "comment_line_glosry"
+description: |
+  comment_line_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_line_glosry.htm"
+abapFile: "abencomment_line_glosry.htm"
+keywords: ["do", "if", "try", "abencomment", "line", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - function"
+description: |
+  Syntax internal static function FunctionName external 'ExternalName'  InputParameter(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_input_param.htm) OutputParameter(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actio
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function.htm"
+abapFile: "abenbdl_function.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "function"]
+---
 
 * * *
 

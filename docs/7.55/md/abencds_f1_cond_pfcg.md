@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( element1 BYPASS WHEN bypass_condition  element1, element2 ... (https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_pfcg_mapping.htm) , element2 BYPASS WHEN bypass_condition  element1, element2 ... (https://help.sap.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_pfcg.htm"
+abapFile: "abencds_f1_cond_pfcg.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "cond", "pfcg"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Mesh Paths"
+description: |
+  -   Meshes - mesh_path(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_path.htm) -   Results of mesh paths(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_path_result.htm) Meshes - mesh_path(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/ab
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_pathes.htm"
+abapFile: "abenmesh_pathes.htm"
+keywords: ["do", "if", "data", "abenmesh", "pathes"]
+---
 
 * * *
 

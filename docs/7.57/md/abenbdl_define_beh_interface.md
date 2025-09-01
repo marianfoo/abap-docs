@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Entity Behavior Definition, Interface BDEF"
+description: |
+  Syntax define behavior for ProjectedEntity alias AliasName external ExternalName use etag(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_use_projection.htm)  entity behavior body(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body_
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh_interface.htm"
+abapFile: "abenbdl_define_beh_interface.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "data", "types", "abenbdl", "define", "beh", "interface"]
+---
 
 * * *
 

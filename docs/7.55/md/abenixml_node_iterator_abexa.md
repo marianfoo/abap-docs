@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_node_iterator. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA out TYPE REF TO if_demo_output. CLASS-METHODS iterate IMPORTING iterator TYPE REF TO if_ixml_node_iterator. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. out
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenixml_node_iterator_abexa.htm"
+abapFile: "abenixml_node_iterator_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenixml", "node", "iterator", "abexa"]
+---
 
 * * *
 

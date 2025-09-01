@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_loop_grp_by_sort DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_loop_grp_by_sort IMPLEMENTATION. METHOD main. TYPES itab TYPE STAN
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_group_by_sort_abexa.htm"
+abapFile: "abenloop_group_by_sort_abexa.htm"
+keywords: ["loop", "do", "while", "if", "case", "method", "class", "data", "types", "internal-table", "abenloop", "group", "sort", "abexa"]
+---
 
 * * *
 

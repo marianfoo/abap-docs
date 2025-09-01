@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, LOB Handles"
+description: |
+  In a standalone SELECT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) statement or a WITH(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwith.htm) statement, but not in a FETCH(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_lob_handles.htm"
+abapFile: "abenselect_into_lob_handles.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "abenselect", "into", "lob", "handles"]
+---
 
 * * *
 
@@ -13,10 +23,8 @@ SELECT, LOB Handles
 
 In a standalone [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) statement or a [WITH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwith.htm) statement, but not in a [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm) statement, [LOB handles](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlob_handle_glosry.htm "Glossary Entry") can be created as [reader streams](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreader_stream_glosry.htm "Glossary Entry") and as [locators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocator_glosry.htm "Glossary Entry") in the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause.
 
--   [Prerequisites](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_1)
--   [Rules](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_2)
--   [Restriction](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_3)
--   [Examples](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_4)
+-   [Prerequisites](#abenselect-into-lob-handles-1-------rules---@ITOC@@ABENSELECT_INTO_LOB_HANDLES_2)
+-   [Restriction](#abenselect-into-lob-handles-3-------examples---@ITOC@@ABENSELECT_INTO_LOB_HANDLES_4)
 
 Prerequisites   
 

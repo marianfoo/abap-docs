@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Publishing Associations"
+description: |
+  This example demonstrates how CDS associations are published using WITH ASSOCIATIONS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations.htm) after a common table expression(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommon_table_expression_glosry
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwith_associations_abexa.htm"
+abapFile: "abenwith_associations_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "case", "try", "method", "class", "data", "abenwith", "associations", "abexa"]
+---
 
 * * *
 

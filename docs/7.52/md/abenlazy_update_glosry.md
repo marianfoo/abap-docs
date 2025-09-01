@@ -1,4 +1,14 @@
-  
+---
+title: "Lazy Update"
+description: |
+  Procedure to create or update non-unique secondary table keys(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm 'Glossary Entry') of internal tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entr
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlazy_update_glosry.htm"
+abapFile: "abenlazy_update_glosry.htm"
+keywords: ["insert", "update", "do", "if", "try", "data", "internal-table", "field-symbol", "abenlazy", "glosry"]
+---
 
 * * *
 

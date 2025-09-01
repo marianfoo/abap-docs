@@ -1,4 +1,14 @@
-  
+---
+title: "Table Types"
+description: |
+  A table type in ABAP Dictionary defines the data type of an internal table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_glosry.htm 'Glossary Entry') in ABAP. The table type defines the following in an internal table: -   Row type(https://help.sap.com/doc/abapdocu
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_table_types.htm"
+abapFile: "abenddic_table_types.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abenddic", "table"]
+---
 
 * * *
 

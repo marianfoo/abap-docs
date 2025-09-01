@@ -1,4 +1,14 @@
-  
+---
+title: "PCRE regular expression"
+description: |
+  Perl Compatible Regular expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpcre_glosry.htm 'Glossary Entry') that is expressed in PCRE syntax(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_pcre_syntax.htm) and processed by the PCRE2 Library(https://
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpcre_regex_glosry.htm"
+abapFile: "abenpcre_regex_glosry.htm"
+keywords: ["do", "try", "data", "abenpcre", "regex", "glosry"]
+---
 
 * * *
 

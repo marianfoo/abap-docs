@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  static_meth(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_meth_ident_stat.htm)( )  static_meth(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_meth_ident_stat.htm)( a )  static_meth(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_static_short.htm"
+abapFile: "abapcall_method_static_short.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapcall", "static", "short"]
+---
 
 * * *
 

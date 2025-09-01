@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - action"
+description: |
+  This example demonstrates how a RAP action(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_action_glosry.htm 'Glossary Entry') is defined, implemented, and consumed in a managed RAP BO. Data model The CDS data model consists of the root entity DEMO_CDS_PURCH_DOC_M and its ch
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action1_abexa.htm"
+abapFile: "abenbdl_action1_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "action1", "abexa"]
+---
 
 * * *
 

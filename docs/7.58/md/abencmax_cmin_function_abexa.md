@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_cmax_cmin DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_cmax_cmin IMPLEMENTATION. METHOD main. DATA: txt TYPE string, max TYPE string
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencmax_cmin_function_abexa.htm"
+abapFile: "abencmax_cmin_function_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abencmax", "cmin", "function", "abexa"]
+---
 
 * * *
 

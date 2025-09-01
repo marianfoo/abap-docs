@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  VALUE valIS INITIAL   READ-ONLY . Additions: 1. ... VALUE valIS INITIAL(#!ABAP_ADDITION_1@1@) 2. ... READ-ONLY(#!ABAP_ADDITION_2@2@) Effect The additions VALUE and READ-ONLY are specifically for data objects and distinguish the DATA syntax from the TYPES
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_options.htm"
+abapFile: "abapdata_options.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abapdata", "options"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE PERCENTAGE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_percentage.htm) Syntax MOVE source TO destination PERCENTAGE perc LEFTRIGHT. Effect Obsolete: Assigns the first percentage perc of the character-like data object source to the data object destination. Addition
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_percentage_shortref.htm"
+abapFile: "abapmove_percentage_shortref.htm"
+keywords: ["do", "if", "data", "abapmove", "percentage", "shortref"]
+---
 
 * * *
 

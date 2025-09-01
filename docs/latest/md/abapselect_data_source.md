@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  dbtabview  WITH PRIVILEGED ACCESS  cds_entity sql_para(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_parameters.htm) sql_path(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path.htm)WITH PRI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm"
+abapFile: "abapselect_data_source.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abapselect", "source"]
+---
 
 * * *
 

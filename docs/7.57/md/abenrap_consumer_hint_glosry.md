@@ -1,4 +1,14 @@
-  
+---
+title: "RAP consumer hint"
+description: |
+  RAP BO field or behavior characteristic that is propagated to the consumer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_glosry.htm 'Glossary Entry') via the chosen protocol. It can be used to optimize usability of the business service(https://help.sap.com/doc/ab
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_consumer_hint_glosry.htm"
+abapFile: "abenrap_consumer_hint_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "consumer", "hint", "glosry"]
+---
 
 * * *
 

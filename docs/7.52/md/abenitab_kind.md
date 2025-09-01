@@ -1,4 +1,14 @@
-  
+---
+title: "Selection of Table Category"
+description: |
+  The category of table used in each individual case depends on the type of individual row access that is used most often on the table. These rules are made suitably relative to tables with secondary keys(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm '
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_kind.htm"
+abapFile: "abenitab_kind.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "data", "internal-table", "abenitab", "kind"]
+---
 
 * * *
 

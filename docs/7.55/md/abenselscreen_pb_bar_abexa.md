@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens -Pushbuttons in the Toolbar"
+description: |
+  This example demonstrates the activation of pushbuttons in the application toolbar of the GUI status. Source Code REPORT demo_sel_screen_function_key. TABLES sscrfields. SELECTION-SCREEN BEGIN OF SCREEN 1100. PARAMETERS: p_carrid TYPE s_carr_id, p_cityfr TYPE s_from_cit. SELECTION-SCREEN:
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselscreen_pb_bar_abexa.htm"
+abapFile: "abenselscreen_pb_bar_abexa.htm"
+keywords: ["select", "do", "case", "method", "class", "abenselscreen", "bar", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RFM"
+description: |
+  Remote-enabled function module(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenremote_enabled_fm_glosry.htm 'Glossary Entry') →.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfm_glosry.htm"
+abapFile: "abenrfm_glosry.htm"
+keywords: ["do", "if", "try", "abenrfm", "glosry"]
+---
 
 * * *
 

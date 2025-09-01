@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  operand1 =EQ<>NE>GT<LT>=GE<=LE operand2   operand  NOT BETWEEN operand1 AND operand2  operand1 NOT LIKE operand2 ESCAPE esc  operand  IS NOT NULL  operand  IS NOT INITIAL
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_expr_logexp.htm"
+abapFile: "abenabap_sql_expr_logexp.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenabap", "sql", "expr", "logexp"]
+---
 
 * * *
 

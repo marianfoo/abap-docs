@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, RETURNING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_shortref.htm) Syntax METHODS meth ABSTRACTFINAL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_abstract_final.htm) DEFAULT IGNOREFAIL(https://help.sap.com/doc/aba
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_functional.htm"
+abapFile: "abapmethods_functional.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abapmethods", "functional"]
+---
 
 * * *
 

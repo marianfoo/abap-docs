@@ -1,4 +1,14 @@
-  
+---
+title: "LOAD-OF-PROGRAM"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapload-of-program_shortref.htm) Syntax LOAD-OF-PROGRAM. Effect This event keyword defines the program constructor(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_constructor_glosry.htm 'Glossary E
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapload-of-program.htm"
+abapFile: "abapload-of-program.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abapload", "program"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_asxml_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA itab TYPE TABLE OF i. itab = VALUE #( FOR j = 1 UNTIL j > 3 ( j ) ). CALL TRANSFORMATION id SOURCE table = itab RESULT XML DATA(xmlstr). cl_demo_output=>disp
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_table_abexa.htm"
+abapFile: "abenasxml_table_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "internal-table", "abenasxml", "table", "abexa"]
+---
 
 * * *
 

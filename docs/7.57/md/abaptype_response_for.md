@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE RESPONSE FOR"
+description: |
+  Syntax ... RESPONSE FOR  FAILED  MAPPED  REPORTED  EARLY  LATE  bdef  ... Effect ABAP type used to create a structured data type for specifying response parameters for ABAP EML statements to get information on failures (FAILED) and error messages (REPORTED), or to retrie
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm"
+abapFile: "abaptype_response_for.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "internal-table", "abaptype", "response", "for"]
+---
 
 * * *
 

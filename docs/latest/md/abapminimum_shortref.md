@@ -1,4 +1,14 @@
-  
+---
+title: "MINIMUM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapminimum.htm) Syntax MINIMUM dobj. Effect Obsolete: After the statement MINIMUM, determines the minimum value of dobj and assigns it to the data object min_dobj for every WRITE statement for dobj.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapminimum_shortref.htm"
+abapFile: "abapminimum_shortref.htm"
+keywords: ["do", "if", "data", "abapminimum", "shortref"]
+---
 
 * * *
 

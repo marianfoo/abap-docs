@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Simple Unmanaged RAP business object"
+description: |
+  This example demonstrates a simple unmanaged RAP business object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry') and different ways of accessing it. Note that this example rather shows technical aspects of an unmanaged business objects than correc
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_simple_bo_abexa.htm"
+abapFile: "abencds_simple_bo_abexa.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abencds", "simple", "abexa"]
+---
 
 * * *
 

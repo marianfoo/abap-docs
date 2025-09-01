@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - SQL Functions for Numeric Values"
+description: |
+  The following table shows the numeric SQL functions that can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossar
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_functions_numeric.htm"
+abapFile: "abensql_functions_numeric.htm"
+keywords: ["do", "if", "try", "data", "types", "abensql", "functions", "numeric"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "table_index_glosry"
+description: |
+  table_index_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_index_glosry.htm"
+abapFile: "abentable_index_glosry.htm"
+keywords: ["insert", "delete", "do", "if", "try", "internal-table", "abentable", "index", "glosry"]
+---
 
 * * *
 

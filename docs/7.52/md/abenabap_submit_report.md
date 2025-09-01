@@ -1,4 +1,14 @@
-  
+---
+title: "Calling Executable Programs"
+description: |
+  Executable programs(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.htm 'Glossary Entry') are only directly executable from the end user's perspective. Whenever an executable program is started using System → Services → Reporting or a report transaction(h
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_submit_report.htm"
+abapFile: "abenabap_submit_report.htm"
+keywords: ["do", "if", "try", "abenabap", "submit", "report"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... utclong_current( ) ... Effect This function takes the system time(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_time_glosry.htm 'Glossary Entry') and system date(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_date_glosry.htm 'Glossary Entry') i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutclong_current.htm"
+abapFile: "abenutclong_current.htm"
+keywords: ["do", "if", "try", "data", "types", "abenutclong", "current"]
+---
 
 * * *
 

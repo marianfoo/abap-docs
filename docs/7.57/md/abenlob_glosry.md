@@ -1,4 +1,14 @@
-  
+---
+title: "LOB"
+description: |
+  Short for Large Object. Superordinate term for BLOB(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenblob_glosry.htm 'Glossary Entry') and CLOB(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclob_glosry.htm 'Glossary Entry').
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlob_glosry.htm"
+abapFile: "abenlob_glosry.htm"
+keywords: ["do", "if", "try", "abenlob", "glosry"]
+---
 
 * * *
 

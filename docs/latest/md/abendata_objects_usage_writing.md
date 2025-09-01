@@ -1,4 +1,14 @@
-  
+---
+title: "Data Objects in Write Positions"
+description: |
+  Only modifiable data objects, that is, no literals, text symbols, constants, or non-modifiable formal parameters, can be specified as follows at write positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwrite_position_glosry.htm 'Glossary Entry'): -   Specification of a
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects_usage_writing.htm"
+abapFile: "abendata_objects_usage_writing.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abendata", "objects", "usage", "writing"]
+---
 
 * * *
 

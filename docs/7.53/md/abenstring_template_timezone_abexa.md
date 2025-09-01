@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Time Zones"
+description: |
+  The example demonstrates the formatting of a time stamp using time zones. Source Code REPORT demo_string_template_timezone. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF timezone, tzone    TYPE ttzz-tzone, descript TYP
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_timezone_abexa.htm"
+abapFile: "abenstring_template_timezone_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "types", "internal-table", "abenstring", "template", "timezone", "abexa"]
+---
 
 * * *
 

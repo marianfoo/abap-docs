@@ -1,4 +1,14 @@
-  
+---
+title: "FOR DETERMINE, RAP Handler Method"
+description: |
+  Syntax Handler method definition: METHODS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods.htm) meth FINAL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_abstract_final.htm) FOR DETERMINE ON  SAVE  MODIFY  IMPORTING(h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphandler_meth_det.htm"
+abapFile: "abaphandler_meth_det.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abaphandler", "meth", "det"]
+---
 
 * * *
 

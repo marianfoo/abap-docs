@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Functions for Null Values"
+description: |
+  The following table shows the SQL functions for null values(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm 'Glossary Entry') that are supported by ABAP CDS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm 'Glossary Entry') a
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_null.htm"
+abapFile: "abensql_functions_null.htm"
+keywords: ["do", "try", "data", "types", "abensql", "functions", "null"]
+---
 
 * * *
 

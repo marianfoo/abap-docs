@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... col(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) = f  col(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) = col(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) + f
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate_set_expression.htm"
+abapFile: "abapupdate_set_expression.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abapupdate", "set", "expression"]
+---
 
 * * *
 

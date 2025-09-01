@@ -1,4 +1,14 @@
-  
+---
+title: "Descriptive Names"
+description: |
+  Background A name can include technical and semantic information: -   Technical information can be very versatile. Examples of options in a data object: data type, declaration context, whether a procedure parameter is passed by value or by reference. -   The semantic information indicates the purpos
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentelling_names_guidl.htm"
+abapFile: "abentelling_names_guidl.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abentelling", "names", "guidl"]
+---
 
 * * *
 

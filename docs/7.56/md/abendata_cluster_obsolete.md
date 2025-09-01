@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Access to Data Clusters"
+description: |
+  -   EXPORT, IMPORT - Short form of the parameter list(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_import_obsolete.htm) -   EXPORT, IMPORT - no_id(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_import_mem_id_obsolete.htm) -   FREE - no_id(https
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster_obsolete.htm"
+abapFile: "abendata_cluster_obsolete.htm"
+keywords: ["do", "data", "abendata", "cluster", "obsolete"]
+---
 
 * * *
 

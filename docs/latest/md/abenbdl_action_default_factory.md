@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Default Factory Action"
+description: |
+  Syntax internal(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_internal.htm) static(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_static.htm) default factory action (  features: global(https://help.sap.com/doc/abapdocu_latest_i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_default_factory.htm"
+abapFile: "abenbdl_action_default_factory.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "action", "default", "factory"]
+---
 
 * * *
 

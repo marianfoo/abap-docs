@@ -1,4 +1,14 @@
-  
+---
+title: "MAXIMUM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmaximum_shortref.htm) Obsolete Syntax MAXIMUM dobj. Effect For each WRITE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite-.htm) statement that writes the content of the data object dobj to a list
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmaximum.htm"
+abapFile: "abapmaximum.htm"
+keywords: ["do", "if", "try", "class", "data", "abapmaximum"]
+---
 
 * * *
 

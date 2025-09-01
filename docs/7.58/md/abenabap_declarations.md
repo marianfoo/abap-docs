@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration Statements"
+description: |
+  This section describes the declaration of object types, data types, data objects and field symbols. -   Classes and Interfaces(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) -   Data Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm"
+abapFile: "abenabap_declarations.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "field-symbol", "abenabap", "declarations"]
+---
 
 * * *
 

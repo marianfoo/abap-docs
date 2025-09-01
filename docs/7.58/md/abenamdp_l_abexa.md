@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Implementation of an L Procedure"
+description: |
+  This documentation is only available internally at SAP.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_l_abexa.htm"
+abapFile: "abenamdp_l_abexa.htm"
+keywords: ["do", "if", "data", "abenamdp", "abexa"]
+---
 
 * * *
 

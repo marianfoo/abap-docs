@@ -1,4 +1,14 @@
-  
+---
+title: "CDS view extension"
+description: |
+  Transportable extension of a CDS DDIC-based view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm 'Glossary Entry'). A CDS view extension can be used to add elements and/or clauses to a view without making any modifications to the original view. It is defined u
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extend_glosry.htm"
+abapFile: "abencds_view_extend_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "view", "extend", "glosry"]
+---
 
 * * *
 

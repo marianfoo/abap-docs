@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION, IN UPDATE TASK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_shortref.htm) Syntax CALL FUNCTION update_function IN UPDATE TASK EXPORTING p1 = a1 p2 = a2 ... TABLES t1 = itab1 t2 = itab2 .... Additions: 1. ... EXPORTING p1 = a1 p2 = a2 ...(#!ABAP_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_update.htm"
+abapFile: "abapcall_function_update.htm"
+keywords: ["insert", "update", "delete", "do", "while", "if", "case", "try", "data", "types", "internal-table", "abapcall", "function"]
+---
 
 * * *
 

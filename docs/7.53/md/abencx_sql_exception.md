@@ -1,4 +1,14 @@
-  
+---
+title: "Attribute"
+description: |
+  Meaning DB_ERROR 'X', if an SQL statement was not executed by DBMS. SQL_CODE and SQL_MESSAGE contain further information in this case. DBOBJECT_EXISTS 'X', if a database object that already exists is created. DB_ERROR is also 'X' in this case. DBOBJECT_NOT_EXISTS 'X', if a database object tha
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencx_sql_exception.htm"
+abapFile: "abencx_sql_exception.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abencx", "sql", "exception"]
+---
 
 * * *
 

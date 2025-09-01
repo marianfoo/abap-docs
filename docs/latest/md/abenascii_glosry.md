@@ -1,4 +1,14 @@
-  
+---
+title: "ASCII"
+description: |
+  Abbreviation for American Standard Code for Information Interchange. 7-bit character set(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_set_glosry.htm 'Glossary Entry') in accordance with the ISO-646 standard. Expanded to 8-bit character sets in ISO-8859(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenascii_glosry.htm"
+abapFile: "abenascii_glosry.htm"
+keywords: ["do", "if", "try", "abenascii", "glosry"]
+---
 
 * * *
 

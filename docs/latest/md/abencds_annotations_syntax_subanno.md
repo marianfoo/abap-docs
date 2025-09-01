@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - Annotation Syntax, subannos"
+description: |
+  Syntax ... subAnno1:   value(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax_value.htm)   :  subannos   :  arrelem(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax_array.htm)
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax_subanno.htm"
+abapFile: "abencds_annotations_syntax_subanno.htm"
+keywords: ["do", "if", "try", "data", "abencds", "annotations", "syntax", "subanno"]
+---
 
 * * *
 

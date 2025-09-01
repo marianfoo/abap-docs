@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  cref->(attr_name)    iref->(attr_name)    (clif_name)=>(attr_name)    (clif_name)=>attr    clif=>(attr_name)  ... Alternatives: 1. ... cref->(attr_name)(#!ABAP_ALTERNATIVE_1@1@) 2. ... iref->(attr_name)(#!ABAP_ALTERNATIVE_2@2@) 3. ... (c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area_dynamic_access.htm"
+abapFile: "abapassign_mem_area_dynamic_access.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "field-symbol", "abapassign", "mem", "area", "dynamic", "access"]
+---
 
 * * *
 

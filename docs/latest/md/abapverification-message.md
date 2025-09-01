@@ -1,4 +1,14 @@
-  
+---
+title: "VERIFICATION-MESSAGE"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax VERIFICATION-MESSAGE id mess PRIORITY prio RESPONSIBLE user MAIL mail OBJECT type name. Additions: 1. ... PRIORITY prio(#!ABAP_ADDITION_1@1@) 2. ... RESPONSIBLE user(#!A
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapverification-message.htm"
+abapFile: "abapverification-message.htm"
+keywords: ["do", "if", "try", "class", "data", "abapverification", "message"]
+---
 
 * * *
 

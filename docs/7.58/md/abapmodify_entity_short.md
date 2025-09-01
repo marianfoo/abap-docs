@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY ENTITY, Short Form"
+description: |
+  Syntax MODIFY ENTITY  IN LOCAL MODE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm)PRIVILEGED(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_privileged.htm) entity operations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/e
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_short.htm"
+abapFile: "abapmodify_entity_short.htm"
+keywords: ["insert", "do", "if", "case", "try", "method", "class", "data", "abapmodify", "entity", "short"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN INCLUDE COMMENT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_incl_shortref.htm) Syntax SELECTION-SCREEN INCLUDE COMMENT /pos(len) text FOR FIELD sel MODIF ID modid ID id. Effect The addition COMMENT is used to create an out
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_include_comnt.htm"
+abapFile: "abapselection-screen_include_comnt.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "include", "comnt"]
+---
 
 * * *
 

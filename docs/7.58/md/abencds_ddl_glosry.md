@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL"
+description: |
+  The data definition language of ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS DDL has two dialects, namely CDS DDLA(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddla_glosry.htm 'Glossary Entry') and CDS D
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm"
+abapFile: "abencds_ddl_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddl", "glosry"]
+---
 
 * * *
 

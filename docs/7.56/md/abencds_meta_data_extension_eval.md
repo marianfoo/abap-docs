@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Evaluation of Metadata Extensions"
+description: |
+  When evaluating annotations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_analysis.htm) with the class CL_DD_DDL_ANNOTATION_SERVICE, the annotations from metadata extensions are considered first. If there are different metadata extensions for the same CDS entit
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_meta_data_extension_eval.htm"
+abapFile: "abencds_meta_data_extension_eval.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abencds", "meta", "extension", "eval"]
+---
 
 * * *
 

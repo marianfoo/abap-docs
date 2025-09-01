@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Programming Language"
+description: |
+  This section of the ABAP keyword documentation describes the syntax and semantics of all language elements of the ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_glosry.htm 'Glossary Entry') programming language and its object-oriented component ABAP Objects(https://help
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm"
+abapFile: "abenabap_reference.htm"
+keywords: ["do", "if", "try", "data", "types", "abenabap", "reference"]
+---
 
 * * *
 

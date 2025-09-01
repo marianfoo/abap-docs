@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DDIC-Based Entities"
+description: |
+  A CDS DDIC-based entity(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddic_based_entity_glosry.htm 'Glossary Entry') is a CDS entity(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm 'Glossary Entry') for which a CDS-managed DDIC view(htt
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddic_entity.htm"
+abapFile: "abencds_ddic_entity.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "ddic", "entity"]
+---
 
 * * *
 

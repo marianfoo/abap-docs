@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  rel_exp - contains , contains_...(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontains_functions.htm) rel_exp - matches(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmatches_functions.htm) !Example(exa.gif 'Example') rel_exp - Predicate Function matches
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicate_functions_strgs.htm"
+abapFile: "abenpredicate_functions_strgs.htm"
+keywords: ["do", "if", "abenpredicate", "functions", "strgs"]
+---
 
 * * *
 

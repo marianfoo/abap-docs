@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  SACF_CHECK_IN_USE( NAME => scenario_name , OBJECT => auth_object  ) IS NOT INITIAL    OPTIONAL_ELEMENT_EXISTS( NAME => element ) IS NOT INITIAL    SWITCH_RUNTIME_STATE( NAME => switch_name ) IS NOT INITIAL    TOGGLE_RUNTIM
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_function.htm"
+abapFile: "abencds_f1_dcl_function.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "data", "types", "abencds", "dcl", "function"]
+---
 
 * * *
 

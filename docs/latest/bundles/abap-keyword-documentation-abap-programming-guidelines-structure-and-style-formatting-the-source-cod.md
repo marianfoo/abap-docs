@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenformatting_code_gdl.htm
 
-  
+---
+title: "Formatting the Source Code"
+description: |
+  The readability of source code is dependent to a great extent on formatting that highlights its logical structure. The following methods help to format source code in a clear way. -   Case(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlower_upper_case_guidl.htm 'Guideline') -
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenformatting_code_gdl.htm"
+abapFile: "abenformatting_code_gdl.htm"
+keywords: ["do", "if", "case", "method", "abenformatting", "code", "gdl"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abenlower_upper_case_guidl.htm
 
-  
+---
+title: "Case"
+description: |
+  Background In contrast to many other modern programming languages, ABAP is not case-sensitive for ABAP words (tokens of an ABAP statement that express its semantics; either ABAP keywords or additions) nor for operators and names of operands. The only exception is dynamic programming(https://help.s
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlower_upper_case_guidl.htm"
+abapFile: "abenlower_upper_case_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenlower", "upper", "guidl"]
+---
 
 * * *
 
@@ -81,7 +101,17 @@ Once the program has been called, the example is formatted according to the prop
 
 ### abenstatement_guidl.htm
 
-  
+---
+title: "Statements per Program Line"
+description: |
+  Background An ABAP statement (declaration or executable statement) is closed with a period. This statement can be followed by further statements in the same line. Statements can also span multiple lines. Rule Maximum of one statement per program line Write a maximum of one statement in every source
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatement_guidl.htm"
+abapFile: "abenstatement_guidl.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "abenstatement", "guidl"]
+---
 
 * * *
 
@@ -154,7 +184,17 @@ ENDCLASS.
 
 ### abenuse_pretty_printer_guidl.htm
 
-  
+---
+title: "Using Pretty Printer"
+description: |
+  Background The alignment of ABAP statements in the source code is not defined in the syntax. There should be a maximum of one statement per line(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatement_guidl.htm 'Guideline'), which can be technically indented and wrapped as re
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_pretty_printer_guidl.htm"
+abapFile: "abenuse_pretty_printer_guidl.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "method", "class", "data", "abenuse", "pretty", "printer", "guidl"]
+---
 
 * * *
 
@@ -244,7 +284,17 @@ endclass.
 
 ### abenline_width_guidl.htm
 
-  
+---
+title: "Line Width"
+description: |
+  Background The maximum line width of an ABAP program is restricted to 255 characters. Rule Do not use full line width Limit the width of a line in the source code to a reasonable size. As a rule of thumb, you should be able to print a program on common paper formats without truncation or line breaks
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenline_width_guidl.htm"
+abapFile: "abenline_width_guidl.htm"
+keywords: ["do", "if", "method", "abenline", "width", "guidl"]
+---
 
 * * *
 

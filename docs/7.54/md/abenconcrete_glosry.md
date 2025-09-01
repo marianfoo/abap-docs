@@ -1,4 +1,14 @@
-  
+---
+title: "concrete_glosry"
+description: |
+  concrete_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconcrete_glosry.htm"
+abapFile: "abenconcrete_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenconcrete", "glosry"]
+---
 
 * * *
 

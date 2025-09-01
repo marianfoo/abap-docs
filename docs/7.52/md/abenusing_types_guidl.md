@@ -1,4 +1,14 @@
-  
+---
+title: "Using Types"
+description: |
+  Background You can use the data types declared according to the rules on Bound and Standalone Data Types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm 'Guideline') and Declaration of Data Types and Constants(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm"
+abapFile: "abenusing_types_guidl.htm"
+keywords: ["select", "do", "if", "case", "class", "data", "types", "field-symbol", "abenusing", "guidl"]
+---
 
 * * *
 

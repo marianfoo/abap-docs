@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_reduce_structured DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor . PRIVATE SECTION. TYPES: BEGIN OF line, id  TYPE string, num TYPE i, END OF line, BEGIN OF result, text TY
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_structured_abexa.htm"
+abapFile: "abenreduce_structured_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abenreduce", "structured", "abexa"]
+---
 
 * * *
 

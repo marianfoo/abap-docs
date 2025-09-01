@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_crrspndng_class_dyn DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_crrspndng_class_dyn IMPLEMENTATION. METHOD main. TYPES: BEGIN OF
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_corr_dyn_abexa.htm"
+abapFile: "abencl_abap_corr_dyn_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abencl", "abap", "corr", "dyn", "abexa"]
+---
 
 * * *
 

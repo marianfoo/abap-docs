@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDLA"
+description: |
+  A CDS DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddl_glosry.htm 'Glossary Entry') dialect that contains language elements for CDS annotation definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm 'Glossary E
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddla_glosry.htm"
+abapFile: "abencds_ddla_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "ddla", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - use"
+description: |
+  Syntax ... use create ( augment(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm), precheck(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm))  use update ( augment(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_use_projection.htm"
+abapFile: "abenbdl_use_projection.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbdl", "use", "projection"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Standard ABAP with restricted object use"
+description: |
+  Obsolete ABAP language version(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_version_glosry.htm 'Glossary Entry') with restricted use of repository objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm 'Glossary Entry') in which
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_abap_restr_obj_glosry.htm"
+abapFile: "abenstandard_abap_restr_obj_glosry.htm"
+keywords: ["do", "try", "abenstandard", "abap", "restr", "obj", "glosry"]
+---
 
 * * *
 

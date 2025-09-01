@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_int_tables_append. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( ). 'Part 1 TYPES: BEGIN OF wa, col1 TYPE c LENGTH 1, col2 TYPE i, END OF wa. DATA wa_tab TYPE TABLE OF wa WITH EMPTY KEY.
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenappend_lines_abexa.htm"
+abapFile: "abenappend_lines_abexa.htm"
+keywords: ["select", "loop", "do", "method", "class", "data", "types", "internal-table", "abenappend", "lines", "abexa"]
+---
 
 * * *
 

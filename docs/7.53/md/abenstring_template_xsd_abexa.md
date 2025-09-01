@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, asXML Format"
+description: |
+  This example demonstrates how the asXML format is specified for embedded expressions. Source Code REPORT demo_string_template_xsd. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA result TYPE TABLE OF string. DATA: i          TYPE i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_xsd_abexa.htm"
+abapFile: "abenstring_template_xsd_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenstring", "template", "xsd", "abexa"]
+---
 
 * * *
 

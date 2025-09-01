@@ -1,4 +1,14 @@
-  
+---
+title: "run_time_monitor_glosry"
+description: |
+  run_time_monitor_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrun_time_monitor_glosry.htm"
+abapFile: "abenrun_time_monitor_glosry.htm"
+keywords: ["do", "try", "class", "abenrun", "time", "monitor", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "grouping_set_glosry"
+description: |
+  grouping_set_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_set_glosry.htm"
+abapFile: "abengrouping_set_glosry.htm"
+keywords: ["do", "if", "try", "abengrouping", "set", "glosry"]
+---
 
 * * *
 

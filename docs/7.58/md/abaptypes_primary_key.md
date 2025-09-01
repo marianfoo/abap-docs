@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, key"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_shortref.htm) Syntax ...  UNIQUE  NON-UNIQUE  KEY primary_key ALIAS alias_name COMPONENTS comp1 comp2 ...  DEFAULT KEY      EMPTY KEY  ... Alternati
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_primary_key.htm"
+abapFile: "abaptypes_primary_key.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abaptypes", "primary", "key"]
+---
 
 * * *
 

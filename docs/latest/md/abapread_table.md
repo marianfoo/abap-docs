@@ -1,4 +1,14 @@
-  
+---
+title: "READ TABLE itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table_itab_shortref.htm) Syntax READ TABLE itab  table_key(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table_key.htm)  free_key(https://help.sap.com/doc/abapdocu_latest
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table.htm"
+abapFile: "abapread_table.htm"
+keywords: ["select", "insert", "loop", "do", "while", "if", "case", "try", "catch", "method", "data", "internal-table", "abapread", "table"]
+---
 
 * * *
 

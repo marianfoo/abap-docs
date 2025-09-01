@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Target Fields"
+description: |
+  Target Conversion i, int8, (b, s) The value of the decimal floating point number is rounded up to the nearest integer. If this number is within the value range(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_range_glosry.htm 'Glossary Entry') for the data type i, int8, (b, s),
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_decfloat.htm"
+abapFile: "abenconversion_type_decfloat.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abenconversion", "type", "decfloat"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Source Field Type decfloat16, decfloat34
 
 If the source field does not contain a [valid decimal floating point number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm), the handleable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised, except in the case of assignments to another decimal floating point number. In ABAP invalid decimal floating point numbers are the special values "+Infinity", "-Infinity", "NaN", and "sNaN", which represent infinity or invalid numbers and are designated in standard IEEE-754-2008.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_1)
+-   [Numeric Target Fields](#abenconversion-type-decfloat-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_4)
+-   [Byte-Like Target Fields](#abenconversion-type-decfloat-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_4)
 
 Numeric Target Fields
 

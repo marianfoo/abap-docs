@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Platform Cloud"
+description: |
+  A special ABAP Platform(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_platform_glosry.htm 'Glossary Entry') variant for cloud development. SAP products, such as SAP S/4HANA Cloud(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_s4hana_cloud_glosry.htm 'Glo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_platform_cloud_glosry.htm"
+abapFile: "abenabap_platform_cloud_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "platform", "cloud", "glosry"]
+---
 
 * * *
 

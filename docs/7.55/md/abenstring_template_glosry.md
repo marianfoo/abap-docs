@@ -1,4 +1,14 @@
-  
+---
+title: "string_template_glosry"
+description: |
+  string_template_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_template_glosry.htm"
+abapFile: "abenstring_template_glosry.htm"
+keywords: ["do", "try", "abenstring", "template", "glosry"]
+---
 
 * * *
 

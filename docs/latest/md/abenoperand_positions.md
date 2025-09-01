@@ -1,4 +1,14 @@
-  
+---
+title: "Operand Positions"
+description: |
+  Most ABAP statements have operand positions, where operands(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands.htm) can be specified as tokens. The following operand positions can be distinguished: -   read position(https://help.sap.com/doc/abapdocu_latest_index_htm/lat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperand_positions.htm"
+abapFile: "abenoperand_positions.htm"
+keywords: ["do", "if", "try", "abenoperand", "positions"]
+---
 
 * * *
 

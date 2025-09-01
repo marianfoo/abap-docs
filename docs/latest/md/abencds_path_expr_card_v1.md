@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  1: ... Effect Specifies the cardinality(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencardinality_glosry.htm 'Glossary Entry') of the current CDS association: -   If the attribute 1: is specified, the current CDS association is declared as unique. -   If the attribu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expr_card_v1.htm"
+abapFile: "abencds_path_expr_card_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "path", "expr", "card"]
+---
 
 * * *
 

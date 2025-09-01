@@ -1,4 +1,14 @@
-  
+---
+title: "full_text_index_glosry"
+description: |
+  full_text_index_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfull_text_index_glosry.htm"
+abapFile: "abenfull_text_index_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenfull", "text", "index", "glosry"]
+---
 
 * * *
 

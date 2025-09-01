@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Structures"
+description: |
+  A DDIC structure(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structure_glosry.htm 'Glossary Entry') defines a structured type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructured_type_glosry.htm 'Glossary Entry') that contains other data types as comp
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm"
+abapFile: "abenddic_structures.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "structures"]
+---
 
 * * *
 

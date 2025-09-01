@@ -1,4 +1,14 @@
-  
+---
+title: "Assignments Between Different Types"
+description: |
+  Background ABAP allows a direct assignment between data objects with different data types. There must be a suitable conversion rule and the content of the source field must be a meaningful value for the data type of the target field. If a suitable conversion rule is not found or the content of the s
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassignemnt_diff_types_guidl.htm"
+abapFile: "abenassignemnt_diff_types_guidl.htm"
+keywords: ["do", "if", "data", "types", "abenassignemnt", "diff", "guidl"]
+---
 
 * * *
 

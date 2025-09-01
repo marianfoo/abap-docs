@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... MESSAGE msg IGNORING CONVERSION ERRORS REPLACEMENT CHARACTER rc ... Extras: 1. ... MESSAGE msg(#!ABAP_ADDITION_1@1@) 2. ... IGNORING CONVERSION ERRORS(#!ABAP_ADDITION_2@2@) 3. ... REPLACEMENT CHARACTER rc(#!ABAP_ADDITION_3@3@) Effect In the case of errors, these
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_error_handling.htm"
+abapFile: "abapopen_dataset_error_handling.htm"
+keywords: ["delete", "do", "while", "if", "case", "try", "catch", "class", "data", "abapopen", "dataset", "error", "handling"]
+---
 
 * * *
 

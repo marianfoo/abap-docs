@@ -1,4 +1,14 @@
-  
+---
+title: "Assignment of Catchable Runtime Errors to Exception Groups"
+description: |
+  Most of the obsolete catchable runtime errors are assigned to exception groups. Using the name of an exception group, all catchable runtime errors of the group can be caught simultaneously using CATCH SYSTEM-EXCEPTIONS(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcatch_sys.htm).
+version: "7.55"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensysexc-errkl.htm"
+abapFile: "abensysexc-errkl.htm"
+keywords: ["delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abensysexc", "errkl"]
+---
 
 * * *
 

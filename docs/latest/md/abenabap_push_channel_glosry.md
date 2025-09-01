@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP push channel"
+description: |
+  Repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that defines the APC handler class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_handler_class_glosry.htm 'Glossary Entry'), a node in th
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_push_channel_glosry.htm"
+abapFile: "abenabap_push_channel_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "push", "channel", "glosry"]
+---
 
 * * *
 

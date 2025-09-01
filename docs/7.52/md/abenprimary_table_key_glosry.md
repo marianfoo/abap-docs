@@ -1,4 +1,14 @@
-  
+---
+title: "Primary Table Key"
+description: |
+  Each internal table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entry') has a primary table key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_key_glosry.htm 'Glossary Entry') that is either a self-defined key or the s
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm"
+abapFile: "abenprimary_table_key_glosry.htm"
+keywords: ["do", "try", "types", "internal-table", "abenprimary", "table", "key", "glosry"]
+---
 
 * * *
 

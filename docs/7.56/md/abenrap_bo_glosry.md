@@ -1,4 +1,14 @@
-  
+---
+title: "RAP business object"
+description: |
+  RAP BO for short. Business object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') in the context of ABAP RAP(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_glosry.htm 'Glossary Entry'). A RAP BO is mainly descri
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm"
+abapFile: "abenrap_bo_glosry.htm"
+keywords: ["do", "try", "data", "abenrap", "glosry"]
+---
 
 * * *
 

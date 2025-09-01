@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Semantic Properties of Data Elements"
+description: |
+  The semantic properties of data elements are mainly significant when they are used as types of fields on user interfaces such as dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary Entry') or Web Dynpro(https://help.sap.com/doc/abapdocu_latest_i
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_data_elements_sema.htm"
+abapFile: "abenddic_data_elements_sema.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "elements", "sema"]
+---
 
 * * *
 

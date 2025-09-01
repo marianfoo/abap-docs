@@ -1,4 +1,14 @@
-  
+---
+title: "Variants of MOVE-CORRESPONDING and the CORRESPONDING Operator Using Deep Structures"
+description: |
+  This example demonstrates variants of statements with MOVE-CORRESPONDING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding.htm) and the CORRESPONDING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expr_corresponding.htm) operator using
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding_variants_s_abexa.htm"
+abapFile: "abencorresponding_variants_s_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abencorresponding", "variants", "abexa"]
+---
 
 * * *
 

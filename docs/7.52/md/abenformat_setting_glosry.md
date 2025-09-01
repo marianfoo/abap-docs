@@ -1,4 +1,14 @@
-  
+---
+title: "Formatting Settings"
+description: |
+  Part of the language environment(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm 'Glossary Entry') where the formatting for numbers, dates, and times is defined. Defined with either fixed values in the user master record(https://help.sap.com/doc/aba
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformat_setting_glosry.htm"
+abapFile: "abenformat_setting_glosry.htm"
+keywords: ["do", "if", "try", "abenformat", "setting", "glosry"]
+---
 
 * * *
 

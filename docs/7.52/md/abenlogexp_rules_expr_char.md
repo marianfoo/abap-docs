@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  A string expression cannot be specified as the operand of a predicate expression(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expression_glosry.htm 'Glossary Entry'). Example This example demonstrates the effect of different comparison types. The first comparison is tru
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_expr_char.htm"
+abapFile: "abenlogexp_rules_expr_char.htm"
+keywords: ["do", "if", "try", "data", "types", "abenlogexp", "rules", "expr", "char"]
+---
 
 * * *
 

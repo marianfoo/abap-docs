@@ -1,4 +1,14 @@
-  
+---
+title: "extension_index_glosry"
+description: |
+  extension_index_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextension_index_glosry.htm"
+abapFile: "abenextension_index_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenextension", "index", "glosry"]
+---
 
 * * *
 

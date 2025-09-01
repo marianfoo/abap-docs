@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP and JSON"
+description: |
+  This section explains how JSON(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_glosry.htm 'Glossary Entry') data can be created and read in ABAP. The main topics are -   processing and creating JSON data using parsers and renderers created and used using the APIs found in sXML
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json.htm"
+abapFile: "abenabap_json.htm"
+keywords: ["do", "try", "data", "abenabap", "json"]
+---
 
 * * *
 

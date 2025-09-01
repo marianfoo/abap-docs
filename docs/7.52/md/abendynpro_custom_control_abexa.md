@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, CFW Events"
+description: |
+  The example shows how to handle CFW events. Source Code REPORT demo_custom_control .  Declarations  CLASS event_handler DEFINITION. PUBLIC SECTION. METHODS: handle_f1 FOR EVENT f1 OF cl_g
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_custom_control_abexa.htm"
+abapFile: "abendynpro_custom_control_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "method", "class", "data", "internal-table", "abendynpro", "custom", "control", "abexa"]
+---
 
 * * *
 

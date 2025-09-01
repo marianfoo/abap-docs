@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SAP Annotations"
+description: |
+  SAP annotations are CDS annotations(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') created and delivered by SAP as CDS objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_object_glosry.htm 'Glossary Entry') in the
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_sap.htm"
+abapFile: "abencds_annotations_sap.htm"
+keywords: ["do", "if", "try", "abencds", "annotations", "sap"]
+---
 
 * * *
 

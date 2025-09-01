@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP BDL - DEFINE BEHAVIOR"
+description: |
+  Syntax define behavior for CDSEntityName alias AliasName implementation in class ClassName unique late numbering in place etag fieldAncestorEntity~Field ( LocalField = MasterField ) lock masterdependent ( LocalField = MasterField )  field(re
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_define_behavior.htm"
+abapFile: "abenbdl_define_behavior.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "define", "behavior"]
+---
 
 * * *
 

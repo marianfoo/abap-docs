@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE - pattern"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_shortref.htm) Syntax ...  SUBSTRING substring  REGEX regex ... . Effect Defines a search pattern for the statements REPLACE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/aba
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_pattern.htm"
+abapFile: "abapreplace_pattern.htm"
+keywords: ["do", "if", "try", "class", "data", "abapreplace", "pattern"]
+---
 
 * * *
 

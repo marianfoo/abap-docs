@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Input Help of the ABAP Dictionary"
+description: |
+  The example shows how to use the input help of the ABAP Dictionary. Source Code REPORT demo_dynpro_f4_help_dictionary. TABLES demof4help. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. Description The static next screen number of screen 100 is 100. The input fields have been ass
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_f4_help_dic_abexa.htm"
+abapFile: "abendynpro_f4_help_dic_abexa.htm"
+keywords: ["do", "data", "types", "abendynpro", "help", "dic", "abexa"]
+---
 
 * * *
 

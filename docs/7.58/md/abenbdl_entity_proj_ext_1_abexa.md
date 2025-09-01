@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - BDEF Projection Extension, Field Extension"
+description: |
+  This example demonstrates how extension fields are added and behavior-enabled in a projection BDEF extension scenario. Original Base RAP BO DDIC data model The DDIC data model consists of one database table: DEMO_ROOT_EXT: @EndUserText.label : 'Database Table for Root Entity of RAP BO' @AbapCatalo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_entity_proj_ext_1_abexa.htm"
+abapFile: "abenbdl_entity_proj_ext_1_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenbdl", "entity", "proj", "ext", "abexa"]
+---
 
 * * *
 

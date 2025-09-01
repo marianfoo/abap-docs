@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_template_xsd DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_str_template_xsd IMPLEMENTATION. METHOD main. DATA result TYPE TABLE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_template_xsd_abexa.htm"
+abapFile: "abenstring_template_xsd_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenstring", "template", "xsd", "abexa"]
+---
 
 * * *
 

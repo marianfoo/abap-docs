@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  As well as the statements shown here, a range of obsolete statements for dynpro flow logic(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_obsolet.htm) exists. dynpro - PROCESS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpprocess.htm) dynpro - MODULE(htt
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm"
+abapFile: "abenabap_dynpros_dynpro_statements.htm"
+keywords: ["loop", "do", "try", "data", "abenabap", "dynpros", "dynpro", "statements"]
+---
 
 * * *
 

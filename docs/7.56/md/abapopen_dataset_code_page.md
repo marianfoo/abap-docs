@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET, CODE PAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_dataset_shortref.htm) Syntax ...  CODE PAGE cp ... Effect This addition specifies that, when a legacy file(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlegacy_file_glosry.htm 'Glossary Entry') i
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_dataset_code_page.htm"
+abapFile: "abapopen_dataset_code_page.htm"
+keywords: ["delete", "do", "if", "try", "catch", "class", "data", "abapopen", "dataset", "code", "page"]
+---
 
 * * *
 

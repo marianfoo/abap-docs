@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Data types without names or with purely technical names are bound data types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbound_data_type_glosry.htm 'Glossary Entry') or data types constructed using RTTS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_ty
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasxml_reference_variable.htm"
+abapFile: "abenasxml_reference_variable.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenasxml", "reference", "variable"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CALL FUNCTION DESTINATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_shortref.htm) Syntax CALL FUNCTION func DESTINATION dest parameter_list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_destination_para.htm). Effect Synchronous c
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_destination.htm"
+abapFile: "abapcall_function_destination.htm"
+keywords: ["update", "do", "if", "try", "data", "abapcall", "function", "destination"]
+---
 
 * * *
 

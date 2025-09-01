@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for Data Clusters"
+description: |
+  As well as the statements IMPORT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapimport_data_cluster.htm) and DELETE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_cluster.htm) it is possible, if necessary, to use the methods of the class CL_ABAP_EXPIMP_U
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_expimp.htm"
+abapFile: "abencl_abap_expimp.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "abencl", "abap", "expimp"]
+---
 
 * * *
 

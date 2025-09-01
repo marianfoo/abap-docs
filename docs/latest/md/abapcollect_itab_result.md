@@ -1,4 +1,14 @@
-  
+---
+title: "COLLECT, result"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcollect_shortref.htm) Syntax ...  ASSIGNING <fs> CASTING    REFERENCE INTO dref . Effect The addition ASSIGNING is used to assign the inserted or existing line to a field symbol <fs> and the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcollect_itab_result.htm"
+abapFile: "abapcollect_itab_result.htm"
+keywords: ["insert", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abapcollect", "itab", "result"]
+---
 
 * * *
 

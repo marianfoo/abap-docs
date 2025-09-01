@@ -1,4 +1,14 @@
-  
+---
+title: "VALUE, Internal Tables"
+description: |
+  Syntax ... VALUE dtype#( let_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm) BASE itab FOR for_exp1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor.htm) FOR for_exp2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_itab.htm"
+abapFile: "abenvalue_constructor_params_itab.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenvalue", "constructor", "params", "itab"]
+---
 
 * * *
 

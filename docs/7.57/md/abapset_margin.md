@@ -1,4 +1,14 @@
-  
+---
+title: "SET MARGIN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_margin_shortref.htm) Syntax SET MARGIN macol marow. Effect This statement defines the left margin of a spool list as the columns specified in macol, and the upper margin as the rows specified in marow, and s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_margin.htm"
+abapFile: "abapset_margin.htm"
+keywords: ["select", "insert", "do", "while", "if", "try", "class", "data", "abapset", "margin"]
+---
 
 * * *
 

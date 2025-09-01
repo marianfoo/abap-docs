@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In ABAP Types"
+description: |
+  The following types are built-in in every ABAP program: -   Built-in numeric types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_numeric.htm) -   Built-in character-like types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_character.ht
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_types_complete.htm"
+abapFile: "abenbuilt_in_types_complete.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenbuilt", "complete"]
+---
 
 * * *
 

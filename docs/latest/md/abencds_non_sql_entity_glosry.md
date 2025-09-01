@@ -1,4 +1,14 @@
-  
+---
+title: "cds_non_sql_entity_glosry"
+description: |
+  cds_non_sql_entity_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_non_sql_entity_glosry.htm"
+abapFile: "abencds_non_sql_entity_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "non", "sql", "entity", "glosry"]
+---
 
 * * *
 

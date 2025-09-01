@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abeninline_declarations.htm
 
-  
+---
+title: "Inline Declarations"
+description: |
+  An inline declaration is performed using a declaration operator(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_operator_glosry.htm 'Glossary Entry') in a declaration expression(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_expression_glosr
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninline_declarations.htm"
+abapFile: "abeninline_declarations.htm"
+keywords: ["do", "try", "data", "field-symbol", "abeninline", "declarations"]
+---
 
 * * *
 
@@ -40,7 +50,17 @@ Continue
 
 ### abendata_inline.htm
 
-  
+---
+title: "DATA - Inline Declaration"
+description: |
+  Syntax ... DATA(var) ... Effect A declaration expression with the declaration operator DATA declares a variable(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvariable_glosry.htm 'Glossary Entry') var used as an operand in the current writing position(https://help.sap.com/doc/aba
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm"
+abapFile: "abendata_inline.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abendata", "inline"]
+---
 
 * * *
 
@@ -108,7 +128,17 @@ DATA(html) = cl\_demo\_output=>get( itab ).
 
 ### abenfield-symbol_inline.htm
 
-  
+---
+title: "FIELD-SYMBOL - Inline Declaration"
+description: |
+  Syntax ... FIELD-SYMBOL(<fs>) ... Effect A declaration expression with the declaration operator FIELD-SYMBOL declares a field symbol(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfield_symbol_glosry.htm 'Glossary Entry') <fs> to which a memory area is assigned in the current opera
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfield-symbol_inline.htm"
+abapFile: "abenfield-symbol_inline.htm"
+keywords: ["loop", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenfield", "symbol", "inline"]
+---
 
 * * *
 

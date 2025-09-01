@@ -1,4 +1,14 @@
-  
+---
+title: "SCAN"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Variants: 1. SCAN ABAP-SOURCE itab1 ... TOKENS INTO itab2(#!ABAP_VARIANT_1@1@) ... STATEMENTS INTO itab3. 2. SCAN AND CHECK ABAP-SOURCE itab1 ... RESULT INTO itab2.(#!ABAP_VARIANT_2@2@) Variant 1 SCAN ABAP-SO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscan.htm"
+abapFile: "abapscan.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapscan"]
+---
 
 * * *
 

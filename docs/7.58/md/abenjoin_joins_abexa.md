@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Multiple Joins"
+description: |
+  This example demonstrates chaining and parenthesizing of multiple joins(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_join.htm) in the SELECT statement. Source Code  Public class definition CLASS cl_demo_join_joins DEFINITION PUBLIC INHERITING FROM cl_demo_classrun C
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjoin_joins_abexa.htm"
+abapFile: "abenjoin_joins_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abenjoin", "joins", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Rendering"
+description: |
+  The example demonstrates the rendering of JSON data(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenjson_oview.htm). Source Code  Public class definition CLASS cl_demo_json_token_writer DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. ME
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_token_writer_abexa.htm"
+abapFile: "abenabap_json_token_writer_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenabap", "json", "token", "writer", "abexa"]
+---
 
 * * *
 

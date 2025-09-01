@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - Literals"
+description: |
+  Appropriate literals(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenliteral_glosry.htm 'Glossary Entry') can be specified in ABAP syntax in suitable reading positions in embedded Native SQL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_glosry.htm 'Glos
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_literal.htm"
+abapFile: "abapexec_literal.htm"
+keywords: ["select", "do", "if", "try", "data", "abapexec", "literal"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ROLLBACK CONNECTION - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit_rollback_connection.htm) Syntax ROLLBACK CONNECTION con. Effect Exits a database LUW(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm 'Glossary Entry') on the specified connectio
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaprollback_connection_shortref.htm"
+abapFile: "abaprollback_connection_shortref.htm"
+keywords: ["do", "if", "try", "data", "abaprollback", "connection", "shortref"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abencall_event_handler.htm
 
-  
+---
+title: "Call Event Handler"
+description: |
+  Event handlers are special methods that are declared using the addition FOR EVENT ... OF(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_event_handler.htm) of the statements METHODS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods.htm) and CLASS-METH
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_event_handler.htm"
+abapFile: "abencall_event_handler.htm"
+keywords: ["do", "if", "method", "class", "abencall", "event", "handler"]
+---
 
 * * *
 
@@ -28,7 +38,17 @@ Continue
 
 ### abapraise_event.htm
 
-  
+---
+title: "RAISE EVENT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_event_shortref.htm) Syntax RAISE EVENT evt EXPORTING p1 = a1 p2 = a2 .... Addition: ... EXPORTING p1 = a1 p2 = a2 ...(#!ABAP_ONE_ADD@1@) Effect This statement can only be used in methods. It raises the e
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_event.htm"
+abapFile: "abapraise_event.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abapraise", "event"]
+---
 
 * * *
 
@@ -102,7 +122,17 @@ Non-Handleable Exceptions
 
 ### abapset_handler.htm
 
-  
+---
+title: "SET HANDLER"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_shortref.htm) Syntax Forms Registers an instance events handler(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_instance.htm) 1. SET HANDLER handler1 handler2 ... FOR oref
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler.htm"
+abapFile: "abapset_handler.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "abapset", "handler"]
+---
 
 * * *
 
@@ -207,7 +237,17 @@ Continue
 
 ### abapset_handler_instance.htm
 
-  
+---
+title: "SET HANDLER - FOR"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_shortref.htm) Syntax SET HANDLER handler1 handler2 ... FOR  oref ALL INSTANCES  ACTIVATION act. Extras: 1. ... FOR oref(#!ABAP_ADDITION_1@1@) 2. ... FOR ALL INSTANCES(#!ABAP_ADDI
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_instance.htm"
+abapFile: "abapset_handler_instance.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abapset", "handler", "instance"]
+---
 
 * * *
 
@@ -352,7 +392,17 @@ START-OF-SELECTION.
 
 ### abapset_handler_static.htm
 
-  
+---
+title: "Syntax"
+description: |
+  SET HANDLER handler1 handler2 ... ACTIVATION act. Addition: ... ACTIVATION act(#!ABAP_ONE_ADD@1@) Effect This statement registers the event handlers(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_handler_glosry.htm 'Glossary Entry') handler1 handler2 ... for the ass
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_static.htm"
+abapFile: "abapset_handler_static.htm"
+keywords: ["select", "delete", "do", "if", "try", "method", "class", "abapset", "handler", "static"]
+---
 
 * * *
 
@@ -424,7 +474,17 @@ START-OF-SELECTION.
 
 ### abapset_handler.htm
 
-  
+---
+title: "SET HANDLER"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_shortref.htm) Syntax Forms Registers an instance events handler(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler_instance.htm) 1. SET HANDLER handler1 handler2 ... FOR oref
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler.htm"
+abapFile: "abapset_handler.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "abapset", "handler"]
+---
 
 * * *
 

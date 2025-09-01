@@ -1,4 +1,14 @@
-  
+---
+title: "Flat"
+description: |
+  Property of a data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm 'Glossary Entry'), where the content of its data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm 'Glossary Entry') represents the actual work
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_glosry.htm"
+abapFile: "abenflat_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenflat", "glosry"]
+---
 
 * * *
 

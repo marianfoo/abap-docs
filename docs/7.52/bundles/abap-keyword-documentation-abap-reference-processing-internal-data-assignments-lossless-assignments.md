@@ -1,324 +1,21 @@
-# ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Assignments / Lossless Assignments
+# ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Assignments / Lossless Assignments / Lossless Assignments - Rules
 
-Included pages: 13
-
-
-### abenlossless_move.htm
-
-  
-
-* * *
-
-SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) → 
-
-Lossless Assignments
-
-A [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") is an assignment between incompatible data types in which the [conversion](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_glosry.htm "Glossary Entry") is checked to see whether data is lost. Lossless assignments can be performed using the
-
--   [lossless operator EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm), in which the argument is converted, according to the
-
--   [rules for lossless assignments,](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
-
-into a result of the specified type. This makes it possible to use lossless assignments in all operand positions in which [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) can be specified.
-
-The real meaning of a lossless assignment is the following method of using a [constructor expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") with [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) as the right side of an [assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_operator.htm):
-
-Syntax
-
-destination = [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) #( source ).
-
-In this case, source is converted to the data type of destination and checked accordingly.
-
-Notes
-
--   If the argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) is an [arithmetic expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), a [lossless calculation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_calculation_glosry.htm "Glossary Entry") is performed instead of a lossless assignment.
-
--   When assigning structures component by component using [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding.htm), there is an addition EXACT for lossless assignments.
-
--   Using the addition EXACT in the obsolete statement [MOVE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm) is an obsolete form of lossless assignment.
-
-Continue
-[EXACT - Lossless Operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm)
-[Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
-
-
-### abenconstructor_expression_exact.htm
-
-  
-
-* * *
-
-SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm) → 
-
-EXACT - Lossless Operator
-
-Syntax
-
-... EXACT type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplet.htm)*\]* dobj ) ...
-
-Effect
-
-A [constructor expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expressions.htm) with the lossless operator EXACT performs either a [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm) or a [lossless calculation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_calculation.htm) (depending on the specified argument dobj) and creates a result with the data type type. The following can be specified for type:
-
--   A non-generic data type dtype (with the exception of [reference types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_type_glosry.htm "Glossary Entry")).
-
--   The # character for a data type, determined in accordance with the following hierarchy:
-
--   If the data type required in an operand position is unique and known completely, the [operand type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_type_glosry.htm "Glossary Entry") is used. The operand type can also be generic and the current type is used at runtime.
-
--   If the data type cannot be derived from the context, the calculation type decfloat34 is used in lossless calculations and the data type of the argument is used in lossless assignments.
-
-The parentheses must contain precisely one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The content of the result is defined as follows:
-
--   If the argument dobj is specified as an [arithmetic expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_calculation.htm) and the result (with calculation type decfloat34) is converted to the data type type.
-
--   In all other cases, the content of the result is defined by an assignment of the argument in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm), during which a check is performed in accordance with the [rules of lossless assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm).
-
-If data is lost in either case, the corresponding exception is raised. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning is produced. For [enumerated types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), additional special [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm) apply.
-
-A LET expression [let\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplet.htm) can be specified (optional) before the argument to define local helper fields.
-
-Note
-
-The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm) and [COMPUTE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute.htm).
-
-Example
-
-Lossless assignment. Here, the exception CX\_SY\_CONVERSION\_ERROR is raised, because the argument contains an invalid value.
-
-TYPES numtext TYPE n LENGTH 255.
-TRY.
-    DATA(number) = EXACT numtext( '4 Apples + 2 Oranges' ).
-  CATCH cx\_sy\_conversion\_error INTO DATA(exc).
-    ...
-ENDTRY.
-
-Example
-
-Lossless assignment with generic types. The first method call produces a successful assignment; the second raises the exception CX\_SY\_CONVERSION\_EXACT\_NOT\_SUP. If the assignment is replaced by p2 = EXACT #( + p1 ), a lossless calculation is produced and no exception is raised.
-
-CLASS c1 DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS m1 IMPORTING p1 TYPE data
-                     EXPORTING p2 TYPE data.
-ENDCLASS.
-CLASS c1 IMPLEMENTATION.
-  METHOD m1.
-    DATA arg TYPE i.
-    TRY.
-        p2 = EXACT #( p1 ) ##operator.
-        cl\_demo\_output=>display\_data( p2 ).
-      CATCH cx\_sy\_conversion\_exact\_not\_sup
-            cx\_sy\_conversion\_error INTO DATA(err).
-        cl\_demo\_output=>display\_text( err->get\_text( ) ).
-    ENDTRY.
-  ENDMETHOD.
-ENDCLASS.
-DATA: date TYPE d,
-      text TYPE string.
-START-OF-SELECTION.
-  c1=>m1( EXPORTING p1 = sy-timlo
-          IMPORTING p2 = text ).
-  c1=>m1( EXPORTING p1 = sy-timlo
-          IMPORTING p2 = date ).
-
-Example
-
-Lossless calculation. Here, the exception CX\_SY\_CONVERSION\_ROUNDING is raised, because the calculation is not lossless. The rounded result is assigned to the inline declared variable rounded\_result.
-
-TRY.
-    DATA(exact\_result) = EXACT #( 3 \* ( 1 / 3 ) ).
-  CATCH cx\_sy\_conversion\_rounding INTO DATA(exc).
-    DATA(rounded\_result) = exc->value.
-ENDTRY.
-
-[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
-
-Handleable Exceptions
-
-CX\_SY\_CONVERSION\_EXACT\_NOT\_SUP
-
--   Cause: Invalid combination of types or lengths.
-    Runtime error: CONVT\_NOT\_SUPPORTED
-    
-
-Continue
-[EXACT - Lossless Conversion of Enumerated Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm)
-
-
-### abenexact_constructor_enum.htm
-
-  
-
-* * *
-
-SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm) →  [EXACT - Lossless Operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) → 
-
-EXACT - Lossless Conversion of Enumerated Types
-
-If the constructor expression [CONV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_conv.htm) is applied to [enumerated types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), the same [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconv_constructor_enum.htm) apply as for the conversion operator [CONV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_conv.htm):
-
--   An [enumerated object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry") can be converted to the [base type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbase_type_glosry.htm "Glossary Entry") if its enumerated type, as with CONV.
-
-... EXACT base\_type( enum\_dobj ) ...
-
--   A data object that can be converted to the [base type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbase_type_glosry.htm "Glossary Entry") of an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry") can be converted to the enumerated type, as with CONV.
-
-... EXACT enum\_type( dobj ) ...
-
-The conditions of losslessness also apply:
-
--   If a data object that can be converted to the base type is converted to the enumerated type, this happens in accordance with the [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm) of [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_assignment_glosry.htm "Glossary Entry").
-
--   If an [arithmetic expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_arith.htm) is used as the argument of a conversion to the enumerated type, the result must be obtained in accordance with the [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_calculation.htm) of [lossless calculation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_calculation_glosry.htm "Glossary Entry").
-
-Example
-
-If the conversion operator is used, the argument is converted to the base type c with length 4, with surplus places cut off. If the Lossless operator is used, this results in an exception.
-
-TYPES:
-  char8 TYPE c LENGTH 4,
-  BEGIN OF ENUM text BASE TYPE char8,
-    first  VALUE IS INITIAL,
-    second VALUE 'Seco',
-    third  VALUE 'Thrd',
-  END OF ENUM text.
-DATA(result1) = CONV text( \`Seco\` && \`nd\` ).
-TRY.
-    DATA(result2) = EXACT text( \`Seco\` && \`nd\` ).
-  CATCH cx\_sy\_conversion\_data\_loss.
-    cl\_demo\_output=>display( \`Oops!\` ).
-ENDTRY.
-
-If an arithmetic expression is used in the conversion operator, the result is converted to the base type i, with the decimal places cut off. If the Lossless operator is used, this results in an exception.
-
-TYPES:
-  BEGIN OF ENUM number,
-    n0, n1, n2,
-  END OF ENUM number.
-DATA(result1) = CONV number( + '1.2' ).
-TRY.
-    DATA(result2) = EXACT number( + '1.2' ).
-  CATCH cx\_sy\_conversion\_rounding.
-    cl\_demo\_output=>display( \`Oops!\` ).
-ENDTRY.
-
-
-### abenconstructor_expression_exact.htm
-
-  
-
-* * *
-
-SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm) → 
-
-EXACT - Lossless Operator
-
-Syntax
-
-... EXACT type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplet.htm)*\]* dobj ) ...
-
-Effect
-
-A [constructor expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expressions.htm) with the lossless operator EXACT performs either a [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm) or a [lossless calculation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_calculation.htm) (depending on the specified argument dobj) and creates a result with the data type type. The following can be specified for type:
-
--   A non-generic data type dtype (with the exception of [reference types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_type_glosry.htm "Glossary Entry")).
-
--   The # character for a data type, determined in accordance with the following hierarchy:
-
--   If the data type required in an operand position is unique and known completely, the [operand type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_type_glosry.htm "Glossary Entry") is used. The operand type can also be generic and the current type is used at runtime.
-
--   If the data type cannot be derived from the context, the calculation type decfloat34 is used in lossless calculations and the data type of the argument is used in lossless assignments.
-
-The parentheses must contain precisely one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The content of the result is defined as follows:
-
--   If the argument dobj is specified as an [arithmetic expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_calculation.htm) and the result (with calculation type decfloat34) is converted to the data type type.
-
--   In all other cases, the content of the result is defined by an assignment of the argument in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm), during which a check is performed in accordance with the [rules of lossless assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm).
-
-If data is lost in either case, the corresponding exception is raised. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning is produced. For [enumerated types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), additional special [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm) apply.
-
-A LET expression [let\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplet.htm) can be specified (optional) before the argument to define local helper fields.
-
-Note
-
-The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm) and [COMPUTE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute.htm).
-
-Example
-
-Lossless assignment. Here, the exception CX\_SY\_CONVERSION\_ERROR is raised, because the argument contains an invalid value.
-
-TYPES numtext TYPE n LENGTH 255.
-TRY.
-    DATA(number) = EXACT numtext( '4 Apples + 2 Oranges' ).
-  CATCH cx\_sy\_conversion\_error INTO DATA(exc).
-    ...
-ENDTRY.
-
-Example
-
-Lossless assignment with generic types. The first method call produces a successful assignment; the second raises the exception CX\_SY\_CONVERSION\_EXACT\_NOT\_SUP. If the assignment is replaced by p2 = EXACT #( + p1 ), a lossless calculation is produced and no exception is raised.
-
-CLASS c1 DEFINITION.
-  PUBLIC SECTION.
-    CLASS-METHODS m1 IMPORTING p1 TYPE data
-                     EXPORTING p2 TYPE data.
-ENDCLASS.
-CLASS c1 IMPLEMENTATION.
-  METHOD m1.
-    DATA arg TYPE i.
-    TRY.
-        p2 = EXACT #( p1 ) ##operator.
-        cl\_demo\_output=>display\_data( p2 ).
-      CATCH cx\_sy\_conversion\_exact\_not\_sup
-            cx\_sy\_conversion\_error INTO DATA(err).
-        cl\_demo\_output=>display\_text( err->get\_text( ) ).
-    ENDTRY.
-  ENDMETHOD.
-ENDCLASS.
-DATA: date TYPE d,
-      text TYPE string.
-START-OF-SELECTION.
-  c1=>m1( EXPORTING p1 = sy-timlo
-          IMPORTING p2 = text ).
-  c1=>m1( EXPORTING p1 = sy-timlo
-          IMPORTING p2 = date ).
-
-Example
-
-Lossless calculation. Here, the exception CX\_SY\_CONVERSION\_ROUNDING is raised, because the calculation is not lossless. The rounded result is assigned to the inline declared variable rounded\_result.
-
-TRY.
-    DATA(exact\_result) = EXACT #( 3 \* ( 1 / 3 ) ).
-  CATCH cx\_sy\_conversion\_rounding INTO DATA(exc).
-    DATA(rounded\_result) = exc->value.
-ENDTRY.
-
-[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
-
-Handleable Exceptions
-
-CX\_SY\_CONVERSION\_EXACT\_NOT\_SUP
-
--   Cause: Invalid combination of types or lengths.
-    Runtime error: CONVT\_NOT\_SUPPORTED
-    
-
-Continue
-[EXACT - Lossless Conversion of Enumerated Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm)
+Included pages: 8
 
 
 ### abapmove_exact.htm
 
-  
+---
+title: "Lossless Assignments - Rules"
+description: |
+  A lossless assignment checks the assigned content, before its conversion(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_glosry.htm 'Glossary Entry') to an incompatible target object, to see whether the assignment is possible without data loss. This means: -   the value i
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm"
+abapFile: "abapmove_exact.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapmove", "exact"]
+---
 
 * * *
 
@@ -378,7 +75,17 @@ Continue
 
 ### abenmove_exact_elementary.htm
 
-  
+---
+title: "Checking Elementary Data Objects"
+description: |
+  In conversions between incompatible elementary data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_object_glosry.htm 'Glossary Entry'), the operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) ensu
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm"
+abapFile: "abenmove_exact_elementary.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenmove", "exact", "elementary"]
+---
 
 * * *
 
@@ -426,7 +133,17 @@ Continue
 
 ### abenmove_exact_elementary_valid.htm
 
-  
+---
+title: "Valid Values for Lossless Assignments"
+description: |
+  When a lossless conversion of an elementary argument of the operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must represent a value that is valid in the tables below (and accordin
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_valid.htm"
+abapFile: "abenmove_exact_elementary_valid.htm"
+keywords: ["do", "if", "class", "data", "types", "abenmove", "exact", "elementary", "valid"]
+---
 
 * * *
 
@@ -438,13 +155,9 @@ Valid Values for Lossless Assignments
 
 When a lossless conversion of an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must represent a value that is valid in the tables below (and according to its data type).
 
--   [Numeric Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_1)
+-   [Numeric Arguments](#abenmove-exact-elementary-valid-1--------character-like-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
 
--   [Character-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
-
--   [Byte-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_3)
-
--   [Date/Time Fields as Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
+-   [Byte-Like Arguments](#abenmove-exact-elementary-valid-3--------date-time-fields-as-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
 
 Numeric Arguments
 
@@ -560,7 +273,17 @@ DATA(result2) = EXACT i( date ).
 
 ### abenmove_exact_elementary_fit.htm
 
-  
+---
+title: "Suitable Values for Lossless Assignments"
+description: |
+  When an elementary argument of the operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) is converted to an incompatible data type, the argument must contain a value suitable for the target type as shown in the following tables. This avoids
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_fit.htm"
+abapFile: "abenmove_exact_elementary_fit.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenmove", "exact", "elementary", "fit"]
+---
 
 * * *
 
@@ -572,29 +295,17 @@ Suitable Values for Lossless Assignments
 
 When an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) is converted to an incompatible data type, the argument must contain a value suitable for the target type as shown in the following tables. This avoids loss of values and provides a valid value for the target type.
 
--   [Numeric Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_1)
+-   [Numeric Target Types](#abenmove-exact-elementary-fit-1--------target-type-with-numeric-type--except-f----@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
 
--   [Target Type with Numeric Type (Except f)](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
+-   [Target Type of Type f](#abenmove-exact-elementary-fit-3--------character-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
 
--   [Target Type of Type f](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_3)
+-   [Target Type of Type c](#abenmove-exact-elementary-fit-5--------target-type-of-type-string---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
 
--   [Character-Like Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
+-   [Target Type of Type n](#abenmove-exact-elementary-fit-7--------byte-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
 
--   [Target Type of Type c](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_5)
+-   [Target Type of Type x](#abenmove-exact-elementary-fit-9--------target-type-of-type-xstring---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
 
--   [Target Type of Type string](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
-
--   [Target Type of Type n](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_7)
-
--   [Byte-Like Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
-
--   [Target Type of Type x](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_9)
-
--   [Target Type of Type xstring](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
-
--   [Date/Time Types as Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_11)
-
--   [Target Type of Type d](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
+-   [Date/Time Types as Target Types](#abenmove-exact-elementary-fit-11--------target-type-of-type-d---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
 
 -   [Target Type of Type t](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_13)
 
@@ -874,7 +585,17 @@ DATA(result2) = EXACT t( 100000 ).
 
 ### abenmove_exact_abexa.htm
 
-  
+---
+title: "Lossless Assignment"
+description: |
+  This example demonstrates how the operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) is used to make lossless assignments. Source Code REPORT demo_move_exact. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_abexa.htm"
+abapFile: "abenmove_exact_abexa.htm"
+keywords: ["select", "do", "case", "try", "catch", "method", "class", "data", "abenmove", "exact", "abexa"]
+---
 
 * * *
 
@@ -923,7 +644,17 @@ Using the operator EXACT, the value that is passed is checked and an exception i
 
 ### abenmove_exact_elementary.htm
 
-  
+---
+title: "Checking Elementary Data Objects"
+description: |
+  In conversions between incompatible elementary data objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_object_glosry.htm 'Glossary Entry'), the operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) ensu
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm"
+abapFile: "abenmove_exact_elementary.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenmove", "exact", "elementary"]
+---
 
 * * *
 
@@ -971,7 +702,17 @@ Continue
 
 ### abenmove_exact_structure.htm
 
-  
+---
+title: "Checking Structures"
+description: |
+  The operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) can only be used to convert structures to compatible(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompatibility.htm) structures. Full compatibility is not require
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_structure.htm"
+abapFile: "abenmove_exact_structure.htm"
+keywords: ["do", "if", "try", "data", "types", "abenmove", "exact", "structure"]
+---
 
 * * *
 
@@ -1008,7 +749,17 @@ DATA(result2) = EXACT string( struc ). "Not possible
 
 ### abenmove_exact_itab.htm
 
-  
+---
+title: "Checking Internal Tables"
+description: |
+  The operator EXACT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) checks a table specified as an argument row-by-row against the table-like row type: -   If the row types are elementary, each row is checked for elementary data objects(https://hel
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_itab.htm"
+abapFile: "abenmove_exact_itab.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "abenmove", "exact", "itab"]
+---
 
 * * *
 
@@ -1061,63 +812,3 @@ TRY.
   CATCH cx\_sy\_conversion\_no\_date.
 ENDTRY.
 cl\_demo\_output=>display( jtab ).
-
-
-### abapmove_exact.htm
-
-  
-
-* * *
-
-SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm) → 
-
-Lossless Assignments - Rules
-
-A lossless assignment checks the assigned content, before its [conversion](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_glosry.htm "Glossary Entry") to an incompatible target object, to see whether the assignment is possible without data loss. This means:
-
--   the value is checked to see whether it is a valid value for the data type of the source
-    
--   whether a conversion to the target field can produce a loss of values
-    
--   whether the value is valid for the target field after conversion
-    
-
-If the source contains a valid value and no values are lost, the conversion is performed in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm). Otherwise no assignment is made. If it is known statically that one of the prerequisites is not met, a syntax error occurs. If this violation is not identified until the program is executed, a handleable exception is raised. The exception class of this exception is generally a subclass of CX\_SY\_CONVERSION\_ERROR.
-
-The following sections outline which rules are used by the operator [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) when checking the content of its argument with respect to the data types involved:
-
--   [Checks elementary data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm)
-    
--   [Checks structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_structure.htm)
-    
--   [Checks internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_itab.htm)
-    
-
-If an exception is raised as a result of an invalid or inappropriate value, the VALUE attribute of the exception object is assigned this value in character form; this value is generally also included in the exception text.
-
-No checks are made for:
-
--   compatible data types
-
-The content of the argument is passed to the return value without being converted, even if it already contains an invalid value.
-
--   Reference Variables
-
-Checks on the content of a reference variable using EXACT are not useful. This is because nothing is converted and the content is either assignable or not assignable, as specified by the [assignment rules for reference variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_references.htm).
-
-A syntax check warning is produced if it is known statically that no checks are performed for the combination of argument and target type, so making EXACT superfluous.
-
-Note
-
-Since lossless checks are only performed for conversions to incompatible data types, it is best to only use the operator EXACT to fill data objects that should only be given valid objects. Other types of assignments that require a start value to be specified in the declaration using [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm) can create invalid values that are then not recognized when a lossless assignment is made to a compatible target field.
-
-Executable Example
-
-[Lossless Assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_abexa.htm)
-
-Continue
-[Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm)
-[Checking Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_structure.htm)
-[Checking Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_itab.htm)

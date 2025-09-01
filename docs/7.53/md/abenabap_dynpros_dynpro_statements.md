@@ -1,4 +1,14 @@
-  
+---
+title: "Statements in the Dynpro Flow Logic"
+description: |
+  The dynpro flow logic is the procedural part of a dynpro(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry'). It is created using an ABAP-like programming language in Screen Painter(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscre
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_dynpro_statements.htm"
+abapFile: "abenabap_dynpros_dynpro_statements.htm"
+keywords: ["loop", "do", "try", "data", "abenabap", "dynpros", "dynpro", "statements"]
+---
 
 * * *
 

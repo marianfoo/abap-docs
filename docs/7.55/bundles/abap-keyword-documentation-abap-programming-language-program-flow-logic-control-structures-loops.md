@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenabap_loops.htm
 
-  
+---
+title: "Loops"
+description: |
+  This section describes the loops defined using the following: -   DO - ENDDO(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo.htm) -   WHILE - ENDWHILE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwhile.htm) Further keywords for defining loops are: -   LOOP -
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_loops.htm"
+abapFile: "abenabap_loops.htm"
+keywords: ["select", "loop", "do", "while", "data", "internal-table", "abenabap", "loops"]
+---
 
 * * *
 
@@ -36,7 +46,17 @@ Continue
 
 ### abapdo.htm
 
-  
+---
+title: "DO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo_shortref.htm) Syntax DO n TIMES. statement_block ENDDO. Addition: ... n TIMES(#!ABAP_ONE_ADD@1@) Effect Unconditional loop. The statements DO and ENDDO define a control structure, which can contain
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo.htm"
+abapFile: "abapdo.htm"
+keywords: ["loop", "do", "if", "try", "data", "internal-table", "abapdo"]
+---
 
 * * *
 
@@ -112,7 +132,17 @@ Continue
 
 ### abapenddo.htm
 
-  
+---
+title: "ENDDO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo_shortref.htm) Syntax ENDDO. Effect The statement ENDDO completes a loop started using DO(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo.htm).
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenddo.htm"
+abapFile: "abapenddo.htm"
+keywords: ["loop", "do", "abapenddo"]
+---
 
 * * *
 
@@ -135,7 +165,17 @@ The statement ENDDO completes a loop started using [DO](https://help.sap.com/doc
 
 ### abapdo.htm
 
-  
+---
+title: "DO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo_shortref.htm) Syntax DO n TIMES. statement_block ENDDO. Addition: ... n TIMES(#!ABAP_ONE_ADD@1@) Effect Unconditional loop. The statements DO and ENDDO define a control structure, which can contain
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo.htm"
+abapFile: "abapdo.htm"
+keywords: ["loop", "do", "if", "try", "data", "internal-table", "abapdo"]
+---
 
 * * *
 
@@ -211,7 +251,17 @@ Continue
 
 ### abapwhile.htm
 
-  
+---
+title: "WHILE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwhile_shortref.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) statement_block ENDWHILE. Effect Conditional loop. The statements WHILE and ENDWHILE define
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwhile.htm"
+abapFile: "abapwhile.htm"
+keywords: ["loop", "do", "while", "if", "try", "data", "internal-table", "abapwhile"]
+---
 
 * * *
 
@@ -259,7 +309,17 @@ Continue
 
 ### abapendwhile.htm
 
-  
+---
+title: "ENDWHILE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwhile_shortref.htm) Syntax ENDWHILE. Effect The statement ENDWHILE completes a loop introduced using WHILE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwhile.htm).
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendwhile.htm"
+abapFile: "abapendwhile.htm"
+keywords: ["loop", "do", "while", "abapendwhile"]
+---
 
 * * *
 
@@ -282,7 +342,17 @@ The statement ENDWHILE completes a loop introduced using [WHILE](https://help.sa
 
 ### abapwhile.htm
 
-  
+---
+title: "WHILE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwhile_shortref.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) statement_block ENDWHILE. Effect Conditional loop. The statements WHILE and ENDWHILE define
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwhile.htm"
+abapFile: "abapwhile.htm"
+keywords: ["loop", "do", "while", "if", "try", "data", "internal-table", "abapwhile"]
+---
 
 * * *
 

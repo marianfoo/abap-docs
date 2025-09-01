@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:transform template='tmpl'> ... </tt:transform> Effect The keyword for the root element of an ST program is tt:transform. The name of a template tmpl can be specified for the template attribute (optional). The specified template forms the main template(https://help.sap.com/doc/abapdocu
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_transform.htm"
+abapFile: "abenst_tt_transform.htm"
+keywords: ["do", "if", "data", "abenst", "transform"]
+---
 
 * * *
 

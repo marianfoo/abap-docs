@@ -1,4 +1,14 @@
-  
+---
+title: "event_block_glosry"
+description: |
+  event_block_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_block_glosry.htm"
+abapFile: "abenevent_block_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenevent", "block", "glosry"]
+---
 
 * * *
 

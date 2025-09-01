@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abeninterfaces.htm
 
-  
+---
+title: "Implementing and including interfaces"
+description: |
+  Interfaces can be implemented by classes using the statement -   INTERFACES(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces.htm) or can be included by other interfaces. Alias names can be defined for interface components using the statement -   ALIASES(https://help.sap.
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterfaces.htm"
+abapFile: "abeninterfaces.htm"
+keywords: ["do", "if", "class", "abeninterfaces"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abapinterfaces.htm
 
-  
+---
+title: "INTERFACES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_shortref.htm) Syntax Forms Implementing Interfaces in Classes(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_class.htm) 1. INTERFACES intf PARTIALLY IMPLEMENTED(https://hel
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces.htm"
+abapFile: "abapinterfaces.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapinterfaces"]
+---
 
 * * *
 
@@ -69,7 +89,17 @@ Continue
 
 ### abapinterfaces_class.htm
 
-  
+---
+title: "INTERFACES - implementation"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_shortref.htm) Syntax INTERFACES intf PARTIALLY IMPLEMENTED(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_partially.htm)  ABSTRACT METHODS meth1 meth2 ...
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_class.htm"
+abapFile: "abapinterfaces_class.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "abapinterfaces"]
+---
 
 * * *
 
@@ -289,7 +319,17 @@ START-OF-SELECTION.
 
 ### abapinterfaces_ifac.htm
 
-  
+---
+title: "INTERFACES - integration"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_shortref.htm) Syntax INTERFACES intf. Effect In the declaration of an interface, the statement INTERFACES binds the interface intf in the declared interface. Additions cannot be specified. As a result, the in
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_ifac.htm"
+abapFile: "abapinterfaces_ifac.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abapinterfaces", "ifac"]
+---
 
 * * *
 
@@ -358,7 +398,17 @@ START-OF-SELECTION.
 
 ### abapinterfaces.htm
 
-  
+---
+title: "INTERFACES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_shortref.htm) Syntax Forms Implementing Interfaces in Classes(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_class.htm) 1. INTERFACES intf PARTIALLY IMPLEMENTED(https://hel
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces.htm"
+abapFile: "abapinterfaces.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapinterfaces"]
+---
 
 * * *
 
@@ -393,7 +443,17 @@ Continue
 
 ### abapaliases.htm
 
-  
+---
+title: "ALIASES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases_shortref.htm) Syntax ALIASES alias FOR intf~comp. Effect In the declaration part of a class or interface, this statement declares an alias name alias for a component comp of the interface intf. The naming conve
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases.htm"
+abapFile: "abapaliases.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abapaliases"]
+---
 
 * * *
 

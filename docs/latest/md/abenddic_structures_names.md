@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Naming Rules for Structures"
+description: |
+  Besides the general naming rules for DDIC data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_data_types.htm), DDIC structures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_structure_glosry.htm 'Glossary Entry') and also DDIC database t
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_structures_names.htm"
+abapFile: "abenddic_structures_names.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "structures", "names"]
+---
 
 * * *
 

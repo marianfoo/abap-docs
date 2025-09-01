@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... rel_expr  NOT cds_cond ANDOR cds_cond ... Effect Logical expression cds_cond for formulating a condition in ABAP CDS. A logical expression is either a single relational expression rel_exp, or an expression composed of the Boolean operators NOT, AND, OR and one or more lo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v1.htm"
+abapFile: "abencds_conditional_expression_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "conditional", "expression"]
+---
 
 * * *
 

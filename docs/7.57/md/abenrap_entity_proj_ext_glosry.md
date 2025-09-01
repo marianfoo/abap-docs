@@ -1,4 +1,14 @@
-  
+---
+title: "RAP entity projection extension"
+description: |
+  Projection extension for short. Component of a BDEF projection extension(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projec_bdef_ext_glosry.htm 'Glossary Entry') that extends the behavior of an existing RAP BO entity in a CDS projection behavior definition(https://help.sap
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_proj_ext_glosry.htm"
+abapFile: "abenrap_entity_proj_ext_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "entity", "proj", "ext", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT SCREEN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_screen_shortref.htm) Syntax LOOP AT SCREEN INTO wa. ... ENDLOOP. Effect The statement LOOP AT SCREEN ... ENDLOOP defines a loop around a statement block. For every screen element of the current dynpro to wh
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_screen.htm"
+abapFile: "abaploop_at_screen.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "internal-table", "abaploop", "screen"]
+---
 
 * * *
 

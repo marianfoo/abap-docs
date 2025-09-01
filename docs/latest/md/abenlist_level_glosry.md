@@ -1,4 +1,14 @@
-  
+---
+title: "list_level_glosry"
+description: |
+  list_level_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_level_glosry.htm"
+abapFile: "abenlist_level_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenlist", "level", "glosry"]
+---
 
 * * *
 

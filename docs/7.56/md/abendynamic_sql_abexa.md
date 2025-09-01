@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Dynamic Token Specification"
+description: |
+  This example demonstrates how tokens are specified dynamically in ABAP SQL for the statement SELECT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm). Source Code REPORT demo_dynamic_sql. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMP
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynamic_sql_abexa.htm"
+abapFile: "abendynamic_sql_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abendynamic", "sql", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "XSS"
+description: |
+  Short for Cross Site Scripting. Malicious attack on a server using a Web application. In this case, security gaps on web pages that allow the injection of unwanted script statements are exploited. → More about(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxss_scrty.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxss_glosry.htm"
+abapFile: "abenxss_glosry.htm"
+keywords: ["do", "if", "case", "abenxss", "glosry"]
+---
 
 * * *
 

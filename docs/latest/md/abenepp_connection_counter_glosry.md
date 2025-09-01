@@ -1,4 +1,14 @@
-  
+---
+title: "EPP connection counter"
+description: |
+  Component of an extended passport (EPP)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenepp_glosry.htm 'Glossary Entry'). Counts connections between clients and servers with the same EPP connection ID(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenepp_con
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenepp_connection_counter_glosry.htm"
+abapFile: "abenepp_connection_counter_glosry.htm"
+keywords: ["do", "if", "try", "abenepp", "connection", "counter", "glosry"]
+---
 
 * * *
 

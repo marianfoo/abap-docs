@@ -1,4 +1,14 @@
-  
+---
+title: "ENDCATCH"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_system-except_shortref.htm) Obsolete Syntax ENDCATCH. Effect The statement ENDCATCH closes a control structure introduced by CATCH SYSTEM-EXCEPTIONS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/aba
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendcatch.htm"
+abapFile: "abapendcatch.htm"
+keywords: ["do", "catch", "abapendcatch"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ENDINTERFACE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterface_shortref.htm) Syntax ENDINTERFACE. Effect The statement ENDINTERFACE closes an interface definition introduced using INTERFACE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterface.htm).
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendinterface.htm"
+abapFile: "abapendinterface.htm"
+keywords: ["do", "class", "abapendinterface"]
+---
 
 * * *
 

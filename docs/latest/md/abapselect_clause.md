@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... DISTINCT select_list(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_list.htm) ... Addition: ... DISTINCT(#!ABAP_ONE_ADD@1@) Effect SELECT clause of a query(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm 'Glossary En
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_clause.htm"
+abapFile: "abapselect_clause.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "data", "internal-table", "abapselect", "clause"]
+---
 
 * * *
 

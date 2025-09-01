@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenunsupported_obsolete.htm
 
-  
+---
+title: "Unsupported Language Elements"
+description: |
+  The following language elements exist for reasons of downward compatibility only but are not supported. -   MARK(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmark.htm) MARK(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmark.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunsupported_obsolete.htm"
+abapFile: "abenunsupported_obsolete.htm"
+keywords: ["do", "if", "abenunsupported", "obsolete"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abapmark.htm
 
-  
+---
+title: "MARK"
+description: |
+  Obsolete Syntax MARK. Effect This statement is not supported. Its behavior is undefined and undocumented. It cannot be used in classes.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmark.htm"
+abapFile: "abapmark.htm"
+keywords: ["do", "if", "class", "abapmark"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - CDS-managed DDIC Views"
+description: |
+  For CDS DDIC-based views (obsolete)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm 'Glossary Entry') defined using the statement DEFINE VIEW(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_v1.htm) without the additio
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_database_view.htm"
+abapFile: "abencds_database_view.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "database", "view"]
+---
 
 * * *
 

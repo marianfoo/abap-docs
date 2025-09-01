@@ -1,4 +1,14 @@
-  
+---
+title: "RAP message"
+description: |
+  Message that is represented by an instance of a class that implements the interface IF_ABAP_BEHV_MESSAGE and is used in RAP BO provider(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry') implementations. Each application can create i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_message_glosry.htm"
+abapFile: "abenrap_message_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenrap", "message", "glosry"]
+---
 
 * * *
 

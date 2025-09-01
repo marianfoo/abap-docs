@@ -1,4 +1,14 @@
-  
+---
+title: "SYSTEM-CALL - Debugger and System Paths"
+description: |
+  This statement is intended solely for  Internal use within SAP Basis Development  Even within SAP Basis, it may be used only in programs within the ABAP+GUI dvelopment groups. Its use is subject to various restrictions, some of which may not be described in the documentation . This docum
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsystem-call_path.htm"
+abapFile: "abapsystem-call_path.htm"
+keywords: ["do", "if", "case", "abapsystem", "call", "path"]
+---
 
 * * *
 

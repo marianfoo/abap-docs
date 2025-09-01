@@ -1,4 +1,14 @@
-  
+---
+title: "Big Endian"
+description: |
+  Byte sequence(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_order_glosry.htm 'Glossary Entry') in which the highest value byte comes first.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbig_endian_glosry.htm"
+abapFile: "abenbig_endian_glosry.htm"
+keywords: ["do", "try", "abenbig", "endian", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_for_groups_by_packages. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES i_tab TYPE STANDARD TABLE OF decfloat34 WITH EMPTY KEY. CLASS-DATA: itab TYPE i_tab, n    TYPE i VALUE 10, idx  TYPE i. CLASS-METHODS group RETURNING VALUE
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor_group_by_packages_abexa.htm"
+abapFile: "abenfor_group_by_packages_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "packages", "abexa"]
+---
 
 * * *
 

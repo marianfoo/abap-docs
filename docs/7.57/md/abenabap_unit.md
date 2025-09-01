@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Unit"
+description: |
+  ABAP Unit is a test framework for unit tests(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunit_test_glosry.htm 'Glossary Entry'). ABAP Unit can be used to: -   run single tests or mass tests -   evaluate test results Single tests can be started directly in the tool for the corres
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_unit.htm"
+abapFile: "abenabap_unit.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "unit"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "TRACE-ENTRY"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax TRACE-ENTRY text. Effect This statement writes the string contained in a flat character-like data object text to the current system trace if the trace is enabled in the transaction ST01 using the trace compo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptrace-entry.htm"
+abapFile: "abaptrace-entry.htm"
+keywords: ["do", "if", "try", "data", "abaptrace", "entry"]
+---
 
 * * *
 

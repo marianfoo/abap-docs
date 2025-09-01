@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Further Elements"
+description: |
+  -   Association with search helps(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenldb_search_help.htm) -   Dynamic selections(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenldb_free_selections.htm) -   Field selections(https://help.sap.com/doc/abapdocu_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenldb_others.htm"
+abapFile: "abenldb_others.htm"
+keywords: ["select", "do", "if", "try", "data", "abenldb", "others"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML"
+description: |
+  → ABAP Entity Manipulation Language(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaeml_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_eml_glosry.htm"
+abapFile: "abenabap_eml_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "eml", "glosry"]
+---
 
 * * *
 

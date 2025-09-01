@@ -1,4 +1,14 @@
-  
+---
+title: "key_table_glosry"
+description: |
+  key_table_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkey_table_glosry.htm"
+abapFile: "abenkey_table_glosry.htm"
+keywords: ["do", "try", "abenkey", "table", "glosry"]
+---
 
 * * *
 

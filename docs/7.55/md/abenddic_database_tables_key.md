@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Key Fields of Database Tables"
+description: |
+  At least one table field must be flagged as a key field(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenkey_field_glosry.htm 'Glossary Entry') in the structure of a DDIC database table. The table fields flagged as the key field become the primary key(https://help.sap.com/doc/abapd
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_key.htm"
+abapFile: "abenddic_database_tables_key.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abenddic", "database", "tables", "key"]
+---
 
 * * *
 

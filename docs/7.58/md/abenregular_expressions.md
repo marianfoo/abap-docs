@@ -1,4 +1,14 @@
-  
+---
+title: "Regular Expressions (regex)"
+description: |
+  A regular expression r is made up of literal characters and special characters in accordance with the syntax of regular expressions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_syntax.htm) and represents a set of character strings. If text is one of the character strings re
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregular_expressions.htm"
+abapFile: "abenregular_expressions.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "abenregular", "expressions"]
+---
 
 * * *
 

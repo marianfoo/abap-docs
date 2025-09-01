@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO interface"
+description: |
+  A RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') that serves as interface for stable consumption. A RAP BO interface consists of a CDS transactional interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_interface_glosry.htm"
+abapFile: "abenrap_bo_interface_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenrap", "interface", "glosry"]
+---
 
 * * *
 

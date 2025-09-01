@@ -1,4 +1,14 @@
-  
+---
+title: "Decimal Floating Point Numbers, Formatting with STYLE"
+description: |
+  This example demonstrates the formatting of decimal floating point numbers. Source Code  CCDEF CLASS cl_abap_format DEFINITION LOAD.  Public class definition CLASS cl_demo_style DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwrite_style_abexa.htm"
+abapFile: "abenwrite_style_abexa.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenwrite", "style", "abexa"]
+---
 
 * * *
 

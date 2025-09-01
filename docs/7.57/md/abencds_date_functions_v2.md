@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, Date Functions"
+description: |
+  Syntax ... DATN_DAYS_BETWEEN(date1,date2)  DATN_ADD_DAYS(date,days)  DATN_ADD_MONTHS(date,months)  DATS_IS_VALID(date)  DATS_DAYS_BETWEEN(date1,date2)  DATS_ADD_DAYS(date,days,on_error)  DATS_ADD_MONTHS(date,months,on_error) ... Variants: 1. ... DATN_DAYS_BETWEE
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_date_functions_v2.htm"
+abapFile: "abencds_date_functions_v2.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "date", "functions"]
+---
 
 * * *
 

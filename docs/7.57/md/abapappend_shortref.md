@@ -1,4 +1,14 @@
-  
+---
+title: "APPEND - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapappend.htm) Syntax APPEND  wa  INITIAL LINE  LINES OF jtab FROM idx1 TO idx2 STEP n USING KEY key_name(name)  TO itab SORTED BY comp  ASSIGNING <fs>
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapappend_shortref.htm"
+abapFile: "abapappend_shortref.htm"
+keywords: ["do", "if", "data", "internal-table", "field-symbol", "abapappend", "shortref"]
+---
 
 * * *
 

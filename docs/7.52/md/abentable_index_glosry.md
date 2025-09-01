@@ -1,4 +1,14 @@
-  
+---
+title: "Table index"
+description: |
+  An index(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenindex_glosry.htm 'Glossary Entry') of an internal table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entry'), administrated by the ABAP runtime environment(https://help
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_index_glosry.htm"
+abapFile: "abentable_index_glosry.htm"
+keywords: ["insert", "delete", "do", "if", "try", "internal-table", "abentable", "index", "glosry"]
+---
 
 * * *
 

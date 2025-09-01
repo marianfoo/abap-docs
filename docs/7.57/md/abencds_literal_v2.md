@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, literal"
+description: |
+  CDS literals(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_literal_glosry.htm 'Glossary Entry') can be used in a SELECT statement(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v2.htm) of a CDS view entity(https://help.sap.com/doc/abapd
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_literal_v2.htm"
+abapFile: "abencds_literal_v2.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "literal"]
+---
 
 * * *
 

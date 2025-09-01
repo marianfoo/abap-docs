@@ -1,4 +1,14 @@
-  
+---
+title: "Structure and Style"
+description: |
+  This section covers all aspects of a program that have no direct influence on its functions. These aspects remain hidden to users when they use the program. However, structure and style are very significant for the traceability of the program flow by a human viewer. The source code must be designed
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm"
+abapFile: "abenstructure_style_guidl.htm"
+keywords: ["do", "if", "abenstructure", "style", "guidl"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "cds_cond_expr_on_assoc"
+description: |
+  cds_cond_expr_on_assoc - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_assoc.htm"
+abapFile: "abencds_cond_expr_on_assoc.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "assoc"]
+---
 
 * * *
 

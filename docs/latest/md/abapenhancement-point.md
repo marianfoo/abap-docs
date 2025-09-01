@@ -1,4 +1,14 @@
-  
+---
+title: "ENHANCEMENT-POINT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapenhancement-point_shortref.htm) Syntax ENHANCEMENT-POINT enh_id SPOTS spot1 spot2 ... STATIC INCLUDE BOUND. Additions: 1. ... STATIC(#!ABAP_ADDITION_1@1@) 2. ... INCLUDE BOUND(#!ABAP_ADDITION
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapenhancement-point.htm"
+abapFile: "abapenhancement-point.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "try", "data", "abapenhancement", "point"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Table Expressions, Specified Rows"
+description: |
+  This example demonstrates how the row is specified in table expressions. Source Code REPORT demo_tab_exp_line. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. PRIVATE SECTION. CLASS-DATA flight_tab TYPE STANDARD TABLE OF spfli WITH EMPTY KEY WITH UNIQUE HASHED KEY
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_itab_line_abexa.htm"
+abapFile: "abentable_exp_itab_line_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abentable", "exp", "itab", "line", "abexa"]
+---
 
 * * *
 

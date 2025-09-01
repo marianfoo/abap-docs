@@ -1,4 +1,14 @@
-  
+---
+title: "Maximum Size of Dynamic Data Objects"
+description: |
+  In addition to the maximum memory size that the current internal session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm 'Glossary Entry') can request for dynamic data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyna
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_2.htm"
+abapFile: "abenmemory_consumption_2.htm"
+keywords: ["delete", "loop", "do", "while", "if", "try", "catch", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 

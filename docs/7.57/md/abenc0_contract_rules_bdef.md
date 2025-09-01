@@ -1,4 +1,14 @@
-  
+---
+title: "Caution"
+description: |
+  BDEF extensions for unmanaged RAP BOs are currently still under development. They are not fully supported yet. C0 Contract Rules for Providers of CDS Behavior Definitions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_bdef.htm) C0 Contract Rules for Consumers of
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_contract_rules_bdef.htm"
+abapFile: "abenc0_contract_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "contract", "rules", "bdef"]
+---
 
 * * *
 

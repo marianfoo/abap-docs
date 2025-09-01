@@ -1,4 +1,14 @@
-  
+---
+title: "trafo_source_code_glosry"
+description: |
+  trafo_source_code_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrafo_source_code_glosry.htm"
+abapFile: "abentrafo_source_code_glosry.htm"
+keywords: ["do", "if", "try", "abentrafo", "source", "code", "glosry"]
+---
 
 * * *
 

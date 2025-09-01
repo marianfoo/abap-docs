@@ -1,4 +1,14 @@
-  
+---
+title: "s4_hana_cloud_abap_env_glosry"
+description: |
+  s4_hana_cloud_abap_env_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abens4_hana_cloud_abap_env_glosry.htm"
+abapFile: "abens4_hana_cloud_abap_env_glosry.htm"
+keywords: ["do", "if", "try", "abens4", "hana", "cloud", "abap", "env", "glosry"]
+---
 
 * * *
 

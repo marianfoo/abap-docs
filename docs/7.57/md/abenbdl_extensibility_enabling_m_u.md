@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Extensibility Enabling for Base BOs"
+description: |
+  Syntax managed(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm)  unmanaged(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm) strict(version)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_strict.htm
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_enabling_m_u.htm"
+abapFile: "abenbdl_extensibility_enabling_m_u.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "extensibility", "enabling"]
+---
 
 * * *
 

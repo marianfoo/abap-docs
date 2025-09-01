@@ -1,4 +1,14 @@
-  
+---
+title: "Updating Secondary Keys"
+description: |
+  For all statements that change the content and structure of an internal table, the internal administration of the secondary keys is updated automatically as follows: -   For all operations that insert rows into tables or delete rows from tables, the secondary key administration for unique keys is up
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_update.htm"
+abapFile: "abenitab_key_secondary_update.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "field-symbol", "abenitab", "key", "secondary"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  TABLES table_wa. Effect Obsolete: Declares an additional interface work area(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninterface_work_area_glosry.htm 'Glossary Entry') table_wa.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptables_plus_shortref.htm"
+abapFile: "abaptables_plus_shortref.htm"
+keywords: ["do", "try", "abaptables", "plus", "shortref"]
+---
 
 * * *
 

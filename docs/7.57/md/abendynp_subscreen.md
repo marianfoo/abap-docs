@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Subscreens dynpros are defined like regular dynpros in the Screen Painter(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_painter_glosry.htm 'Glossary Entry') and are flagged there as regular dynpros. Selection screens(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "do", "if", "try", "abendynp", "subscreen"]
+---
 
 * * *
 

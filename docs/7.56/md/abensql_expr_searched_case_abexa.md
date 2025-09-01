@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_searched_case. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. CONSTANTS: both_l  TYPE c LENGTH 20 VALUE 'Both < 50', both_gt TYPE c LENGTH 20 VALUE 'Both >= 50', others  TYPE c LENGTH 20 VALUE 'Others'. DATA(rnd
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_searched_case_abexa.htm"
+abapFile: "abensql_expr_searched_case_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abensql", "expr", "searched", "abexa"]
+---
 
 * * *
 

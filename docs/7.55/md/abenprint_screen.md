@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Spooling Screen Lists"
+description: |
+  As well as creating spool lists, screen lists can also be sent to the SAP spool system. To do this, use the Print function in the list display. This function transforms the screen list into a spool list, where the spool format specified in the spool parameters(https://help.sap.com/doc/abapdocu_755
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprint_screen.htm"
+abapFile: "abenprint_screen.htm"
+keywords: ["do", "if", "try", "class", "abenprint", "screen"]
+---
 
 * * *
 

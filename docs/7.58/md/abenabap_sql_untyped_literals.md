@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Untyped Literals"
+description: |
+  Syntax ...  +-nnn...  'ccc...'  `ccc...`  ... Effect Untyped literals(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuntyped_literal_glosry.htm 'Glossary Entry') in ABAP SQL co
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_untyped_literals.htm"
+abapFile: "abenabap_sql_untyped_literals.htm"
+keywords: ["select", "do", "while", "if", "try", "data", "abenabap", "sql", "untyped", "literals"]
+---
 
 * * *
 

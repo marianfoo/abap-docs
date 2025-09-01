@@ -1,4 +1,14 @@
-  
+---
+title: "FIELD-GROUPS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-groups_shortref.htm) Obsolete Syntax FIELD-GROUPS  header  field_group . Effect Declares a field group for the extract dataset(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abene
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-groups.htm"
+abapFile: "abapfield-groups.htm"
+keywords: ["insert", "do", "if", "try", "method", "class", "data", "abapfield", "groups"]
+---
 
 * * *
 

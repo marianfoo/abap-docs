@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Casting Predefined Data Types"
+description: |
+  This example demonstrates how a casting is performed on predefined data types. Source Code REPORT demo_field_symbols_assign_type. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA txt(8) TYPE c VALUE '20050606'. DATA mytype(1) VALUE
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_obsolete_type_abexa.htm"
+abapFile: "abencasting_obsolete_type_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "field-symbol", "abencasting", "obsolete", "type", "abexa"]
+---
 
 * * *
 

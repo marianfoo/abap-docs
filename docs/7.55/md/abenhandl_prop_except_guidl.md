@@ -1,4 +1,14 @@
-  
+---
+title: "Handling and Propagating Exceptions"
+description: |
+  Background If a class-based exception is raised, it is propagated automatically between the call layers until the exception is handled or an interface is violated: -   If the exception is raised in a TRY block, the system searches for a suitable CATCH block to handle it. -   If the user leaves the p
+version: "7.55"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandl_prop_except_guidl.htm"
+abapFile: "abenhandl_prop_except_guidl.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "class", "abenhandl", "prop", "except", "guidl"]
+---
 
 * * *
 

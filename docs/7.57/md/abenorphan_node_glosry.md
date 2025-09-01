@@ -1,4 +1,14 @@
-  
+---
+title: "orphan_node_glosry"
+description: |
+  orphan_node_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenorphan_node_glosry.htm"
+abapFile: "abenorphan_node_glosry.htm"
+keywords: ["do", "if", "try", "abenorphan", "node", "glosry"]
+---
 
 * * *
 

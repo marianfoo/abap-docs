@@ -1,4 +1,14 @@
-  
+---
+title: "Deriving LOB Handle Structures"
+description: |
+  The example demonstrates the derivation of LOB handle structures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_structure_glosry.htm 'Glossary Entry') using the TYPES(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm) statement. Source
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_lob_handle_abexa.htm"
+abapFile: "abentypes_lob_handle_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abentypes", "lob", "handle", "abexa"]
+---
 
 * * *
 

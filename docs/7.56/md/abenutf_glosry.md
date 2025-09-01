@@ -1,4 +1,14 @@
-  
+---
+title: "UTF"
+description: |
+  Short for Universal Transformation Format. Different representations of the Unicode(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunicode_glosry.htm 'Glossary Entry') character set(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_set_glosry.htm 'Glossary
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutf_glosry.htm"
+abapFile: "abenutf_glosry.htm"
+keywords: ["do", "if", "try", "abenutf", "glosry"]
+---
 
 * * *
 

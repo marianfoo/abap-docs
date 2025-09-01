@@ -1,4 +1,14 @@
-  
+---
+title: "Query Service Components"
+description: |
+  A query is represented by a query object, which is managed by a query manager (also an object). The query manager represents the query service with respect to the ABAP program. To create a query manager, the static method GET_QUERY_MANAGER of the general system service class CL_OS_SYSTEM is requ
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenos_query_comps.htm"
+abapFile: "abenos_query_comps.htm"
+keywords: ["do", "if", "method", "class", "data", "abenos", "query", "comps"]
+---
 
 * * *
 

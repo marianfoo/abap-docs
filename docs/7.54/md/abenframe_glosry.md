@@ -1,4 +1,14 @@
-  
+---
+title: "frame_glosry"
+description: |
+  frame_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenframe_glosry.htm"
+abapFile: "abenframe_glosry.htm"
+keywords: ["do", "try", "abenframe", "glosry"]
+---
 
 * * *
 

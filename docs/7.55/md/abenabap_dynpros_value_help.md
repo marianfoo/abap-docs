@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - Input Helps in ABAP Dictionary(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_value_help_auto.htm) dynpro - Input Helps on Dynpros(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_value_help_dynp.htm) dynpro - Input Help in Dialog
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_value_help.htm"
+abapFile: "abenabap_dynpros_value_help.htm"
+keywords: ["do", "if", "try", "abenabap", "dynpros", "value", "help"]
+---
 
 * * *
 

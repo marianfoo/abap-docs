@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_data_cluster.htm) Syntax IMPORT  p1 = dobj1 p2 = dobj2 ...  p1 TO dobj1  p2 TO dobj2 ...  (ptab)  FROM   DATA BUFFER xstr    INTERNAL TABLE itab    MEMORY ID id
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_shortref.htm"
+abapFile: "abapimport_shortref.htm"
+keywords: ["select", "do", "if", "try", "catch", "data", "internal-table", "abapimport", "shortref"]
+---
 
 * * *
 

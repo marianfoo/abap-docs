@@ -1,4 +1,14 @@
-  
+---
+title: "DATA - Inline Declaration"
+description: |
+  Syntax ... DATA(var) ... Effect A declaration expression with the declaration operator DATA declares a variable(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvariable_glosry.htm 'Glossary Entry') var used as an operand in the current writing position(https://help.sap.com/doc/aba
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm"
+abapFile: "abendata_inline.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "internal-table", "field-symbol", "abendata", "inline"]
+---
 
 * * *
 

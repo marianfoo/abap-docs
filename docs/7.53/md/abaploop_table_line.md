@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT itab - TABLE LINE"
+description: |
+  Obsolete Syntax LOOP AT itab(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm) ... WHERE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm) TABLE LINE .... Effect The addition TABLE LINE can also be specified outside of classes in
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_table_line.htm"
+abapFile: "abaploop_table_line.htm"
+keywords: ["loop", "do", "if", "class", "data", "internal-table", "abaploop", "table", "line"]
+---
 
 * * *
 

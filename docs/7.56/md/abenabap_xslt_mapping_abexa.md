@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_abap_xml_schema_mapping. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: uuid        TYPE xsduuid_char, uuid1       TYPE xsduuid_char, uuid2       TYPE xsduuid_char, exc_trafo   TYPE REF TO cx_transformation_err
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xslt_mapping_abexa.htm"
+abapFile: "abenabap_xslt_mapping_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenabap", "xslt", "mapping", "abexa"]
+---
 
 * * *
 

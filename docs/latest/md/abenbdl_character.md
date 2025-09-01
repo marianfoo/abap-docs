@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Characteristics"
+description: |
+  Syntax ...  persistent table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_persistent_table.htm) TableName draft table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_table.htm) DraftTableName saving options(https://he
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_character.htm"
+abapFile: "abenbdl_character.htm"
+keywords: ["do", "if", "case", "try", "data", "abenbdl", "character"]
+---
 
 * * *
 

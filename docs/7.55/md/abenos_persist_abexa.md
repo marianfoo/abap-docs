@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Persistency Service"
+description: |
+  This example demonstrates how a persistent object is created. Source Code REPORT demo_create_persistent. SELECTION-SCREEN BEGIN OF SCREEN 400 TITLE text-400. PARAMETERS delete AS CHECKBOX. SELECTION-SCREEN END OF SCREEN 400. SELECTION-SCREEN BEGIN OF SCREEN 500 TITLE text-500. PARAMETERS commit AS
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_persist_abexa.htm"
+abapFile: "abenos_persist_abexa.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "method", "class", "data", "abenos", "persist", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Data Elements"
+description: |
+  A DDIC data element(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_element_glosry.htm 'Glossary Entry') defines an elementary data type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(http
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_elements.htm"
+abapFile: "abenddic_data_elements.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "elements"]
+---
 
 * * *
 

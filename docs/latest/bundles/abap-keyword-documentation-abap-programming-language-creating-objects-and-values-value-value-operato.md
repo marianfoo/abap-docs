@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenvalue_constructor_params_itab.htm
 
-  
+---
+title: "VALUE, Internal Tables"
+description: |
+  Syntax ... VALUE dtype#( let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) BASE itab FOR for_exp1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor.htm) FOR for_exp2(https://help.sap.com/doc/abapdocu_latest_inde
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm"
+abapFile: "abenvalue_constructor_params_itab.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenvalue", "constructor", "params", "itab"]
+---
 
 * * *
 
@@ -206,7 +216,17 @@ Continue
 
 ### abenvalue_constructor_params_lspc.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... line  LINES OF itab FROM idx1 TO idx2 STEP n USING KEY keyname ... Alternatives: 1. ... line(#!ABAP_ALTERNATIVE_1@1@) 2. ... LINES OF jtab FROM idx1 TO idx2 STEP n USING KEY keyname(#!ABAP_ALTERNATIVE_2@2@) Effect Spe
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_lspc.htm"
+abapFile: "abenvalue_constructor_params_lspc.htm"
+keywords: ["insert", "delete", "do", "while", "if", "try", "catch", "method", "data", "types", "internal-table", "abenvalue", "constructor", "params", "lspc"]
+---
 
 * * *
 
@@ -327,7 +347,17 @@ FINAL(itab) = VALUE t\_itab( ( ) ( 20 ) ( 40 )
 
 ### abenvalue_itab_abexa.htm
 
-  
+---
+title: "VALUE, Operator for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm) for internal tables. Source Code  Public class definition CLASS cl_demo_value_constructor_itab DEFINITION INHERITING FROM cl_demo_classr
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_abexa.htm"
+abapFile: "abenvalue_itab_abexa.htm"
+keywords: ["insert", "do", "if", "method", "class", "data", "types", "internal-table", "abenvalue", "itab", "abexa"]
+---
 
 * * *
 
@@ -393,7 +423,17 @@ The example shows various effects when using the left side of an assignment in l
 
 ### abenvalue_itab_let_abexa.htm
 
-  
+---
+title: "VALUE, Operator with LET for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm) for internal tables with a LET expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm). Source Code  Public
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_let_abexa.htm"
+abapFile: "abenvalue_itab_let_abexa.htm"
+keywords: ["do", "if", "method", "class", "types", "internal-table", "abenvalue", "itab", "let", "abexa"]
+---
 
 * * *
 
@@ -448,7 +488,17 @@ Construction of an internal table with an elementary line type with type string 
 
 ### abenvalue_itab_base_abexa.htm
 
-  
+---
+title: "VALUE, Addition BASE for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm) for internal tables with and without the addition BASE Source Code  Public class definition CLASS cl_demo_value_base DEFINITION INHERITING
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_base_abexa.htm"
+abapFile: "abenvalue_itab_base_abexa.htm"
+keywords: ["insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenvalue", "itab", "base", "abexa"]
+---
 
 * * *
 

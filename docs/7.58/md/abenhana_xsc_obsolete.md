@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Access to Objects in HANA XS"
+description: |
+  SAP HANA XSA(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsa_glosry.htm 'Glossary Entry') is the successor of SAP HANA XSC(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsc_glosry.htm 'Glossary Entry'). The access methods designed specifically for XSC objects
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_xsc_obsolete.htm"
+abapFile: "abenhana_xsc_obsolete.htm"
+keywords: ["do", "if", "try", "method", "data", "abenhana", "xsc", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_pcre_parsing DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP INCLUDE demo_pcre_parsing_helper_def. INCLUDE demo_pcre_parsing_helper_impl. CLASS ast_builder DEFINITIO
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcre_parsing_abexa.htm"
+abapFile: "abenpcre_parsing_abexa.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenpcre", "parsing", "abexa"]
+---
 
 * * *
 

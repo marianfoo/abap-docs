@@ -1,4 +1,14 @@
-  
+---
+title: "Application Table"
+description: |
+  Database table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_table_glosry.htm 'Glossary Entry') with client column(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_column_glosry.htm 'Glossary Entry'). An application table contains client-specific da
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_table_glosry.htm"
+abapFile: "abenapplication_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenapplication", "table", "glosry"]
+---
 
 * * *
 

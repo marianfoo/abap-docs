@@ -1,4 +1,14 @@
-  
+---
+title: "Using Dynamic Programming Techniques"
+description: |
+  Background The use of dynamic programming techniques includes the following: -   Accessing dynamic memory objects, that is, dynamic data objects (strings and internal tables), as well as instances of classes and anonymous data objects -   Dynamically accessing data objects using reference variables
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_dynamic_progr_tech_guidl.htm"
+abapFile: "abenuse_dynamic_progr_tech_guidl.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abenuse", "dynamic", "progr", "tech", "guidl"]
+---
 
 * * *
 

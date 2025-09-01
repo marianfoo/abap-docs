@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Calling an AMDP Procedure from SQLScript"
+description: |
+  This example demonstrates how am AMDP procedure is called from an AMDP procedure. Source Code  Public class definition CLASS cl_demo_amdp_call_amdp_prcdr DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class im
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_call_amdp_abexa.htm"
+abapFile: "abenamdp_call_amdp_abexa.htm"
+keywords: ["select", "update", "do", "if", "try", "catch", "method", "class", "data", "abenamdp", "call", "amdp", "abexa"]
+---
 
 * * *
 

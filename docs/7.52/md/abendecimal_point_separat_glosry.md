@@ -1,4 +1,14 @@
-  
+---
+title: "Decimal Separators"
+description: |
+  Separator between the whole number and fraction parts of a decimal number(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecimal_number_glosry.htm 'Glossary Entry'). Within an ABAP program(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm 'Glo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecimal_point_separat_glosry.htm"
+abapFile: "abendecimal_point_separat_glosry.htm"
+keywords: ["do", "try", "abendecimal", "point", "separat", "glosry"]
+---
 
 * * *
 

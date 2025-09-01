@@ -1,4 +1,14 @@
-  
+---
+title: "Class with Utilities for String Processing"
+description: |
+  The class CL_ABAP_CHAR_UTILITIES provides attributes and methods as utilities for string processing. The components of this class are all static and public. The attributes are read-only and are initialized in the class constructor. Details about the attributes and methods of this class are descri
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_char_utilities.htm"
+abapFile: "abencl_abap_char_utilities.htm"
+keywords: ["do", "try", "method", "class", "data", "abencl", "abap", "char", "utilities"]
+---
 
 * * *
 

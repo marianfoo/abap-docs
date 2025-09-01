@@ -1,4 +1,14 @@
-  
+---
+title: "CDS system table function"
+description: |
+  CDS system entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entity_glosry.htm 'Glossary Entry') that is realized as CDS table function(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_function_glosry.htm 'Glossary Entry'). → More about(ht
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_tabfunc_glosry.htm"
+abapFile: "abencds_system_tabfunc_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "system", "tabfunc", "glosry"]
+---
 
 * * *
 

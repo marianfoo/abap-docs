@@ -1,4 +1,14 @@
-  
+---
+title: "GUI window"
+description: |
+  Window(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwindow_glosry.htm 'Glossary Entry') of the SAP GUI(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_gui_glosry.htm 'Glossary Entry'). Consists of a title bar(https://help.sap.com/doc/abapdocu_755_index_htm/
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_window_glosry.htm"
+abapFile: "abengui_window_glosry.htm"
+keywords: ["do", "try", "abengui", "window", "glosry"]
+---
 
 * * *
 

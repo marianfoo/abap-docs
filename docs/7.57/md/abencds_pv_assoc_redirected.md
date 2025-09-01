@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - redirected, Transactional Query"
+description: |
+  Syntax ... REDIRECTED TO proj_view  REDIRECTED TO COMPOSITION CHILD proj_view  REDIRECTED TO PARENT proj_view Variants: 1. ... REDIRECTED TO proj_view(#!ABAP_VARIANT_1@1@) 2. ... REDIRECTED TO COMPOSITION CHILD proj view(#!ABAP_VARIANT_2@2@) 3. ... REDIRECTED TO PARENT proj view(#
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_assoc_redirected.htm"
+abapFile: "abencds_pv_assoc_redirected.htm"
+keywords: ["do", "if", "try", "data", "abencds", "assoc", "redirected"]
+---
 
 * * *
 

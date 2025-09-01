@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - CLIENT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm) Syntax ...  USING CLIENT clnt  CLIENT SPECIFIED entity1~clnt , entity2~clnt ...(clnt_syntax) ... Alternatives: 1. ... USING CLIENT clnt(#!ABAP_ALTERNATIVE
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_client.htm"
+abapFile: "abapselect_client.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapselect", "client"]
+---
 
 * * *
 

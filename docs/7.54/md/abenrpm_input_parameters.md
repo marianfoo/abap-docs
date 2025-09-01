@@ -1,4 +1,14 @@
-  
+---
+title: "Input Parameter Type"
+description: |
+  Syntax TYPES type_for_import_parameter TYPE TABLE FOR CREATEUPDATEDELETELOCKREAD IMPORT CDS_entity_name. TYPES type_for_action_import_parameter TYPE TABLE FOR ACTION IMPORT entity_name~action_name. Effect Each individual type declaration for input parameters consists of a comb
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_input_parameters.htm"
+abapFile: "abenrpm_input_parameters.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "types", "abenrpm", "input", "parameters"]
+---
 
 * * *
 

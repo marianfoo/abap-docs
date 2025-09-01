@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... NEW class( ... )->attr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennew_constructor_params_class.htm)  CAST type( ... )->dobj(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_cast.htm)  table_exp(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_mem_area_writable_exp.htm"
+abapFile: "abapassign_mem_area_writable_exp.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abapassign", "mem", "area", "writable", "exp"]
+---
 
 * * *
 

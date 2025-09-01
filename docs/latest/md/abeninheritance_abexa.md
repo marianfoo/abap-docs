@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Inheritance"
+description: |
+  This example demonstrates how a counter is specialized using inheritance. Source Code  CCDEF CLASS o DEFINITION. PUBLIC SECTION. CLASS-DATA out TYPE REF TO if_demo_output. ENDCLASS.  Public class definition CLASS cl_demo_inheritance DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm"
+abapFile: "abeninheritance_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abeninheritance", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... generic_type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm)  complete_type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)  ... Effect The addition typing is part of the definition of formal parameters and field sym
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm"
+abapFile: "abentyping_syntax.htm"
+keywords: ["do", "if", "try", "method", "class", "types", "field-symbol", "abentyping", "syntax"]
+---
 
 * * *
 

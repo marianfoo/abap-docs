@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... cmaxcmin( val1 = text1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm)  val2 = text2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm)  val3 = text3(https://help.sap.com/doc/abapdocu_latest_ind
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencmax_cmin_functions.htm"
+abapFile: "abencmax_cmin_functions.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abencmax", "cmin", "functions"]
+---
 
 * * *
 

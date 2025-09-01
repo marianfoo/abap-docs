@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:serialize> ... </tt:serialize> <tt:deserialize> ... </tt:deserialize> Effect These ST commands can be used to limit parts of templates for execution in serializations or deserializations: All the template elements specified within the tt:serialize element are only respected in serializations. Al
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_serialize_deserialize.htm"
+abapFile: "abenst_tt_serialize_deserialize.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abenst", "serialize", "deserialize"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "READ TABLE dbtab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_dbtab_shortref.htm) Obsolete Syntax READ TABLE  dbtab  dbtab  WITH KEY key SEARCH FKEQFKGEGKEQGKGE VERSION vers. Additions: 1. ... WITH KEY key(#!ABAP_ADDI
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_dbtab.htm"
+abapFile: "abapread_table_dbtab.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapread", "table", "dbtab"]
+---
 
 * * *
 

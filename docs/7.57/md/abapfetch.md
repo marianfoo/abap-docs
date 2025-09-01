@@ -1,4 +1,14 @@
-  
+---
+title: "FETCH"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch_shortref.htm) Syntax FETCH NEXT CURSOR dbcur INTOAPPENDING ...(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm). Effect The ABAP SQL(https://help.sap.com/doc/abapdocu_757_inde
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm"
+abapFile: "abapfetch.htm"
+keywords: ["select", "do", "if", "try", "catch", "class", "data", "types", "internal-table", "abapfetch"]
+---
 
 * * *
 

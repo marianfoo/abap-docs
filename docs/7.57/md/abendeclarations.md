@@ -1,4 +1,14 @@
-  
+---
+title: "Declarations"
+description: |
+  -   Declaration Statements(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_declarations.htm) -   Inline Declarations(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declarations.htm) -   Local Declarations in Expressions(https://help.sap.com/doc/abapdo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclarations.htm"
+abapFile: "abendeclarations.htm"
+keywords: ["do", "if", "abendeclarations"]
+---
 
 * * *
 

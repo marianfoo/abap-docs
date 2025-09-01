@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, FOR ENTITY EVENT"
+description: |
+  Syntax RAP event handler method definitions: METHODS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods.htm) meth FINAL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) FOR ENTITY EVENT IMPORTING(https://help.sap.com/doc
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_for_entity_event.htm"
+abapFile: "abenmethod_for_entity_event.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenmethod", "for", "entity", "event"]
+---
 
 * * *
 

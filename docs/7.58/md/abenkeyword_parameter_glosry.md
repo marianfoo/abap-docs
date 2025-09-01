@@ -1,4 +1,14 @@
-  
+---
+title: "keyword_parameter_glosry"
+description: |
+  keyword_parameter_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkeyword_parameter_glosry.htm"
+abapFile: "abenkeyword_parameter_glosry.htm"
+keywords: ["do", "if", "try", "abenkeyword", "parameter", "glosry"]
+---
 
 * * *
 

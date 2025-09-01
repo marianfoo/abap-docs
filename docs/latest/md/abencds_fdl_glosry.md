@@ -1,4 +1,14 @@
-  
+---
+title: "CDS FDL"
+description: |
+  Function Definition Language in ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). CDS FDL contains language elements for CDS scalar functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl_glosry.htm"
+abapFile: "abencds_fdl_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "fdl", "glosry"]
+---
 
 * * *
 

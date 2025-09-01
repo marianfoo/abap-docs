@@ -1,301 +1,21 @@
-# ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Data and Communication Interfaces
+# ABAP - Keyword Documentation / ABAP - Programming Language / Obsolete Language Elements / Obsolete Data and Communication Interfaces / CPI-C Interface
 
-Included pages: 17
-
-
-### abenextern_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete Data and Communication Interfaces, ABENEXTERN_OBSOLETE, 757%0D%0A%0D%0AError
-:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-Obsolete Data and Communication Interfaces
-
--   [Transactional RFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_obsolete.htm)
--   [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_obsolete.htm)
--   [CPI-C Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cpic.htm)
--   [ABAP and JavaScript](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_java_script.htm)
-
-Continue
-[Obsolete Transactional RFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_obsolete.htm)
-[Obsolete Wait](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwait_obsolete.htm)
-[Obsolete XML Binding](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_obsolete.htm)
-[CPI-C Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cpic.htm)
-[ABAP and JavaScript](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_java_script.htm)
-
-
-### abenrfc_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete Transactional RFC, ABENRFC_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A
-%0D%0ASuggestion for improvement:)
-
-Obsolete Transactional RFC
-
--   [CALL FUNCTION - IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_task.htm)
-
-Hint
-
-[Transactional remote function call (tRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentrfc_1_glosry.htm "Glossary Entry") and its enhancement, [queued remote function call (qRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenqueued_remote_function_glosry.htm "Glossary Entry"), have been replaced by [background RFC (bgRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbg_remote_function_glosry.htm "Glossary Entry"). It is strongly recommended that bgRFC is used instead of tRFC.
-
-Continue
-[CALL FUNCTION, IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_task.htm)
-
-
-### abapcall_function_background_task.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) →  [Obsolete Transactional RFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CALL FUNCTION, IN BACKGROUND TASK, ABAPCALL_FUNCTION_BACKGROUND_TASK, 757%0D%0A%0D%0A
-Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CALL FUNCTION, IN BACKGROUND TASK
-
-[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_shortref.htm)
-
-Obsolete Syntax
-
-CALL FUNCTION func IN BACKGROUND TASK
-                   *\[*AS SEPARATE UNIT*\]*
-                   *\[*DESTINATION dest*\]*
-[parameter\_list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_para.htm).
-
-Addition:
-
-[... AS SEPARATE UNIT](#!ABAP_ONE_ADD@1@)
-
-Effect
-
-Transactional call (tRFC) of a [remote-enabled function module](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenremote_enabled_fm_glosry.htm "Glossary Entry") specified in func using the [RFC interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_interface_glosry.htm "Glossary Entry"). The addition DESTINATION can be used to specify a unique [destination](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_destination.htm) in dest. If the destination is not specified, the destination NONE is used implicitly. func and dest expect character-like data objects.
-
-The transactional call registers the name of the called function, together with the destination and the actual parameters passed in [parameter\_list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_para.htm) for the current [SAP LUW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_luw_glosry.htm "Glossary Entry") in the DDIC database tables ARFCSSTATE and ARFCSDATA of the current [AS ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm "Glossary Entry") under a unique transaction ID, which is abbreviated as TID, stored in a structure of type ARFCTID from the ABAP Dictionary, viewed using transaction SM58. After registration, the calling program is continued after the statement CALL FUNCTION.
-
-When the [COMMIT WORK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit.htm) statement is executed, the function modules registered for the current SAP LUW are started in the order in which they were registered. The statement [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprollback.htm) deletes all previous registrations for the current SAP LUW.
-
-If the specified destination is not available when COMMIT WORK is executed, an [executable program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexecutable_program_glosry.htm "Glossary Entry") called RSARFCSE is started in [background processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbackround_processing_glosry.htm "Glossary Entry"). By default, this tries to start the function modules registered for an SAP LUW in their destination every 15 minutes and up to 30 times. These parameters can be changed using transaction SM59. If the destination does not become available within the specified time, it is recorded in the DDIC database table ARFCSDATA as the entry CPICERR. By default, this entry in database table ARFCSSTATE is deleted after eight days.
-
-Hint
-
-[background RFC (bgRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbg_remote_function_glosry.htm "Glossary Entry") executed with the statement [CALL FUNCTION IN BACKGROUND UNIT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_unit.htm) is the enhanced successor technology of transactional RFC (tRFC) and makes this technology obsolete. It is strongly recommended that bgRFC is used instead of tRFC.
-
-More Information
-
-For more information about tRFC, see the RFC documentation in the SAP Help Portal.
-
-Addition   
-
-... AS SEPARATE UNIT
-
-Effect
-
-When using the addition AS SEPARATE UNIT, the affected function module is executed in a separate [RFC session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_session_glosry.htm "Glossary Entry"), in which the global data of the function pool is not affected by previous calls. Each function module that is registered with the addition AS SEPARATE UNIT is given its own transaction ID. Without the addition AS SEPARATE UNIT, the usual [description](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_context.htm) applies to the [RFC session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_session_glosry.htm "Glossary Entry") of the called function modules. This means that, when using the same [RFC destination](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_dest_glosry.htm "Glossary Entry") for multiple calls of function modules of to the same function pool, the global data of this function pool is accessed collectively.
-
-Hints
-
--   The function module ID\_OF\_BACKGROUNDTASK can be used after a transactional RFC to determine the transaction ID (TID) of the current [SAP LUW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_luw_glosry.htm "Glossary Entry").
--   The transactional RFC (tRFC) is suitable for implementing LUWs in distributed environments (a typical application is ALE). It should be noted that, although the execution of the function modules within a transaction ID is specified, the order of the [LUWs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenluw_glosry.htm "Glossary Entry") on the RFC servers is not necessarily the same as the order of the SAP LUWs on the RFC client. To achieve the same serialization on RFC servers as well, the tRFC can be extended to [queued RFC (qRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenqrfc_glosry.htm "Glossary Entry"). For this, the function module TRFC\_SET\_QUEUE\_NAME can be called before a transactional RFC. For more information about qRFC, see the RFC documentation in the SAP Help Portal.
--   If [tRFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentrfc_2_glosry.htm "Glossary Entry") or [qRFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenqrfc_glosry.htm "Glossary Entry") are registered in a [dialog module](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendialog_module_object_glosry.htm "Glossary Entry") and not started with COMMIT WORK, they are not executed by the COMMIT WORK of the caller either.
--   The new variant [CALL FUNCTION IN BACKGROUND UNIT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_unit.htm) ([bgRFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbgrfc_glosry.htm "Glossary Entry")) includes and enhances the existing tRFC and qRFC variants. For this reason, it is strongly recommended that bgRFC is used instead of tRFC.
--   The statements [COMMIT WORK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit.htm) and [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprollback.htm) must not be executed within a LUW. In addition, no implicit [database commit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_commit_glosry.htm "Glossary Entry") can be triggered there.
--   When handling the registration entries in the DDIC database tables ARFCSSTATE and ARFCSDATA, it should be noted that they are subject to the regular administration rules for a [database LUW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). For example, the database LUW is ended by a [database rollback](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"), all registration entries of the current database LUW are deleted.
-
-
-### abenrfc_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete Transactional RFC, ABENRFC_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A
-%0D%0ASuggestion for improvement:)
-
-Obsolete Transactional RFC
-
--   [CALL FUNCTION - IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_task.htm)
-
-Hint
-
-[Transactional remote function call (tRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentrfc_1_glosry.htm "Glossary Entry") and its enhancement, [queued remote function call (qRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenqueued_remote_function_glosry.htm "Glossary Entry"), have been replaced by [background RFC (bgRFC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbg_remote_function_glosry.htm "Glossary Entry"). It is strongly recommended that bgRFC is used instead of tRFC.
-
-Continue
-[CALL FUNCTION, IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_background_task.htm)
-
-
-### abenwait_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete Wait, ABENWAIT_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
-tion for improvement:)
-
-Obsolete Wait
-
--   [WAIT UNTIL - Short Form](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_obsolete.htm)
-
-Continue
-[WAIT UNTIL, Short Form](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_obsolete.htm)
-
-
-### abapwait_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) →  [Obsolete Wait](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwait_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: WAIT UNTIL, Short Form, ABAPWAIT_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
-%0ASuggestion for improvement:)
-
-WAIT UNTIL, Short Form
-
-[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_shortref.htm)
-
-Obsolete Syntax
-
-WAIT UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) *\[*UP TO sec SECONDS*\]*.
-
-Effect
-
-This statement works in the same way as
-
-[WAIT FOR ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_arfc.htm) UNTIL logexp *\[*UP TO sec SECONDS*\]*.
-
-Hint
-
-The complete form using FOR ASYNCHRONOUS TASKS should always be used. This addition expresses that an [asynchronous RFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry") is expected and distinguishes the statement from [WAIT FOR MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_amc.htm) or [WAIT FOR PUSH CHANNELS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_apc.htm), which are waiting for messages from [ABAP Messaging Channels](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_messaging_channels_glosry.htm "Glossary Entry") or [ABAP Push Channels](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_push_channels_glosry.htm "Glossary Entry").
-
-
-### abenwait_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete Wait, ABENWAIT_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
-tion for improvement:)
-
-Obsolete Wait
-
--   [WAIT UNTIL - Short Form](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_obsolete.htm)
-
-Continue
-[WAIT UNTIL, Short Form](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwait_obsolete.htm)
-
-
-### abenabap_xml_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete XML Binding, ABENABAP_XML_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
-0D%0ASuggestion for improvement:)
-
-Obsolete XML Binding
-
--   [CALL TRANSFORMATION - OBJECTS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation_objects.htm)
-
-Continue
-[CALL TRANSFORMATION, OBJECTS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation_objects.htm)
-
-
-### abapcall_transformation_objects.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) →  [Obsolete XML Binding](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CALL TRANSFORMATION, OBJECTS, ABAPCALL_TRANSFORMATION_OBJECTS, 757%0D%0A%0D%0AError:%
-0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
-
-CALL TRANSFORMATION, OBJECTS
-
-[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation_shortref.htm)
-
-Obsolete Syntax
-
-... OBJECTS *{*o1 = e1 o2 = e2 ...*}**|*(otab) ...
-
-Effect
-
-This addition of the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation.htm) can be used to pass object references e1 e2 ... to an XSL transformation as external objects o1 o2 ... to call their methods here.
-
-Instead of using a static parameter list, the objects can be passed dynamically as value pairs in the columns of the internal table otab with the type abap\_trans\_objbind\_tab from the [type pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP.
-
-Hint
-
-The addition OBJECTS is obsolete. External objects are handled like parameters and object references must be passed accordingly with the addition [PARAMETERS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation.htm).
-
-
-### abenabap_xml_obsolete.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete XML Binding, ABENABAP_XML_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
-0D%0ASuggestion for improvement:)
-
-Obsolete XML Binding
-
--   [CALL TRANSFORMATION - OBJECTS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation_objects.htm)
-
-Continue
-[CALL TRANSFORMATION, OBJECTS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation_objects.htm)
+Included pages: 5
 
 
 ### abenabap_cpic.htm
 
-  
+---
+title: "CPI-C Interface"
+description: |
+  This section describes cross-system communications between two ABAP programs as realized using the COMMUNICATION(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication.htm) statement. Hint SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for pro
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cpic.htm"
+abapFile: "abenabap_cpic.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "cpic"]
+---
 
 * * *
 
@@ -320,7 +40,17 @@ Continue
 
 ### abapcommunication.htm
 
-  
+---
+title: "COMMUNICATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_shortref.htm) Obsolete Syntax COMMUNICATION comstep(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_comstep.htm) ID id  cpic_options(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication.htm"
+abapFile: "abapcommunication.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "class", "data", "types", "abapcommunication"]
+---
 
 * * *
 
@@ -458,7 +188,17 @@ Continue
 
 ### abapcommunication_comstep.htm
 
-  
+---
+title: "COMMUNICATION, comstep"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_shortref.htm) Obsolete Syntax ... INIT DESTINATION dest  ALLOCATE  ACCEPT  SEND BUFFER buf  RECEIVE BUFFER buf DATAINFO dat STATUSINFO stat  DEALLOCATE ... Alternatives: 1
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_comstep.htm"
+abapFile: "abapcommunication_comstep.htm"
+keywords: ["do", "if", "try", "data", "types", "abapcommunication", "comstep"]
+---
 
 * * *
 
@@ -559,7 +299,17 @@ The connection is closed, and all memory areas are released.
 
 ### abapcommunication_options.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... RETURNCODE rc LENGTH leng RECEIVED rec HOLD. Additions: 1. ... RETURNCODE  rc(#!ABAP_ADDITION_1@1@) 2. ... LENGTH leng(#!ABAP_ADDITION_2@2@) 3. ... RECEIVED rec(#!ABAP_ADDITION_3@3@) 4. ... HOLD(#!ABAP_ADDITION_4@4@) Effect Further additions for the st
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_options.htm"
+abapFile: "abapcommunication_options.htm"
+keywords: ["do", "if", "case", "try", "data", "abapcommunication", "options"]
+---
 
 * * *
 
@@ -709,7 +459,17 @@ This addition can only be specified for the communication step RECEIVE. It preve
 
 ### abapcommunication.htm
 
-  
+---
+title: "COMMUNICATION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_shortref.htm) Obsolete Syntax COMMUNICATION comstep(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_comstep.htm) ID id  cpic_options(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication.htm"
+abapFile: "abapcommunication.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "class", "data", "types", "abapcommunication"]
+---
 
 * * *
 
@@ -843,56 +603,3 @@ Uncatchable Exceptions
 Continue
 [COMMUNICATION, comstep](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_comstep.htm)
 [COMMUNICATION, cpic\_options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication_options.htm)
-
-
-### abenabap_cpic.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CPI-C Interface, ABENABAP_CPIC, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
-on for improvement:)
-
-CPI-C Interface
-
-This section describes cross-system communications between two ABAP programs as realized using the [COMMUNICATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication.htm) statement.
-
-Hint
-
-SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for programming are no longer delivered. For new programs, SDK and the libraries for [RFC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_glosry.htm "Glossary Entry") must be used. The API for CPI-C was retained to support existing programs and for internal technical purposes.
-
-Continue
-[COMMUNICATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommunication.htm)
-
-
-### abenabap_java_script.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextern_obsolete.htm) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP and JavaScript, ABENABAP_JAVA_SCRIPT, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
-%0ASuggestion for improvement:)
-
-ABAP and JavaScript
-
-In the kernel of an AS ABAP, a JavaScript (JS) Engine is integrated, in which JavaScript programs can be executed either in normal or in debugging mode (server-side scripting). The JavaScript (JS) Engine used supports JavaScript Version 1.5. Proxies can be used to bind script variables to data objects in ABAP programs.
-
-The class CL\_JAVA\_SCRIPT implements an API, which can be used in ABAP programs, for the JavaScript (JS) Engine implemented in the kernel. This class encapsulates the JavaScript C Engine API and makes methods and attributes available to the ABAP programmer to perform JavaScript programs.
-
-Hint
-
-Support for the connection of JavaScript to ABAP is scheduled to be discontinued. This means that the class CL\_JAVA\_SCRIPT can no longer be used.
-
-Example
-
-The program DEMO\_JAVA\_SCRIPT\_MINI\_EDITOR is an example of a minimal JavaScript editor in which JavaScript programs can be edited, executed, and tested. This program was created using ABAP methods only and uses the class CL\_JAVA\_SCRIPT.

@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Sorted keys(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensorted_key_glosry.htm 'Glossary Entry') and hash keys(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhash_key_glosry.htm 'Glossary Entry') are never empty, regardless of whether they are primary or second
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_empty_key.htm"
+abapFile: "abenitab_empty_key.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "empty", "key"]
+---
 
 * * *
 
@@ -12,10 +22,8 @@ itab - Empty Table Key
 
 The [primary table key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") of a [standard table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_table_glosry.htm "Glossary Entry") can be empty. An empty table key does not contain any key fields.
 
--   [Declaration](#@@ITOC@@ABENITAB_EMPTY_KEY_1)
--   [Notes on Use](#@@ITOC@@ABENITAB_EMPTY_KEY_2)
-    -   [Uncritical Use](#@@ITOC@@ABENITAB_EMPTY_KEY_3)
-    -   [Critical Use](#@@ITOC@@ABENITAB_EMPTY_KEY_4)
+-   [Declaration](#abenitab-empty-key-1-------notes-on-use---@ITOC@@ABENITAB_EMPTY_KEY_2)
+    -   [Uncritical Use](#abenitab-empty-key-3-----------critical-use---@ITOC@@ABENITAB_EMPTY_KEY_4)
 
 Hint
 

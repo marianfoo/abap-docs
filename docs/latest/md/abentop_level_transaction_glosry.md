@@ -1,4 +1,14 @@
-  
+---
+title: "top_level_transaction_glosry"
+description: |
+  top_level_transaction_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentop_level_transaction_glosry.htm"
+abapFile: "abentop_level_transaction_glosry.htm"
+keywords: ["do", "if", "try", "abentop", "level", "transaction", "glosry"]
+---
 
 * * *
 

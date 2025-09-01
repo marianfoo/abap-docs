@@ -1,4 +1,14 @@
-  
+---
+title: "Table Expressions, Writer Positions"
+description: |
+  This example demonstrates table expressions in writer positions. Source Code REPORT demo_tab_exp_changing. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES: BEGIN OF struct, col1 TYPE i, col2 TYPE i, END OF struct, itab TYPE STANDARD TABLE OF struct WITH EMPTY KEY
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_itab_changing_abexa.htm"
+abapFile: "abentable_exp_itab_changing_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abentable", "exp", "itab", "changing", "abexa"]
+---
 
 * * *
 

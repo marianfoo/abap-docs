@@ -1,4 +1,14 @@
-  
+---
+title: "Derived Types"
+description: |
+  Work in progress  ABAP Compiler makes it possible to create derived types for type-secure parameters of a business object provider. Data types like this are known as derived types, since the compiler derives them from CDS entity types and their behavior definition implicitly. Derived types cont
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm"
+abapFile: "abenrpm_derived_types.htm"
+keywords: ["do", "if", "method", "data", "types", "abenrpm", "derived"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - SQL Functions"
+description: |
+  The following sections summarize the built-in SQL functions that can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and ABAP SQL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_glosry.htm 'Glossary
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_functions.htm"
+abapFile: "abensql_functions.htm"
+keywords: ["do", "if", "try", "data", "types", "abensql", "functions"]
+---
 
 * * *
 

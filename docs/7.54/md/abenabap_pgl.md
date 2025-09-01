@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Programming Guidelines"
+description: |
+  Beauty is in the eye of the beholder -   General Rules(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_rules_guidl.htm 'Guideline') -   ABAP-Specific Rules(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_specific_rules_guidl.htm 'Guideline') -   Struct
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm"
+abapFile: "abenabap_pgl.htm"
+keywords: ["do", "if", "abenabap", "pgl"]
+---
 
 * * *
 

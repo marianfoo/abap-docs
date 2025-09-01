@@ -1,4 +1,14 @@
-  
+---
+title: "Replace Patterns"
+description: |
+  After searching(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_search.htm), the replacement of substrings in character strings is the most important application of regular expressions. When replacing, the occurrences of a search (or the substrings that match a regular express
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_replace.htm"
+abapFile: "abenregex_replace.htm"
+keywords: ["do", "if", "data", "abenregex", "replace"]
+---
 
 * * *
 
@@ -12,13 +22,9 @@ After [searching](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abe
 
 In contrast to normal text replacements, when regular expressions are used, operators can be used in the replacement text that refer to the relevant occurrence.
 
--   [Operators for Replacement Texts](#@@ITOC@@ABENREGEX_REPLACE_1)
+-   [Operators for Replacement Texts](#abenregex-replace-1--------addressing-the-full-occurrence---@ITOC@@ABENREGEX_REPLACE_2)
 
--   [Addressing the Full Occurrence](#@@ITOC@@ABENREGEX_REPLACE_2)
-
--   [Addressing the Registers of Subgroups](#@@ITOC@@ABENREGEX_REPLACE_3)
-
--   [Addressing the Text Before the Occurrence](#@@ITOC@@ABENREGEX_REPLACE_4)
+-   [Addressing the Registers of Subgroups](#abenregex-replace-3--------addressing-the-text-before-the-occurrence---@ITOC@@ABENREGEX_REPLACE_4)
 
 -   [Addressing the Text After the Occurrence](#@@ITOC@@ABENREGEX_REPLACE_5)
 

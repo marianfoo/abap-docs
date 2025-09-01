@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Difference with Aggregate Expression"
+description: |
+  This example demonstrates how a difference is created across a table using an aggregate expression. Source Code REPORT demo_select_except_min. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrid TYPE sflight-carrid VALUE 'AA'. c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_except_min_abexa.htm"
+abapFile: "abenselect_except_min_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenselect", "except", "min", "abexa"]
+---
 
 * * *
 

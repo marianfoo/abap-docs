@@ -1,4 +1,14 @@
-  
+---
+title: "Data Types and Data Objects"
+description: |
+  Together with classes and objects, data types and data objects are the essentials of ABAP programming. -   Data type A data type describes a data object, just as a class describes an object. In this sense, a data type is comparable with a class without methods. ABAP interprets the content of a data
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_type_obj_gdl.htm"
+abapFile: "abendata_type_obj_gdl.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abendata", "type", "obj", "gdl"]
+---
 
 * * *
 

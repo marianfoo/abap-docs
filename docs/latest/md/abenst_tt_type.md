@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:type name='...' line-type='...' length='...' decimals='...' extensible=extensible_flag> <tt:front> <tt:node name='...' line-type='...' ... extensible=extensible_flag> ... </tt:node> ... </tt:front> <t
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_type.htm"
+abapFile: "abenst_tt_type.htm"
+keywords: ["do", "if", "case", "class", "data", "types", "internal-table", "abenst", "type"]
+---
 
 * * *
 

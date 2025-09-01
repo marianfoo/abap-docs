@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinterface.htm) Syntax INTERFACE intf. components ENDINTERFACE. Effect Declares an interface intf. In the declaration, the components of the interface are declared withALIASES, CLASS-DATA, CLASS-METHODS
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinterface_shortref.htm"
+abapFile: "abapinterface_shortref.htm"
+keywords: ["do", "method", "class", "data", "abapinterface", "shortref"]
+---
 
 * * *
 

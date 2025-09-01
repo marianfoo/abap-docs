@@ -1,4 +1,14 @@
-  
+---
+title: "source_code_enhancement_glosry"
+description: |
+  source_code_enhancement_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_enhancement_glosry.htm"
+abapFile: "abensource_code_enhancement_glosry.htm"
+keywords: ["insert", "do", "if", "try", "abensource", "code", "enhancement", "glosry"]
+---
 
 * * *
 

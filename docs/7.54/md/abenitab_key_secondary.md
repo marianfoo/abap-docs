@@ -1,4 +1,14 @@
-  
+---
+title: "Secondary Table Key"
+description: |
+  Hash keys(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhash_key_glosry.htm 'Glossary Entry') and sorted keys(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensorted_key_glosry.htm 'Glossary Entry') can be declared as secondary table keys(https://help.sap.com/doc
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_key_secondary.htm"
+abapFile: "abenitab_key_secondary.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "data", "types", "internal-table", "abenitab", "key", "secondary"]
+---
 
 * * *
 

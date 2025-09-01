@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  AT LINE-SELECTION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_line-selection.htm)  USER-COMMAND(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_user-command.htm)  PFnn(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_list_event.htm"
+abapFile: "abapat_list_event.htm"
+keywords: ["select", "do", "if", "class", "data", "abapat", "list", "event"]
+---
 
 * * *
 

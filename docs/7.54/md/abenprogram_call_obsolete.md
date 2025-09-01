@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Calls"
+description: |
+  -   CALL TRANSACTION - obsolete(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction_auth_obs.htm) -   CALL METHOD - obsolete(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static.htm) -   CALL DIALOG(https://help.sap.com/doc/abapdocu_754_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_call_obsolete.htm"
+abapFile: "abenprogram_call_obsolete.htm"
+keywords: ["do", "method", "abenprogram", "call", "obsolete"]
+---
 
 * * *
 

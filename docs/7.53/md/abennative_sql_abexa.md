@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL, Use"
+description: |
+  This example demonstrates the use of embedded static Native SQL. Source Code REPORT demo_exec_sql. PARAMETERS: p_create RADIOBUTTON GROUP grp, p_insert RADIOBUTTON GROUP grp, p_select RADIOBUTTON GROUP grp, p_drop   RADIOBUTTON GROUP grp. SELECTION-SCREEN SKIP. PARAMETERS  p_key TYPE i DEFAUL
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_abexa.htm"
+abapFile: "abennative_sql_abexa.htm"
+keywords: ["select", "insert", "do", "if", "try", "catch", "method", "class", "data", "abennative", "sql", "abexa"]
+---
 
 * * *
 

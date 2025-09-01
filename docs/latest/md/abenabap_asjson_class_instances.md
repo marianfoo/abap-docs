@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  asJSON for Object References(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_json_asjson_oref_abexa.htm)
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asjson_class_instances.htm"
+abapFile: "abenabap_asjson_class_instances.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "asjson", "instances"]
+---
 
 * * *
 

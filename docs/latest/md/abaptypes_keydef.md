@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, tabkeys"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_shortref.htm) Syntax ...  WITH key(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_primary_key.htm)   WITH secondary_key1(https://help.sap.com/doc/abapdocu_latest_in
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_keydef.htm"
+abapFile: "abaptypes_keydef.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abaptypes", "keydef"]
+---
 
 * * *
 

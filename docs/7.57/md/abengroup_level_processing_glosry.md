@@ -1,4 +1,14 @@
-  
+---
+title: "group_level_processing_glosry"
+description: |
+  group_level_processing_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengroup_level_processing_glosry.htm"
+abapFile: "abengroup_level_processing_glosry.htm"
+keywords: ["loop", "do", "if", "try", "internal-table", "abengroup", "level", "processing", "glosry"]
+---
 
 * * *
 

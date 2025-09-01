@@ -1,4 +1,14 @@
-  
+---
+title: "type_name_glosry"
+description: |
+  type_name_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_name_glosry.htm"
+abapFile: "abentype_name_glosry.htm"
+keywords: ["do", "if", "try", "types", "abentype", "name", "glosry"]
+---
 
 * * *
 

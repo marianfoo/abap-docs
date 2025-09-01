@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  1. ... contains( val = text(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm) substartend = substring(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm)  case = case(https://help.sap.com/doc/abapdocu_758_in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontains_functions.htm"
+abapFile: "abencontains_functions.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abencontains", "functions"]
+---
 
 * * *
 

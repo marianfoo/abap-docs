@@ -1,4 +1,14 @@
-  
+---
+title: "Expression-Orientation - Jawbreaker Game"
+description: |
+  Expression-oriented implementation of a Jawbreaker game. Source Code  Public class definition CLASS cl_demo_jawbreaker_html_740 DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC FINAL. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS game DEFINITION. PUBLIC
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjaw_breaker_abexa.htm"
+abapFile: "abenjaw_breaker_abexa.htm"
+keywords: ["delete", "do", "if", "method", "class", "data", "types", "abenjaw", "breaker", "abexa"]
+---
 
 * * *
 

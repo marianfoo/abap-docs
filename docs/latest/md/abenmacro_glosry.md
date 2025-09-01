@@ -1,4 +1,14 @@
-  
+---
+title: "macro_glosry"
+description: |
+  macro_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmacro_glosry.htm"
+abapFile: "abenmacro_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenmacro", "glosry"]
+---
 
 * * *
 

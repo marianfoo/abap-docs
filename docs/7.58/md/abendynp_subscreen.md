@@ -1,4 +1,14 @@
-  
+---
+title: "Defining Subscreen Areas"
+description: |
+  Subscreen areas are defined using Screen Painter in the layout of the dynpro on which subscreens are to be embedded. Each subscreen area on a dynpro has a unique name, and a position, length, and height. Subscreen areas may not overlap either with each other or with other dynpro elements. It is also
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynp_subscreen.htm"
+abapFile: "abendynp_subscreen.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "data", "abendynp", "subscreen"]
+---
 
 * * *
 

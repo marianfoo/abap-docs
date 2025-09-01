@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_int_tbls_insert DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_int_tbls_insert IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line, co
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninsert_lines_abexa.htm"
+abapFile: "abeninsert_lines_abexa.htm"
+keywords: ["insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abeninsert", "lines", "abexa"]
+---
 
 * * *
 

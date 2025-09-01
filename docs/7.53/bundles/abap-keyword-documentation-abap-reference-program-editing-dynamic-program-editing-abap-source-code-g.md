@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abapgenerate_subroutine_pool.htm
 
-  
+---
+title: "GENERATE SUBROUTINE POOL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_shortref.htm) Syntax GENERATE SUBROUTINE POOL itab NAME prog error_handling(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_error_handling.htm). Effect This statement gen
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subroutine_pool.htm"
+abapFile: "abapgenerate_subroutine_pool.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapgenerate", "subroutine", "pool"]
+---
 
 * * *
 
@@ -193,7 +203,17 @@ Continue
 
 ### abapgenerate_subr_error_handling.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... MESSAGE mess INCLUDE incl LINE lin WORD wrd OFFSET off MESSAGE-ID mid SHORTDUMP-ID sid ... Extras: 1. ... MESSAGE mess(#!ABAP_ADDITION_1@1@) 2. ... INCLUDE incl(#!ABAP_ADDITION_2@2@) 3. ... LINE lin(#!ABAP_ADDITION_3@3@) 4. ... W
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_error_handling.htm"
+abapFile: "abapgenerate_subr_error_handling.htm"
+keywords: ["select", "do", "if", "try", "data", "abapgenerate", "subr", "error", "handling"]
+---
 
 * * *
 
@@ -353,7 +373,17 @@ cl\_demo\_output=>display(
 
 ### abapgenerate_subr_pool_internal.htm
 
-  
+---
+title: "GENERATE SUBROUTINE POOL - Internal Addition"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... TRACE-FILE trf Effect Trace output is saved to the file specified in trf. This addition automatically activates trace mode.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_pool_internal.htm"
+abapFile: "abapgenerate_subr_pool_internal.htm"
+keywords: ["do", "if", "abapgenerate", "subr", "pool", "internal"]
+---
 
 * * *
 

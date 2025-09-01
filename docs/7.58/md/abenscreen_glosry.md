@@ -1,4 +1,14 @@
-  
+---
+title: "screen_glosry"
+description: |
+  screen_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_glosry.htm"
+abapFile: "abenscreen_glosry.htm"
+keywords: ["select", "do", "if", "case", "try", "abenscreen", "glosry"]
+---
 
 * * *
 

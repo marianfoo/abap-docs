@@ -1,4 +1,14 @@
-  
+---
+title: "GET PERMISSIONS, Short Form"
+description: |
+  Syntax GET PERMISSIONS PRIVILEGED(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm)  only_clause(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions_only_clause.htm) ENTITY entity FROM keys REQUEST req
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions_short.htm"
+abapFile: "abapget_permissions_short.htm"
+keywords: ["do", "if", "data", "internal-table", "abapget", "permissions", "short"]
+---
 
 * * *
 

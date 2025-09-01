@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... utclong_current( ) ... Effect This function creates a UTC time stamp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutc_timestamp_glosry.htm 'Glossary Entry') from the system time(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_glosry.htm 'Glossary
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong_current.htm"
+abapFile: "abenutclong_current.htm"
+keywords: ["do", "if", "try", "data", "types", "abenutclong", "current"]
+---
 
 * * *
 

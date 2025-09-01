@@ -1,4 +1,14 @@
-  
+---
+title: "Path Expressions, Use in the FROM Clause"
+description: |
+  This example demonstrates path expressions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_path.htm) in the FROM clause(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm) in ABAP SQL. Source Code REPORT demo_select_from_path. CLASS demo DEF
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expr_in_from_clause_abexa.htm"
+abapFile: "abenpath_expr_in_from_clause_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenpath", "expr", "from", "clause", "abexa"]
+---
 
 * * *
 

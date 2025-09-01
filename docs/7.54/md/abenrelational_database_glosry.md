@@ -1,4 +1,14 @@
-  
+---
+title: "relational_database_glosry"
+description: |
+  relational_database_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_database_glosry.htm"
+abapFile: "abenrelational_database_glosry.htm"
+keywords: ["do", "try", "data", "abenrelational", "database", "glosry"]
+---
 
 * * *
 

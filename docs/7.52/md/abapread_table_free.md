@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... WITH KEY  comp1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_components.htm) = operand1 comp2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_components.htm) = operand2 ... BINARY SEARCH    keyname(https://help.sap.com/doc/abap
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_free.htm"
+abapFile: "abapread_table_free.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abapread", "table", "free"]
+---
 
 * * *
 

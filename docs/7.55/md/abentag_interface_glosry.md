@@ -1,4 +1,14 @@
-  
+---
+title: "tag_interface_glosry"
+description: |
+  tag_interface_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentag_interface_glosry.htm"
+abapFile: "abentag_interface_glosry.htm"
+keywords: ["do", "try", "class", "abentag", "interface", "glosry"]
+---
 
 * * *
 

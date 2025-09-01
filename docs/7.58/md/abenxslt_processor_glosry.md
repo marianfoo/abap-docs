@@ -1,4 +1,14 @@
-  
+---
+title: "SAP XSLT processor"
+description: |
+  System program integrated into the ABAP kernel(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkernel_glosry.htm 'Glossary Entry') to execute XSL transformations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsl_transformation_glosry.htm 'Glossary Entry').
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxslt_processor_glosry.htm"
+abapFile: "abenxslt_processor_glosry.htm"
+keywords: ["do", "if", "try", "abenxslt", "processor", "glosry"]
+---
 
 * * *
 

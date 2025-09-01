@@ -1,4 +1,14 @@
-  
+---
+title: "table_type_glosry"
+description: |
+  table_type_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_type_glosry.htm"
+abapFile: "abentable_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "internal-table", "abentable", "type", "glosry"]
+---
 
 * * *
 

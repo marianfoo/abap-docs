@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for ABAP EML GET PERMISSIONS"
+description: |
+  -   ABAP EML - GET PERMISSIONS, Short and Long Forms(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenget_perm_forms_abexa.htm) -   ABAP EML - GET PERMISSIONS, Dynamic Form(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenget_perm_dyn_form_abexa.htm) -   ABAP EML - G
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenget_permissions_abexas.htm"
+abapFile: "abenget_permissions_abexas.htm"
+keywords: ["do", "if", "abenget", "permissions", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Character String Templates, Time Formats"
+description: |
+  The example demonstrates the various time formats for embedded expressions. Source Code REPORT demo_string_template_time_form. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. PRIVATE SECTION. CLASS-METHODS: setup, teardown, check_system. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD m
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_time_abexa.htm"
+abapFile: "abenstring_template_time_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenstring", "template", "time", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Data Objects in Operand Positions"
+description: |
+  When using data objects in operand positions, read positions and write positions must be distinguished. The data type and content of the specified data objects must also be appropriate for the operand position. -   Read Positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperands_data_objects.htm"
+abapFile: "abenoperands_data_objects.htm"
+keywords: ["do", "if", "data", "abenoperands", "objects"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SUPPRESS DIALOG - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsuppress.htm) Syntax SUPPRESS DIALOG. Effect If specified, processes the current Dynpro(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm 'Glossary Entry') at PBO(https://help.sap.com/doc/ab
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsuppress_dialog_shortref.htm"
+abapFile: "abapsuppress_dialog_shortref.htm"
+keywords: ["do", "if", "try", "abapsuppress", "dialog", "shortref"]
+---
 
 * * *
 

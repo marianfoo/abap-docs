@@ -1,4 +1,14 @@
-  
+---
+title: "instance_attribute_glosry"
+description: |
+  instance_attribute_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_attribute_glosry.htm"
+abapFile: "abeninstance_attribute_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abeninstance", "attribute", "glosry"]
+---
 
 * * *
 

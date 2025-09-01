@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  1. ... conditional_rule(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_cond_rule.htm)grant_rule(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_grant_rule.htm) conditional_rule(https://help.sap.com/doc/abapdocu_lates
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_rules.htm"
+abapFile: "abencds_dcl_role_rules.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "dcl", "role", "rules"]
+---
 
 * * *
 

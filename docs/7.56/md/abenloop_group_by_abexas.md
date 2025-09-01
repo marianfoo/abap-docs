@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Grouping with LOOP"
+description: |
+  !Example(exa.gif 'Example') itab - Grouping with LOOP Using Column Values(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_values_abexa.htm) !Example(exa.gif 'Example') itab - Grouping with LOOP Using a Method(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/e
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_abexas.htm"
+abapFile: "abenloop_group_by_abexas.htm"
+keywords: ["loop", "do", "if", "method", "data", "internal-table", "abenloop", "group", "abexas"]
+---
 
 * * *
 

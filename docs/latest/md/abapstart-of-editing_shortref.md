@@ -1,4 +1,14 @@
-  
+---
+title: "START-OF-EDITING - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-editing.htm) Syntax START-OF-EDITING. Effect Obsolete: Initiates an event block whose event is raised in executable programs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexecutable_progr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstart-of-editing_shortref.htm"
+abapFile: "abapstart-of-editing_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapstart", "editing", "shortref"]
+---
 
 * * *
 

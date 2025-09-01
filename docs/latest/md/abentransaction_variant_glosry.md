@@ -1,4 +1,14 @@
-  
+---
+title: "transaction_variant_glosry"
+description: |
+  transaction_variant_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransaction_variant_glosry.htm"
+abapFile: "abentransaction_variant_glosry.htm"
+keywords: ["do", "if", "try", "abentransaction", "variant", "glosry"]
+---
 
 * * *
 

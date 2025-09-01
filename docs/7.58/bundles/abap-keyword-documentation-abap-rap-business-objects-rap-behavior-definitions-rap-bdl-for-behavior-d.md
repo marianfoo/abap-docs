@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenbdl_rap_bopf.htm
 
-  
+---
+title: "RAP - BOPF-Based RAP Business Objects"
+description: |
+  For business objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') built with the predecessor programming model ABAP programming model for SAP Fiori(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pm_for_fiori_glos
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bopf.htm"
+abapFile: "abenbdl_rap_bopf.htm"
+keywords: ["do", "if", "try", "types", "abenbdl", "rap", "bopf"]
+---
 
 * * *
 
@@ -37,7 +47,17 @@ Continue
 
 ### abenbdl_rap_managed_by_bopf.htm
 
-  
+---
+title: "RAP - managed by BOPF"
+description: |
+  Syntax managed by BOPF ...; Effect Defines a BOPF-based RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bopf_bo_glosry.htm 'Glossary Entry') in BDL source code(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_source_code_glosry.htm 'Glossary Entry'
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_managed_by_bopf.htm"
+abapFile: "abenbdl_rap_managed_by_bopf.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "types", "abenbdl", "rap", "managed", "bopf"]
+---
 
 * * *
 
@@ -88,7 +108,17 @@ lock master
 
 ### abenbdl_rap_with_bopf_draft.htm
 
-  
+---
+title: "RAP - with BOPF draft"
+description: |
+  Syntax ... with BOPF draft; ... Effect The addition with BOPF draft enables draft handling for a BOPF-based RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bopf_bo_glosry.htm 'Glossary Entry'). It is added in the behavior definition header(https://help.sap.com/doc/abapd
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_with_bopf_draft.htm"
+abapFile: "abenbdl_rap_with_bopf_draft.htm"
+keywords: ["do", "if", "try", "class", "types", "abenbdl", "rap", "with", "bopf", "draft"]
+---
 
 * * *
 

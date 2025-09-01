@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Disabling of the Unicode Check"
+description: |
+  When a program is created, the ABAP language version(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_versions.htm) Standard ABAP (Unicode)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_program_glosry.htm 'Glossary Entry') with enabled Unicode checks
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennon_unicode_obsolete.htm"
+abapFile: "abennon_unicode_obsolete.htm"
+keywords: ["do", "try", "abennon", "unicode", "obsolete"]
+---
 
 * * *
 

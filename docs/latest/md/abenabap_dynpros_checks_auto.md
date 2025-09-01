@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  Automatic Input Checks(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_auto_check_abexa.htm)
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_checks_auto.htm"
+abapFile: "abenabap_dynpros_checks_auto.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "dynpros", "checks", "auto"]
+---
 
 * * *
 

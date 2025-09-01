@@ -1,4 +1,14 @@
-  
+---
+title: "Visibility section"
+description: |
+  The declaration part(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_section_glosry.htm 'Glossary Entry') of a class(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_glosry.htm 'Glossary Entry') can be subdivided into up to three visibility sections
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvisibility_section_glosry.htm"
+abapFile: "abenvisibility_section_glosry.htm"
+keywords: ["do", "try", "class", "abenvisibility", "section", "glosry"]
+---
 
 * * *
 

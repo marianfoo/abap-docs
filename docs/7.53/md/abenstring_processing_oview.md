@@ -1,4 +1,14 @@
-  
+---
+title: "Character String and Byte String Processing - Overview"
+description: |
+  -   Character Strings and Byte Strings(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_strings.htm) -   Operands in Character String and Byte String Processing(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_operands.htm) -   Tra
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_oview.htm"
+abapFile: "abenstring_processing_oview.htm"
+keywords: ["do", "data", "abenstring", "processing", "oview"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dependency Rules"
+description: |
+  A dependency rule is a HANA tuning object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_tuning_object_glosry.htm 'Glossary Entry') for which an instance is created on an SAP HANA database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dependency_rules.htm"
+abapFile: "abenddic_dependency_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenddic", "dependency", "rules"]
+---
 
 * * *
 

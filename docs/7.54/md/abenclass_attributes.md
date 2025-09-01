@@ -1,4 +1,14 @@
-  
+---
+title: "Attributes of Classes"
+description: |
+  Attributes are internal data objects of any ABAP data type within a class. The content of the attributes specifies the state of the object. Reference variables can also be defined, which can then be used to create and address objects. This allows objects to be accessed within classes. Attributes are
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_attributes.htm"
+abapFile: "abenclass_attributes.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenclass", "attributes"]
+---
 
 * * *
 
@@ -12,13 +22,9 @@ Attributes are internal data objects of any ABAP data type within a class. The c
 
 Attributes are defined in the declaration part of a class. Public attributes are visible from outside the class without restrictions and as such are part of the interface between objects and their consumers. To encapsulate the state of the object, protected, package-visible, or private attributes must be used. The modifiability of non-private attributes can also be restricted using the addition [READ-ONLY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_options.htm) in the declaration.
 
--   [Instance Attributes](#@@ITOC@@ABENCLASS_ATTRIBUTES_1)
+-   [Instance Attributes](#abenclass-attributes-1--------static-attributes---@ITOC@@ABENCLASS_ATTRIBUTES_2)
 
--   [Static Attributes](#@@ITOC@@ABENCLASS_ATTRIBUTES_2)
-
--   [Data Types of Attributes](#@@ITOC@@ABENCLASS_ATTRIBUTES_3)
-
--   [Boxed Components](#@@ITOC@@ABENCLASS_ATTRIBUTES_4)
+-   [Data Types of Attributes](#abenclass-attributes-3--------boxed-components---@ITOC@@ABENCLASS_ATTRIBUTES_4)
 
 Instance Attributes
 

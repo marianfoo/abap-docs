@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of Exceptions"
+description: |
+  -   Exceptions, RAISE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenraise_abexa.htm) -   Exceptions, TRY(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentry_abexa.htm) -   Exceptions, CATCH(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatch_exc
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_abexas.htm"
+abapFile: "abenexception_abexas.htm"
+keywords: ["do", "if", "try", "catch", "class", "exception-handling", "abenexception", "abexas"]
+---
 
 * * *
 

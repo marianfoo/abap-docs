@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT dbtab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_dbtab.htm) Syntax LOOP AT dbtab VERSION vers. ... ENDLOOP. Effect Obsolete: Reads multiple rows of a database table or view dbtab in a loop. The content of the table work area(https://help.sap.com/doc/a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_dbtab_shortref.htm"
+abapFile: "abaploop_at_dbtab_shortref.htm"
+keywords: ["loop", "do", "if", "try", "data", "abaploop", "dbtab", "shortref"]
+---
 
 * * *
 

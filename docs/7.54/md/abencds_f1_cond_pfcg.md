@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( element1  element1, element2 ... (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_pfcg_mapping.htm) , element2  element1, element2 ... (https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_pfcg_mapping.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_pfcg.htm"
+abapFile: "abencds_f1_cond_pfcg.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "cond", "pfcg"]
+---
 
 * * *
 

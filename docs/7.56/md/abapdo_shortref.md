@@ -1,4 +1,14 @@
-  
+---
+title: "DO - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdo.htm) Syntax DO n TIMES VARYING dobj FROM dobj1 NEXT dobj2 RANGE range VARYING .... statement_block ENDDO. Effect Executes the statement block statement_block more than once in a si
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdo_shortref.htm"
+abapFile: "abapdo_shortref.htm"
+keywords: ["loop", "do", "data", "abapdo", "shortref"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenc2_contract_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C2 Contract Rules for API Providers(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_contract_rules.htm"
+abapFile: "abenc2_contract_rules.htm"
+keywords: ["do", "if", "try", "abenc2", "contract", "rules"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abenc2_provider_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C2 Contract Rules for Providing CDS Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm"
+abapFile: "abenc2_provider_rules.htm"
+keywords: ["delete", "do", "if", "class", "types", "abenc2", "provider", "rules"]
+---
 
 * * *
 
@@ -53,7 +73,17 @@ Continue
 
 ### abenc2_provider_rules_cds_type.htm
 
-  
+---
+title: "c2_provider_rules_cds_type"
+description: |
+  c2_provider_rules_cds_type - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm"
+abapFile: "abenc2_provider_rules_cds_type.htm"
+keywords: ["do", "if", "try", "types", "abenc2", "provider", "rules", "cds", "type"]
+---
 
 * * *
 
@@ -71,7 +101,17 @@ The rules for releasing a [CDS user-defined type](https://help.sap.com/doc/abapd
 
 ### abenc2_provider_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C2 Contract Rules for Providing CDS Types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm"
+abapFile: "abenc2_provider_rules.htm"
+keywords: ["delete", "do", "if", "class", "types", "abenc2", "provider", "rules"]
+---
 
 * * *
 

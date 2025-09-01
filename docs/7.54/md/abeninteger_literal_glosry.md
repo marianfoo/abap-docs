@@ -1,4 +1,14 @@
-  
+---
+title: "Integer literal"
+description: |
+  Numeric literal(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_literal_glosry.htm 'Glossary Entry') of the integer(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninteger_glosry.htm 'Glossary Entry') type i(https://help.sap.com/doc/abapdocu_754_index_htm/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninteger_literal_glosry.htm"
+abapFile: "abeninteger_literal_glosry.htm"
+keywords: ["do", "try", "types", "abeninteger", "literal", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Expressions"
+description: |
+  The following expressions can be specified in expression positions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_position_glosry.htm 'Glossary Entry'): -   Write positions -   Declaration expressions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninlin
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpressions.htm"
+abapFile: "abenexpressions.htm"
+keywords: ["do", "if", "try", "types", "abenexpressions"]
+---
 
 * * *
 

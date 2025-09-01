@@ -1,4 +1,14 @@
-  
+---
+title: "Replace function"
+description: |
+  Process function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocess_function_glosry.htm 'Glossary Entry') that scans a string for a specific string and replaces the occurrence with another string. → More(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreplace_f
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreplace_function_glosry.htm"
+abapFile: "abenreplace_function_glosry.htm"
+keywords: ["do", "if", "try", "abenreplace", "function", "glosry"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abenddic_database_tables_poolclu.htm
 
-  
+---
+title: "Pooled Tables and Cluster Tables"
+description: |
+  Pooled tables and cluster tables are an SAP-specific category of database tables that can be defined in ABAP Dictionary and exist alongside transparent tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransparent_table_glosry.htm 'Glossary Entry'). Unlike transparent tables, p
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poolclu.htm"
+abapFile: "abenddic_database_tables_poolclu.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "poolclu"]
+---
 
 * * *
 
@@ -34,7 +44,17 @@ Continue
 
 ### abenddic_database_tables_pool.htm
 
-  
+---
+title: "Pooled Tables in Table Pools"
+description: |
+  Pooled tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table pools rather than being defined as pooled tables on the database. -   Table Pools(#abenddic-database-tables-pool-1--------pooled-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2) Tabl
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_pool.htm"
+abapFile: "abenddic_database_tables_pool.htm"
+keywords: ["delete", "do", "if", "class", "data", "types", "abenddic", "database", "tables", "pool"]
+---
 
 * * *
 
@@ -46,9 +66,7 @@ Pooled Tables in Table Pools
 
 Pooled tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table pools rather than being defined as pooled tables on the database.
 
--   [Table Pools](#@@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_1)
-
--   [Pooled Tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2)
+-   [Table Pools](#abenddic-database-tables-pool-1--------pooled-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2)
 
 Table Pools
 
@@ -89,7 +107,17 @@ In systems where no transformation to transparent tables has taken place, the ta
 
 ### abenddic_database_tables_cluster.htm
 
-  
+---
+title: "Cluster Tables in Table Clusters"
+description: |
+  Cluster tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table clusters rather than being defined as cluster tables on the database. -   Table Cluster(#abenddic-database-tables-cluster-1--------cluster-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_C
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_cluster.htm"
+abapFile: "abenddic_database_tables_cluster.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "cluster"]
+---
 
 * * *
 
@@ -101,9 +129,7 @@ Cluster Tables in Table Clusters
 
 Cluster tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table clusters rather than being defined as cluster tables on the database.
 
--   [Table Cluster](#@@ITOC@@ABENDDIC_DATABASE_TABLES_CLUSTER_1)
-
--   [Cluster Tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_CLUSTER_2)
+-   [Table Cluster](#abenddic-database-tables-cluster-1--------cluster-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_CLUSTER_2)
 
 Table Cluster
 
@@ -150,7 +176,17 @@ The cluster table DOKTL, which contains all documentation created in the transac
 
 ### abenddic_database_tables_poclure.htm
 
-  
+---
+title: "Restrictions in Pooled Tables and Cluster Tables"
+description: |
+  The following general restrictions apply to pooled tables and cluster tables: -   Access to pooled tables and cluster tables using Native SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm 'Glossary Entry') or AMDP(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclure.htm"
+abapFile: "abenddic_database_tables_poclure.htm"
+keywords: ["select", "insert", "update", "do", "if", "case", "try", "class", "data", "abenddic", "database", "tables", "poclure"]
+---
 
 * * *
 
@@ -205,7 +241,17 @@ The following restrictions apply when accessing pooled tables and cluster tables
 
 ### abenddic_database_tables_poclutr.htm
 
-  
+---
+title: "Transforming Pooled Tables and Cluster Tables"
+description: |
+  Any existing pooled tables and cluster tables should be transformed to transparent tables. In particular, if a SAP HANA database(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm 'Glossary Entry') is used as the standard AS ABAP database(https://help.sap.com
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclutr.htm"
+abapFile: "abenddic_database_tables_poclutr.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenddic", "database", "tables", "poclutr"]
+---
 
 * * *
 

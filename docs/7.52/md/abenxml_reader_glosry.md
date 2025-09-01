@@ -1,4 +1,14 @@
-  
+---
+title: "XML reader"
+description: |
+  Instance(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_glosry.htm 'Glossary Entry') of a class(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm 'Glossary Entry') in sXML Library(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_reader_glosry.htm"
+abapFile: "abenxml_reader_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenxml", "reader", "glosry"]
+---
 
 * * *
 

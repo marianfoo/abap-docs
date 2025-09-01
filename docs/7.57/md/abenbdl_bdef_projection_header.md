@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - CDS Behavior Definition Header, Projection BDEF"
+description: |
+  Syntax implementation type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm);  implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique.htm); strict(version);(https://he
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_bdef_projection_header.htm"
+abapFile: "abenbdl_bdef_projection_header.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "bdef", "projection", "header"]
+---
 
 * * *
 

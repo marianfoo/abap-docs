@@ -1,4 +1,14 @@
-  
+---
+title: "write_lock_glosry"
+description: |
+  write_lock_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwrite_lock_glosry.htm"
+abapFile: "abenwrite_lock_glosry.htm"
+keywords: ["do", "if", "try", "abenwrite", "lock", "glosry"]
+---
 
 * * *
 

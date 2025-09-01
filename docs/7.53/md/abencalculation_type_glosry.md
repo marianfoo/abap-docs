@@ -1,4 +1,14 @@
-  
+---
+title: "Calculation Type"
+description: |
+  Property of an arithmetic expression(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry') according to the numeric data types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm 'Glossary Entry')
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm"
+abapFile: "abencalculation_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencalculation", "type", "glosry"]
+---
 
 * * *
 

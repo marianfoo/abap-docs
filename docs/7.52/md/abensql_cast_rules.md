@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Source Type"
+description: |
+  Source type INT1, INT2, INT4, INT8 -   Numeric target type The possible target types are INT1, INT2, INT4, INT8, DEC, CURR, QUAN, and FLTP. -   The source value is converted to the internal representation for the target type. -   If the value range is exceeded, an exception is raised that can be cau
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast_rules.htm"
+abapFile: "abensql_cast_rules.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abensql", "cast", "rules"]
+---
 
 * * *
 
@@ -10,21 +20,13 @@ sql\_exp - sql\_cast, Conversion Rules
 
 The following sections described the conversion rules for [cast expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast.htm) in Open SQL.
 
--   [Numeric Source Type](#@@ITOC@@ABENSQL_CAST_RULES_1)
+-   [Numeric Source Type](#abensql-cast-rules-1--------source-type-int1--int2--int4--int8---@ITOC@@ABENSQL_CAST_RULES_2)
 
--   [Source type INT1, INT2, INT4, INT8](#@@ITOC@@ABENSQL_CAST_RULES_2)
+-   [Source type DEC, CURR, QUAN](#abensql-cast-rules-3--------character-like-source-type---@ITOC@@ABENSQL_CAST_RULES_4)
 
--   [Source type DEC, CURR, QUAN](#@@ITOC@@ABENSQL_CAST_RULES_3)
+-   [Source type CHAR](#abensql-cast-rules-5--------source-type-numc---@ITOC@@ABENSQL_CAST_RULES_6)
 
--   [Character-Like Source Type](#@@ITOC@@ABENSQL_CAST_RULES_4)
-
--   [Source type CHAR](#@@ITOC@@ABENSQL_CAST_RULES_5)
-
--   [Source type NUMC](#@@ITOC@@ABENSQL_CAST_RULES_6)
-
--   [Source types DATS, TIMS, and CLNT](#@@ITOC@@ABENSQL_CAST_RULES_7)
-
--   [Source types LANG, UNIT, and CUKY](#@@ITOC@@ABENSQL_CAST_RULES_8)
+-   [Source types DATS, TIMS, and CLNT](#abensql-cast-rules-7--------source-types-lang--unit--and-cuky---@ITOC@@ABENSQL_CAST_RULES_8)
 
 Data types that cannot be converted to each other are not specified. In these cases, casts are either not possible or only casts between type-friendly operands. If the source type and the target type are technically identical, the content is transferred without being converted.
 

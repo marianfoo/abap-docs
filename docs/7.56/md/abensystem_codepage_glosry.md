@@ -1,4 +1,14 @@
-  
+---
+title: "system_codepage_glosry"
+description: |
+  system_codepage_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_codepage_glosry.htm"
+abapFile: "abensystem_codepage_glosry.htm"
+keywords: ["do", "try", "abensystem", "codepage", "glosry"]
+---
 
 * * *
 

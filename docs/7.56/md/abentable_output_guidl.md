@@ -1,4 +1,14 @@
-  
+---
+title: "Target Area"
+description: |
+  Background Internal tables can be read by accessing individual lines using READ TABLE or table expressions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expression_glosry.htm 'Glossary Entry'), or sequentially using LOOP AT. In both cases, the following output behavior can b
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_output_guidl.htm"
+abapFile: "abentable_output_guidl.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abentable", "output", "guidl"]
+---
 
 * * *
 

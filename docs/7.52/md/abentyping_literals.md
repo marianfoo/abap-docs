@@ -1,4 +1,14 @@
-  
+---
+title: "Literals as Actual Parameters"
+description: |
+  Special rules apply to the assignment of literals to formal parameters. They make it possible to assign character literals of type c and string or numeric literals of type i and p to formal parameters whose type would not normally allow it. If the formal parameter has a generic type, the non-specifi
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_literals.htm"
+abapFile: "abentyping_literals.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "abentyping", "literals"]
+---
 
 * * *
 

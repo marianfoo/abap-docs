@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - REDEFINITION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_redefinition_shortref.htm) Syntax METHODS meth FINAL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_abstract_final.htm) REDEFINITION. Addition: ... FINAL(#!ABAP_ONE_ADD@1@) Ef
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_redefinition.htm"
+abapFile: "abapmethods_redefinition.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapmethods", "redefinition"]
+---
 
 * * *
 

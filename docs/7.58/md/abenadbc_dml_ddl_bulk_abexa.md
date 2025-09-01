@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Bulk Access"
+description: |
+  This example demonstrates bulk access in ADBC. Source Code REPORT demo_adbc_ddl_dml_bulk_access. 'This program uses platform dependent Native SQL. 'It may not work for every database system. PARAMETERS  p_name TYPE c LENGTH 10 DEFAULT 'mytab'. SELECTION-SCREEN SKIP. PARAMETERS: p_create RADIO
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_dml_ddl_bulk_abexa.htm"
+abapFile: "abenadbc_dml_ddl_bulk_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenadbc", "dml", "ddl", "bulk", "abexa"]
+---
 
 * * *
 

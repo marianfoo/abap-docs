@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... func( arg1, arg2 ... ) ... Effect Calls built-in SQL functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_function_glosry.htm 'Glossary Entry') in a SELECT statement(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm) of
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions.htm"
+abapFile: "abencds_f1_sql_functions.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "sql", "functions"]
+---
 
 * * *
 

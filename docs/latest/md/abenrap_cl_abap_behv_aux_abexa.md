@@ -1,4 +1,14 @@
-  
+---
+title: "Used artifacts in the example"
+description: |
+  What CDS view BDEF Behavior Pool (ABP) Notes Base RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') DEMO_EXT_M DEMO_EXT_M CCIMP include The CDS data model only consists of one node constituting the root entity. The BDEF
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm"
+abapFile: "abenrap_cl_abap_behv_aux_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenrap", "abap", "behv", "aux", "abexa"]
+---
 
 * * *
 

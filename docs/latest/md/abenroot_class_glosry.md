@@ -1,4 +1,14 @@
-  
+---
+title: "root_class_glosry"
+description: |
+  root_class_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenroot_class_glosry.htm"
+abapFile: "abenroot_class_glosry.htm"
+keywords: ["do", "if", "try", "class", "types", "abenroot", "glosry"]
+---
 
 * * *
 

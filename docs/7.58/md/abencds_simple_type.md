@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... simple_type  ... Effect A CDS simple type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_type_glosry.htm 'Glossary Entry') can be typed using another CDS simple type. The annotations of the underlying simple type are inherited. It is possible to overwrite these anno
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_type.htm"
+abapFile: "abencds_simple_type.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "simple", "type"]
+---
 
 * * *
 

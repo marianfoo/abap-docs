@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_asxml_qname. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: name1  TYPE string, name2  TYPE string, qname1 TYPE xsdqname, qname2 TYPE xsdqname. DATA xmlstring TYPE string. name1 = qname1 = 'test_uriValue1'. name2 =
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasxml_qnames_abexa.htm"
+abapFile: "abenasxml_qnames_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abenasxml", "qnames", "abexa"]
+---
 
 * * *
 

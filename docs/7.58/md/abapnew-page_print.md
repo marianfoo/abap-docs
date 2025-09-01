@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  PRINT ON NEW-SECTION PARAMETERS pri_params ARCHIVE PARAMETERS arc_params NO DIALOG    PRINT OFF  ... Additions: 1. ... PRINT ON NEW-SECTION(#!ABAP_ADDITION_1@1@) 2. ... PARAMETERS pri_params(#!ABAP_ADDITION_2@2@) 3. ... ARCHIVE PARAMETERS arc_p
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-page_print.htm"
+abapFile: "abapnew-page_print.htm"
+keywords: ["select", "do", "while", "if", "try", "catch", "class", "data", "types", "abapnew", "page", "print"]
+---
 
 * * *
 

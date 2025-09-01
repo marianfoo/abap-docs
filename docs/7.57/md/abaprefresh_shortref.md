@@ -1,4 +1,14 @@
-  
+---
+title: "REFRESH - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprefresh_itab.htm) Syntax REFRESH itab. Effect Obsolete: Deletes all the lines of an internal table itab.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprefresh_shortref.htm"
+abapFile: "abaprefresh_shortref.htm"
+keywords: ["delete", "do", "if", "internal-table", "abaprefresh", "shortref"]
+---
 
 * * *
 

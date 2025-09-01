@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, FOR DETERMINATION, VALIDATION"
+description: |
+  Syntax  METHODS ... FOR DETERMINATION ...    METHODS ... FOR VALIDATION ...  Effect Obsolete declaration of ABP handler methods(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') in the handler class(https://help.sap.com/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_det_val_obs.htm"
+abapFile: "abapmethods_for_det_val_obs.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "for", "det", "val", "obs"]
+---
 
 * * *
 

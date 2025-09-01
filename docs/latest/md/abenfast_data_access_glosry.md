@@ -1,4 +1,14 @@
-  
+---
+title: "fast_data_access_glosry"
+description: |
+  fast_data_access_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfast_data_access_glosry.htm"
+abapFile: "abenfast_data_access_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abenfast", "access", "glosry"]
+---
 
 * * *
 

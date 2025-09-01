@@ -1,4 +1,14 @@
-  
+---
+title: "RAP function"
+description: |
+  A non-standard RAP BO operation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_nstandard_operation_glosry.htm 'Glossary Entry') that returns information without modifying RAP BO entity instances(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_e
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_function_glosry.htm"
+abapFile: "abenrap_function_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "function", "glosry"]
+---
 
 * * *
 

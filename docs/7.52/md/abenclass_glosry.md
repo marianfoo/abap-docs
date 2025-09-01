@@ -1,4 +1,14 @@
-  
+---
+title: "Class"
+description: |
+  Template for objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_glosry.htm 'Glossary Entry') in ABAP Objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_glosry.htm 'Glossary Entry'). Defined with CLASS - ENDCLASS(https://help.sap.com/d
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm"
+abapFile: "abenclass_glosry.htm"
+keywords: ["do", "try", "method", "class", "abenclass", "glosry"]
+---
 
 * * *
 

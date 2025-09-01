@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abapwait_shortref.htm
 
-  
+---
+title: "WAIT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_up_to.htm) Syntax WAIT UP TO t SECONDS  FOR ASYNCHRONOUS TASKS UNTIL log_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlog_exp_shortref.htm) UP TO t SECONDS
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_shortref.htm"
+abapFile: "abapwait_shortref.htm"
+keywords: ["do", "if", "try", "abapwait", "shortref"]
+---
 
 * * *
 
@@ -44,7 +54,17 @@ Additions  
 
 ### abapwhile_shortref.htm
 
-  
+---
+title: "WHILE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_bl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "if", "data", "abapwhile", "shortref"]
+---
 
 * * *
 
@@ -78,7 +98,17 @@ Addition 
 
 ### abapwindow_shortref.htm
 
-  
+---
+title: "WINDOW - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow.htm) Syntax WINDOW STARTING AT col1 lin1 ENDING  AT col2 lin2. Effect Dictates that the details list currently being created is displayed in a dialog box. Additions -   STARTING AT col1 lin1 Specifies the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow_shortref.htm"
+abapFile: "abapwindow_shortref.htm"
+keywords: ["do", "if", "abapwindow", "shortref"]
+---
 
 * * *
 
@@ -111,7 +141,17 @@ Additions  
 
 ### abapwith_shortref.htm
 
-  
+---
+title: "WITH - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm) Syntax WITH +cte1( name1, name2, ... ) AS subquery(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubquery_shortref.htm), +cte2( name1, name2, ... ) AS subquery(http
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_shortref.htm"
+abapFile: "abapwith_shortref.htm"
+keywords: ["select", "do", "if", "try", "abapwith", "shortref"]
+---
 
 * * *
 
@@ -142,7 +182,17 @@ Effect
 
 ### abapwrite_shortref.htm
 
-  
+---
+title: "WRITE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite-.htm) Syntax WRITE AT /pos(len) dobj UNDER other_dobj NO-GAP LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED EXPONENT exp NO-GROUPI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_shortref.htm"
+abapFile: "abapwrite_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -228,7 +278,17 @@ Additions  
 
 ### abapwrite_to_shortref.htm
 
-  
+---
+title: "WRITE TO - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_to.htm) Syntax WRITE source(source_name) TO destination LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_to_shortref.htm"
+abapFile: "abapwrite_to_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "abapwrite", "shortref"]
+---
 
 * * *
 
@@ -299,7 +359,17 @@ Additions  
 
 ### abapwrite_to_itab_shortref.htm
 
-  
+---
+title: "WRITE TO itab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_to_itab.htm) Syntax WRITE dobj TO itab+off(len) INDEX idx int_format_options. Effect Obsolete: Writes the content of a data object to the line of the internal table itab with the index idx
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite_to_itab_shortref.htm"
+abapFile: "abapwrite_to_itab_shortref.htm"
+keywords: ["do", "if", "data", "internal-table", "abapwrite", "itab", "shortref"]
+---
 
 * * *
 

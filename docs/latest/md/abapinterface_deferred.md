@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACE, DEFERRED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface_deferred_lo_shortref.htm) Syntax INTERFACE intf DEFERRED PUBLIC. Effect This variant of the statement INTERFACE is used to declare the interface intf independently of the location of the actual de
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface_deferred.htm"
+abapFile: "abapinterface_deferred.htm"
+keywords: ["do", "if", "class", "data", "abapinterface", "deferred"]
+---
 
 * * *
 

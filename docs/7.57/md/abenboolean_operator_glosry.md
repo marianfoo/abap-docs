@@ -1,4 +1,14 @@
-  
+---
+title: "Boolean operator"
+description: |
+  Negates or combines logical expressions(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_expression_glosry.htm 'Glossary Entry'). The possible Boolean operators are NOT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_not.htm), AND(https://help.sap.co
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboolean_operator_glosry.htm"
+abapFile: "abenboolean_operator_glosry.htm"
+keywords: ["do", "if", "try", "abenboolean", "operator", "glosry"]
+---
 
 * * *
 

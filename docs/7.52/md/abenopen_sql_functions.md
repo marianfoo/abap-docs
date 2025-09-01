@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - SQL Functions"
+description: |
+  The following predefined SQL functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions.htm) can either be specified as standalone functions in Open SQL or as operands of SQL expressions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm), in
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_functions.htm"
+abapFile: "abenopen_sql_functions.htm"
+keywords: ["do", "if", "data", "abenopen", "sql", "functions"]
+---
 
 * * *
 

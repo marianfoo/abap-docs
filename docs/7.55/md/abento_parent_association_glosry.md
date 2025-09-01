@@ -1,4 +1,14 @@
-  
+---
+title: "CDS to-parent association"
+description: |
+  Special CDS association(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm 'Glossary Entry') that is a prerequisite for defining a CDS entity(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm 'Glossary Entry') as the chil
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abento_parent_association_glosry.htm"
+abapFile: "abento_parent_association_glosry.htm"
+keywords: ["do", "try", "abento", "parent", "association", "glosry"]
+---
 
 * * *
 

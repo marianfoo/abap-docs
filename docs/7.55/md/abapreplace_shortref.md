@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm) Syntax REPLACE   FIRST OCCURRENCEALL OCCURRENCES OF SUBSTRING substring  PCREREGEX regex IN  SECTION OFFSET off LENGTH len OF d
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_shortref.htm"
+abapFile: "abapreplace_shortref.htm"
+keywords: ["do", "while", "if", "case", "try", "data", "internal-table", "abapreplace", "shortref"]
+---
 
 * * *
 

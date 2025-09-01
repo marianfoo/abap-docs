@@ -1,4 +1,14 @@
-  
+---
+title: "common_table_expression_glosry"
+description: |
+  common_table_expression_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencommon_table_expression_glosry.htm"
+abapFile: "abencommon_table_expression_glosry.htm"
+keywords: ["do", "try", "abencommon", "table", "expression", "glosry"]
+---
 
 * * *
 

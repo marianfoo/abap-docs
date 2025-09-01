@@ -1,4 +1,14 @@
-  
+---
+title: "DATA - COMMON PART - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_common.htm) Syntax DATA BEGIN OF COMMON PART name. ... DATA ... ... DATA END OF COMMON PART name. Effect Obsolete: Defines a global interface work area(https://help.sap.com/doc/abapdocu_754_index_htm/7.
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_common_part_shortref.htm"
+abapFile: "abapdata_common_part_shortref.htm"
+keywords: ["do", "try", "data", "abapdata", "common", "part", "shortref"]
+---
 
 * * *
 

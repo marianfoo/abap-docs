@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for Remote Function Call"
+description: |
+  !Example(exa.gif 'Example') Parameter Passing in sRFC and aRFC(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_parameters_abexa.htm) !Example(exa.gif 'Example') Exception Handling in RFC(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_exceptions_abexa.ht
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm"
+abapFile: "abenrfc_abexas.htm"
+keywords: ["do", "if", "data", "exception-handling", "abenrfc", "abexas"]
+---
 
 * * *
 

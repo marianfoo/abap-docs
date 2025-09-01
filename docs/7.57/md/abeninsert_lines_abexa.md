@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_int_tables_insert. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). TYPES: BEGIN OF line, col1 TYPE i, col2 TYPE i, END OF line. DATA: itab  TYPE TABLE OF line WITH EMPTY KEY, jtab  LIKE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninsert_lines_abexa.htm"
+abapFile: "abeninsert_lines_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abeninsert", "lines", "abexa"]
+---
 
 * * *
 

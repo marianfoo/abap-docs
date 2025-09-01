@@ -1,4 +1,14 @@
-  
+---
+title: "exception_text_glosry"
+description: |
+  exception_text_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_text_glosry.htm"
+abapFile: "abenexception_text_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenexception", "text", "glosry"]
+---
 
 * * *
 

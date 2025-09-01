@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Built-In Dictionary Types"
+description: |
+  This example demonstrates valid literal values for all built-in dictionary types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm). Source Code REPORT demo_ddic_types. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTAT
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_types_abexa.htm"
+abapFile: "abenddic_types_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "abexa"]
+---
 
 * * *
 

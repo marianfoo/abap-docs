@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - CONVERT KEY"
+description: |
+  Work in progress  Syntax COMMIT ENTITIES BEGIN ... CONVERT KEY OF entity_name FROM pre_key TO   key. COMMIT ENTITIES END. Effect For entities with late numbering(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm), the statement MODIFY(https://help.sap.c
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconvert_key.htm"
+abapFile: "abenconvert_key.htm"
+keywords: ["insert", "delete", "do", "if", "try", "method", "data", "abenconvert", "key"]
+---
 
 * * *
 

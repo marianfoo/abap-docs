@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TIMS_IS_VALID( time ) ... Variants: 1. ... TIMS_IS_VALID( time )(#!ABAP_VARIANT_1@1@) Effect These SQL functions perform operations with arguments of the built-in data type TIMS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm). The arguments of the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_time_func.htm"
+abapFile: "abensql_time_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "data", "types", "abensql", "time", "func"]
+---
 
 * * *
 

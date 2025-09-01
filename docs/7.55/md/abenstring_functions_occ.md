@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ... occ = occ ...  ) ... Effect In string functions where searches are performed, the parameter occ specifies the occurrence of a match. occ is a numeric expression position(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_expr_position_glosry.htm 'Glossary Entry') of
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_occ.htm"
+abapFile: "abenstring_functions_occ.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenstring", "functions", "occ"]
+---
 
 * * *
 

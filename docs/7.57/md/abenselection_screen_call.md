@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Calls"
+description: |
+  Selection screens(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_screen_glosry.htm 'Glossary Entry') can be called as follows: -   by the statement SUBMIT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit.htm) -   as a selection screen of a report t
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_screen_call.htm"
+abapFile: "abenselection_screen_call.htm"
+keywords: ["select", "do", "if", "try", "abenselection", "screen", "call"]
+---
 
 * * *
 

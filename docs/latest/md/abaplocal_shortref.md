@@ -1,4 +1,14 @@
-  
+---
+title: "LOCAL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplocal.htm) Syntax LOCAL dobj. Effect Obsolete: Saves the content of the data object dobj to an internal cache in a procedure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocedure_glosry.htm 'Glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplocal_shortref.htm"
+abapFile: "abaplocal_shortref.htm"
+keywords: ["do", "if", "try", "data", "abaplocal", "shortref"]
+---
 
 * * *
 

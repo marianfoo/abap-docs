@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT dbtab - Short Form"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab_shortref.htm) Obsolete Syntax INSERT  dbtab  dbtab  ... Effect This statement is a short form of the following Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_g
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_obsolete.htm"
+abapFile: "abapinsert_obsolete.htm"
+keywords: ["insert", "do", "if", "try", "class", "data", "abapinsert", "obsolete"]
+---
 
 * * *
 

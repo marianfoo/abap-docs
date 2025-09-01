@@ -1,4 +1,14 @@
-  
+---
+title: "Table Controls"
+description: |
+  Table controls are named screen elements used to display and process table-like data on dynpros(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm 'Glossary Entry'). In a table control, a maximum of 255 screen elements is summarized in a table control row, which can b
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_table_controls.htm"
+abapFile: "abendynp_table_controls.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "abendynp", "table", "controls"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY dbtab - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab.htm) Syntax MODIFY dbtabview(target_syntax) USING CLIENT clnt  CLIENT SPECIFIED CONNECTION con(con_syntax) FROM  waTABLE itab( SELECT subquery_clauses ) .
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab_shortref.htm"
+abapFile: "abapmodify_dbtab_shortref.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "data", "internal-table", "abapmodify", "dbtab", "shortref"]
+---
 
 * * *
 

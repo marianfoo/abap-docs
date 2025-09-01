@@ -1,4 +1,14 @@
-  
+---
+title: "Administration Costs of Dynamic Memory Objects"
+description: |
+  Background Dynamic memory objects provide flexibility, but this comes at a price. The administration of these objects incurs internal costs, which are reflected in increased memory consumption, and in the worst case possibly far too high. The total memory requirements of a dynamic memory object comp
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm"
+abapFile: "abenadmin_costs_dyn_mem_obj_guidl.htm"
+keywords: ["delete", "do", "while", "if", "case", "class", "data", "types", "internal-table", "abenadmin", "costs", "dyn", "mem", "obj", "guidl"]
+---
 
 * * *
 

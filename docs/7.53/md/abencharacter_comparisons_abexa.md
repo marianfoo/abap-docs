@@ -1,4 +1,14 @@
-  
+---
+title: "Relational Operators for Character-Like Data Types"
+description: |
+  This example demonstrates the relational operators for character-like data types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_strings.htm). Source Code REPORT demo_character_comparison. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLE
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_comparisons_abexa.htm"
+abapFile: "abencharacter_comparisons_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abencharacter", "comparisons", "abexa"]
+---
 
 * * *
 

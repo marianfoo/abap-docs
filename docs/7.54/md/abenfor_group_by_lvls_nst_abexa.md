@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with FOR, Nesting"
+description: |
+  This example demonstrates nested control level processing using GROUP BY(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_groups_of.htm) in a FOR expression. Source Code REPORT demo_for_groups_by_levels_nest. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLAS
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_group_by_lvls_nst_abexa.htm"
+abapFile: "abenfor_group_by_lvls_nst_abexa.htm"
+keywords: ["select", "loop", "do", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "lvls", "nst", "abexa"]
+---
 
 * * *
 

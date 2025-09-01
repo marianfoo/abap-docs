@@ -1,4 +1,14 @@
-  
+---
+title: "Arithmetic Calculations"
+description: |
+  This example demonstrates the function of arithmetic operators. Source Code REPORT demo_data_calculate. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA num1 TYPE decfloat34. cl_demo_input=>add_field( CHANGING field = num1 ). DATA
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendivisions_abexa.htm"
+abapFile: "abendivisions_abexa.htm"
+keywords: ["select", "do", "try", "catch", "method", "class", "data", "abendivisions", "abexa"]
+---
 
 * * *
 

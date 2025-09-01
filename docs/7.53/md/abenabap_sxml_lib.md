@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   If access to all nodes of an XML document in the memory is not required and no DTD is needed, sXML Library is an alternative to iXML Library with better performance. It also supports more XML formats and enables the handling of JSON(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/ab
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib.htm"
+abapFile: "abenabap_sxml_lib.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "sxml", "lib"]
+---
 
 * * *
 

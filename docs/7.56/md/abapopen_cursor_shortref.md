@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN CURSOR - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_cursor.htm) Syntax OPEN CURSOR WITH HOLD @dbcur FOR WITH(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith_shortref.htm) +cte1 AS subquery(https://help.sap.com/doc/abapdocu_756_index_htm
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_cursor_shortref.htm"
+abapFile: "abapopen_cursor_shortref.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapopen", "cursor", "shortref"]
+---
 
 * * *
 

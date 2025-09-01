@@ -1,4 +1,14 @@
-  
+---
+title: "NEW-SECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-section_shortref.htm) Obsolete Syntax NEW-SECTION. Effect This statement, which is forbidden in classes, is used to create a new spool request, has the same function as the following statement, and is replaced by th
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-section.htm"
+abapFile: "abapnew-section.htm"
+keywords: ["do", "if", "class", "abapnew", "section"]
+---
 
 * * *
 

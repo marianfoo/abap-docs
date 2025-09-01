@@ -1,4 +1,14 @@
-  
+---
+title: "System Class for Time Stamp Fields"
+description: |
+  The Class Library contains the following system class for handling time stamps in time stamp fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_field_glosry.htm 'Glossary Entry'): -   CL_ABAP_UTCLONG This class provides the following methods: -   DIFF for calculating
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_system_class.htm"
+abapFile: "abentimestamp_system_class.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abentimestamp", "system"]
+---
 
 * * *
 

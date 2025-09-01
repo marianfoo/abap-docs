@@ -5,7 +5,17 @@ Included pages: 12
 
 ### abencds_data_types.htm
 
-  
+---
+title: "ABAP CDS - Data Types"
+description: |
+  In ABAP CDS, data types can be defined as CDS user-defined types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_user_defined_type_glosry.htm 'Glossary Entry'). CDS user-defined types are based on built-in DDIC types(https://help.sap.com/doc/abapdocu_latest_index_htm/late
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_types.htm"
+abapFile: "abencds_data_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abencds_builtin_types.htm
 
-  
+---
+title: "ABAP CDS - Using Built-In Data Types from ABAP Dictionary"
+description: |
+  Currently, there are no CDS built-in data types. CDS can use built-in DDIC types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_ddic_type_glosry.htm 'Glossary Entry'). -   ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS(https://help.sap.com/do
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_types.htm"
+abapFile: "abencds_builtin_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "builtin"]
+---
 
 * * *
 
@@ -54,7 +74,17 @@ Continue
 
 ### abencds_overview_builtin_types.htm
 
-  
+---
+title: "ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS"
+description: |
+  The following table shows the built-in Dictionary types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) that can be used in ABAP CDS and their notation in ABAP CDS. The third column indicates whether a data type can be used for typing(https://help.sap.
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_overview_builtin_types.htm"
+abapFile: "abencds_overview_builtin_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "overview", "builtin"]
+---
 
 * * *
 
@@ -356,7 +386,17 @@ In [CDS simple types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/
 
 ### abencds_builtin_types.htm
 
-  
+---
+title: "ABAP CDS - Using Built-In Data Types from ABAP Dictionary"
+description: |
+  Currently, there are no CDS built-in data types. CDS can use built-in DDIC types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_ddic_type_glosry.htm 'Glossary Entry'). -   ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS(https://help.sap.com/do
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_types.htm"
+abapFile: "abencds_builtin_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "builtin"]
+---
 
 * * *
 
@@ -379,7 +419,17 @@ Continue
 
 ### aben_cds_special_data_types.htm
 
-  
+---
+title: "ABAP CDS - Special Data Types"
+description: |
+  -   ABAP CDS - Amounts and Quantities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calc_quan.htm) ABAP CDS - Amounts and Quantities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calc_quan.htm)
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/aben_cds_special_data_types.htm"
+abapFile: "aben_cds_special_data_types.htm"
+keywords: ["do", "if", "data", "types", "aben", "cds", "special"]
+---
 
 * * *
 
@@ -399,7 +449,17 @@ Continue
 
 ### abencds_calc_quan.htm
 
-  
+---
+title: "ABAP CDS - Amounts and Quantities"
+description: |
+  In ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cds_glosry.htm 'Glossary Entry'), a special handling for amounts and quantities is implemented. ABAP CDS amount fields(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calc_quan.htm"
+abapFile: "abencds_calc_quan.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "calc", "quan"]
+---
 
 * * *
 
@@ -429,7 +489,17 @@ Continue
 
 ### abencds_amount_field.htm
 
-  
+---
+title: "ABAP CDS - Amount Fields"
+description: |
+  An ABAP CDS amount field(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(http
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field.htm"
+abapFile: "abencds_amount_field.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "types", "abencds", "amount", "field"]
+---
 
 * * *
 
@@ -481,7 +551,17 @@ Hints
 
 ### abencds_quantity_field.htm
 
-  
+---
+title: "ABAP CDS - Quantity Fields"
+description: |
+  An ABAP CDS quantity field(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_glosry.htm 'Glossary Entry') is a component of a CDS entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm 'Glossary Entry') in ABAP CDS(https:
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_field.htm"
+abapFile: "abencds_quantity_field.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "quantity", "field"]
+---
 
 * * *
 
@@ -529,7 +609,17 @@ Hints
 
 ### abencds_calculated_quantity.htm
 
-  
+---
+title: "ABAP CDS - Calculated Quantity with Calculated Unit"
+description: |
+  A CDS calculated quantity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calculated_quantity_glosry.htm 'Glossary Entry') is a component of a CDS view entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') or o
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calculated_quantity.htm"
+abapFile: "abencds_calculated_quantity.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "class", "data", "types", "abencds", "calculated", "quantity"]
+---
 
 * * *
 
@@ -595,7 +685,17 @@ The class CL\_DEMO\_CDS\_CALCULATED\_QUNTTY accesses the view, inserts values in
 
 ### abencds_calc_quan.htm
 
-  
+---
+title: "ABAP CDS - Amounts and Quantities"
+description: |
+  In ABAP CDS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cds_glosry.htm 'Glossary Entry'), a special handling for amounts and quantities is implemented. ABAP CDS amount fields(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calc_quan.htm"
+abapFile: "abencds_calc_quan.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "calc", "quan"]
+---
 
 * * *
 
@@ -625,7 +725,17 @@ Continue
 
 ### aben_cds_special_data_types.htm
 
-  
+---
+title: "ABAP CDS - Special Data Types"
+description: |
+  -   ABAP CDS - Amounts and Quantities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calc_quan.htm) ABAP CDS - Amounts and Quantities(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calc_quan.htm)
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/aben_cds_special_data_types.htm"
+abapFile: "aben_cds_special_data_types.htm"
+keywords: ["do", "if", "data", "types", "aben", "cds", "special"]
+---
 
 * * *
 
@@ -645,7 +755,17 @@ Continue
 
 ### abencds_user_defined_types.htm
 
-  
+---
+title: "ABAP CDS - User-Defined Data Types"
+description: |
+  A CDS user-defined types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_user_defined_type_glosry.htm 'Glossary Entry') is defined as a CDS object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_object_glosry.htm 'Glossary Entry') in ABAP CDS(htt
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_user_defined_types.htm"
+abapFile: "abencds_user_defined_types.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "user", "defined"]
+---
 
 * * *
 

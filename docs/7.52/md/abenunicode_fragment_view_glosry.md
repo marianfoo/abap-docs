@@ -1,4 +1,14 @@
-  
+---
+title: "Structural Fragement View"
+description: |
+  Short Fragment View. Splits structures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_glosry.htm 'Glossary Entry') into alignment gaps(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalignment_gap_glosry.htm 'Glossary Entry'), character-like(https://hel
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view_glosry.htm"
+abapFile: "abenunicode_fragment_view_glosry.htm"
+keywords: ["do", "try", "data", "internal-table", "abenunicode", "fragment", "view", "glosry"]
+---
 
 * * *
 

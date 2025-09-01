@@ -1,4 +1,14 @@
-  
+---
+title: "Table Reductions, Summation of an Array"
+description: |
+  This example demonstrates a simple table reduction(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_reduction_glosry.htm 'Glossary Entry') using REDUCE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_reduce.htm). Source Code REPORT demo_
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreduce_simple_abexa.htm"
+abapFile: "abenreduce_simple_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "internal-table", "abenreduce", "simple", "abexa"]
+---
 
 * * *
 

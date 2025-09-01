@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...     CASTING     TYPE type(name)  LIKE dobj  TYPE p DECIMALS dec  TYPE HANDLE handle     obsolete_casting(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting_obsolete.htm)  ... Alterna
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm"
+abapFile: "abapassign_casting.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abapassign", "casting"]
+---
 
 * * *
 

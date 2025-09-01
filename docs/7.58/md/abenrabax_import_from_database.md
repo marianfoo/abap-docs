@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions in IMPORT"
+description: |
+  Catchable Exceptions CX_SY_CONVERSION_CODEPAGE -   Cause: Error in conversion. Runtime error: CONNE_IMPORT_CONVERSION_ERROR CX_SY_IMPORT_MISMATCH_ERROR -   Cause: A component of a structured dataset has an incorrect decimal place. Runtime error: CONNE_IMPORT_WRONG_COMP_DECS -   Cause:
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrabax_import_from_database.htm"
+abapFile: "abenrabax_import_from_database.htm"
+keywords: ["do", "if", "try", "catch", "data", "types", "internal-table", "abenrabax", "import", "from", "database"]
+---
 
 * * *
 

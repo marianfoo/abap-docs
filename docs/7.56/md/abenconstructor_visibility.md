@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Visibility of Instance Constructors"
+description: |
+  For technical reasons, the instance constructor of a class is declared in a visibility section(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvisibility_section_glosry.htm 'Glossary Entry') and is therefore theoretically visible to the corresponding consumers. However, an instance
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_visibility.htm"
+abapFile: "abenconstructor_visibility.htm"
+keywords: ["do", "if", "try", "method", "class", "abenconstructor", "visibility"]
+---
 
 * * *
 

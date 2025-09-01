@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_loop_grp_by_method DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. DATA: flights  TYPE TABLE OF spfli    WITH EMPTY KEY, airports TYPE TABLE OF sairport
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_group_by_method_abexa.htm"
+abapFile: "abenloop_group_by_method_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "internal-table", "field-symbol", "abenloop", "group", "abexa"]
+---
 
 * * *
 

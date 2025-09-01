@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Technical Properties of Database Tables"
+description: |
+  The technical properties of a DDIC database table include the properties that are specific for its structure and properties that are specific for the table itself. -   DDIC - Structure-Specific Technical Properties of Database Tables(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abend
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_tech.htm"
+abapFile: "abenddic_database_tables_tech.htm"
+keywords: ["do", "if", "data", "abenddic", "database", "tables", "tech"]
+---
 
 * * *
 

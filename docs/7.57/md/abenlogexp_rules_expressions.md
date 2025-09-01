@@ -1,4 +1,14 @@
-  
+---
+title: "One side"
+description: |
+  Comparison operator Other side Single operand with numeric data type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumeric_data_type_glosry.htm 'Glossary Entry') or arithmetic expression(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules_expressions.htm"
+abapFile: "abenlogexp_rules_expressions.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abenlogexp", "rules", "expressions"]
+---
 
 * * *
 

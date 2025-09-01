@@ -1,4 +1,14 @@
-  
+---
+title: "Enhancements"
+description: |
+  A structure(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_structures.htm), database table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm), database view(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_v
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_enhancements.htm"
+abapFile: "abenddic_enhancements.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "enhancements"]
+---
 
 * * *
 

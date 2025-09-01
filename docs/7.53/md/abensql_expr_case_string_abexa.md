@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Simple CASE and Chainings"
+description: |
+  This example demonstrates simple case distinctions and chainings in SQL expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm). Source Code REPORT demo_sql_expr_case_string. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expr_case_string_abexa.htm"
+abapFile: "abensql_expr_case_string_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "method", "class", "data", "internal-table", "abensql", "expr", "string", "abexa"]
+---
 
 * * *
 

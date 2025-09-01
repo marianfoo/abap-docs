@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  CDS DCL - Structure of the Access Control Context(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_con_struc.htm) CDS DCL - Consumption of the Access Control Context in Access Roles(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_context_con
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_access_control_con.htm"
+abapFile: "abencds_dcl_access_control_con.htm"
+keywords: ["do", "if", "data", "abencds", "dcl", "access", "control", "con"]
+---
 
 * * *
 

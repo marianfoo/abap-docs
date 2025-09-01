@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC database table"
+description: |
+  Database table(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_table_glosry.htm 'Glossary Entry') defined in the ABAP Dictionary(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') as an ABAP-managed database object
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_db_table_glosry.htm"
+abapFile: "abenddic_db_table_glosry.htm"
+keywords: ["do", "try", "data", "abenddic", "table", "glosry"]
+---
 
 * * *
 

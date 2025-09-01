@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Functions"
+description: |
+  Numeric functions are a type of built-in function(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions.htm). The main argument of a numeric function must represent a numeric value. The data type of the return value is determined either by the argument of the function (
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmathematical_functions.htm"
+abapFile: "abenmathematical_functions.htm"
+keywords: ["do", "try", "method", "class", "data", "abenmathematical", "functions"]
+---
 
 * * *
 

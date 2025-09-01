@@ -1,4 +1,14 @@
-  
+---
+title: "User Sessions"
+description: |
+  Each execution of an ABAP program takes place in an internal session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm 'Glossary Entry') in an ABAP session(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_session_glosry.htm 'G
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_sessions.htm"
+abapFile: "abenuser_sessions.htm"
+keywords: ["select", "update", "do", "if", "try", "method", "class", "data", "types", "abenuser", "sessions"]
+---
 
 * * *
 

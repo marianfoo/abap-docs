@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_trafo_from_reader. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS sxml_demo IMPLEMENTATION. METHOD main. DATA(xml) = cl_abap_codepage=>convert_to( `<document>` && `  <head>` && `    <author>KELLERH</author>` && `    <date>20120824</da
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensxml_trafo_from_reader_abexa.htm"
+abapFile: "abensxml_trafo_from_reader_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "internal-table", "abensxml", "trafo", "from", "reader", "abexa"]
+---
 
 * * *
 

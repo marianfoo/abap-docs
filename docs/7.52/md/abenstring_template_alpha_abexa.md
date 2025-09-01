@@ -1,4 +1,14 @@
-  
+---
+title: "String Templates, Numeric Texts"
+description: |
+  The example demonstrates how the format ALPHA is specified for embedded expressions. Source Code REPORT demo_string_template_alpha. PARAMETERS: text    TYPE c LENGTH 20 LOWER CASE DEFAULT '     0000012345', length  TYPE i DEFAULT 20, width   TYPE i DEFAULT 0. CLASS demo DEFINITION. PUBLIC SECTION
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_alpha_abexa.htm"
+abapFile: "abenstring_template_alpha_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "types", "abenstring", "template", "alpha", "abexa"]
+---
 
 * * *
 

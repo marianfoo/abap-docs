@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Between Flat Structures and Single Fields"
+description: |
+  The following rules apply when converting a flat(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_glosry.htm 'Glossary Entry') structure to a single field and vice versa: -   If a structure is character-like only, it is handled in the conversion like a data object of the type c
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_flat-elementary.htm"
+abapFile: "abenconversion_flat-elementary.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenconversion", "flat", "elementary"]
+---
 
 * * *
 

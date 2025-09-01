@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_entity_annotations.htm) ... @objectModel.query.implementedBy : 'class_name'
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_custom_entity.htm"
+abapFile: "abencds_f1_define_custom_entity.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abencds", "define", "custom", "entity"]
+---
 
 * * *
 

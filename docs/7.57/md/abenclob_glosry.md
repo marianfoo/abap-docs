@@ -1,4 +1,14 @@
-  
+---
+title: "CLOB"
+description: |
+  Short for Character Large Object. Name for a database field(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_field_glosry.htm 'Glossary Entry') with the data type STRING(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) or the result of
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclob_glosry.htm"
+abapFile: "abenclob_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenclob", "glosry"]
+---
 
 * * *
 

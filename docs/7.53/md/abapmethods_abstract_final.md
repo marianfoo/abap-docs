@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - ABSTRACT, FINAL"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_shortref.htm) Syntax METHODS meth ... ABSTRACTFINAL ... Extras: 1. ... ABSTRACT(#!ABAP_ADDITION_1@1@) 2. ... FINAL(#!ABAP_ADDITION_2@2@) Effect The additions ABSTRACT and FINAL make an instance method a
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_abstract_final.htm"
+abapFile: "abapmethods_abstract_final.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapmethods", "abstract", "final"]
+---
 
 * * *
 

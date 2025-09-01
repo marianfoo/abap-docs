@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sxml_trafo_from_reader DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_sxml_trafo_from_reader IMPLEMENTATION. METHOD main. FINAL(xm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_trafo_from_reader_abexa.htm"
+abapFile: "abensxml_trafo_from_reader_abexa.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "internal-table", "abensxml", "trafo", "from", "reader", "abexa"]
+---
 
 * * *
 

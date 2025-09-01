@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  sql_func - Type Conversion Functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_type_conv_func.htm) sql_func - Unit and Currency Conversion Functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_curr_unit_conv_func.htm) sql_func - Geometry Conver
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_conversion_functions.htm"
+abapFile: "abenopen_sql_conversion_functions.htm"
+keywords: ["do", "try", "data", "abenopen", "sql", "conversion", "functions"]
+---
 
 * * *
 

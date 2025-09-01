@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_for_grps_by_str_func DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TYPES text_tab TYPE STANDARD TABLE OF string WITH EMPTY KEY. DATA text TYPE text_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_group_by_func_abexa.htm"
+abapFile: "abenfor_group_by_func_abexa.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "func", "abexa"]
+---
 
 * * *
 

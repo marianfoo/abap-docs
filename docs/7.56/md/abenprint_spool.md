@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Spool List Levels and Spool Requests"
+description: |
+  Every output to a spool list is assigned to exactly one spool request. For every spool request, spool parameters(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprint_parameters.htm) are specified that can no longer be changed. Spool lists can be stacked in spool list levels. A spoo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprint_spool.htm"
+abapFile: "abenprint_spool.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "class", "abenprint", "spool"]
+---
 
 * * *
 
@@ -10,8 +20,7 @@ Lists - Spool List Levels and Spool Requests
 
 Every output to a spool list is assigned to exactly one spool request. For every spool request, [spool parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprint_parameters.htm) are specified that can no longer be changed. Spool lists can be stacked in spool list levels. A spool list level always has exactly one spool request assigned to it.
 
--   [Spool List Levels](#@@ITOC@@ABENPRINT_SPOOL_1)
--   [Open Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_2)
+-   [Spool List Levels](#abenprint-spool-1-------open-spool-requests---@ITOC@@ABENPRINT_SPOOL_2)
 -   [Close Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_3)
 
 Spool List Levels

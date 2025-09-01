@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Table Control with Scrolling(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_control1_abexa.htm) !Example(exa.gif 'Example') dynpro - Table Control with Modifications(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentabl
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_control_abexas.htm"
+abapFile: "abentable_control_abexas.htm"
+keywords: ["do", "if", "abentable", "control", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Transactional Phases in a RAP Transaction"
+description: |
+  This example demonstrates the transactional phases of a RAP transaction(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_glosry.htm 'Glossary Entry') using an unmanaged(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_impl_type.htm) RAP business object(h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_abexa.htm"
+abapFile: "abenrap_luw_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenrap", "luw", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Initial Memory Requirements"
+description: |
+  Background Internal tables are stored in the memory block by block. The ABAP runtime environment allocates a suitable memory area for the data of the table by default. If the initial memory area is insufficient, further blocks are created using an internal duplication strategy until a threshold is r
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_memory_requ_guidl.htm"
+abapFile: "abeninitial_memory_requ_guidl.htm"
+keywords: ["do", "if", "class", "data", "types", "internal-table", "abeninitial", "memory", "requ", "guidl"]
+---
 
 * * *
 

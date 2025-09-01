@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Examples of Draft Actions"
+description: |
+  !Example(exa.gif 'Example') CDS BDL - Draft Action Activate(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_action1_abexa.htm) !Example(exa.gif 'Example') CDS BDL - Draft Actions Edit, Discard, Prepare(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbd
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_action_abexas.htm"
+abapFile: "abenbdl_draft_action_abexas.htm"
+keywords: ["do", "if", "data", "abenbdl", "draft", "action", "abexas"]
+---
 
 * * *
 

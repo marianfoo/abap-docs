@@ -1,4 +1,14 @@
-  
+---
+title: "Procedures"
+description: |
+  Procedures are processing blocks with a parameter interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenformal_parameters_oview.htm) and a local data area(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_area_glosry.htm 'Glossary Entry') that can b
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_procedures.htm"
+abapFile: "abenabap_language_procedures.htm"
+keywords: ["do", "if", "try", "method", "data", "abenabap", "language", "procedures"]
+---
 
 * * *
 

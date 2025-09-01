@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - determine action"
+description: |
+  Syntax internal(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_internal.htm) determine action (authorization:none(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth.htm) authorization:update(https://help.sap.com/doc/abapdo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determine_action.htm"
+abapFile: "abenbdl_determine_action.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "determine", "action"]
+---
 
 * * *
 

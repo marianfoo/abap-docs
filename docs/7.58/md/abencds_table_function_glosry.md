@@ -1,4 +1,14 @@
-  
+---
+title: "CDS table function"
+description: |
+  A CDS entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry') defined using DEFINE TABLE FUNCTION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_table_function.htm) in a CDS data definition(https://help.sap.com
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_table_function_glosry.htm"
+abapFile: "abencds_table_function_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "table", "function", "glosry"]
+---
 
 * * *
 

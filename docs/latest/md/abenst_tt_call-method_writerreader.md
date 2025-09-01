@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:call-method class='class'var='oref' s-d-name='meth' ... writer='p_writer' reader='p_reader'> ... </tt:call-method> Effect In the statistic method(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_call-method_static.htm) or instance method(https://help.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_call-method_writerreader.htm"
+abapFile: "abenst_tt_call-method_writerreader.htm"
+keywords: ["do", "if", "method", "class", "data", "abenst", "call", "writerreader"]
+---
 
 * * *
 

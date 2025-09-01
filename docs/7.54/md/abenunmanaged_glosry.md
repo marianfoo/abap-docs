@@ -1,4 +1,14 @@
-  
+---
+title: "unmanaged_glosry"
+description: |
+  unmanaged_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunmanaged_glosry.htm"
+abapFile: "abenunmanaged_glosry.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenunmanaged", "glosry"]
+---
 
 * * *
 

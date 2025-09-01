@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  C0 Contract Rules for Providers of RAP Behavior Definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_bdef.htm) C0 Contract Rules for Consumers of RAP Behavior Definitions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_bdef.htm"
+abapFile: "abenc0_contract_rules_bdef.htm"
+keywords: ["do", "if", "try", "abenc0", "contract", "rules", "bdef"]
+---
 
 * * *
 

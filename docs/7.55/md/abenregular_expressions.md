@@ -1,4 +1,14 @@
-  
+---
+title: "Regular Expressions (regex)"
+description: |
+  ABAP supports two kinds of extended regular expressions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expression_glosry.htm 'Glossary Entry'): -   Perl Compatible Regular Expressions (PCRE)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpcre_glosry.htm 'G
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expressions.htm"
+abapFile: "abenregular_expressions.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "abenregular", "expressions"]
+---
 
 * * *
 

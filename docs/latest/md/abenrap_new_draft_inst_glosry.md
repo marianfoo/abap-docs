@@ -1,4 +1,14 @@
-  
+---
+title: "RAP new-draft instance"
+description: |
+  Draft instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_draft_instance_glosry.htm 'Glossary Entry') that is produced by a create operation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_create_operation_glosry.htm 'Glossary Entry') with the
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_new_draft_inst_glosry.htm"
+abapFile: "abenrap_new_draft_inst_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "new", "draft", "inst", "glosry"]
+---
 
 * * *
 

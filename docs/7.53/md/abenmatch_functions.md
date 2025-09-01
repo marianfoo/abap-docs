@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... match( val = text(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm) regex = regex(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_regex.htm)  case = case(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/ab
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmatch_functions.htm"
+abapFile: "abenmatch_functions.htm"
+keywords: ["do", "if", "case", "data", "abenmatch", "functions"]
+---
 
 * * *
 

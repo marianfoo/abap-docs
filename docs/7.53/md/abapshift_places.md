@@ -1,4 +1,14 @@
-  
+---
+title: "SHIFT - places"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift_shortref.htm) Syntax ... BY num PLACES  UP TO substring ... Variants: 1. ... BY num PLACES ...(#!ABAP_VARIANT_1@1@) 2. ... UP TO substring ...(#!ABAP_VARIANT_2@2@) Variant 1 ... BY num PLACES
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift_places.htm"
+abapFile: "abapshift_places.htm"
+keywords: ["do", "if", "case", "try", "data", "abapshift", "places"]
+---
 
 * * *
 

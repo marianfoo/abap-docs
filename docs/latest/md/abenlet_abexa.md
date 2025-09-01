@@ -1,4 +1,14 @@
-  
+---
+title: "LET Expression"
+description: |
+  This example demonstrates a LET expression in a constructor expression. Source Code  Public class definition CLASS cl_demo_let_it_be DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlet_abexa.htm"
+abapFile: "abenlet_abexa.htm"
+keywords: ["do", "if", "method", "class", "types", "internal-table", "abenlet", "abexa"]
+---
 
 * * *
 

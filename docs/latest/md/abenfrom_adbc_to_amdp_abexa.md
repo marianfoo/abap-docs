@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA, from ADBC to AMDP"
+description: |
+  This example demonstrates how a task can be performed using HANA-specific language elements. Source Code  Public class definition CLASS cl_demo_adbc_to_amdp DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrom_adbc_to_amdp_abexa.htm"
+abapFile: "abenfrom_adbc_to_amdp_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abenfrom", "adbc", "amdp", "abexa"]
+---
 
 * * *
 

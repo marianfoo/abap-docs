@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BO standard operation"
+description: |
+  RAP BO operation(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') that provides canonical transactional behavior for a RAP BO(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). In a mana
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_standard_operation_glosry.htm"
+abapFile: "abenrap_standard_operation_glosry.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenrap", "standard", "operation", "glosry"]
+---
 
 * * *
 

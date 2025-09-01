@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Hierarchies"
+description: |
+  A CDS hierarchy is defined in the DDL source code(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') of a CDS data definition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_data_definition_glosry.htm 'Glossary Entry') i
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_hierarchies.htm"
+abapFile: "abenddic_cds_hierarchies.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenddic", "cds", "hierarchies"]
+---
 
 * * *
 

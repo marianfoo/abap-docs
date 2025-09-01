@@ -1,4 +1,14 @@
-  
+---
+title: "Events"
+description: |
+  Events are declared using the statements EVENTS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapevents.htm) and CLASS-EVENTS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-events.htm), which are possible only in the declaration part of classes and interfaces.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevents.htm"
+abapFile: "abenevents.htm"
+keywords: ["do", "if", "try", "method", "class", "abenevents"]
+---
 
 * * *
 

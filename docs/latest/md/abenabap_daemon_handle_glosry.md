@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP daemon handle"
+description: |
+  ABAP daemon framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_daemon_framework_glosry.htm 'Glossary Entry') object that implements the interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_intf_glosry.htm 'Glossary Entry') IF_ABAP_DAE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_daemon_handle_glosry.htm"
+abapFile: "abenabap_daemon_handle_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenabap", "daemon", "handle", "glosry"]
+---
 
 * * *
 

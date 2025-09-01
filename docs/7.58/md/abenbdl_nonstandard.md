@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Non-Standard Operations"
+description: |
+  Non-standard operations are RAP BO operations(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') that provide transactional behavior and that are user-implemented. There are two kinds of non-standard operations available: -   Actions(http
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_nonstandard.htm"
+abapFile: "abenbdl_nonstandard.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "nonstandard"]
+---
 
 * * *
 

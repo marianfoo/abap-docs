@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sql_expr_string DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_sql_expr_string IMPLEMENTATION. METHOD main. SELECT FROM spfli FIELDS
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_expr_string_abexa.htm"
+abapFile: "abensql_expr_string_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensql", "expr", "string", "abexa"]
+---
 
 * * *
 

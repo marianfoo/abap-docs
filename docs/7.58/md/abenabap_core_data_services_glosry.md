@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Core Data Services"
+description: |
+  ABAP CDS for short. An infrastructure for defining and consuming semantically rich data models on AS ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm 'Glossary Entry'). ABAP CDS provides different languages for defining metadata realized as CDS objects(https
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_core_data_services_glosry.htm"
+abapFile: "abenabap_core_data_services_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "core", "services", "glosry"]
+---
 
 * * *
 

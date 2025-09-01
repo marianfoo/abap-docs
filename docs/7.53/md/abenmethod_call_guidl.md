@@ -1,4 +1,14 @@
-  
+---
+title: "Method Calls"
+description: |
+  Background Static calls of methods can be formulated in two different ways. The obsolete long form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_static.htm) CALL METHOD meth EXPORTING ... is based on the notation of the function module call. Alternatively, a short for
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_call_guidl.htm"
+abapFile: "abenmethod_call_guidl.htm"
+keywords: ["insert", "do", "if", "method", "class", "abenmethod", "call", "guidl"]
+---
 
 * * *
 

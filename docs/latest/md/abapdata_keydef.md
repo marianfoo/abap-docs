@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, tabkeys"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_shortref.htm) Syntax ...  WITH key(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)   WITH secondary_key1(https://help.sap.com/doc/abapdocu_latest_inde
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm"
+abapFile: "abapdata_keydef.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapdata", "keydef"]
+---
 
 * * *
 

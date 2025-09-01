@@ -1,4 +1,14 @@
-  
+---
+title: "CALL, System Function Call"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax CALL cfunc. Addition: ... ID id1 FIELD f1 ... ID idn FIELD fn(#!ABAP_ONE_ADD@1@) Effect Calls the system function cfunc. A flat character-like data object containing the name of the function can be specifi
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm"
+abapFile: "abapcall-.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "data", "internal-table", "abapcall"]
+---
 
 * * *
 

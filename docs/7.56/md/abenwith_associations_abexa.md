@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Exposing Associations"
+description: |
+  This example demonstrates how CDS associations are exposed using WITH ASSOCIATIONS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith_associations.htm) after a common table expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommon_table_expression_glosry.h
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwith_associations_abexa.htm"
+abapFile: "abenwith_associations_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "case", "try", "method", "class", "data", "abenwith", "associations", "abexa"]
+---
 
 * * *
 

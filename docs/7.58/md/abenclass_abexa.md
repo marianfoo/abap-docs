@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Classes"
+description: |
+  This example demonstrates a class for counters. Source Code  Public class definition CLASS cl_demo_class_counter DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS counter DEFINITION. PUBLIC SECTION. METHODS: s
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_abexa.htm"
+abapFile: "abenclass_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenclass", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Interfaces"
+description: |
+  The components of a class use their visibility sections(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_visibility.htm) to define the class-specific interfaces(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenintf_gen_glosry.htm 'Glossary Entry') of the class t
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfac.htm"
+abapFile: "abeninterfac.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abeninterfac"]
+---
 
 * * *
 
@@ -14,12 +24,9 @@ The components of a class use their [visibility sections](https://help.sap.com/d
 
 [Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_intf_glosry.htm "Glossary Entry") of ABAP Objects are independent constructs that enable the class-specific [interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenintf_gen_glosry.htm "Glossary Entry") to be enhanced by implementing them in classes. Different classes that implement the same interface can all be addressed using identical interfaces. In addition to [inheritance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance.htm), Interfaces are a basis for the [polymorphism](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpolymorphism_glosry.htm "Glossary Entry") of classes, since a method of an interface can behave differently in different classes. [Interface reference variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_ref_variable_glosry.htm "Glossary Entry") allow users to address different classes in the same way. Interfaces can also be [nested](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_composition.htm).
 
--   [Defining Interfaces](#@@ITOC@@ABENINTERFAC_1)
--   [Interface Components](#@@ITOC@@ABENINTERFAC_2)
--   [Implementing Interfaces](#@@ITOC@@ABENINTERFAC_3)
--   [Interface Reference Variables](#@@ITOC@@ABENINTERFAC_4)
--   [Accessing Objects Using Interface References](#@@ITOC@@ABENINTERFAC_5)
--   [Accessing the Static Components of Interfaces](#@@ITOC@@ABENINTERFAC_6)
+-   [Defining Interfaces](#abeninterfac-1-------interface-components---@ITOC@@ABENINTERFAC_2)
+-   [Implementing Interfaces](#abeninterfac-3-------interface-reference-variables---@ITOC@@ABENINTERFAC_4)
+-   [Accessing Objects Using Interface References](#abeninterfac-5-------accessing-the-static-components-of-interfaces---@ITOC@@ABENINTERFAC_6)
 
 Defining Interfaces   
 

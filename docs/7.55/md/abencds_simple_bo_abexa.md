@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Simple unmanaged RAP business object"
+description: |
+  This example demonstrates a simple unmanaged RAP business object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm 'Glossary Entry') and different ways of accessing it. Data model The CDS data model consists of one single root entity(https://help.sap.com/doc/abapdo
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_simple_bo_abexa.htm"
+abapFile: "abencds_simple_bo_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abencds", "simple", "abexa"]
+---
 
 * * *
 

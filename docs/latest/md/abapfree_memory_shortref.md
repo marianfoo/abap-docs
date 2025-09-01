@@ -1,4 +1,14 @@
-  
+---
+title: "FREE MEMORY - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfree_memory.htm) Syntax FREE MEMORY ID id. Effect Like DELETE FROM MEMORY ID id(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_from_shortref.htm).
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfree_memory_shortref.htm"
+abapFile: "abapfree_memory_shortref.htm"
+keywords: ["delete", "do", "if", "abapfree", "memory", "shortref"]
+---
 
 * * *
 

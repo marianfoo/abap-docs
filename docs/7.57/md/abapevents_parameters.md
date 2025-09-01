@@ -1,4 +1,14 @@
-  
+---
+title: "EVENTS, parameters"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapevents_shortref.htm) Syntax ... VALUE(p1) typing(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentyping_syntax.htm) OPTIONALDEFAULT def1 VALUE(p2) typing(https://help.sap.com/doc/abap
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapevents_parameters.htm"
+abapFile: "abapevents_parameters.htm"
+keywords: ["do", "if", "try", "method", "class", "abapevents", "parameters"]
+---
 
 * * *
 

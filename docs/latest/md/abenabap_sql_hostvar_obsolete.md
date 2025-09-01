@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Host Variables"
+description: |
+  The host variables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_host_variables.htm) of an ABAP SQL statement can still be specified without the escape character @, unless one of the strict modes(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abena
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_hostvar_obsolete.htm"
+abapFile: "abenabap_sql_hostvar_obsolete.htm"
+keywords: ["select", "do", "if", "data", "abenabap", "sql", "hostvar", "obsolete"]
+---
 
 * * *
 

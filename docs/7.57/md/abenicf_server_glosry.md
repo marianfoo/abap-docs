@@ -1,4 +1,14 @@
-  
+---
+title: "ICF server"
+description: |
+  Instance of a system that provides services that can be called using ICF(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenicf_glosry.htm 'Glossary Entry'). An ICF server can be an HTTP/HTTPS server or an SMTP server.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenicf_server_glosry.htm"
+abapFile: "abenicf_server_glosry.htm"
+keywords: ["do", "if", "try", "abenicf", "server", "glosry"]
+---
 
 * * *
 

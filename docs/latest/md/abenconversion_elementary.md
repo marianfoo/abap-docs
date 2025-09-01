@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Rules for Elementary Data Objects"
+description: |
+  The programming language ABAP contains a set of built-in(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_types_complete.htm) elementary data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry'). I
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm"
+abapFile: "abenconversion_elementary.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "types", "abenconversion", "elementary"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Calls Using a Function Module"
+description: |
+  This example demonstrates calling a logical database using the function module LDB_PROCESS. Source Code REPORT demo_logical_database. DATA wa_spfli TYPE spfli. SELECTION-SCREEN BEGIN OF SCREEN 1100. SELECT-OPTIONS s_carr FOR wa_spfli-carrid. SELECTION-SCREEN END OF SCREEN 1100. CLASS demo DEFI
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_database_abexa.htm"
+abapFile: "abenlogical_database_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abenlogical", "database", "abexa"]
+---
 
 * * *
 

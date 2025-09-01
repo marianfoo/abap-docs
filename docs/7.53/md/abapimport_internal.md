@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT - Internal Additions"
+description: |
+  Internal Additions These additions are for internal use only. Do not use them in application programs. Extras: 1. ... FROM LOGFILE ID key(#!ABAP_ADDITION_1@1@) 2. ... USING subr(prog)(#!ABAP_ADDITION_2@2@) Addition 1 ... FROM LOGFILE ID key Effect Imports data objects from update data
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_internal.htm"
+abapFile: "abapimport_internal.htm"
+keywords: ["select", "update", "do", "if", "data", "internal-table", "abapimport", "internal"]
+---
 
 * * *
 

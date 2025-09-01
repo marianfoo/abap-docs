@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation, Option for Decimal Places"
+description: |
+  This example demonstrates the display of numeric ABAP types and the time stamp type utclong with specifications for decimal places. Source Code REPORT demo_st_decimals_option. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, call_transformation CHANGING writer TYPE REF TO cl_sxml_st
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_decimals_option_abexa.htm"
+abapFile: "abenst_decimals_option_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenst", "decimals", "option", "abexa"]
+---
 
 * * *
 

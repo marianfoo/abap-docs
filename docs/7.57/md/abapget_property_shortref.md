@@ -1,4 +1,14 @@
-  
+---
+title: "GET PROPERTY - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_property.htm) Syntax GET PROPERTY OF ole prop = dobj NO FLUSH QUEUE-ONLY EXPORTING p1 = f1 p2 = f2 .... Effect Assigns the content of the property prop of an automation object(https://help.sap.co
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_property_shortref.htm"
+abapFile: "abapget_property_shortref.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "abapget", "property", "shortref"]
+---
 
 * * *
 

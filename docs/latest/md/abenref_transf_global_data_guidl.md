@@ -1,4 +1,14 @@
-  
+---
+title: "Pass by Reference of Global Data"
+description: |
+  Background In a local context you can normally directly access the data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_obj_gdl.htm) of superordinate more global contexts. For example, it is possible in a method to perform writes on the attributes of its class
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenref_transf_global_data_guidl.htm"
+abapFile: "abenref_transf_global_data_guidl.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abenref", "transf", "global", "guidl"]
+---
 
 * * *
 

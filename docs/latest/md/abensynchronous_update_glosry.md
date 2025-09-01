@@ -1,4 +1,14 @@
-  
+---
+title: "synchronous_update_glosry"
+description: |
+  synchronous_update_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensynchronous_update_glosry.htm"
+abapFile: "abensynchronous_update_glosry.htm"
+keywords: ["update", "do", "if", "try", "abensynchronous", "glosry"]
+---
 
 * * *
 

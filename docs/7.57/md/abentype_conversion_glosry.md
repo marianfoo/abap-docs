@@ -1,4 +1,14 @@
-  
+---
+title: "type_conversion_glosry"
+description: |
+  type_conversion_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_conversion_glosry.htm"
+abapFile: "abentype_conversion_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentype", "conversion", "glosry"]
+---
 
 * * *
 

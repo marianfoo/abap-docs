@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  The component b2 is given the value xxx and the component b3 is given the value yyy. The components b1 and b4 are given the values of the associated components a1 and a4 of the source structure. DATA: BEGIN OF struct1, a1 TYPE string VALUE 'a1', a2 TYPE string VALUE 'a2', a3 TYPE string VALUE '  ',
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_corresponding_3.htm"
+abapFile: "abencl_abap_corresponding_3.htm"
+keywords: ["do", "if", "method", "class", "data", "internal-table", "abencl", "abap", "corresponding"]
+---
 
 * * *
 

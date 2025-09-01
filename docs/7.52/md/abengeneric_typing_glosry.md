@@ -1,4 +1,14 @@
-  
+---
+title: "Generic Typing"
+description: |
+  Typing(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_glosry.htm 'Glossary Entry') in which the data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm 'Glossary Entry') of a formal parameter(https://help.sap.com/doc/abapdocu_752_ind
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_typing_glosry.htm"
+abapFile: "abengeneric_typing_glosry.htm"
+keywords: ["do", "if", "try", "data", "field-symbol", "abengeneric", "typing", "glosry"]
+---
 
 * * *
 

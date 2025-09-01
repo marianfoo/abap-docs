@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Function UPPER"
+description: |
+  This example demonstrates the SQL function UPPER in Open SQL and ABAP CDS. Source Code REPORT demo_sql_upper. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: query TYPE string VALUE `ERROR`, rows  TYPE i      VALUE 100. cl_demo
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_function_upper_abexa.htm"
+abapFile: "abensql_function_upper_abexa.htm"
+keywords: ["select", "do", "case", "method", "class", "data", "abensql", "function", "upper", "abexa"]
+---
 
 * * *
 

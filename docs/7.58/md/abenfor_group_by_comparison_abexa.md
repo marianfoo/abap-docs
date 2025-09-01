@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_for_grps_by_comparison DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TYPES: number_tab TYPE STANDARD TABLE OF i WITH EMPTY KEY. DATA: numbers TYPE num
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_group_by_comparison_abexa.htm"
+abapFile: "abenfor_group_by_comparison_abexa.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "comparison", "abexa"]
+---
 
 * * *
 

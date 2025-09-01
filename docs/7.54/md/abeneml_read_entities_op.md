@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - READ ENTITIES OPERATIONS"
+description: |
+  Syntax READ ENTITIES OPERATIONS operations FAILED   it_failed  DATA(it_failed) REPORTED it_reported  DATA(it_reported). Effect The dynamic form READ ENTITIES OPERATIONS does not specify an introductory name of the business object(https://help.sap.com/doc/abapdocu_754_inde
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entities_op.htm"
+abapFile: "abeneml_read_entities_op.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abeneml", "read", "entities"]
+---
 
 * * *
 

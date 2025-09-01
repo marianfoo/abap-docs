@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   An XML writer in sXML Library can, if the writing position is suitable, be used as an XML target of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm). The output of the transformation is inserted into the output of the wri
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib_render.htm"
+abapFile: "abenabap_sxml_lib_render.htm"
+keywords: ["insert", "update", "do", "while", "if", "try", "method", "class", "data", "internal-table", "abenabap", "sxml", "lib", "render"]
+---
 
 * * *
 

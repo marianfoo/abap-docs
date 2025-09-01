@@ -1,4 +1,14 @@
-  
+---
+title: "CALL DIALOG - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_dialog.htm) Syntax CALL DIALOG dialog  AND SKIP FIRST SCREEN  USING bdc_tab MODE mode  EXPORTING p1 FROM a1 p2 FROM a2 ... IMPORTING p1 TO a1 p2 TO a2 .... Effect Obsolete:
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_dialog_shortref.htm"
+abapFile: "abapcall_dialog_shortref.htm"
+keywords: ["do", "if", "try", "internal-table", "abapcall", "dialog", "shortref"]
+---
 
 * * *
 

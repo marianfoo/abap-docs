@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Transaction Service and Updates"
+description: |
+  ABAP objects and the Object Services are part of a hybrid world in which object-oriented and classic applications as well as mixed forms containing both programming styles can exist side by side. The interaction between classic and object-oriented update techniques is discussed below. Object-Oriente
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_transaction_luw.htm"
+abapFile: "abenos_transaction_luw.htm"
+keywords: ["update", "do", "if", "method", "class", "data", "abenos", "transaction", "luw"]
+---
 
 * * *
 

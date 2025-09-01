@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSACTION, USING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction_shortref.htm) Syntax CALL TRANSACTION ta WITHWITHOUT AUTHORITY-CHECK(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction_authority.htm) USING bdc_tab  MODE mo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction_using.htm"
+abapFile: "abapcall_transaction_using.htm"
+keywords: ["update", "do", "while", "if", "try", "catch", "class", "data", "internal-table", "abapcall", "transaction", "using"]
+---
 
 * * *
 

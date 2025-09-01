@@ -1,4 +1,14 @@
-  
+---
+title: "Character-Like Source Fields"
+description: |
+  -   c(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_c.htm) -   n(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_n.htm) -   string(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_string.htm) The foll
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_source_fields.htm"
+abapFile: "abencharacter_source_fields.htm"
+keywords: ["do", "if", "data", "types", "abencharacter", "source", "fields"]
+---
 
 * * *
 

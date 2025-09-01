@@ -1,4 +1,14 @@
-  
+---
+title: "GET LOCALE LANGUAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale_shortref.htm) Syntax GET LOCALE LANGUAGE lang obsolete_parameters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale_obsolete.htm). Effect The language key of the current
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale.htm"
+abapFile: "abapget_locale.htm"
+keywords: ["do", "if", "try", "data", "abapget", "locale"]
+---
 
 * * *
 

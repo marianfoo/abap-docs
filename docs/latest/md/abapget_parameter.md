@@ -1,4 +1,14 @@
-  
+---
+title: "GET PARAMETER"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_parameter_shortref.htm) Syntax GET PARAMETER ID pid FIELD dobj. Effect This statement sets the content of the data object dobj to the content of the SPA/GPA(https://help.sap.com/doc/abapdocu_latest_index_htm/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_parameter.htm"
+abapFile: "abapget_parameter.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapget", "parameter"]
+---
 
 * * *
 

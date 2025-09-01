@@ -1,4 +1,14 @@
-  
+---
+title: "ENDCASE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcase_shortref.htm) Syntax ENDCASE. Effect The statement ENDCASE closes a case distinction(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencase_distinction_glosry.htm 'Glossary Entry') introduced using
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendcase.htm"
+abapFile: "abapendcase.htm"
+keywords: ["do", "case", "try", "abapendcase"]
+---
 
 * * *
 

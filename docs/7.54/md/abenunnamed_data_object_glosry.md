@@ -1,4 +1,14 @@
-  
+---
+title: "unnamed_data_object_glosry"
+description: |
+  unnamed_data_object_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunnamed_data_object_glosry.htm"
+abapFile: "abenunnamed_data_object_glosry.htm"
+keywords: ["do", "try", "data", "abenunnamed", "object", "glosry"]
+---
 
 * * *
 

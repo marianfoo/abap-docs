@@ -1,4 +1,14 @@
-  
+---
+title: "Specifying Individual Operands"
+description: |
+  There are three ways to specify the names of operands(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_names.htm): -   Specifying Names Statically(#abenoperands-specifying-1--------specifying-names-dynamically-in-parentheses---@ITOC@@ABENOPERANDS_SPECIFYING_2) -   Specify
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_specifying.htm"
+abapFile: "abenoperands_specifying.htm"
+keywords: ["select", "do", "if", "case", "data", "internal-table", "abenoperands", "specifying"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Specifying Individual Operands
 
 There are three ways to specify the [names of operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_names.htm):
 
--   [Specifying Names Statically](#@@ITOC@@ABENOPERANDS_SPECIFYING_1)
-
--   [Specifying Names Dynamically in Parentheses](#@@ITOC@@ABENOPERANDS_SPECIFYING_2)
+-   [Specifying Names Statically](#abenoperands-specifying-1--------specifying-names-dynamically-in-parentheses---@ITOC@@ABENOPERANDS_SPECIFYING_2)
 
 -   [Specifying Names Dynamically](#@@ITOC@@ABENOPERANDS_SPECIFYING_3)
 

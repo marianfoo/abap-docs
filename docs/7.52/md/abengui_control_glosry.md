@@ -1,4 +1,14 @@
-  
+---
+title: "GUI control"
+description: |
+  Standalone software component of the presentation layer(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpresentation_layer_glosry.htm 'Glossary Entry'). Examples of GUI controls are the Picture Control, the Text Edit Control, and the Tree Control. GUI controls are installed with SA
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengui_control_glosry.htm"
+abapFile: "abengui_control_glosry.htm"
+keywords: ["do", "try", "class", "abengui", "control", "glosry"]
+---
 
 * * *
 

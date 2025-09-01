@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.foreignKey.label : '...' @AbapCatalog.foreignKey.keyType : key_type @AbapCatalog.foreignKey.screenCheck : truefalse @AbapCatalog.foreignKey.messageClass : msg_cls @AbapCatalog.foreignKey.messageNumber : msg_no Effect Annotations used to spec
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm"
+abapFile: "abenddicddl_define_table_fkprps.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "fkprps"]
+---
 
 * * *
 

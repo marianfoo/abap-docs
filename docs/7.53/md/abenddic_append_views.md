@@ -1,4 +1,14 @@
-  
+---
+title: "Append Views"
+description: |
+  Database views(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_views.htm) delivered by SAP can be enhanced by partners and customers using views known as append views, without making any modifications. The name of an append view is subject to the same rules as the name
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_append_views.htm"
+abapFile: "abenddic_append_views.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abenddic", "append", "views"]
+---
 
 * * *
 

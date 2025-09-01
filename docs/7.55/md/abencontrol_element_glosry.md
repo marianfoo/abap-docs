@@ -1,4 +1,14 @@
-  
+---
+title: "control_element_glosry"
+description: |
+  control_element_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontrol_element_glosry.htm"
+abapFile: "abencontrol_element_glosry.htm"
+keywords: ["do", "try", "abencontrol", "element", "glosry"]
+---
 
 * * *
 

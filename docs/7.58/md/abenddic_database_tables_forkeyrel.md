@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Foreign Key Dependencies"
+description: |
+  A foreign key dependency is a semantic dependency between two DDIC database tables, namely a foreign key table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_table_glosry.htm 'Glossary Entry') and a check table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-U
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkeyrel.htm"
+abapFile: "abenddic_database_tables_forkeyrel.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "database", "tables", "forkeyrel"]
+---
 
 * * *
 

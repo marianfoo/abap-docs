@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Queries"
+description: |
+  Queries can be executed using the following instance method from class CL_SQL_STATEMENT: -   EXECUTE_QUERY The method has a mandatory input parameter STATEMENT of type string that must be passed to a SELECT statement with correct syntax. As with DML statements(https://help.sap.com/doc/abapdocu_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_query.htm"
+abapFile: "abenadbc_query.htm"
+keywords: ["select", "insert", "update", "delete", "do", "while", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenadbc", "query"]
+---
 
 * * *
 

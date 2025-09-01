@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Categories"
+description: |
+  Exception classes are subclasses of the following global classes: -   CX_STATIC_CHECK -   CX_DYNAMIC_CHECK -   CX_NO_CHECK The common superclass for these classes is CX_ROOT. The assignment to one of these three superclasses determines the exception category, which itself specifies whether an
+version: "7.52"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_categories.htm"
+abapFile: "abenexception_categories.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "exception-handling", "abenexception", "categories"]
+---
 
 * * *
 

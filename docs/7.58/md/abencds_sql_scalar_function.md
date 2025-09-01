@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SQL-Based Scalar Functions"
+description: |
+  SQL-based scalar functions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_glosry.htm 'Glossary Entry') are scalar functions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_function_glosry.htm 'Glossary Entry') that are evaluated by an SQL
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm"
+abapFile: "abencds_sql_scalar_function.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "types", "abencds", "sql", "scalar", "function"]
+---
 
 * * *
 

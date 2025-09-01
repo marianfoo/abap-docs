@@ -1,4 +1,14 @@
-  
+---
+title: "SET LOCKS ENTITY, Short Form"
+description: |
+  Syntax SET LOCKS ENTITY bdef FROM inst response_param(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm). Addition: ... response_param.(#!ABAP_ONE_ADD@1@) Effect Used to exclusively lock instances of a single RAP BO entity. The entity name (bdef) can be sp
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_locks_entity.htm"
+abapFile: "abapset_locks_entity.htm"
+keywords: ["delete", "do", "if", "try", "data", "internal-table", "abapset", "locks", "entity"]
+---
 
 * * *
 

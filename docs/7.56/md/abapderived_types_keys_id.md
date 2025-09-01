@@ -1,4 +1,14 @@
-  
+---
+title: "Components related to keys and RAP BO instance identification"
+description: |
+  -   Use of keys and RAP BO instance identifiers in a nutshell(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_keys_identifiers.htm) -   %cid(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_cid.htm) -   %cid_ref(https://help.sap.com/doc
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_keys_id.htm"
+abapFile: "abapderived_types_keys_id.htm"
+keywords: ["do", "if", "types", "abapderived", "keys"]
+---
 
 * * *
 

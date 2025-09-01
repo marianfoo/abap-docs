@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - Dynpro"
+description: |
+  Obsolete Syntax SELECT  FROM dbtab WHERE col1 = f1 AND col2 = f2 ... INTO wa WHENEVER NOT FOUND SEND  ERRORMESSAGE  WARNING  num WITH  p1 ... . Effect The use of the statement SELECT as a standalone statement in the dynpro flow logic is obsolete. The effect o
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpselect.htm"
+abapFile: "dynpselect.htm"
+keywords: ["select", "do", "if", "try", "dynpselect"]
+---
 
 * * *
 

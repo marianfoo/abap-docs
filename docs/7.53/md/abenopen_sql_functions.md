@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - SQL Functions"
+description: |
+  The following built-in SQL functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm) can either be specified as standalone functions in ABAP SQL or as operands of SQL expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm), in al
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_functions.htm"
+abapFile: "abenopen_sql_functions.htm"
+keywords: ["do", "if", "try", "data", "abenopen", "sql", "functions"]
+---
 
 * * *
 

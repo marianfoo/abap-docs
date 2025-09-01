@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:value ref='node' map='...' lengthminLengthmaxLength='len' xsd-type... /> Effect The serialization and deserialization of structures results directly from the addressing rules(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_addressing
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_value_structure.htm"
+abapFile: "abenst_tt_value_structure.htm"
+keywords: ["do", "if", "try", "catch", "data", "abenst", "value", "structure"]
+---
 
 * * *
 

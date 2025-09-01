@@ -1,4 +1,14 @@
-  
+---
+title: "Character Set of ABAP Source Code"
+description: |
+  Background ABAP source code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') is edited in the ABAP Editor tool in ABAP Workbench, itself an ABAP program. ABAP Editor saves and processes the ABAP source code internally in a data object (an
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharacter_set_guidl.htm"
+abapFile: "abencharacter_set_guidl.htm"
+keywords: ["do", "if", "case", "try", "data", "internal-table", "abencharacter", "set", "guidl"]
+---
 
 * * *
 

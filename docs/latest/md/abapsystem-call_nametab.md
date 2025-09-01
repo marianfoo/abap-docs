@@ -1,4 +1,14 @@
-  
+---
+title: "Nametab Management"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Variants: 1.EXPORT NAMETAB h f ID id.(#!ABAP_VARIANT_1@1@) 2.IMPORT NAMETAB h f ID id.(#!ABAP_VARIANT_2@2@) Variant 1 EXPORT NAMETAB h f ID id. Effect Exports a generated structure description. This statement m
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsystem-call_nametab.htm"
+abapFile: "abapsystem-call_nametab.htm"
+keywords: ["do", "if", "try", "catch", "abapsystem", "call", "nametab"]
+---
 
 * * *
 

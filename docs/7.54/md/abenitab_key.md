@@ -1,4 +1,14 @@
-  
+---
+title: "Table Keys"
+description: |
+  Internal tables always have a primary key and can have up to 15 optional secondary table keys. Standard tables are automatically assigned a standard key if an explicit primary key is not defined. -   primary table keys(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_key_primary
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_key.htm"
+abapFile: "abenitab_key.htm"
+keywords: ["do", "if", "data", "internal-table", "abenitab", "key"]
+---
 
 * * *
 

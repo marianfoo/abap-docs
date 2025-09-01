@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenicf.htm
 
-  
+---
+title: "ICF - Internet Communication Framework"
+description: |
+  Internet Communication Framework (ICF) is a programming interface (API), based on interfaces and classes, used by ABAP programs to communicate with the Internet. ICF supports the Internet protocols HTTP, HTTPS, and SMTP. All communication between ABAP and the Internet based on these protocols takes
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf.htm"
+abapFile: "abenicf.htm"
+keywords: ["select", "update", "do", "if", "try", "method", "class", "data", "abenicf"]
+---
 
 * * *
 
@@ -17,13 +27,9 @@ ICF - Internet Communication Framework
 
 Internet Communication Framework (ICF) is a programming interface (API), based on interfaces and classes, used by ABAP programs to communicate with the Internet. ICF supports the Internet protocols HTTP, HTTPS, and SMTP. All communication between ABAP and the Internet based on these protocols takes place using ICF. ICF is a simplified technical foundation that can be used by more advanced programming interfaces. This means that ABAP programs do not usually access ICF directly and wrappers are accessed instead, such as [Business Server Pages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbusiness_server_pages_glosry.htm "Glossary Entry"), [Web Dynpro ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenweb_dynpro_glosry.htm "Glossary Entry"), or the OData-based [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry"). Wrappers like these make sure that the conventions required by external communication are met, such as the Model View Controller (MVC) approach in Web Dynpro or stateless AS ABAP in [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry").
 
--   [ICF Overview](#@@ITOC@@ABENICF_1)
+-   [ICF Overview](#abenicf-1--------as-abap-as-an-icf-server---@ITOC@@ABENICF_2)
 
--   [AS ABAP as an ICF Server](#@@ITOC@@ABENICF_2)
-
--   [AS ABAP as an ICF Client](#@@ITOC@@ABENICF_3)
-
--   [ICF Security](#@@ITOC@@ABENICF_4)
+-   [AS ABAP as an ICF Client](#abenicf-3--------icf-security---@ITOC@@ABENICF_4)
 
 -   [More Information](#@@ITOC@@ABENICF_5)
 
@@ -105,7 +111,17 @@ Continue
 
 ### abenicf_abexas.htm
 
-  
+---
+title: "ICF - Examples"
+description: |
+  !Example(exa.gif 'Example') ICF - Calling an HTTP Service(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_service_abexa.htm) !Example(exa.gif 'Example') ICF - Calling an HTTP Service Using the POST Method(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_p
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_abexas.htm"
+abapFile: "abenicf_abexas.htm"
+keywords: ["do", "if", "method", "data", "abenicf", "abexas"]
+---
 
 * * *
 
@@ -125,7 +141,17 @@ Continue
 
 ### abenicf_service_abexa.htm
 
-  
+---
+title: "ICF - Calling an HTTP Service"
+description: |
+  This example demonstrates how an ICF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_glosry.htm 'Glossary Entry') HTTP service is called directly using a Web browser. Source Code REPORT demo_http_service. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. CLASS-METHODS
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_service_abexa.htm"
+abapFile: "abenicf_service_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenicf", "service", "abexa"]
+---
 
 * * *
 
@@ -207,7 +233,17 @@ The HTTP service must be activated in transaction SICF before the example can wo
 
 ### abenicf_post_service_abexa.htm
 
-  
+---
+title: "ICF - Calling an HTTP Service Using the POST Method"
+description: |
+  This example demonstrates calls of an HTTP service in ICF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_glosry.htm 'Glossary Entry') and a Web browser. The input data is passed using the POST method. Source Code REPORT demo_http_post_service. CLASS demo DEFINITION. PUBLIC S
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_post_service_abexa.htm"
+abapFile: "abenicf_post_service_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenicf", "post", "service", "abexa"]
+---
 
 * * *
 
@@ -268,7 +304,17 @@ The HTTP service must be activated in transaction SICF before the example can wo
 
 ### abenicf_client_abexa.htm
 
-  
+---
+title: "ICF - ABAP as HTTP Client"
+description: |
+  This example demonstrates an ICF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_glosry.htm 'Glossary Entry') client object. Source Code REPORT demo_http_client. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA q
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_client_abexa.htm"
+abapFile: "abenicf_client_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenicf", "client", "abexa"]
+---
 
 * * *
 
@@ -341,7 +387,17 @@ The proxy setting for the HTTP client must be configured correctly in transactio
 
 ### abenicf_mime_pictures_abexa.htm
 
-  
+---
+title: "ICF - Accessing the MIME Repository Using ICF"
+description: |
+  This example demonstrates how the MIME repository is accessed using a HTTP service in ICF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_glosry.htm 'Glossary Entry'). Source Code REPORT demo_picture_from_mime. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. CLASS-
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_mime_pictures_abexa.htm"
+abapFile: "abenicf_mime_pictures_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenicf", "mime", "pictures", "abexa"]
+---
 
 * * *
 
@@ -399,7 +455,17 @@ See also the [executable example](https://help.sap.com/doc/abapdocu_755_index_ht
 
 ### abenhttp_mime_pictures_abexa.htm
 
-  
+---
+title: "ICF - Accessing the MIME Repository from a HTTP Service"
+description: |
+  This example demonstrates how the MIME repository is accessed using an HTTP service in ICF(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_glosry.htm 'Glossary Entry'). Source Code REPORT demo_http_mime. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. CLASS-METHODS
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhttp_mime_pictures_abexa.htm"
+abapFile: "abenhttp_mime_pictures_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenhttp", "mime", "pictures", "abexa"]
+---
 
 * * *
 
@@ -465,7 +531,17 @@ The HTTP service /sap/bc/abap/demo\_mime can be called with different contents o
 
 ### abenicf_abexas.htm
 
-  
+---
+title: "ICF - Examples"
+description: |
+  !Example(exa.gif 'Example') ICF - Calling an HTTP Service(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_service_abexa.htm) !Example(exa.gif 'Example') ICF - Calling an HTTP Service Using the POST Method(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_p
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenicf_abexas.htm"
+abapFile: "abenicf_abexas.htm"
+keywords: ["do", "if", "method", "data", "abenicf", "abexas"]
+---
 
 * * *
 

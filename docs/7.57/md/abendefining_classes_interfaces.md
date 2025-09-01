@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Statements for Defining Classes and Interfaces"
+description: |
+  These statements are used to define classes and interfaces and their components. They can be used in any ABAP program where classes and interfaces can be defined. Statements for Defining Classes Defining the Declaration Part CLASS ... DEFINITION ... ... ENDCLASS ... Defining the Implementation Part
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendefining_classes_interfaces.htm"
+abapFile: "abendefining_classes_interfaces.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abendefining", "classes", "interfaces"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "main_program_glosry"
+description: |
+  main_program_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmain_program_glosry.htm"
+abapFile: "abenmain_program_glosry.htm"
+keywords: ["do", "try", "class", "abenmain", "program", "glosry"]
+---
 
 * * *
 

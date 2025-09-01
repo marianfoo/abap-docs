@@ -1,4 +1,14 @@
-  
+---
+title: "cds_dcl_cnv_variants"
+description: |
+  cds_dcl_cnv_variants - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_cnv_variants.htm"
+abapFile: "abencds_dcl_cnv_variants.htm"
+keywords: ["do", "if", "data", "abencds", "dcl", "cnv", "variants"]
+---
 
 * * *
 

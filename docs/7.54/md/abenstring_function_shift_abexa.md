@@ -1,4 +1,14 @@
-  
+---
+title: "String Functions, shift and substring"
+description: |
+  This example demonstrates the string functions shift(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshift_functions.htm) and substring(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubstring_functions.htm). Source Code REPORT demo_shift_substring. CLASS demo DE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_function_shift_abexa.htm"
+abapFile: "abenstring_function_shift_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenstring", "function", "shift", "abexa"]
+---
 
 * * *
 

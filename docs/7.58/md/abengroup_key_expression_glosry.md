@@ -1,4 +1,14 @@
-  
+---
+title: "group_key_expression_glosry"
+description: |
+  group_key_expression_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengroup_key_expression_glosry.htm"
+abapFile: "abengroup_key_expression_glosry.htm"
+keywords: ["loop", "do", "if", "try", "internal-table", "abengroup", "key", "expression", "glosry"]
+---
 
 * * *
 

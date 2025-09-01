@@ -1,4 +1,14 @@
-  
+---
+title: "start_node_glosry"
+description: |
+  start_node_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstart_node_glosry.htm"
+abapFile: "abenstart_node_glosry.htm"
+keywords: ["do", "if", "try", "abenstart", "node", "glosry"]
+---
 
 * * *
 

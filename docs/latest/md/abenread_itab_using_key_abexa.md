@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_read_table_using_key DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. DATA: m    TYPE i, itab TYPE STANDARD TABLE OF i WITH NON-UNIQUE    KEY primary_key COMPONENTS table_li
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenread_itab_using_key_abexa.htm"
+abapFile: "abenread_itab_using_key_abexa.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "internal-table", "abenread", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

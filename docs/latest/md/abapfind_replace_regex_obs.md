@@ -1,4 +1,14 @@
-  
+---
+title: "FIND, REPLACE REGEX posix (obsolete)"
+description: |
+  Syntax FINDREPLACE REGEX posix ... . Effect In this variant for specifying a pattern(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_pattern.htm) in the statements FIND(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) and REPLACE(https:/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_replace_regex_obs.htm"
+abapFile: "abapfind_replace_regex_obs.htm"
+keywords: ["select", "do", "if", "try", "data", "abapfind", "replace", "regex", "obs"]
+---
 
 * * *
 

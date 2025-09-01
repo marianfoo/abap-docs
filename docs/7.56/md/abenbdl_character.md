@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - entity behavior characteristics"
+description: |
+  Syntax ... persistent table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_persistent_table.htm) TableName draft table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_draft_table.htm) DraftTableName saving options(https://help.sap.com/
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_character.htm"
+abapFile: "abenbdl_character.htm"
+keywords: ["do", "if", "case", "try", "data", "abenbdl", "character"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Splitting Texts"
+description: |
+  Background Usually the characters in a character string are encoded based on a code page using a fixed number of bytes. This means that it is always known in the memory where a character begins and ends. However, in some code pages, a character can be formed from a combination of multiple separately
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensplit_text_guidl.htm"
+abapFile: "abensplit_text_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "abensplit", "text", "guidl"]
+---
 
 * * *
 

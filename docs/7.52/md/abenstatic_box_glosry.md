@@ -1,4 +1,14 @@
-  
+---
+title: "Static Box"
+description: |
+  Boxed component(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenboxed_component_glosry.htm 'Glossary Entry') for supporting initial value sharing(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninitial_value_sharing_glosry.htm 'Glossary Entry') for which the initial
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_box_glosry.htm"
+abapFile: "abenstatic_box_glosry.htm"
+keywords: ["do", "try", "class", "data", "types", "abenstatic", "box", "glosry"]
+---
 
 * * *
 

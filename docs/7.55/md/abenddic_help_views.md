@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Help Views"
+description: |
+  A DDIC help view is a special view for use in search helps(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_help_glosry.htm 'Glossary Entry'). The selection methods of a search help can be database tables, DDIC database views, and the special help views. DDIC database tables r
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_help_views.htm"
+abapFile: "abenddic_help_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenddic", "help", "views"]
+---
 
 * * *
 

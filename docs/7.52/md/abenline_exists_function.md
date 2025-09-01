@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... line_exists( table_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expressions.htm) ) ... Effect The predicate function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_function_glosry.htm 'Glossary Entry') line_exists checks whether the ro
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenline_exists_function.htm"
+abapFile: "abenline_exists_function.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abenline", "exists", "function"]
+---
 
 * * *
 

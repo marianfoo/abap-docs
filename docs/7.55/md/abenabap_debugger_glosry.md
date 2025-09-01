@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Debugger"
+description: |
+  Tool used to execute ABAP programs(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_glosry.htm 'Glossary Entry') line by line or section by section. This makes it possible to edit the contents of data objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_debugger_glosry.htm"
+abapFile: "abenabap_debugger_glosry.htm"
+keywords: ["do", "try", "data", "abenabap", "debugger", "glosry"]
+---
 
 * * *
 

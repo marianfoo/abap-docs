@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Host Expressions"
+description: |
+  Syntax ... @( expr ) ... Effect Host expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhost_expression_glosry.htm 'Glossary Entry') are ABAP expressions expr that can be specified in operand positions in ABAP SQL. expr is a general expression position(https://help.sap.co
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_expressions.htm"
+abapFile: "abenopen_sql_host_expressions.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abenopen", "sql", "host", "expressions"]
+---
 
 * * *
 

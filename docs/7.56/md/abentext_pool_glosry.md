@@ -1,4 +1,14 @@
-  
+---
+title: "text_pool_glosry"
+description: |
+  text_pool_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_pool_glosry.htm"
+abapFile: "abentext_pool_glosry.htm"
+keywords: ["do", "try", "abentext", "pool", "glosry"]
+---
 
 * * *
 

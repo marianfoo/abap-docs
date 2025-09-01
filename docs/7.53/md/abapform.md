@@ -1,4 +1,14 @@
-  
+---
+title: "FORM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm) Obsolete Syntax FORM subr TABLES table_parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm) USING parameters(https://help.sap.com/doc/abapdocu_75
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm"
+abapFile: "abapform.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapform"]
+---
 
 * * *
 

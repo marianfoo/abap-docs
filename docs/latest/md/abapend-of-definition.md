@@ -1,4 +1,14 @@
-  
+---
+title: "END-OF-DEFINITION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdefine_shortref.htm) Syntax END-OF-DEFINITION. Effect The statement END-OF-DEFINITION closes a macro definition that was initiated by DEFINE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdef
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-definition.htm"
+abapFile: "abapend-of-definition.htm"
+keywords: ["do", "if", "abapend", "definition"]
+---
 
 * * *
 

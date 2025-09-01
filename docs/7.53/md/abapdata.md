@@ -1,4 +1,14 @@
-  
+---
+title: "DATA"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_shortref.htm) Syntax Forms Using built-in types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_simple.htm) 1. DATA  var(len) TYPE abap_type DECIMALS dec  var
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata.htm"
+abapFile: "abapdata.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapdata"]
+---
 
 * * *
 

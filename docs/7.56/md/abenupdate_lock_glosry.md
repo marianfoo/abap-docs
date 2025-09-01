@@ -1,4 +1,14 @@
-  
+---
+title: "update_lock_glosry"
+description: |
+  update_lock_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenupdate_lock_glosry.htm"
+abapFile: "abenupdate_lock_glosry.htm"
+keywords: ["update", "do", "try", "abenupdate", "lock", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Use"
+description: |
+  There are two ways of using a logical database. -   Associated with executable programs(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb_usage_executable.htm) -   Called using function modules(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb_usage_function.htm
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb_usage.htm"
+abapFile: "abenldb_usage.htm"
+keywords: ["select", "do", "if", "data", "abenldb", "usage"]
+---
 
 * * *
 

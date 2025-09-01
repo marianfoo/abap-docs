@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  Serialization of an internal table with enumerated values by JSON. TYPES: BEGIN OF ENUM color STRUCTURE col, red, blue, green, END OF ENUM color STRUCTURE col. DATA colors TYPE SORTED TABLE OF color WITH UNIQUE KEY table_line. DO. ASSIGN COMPONENT sy-index OF STRUCTURE col TO FIELD-SYMBOL(<fs>). IF
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson_abap_types_enum.htm"
+abapFile: "abenabap_asjson_abap_types_enum.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenabap", "asjson", "abap", "enum"]
+---
 
 * * *
 

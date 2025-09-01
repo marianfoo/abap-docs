@@ -1,4 +1,14 @@
-  
+---
+title: "GET DATASET"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_dataset_shortref.htm) Syntax GET DATASET dset POSITION pos ATTRIBUTES attr. Additions: 1. ... POSITION pos(#!ABAP_ADDITION_1@1@) 2. ... ATTRIBUTES attr(#!ABAP_ADDITION_2@2@) Effect The addition
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_dataset.htm"
+abapFile: "abapget_dataset.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "abapget", "dataset"]
+---
 
 * * *
 

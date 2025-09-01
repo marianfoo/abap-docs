@@ -1,26 +1,11 @@
 # ABAP TYPES - Complete Reference (7.55)
 
-**Generated**: 2025-09-01T11:14:57.945Z
-**Bundles Combined**: 10
+**Generated**: 2025-09-01T19:37:49.721Z
+**Bundles Combined**: 13
 **Category**: types
 
 ---
 
-
-
-## 🔗 Complete Source Documentation
-
-**📖 Official Documentation**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-**🏷️ Category**: TYPES
-**🔍 Search Specific Topics**: Use `abap_search query:"types"` for focused results
-**📄 Individual Pages**: All source URLs included in each section below
-
-### 🎯 Quick Navigation
-- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
-- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
-- **Browse by difficulty**: Look for **Difficulty** markers in each section
-
----
 
 ## ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Data Types / DDIC - Data Elements
 
@@ -33,11 +18,17 @@ Included pages: 7
 
 ### abenddic_data_elements.htm
 
-> **📖 Official SAP Documentation**: [abenddic_data_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Data Elements"
+description: |
+  A data element in ABAP Dictionary defines an elementary data type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_type_glosry.htm 'Glossar
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements.htm"
+abapFile: "abenddic_data_elements.htm"
+keywords: ["do", "try", "data", "types", "abenddic", "elements"]
+---
 
 * * *
 
@@ -67,16 +58,19 @@ Continue
 [DDIC - Domains](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm)
 
 
-
-**📖 Source**: [abenddic_data_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements.htm)
-
 ### abenddic_data_elements_tech.htm
 
-> **📖 Official SAP Documentation**: [abenddic_data_elements_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements_tech.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Technical Attributes of Data Elements"
+description: |
+  A data element describes an elementary data type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenelementary_data_type_glosry.htm 'Glossary Entry') or a reference type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_type_glosry.htm 'Glossary Entry') with th
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements_tech.htm"
+abapFile: "abenddic_data_elements_tech.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "elements", "tech"]
+---
 
 * * *
 
@@ -111,16 +105,19 @@ Example
 The data element S\_CONN\_ID takes its technical attributes (data type NUMC, length 4) from the domain S\_CONN\_ID. The data element S\_CONN\_ID has documentation and further texts that describe its semantics. It is used as a data type of many table fields that match these semantic attributes, such as the column CONNID of the DDIC database tables SPFLI, SBOOK, and SFLIGHT.
 
 
-
-**📖 Source**: [abenddic_data_elements_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements_tech.htm)
-
 ### abenddic_data_elements_sema.htm
 
-> **📖 Official SAP Documentation**: [abenddic_data_elements_sema.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements_sema.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Semantic Attributes of Data Elements"
+description: |
+  The semantic attributes of data elements are mainly significant when they are used as types of fields on user interfaces such as dynpro(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm 'Glossary Entry') (or Web Dynpro(https://help.sap.com/doc/abapdocu_755_index_ht
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements_sema.htm"
+abapFile: "abenddic_data_elements_sema.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "elements", "sema"]
+---
 
 * * *
 
@@ -205,16 +202,19 @@ Hint
 It is highly significant that many semantic attributes of a data element define the behavior of dynpro fields or Web Dynpro fields. For example, a data element whose documentation describes the internal attributes of a technical type is not usually suitable for use in UI fields. One example are the data elements SYST\_... that define the components of the system structure SYST. The documentation of these data elements describes the corresponding system fields and must not appear on a UI. Ideally, separate data elements are created with their own semantic attributes for UIs and DDIC database tables. Any data elements not used for UI fields do not usually need semantic attributes (except for the short text and possibly documentation). Conversely, attributes such as the flag for change documents are not relevant for data elements for UIs.
 
 
-
-**📖 Source**: [abenddic_data_elements_sema.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements_sema.htm)
-
 ### abenddic_domains.htm
 
-> **📖 Official SAP Documentation**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Domains"
+description: |
+  A domain is a standalone dictionary object that defines technical and semantic attributes of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements.htm) can be defined with reference to a domain and inherit its attributes. Domains can
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 
@@ -247,16 +247,19 @@ Continue
 [DDIC - Semantic Attributes of Domains](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains_sema.htm)
 
 
-
-**📖 Source**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm)
-
 ### abenddic_domains_tech.htm
 
-> **📖 Official SAP Documentation**: [abenddic_domains_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains_tech.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Technical Attributes of Domains"
+description: |
+  The only technical attribute of a domain is the description of an elementary data type whose following technical attributes are defined directly in the domain: -   Built-in data type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) in ABAP Dictionary -   Lengt
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains_tech.htm"
+abapFile: "abenddic_domains_tech.htm"
+keywords: ["do", "if", "data", "types", "abenddic", "domains", "tech"]
+---
 
 * * *
 
@@ -279,16 +282,19 @@ Hint
 When existing domains are modified, all consumers of the domain are also affected. In particular, [foreign keys](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_forkey.htm) can become inconsistent when used for the fields of DDIC database tables, which makes [adjustments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_adj.htm) necessary.
 
 
-
-**📖 Source**: [abenddic_domains_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains_tech.htm)
-
 ### abenddic_domains_sema.htm
 
-> **📖 Official SAP Documentation**: [abenddic_domains_sema.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains_sema.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Semantic Attributes of Domains"
+description: |
+  Domains can be given the following semantic attributes: -   Short text Each domain has a short description specified when it is created. -   Documentation A domain can be given (optional) documentation. -   Output attributes The output attributes determine how fields defined with reference to a data
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains_sema.htm"
+abapFile: "abenddic_domains_sema.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "domains", "sema"]
+---
 
 * * *
 
@@ -356,16 +362,19 @@ Example
 The domain S\_CLASS with the type CHAR describes the possible classes in a flight booking. The value range of the domain is defined by the fixed values "C" (Business Class), "F" (First Class), and "Y" (Economy Class). This means that only the values "C", "F", and "Y" can be entered for all dynpro fields that point to this domain.
 
 
-
-**📖 Source**: [abenddic_domains_sema.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains_sema.htm)
-
 ### abenddic_domains.htm
 
-> **📖 Official SAP Documentation**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Domains"
+description: |
+  A domain is a standalone dictionary object that defines technical and semantic attributes of elementary data types. Data elements(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements.htm) can be defined with reference to a domain and inherit its attributes. Domains can
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm"
+abapFile: "abenddic_domains.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "domains"]
+---
 
 * * *
 
@@ -410,16 +419,19 @@ Continue
 Included pages: 2
 
 
-
-**📖 Source**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm)
-
 ### abenddic_structures_tech.htm
 
-> **📖 Official SAP Documentation**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_tech.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Technical Attributes of Structures"
+description: |
+  A DDIC structure describes a structure type(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructured_type_glosry.htm 'Glossary Entry') constructed from components and with the following technical attributes: -   Component name The name of a component can have a maximum of 30 chara
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_tech.htm"
+abapFile: "abenddic_structures_tech.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "tech"]
+---
 
 * * *
 
@@ -469,16 +481,19 @@ Continue
 [DDIC - Enhancement Category of Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm)
 
 
-
-**📖 Source**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_tech.htm)
-
 ### abenddic_structures_enh_cat.htm
 
-> **📖 Official SAP Documentation**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Enhancement Category of Structures"
+description: |
+  ABAP Dictionary structures and DDIC database tables that are delivered by SAP can be enhanced using customizing includes(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencustomizing_include_glosry.htm 'Glossary Entry') or append structures(https://help.sap.com/doc/abapdocu_755_inde
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm"
+abapFile: "abenddic_structures_enh_cat.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "enh", "cat"]
+---
 
 * * *
 
@@ -578,16 +593,19 @@ str = my\_struc+off(len).
 Included pages: 11
 
 
-
-**📖 Source**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm)
-
 ### abenddic_define_structure.htm
 
-> **📖 Official SAP Documentation**: [abenddic_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary DDL for Structure Definitions"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm 'Glossary Entry'), a structure can be displayed and modified using source-code-based methods in the Dictionary DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendict
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_structure.htm"
+abapFile: "abenddic_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddic", "define", "structure"]
+---
 
 * * *
 
@@ -609,16 +627,19 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
 
 
-
-**📖 Source**: [abenddic_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_structure.htm)
-
 ### abenddicddl_define_structure.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm) DEFINE STRUCTURE struct  ... component;(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm) ... include;(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm"
+abapFile: "abenddicddl_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddicddl", "define", "structure"]
+---
 
 * * *
 
@@ -676,16 +697,19 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, include](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
-
 ### abenddicddl_define_struct_props.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.enhancementCategory : enh_cat Effect Mandatory annotations for specifying structure properties in the definition of a DDIC structure using the statement DEFINE STRUCTURE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm"
+abapFile: "abenddicddl_define_struct_props.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "props"]
+---
 
 * * *
 
@@ -727,16 +751,19 @@ Hints
 -   The syntax used to specify the properties is based on [CDS annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotation_glosry.htm "Glossary Entry"). There are, however, no visible associated [annotation definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition_glosry.htm "Glossary Entry").
 
 
-
-**📖 Source**: [abenddicddl_define_struct_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm)
-
 ### abenddicddl_define_struct_comps.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, component"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_srprps.htm) KEY comp :
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 
@@ -808,16 +835,19 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, value\_help](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
-
 ### abenddicddl_define_struct_cmpprps.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_cmpprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_cmpprps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  @EndUserText.label : '...' @AbapCatalog.decfloat.outputStyle : style  @Semantics.amount.currencyCode : 'struct.comp' @Semantics.quantity.unitOfMeasure : 'struct.comp' Effect Applies annotations to specify optional properties of a component(https://help.sap.com/doc/a
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_cmpprps.htm"
+abapFile: "abenddicddl_define_struct_cmpprps.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "cmpprps"]
+---
 
 * * *
 
@@ -878,16 +908,19 @@ define structure struct {
   }
 
 
-
-**📖 Source**: [abenddicddl_define_struct_cmpprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_cmpprps.htm)
-
 ### abenddicddl_define_struct_valuhelp.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_valuhelp.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Syntax"
+description: |
+  ...  WITH VALUE HELP value_help WHERE parameter1 = structure.component1 AND parameter2 = structure.component2 ... ... Effect Assigns a search help(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_help_glosry.htm 'Glossary Entry') to a structure component(https://hel
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm"
+abapFile: "abenddicddl_define_struct_valuhelp.htm"
+keywords: ["do", "try", "data", "types", "abenddicddl", "define", "struct", "valuhelp"]
+---
 
 * * *
 
@@ -926,16 +959,19 @@ define structure struct {
   }
 
 
-
-**📖 Source**: [abenddicddl_define_struct_valuhelp.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm)
-
 ### abenddicddl_define_struct_comps.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, component"
+description: |
+  Syntax component_annos foreign_key_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm) geo_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_srprps.htm) KEY comp :
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm"
+abapFile: "abenddicddl_define_struct_comps.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddicddl", "define", "struct", "comps"]
+---
 
 * * *
 
@@ -1007,16 +1043,19 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, value\_help](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
-
 ### abenddicddl_define_struct_incl.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, include"
+description: |
+  Syntax group : INCLUDE struct WITH SUFFIX suffix ... extend(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_inc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm"
+abapFile: "abenddicddl_define_struct_incl.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "incl"]
+---
 
 * * *
 
@@ -1066,16 +1105,19 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, extend](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
-
 ### abenddicddl_define_struct_comp_ext.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comp_ext.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, extend"
+description: |
+  Syntax ... foreign_key_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm) EXTEND component : value_help(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm) foreign_key ..
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm"
+abapFile: "abenddicddl_define_struct_comp_ext.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "comp", "ext"]
+---
 
 * * *
 
@@ -1126,16 +1168,19 @@ define structure struct {
   }
 
 
-
-**📖 Source**: [abenddicddl_define_struct_comp_ext.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm)
-
 ### abenddicddl_define_struct_incl.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE, include"
+description: |
+  Syntax group : INCLUDE struct WITH SUFFIX suffix ... extend(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm) ...; Effect Includes an include structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_inc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm"
+abapFile: "abenddicddl_define_struct_incl.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddicddl", "define", "struct", "incl"]
+---
 
 * * *
 
@@ -1185,16 +1230,19 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, extend](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
-
 ### abenddicddl_define_structure.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE STRUCTURE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm) DEFINE STRUCTURE struct  ... component;(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm) ... include;(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm"
+abapFile: "abenddicddl_define_structure.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenddicddl", "define", "structure"]
+---
 
 * * *
 
@@ -1264,16 +1312,19 @@ Continue
 Included pages: 9
 
 
-
-**📖 Source**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
-
 ### abenddic_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary Views"
+description: |
+  A view in ABAP Dictionary is a grouping of columns in one or more DDIC database tables in accordance with an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as data types in the same way as structures. Views can be used like database tables in readin
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_views.htm"
+abapFile: "abenddic_views.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abenddic", "views"]
+---
 
 * * *
 
@@ -1321,16 +1372,19 @@ Continue
 [DDIC - External Views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_external_views.htm)
 
 
-
-**📖 Source**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_views.htm)
-
 ### abenddic_view_names.htm
 
-> **📖 Official SAP Documentation**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_view_names.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Naming Rules for Dictionary Views"
+description: |
+  The name of a view defined in the ABAP Dictionary must comply to the following rules: -   It can have a maximum of 16 characters. -   It must follow the naming rules for DDIC types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_types_names.htm), -   It must follow the special
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_view_names.htm"
+abapFile: "abenddic_view_names.htm"
+keywords: ["do", "try", "data", "types", "abenddic", "view", "names"]
+---
 
 * * *
 
@@ -1351,16 +1405,19 @@ The name of a view defined in the ABAP Dictionary must comply to the following r
 -   It is located in the namespace of the [data types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_types.htm) in ABAP Dictionary and by that the namespace of all [global types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenglobal_type_glosry.htm "Glossary Entry") of an AS ABAP.
 
 
-
-**📖 Source**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_view_names.htm)
-
 ### abenddic_table_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Table Views"
+description: |
+  A DDIC table view is a repository object in ABAP Dictionary defined for existing DDIC database tables and their fields in the form-based ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_tools.htm) in ABAP Workbench(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_views.htm"
+abapFile: "abenddic_table_views.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "data", "types", "abenddic", "table", "views"]
+---
 
 * * *
 
@@ -1435,16 +1492,19 @@ Continue
 [DDIC - Help Views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_help_views.htm)
 
 
-
-**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_views.htm)
-
 ### abenddic_database_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Database Views"
+description: |
+  A DDIC database view is a general view for one or more basis tables. If there are multiple basis tables, they are joined using an inner join. A corresponding SQL view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_view_glosry.htm 'Glossary Entry') is created as a database obje
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_views.htm"
+abapFile: "abenddic_database_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "method", "data", "types", "abenddic", "database", "views"]
+---
 
 * * *
 
@@ -1460,20 +1520,23 @@ A DDIC database view is a general view for one or more basis tables. If there ar
 
 -   [Join Conditions](#abenddic-database-views-3--------maintenance-status---@ITOC@@ABENDDIC_DATABASE_VIEWS_4)
 
--   [Table Buffering](#abenddic-database-views-5---hints------a-ddic-database-view-can-be-activated-in-abap-dictionary-without-its-basis-tables-being-defined-on-the-database--the-view-is-also-not-created-on-the-database-in-this-case-------as-in-a--ddic-database-table--javascript-call-link---abenddic-database-tables-client-htm------the-client-dependency-of-a-database-view-is-determined-by-an-initial-column-with-the-built-in-dictionary-type-clnt--------ddic-append-views--javascript-call-link---abenddic-append-views-htm-----are-available-for-enhancing-the-database-views-in-abap-dictionary-delivered-by-sap-without-making-any-modifications-------suitable--cds-views--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---can-be-defined-as--replacement-objects--javascript-call-link---abenddic-replacement-objects-htm-----for-database-views--in-this-case--reads-in--abap-sql--javascript-call-link---abenabap-sql-glosry-htm-----glossary-entry---access-the-replacement-objects-rather-than-the-database-views-------database-views-managed-by-abap-dictionary-should-not-be-accessed-directly-in-the-database--see--access-to-abap-managed-database-objects--javascript-call-link---abendatabase-access-recomm-htm--------basis-tables--the-basis-tables-of-database-views-can-be--transparent-tables--javascript-call-link---abentransparent-table-glosry-htm-----glossary-entry---and--global-temporary-tables--javascript-call-link---abenglobal-temporary-table-glosry-htm-----glossary-entry-----hint--the-basis-tables-of--cds-managed-ddic-views--javascript-call-link---abencds-mngdddic-view-glosry-htm-----glossary-entry---that-are-generated-for--cds-views--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---can-also-be-other-ddic-database-views---view-fields--an-include-mechanism-can-be-used-to-add-individual-fields-or-all-fields-from-the-basis-tables-as-view-fields-of-a-ddic-database-view--when-individual-fields-are-used--a-name-other-than-the-name-in-the-basis-tables--can-be-defined-for-a-view-field--this-name-can-have-a-maximum-of-30-characters--must-meet-the-naming-conventions-for-component-names-of--ddic-structures--javascript-call-link---abenddic-structures-htm------and-cannot-be-a-reserved-name--the-reserved-names-that-cannot-be-used-are-specified-in-the-database-table-trese--fields-with-the-type-char-can-have-a-maximum-of-1333-characters--fields-with-the-type-lraw-or-lchr-must-be-at-the-end-of-the-view--only-one-such-field-is-allowed-per-view--furthermore--a-field-with-the-type-int2-or-int4--for-the-maximum-length-of-the-field--must-be-located-directly-in-front-of-this-field---to-use-all-fields--the----character-is-used-instead-of-the-field-name--if-the----character-is-used-for-individual-fields-of-a-basis-table-included-using-----all-fields-up-to-the-fields-specified-with----become-view-fields--if-the-structure-of-a-ddic-database-table-whose-fields-were-added-in-this-way-is-modified--the-structure-of-the-view-is-also-modified---hints------if-a--foreign-key-field--javascript-call-link---abenforeign-key-field-glosry-htm-----glossary-entry---is-added-as-a-view-field--it-keeps-this-attribute-and-all-associated-foreign-key-fields-become-the-foreign-key-of-the-view-------for--cds-managed-ddic-views--javascript-call-link---abencds-mngdddic-view-glosry-htm-----glossary-entry----the-view-fields-shown-as-key-fields-are-in-no-way-related-to-the-key-fields-defined-using--define-view--javascript-call-link---abencds-define-view-v1-htm-----for-the--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry---------a-ddic-database-view-in-the-software-component-sap--basis-can-contain-a-maximum-of-749-view-fields-and-the-total-of-the-field-lengths--the-number-of-bytes-in-non-character-like-fields-plus-the-number-of-characters-in-flat-character-like-fields--must-not-exceed-4096--a-database-view-in-any-other-software-component-can-contain-a-maximum-of-1500-view-fields-and-the-total-of-the-field-lengths-is-not-checked-in-abap-dictionary---join-conditions--the-join-conditions-for-the-inner-join-can-be-formulated-using-equality-relationships-between-any-two-table-fields-in-the-basis-tables--the-inner-join-joins-the-rows-of-the-basis-tables-in-question-as-a-result-set-containing-all-combinations-of-rows-whose-columns-together-meet-the-join-conditions--if-there-are-no-rows-that-meet-the-join-conditions-in-the-basis-tables-in-question--no-row-is-created-in-the-result-set--if-there-is-a-suitable--foreign-key-dependency--javascript-call-link---abenddic-database-tables-forkeyrel-htm------including-generic-and-constant-foreign-keys--between-two-basis-tables--this-dependency-can-be-used-as-a-default-for-defining-join-conditions-in-abap-dictionary---maintenance-status--the-access-setting-in-the-maintenance-status-of-a-ddic-database-view-can-have-the-following-values-------read-only--the-database-view-can-only-be-used-to-read-data-with-abap-sql-------read--change--delete--and-insert--if-the-database-view-contains-only-a-single-basis-table--data-can-be--changed--javascript-call-link---abenopen-sql-writing-htm-----using-abap-sql---a-database-view-with-multiple-basis-tables-can-only-be-read-with-abap-sql--if-a-database-view-contains-only-a-single-table--data-can-be-inserted-in-this-table-using-the-view-with-the-abap-sql-statements--insert--javascript-call-link---abapinsert-dbtab-htm-----or--modify--javascript-call-link---abapinsert-dbtab-htm------the-following-options-are-available-for-the-content-of-the-table-fields-not-in-the-view-------if-the-table-field-is-defined-with--not-null--javascript-call-link---abenddic-database-tables-init-htm-----on-the-database--the-field-is-filled-with-the-corresponding-initial-value-------if-the-table-field-is-defined-with--not-null--javascript-call-link---abenddic-database-tables-init-htm-----on-the-database--and-there-is-no-initial-value--nothing-can-be-inserted-and-a-database-error-occurs-with-a-corresponding-exception-------if-the-table-field-is-not-defined-with--not-null--javascript-call-link---abenddic-database-tables-init-htm-----on-the-database--the-field-is-filled-with-the--null-value--javascript-call-link---abennull-value-glosry-htm-----glossary-entry-----hints------a-ddic-database-view-should-only-be-used-to-insert-data-in-the-table-if-the-flag-for-initial-values-is-set-for-all-table-fields-that-are-not-in-the-view-------it-is-not-usually-a-problem-to-modify-existing-data-records-using-a-database-view-in-cases-where-the-database-view-contains-all-key-fields-of-the-table-------like-a-ddic-database-table--the-maintenance-status-of-a-database-view-has-a--display-and-maintain--javascript-call-link---abenddic-database-tables-maint-htm-----setting-alongside-the-access-setting--the-setting-must-match-the-access-setting--in-database-views-containing-multiple-basis-tables--only-the-setting-display-maintenance-not-allowed-is-possible---table-buffering--just-like-in-ddic-database-tables--it-is-possible-to-define-for-a-database-view-whether-the-data-in-the--table-buffer--javascript-call-link---abentable-buffer-glosry-htm-----glossary-entry---is-buffered--the-same--buffering-types--javascript-call-link---abenddic-database-tables-buffer-htm-----can-be-defined-and--table-buffering-in-abap-sql--javascript-call-link---abensap-puffering-htm-----is-handled-in-the-same-way-for-views-and-for-ddic-database-tables-with-the-only-difference-being-that--when-data-is-modified-in-one-of-the-basis-tables--the-entire-buffer-is-invalidated-when-the--buffers-are-synchronized--javascript-call-link---abenbuffer-synchro-htm------regardless-of-the-buffering-type-in-client-dependent-views--however--this-only-affects-the-content-of-the-current-client---the-following-prerequisites-must-be-met-before-a-ddic-database-view-can-be-buffered-------a-basis-table-can-occur-in-no-more-than-nine-buffered-database-views-------if-all-fields-of-the-database-view-are-key-fields--these-fields-must-also-be-key-fields-of-the-basis-tables-------a-view-whose-data-is-written-to-using-abap-sql-cannot-have-a--replacement-object--javascript-call-link---abenddic-replacement-objects-htm-------hint--no--replacement-objects--javascript-call-link---abenddic-replacement-objects-htm-----can-be-created-for-an-existing-buffered-view-whose-data-can-be-written-to-using-abap-sql---example--the-ddic-database-view-demo--scarr--spfli-contains-fields-of-the-tables-scarr-and-spfli--other-names-are-assigned-to-these-fields-in-the-view---the-associated-database-object-could-be-as-follows---create-view-demo--scarr--spfli-----client-----id-----carrier-----flight-----departure-----destination---as-select----t1--mandt------t2--carrid------t1--carrname------t2--connid------t2--cityfrom------t2--cityto--from------scarr--t1-------spfli--t2-where-----t1--mandt-----t2--mandt--and-----t1--carrid----t2--carrid---the-view-can-be-accessed-as-follows-using-abap-sql---select-----------from-demo--scarr--spfli--------order-by-id--carrier--flight--------into-table-DATA(result).
+-   [Table Buffering](#abenddic-database-views-5---hints------a-ddic-database-view-can-be-activated-in-abap-dictionary-without-its-basis-tables-being-defined-on-the-database--the-view-is-also-not-created-on-the-database-in-this-case-------as-in-a--ddic-database-table--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-database-tables-client-htm---the-client-dependency-of-a-database-view-is-determined-by-an-initial-column-with-the-built-in-dictionary-type-clnt--------ddic-append-views--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-append-views-htm--are-available-for-enhancing-the-database-views-in-abap-dictionary-delivered-by-sap-without-making-any-modifications-------suitable--cds-views--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-view-glosry-htm--glossary-entry---can-be-defined-as--replacement-objects--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-replacement-objects-htm--for-database-views--in-this-case--reads-in--abap-sql--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenabap-sql-glosry-htm--glossary-entry---access-the-replacement-objects-rather-than-the-database-views-------database-views-managed-by-abap-dictionary-should-not-be-accessed-directly-in-the-database--see--access-to-abap-managed-database-objects--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abendatabase-access-recomm-htm-----basis-tables--the-basis-tables-of-database-views-can-be--transparent-tables--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abentransparent-table-glosry-htm--glossary-entry---and--global-temporary-tables--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenglobal-temporary-table-glosry-htm--glossary-entry-----hint--the-basis-tables-of--cds-managed-ddic-views--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-mngdddic-view-glosry-htm--glossary-entry---that-are-generated-for--cds-views--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-view-glosry-htm--glossary-entry---can-also-be-other-ddic-database-views---view-fields--an-include-mechanism-can-be-used-to-add-individual-fields-or-all-fields-from-the-basis-tables-as-view-fields-of-a-ddic-database-view--when-individual-fields-are-used--a-name-other-than-the-name-in-the-basis-tables--can-be-defined-for-a-view-field--this-name-can-have-a-maximum-of-30-characters--must-meet-the-naming-conventions-for-component-names-of--ddic-structures--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-structures-htm---and-cannot-be-a-reserved-name--the-reserved-names-that-cannot-be-used-are-specified-in-the-database-table-trese--fields-with-the-type-char-can-have-a-maximum-of-1333-characters--fields-with-the-type-lraw-or-lchr-must-be-at-the-end-of-the-view--only-one-such-field-is-allowed-per-view--furthermore--a-field-with-the-type-int2-or-int4--for-the-maximum-length-of-the-field--must-be-located-directly-in-front-of-this-field---to-use-all-fields--the----character-is-used-instead-of-the-field-name--if-the----character-is-used-for-individual-fields-of-a-basis-table-included-using-----all-fields-up-to-the-fields-specified-with----become-view-fields--if-the-structure-of-a-ddic-database-table-whose-fields-were-added-in-this-way-is-modified--the-structure-of-the-view-is-also-modified---hints------if-a--foreign-key-field--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenforeign-key-field-glosry-htm--glossary-entry---is-added-as-a-view-field--it-keeps-this-attribute-and-all-associated-foreign-key-fields-become-the-foreign-key-of-the-view-------for--cds-managed-ddic-views--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-mngdddic-view-glosry-htm--glossary-entry----the-view-fields-shown-as-key-fields-are-in-no-way-related-to-the-key-fields-defined-using--define-view--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-define-view-v1-htm--for-the--cds-entity--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abencds-entity-glosry-htm--glossary-entry---------a-ddic-database-view-in-the-software-component-sap--basis-can-contain-a-maximum-of-749-view-fields-and-the-total-of-the-field-lengths--the-number-of-bytes-in-non-character-like-fields-plus-the-number-of-characters-in-flat-character-like-fields--must-not-exceed-4096--a-database-view-in-any-other-software-component-can-contain-a-maximum-of-1500-view-fields-and-the-total-of-the-field-lengths-is-not-checked-in-abap-dictionary---join-conditions--the-join-conditions-for-the-inner-join-can-be-formulated-using-equality-relationships-between-any-two-table-fields-in-the-basis-tables--the-inner-join-joins-the-rows-of-the-basis-tables-in-question-as-a-result-set-containing-all-combinations-of-rows-whose-columns-together-meet-the-join-conditions--if-there-are-no-rows-that-meet-the-join-conditions-in-the-basis-tables-in-question--no-row-is-created-in-the-result-set--if-there-is-a-suitable--foreign-key-dependency--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-database-tables-forkeyrel-htm---including-generic-and-constant-foreign-keys--between-two-basis-tables--this-dependency-can-be-used-as-a-default-for-defining-join-conditions-in-abap-dictionary---maintenance-status--the-access-setting-in-the-maintenance-status-of-a-ddic-database-view-can-have-the-following-values-------read-only--the-database-view-can-only-be-used-to-read-data-with-abap-sql-------read--change--delete--and-insert--if-the-database-view-contains-only-a-single-basis-table--data-can-be--changed--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenopen-sql-writing-htm--using-abap-sql---a-database-view-with-multiple-basis-tables-can-only-be-read-with-abap-sql--if-a-database-view-contains-only-a-single-table--data-can-be-inserted-in-this-table-using-the-view-with-the-abap-sql-statements--insert--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abapinsert-dbtab-htm--or--modify--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abapinsert-dbtab-htm---the-following-options-are-available-for-the-content-of-the-table-fields-not-in-the-view-------if-the-table-field-is-defined-with--not-null--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-database-tables-init-htm--on-the-database--the-field-is-filled-with-the-corresponding-initial-value-------if-the-table-field-is-defined-with--not-null--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-database-tables-init-htm--on-the-database--and-there-is-no-initial-value--nothing-can-be-inserted-and-a-database-error-occurs-with-a-corresponding-exception-------if-the-table-field-is-not-defined-with--not-null--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-database-tables-init-htm--on-the-database--the-field-is-filled-with-the--null-value--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abennull-value-glosry-htm--glossary-entry-----hints------a-ddic-database-view-should-only-be-used-to-insert-data-in-the-table-if-the-flag-for-initial-values-is-set-for-all-table-fields-that-are-not-in-the-view-------it-is-not-usually-a-problem-to-modify-existing-data-records-using-a-database-view-in-cases-where-the-database-view-contains-all-key-fields-of-the-table-------like-a-ddic-database-table--the-maintenance-status-of-a-database-view-has-a--display-and-maintain--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-database-tables-maint-htm--setting-alongside-the-access-setting--the-setting-must-match-the-access-setting--in-database-views-containing-multiple-basis-tables--only-the-setting-display-maintenance-not-allowed-is-possible---table-buffering--just-like-in-ddic-database-tables--it-is-possible-to-define-for-a-database-view-whether-the-data-in-the--table-buffer--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abentable-buffer-glosry-htm--glossary-entry---is-buffered--the-same--buffering-types--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-database-tables-buffer-htm--can-be-defined-and--table-buffering-in-abap-sql--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abensap-puffering-htm--is-handled-in-the-same-way-for-views-and-for-ddic-database-tables-with-the-only-difference-being-that--when-data-is-modified-in-one-of-the-basis-tables--the-entire-buffer-is-invalidated-when-the--buffers-are-synchronized--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenbuffer-synchro-htm---regardless-of-the-buffering-type-in-client-dependent-views--however--this-only-affects-the-content-of-the-current-client---the-following-prerequisites-must-be-met-before-a-ddic-database-view-can-be-buffered-------a-basis-table-can-occur-in-no-more-than-nine-buffered-database-views-------if-all-fields-of-the-database-view-are-key-fields--these-fields-must-also-be-key-fields-of-the-basis-tables-------a-view-whose-data-is-written-to-using-abap-sql-cannot-have-a--replacement-object--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-replacement-objects-htm----hint--no--replacement-objects--https---help-sap-com-doc-abapdocu-755-index-htm-7-55-en-us-abenddic-replacement-objects-htm--can-be-created-for-an-existing-buffered-view-whose-data-can-be-written-to-using-abap-sql---example--the-ddic-database-view-demo--scarr--spfli-contains-fields-of-the-tables-scarr-and-spfli--other-names-are-assigned-to-these-fields-in-the-view---the-associated-database-object-could-be-as-follows---create-view-demo--scarr--spfli-----client-----id-----carrier-----flight-----departure-----destination---as-select----t1--mandt------t2--carrid------t1--carrname------t2--connid------t2--cityfrom------t2--cityto--from------scarr--t1-------spfli--t2-where-----t1--mandt-----t2--mandt--and-----t1--carrid----t2--carrid---the-view-can-be-accessed-as-follows-using-abap-sql---select-----------from-demo--scarr--spfli--------order-by-id--carrier--flight--------into-table-DATA(result).
 cl\_demo\_output=>display( result ).
 
 
-
-**📖 Source**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_views.htm)
-
 ### abenddic_projection_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_projection_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Projection Views"
+description: |
+  A DDIC projection view is a special view for hiding fields from a single basis table. An SQL view is not created on the database. No selection conditions can be specified for a DDIC projection view. The structure type defined using the view fields of the projection view can be referenced in ABAP pro
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_projection_views.htm"
+abapFile: "abenddic_projection_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "data", "abenddic", "projection", "views"]
+---
 
 * * *
 
@@ -1518,16 +1581,19 @@ SELECT \*
 cl\_demo\_output=>display( result ).
 
 
-
-**📖 Source**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_projection_views.htm)
-
 ### abenddic_maintenance_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_maintenance_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Maintenance Views"
+description: |
+  A DDIC maintenance view is a special view for performing writes on multiple tables using extended table maintenance. A single maintenance view can be used to modify the content of multiple related database tables consistently. A DDIC maintenance view is not defined on the database. The structure typ
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_maintenance_views.htm"
+abapFile: "abenddic_maintenance_views.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "abenddic", "maintenance", "views"]
+---
 
 * * *
 
@@ -1620,16 +1686,19 @@ A DDIC maintenance view also has a [delivery class](https://help.sap.com/doc/aba
 Regardless of this, the transport of the basis tables involved in upgrades and in transports between customer systems is determined solely by their [delivery class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_delivery.htm).
 
 
-
-**📖 Source**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_maintenance_views.htm)
-
 ### abenddic_help_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_help_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Help Views"
+description: |
+  A DDIC help view is a special view for use in search helps(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_help_glosry.htm 'Glossary Entry'). The selection methods of a search help can be database tables, DDIC database views, and the special help views. DDIC database tables r
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_help_views.htm"
+abapFile: "abenddic_help_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenddic", "help", "views"]
+---
 
 * * *
 
@@ -1658,16 +1727,19 @@ Hints
 -   Selections using help views can only be made quicker by making restrictions on the primary table. When accessing help views from the ABAP runtime environment, special selection routines are generated. These routines always make the selection using the primary table first and then use the records found as a key for selecting the supplementary information.
 
 
-
-**📖 Source**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_help_views.htm)
-
 ### abenddic_table_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Table Views"
+description: |
+  A DDIC table view is a repository object in ABAP Dictionary defined for existing DDIC database tables and their fields in the form-based ABAP Dictionary tool(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_tools.htm) in ABAP Workbench(https://help.sap.com/doc/abapdocu_755_ind
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_views.htm"
+abapFile: "abenddic_table_views.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "data", "types", "abenddic", "table", "views"]
+---
 
 * * *
 
@@ -1742,16 +1814,19 @@ Continue
 [DDIC - Help Views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_help_views.htm)
 
 
-
-**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_views.htm)
-
 ### abenddic_external_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_external_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_external_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - External Views"
+description: |
+  A DDIC external view is a special dictionary view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendictionary_view_glosry.htm 'Glossary Entry') that defines(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexternal_views.htm) an SAP HANA view(https://help.sap.com/do
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_external_views.htm"
+abapFile: "abenddic_external_views.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "data", "types", "abenddic", "external", "views"]
+---
 
 * * *
 
@@ -1866,16 +1941,19 @@ Hints
 Included pages: 9
 
 
-
-**📖 Source**: [abenddic_external_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_external_views.htm)
-
 ### abenddic_enhancements.htm
 
-> **📖 Official SAP Documentation**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_enhancements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Enhancements"
+description: |
+  A DDIC structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures.htm), DDIC database table(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables.htm), DDIC database view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/aben
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_enhancements.htm"
+abapFile: "abenddic_enhancements.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "enhancements"]
+---
 
 * * *
 
@@ -1910,16 +1988,19 @@ Continue
 [DDIC - Fixed Value Appends](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_fixed_value_appends.htm)
 
 
-
-**📖 Source**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_enhancements.htm)
-
 ### abenddic_customizing_includes.htm
 
-> **📖 Official SAP Documentation**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_customizing_includes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Customizing Includes"
+description: |
+  A customizing include is a DDIC structure whose name has the prefix CI_ for customers and SI_ for partners and is in the customer namespace. Customizing includes can be included in DDIC structures(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures.htm) and DDIC datab
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_customizing_includes.htm"
+abapFile: "abenddic_customizing_includes.htm"
+keywords: ["insert", "do", "if", "data", "abenddic", "customizing", "includes"]
+---
 
 * * *
 
@@ -1936,16 +2017,19 @@ A customizing include can be included in multiple DDIC database tables or DDIC s
 Enhancements of a delivered DDIC structure or DDIC database table using a customizing include are not modifications. If a customizing include is used to add fields to a DDIC database table or DDIC structure in the standard system, these fields are inserted automatically in the new DDIC structure or DDIC database table delivered by SAP in an upgrade.
 
 
-
-**📖 Source**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_customizing_includes.htm)
-
 ### abenddic_append_structures.htm
 
-> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_structures.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Append Structures"
+description: |
+  An append structure is a structure in ABAP Dictionary appended to another DDIC structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures.htm) or DDIC database table(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables.htm) and which a
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_structures.htm"
+abapFile: "abenddic_append_structures.htm"
+keywords: ["insert", "do", "if", "try", "data", "abenddic", "append", "structures"]
+---
 
 * * *
 
@@ -1995,16 +2079,19 @@ Continue
 [DDIC - Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm)
 
 
-
-**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_structures.htm)
-
 ### abenddic_extend_type.htm
 
-> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary DDL for Structure Enhancements"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm 'Glossary Entry'), a structure or DDIC database table can be given a source-code-based enhancement known as an append structure in Dictionary DDL(https://help.sap.com/doc/abapdocu_75
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm"
+abapFile: "abenddic_extend_type.htm"
+keywords: ["do", "try", "data", "abenddic", "extend", "type"]
+---
 
 * * *
 
@@ -2026,16 +2113,19 @@ Continue
 [DDIC DDL - EXTEND TYPE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_extend_type.htm)
 
 
-
-**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm)
-
 ### abenddicddl_extend_type.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_extend_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - EXTEND TYPE"
+description: |
+  Syntax structure_annos(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm) EXTEND TYPE structdbtab WITH append_struct  ... component(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm) ... extend(
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_extend_type.htm"
+abapFile: "abenddicddl_extend_type.htm"
+keywords: ["do", "if", "try", "data", "abenddicddl", "extend", "type"]
+---
 
 * * *
 
@@ -2090,16 +2180,19 @@ extend type demo\_structure with demo\_append\_structure {
 The source code used to define the structure DEMO\_STRUCTURE is not modified by this enhancement. In the ADT, however, an icon indicates that the structure is enhanced using DEMO\_APPEND\_STRUCTURE.
 
 
-
-**📖 Source**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_extend_type.htm)
-
 ### abenddic_extend_type.htm
 
-> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary DDL for Structure Enhancements"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm 'Glossary Entry'), a structure or DDIC database table can be given a source-code-based enhancement known as an append structure in Dictionary DDL(https://help.sap.com/doc/abapdocu_75
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm"
+abapFile: "abenddic_extend_type.htm"
+keywords: ["do", "try", "data", "abenddic", "extend", "type"]
+---
 
 * * *
 
@@ -2121,16 +2214,19 @@ Continue
 [DDIC DDL - EXTEND TYPE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_extend_type.htm)
 
 
-
-**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm)
-
 ### abenddic_append_structures.htm
 
-> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_structures.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Append Structures"
+description: |
+  An append structure is a structure in ABAP Dictionary appended to another DDIC structure(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures.htm) or DDIC database table(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables.htm) and which a
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_structures.htm"
+abapFile: "abenddic_append_structures.htm"
+keywords: ["insert", "do", "if", "try", "data", "abenddic", "append", "structures"]
+---
 
 * * *
 
@@ -2180,16 +2276,19 @@ Continue
 [DDIC - Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_extend_type.htm)
 
 
-
-**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_structures.htm)
-
 ### abenddic_append_views.htm
 
-> **📖 Official SAP Documentation**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Append Views"
+description: |
+  DDIC database views(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_views.htm) delivered by SAP can be enhanced by partners and customers using views known as DDIC append views, without making any modifications. The name of an append view is subject to the same rules a
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_views.htm"
+abapFile: "abenddic_append_views.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenddic", "append", "views"]
+---
 
 * * *
 
@@ -2218,16 +2317,19 @@ Example
 The DDIC append view DEMO\_APPEND\_VIEW is added to the DDIC database view DEMO\_ORIGINAL. The program DEMO\_APPEND\_VIEW uses [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) to access the extended view and also displays the components of the structures in question.
 
 
-
-**📖 Source**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_append_views.htm)
-
 ### abenddic_fixed_value_appends.htm
 
-> **📖 Official SAP Documentation**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_fixed_value_appends.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Fixed Value Appends"
+description: |
+  Domains(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm) delivered by SAP can be enhanced by partners and customers using appends known as fixed value appends, without making any modifications. The name of a fixed value append is subject to the same rules as the nam
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_fixed_value_appends.htm"
+abapFile: "abenddic_fixed_value_appends.htm"
+keywords: ["do", "if", "try", "abenddic", "fixed", "value", "appends"]
+---
 
 * * *
 
@@ -2260,16 +2362,19 @@ The fixed value append DEMO\_FIXED\_VALUE\_APPEND is added to the domain DEMO\_O
 Included pages: 7
 
 
-
-**📖 Source**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_fixed_value_appends.htm)
-
 ### abenddic_dependency_rules.htm
 
-> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_dependency_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dependency Rules"
+description: |
+  A dependency rule is a dictionary object, an instance of which is created on an SAP HANA database(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm 'Glossary Entry'). A dependency rule is defined for one or more DDIC database tables. From a relational expressi
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_dependency_rules.htm"
+abapFile: "abenddic_dependency_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenddic", "dependency", "rules"]
+---
 
 * * *
 
@@ -2303,16 +2408,19 @@ Continue
 [DDIC - Dictionary DDL for Defining Dependency Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm)
 
 
-
-**📖 Source**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_dependency_rules.htm)
-
 ### abenddic_define_dependency_rule.htm
 
-> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dependency Rules"
+description: |
+  An ABAP Dictionary dependency rule(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendependency_rule_glosry.htm 'Glossary Entry') is defined as a source-code-based rule in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm"
+abapFile: "abenddic_define_dependency_rule.htm"
+keywords: ["do", "try", "abenddic", "define", "dependency", "rule"]
+---
 
 * * *
 
@@ -2336,16 +2444,19 @@ Continue
 [DDIC DDL - DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm)
 
 
-
-**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm)
-
 ### abenddicddl_define_drul.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm) JOIN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm) DEPENDENCY RULE drul ON dbtab , ... IF  cond_pattern  THEN  derived
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm"
+abapFile: "abenddicddl_define_drul.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenddicddl", "define", "drul"]
+---
 
 * * *
 
@@ -2403,16 +2514,19 @@ Continue
 [DDIC DDL - DEFINE JOIN DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm)
-
 ### abenddicddl_define_filter_drul.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE FILTER DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER DEPENDENCY RULE drul ON dbtab IF  cond_pattern  THEN  derived_cond  Effect Variant of the Dictionary DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry') statement DEFINE DEPENDENCY RULE(https://help.sap.com/doc
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm"
+abapFile: "abenddicddl_define_filter_drul.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abenddicddl", "define", "filter", "drul"]
+---
 
 * * *
 
@@ -2551,16 +2665,19 @@ ASSERT result1 = result2.
 If the data in the DDIC database table is structured so that in rows where the column VALUE contains values greater than or equal to 30 the values in the column AREA are greater than or equal to 3, the result sets of both reads are identical. To derive an additional condition with a dependency on the condition value < 40, a further filter dependency rule could be defined for the same DDIC database table.
 
 
-
-**📖 Source**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm)
-
 ### abenddicddl_define_join_drul.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE JOIN DEPENDENCY RULE"
+description: |
+  Syntax DEFINE JOIN DEPENDENCY RULE drul ON dbtab1, dbtab2 IF  cond_pattern  THEN  derived_cond  Effect Variant of the Dictionary DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry') statement DEFINE DEPENDENCY RULE(https://help.sap.
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm"
+abapFile: "abenddicddl_define_join_drul.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abenddicddl", "define", "join", "drul"]
+---
 
 * * *
 
@@ -2676,16 +2793,19 @@ AND demo\_parts\_4~area <  4
 If the data in the DDIC database tables is structured correctly, the dependency rules do not modify the result set.
 
 
-
-**📖 Source**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm)
-
 ### abenddicddl_define_drul.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_filter_drul.htm) JOIN(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm) DEPENDENCY RULE drul ON dbtab , ... IF  cond_pattern  THEN  derived
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm"
+abapFile: "abenddicddl_define_drul.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenddicddl", "define", "drul"]
+---
 
 * * *
 
@@ -2743,16 +2863,19 @@ Continue
 [DDIC DDL - DEFINE JOIN DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_join_drul.htm)
 
 
-
-**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_drul.htm)
-
 ### abenddic_define_dependency_rule.htm
 
-> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dependency Rules"
+description: |
+  An ABAP Dictionary dependency rule(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendependency_rule_glosry.htm 'Glossary Entry') is defined as a source-code-based rule in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm"
+abapFile: "abenddic_define_dependency_rule.htm"
+keywords: ["do", "try", "abenddic", "define", "dependency", "rule"]
+---
 
 * * *
 
@@ -2788,16 +2911,19 @@ Continue
 Included pages: 4
 
 
-
-**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dependency_rule.htm)
-
 ### abenddic_dynamic_caches.htm
 
-> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_dynamic_caches.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dynamic Caches"
+description: |
+  Interface between cached views(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_cached_views.htm) in SAP HANA and dictionary views. -   Dictionary DDL for Defining Dynamic Caches(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm) DDI
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_dynamic_caches.htm"
+abapFile: "abenddic_dynamic_caches.htm"
+keywords: ["do", "abenddic", "dynamic", "caches"]
+---
 
 * * *
 
@@ -2815,16 +2941,19 @@ Continue
 [DDIC - Dictionary DDL for Defining Dynamic Caches](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm)
 
 
-
-**📖 Source**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_dynamic_caches.htm)
-
 ### abenddic_define_dynamic_cache.htm
 
-> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dynamic Caches"
+description: |
+  Interface between cached views(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_cached_views.htm) in SAP HANA and dictionary views. -   DEFINE DYNAMIC CACHE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_dynamic_cache.htm) DDIC DDL - DEFINE DYNA
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm"
+abapFile: "abenddic_define_dynamic_cache.htm"
+keywords: ["do", "abenddic", "define", "dynamic", "cache"]
+---
 
 * * *
 
@@ -2842,16 +2971,19 @@ Continue
 [DDIC DDL - DEFINE DYNAMIC CACHE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_dynamic_cache.htm)
 
 
-
-**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm)
-
 ### abenddicddl_define_dynamic_cache.htm
 
-> **📖 Official SAP Documentation**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC DDL - DEFINE DYNAMIC CACHE"
+description: |
+  Syntax DEFINE DYNAMIC CACHE ...  Effect Interface between cached views(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_cached_views.htm) in SAP HANA and dictionary views.
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_dynamic_cache.htm"
+abapFile: "abenddicddl_define_dynamic_cache.htm"
+keywords: ["do", "abenddicddl", "define", "dynamic", "cache"]
+---
 
 * * *
 
@@ -2870,16 +3002,19 @@ Effect
 Interface between [cached views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_cached_views.htm) in SAP HANA and dictionary views.
 
 
-
-**📖 Source**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_dynamic_cache.htm)
-
 ### abenddic_define_dynamic_cache.htm
 
-> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dynamic Caches"
+description: |
+  Interface between cached views(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_cached_views.htm) in SAP HANA and dictionary views. -   DEFINE DYNAMIC CACHE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_dynamic_cache.htm) DDIC DDL - DEFINE DYNA
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm"
+abapFile: "abenddic_define_dynamic_cache.htm"
+keywords: ["do", "abenddic", "define", "dynamic", "cache"]
+---
 
 * * *
 
@@ -2900,25 +3035,28 @@ Continue
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Rules / rel_exp - Comparing Elementary Data Types / rel_exp - Comparison Type of Calculation Expressions
+## ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Operators / rel_exp - Comparison Operators for All Data Types
 
-**Files**: 4 | **Difficulty**: intermediate
+**Files**: 6 | **Difficulty**: intermediate
 
 # ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Functions
 
 Included pages: 2
 
 
-
-**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_dynamic_cache.htm)
-
 ### abenlogic_functions.htm
 
-> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Logical Functions"
+description: |
+  Logical functions are a part of built-in functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_functions.htm). They are divided into: -   Boolean functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm) -   Predicate functions(ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_functions.htm"
+abapFile: "abenlogic_functions.htm"
+keywords: ["do", "abenlogic", "functions"]
+---
 
 * * *
 
@@ -2942,16 +3080,19 @@ Continue
 [boolc, boolx, xsdbool, Boolean Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)
 
 
-
-**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_functions.htm)
-
 ### abenboole_functions.htm
 
-> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Effect"
+description: |
+  The Boolean functions determine the truth value(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentruth_value_glosry.htm 'Glossary Entry') of a logical expression log_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) specified as an argument. For log_e
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm"
+abapFile: "abenboole_functions.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenboole", "functions"]
+---
 
 * * *
 
@@ -3094,25 +3235,428 @@ ENDIF.
 ---
 
 
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamp Field with Time Stamp Type
+## ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Operators / rel_exp - Comparison Operators for Character-Like Data Types
 
-**Files**: 14 | **Difficulty**: intermediate
+**Files**: 2 | **Difficulty**: intermediate
+
+# ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Functions
+
+Included pages: 2
+
+
+### abenlogic_functions.htm
+
+---
+title: "Logical Functions"
+description: |
+  Logical functions are a part of built-in functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_functions.htm). They are divided into: -   Boolean functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm) -   Predicate functions(ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_functions.htm"
+abapFile: "abenlogic_functions.htm"
+keywords: ["do", "abenlogic", "functions"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_expr_func.htm) → 
+
+Logical Functions
+
+Logical functions are a part of [built-in functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_functions.htm). They are divided into:
+
+-   [Boolean functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)
+
+-   [Predicate functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicate_functions.htm)
+
+Hint
+
+The program DEMO\_EXPRESSIONS shows examples of how to use logical functions.
+
+Continue
+[boolc, boolx, xsdbool, Boolean Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)
+
+
+### abenboole_functions.htm
+
+---
+title: "Effect"
+description: |
+  The Boolean functions determine the truth value(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentruth_value_glosry.htm 'Glossary Entry') of a logical expression log_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) specified as an argument. For log_e
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm"
+abapFile: "abenboole_functions.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenboole", "functions"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_expr_func.htm) →  [Logical Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_functions.htm) → 
+
+boolc, boolx, xsdbool, Boolean Functions
+
+Variants:
+
+[1\. ... boolc( log\_exp ) ...](#!ABAP_VARIANT_1@1@)
+[2\. ... boolx( bool = log\_exp bit = bit ) ...](#!ABAP_VARIANT_2@2@)
+[3\. ... xsdbool( log\_exp ) ...](#!ABAP_VARIANT_3@3@)
+
+Effect
+
+The Boolean functions determine the [truth value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentruth_value_glosry.htm "Glossary Entry") of a logical expression [log\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) specified as an argument. For log\_exp, any logical expression can be specified in accordance with the applicable rules. The return value of a Boolean function has a data type dependent on the function and expresses the truth value of the logical expression with a value of this type.
+
+Hint
+
+These functions can be considered a partial replacement for the Boolean data type for truth values that is not available in ABAP. In particular, xsdbool and, under certain circumstances, boolc can be used in many operand positions where values of the type abap\_bool of the type pool ABAP are expected.
+
+Variant 1
+
+... boolc( log\_exp ) ...
+
+Effect
+
+The function boolc returns a single-character character string of the type string. If the logical expression is true, "X" is returned. If the logical expression is false, a blank is returned. In principle, boolc is one of the [processing functions with character-like results](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm) and can be specified in [general expression positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and in [character-like expression positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
+
+Hints
+
+-   If boolc requires return values other than "X" or " " (for example, "Y" and "N" or "1" and "0"), the result of boolc can be processed directly using the function [translate](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentranslate_functions.htm) or another suitable [processing function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm).
+
+-   The result of boolc should not be compared with the constants abap\_true and abap\_false in relational expressions, since the latter converts from c to string and ignores any blanks. Comparisons of this type are not usually necessary. If a comparison of this type is to be executed anyway, the function xsdbool can be used instead of boolc whose result has the same ABAP type as abap\_bool.
+
+-   If the logical expression is false, the result of boolc does not meet the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_initial.htm), since a blank and no empty string is returned. If this is desired, the function xsdbool can be used instead of boolc.
+
+-   If boolc is used in inappropriate places as specified in the points above, this leads to a syntax warning, which can be hidden using a pragma.
+
+Example
+
+The value 0, 1, or 2 is assigned to the variable bool\_value, depending on the result of the logical expressions log\_exp1 and log\_exp2.
+
+DATA bool\_value TYPE i.
+bool\_value = strlen( condense( val = boolc( log\_exp1 ) ) ) +
+             strlen( condense( val = boolc( log\_exp2 ) ) ).
+
+Example
+
+Call of a method, where the input parameter no\_dialog is supplied with the character-like representation of the results of a predicate expression.
+
+PARAMETERS word TYPE c length 30.
+DATA result\_tab TYPE cl\_abap\_docu=>search\_results.
+cl\_abap\_docu=>start(
+  EXPORTING word           = word
+            no\_dialog      = boolc( sy-batch IS NOT INITIAL )
+  IMPORTING search\_results = result\_tab ).
+
+Variant 2
+
+... boolx( bool = log\_exp bit = bit ) ...
+
+Effect
+
+The function boolx returns a byte chain of the type xstring. If the logical expression is true, the byte chain is filled as if the function [bit-set( bit )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_functions.htm) were executed. If the logical expression is false, the byte chain is filled as if the function [bit-set( 0 )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_functions.htm) were executed. bit expects a data object of the type i. In principle, boolx belongs to the [bit functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_functions.htm) and can be used in all positions where a [bit expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_expression_glosry.htm "Glossary Entry") is also allowed.
+
+Hint
+
+The function boolx can be used for efficient storage of sequences of truth values.
+
+Example
+
+The result of the following [bit expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_expression_glosry.htm "Glossary Entry") is hexadecimal 55, which corresponds to the calculated bit string 01010101.
+
+DATA(result) = boolx( bool = 2 > 1 bit = 8 )
+        BIT-OR boolx( bool = 2 < 1 bit = 7 )
+        BIT-OR boolx( bool = 2 > 1 bit = 6 )
+        BIT-OR boolx( bool = 2 < 1 bit = 5 )
+        BIT-OR boolx( bool = 2 > 1 bit = 4 )
+        BIT-OR boolx( bool = 2 < 1 bit = 3 )
+        BIT-OR boolx( bool = 2 > 1 bit = 2 )
+        BIT-OR boolx( bool = 2 < 1 bit = 1 ).
+
+The bit expression above can be expressed using the following iteration with the operator [REDUCE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_reduce.htm).
+
+DATA(result) =
+  REDUCE xstring( INIT x TYPE xstring
+                  FOR j = 4 THEN j - 1 UNTIL j < 1
+                  LET b1 = 2 \* j b2 = 2 \* j - 2 IN
+                  NEXT x = x BIT-OR boolx( bool = 2 > 1  bit = b1 )
+                             BIT-OR boolx( bool = 2 < 1  bit = b2 ) ).
+
+Variant 3
+
+... xsdbool( log\_exp ) ...
+
+Effect
+
+Like boolc, the function xsdbool returns the value "X" for true and a blank for false. The data type of the return value, however, has the type c of the length 1 here.
+
+The return value references the type XSDBOOLEAN from the ABAP Dictionary. This type, which refers to the identically named domain of type CHAR and length 1, is handled like a real Boolean type in serializations and deserializations to or from [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml_schema.htm) and [asJSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_asjson_schema.htm) using [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation.htm). The XML or JSON values true and false are assigned to the values "X" and " " of this type.
+
+xsdbool can be specified in [general](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and [character-like expression positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
+
+Hints
+
+-   The result of xsdbool can be used like a value of the type abap\_bool and can be compared with the constants abap\_true and abap\_false without any problems.
+
+-   If the logical expression is false, the result of boolc fulfills the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_initial.htm), since the returned blank is the type-dependent initial value at the same time.
+
+-   The result of xsdbool cannot usually be converted directly using a [processing function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm) such as [translate](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentranslate_functions.htm), since the trailing blanks here are ignored in text fields of type c. The result of a false logical expression would be ignored. The result of the function boolc of type string is better suited for conversions of this type.
+
+-   The abbreviation xsd stands for [XML schema data types](http://www.w3.org/TR/xmlschema-2/).
+
+Example
+
+This example sets the type and the value of the variable gui\_flag declared inline using the Boolean function xsdbool for whose argument a [predicative method call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry") is listed. The variable is then serialized to [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_glosry.htm "Glossary Entry") and [asJSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasjson_glosry.htm "Glossary Entry") using the predefined [identity transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_id.htm). This produces the value true or false. After a comparison with the identically typed constant abap\_false, the formatted result of the serialization is either read or displayed.
+
+The result would be quite different if boolc were used instead of xsdbool. First, the transformations would have a different result since the values "X" and " " are not transformed to true or false; second, the logical expression gui\_flag = abap\_false would always be false, since abap\_false loses its blank when converting to the type string.
+
+DATA(gui\_flag) = xsdbool( cl\_demo\_sap\_gui=>check( ) ).
+CALL TRANSFORMATION id SOURCE gui\_flag = gui\_flag
+                       RESULT XML DATA(xml).
+DATA(writer) =
+  cl\_sxml\_string\_writer=>create( type = if\_sxml=>co\_xt\_json ).
+CALL TRANSFORMATION id SOURCE gui\_flag = gui\_flag
+                       RESULT XML writer.
+DATA(json) = writer->get\_output( ).
+cl\_demo\_output=>write\_xml( xml ).
+cl\_demo\_output=>write\_json( json ).
+IF gui\_flag = abap\_false.
+  cl\_demo\_output=>get( ).
+ELSE.
+  cl\_demo\_output=>display( ).
+ENDIF.
+
+
+---
+
+
+## ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Expressions (log_exp) / Comparison Expressions (rel_exp) / rel_exp - Comparison Rules / rel_exp - Comparing Elementary Data Types / rel_exp - Comparison Type of Calculation Expressions
+
+**Files**: 4 | **Difficulty**: intermediate
+
+# ABAP - Keyword Documentation / ABAP - Programming Language / Program Flow Logic / Expressions and Functions for Conditions / Logical Functions
+
+Included pages: 2
+
+
+### abenlogic_functions.htm
+
+---
+title: "Logical Functions"
+description: |
+  Logical functions are a part of built-in functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_functions.htm). They are divided into: -   Boolean functions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm) -   Predicate functions(ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_functions.htm"
+abapFile: "abenlogic_functions.htm"
+keywords: ["do", "abenlogic", "functions"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_expr_func.htm) → 
+
+Logical Functions
+
+Logical functions are a part of [built-in functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_functions.htm). They are divided into:
+
+-   [Boolean functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)
+
+-   [Predicate functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicate_functions.htm)
+
+Hint
+
+The program DEMO\_EXPRESSIONS shows examples of how to use logical functions.
+
+Continue
+[boolc, boolx, xsdbool, Boolean Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)
+
+
+### abenboole_functions.htm
+
+---
+title: "Effect"
+description: |
+  The Boolean functions determine the truth value(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentruth_value_glosry.htm 'Glossary Entry') of a logical expression log_exp(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) specified as an argument. For log_e
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm"
+abapFile: "abenboole_functions.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenboole", "functions"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_expr_func.htm) →  [Logical Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_functions.htm) → 
+
+boolc, boolx, xsdbool, Boolean Functions
+
+Variants:
+
+[1\. ... boolc( log\_exp ) ...](#!ABAP_VARIANT_1@1@)
+[2\. ... boolx( bool = log\_exp bit = bit ) ...](#!ABAP_VARIANT_2@2@)
+[3\. ... xsdbool( log\_exp ) ...](#!ABAP_VARIANT_3@3@)
+
+Effect
+
+The Boolean functions determine the [truth value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentruth_value_glosry.htm "Glossary Entry") of a logical expression [log\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) specified as an argument. For log\_exp, any logical expression can be specified in accordance with the applicable rules. The return value of a Boolean function has a data type dependent on the function and expresses the truth value of the logical expression with a value of this type.
+
+Hint
+
+These functions can be considered a partial replacement for the Boolean data type for truth values that is not available in ABAP. In particular, xsdbool and, under certain circumstances, boolc can be used in many operand positions where values of the type abap\_bool of the type pool ABAP are expected.
+
+Variant 1
+
+... boolc( log\_exp ) ...
+
+Effect
+
+The function boolc returns a single-character character string of the type string. If the logical expression is true, "X" is returned. If the logical expression is false, a blank is returned. In principle, boolc is one of the [processing functions with character-like results](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm) and can be specified in [general expression positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and in [character-like expression positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
+
+Hints
+
+-   If boolc requires return values other than "X" or " " (for example, "Y" and "N" or "1" and "0"), the result of boolc can be processed directly using the function [translate](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentranslate_functions.htm) or another suitable [processing function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm).
+
+-   The result of boolc should not be compared with the constants abap\_true and abap\_false in relational expressions, since the latter converts from c to string and ignores any blanks. Comparisons of this type are not usually necessary. If a comparison of this type is to be executed anyway, the function xsdbool can be used instead of boolc whose result has the same ABAP type as abap\_bool.
+
+-   If the logical expression is false, the result of boolc does not meet the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_initial.htm), since a blank and no empty string is returned. If this is desired, the function xsdbool can be used instead of boolc.
+
+-   If boolc is used in inappropriate places as specified in the points above, this leads to a syntax warning, which can be hidden using a pragma.
+
+Example
+
+The value 0, 1, or 2 is assigned to the variable bool\_value, depending on the result of the logical expressions log\_exp1 and log\_exp2.
+
+DATA bool\_value TYPE i.
+bool\_value = strlen( condense( val = boolc( log\_exp1 ) ) ) +
+             strlen( condense( val = boolc( log\_exp2 ) ) ).
+
+Example
+
+Call of a method, where the input parameter no\_dialog is supplied with the character-like representation of the results of a predicate expression.
+
+PARAMETERS word TYPE c length 30.
+DATA result\_tab TYPE cl\_abap\_docu=>search\_results.
+cl\_abap\_docu=>start(
+  EXPORTING word           = word
+            no\_dialog      = boolc( sy-batch IS NOT INITIAL )
+  IMPORTING search\_results = result\_tab ).
+
+Variant 2
+
+... boolx( bool = log\_exp bit = bit ) ...
+
+Effect
+
+The function boolx returns a byte chain of the type xstring. If the logical expression is true, the byte chain is filled as if the function [bit-set( bit )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_functions.htm) were executed. If the logical expression is false, the byte chain is filled as if the function [bit-set( 0 )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_functions.htm) were executed. bit expects a data object of the type i. In principle, boolx belongs to the [bit functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_functions.htm) and can be used in all positions where a [bit expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_expression_glosry.htm "Glossary Entry") is also allowed.
+
+Hint
+
+The function boolx can be used for efficient storage of sequences of truth values.
+
+Example
+
+The result of the following [bit expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_expression_glosry.htm "Glossary Entry") is hexadecimal 55, which corresponds to the calculated bit string 01010101.
+
+DATA(result) = boolx( bool = 2 > 1 bit = 8 )
+        BIT-OR boolx( bool = 2 < 1 bit = 7 )
+        BIT-OR boolx( bool = 2 > 1 bit = 6 )
+        BIT-OR boolx( bool = 2 < 1 bit = 5 )
+        BIT-OR boolx( bool = 2 > 1 bit = 4 )
+        BIT-OR boolx( bool = 2 < 1 bit = 3 )
+        BIT-OR boolx( bool = 2 > 1 bit = 2 )
+        BIT-OR boolx( bool = 2 < 1 bit = 1 ).
+
+The bit expression above can be expressed using the following iteration with the operator [REDUCE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_reduce.htm).
+
+DATA(result) =
+  REDUCE xstring( INIT x TYPE xstring
+                  FOR j = 4 THEN j - 1 UNTIL j < 1
+                  LET b1 = 2 \* j b2 = 2 \* j - 2 IN
+                  NEXT x = x BIT-OR boolx( bool = 2 > 1  bit = b1 )
+                             BIT-OR boolx( bool = 2 < 1  bit = b2 ) ).
+
+Variant 3
+
+... xsdbool( log\_exp ) ...
+
+Effect
+
+Like boolc, the function xsdbool returns the value "X" for true and a blank for false. The data type of the return value, however, has the type c of the length 1 here.
+
+The return value references the type XSDBOOLEAN from the ABAP Dictionary. This type, which refers to the identically named domain of type CHAR and length 1, is handled like a real Boolean type in serializations and deserializations to or from [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml_schema.htm) and [asJSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_asjson_schema.htm) using [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation.htm). The XML or JSON values true and false are assigned to the values "X" and " " of this type.
+
+xsdbool can be specified in [general](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and [character-like expression positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
+
+Hints
+
+-   The result of xsdbool can be used like a value of the type abap\_bool and can be compared with the constants abap\_true and abap\_false without any problems.
+
+-   If the logical expression is false, the result of boolc fulfills the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_initial.htm), since the returned blank is the type-dependent initial value at the same time.
+
+-   The result of xsdbool cannot usually be converted directly using a [processing function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm) such as [translate](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentranslate_functions.htm), since the trailing blanks here are ignored in text fields of type c. The result of a false logical expression would be ignored. The result of the function boolc of type string is better suited for conversions of this type.
+
+-   The abbreviation xsd stands for [XML schema data types](http://www.w3.org/TR/xmlschema-2/).
+
+Example
+
+This example sets the type and the value of the variable gui\_flag declared inline using the Boolean function xsdbool for whose argument a [predicative method call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry") is listed. The variable is then serialized to [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_glosry.htm "Glossary Entry") and [asJSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasjson_glosry.htm "Glossary Entry") using the predefined [identity transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_id.htm). This produces the value true or false. After a comparison with the identically typed constant abap\_false, the formatted result of the serialization is either read or displayed.
+
+The result would be quite different if boolc were used instead of xsdbool. First, the transformations would have a different result since the values "X" and " " are not transformed to true or false; second, the logical expression gui\_flag = abap\_false would always be false, since abap\_false loses its blank when converting to the type string.
+
+DATA(gui\_flag) = xsdbool( cl\_demo\_sap\_gui=>check( ) ).
+CALL TRANSFORMATION id SOURCE gui\_flag = gui\_flag
+                       RESULT XML DATA(xml).
+DATA(writer) =
+  cl\_sxml\_string\_writer=>create( type = if\_sxml=>co\_xt\_json ).
+CALL TRANSFORMATION id SOURCE gui\_flag = gui\_flag
+                       RESULT XML writer.
+DATA(json) = writer->get\_output( ).
+cl\_demo\_output=>write\_xml( xml ).
+cl\_demo\_output=>write\_json( json ).
+IF gui\_flag = abap\_false.
+  cl\_demo\_output=>get( ).
+ELSE.
+  cl\_demo\_output=>display( ).
+ENDIF.
+
+
+---
+
+
+## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamp Field with Time Stamp Type / Time Stamp Functions (ts_func)
+
+**Files**: 4 | **Difficulty**: intermediate
 
 # ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / System Fields for Date and Time
 
 Included pages: 2
 
 
-
-**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)
-
 ### abentime_system_fields.htm
 
-> **📖 Official SAP Documentation**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_system_fields.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "System Fields for Date and Time"
+description: |
+  The following table shows the system fields(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_field_glosry.htm 'Glossary Entry') that contain information about date and time. System Field Type Length Content GET TIME sy-datlo d - User date(https://help.sap.com/doc/abapdocu_7
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_system_fields.htm"
+abapFile: "abentime_system_fields.htm"
+keywords: ["update", "do", "if", "try", "data", "abentime", "system", "fields"]
+---
 
 * * *
 
@@ -3235,16 +3779,242 @@ Continue
 [GET TIME](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time.htm)
 
 
+### abapget_time.htm
 
-**📖 Source**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_system_fields.htm)
+---
+title: "GET TIME"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time_shortref.htm) Syntax GET TIME FIELD tim. Addition: ... FIELD tim(#!ABAP_ONE_ADD@1@) Effect Without the addition FIELD, the system fields for date and time(https://help.sap.com/doc/abapdocu_755_index
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time.htm"
+abapFile: "abapget_time.htm"
+keywords: ["update", "do", "if", "try", "data", "abapget", "time"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendate_time_processing.htm) →  [System Fields for Date and Time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_system_fields.htm) → 
+
+GET TIME
+
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time_shortref.htm)
+
+Syntax
+
+GET TIME *\[*FIELD tim*\]*.
+
+Addition:
+
+[... FIELD tim](#!ABAP_ONE_ADD@1@)
+
+Effect
+
+Without the addition FIELD, the [system fields for date and time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_system_fields.htm), sy-datlo, sy-datum, sy-timlo, and sy-uzeit, are set to the current value. The content of the system fields sy-dayst, sy-fdayw, sy-tzone, and sy-zonlo is not updated.
+
+Hint
+
+Except for GET TIME, the system fields are updated after a program is started, a [screen](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_glosry.htm "Glossary Entry") is sent, and the [internal session](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_session_glosry.htm "Glossary Entry") is changed.
+
+Example
+
+Approximate runtime measurement. The statement [GET RUN TIME](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_run_time.htm) should be used instead.
+
+GET TIME.
+DATA(t1) = sy-timlo.
+DO 5000000 TIMES.
+ENDDO.
+GET TIME.
+DATA(t2) = sy-timlo.
+cl\_demo\_output=>display( t2 - t1 ).
+
+Addition
+
+... FIELD tim
+
+Effect
+
+The addition FIELD is used to pass the current [system time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_glosry.htm "Glossary Entry") in the format "hhmmss" to the variable tim instead of sy-uzeit and none of the system fields are updated. The return value of the statement has the data type t. The following can be specified for tim:
+
+-   An existing variable of the data type t or a variable to which the type t can be converted.
+
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm), where a variable of type t is declared.
+    
+
+Example
+
+The example has the same function as the previous example.
+
+GET TIME.
+DO 5000000 TIMES.
+ENDDO.
+GET TIME FIELD DATA(time).
+cl\_demo\_output=>display( time - sy-uzeit ).
+
+
+---
+
+
+## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / Time Stamps / Time Stamp Field with Time Stamp Type / Conversion Statements for Time Stamp Fields
+
+**Files**: 4 | **Difficulty**: intermediate
+
+# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Date and Time Processing / System Fields for Date and Time
+
+Included pages: 2
+
+
+### abentime_system_fields.htm
+
+---
+title: "System Fields for Date and Time"
+description: |
+  The following table shows the system fields(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_field_glosry.htm 'Glossary Entry') that contain information about date and time. System Field Type Length Content GET TIME sy-datlo d - User date(https://help.sap.com/doc/abapdocu_7
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_system_fields.htm"
+abapFile: "abentime_system_fields.htm"
+keywords: ["update", "do", "if", "try", "data", "abentime", "system", "fields"]
+---
+
+* * *
+
+AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
+
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendate_time_processing.htm) → 
+
+System Fields for Date and Time
+
+The following table shows the [system fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_field_glosry.htm "Glossary Entry") that contain information about date and time.
+
+System Field
+
+Type
+
+Length
+
+Content
+
+GET TIME
+
+sy-datlo
+
+d
+
+\-
+
+[User date](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_date_glosry.htm "Glossary Entry")
+
+X
+
+sy-datum
+
+d
+
+\-
+
+[System date](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_date_glosry.htm "Glossary Entry")
+
+X
+
+sy-dayst
+
+c
+
+1
+
+Flag for daylight saving time in the [system time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_zone_glosry.htm "Glossary Entry"). During daylight saving time, "X", otherwise " ".
+
+\-
+
+sy-fdayw
+
+b
+
+\-
+
+Factory calendar weekday in the [system time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_zone_glosry.htm "Glossary Entry"). "1" for Monday, ..., "5" for Friday.
+
+\-
+
+sy-timlo
+
+t
+
+\-
+
+[User time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_time_glosry.htm "Glossary Entry")
+
+X
+
+sy-tzone
+
+i
+
+\-
+
+Time difference between the [system time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_glosry.htm "Glossary Entry") and [UTC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutc_glosry.htm "Glossary Entry") reference time in seconds, ignoring daylight saving time.
+
+\-
+
+sy-uzeit
+
+t
+
+\-
+
+[System time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_glosry.htm "Glossary Entry")
+
+X
+
+sy-zonlo
+
+c
+
+6
+
+[User time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_time_zone_glosry.htm "Glossary Entry")
+
+\-
+
+The values of all system fields in this table are set implicitly when the program is started, every time a [screen](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_glosry.htm "Glossary Entry") of a [dynpro](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm "Glossary Entry") is sent, and when the [internal session](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_session_glosry.htm "Glossary Entry") is changed. The last column of the table shows which of the system fields can be updated explicitly using the statement [GET TIME](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time.htm).
+
+The content of sy-zonlo is the user time zone described under [System Time Zone and User Time Zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_user_time_zones.htm). The local values of sy-datlo and sy-timlo that are related to the user time zone are determined from the [system time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_glosry.htm "Glossary Entry") and the [system date](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_date_glosry.htm "Glossary Entry"). If sy-zonlo is initial, sy-timlo and sy-datlo have the same values as sy-uzeit and sy-datum.
+
+Example
+
+If the [system time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_time_zone_glosry.htm "Glossary Entry") is the same as the [user time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_time_zone_glosry.htm "Glossary Entry"), the corresponding system fields for system date and user date or system time and user time must be the same.
+
+DATA tz TYPE timezone.
+CALL FUNCTION 'GET\_SYSTEM\_TIMEZONE'
+  IMPORTING
+    timezone = tz.
+IF tz = sy-zonlo.
+  ASSERT sy-datum = sy-datlo.
+  ASSERT sy-uzeit = sy-timlo.
+ENDIF.
+
+Continue
+[GET TIME](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time.htm)
+
 
 ### abapget_time.htm
 
-> **📖 Official SAP Documentation**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "GET TIME"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time_shortref.htm) Syntax GET TIME FIELD tim. Addition: ... FIELD tim(#!ABAP_ONE_ADD@1@) Effect Without the addition FIELD, the system fields for date and time(https://help.sap.com/doc/abapdocu_755_index
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time.htm"
+abapFile: "abapget_time.htm"
+keywords: ["update", "do", "if", "try", "data", "abapget", "time"]
+---
 
 * * *
 
@@ -3320,16 +4090,19 @@ cl\_demo\_output=>display( time - sy-uzeit ).
 Included pages: 2
 
 
-
-**📖 Source**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_time.htm)
-
 ### abenobsolete_typing.htm
 
-> **📖 Official SAP Documentation**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_typing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-  
+---
+title: "Obsolete Type Reference"
+description: |
+  -   Obsolete use of LIKE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm) LIKE, obsolete(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm)
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_typing.htm"
+abapFile: "abenobsolete_typing.htm"
+keywords: ["do", "abenobsolete", "typing"]
+---
 
 * * *
 
@@ -3345,19 +4118,19 @@ Continue
 [LIKE, obsolete](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm)
 
 
-
-**📖 Source**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_typing.htm)
-
 ### abenlike_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm)
-
-
-  
+---
+title: "LIKE, obsolete"
+description: |
+  Obsolete Syntax ... LIKE dtype ... Effect Outside of classes, the addition LIKE can be used to reference flat(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm 'Glossary Entry') structures in ABAP Dictionary(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm"
+abapFile: "abenlike_obsolete.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenlike", "obsolete"]
+---
 
 * * *
 

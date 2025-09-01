@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_function_annotations.htm"
+abapFile: "abencds_f1_function_annotations.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "function", "annotations"]
+---
 
 * * *
 
@@ -18,93 +28,11 @@ Specifies an [annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/e
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencore_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
 
--   [AccessControl Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_1)
+-   [AccessControl Annotations](#abencds-f1-function-annotations-1--------clientdependent-annotations--obsolete----@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_2)
 
--   [ClientDependent Annotations (Obsolete)](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_2)
+-   [ClientHandling Annotations](#abencds-f1-function-annotations-3--------dataaging-annotations---@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_4)
 
--   [ClientHandling Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_3)
-
--   [DataAging Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_4)
-
--   [ObjectModel Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_5)
-
-The first column of the table displays the (possibly structured) name annotation of an ABAP annotation and the second column displays its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the value set implicitly for the annotation value if the annotation is not used explicitly. The fifth column displays the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
-
-Note
-
-Alongside the function annotations shown here, the globally valid [entity annotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_entity_annotations.htm) can also be specified for a table function.
-
-AccessControl Annotations
-
-Defines [access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_control_glosry.htm "Glossary Entry") for the CDS table function.
-
-Annotation
-
-Meaning
-
-Annotation Values
-
-Default Value if Not Used
-
-Default Value if Used Without Value
-
-AccessControl.authorizationCheck
-
-Defines implicit [access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_control_glosry.htm "Glossary Entry") when ABAP SQL is used to access the CDS table function
-
-#CHECK:
-If ABAP SQL is used to access the table function, [access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_authorizations.htm) is applied implicitly if a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry") is assigned to the table function. If there is no role for the table function, a syntax check warning occurs.
-#NOT\_REQUIRED:
-Like #CHECK, but there is no syntax check warning.
-#NOT\_ALLOWED:
-No [access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_authorizations.htm) is performed. This produces a syntax check warning in the DCL source code of a role for the table function.
-#PRIVILEGED\_ONLY:
-Privileged CDS association (evaluated by [SADL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensadl_glosry.htm "Glossary Entry")).
-
-#CHECK
-
-#CHECK
-
-Notes
-
--   The value #NOT\_REQUIRED is recommended for CDS table functions not subject to [access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_control_glosry.htm "Glossary Entry") when created, but for which roles can be defined later.
-
--   The value #NOT\_ALLOWED switches implicit access control off when the CDS table function is accessed in ABAP SQL. The addition [WITH PRIVILEGED ACCESS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm) can be used in the [FROM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfrom_clause.htm) clause to switch access control off for table functions not annotated with this annotation.
-
--   [CDS access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_control_glosry.htm "Glossary Entry") does not work for cross-client access. This is why in ABAP SQL, the addition [USING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client.htm) and the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) can only be used when accessing CDS entities where access control is disabled. It is recommended that the annotation AccessControl.authorizationCheck:#NOT\_ALLOWED is only specified for CDS table functions that are subject to cross-client access.
-
--   The annotation AccessControl has further [framework-specific subannotations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_frmwrk.htm).
-
-ClientDependent Annotations (Obsolete)
-
-Obsolete control of [client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_func_client_handling_obs.htm) for the CDS table function.
-
-Annotation
-
-Meaning
-
-Annotation Values
-
-Default Value if Not Used
-
-Default Value if Used Without Value
-
-ClientDependent
-
-Defines [client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_func_client_handling_obs.htm) when ABAP SQL is used to access the CDS table function (obsolete).
-
-true:
-The CDS table function is client-specific. When accessed using [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm), [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm) is applied.
-false:
-The CDS table function is a cross-client table function. No [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm) is applied.
-
-\-
-
-true
-
-Notes
-
--   The obsolete annotation @ClientDependent is replaced by the annotation @ClientHandling.type.
+-   [ObjectModel Annotations](#abencds-f1-function-annotations-5---the-first-column-of-the-table-displays-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-displays-its-meaning--the-third-column-shows-the-possible--annotation-values--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenannotation-value-glosry-htm--glossary-entry----the-fourth-column-shows-the-value-set-implicitly-for-the-annotation-value-if-the-annotation-is-not-used-explicitly--the-fifth-column-displays-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-anno-definition-glosry-htm--glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---note--alongside-the-function-annotations-shown-here--the-globally-valid--entity-annotations--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-f1-entity-annotations-htm--can-also-be-specified-for-a-table-function---accesscontrol-annotations--defines--access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-control-glosry-htm--glossary-entry---for-the-cds-table-function---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--accesscontrol-authorizationcheck--defines-implicit--access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-control-glosry-htm--glossary-entry---when-abap-sql-is-used-to-access-the-cds-table-function---check--if-abap-sql-is-used-to-access-the-table-function---access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-authorizations-htm--is-applied-implicitly-if-a--cds-role--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-role-glosry-htm--glossary-entry---is-assigned-to-the-table-function--if-there-is-no-role-for-the-table-function--a-syntax-check-warning-occurs---not--required--like--check--but-there-is-no-syntax-check-warning---not--allowed--no--access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-authorizations-htm--is-performed--this-produces-a-syntax-check-warning-in-the-dcl-source-code-of-a-role-for-the-table-function---privileged--only--privileged-cds-association--evaluated-by--sadl--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abensadl-glosry-htm--glossary-entry-------check---check--notes------the-value--not--required-is-recommended-for-cds-table-functions-not-subject-to--access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-control-glosry-htm--glossary-entry---when-created--but-for-which-roles-can-be-defined-later-------the-value--not--allowed-switches-implicit-access-control-off-when-the-cds-table-function-is-accessed-in-abap-sql--the-addition--with-privileged-access--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abapselect-data-source-htm--can-be-used-in-the--from--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abapfrom-clause-htm--clause-to-switch-access-control-off-for-table-functions-not-annotated-with-this-annotation--------cds-access-control--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-access-control-glosry-htm--glossary-entry---does-not-work-for-cross-client-access--this-is-why-in-abap-sql--the-addition--using--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abapselect-client-htm--and-the-obsolete-addition--client-specified--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abapselect-client-obsolete-htm--can-only-be-used-when-accessing-cds-entities-where-access-control-is-disabled--it-is-recommended-that-the-annotation-accesscontrol-authorizationcheck--not--allowed-is-only-specified-for-cds-table-functions-that-are-subject-to-cross-client-access-------the-annotation-accesscontrol-has-further--framework-specific-subannotations--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-annotations-frmwrk-htm----clientdependent-annotations--obsolete---obsolete-control-of--client-handling--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-func-client-handling-obs-htm--for-the-cds-table-function---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--clientdependent--defines--client-handling--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abencds-func-client-handling-obs-htm--when-abap-sql-is-used-to-access-the-cds-table-function--obsolete----true--the-cds-table-function-is-client-specific--when-accessed-using--select--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abapselect-htm----implicit-client-handling--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenopen-sql-client-handling-htm--is-applied--false--the-cds-table-function-is-a-cross-client-table-function--no--implicit-client-handling--https---help-sap-com-doc-abapdocu-754-index-htm-7-54-en-us-abenopen-sql-client-handling-htm--is-applied-------true--notes------the-obsolete-annotation-ClientDependent is replaced by the annotation @ClientHandling.type.
 
 -   The obsolete annotation @ClientDependent does not have a default value if it is not used. If neither of the annotations @ClientDependent or @ClientHandling.type are specified, the default values of the @ClientHandling annotation apply.
 

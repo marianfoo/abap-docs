@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Client Handling"
+description: |
+  AMDP does not support automatic client handling(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_glosry.htm 'Glossary Entry'). When accessing client-specific database tables or views in an AMDP method, the required client ID must be selected explicitly. Therefore, the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_client_handling.htm"
+abapFile: "abenamdp_client_handling.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenamdp", "client", "handling"]
+---
 
 * * *
 

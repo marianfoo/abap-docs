@@ -1,4 +1,14 @@
-  
+---
+title: "CDS data definition"
+description: |
+  Definition or extension of a CDS entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm 'Glossary Entry') using language elements(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) of the CDS DDL(https://help.sap.com/doc/a
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_definition_glosry.htm"
+abapFile: "abencds_data_definition_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "definition", "glosry"]
+---
 
 * * *
 

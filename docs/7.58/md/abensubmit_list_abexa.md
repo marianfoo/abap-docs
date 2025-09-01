@@ -1,4 +1,14 @@
-  
+---
+title: "Program Calls, Modifying the Basic List"
+description: |
+  The example demonstrates how to affect the basic list of a called program. Source Code REPORT demo_program_submit_line. SELECTION-SCREEN BEGIN OF SCREEN 1100. PARAMETERS: name   TYPE sy-repid DEFAULT 'DEMO_PROGRAM_READ_TABLES' OBLIGATORY, width  TYPE i        DEFAULT 80, length TYPE i        D
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubmit_list_abexa.htm"
+abapFile: "abensubmit_list_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abensubmit", "list", "abexa"]
+---
 
 * * *
 

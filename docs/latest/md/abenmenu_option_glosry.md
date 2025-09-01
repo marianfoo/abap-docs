@@ -1,4 +1,14 @@
-  
+---
+title: "menu_option_glosry"
+description: |
+  menu_option_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmenu_option_glosry.htm"
+abapFile: "abenmenu_option_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenmenu", "option", "glosry"]
+---
 
 * * *
 

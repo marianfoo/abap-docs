@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ixml_dom. CLASS ixml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS ixml_demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( )->begin_section( `XML-Data` ). FINAL(xml) = `<?xml version='1.0'?>` && `<order number='4711'` && ` xmlns:demo=
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenixml_dom_abexa.htm"
+abapFile: "abenixml_dom_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenixml", "dom", "abexa"]
+---
 
 * * *
 

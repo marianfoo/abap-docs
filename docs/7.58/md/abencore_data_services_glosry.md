@@ -1,4 +1,14 @@
-  
+---
+title: "Core Data Services"
+description: |
+  → ABAP Core Data Services(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_core_data_services_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencore_data_services_glosry.htm"
+abapFile: "abencore_data_services_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencore", "services", "glosry"]
+---
 
 * * *
 

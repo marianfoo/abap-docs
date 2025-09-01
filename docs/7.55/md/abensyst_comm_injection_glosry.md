@@ -1,4 +1,14 @@
-  
+---
+title: "syst_comm_injection_glosry"
+description: |
+  syst_comm_injection_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensyst_comm_injection_glosry.htm"
+abapFile: "abensyst_comm_injection_glosry.htm"
+keywords: ["do", "abensyst", "comm", "injection", "glosry"]
+---
 
 * * *
 

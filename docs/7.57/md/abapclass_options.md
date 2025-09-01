@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... PUBLIC INHERITING FROM superclass ABSTRACT FINAL CREATE PUBLICPROTECTEDPRIVATE SHARED MEMORY ENABLED  FOR TESTING(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_for_testing.htm)  FOR BEHAVIOR OF(htt
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_options.htm"
+abapFile: "abapclass_options.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abapclass", "options"]
+---
 
 * * *
 

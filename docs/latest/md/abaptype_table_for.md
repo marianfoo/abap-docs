@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE TABLE FOR"
+description: |
+  Syntax ... TABLE FOR  ACTION IMPORT bdef~action    ACTION RESULT bdef~action    INSTANCE AUTHORIZATION KEY bdef~group    INSTANCE AUTHORIZATION RESULT bdef~group    CHANGE bdef    CREATE bdef _assoc
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm"
+abapFile: "abaptype_table_for.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abaptype", "table", "for"]
+---
 
 * * *
 

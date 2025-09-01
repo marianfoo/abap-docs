@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Programs on the AS ABAP"
+description: |
+  ABAP programs are executed on the Application Server ABAP (AS ABAP)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry') of an ABAP system(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_glosry.htm 'Glossary Entr
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenorganization_of_modules.htm"
+abapFile: "abenorganization_of_modules.htm"
+keywords: ["update", "do", "if", "try", "data", "types", "abenorganization", "modules"]
+---
 
 * * *
 

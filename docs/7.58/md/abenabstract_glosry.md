@@ -1,4 +1,14 @@
-  
+---
+title: "abstract_glosry"
+description: |
+  abstract_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabstract_glosry.htm"
+abapFile: "abenabstract_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabstract", "glosry"]
+---
 
 * * *
 

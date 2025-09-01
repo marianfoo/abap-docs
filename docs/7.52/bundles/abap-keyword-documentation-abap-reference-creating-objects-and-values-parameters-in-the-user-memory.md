@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenmemory.htm
 
-  
+---
+title: "Parameters in the User Memory"
+description: |
+  -   SPA/GPA Parameters(#abenmemory-1--------spa-gpa-parameters-and-abap-programs---@ITOC@@ABENMEMORY_2) -   Managing SPA/GPA Parameters(#abenmemory-3--------spa-gpa-parameters-and-dynpro-fields---@ITOC@@ABENMEMORY_4) SPA/GPA Parameters The user memory(https://help.sap.com/doc/abapdocu_752_inde
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory.htm"
+abapFile: "abenmemory.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "abenmemory"]
+---
 
 * * *
 
@@ -15,13 +25,9 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Parameters in the User Memory
 
--   [SPA/GPA Parameters](#@@ITOC@@ABENMEMORY_1)
+-   [SPA/GPA Parameters](#abenmemory-1--------spa-gpa-parameters-and-abap-programs---@ITOC@@ABENMEMORY_2)
 
--   [SPA/GPA Parameters and ABAP Programs](#@@ITOC@@ABENMEMORY_2)
-
--   [Managing SPA/GPA Parameters](#@@ITOC@@ABENMEMORY_3)
-
--   [SPA/GPA Parameters and Dynpro Fields](#@@ITOC@@ABENMEMORY_4)
+-   [Managing SPA/GPA Parameters](#abenmemory-3--------spa-gpa-parameters-and-dynpro-fields---@ITOC@@ABENMEMORY_4)
 
 SPA/GPA Parameters
 
@@ -84,7 +90,17 @@ Continue
 
 ### abapset_parameter.htm
 
-  
+---
+title: "SET PARAMETER"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_parameter_shortref.htm) Syntax SET PARAMETER ID pid FIELD dobj. Effect This statement sets the content of the SPA/GPA(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenspa_gpa_parameter_1_glosry.htm '
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_parameter.htm"
+abapFile: "abapset_parameter.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapset", "parameter"]
+---
 
 * * *
 
@@ -152,7 +168,17 @@ Non-Handleable Exceptions
 
 ### abapget_parameter.htm
 
-  
+---
+title: "GET PARAMETER"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_parameter_shortref.htm) Syntax GET PARAMETER ID pid FIELD dobj. Effect This statement sets the content of the data object dobj to the content of the SPA/GPA(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_parameter.htm"
+abapFile: "abapget_parameter.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapget", "parameter"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Mitigation"
+description: |
+  No casting assignment of released structures to field symbols. RFC Passing released structures to remote RFMs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfm_glosry.htm 'Glossary Entry'). Possible Problems Deep components are not supported in RFC. Mitigation No passing of r
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules_struct.htm"
+abapFile: "abenc1_consumer_rules_struct.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "field-symbol", "abenc1", "consumer", "rules", "struct"]
+---
 
 * * *
 
@@ -13,71 +23,9 @@ C1 Contract Rules for Consuming Structures
 
 API providers can add or change non-key elements in global types as structured [DDIC types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_ddic.htm) or [CDS entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_cds.htm). These types can be released APIs themselves or can be used for typing attributes or method parameters of released classes or interfaces. Also the position of non-key elements can be changed. This impacts all operations with APIs that rely on a certain number of components of a structure and on their position. Main examples are:
 
--   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_1)
--   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_2)
--   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_3)
--   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_4)
--   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_5)
-
-Includes   
-
-Including a released structure into another structure.
-
-Possible Problems
-
-Error, when a component is added that already exists.
-
-Mitigation
-
-Include a released structure only by renaming its components with [suffixes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_include_structure.htm).
-
-Assignments and Comparisons   
-
-Assignments and comparisons between data objects that are typed with the released structured type and data objects that are typed otherwise can occur for:
-
--   [Logical Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm)
--   [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm)
--   [Working with internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm)
--   [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm)
--   [Working with data clusters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm)
-
-Possible Problems
-
-Depending on the change all kinds of errors might occur. The following allowed changes in particular can affect the rules for processing structures fundamentally:
-
--   Adding numeric components to a formerly character-like structure.
--   Adding [deep](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeep_glosry.htm "Glossary Entry") components to a formerly [flat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenflat_glosry.htm "Glossary Entry") structure.
--   Shifting the positions of numeric or deep components to formerly character-like sections.
-
-Mitigation
-
-No assignments or comparisons between released structures and data objects that are typed otherwise. No usage of otherwise defined structures in ABAP SQL. The various CORRESPONDING mechanisms can be used to mitigate the problem, but they are not failsafe in all situations.
-
-Unstructured Access   
-
-Processing the content of a released structure without addressing single components as for example:
-
--   [Offset/Length Specifications](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
--   [String processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) (on complete structure)
-
-Possible Problems
-
-Depending on the change (see above) all kinds of errors might occur.
-
-Mitigation
-
-No processing of released structures without accessing single components.
-
-Field Symbols   
-
-Addressing released structures with [field symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbol_glosry.htm "Glossary Entry") by using:
-
--   [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm)
--   ASSIGNING addition when [working with internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm)
-
-Possible Problems
-
-When the addition [CASTING](abapassign_casting.htm#!ABAP_ALTERNATIVE_2@2@) is used, deep components must appear with exactly the same type and position in the assigned structure.
+-   [Includes](#abenc1-consumer-rules-struct-1-------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_2)
+-   [Unstructured Access](#abenc1-consumer-rules-struct-3-------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_4)
+-   [RFC](#abenc1-consumer-rules-struct-5---includes-----including-a-released-structure-into-another-structure---possible-problems--error--when-a-component-is-added-that-already-exists---mitigation--include-a-released-structure-only-by-renaming-its-components-with--suffixes--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-include-structure-htm----assignments-and-comparisons-----assignments-and-comparisons-between-data-objects-that-are-typed-with-the-released-structured-type-and-data-objects-that-are-typed-otherwise-can-occur-for--------logical-expressions--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenlogexp-htm-------assignments--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenvalue-assignments-htm-------working-with-internal-tables--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenitab-htm-------abap-sql--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenabap-sql-htm-------working-with-data-clusters--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abendata-cluster-htm---possible-problems--depending-on-the-change-all-kinds-of-errors-might-occur--the-following-allowed-changes-in-particular-can-affect-the-rules-for-processing-structures-fundamentally-------adding-numeric-components-to-a-formerly-character-like-structure------adding--deep--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abendeep-glosry-htm--glossary-entry---components-to-a-formerly--flat--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenflat-glosry-htm--glossary-entry---structure------shifting-the-positions-of-numeric-or-deep-components-to-formerly-character-like-sections---mitigation--no-assignments-or-comparisons-between-released-structures-and-data-objects-that-are-typed-otherwise--no-usage-of-otherwise-defined-structures-in-abap-sql--the-various-corresponding-mechanisms-can-be-used-to-mitigate-the-problem--but-they-are-not-failsafe-in-all-situations---unstructured-access-----processing-the-content-of-a-released-structure-without-addressing-single-components-as-for-example--------offset-length-specifications--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenoffset-length-htm-------string-processing--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenabap-data-string-htm---on-complete-structure---possible-problems--depending-on-the-change--see-above--all-kinds-of-errors-might-occur---mitigation--no-processing-of-released-structures-without-accessing-single-components---field-symbols-----addressing-released-structures-with--field-symbols--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenfield-symbol-glosry-htm--glossary-entry---by-using--------assign--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abapassign-htm------assigning-addition-when--working-with-internal-tables--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenitab-htm---possible-problems--when-the-addition--casting--abapassign-casting-htm--abap-alternative-22@) is used, deep components must appear with exactly the same type and position in the assigned structure.
 
 Mitigation
 

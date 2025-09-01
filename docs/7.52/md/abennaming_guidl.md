@@ -1,4 +1,14 @@
-  
+---
+title: "Naming"
+description: |
+  The naming of the repository objects defined outside of a program and of the entities declared within the program (such as data types, data objects, and procedures) is of vital importance for understanding and editing the program. All names used must be readable, easy to learn, and appropriate. You
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennaming_guidl.htm"
+abapFile: "abennaming_guidl.htm"
+keywords: ["do", "if", "try", "data", "types", "abennaming", "guidl"]
+---
 
 * * *
 

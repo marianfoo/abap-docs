@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Examples of Draft Actions"
+description: |
+  -   RAP - Draft Action Activate(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action1_abexa.htm) -   RAP - Draft Actions Edit, Discard, Prepare(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action2_abexa.htm) !Example(exa.gif 'Example') RA
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action_abexas.htm"
+abapFile: "abenbdl_draft_action_abexas.htm"
+keywords: ["do", "if", "abenbdl", "draft", "action", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "technical_type_name_glosry"
+description: |
+  technical_type_name_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentechnical_type_name_glosry.htm"
+abapFile: "abentechnical_type_name_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentechnical", "type", "name", "glosry"]
+---
 
 * * *
 

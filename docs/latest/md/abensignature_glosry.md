@@ -1,4 +1,14 @@
-  
+---
+title: "signature_glosry"
+description: |
+  signature_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensignature_glosry.htm"
+abapFile: "abensignature_glosry.htm"
+keywords: ["do", "if", "try", "abensignature", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC"
+description: |
+  Short for ABAP Dictionary(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry'), based on its former name, Data Dictionary.
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_glosry.htm"
+abapFile: "abenddic_glosry.htm"
+keywords: ["do", "try", "data", "abenddic", "glosry"]
+---
 
 * * *
 

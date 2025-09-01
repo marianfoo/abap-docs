@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete statements of the screen flow logic"
+description: |
+  -   SELECT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpselect.htm) -   FIELD - VALUES, SELECT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield_value_select.htm) -   CALL CUSTOMER SUBSCREEN(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcal
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_obsolet.htm"
+abapFile: "abendynpro_obsolet.htm"
+keywords: ["select", "loop", "do", "abendynpro", "obsolet"]
+---
 
 * * *
 

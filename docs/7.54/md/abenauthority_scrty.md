@@ -1,4 +1,14 @@
-  
+---
+title: "Insufficient Authorization Checks"
+description: |
+  Adequate authorization checks are an important part of secure ABAP programming. In many statements, an appropriate authorization check is performed implicitly, for example: -   In CALL TRANSACTION(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction.htm) (with the additi
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenauthority_scrty.htm"
+abapFile: "abenauthority_scrty.htm"
+keywords: ["do", "if", "try", "class", "data", "abenauthority", "scrty"]
+---
 
 * * *
 

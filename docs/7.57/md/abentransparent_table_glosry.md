@@ -1,4 +1,14 @@
-  
+---
+title: "transparent_table_glosry"
+description: |
+  transparent_table_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransparent_table_glosry.htm"
+abapFile: "abentransparent_table_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentransparent", "table", "glosry"]
+---
 
 * * *
 

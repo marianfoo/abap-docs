@@ -1,4 +1,14 @@
-  
+---
+title: "Basic Approach"
+description: |
+  An XML reader is created using the factory method CREATE of the required class, as in token-based parsing(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_parse_iterative.htm), and the source xml of the XML data is passed, for example: DATA(reader) = cl_sxml_string_r
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_parse_oo.htm"
+abapFile: "abenabap_sxml_lib_parse_oo.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "internal-table", "abenabap", "sxml", "lib", "parse"]
+---
 
 * * *
 
@@ -13,8 +23,7 @@ sXML - Object-Oriented Parsing
 
 Just as in [token-based parsing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_parse_iterative.htm), object-oriented parsing creates an XML reader and uses its methods to iterate across the XML data. Sometimes, however, other methods are used. The methods used for object-oriented parsing wrap methods for token-based parsing and provide object-oriented access to the current node. Instead of having to read the attributes of the reader directly after a parser step, the methods used for object-oriented parsing return references to objects that represent the current node. The methods and attributes of the [classes and interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_entities.htm) of these objects can be used to access the properties of the node. Unlike in token-based parsing, only the relevant values are available.
 
--   [Basic Approach](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_OO_1)
--   [Methods for Object-Oriented Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_OO_2)
+-   [Basic Approach](#abenabap-sxml-lib-parse-oo-1-------methods-for-object-oriented-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_OO_2)
 
 Basic Approach   
 

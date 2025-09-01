@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_find_and_match. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: text TYPE c LENGTH 120 VALUE `Cathy's cat with the hat sat on Matt's mat.`, regx TYPE c LENGTH 120 VALUE `b.atb`. DATA: result TYPE i, substr TYPE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_function_find_abexa.htm"
+abapFile: "abenstring_function_find_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "abenstring", "function", "find", "abexa"]
+---
 
 * * *
 

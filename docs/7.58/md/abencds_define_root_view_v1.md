@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, ROOT"
+description: |
+  Syntax ... ROOT ... Effect The addition ROOT defines the CDS view ddic_based_view as the root entity of a RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry') in the ABAP RESTful Application Programming Model(https://help.sap.co
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_root_view_v1.htm"
+abapFile: "abencds_define_root_view_v1.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "root", "view"]
+---
 
 * * *
 

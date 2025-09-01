@@ -1,4 +1,14 @@
-  
+---
+title: "exception_category_glosry"
+description: |
+  exception_category_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexception_category_glosry.htm"
+abapFile: "abenexception_category_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenexception", "category", "glosry"]
+---
 
 * * *
 

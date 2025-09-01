@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Abstract BDEF Extension"
+description: |
+  An abstract BDEF extension(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_abs_bdef_ext_glosry.htm 'Glossary Entry') is a repository object that extends an abstract behavior definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_bdef_glosry.htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_abstract.htm"
+abapFile: "abenbdl_extensibility_abstract.htm"
+keywords: ["do", "if", "try", "abenbdl", "extensibility", "abstract"]
+---
 
 * * *
 

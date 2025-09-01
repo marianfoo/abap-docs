@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN - SCREEN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_bos_shortref.htm) Syntax SELECTION-SCREEN BEGIN OF SCREEN dynnr TITLE title AS WINDOW. ... SELECTION-SCREEN END OF SCREEN dynnr. Extras: 1. ... TITLE title(#!ABAP_ADDITION_1@1@) 2.
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_normal.htm"
+abapFile: "abapselection-screen_normal.htm"
+keywords: ["select", "do", "if", "try", "abapselection", "screen", "normal"]
+---
 
 * * *
 

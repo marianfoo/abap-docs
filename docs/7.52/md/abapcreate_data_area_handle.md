@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA - AREA HANDLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref AREA HANDLE handle ... Effect This statement creates an anonymous data object as a shared object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_area_handle.htm"
+abapFile: "abapcreate_data_area_handle.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "types", "abapcreate", "area", "handle"]
+---
 
 * * *
 

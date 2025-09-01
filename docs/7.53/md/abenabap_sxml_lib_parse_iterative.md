@@ -1,4 +1,14 @@
-  
+---
+title: "Procedure (Principles)"
+description: |
+  An XML reader is created using the factory method CREATE of the class in question and by passing the source xml to the XML data, for example: DATA(reader) = cl_sxml_string_reader=>create( xml ). The static type of the reference variables is then the interface IF_SXML_READER and its methods and
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_parse_iterative.htm"
+abapFile: "abenabap_sxml_lib_parse_iterative.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenabap", "sxml", "lib", "parse", "iterative"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ sXML Library - Token-Based Parsing
 
 In token-based parsing, the parser iterates across all nodes (tokens) in the tree structure of the XML data, one after the other. By default, the iterator passes across all subnode branches until the final node. The parser pauses after every iteration step on a node whose properties are available in the attributes of the XML reader. If the parser pauses on the node for an opened element, the list of the XML attributes there can be accessed.
 
--   [Procedure (Principles)](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_1)
+-   [Procedure (Principles)](#abenabap-sxml-lib-parse-iterative-1--------methods-and-attributes-for-token-based-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_2)
 
--   [Methods and Attributes for Token-Based Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_2)
-
--   [Methods for token-based parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_3)
-
--   [Attributes for token-based parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_4)
+-   [Methods for token-based parsing](#abenabap-sxml-lib-parse-iterative-3--------attributes-for-token-based-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_4)
 
 Procedure (Principles)
 

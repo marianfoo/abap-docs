@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  asJSON for Anonymous Data Objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_asjson_dref_abexa.htm).
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_anonym_do.htm"
+abapFile: "abenabap_asjson_anonym_do.htm"
+keywords: ["do", "if", "data", "types", "abenabap", "asjson", "anonym"]
+---
 
 * * *
 

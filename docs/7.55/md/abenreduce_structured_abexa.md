@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_reduce_structured. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line, id  TYPE string, num TYPE i, END OF line, BEGIN OF result, text TYPE string, sum  TYPE i, max  TYPE i, END OF result. CLASS-DATA itab TYPE TABLE OF
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreduce_structured_abexa.htm"
+abapFile: "abenreduce_structured_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abenreduce", "structured", "abexa"]
+---
 
 * * *
 

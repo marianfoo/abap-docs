@@ -1,4 +1,14 @@
-  
+---
+title: "Methods of Classes"
+description: |
+  Methods are internal procedures(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm 'Glossary Entry') of a class that determine the behavior of an object. They can access all the attributes of all instances of their class and can therefore change the status of an ob
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_methods.htm"
+abapFile: "abenclass_methods.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenclass", "methods"]
+---
 
 * * *
 
@@ -10,21 +20,13 @@ Methods of Classes
 
 Methods are internal [procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm "Glossary Entry") of a class that determine the behavior of an object. They can access all the attributes of all instances of their class and can therefore change the status of an object. Methods have a parameter interface, used by the system to pass values to them when they are called, and by which they can return values to the caller. The private attributes of a class can only be changed using methods of the same class.
 
--   [Definition](#@@ITOC@@ABENCLASS_METHODS_1)
+-   [Definition](#abenclass-methods-1--------instance-methods---@ITOC@@ABENCLASS_METHODS_2)
 
--   [Instance Methods](#@@ITOC@@ABENCLASS_METHODS_2)
+-   [Static Methods](#abenclass-methods-3--------constructors---@ITOC@@ABENCLASS_METHODS_4)
 
--   [Static Methods](#@@ITOC@@ABENCLASS_METHODS_3)
+-   [Functional Methods](#abenclass-methods-5--------optional-methods---@ITOC@@ABENCLASS_METHODS_6)
 
--   [Constructors](#@@ITOC@@ABENCLASS_METHODS_4)
-
--   [Functional Methods](#@@ITOC@@ABENCLASS_METHODS_5)
-
--   [Optional Methods](#@@ITOC@@ABENCLASS_METHODS_6)
-
--   [Special Methods](#@@ITOC@@ABENCLASS_METHODS_7)
-
--   [AMDP Methods](#@@ITOC@@ABENCLASS_METHODS_8)
+-   [Special Methods](#abenclass-methods-7--------amdp-methods---@ITOC@@ABENCLASS_METHODS_8)
 
 -   [Kernel Methods](#@@ITOC@@ABENCLASS_METHODS_9)
 

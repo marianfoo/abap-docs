@@ -1,4 +1,14 @@
-  
+---
+title: "Pseudo Comments for Code Inspector"
+description: |
+  Syntax ... '#EC CI_... Effect The character string '#EC behind a statement or a part of a statement followed by an abbreviation with the prefix CI_ defines a pseudo comment(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comment_glosry.htm 'Glossary Entry') for the Co
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_comment_ci.htm"
+abapFile: "abenpseudo_comment_ci.htm"
+keywords: ["select", "do", "if", "try", "data", "abenpseudo", "comment"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... <fs> IS NOT ASSIGNED ... Effect This predicate expression checks whether a memory area is assigned to a field symbol <fs>. The expression is true if the field symbol points to a memory area. <fs> expects a field symbol declared using FIELD-SYMBOLS(https://help.sap.com/doc/abapdocu_753_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_assigned.htm"
+abapFile: "abenlogexp_assigned.htm"
+keywords: ["do", "if", "data", "field-symbol", "abenlogexp", "assigned"]
+---
 
 * * *
 

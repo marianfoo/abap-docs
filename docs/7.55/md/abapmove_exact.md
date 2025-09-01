@@ -1,4 +1,14 @@
-  
+---
+title: "Lossless Assignments, Rules"
+description: |
+  A lossless assignment checks the assigned content, before its conversion(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_glosry.htm 'Glossary Entry') to an incompatible target object, to determine whether the assignment is possible without losses, that is: -   whether it
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove_exact.htm"
+abapFile: "abapmove_exact.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "internal-table", "abapmove", "exact"]
+---
 
 * * *
 

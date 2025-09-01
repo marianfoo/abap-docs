@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - View extension"
+description: |
+  Work in progress CDS DDL - EXTEND VIEW(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_extend_view.htm)
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_extension.htm"
+abapFile: "abencds_view_extension.htm"
+keywords: ["do", "data", "abencds", "view", "extension"]
+---
 
 * * *
 

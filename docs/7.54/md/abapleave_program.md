@@ -1,4 +1,14 @@
-  
+---
+title: "LEAVE PROGRAM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program_shortref.htm) Syntax LEAVE PROGRAM. Effect This statement ends the current main program(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmain_program_glosry.htm 'Glossary Entry') immediatel
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm"
+abapFile: "abapleave_program.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "abapleave", "program"]
+---
 
 * * *
 

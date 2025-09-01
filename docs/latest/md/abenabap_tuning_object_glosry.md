@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP tuning object"
+description: |
+  Synonym for app-server tuning object. Tuning object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentuning_object_glosry.htm 'Glossary Entry') that defines technical settings for a repository object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepositor
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_tuning_object_glosry.htm"
+abapFile: "abenabap_tuning_object_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "tuning", "object", "glosry"]
+---
 
 * * *
 

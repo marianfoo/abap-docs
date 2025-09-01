@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abendate_time_oview.htm
 
-  
+---
+title: "Date, Time, Time Stamp, and Time Zones"
+description: |
+  Dates, times, and time stamps specify times with varying levels of precision. -   A date (or calendar date) is a time specified to a precise day, week, or month with respect to a calendar. AS ABAP always references implicitly the Gregorian calendar valid across most of the world. Output can be conve
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm"
+abapFile: "abendate_time_oview.htm"
+keywords: ["do", "if", "try", "data", "abendate", "time", "oview"]
+---
 
 * * *
 
@@ -36,7 +46,17 @@ Continue
 
 ### abentime_zone_rules.htm
 
-  
+---
+title: "Rules for Time Zones"
+description: |
+  The conversion of the UTC reference time to the local date and the local time zone is based on a set of rules stored in AS ABAP system tables. The names of all associated tables start with TTZ. The following database tables , whose content can be edited using transaction STZBD, are relevant for time
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm"
+abapFile: "abentime_zone_rules.htm"
+keywords: ["do", "while", "if", "data", "abentime", "zone", "rules"]
+---
 
 * * *
 
@@ -77,7 +97,17 @@ If a time zone specifies a summer time rule with a summer time difference not eq
 
 ### abensystem_user_time_zones.htm
 
-  
+---
+title: "System Time Zone and User Time Zone"
+description: |
+  Two time zones(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_glosry.htm 'Glossary Entry') are preconfigured in AS ABAP, the system time zone(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_zone_glosry.htm 'Glossary Entry') and the user time
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm"
+abapFile: "abensystem_user_time_zones.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "abensystem", "user", "time", "zones"]
+---
 
 * * *
 

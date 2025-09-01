@@ -1,4 +1,14 @@
-  
+---
+title: "RAP projection BDEF extension"
+description: |
+  A development object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendevelopment_object_glosry.htm 'Glossary Entry') that extends a CDS projection behavior definition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_bdef_glosry.htm 'Glossary Entry').
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_projec_bdef_ext_glosry.htm"
+abapFile: "abenrap_projec_bdef_ext_glosry.htm"
+keywords: ["do", "try", "abenrap", "projec", "bdef", "ext", "glosry"]
+---
 
 * * *
 

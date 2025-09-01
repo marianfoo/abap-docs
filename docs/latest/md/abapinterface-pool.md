@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACE-POOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface-pool_shortref.htm) Syntax INTERFACE-POOL. Effect The statement INTERFACE-POOL introduces an interface pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_pool_glosry.htm '
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface-pool.htm"
+abapFile: "abapinterface-pool.htm"
+keywords: ["do", "if", "try", "class", "abapinterface", "pool"]
+---
 
 * * *
 

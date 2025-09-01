@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @element_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_annotations_v2.htm) @element_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_annotations_v2.htm) ... KEY    proj_element
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_view_element.htm"
+abapFile: "abencds_proj_view_element.htm"
+keywords: ["do", "if", "try", "data", "abencds", "proj", "view", "element"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - COMMIT ENTITIES, Short and Long Form"
+description: |
+  This example demonstrates two variants of the COMMIT ENTITIES statement: the short version (without responses) and long form (with responses). It covers several MODIFY operations for creating instances for two root entities in a simplified managed scenario. The saving of these instances is triggered
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommit_entities_sh_lo_abexa.htm"
+abapFile: "abencommit_entities_sh_lo_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abencommit", "entities", "abexa"]
+---
 
 * * *
 

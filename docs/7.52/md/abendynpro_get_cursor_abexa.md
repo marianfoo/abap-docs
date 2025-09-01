@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Determining the Cursor Position"
+description: |
+  The example shows how to determine the cursor position on screens. Source Code PROGRAM demo_dynpro_get_cursor . DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code. DATA: input_output(20) TYPE c, fld(20) TYPE c, off     TYPE i, val(20) TYPE c, len     TYPE i. CALL SCREEN 100. MODULE init_scree
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_get_cursor_abexa.htm"
+abapFile: "abendynpro_get_cursor_abexa.htm"
+keywords: ["select", "do", "case", "data", "abendynpro", "get", "cursor", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Inheritance and Events"
+description: |
+  Once declared in a superclass, an event is known in all subclasses of the inheritance tree in which it is visible and can be raised in the methods there. An event handler can be declared with reference to all classes of the inheritance tree in which the event is visible for the event handler. Howeve
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninheritance_events.htm"
+abapFile: "abeninheritance_events.htm"
+keywords: ["do", "if", "case", "method", "class", "abeninheritance", "events"]
+---
 
 * * *
 

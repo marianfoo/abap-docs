@@ -1,4 +1,14 @@
-  
+---
+title: "PCRE regex - Special Characters"
+description: |
+  The following tables summarize the special characters in PCRE regular expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpcre_regex_glosry.htm 'Glossary Entry'). -   Pattern Syntax(#abenregex-pcre-syntax-specials-1-----------quoting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_pcre_syntax_specials.htm"
+abapFile: "abenregex_pcre_syntax_specials.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "abenregex", "pcre", "syntax", "specials"]
+---
 
 * * *
 
@@ -13,32 +23,19 @@ PCRE regex - Special Characters
 
 The following tables summarize the special characters in [PCRE regular expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpcre_regex_glosry.htm "Glossary Entry").
 
--   [Pattern Syntax](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_1)
-    -   [Quoting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_2)
-    -   [Escaped Characters](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_3)
-    -   [Character Types](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_4)
-    -   [Character Classes](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_5)
-    -   [Quantifiers](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_6)
-    -   [Anchors and Basic Assertions](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_7)
-    -   [Reported Match Point Setting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_8)
-    -   [Alternation](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_9)
-    -   [Grouping and Capturing](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_10)
-    -   [Comments](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_11)
-    -   [Option Setting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_12)
-    -   [Special Control Verbs](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_13)
-    -   [Look-ahead and Look-behind Assertions](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_14)
-    -   [Non-Atomic Look-around Assertions](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_15)
-    -   [Backreferences](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_16)
-    -   [Subroutine References](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_17)
-    -   [Conditional Patterns](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_18)
-    -   [Backtracking Control](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_19)
-    -   [Callouts](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_20)
--   [Replacement Syntax](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_21)
-    -   [Capture Group Substitution](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_22)
-    -   [Conditional Substitution](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_23)
-    -   [Case Conversion](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_24)
-    -   [Substituting Special Characters](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_25)
-    -   [Quoting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_26)
+-   [Pattern Syntax](#abenregex-pcre-syntax-specials-1-----------quoting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_2)
+    -   [Escaped Characters](#abenregex-pcre-syntax-specials-3-----------character-types---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_4)
+    -   [Character Classes](#abenregex-pcre-syntax-specials-5-----------quantifiers---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_6)
+    -   [Anchors and Basic Assertions](#abenregex-pcre-syntax-specials-7-----------reported-match-point-setting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_8)
+    -   [Alternation](#abenregex-pcre-syntax-specials-9-----------grouping-and-capturing---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_10)
+    -   [Comments](#abenregex-pcre-syntax-specials-11-----------option-setting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_12)
+    -   [Special Control Verbs](#abenregex-pcre-syntax-specials-13-----------look-ahead-and-look-behind-assertions---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_14)
+    -   [Non-Atomic Look-around Assertions](#abenregex-pcre-syntax-specials-15-----------backreferences---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_16)
+    -   [Subroutine References](#abenregex-pcre-syntax-specials-17-----------conditional-patterns---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_18)
+    -   [Backtracking Control](#abenregex-pcre-syntax-specials-19-----------callouts---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_20)
+-   [Replacement Syntax](#abenregex-pcre-syntax-specials-21-----------capture-group-substitution---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_22)
+    -   [Conditional Substitution](#abenregex-pcre-syntax-specials-23-----------case-conversion---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_24)
+    -   [Substituting Special Characters](#abenregex-pcre-syntax-specials-25-----------quoting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_26)
 
 Hint
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_string. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SELECT FROM spfli FIELDS concat( concat( carrid,'_' ), connid ) AS key, 'from' && ' ' && cityfrom && ' to' && ' ' && cityto AS connection INTO TABLE @FINAL(re
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_string_abexa.htm"
+abapFile: "abensql_expr_string_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensql", "expr", "string", "abexa"]
+---
 
 * * *
 

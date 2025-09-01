@@ -1,4 +1,14 @@
-  
+---
+title: "byte_string_literal_glosry"
+description: |
+  byte_string_literal_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbyte_string_literal_glosry.htm"
+abapFile: "abenbyte_string_literal_glosry.htm"
+keywords: ["do", "try", "abenbyte", "string", "literal", "glosry"]
+---
 
 * * *
 

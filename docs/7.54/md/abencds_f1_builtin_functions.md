@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, Built-In Functions"
+description: |
+  The following built-in database functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_functions.htm) managed by ABAP Dictionary can be specified in the SELECT list(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list.htm) of a CDS vie
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_builtin_functions.htm"
+abapFile: "abencds_f1_builtin_functions.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "builtin", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "lossless_assignment_glosry"
+description: |
+  lossless_assignment_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlossless_assignment_glosry.htm"
+abapFile: "abenlossless_assignment_glosry.htm"
+keywords: ["do", "try", "data", "abenlossless", "assignment", "glosry"]
+---
 
 * * *
 

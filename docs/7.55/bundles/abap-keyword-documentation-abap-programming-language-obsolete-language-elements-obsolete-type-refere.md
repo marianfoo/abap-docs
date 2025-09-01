@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenobsolete_typing.htm
 
-  
+---
+title: "Obsolete Type Reference"
+description: |
+  -   Obsolete use of LIKE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm) LIKE, obsolete(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm)
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_typing.htm"
+abapFile: "abenobsolete_typing.htm"
+keywords: ["do", "abenobsolete", "typing"]
+---
 
 * * *
 
@@ -23,7 +33,17 @@ Continue
 
 ### abenlike_obsolete.htm
 
-  
+---
+title: "LIKE, obsolete"
+description: |
+  Obsolete Syntax ... LIKE dtype ... Effect Outside of classes, the addition LIKE can be used to reference flat(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm 'Glossary Entry') structures in ABAP Dictionary(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlike_obsolete.htm"
+abapFile: "abenlike_obsolete.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenlike", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Implementing or Including Interfaces"
+description: |
+  The statement -   INTERFACES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm) can be used to implement interfaces by classes or include them using other interfaces. The statement -   ALIASES(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm"
+abapFile: "abeninterfaces.htm"
+keywords: ["do", "if", "class", "abeninterfaces"]
+---
 
 * * *
 

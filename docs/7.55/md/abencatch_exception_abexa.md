@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions, CATCH"
+description: |
+  This example demonstrates how class-based exceptions are caught. Source Code REPORT demo_catch_exception. DATA(in) = cl_demo_input=>new( ). DATA: resumable     TYPE abap_bool VALUE abap_false, before_unwind TYPE abap_bool VALUE abap_false, resume        TYPE abap_bool VALUE abap_false. in
+version: "7.55"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencatch_exception_abexa.htm"
+abapFile: "abencatch_exception_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "exception-handling", "abencatch", "exception", "abexa"]
+---
 
 * * *
 

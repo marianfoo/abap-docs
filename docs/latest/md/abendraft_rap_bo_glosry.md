@@ -1,4 +1,14 @@
-  
+---
+title: "draft_rap_bo_glosry"
+description: |
+  draft_rap_bo_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendraft_rap_bo_glosry.htm"
+abapFile: "abendraft_rap_bo_glosry.htm"
+keywords: ["do", "if", "try", "abendraft", "rap", "glosry"]
+---
 
 * * *
 

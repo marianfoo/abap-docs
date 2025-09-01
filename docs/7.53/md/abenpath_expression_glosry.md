@@ -1,4 +1,14 @@
-  
+---
+title: "path_expression_glosry"
+description: |
+  path_expression_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpath_expression_glosry.htm"
+abapFile: "abenpath_expression_glosry.htm"
+keywords: ["do", "if", "try", "abenpath", "expression", "glosry"]
+---
 
 * * *
 

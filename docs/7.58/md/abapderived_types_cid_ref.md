@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %cid_ref is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used as a reference to a RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry') in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_cid_ref.htm"
+abapFile: "abapderived_types_cid_ref.htm"
+keywords: ["update", "delete", "do", "if", "try", "types", "abapderived", "cid", "ref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Table Controls on the Dynpro"
+description: |
+  Table controls are created on the dynpro using the tool Screen Painter. You can define as many table controls as you require for each dynpro. First, a table control area is created in which the table control fields are then specified. Defining the Table Control Area The table control area is created
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_table_controls.htm"
+abapFile: "abendynp_table_controls.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "data", "internal-table", "abendynp", "table", "controls"]
+---
 
 * * *
 

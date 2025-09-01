@@ -1,4 +1,14 @@
-  
+---
+title: "CALL DIALOG"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_dialog_shortref.htm) Obsolete Syntax CALL DIALOG dialog  AND SKIP FIRST SCREEN  USING bdc_tab MODE mode  EXPORTING p1 FROM a1 p2 FROM a2 ... IMPORTING p1 TO a1 p2 TO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_dialog.htm"
+abapFile: "abapcall_dialog.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abapcall", "dialog"]
+---
 
 * * *
 

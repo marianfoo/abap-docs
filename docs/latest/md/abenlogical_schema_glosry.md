@@ -1,4 +1,14 @@
-  
+---
+title: "logical_schema_glosry"
+description: |
+  logical_schema_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_schema_glosry.htm"
+abapFile: "abenlogical_schema_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenlogical", "schema", "glosry"]
+---
 
 * * *
 

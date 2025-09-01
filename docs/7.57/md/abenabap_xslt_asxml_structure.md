@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Examples"
+description: |
+  -   asXML, Mapping of Structures(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasxml_structure_abexa.htm) -   Deserializing Structure Components(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_asxml_asjson_empty_abexa.htm)
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xslt_asxml_structure.htm"
+abapFile: "abenabap_xslt_asxml_structure.htm"
+keywords: ["do", "if", "case", "data", "types", "abenabap", "xslt", "asxml", "structure"]
+---
 
 * * *
 

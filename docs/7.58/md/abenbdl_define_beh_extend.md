@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Extension Entity Behavior Definition"
+description: |
+  Syntax ... define behavior for ExtNode using(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh.htm) ... Prerequisite As a prerequisite, the extended RAP behavior definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh_extend.htm"
+abapFile: "abenbdl_define_beh_extend.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "define", "beh", "extend"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Source Type"
+description: |
+  Source Types INT1, INT2, INT4, INT8, DEC, CURR, QUAN, DECFLOAT16, and DECFLOAT34 -   Numeric target type -   The possible target types for all INT1, INT2, INT4, INT8, DEC, QUAN, DECFLOAT16, and DECFLOAT34. -   The possible target types for source types without DECFLOAT16 and DECFLOAT34 are CURR and
+version: "7.54"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression_rules.htm"
+abapFile: "abencds_f1_cast_expression_rules.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "cast", "expression", "rules"]
+---
 
 * * *
 
@@ -10,17 +20,11 @@ ABAP CDS - cast\_expr, Conversion Rules
 
 The following sections describe the conversion rules for [cast expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm) in [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry").
 
--   [Numeric Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_1)
+-   [Numeric Source Type](#abencds-f1-cast-expression-rules-1--------source-types-int1--int2--int4--int8--dec---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
 
--   [Source Types INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
+-   [Character-Like Source Type](#abencds-f1-cast-expression-rules-3--------source-types-char-and-sstring---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
 
--   [Character-Like Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_3)
-
--   [Source Types CHAR and SSTRING](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
-
--   [Source Type NUMC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_5)
-
--   [Source Types DATS and TIMS](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
+-   [Source Type NUMC](#abencds-f1-cast-expression-rules-5--------source-types-dats-and-tims---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
 
 -   [Source Types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_7)
 

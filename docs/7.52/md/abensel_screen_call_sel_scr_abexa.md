@@ -1,4 +1,14 @@
-  
+---
+title: "Selection screens, call standalone selection screens"
+description: |
+  The example demonstrates how to call standalone selection screens. Source Code REPORT demo_call_selection_screen. SELECTION-SCREEN BEGIN OF SCREEN 100. SELECTION-SCREEN BEGIN OF BLOCK sel1 WITH FRAME TITLE tit1. PARAMETERS: cityfr TYPE spfli-cityfrom, cityto TYPE spfli-cityto. SELECTION-SCREEN EN
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_call_sel_scr_abexa.htm"
+abapFile: "abensel_screen_call_sel_scr_abexa.htm"
+keywords: ["select", "do", "method", "class", "abensel", "screen", "call", "sel", "scr", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  Detailed information about database connections can be found here(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_multiconnect.htm). Example Specifies a service connection to the standard database for a prepared statement. TRY. DATA(con) = cl_sql_connection=>get_connectio
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_sql_connection.htm"
+abapFile: "abencl_sql_connection.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "abencl", "sql", "connection"]
+---
 
 * * *
 

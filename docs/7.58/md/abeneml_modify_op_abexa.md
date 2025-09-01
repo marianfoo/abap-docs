@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - MODIFY, Standard Operations (Managed)"
+description: |
+  This example demonstrates various standard operations to manipulate a simple managed RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). It also includes the use of READ statements. Data model The CDS data model consists of the root entity DEM
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_op_abexa.htm"
+abapFile: "abeneml_modify_op_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abeneml", "modify", "abexa"]
+---
 
 * * *
 

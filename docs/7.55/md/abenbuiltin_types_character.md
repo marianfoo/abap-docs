@@ -1,4 +1,14 @@
-  
+---
+title: "Built-In Character-Like Types"
+description: |
+  The data objects of the character-like data types are used to record character strings. Properties Type Length Standard Length Name c 1 to 262,143 characters 1 character Text Field(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_field_glosry.htm 'Glossary Entry') n 1 to 262,143
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_character.htm"
+abapFile: "abenbuiltin_types_character.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenbuiltin", "character"]
+---
 
 * * *
 

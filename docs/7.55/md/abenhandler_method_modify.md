@@ -1,4 +1,14 @@
-  
+---
+title: "FOR MODIFY"
+description: |
+  Work in progress  Syntax METHODS method_name FOR MODIFY IMPORTING create_import_parameter FOR CREATE entity_name create_import_parameter FOR CREATE entity_nameassociation update_import_parameter FOR UPDATE entity_name delete_import_parameter FOR DELETE entity_name action
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm"
+abapFile: "abenhandler_method_modify.htm"
+keywords: ["insert", "update", "delete", "loop", "do", "while", "if", "try", "method", "class", "data", "types", "abenhandler", "modify"]
+---
 
 * * *
 

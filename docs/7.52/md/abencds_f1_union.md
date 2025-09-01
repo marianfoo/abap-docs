@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, UNION"
+description: |
+  Syntax ... UNION ALL select_statement(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) ... Effect Creates the union of rows in the results sets of two SELECT statements(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_selec
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_union.htm"
+abapFile: "abencds_f1_union.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "internal-table", "abencds", "union"]
+---
 
 * * *
 

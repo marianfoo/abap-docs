@@ -1,4 +1,14 @@
-  
+---
+title: "BOPF"
+description: |
+  → Business Object Processing Framework(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbo_processing_fw_glosry.htm 'Glossary Entry')
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbopf_glosry.htm"
+abapFile: "abenbopf_glosry.htm"
+keywords: ["do", "if", "try", "abenbopf", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, COMPOSITION"
+description: |
+  Syntax ... COMPOSITION  min..max  OF target AS _compos ... Effect A CDS composition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cor
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_v2.htm"
+abapFile: "abencds_composition_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "composition"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Function Code"
+description: |
+  Sequence of up to 20 characters that can be assigned to specific control elements(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_element_glosry.htm 'Glossary Entry') of the user interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_interface_glosry
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_code_glosry.htm"
+abapFile: "abenfunction_code_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenfunction", "code", "glosry"]
+---
 
 * * *
 

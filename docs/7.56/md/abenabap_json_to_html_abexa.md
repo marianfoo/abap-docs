@@ -1,4 +1,14 @@
-  
+---
+title: "JSON - Transformation to HTML"
+description: |
+  Transformation from JSON data to HTML. Source Code REPORT demo_json_2_html. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SELECT  FROM scarr INTO TABLE @DATA(result) UP TO 3 ROWS. DATA(json_writer) = cl_sxml_string_writer=>creat
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_json_to_html_abexa.htm"
+abapFile: "abenabap_json_to_html_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenabap", "json", "html", "abexa"]
+---
 
 * * *
 

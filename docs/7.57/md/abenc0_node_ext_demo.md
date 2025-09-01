@@ -1,4 +1,14 @@
-  
+---
+title: "ProductTitle,"
+description: |
+  // @Semantics.amount.currencyCode: 'Currency' Amount, Currency, CreatedBy, CreatedOn, CreatedAt, LastChangedBy, LastChangedOn, LastChangedAt  CDS view entity extension to a C0 released API The following CDS view entity extension DEMO_C0_NODE_EXT extends the view entity displayed above. It adds a
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_node_ext_demo.htm"
+abapFile: "abenc0_node_ext_demo.htm"
+keywords: ["select", "do", "if", "try", "data", "abenc0", "node", "ext", "demo"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenitab_perfo.htm
 
-  
+---
+title: "Table Sharing"
+description: |
+  When assignments are made between internal tables of the same type whose line type does not contain any table types, only the internal administration functions are passed to the table body(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_body_glosry.htm 'Glossary Entry') for pe
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_perfo.htm"
+abapFile: "abenitab_perfo.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "perfo"]
+---
 
 * * *
 
@@ -17,14 +27,10 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 itab - Performance Notes
 
--   [Table Sharing](#@@ITOC@@ABENITAB_PERFO_1)
--   [Initial Memory Requirement](#@@ITOC@@ABENITAB_PERFO_2)
--   [Index Administration](#@@ITOC@@ABENITAB_PERFO_3)
--   [Block Processing of Table Lines](#@@ITOC@@ABENITAB_PERFO_4)
--   [Selective Data Transport](#@@ITOC@@ABENITAB_PERFO_5)
--   [Using Secondary Keys](#@@ITOC@@ABENITAB_PERFO_6)
--   [Deleting Table Lines](#@@ITOC@@ABENITAB_PERFO_7)
--   [Free Key Specified for Sorted Tables and Hashed Tables](#@@ITOC@@ABENITAB_PERFO_8)
+-   [Table Sharing](#abenitab-perfo-1-------initial-memory-requirement---@ITOC@@ABENITAB_PERFO_2)
+-   [Index Administration](#abenitab-perfo-3-------block-processing-of-table-lines---@ITOC@@ABENITAB_PERFO_4)
+-   [Selective Data Transport](#abenitab-perfo-5-------using-secondary-keys---@ITOC@@ABENITAB_PERFO_6)
+-   [Deleting Table Lines](#abenitab-perfo-7-------free-key-specified-for-sorted-tables-and-hashed-tables---@ITOC@@ABENITAB_PERFO_8)
 -   [Sorting](#@@ITOC@@ABENITAB_PERFO_9)
 
 Table Sharing   
@@ -104,7 +110,17 @@ Continue
 
 ### abenitab_where_optimization.htm
 
-  
+---
+title: "Example"
+description: |
+  In the following example: -   The first WHERE condition can be optimized. It is already written in an optimized form, where the three key fields are compared with different operators combined by AND. A comparison for a further column is also appended by AND. -   The second WHERE condition can be opt
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_where_optimization.htm"
+abapFile: "abenitab_where_optimization.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "data", "types", "internal-table", "abenitab", "where", "optimization"]
+---
 
 * * *
 
@@ -139,79 +155,8 @@ If there are no or insufficient relational expressions to meet both of these pre
 
 The following sections describe when an access can be optimized.
 
--   [Prerequisites for the Optimization of Hash Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
--   [Prerequisites for the Optimization of Sorted Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Prerequisites for the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hints
-
--   By specifying a key with USING KEY, it can be checked, whether an optimization is possible for a WHERE condition. The long texts of the syntax errors and warnings provide detailed information for dedicated situations.
--   If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of a [hash key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhash_key_glosry.htm "Glossary Entry") access, it must be possible to transform the WHERE condition fully or partly to a set of comparisons on equality combined by AND that cover all components of the key. The operands must meet the prerequisites described below.
-
-The operands of these relational expressions are then used as the key/value pairs for the key access. The remainder of the logical expression can contain any number of relational expressions combined using AND. Key components may be used in the relational expressions not used for the key access but not for comparisons on equality.
-
-Comparisons specified by the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_select_option.htm) are ignored by the optimization. They are never part of the key access but are always applied to the lines found by the key access.
-
-Example
-
-In the following example:
-
--   The first WHERE condition can be optimized. It is already written in an optimized form, where the three key fields are compared for equality and combined by AND. A comparison for a further column is also appended by AND.
--   The second WHERE condition can be optimized. The compiler can transform it to the first WHERE condition by removing the double negation with NOT and by replacing IS INITIAL with a comparison for equality.
--   The third WHERE condition can be optimized. The compiler can transform the comparisons combined by OR into comparisons combined by AND using De Morgan's Laws. Also the double negation with NOT for IS INITIAL is identified and removed.
--   The fourth WHERE condition cannot be optimized because a comparison for a further column is appended by OR.
--   The fifth WHERE condition cannot be optimized because there is a duplicate comparison for equality for a key field.
-
-TYPES:
-  BEGIN OF line,
-    a TYPE i,
-    b TYPE i,
-    c TYPE i,
-    d TYPE i,
-  END OF line.
-DATA itab TYPE STANDARD TABLE OF line
-               WITH UNIQUE HASHED KEY key COMPONENTS a b c.
-LOOP AT itab USING KEY key
-             ASSIGNING FIELD-SYMBOL(<fs1>)
-             WHERE a = 3 AND b = 3 AND c = 0 AND d > 1.
-  ...
-ENDLOOP.
-LOOP AT itab USING KEY key
-             ASSIGNING FIELD-SYMBOL(<fs2>)
-             WHERE d > 1 AND
-                   NOT ( NOT ( a = 3 AND b = 3 ) ) AND
-                   c IS INITIAL.
-  ...
-ENDLOOP.
-LOOP AT itab USING KEY key
-             ASSIGNING FIELD-SYMBOL(<fs3>)
-             WHERE NOT ( NOT a = 3 OR NOT b = 3 ) AND
-                   d > 1 AND
-                   NOT c IS NOT INITIAL.
-  ...
-ENDLOOP.
-\*LOOP AT itab USING KEY key "Syntax error
-\*             ASSIGNING FIELD-SYMBOL(<fs4>)
-\*             WHERE a = 3 AND b = 3 AND c = 0 OR d > 1.
-\*  ...
-\*ENDLOOP.
-\*LOOP AT itab USING KEY key "Syntax error
-\*             ASSIGNING FIELD-SYMBOL(<fs5>)
-\*             WHERE a = 3 AND b = 3 AND c = 0 AND a = 1.
-\*  ...
-\*ENDLOOP.
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of a [sorted key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensorted_key_glosry.htm "Glossary Entry") access, it must be possible to transform the WHERE condition fully or a partly to a set of comparisons with any [binary comparison operators](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_any_operand.htm) or with [BETWEEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_between.htm) combined by AND that cover an initial section of the key consisting of at least one component. The operands must meet the prerequisites described below.
-
-The operands of these relational expressions are then used as the key/value pairs for the key access. The remainder of the logical expression can contain any number of relational expressions combined using AND. Key components may be used in the relational expressions not used for the key access but not for comparisons on equality. Nevertheless, the duplicate use of key fields in comparisons leads to a syntax warning.
-
-The access to the internal table is partially sequential. For a forward loop, the starting point for processing is determined by a binary search with the extracted key/value pairs for relations \=, \>=, \>, and BETWEEN (first operand) that cover the table key completely or partially. From the starting point on, the table is only processed as long as subconditions for pairs with relations \=, <=, <, and BETWEEN (second operand) remain fulfilled. For a backward loop (see [STEP](abaploop_at_itab_cond.htm#!ABAP_ADDITION_3@3@)), the starting point is determined by pairs with relations \=, <=, <, and BETWEEN (second operand) and the processing is stopped when subconditions for pairs with \=, \>=, \>, and BETWEEN (first operand) are not fulfilled any more.
+-   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
+-   [Prerequisites for the Operands](#abenitab-where-optimization-3---hints------by-specifying-a-key-with-using-key--it-can-be-checked--whether-an-optimization-is-possible-for-a-where-condition--the-long-texts-of-the-syntax-errors-and-warnings-provide-detailed-information-for-dedicated-situations------if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abapmodify-itab-htm--or--delete--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abapdelete-itab-htm--and-not-just-read-using--loop-at--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abaploop-at-itab-htm---further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of-a--hash-key--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenhash-key-glosry-htm--glossary-entry---access--it-must-be-possible-to-transform-the-where-condition-fully-or-partly-to-a-set-of-comparisons-on-equality-combined-by-and-that-cover-all-components-of-the-key--the-operands-must-meet-the-prerequisites-described-below---the-operands-of-these-relational-expressions-are-then-used-as-the-key-value-pairs-for-the-key-access--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access-but-not-for-comparisons-on-equality---comparisons-specified-by-the-tabular-comparison-operator--in-range--tab--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenlogexp-select-option-htm--are-ignored-by-the-optimization--they-are-never-part-of-the-key-access-but-are-always-applied-to-the-lines-found-by-the-key-access---example--in-the-following-example-------the-first-where-condition-can-be-optimized--it-is-already-written-in-an-optimized-form--where-the-three-key-fields-are-compared-for-equality-and-combined-by-and--a-comparison-for-a-further-column-is-also-appended-by-and------the-second-where-condition-can-be-optimized--the-compiler-can-transform-it-to-the-first-where-condition-by-removing-the-double-negation-with-not-and-by-replacing-is-initial-with-a-comparison-for-equality------the-third-where-condition-can-be-optimized--the-compiler-can-transform-the-comparisons-combined-by-or-into-comparisons-combined-by-and-using-de-morgan-s-laws--also-the-double-negation-with-not-for-is-initial-is-identified-and-removed------the-fourth-where-condition-cannot-be-optimized-because-a-comparison-for-a-further-column-is-appended-by-or------the-fifth-where-condition-cannot-be-optimized-because-there-is-a-duplicate-comparison-for-equality-for-a-key-field---types----begin-of-line------a-type-i------b-type-i------c-type-i------d-type-i----end-of-line--data-itab-type-standard-table-of-line----------------with-unique-hashed-key-key-components-a-b-c--loop-at-itab-using-key-key--------------assigning-field-symbol--fs1----------------where-a---3-and-b---3-and-c---0-and-d---1--------endloop--loop-at-itab-using-key-key--------------assigning-field-symbol--fs2----------------where-d---1-and--------------------not---not---a---3-and-b---3-----and--------------------c-is-initial--------endloop--loop-at-itab-using-key-key--------------assigning-field-symbol--fs3----------------where-not---not-a---3-or-not-b---3---and--------------------d---1-and--------------------not-c-is-not-initial--------endloop----loop-at-itab-using-key-key--syntax-error----------------assigning-field-symbol--fs4------------------where-a---3-and-b---3-and-c---0-or-d---1------------endloop----loop-at-itab-using-key-key--syntax-error----------------assigning-field-symbol--fs5------------------where-a---3-and-b---3-and-c---0-and-a---1------------endloop---prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-a--sorted-key--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abensorted-key-glosry-htm--glossary-entry---access--it-must-be-possible-to-transform-the-where-condition-fully-or-a-partly-to-a-set-of-comparisons-with-any--binary-comparison-operators--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenlogexp-any-operand-htm--or-with--between--https---help-sap-com-doc-abapdocu-758-index-htm-7-58-en-us-abenlogexp-between-htm--combined-by-and-that-cover-an-initial-section-of-the-key-consisting-of-at-least-one-component--the-operands-must-meet-the-prerequisites-described-below---the-operands-of-these-relational-expressions-are-then-used-as-the-key-value-pairs-for-the-key-access--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access-but-not-for-comparisons-on-equality--nevertheless--the-duplicate-use-of-key-fields-in-comparisons-leads-to-a-syntax-warning---the-access-to-the-internal-table-is-partially-sequential--for-a-forward-loop--the-starting-point-for-processing-is-determined-by-a-binary-search-with-the-extracted-key-value-pairs-for-relations--------------and-between--first-operand--that-cover-the-table-key-completely-or-partially--from-the-starting-point-on--the-table-is-only-processed-as-long-as-subconditions-for-pairs-with-relations------------and-between--second-operand--remain-fulfilled--for-a-backward-loop--see--step--abaploop-at-itab-cond-htm--abap-addition-33@)), the starting point is determined by pairs with relations \=, <=, <, and BETWEEN (second operand) and the processing is stopped when subconditions for pairs with \=, \>=, \>, and BETWEEN (first operand) are not fulfilled any more.
 
 Comparisons specified by a tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_select_option.htm) appended with AND are ignored by the optimization. They are never part of the key access but always applied to the lines found by the key access.
 

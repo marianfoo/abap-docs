@@ -1,4 +1,14 @@
-  
+---
+title: "Chainings"
+description: |
+  Whenever operands are composed of components, which in turn contain components, the names of these components are composed of chainings with multiple component selectors. The following rules apply for such chained names(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchained_name_gl
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponent_chaining_selector.htm"
+abapFile: "abencomponent_chaining_selector.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencomponent", "chaining", "selector"]
+---
 
 * * *
 

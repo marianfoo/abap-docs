@@ -1,4 +1,14 @@
-  
+---
+title: "Test Relations"
+description: |
+  Syntax '! @testing kind:name This special ABAP Doc comment(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_doc_comment_glosry.htm 'Glossary Entry') can be used in front of the declaration of a test class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abent
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_relations.htm"
+abapFile: "abentest_relations.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abentest", "relations"]
+---
 
 * * *
 

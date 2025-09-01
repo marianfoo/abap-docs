@@ -1,4 +1,14 @@
-  
+---
+title: "GET PROPERTY - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_property.htm) Syntax GET PROPERTY OF ole attr = dobj NO FLUSH QUEUE-ONLY EXPORTING p1 = f1 p2 = f2 .... Effect Assigns the content of the attribute attr of an automation object(https://help.sap.c
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_property_shortref.htm"
+abapFile: "abapget_property_shortref.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "abapget", "property", "shortref"]
+---
 
 * * *
 

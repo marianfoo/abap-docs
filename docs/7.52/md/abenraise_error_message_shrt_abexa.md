@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_raise_error_message_shrt. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TRY. CALL FUNCTION 'DEMO_FUNCTION_MESSAGE' EXPORTING message_type  = 'A' message_place = 'in Function Module' message_event = 'START-OF-SELECTIO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenraise_error_message_shrt_abexa.htm"
+abapFile: "abenraise_error_message_shrt_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abenraise", "error", "message", "shrt", "abexa"]
+---
 
 * * *
 

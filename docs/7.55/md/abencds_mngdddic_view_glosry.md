@@ -1,4 +1,14 @@
-  
+---
+title: "CDS-managed DDIC view"
+description: |
+  DDIC database view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_view_glosry.htm 'Glossary Entry') of the ABAP Dictionary(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry') that is created in addition to the CDS
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_mngdddic_view_glosry.htm"
+abapFile: "abencds_mngdddic_view_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "mngdddic", "view", "glosry"]
+---
 
 * * *
 

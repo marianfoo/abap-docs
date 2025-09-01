@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Mesh Path Expressions"
+description: |
+  This example demonstrates how mesh paths can be used as standalone expressions. Source Code  Public class definition CLASS cl_demo_mesh_exprssns_flights DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE S
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_table_expressions_abexa.htm"
+abapFile: "abenmesh_table_expressions_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenmesh", "table", "expressions", "abexa"]
+---
 
 * * *
 

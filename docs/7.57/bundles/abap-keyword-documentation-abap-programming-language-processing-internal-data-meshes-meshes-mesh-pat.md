@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenmesh_path_result.htm
 
-  
+---
+title: "Meshes - Result of Mesh Paths"
+description: |
+  The mesh path result is a description of a set of lines in the last node path node of the expression. The result is used in statements and expressions for using mesh paths(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_usage.htm) (with one exception); either for navigatin
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_result.htm"
+abapFile: "abenmesh_path_result.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenmesh", "path", "result"]
+---
 
 * * *
 
@@ -36,7 +46,17 @@ Continue
 
 ### abenmesh_path_result_init_assoc.htm
 
-  
+---
+title: "Meshes - Result of the Initial Mesh Association"
+description: |
+  An initial mesh association with the syntax(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path.htm) ...rnode_associ(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_assoc.htm) source cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.5
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_result_init_assoc.htm"
+abapFile: "abenmesh_path_result_init_assoc.htm"
+keywords: ["do", "if", "data", "types", "abenmesh", "path", "result", "init", "assoc"]
+---
 
 * * *
 
@@ -69,7 +89,17 @@ Executable Examples
 
 ### abenmesh_path_result_chaining.htm
 
-  
+---
+title: "Meshes - Result of a Path Extension"
+description: |
+  A path extension with the syntax(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path.htm) ..._assoc1(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_assoc.htm)  cond(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_result_chaining.htm"
+abapFile: "abenmesh_path_result_chaining.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "types", "abenmesh", "path", "result", "chaining"]
+---
 
 * * *
 
@@ -112,7 +142,17 @@ Executable Example
 
 ### abenmesh_path_result_abexas.htm
 
-  
+---
+title: "Meshes - Example of Results of Mesh Paths"
+description: |
+  !Example(exa.gif 'Example') Meshes - Forward Associations in Mesh Paths(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_for_forward_abexa.htm) !Example(exa.gif 'Example') Meshes - Inverse Associations in Mesh Paths(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-U
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_result_abexas.htm"
+abapFile: "abenmesh_path_result_abexas.htm"
+keywords: ["do", "if", "data", "abenmesh", "path", "result", "abexas"]
+---
 
 * * *
 
@@ -133,7 +173,17 @@ Continue
 
 ### abenmesh_for_forward_abexa.htm
 
-  
+---
+title: "Meshes - Forward Associations in Mesh Paths"
+description: |
+  This example demonstrates the results of forward associations in mesh paths. Source Code REPORT demo_mesh_forward_assoc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TABLE OF
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_for_forward_abexa.htm"
+abapFile: "abenmesh_for_forward_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "for", "forward", "abexa"]
+---
 
 * * *
 
@@ -250,7 +300,17 @@ Description  
 
 ### abenmesh_for_inverse_abexa.htm
 
-  
+---
+title: "Meshes - Inverse Associations in Mesh Paths"
+description: |
+  This example demonstrates the results of inverse mesh associations in mesh paths. Source Code REPORT demo_mesh_inverse_assoc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TAB
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_for_inverse_abexa.htm"
+abapFile: "abenmesh_for_inverse_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "for", "inverse", "abexa"]
+---
 
 * * *
 
@@ -368,7 +428,17 @@ Description  
 
 ### abenmesh_for_reflex_sngl_abexa.htm
 
-  
+---
+title: "Meshes - Reflexive Associations in Mesh Paths"
+description: |
+  This example demonstrates the results of reflexive mesh associations in mesh paths. Source Code REPORT demo_mesh_reflexive_assoc_sngl. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line, id        TYPE i, parent_id TYPE i, name
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_for_reflex_sngl_abexa.htm"
+abapFile: "abenmesh_for_reflex_sngl_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "for", "reflex", "sngl", "abexa"]
+---
 
 * * *
 
@@ -477,7 +547,17 @@ In a reflexive mesh association (self-association), the source and target nodes 
 
 ### abenmesh_path_result_abexas.htm
 
-  
+---
+title: "Meshes - Example of Results of Mesh Paths"
+description: |
+  !Example(exa.gif 'Example') Meshes - Forward Associations in Mesh Paths(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_for_forward_abexa.htm) !Example(exa.gif 'Example') Meshes - Inverse Associations in Mesh Paths(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-U
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_result_abexas.htm"
+abapFile: "abenmesh_path_result_abexas.htm"
+keywords: ["do", "if", "data", "abenmesh", "path", "result", "abexas"]
+---
 
 * * *
 

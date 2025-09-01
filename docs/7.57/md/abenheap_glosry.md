@@ -1,4 +1,14 @@
-  
+---
+title: "heap_glosry"
+description: |
+  heap_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenheap_glosry.htm"
+abapFile: "abenheap_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenheap", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  An operand of an enumerated type cannot be compared directly with a character-like operand of the type c or string, even though there is a conversion rule(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_enumerated.htm) for this case. In this case, helper variables or the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_rules_operands_enum.htm"
+abapFile: "abenlogexp_rules_operands_enum.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenlogexp", "rules", "operands", "enum"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SHIFT, direction"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapshift_shortref.htm) Syntax ... LEFTRIGHT CIRCULAR ... Additions: 1. ... LEFTRIGHT(#!ABAP_ADDITION_1@1@) 2. ... CIRCULAR(#!ABAP_ADDITION_2@2@) Addition 1 ... LEFTRIGHT Effect The shift dire
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapshift_direction.htm"
+abapFile: "abapshift_direction.htm"
+keywords: ["insert", "do", "if", "data", "abapshift", "direction"]
+---
 
 * * *
 

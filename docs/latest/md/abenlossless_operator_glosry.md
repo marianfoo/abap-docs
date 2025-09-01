@@ -1,4 +1,14 @@
-  
+---
+title: "lossless_operator_glosry"
+description: |
+  lossless_operator_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_operator_glosry.htm"
+abapFile: "abenlossless_operator_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenlossless", "operator", "glosry"]
+---
 
 * * *
 

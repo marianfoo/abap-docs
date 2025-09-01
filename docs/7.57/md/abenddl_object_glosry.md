@@ -1,4 +1,14 @@
-  
+---
+title: "DDL object"
+description: |
+  A database(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_glosry.htm 'Glossary Entry') artifact that is not managed by the ABAP Dictionary(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary_glosry.htm 'Glossary Entry'), i. e. an artifact that
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_object_glosry.htm"
+abapFile: "abenddl_object_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenddl", "object", "glosry"]
+---
 
 * * *
 

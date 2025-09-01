@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete CDS Annotations"
+description: |
+  The following CDS annotations are obsolete. Obsolete AbapCatalog Annotations Technical settings of a CDS view. Annotation Meaning Annotation Values Default Value if Not Used Default Value if Used Without Value AbapCatalog.dbHints .dbSystem Obsolete: Database system for which a database hint(ht
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_obsolete.htm"
+abapFile: "abencds_annotation_obsolete.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "annotation", "obsolete"]
+---
 
 * * *
 

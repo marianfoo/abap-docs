@@ -1,4 +1,14 @@
-  
+---
+title: "SET CURSOR - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_cursor_dynpro.htm) Syntax SET CURSOR   FIELD field LINE line DISPLAYMEMORY OFFSET off    LINE line DISPLAYMEMORY OFFSET off    col lin  . Effect
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_cursor_shortref.htm"
+abapFile: "abapset_cursor_shortref.htm"
+keywords: ["loop", "do", "if", "try", "abapset", "cursor", "shortref"]
+---
 
 * * *
 

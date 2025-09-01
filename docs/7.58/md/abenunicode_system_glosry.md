@@ -1,4 +1,14 @@
-  
+---
+title: "Unicode system"
+description: |
+  Single code page system(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensingle_codepage_system_glosry.htm 'Glossary Entry') in which characters are encoded in a Unicode character representation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunicode_char_represent_g
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunicode_system_glosry.htm"
+abapFile: "abenunicode_system_glosry.htm"
+keywords: ["do", "if", "try", "abenunicode", "system", "glosry"]
+---
 
 * * *
 

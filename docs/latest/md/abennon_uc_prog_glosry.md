@@ -1,4 +1,14 @@
-  
+---
+title: "non_uc_prog_glosry"
+description: |
+  non_uc_prog_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennon_uc_prog_glosry.htm"
+abapFile: "abennon_uc_prog_glosry.htm"
+keywords: ["do", "if", "try", "abennon", "prog", "glosry"]
+---
 
 * * *
 

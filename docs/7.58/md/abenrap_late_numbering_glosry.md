@@ -1,4 +1,14 @@
-  
+---
+title: "RAP late numbering"
+description: |
+  A numbering concept(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_numbering_glosry.htm 'Glossary Entry') in which key values are assigned during the RAP save sequence(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_save_seq_glosry.htm 'Glossary Entry'). Th
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_late_numbering_glosry.htm"
+abapFile: "abenrap_late_numbering_glosry.htm"
+keywords: ["do", "if", "try", "method", "abenrap", "late", "numbering", "glosry"]
+---
 
 * * *
 

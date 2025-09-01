@@ -1,4 +1,14 @@
-  
+---
+title: "GENERATE SUBROUTINE POOL - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapgenerate_subroutine_pool.htm) Syntax GENERATE SUBROUTINE POOL itab NAME prog MESSAGE mess INCLUDE incl LINE lin WORD wrd OFFSET off MESSAGE-ID mid SHORTDUMP-ID sid. Effe
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapgenerate_shortref.htm"
+abapFile: "abapgenerate_shortref.htm"
+keywords: ["do", "if", "try", "internal-table", "abapgenerate", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( name1, name2, ... ) ... Effect Defines the element names of a CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm 'Glossary Entry') in a name list. The specified names name1, name2, ... are assigned to the elements defined expl
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_name_list_v1.htm"
+abapFile: "abencds_name_list_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "name", "list"]
+---
 
 * * *
 

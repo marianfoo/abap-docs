@@ -1,4 +1,14 @@
-  
+---
+title: "SAP Cloud Platform, ABAP Environment"
+description: |
+  A special ABAP Platform(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_platform_glosry.htm 'Glossary Entry') variant. It is a part of the SAP Cloud Platform(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_cloud_platform_glosry.htm 'Glossary Entry') and is
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_cp_abap_env_glosry.htm"
+abapFile: "abensap_cp_abap_env_glosry.htm"
+keywords: ["do", "try", "abensap", "abap", "env", "glosry"]
+---
 
 * * *
 

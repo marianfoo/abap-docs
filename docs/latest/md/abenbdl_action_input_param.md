@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - InputParameter"
+description: |
+  Syntax Forms Flat Parameter ... parameter  ParameterEntity  $self ; Deep Parameter ... deep table parameter AbstractBDEF; Alternatives: 1. ... parameter  ParameterEntity  $self ;(#!ABAP_ALTERNATIVE_1@1@) 2. ... deep table parameter AbstractBDEF;
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_input_param.htm"
+abapFile: "abenbdl_action_input_param.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "class", "data", "abenbdl", "action", "input", "param"]
+---
 
 * * *
 

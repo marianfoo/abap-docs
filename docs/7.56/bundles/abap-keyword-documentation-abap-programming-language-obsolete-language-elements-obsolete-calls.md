@@ -5,7 +5,17 @@ Included pages: 9
 
 ### abenprogram_call_obsolete.htm
 
-  
+---
+title: "Obsolete Calls"
+description: |
+  -   CALL METHOD - obsolete(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static.htm) -   CALL DIALOG(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_dialog.htm) -   CALL CUSTOMER-FUNCTION(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-U
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_call_obsolete.htm"
+abapFile: "abenprogram_call_obsolete.htm"
+keywords: ["do", "method", "abenprogram", "call", "obsolete"]
+---
 
 * * *
 
@@ -32,7 +42,17 @@ Continue
 
 ### abapcall_transaction_auth_obs.htm
 
-  
+---
+title: "CALL TRANSACTION, Obsolete"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm) Obsolete Syntax CALL TRANSACTION ta AND SKIP FIRST SCREEN(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm)   USING bdc_tab .
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_auth_obs.htm"
+abapFile: "abapcall_transaction_auth_obs.htm"
+keywords: ["do", "if", "case", "try", "data", "abapcall", "transaction", "auth", "obs"]
+---
 
 * * *
 
@@ -112,7 +132,17 @@ Hints
 
 ### abapcall_method_static.htm
 
-  
+---
+title: "CALL METHOD, Static Method Call (Obsolete)"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_shortref.htm) Obsolete Syntax CALL METHOD  meth(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_meth_ident_stat.htm)( )  meth(https://help.sap.com/doc/abapdocu_756_index_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static.htm"
+abapFile: "abapcall_method_static.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapcall", "static"]
+---
 
 * * *
 
@@ -205,7 +235,17 @@ START-OF-SELECTION.
 
 ### abapcall_dialog.htm
 
-  
+---
+title: "CALL DIALOG"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_dialog_shortref.htm) Obsolete Syntax CALL DIALOG dialog  AND SKIP FIRST SCREEN  USING bdc_tab MODE mode  EXPORTING p1 FROM a1 p2 FROM a2 ... IMPORTING p1 TO a1 p2 TO a2 .
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_dialog.htm"
+abapFile: "abapcall_dialog.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abapcall", "dialog"]
+---
 
 * * *
 
@@ -316,7 +356,17 @@ Continue
 
 ### abencall_dialog_abexa.htm
 
-  
+---
+title: "Calling a Dialog Module"
+description: |
+  This example demonstrates how a dialog module can be called. Source Code REPORT demo_dialog_module. DATA spfli_wa TYPE spfli. spfli_wa-carrid = 'LH'. spfli_wa-connid = '0400'. START-OF-SELECTION. CALL DIALOG 'DEMO_DIALOG_MODULE' EXPORTING spfli-carrid FROM spfli_wa-carrid spfli-connid FROM s
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_dialog_abexa.htm"
+abapFile: "abencall_dialog_abexa.htm"
+keywords: ["select", "do", "try", "data", "abencall", "dialog", "abexa"]
+---
 
 * * *
 
@@ -364,7 +414,17 @@ Calls the [dialog module](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/e
 
 ### abapcall_dialog.htm
 
-  
+---
+title: "CALL DIALOG"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_dialog_shortref.htm) Obsolete Syntax CALL DIALOG dialog  AND SKIP FIRST SCREEN  USING bdc_tab MODE mode  EXPORTING p1 FROM a1 p2 FROM a2 ... IMPORTING p1 TO a1 p2 TO a2 .
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_dialog.htm"
+abapFile: "abapcall_dialog.htm"
+keywords: ["update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abapcall", "dialog"]
+---
 
 * * *
 
@@ -475,7 +535,17 @@ Continue
 
 ### abapcall_customer-function.htm
 
-  
+---
+title: "CALL CUSTOMER-FUNCTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_customer_func_shortref.htm) Obsolete Syntax CALL CUSTOMER-FUNCTION function_exit parameter_list(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_parameter.htm). Effect This statement
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_customer-function.htm"
+abapFile: "abapcall_customer-function.htm"
+keywords: ["do", "if", "try", "method", "exception-handling", "abapcall", "customer", "function"]
+---
 
 * * *
 
@@ -520,7 +590,17 @@ Hints
 
 ### abapcall_function_exc_short_form.htm
 
-  
+---
+title: "CALL FUNCTION EXCEPTIONS, Short Form"
+description: |
+  Obsolete Syntax CALL FUNCTION func ... EXCEPTIONS exc1 exc2 ... Effect This short form for specifying non-class-based exceptions in the parameter list(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_parameter.htm) of the statement CALL FUNCTION(https://help.sap.com/d
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_exc_short_form.htm"
+abapFile: "abapcall_function_exc_short_form.htm"
+keywords: ["do", "if", "catch", "class", "abapcall", "function", "exc", "short", "form"]
+---
 
 * * *
 
@@ -571,7 +651,17 @@ Since exceptions called "=" are not possible, and exceptions called "4" are unli
 
 ### abapperform_obsolete.htm
 
-  
+---
+title: "PERFORM subr(prog)"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapperform_shortref.htm) Obsolete Syntax PERFORM subr(prog) IF FOUND parameter_list(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapperform_parameters.htm). Effect A variant of the extern
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapperform_obsolete.htm"
+abapFile: "abapperform_obsolete.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "abapperform", "obsolete"]
+---
 
 * * *
 

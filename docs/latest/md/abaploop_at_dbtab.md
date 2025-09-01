@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT dbtab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_dbtab_shortref.htm) Obsolete Syntax LOOP AT  dbtab  dbtab  VERSION vers. ... ENDLOOP. Addition: ... VERSION vers(#!ABAP_ONE_ADD@1@) Effect The statements LOOP and ENDLOOP define a loop
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_dbtab.htm"
+abapFile: "abaploop_at_dbtab.htm"
+keywords: ["select", "loop", "do", "if", "try", "class", "data", "abaploop", "dbtab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "XPath regular expression"
+description: |
+  Regular expression(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregular_expression_glosry.htm 'Glossary Entry') using the syntax and semantics described under Query 1.0 and XPath 2.0 Functions and Operators(https://www.w3.org/TR/xquery-operators/#regex-syntax). ABAP supports X
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxpath_regex_glosry.htm"
+abapFile: "abenxpath_regex_glosry.htm"
+keywords: ["do", "try", "abenxpath", "regex", "glosry"]
+---
 
 * * *
 

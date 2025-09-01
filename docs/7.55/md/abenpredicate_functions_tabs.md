@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  rel_exp - line_exists(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenline_exists_function.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicate_functions_tabs.htm"
+abapFile: "abenpredicate_functions_tabs.htm"
+keywords: ["do", "abenpredicate", "functions", "tabs"]
+---
 
 * * *
 

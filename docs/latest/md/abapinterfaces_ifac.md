@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACES, composition"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_shortref.htm) Syntax INTERFACES intf. Effect In the declaration of an interface, the statement INTERFACES includes the interface intf in the declared interface. Additions cannot be specified. As a result
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm"
+abapFile: "abapinterfaces_ifac.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abapinterfaces", "ifac"]
+---
 
 * * *
 

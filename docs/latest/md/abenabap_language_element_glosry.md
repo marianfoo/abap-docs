@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP language element"
+description: |
+  ABAP keyword(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_keyword_glosry.htm 'Glossary Entry') or combination of an ABAP keyword with one or more following ABAP words(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_word_glosry.htm 'Glossary En
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_element_glosry.htm"
+abapFile: "abenabap_language_element_glosry.htm"
+keywords: ["delete", "do", "if", "try", "abenabap", "language", "element", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "GET CURSOR, Dynpro"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_shortref.htm) Syntax GET CURSOR   FIELD  field  field_properties(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_field.htm)    LINE line  . Effect If
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_dynpro.htm"
+abapFile: "abapget_cursor_dynpro.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapget", "cursor", "dynpro"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "PACK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abappack_shortref.htm) Obsolete Syntax PACK source TO destination. Effect This statement, which is forbidden in classes, converts the content of the data object source to the data type p of length 16 without decimal places
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abappack.htm"
+abapFile: "abappack.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "abappack"]
+---
 
 * * *
 

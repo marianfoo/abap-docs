@@ -1,4 +1,14 @@
-  
+---
+title: "REJECT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreject_shortref.htm) Obsolete Syntax REJECT node. Addition: ... node(#!ABAP_ONE_ADD@1@) Effect The statement END-OF-SELECTION is only intended for use in executable programs(https://help.sap.com/doc/aba
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreject.htm"
+abapFile: "abapreject.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "data", "abapreject"]
+---
 
 * * *
 

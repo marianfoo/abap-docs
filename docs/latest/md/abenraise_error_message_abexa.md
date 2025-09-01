@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_raise_error_message DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_raise_error_message IMPLEMENTATION. METHOD main. TRY. CALL FUNCTI
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_error_message_abexa.htm"
+abapFile: "abenraise_error_message_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "abenraise", "error", "message", "abexa"]
+---
 
 * * *
 

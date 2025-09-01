@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_raise_msg_reuse_attr DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS meth EXCEPTIONS exception. ENDCLASS.  Public class implementation CLASS cl_demo_raise_msg_r
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interface_reuse_abexa.htm"
+abapFile: "abenmessage_interface_reuse_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "abenmessage", "interface", "reuse", "abexa"]
+---
 
 * * *
 

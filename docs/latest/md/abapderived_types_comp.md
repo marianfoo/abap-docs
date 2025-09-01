@@ -1,4 +1,14 @@
-  
+---
+title: "Components of BDEF Derived Types"
+description: |
+  BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry') are derived by the ABAP runtime framework(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_runtime_frmwk_glosry.htm 'Glossary Entry') from
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm"
+abapFile: "abapderived_types_comp.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapderived", "comp"]
+---
 
 * * *
 

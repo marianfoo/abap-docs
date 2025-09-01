@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... sql_cond1 AND sql_cond2 AND sql_cond3 ... ... sql_cond1 OR sql_cond2 OR sql_cond3 ... ... NOT sql_cond ... ... ( sql_cond ) ... Effect Any number of logical sql_cond(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_stmt_logexp.htm) expressions can be combin
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwhere_logexp_andornot.htm"
+abapFile: "abenwhere_logexp_andornot.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "abenwhere", "logexp", "andornot"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Standard Operations"
+description: |
+  Syntax ... internal(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_internal.htm) create (features:global(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_fc.htm) ,precheck(https://help.sap.com/doc/abapdocu_latest_i
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_standard_operations.htm"
+abapFile: "abenbdl_standard_operations.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "abenbdl", "standard", "operations"]
+---
 
 * * *
 

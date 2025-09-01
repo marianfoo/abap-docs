@@ -1,4 +1,14 @@
-  
+---
+title: "CTE"
+description: |
+  Common Table Expression, → common table expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommon_table_expression_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencte_glosry.htm"
+abapFile: "abencte_glosry.htm"
+keywords: ["do", "if", "try", "abencte", "glosry"]
+---
 
 * * *
 

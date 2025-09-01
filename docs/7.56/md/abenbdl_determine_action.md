@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - determine actions"
+description: |
+  Syntax internal(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm) determine action (authorization:none(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_auth.htm)   authorization:update(https://help.sap.com/doc/abapdocu_756
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_determine_action.htm"
+abapFile: "abenbdl_determine_action.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "determine", "action"]
+---
 
 * * *
 

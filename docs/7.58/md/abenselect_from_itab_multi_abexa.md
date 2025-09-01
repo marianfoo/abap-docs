@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Multiple Internal Tables as Data Sources of a Query"
+description: |
+  This example demonstrates a multiple join of internal tables. Source Code  Public class definition CLASS cl_demo_select_from_multi_itab DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS.  Public class implementation CLA
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_from_itab_multi_abexa.htm"
+abapFile: "abenselect_from_itab_multi_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenselect", "from", "itab", "multi", "abexa"]
+---
 
 * * *
 

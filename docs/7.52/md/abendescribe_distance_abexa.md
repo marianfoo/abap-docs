@@ -1,4 +1,14 @@
-  
+---
+title: "Determining Data Object Distances"
+description: |
+  The example demonstrates how the distance between two data objects can be determined at runtime. Source Code REPORT demo_describe_distance. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF struc, comp1 TYPE i, comp2 TYPE x
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescribe_distance_abexa.htm"
+abapFile: "abendescribe_distance_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "field-symbol", "abendescribe", "distance", "abexa"]
+---
 
 * * *
 

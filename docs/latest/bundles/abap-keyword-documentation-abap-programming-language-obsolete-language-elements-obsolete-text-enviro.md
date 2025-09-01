@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abentext_environment_obsolete.htm
 
-  
+---
+title: "Obsolete Text Environment"
+description: |
+  -   SET LOCALE - obsolete_parameters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale_obsolete.htm) -   GET LOCALE - obsolete_parameters(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale_obsolete.htm) SET LOCALE, obsolete_parameters
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment_obsolete.htm"
+abapFile: "abentext_environment_obsolete.htm"
+keywords: ["do", "if", "abentext", "environment", "obsolete"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abapset_locale_obsolete.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... COUNTRY cntry MODIFIER mod Additions: 1. ... COUNTRY cntry(#!ABAP_ADDITION_1@1@) 2. ... MODIFIER mod(#!ABAP_ADDITION_2@2@) Effect ABAP syntax allows the additions COUNTRY and MODIFIER to be specified for the statement SET LOCALE LANGUAGE(https://help.sap.com/doc/abapdocu_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale_obsolete.htm"
+abapFile: "abapset_locale_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abapset", "locale", "obsolete"]
+---
 
 * * *
 
@@ -81,7 +101,17 @@ This function is not implemented. The addition MODIFIER is ignored when the stat
 
 ### abapget_locale_obsolete.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... COUNTRY cntry MODIFIER mod Additions: 1. ... COUNTRY cntry(#!ABAP_ADDITION_1@1@) 2. ... MODIFIER mod(#!ABAP_ADDITION_2@2@) Effect Although ABAP syntax requires the additions COUNTRY and MODIFIER to be specified for the statement GET LOCALE(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale_obsolete.htm"
+abapFile: "abapget_locale_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abapget", "locale", "obsolete"]
+---
 
 * * *
 

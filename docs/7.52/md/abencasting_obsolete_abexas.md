@@ -1,4 +1,14 @@
-  
+---
+title: "Casting Examples"
+description: |
+  !Example(exa.gif 'Example') Field Symbols - Casting(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_imp_exp_abexa.htm) !Example(exa.gif 'Example') Field Symbols, Casting Predefined Data Types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_obsole
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_obsolete_abexas.htm"
+abapFile: "abencasting_obsolete_abexas.htm"
+keywords: ["do", "if", "data", "types", "field-symbol", "abencasting", "obsolete", "abexas"]
+---
 
 * * *
 

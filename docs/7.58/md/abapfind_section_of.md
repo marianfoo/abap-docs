@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... SECTION OFFSET off LENGTH len OF ... Effect This addition restricts the search of the statements FIND(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfind.htm) and REPLACE(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreplace_in_pattern.htm) in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfind_section_of.htm"
+abapFile: "abapfind_section_of.htm"
+keywords: ["do", "if", "try", "data", "abapfind", "section"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  col1 = val1 col2 = val2 ...    USING KEY key WHERE log_exp  ... Variants: 1. ... col1 = val1 col2 = val2 ...(#!ABAP_VARIANT_1@1@) 2. ... USING KEY key WHERE log_exp(#!ABAP_VARIANT_2@2@) Effect Specifies an additional condition in the square
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm"
+abapFile: "abenmesh_path_assoc_cond.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "try", "data", "types", "abenmesh", "path", "assoc", "cond"]
+---
 
 * * *
 

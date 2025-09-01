@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA, ABAP-Specific Session Variables"
+description: |
+  This example demonstrates potential Native SQL reads on session variables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables.htm) on the SAP HANA database. Source Code  Public class definition CLASS cl_demo_hana_abap_variables DEFINITION INHERITING FRO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables_abexa.htm"
+abapFile: "abenhana_session_variables_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenhana", "session", "variables", "abexa"]
+---
 
 * * *
 

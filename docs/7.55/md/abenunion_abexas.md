@@ -1,4 +1,14 @@
-  
+---
+title: "UNION, Examples"
+description: |
+  !Example(exa.gif 'Example') SELECT, Union of Multiple Tables(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_union_abexa.htm) !Example(exa.gif 'Example') SELECT, Union with Aggregate Expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_union_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunion_abexas.htm"
+abapFile: "abenunion_abexas.htm"
+keywords: ["select", "do", "if", "data", "abenunion", "abexas"]
+---
 
 * * *
 

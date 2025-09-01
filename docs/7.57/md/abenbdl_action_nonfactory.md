@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - action, Non-Factory"
+description: |
+  Syntax internal(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_internal.htm)static action ( features: instance  global(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_actions_fc.htm) precheck(https://help.sap.com/d
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_nonfactory.htm"
+abapFile: "abenbdl_action_nonfactory.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "action", "nonfactory"]
+---
 
 * * *
 

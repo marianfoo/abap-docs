@@ -1,4 +1,14 @@
-  
+---
+title: "asxml_glosry"
+description: |
+  asxml_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenasxml_glosry.htm"
+abapFile: "abenasxml_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenasxml", "glosry"]
+---
 
 * * *
 

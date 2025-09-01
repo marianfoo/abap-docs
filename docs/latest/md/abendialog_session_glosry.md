@@ -1,4 +1,14 @@
-  
+---
+title: "dialog_session_glosry"
+description: |
+  dialog_session_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendialog_session_glosry.htm"
+abapFile: "abendialog_session_glosry.htm"
+keywords: ["do", "if", "try", "abendialog", "session", "glosry"]
+---
 
 * * *
 

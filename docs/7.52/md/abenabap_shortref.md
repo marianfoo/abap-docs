@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP - Quick Reference"
+description: |
+  A ADD(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd_shortref.htm) ADD-CORRESPONDING(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd-corresponding_shortref.htm) ADD - THEN, UNTIL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd_then_from
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm"
+abapFile: "abenabap_shortref.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "abenabap", "shortref"]
+---
 
 * * *
 

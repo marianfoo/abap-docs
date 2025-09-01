@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpro Fields"
+description: |
+  The dynpro flow logic(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry') does not contain any data declarations. With the exception of the OK field(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenok_field_glosry.htm 'Gloss
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_fields.htm"
+abapFile: "abenabap_dynpros_fields.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "data", "types", "abenabap", "dynpros", "fields"]
+---
 
 * * *
 

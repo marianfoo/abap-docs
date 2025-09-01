@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES BEGIN OF - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_struc.htm) Syntax TYPES BEGIN OF struc_type. ... TYPES   ... BOXED. INCLUDE ...(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinclude_type_shortref.htm) ... DATA END OF struc_type. Effect De
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_begin_of_shortref.htm"
+abapFile: "abaptypes_begin_of_shortref.htm"
+keywords: ["do", "try", "data", "types", "abaptypes", "begin", "shortref"]
+---
 
 * * *
 

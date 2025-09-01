@@ -1,4 +1,14 @@
-  
+---
+title: "Method"
+description: |
+  Details GET_CURRENT_PHASE Information about the current RAP transactional phase(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransactional_phase_glosry.htm 'Glossary Entry'), for example, RAP early save phase(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-U
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm"
+abapFile: "abaprap_cl_abap_behv_aux.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abaprap", "abap", "behv", "aux"]
+---
 
 * * *
 

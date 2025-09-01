@@ -1,4 +1,14 @@
-  
+---
+title: "Date, Time, Time Stamp, and Time Zones"
+description: |
+  Dates, times, and time stamps specify times with varying levels of precision. -   A date or calendar date is a time specification for a calendar that is exact to a day, week, or month. AS ABAP always implicitly references the Gregorian calendar that is valid virtually worldwide. Output can be conver
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendate_time_oview.htm"
+abapFile: "abendate_time_oview.htm"
+keywords: ["do", "if", "try", "data", "abendate", "time", "oview"]
+---
 
 * * *
 

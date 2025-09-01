@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA, REF TO"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm) TYPE REF TO type(name). Effect The
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_reference.htm"
+abapFile: "abapcreate_data_reference.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abapcreate", "reference"]
+---
 
 * * *
 

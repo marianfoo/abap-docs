@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... utclong_add( val  = time_stamp days = days hours = hours minutes = minutes seconds = seconds ) ... Effect This built-in function(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm) adds the values passed to the optional parameters as a time
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutclong_add.htm"
+abapFile: "abenutclong_add.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "abenutclong", "add"]
+---
 
 * * *
 

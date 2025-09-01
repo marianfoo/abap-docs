@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP and XML"
+description: |
+  This section describes how XML(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxml_glosry.htm 'Glossary Entry') data can be created and read in ABAP. The main topics are -   processing and creating XML data using parsers and renderers that are created and used using the APIs of
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml.htm"
+abapFile: "abenabap_xml.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "types", "internal-table", "abenabap", "xml"]
+---
 
 * * *
 

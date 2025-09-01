@@ -1,4 +1,14 @@
-  
+---
+title: "Component"
+description: |
+  Length Type Property Value Meaning name 132 c Name name Name group1 3 c Group1 id1 Modification group group2 3 c Group2 id2 Modification group group3 3 c Group3 id3 Modification group group4 3 c Group4 id4 Modification group required 1 c Mandatory field 0, 1, 2 Mandatory or recommended field input 1
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen.htm"
+abapFile: "abenscreen.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenscreen"]
+---
 
 * * *
 

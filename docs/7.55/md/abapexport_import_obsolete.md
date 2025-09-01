@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT, IMPORT, Short Form of the Parameter List"
+description: |
+  Obsolete Syntax EXPORT(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster.htm) dobj1 dobj2 ... TO medium(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster_medium.htm) COMPRESSIONONOFF. IMPORT(https://help.sap.com
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_import_obsolete.htm"
+abapFile: "abapexport_import_obsolete.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "internal-table", "abapexport", "import", "obsolete"]
+---
 
 * * *
 

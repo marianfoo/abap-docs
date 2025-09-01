@@ -1,4 +1,14 @@
-  
+---
+title: "CALL METHOD, Static Method Call (Obsolete)"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_shortref.htm) Obsolete Syntax CALL METHOD  meth(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm)( )  meth(https://help.sap.com/doc/abapdocu_755_index_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_static.htm"
+abapFile: "abapcall_method_static.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapcall", "static"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Calculations"
+description: |
+  Background In ABAP, the arithmetic operators(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarithmetic_operator_glosry.htm 'Glossary Entry') in arithmetic expressions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarithmetic_expression_glosry.htm 'Glossary Entry')
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalc_expresssion_guidl.htm"
+abapFile: "abencalc_expresssion_guidl.htm"
+keywords: ["do", "if", "try", "abencalc", "expresssion", "guidl"]
+---
 
 * * *
 

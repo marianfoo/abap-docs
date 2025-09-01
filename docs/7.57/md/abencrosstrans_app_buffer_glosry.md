@@ -1,4 +1,14 @@
-  
+---
+title: "crosstrans_app_buffer_glosry"
+description: |
+  crosstrans_app_buffer_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencrosstrans_app_buffer_glosry.htm"
+abapFile: "abencrosstrans_app_buffer_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencrosstrans", "app", "buffer", "glosry"]
+---
 
 * * *
 

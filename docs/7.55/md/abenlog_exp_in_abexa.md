@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_logical_expr_seltab_1 . DATA wa_carrid TYPE spfli-carrid. SELECT-OPTIONS airline FOR wa_carrid. WRITE: 'Inside', 'Outside'. SKIP. SELECT carrid FROM spfli INTO @wa_carrid. IF wa_carrid IN airline. WRITE: / wa_carrid UNDER 'Inside'. ELSE. WRITE: / wa_carrid UNDER 'Outside'. ENDI
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlog_exp_in_abexa.htm"
+abapFile: "abenlog_exp_in_abexa.htm"
+keywords: ["select", "loop", "do", "if", "data", "types", "abenlog", "exp", "abexa"]
+---
 
 * * *
 

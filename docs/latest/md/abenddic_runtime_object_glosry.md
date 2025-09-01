@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC runtime object"
+description: |
+  Summary of all relevant properties of a data type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_glosry.htm 'Glossary Entry') defined in the ABAP Dictionary(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dictionary_glosry.htm 'Glossary Ent
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_runtime_object_glosry.htm"
+abapFile: "abenddic_runtime_object_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenddic", "runtime", "object", "glosry"]
+---
 
 * * *
 

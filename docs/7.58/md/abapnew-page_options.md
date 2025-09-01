@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... WITH-TITLENO-TITLE WITH-HEADINGNO-HEADING LINE-COUNT page_lines LINE-SIZE width NO-TOPOFPAGE ... Additions: 1. ... WITH-TITLENO-TITLE(#!ABAP_ADDITION_1@1@) 2. ... WITH-HEADINGNO-HEADING(#!ABAP_ADDITION_2@2@) 3. ... LINE-COUNT page_lin
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-page_options.htm"
+abapFile: "abapnew-page_options.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapnew", "page", "options"]
+---
 
 * * *
 

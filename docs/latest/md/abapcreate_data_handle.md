@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA, HANDLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm) TYPE HANDLE handle. Effect The statement CRE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_handle.htm"
+abapFile: "abapcreate_data_handle.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abapcreate", "handle"]
+---
 
 * * *
 

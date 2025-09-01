@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_table_comprh_step. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. FINAL(out) = cl_demo_output=>new( ). TYPES: BEGIN OF line, tabix TYPE sy-tabix, value   TYPE i, END OF line. DATA output TYPE TABLE OF line WITH EMPTY KEY.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_cmprhnsns_step_abexa.htm"
+abapFile: "abentable_cmprhnsns_step_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "step", "abexa"]
+---
 
 * * *
 

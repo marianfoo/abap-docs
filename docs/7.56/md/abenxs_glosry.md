@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA XS"
+description: |
+  Short for SAP HANA Extended Application Services. XS is a framework for developing and managing native applications in SAP HANA(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_hana_glosry.htm 'Glossary Entry'). The current version, XSA(https://help.sap.com/doc/abapdocu_756_ind
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxs_glosry.htm"
+abapFile: "abenxs_glosry.htm"
+keywords: ["do", "try", "abenxs", "glosry"]
+---
 
 * * *
 

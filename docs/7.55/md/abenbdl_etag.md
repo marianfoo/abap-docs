@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR, etag"
+description: |
+  Work in progress  Syntax ... etag fieldAncestorEntity~Field ( LocalField = MasterField ) Effect The etag field field of an entity is used for locks in the OData protocol. It references either the entity itself or the parent entity AncestorEntity for which a foreign key relationship LocalField
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm"
+abapFile: "abenbdl_etag.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "etag"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hash Key"
+description: |
+  Unique table key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_key_glosry.htm 'Glossary Entry') of an internal table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entry'), in which the assignment to the table rows is man
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhash_key_glosry.htm"
+abapFile: "abenhash_key_glosry.htm"
+keywords: ["do", "try", "internal-table", "abenhash", "key", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS virtual element"
+description: |
+  Element in the element list of a projection view(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') which is not included in the projected entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_pv_projected
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_virtual_element_glosry.htm"
+abapFile: "abencds_virtual_element_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abencds", "virtual", "element", "glosry"]
+---
 
 * * *
 

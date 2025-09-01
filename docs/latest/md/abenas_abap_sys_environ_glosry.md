@@ -1,4 +1,14 @@
-  
+---
+title: "AS ABAP system environment"
+description: |
+  Current system environment of an AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry'), consisting of the operating system of the host computer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_sys_environ_glosry.htm"
+abapFile: "abenas_abap_sys_environ_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenas", "abap", "sys", "environ", "glosry"]
+---
 
 * * *
 

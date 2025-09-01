@@ -1,4 +1,14 @@
-  
+---
+title: "comment_glosry"
+description: |
+  comment_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomment_glosry.htm"
+abapFile: "abencomment_glosry.htm"
+keywords: ["insert", "do", "try", "abencomment", "glosry"]
+---
 
 * * *
 

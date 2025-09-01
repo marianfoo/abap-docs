@@ -1,4 +1,14 @@
-  
+---
+title: "Time Formats"
+description: |
+  The time format is specified by column TIMEFM in the data base table T005X, where 'hh', 'mm', and 'ss' stand for hour, minute, and second. One 24-hour format and several 12-hour formats are available: TIMEFM Time Format ' ' 24-hour format (default setting) hh:mm:ss '1' 12-hour format (1 to 12) hh:mm
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_formats.htm"
+abapFile: "abentime_formats.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abentime", "formats"]
+---
 
 * * *
 

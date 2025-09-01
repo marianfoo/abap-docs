@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - System Class"
+description: |
+  The methods of the class CL_ABAP_LIST_UTILITIES can be used for the calculation of output lengths, the conversion of values from the list buffer, and the calculation of required output lengths on lists. The return values of the methods of this class can be used to program a correct column alignme
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_list_utilities.htm"
+abapFile: "abencl_abap_list_utilities.htm"
+keywords: ["do", "if", "method", "class", "abencl", "abap", "list", "utilities"]
+---
 
 * * *
 

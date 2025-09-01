@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_template_ctrl_char. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. cl_demo_output=>display( First line.rttabttabttabnttabttabttabrLast line. ).  ENDMETHOD. ENDCLASS. START-OF-SELECTION. demo=>m
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_template_ctrlchar_abexa.htm"
+abapFile: "abenstring_template_ctrlchar_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenstring", "template", "ctrlchar", "abexa"]
+---
 
 * * *
 

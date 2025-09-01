@@ -1,4 +1,14 @@
-  
+---
+title: "FUNCTION-POOL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfunction-pool.htm) Syntax FUNCTION-POOL fpool NO STANDARD PAGE HEADING LINE-SIZE width LINE-COUNT page_lines(footer_lines) MESSAGE-ID mid. Effect Introduces a function pool(https://
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfunction-pool_shortref.htm"
+abapFile: "abapfunction-pool_shortref.htm"
+keywords: ["do", "if", "try", "abapfunction", "pool", "shortref"]
+---
 
 * * *
 

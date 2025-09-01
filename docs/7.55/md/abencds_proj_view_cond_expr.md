@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... WHERE cds_cond(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conditional_expression_v2.htm) ... Effect Defines a WHERE condition for the result set of a CDS projection view(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_projection_view_glosry.htm 'Gl
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_cond_expr.htm"
+abapFile: "abencds_proj_view_cond_expr.htm"
+keywords: ["do", "if", "try", "data", "abencds", "proj", "view", "cond", "expr"]
+---
 
 * * *
 

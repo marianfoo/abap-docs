@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic Programming Techniques"
+description: |
+  Dynamic programming techniques are all techniques whose functions or effects are detectable only at runtime of a program in the runtime framework. -   Using Dynamic Programming Techniques(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_dynamic_progr_tech_guidl.htm 'Guidelin
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_prog_technique_gdl.htm"
+abapFile: "abendynamic_prog_technique_gdl.htm"
+keywords: ["do", "if", "class", "data", "abendynamic", "prog", "technique", "gdl"]
+---
 
 * * *
 

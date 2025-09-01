@@ -1,4 +1,14 @@
-  
+---
+title: "variant_glosry"
+description: |
+  variant_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvariant_glosry.htm"
+abapFile: "abenvariant_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenvariant", "glosry"]
+---
 
 * * *
 

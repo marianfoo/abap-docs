@@ -1,4 +1,14 @@
-  
+---
+title: "POH"
+description: |
+  Short for Process On Help Request. Dynpro event(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_event_glosry.htm 'Glossary Entry') raised when the field help(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_help_glosry.htm 'Glossary Entry') (F1) for an
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpoh_glosry.htm"
+abapFile: "abenpoh_glosry.htm"
+keywords: ["do", "try", "abenpoh", "glosry"]
+---
 
 * * *
 

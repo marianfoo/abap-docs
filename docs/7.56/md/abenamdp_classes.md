@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Classes"
+description: |
+  An AMDP class is a global class in the class library(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_library_glosry.htm 'Glossary Entry') that implements one or more of the following tag interfaces(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentag_interface_
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_classes.htm"
+abapFile: "abenamdp_classes.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenamdp", "classes"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "value_function_glosry"
+description: |
+  value_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_function_glosry.htm"
+abapFile: "abenvalue_function_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenvalue", "function", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - FOR EVENT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_shortref.htm) Syntax METHODS meth ABSTRACTFINAL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_abstract_final.htm) DEFAULT IGNOREFAIL(https://help.sap.com/doc/aba
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_event_handler.htm"
+abapFile: "abapmethods_event_handler.htm"
+keywords: ["do", "if", "try", "method", "class", "abapmethods", "event", "handler"]
+---
 
 * * *
 

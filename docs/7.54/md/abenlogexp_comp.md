@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  operand1   =EQ<>NE>GT<LT>=GE<=LE(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_any_operand.htm)  COCNCANACSNSCPNP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_strings.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_comp.htm"
+abapFile: "abenlogexp_comp.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abenlogexp", "comp"]
+---
 
 * * *
 

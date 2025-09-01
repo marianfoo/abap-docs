@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... repeat( val = text(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm)  occ = occ ) ... Effect This built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) returns a character string that contains
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepeat_functions.htm"
+abapFile: "abenrepeat_functions.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "abenrepeat", "functions"]
+---
 
 * * *
 

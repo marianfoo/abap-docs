@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Calculation Statements"
+description: |
+  -   COMPUTE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute.htm) -   ADD - THEN, UNTIL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd_sequences.htm) -   ADD-CORRESPONDING(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd-corresponding
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomputing_obsolete.htm"
+abapFile: "abencomputing_obsolete.htm"
+keywords: ["do", "data", "abencomputing", "obsolete"]
+---
 
 * * *
 

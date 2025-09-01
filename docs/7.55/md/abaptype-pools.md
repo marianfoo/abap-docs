@@ -1,4 +1,14 @@
-  
+---
+title: "TYPE-POOLS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptype-pools_shortref.htm) Obsolete Syntax TYPE-POOLS tpool. Effect This statement is obsolete. It is checked for accurate syntax but otherwise ignored by ABAP Compiler. The statement TYPE-POOLS was required in the past t
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptype-pools.htm"
+abapFile: "abaptype-pools.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "abaptype", "pools"]
+---
 
 * * *
 

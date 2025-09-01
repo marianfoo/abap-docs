@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Stored Procedures"
+description: |
+  Stored procedures can be executed using the following instance method of the class CL_SQL_STATEMENT -   EXECUTE_PROCEDURE The method has an mandatory input parameter PROC_NAME of type string, which must be passed the name of an existing stored procedure statement. In the same way as in DML stat
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_procedure.htm"
+abapFile: "abenadbc_procedure.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenadbc", "procedure"]
+---
 
 * * *
 

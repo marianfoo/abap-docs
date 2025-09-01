@@ -1,4 +1,14 @@
-  
+---
+title: "Program Flow Logic"
+description: |
+  -   Expressions and Functions for Conditions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_expr_func.htm) -   Control Structures(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_structures.htm) -   Exception Handling(https://help.sap.com/doc/abapd
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm"
+abapFile: "abenabap_flow_logic.htm"
+keywords: ["do", "exception-handling", "abenabap", "flow", "logic"]
+---
 
 * * *
 

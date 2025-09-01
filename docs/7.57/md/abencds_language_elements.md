@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Language Elements"
+description: |
+  The following sections summarize the language elements of the CDS DDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm 'Glossary Entry'), CDS BDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm 'Glossary Entry'), and CDS DCL(ht
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_language_elements.htm"
+abapFile: "abencds_language_elements.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abencds", "language", "elements"]
+---
 
 * * *
 
@@ -13,20 +23,13 @@ ABAP CDS - Language Elements
 
 The following sections summarize the language elements of the [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry"), [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry"), and [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") in [ABAP CDS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm "Glossary Entry"), arranged by topics.
 
--   [DDL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_1)
-    -   [CDS Annotation Definitions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_2)
-    -   [CDS Views](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_3)
-    -   [CDS Entity Extensions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_4)
-    -   [CDS Table Functions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_5)
-    -   [CDS Hierarchies](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_6)
-    -   [CDS Custom Entities](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_7)
-    -   [CDS Abstract Entities](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_8)
-    -   [CDS Metadata Extensions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_9)
--   [BDL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
-    -   [CDS Behavior Definitions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_11)
-    -   [BDEF Extensions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_12)
--   [DCL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_13)
-    -   [CDS Roles](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_14)
+-   [DDL](#abencds-language-elements-1-----------cds-annotation-definitions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_2)
+    -   [CDS Views](#abencds-language-elements-3-----------cds-entity-extensions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_4)
+    -   [CDS Table Functions](#abencds-language-elements-5-----------cds-hierarchies---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_6)
+    -   [CDS Custom Entities](#abencds-language-elements-7-----------cds-abstract-entities---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_8)
+    -   [CDS Metadata Extensions](#abencds-language-elements-9-------bdl---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
+    -   [CDS Behavior Definitions](#abencds-language-elements-11-----------bdef-extensions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_12)
+-   [DCL](#abencds-language-elements-13-----------cds-roles---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_14)
     -   [CDS Access Policy](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_15)
 
 In addition to the language elements shown here, CDS source code can also contain [annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) with metadata.

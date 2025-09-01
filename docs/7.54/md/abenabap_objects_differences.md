@@ -1,4 +1,14 @@
-  
+---
+title: "Statements in ABAP Objects"
+description: |
+  The statements in ABAP Objects can be classified as follows: -   Statements for defining classes and interfaces(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoo_differences_class_lib_synt.htm) The following statements are used to define classes and interfaces and their components.
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_objects_differences.htm"
+abapFile: "abenabap_objects_differences.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabap", "objects", "differences"]
+---
 
 * * *
 

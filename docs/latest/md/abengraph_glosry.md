@@ -1,4 +1,14 @@
-  
+---
+title: "graph_glosry"
+description: |
+  graph_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengraph_glosry.htm"
+abapFile: "abengraph_glosry.htm"
+keywords: ["do", "if", "try", "data", "abengraph", "glosry"]
+---
 
 * * *
 

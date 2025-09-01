@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_custom_control .  Declarations  CLASS event_handler DEFINITION. PUBLIC SECTION. METHODS: handle_f1 FOR EVENT f1 OF cl_gui_textedit IMPORTING sender, handle_f4 FOR EVENT f4 O
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_custom_control_abexa.htm"
+abapFile: "abendynpro_custom_control_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "method", "class", "data", "internal-table", "abendynpro", "custom", "control", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "lazy_update_glosry"
+description: |
+  lazy_update_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlazy_update_glosry.htm"
+abapFile: "abenlazy_update_glosry.htm"
+keywords: ["insert", "update", "do", "if", "try", "method", "data", "internal-table", "field-symbol", "abenlazy", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CTE hierarchy"
+description: |
+  Common table expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencommon_table_expression_glosry.htm 'Glossary Entry') (CTE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencte_glosry.htm 'Glossary Entry')) that can be used as an SQL hierarchy(https://help.sa
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencte_hierarchy_glosry.htm"
+abapFile: "abencte_hierarchy_glosry.htm"
+keywords: ["select", "do", "try", "abencte", "hierarchy", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "PXA"
+description: |
+  Short for Program Execution Area. Memory for managing the fixed data of a running ABAP program. The PXA notably contains the byte codes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbytecode_glosry.htm 'Glossary Entry') of all programs running simultaneously on an AS instance(ht
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpxa_glosry.htm"
+abapFile: "abenpxa_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenpxa", "glosry"]
+---
 
 * * *
 

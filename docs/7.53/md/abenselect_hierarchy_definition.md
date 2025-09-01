@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - FROM HIERARCHY"
+description: |
+  Syntax ... HIERARCHY( FROM HIERARCHY SOURCE cds_view CHILD TO PARENT ASSOCIATION _assoc START WHERE sql_cond(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm) SIBLINGS ORDER BY field1 ASCENDINGDESCENDING, field2 ASCENDINGDESCENDING
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_definition.htm"
+abapFile: "abenselect_hierarchy_definition.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "data", "types", "internal-table", "abenselect", "hierarchy", "definition"]
+---
 
 * * *
 

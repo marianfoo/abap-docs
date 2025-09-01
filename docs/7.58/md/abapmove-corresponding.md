@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE-CORRESPONDING"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding_shortref.htm) Syntax Forms Variant for Structures 1. MOVE-CORRESPONDING EXACT struc1 TO struc2 EXPANDING NESTED TABLES KEEPING TARGET LINES. Variant for Internal Tables 2. MO
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding.htm"
+abapFile: "abapmove-corresponding.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "field-symbol", "abapmove", "corresponding"]
+---
 
 * * *
 

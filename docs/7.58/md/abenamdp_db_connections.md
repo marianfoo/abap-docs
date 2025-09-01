@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Database Connections"
+description: |
+  An AMDP method(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_methods.htm) is always implemented on the standard database(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_db_glosry.htm 'Glossary Entry'). By default, the call is made using the standard
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_db_connections.htm"
+abapFile: "abenamdp_db_connections.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abenamdp", "connections"]
+---
 
 * * *
 

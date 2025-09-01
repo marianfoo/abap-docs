@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, List Box with Value List from PBO Module"
+description: |
+  The example shows the method (not recommended) of activating a dropdown list box. Source Code REPORT demo_dynpro_dropdown_listbox. DATA: name  TYPE vrm_id, list  TYPE vrm_values, value LIKE LINE OF list. DATA: wa_spfli TYPE spfli, ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. TABLES demof4he
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_drop2_abexa.htm"
+abapFile: "abendynpro_drop2_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "internal-table", "abendynpro", "drop2", "abexa"]
+---
 
 * * *
 

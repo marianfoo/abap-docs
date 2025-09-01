@@ -1,4 +1,14 @@
-  
+---
+title: "Program-Initiating Statements"
+description: |
+  The program-initiating statements are: -   REPORT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreport.htm) -   PROGRAM(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprogram.htm) -   FUNCTION-POOL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_statement.htm"
+abapFile: "abenabap_program_statement.htm"
+keywords: ["do", "if", "case", "try", "class", "types", "abenabap", "program", "statement"]
+---
 
 * * *
 

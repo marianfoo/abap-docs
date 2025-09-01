@@ -1,4 +1,14 @@
-  
+---
+title: "Client-Dependent CDS Table Functions"
+description: |
+  This example demonstrates client-dependent CDS table functions. Source Code  Public class definition CLASS cl_demo_cds_functions_client DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_func_client_dep_abexa.htm"
+abapFile: "abencds_func_client_dep_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abencds", "func", "client", "dep", "abexa"]
+---
 
 * * *
 

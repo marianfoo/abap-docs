@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') itab - Table Comprehensions, Basic Properties(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_cmprhnsns_simple_abexa.htm) !Example(exa.gif 'Example') itab - Table Comprehensions, Local Helper Fields(https://help.sap.com/doc/abapdocu_756_index_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehensions_abexas.htm"
+abapFile: "abentable_comprehensions_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "comprehensions", "abexas"]
+---
 
 * * *
 

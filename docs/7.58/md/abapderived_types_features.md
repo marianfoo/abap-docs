@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %features is a component group(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used to return fea
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_features.htm"
+abapFile: "abapderived_types_features.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abapderived", "features"]
+---
 
 * * *
 

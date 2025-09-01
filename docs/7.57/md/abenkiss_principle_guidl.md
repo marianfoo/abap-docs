@@ -1,4 +1,14 @@
-  
+---
+title: "KISS Principle"
+description: |
+  Background The KISS principle says that you should always choose the simplest solution for a problem. KISS is an acronym and can have any of the following meanings (the list is not exhaustive): -   Keep it simple, stupid. -   Keep it small and simple. -   Keep it sweet and simple. -   Keep it simple
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkiss_principle_guidl.htm"
+abapFile: "abenkiss_principle_guidl.htm"
+keywords: ["do", "while", "if", "try", "method", "abenkiss", "principle", "guidl"]
+---
 
 * * *
 

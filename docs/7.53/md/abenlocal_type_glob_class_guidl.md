@@ -1,4 +1,14 @@
-  
+---
+title: "Local Types for Global Classes"
+description: |
+  Background Within class pools, as in virtually any other ABAP program, data types, local interfaces, and local classes can be defined to ensure a better structure of the implementation of the global class. From a technical point of view, these optional declaration parts, together with the declaratio
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocal_type_glob_class_guidl.htm"
+abapFile: "abenlocal_type_glob_class_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenlocal", "type", "glob", "guidl"]
+---
 
 * * *
 

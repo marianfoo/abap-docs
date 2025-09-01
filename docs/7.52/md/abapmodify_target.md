@@ -1,4 +1,14 @@
-  
+---
+title: "MODIFY dbtab - target"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_dbtab_shortref.htm) Syntax ... dbtabview(target_syntax) USING CLIENT clnt  CLIENT SPECIFIED ... Alternatives: 1. ... dbtabview(#!ABAP_ALTERNATIVE_1@1@) 2. ... (target_syntax)(#
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_target.htm"
+abapFile: "abapmodify_target.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "internal-table", "abapmodify", "target"]
+---
 
 * * *
 

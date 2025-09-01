@@ -1,4 +1,14 @@
-  
+---
+title: "L procedure"
+description: |
+  A database procedure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_procedure_glosry.htm 'Glossary Entry') in the SAP HANA database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm 'Glossary Entry') programmed in the language L(ht
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenl_procedure_glosry.htm"
+abapFile: "abenl_procedure_glosry.htm"
+keywords: ["do", "try", "method", "class", "data", "abenl", "procedure", "glosry"]
+---
 
 * * *
 

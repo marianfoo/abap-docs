@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP, Extract"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_shortref.htm) Obsolete Syntax LOOP. ... ENDLOOP. Effect The statements LOOP and ENDLOOP define a loop across a statement block. The loop is passed for each line from the extract dataset(https://help.sap.com/doc/a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop-.htm"
+abapFile: "abaploop-.htm"
+keywords: ["loop", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abaploop"]
+---
 
 * * *
 

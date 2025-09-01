@@ -1,4 +1,14 @@
-  
+---
+title: "deep_table_glosry"
+description: |
+  deep_table_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeep_table_glosry.htm"
+abapFile: "abendeep_table_glosry.htm"
+keywords: ["do", "try", "internal-table", "abendeep", "table", "glosry"]
+---
 
 * * *
 

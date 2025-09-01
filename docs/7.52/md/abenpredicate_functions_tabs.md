@@ -1,4 +1,14 @@
-  
+---
+title: "Predicate Functions for Table-Like Arguments"
+description: |
+  The following predicate function can be used for table-like arguments: -   line_exists(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenline_exists_function.htm) rel_exp - line_exists, Predicate Function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenline_exists_
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_functions_tabs.htm"
+abapFile: "abenpredicate_functions_tabs.htm"
+keywords: ["do", "abenpredicate", "functions", "tabs"]
+---
 
 * * *
 

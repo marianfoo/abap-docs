@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The structure for data clusters in a row is the newer variant and is recommended for new database tables. -   Status information about the actual data cluster, such as date, user, or language, can be stored in freely definable fields. -   For information about processing export/import tables(h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexport_data_cluster_indx.htm"
+abapFile: "abenexport_data_cluster_indx.htm"
+keywords: ["select", "delete", "do", "while", "if", "try", "catch", "class", "data", "types", "abenexport", "cluster", "indx"]
+---
 
 * * *
 
@@ -12,8 +22,7 @@ Export/Import Tables
 
 When storing [data clusters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_cluster_glosry.htm "Glossary Entry") in database tables and application buffers of the [shared memory](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_memory_glosry.htm "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are referred to as [export/import tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexport_import_table_glosry.htm "Glossary Entry").
 
--   [Structure for Data Clusters in One Row](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_1)
--   [Structure for Data Clusters in Multiple Rows](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
+-   [Structure for Data Clusters in One Row](#abenexport-data-cluster-indx-1-------structure-for-data-clusters-in-multiple-rows---@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
 
 Hints
 

@@ -1,4 +1,14 @@
-  
+---
+title: "JSON, asJSON for Object References"
+description: |
+  Source Code REPORT demo_asjson_oref. INTERFACE intf. DATA attr TYPE string. ENDINTERFACE. CLASS serializable DEFINITION. PUBLIC SECTION. INTERFACES if_serializable_object. INTERFACES intf DATA VALUES attr = 'Interface Attribute'. DATA attr1 TYPE string VALUE `Attribute 1`. DATA attr2 TYPE stri
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_asjson_oref_abexa.htm"
+abapFile: "abenabap_json_asjson_oref_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenabap", "json", "asjson", "oref", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Statements - Overview"
+description: |
+  This section contains a thematically organized overview of all statements that are opened with ABAP keywords(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_keyword_glosry.htm 'Glossary Entry'). For an alphabetical list of all ABAP words, see ABAP words(https://help.sap.com/d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_statements_overview.htm"
+abapFile: "abenabap_statements_overview.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "exception-handling", "abenabap", "statements", "overview"]
+---
 
 * * *
 

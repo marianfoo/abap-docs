@@ -1,4 +1,14 @@
-  
+---
+title: "text_literal_glosry"
+description: |
+  text_literal_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_literal_glosry.htm"
+abapFile: "abentext_literal_glosry.htm"
+keywords: ["do", "if", "try", "abentext", "literal", "glosry"]
+---
 
 * * *
 

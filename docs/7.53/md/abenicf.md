@@ -1,4 +1,14 @@
-  
+---
+title: "ICF - Internet Communication Framework"
+description: |
+  Internet Communication Framework (ICF) is a programming interface (API), based on interfaces and classes, used by ABAP programs to communicate with the Internet. ICF supports the Internet protocols HTTP, HTTPS, and SMTP. All communication between ABAP and the Internet based on these protocols takes
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf.htm"
+abapFile: "abenicf.htm"
+keywords: ["select", "update", "do", "if", "try", "method", "class", "data", "abenicf"]
+---
 
 * * *
 
@@ -12,13 +22,9 @@ Internet Communication Framework (ICF) is a programming interface (API), based o
 
 To communicate with the Internet using REST principles (Representational State Transfer), the interfaces and classes in the ABAP REST Library in the package SREST should be used, since they adapt ICF accordingly.
 
--   [ICF Overview](#@@ITOC@@ABENICF_1)
+-   [ICF Overview](#abenicf-1--------as-abap-as-an-icf-server---@ITOC@@ABENICF_2)
 
--   [AS ABAP as an ICF Server](#@@ITOC@@ABENICF_2)
-
--   [AS ABAP as an ICF Client](#@@ITOC@@ABENICF_3)
-
--   [ICF Security](#@@ITOC@@ABENICF_4)
+-   [AS ABAP as an ICF Client](#abenicf-3--------icf-security---@ITOC@@ABENICF_4)
 
 -   [More Information](#@@ITOC@@ABENICF_5)
 

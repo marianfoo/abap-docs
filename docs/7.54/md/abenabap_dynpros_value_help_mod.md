@@ -1,4 +1,14 @@
-  
+---
+title: "Input Help in Dialog Modules"
+description: |
+  To define input helps in dialog modules, dialog modules can be called at POV time: PROCESS ON VALUE-REQUEST. ... FIELD field MODULE mod. ... After PROCESS ON VALUE-REQUEST(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpprocess.htm), the MODULE statement can only be used in combinat
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_mod.htm"
+abapFile: "abenabap_dynpros_value_help_mod.htm"
+keywords: ["select", "update", "do", "if", "try", "data", "types", "abenabap", "dynpros", "value", "help", "mod"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Transaction Call, Dialog Transaction"
+description: |
+  This example demonstrates a dialog transaction where the first dynpro is a selection screen. Source Code &--------------------------------------------------------------------- & Modulpool  SAPMSSLS                                                  &------------------------------------------
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm"
+abapFile: "abencall_transaction_dialog_abexa.htm"
+keywords: ["select", "do", "abencall", "transaction", "dialog", "abexa"]
+---
 
 * * *
 

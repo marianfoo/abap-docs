@@ -1,4 +1,14 @@
-  
+---
+title: "input_parameter_glosry"
+description: |
+  input_parameter_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninput_parameter_glosry.htm"
+abapFile: "abeninput_parameter_glosry.htm"
+keywords: ["do", "if", "try", "method", "abeninput", "parameter", "glosry"]
+---
 
 * * *
 

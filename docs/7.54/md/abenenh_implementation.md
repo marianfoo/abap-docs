@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  ENHANCEMENT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapenhancement.htm) ENDENHANCEMENT(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendenhancement.htm)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenh_implementation.htm"
+abapFile: "abenenh_implementation.htm"
+keywords: ["do", "try", "abenenh", "implementation"]
+---
 
 * * *
 

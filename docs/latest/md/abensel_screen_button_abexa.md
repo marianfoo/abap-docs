@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screens - Pushbuttons"
+description: |
+  This example demonstrates how pushbuttons with function codes can be defined on selection screens. Source Code REPORT demo_sel_screen_pushbutton. TABLES sscrfields. DATA flag(1) TYPE c. SELECTION-SCREEN: BEGIN OF SCREEN 500 AS WINDOW TITLE tit, BEGIN OF LINE, PUSHBUTTON 2(10) but1 USER-COMMAND cl
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensel_screen_button_abexa.htm"
+abapFile: "abensel_screen_button_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abensel", "screen", "button", "abexa"]
+---
 
 * * *
 

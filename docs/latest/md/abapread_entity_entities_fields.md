@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...   FROM fields_tab(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_fields_tab.htm)    FIELDS ( comp1 comp2 ... ) WITH fields_tab(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_fields_tab.htm)    ALL FIELDS WITH fields_t
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_fields.htm"
+abapFile: "abapread_entity_entities_fields.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapread", "entity", "entities", "fields"]
+---
 
 * * *
 

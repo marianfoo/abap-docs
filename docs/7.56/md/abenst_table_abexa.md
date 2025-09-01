@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Internal Tables"
+description: |
+  The example demonstrates the serializing of an internal table. Source Code REPORT demo_st_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF carrier_wa, carrid   TYPE scarr-carrid, carrname TYPE scarr-carrname, url
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_table_abexa.htm"
+abapFile: "abenst_table_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "method", "class", "data", "internal-table", "abenst", "table", "abexa"]
+---
 
 * * *
 

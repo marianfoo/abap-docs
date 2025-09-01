@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... LEFT-JUSTIFIEDCENTEREDRIGHT-JUSTIFIED   EXPONENT exp NO-GROUPING NO-SIGN NO-ZERO CURRENCY cur   DECIMALS dec ROUND scale   UNIT unit     ENVIRONMENT TIME FORMAT TIME ZONE tz
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm"
+abapFile: "abapwrite_to_options.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "class", "data", "types", "abapwrite", "options"]
+---
 
 * * *
 

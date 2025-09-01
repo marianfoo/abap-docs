@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS, FOR EVENTS OF, RAP Event Handler Class"
+description: |
+  Syntax CLASS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) cl_event_handler DEFINITION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) PUBLIC  ABSTRACT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/a
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_for_events.htm"
+abapFile: "abenclass_for_events.htm"
+keywords: ["do", "if", "try", "method", "class", "abenclass", "for", "events"]
+---
 
 * * *
 

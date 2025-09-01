@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Table Functions"
+description: |
+  A CDS table function is defined in DDL source code(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') of a CDS data definition(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_data_definition_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_table_functions.htm"
+abapFile: "abenddic_cds_table_functions.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenddic", "cds", "table", "functions"]
+---
 
 * * *
 

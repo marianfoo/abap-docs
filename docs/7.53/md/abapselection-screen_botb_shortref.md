@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN - TABBED BLOCK - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_tabbed.htm) Syntax SELECTION-SCREEN BEGIN OF TABBED BLOCK tblock FOR n LINES NO INTERVALS. ... SELECTION-SCREEN END OF BLOCK tblock. Effect Defines a tabstrip(https://help.sap.com/doc/abapdocu_753_i
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_botb_shortref.htm"
+abapFile: "abapselection-screen_botb_shortref.htm"
+keywords: ["select", "do", "try", "abapselection", "screen", "botb", "shortref"]
+---
 
 * * *
 

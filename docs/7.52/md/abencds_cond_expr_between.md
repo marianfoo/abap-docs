@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... lhs BETWEEN rhs1 AND rhs2 ... Effect Compares an interval in a condition(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm) in a CDS view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm 'Glossary Entry'). The r
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_between.htm"
+abapFile: "abencds_cond_expr_between.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "cond", "expr", "between"]
+---
 
 * * *
 

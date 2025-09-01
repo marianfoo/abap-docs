@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric literal"
+description: |
+  Literal(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenliteral_glosry.htm 'Glossary Entry') that has a numeric data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm 'Glossary Entry') and whose characters represent a number. → More
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_literal_glosry.htm"
+abapFile: "abennumeric_literal_glosry.htm"
+keywords: ["do", "try", "data", "abennumeric", "literal", "glosry"]
+---
 
 * * *
 

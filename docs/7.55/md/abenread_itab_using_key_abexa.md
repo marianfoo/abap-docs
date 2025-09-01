@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_read_table_using_key. CLASS measure DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: m   TYPE i, itab TYPE STANDARD TABLE OF i WITH NON-UNIQUE    KEY primary_key COMPONENTS table_line WITH UNIQUE SORTED KEY sorted_key COMPONENTS table_line WITH UNIQUE
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_itab_using_key_abexa.htm"
+abapFile: "abenread_itab_using_key_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "internal-table", "abenread", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

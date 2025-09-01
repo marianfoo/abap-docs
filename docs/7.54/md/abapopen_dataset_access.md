@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET - access"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_dataset_shortref.htm) Syntax ... INPUT  OUTPUT  APPENDING  UPDATE ... Alternatives: 1. ... INPUT(#!ABAP_ALTERNATIVE_1@1@) 2. ... OUTPUT(#!ABAP_ALTERNATIVE_2@2@) 3. ... APPENDING(#!ABAP_ALTERNATIVE
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_dataset_access.htm"
+abapFile: "abapopen_dataset_access.htm"
+keywords: ["update", "delete", "do", "if", "data", "abapopen", "dataset", "access"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Messages in control processing"
+description: |
+  During processing of events from the Control Framework(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_framework_glosry.htm 'Glossary Entry'), messages of types 'W' and 'E' are converted to type 'A'. All other messages are processed as in dialog processing(https://help.sap
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_control.htm"
+abapFile: "abenabap_message_control.htm"
+keywords: ["do", "try", "types", "abenabap", "message", "control"]
+---
 
 * * *
 

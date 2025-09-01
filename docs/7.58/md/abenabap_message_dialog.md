@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Dialog Processing"
+description: |
+  For program execution in dialog processing(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_processing_glosry.htm 'Glossary Entry'), the behavior of messages of each message type is shown in the tables below, depending on the dialog modules or event blocks in which they are se
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_message_dialog.htm"
+abapFile: "abenabap_message_dialog.htm"
+keywords: ["select", "delete", "do", "if", "try", "catch", "data", "types", "abenabap", "message", "dialog"]
+---
 
 * * *
 

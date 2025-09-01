@@ -1,4 +1,14 @@
-  
+---
+title: "database_system_glosry"
+description: |
+  database_system_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_system_glosry.htm"
+abapFile: "abendatabase_system_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "system", "glosry"]
+---
 
 * * *
 

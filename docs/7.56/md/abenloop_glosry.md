@@ -1,4 +1,14 @@
-  
+---
+title: "loop_glosry"
+description: |
+  loop_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_glosry.htm"
+abapFile: "abenloop_glosry.htm"
+keywords: ["select", "loop", "do", "while", "try", "abenloop", "glosry"]
+---
 
 * * *
 

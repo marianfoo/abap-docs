@@ -1,4 +1,14 @@
-  
+---
+title: "Meaning"
+description: |
+  CO Contains Only: True if operand1 only contains characters from operand2. Uppercase and lowercase characters and trailing blanks are respected for both operands. If operand2 is of type string and initial, the comparison expression is false, unless operand1 is also of type string and initial, in whi
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_strings.htm"
+abapFile: "abenlogexp_strings.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenlogexp", "strings"]
+---
 
 * * *
 

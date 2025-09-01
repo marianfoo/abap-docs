@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_for_groups_by_string_func. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES text_tab TYPE STANDARD TABLE OF string WITH EMPTY KEY. CLASS-DATA text TYPE text_tab. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA out TYPE R
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor_group_by_func_abexa.htm"
+abapFile: "abenfor_group_by_func_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "func", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  ABAP Syntax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) Program Layout(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) Built-In Types, Data Objects, Functions, and Constructors(https://help.sap.com/doc/abapdocu_754_ind
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm"
+abapFile: "abenabap_reference.htm"
+keywords: ["do", "data", "types", "abenabap", "reference"]
+---
 
 * * *
 

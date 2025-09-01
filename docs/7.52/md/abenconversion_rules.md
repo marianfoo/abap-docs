@@ -1,4 +1,14 @@
-  
+---
+title: "Assignment and Conversion Rules"
+description: |
+  When the value of a source object (source) is assigned to a destination object (destination), three cases can be distinguished with respect to the data type: 1.  source and destination are compatible(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompatible_glosry.htm 'Glossary Ent
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm"
+abapFile: "abenconversion_rules.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenconversion", "rules"]
+---
 
 * * *
 

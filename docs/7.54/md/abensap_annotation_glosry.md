@@ -1,4 +1,14 @@
-  
+---
+title: "SAP annotation"
+description: |
+  CDS annotation(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm 'Glossary Entry') delivered by SAP as a CDS annotation definition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_anno_definition_glosry.htm 'Glossary Entry'). These annotat
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_annotation_glosry.htm"
+abapFile: "abensap_annotation_glosry.htm"
+keywords: ["do", "if", "try", "abensap", "annotation", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Extracts"
+description: |
+  An extract dataset, or extract for short, is a dataset in the internal session(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm 'Glossary Entry') of an ABAP program that is not handled as a data object and therefore has no data type. There is only one extr
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_extracts_extended.htm"
+abapFile: "abenabap_extracts_extended.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "extracts", "extended"]
+---
 
 * * *
 

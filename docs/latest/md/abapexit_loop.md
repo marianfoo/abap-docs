@@ -1,4 +1,14 @@
-  
+---
+title: "EXIT, loop"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexit_shortref.htm) Syntax EXIT. Effect If the EXIT statement is listed within a loop(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_glosry.htm 'Glossary Entry'), it exits the loop by ter
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexit_loop.htm"
+abapFile: "abapexit_loop.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapexit"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS access condition"
+description: |
+  Condition in a CDS role(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_role_glosry.htm 'Glossary Entry') defined in an access rule(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_rule_glosry.htm 'Glossary Entry') of the statement DEFINE ROLE(
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_condition_glosry.htm"
+abapFile: "abenaccess_condition_glosry.htm"
+keywords: ["do", "if", "try", "abenaccess", "condition", "glosry"]
+---
 
 * * *
 

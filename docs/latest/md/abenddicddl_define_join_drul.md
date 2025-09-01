@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE JOIN DEPENDENCY RULE"
+description: |
+  Syntax DEFINE JOIN DEPENDENCY RULE drul ON dbtab1, dbtab2 IF  cond_pattern  THEN  derived_cond  Effect Variant of the Dictionary DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry') statement DEFINE DEPENDENCY RULE(https://help
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_join_drul.htm"
+abapFile: "abenddicddl_define_join_drul.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abenddicddl", "define", "join", "drul"]
+---
 
 * * *
 

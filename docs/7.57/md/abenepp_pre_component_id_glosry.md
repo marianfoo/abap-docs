@@ -1,4 +1,14 @@
-  
+---
+title: "EPP precomponent ID"
+description: |
+  Component of an extended passport (EPP)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenepp_glosry.htm 'Glossary Entry'). Contains the system ID(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_id_glosry.htm 'Glossary Entry') and the name of the application s
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenepp_pre_component_id_glosry.htm"
+abapFile: "abenepp_pre_component_id_glosry.htm"
+keywords: ["do", "if", "try", "abenepp", "pre", "component", "glosry"]
+---
 
 * * *
 

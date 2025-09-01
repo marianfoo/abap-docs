@@ -1,4 +1,14 @@
-  
+---
+title: "Examples for ABAP EML READ"
+description: |
+  -   ABAP EML - READ, Variants(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_read_alternatives_abexa.htm) -   ABAP EML - READ, Field Specification Expressions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_read_op_fields_abexa.htm) -   ABAP EML - READ, Op
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_read_examples.htm"
+abapFile: "abapeml_read_examples.htm"
+keywords: ["do", "if", "try", "method", "abapeml", "read", "examples"]
+---
 
 * * *
 

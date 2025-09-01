@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screen and List Events"
+description: |
+  Selection screen and list events are events from classical screen(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm 'Glossary Entry') processing, which are converted by the ABAP runtime environment into ABAP events and are handled directly in the ABAP program instead
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screen_events.htm"
+abapFile: "abenabap_screen_events.htm"
+keywords: ["select", "do", "try", "class", "abenabap", "screen", "events"]
+---
 
 * * *
 

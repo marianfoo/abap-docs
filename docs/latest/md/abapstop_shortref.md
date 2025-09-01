@@ -1,4 +1,14 @@
-  
+---
+title: "STOP - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstop.htm) Syntax STOP. Effect Exits the event blocks AT SELECTION-SCREEN, START-OF-SELECTION, and GET and raises the event END-OF-SELECTION.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapstop_shortref.htm"
+abapFile: "abapstop_shortref.htm"
+keywords: ["select", "do", "if", "abapstop", "shortref"]
+---
 
 * * *
 

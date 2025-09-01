@@ -1,4 +1,14 @@
-  
+---
+title: "Table Work Areas"
+description: |
+  Background Table work areas are structured data objects of a flat structure type, a database table type, or a view type from ABAP Dictionary declared using the statements TABLES or NODES. If declared using NODES, other ABAP Dictionary types are also possible. From the perspective of the data type, t
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_work_area_guidl.htm"
+abapFile: "abentable_work_area_guidl.htm"
+keywords: ["select", "do", "if", "class", "data", "types", "abentable", "work", "area", "guidl"]
+---
 
 * * *
 

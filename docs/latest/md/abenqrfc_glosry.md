@@ -1,4 +1,14 @@
-  
+---
+title: "qrfc_glosry"
+description: |
+  qrfc_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenqrfc_glosry.htm"
+abapFile: "abenqrfc_glosry.htm"
+keywords: ["do", "if", "try", "abenqrfc", "glosry"]
+---
 
 * * *
 

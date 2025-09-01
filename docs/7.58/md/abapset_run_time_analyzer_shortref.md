@@ -1,4 +1,14 @@
-  
+---
+title: "SET RUN TIME ANALYZER - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_run_time_analyzer.htm) Syntax SET RUN TIME ANALYZER ONOFF. Effect Defines which units of a program are measured with the runtime analysis(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_run_time_analyzer_shortref.htm"
+abapFile: "abapset_run_time_analyzer_shortref.htm"
+keywords: ["do", "if", "try", "abapset", "run", "time", "analyzer", "shortref"]
+---
 
 * * *
 

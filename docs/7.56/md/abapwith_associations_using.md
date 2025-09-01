@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, ASSOCIATIONS, path"
+description: |
+  Syntax ... sql_path(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_path.htm) AS alias REDIRECTED TO +cte VIA target ... Addition: ... REDIRECTED TO +cte VIA target(#!ABAP_ONE_ADD@1@) Effect Specifies an existing CDS association(https://help.sap.com/doc
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith_associations_using.htm"
+abapFile: "abapwith_associations_using.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapwith", "associations", "using"]
+---
 
 * * *
 

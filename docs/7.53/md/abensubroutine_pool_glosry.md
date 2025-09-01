@@ -1,4 +1,14 @@
-  
+---
+title: "subroutine_pool_glosry"
+description: |
+  subroutine_pool_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_pool_glosry.htm"
+abapFile: "abensubroutine_pool_glosry.htm"
+keywords: ["do", "try", "abensubroutine", "pool", "glosry"]
+---
 
 * * *
 

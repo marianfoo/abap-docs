@@ -1,4 +1,14 @@
-  
+---
+title: "WRITE, Cutoff Behavior"
+description: |
+  This example demonstrates the cutoff behavior(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_cutoffs.htm) of the statement WRITE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to.htm) for all elementary data types. Source Code REPORT demo_write_cutto
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_cutoff_abexa.htm"
+abapFile: "abenwrite_cutoff_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenwrite", "cutoff", "abexa"]
+---
 
 * * *
 

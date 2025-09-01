@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, AS SUBSCREEN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_bos_shortref.htm) Syntax SELECTION-SCREEN BEGIN OF SCREEN dynnr AS SUBSCREEN NO INTERVALS NESTING LEVEL n. ... SELECTION-SCREEN END OF SCREEN dynnr. Additions: 1. ... NO INTERVALS(#!A
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_subscreen.htm"
+abapFile: "abapselection-screen_subscreen.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapselection", "screen", "subscreen"]
+---
 
 * * *
 

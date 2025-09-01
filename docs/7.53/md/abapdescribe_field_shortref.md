@@ -1,4 +1,14 @@
-  
+---
+title: "DESCRIBE FIELD - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm) Syntax DESCRIBE FIELD dobj TYPE typ COMPONENTS com LENGTH ilen IN BYTECHARACTER MODE DECIMALS dec OUTPUT-LENGTH olen HELP-ID hlp EDIT MASK mask
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_shortref.htm"
+abapFile: "abapdescribe_field_shortref.htm"
+keywords: ["do", "try", "data", "abapdescribe", "field", "shortref"]
+---
 
 * * *
 

@@ -21,12 +21,14 @@ function parseArgs(argv) {
     if (a === '--all') { args.all = true; continue; }
     if (a === '--force') { args.force = true; continue; }
     if (a === '--bundle-budget') { args.bundleBudget = Number(argv[++i]); continue; }
+    if (a === '--standard-system') { args.standardSystem = true; continue; }
   }
   return {
     version: args.version || '7.58',
     all: Boolean(args.all),
     force: Boolean(args.force),
-    bundleBudget: Number.isFinite(args.bundleBudget) ? args.bundleBudget : 60000
+    bundleBudget: Number.isFinite(args.bundleBudget) ? args.bundleBudget : 60000,
+    standardSystem: Boolean(args.standardSystem)
   };
 }
 
@@ -44,9 +46,9 @@ async function ensureDir(dir) {
   await fsp.mkdir(dir, { recursive: true });
 }
 
-// === HTML TO MARKDOWN CONVERSION ===
+// === HTML TO MARKDOWN CONVERSION WITH FRONTMATTER ===
 
-function htmlToMarkdown(html) {
+function convertAndEnhanceMarkdown(html, htmlFile, version) {
   const $ = loadHtml(html);
   $('script, style, noscript, link').remove();
   
@@ -65,18 +67,137 @@ function htmlToMarkdown(html) {
     replacement: () => '\n'
   });
   
-  return turndown.turndown(fragment);
+  let content = turndown.turndown(fragment);
+  
+  // Fix JavaScript links
+  content = fixJavaScriptLinks(content, version);
+  
+  // Extract metadata for frontmatter
+  const metadata = extractMetadataFromContent(content, htmlFile, version);
+  
+  // Optimize content structure
+  content = optimizeContentStructure(content);
+  
+  return { content, metadata };
 }
 
-async function convertHtmlToMarkdown(version, force) {
+function extractMetadataFromContent(content, htmlFile, version) {
+  // Extract title from content
+  const lines = content.split(/\r?\n/);
+  let title = htmlFile.replace(/\.(htm|html)$/i, '').replace('aben', '');
+  
+  // Find actual title from content
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed && 
+        !trimmed.startsWith('AS ABAP Release') && 
+        !trimmed.startsWith('[ABAP -') && 
+        !trimmed.startsWith('[![') && 
+        !trimmed.includes('Mail Feedback') &&
+        !trimmed.includes('* * *') &&
+        trimmed.match(/^[A-Z][a-zA-Z\s,\-()]+$/)) {
+      title = trimmed;
+      break;
+    }
+  }
+  
+  // Extract description (first meaningful paragraph)
+  const meaningfulLines = [];
+  let foundTitle = false;
+  
+  for (const line of lines) {
+    const trimmed = line.trim();
+    
+    // Skip until we find the title
+    if (!foundTitle) {
+      if (trimmed === title) {
+        foundTitle = true;
+      }
+      continue;
+    }
+    
+    // Skip metadata and navigation
+    if (!trimmed || 
+        trimmed.startsWith('AS ABAP Release') || 
+        trimmed.includes('©Copyright') ||
+        trimmed.startsWith('[ABAP -') || 
+        trimmed.includes('Mail Feedback') ||
+        trimmed.startsWith('Continue') ||
+        trimmed.startsWith('Programming Guideline')) {
+      continue;
+    }
+    
+    meaningfulLines.push(trimmed);
+    
+    // Stop when we have enough for a good description
+    if (meaningfulLines.join(' ').length > 300) {
+      break;
+    }
+  }
+  
+  let description = meaningfulLines.join(' ').trim();
+  if (description.length < 50) {
+    description = `${title} - ABAP ${version} language reference documentation`;
+  }
+  
+  // Extract ABAP-specific keywords
+  const keywords = extractAbapKeywords(content);
+  keywords.push(...htmlFile.replace(/\.(htm|html)$/i, '').split(/[_-]/).filter(k => k.length > 2));
+  
+  return {
+    title,
+    description: description.substring(0, 300),
+    category: determineCategory(title),
+    version,
+    sourceUrl: getAbapFileUrl(htmlFile.replace(/\.(htm|html)$/i, '.md'), version),
+    keywords: [...new Set(keywords)],
+    abapFile: htmlFile,
+    type: 'abap-reference'
+  };
+}
+
+function generateFrontmatter(metadata) {
+  // Clean strings to avoid YAML parsing issues
+  const cleanDescription = metadata.description
+    .replace(/\n/g, ' ')
+    .replace(/\r/g, '')
+    .replace(/\t/g, ' ')
+    .replace(/[\x00-\x1f\x7f-\x9f]/g, '') // Remove control characters
+    .replace(/[*{}[\]|\\]/g, '') // Remove problematic YAML characters
+    .replace(/"/g, "'") // Use single quotes
+    .trim();
+  
+  const cleanTitle = metadata.title
+    .replace(/[*{}[\]|\\]/g, '')
+    .replace(/"/g, "'")
+    .trim();
+  
+  const cleanKeywords = metadata.keywords
+    .map(k => k.replace(/[*{}[\]|\\]/g, '').replace(/"/g, "'").trim())
+    .filter(k => k.length > 0);
+  
+  // Use YAML literal block for description to avoid escaping issues
+  return `title: "${cleanTitle}"
+description: |
+  ${cleanDescription}
+version: "${metadata.version}"
+category: "${metadata.category}"
+type: "${metadata.type}"
+sourceUrl: "${metadata.sourceUrl}"
+abapFile: "${metadata.abapFile}"
+keywords: [${cleanKeywords.map(k => `"${k}"`).join(', ')}]
+`;
+}
+
+async function convertHtmlToMarkdownOptimized(version, force = true) {
   const dirs = getOutputDirs(version);
   
   if (!fs.existsSync(dirs.html)) {
     throw new Error(`HTML directory not found: ${dirs.html}. Run scraper first.`);
   }
 
-  // Clean MD directory if force
-  if (force && fs.existsSync(dirs.md)) {
+  // Always clean MD directory for fresh generation
+  if (fs.existsSync(dirs.md)) {
     await fsp.rm(dirs.md, { recursive: true });
   }
 
@@ -85,31 +206,44 @@ async function convertHtmlToMarkdown(version, force) {
   const htmlFiles = await fsp.readdir(dirs.html);
   const mdFiles = [];
   
-  console.log(`   📄 Converting ${htmlFiles.length} HTML files to Markdown...`);
+  console.log(`   📄 Converting ${htmlFiles.length} HTML files to optimized Markdown...`);
   
   for (const htmlFile of htmlFiles) {
     if (!htmlFile.endsWith('.htm') && !htmlFile.endsWith('.html')) continue;
     if (htmlFile.includes('abap_docu_tree.htm')) continue; // Skip tree files
+    
+    // Skip news files - not relevant for standard search
+    if (htmlFile.startsWith('abennews')) {
+      console.log(`   ⏭️  Skipping news file: ${htmlFile}`);
+      continue;
+    }
     
     const htmlPath = path.resolve(dirs.html, htmlFile);
     const mdPath = path.resolve(dirs.md, htmlFile.replace(/\.(htm|html)$/i, '.md'));
     
     try {
       const html = await fsp.readFile(htmlPath, 'utf8');
-      const markdown = htmlToMarkdown(html);
-      await fsp.writeFile(mdPath, markdown, 'utf8');
+      const { content, metadata } = convertAndEnhanceMarkdown(html, htmlFile, version);
+      
+      // Generate frontmatter + content
+      const frontmatterYaml = generateFrontmatter(metadata);
+      const finalContent = `---\n${frontmatterYaml}---\n\n${content}`;
+      
+      await fsp.writeFile(mdPath, finalContent, 'utf8');
       
       mdFiles.push({
         htmlFile,
         mdFile: path.relative(dirs.base, mdPath),
-        file: htmlFile
+        file: htmlFile,
+        title: metadata.title,
+        category: metadata.category
       });
     } catch (err) {
       console.warn(`   ⚠️  Failed to convert ${htmlFile}: ${err.message}`);
     }
   }
   
-  console.log(`   ✅ Converted ${mdFiles.length} files to Markdown`);
+  console.log(`   ✅ Converted ${mdFiles.length} files to optimized Markdown (skipped ${htmlFiles.filter(f => f.startsWith('abennews')).length} news files)`);
   return mdFiles;
 }
 
@@ -321,15 +455,21 @@ async function generateBundles(version, mdFiles, bundleBudget, force) {
 
 // === LINK FIXING ===
 
-function getBaseUrl(version) {
+function getAbapBaseUrl(version) {
   if (version === 'latest') {
     return 'https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US';
   }
   return `https://help.sap.com/doc/abapdocu_${version.replace('.', '')}_index_htm/${version}/en-US`;
 }
 
+function getAbapFileUrl(filename, version) {
+  const htmFile = filename.replace('.md', '.htm');
+  const baseUrl = getAbapBaseUrl(version);
+  return `${baseUrl}/${htmFile}`;
+}
+
 function fixJavaScriptLinks(content, version) {
-  const baseUrl = getBaseUrl(version);
+  const baseUrl = getAbapBaseUrl(version);
   let fixed = content;
   
   // Fix all variations of javascript:call_link
@@ -384,6 +524,151 @@ async function fixLinksInFiles(version, dirs) {
   console.log(`   ✅ Fixed JavaScript links in ${fixedCount} files`);
   return fixedCount;
 }
+
+// === STANDARD SYSTEM OPTIMIZATIONS ===
+
+async function optimizeIndividualFiles(version) {
+  const dirs = getOutputDirs(version);
+  const mdFiles = await fsp.readdir(dirs.md);
+  
+  console.log(`   📄 Optimizing ${mdFiles.length} individual files for standard search...`);
+  
+  const optimizedFiles = [];
+  
+  for (const file of mdFiles) {
+    if (!file.endsWith('.md')) continue;
+    
+    const filePath = path.resolve(dirs.md, file);
+    let content = await fsp.readFile(filePath, 'utf8');
+    
+    // 1. Fix all JavaScript links to proper URLs
+    content = fixJavaScriptLinks(content, version);
+    
+    // 2. Add source attribution header
+    const sourceUrl = getAbapFileUrl(file, version);
+    const htmFile = file.replace('.md', '.htm');
+    const header = `> **📖 Official SAP Documentation**: [${htmFile}](${sourceUrl})\n\n`;
+    
+    // Only add header if not already present
+    if (!content.includes('📖 Official SAP Documentation')) {
+      content = header + content;
+    }
+    
+    // 3. Extract metadata for better search
+    const metadata = extractFileMetadata(content, file);
+    
+    // 4. Optimize content structure for LLM consumption
+    content = optimizeContentStructure(content);
+    
+    // Write optimized file back
+    await fsp.writeFile(filePath, content, 'utf8');
+    
+    const stats = await fsp.stat(filePath);
+    optimizedFiles.push({
+      file,
+      size: stats.size,
+      title: metadata.title,
+      keywords: metadata.keywords,
+      category: metadata.category
+    });
+  }
+  
+  console.log(`   ✅ Optimized ${optimizedFiles.length} individual files`);
+  return optimizedFiles;
+}
+
+async function createSimpleIndex(version, optimizedFiles) {
+  const dirs = getOutputDirs(version);
+  
+  // Simple index for standard search system integration
+  const simpleIndex = {
+    version,
+    generatedAt: new Date().toISOString(),
+    totalFiles: optimizedFiles.length,
+    baseUrl: getAbapBaseUrl(version),
+    files: optimizedFiles.map(f => ({
+      file: f.file,
+      title: f.title,
+      size: f.size,
+      keywords: f.keywords,
+      category: f.category,
+      url: getAbapFileUrl(f.file, version)
+    }))
+  };
+  
+  // Write simple index (not the complex bundling indexes)
+  await fsp.writeFile(
+    path.resolve(dirs.base, 'files_index.json'),
+    JSON.stringify(simpleIndex, null, 2)
+  );
+  
+  console.log(`   📋 Created simple index with ${simpleIndex.totalFiles} files`);
+  return simpleIndex;
+}
+
+function optimizeContentStructure(content) {
+  // Remove excessive whitespace but preserve structure
+  content = content.replace(/\n{3,}/g, '\n\n');
+  
+  // Ensure proper heading hierarchy
+  content = content.replace(/^#{5,}/gm, '####'); // Max 4 levels
+  
+  // Add clear section breaks
+  content = content.replace(/^(#{1,4}\s+)/gm, '\n$1');
+  
+  // Remove empty sections
+  content = content.replace(/^#+\s*\n+(?=^#+)/gm, '');
+  
+  return content.trim();
+}
+
+function extractFileMetadata(content, filename) {
+  // Extract title (first heading or from filename)
+  const titleMatch = content.match(/^#\s+(.+)$/m);
+  const title = titleMatch ? titleMatch[1].trim() : filename.replace('.md', '').replace('aben', '');
+  
+  // Extract keywords from content and filename
+  const keywords = [
+    // From filename
+    ...filename.replace('.md', '').split(/[_-]/).filter(k => k.length > 2),
+    // From title
+    ...title.toLowerCase().split(/\s+/).filter(k => k.length > 2),
+    // From content (common ABAP terms)
+    ...extractAbapKeywords(content)
+  ];
+  
+  // Determine category
+  const category = determineCategory(title + ' ' + filename);
+  
+  return {
+    title,
+    keywords: [...new Set(keywords)],
+    category
+  };
+}
+
+function extractAbapKeywords(content) {
+  const abapKeywords = [];
+  const contentLower = content.toLowerCase();
+  
+  // ABAP statements
+  const statements = ['select', 'insert', 'update', 'delete', 'loop', 'do', 'while', 'if', 'case', 'try', 'catch', 'method', 'class', 'data', 'types'];
+  statements.forEach(stmt => {
+    if (contentLower.includes(stmt)) abapKeywords.push(stmt);
+  });
+  
+  // ABAP concepts
+  const concepts = ['internal table', 'field symbol', 'exception handling', 'object oriented'];
+  concepts.forEach(concept => {
+    if (contentLower.includes(concept)) abapKeywords.push(concept.replace(' ', '-'));
+  });
+  
+  return abapKeywords;
+}
+
+
+
+
 
 // === ENHANCEMENT FEATURES ===
 
@@ -542,7 +827,7 @@ async function createQuickReferences(version, enhancedIndex) {
   
   console.log(`   📋 Creating quick references...`);
   
-  const baseUrl = getBaseUrl(version);
+  const baseUrl = getAbapBaseUrl(version);
   
   // ABAP Statements Quick Reference
   const statements = enhancedIndex.metadata.statements;
@@ -675,24 +960,61 @@ async function createIndividualFileIndex(version) {
 
 // === MAIN GENERATION FUNCTION ===
 
-async function generateVersion(version, opts) {
-  const { force, bundleBudget } = opts;
+async function generateVersionForStandardSystem(version, opts) {
+  const { force = true } = opts;
   const dirs = getOutputDirs(version);
   
-  console.log(`🔄 Generating documentation for version ${version}...`);
+  console.log(`🔄 Generating ABAP documentation for standard MCP system (version ${version})...`);
   
   if (!fs.existsSync(dirs.html)) {
     throw new Error(`HTML directory not found: ${dirs.html}. Run scraper first.`);
   }
 
+  // Step 1: Convert HTML to optimized Markdown with frontmatter
+  const mdFiles = await convertHtmlToMarkdownOptimized(version, force);
+  
+  // Step 2: Optimize individual files for standard search
+  const optimizedFiles = await optimizeIndividualFiles(version);
+  
+  // Step 3: Create simple index for integration
+  const simpleIndex = await createSimpleIndex(version, optimizedFiles);
+  
+  console.log(`   ⏭️  Skipping complex bundling (not needed for standard MCP system)`);
+  
+  return {
+    version,
+    fileCount: optimizedFiles.length,
+    avgFileSize: Math.round(optimizedFiles.reduce((sum, f) => sum + f.size, 0) / optimizedFiles.length),
+    baseUrl: getAbapBaseUrl(version),
+    integration: 'standard-mcp-system'
+  };
+}
+
+async function generateVersion(version, opts) {
+  const { force = true, standardSystem = true } = opts;
+  
+  // Use standard system by default
+  if (standardSystem) {
+    return await generateVersionForStandardSystem(version, opts);
+  }
+  
+  // Original complex generation (preserved for compatibility)
+  const dirs2 = getOutputDirs(version);
+  
+  console.log(`🔄 Generating documentation for version ${version}...`);
+  
+  if (!fs.existsSync(dirs2.html)) {
+    throw new Error(`HTML directory not found: ${dirs2.html}. Run scraper first.`);
+  }
+
   // Step 1: Convert HTML to Markdown
-  const mdFiles = await convertHtmlToMarkdown(version, force);
+  const mdFiles = await convertHtmlToMarkdownOptimized(version, force);
   
   // Step 2: Generate bundles from tree structure
-  const bundles = await generateBundles(version, mdFiles, bundleBudget, force);
+  const bundles = await generateBundles(version, mdFiles, opts.bundleBudget, force);
   
   // Step 3: Fix JavaScript links in all files
-  await fixLinksInFiles(version, dirs);
+  await fixLinksInFiles(version, dirs2);
   
   // Step 4: Create enhanced bundle index
   const enhancedIndex = enhanceBundleIndex(bundles, version);
@@ -708,7 +1030,7 @@ async function generateVersion(version, opts) {
   
   // Write all indexes
   await fsp.writeFile(
-    path.resolve(dirs.base, 'bundles_index.json'),
+    path.resolve(dirs2.base, 'bundles_index.json'),
     JSON.stringify({ bundles }, null, 2)
   );
   
@@ -719,7 +1041,7 @@ async function generateVersion(version, opts) {
   };
   
   await fsp.writeFile(
-    path.resolve(dirs.base, 'enhanced_bundles_index.json'),
+    path.resolve(dirs2.base, 'enhanced_bundles_index.json'),
     JSON.stringify(enhancedBundleIndex, null, 2)
   );
   
@@ -746,12 +1068,12 @@ async function generateVersion(version, opts) {
   };
   
   await fsp.writeFile(
-    path.resolve(dirs.base, 'optimized_index.json'),
+    path.resolve(dirs2.base, 'optimized_index.json'),
     JSON.stringify(optimizedIndex, null, 2)
   );
   
   // Update manifest
-  const manifestPath = path.resolve(dirs.base, '_manifest.json');
+  const manifestPath = path.resolve(dirs2.base, '_manifest.json');
   if (fs.existsSync(manifestPath)) {
     const manifest = JSON.parse(await fsp.readFile(manifestPath, 'utf8'));
     
@@ -770,10 +1092,10 @@ async function generateVersion(version, opts) {
     manifest.generatedAt = new Date().toISOString();
     manifest.output = {
       ...manifest.output,
-      mdDir: path.relative(dirs.base, dirs.md),
-      bundlesDir: path.relative(dirs.base, dirs.bundles),
-      megaBundlesDir: path.relative(dirs.base, dirs.megaBundles),
-      quickRefDir: path.relative(dirs.base, dirs.quickRef)
+      mdDir: path.relative(dirs2.base, dirs2.md),
+      bundlesDir: path.relative(dirs2.base, dirs2.bundles),
+      megaBundlesDir: path.relative(dirs2.base, dirs2.megaBundles),
+      quickRefDir: path.relative(dirs2.base, dirs2.quickRef)
     };
     
     await fsp.writeFile(manifestPath, JSON.stringify(manifest, null, 2));
@@ -786,7 +1108,7 @@ async function generateVersion(version, opts) {
     megaBundleCount: megaBundles.length,
     quickRefCount: quickRefs.length,
     individualFiles: individualFiles.length,
-    baseUrl: getBaseUrl(version)
+    baseUrl: getAbapBaseUrl(version)
   };
 }
 
@@ -796,20 +1118,49 @@ async function main() {
   if (args.all) {
     console.log(`🚀 Generating all ABAP documentation versions...`);
     
-    const rootsPath = path.resolve(repoRoot, 'roots.txt');
-    const content = await fsp.readFile(rootsPath, 'utf8');
-    const roots = content.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+    // Get available versions from docs directory
+    const docsDir = path.resolve(repoRoot, 'docs');
+    const availableVersions = [];
+    
+    if (fs.existsSync(docsDir)) {
+      const entries = await fsp.readdir(docsDir);
+      for (const entry of entries) {
+        const entryPath = path.resolve(docsDir, entry);
+        const stat = await fsp.stat(entryPath);
+        if (stat.isDirectory() && (entry.match(/^\d+\.\d+$/) || entry === 'latest')) {
+          availableVersions.push(entry);
+        }
+      }
+    }
+    
+    if (availableVersions.length === 0) {
+      console.log(`   ⚠️  No versions found in docs directory. Using roots.txt fallback.`);
+      
+      const rootsPath = path.resolve(repoRoot, 'roots.txt');
+      const content = await fsp.readFile(rootsPath, 'utf8');
+      const roots = content.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+      
+      for (const rootUrl of roots) {
+        const versionMatch = rootUrl.match(/\/([0-9]+\.[0-9]+)\//);
+        if (versionMatch) availableVersions.push(versionMatch[1]);
+      }
+      availableVersions.push('latest');
+    }
+    
+    console.log(`   📋 Found versions: ${availableVersions.join(', ')}`);
     
     const results = [];
     
-    for (const rootUrl of roots) {
-      const versionMatch = rootUrl.match(/\/([0-9]+\.[0-9]+)\//);
-      const version = versionMatch ? versionMatch[1] : 'latest';
-      
+    for (const version of availableVersions.sort()) {
       try {
         const result = await generateVersion(version, args);
         results.push(result);
-        console.log(`✅ ${version}: ${result.mdCount} MD files, ${result.bundleCount} bundles, ${result.megaBundleCount} mega-bundles`);
+        
+        if (result.integration === 'standard-mcp-system') {
+          console.log(`✅ ${version}: ${result.fileCount} optimized files (avg: ${result.avgFileSize}B)`);
+        } else {
+          console.log(`✅ ${version}: ${result.mdCount} MD files, ${result.bundleCount} bundles, ${result.megaBundleCount} mega-bundles`);
+        }
       } catch (err) {
         console.error(`❌ ${version}: ${err.message}`);
       }
@@ -817,9 +1168,20 @@ async function main() {
     
     console.log(`\n📊 Generation Summary:`);
     console.log(`   Versions processed: ${results.length}`);
-    console.log(`   Total MD files: ${results.reduce((sum, r) => sum + r.mdCount, 0)}`);
-    console.log(`   Total bundles: ${results.reduce((sum, r) => sum + r.bundleCount, 0)}`);
-    console.log(`   Total mega-bundles: ${results.reduce((sum, r) => sum + r.megaBundleCount, 0)}`);
+    
+    const standardResults = results.filter(r => r.integration === 'standard-mcp-system');
+    const complexResults = results.filter(r => r.integration !== 'standard-mcp-system');
+    
+    if (standardResults.length > 0) {
+      console.log(`   📄 Standard system files: ${standardResults.reduce((sum, r) => sum + r.fileCount, 0)}`);
+      console.log(`   📊 Average file size: ${Math.round(standardResults.reduce((sum, r) => sum + r.avgFileSize, 0) / standardResults.length)}B`);
+    }
+    
+    if (complexResults.length > 0) {
+      console.log(`   📄 Total MD files: ${complexResults.reduce((sum, r) => sum + (r.mdCount || 0), 0)}`);
+      console.log(`   📦 Total bundles: ${complexResults.reduce((sum, r) => sum + (r.bundleCount || 0), 0)}`);
+      console.log(`   🚀 Total mega-bundles: ${complexResults.reduce((sum, r) => sum + (r.megaBundleCount || 0), 0)}`);
+    }
     
     return results;
   }
@@ -828,13 +1190,24 @@ async function main() {
   try {
     const result = await generateVersion(args.version, args);
     console.log(`\n✅ Generation completed for version ${result.version}:`);
-    console.log(`   📄 ${result.mdCount} Markdown files`);
-    console.log(`   📦 ${result.bundleCount} bundles`);
-    console.log(`   🚀 ${result.megaBundleCount} mega-bundles`);
-    console.log(`   📋 ${result.quickRefCount} quick references`);
-    console.log(`   📋 ${result.individualFiles} individual files indexed`);
-    console.log(`   🌐 Base URL: ${result.baseUrl}`);
-    console.log(`   📂 Output: docs/${result.version}/`);
+    
+    if (result.integration === 'standard-mcp-system') {
+      // Standard system output
+      console.log(`   📄 ${result.fileCount} individual files optimized`);
+      console.log(`   📊 Average file size: ${result.avgFileSize} bytes`);
+      console.log(`   🌐 Base URL: ${result.baseUrl}`);
+      console.log(`   📂 Output: docs/${result.version}/md/ (ready for standard MCP)`);
+      console.log(`   ✨ Integration: ${result.integration}`);
+    } else {
+      // Complex bundling output
+      console.log(`   📄 ${result.mdCount} Markdown files`);
+      console.log(`   📦 ${result.bundleCount} bundles`);
+      console.log(`   🚀 ${result.megaBundleCount} mega-bundles`);
+      console.log(`   📋 ${result.quickRefCount} quick references`);
+      console.log(`   📋 ${result.individualFiles} individual files indexed`);
+      console.log(`   🌐 Base URL: ${result.baseUrl}`);
+      console.log(`   📂 Output: docs/${result.version}/`);
+    }
   } catch (err) {
     console.error(`❌ Generation failed: ${err.message}`);
     process.exit(1);

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Size Category of Database Tables"
+description: |
+  The size category affects the size of the initial memory area reserved for the table on the database. Values between 0 and 9 can be specified and intervals of expected rows are assigned to these values. The interval limits assigned to each size category depend on the structure of the DDIC database t
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_siz_cat.htm"
+abapFile: "abenddic_database_tables_siz_cat.htm"
+keywords: ["do", "if", "try", "data", "abenddic", "database", "tables", "siz", "cat"]
+---
 
 * * *
 

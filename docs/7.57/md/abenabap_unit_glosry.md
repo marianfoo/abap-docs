@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Unit"
+description: |
+  Test tool integrated into the ABAP runtime framework(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_frmwk_glosry.htm 'Glossary Entry') that is used for checking the functions of code units in a program (unit tests(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_unit_glosry.htm"
+abapFile: "abenabap_unit_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenabap", "unit", "glosry"]
+---
 
 * * *
 

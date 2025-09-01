@@ -1,4 +1,14 @@
-  
+---
+title: "Lists"
+description: |
+  Background A list is a medium used for the structured and formatted output of data. The following lists are available in ABAP: -   Classic lists, which are written to a list buffer using ABAP statements and displayed on a special list dynpro. -   Output of the SAP List Viewer (ALV), which is display
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_guidl.htm"
+abapFile: "abenlist_guidl.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "abenlist", "guidl"]
+---
 
 * * *
 

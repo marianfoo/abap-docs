@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - LOOP, Step Loop(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynploop_obsolete.htm) !Example(exa.gif 'Example') dynpro - Step Loop(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensteploop_abexa.htm)
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensteploop.htm"
+abapFile: "abensteploop.htm"
+keywords: ["loop", "do", "if", "try", "data", "abensteploop"]
+---
 
 * * *
 

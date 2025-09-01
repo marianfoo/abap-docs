@@ -1,4 +1,14 @@
-  
+---
+title: "place_glosry"
+description: |
+  place_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenplace_glosry.htm"
+abapFile: "abenplace_glosry.htm"
+keywords: ["do", "if", "try", "abenplace", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "status_icon_glosry"
+description: |
+  status_icon_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatus_icon_glosry.htm"
+abapFile: "abenstatus_icon_glosry.htm"
+keywords: ["do", "try", "data", "abenstatus", "icon", "glosry"]
+---
 
 * * *
 

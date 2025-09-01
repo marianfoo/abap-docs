@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration of a Nested Structure"
+description: |
+  This example demonstrates the declaration of a nested structure with substructures. Source Code REPORT demo_nested_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF address, BEGIN OF name, title   TYPE string VALU
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennested_structure_abexa.htm"
+abapFile: "abennested_structure_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "abennested", "structure", "abexa"]
+---
 
 * * *
 

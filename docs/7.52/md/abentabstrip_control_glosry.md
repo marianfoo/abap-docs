@@ -1,4 +1,14 @@
-  
+---
+title: "Tabstrip control"
+description: |
+  Tabstrip controls enable tab pages to be displayed on dynpros. A tabstrip control is a screen element(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_element_glosry.htm 'Glossary Entry') constructed from multiple tab pages(https://help.sap.com/doc/abapdocu_752_index_htm/7.5
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentabstrip_control_glosry.htm"
+abapFile: "abentabstrip_control_glosry.htm"
+keywords: ["do", "try", "abentabstrip", "control", "glosry"]
+---
 
 * * *
 

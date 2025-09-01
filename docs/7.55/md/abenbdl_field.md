@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR, field"
+description: |
+  Work in progress  Syntax ... field(read only  mandatory) field, field, ...; Effect Some fields of a CDS entity can be specified to which certain access restrictions apply: -   field(read only) FieldName; The field FieldName cannot be modified by the operations create and update. -
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm"
+abapFile: "abenbdl_field.htm"
+keywords: ["update", "delete", "do", "if", "class", "data", "abenbdl", "field"]
+---
 
 * * *
 

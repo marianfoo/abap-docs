@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Dialog Interactions"
+description: |
+  In an RFM(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfm_glosry.htm 'Glossary Entry') called using RFC, both variants sRFC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensrfc_glosry.htm 'Glossary Entry') and aRFC(https://help.sap.com/doc/abapdocu_l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dialog.htm"
+abapFile: "abenrfc_dialog.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenrfc", "dialog"]
+---
 
 * * *
 

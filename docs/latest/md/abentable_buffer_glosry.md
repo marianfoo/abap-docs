@@ -1,4 +1,14 @@
-  
+---
+title: "table_buffer_glosry"
+description: |
+  table_buffer_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffer_glosry.htm"
+abapFile: "abentable_buffer_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentable", "buffer", "glosry"]
+---
 
 * * *
 

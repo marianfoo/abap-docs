@@ -1,4 +1,14 @@
-  
+---
+title: "Exceptions, CATCH"
+description: |
+  This example demonstrates how class-based exceptions are caught. Source Code  Public class definition CLASS cl_demo_catch_exception DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS lcx_exception DEFINITION
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatch_exception_abexa.htm"
+abapFile: "abencatch_exception_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "exception-handling", "abencatch", "exception", "abexa"]
+---
 
 * * *
 

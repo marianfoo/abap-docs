@@ -1,4 +1,14 @@
-  
+---
+title: "INPUT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinput_shortref.htm) Obsolete Syntax INPUT. Effect This statement is forbidden in classes, has the same function as the following statement and is replaced by it: FORMAT(https://help.sap.com/doc/abapdocu_758_index_htm/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinput.htm"
+abapFile: "abapinput.htm"
+keywords: ["do", "if", "class", "abapinput"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DEFINE TABLE FUNCTION, element"
+description: |
+  Syntax ... @element_annot1(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_return_list_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_return_list_annotation.htm) ... KEY name : typing(https:/
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_return_list_element.htm"
+abapFile: "abencds_f1_return_list_element.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abencds", "return", "list", "element"]
+---
 
 * * *
 

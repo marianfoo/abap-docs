@@ -1,4 +1,14 @@
-  
+---
+title: "Class for Compressing Character Strings and Byte Strings"
+description: |
+  These classes offer a range of methods that enable text in text fields or text strings, or binary data in byte fields or byte strings to be compressed or decompressed using GZIP. -   CL_ABAP_GZIP -   CL_ABAP_GZIP_BINARY_STREAM -   CL_ABAP_GZIP_TEXT_STREAM -   CL_ABAP_UNGZIP_BINARY_STRE
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_gzip.htm"
+abapFile: "abencl_abap_gzip.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "gzip"]
+---
 
 * * *
 

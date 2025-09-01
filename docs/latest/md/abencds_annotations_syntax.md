@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - Annotation Syntax"
+description: |
+  Syntax @<Anno: value(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax_value.htm)  :  subannos(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax_subanno.htm)   :  arrelem(htt
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm"
+abapFile: "abencds_annotations_syntax.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abencds", "annotations", "syntax"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "READ TEXTPOOL, Internal Addition"
+description: |
+  This addition is for internal use only. It must not be used in application programs. Addition: ... STATE state Effect This addition determines whether the statement uses the active version or an inactive version of the repository object. state can have the values A (for active) and I (for inactive),
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_textpool_internal.htm"
+abapFile: "abapread_textpool_internal.htm"
+keywords: ["insert", "do", "if", "catch", "abapread", "textpool", "internal"]
+---
 
 * * *
 

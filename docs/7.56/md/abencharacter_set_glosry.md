@@ -1,4 +1,14 @@
-  
+---
+title: "character_set_glosry"
+description: |
+  character_set_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_set_glosry.htm"
+abapFile: "abencharacter_set_glosry.htm"
+keywords: ["do", "try", "abencharacter", "set", "glosry"]
+---
 
 * * *
 

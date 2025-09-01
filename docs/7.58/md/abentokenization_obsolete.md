@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Statement Structuring"
+description: |
+  The following syntax forms are obsolete. They are forbidden within ABAP Objects and produce syntax check warnings outside of classes: -   Outside of classes, separators (blanks, commas, colons periods, or the end of a line) after literals(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentokenization_obsolete.htm"
+abapFile: "abentokenization_obsolete.htm"
+keywords: ["do", "if", "class", "abentokenization", "obsolete"]
+---
 
 * * *
 

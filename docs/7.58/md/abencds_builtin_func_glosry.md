@@ -1,4 +1,14 @@
-  
+---
+title: "CDS built-in function"
+description: |
+  A predefined function in ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry') that can be used in operand positions of CDS entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry'). ABA
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_func_glosry.htm"
+abapFile: "abencds_builtin_func_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "builtin", "func", "glosry"]
+---
 
 * * *
 

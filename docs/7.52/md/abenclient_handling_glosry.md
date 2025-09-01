@@ -1,4 +1,14 @@
-  
+---
+title: "client_handling_glosry"
+description: |
+  client_handling_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_glosry.htm"
+abapFile: "abenclient_handling_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenclient", "handling", "glosry"]
+---
 
 * * *
 

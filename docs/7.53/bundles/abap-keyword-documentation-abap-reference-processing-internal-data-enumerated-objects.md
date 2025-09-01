@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenenumerated_types_usage.htm
 
-  
+---
+title: "Enumerated Objects"
+description: |
+  This section summarizes the use of enumerated objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm 'Glossary Entry') (data objects with enumerated types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm 'Gloss
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_types_usage.htm"
+abapFile: "abenenumerated_types_usage.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abenenumerated", "usage"]
+---
 
 * * *
 
@@ -17,25 +27,15 @@ Enumerated Objects
 
 This section summarizes the use of [enumerated objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry") (data objects with [enumerated types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
--   [Declaration](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_1)
+-   [Declaration](#abenenumerated-types-usage-1--------processing-of-enumerated-objects---@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
 
--   [Processing of Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
+-   [Operand Positions for Enumerated Objects](#abenenumerated-types-usage-3--------value-assignments---@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
 
--   [Operand Positions for Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_3)
+-   [Comparisons](#abenenumerated-types-usage-5--------typing-of-formal-parameters-and-field-symbols---@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
 
--   [Value Assignments](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
+-   [Access to the Enumerated Value](#abenenumerated-types-usage-7--------type-descriptions---@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
 
--   [Comparisons](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_5)
-
--   [Typing of Formal Parameters and Field Symbols](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
-
--   [Access to the Enumerated Value](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_7)
-
--   [Type Descriptions](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
-
--   [Data interfaces](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_9)
-
--   [Forbidden Uses](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
+-   [Data interfaces](#abenenumerated-types-usage-9--------forbidden-uses---@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
 
 Executable Example
 
@@ -354,7 +354,17 @@ Continue
 
 ### abenenum_usage_abexa.htm
 
-  
+---
+title: "Enumerated Objects, Use"
+description: |
+  This example demonstrates the use of enumerated types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm 'Glossary Entry'). Source Code REPORT demo_enumerated_types. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA html TYPE string. CLASS-METHODS: class_c
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenum_usage_abexa.htm"
+abapFile: "abenenum_usage_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenenum", "usage", "abexa"]
+---
 
 * * *
 
@@ -436,7 +446,17 @@ Enumerated values can be specified for the size and format when the program is e
 
 ### abenenum_description_abexa.htm
 
-  
+---
+title: "Enumerated Objects, Type Description"
+description: |
+  This example demonstrates type description in enumerated objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm 'Glossary Entry'). Source Code REPORT demo_describe_enums. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenum_description_abexa.htm"
+abapFile: "abenenum_description_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "types", "abenenum", "description", "abexa"]
+---
 
 * * *
 
@@ -489,7 +509,17 @@ The statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7
 
 ### abenenum_deserialization_abexa.htm
 
-  
+---
+title: "Enumerated Objects, Deserialization"
+description: |
+  This example demonstrates how a dynamically created XML file is deserialized to an enumerated object(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm 'Glossary Entry'). Source Code REPORT. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLAS
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenum_deserialization_abexa.htm"
+abapFile: "abenenum_deserialization_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "field-symbol", "abenenum", "deserialization", "abexa"]
+---
 
 * * *
 

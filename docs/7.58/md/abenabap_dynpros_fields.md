@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   When dynpro fields are defined with reference to flat structures(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenflat_structure_glosry.htm 'Glossary Entry') in the ABAP Dictionary, the identically named global data objects of the ABAP program must have been declared with the sta
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_fields.htm"
+abapFile: "abenabap_dynpros_fields.htm"
+keywords: ["select", "update", "delete", "loop", "do", "while", "if", "case", "try", "catch", "data", "types", "abenabap", "dynpros", "fields"]
+---
 
 * * *
 

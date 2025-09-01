@@ -1,4 +1,14 @@
-  
+---
+title: "Business Object Processing Framework"
+description: |
+  BOPF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbopf_glosry.htm 'Glossary Entry') for short. An ABAP-based framework that provides a set of generic services and functionalities to create business objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abe
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbo_processing_fw_glosry.htm"
+abapFile: "abenbo_processing_fw_glosry.htm"
+keywords: ["do", "if", "try", "abenbo", "processing", "glosry"]
+---
 
 * * *
 

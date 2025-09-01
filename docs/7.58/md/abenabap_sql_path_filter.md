@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Path Expressions, attributes"
+description: |
+  Syntax ...  cardinality INNERLEFTRIGHT OUTER WHERE sql_cond(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_expr_logexp.htm)    INNERLEFTRIGHT OUTER cardinality WHERE
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_path_filter.htm"
+abapFile: "abenabap_sql_path_filter.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "abenabap", "sql", "path", "filter"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS system function"
+description: |
+  A CDS function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_function_glosry.htm 'Glossary Entry') delivered with an ABAP Platform that implements basic functionality. Currently, SAP delivers analytical scalar functions(https://help.sap.com/doc/abapdocu_latest_index_htm
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_system_func_glosry.htm"
+abapFile: "abencds_system_func_glosry.htm"
+keywords: ["do", "if", "try", "class", "abencds", "system", "func", "glosry"]
+---
 
 * * *
 

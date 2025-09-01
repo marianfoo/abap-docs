@@ -1,4 +1,14 @@
-  
+---
+title: "RTTS"
+description: |
+  → runtime type services(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrun_time_type_services_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtts_glosry.htm"
+abapFile: "abenrtts_glosry.htm"
+keywords: ["do", "try", "abenrtts", "glosry"]
+---
 
 * * *
 

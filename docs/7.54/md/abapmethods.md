@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods_shortref.htm) Syntax Forms General Instance Methods(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods_general.htm) 1. METHODS meth ABSTRACTFINAL(https://help.sap.com/doc/abapdocu
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods.htm"
+abapFile: "abapmethods.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abapmethods"]
+---
 
 * * *
 

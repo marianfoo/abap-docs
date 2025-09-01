@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Dynpro Input Help"
+description: |
+  This example demonstrates how input helps can be used on dynpros. Source Code REPORT demo_dynpro_f4_help_dynpro. DATA: carrier(3) TYPE c, connection(4) TYPE c. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. Description The static next dynpro number of dynpro 100 is 100. The inpu
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_f4_help_dyn_abexa.htm"
+abapFile: "abendynpro_f4_help_dyn_abexa.htm"
+keywords: ["select", "do", "if", "data", "types", "abendynpro", "help", "dyn", "abexa"]
+---
 
 * * *
 

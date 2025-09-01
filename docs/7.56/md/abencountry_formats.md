@@ -1,4 +1,14 @@
-  
+---
+title: "Country-Specific Formats"
+description: |
+  The country-specific formatting settings for numbers, dates, and times are stored in database table T005X. The rows of table T005X contain a key field LAND in which a country key is stored, and fields XDEZP, DATFM, and TIMEFM for the respective formatting. -   Number Formats(https://help.sap.com/d
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencountry_formats.htm"
+abapFile: "abencountry_formats.htm"
+keywords: ["do", "if", "try", "data", "abencountry", "formats"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Table Builds Using Mesh Paths"
+description: |
+  This example demonstrates how a table is built using a mesh path. Source Code REPORT demo_mesh_insert_build_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, END OF line1, t_itab1 TYPE SORTED TABLE OF line
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_build_abexa.htm"
+abapFile: "abenmesh_build_abexa.htm"
+keywords: ["select", "insert", "loop", "do", "if", "method", "class", "data", "types", "abenmesh", "build", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "table_cluster_glosry"
+description: |
+  table_cluster_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_cluster_glosry.htm"
+abapFile: "abentable_cluster_glosry.htm"
+keywords: ["do", "if", "try", "data", "abentable", "cluster", "glosry"]
+---
 
 * * *
 

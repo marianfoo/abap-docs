@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE HIERARCHY"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm) ... @hierarchy_annot1(https://help.sap.com/doc
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_hierarchy.htm"
+abapFile: "abencds_f1_define_hierarchy.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abencds", "define", "hierarchy"]
+---
 
 * * *
 

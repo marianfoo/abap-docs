@@ -1,4 +1,14 @@
-  
+---
+title: "General Expression Positions"
+description: |
+  General expression positions are reading positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm 'Glossary Entry') in which suitable data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm 'Glossary Entry'),
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expression_positions.htm"
+abapFile: "abengeneral_expression_positions.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abengeneral", "expression", "positions"]
+---
 
 * * *
 

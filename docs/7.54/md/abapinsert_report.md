@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT REPORT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_report_shortref.htm) Syntax INSERT REPORT prog FROM itab MAXIMUM WIDTH INTO wid  KEEPING DIRECTORY ENTRY   PROGRAM TYPE pt FIXED-POINT ARITHMETIC fp VERSION vs
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_report.htm"
+abapFile: "abapinsert_report.htm"
+keywords: ["select", "insert", "loop", "do", "while", "if", "case", "try", "class", "data", "types", "abapinsert", "report"]
+---
 
 * * *
 

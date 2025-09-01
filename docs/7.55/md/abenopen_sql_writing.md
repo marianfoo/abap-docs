@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Write Access"
+description: |
+  Write accesses include inserting, modifying, and deleting content in DDIC database tables. All write accesses can be made as individual accesses or as mass access. If multiple rows of a DDIC database table are to be changed, mass access using internal tables generally gives better performance than i
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_writing.htm"
+abapFile: "abenopen_sql_writing.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abenopen", "sql", "writing"]
+---
 
 * * *
 

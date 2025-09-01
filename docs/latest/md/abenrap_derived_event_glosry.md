@@ -1,4 +1,14 @@
-  
+---
+title: "RAP derived event"
+description: |
+  A RAP derived event redefines the payload of an existing RAP business event(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_entity_event_glosry.htm 'Glossary Entry'). A RAP derived event is defined with reference to an already implemented event and allows the definition of
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_event_glosry.htm"
+abapFile: "abenrap_derived_event_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "derived", "event", "glosry"]
+---
 
 * * *
 

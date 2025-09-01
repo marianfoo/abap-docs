@@ -1,4 +1,14 @@
-  
+---
+title: "trfc_2_glosry"
+description: |
+  trfc_2_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrfc_2_glosry.htm"
+abapFile: "abentrfc_2_glosry.htm"
+keywords: ["do", "if", "try", "abentrfc", "glosry"]
+---
 
 * * *
 

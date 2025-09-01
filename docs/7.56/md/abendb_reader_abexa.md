@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Reader Stream, Read Database Table"
+description: |
+  This example demonstrates how data can be read from a DDIC database table using a reader stream(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreader_stream_glosry.htm 'Glossary Entry'). Source Code REPORT demo_db_reader. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main.
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_reader_abexa.htm"
+abapFile: "abendb_reader_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "types", "internal-table", "abendb", "reader", "abexa"]
+---
 
 * * *
 

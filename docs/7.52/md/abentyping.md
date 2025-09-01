@@ -1,4 +1,14 @@
-  
+---
+title: "Typing"
+description: |
+  Typing means defining a generic or complete data type for a formal parameter(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformal_parameter_glosry.htm 'Glossary Entry') of a procedure(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm 'Glossary E
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping.htm"
+abapFile: "abentyping.htm"
+keywords: ["do", "if", "try", "data", "types", "field-symbol", "abentyping"]
+---
 
 * * *
 

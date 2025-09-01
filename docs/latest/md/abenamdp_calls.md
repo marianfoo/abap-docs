@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Use"
+description: |
+  AMDP methods can be used in ABAP programs as follows: -   AMDP procedure implementations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_procedure_methods.htm) An AMDP procedure implementation is called from an ABAP program in the same way as any other ABAP Objects method.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_calls.htm"
+abapFile: "abenamdp_calls.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "abenamdp", "calls"]
+---
 
 * * *
 

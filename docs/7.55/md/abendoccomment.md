@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Doc"
+description: |
+  ABAP Doc allows declarations(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_glosry.htm 'Glossary Entry') in ABAP programs to be documented, based on special ABAP Doc comments. In an ABAP development environment , such as ABAP Development Tools (ADT)(https://help.sap.c
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendoccomment.htm"
+abapFile: "abendoccomment.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abendoccomment"]
+---
 
 * * *
 
@@ -10,17 +20,11 @@ ABAP Doc
 
 ABAP Doc allows [declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_glosry.htm "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. In an ABAP development environment , such as [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry"), which supports [ABAP Doc](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry"), the content of ABAP Doc comments is evaluated, converted to HTML, and then displayed appropriately.
 
--   [ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
+-   [ABAP Doc Comments](#abendoccomment-1--------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
 
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3--------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
 
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
-
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
-
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
-
--   [Test Relations](#@@ITOC@@ABENDOCCOMMENT_6)
+-   [Documentation Links](#abendoccomment-5--------test-relations---@ITOC@@ABENDOCCOMMENT_6)
 
 ABAP Doc Comments
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:switch> <tt:s-d-cond ... <tt:s-d-cond ... ... </tt:switch> Effect The statement tt:switch can be used to execute a maximum of one conditional transformations from a set of conditional transformations. A list of cases is specified in tt:switch, where the syntax of each case
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_switch.htm"
+abapFile: "abenst_tt_switch.htm"
+keywords: ["do", "if", "case", "data", "abenst", "switch"]
+---
 
 * * *
 

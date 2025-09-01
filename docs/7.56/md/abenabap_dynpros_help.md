@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  dynpro - Field Help(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_field_help.htm) dynpro - Input Help(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_value_help.htm) dynpro - Dropdown List Boxes(https://help.sap.com/doc/abapdocu_756_ind
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_help.htm"
+abapFile: "abenabap_dynpros_help.htm"
+keywords: ["do", "if", "abenabap", "dynpros", "help"]
+---
 
 * * *
 

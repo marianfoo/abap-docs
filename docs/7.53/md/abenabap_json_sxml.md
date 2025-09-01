@@ -1,4 +1,14 @@
-  
+---
+title: "Parsing and Rendering JSON Data"
+description: |
+  The processing of JSON(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_oview.htm) data in ABAP is integrated into sXML(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensxml_library_glosry.htm 'Glossary Entry') Library. Here, JSON is supported as a separate form
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_sxml.htm"
+abapFile: "abenabap_json_sxml.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenabap", "json", "sxml"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Parsing and Rendering JSON Data
 
 The processing of [JSON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_oview.htm) data in ABAP is integrated into [sXML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensxml_library_glosry.htm "Glossary Entry") Library. Here, JSON is supported as a separate [format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_formats.htm), with [JSON-XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_glosry.htm "Glossary Entry") used as an intermediate step.
 
--   [Parsing JSON Data](#@@ITOC@@ABENABAP_JSON_SXML_1)
-
--   [Rendering of JSON Data](#@@ITOC@@ABENABAP_JSON_SXML_2)
+-   [Parsing JSON Data](#abenabap-json-sxml-1--------rendering-of-json-data---@ITOC@@ABENABAP_JSON_SXML_2)
 
 Parsing JSON Data
 

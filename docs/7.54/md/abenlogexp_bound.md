@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ref IS NOT BOUND ... Effect This predicate expression checks whether a reference variable contains a valid reference. A reference variable(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreference_variable_glosry.htm 'Glossary Entry') must be specified for ref. This is a
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_bound.htm"
+abapFile: "abenlogexp_bound.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "internal-table", "abenlogexp", "bound"]
+---
 
 * * *
 

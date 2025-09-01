@@ -1,4 +1,14 @@
-  
+---
+title: "General Dynpros"
+description: |
+  Dynpro (sometimes also known as a screen) is an abbreviation for 'dynamic program'. A dynpro is a repository(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm 'Glossary Entry') object and is always a component of an ABAP program (a function group, executable prog
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm"
+abapFile: "abenabap_dynpros.htm"
+keywords: ["select", "do", "try", "class", "abenabap", "dynpros"]
+---
 
 * * *
 

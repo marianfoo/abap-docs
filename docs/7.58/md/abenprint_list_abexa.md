@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Spool"
+description: |
+  The example demonstrates how to spool lists and how to stack spool list levels. Source Code REPORT demo_list_print LINE-COUNT 10 LINE-SIZE 50. DATA params LIKE pri_params. DATA valid  TYPE c LENGTH 1. PARAMETERS para TYPE c LENGTH 1. CLASS print_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS pri
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprint_list_abexa.htm"
+abapFile: "abenprint_list_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenprint", "list", "abexa"]
+---
 
 * * *
 

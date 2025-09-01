@@ -1,4 +1,14 @@
-  
+---
+title: "message_type_glosry"
+description: |
+  message_type_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_type_glosry.htm"
+abapFile: "abenmessage_type_glosry.htm"
+keywords: ["do", "if", "try", "types", "abenmessage", "type", "glosry"]
+---
 
 * * *
 

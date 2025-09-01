@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_template_align_pad DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_str_template_align_pad IMPLEMENTATION. METHOD main. DATA pad
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_align_abexa.htm"
+abapFile: "abenstring_template_align_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "abenstring", "template", "align", "abexa"]
+---
 
 * * *
 

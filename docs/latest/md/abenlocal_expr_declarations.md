@@ -1,4 +1,14 @@
-  
+---
+title: "Local Declarations in Constructor Expressions"
+description: |
+  In most constructor expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_glosry.htm 'Glossary Entry'), variables and field symbols can be declared as local fields. The declaration takes place inside a constructor expression within an embedded -
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlocal_expr_declarations.htm"
+abapFile: "abenlocal_expr_declarations.htm"
+keywords: ["do", "if", "try", "class", "internal-table", "field-symbol", "abenlocal", "expr", "declarations"]
+---
 
 * * *
 

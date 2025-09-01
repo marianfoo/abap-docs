@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in Release 7.51 applies to all ABAP SQL statements that use one of the following attributes introduced in Release 7.51(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-751-abap_sql.htm): -   Use of the string functions LEFT(https://help.sap.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_strictmode_751.htm"
+abapFile: "abenabap_sql_strictmode_751.htm"
+keywords: ["select", "delete", "do", "if", "try", "data", "types", "abenabap", "sql", "strictmode", "751"]
+---
 
 * * *
 
@@ -8,8 +18,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 ABAP SQL - Strict Mode in Release 7.51
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_751_1)
--   [Rules for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_751_2)
+-   [Conditions for the Strict Mode](#abenabap-sql-strictmode-751-1-------rules-for-the-strict-mode---@ITOC@@ABENABAP_SQL_STRICTMODE_751_2)
 
 Conditions for the Strict Mode
 

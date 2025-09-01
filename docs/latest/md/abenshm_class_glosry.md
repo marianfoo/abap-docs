@@ -1,4 +1,14 @@
-  
+---
+title: "shm_class_glosry"
+description: |
+  shm_class_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_class_glosry.htm"
+abapFile: "abenshm_class_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenshm", "glosry"]
+---
 
 * * *
 

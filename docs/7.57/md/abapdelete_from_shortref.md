@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE FROM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_cluster.htm) Syntax DELETE FROM  MEMORY ID id  DATABASE      dbtab(ar) CLIENT cl ID id  SHARED MEMORY dbtab(ar) CLIENT cl ID id  SHARED BUFFER dbtab(ar) CLIENT cl
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_from_shortref.htm"
+abapFile: "abapdelete_from_shortref.htm"
+keywords: ["delete", "do", "if", "try", "data", "abapdelete", "from", "shortref"]
+---
 
 * * *
 

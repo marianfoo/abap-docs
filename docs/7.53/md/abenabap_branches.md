@@ -1,4 +1,14 @@
-  
+---
+title: "Branches"
+description: |
+  This section describes the branches defined using the following: -   IF - ENDIF(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif.htm) -   CASE - ENDCASE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcase.htm) -   CASE TYPE OF - ENDCASE(https://help.sap.com/doc
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_branches.htm"
+abapFile: "abenabap_branches.htm"
+keywords: ["do", "if", "case", "try", "types", "internal-table", "exception-handling", "abenabap", "branches"]
+---
 
 * * *
 

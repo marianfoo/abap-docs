@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  asJSON, General Format(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_hello_json_abexa.htm)
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_asjson_general.htm"
+abapFile: "abenabap_asjson_general.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenabap", "asjson", "general"]
+---
 
 * * *
 

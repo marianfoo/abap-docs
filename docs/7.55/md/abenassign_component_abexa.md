@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Dynamic Structure Components"
+description: |
+  This example demonstrates dynamic assignments of structure components using ASSIGN. Source Code REPORT demo_assign_component. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF struc, comp1 TYPE i, comp2 TYPE i, comp3 TYPE i,
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassign_component_abexa.htm"
+abapFile: "abenassign_component_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "field-symbol", "abenassign", "component", "abexa"]
+---
 
 * * *
 

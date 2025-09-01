@@ -1,4 +1,14 @@
-  
+---
+title: "SET LOCKS ENTITY, Short Form"
+description: |
+  Syntax SET LOCKS ENTITY entity FROM inst response_param(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm). Addition: ... response_param.(#!ABAP_ONE_ADD@1@) Effect Used to exclusively lock instances of a single RAP BO entity. The entity name entity ca
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locks_entity.htm"
+abapFile: "abapset_locks_entity.htm"
+keywords: ["delete", "do", "if", "try", "class", "internal-table", "abapset", "locks", "entity"]
+---
 
 * * *
 

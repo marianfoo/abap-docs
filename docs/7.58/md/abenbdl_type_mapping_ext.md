@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - extend mapping"
+description: |
+  Syntax ... extend mapping for PartnerType    control ControlType corresponding except Comp1,Comp2, ...  EntityComp1      = PartnerComp1 control ControlComp; EntityComp2      = PartnerComp2 control ControlComp; parameter Param1 = PartnerComp;
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_type_mapping_ext.htm"
+abapFile: "abenbdl_type_mapping_ext.htm"
+keywords: ["do", "if", "try", "abenbdl", "type", "mapping", "ext"]
+---
 
 * * *
 

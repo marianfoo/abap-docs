@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sxml_trafo_into_writer. CLASS sxml_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS sxml_demo IMPLEMENTATION. METHOD main. DATA(writer) = CAST if_sxml_writer( cl_sxml_string_writer=>create(  ) ). writer->open_element( name = 'document' ). writer->open_ele
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensxml_trafo_into_writer_abexa.htm"
+abapFile: "abensxml_trafo_into_writer_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abensxml", "trafo", "into", "writer", "abexa"]
+---
 
 * * *
 

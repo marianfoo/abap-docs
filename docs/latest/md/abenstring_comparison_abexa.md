@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_comparison DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_str_comparison IMPLEMENTATION. METHOD main. DATA length1 TYPE n LENGTH 1
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_comparison_abexa.htm"
+abapFile: "abenstring_comparison_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenstring", "comparison", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMC Examples"
+description: |
+  !Example(exa.gif 'Example') AMC, Sending Messages(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_send_abexa.htm) !Example(exa.gif 'Example') AMC, Receiving Messages(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_receive_abexa.htm) !Example(exa.gif 'E
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_abexas.htm"
+abapFile: "abenamc_abexas.htm"
+keywords: ["do", "if", "data", "abenamc", "abexas"]
+---
 
 * * *
 

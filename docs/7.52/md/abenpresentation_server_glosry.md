@@ -1,4 +1,14 @@
-  
+---
+title: "Presentation Server"
+description: |
+  Desktop PCs belonging to users of an AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry'). The presentation layer(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpresentation_layer_glosry.htm 'Glossary Entry') on these PCs
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpresentation_server_glosry.htm"
+abapFile: "abenpresentation_server_glosry.htm"
+keywords: ["do", "try", "abenpresentation", "server", "glosry"]
+---
 
 * * *
 

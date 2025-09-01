@@ -1,4 +1,14 @@
-  
+---
+title: "arfc_glosry"
+description: |
+  arfc_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarfc_glosry.htm"
+abapFile: "abenarfc_glosry.htm"
+keywords: ["do", "if", "try", "abenarfc", "glosry"]
+---
 
 * * *
 

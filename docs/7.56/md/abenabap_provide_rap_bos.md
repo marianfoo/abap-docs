@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for Providing RAP business objects"
+description: |
+  -   ABAP Behavior Pools(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_behavior_pools.htm) -   ABAP EML for Providing RAP BOs(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm) ABAP Behavior Pools (ABP)(https://help.sap.com/doc/abapdocu_756_inde
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm"
+abapFile: "abenabap_provide_rap_bos.htm"
+keywords: ["do", "abenabap", "provide", "rap", "bos"]
+---
 
 * * *
 

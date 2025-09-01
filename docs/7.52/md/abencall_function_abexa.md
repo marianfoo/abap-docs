@@ -1,4 +1,14 @@
-  
+---
+title: "Calling Function Modules"
+description: |
+  This example demonstrates how function modules are called. Source Code REPORT demo_call_function. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: itab TYPE spfli_tab, jtab TYPE spfli_tab. DATA carrier TYPE s_carr_id VALUE 'LH'.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_function_abexa.htm"
+abapFile: "abencall_function_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abencall", "function", "abexa"]
+---
 
 * * *
 

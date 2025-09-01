@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, key"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_shortref.htm) Syntax ...  UNIQUE  NON-UNIQUE  KEY primary_key ALIAS key_name COMPONENTS comp1 comp2 ...  DEFAULT KEY      EMPTY KEY  ... Alternatives
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_primary_key.htm"
+abapFile: "abapdata_primary_key.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abapdata", "primary", "key"]
+---
 
 * * *
 

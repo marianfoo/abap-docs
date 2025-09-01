@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, List Box with Value List from PBO Module"
+description: |
+  This example demonstrates a non-recommended way to enable a dropdown list box. Source Code REPORT demo_dynpro_dropdown_listbox. DATA: name  TYPE vrm_id, list  TYPE vrm_values, value LIKE LINE OF list. DATA: wa_spfli TYPE spfli, ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. TABLES demof4help.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_drop2_abexa.htm"
+abapFile: "abendynpro_drop2_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abendynpro", "drop2", "abexa"]
+---
 
 * * *
 

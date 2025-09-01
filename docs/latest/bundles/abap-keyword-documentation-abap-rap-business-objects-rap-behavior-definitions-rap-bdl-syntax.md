@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenbdl_syntax.htm
 
-  
+---
+title: "RAP BDL - Syntax"
+description: |
+  The following topics describe the general syntax rules and the rules for pragmas of the RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm 'Glossary Entry'). A list of all available language elements and the respective release dates is also provided. -
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_syntax.htm"
+abapFile: "abenbdl_syntax.htm"
+keywords: ["do", "if", "try", "abenbdl", "syntax"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abenbdl_general_syntax_rules.htm
 
-  
+---
+title: "RAP BDL - General Syntax Rules"
+description: |
+  The general syntax rules for the RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm 'Glossary Entry') for defining RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm 'Glossary Entry') are as follow
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm"
+abapFile: "abenbdl_general_syntax_rules.htm"
+keywords: ["do", "if", "case", "try", "abenbdl", "general", "syntax", "rules"]
+---
 
 * * *
 
@@ -61,7 +81,17 @@ The general syntax rules for the [RAP BDL](https://help.sap.com/doc/abapdocu_lat
 
 ### abenbdl_pragma.htm
 
-  
+---
+title: "RAP BDL - Pragmas"
+description: |
+  Syntax ... ##code... Effect Pragmas can be used to hide syntax check(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensyntax_check_glosry.htm 'Glossary Entry') warnings from the ABAP Compiler(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_compiler_glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_pragma.htm"
+abapFile: "abenbdl_pragma.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "abenbdl", "pragma"]
+---
 
 * * *
 
@@ -146,7 +176,17 @@ The following BDEF uses three different pragmas to suppress syntax check warning
 
 ### abenrap_feature_table.htm
 
-  
+---
+title: "RAP BDL - Feature Tables"
+description: |
+  The following sections shows all available language elements of the RAP BDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm 'Glossary Entry') and their release dates. For further information on the release dates, see ABAP - ABAP Release News(https://help.sa
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_feature_table.htm"
+abapFile: "abenrap_feature_table.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenrap", "feature", "table"]
+---
 
 * * *
 
@@ -160,8 +200,7 @@ RAP BDL - Feature Tables
 
 The following sections shows all available language elements of the [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") and their release dates. For further information on the release dates, see [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews.htm).
 
--   [BDL](#@@ITOC@@ABENRAP_FEATURE_TABLE_1)
-    -   [RAP Behavior Definitions](#@@ITOC@@ABENRAP_FEATURE_TABLE_2)
+-   [BDL](#abenrap-feature-table-1-----------rap-behavior-definitions---@ITOC@@ABENRAP_FEATURE_TABLE_2)
     -   [BDEF Extensions](#@@ITOC@@ABENRAP_FEATURE_TABLE_3)
 
 BDL   

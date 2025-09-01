@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code Enhancements"
+description: |
+  ABAP source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_source_code_glosry.htm 'Glossary Entry') can be enhanced using source code plug-ins(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_plugin_glosry.htm 'Glossary Entry') with t
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_enhancement.htm"
+abapFile: "abensource_code_enhancement.htm"
+keywords: ["do", "if", "try", "abensource", "code", "enhancement"]
+---
 
 * * *
 

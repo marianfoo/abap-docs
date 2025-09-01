@@ -1,4 +1,14 @@
-  
+---
+title: "OLE automation"
+description: |
+  OLE (object linking and embedding) automation allows various software applications to use automation objects to communicate with each other, exchange data, and control each other. A software application can make automation objects available to other applications (clients) by means of an automation i
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole_automation_glosry.htm"
+abapFile: "abenole_automation_glosry.htm"
+keywords: ["do", "data", "abenole", "automation", "glosry"]
+---
 
 * * *
 

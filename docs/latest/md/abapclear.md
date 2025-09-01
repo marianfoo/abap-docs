@@ -1,4 +1,14 @@
-  
+---
+title: "CLEAR"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclear_shortref.htm) Syntax CLEAR dobj  WITH val IN CHARACTERBYTE MODE   WITH NULL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclear_with_null.htm) .
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclear.htm"
+abapFile: "abapclear.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abapclear"]
+---
 
 * * *
 

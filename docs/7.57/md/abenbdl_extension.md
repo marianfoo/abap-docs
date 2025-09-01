@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - BDEF Extension"
+description: |
+  A BDEF extension(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_extension_glosry.htm 'Glossary Entry') is a transportable extension of a CDS behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry')
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm"
+abapFile: "abenbdl_extension.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "abenbdl", "extension"]
+---
 
 * * *
 

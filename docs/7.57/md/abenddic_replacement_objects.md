@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Replacement Objects"
+description: |
+  A CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm 'Glossary Entry') can be assigned to a transparent(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransparent_table_glosry.htm 'Glossary Entry') DDIC database t
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_replacement_objects.htm"
+abapFile: "abenddic_replacement_objects.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "data", "types", "abenddic", "replacement", "objects"]
+---
 
 * * *
 

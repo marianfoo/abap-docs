@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE TEXTPOOL"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DELETE TEXTPOOL prog LANGUAGE lg. Addition: ... STATE state(#!ABAP_ONE_ADD@1@) Effect All(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_element_glosry.htm 'Glossary Entry') text ele
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_textpool.htm"
+abapFile: "abapdelete_textpool.htm"
+keywords: ["insert", "delete", "do", "if", "try", "catch", "data", "abapdelete", "textpool"]
+---
 
 * * *
 

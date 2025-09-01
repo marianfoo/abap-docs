@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - action"
+description: |
+  Syntax Forms Non-Factory Actions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_nonfactory.htm) 1. internal(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_internal.htm) static(https://help.sap.com/doc/abapdocu_latest_index_h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm"
+abapFile: "abenbdl_action.htm"
+keywords: ["update", "do", "if", "try", "method", "data", "abenbdl", "action"]
+---
 
 * * *
 

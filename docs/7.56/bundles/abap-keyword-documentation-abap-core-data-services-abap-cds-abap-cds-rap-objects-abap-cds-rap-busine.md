@@ -5,7 +5,17 @@ Included pages: 9
 
 ### abenbdl_abstract.htm
 
-  
+---
+title: "CDS BDL - CDS abstract behavior definitions"
+description: |
+  CDS abstract behavior definitions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_abstract_bdef_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glosry.htm 'Glossary Entry') are created using the behavior definiti
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_abstract.htm"
+abapFile: "abenbdl_abstract.htm"
+keywords: ["do", "try", "data", "abenbdl", "abstract"]
+---
 
 * * *
 
@@ -50,7 +60,17 @@ Continue
 
 ### abenbdl_bdef_abstract_header.htm
 
-  
+---
+title: "CDS BDL - CDS behavior definition header, abstract BDEF"
+description: |
+  Syntax implementation type;(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_impl_type.htm) strict;(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_strict.htm) with hierarchy; entity behavior definition(https://help.sap.com/doc/abapdocu_756_
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_bdef_abstract_header.htm"
+abapFile: "abenbdl_bdef_abstract_header.htm"
+keywords: ["do", "try", "data", "abenbdl", "bdef", "abstract", "header"]
+---
 
 * * *
 
@@ -86,7 +106,17 @@ The addition with hierarchy is a precondition for the following components of an
 
 ### abenbdl_define_beh_abstract.htm
 
-  
+---
+title: "CDS BDL - entity behavior definition, abstract BDEF"
+description: |
+  Syntax  define behavior for AbstractEntity alias AliasName with control  entity behavior body(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_projection.htm)    scalar entity AbstractEntity field FieldName  behavior for ChildEntity1
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm"
+abapFile: "abenbdl_define_beh_abstract.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenbdl", "define", "beh", "abstract"]
+---
 
 * * *
 
@@ -170,7 +200,17 @@ Continue
 
 ### abenbdl_body_abstract.htm
 
-  
+---
+title: "CDS BDL - entity behavior body, abstract BDEF"
+description: |
+  Syntax ... field characteristics(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_abstract.htm); associations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association_abstract.htm); mapping(https://help.sap.com/doc/abapdocu_7
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_abstract.htm"
+abapFile: "abenbdl_body_abstract.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "body", "abstract"]
+---
 
 * * *
 
@@ -203,7 +243,17 @@ Continue
 
 ### abenbdl_field_abstract.htm
 
-  
+---
+title: "CDS BDL - field characteristics, abstract BDEF"
+description: |
+  Syntax ... field(suppress) Field1, Field2, ...; Effect In an abstract BDEF(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_abstract_bdef_glosry.htm 'Glossary Entry'), there's only one field characteristic available: field(suppress). It can be used to remove a field from all der
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_abstract.htm"
+abapFile: "abenbdl_field_abstract.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenbdl", "field", "abstract"]
+---
 
 * * *
 
@@ -236,7 +286,17 @@ CDS source code was not found
 
 ### abenbdl_association_abstract.htm
 
-  
+---
+title: "CDS BDL - associations, abstract BDEF"
+description: |
+  Syntax ... association _Assoc with hierarchy; Effect Includes a CDS association(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_association_glosry.htm 'Glossary Entry') in the hierarchical BDEF derived type(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/ab
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association_abstract.htm"
+abapFile: "abenbdl_association_abstract.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenbdl", "association", "abstract"]
+---
 
 * * *
 
@@ -269,7 +329,17 @@ CDS source code was not found
 
 ### abenbdl_type_mapping_abstract.htm
 
-  
+---
+title: "CDS BDL - mapping, abstract BDEF"
+description: |
+  Syntax Forms Type mapping ... mapping for PartnerType(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping.htm) ... Deep mapping ... deep mapping for NestedDeepDDICType corresponding  EntityComp1 = PartnerComp1 ... sub _Compos1 = Partnersub1
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping_abstract.htm"
+abapFile: "abenbdl_type_mapping_abstract.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "type", "mapping", "abstract"]
+---
 
 * * *
 
@@ -340,7 +410,17 @@ CDS source code was not found
 
 ### abenbdl_body_abstract.htm
 
-  
+---
+title: "CDS BDL - entity behavior body, abstract BDEF"
+description: |
+  Syntax ... field characteristics(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_abstract.htm); associations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association_abstract.htm); mapping(https://help.sap.com/doc/abapdocu_7
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_abstract.htm"
+abapFile: "abenbdl_body_abstract.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "body", "abstract"]
+---
 
 * * *
 
@@ -373,7 +453,17 @@ Continue
 
 ### abenbdl_define_beh_abstract.htm
 
-  
+---
+title: "CDS BDL - entity behavior definition, abstract BDEF"
+description: |
+  Syntax  define behavior for AbstractEntity alias AliasName with control  entity behavior body(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_projection.htm)    scalar entity AbstractEntity field FieldName  behavior for ChildEntity1
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm"
+abapFile: "abenbdl_define_beh_abstract.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "internal-table", "abenbdl", "define", "beh", "abstract"]
+---
 
 * * *
 

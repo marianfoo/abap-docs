@@ -1,4 +1,14 @@
-  
+---
+title: "Control Level Processing with Nested Groups"
+description: |
+  This example demonstrates nested groups in control level processing in internal tables. Source Code REPORT demo_int_tables_at_nested. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF group, fldate   TYPE sflight-fldate,
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenint_table_sum_abexa.htm"
+abapFile: "abenint_table_sum_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "types", "internal-table", "abenint", "table", "sum", "abexa"]
+---
 
 * * *
 

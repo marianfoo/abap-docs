@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI reference"
+description: |
+  Reference to a BAdI object(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_object_glosry.htm 'Glossary Entry'). BAdI references occur only as contents of BAdI reference variables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_reference_variable_glosry.htm
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_reference_glosry.htm"
+abapFile: "abenbadi_reference_glosry.htm"
+keywords: ["do", "try", "class", "abenbadi", "reference", "glosry"]
+---
 
 * * *
 

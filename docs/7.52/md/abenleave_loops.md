@@ -1,4 +1,14 @@
-  
+---
+title: "Exiting Loops"
+description: |
+  You can use the following statements to exit loops: -   EXIT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexit_loop.htm) -   CONTINUE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontinue.htm) -   CHECK(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_loops.htm"
+abapFile: "abenleave_loops.htm"
+keywords: ["loop", "do", "abenleave", "loops"]
+---
 
 * * *
 

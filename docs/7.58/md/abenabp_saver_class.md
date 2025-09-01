@@ -1,4 +1,14 @@
-  
+---
+title: "RAP Saver Classes and Methods"
+description: |
+  The following topics are covered in this section: -   CL_ABAP_BEHAVIOR_SAVER, RAP Saver Class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_cl_abap_beh_saver.htm) -   CL_ABAP_BEHAVIOR_SAVER_FAILED, RAP Saver Class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/e
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_class.htm"
+abapFile: "abenabp_saver_class.htm"
+keywords: ["do", "if", "method", "class", "abenabp", "saver"]
+---
 
 * * *
 

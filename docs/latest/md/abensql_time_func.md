@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  Generic Time Functions(abensql_time_func.htm#abensql-time-func-1---1-------is--valid--date---time---utclong-----------extract--hour--time---utclong-----------extract--minute--time---utclong-----------extract--second--time---utclong---------functions-for-tims--abensql-time-func-htm-@ITOC@@ABENSQL_T
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_time_func.htm"
+abapFile: "abensql_time_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "class", "data", "types", "abensql", "time", "func"]
+---
 
 * * *
 
@@ -12,14 +22,7 @@ sql\_func - Time Functions
 
 Syntax Forms
 
-[Generic Time Functions](abensql_time_func.htm#@@ITOC@@ABENSQL_TIME_FUNC_1)
-
-1\. ... IS\_VALID( date*|*time*|*utclong )
-    *|* EXTRACT\_HOUR( time*|*utclong )
-    *|* EXTRACT\_MINUTE( time*|*utclong )
-    *|* EXTRACT\_SECOND( time*|*utclong ) ...
-
-[Functions for TIMS](abensql_time_func.htm#@@ITOC@@ABENSQL_TIME_FUNC_2)
+[Generic Time Functions](abensql_time_func.htm#abensql-time-func-1---1-------is--valid--date---time---utclong-----------extract--hour--time---utclong-----------extract--minute--time---utclong-----------extract--second--time---utclong---------functions-for-tims--abensql-time-func-htm-@ITOC@@ABENSQL_TIME_FUNC_2)
 
 2\. ... TIMS\_IS\_VALID( time ) ...
 

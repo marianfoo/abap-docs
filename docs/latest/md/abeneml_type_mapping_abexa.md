@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - CORRESPONDING, Type Mapping"
+description: |
+  This example demonstrates type mapping variants in ABAP EML using the CORRESPONDING operator with a simple managed RAP BO. Data model The CDS data model consists of the root entity DEMO_MANAGED_ROOT_MAP and its child entity DEMO_MANAGED_CHILD_MAP which is not used in this example. Root entity:
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_type_mapping_abexa.htm"
+abapFile: "abeneml_type_mapping_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abeneml", "type", "mapping", "abexa"]
+---
 
 * * *
 

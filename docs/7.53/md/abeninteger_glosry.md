@@ -1,4 +1,14 @@
-  
+---
+title: "Integer"
+description: |
+  Numeric data type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm 'Glossary Entry') for saving integer numbers(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninteger_number_glosry.htm 'Glossary Entry') from various value ranges. The ass
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninteger_glosry.htm"
+abapFile: "abeninteger_glosry.htm"
+keywords: ["do", "try", "data", "types", "abeninteger", "glosry"]
+---
 
 * * *
 

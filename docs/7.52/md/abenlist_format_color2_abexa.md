@@ -1,4 +1,14 @@
-  
+---
+title: "Lists, Supported Colors"
+description: |
+  The example shows which colors are available for list formatting. Source Code REPORT demo_list_format_color_1 . DATA i TYPE i VALUE 0. DATA col(15) TYPE c. WHILE i < 8. CASE i. WHEN 0. col = 'COL_BACKGROUND '. WHEN 1. col = 'COL_HEADING    '. WHEN 2. col = 'COL_NORMAL     '. WHEN 3. col = 'CO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_format_color2_abexa.htm"
+abapFile: "abenlist_format_color2_abexa.htm"
+keywords: ["do", "while", "if", "case", "class", "data", "abenlist", "format", "color2", "abexa"]
+---
 
 * * *
 

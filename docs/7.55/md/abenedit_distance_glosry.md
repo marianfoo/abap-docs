@@ -1,4 +1,14 @@
-  
+---
+title: "edit_distance_glosry"
+description: |
+  edit_distance_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenedit_distance_glosry.htm"
+abapFile: "abenedit_distance_glosry.htm"
+keywords: ["insert", "delete", "do", "try", "abenedit", "distance", "glosry"]
+---
 
 * * *
 

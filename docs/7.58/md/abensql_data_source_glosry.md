@@ -1,4 +1,14 @@
-  
+---
+title: "SQL data source"
+description: |
+  DDIC database table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm 'Glossary Entry'), CDS entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry'), DDIC view(https://help.sap.com/doc/abapdocu_758_inde
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_data_source_glosry.htm"
+abapFile: "abensql_data_source_glosry.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abensql", "source", "glosry"]
+---
 
 * * *
 

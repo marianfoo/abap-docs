@@ -1,4 +1,14 @@
-  
+---
+title: "Assertions"
+description: |
+  Background The ASSERT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassert.htm) statement is used to express an assertion in an ABAP program. Such an assertion is either always active or can be activated externally by assignment to a checkpoint group. When the program reaches an a
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassertions_guidl.htm"
+abapFile: "abenassertions_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenassertions", "guidl"]
+---
 
 * * *
 

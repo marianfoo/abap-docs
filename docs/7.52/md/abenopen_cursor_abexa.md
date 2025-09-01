@@ -1,4 +1,14 @@
-  
+---
+title: "Reading Data Through the Cursor"
+description: |
+  The example shows how to read data through the cursor. Source Code REPORT demo_select_cursor. DATA: wa_spfli   TYPE spfli, wa_sflight TYPE sflight, wa_sflight_back TYPE sflight. DATA: c1 TYPE cursor, c2 TYPE cursor. OPEN CURSOR @c1 FOR SELECT  FROM spfli ORDER BY PRIMARY KEY. OPEN CURSOR @c2
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_cursor_abexa.htm"
+abapFile: "abenopen_cursor_abexa.htm"
+keywords: ["select", "loop", "do", "if", "data", "abenopen", "cursor", "abexa"]
+---
 
 * * *
 

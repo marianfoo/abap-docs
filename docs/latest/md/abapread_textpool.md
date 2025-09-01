@@ -1,4 +1,14 @@
-  
+---
+title: "READ TEXTPOOL"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_textpool_shortref.htm) Syntax READ TEXTPOOL prog INTO itab LANGUAGE lang. Effect This statement reads the text elements of the text pool(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abente
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_textpool.htm"
+abapFile: "abapread_textpool.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapread", "textpool"]
+---
 
 * * *
 

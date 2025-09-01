@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... rel_expr  NOT cond_expr ANDOR cond_expr ... Effect Formulates a conditions in a CDS view(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm 'Glossary Entry') whose result is true or false. A condition is either a single relational expressi
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm"
+abapFile: "abencds_f1_conditional_expression.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "conditional", "expression"]
+---
 
 * * *
 

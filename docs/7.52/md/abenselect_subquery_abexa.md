@@ -1,4 +1,14 @@
-  
+---
+title: "Subquery in WHERE Condition"
+description: |
+  This example demonstrates a subquery(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubquery_glosry.htm 'Glossary Entry') in a WHERE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhere.htm) condition. Source Code REPORT demo_select_subquery. CLASS demo DEFINITI
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_subquery_abexa.htm"
+abapFile: "abenselect_subquery_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "abenselect", "subquery", "abexa"]
+---
 
 * * *
 

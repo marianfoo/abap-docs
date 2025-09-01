@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Rules for Enumerated Types"
+description: |
+  An enumerated type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm 'Glossary Entry') is a special elementary data type. Variables of this type are enumerated variables(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_variable
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_enumerated.htm"
+abapFile: "abenconversion_enumerated.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenconversion", "enumerated"]
+---
 
 * * *
 

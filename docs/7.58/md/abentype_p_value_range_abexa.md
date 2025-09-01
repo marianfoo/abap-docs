@@ -1,4 +1,14 @@
-  
+---
+title: "Value Ranges of Packed Numbers"
+description: |
+  This example demonstrates the value ranges of packed numbers with different lengths and decimal places. Source Code  Public class definition CLASS cl_demo_type_p_value_range DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_p_value_range_abexa.htm"
+abapFile: "abentype_p_value_range_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abentype", "value", "range", "abexa"]
+---
 
 * * *
 

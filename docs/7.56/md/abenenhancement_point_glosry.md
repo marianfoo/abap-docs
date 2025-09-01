@@ -1,4 +1,14 @@
-  
+---
+title: "enhancement_point_glosry"
+description: |
+  enhancement_point_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenhancement_point_glosry.htm"
+abapFile: "abenenhancement_point_glosry.htm"
+keywords: ["do", "try", "abenenhancement", "point", "glosry"]
+---
 
 * * *
 

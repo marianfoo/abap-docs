@@ -1,4 +1,14 @@
-  
+---
+title: "public_glosry"
+description: |
+  public_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpublic_glosry.htm"
+abapFile: "abenpublic_glosry.htm"
+keywords: ["do", "case", "try", "class", "abenpublic", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS, INTERFACE - LOAD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_deferred_load_shortref.htm) Obsolete Syntax CLASS class DEFINITION LOAD. INTERFACE intf LOAD. Effect The variants of the statements CLASS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass.htm)
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_interface_load.htm"
+abapFile: "abapclass_interface_load.htm"
+keywords: ["do", "if", "class", "types", "abapclass", "interface", "load"]
+---
 
 * * *
 

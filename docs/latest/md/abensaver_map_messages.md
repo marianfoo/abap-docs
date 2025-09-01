@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  Declaration part: CLASS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_definition.htm) lsc_bdef DEFINITION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_definition.htm) INHERITING FROM(https://help.sap.com/doc/abapdocu_latest_index_htm/la
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensaver_map_messages.htm"
+abapFile: "abensaver_map_messages.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "abensaver", "map", "messages"]
+---
 
 * * *
 

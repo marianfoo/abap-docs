@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_tabcont_loop. CONTROLS flights TYPE TABLEVIEW USING SCREEN 100. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: itab TYPE TABLE OF demo_conn, fill TYPE i. TABLES demo_conn. DATA: lines TYPE i, limit TYPE i. SELECT  FROM spfli INTO CORRESPONDING FIELDS OF TABLE @
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_control1_abexa.htm"
+abapFile: "abentable_control1_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "data", "internal-table", "abentable", "control1", "abexa"]
+---
 
 * * *
 

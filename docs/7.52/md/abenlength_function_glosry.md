@@ -1,4 +1,14 @@
-  
+---
+title: "Length function"
+description: |
+  Description function(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescription_function_glosry.htm 'Glossary Entry') that determines the length of a data object in characters or bytes.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlength_function_glosry.htm"
+abapFile: "abenlength_function_glosry.htm"
+keywords: ["do", "try", "data", "abenlength", "function", "glosry"]
+---
 
 * * *
 

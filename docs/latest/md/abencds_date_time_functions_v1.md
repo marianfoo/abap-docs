@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, Date Functions and Time Functions"
+description: |
+  Date Functions and Time Functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_date_time_functions.htm) in a CDS DDIC-based view (obsolete)(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm 'Glossary Entry'): -   Date Function
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_date_time_functions_v1.htm"
+abapFile: "abencds_date_time_functions_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "date", "time", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Method Chaining"
+description: |
+  This example demonstrates method chaining in an operand position. Source Code REPORT demo_method_chaining. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. METHODS meth  IMPORTING str        TYPE string RETURNING value(ref) TYPE REF TO demo. DATA text TYPE string. ENDCLA
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_chaining_abexa.htm"
+abapFile: "abenmethod_chaining_abexa.htm"
+keywords: ["select", "do", "try", "method", "class", "data", "abenmethod", "chaining", "abexa"]
+---
 
 * * *
 

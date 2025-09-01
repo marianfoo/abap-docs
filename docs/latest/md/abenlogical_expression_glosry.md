@@ -1,4 +1,14 @@
-  
+---
+title: "logical_expression_glosry"
+description: |
+  logical_expression_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_expression_glosry.htm"
+abapFile: "abenlogical_expression_glosry.htm"
+keywords: ["do", "if", "try", "abenlogical", "expression", "glosry"]
+---
 
 * * *
 

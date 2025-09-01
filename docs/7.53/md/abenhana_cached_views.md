@@ -1,4 +1,14 @@
-  
+---
+title: "Cached Views in SAP HANA"
+description: |
+  The SAP HANA database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm 'Glossary Entry') supports the concept of cached views. Subject to certain prerequisites, the results of reads of a view are cached in a cache to avoid repeated aggregation. For more infor
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_cached_views.htm"
+abapFile: "abenhana_cached_views.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenhana", "cached", "views"]
+---
 
 * * *
 

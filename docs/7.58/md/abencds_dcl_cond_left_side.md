@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DCL - DEFINE ROLE, Left Side Host Expressions"
+description: |
+  Instead of an element of the protected CDS entity, one of the following expressions can be used on the left side of literal conditions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_literal.htm), PFCG conditions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dcl_cond_left_side.htm"
+abapFile: "abencds_dcl_cond_left_side.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "dcl", "cond", "left", "side"]
+---
 
 * * *
 

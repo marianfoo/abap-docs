@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - with privileged mode"
+description: |
+  Syntax Forms BDEF privileged mode for managed and unmanaged RAP BOs ... with privileged mode disabling ContextName; ... BDEF privileged mode for RAP projection BOs ... with privileged mode disabling base context and ContextName; ... BDEF privileged mode for CDS interface behavior definitions
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode.htm"
+abapFile: "abenbdl_privileged_mode.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "privileged", "mode"]
+---
 
 * * *
 

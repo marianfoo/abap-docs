@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Time Stamp Functions"
+description: |
+  Syntax ... TSTMP_IS_VALID(tstmp)  TSTMP_CURRENT_UTCTIMESTAMP()  TSTMP_SECONDS_BETWEEN(tstmp1,tstmp2,on_error)  TSTMP_ADD_SECONDS(tstmp,seconds,on_error) ... Variants: 1. ... TSTMP_IS_VALID(tstmp)(#!ABAP_VARIANT_1@1@) 2. ... TSTMP_CURRENT_UTCTIMESTAMP()(#!ABAP_VARIANT_2@2
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_timestamp_functions.htm"
+abapFile: "abencds_f1_timestamp_functions.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "timestamp", "functions"]
+---
 
 * * *
 

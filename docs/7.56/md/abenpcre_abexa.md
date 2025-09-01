@@ -1,4 +1,14 @@
-  
+---
+title: "Find a PCRE Regular Expression"
+description: |
+  The example demonstrates how to search for a regular expression in PCRE syntax. Source Code REPORT demo_find_pcre. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(regex) = `b.atb`. DATA(text)  = `Cathy's cat with the hat sat
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpcre_abexa.htm"
+abapFile: "abenpcre_abexa.htm"
+keywords: ["select", "do", "while", "if", "case", "method", "class", "data", "abenpcre", "abexa"]
+---
 
 * * *
 

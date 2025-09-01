@@ -1,4 +1,14 @@
-  
+---
+title: "Redefining Methods"
+description: |
+  Each subclass contains the components of all classes that are located between this class and the root node in the inheritance tree. The visibility of a component is always the same and cannot be changed. However, it is possible to redefine the public and protected instance methods of all preceding s
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninheritance_redefinition.htm"
+abapFile: "abeninheritance_redefinition.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "redefinition"]
+---
 
 * * *
 

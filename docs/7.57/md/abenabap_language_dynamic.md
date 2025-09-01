@@ -1,4 +1,14 @@
-  
+---
+title: "Dynamic Program Development"
+description: |
+  In addition to static program development in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm 'Glossary Entry') or the ABAP Workbench(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_workbench_glosry.htm 'Glossary E
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_dynamic.htm"
+abapFile: "abenabap_language_dynamic.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenabap", "language", "dynamic"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Structure from ABAP Dictionary"
+description: |
+  This example demonstrates a structure from the ABAP Dictionary and its use. Source Code REPORT demo_dictionary_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrier TYPE scarr. carrier-carrid = 'UA'. cl_demo_input=>re
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_structure_abexa.htm"
+abapFile: "abendictionary_structure_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abendictionary", "structure", "abexa"]
+---
 
 * * *
 

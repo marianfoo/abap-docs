@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_table_comprh_lines DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_table_comprh_lines IMPLEMENTATION. METHOD main. TYPES: BEGIN OF li
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_cmprhnsns_lines_abexa.htm"
+abapFile: "abentable_cmprhnsns_lines_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "internal-table", "abentable", "cmprhnsns", "lines", "abexa"]
+---
 
 * * *
 

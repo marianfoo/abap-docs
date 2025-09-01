@@ -1,4 +1,14 @@
-  
+---
+title: "subclass_glosry"
+description: |
+  subclass_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubclass_glosry.htm"
+abapFile: "abensubclass_glosry.htm"
+keywords: ["do", "if", "try", "class", "abensubclass", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "WAIT FOR MESSAGING CHANNELS"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwait_shortref.htm) Syntax WAIT FOR MESSAGING CHANNELS PUSH CHANNELS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwait_apc.htm) ASYNCHRONOUS TASKS(https://help.sap.com/doc/abapdocu_752_i
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwait_amc.htm"
+abapFile: "abapwait_amc.htm"
+keywords: ["update", "do", "if", "try", "method", "data", "abapwait", "amc"]
+---
 
 * * *
 

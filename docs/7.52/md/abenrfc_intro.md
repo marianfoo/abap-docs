@@ -1,4 +1,14 @@
-  
+---
+title: "Introduction to RFC"
+description: |
+  Remote Function Call (RFC) is an SAP procedure for calling function modules in remote systems. Communication using the RFC interface can be subdivided into different scenarios depending on the systems involved: -   AS ABAP - AS ABAP -   AS ABAP - external system -   AS ABAP - SAP Java -   AS ABAP -
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_intro.htm"
+abapFile: "abenrfc_intro.htm"
+keywords: ["do", "if", "try", "data", "abenrfc", "intro"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP BDL - Pragmas"
+description: |
+  Syntax ... ##code... Effect Pragmas can be used to hide syntax check(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensyntax_check_glosry.htm 'Glossary Entry') warnings from the ABAP Compiler(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_compiler_glo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_pragma.htm"
+abapFile: "abenbdl_pragma.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "abenbdl", "pragma"]
+---
 
 * * *
 

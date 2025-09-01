@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - Hierarchy Attributes"
+description: |
+  A hierarchy attribute(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhierarchy_attribute_glosry.htm 'Glossary Entry') contains hierarchy-specific information about a row in a tabular result set of a database hierarchy function. The following table shows the name and meaning of the
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_hierarchy_attributes.htm"
+abapFile: "abencds_hierarchy_attributes.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "hierarchy", "attributes"]
+---
 
 * * *
 

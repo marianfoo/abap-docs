@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACES, PARTIALLY IMPLEMENTED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_shortref.htm) Syntax INTERFACES(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_class.htm) intf PARTIALLY IMPLEMENTED ... Effect The addition PARTIALLY IMPLEMENTED for statement I
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_partially.htm"
+abapFile: "abapinterfaces_partially.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapinterfaces", "partially"]
+---
 
 * * *
 

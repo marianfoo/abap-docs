@@ -1,4 +1,14 @@
-  
+---
+title: "catchable_runtime_error_glosry"
+description: |
+  catchable_runtime_error_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatchable_runtime_error_glosry.htm"
+abapFile: "abencatchable_runtime_error_glosry.htm"
+keywords: ["do", "if", "try", "catch", "class", "abencatchable", "runtime", "error", "glosry"]
+---
 
 * * *
 

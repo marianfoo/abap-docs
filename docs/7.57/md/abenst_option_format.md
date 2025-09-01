@@ -1,4 +1,14 @@
-  
+---
+title: "ST - option, Mapping Rules for Elementary Types"
+description: |
+  Syntax ... option='format(fmt),decimals(dec),regime(numcharbin),noError' Additions: 1. ... format(fmt) ...(#!ABAP_ADDITION_1@1@) 2. ... decimals(dec) ...(#!ABAP_ADDITION_2@2@) 3. ... regime(numcharbin) ...(#!ABAP_ADDITION_3@3@) 4. ... noError ..
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_option_format.htm"
+abapFile: "abenst_option_format.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "types", "abenst", "option", "format"]
+---
 
 * * *
 

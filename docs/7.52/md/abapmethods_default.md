@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - DEFAULT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_shortref.htm) Syntax METHODS meth ... DEFAULT IGNOREFAIL ... Effect The addition DEFAULT makes the explicit implementation of an interface method optional and defines a default behavior for calls of non-imple
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_default.htm"
+abapFile: "abapmethods_default.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abapmethods", "default"]
+---
 
 * * *
 

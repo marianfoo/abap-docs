@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_value_select. DATA: ok_code TYPE sy-ucomm, carrier TYPE spfli-carrid, connect TYPE spfli-connid. CALL SCREEN 100. MODULE init_screen_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMODULE. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. MODULE module_1 INPUT. MESSAGE i888(saba
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_check_flow_abexa.htm"
+abapFile: "abendynpro_check_flow_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "check", "flow", "abexa"]
+---
 
 * * *
 

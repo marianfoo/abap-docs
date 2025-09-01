@@ -1,4 +1,14 @@
-  
+---
+title: "APPEND, result"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapappend_shortref.htm) Syntax ...  ASSIGNING <fs> CASTING   REFERENCE INTO dref . Effect These additions can only be used when appending single lines. If the append was successful, the addition
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapappend_result.htm"
+abapFile: "abapappend_result.htm"
+keywords: ["loop", "do", "if", "try", "data", "internal-table", "field-symbol", "abapappend", "result"]
+---
 
 * * *
 

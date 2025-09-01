@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm) Syntax OPEN DATASET dset FOR  INPUT  OUTPUT  APPENDING  UPDATE  IN   BINARY MODE    TEXT MODE ENCODING  DEFAULT  UTF-8 SKIPPINGWITH BYTE-ORDER MARK  NO
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_shortref.htm"
+abapFile: "abapopen_dataset_shortref.htm"
+keywords: ["select", "update", "do", "if", "try", "data", "abapopen", "dataset", "shortref"]
+---
 
 * * *
 

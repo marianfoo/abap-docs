@@ -1,4 +1,14 @@
-  
+---
+title: "CLOSE DATASET - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclose_dataset.htm) Syntax CLOSE DATASET dset. Effect Closes a file on the current AS Instance(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm 'Glossary Entry') host computer(ht
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclose_dataset_shortref.htm"
+abapFile: "abapclose_dataset_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapclose", "dataset", "shortref"]
+---
 
 * * *
 

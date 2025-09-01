@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Environment"
+description: |
+  A special ABAP Platform(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_platform_glosry.htm 'Glossary Entry') variant. It is a part of SAP Cloud Platform and is adapted to its requirements. SAP GUI(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_gui_glosry.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_environment_glosry.htm"
+abapFile: "abenabap_environment_glosry.htm"
+keywords: ["do", "try", "abenabap", "environment", "glosry"]
+---
 
 * * *
 

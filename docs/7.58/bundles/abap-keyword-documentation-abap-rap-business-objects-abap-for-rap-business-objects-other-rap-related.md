@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abaprap_system_classes.htm
 
-  
+---
+title: "RAP-Related System Classes and Functionality"
+description: |
+  The following topics are covered in this section: -   CL_ABAP_BEHV_AUX(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm) -   CL_ABAP_BEHVDESCR(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm) CL_ABAP_BEHV_AUX(h
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm"
+abapFile: "abaprap_system_classes.htm"
+keywords: ["do", "if", "class", "abaprap", "system", "classes"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abaprap_cl_abap_behv_aux.htm
 
-  
+---
+title: "Method"
+description: |
+  Details GET_CURRENT_PHASE Information about the current RAP transactional phase(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactional_phase_glosry.htm 'Glossary Entry'), for example, RAP early save phase(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenearl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm"
+abapFile: "abaprap_cl_abap_behv_aux.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abaprap", "abap", "behv", "aux"]
+---
 
 * * *
 
@@ -95,7 +115,17 @@ Continue
 
 ### abenrap_cl_abap_behv_aux_abexa.htm
 
-  
+---
+title: "Used artifacts in the example"
+description: |
+  What CDS view BDEF Behavior Pool (ABP) Notes Base RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry') DEMO_EXT_M DEMO_EXT_M CCIMP include The CDS data model only consists of one node constituting the root entity. The BDEF defin
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm"
+abapFile: "abenrap_cl_abap_behv_aux_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenrap", "abap", "behv", "aux", "abexa"]
+---
 
 * * *
 
@@ -334,7 +364,17 @@ The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm
 
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
 
-  
+---
+title: "Checking RAP Transactional Phases"
+description: |
+  This example demonstrates the use of the methods GET_CURRENT_PHASE and GET_CURRENT_HANDLER_KIND of the class CL_ABAP_BEHV_AUX. Data model The CDS data model consists of the root entity DEMO_UMANAGED_ROOT_LATE_NUM2. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define roo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm"
+abapFile: "abenrap_cl_abap_behv_aux_ph_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abenrap", "abap", "behv", "aux", "abexa"]
+---
 
 * * *
 
@@ -537,7 +577,17 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 
 ### abaprap_cl_abap_behv_aux.htm
 
-  
+---
+title: "Method"
+description: |
+  Details GET_CURRENT_PHASE Information about the current RAP transactional phase(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactional_phase_glosry.htm 'Glossary Entry'), for example, RAP early save phase(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenearl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm"
+abapFile: "abaprap_cl_abap_behv_aux.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abaprap", "abap", "behv", "aux"]
+---
 
 * * *
 
@@ -602,7 +652,17 @@ Continue
 
 ### abapcl_abap_behvdescr.htm
 
-  
+---
+title: "Further Information"
+description: |
+  For more information, see the class documentation and the Runtime Type Services (RTTS)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm) topic. Executable Example Getting Type Information Using CL_ABAP_BEHVDESCR(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm"
+abapFile: "abapcl_abap_behvdescr.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abapcl", "abap", "behvdescr"]
+---
 
 * * *
 
@@ -640,7 +700,17 @@ Continue
 
 ### abenrap_type_info_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_rap_behvdescr DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. METHODS initialize_dbtabs. ENDCLASS.  Public class implementation CLASS cl_demo_rap_beh
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm"
+abapFile: "abenrap_type_info_abexa.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenrap", "type", "info", "abexa"]
+---
 
 * * *
 
@@ -875,7 +945,17 @@ The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for exa
 
 ### abapcl_abap_behvdescr.htm
 
-  
+---
+title: "Further Information"
+description: |
+  For more information, see the class documentation and the Runtime Type Services (RTTS)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm) topic. Executable Example Getting Type Information Using CL_ABAP_BEHVDESCR(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm"
+abapFile: "abapcl_abap_behvdescr.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abapcl", "abap", "behvdescr"]
+---
 
 * * *
 

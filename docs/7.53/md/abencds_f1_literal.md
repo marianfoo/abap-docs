@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - literal"
+description: |
+  Syntax ... #:domain.'character_literal'numeric_literal ... Addition: ... #:domain.(#!ABAP_ONE_ADD@1@) Effect Literal in a SELECT statement(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) of a CDS view(https://help.sap.com/doc/abapd
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_literal.htm"
+abapFile: "abencds_f1_literal.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "literal"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_ipow. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA n TYPE i. DATA arg1 TYPE p DECIMALS 1. DATA arg2 TYPE int8. n = 2. arg1 = `1.2`. DATA(out) = cl_demo_output=>new( )->write(   :  arg1  n  )->write( ip
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenipow_function_abexa.htm"
+abapFile: "abenipow_function_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenipow", "function", "abexa"]
+---
 
 * * *
 

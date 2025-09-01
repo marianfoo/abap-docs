@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS, FOR, RAP Handler Methods"
+description: |
+  Syntax Handler method definitions: METHODS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods.htm) meth FINAL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_abstract_final.htm) FOR  DETERMINE ON  SAVE  MODIFY (https://help.sap.com
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_rap_behv.htm"
+abapFile: "abapmethods_for_rap_behv.htm"
+keywords: ["update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "abapmethods", "for", "rap", "behv"]
+---
 
 * * *
 

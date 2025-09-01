@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm) Syntax EXPORT  p1 = dobj1 p2 = dobj2 ...  p1 FROM dobj1 p2 FROM dobj2 ...  (ptab)  TO   DATA BUFFER xstr    INTERNAL TABLE itab    MEMORY ID id
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_shortref.htm"
+abapFile: "abapexport_shortref.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapexport", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP source code"
+description: |
+  Source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_glosry.htm 'Glossary Entry') for ABAP programs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_program_glosry.htm 'Glossary Entry') consisting of ABAP statements(https://help.sa
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_source_code_glosry.htm"
+abapFile: "abenabap_source_code_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "source", "code", "glosry"]
+---
 
 * * *
 

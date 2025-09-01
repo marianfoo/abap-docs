@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Field Characteristics, Interface BDEF"
+description: |
+  ... field(readonly) Field1, Field2, ...;  field(mandatory:create) Field1, Field2, ...;  field(readonly:update) Field1, Field2, ...;  field(suppress) Field1, Field2, ...; Effect An interface BDEF automatically and implicitly inherits all RAP field characteristics(https://help.sap.com/doc/a
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_interface.htm"
+abapFile: "abenbdl_field_interface.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "class", "data", "types", "abenbdl", "field", "interface"]
+---
 
 * * *
 

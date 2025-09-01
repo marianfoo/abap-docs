@@ -1,4 +1,14 @@
-  
+---
+title: "spool_list_level_glosry"
+description: |
+  spool_list_level_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspool_list_level_glosry.htm"
+abapFile: "abenspool_list_level_glosry.htm"
+keywords: ["do", "if", "try", "abenspool", "list", "level", "glosry"]
+---
 
 * * *
 

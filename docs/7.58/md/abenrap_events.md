@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP for RAP Business Events"
+description: |
+  The following topics are covered in this section: -   CLASS, FOR EVENTS OF, RAP Event Handler Class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_for_events.htm) -   CL_ABAP_BEHAVIOR_EVENT_HANDLER(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_b
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_events.htm"
+abapFile: "abenrap_events.htm"
+keywords: ["do", "if", "method", "class", "abenrap", "events"]
+---
 
 * * *
 

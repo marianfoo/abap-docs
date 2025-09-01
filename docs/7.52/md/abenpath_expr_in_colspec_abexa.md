@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_cds_association_path. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrid TYPE scarr-carrid VALUE 'AA'. cl_demo_input=>request( CHANGING field = carrid ). 'Path expressions in Open SQL SELECT scarr~carrname, _sp
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpath_expr_in_colspec_abexa.htm"
+abapFile: "abenpath_expr_in_colspec_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenpath", "expr", "colspec", "abexa"]
+---
 
 * * *
 

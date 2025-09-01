@@ -1,4 +1,14 @@
-  
+---
+title: "unmanaged_trans_buff_glosry"
+description: |
+  unmanaged_trans_buff_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_trans_buff_glosry.htm"
+abapFile: "abenunmanaged_trans_buff_glosry.htm"
+keywords: ["do", "if", "try", "abenunmanaged", "trans", "buff", "glosry"]
+---
 
 * * *
 

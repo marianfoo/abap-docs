@@ -1,4 +1,14 @@
-  
+---
+title: "untyped_literal_glosry"
+description: |
+  untyped_literal_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuntyped_literal_glosry.htm"
+abapFile: "abenuntyped_literal_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenuntyped", "literal", "glosry"]
+---
 
 * * *
 

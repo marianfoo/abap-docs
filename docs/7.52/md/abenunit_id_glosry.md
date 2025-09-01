@@ -1,4 +1,14 @@
-  
+---
+title: "Unit Code"
+description: |
+  Content of a unit key(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunit_glosry.htm 'Glossary Entry'). Valid unit codes are defined in the database table T006.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunit_id_glosry.htm"
+abapFile: "abenunit_id_glosry.htm"
+keywords: ["do", "try", "data", "abenunit", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP entity behavior extension"
+description: |
+  Short behavior extension. Component of a BDEF extension(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_extension_glosry.htm 'Glossary Entry') that extends the behavior of an existing RAP BO entity. An entity behavior extension is defined using extend behavior for EntityName(h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_behavior_extension_glosry.htm"
+abapFile: "abenrap_behavior_extension_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "behavior", "extension", "glosry"]
+---
 
 * * *
 

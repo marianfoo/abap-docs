@@ -1,4 +1,14 @@
-  
+---
+title: "aggregate_glosry"
+description: |
+  aggregate_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaggregate_glosry.htm"
+abapFile: "abenaggregate_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abenaggregate", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "unicode_fragment_view_glosry"
+description: |
+  unicode_fragment_view_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunicode_fragment_view_glosry.htm"
+abapFile: "abenunicode_fragment_view_glosry.htm"
+keywords: ["do", "try", "data", "internal-table", "abenunicode", "fragment", "view", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Class Component Selector"
+description: |
+  A static component(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_component_glosry.htm 'Glossary Entry') comp of a class is accessed using the following name: class=>comp In this case, no instance of the class has to be created. The symbol => is the class component sel
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_component_selector.htm"
+abapFile: "abenclass_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenclass", "component", "selector"]
+---
 
 * * *
 

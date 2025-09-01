@@ -1,4 +1,14 @@
-  
+---
+title: "Isolation Levels"
+description: |
+  The term 'isolation' refers to the separation of different transactions performed on the same data in a database. Different isolation levels control how a database user can perform reads on the data of another user that was modified in a database LUW(https://help.sap.com/doc/abapdocu_757_index_htm
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_isolation.htm"
+abapFile: "abendb_isolation.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abendb", "isolation"]
+---
 
 * * *
 

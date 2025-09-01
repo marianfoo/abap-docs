@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Formatting Options"
+description: |
+  This example demonstrates how ABAP types are mapped using formatting options. Source Code  Public class definition CLASS cl_demo_st_format_option DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS call_transformation CHANGING
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_format_option_abexa.htm"
+abapFile: "abenst_format_option_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenst", "format", "option", "abexa"]
+---
 
 * * *
 

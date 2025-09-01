@@ -1,4 +1,14 @@
-  
+---
+title: "Exception Categories"
+description: |
+  Exception classes are subclasses of the following global classes: The common superclass for these classes is CX_ROOT. The assignment to one of these three superclasses determines the exception category, which itself specifies whether an exception must be declared explicitly in the procedure interfa
+version: "7.53"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_categories.htm"
+abapFile: "abenexception_categories.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "exception-handling", "abenexception", "categories"]
+---
 
 * * *
 

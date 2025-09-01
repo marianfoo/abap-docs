@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Type Pools"
+description: |
+  A type pool(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm 'Glossary Entry') is an ABAP program managed by the ABAP Dictionary that starts with the statement TYPE-POOL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype-pool.htm) and that cont
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_type_groups.htm"
+abapFile: "abenddic_type_groups.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "type", "groups"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "method_glosry"
+description: |
+  method_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_glosry.htm"
+abapFile: "abenmethod_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abenmethod", "glosry"]
+---
 
 * * *
 

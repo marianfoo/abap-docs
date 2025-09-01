@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT GROUP - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_group.htm) Syntax LOOP AT GROUP group   INTO wa    ASSIGNING <fs> CASTING    REFERENCE INTO dref    TRANSPORTING NO FIELDS   WHERE log_exp GROUP BY ....
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_group_shortref.htm"
+abapFile: "abaploop_at_group_shortref.htm"
+keywords: ["loop", "do", "if", "internal-table", "abaploop", "group", "shortref"]
+---
 
 * * *
 

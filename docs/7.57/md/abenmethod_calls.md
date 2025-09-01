@@ -1,4 +1,14 @@
-  
+---
+title: "Method Calls"
+description: |
+  There are two types of method call, static method calls and dynamic method calls. In static method calls, the name of the method must be completely known in the program. In dynamic method calls, the name of the method is determined partially or completely at runtime. When an instance method is calle
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_calls.htm"
+abapFile: "abenmethod_calls.htm"
+keywords: ["do", "if", "method", "class", "types", "abenmethod", "calls"]
+---
 
 * * *
 

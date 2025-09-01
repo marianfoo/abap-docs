@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Table Buffering of CDS Views"
+description: |
+  For a CDS view in ABAP CDS, the following CDS annotations(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_glosry.htm 'Glossary Entry') can be used to specify how table buffering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_sap_puffer.htm"
+abapFile: "abencds_sap_puffer.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abencds", "sap", "puffer"]
+---
 
 * * *
 

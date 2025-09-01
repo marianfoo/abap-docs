@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_virtual_sort_combined. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, itab1 TYPE STANDARD TABLE OF line1 WITH EMPTY KEY, BEGIN OF line2, col1 TYPE string, col2
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvirtual_sort_combined_abexa.htm"
+abapFile: "abenvirtual_sort_combined_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "combined", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 15
 
 ### abenc1_contract_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for API Providers(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules.htm) C1 Contract Rules for API Consumers(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_contract_rules.htm"
+abapFile: "abenc1_contract_rules.htm"
+keywords: ["do", "if", "try", "abenc1", "contract", "rules"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abenc1_provider_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for Providing Elementary Data Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_elem.htm) C1 Contract Rules for Providing Dictionary Objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_ddic.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules.htm"
+abapFile: "abenc1_provider_rules.htm"
+keywords: ["delete", "do", "if", "class", "data", "types", "abenc1", "provider", "rules"]
+---
 
 * * *
 
@@ -67,7 +87,17 @@ Continue
 
 ### abenc1_provider_rules_elem.htm
 
-  
+---
+title: "c1_provider_rules_elem"
+description: |
+  c1_provider_rules_elem - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_elem.htm"
+abapFile: "abenc1_provider_rules_elem.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenc1", "provider", "rules", "elem"]
+---
 
 * * *
 
@@ -116,7 +146,17 @@ A provider of an elementary type must obey the following rules:
 
 ### abenc1_provider_rules_ddic.htm
 
-  
+---
+title: "c1_provider_rules_ddic"
+description: |
+  c1_provider_rules_ddic - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_ddic.htm"
+abapFile: "abenc1_provider_rules_ddic.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenc1", "provider", "rules", "ddic"]
+---
 
 * * *
 
@@ -161,7 +201,17 @@ A provider of DDIC objects must obey the following rules:
 
 ### abenc1_provider_rules_cds_type.htm
 
-  
+---
+title: "c1_provider_rules_cds_type"
+description: |
+  c1_provider_rules_cds_type - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_cds_type.htm"
+abapFile: "abenc1_provider_rules_cds_type.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "types", "abenc1", "provider", "rules", "cds", "type"]
+---
 
 * * *
 
@@ -206,7 +256,17 @@ The following changes are allowed for user-defined types that are released with 
 
 ### abenc1_provider_rules_cds_func.htm
 
-  
+---
+title: "Before release"
+description: |
+  -   If a parameter of a scalar function definition is typed using a DDIC data element(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm 'Glossary Entry') or a CDS simple type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_cds_func.htm"
+abapFile: "abenc1_provider_rules_cds_func.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenc1", "provider", "rules", "cds", "func"]
+---
 
 * * *
 
@@ -251,7 +311,17 @@ A provider of a [CDS scalar function](https://help.sap.com/doc/abapdocu_latest_i
 
 ### abenc1_provider_rules_cds.htm
 
-  
+---
+title: "c1_provider_rules_cds"
+description: |
+  c1_provider_rules_cds - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_cds.htm"
+abapFile: "abenc1_provider_rules_cds.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenc1", "provider", "rules", "cds"]
+---
 
 * * *
 
@@ -282,7 +352,17 @@ A provider of ABAP CDS objects must obey the following rules:
 
 ### abenc1_provider_rules_rap.htm
 
-  
+---
+title: "c1_provider_rules_rap"
+description: |
+  c1_provider_rules_rap - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_rap.htm"
+abapFile: "abenc1_provider_rules_rap.htm"
+keywords: ["do", "if", "try", "data", "abenc1", "provider", "rules", "rap"]
+---
 
 * * *
 
@@ -304,7 +384,17 @@ A provider of [RAP behavior definitions](https://help.sap.com/doc/abapdocu_lates
 
 ### abenc1_provider_rules_abap.htm
 
-  
+---
+title: "c1_provider_rules_abap"
+description: |
+  c1_provider_rules_abap - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_abap.htm"
+abapFile: "abenc1_provider_rules_abap.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenc1", "provider", "rules", "abap"]
+---
 
 * * *
 
@@ -355,7 +445,17 @@ Others than the following objects cannot be classified with the C1 contract.
 
 ### abenc1_provider_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for Providing Elementary Data Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_elem.htm) C1 Contract Rules for Providing Dictionary Objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_ddic.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules.htm"
+abapFile: "abenc1_provider_rules.htm"
+keywords: ["delete", "do", "if", "class", "data", "types", "abenc1", "provider", "rules"]
+---
 
 * * *
 
@@ -391,7 +491,17 @@ Continue
 
 ### abenc1_consumer_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for Consuming Elementary Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules_elem.htm) C1 Contract Rules for Consuming Structures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules_struct.htm) Example:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules.htm"
+abapFile: "abenc1_consumer_rules.htm"
+keywords: ["do", "if", "types", "abenc1", "consumer", "rules"]
+---
 
 * * *
 
@@ -424,7 +534,17 @@ Continue
 
 ### abenc1_consumer_rules_elem.htm
 
-  
+---
+title: "The data type of"
+description: |
+  -   DDIC domains or DDIC data elements -   components of DDIC structures and DDIC database tables or elements of CDS entities -   public types of global ABAP classes or interfaces are allowed to be changed by the API provider(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_p
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules_elem.htm"
+abapFile: "abenc1_consumer_rules_elem.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abenc1", "consumer", "rules", "elem"]
+---
 
 * * *
 
@@ -451,8 +571,7 @@ are [allowed to be changed by the API provider](https://help.sap.com/doc/abapdoc
 
 All these changes result in a larger value range compared with the original data type. A consumer must be able to handle larger values. This impacts all operations with elementary data objects that are typed with such a type as well as operations with structured data that contain components of such a type.
 
--   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_1)
--   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
+-   [Operations with Elementary Data Objects](#abenc1-consumer-rules-elem-1-------operations-with-structures---@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
 
 Operations with Elementary Data Objects   
 
@@ -482,7 +601,17 @@ Changing the data type of a component of a structure changes the [technical type
 
 ### abenc1_consumer_rules_struct.htm
 
-  
+---
+title: "Mitigation"
+description: |
+  No casting assignment of released structures to field symbols. RFC Passing released structures to remote RFMs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfm_glosry.htm 'Glossary Entry'). Possible Problems Deep components are not supported in RFC. Mitigation No passing of r
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules_struct.htm"
+abapFile: "abenc1_consumer_rules_struct.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "field-symbol", "abenc1", "consumer", "rules", "struct"]
+---
 
 * * *
 
@@ -497,71 +626,9 @@ C1 Contract Rules for Consuming Structures
 
 API providers can add or change non-key elements in global types as structured [DDIC types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_ddic.htm) or [CDS entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_provider_rules_cds.htm). These types can be released APIs themselves or can be used for typing attributes or method parameters of released classes or interfaces. Also the position of non-key elements can be changed. This impacts all operations with APIs that rely on a certain number of components of a structure and on their position. Main examples are:
 
--   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_1)
--   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_2)
--   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_3)
--   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_4)
--   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_5)
-
-Includes   
-
-Including a released structure into another structure.
-
-Possible Problems
-
-Error, when a component is added that already exists.
-
-Mitigation
-
-Include a released structure only by renaming its components with [suffixes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_include_structure.htm).
-
-Assignments and Comparisons   
-
-Assignments and comparisons between data objects that are typed with the released structured type and data objects that are typed otherwise can occur for:
-
--   [Logical Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm)
--   [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm)
--   [Working with internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm)
--   [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm)
--   [Working with data clusters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm)
-
-Possible Problems
-
-Depending on the change all kinds of errors might occur. The following allowed changes in particular can affect the rules for processing structures fundamentally:
-
--   Adding numeric components to a formerly character-like structure.
--   Adding [deep](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeep_glosry.htm "Glossary Entry") components to a formerly [flat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenflat_glosry.htm "Glossary Entry") structure.
--   Shifting the positions of numeric or deep components to formerly character-like sections.
-
-Mitigation
-
-No assignments or comparisons between released structures and data objects that are typed otherwise. No usage of otherwise defined structures in ABAP SQL. The various CORRESPONDING mechanisms can be used to mitigate the problem, but they are not failsafe in all situations.
-
-Unstructured Access   
-
-Processing the content of a released structure without addressing single components as for example:
-
--   [Offset/Length Specifications](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
--   [String processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) (on complete structure)
-
-Possible Problems
-
-Depending on the change (see above) all kinds of errors might occur.
-
-Mitigation
-
-No processing of released structures without accessing single components.
-
-Field Symbols   
-
-Addressing released structures with [field symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbol_glosry.htm "Glossary Entry") by using:
-
--   [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm)
--   ASSIGNING addition when [working with internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm)
-
-Possible Problems
-
-When the addition [CASTING](abapassign_casting.htm#!ABAP_ALTERNATIVE_2@2@) is used, deep components must appear with exactly the same type and position in the assigned structure.
+-   [Includes](#abenc1-consumer-rules-struct-1-------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_2)
+-   [Unstructured Access](#abenc1-consumer-rules-struct-3-------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_STRUCT_4)
+-   [RFC](#abenc1-consumer-rules-struct-5---includes-----including-a-released-structure-into-another-structure---possible-problems--error--when-a-component-is-added-that-already-exists---mitigation--include-a-released-structure-only-by-renaming-its-components-with--suffixes--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenddic-include-structure-htm----assignments-and-comparisons-----assignments-and-comparisons-between-data-objects-that-are-typed-with-the-released-structured-type-and-data-objects-that-are-typed-otherwise-can-occur-for--------logical-expressions--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenlogexp-htm-------assignments--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenvalue-assignments-htm-------working-with-internal-tables--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenitab-htm-------abap-sql--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenabap-sql-htm-------working-with-data-clusters--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abendata-cluster-htm---possible-problems--depending-on-the-change-all-kinds-of-errors-might-occur--the-following-allowed-changes-in-particular-can-affect-the-rules-for-processing-structures-fundamentally-------adding-numeric-components-to-a-formerly-character-like-structure------adding--deep--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abendeep-glosry-htm--glossary-entry---components-to-a-formerly--flat--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenflat-glosry-htm--glossary-entry---structure------shifting-the-positions-of-numeric-or-deep-components-to-formerly-character-like-sections---mitigation--no-assignments-or-comparisons-between-released-structures-and-data-objects-that-are-typed-otherwise--no-usage-of-otherwise-defined-structures-in-abap-sql--the-various-corresponding-mechanisms-can-be-used-to-mitigate-the-problem--but-they-are-not-failsafe-in-all-situations---unstructured-access-----processing-the-content-of-a-released-structure-without-addressing-single-components-as-for-example--------offset-length-specifications--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenoffset-length-htm-------string-processing--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenabap-data-string-htm---on-complete-structure---possible-problems--depending-on-the-change--see-above--all-kinds-of-errors-might-occur---mitigation--no-processing-of-released-structures-without-accessing-single-components---field-symbols-----addressing-released-structures-with--field-symbols--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenfield-symbol-glosry-htm--glossary-entry---by-using--------assign--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abapassign-htm------assigning-addition-when--working-with-internal-tables--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenitab-htm---possible-problems--when-the-addition--casting--abapassign-casting-htm--abap-alternative-22@) is used, deep components must appear with exactly the same type and position in the assigned structure.
 
 Mitigation
 
@@ -582,7 +649,17 @@ No passing of released structures to remote RFMs.
 
 ### abenc1_demo_1.htm
 
-  
+---
+title: "SELECT carrname"
+description: |
+  FROM scarr WHERE carrid = @char INTO TABLE @FINAL(result). DATA: struc1 TYPE ddic_struc, BEGIN OF struc2, text TYPE c LENGTH 3, int  TYPE i, END OF struc2. 'Syntax errors when DDIC_DE_I is changed to int8 'or when the length of DDIC_DE_C is increased 'or when a component is added to DDIC_STRUC
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_demo_1.htm"
+abapFile: "abenc1_demo_1.htm"
+keywords: ["select", "insert", "do", "if", "data", "types", "abenc1", "demo"]
+---
 
 * * *
 
@@ -654,7 +731,17 @@ SELECT single \*
 
 ### abenc1_consumer_rules.htm
 
-  
+---
+title: "Continue"
+description: |
+  C1 Contract Rules for Consuming Elementary Types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules_elem.htm) C1 Contract Rules for Consuming Structures(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules_struct.htm) Example:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_consumer_rules.htm"
+abapFile: "abenc1_consumer_rules.htm"
+keywords: ["do", "if", "types", "abenc1", "consumer", "rules"]
+---
 
 * * *
 

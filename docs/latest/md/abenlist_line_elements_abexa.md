@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Line Elements"
+description: |
+  This example demonstrates line elements on lists. Source Code REPORT demo_list_line_elements NO STANDARD PAGE HEADING LINE-SIZE 60. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: x TYPE i, y TYPE i. CLASS-METHODS pos. ENDCLASS. CLASS demo IMPLEMENTATION. M
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_line_elements_abexa.htm"
+abapFile: "abenlist_line_elements_abexa.htm"
+keywords: ["select", "do", "while", "if", "method", "class", "data", "abenlist", "line", "elements", "abexa"]
+---
 
 * * *
 

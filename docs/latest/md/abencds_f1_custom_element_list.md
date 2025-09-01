@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  element1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_custom_element.htm); element2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_custom_element.htm); ...;  ... Effect Defines the elements of a CDS custom entity(https://help.sap
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_custom_element_list.htm"
+abapFile: "abencds_f1_custom_element_list.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "custom", "element", "list"]
+---
 
 * * *
 

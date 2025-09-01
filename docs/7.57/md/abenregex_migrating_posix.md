@@ -1,4 +1,14 @@
-  
+---
+title: "Symptom"
+description: |
+  Possible Solutions The PCRE library rejects the pattern (e.g. by giving a compiler error or raising an exception) Make sure to not use any features that are supported by POSIX but not by PCRE. Also pay close attention to the error message, which often contains useful information. The pattern does no
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_migrating_posix.htm"
+abapFile: "abenregex_migrating_posix.htm"
+keywords: ["do", "if", "try", "data", "abenregex", "migrating", "posix"]
+---
 
 * * *
 

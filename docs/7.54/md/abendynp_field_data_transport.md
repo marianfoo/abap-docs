@@ -1,4 +1,14 @@
-  
+---
+title: "FIELD - Data Transport in Event PAI"
+description: |
+  If the statement FIELD(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield.htm) is used in the event block at point of time PAI(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpai_glosry.htm 'Glossary Entry'), the statement controls the data transport for the spec
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_data_transport.htm"
+abapFile: "abendynp_field_data_transport.htm"
+keywords: ["insert", "loop", "do", "if", "try", "data", "abendynp", "field", "transport"]
+---
 
 * * *
 

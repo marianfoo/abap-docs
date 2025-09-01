@@ -1,4 +1,14 @@
-  
+---
+title: "RAP active instance"
+description: |
+  RAP BO entity instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_inst_glosry.htm 'Glossary Entry') in a draft-enabled RAP business object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendraft_rap_bo_glosry.htm 'Glossary Entry') for whic
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_active_instance_glosry.htm"
+abapFile: "abenrap_active_instance_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "active", "instance", "glosry"]
+---
 
 * * *
 

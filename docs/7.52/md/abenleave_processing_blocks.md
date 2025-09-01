@@ -1,4 +1,14 @@
-  
+---
+title: "Exiting Processing Blocks"
+description: |
+  Processing blocks(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocessing_block_glosry.htm 'Glossary Entry') can be exited implicitly using the following: -   Regular exits(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenend_processing_blocks.htm) The following s
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_processing_blocks.htm"
+abapFile: "abenleave_processing_blocks.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abenleave", "processing", "blocks"]
+---
 
 * * *
 

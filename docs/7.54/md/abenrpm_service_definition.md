@@ -1,4 +1,14 @@
-  
+---
+title: "Business Service Definition"
+description: |
+  Syntax @EndUserText.label: 'label_text' Annotation Annotation ... DEFINE SERVICE service_name  EXPOSE  CDS_entity_name      AS CDS_entity_alias; EXPOSE CDS_entity_name      AS CDS_entity_alias; ... EXPOSE  projection_view_name AS proje
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_service_definition.htm"
+abapFile: "abenrpm_service_definition.htm"
+keywords: ["do", "if", "try", "data", "abenrpm", "service", "definition"]
+---
 
 * * *
 

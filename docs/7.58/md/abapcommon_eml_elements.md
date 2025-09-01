@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - Common EML Statements and Operands"
+description: |
+  -   ABAP EML - responses(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm) -   ABAP EML - RESULT result_tab(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_result.htm) -   ABAP EML - fields_tab(https://help.sap.com/doc/abapdocu_758_index_htm/
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommon_eml_elements.htm"
+abapFile: "abapcommon_eml_elements.htm"
+keywords: ["do", "if", "abapcommon", "eml", "elements"]
+---
 
 * * *
 

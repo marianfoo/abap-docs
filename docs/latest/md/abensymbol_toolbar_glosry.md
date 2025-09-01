@@ -1,4 +1,14 @@
-  
+---
+title: "symbol_toolbar_glosry"
+description: |
+  symbol_toolbar_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensymbol_toolbar_glosry.htm"
+abapFile: "abensymbol_toolbar_glosry.htm"
+keywords: ["do", "if", "try", "abensymbol", "toolbar", "glosry"]
+---
 
 * * *
 

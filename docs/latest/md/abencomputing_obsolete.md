@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Calculation Statements"
+description: |
+  -   COMPUTE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute.htm) -   ADD(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd.htm) -   SUBTRACT, MULTIPLY, DIVIDE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubtract_multiply
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomputing_obsolete.htm"
+abapFile: "abencomputing_obsolete.htm"
+keywords: ["do", "if", "data", "abencomputing", "obsolete"]
+---
 
 * * *
 

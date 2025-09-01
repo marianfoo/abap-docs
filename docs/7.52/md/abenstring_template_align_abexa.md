@@ -1,4 +1,14 @@
-  
+---
+title: "Character String Templates, Alignments, and Padding"
+description: |
+  This example demonstrates how to specify an alignment and how to pad embedded expressions. Source Code REPORT demo_string_template_align_pad. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA pad TYPE c LENGTH 1. cl_demo_input=>re
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_align_abexa.htm"
+abapFile: "abenstring_template_align_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenstring", "template", "align", "abexa"]
+---
 
 * * *
 

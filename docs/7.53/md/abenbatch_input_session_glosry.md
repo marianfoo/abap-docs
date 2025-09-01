@@ -1,4 +1,14 @@
-  
+---
+title: "batch_input_session_glosry"
+description: |
+  batch_input_session_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_session_glosry.htm"
+abapFile: "abenbatch_input_session_glosry.htm"
+keywords: ["do", "try", "data", "abenbatch", "input", "session", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, WHERE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_shortref.htm) Syntax ... WHERE sql_cond(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasql_cond.htm) ... Effect The addition WHERE restricts the number of rows that are included in the result
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhere.htm"
+abapFile: "abapwhere.htm"
+keywords: ["select", "do", "if", "try", "data", "abapwhere"]
+---
 
 * * *
 

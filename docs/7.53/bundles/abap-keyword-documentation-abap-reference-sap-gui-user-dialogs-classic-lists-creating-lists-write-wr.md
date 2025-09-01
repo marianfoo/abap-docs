@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapwrite_list_elements.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... AS CHECKBOX  AS ICON  AS SYMBOL  AS LINE ... Alternatives: 1. ... AS CHECKBOX(#!ABAP_ALTERNATIVE_1@1@) 2. ... AS ICON(#!ABAP_ALTERNATIVE_2@2@) 3. ... AS SYMBOL(#!ABAP_ALTERNATIVE_3@3@) 4. ... AS LINE(#!ABAP_ALTERNATIVE_4@4@) Effect These additions are
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm"
+abapFile: "abapwrite_list_elements.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abapwrite", "list", "elements"]
+---
 
 * * *
 
@@ -219,7 +229,17 @@ Continue
 
 ### abenlist_line_elements_abexa.htm
 
-  
+---
+title: "Lists, Line Elements"
+description: |
+  This example demonstrates line elements on lists. Source Code REPORT demo_list_line_elements NO STANDARD PAGE HEADING LINE-SIZE 60. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: x TYPE i, y TYPE i. CLASS-METHODS pos. ENDCLASS. CLASS demo IMPLEMENTATION. M
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_line_elements_abexa.htm"
+abapFile: "abenlist_line_elements_abexa.htm"
+keywords: ["select", "do", "while", "method", "class", "data", "abenlist", "line", "elements", "abexa"]
+---
 
 * * *
 

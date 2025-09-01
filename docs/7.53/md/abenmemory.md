@@ -1,4 +1,14 @@
-  
+---
+title: "Parameters in the User Memory"
+description: |
+  -   SPA/GPA Parameters(#abenmemory-1--------spa-gpa-parameters-and-abap-programs---@ITOC@@ABENMEMORY_2) -   Managing SPA/GPA Parameters(#abenmemory-3--------spa-gpa-parameters-and-dynpro-fields---@ITOC@@ABENMEMORY_4) SPA/GPA Parameters The user memory(https://help.sap.com/doc/abapdocu_753_inde
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmemory.htm"
+abapFile: "abenmemory.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "abenmemory"]
+---
 
 * * *
 
@@ -8,13 +18,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Parameters in the User Memory
 
--   [SPA/GPA Parameters](#@@ITOC@@ABENMEMORY_1)
+-   [SPA/GPA Parameters](#abenmemory-1--------spa-gpa-parameters-and-abap-programs---@ITOC@@ABENMEMORY_2)
 
--   [SPA/GPA Parameters and ABAP Programs](#@@ITOC@@ABENMEMORY_2)
-
--   [Managing SPA/GPA Parameters](#@@ITOC@@ABENMEMORY_3)
-
--   [SPA/GPA Parameters and Dynpro Fields](#@@ITOC@@ABENMEMORY_4)
+-   [Managing SPA/GPA Parameters](#abenmemory-3--------spa-gpa-parameters-and-dynpro-fields---@ITOC@@ABENMEMORY_4)
 
 SPA/GPA Parameters
 

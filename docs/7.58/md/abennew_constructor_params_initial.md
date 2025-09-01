@@ -1,4 +1,14 @@
-  
+---
+title: "NEW, Initial Value for All Types"
+description: |
+  Syntax ... NEW dtypeclass#( ) ... Effect If no parameter is specified, -   an anonymous data object retains its type-specific initial value, -   no values are passed to the instance constructor of an object. This is possible for every non-generic data type dtype. The instance constructor of a
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_initial.htm"
+abapFile: "abennew_constructor_params_initial.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "internal-table", "abennew", "constructor", "params", "initial"]
+---
 
 * * *
 

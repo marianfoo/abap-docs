@@ -1,4 +1,14 @@
-  
+---
+title: "data_area_glosry"
+description: |
+  data_area_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_area_glosry.htm"
+abapFile: "abendata_area_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abendata", "area", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  AT(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_itab.htm) NEWEND OF <fsi>. Effect If the additions INTO wa or ASSIGNING <fs> are used in the statement LOOP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab.htm), a field symbol <fsi> c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_itab_obsolete.htm"
+abapFile: "abapat_itab_obsolete.htm"
+keywords: ["loop", "do", "if", "class", "data", "internal-table", "field-symbol", "abapat", "itab", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SQLScript procedure"
+description: |
+  A database procedure(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_procedure_glosry.htm 'Glossary Entry') of the SAP HANA database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database_glosry.htm 'Glossary Entry') programmed in the langu
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_procedure_glosry.htm"
+abapFile: "abensql_script_procedure_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abensql", "script", "procedure", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "frmwrk_annotation_glosry"
+description: |
+  frmwrk_annotation_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfrmwrk_annotation_glosry.htm"
+abapFile: "abenfrmwrk_annotation_glosry.htm"
+keywords: ["do", "if", "try", "abenfrmwrk", "annotation", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "instance_glosry"
+description: |
+  instance_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninstance_glosry.htm"
+abapFile: "abeninstance_glosry.htm"
+keywords: ["do", "try", "class", "data", "abeninstance", "glosry"]
+---
 
 * * *
 

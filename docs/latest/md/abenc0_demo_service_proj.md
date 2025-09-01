@@ -1,4 +1,14 @@
-  
+---
+title: "c0_demo_service_proj"
+description: |
+  c0_demo_service_proj - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_service_proj.htm"
+abapFile: "abenc0_demo_service_proj.htm"
+keywords: ["update", "delete", "do", "if", "try", "abenc0", "demo", "service", "proj"]
+---
 
 * * *
 

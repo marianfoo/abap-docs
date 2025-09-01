@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_string_comparison. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA length1 TYPE n LENGTH 1 VALUE '4'. cl_demo_input=>add_field( CHANGING field = length1 ). DATA length2 TYPE n LENGTH 1 VALUE '6'. cl_demo_input=>requ
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_comparison_abexa.htm"
+abapFile: "abenstring_comparison_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenstring", "comparison", "abexa"]
+---
 
 * * *
 

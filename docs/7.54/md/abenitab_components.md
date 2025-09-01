@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  comp_name-sub_comp+off(len)->attr    (name)  ... Effect The following alternatives are available for specifying components: -   Directly specifying the name comp_name of a component. -   If the data type of the components is character-like and
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_components.htm"
+abapFile: "abenitab_components.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenitab", "components"]
+---
 
 * * *
 

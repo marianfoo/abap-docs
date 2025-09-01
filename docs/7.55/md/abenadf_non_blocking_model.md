@@ -1,4 +1,14 @@
-  
+---
+title: "ADF - Non-Blocking Mode"
+description: |
+  ABAP Daemon processing(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_processing_glosry.htm 'Glossary Entry') is event-driven. To stop an ABAP Daemon session(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_daemon_session_glosry.htm 'Glossary Entry'
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadf_non_blocking_model.htm"
+abapFile: "abenadf_non_blocking_model.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abenadf", "non", "blocking", "model"]
+---
 
 * * *
 

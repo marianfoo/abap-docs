@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_prdctv_method_call DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_prdctv_method_call IMPLEMENTATION. METHOD main. IF cl_abap_demo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicative_method_call_abexa.htm"
+abapFile: "abenpredicative_method_call_abexa.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "internal-table", "abenpredicative", "call", "abexa"]
+---
 
 * * *
 

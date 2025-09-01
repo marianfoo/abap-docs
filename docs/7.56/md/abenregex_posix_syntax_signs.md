@@ -1,4 +1,14 @@
-  
+---
+title: "POSIX regex - Single Character Patterns (obsolete)"
+description: |
+  Single characters are represented by literal characters or operators. By prefixing a backslash , a special character of an operator is interpreted as a literal character. This applies in particular for the backslash  itself, so that the regular expression  is the same as the single character
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_signs.htm"
+abapFile: "abenregex_posix_syntax_signs.htm"
+keywords: ["do", "if", "case", "method", "class", "data", "abenregex", "posix", "syntax", "signs"]
+---
 
 * * *
 
@@ -10,14 +20,10 @@ POSIX regex - Single Character Patterns (obsolete)
 
 Single characters are represented by literal characters or operators. By prefixing a backslash \\, a special character of an operator is interpreted as a literal character. This applies in particular for the backslash \\ itself, so that the regular expression \\\\ is the same as the single character \\. If the backslash is followed by a literal character, the backslash is ignored as if it does not exist.
 
--   [Literal Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_1)
--   [Operators for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_2)
-    -   [Placeholders for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_3)
-    -   [Self-Defined Sets for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_4)
-    -   [Negation of a Self-Defined Set for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_5)
-    -   [Ranges in a Self-Defined Set for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_6)
-    -   [Character Classes](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_7)
-    -   [Abbreviations for Character Sets](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_8)
+-   [Literal Characters](#abenregex-posix-syntax-signs-1-------operators-for-single-characters---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_2)
+    -   [Placeholders for Single Characters](#abenregex-posix-syntax-signs-3-----------self-defined-sets-for-single-characters---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_4)
+    -   [Negation of a Self-Defined Set for Single Characters](#abenregex-posix-syntax-signs-5-----------ranges-in-a-self-defined-set-for-single-characters---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_6)
+    -   [Character Classes](#abenregex-posix-syntax-signs-7-----------abbreviations-for-character-sets---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_8)
     -   [Equivalence Classes](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_9)
 
 Literal Characters
@@ -221,6 +227,7 @@ X
 X
 
 \[A-Za-z0-9\]
+
 
 #
 
@@ -479,6 +486,7 @@ X
 X
 
 \\S
+
 
 #
 

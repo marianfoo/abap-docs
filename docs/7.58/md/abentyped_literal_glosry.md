@@ -1,4 +1,14 @@
-  
+---
+title: "Availability"
+description: |
+  -   ABAP SQL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_glosry.htm 'Glossary Entry') -   CDS view entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') -   CDS hierarchies(https://help.sap.com/doc/abapdocu_758_i
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyped_literal_glosry.htm"
+abapFile: "abentyped_literal_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentyped", "literal", "glosry"]
+---
 
 * * *
 

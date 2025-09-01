@@ -1,4 +1,14 @@
-  
+---
+title: "dynamic_type_glosry"
+description: |
+  dynamic_type_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_type_glosry.htm"
+abapFile: "abendynamic_type_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abendynamic", "type", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Comparing Internal Tables"
+description: |
+  This example demonstrates how internal tables are compared. Source Code  Public class definition CLASS cl_demo_int_tbls_compare DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompare_table_abexa.htm"
+abapFile: "abencompare_table_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abencompare", "table", "abexa"]
+---
 
 * * *
 

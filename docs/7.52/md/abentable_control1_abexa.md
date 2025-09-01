@@ -1,4 +1,14 @@
-  
+---
+title: "Table Control with Scrolling"
+description: |
+  This example demonstrates program-driven scrolling in table controls. Source Code REPORT demo_dynpro_tabcont_loop. CONTROLS flights TYPE TABLEVIEW USING SCREEN 100. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DATA: itab TYPE TABLE OF demo_conn, fill TYPE i. TABLES demo_conn. DATA: lin
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_control1_abexa.htm"
+abapFile: "abentable_control1_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "data", "internal-table", "abentable", "control1", "abexa"]
+---
 
 * * *
 

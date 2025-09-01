@@ -1,4 +1,14 @@
-  
+---
+title: "controlled_sap_luw_glosry"
+description: |
+  controlled_sap_luw_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrolled_sap_luw_glosry.htm"
+abapFile: "abencontrolled_sap_luw_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "abencontrolled", "sap", "luw", "glosry"]
+---
 
 * * *
 

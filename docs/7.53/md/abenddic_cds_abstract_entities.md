@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Abstract Entities"
+description: |
+  An abstract CDS entity is defined in the DDL source code(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddl_source_code_glosry.htm 'Glossary Entry') of a CDS data definition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_data_definition_glosry.htm 'Glossary En
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_abstract_entities.htm"
+abapFile: "abenddic_cds_abstract_entities.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "cds", "abstract", "entities"]
+---
 
 * * *
 

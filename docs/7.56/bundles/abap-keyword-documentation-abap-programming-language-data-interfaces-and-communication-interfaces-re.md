@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenrfc_abexas.htm
 
-  
+---
+title: "RFC - Examples"
+description: |
+  !Example(exa.gif 'Example') RFC - Parameter Passing in sRFC and aRFC(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_parameters_abexa.htm) !Example(exa.gif 'Example') RFC - Exception Handling(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_exceptions_abe
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_abexas.htm"
+abapFile: "abenrfc_abexas.htm"
+keywords: ["do", "if", "data", "exception-handling", "abenrfc", "abexas"]
+---
 
 * * *
 
@@ -25,7 +35,17 @@ Continue
 
 ### abenrfc_parameters_abexa.htm
 
-  
+---
+title: "RFC - Parameter Passing in sRFC and aRFC"
+description: |
+  This example demonstrates parameter passing in two RFC variants. Source Code REPORT demo_rfc_parameters. CLASS demo_rfc DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, callback IMPORTING p_task TYPE clike. PRIVATE SECTION. CLASS-DATA: val_in     TYPE string, val_out    TYPE string, val_in_o
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_parameters_abexa.htm"
+abapFile: "abenrfc_parameters_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenrfc", "parameters", "abexa"]
+---
 
 * * *
 
@@ -132,7 +152,17 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](https://
 
 ### abenrfc_exceptions_abexa.htm
 
-  
+---
+title: "RFC - Exception Handling"
+description: |
+  This example demonstrates exception handling in RFC. Source Code REPORT demo_rfc_exceptions. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA msg TYPE c LENGTH 255. DATA(out) = cl_demo_output=>new( ). 'Classical exception handling
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_exceptions_abexa.htm"
+abapFile: "abenrfc_exceptions_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "exception-handling", "abenrfc", "exceptions", "abexa"]
+---
 
 * * *
 
@@ -184,7 +214,17 @@ When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values
 
 ### abenparallel_rfc_abexa.htm
 
-  
+---
+title: "RFC - Parallel aRFC"
+description: |
+  This example demonstrates parallel asynchronous RFC processing. Source Code REPORT demo_parallel_rfc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, callbback_meth IMPORTING p_task TYPE clike. PRIVATE SECTION. TYPES: BEGIN OF task_type, name TYPE string, dest TYPE string, END OF ta
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenparallel_rfc_abexa.htm"
+abapFile: "abenparallel_rfc_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenparallel", "rfc", "abexa"]
+---
 
 * * *
 
@@ -286,7 +326,17 @@ After all function modules have been started, the system waits until all callbac
 
 ### abenrfc_dynamic_dest_abexa.htm
 
-  
+---
+title: "RFC - Dynamic Destination"
+description: |
+  This example demonstrates how dynamic destinations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_destination.htm) are created. Source Code REPORT demo_rfc_dynamic_dest. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD m
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_dynamic_dest_abexa.htm"
+abapFile: "abenrfc_dynamic_dest_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenrfc", "dynamic", "dest", "abexa"]
+---
 
 * * *
 
@@ -366,7 +416,17 @@ The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to
 
 ### abenrfc_logon_data_abexa.htm
 
-  
+---
+title: "RFC - Implicit Logon Data"
+description: |
+  This example demonstrates how the logon data of an RFC session is set implicitly. Source Code REPORT demo_rfc_implicit_logon_data. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF logon_data, uname       TYPE sy-uname, m
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_logon_data_abexa.htm"
+abapFile: "abenrfc_logon_data_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenrfc", "logon", "abexa"]
+---
 
 * * *
 

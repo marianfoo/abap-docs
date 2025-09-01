@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects"
+description: |
+  Shared objects are objects in areas of shared memory, which are accessed using area handles(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarea_handle_glosry.htm 'Glossary Entry'). -   Overview(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_oview.htm) -   Are
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shared_objects.htm"
+abapFile: "abenabap_shared_objects.htm"
+keywords: ["do", "if", "try", "class", "abenabap", "shared", "objects"]
+---
 
 * * *
 

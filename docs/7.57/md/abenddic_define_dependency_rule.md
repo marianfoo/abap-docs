@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dictionary DDL for Defining Dependency Rules"
+description: |
+  An ABAP Dictionary dependency rule(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendependency_rule_glosry.htm 'Glossary Entry') is defined as a source-code-based rule in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_define_dependency_rule.htm"
+abapFile: "abenddic_define_dependency_rule.htm"
+keywords: ["do", "if", "try", "abenddic", "define", "dependency", "rule"]
+---
 
 * * *
 

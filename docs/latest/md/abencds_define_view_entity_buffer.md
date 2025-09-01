@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE VIEW ENTITY BUFFER"
+description: |
+  Syntax DEFINE VIEW ENTITY BUFFER ON cds_view_entity LAYER CORE  LOCALIZATION  INDUSTRY  PARTNER  CUSTOMER TYPE SINGLE  GENERIC NUMBER OF KEY ELEMENTS number  FULL  NONE Effect Defines a CDS entity buffer(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/a
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_entity_buffer.htm"
+abapFile: "abencds_define_view_entity_buffer.htm"
+keywords: ["do", "if", "try", "data", "abencds", "define", "view", "entity", "buffer"]
+---
 
 * * *
 

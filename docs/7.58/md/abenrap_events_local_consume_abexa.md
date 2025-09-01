@@ -1,4 +1,14 @@
-  
+---
+title: "Local Consumption of RAP Business Events"
+description: |
+  This example demonstrates the local consumption of RAP business events(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_entity_event_glosry.htm 'Glossary Entry') using a managed RAP business object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmanaged_rap_bo_gl
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_events_local_consume_abexa.htm"
+abapFile: "abenrap_events_local_consume_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abenrap", "events", "local", "consume", "abexa"]
+---
 
 * * *
 

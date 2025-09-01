@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - etag"
+description: |
+  Syntax Forms ETag for active version etag master MasterField  etag dependent by _Assoc ETag for draft version(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_with_draft.htm) total etag TotalEtagField Variants: 1. ... etag master MasterField(#!ABAP_VARIANT_1@1@) 2. ... e
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_etag.htm"
+abapFile: "abenbdl_etag.htm"
+keywords: ["insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "etag"]
+---
 
 * * *
 

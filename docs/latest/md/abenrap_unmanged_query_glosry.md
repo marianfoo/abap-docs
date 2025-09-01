@@ -1,4 +1,14 @@
-  
+---
+title: "RAP unmanaged query"
+description: |
+  An implementation type of the RAP query for which parts of the RAP query engine(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_query_engine_glosry.htm 'Glossary Entry') must be implemented in an ABAP class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_unmanged_query_glosry.htm"
+abapFile: "abenrap_unmanged_query_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenrap", "unmanged", "query", "glosry"]
+---
 
 * * *
 

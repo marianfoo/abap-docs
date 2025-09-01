@@ -1,4 +1,14 @@
-  
+---
+title: "CDS literal condition"
+description: |
+  Part of an access condition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_condition_glosry.htm 'Glossary Entry') in a CDS role(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_role_glosry.htm 'Glossary Entry') that associates an element of a C
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenliteral_condition_glosry.htm"
+abapFile: "abenliteral_condition_glosry.htm"
+keywords: ["do", "if", "try", "abenliteral", "condition", "glosry"]
+---
 
 * * *
 

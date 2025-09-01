@@ -1,4 +1,14 @@
-  
+---
+title: "FILTER, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code  Public class definition CLASS cl_demo_filter_table DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC.
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 

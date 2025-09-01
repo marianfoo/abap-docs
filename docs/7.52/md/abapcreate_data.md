@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_shortref.htm) Syntax Forms Defines the data type implicitly(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_implicit.htm) 1. CREATE DATA dref  area_handle(https://help.sa
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm"
+abapFile: "abapcreate_data.htm"
+keywords: ["delete", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abapcreate"]
+---
 
 * * *
 

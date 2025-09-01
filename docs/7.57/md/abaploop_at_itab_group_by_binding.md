@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...    INTO groupASSIGNING <group>REFERENCE INTO group_ref ... Alternatives: 1. ...  (#!ABAP_ALTERNATIVE_1@1@) 2. ... INTO groupASSIGNING <group>REFERENCE INTO group_ref(#!ABAP_ALTERNATIVE_2@2@) Effect Defines the output behavior
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_group_by_binding.htm"
+abapFile: "abaploop_at_itab_group_by_binding.htm"
+keywords: ["loop", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abaploop", "itab", "group", "binding"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "LOB Interfaces"
+description: |
+  ABAP SQL supports access to LOBs(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_glosry.htm 'Glossary Entry') using streams(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_streaming.htm) and locators(https://help.sap.com/doc/abapdocu_754_index_htm/7.5
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_interfaces.htm"
+abapFile: "abenlob_interfaces.htm"
+keywords: ["select", "insert", "update", "do", "if", "try", "class", "data", "abenlob", "interfaces"]
+---
 
 * * *
 

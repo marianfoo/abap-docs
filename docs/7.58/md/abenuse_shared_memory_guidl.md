@@ -1,4 +1,14 @@
-  
+---
+title: "Using the Shared Memory"
+description: |
+  Background The shared memory of an AS instance is an highly important medium for buffering data with the goal of high-performance access. For this purpose, the shared memory can be used as follows: -   To buffer data from database tables implicitly using table buffering(https://help.sap.com/doc/ab
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_shared_memory_guidl.htm"
+abapFile: "abenuse_shared_memory_guidl.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "internal-table", "exception-handling", "abenuse", "shared", "memory", "guidl"]
+---
 
 * * *
 

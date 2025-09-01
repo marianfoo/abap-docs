@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Intersection of CDS View Entity with Input Parameters"
+description: |
+  This example demonstrates an intersection of a CDS view with input parameters. Source Code  Public class definition CLASS cl_demo_cds_parameters_intrsct DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class impl
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_inter_cds_para_abexa.htm"
+abapFile: "abenselect_inter_cds_para_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenselect", "inter", "cds", "para", "abexa"]
+---
 
 * * *
 

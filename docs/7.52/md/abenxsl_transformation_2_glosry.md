@@ -1,4 +1,14 @@
-  
+---
+title: "XSLT program"
+description: |
+  → XSL transformation(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsl_transformation_1_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsl_transformation_2_glosry.htm"
+abapFile: "abenxsl_transformation_2_glosry.htm"
+keywords: ["do", "try", "abenxsl", "transformation", "glosry"]
+---
 
 * * *
 

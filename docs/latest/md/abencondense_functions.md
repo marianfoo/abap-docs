@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... condense( val = text(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) del = del from = from to = to ) ... Effect This built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_fu
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencondense_functions.htm"
+abapFile: "abencondense_functions.htm"
+keywords: ["do", "if", "try", "data", "abencondense", "functions"]
+---
 
 * * *
 

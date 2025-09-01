@@ -1,4 +1,14 @@
-  
+---
+title: "Streaming for internal tables"
+description: |
+  The specific classes for streaming(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm 'Glossary Entry') for internal tables are: CL_ABAP_ITAB_C_READER -   CL_ABAP_ITAB_C_READER -   CL_ABAP_ITAB_C_WRITER -   CL_ABAP_ITAB_X_READER -   CL_ABAP_ITAB_
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm"
+abapFile: "abenitab_streams.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "internal-table", "abenitab", "streams"]
+---
 
 * * *
 

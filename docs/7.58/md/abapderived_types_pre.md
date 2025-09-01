@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %pre is a component group(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It contains %tmp(https://hel
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_pre.htm"
+abapFile: "abapderived_types_pre.htm"
+keywords: ["do", "if", "try", "method", "class", "types", "abapderived", "pre"]
+---
 
 * * *
 

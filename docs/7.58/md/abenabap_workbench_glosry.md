@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Workbench"
+description: |
+  SAP GUI(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_gui_glosry.htm 'Glossary Entry')-based part of an ABAP development environment(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dev_envir_glosry.htm 'Glossary Entry') for repository objects(https://h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm"
+abapFile: "abenabap_workbench_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "workbench", "glosry"]
+---
 
 * * *
 

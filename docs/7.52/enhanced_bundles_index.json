@@ -1,27 +1,10 @@
 {
   "metadata": {
     "version": "7.52",
-    "bundleCount": 448,
-    "generatedAt": "2025-09-01T11:14:58.581Z",
+    "bundleCount": 453,
+    "generatedAt": "2025-09-01T19:37:16.231Z",
     "keywords": [
       "...",
-      "4.0",
-      "4.5",
-      "4.6a",
-      "4.6c",
-      "4.xx",
-      "6.20",
-      "6.40",
-      "6.xx",
-      "7.0",
-      "7.0,",
-      "7.3,",
-      "7.40",
-      "7.40,",
-      "7.50",
-      "7.51",
-      "7.52",
-      "7.5x",
       ">...",
       ">meth2",
       "abap_type",
@@ -29,6 +12,7 @@
       "access_rules",
       "accesses",
       "adbc",
+      "addition",
       "addressing",
       "adf",
       "after",
@@ -41,6 +25,7 @@
       "amdp",
       "annotation",
       "annotations",
+      "anonymous",
       "apc",
       "append",
       "appending",
@@ -50,6 +35,7 @@
       "arguments",
       "arith_exp",
       "arithmetic",
+      "asjson",
       "assign",
       "assigning",
       "assignment",
@@ -143,6 +129,7 @@
       "cursor",
       "cutoff",
       "daemon",
+      "daemons",
       "data",
       "data_source",
       "database",
@@ -172,6 +159,7 @@
       "dictionary",
       "directives",
       "displaying",
+      "distance",
       "dom",
       "dref",
       "duplicates",
@@ -181,14 +169,10 @@
       "dynpros",
       "editing",
       "editor",
-      "ehp1",
-      "ehp3",
-      "ehps",
       "element",
       "elementary",
       "elements",
       "embedded",
-      "embedded_expressions",
       "enhancements",
       "enumerated",
       "environment",
@@ -197,6 +181,7 @@
       "evaluation",
       "event",
       "events",
+      "exact",
       "examples",
       "exception",
       "exceptions",
@@ -209,6 +194,7 @@
       "extend",
       "extensions",
       "external",
+      "extract",
       "extracts",
       "field",
       "fields",
@@ -220,6 +206,7 @@
       "format",
       "format_options",
       "formatting",
+      "forms",
       "fragments",
       "framework",
       "from",
@@ -247,6 +234,8 @@
       "host",
       "icf",
       "if_shm_build_instance",
+      "if_t100_dyn_msg",
+      "if_t100_message",
       "implementing",
       "import",
       "include",
@@ -255,10 +244,12 @@
       "inheritance",
       "initial",
       "initializations",
+      "injections",
       "inline",
       "input",
       "insert",
       "instance",
+      "instances",
       "interface",
       "interfaces",
       "internal",
@@ -273,7 +264,6 @@
       "itab_lines",
       "iteration",
       "iterations",
-      "its",
       "ixml",
       "join",
       "json",
@@ -286,13 +276,14 @@
       "level",
       "libraries",
       "library",
-      "library,",
       "like",
+      "line",
       "list",
       "list_elements",
       "list_options",
       "lists",
       "literal",
+      "literal_condition",
       "literals",
       "loading",
       "lob",
@@ -306,6 +297,7 @@
       "loops",
       "lossless",
       "luw",
+      "luw,",
       "macros",
       "managed",
       "management",
@@ -333,8 +325,8 @@
       "module",
       "modules",
       "move",
+      "named",
       "names",
-      "naming",
       "native",
       "new",
       "note",
@@ -370,10 +362,11 @@
       "parse",
       "passing",
       "path",
+      "path_expr",
       "paths",
       "perform",
       "performance",
-      "persistence",
+      "pfcg_condition",
       "pool",
       "pooled",
       "pools",
@@ -382,6 +375,7 @@
       "predicate",
       "predicates",
       "predicative",
+      "primary",
       "procedure",
       "procedure,",
       "procedures",
@@ -391,6 +385,7 @@
       "programming",
       "programs",
       "properties",
+      "proxies",
       "push",
       "pushbutton",
       "query",
@@ -399,6 +394,8 @@
       "read",
       "reading",
       "reads",
+      "reduce",
+      "reduction",
       "reductions",
       "ref",
       "reference",
@@ -407,7 +404,6 @@
       "rel_exp",
       "relational",
       "release",
-      "releases",
       "remote",
       "render",
       "replace",
@@ -431,6 +427,10 @@
       "screen_elements",
       "screen_options",
       "screens",
+      "script",
+      "scroll",
+      "seams",
+      "secondary",
       "section",
       "security",
       "select",
@@ -447,21 +447,20 @@
       "services",
       "set",
       "setting",
+      "settings",
       "shared",
       "shift",
+      "short",
       "simple",
       "sort",
       "source",
-      "sp05",
-      "sp08",
-      "sp10",
       "special",
       "specific",
       "specifying",
       "spellings",
       "splitter",
+      "spool",
       "spooling",
-      "sps",
       "sql",
       "sql_case",
       "sql_cast",
@@ -469,9 +468,11 @@
       "sql_exp",
       "sql_func",
       "sql_functions",
+      "sqlscript",
       "stamp",
       "stamp,",
       "standalone",
+      "standard",
       "starting",
       "statement",
       "statements",
@@ -496,6 +497,7 @@
       "syntax",
       "system",
       "tabbed",
+      "tabkeys",
       "table",
       "table_exp",
       "tables",
@@ -538,9 +540,11 @@
       "value_options",
       "values",
       "variables",
+      "variant",
       "versions",
       "view",
       "views",
+      "window",
       "work",
       "write",
       "writing",
@@ -693,9 +697,9 @@
       "category": "database"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables",
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / Classic Objects in ABAP Dictionary / Database Tables / Semantic Attributes of Database Tables / Table-Specific Semantic Attributes of Database Tables",
       "file": "bundles/abap-keyword-documentation-abap-dictionary-classic-objects-in-abap-dictionary-database-tables-semant.md",
-      "count": 14,
+      "count": 11,
       "keywords": [
         "dictionary",
         "classic",
@@ -706,15 +710,22 @@
         "semantic",
         "attributes",
         "database",
+        "tables",
+        "table",
+        "specific",
+        "semantic",
+        "attributes",
+        "database",
         "tables"
       ],
       "topics": [
         "objects",
         "tables",
+        "tables",
         "tables"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - dictionary / classic objects in abap dictionary / database tables / semantic attributes of database tables",
+      "searchText": "abap - keyword documentation / abap - dictionary / classic objects in abap dictionary / database tables / semantic attributes of database tables / table-specific semantic attributes of database tables",
       "difficulty": "intermediate",
       "category": "database"
     },
@@ -850,9 +861,9 @@
       "category": "cds"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations",
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Definition of Annotations / ABAP CDS - DDL for Annotation Definitions",
       "file": "bundles/abap-keyword-documentation-abap-dictionary-abap-cds-in-abap-dictionary-abap-cds-annotations-abap-cds.md",
-      "count": 9,
+      "count": 7,
       "keywords": [
         "dictionary",
         "cds",
@@ -861,15 +872,20 @@
         "annotations",
         "cds",
         "definition",
-        "annotations"
+        "annotations",
+        "cds",
+        "ddl",
+        "annotation",
+        "definitions"
       ],
       "topics": [
+        "cds",
         "cds",
         "cds",
         "cds"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - annotations / abap cds - definition of annotations",
+      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - annotations / abap cds - definition of annotations / abap cds - ddl for annotation definitions",
       "difficulty": "advanced",
       "category": "cds"
     },
@@ -902,9 +918,9 @@
       "category": "cds"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Specifying Annotations / ABAP CDS Metadata Extensions",
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Annotations / ABAP CDS - Specifying Annotations / ABAP CDS Metadata Extensions / ABAP CDS - DDL for Metadata Extensions",
       "file": "bundles/abap-keyword-documentation-abap-dictionary-abap-cds-in-abap-dictionary-abap-cds-annotations-abap-cds.md",
-      "count": 10,
+      "count": 6,
       "keywords": [
         "dictionary",
         "cds",
@@ -916,16 +932,21 @@
         "annotations",
         "cds",
         "metadata",
+        "extensions",
+        "cds",
+        "ddl",
+        "metadata",
         "extensions"
       ],
       "topics": [
         "cds",
         "cds",
         "cds",
+        "cds",
         "cds"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - annotations / abap cds - specifying annotations / abap cds metadata extensions",
+      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - annotations / abap cds - specifying annotations / abap cds metadata extensions / abap cds - ddl for metadata extensions",
       "difficulty": "advanced",
       "category": "cds"
     },
@@ -1111,9 +1132,9 @@
       "category": "cds"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - DEFINE VIEW / ABAP CDS - SELECT / ABAP CDS - SELECT, ASSOCIATION",
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - DEFINE VIEW / ABAP CDS - SELECT / ABAP CDS - SELECT, ASSOCIATION / ABAP CDS - path_expr",
       "file": "bundles/abap-keyword-documentation-abap-dictionary-abap-cds-in-abap-dictionary-abap-cds-data-definitions-aba.md",
-      "count": 5,
+      "count": 3,
       "keywords": [
         "dictionary",
         "cds",
@@ -1132,9 +1153,12 @@
         "select",
         "cds",
         "select,",
-        "association"
+        "association",
+        "cds",
+        "path_expr"
       ],
       "topics": [
+        "cds",
         "cds",
         "cds",
         "cds",
@@ -1145,7 +1169,7 @@
       "statements": [
         "select"
       ],
-      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - data definitions / abap cds - ddl for data definitions / abap cds - define view / abap cds - select / abap cds - select, association",
+      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - data definitions / abap cds - ddl for data definitions / abap cds - define view / abap cds - select / abap cds - select, association / abap cds - path_expr",
       "difficulty": "advanced",
       "category": "cds"
     },
@@ -1665,9 +1689,9 @@
       "category": "cds"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Access Control / ABAP CDS - DCL Statements / ABAP CDS - DEFINE ROLE / ABAP CDS - DEFINE ROLE, condition",
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Access Control / ABAP CDS - DCL Statements / ABAP CDS - DEFINE ROLE / ABAP CDS - DEFINE ROLE, condition / ABAP CDS - DEFINE ROLE, literal_condition",
       "file": "bundles/abap-keyword-documentation-abap-dictionary-abap-cds-in-abap-dictionary-abap-cds-access-control-abap.md",
-      "count": 9,
+      "count": 2,
       "keywords": [
         "dictionary",
         "cds",
@@ -1684,9 +1708,14 @@
         "cds",
         "define",
         "role,",
-        "condition"
+        "condition",
+        "cds",
+        "define",
+        "role,",
+        "literal_condition"
       ],
       "topics": [
+        "cds",
         "cds",
         "cds",
         "cds",
@@ -1694,14 +1723,53 @@
         "cds"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - access control / abap cds - dcl statements / abap cds - define role / abap cds - define role, condition",
+      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - access control / abap cds - dcl statements / abap cds - define role / abap cds - define role, condition / abap cds - define role, literal_condition",
       "difficulty": "advanced",
       "category": "cds"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / Predefined Data Types in ABAP Dictionary / Attributes of the Predefined Dictionary Types",
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Access Control / ABAP CDS - DCL Statements / ABAP CDS - DEFINE ROLE / ABAP CDS - DEFINE ROLE, condition / ABAP CDS - DEFINE ROLE, pfcg_condition",
+      "file": "bundles/abap-keyword-documentation-abap-dictionary-abap-cds-in-abap-dictionary-abap-cds-access-control-abap.md",
+      "count": 2,
+      "keywords": [
+        "dictionary",
+        "cds",
+        "dictionary",
+        "cds",
+        "access",
+        "control",
+        "cds",
+        "dcl",
+        "statements",
+        "cds",
+        "define",
+        "role",
+        "cds",
+        "define",
+        "role,",
+        "condition",
+        "cds",
+        "define",
+        "role,",
+        "pfcg_condition"
+      ],
+      "topics": [
+        "cds",
+        "cds",
+        "cds",
+        "cds",
+        "cds",
+        "cds"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - dictionary / abap cds in abap dictionary / abap cds - access control / abap cds - dcl statements / abap cds - define role / abap cds - define role, condition / abap cds - define role, pfcg_condition",
+      "difficulty": "advanced",
+      "category": "cds"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / Predefined Data Types in ABAP Dictionary / Attributes of the Predefined Dictionary Types / General Dictionary Types",
       "file": "bundles/abap-keyword-documentation-abap-dictionary-predefined-data-types-in-abap-dictionary-attributes-of-th.md",
-      "count": 13,
+      "count": 4,
       "keywords": [
         "dictionary",
         "predefined",
@@ -1711,14 +1779,46 @@
         "attributes",
         "predefined",
         "dictionary",
+        "types",
+        "general",
+        "dictionary",
         "types"
       ],
       "topics": [
         "types",
+        "types",
         "types"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - dictionary / predefined data types in abap dictionary / attributes of the predefined dictionary types",
+      "searchText": "abap - keyword documentation / abap - dictionary / predefined data types in abap dictionary / attributes of the predefined dictionary types / general dictionary types",
+      "difficulty": "intermediate",
+      "category": "types"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Dictionary / Predefined Data Types in ABAP Dictionary / Attributes of the Predefined Dictionary Types / Special Dictionary Types",
+      "file": "bundles/abap-keyword-documentation-abap-dictionary-predefined-data-types-in-abap-dictionary-attributes-of-th.md",
+      "count": 5,
+      "keywords": [
+        "dictionary",
+        "predefined",
+        "data",
+        "types",
+        "dictionary",
+        "attributes",
+        "predefined",
+        "dictionary",
+        "types",
+        "special",
+        "dictionary",
+        "types"
+      ],
+      "topics": [
+        "types",
+        "types",
+        "types"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - dictionary / predefined data types in abap dictionary / attributes of the predefined dictionary types / special dictionary types",
       "difficulty": "intermediate",
       "category": "types"
     },
@@ -1780,9 +1880,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / ABAP Syntax / ABAP Statements / Operands / Functions and Expressions in Operand Positions",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / ABAP Syntax / ABAP Statements / Operands / Functions and Expressions in Operand Positions / Operand Positions for Functions and Expressions",
       "file": "bundles/abap-keyword-documentation-abap-reference-abap-syntax-abap-statements-operands-functions-and-express.md",
-      "count": 14,
+      "count": 11,
       "keywords": [
         "reference",
         "syntax",
@@ -1791,11 +1891,15 @@
         "functions",
         "expressions",
         "operand",
-        "positions"
+        "positions",
+        "operand",
+        "positions",
+        "functions",
+        "expressions"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / abap syntax / abap statements / operands / functions and expressions in operand positions",
+      "searchText": "abap - keyword documentation / abap - reference / abap syntax / abap statements / operands / functions and expressions in operand positions / operand positions for functions and expressions",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -1993,9 +2097,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Predefined Types, Data Objects, Functions, and Constructors / Predefined Data Objects",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Predefined Types, Data Objects, Functions, and Constructors / Predefined Data Objects / ABAP System Fields",
       "file": "bundles/abap-keyword-documentation-abap-reference-predefined-types-data-objects-functions-and-constructors-p.md",
-      "count": 6,
+      "count": 2,
       "keywords": [
         "reference",
         "predefined",
@@ -2006,13 +2110,15 @@
         "constructors",
         "predefined",
         "data",
-        "objects"
+        "objects",
+        "system",
+        "fields"
       ],
       "topics": [
         "objects"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / predefined types, data objects, functions, and constructors / predefined data objects",
+      "searchText": "abap - keyword documentation / abap - reference / predefined types, data objects, functions, and constructors / predefined data objects / abap system fields",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -2173,9 +2279,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Declaration Statements / Data Types and Data Objects / Declaring Data Types / TYPES / TYPES - TABLE OF",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Declaration Statements / Data Types and Data Objects / Declaring Data Types / TYPES / TYPES - TABLE OF / TYPES - tabkeys",
       "file": "bundles/abap-keyword-documentation-abap-reference-declarations-declaration-statements-data-types-and-data-ob.md",
-      "count": 7,
+      "count": 3,
       "keywords": [
         "reference",
         "declarations",
@@ -2190,17 +2296,20 @@
         "types",
         "types",
         "types",
-        "table"
+        "table",
+        "types",
+        "tabkeys"
       ],
       "topics": [
         "types",
         "objects",
         "types",
         "types",
+        "types",
         "types"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / declarations / declaration statements / data types and data objects / declaring data types / types / types - table of",
+      "searchText": "abap - keyword documentation / abap - reference / declarations / declaration statements / data types and data objects / declaring data types / types / types - table of / types - tabkeys",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -2539,9 +2648,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Declaration Statements / Classes and Interfaces / CLASS",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Declaration Statements / Classes and Interfaces / CLASS / CLASS - DEFINITION",
       "file": "bundles/abap-keyword-documentation-abap-reference-declarations-declaration-statements-classes-and-interfaces.md",
-      "count": 12,
+      "count": 6,
       "keywords": [
         "reference",
         "declarations",
@@ -2549,13 +2658,15 @@
         "statements",
         "classes",
         "interfaces",
-        "class"
+        "class",
+        "class",
+        "definition"
       ],
       "topics": [
         "classes"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / declarations / declaration statements / classes and interfaces / class",
+      "searchText": "abap - keyword documentation / abap - reference / declarations / declaration statements / classes and interfaces / class / class - definition",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -2605,32 +2716,6 @@
       ],
       "statements": [],
       "searchText": "abap - keyword documentation / abap - reference / declarations / declaration statements / classes and interfaces / components in classes and interfaces / data types and attributes",
-      "difficulty": "intermediate",
-      "category": "oop"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Declaration Statements / Classes and Interfaces / Components in Classes and Interfaces / Methods / METHODS",
-      "file": "bundles/abap-keyword-documentation-abap-reference-declarations-declaration-statements-classes-and-interfaces.md",
-      "count": 9,
-      "keywords": [
-        "reference",
-        "declarations",
-        "declaration",
-        "statements",
-        "classes",
-        "interfaces",
-        "components",
-        "classes",
-        "interfaces",
-        "methods",
-        "methods"
-      ],
-      "topics": [
-        "classes",
-        "classes"
-      ],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / declarations / declaration statements / classes and interfaces / components in classes and interfaces / methods / methods",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -2765,17 +2850,36 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Typing",
-      "file": "bundles/abap-keyword-documentation-abap-reference-declarations-typing.md",
-      "count": 12,
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Typing / typing Addition",
+      "file": "bundles/abap-keyword-documentation-abap-reference-declarations-typing-typing-addition.md",
+      "count": 3,
       "keywords": [
         "reference",
         "declarations",
+        "typing",
+        "typing",
+        "addition"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / declarations / typing / typing addition",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Declarations / Typing / Checking Typing",
+      "file": "bundles/abap-keyword-documentation-abap-reference-declarations-typing-checking-typing.md",
+      "count": 5,
+      "keywords": [
+        "reference",
+        "declarations",
+        "typing",
+        "checking",
         "typing"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / declarations / typing",
+      "searchText": "abap - keyword documentation / abap - reference / declarations / typing / checking typing",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -3217,9 +3321,9 @@
       "category": "data-structures"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Calling and leaving program units / Calling Programs / Calling Transactions / CALL TRANSACTION",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Calling and leaving program units / Calling Programs / Calling Transactions / CALL TRANSACTION / CALL TRANSACTION - standard",
       "file": "bundles/abap-keyword-documentation-abap-reference-calling-and-leaving-program-units-calling-programs-calling.md",
-      "count": 13,
+      "count": 2,
       "keywords": [
         "reference",
         "calling",
@@ -3231,11 +3335,66 @@
         "calling",
         "transactions",
         "call",
-        "transaction"
+        "transaction",
+        "call",
+        "transaction",
+        "standard"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / calling and leaving program units / calling programs / calling transactions / call transaction",
+      "searchText": "abap - keyword documentation / abap - reference / calling and leaving program units / calling programs / calling transactions / call transaction / call transaction - standard",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Calling and leaving program units / Calling Programs / Calling Transactions / CALL TRANSACTION / CALL TRANSACTION - USING",
+      "file": "bundles/abap-keyword-documentation-abap-reference-calling-and-leaving-program-units-calling-programs-calling.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "calling",
+        "leaving",
+        "program",
+        "units",
+        "calling",
+        "programs",
+        "calling",
+        "transactions",
+        "call",
+        "transaction",
+        "call",
+        "transaction",
+        "using"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / calling and leaving program units / calling programs / calling transactions / call transaction / call transaction - using",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Calling and leaving program units / Calling Programs / Calling Transactions / CALL TRANSACTION / Transaction Call - Examples",
+      "file": "bundles/abap-keyword-documentation-abap-reference-calling-and-leaving-program-units-calling-programs-calling.md",
+      "count": 5,
+      "keywords": [
+        "reference",
+        "calling",
+        "leaving",
+        "program",
+        "units",
+        "calling",
+        "programs",
+        "calling",
+        "transactions",
+        "call",
+        "transaction",
+        "transaction",
+        "call",
+        "examples"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / calling and leaving program units / calling programs / calling transactions / call transaction / transaction call - examples",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -3449,9 +3608,9 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Program Flow Logic / Expressions and Functions for Conditions / log_exp - Logical Expressions / rel_exp - Comparison Expressions / rel_exp - Relational Operators",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Program Flow Logic / Expressions and Functions for Conditions / log_exp - Logical Expressions / rel_exp - Comparison Expressions / rel_exp - Relational Operators / rel_exp - Relational Operators for All Data Types",
       "file": "bundles/abap-keyword-documentation-abap-reference-program-flow-logic-expressions-and-functions-for-condition.md",
-      "count": 13,
+      "count": 6,
       "keywords": [
         "reference",
         "program",
@@ -3468,13 +3627,58 @@
         "expressions",
         "rel_exp",
         "relational",
-        "operators"
+        "operators",
+        "rel_exp",
+        "relational",
+        "operators",
+        "all",
+        "data",
+        "types"
       ],
-      "topics": [],
+      "topics": [
+        "types"
+      ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / program flow logic / expressions and functions for conditions / log_exp - logical expressions / rel_exp - comparison expressions / rel_exp - relational operators",
+      "searchText": "abap - keyword documentation / abap - reference / program flow logic / expressions and functions for conditions / log_exp - logical expressions / rel_exp - comparison expressions / rel_exp - relational operators / rel_exp - relational operators for all data types",
       "difficulty": "intermediate",
-      "category": "general"
+      "category": "types"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Program Flow Logic / Expressions and Functions for Conditions / log_exp - Logical Expressions / rel_exp - Comparison Expressions / rel_exp - Relational Operators / rel_exp - Relational Operators for Character-Like Data Types",
+      "file": "bundles/abap-keyword-documentation-abap-reference-program-flow-logic-expressions-and-functions-for-condition.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "program",
+        "flow",
+        "logic",
+        "expressions",
+        "functions",
+        "conditions",
+        "log_exp",
+        "logical",
+        "expressions",
+        "rel_exp",
+        "comparison",
+        "expressions",
+        "rel_exp",
+        "relational",
+        "operators",
+        "rel_exp",
+        "relational",
+        "operators",
+        "character",
+        "like",
+        "data",
+        "types"
+      ],
+      "topics": [
+        "types"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / program flow logic / expressions and functions for conditions / log_exp - logical expressions / rel_exp - comparison expressions / rel_exp - relational operators / rel_exp - relational operators for character-like data types",
+      "difficulty": "intermediate",
+      "category": "types"
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Reference / Program Flow Logic / Expressions and Functions for Conditions / log_exp - Logical Expressions / rel_exp - Comparison Expressions / rel_exp - Comparison Rules / rel_exp - Comparing Elementary Data Types / rel_exp - Comparison Type of Elementary Data Objects",
@@ -3978,20 +4182,43 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Program Flow Logic / Iteration Expressions",
-      "file": "bundles/abap-keyword-documentation-abap-reference-program-flow-logic-iteration-expressions.md",
-      "count": 14,
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Program Flow Logic / Iteration Expressions / FOR - Iteration Expressions",
+      "file": "bundles/abap-keyword-documentation-abap-reference-program-flow-logic-iteration-expressions-for-iteration-exp.md",
+      "count": 8,
       "keywords": [
         "reference",
         "program",
         "flow",
         "logic",
         "iteration",
+        "expressions",
+        "iteration",
         "expressions"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / program flow logic / iteration expressions",
+      "searchText": "abap - keyword documentation / abap - reference / program flow logic / iteration expressions / for - iteration expressions",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Program Flow Logic / Iteration Expressions / REDUCE - Reduction Operator",
+      "file": "bundles/abap-keyword-documentation-abap-reference-program-flow-logic-iteration-expressions-reduce-reduction.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "program",
+        "flow",
+        "logic",
+        "iteration",
+        "expressions",
+        "reduce",
+        "reduction",
+        "operator"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / program flow logic / iteration expressions / reduce - reduction operator",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -4273,9 +4500,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Assignments / Assigning References / Setting Reference Variables",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Assignments / Assigning References / Setting Reference Variables / Assignment Rules for Reference Variables",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-assignments-assigning-references.md",
-      "count": 9,
+      "count": 3,
       "keywords": [
         "reference",
         "processing",
@@ -4286,11 +4513,15 @@
         "references",
         "setting",
         "reference",
+        "variables",
+        "assignment",
+        "rules",
+        "reference",
         "variables"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing internal data / assignments / assigning references / setting reference variables",
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / assignments / assigning references / setting reference variables / assignment rules for reference variables",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -4347,9 +4578,9 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Assignments / Lossless Assignments",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Assignments / Lossless Assignments / EXACT - Lossless Operator",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-assignments-lossless-assignments.md",
-      "count": 13,
+      "count": 2,
       "keywords": [
         "reference",
         "processing",
@@ -4357,11 +4588,36 @@
         "data",
         "assignments",
         "lossless",
-        "assignments"
+        "assignments",
+        "exact",
+        "lossless",
+        "operator"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing internal data / assignments / lossless assignments",
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / assignments / lossless assignments / exact - lossless operator",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Assignments / Lossless Assignments / Lossless Assignments - Rules",
+      "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-assignments-lossless-assignments.md",
+      "count": 8,
+      "keywords": [
+        "reference",
+        "processing",
+        "internal",
+        "data",
+        "assignments",
+        "lossless",
+        "assignments",
+        "lossless",
+        "assignments",
+        "rules"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / assignments / lossless assignments / lossless assignments - rules",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -4686,40 +4942,6 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for String Processing / string_exp - String Expressions / string_exp - String Templates / String Templates - embedded_expressions",
-      "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-character-string-and-byte-string.md",
-      "count": 3,
-      "keywords": [
-        "reference",
-        "processing",
-        "internal",
-        "data",
-        "character",
-        "string",
-        "byte",
-        "string",
-        "processing",
-        "expressions",
-        "functions",
-        "string",
-        "processing",
-        "string_exp",
-        "string",
-        "expressions",
-        "string_exp",
-        "string",
-        "templates",
-        "string",
-        "templates",
-        "embedded_expressions"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing internal data / character string and byte string processing / expressions and functions for string processing / string_exp - string expressions / string_exp - string templates / string templates - embedded_expressions",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for String Processing / string_exp - String Expressions / string_exp - String Templates / Examples of string templates",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-character-string-and-byte-string.md",
       "count": 13,
@@ -4813,38 +5035,6 @@
       "topics": [],
       "statements": [],
       "searchText": "abap - keyword documentation / abap - reference / processing internal data / character string and byte string processing / expressions and functions for string processing / string functions / description functions for character-like arguments",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Character String and Byte String Processing / Expressions and Functions for String Processing / String Functions / Processing Functions for Character-Like Arguments",
-      "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-character-string-and-byte-string.md",
-      "count": 15,
-      "keywords": [
-        "reference",
-        "processing",
-        "internal",
-        "data",
-        "character",
-        "string",
-        "byte",
-        "string",
-        "processing",
-        "expressions",
-        "functions",
-        "string",
-        "processing",
-        "string",
-        "functions",
-        "processing",
-        "functions",
-        "character",
-        "like",
-        "arguments"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing internal data / character string and byte string processing / expressions and functions for string processing / string functions / processing functions for character-like arguments",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -5126,9 +5316,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Keys",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Keys / Primary Table Key",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-internal-tables-internal-tables-o.md",
-      "count": 12,
+      "count": 3,
       "keywords": [
         "reference",
         "processing",
@@ -5140,14 +5330,46 @@
         "tables",
         "overview",
         "table",
-        "keys"
+        "keys",
+        "primary",
+        "table",
+        "key"
       ],
       "topics": [
         "tables",
         "tables"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing internal data / internal tables / internal tables - overview / table keys",
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / internal tables / internal tables - overview / table keys / primary table key",
+      "difficulty": "beginner",
+      "category": "data-structures"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Internal Tables / Internal Tables - Overview / Table Keys / Secondary Table Key",
+      "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-internal-tables-internal-tables-o.md",
+      "count": 4,
+      "keywords": [
+        "reference",
+        "processing",
+        "internal",
+        "data",
+        "internal",
+        "tables",
+        "internal",
+        "tables",
+        "overview",
+        "table",
+        "keys",
+        "secondary",
+        "table",
+        "key"
+      ],
+      "topics": [
+        "tables",
+        "tables"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / internal tables / internal tables - overview / table keys / secondary table key",
       "difficulty": "beginner",
       "category": "data-structures"
     },
@@ -5301,9 +5523,9 @@
       "category": "data-structures"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Internal Tables / Processing Statements for Internal Tables / MODIFY itab",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Internal Tables / Processing Statements for Internal Tables / MODIFY itab / MODIFY itab - itab_line",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-internal-tables-processing-statem.md",
-      "count": 8,
+      "count": 5,
       "keywords": [
         "reference",
         "processing",
@@ -5316,14 +5538,17 @@
         "internal",
         "tables",
         "modify",
-        "itab"
+        "itab",
+        "modify",
+        "itab",
+        "itab_line"
       ],
       "topics": [
         "tables",
         "tables"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing internal data / internal tables / processing statements for internal tables / modify itab",
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / internal tables / processing statements for internal tables / modify itab / modify itab - itab_line",
       "difficulty": "intermediate",
       "category": "data-structures"
     },
@@ -6100,9 +6325,9 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Attributes of Data Objects / DESCRIBE",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Attributes of Data Objects / DESCRIBE / DESCRIBE FIELD",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-attributes-of-data-objects-descri.md",
-      "count": 11,
+      "count": 2,
       "keywords": [
         "reference",
         "processing",
@@ -6111,13 +6336,64 @@
         "attributes",
         "data",
         "objects",
-        "describe"
+        "describe",
+        "describe",
+        "field"
       ],
       "topics": [
         "objects"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing internal data / attributes of data objects / describe",
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / attributes of data objects / describe / describe field",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Attributes of Data Objects / DESCRIBE / DESCRIBE DISTANCE",
+      "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-attributes-of-data-objects-descri.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "processing",
+        "internal",
+        "data",
+        "attributes",
+        "data",
+        "objects",
+        "describe",
+        "describe",
+        "distance"
+      ],
+      "topics": [
+        "objects"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / attributes of data objects / describe / describe distance",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing Internal Data / Attributes of Data Objects / DESCRIBE / DESCRIBE - internal variant",
+      "file": "bundles/abap-keyword-documentation-abap-reference-processing-internal-data-attributes-of-data-objects-descri.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "processing",
+        "internal",
+        "data",
+        "attributes",
+        "data",
+        "objects",
+        "describe",
+        "describe",
+        "internal",
+        "variant"
+      ],
+      "topics": [
+        "objects"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / processing internal data / attributes of data objects / describe / describe - internal variant",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -7162,9 +7438,9 @@
       "category": "database"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / Native SQL / EXEC SQL - Embedded Native SQL",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / Native SQL / EXEC SQL - Embedded Native SQL / EXEC SQL",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-external-data-abap-database-accesses-native-sql.md",
-      "count": 14,
+      "count": 8,
       "keywords": [
         "reference",
         "processing",
@@ -7178,22 +7454,58 @@
         "sql",
         "embedded",
         "native",
+        "sql",
+        "exec",
         "sql"
       ],
       "topics": [
         "sql",
         "sql",
+        "sql",
         "sql"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / native sql / exec sql - embedded native sql",
+      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / native sql / exec sql - embedded native sql / exec sql",
       "difficulty": "intermediate",
       "category": "database"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / AMDP - ABAP Managed Database Procedures / AMDP - Methods / METHOD - BY DATABASE PROCEDURE, FUNCTION",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / Native SQL / EXEC SQL - Embedded Native SQL / EXEC SQL - Examples",
+      "file": "bundles/abap-keyword-documentation-abap-reference-processing-external-data-abap-database-accesses-native-sql.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "processing",
+        "external",
+        "data",
+        "database",
+        "accesses",
+        "native",
+        "sql",
+        "exec",
+        "sql",
+        "embedded",
+        "native",
+        "sql",
+        "exec",
+        "sql",
+        "examples"
+      ],
+      "topics": [
+        "sql",
+        "sql",
+        "sql",
+        "sql"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / native sql / exec sql - embedded native sql / exec sql - examples",
+      "difficulty": "intermediate",
+      "category": "database"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / AMDP - ABAP Managed Database Procedures / AMDP - Methods / METHOD - BY DATABASE PROCEDURE, FUNCTION / AMDP - SQL Script for the SAP HANA Database",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-external-data-abap-database-accesses-amdp-abap.md",
-      "count": 5,
+      "count": 2,
       "keywords": [
         "reference",
         "processing",
@@ -7210,11 +7522,19 @@
         "method",
         "database",
         "procedure,",
-        "function"
+        "function",
+        "amdp",
+        "sql",
+        "script",
+        "sap",
+        "hana",
+        "database"
       ],
-      "topics": [],
+      "topics": [
+        "sql"
+      ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / amdp - abap managed database procedures / amdp - methods / method - by database procedure, function",
+      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / amdp - abap managed database procedures / amdp - methods / method - by database procedure, function / amdp - sql script for the sap hana database",
       "difficulty": "advanced",
       "category": "database"
     },
@@ -7243,33 +7563,9 @@
       "category": "database"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / AMDP - ABAP Managed Database Procedures / AMDP - Examples",
-      "file": "bundles/abap-keyword-documentation-abap-reference-processing-external-data-abap-database-accesses-amdp-abap.md",
-      "count": 13,
-      "keywords": [
-        "reference",
-        "processing",
-        "external",
-        "data",
-        "database",
-        "accesses",
-        "amdp",
-        "managed",
-        "database",
-        "procedures",
-        "amdp",
-        "examples"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / amdp - abap managed database procedures / amdp - examples",
-      "difficulty": "advanced",
-      "category": "database"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / ABAP and SAP HANA / Access to Objects in SAP HANA XS / Access to SAP HANA XSC Objects",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / ABAP and SAP HANA / Access to Objects in SAP HANA XS / Access to SAP HANA XSC Objects / Database Procedure Proxies for SQLScript Procedures in XSC",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-external-data-abap-database-accesses-abap-and-s.md",
-      "count": 10,
+      "count": 7,
       "keywords": [
         "reference",
         "processing",
@@ -7287,14 +7583,20 @@
         "sap",
         "hana",
         "xsc",
-        "objects"
+        "objects",
+        "database",
+        "procedure",
+        "proxies",
+        "sqlscript",
+        "procedures",
+        "xsc"
       ],
       "topics": [
         "objects",
         "objects"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / abap and sap hana / access to objects in sap hana xs / access to sap hana xsc objects",
+      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / abap and sap hana / access to objects in sap hana xs / access to sap hana xsc objects / database procedure proxies for sqlscript procedures in xsc",
       "difficulty": "intermediate",
       "category": "database"
     },
@@ -7318,28 +7620,6 @@
       "topics": [],
       "statements": [],
       "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / abap and sap hana / abap and sap hana, examples",
-      "difficulty": "intermediate",
-      "category": "database"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / Object Services / Persistence Service",
-      "file": "bundles/abap-keyword-documentation-abap-reference-processing-external-data-abap-database-accesses-object-ser.md",
-      "count": 9,
-      "keywords": [
-        "reference",
-        "processing",
-        "external",
-        "data",
-        "database",
-        "accesses",
-        "object",
-        "services",
-        "persistence",
-        "service"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / object services / persistence service",
       "difficulty": "intermediate",
       "category": "database"
     },
@@ -7410,9 +7690,9 @@
       "category": "database"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / Data Consistency / SAP LUW",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Processing External Data / ABAP Database Accesses / Data Consistency / SAP LUW / SAP LUW, Examples",
       "file": "bundles/abap-keyword-documentation-abap-reference-processing-external-data-abap-database-accesses-data-consi.md",
-      "count": 11,
+      "count": 3,
       "keywords": [
         "reference",
         "processing",
@@ -7423,11 +7703,14 @@
         "data",
         "consistency",
         "sap",
-        "luw"
+        "luw",
+        "sap",
+        "luw,",
+        "examples"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / data consistency / sap luw",
+      "searchText": "abap - keyword documentation / abap - reference / processing external data / abap database accesses / data consistency / sap luw / sap luw, examples",
       "difficulty": "intermediate",
       "category": "database"
     },
@@ -7614,9 +7897,9 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Text Repositories / Messages / System Interfaces for Messages",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Text Repositories / Messages / System Interfaces for Messages / System Interface IF_T100_MESSAGE for Messages",
       "file": "bundles/abap-keyword-documentation-abap-reference-text-repositories-messages-system-interfaces-for-messages.md",
-      "count": 13,
+      "count": 5,
       "keywords": [
         "reference",
         "text",
@@ -7624,26 +7907,72 @@
         "messages",
         "system",
         "interfaces",
+        "messages",
+        "system",
+        "interface",
+        "if_t100_message",
         "messages"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / text repositories / messages / system interfaces for messages",
+      "searchText": "abap - keyword documentation / abap - reference / text repositories / messages / system interfaces for messages / system interface if_t100_message for messages",
       "difficulty": "intermediate",
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Language Environment",
-      "file": "bundles/abap-keyword-documentation-abap-reference-language-environment.md",
-      "count": 17,
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Text Repositories / Messages / System Interfaces for Messages / System Interface IF_T100_DYN_MSG for Messages",
+      "file": "bundles/abap-keyword-documentation-abap-reference-text-repositories-messages-system-interfaces-for-messages.md",
+      "count": 5,
       "keywords": [
         "reference",
-        "language",
-        "environment"
+        "text",
+        "repositories",
+        "messages",
+        "system",
+        "interfaces",
+        "messages",
+        "system",
+        "interface",
+        "if_t100_dyn_msg",
+        "messages"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / language environment",
+      "searchText": "abap - keyword documentation / abap - reference / text repositories / messages / system interfaces for messages / system interface if_t100_dyn_msg for messages",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Language Environment / Language Settings",
+      "file": "bundles/abap-keyword-documentation-abap-reference-language-environment-language-settings.md",
+      "count": 7,
+      "keywords": [
+        "reference",
+        "language",
+        "environment",
+        "language",
+        "settings"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / language environment / language settings",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Language Environment / Formatting Settings",
+      "file": "bundles/abap-keyword-documentation-abap-reference-language-environment-formatting-settings.md",
+      "count": 7,
+      "keywords": [
+        "reference",
+        "language",
+        "environment",
+        "formatting",
+        "settings"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / language environment / formatting settings",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -7687,9 +8016,9 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / program editing / Testing and Checking Programs / ABAP Unit",
-      "file": "bundles/abap-keyword-documentation-abap-reference-program-editing-testing-and-checking-programs-abap-unit.md",
-      "count": 12,
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / program editing / Testing and Checking Programs / ABAP Unit / Test Seams",
+      "file": "bundles/abap-keyword-documentation-abap-reference-program-editing-testing-and-checking-programs-abap-unit-te.md",
+      "count": 7,
       "keywords": [
         "reference",
         "program",
@@ -7697,11 +8026,13 @@
         "testing",
         "checking",
         "programs",
-        "unit"
+        "unit",
+        "test",
+        "seams"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / program editing / testing and checking programs / abap unit",
+      "searchText": "abap - keyword documentation / abap - reference / program editing / testing and checking programs / abap unit / test seams",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -8079,9 +8410,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ADF - ABAP Daemon Framework",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ADF - ABAP Daemon Framework / Examples for ABAP Daemons",
       "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-adf-abap-daem.md",
-      "count": 6,
+      "count": 3,
       "keywords": [
         "reference",
         "data",
@@ -8090,11 +8421,13 @@
         "interfaces",
         "adf",
         "daemon",
-        "framework"
+        "framework",
+        "examples",
+        "daemons"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / adf - abap daemon framework",
+      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / adf - abap daemon framework / examples for abap daemons",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -8181,32 +8514,6 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and XML / Class Libraries for XML / iXML Library / iXML Library, Examples",
-      "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-abap-and-xml.md",
-      "count": 20,
-      "keywords": [
-        "reference",
-        "data",
-        "interfaces",
-        "communication",
-        "interfaces",
-        "xml",
-        "class",
-        "libraries",
-        "xml",
-        "ixml",
-        "library",
-        "ixml",
-        "library,",
-        "examples"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and xml / class libraries for xml / ixml library / ixml library, examples",
-      "difficulty": "intermediate",
-      "category": "oop"
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and XML / Class Libraries for XML / sXML Library / sXML Library - Parse",
       "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-abap-and-xml.md",
       "count": 3,
@@ -8284,32 +8591,6 @@
       ],
       "statements": [],
       "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and xml / class libraries for xml / sxml library / sxml library - classes and interfaces",
-      "difficulty": "intermediate",
-      "category": "oop"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and XML / Class Libraries for XML / sXML Library / sXML Library, Examples",
-      "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-abap-and-xml.md",
-      "count": 13,
-      "keywords": [
-        "reference",
-        "data",
-        "interfaces",
-        "communication",
-        "interfaces",
-        "xml",
-        "class",
-        "libraries",
-        "xml",
-        "sxml",
-        "library",
-        "sxml",
-        "library,",
-        "examples"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and xml / class libraries for xml / sxml library / sxml library, examples",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -8701,9 +8982,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and XML / Transformations for XML / asXML - Canonical XML Representation / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and XML / Transformations for XML / asXML - Canonical XML Representation / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects / asXML - Named Reference Variables",
       "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-abap-and-xml.md",
-      "count": 10,
+      "count": 2,
       "keywords": [
         "reference",
         "data",
@@ -8725,14 +9006,99 @@
         "mapping",
         "reference",
         "variables",
-        "objects"
+        "objects",
+        "asxml",
+        "named",
+        "reference",
+        "variables"
       ],
       "topics": [
         "types",
         "objects"
       ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and xml / transformations for xml / asxml - canonical xml representation / asxml - mapping of abap data types / asxml - mapping of reference variables and objects",
+      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and xml / transformations for xml / asxml - canonical xml representation / asxml - mapping of abap data types / asxml - mapping of reference variables and objects / asxml - named reference variables",
+      "difficulty": "advanced",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and XML / Transformations for XML / asXML - Canonical XML Representation / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects / asXML - Anonymous Data Objects",
+      "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-abap-and-xml.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "data",
+        "interfaces",
+        "communication",
+        "interfaces",
+        "xml",
+        "transformations",
+        "xml",
+        "asxml",
+        "canonical",
+        "xml",
+        "representation",
+        "asxml",
+        "mapping",
+        "data",
+        "types",
+        "asxml",
+        "mapping",
+        "reference",
+        "variables",
+        "objects",
+        "asxml",
+        "anonymous",
+        "data",
+        "objects"
+      ],
+      "topics": [
+        "types",
+        "objects",
+        "objects"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and xml / transformations for xml / asxml - canonical xml representation / asxml - mapping of abap data types / asxml - mapping of reference variables and objects / asxml - anonymous data objects",
+      "difficulty": "advanced",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and XML / Transformations for XML / asXML - Canonical XML Representation / asXML - Mapping of ABAP Data Types / asXML - Mapping of Reference Variables and Objects / asXML - Instances of Classes",
+      "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-abap-and-xml.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "data",
+        "interfaces",
+        "communication",
+        "interfaces",
+        "xml",
+        "transformations",
+        "xml",
+        "asxml",
+        "canonical",
+        "xml",
+        "representation",
+        "asxml",
+        "mapping",
+        "data",
+        "types",
+        "asxml",
+        "mapping",
+        "reference",
+        "variables",
+        "objects",
+        "asxml",
+        "instances",
+        "classes"
+      ],
+      "topics": [
+        "types",
+        "objects",
+        "classes"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and xml / transformations for xml / asxml - canonical xml representation / asxml - mapping of abap data types / asxml - mapping of reference variables and objects / asxml - instances of classes",
       "difficulty": "advanced",
       "category": "oop"
     },
@@ -8789,9 +9155,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and JSON / Transformations for JSON",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Data Interfaces and Communication Interfaces / ABAP and JSON / Transformations for JSON / asJSON - Canonical JSON Representation",
       "file": "bundles/abap-keyword-documentation-abap-reference-data-interfaces-and-communication-interfaces-abap-and-json.md",
-      "count": 18,
+      "count": 14,
       "keywords": [
         "reference",
         "data",
@@ -8800,11 +9166,15 @@
         "interfaces",
         "json",
         "transformations",
-        "json"
+        "json",
+        "asjson",
+        "canonical",
+        "json",
+        "representation"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and json / transformations for json",
+      "searchText": "abap - keyword documentation / abap - reference / data interfaces and communication interfaces / abap and json / transformations for json / asjson - canonical json representation",
       "difficulty": "advanced",
       "category": "oop"
     },
@@ -9672,9 +10042,9 @@
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Processing Lists in the List Buffer",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Processing Lists in the List Buffer / READ LINE",
       "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-processing-lists-in-the.md",
-      "count": 14,
+      "count": 2,
       "keywords": [
         "reference",
         "sap",
@@ -9686,18 +10056,95 @@
         "processing",
         "lists",
         "list",
-        "buffer"
+        "buffer",
+        "read",
+        "line"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / processing lists in the list buffer",
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / processing lists in the list buffer / read line",
       "difficulty": "intermediate",
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Displaying Lists",
-      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-displaying-lists.md",
-      "count": 15,
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Processing Lists in the List Buffer / MODIFY LINE",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-processing-lists-in-the.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "sap",
+        "gui",
+        "user",
+        "dialogs",
+        "classic",
+        "lists",
+        "processing",
+        "lists",
+        "list",
+        "buffer",
+        "modify",
+        "line"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / processing lists in the list buffer / modify line",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Processing Lists in the List Buffer / SCROLL LIST",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-processing-lists-in-the.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "sap",
+        "gui",
+        "user",
+        "dialogs",
+        "classic",
+        "lists",
+        "processing",
+        "lists",
+        "list",
+        "buffer",
+        "scroll",
+        "list"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / processing lists in the list buffer / scroll list",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Processing Lists in the List Buffer / DESCRIBE LIST",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-processing-lists-in-the.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "sap",
+        "gui",
+        "user",
+        "dialogs",
+        "classic",
+        "lists",
+        "processing",
+        "lists",
+        "list",
+        "buffer",
+        "describe",
+        "list"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / processing lists in the list buffer / describe list",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Displaying Lists / LEAVE TO LIST-PROCESSING",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-displaying-lists-leave.md",
+      "count": 2,
       "keywords": [
         "reference",
         "sap",
@@ -9707,18 +10154,67 @@
         "classic",
         "lists",
         "displaying",
-        "lists"
+        "lists",
+        "leave",
+        "list",
+        "processing"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / displaying lists",
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / displaying lists / leave to list-processing",
       "difficulty": "intermediate",
       "category": "oop"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Spooling Lists",
-      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-spooling-lists.md",
-      "count": 14,
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Displaying Lists / WINDOW",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-displaying-lists-window.md",
+      "count": 2,
+      "keywords": [
+        "reference",
+        "sap",
+        "gui",
+        "user",
+        "dialogs",
+        "classic",
+        "lists",
+        "displaying",
+        "lists",
+        "window"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / displaying lists / window",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Displaying Lists / GET CURSOR - List",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-displaying-lists-get-cu.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "sap",
+        "gui",
+        "user",
+        "dialogs",
+        "classic",
+        "lists",
+        "displaying",
+        "lists",
+        "get",
+        "cursor",
+        "list"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / displaying lists / get cursor - list",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Spooling Lists / Spool Parameters",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-spooling-lists-spool-pa.md",
+      "count": 4,
       "keywords": [
         "reference",
         "sap",
@@ -9728,11 +10224,36 @@
         "classic",
         "lists",
         "spooling",
-        "lists"
+        "lists",
+        "spool",
+        "parameters"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / spooling lists",
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / spooling lists / spool parameters",
+      "difficulty": "intermediate",
+      "category": "oop"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / SAP GUI User Dialogs / Classic Lists / Spooling Lists / Spool Control",
+      "file": "bundles/abap-keyword-documentation-abap-reference-sap-gui-user-dialogs-classic-lists-spooling-lists-spool-co.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "sap",
+        "gui",
+        "user",
+        "dialogs",
+        "classic",
+        "lists",
+        "spooling",
+        "lists",
+        "spool",
+        "control"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / sap gui user dialogs / classic lists / spooling lists / spool control",
       "difficulty": "intermediate",
       "category": "oop"
     },
@@ -10290,9 +10811,9 @@
       "category": "data-structures"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts / SORT - Extract",
       "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-internal.md",
-      "count": 17,
+      "count": 2,
       "keywords": [
         "reference",
         "obsolete",
@@ -10303,18 +10824,67 @@
         "internal",
         "data",
         "obsolete",
-        "extracts"
+        "extracts",
+        "sort",
+        "extract"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of internal data / obsolete extracts",
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of internal data / obsolete extracts / sort - extract",
       "difficulty": "intermediate",
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts / AT - Extract",
+      "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-internal.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "obsolete",
+        "language",
+        "elements",
+        "obsolete",
+        "processing",
+        "internal",
+        "data",
+        "obsolete",
+        "extracts",
+        "extract"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of internal data / obsolete extracts / at - extract",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts / Examples of Extracts",
+      "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-internal.md",
+      "count": 4,
+      "keywords": [
+        "reference",
+        "obsolete",
+        "language",
+        "elements",
+        "obsolete",
+        "processing",
+        "internal",
+        "data",
+        "obsolete",
+        "extracts",
+        "examples",
+        "extracts"
+      ],
+      "topics": [],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of internal data / obsolete extracts / examples of extracts",
+      "difficulty": "intermediate",
+      "category": "general"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete Short Forms in Open SQL",
       "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-external.md",
-      "count": 24,
+      "count": 6,
       "keywords": [
         "reference",
         "obsolete",
@@ -10326,11 +10896,104 @@
         "data",
         "obsolete",
         "database",
-        "access"
+        "access",
+        "obsolete",
+        "short",
+        "forms",
+        "open",
+        "sql"
+      ],
+      "topics": [
+        "sql"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of external data / obsolete database access / obsolete short forms in open sql",
+      "difficulty": "intermediate",
+      "category": "database"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete Syntax Forms in Open SQL",
+      "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-external.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "obsolete",
+        "language",
+        "elements",
+        "obsolete",
+        "processing",
+        "external",
+        "data",
+        "obsolete",
+        "database",
+        "access",
+        "obsolete",
+        "syntax",
+        "forms",
+        "open",
+        "sql"
+      ],
+      "topics": [
+        "sql"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of external data / obsolete database access / obsolete syntax forms in open sql",
+      "difficulty": "intermediate",
+      "category": "database"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete Cursor Processing in Native SQL",
+      "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-external.md",
+      "count": 3,
+      "keywords": [
+        "reference",
+        "obsolete",
+        "language",
+        "elements",
+        "obsolete",
+        "processing",
+        "external",
+        "data",
+        "obsolete",
+        "database",
+        "access",
+        "obsolete",
+        "cursor",
+        "processing",
+        "native",
+        "sql"
+      ],
+      "topics": [
+        "sql"
+      ],
+      "statements": [],
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of external data / obsolete database access / obsolete cursor processing in native sql",
+      "difficulty": "intermediate",
+      "category": "database"
+    },
+    {
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of External Data / Obsolete Database Access / Obsolete Access Statements",
+      "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-external.md",
+      "count": 6,
+      "keywords": [
+        "reference",
+        "obsolete",
+        "language",
+        "elements",
+        "obsolete",
+        "processing",
+        "external",
+        "data",
+        "obsolete",
+        "database",
+        "access",
+        "obsolete",
+        "access",
+        "statements"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of external data / obsolete database access",
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of external data / obsolete database access / obsolete access statements",
       "difficulty": "intermediate",
       "category": "database"
     },
@@ -10381,9 +11044,9 @@
       "category": "general"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (Obsolete) / Logical Databases - Components",
+      "title": "ABAP - Keyword Documentation / ABAP - Reference / Obsolete Language Elements / Obsolete Processing of External Data / Logical Databases (Obsolete) / Logical Databases - Components / Logical Databases - Further Elements",
       "file": "bundles/abap-keyword-documentation-abap-reference-obsolete-language-elements-obsolete-processing-of-external.md",
-      "count": 10,
+      "count": 5,
       "keywords": [
         "reference",
         "obsolete",
@@ -10398,11 +11061,15 @@
         "obsolete",
         "logical",
         "databases",
-        "components"
+        "components",
+        "logical",
+        "databases",
+        "further",
+        "elements"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of external data / logical databases (obsolete) / logical databases - components",
+      "searchText": "abap - keyword documentation / abap - reference / obsolete language elements / obsolete processing of external data / logical databases (obsolete) / logical databases - components / logical databases - further elements",
       "difficulty": "intermediate",
       "category": "database"
     },
@@ -10752,21 +11419,6 @@
     {
       "title": "ABAP - Keyword Documentation / ABAP - Quick Reference / Section",
       "file": "bundles/abap-keyword-documentation-abap-quick-reference-section.md",
-      "count": 41,
-      "keywords": [
-        "quick",
-        "reference",
-        "section"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - quick reference / section",
-      "difficulty": "intermediate",
-      "category": "ui"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Quick Reference / Section",
-      "file": "bundles/abap-keyword-documentation-abap-quick-reference-section.md",
       "count": 18,
       "keywords": [
         "quick",
@@ -10975,292 +11627,17 @@
       "category": "ui"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.52",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 14,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "7.5x",
-        "changes",
-        "release",
-        "7.52"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 7.5x / changes in release 7.52",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.51",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 11,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "7.5x",
-        "changes",
-        "release",
-        "7.51"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 7.5x / changes in release 7.51",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 7.5x / Changes in Release 7.50",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-7-5x-changes-in-release.md",
-      "count": 12,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "7.5x",
-        "changes",
-        "release",
-        "7.50"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 7.5x / changes in release 7.50",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.40 and Its SPs / Changes in Release 7.40, SP10",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-40-and-its-sps-changes.md",
+      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes",
+      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes.md",
       "count": 3,
       "keywords": [
         "release",
         "specific",
-        "changes",
-        "changes",
-        "release",
-        "7.40",
-        "its",
-        "sps",
-        "changes",
-        "release",
-        "7.40,",
-        "sp10"
+        "changes"
       ],
       "topics": [],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in release 7.40 and its sps / changes in release 7.40, sp10",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.40 and Its SPs / Changes in Release 7.40, SP08",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-40-and-its-sps-changes.md",
-      "count": 10,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "release",
-        "7.40",
-        "its",
-        "sps",
-        "changes",
-        "release",
-        "7.40,",
-        "sp08"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in release 7.40 and its sps / changes in release 7.40, sp08",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.40 and Its SPs / Changes in Release 7.40, SP05",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-40-and-its-sps-changes.md",
-      "count": 10,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "release",
-        "7.40",
-        "its",
-        "sps",
-        "changes",
-        "release",
-        "7.40,",
-        "sp05"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in release 7.40 and its sps / changes in release 7.40, sp05",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.0 and its EhPs / Changes in Release 7.0, EhP3 and 7.3, EhP1",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-0-and-its-ehps-changes.md",
-      "count": 4,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "release",
-        "7.0",
-        "its",
-        "ehps",
-        "changes",
-        "release",
-        "7.0,",
-        "ehp3",
-        "7.3,",
-        "ehp1"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in release 7.0 and its ehps / changes in release 7.0, ehp3 and 7.3, ehp1",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Release 7.0 and its EhPs / Changes for Release 7.0",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-release-7-0-and-its-ehps-changes.md",
-      "count": 14,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "release",
-        "7.0",
-        "its",
-        "ehps",
-        "changes",
-        "release",
-        "7.0"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in release 7.0 and its ehps / changes for release 7.0",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 6.xx / Changes in Release 6.40",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-6-xx-changes-in-release.md",
-      "count": 14,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "6.xx",
-        "changes",
-        "release",
-        "6.40"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 6.xx / changes in release 6.40",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 6.xx / Changes in Release 6.20",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-6-xx-changes-in-release.md",
-      "count": 9,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "6.xx",
-        "changes",
-        "release",
-        "6.20"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 6.xx / changes in release 6.20",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 4.xx / Changes in Release 4.6C",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-4-xx-changes-in-release.md",
-      "count": 5,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "4.xx",
-        "changes",
-        "release",
-        "4.6c"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 4.xx / changes in release 4.6c",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 4.xx / Changes in Release 4.6A",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-4-xx-changes-in-release.md",
-      "count": 17,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "4.xx",
-        "changes",
-        "release",
-        "4.6a"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 4.xx / changes in release 4.6a",
-      "difficulty": "intermediate",
-      "category": "general"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP - Release-Specific Changes / Changes in Releases 4.xx / Changes in Releases 4.0 and 4.5",
-      "file": "bundles/abap-keyword-documentation-abap-release-specific-changes-changes-in-releases-4-xx-changes-in-release.md",
-      "count": 19,
-      "keywords": [
-        "release",
-        "specific",
-        "changes",
-        "changes",
-        "releases",
-        "4.xx",
-        "changes",
-        "releases",
-        "4.0",
-        "4.5"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap - release-specific changes / changes in releases 4.xx / changes in releases 4.0 and 4.5",
+      "searchText": "abap - keyword documentation / abap - release-specific changes",
       "difficulty": "intermediate",
       "category": "general"
     },
@@ -11334,23 +11711,6 @@
       "topics": [],
       "statements": [],
       "searchText": "abap - keyword documentation / abap programming guidelines / structure and style / formatting the source code.",
-      "difficulty": "intermediate",
-      "category": "ui"
-    },
-    {
-      "title": "ABAP - Keyword Documentation / ABAP Programming Guidelines / Structure and Style / Naming",
-      "file": "bundles/abap-keyword-documentation-abap-programming-guidelines-structure-and-style-naming.md",
-      "count": 6,
-      "keywords": [
-        "programming",
-        "guidelines",
-        "structure",
-        "style",
-        "naming"
-      ],
-      "topics": [],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap programming guidelines / structure and style / naming",
       "difficulty": "intermediate",
       "category": "ui"
     },
@@ -11515,28 +11875,6 @@
       "category": "ui"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP Programming Guidelines / Robust ABAP / Data Types and Data Objects",
-      "file": "bundles/abap-keyword-documentation-abap-programming-guidelines-robust-abap-data-types-and-data-objects.md",
-      "count": 13,
-      "keywords": [
-        "programming",
-        "guidelines",
-        "robust",
-        "data",
-        "types",
-        "data",
-        "objects"
-      ],
-      "topics": [
-        "types",
-        "objects"
-      ],
-      "statements": [],
-      "searchText": "abap - keyword documentation / abap programming guidelines / robust abap / data types and data objects",
-      "difficulty": "intermediate",
-      "category": "oop"
-    },
-    {
       "title": "ABAP - Keyword Documentation / ABAP Programming Guidelines / Robust ABAP / Assignments, Calculations, and Other Types of Data Access",
       "file": "bundles/abap-keyword-documentation-abap-programming-guidelines-robust-abap-assignments-calculations-and-othe.md",
       "count": 13,
@@ -11647,9 +11985,9 @@
       "category": "ui"
     },
     {
-      "title": "ABAP - Keyword Documentation / ABAP - Security Notes / Security Risks Caused by Input from Outside",
-      "file": "bundles/abap-keyword-documentation-abap-security-notes-security-risks-caused-by-input-from-outside.md",
-      "count": 13,
+      "title": "ABAP - Keyword Documentation / ABAP - Security Notes / Security Risks Caused by Input from Outside / SQL Injections",
+      "file": "bundles/abap-keyword-documentation-abap-security-notes-security-risks-caused-by-input-from-outside-sql-injec.md",
+      "count": 6,
       "keywords": [
         "security",
         "notes",
@@ -11658,13 +11996,17 @@
         "caused",
         "input",
         "from",
-        "outside"
+        "outside",
+        "sql",
+        "injections"
       ],
-      "topics": [],
+      "topics": [
+        "sql"
+      ],
       "statements": [],
-      "searchText": "abap - keyword documentation / abap - security notes / security risks caused by input from outside",
+      "searchText": "abap - keyword documentation / abap - security notes / security risks caused by input from outside / sql injections",
       "difficulty": "intermediate",
-      "category": "general"
+      "category": "database"
     },
     {
       "title": "ABAP - Keyword Documentation / ABAP - Security Notes / Further Security Risks",
@@ -11689,8 +12031,8 @@
       "title": "ABAP GENERAL - Complete Reference",
       "file": "mega-bundles/abap-general-complete.md",
       "category": "general",
-      "bundleCount": 138,
-      "totalFiles": 917,
+      "bundleCount": 130,
+      "totalFiles": 695,
       "keywords": [
         "overview",
         "programs",
@@ -11728,12 +12070,17 @@
         "inline",
         "local",
         "typing",
+        "addition",
+        "checking",
         "calling",
         "leaving",
         "units",
         "transactions",
         "call",
         "transaction",
+        "standard",
+        "using",
+        "examples",
         "processing",
         "external",
         "procedure",
@@ -11757,8 +12104,6 @@
         "log_exp",
         "logical",
         "rel_exp",
-        "comparison",
-        "relational",
         "predicates",
         "predicate",
         "predicative",
@@ -11771,6 +12116,9 @@
         "interruption",
         "conditional",
         "iteration",
+        "reduce",
+        "reduction",
+        "operator",
         "internal",
         "data",
         "assignments",
@@ -11780,7 +12128,6 @@
         "conversions",
         "performance",
         "notes",
-        "operator",
         "conv",
         "assigning",
         "structure",
@@ -11796,6 +12143,7 @@
         "dynamic_dobj",
         "casting_spec",
         "lossless",
+        "exact",
         "special",
         "initializations",
         "numeric",
@@ -11814,8 +12162,6 @@
         "behavior",
         "string_exp",
         "templates",
-        "embedded_expressions",
-        "examples",
         "note",
         "description",
         "like",
@@ -11838,7 +12184,6 @@
         "mesh_path",
         "path",
         "result",
-        "using",
         "loop",
         "insert",
         "modify",
@@ -11856,14 +12201,16 @@
         "message",
         "language",
         "environment",
+        "settings",
+        "formatting",
         "editing",
         "testing",
-        "checking",
         "checkpoints",
         "runtime",
         "measurements",
         "unit",
         "test",
+        "seams",
         "generate",
         "subroutine",
         "pool",
@@ -11882,8 +12229,11 @@
         "storage",
         "loading",
         "leave",
+        "relational",
         "calculation",
         "extracts",
+        "sort",
+        "extract",
         "access",
         "contexts",
         "user",
@@ -11893,39 +12243,9 @@
         "release",
         "specific",
         "changes",
-        "releases",
-        "7.5x",
-        "7.52",
-        "7.51",
-        "7.50",
-        "7.40",
-        "its",
-        "sps",
-        "7.40,",
-        "sp10",
-        "sp08",
-        "sp05",
-        "7.0",
-        "ehps",
-        "7.0,",
-        "ehp3",
-        "7.3,",
-        "ehp1",
-        "6.xx",
-        "6.40",
-        "6.20",
-        "4.xx",
-        "4.6c",
-        "4.6a",
-        "4.0",
-        "4.5",
         "security",
-        "risks",
-        "caused",
-        "input",
-        "from",
-        "outside",
-        "further"
+        "further",
+        "risks"
       ],
       "difficulty": "comprehensive"
     },
@@ -11933,8 +12253,8 @@
       "title": "ABAP OOP - Complete Reference",
       "file": "mega-bundles/abap-oop-complete.md",
       "category": "oop",
-      "bundleCount": 128,
-      "totalFiles": 728,
+      "bundleCount": 135,
+      "totalFiles": 620,
       "keywords": [
         "dictionary",
         "classic",
@@ -11964,6 +12284,8 @@
         "objects,",
         "functions,",
         "constructors",
+        "system",
+        "fields",
         "built",
         "functions",
         "declarations",
@@ -11978,6 +12300,7 @@
         "struct_type",
         "mesh",
         "mesh_type",
+        "tabkeys",
         "lob",
         "handle",
         "literals",
@@ -11990,6 +12313,7 @@
         "inheritance",
         "examples",
         "class",
+        "definition",
         "attributes",
         "events",
         "implementing",
@@ -12034,7 +12358,6 @@
         "handling",
         "based",
         "exceptions",
-        "system",
         "response",
         "after",
         "raise",
@@ -12046,7 +12369,6 @@
         "conversion",
         "numeric",
         "source",
-        "fields",
         "character",
         "byte",
         "date",
@@ -12059,6 +12381,9 @@
         "string",
         "enumerated",
         "describe",
+        "field",
+        "distance",
+        "variant",
         "rtts",
         "runtime",
         "services",
@@ -12072,6 +12397,8 @@
         "text",
         "repositories",
         "messages",
+        "if_t100_message",
+        "if_t100_dyn_msg",
         "communication",
         "rfc",
         "remote",
@@ -12092,13 +12419,13 @@
         "push",
         "adf",
         "daemon",
+        "daemons",
         "xml",
         "libraries",
         "ixml",
         "library",
         "parse",
         "dom",
-        "library,",
         "sxml",
         "render",
         "transformations",
@@ -12128,9 +12455,13 @@
         "asxml",
         "canonical",
         "representation",
+        "named",
+        "anonymous",
+        "instances",
         "asxml,",
         "mappings",
         "json",
+        "asjson",
         "ole",
         "operating",
         "statement",
@@ -12147,8 +12478,17 @@
         "hide",
         "list",
         "buffer",
+        "read",
+        "line",
+        "modify",
+        "scroll",
         "displaying",
+        "leave",
+        "window",
+        "get",
+        "cursor",
         "spooling",
+        "spool",
         "event",
         "blocks",
         "obsolete",
@@ -12158,8 +12498,7 @@
         "programming",
         "guidelines",
         "architecture",
-        "oriented",
-        "robust"
+        "oriented"
       ],
       "difficulty": "comprehensive"
     },
@@ -12167,8 +12506,8 @@
       "title": "ABAP DATABASE - Complete Reference",
       "file": "mega-bundles/abap-database-complete.md",
       "category": "database",
-      "bundleCount": 56,
-      "totalFiles": 336,
+      "bundleCount": 59,
+      "totalFiles": 289,
       "keywords": [
         "dictionary",
         "classic",
@@ -12178,6 +12517,8 @@
         "technical",
         "attributes",
         "semantic",
+        "table",
+        "specific",
         "global",
         "temporary",
         "pooled",
@@ -12200,7 +12541,6 @@
         "open",
         "sql",
         "overview",
-        "table",
         "buffering",
         "release",
         "dependent",
@@ -12267,31 +12607,45 @@
         "method",
         "procedure,",
         "function",
-        "macros",
+        "script",
         "sap",
         "hana",
+        "macros",
         "access",
         "xsc",
+        "procedure",
+        "proxies",
+        "sqlscript",
         "hana,",
         "object",
         "services",
-        "persistence",
-        "service",
         "transaction",
+        "service",
         "query",
         "consistency",
         "luw",
+        "luw,",
         "locks",
         "obsolete",
         "language",
         "elements",
+        "short",
+        "forms",
         "logical",
         "databases",
         "components",
+        "further",
         "interface",
         "work",
         "areas",
-        "use"
+        "use",
+        "security",
+        "notes",
+        "risks",
+        "caused",
+        "input",
+        "outside",
+        "injections"
       ],
       "difficulty": "comprehensive"
     },
@@ -12299,16 +12653,18 @@
       "title": "ABAP CDS - Complete Reference",
       "file": "mega-bundles/abap-cds-complete.md",
       "category": "cds",
-      "bundleCount": 20,
-      "totalFiles": 96,
+      "bundleCount": 21,
+      "totalFiles": 83,
       "keywords": [
         "dictionary",
         "cds",
         "syntax",
         "annotations",
         "definition",
-        "specifying",
+        "ddl",
         "annotation",
+        "definitions",
+        "specifying",
         "metadata",
         "extensions",
         "evaluation",
@@ -12316,17 +12672,16 @@
         "framework",
         "specific",
         "data",
-        "definitions",
         "views",
         "client",
         "handling",
-        "ddl",
         "define",
         "view",
         "select",
         "select,",
         "data_source",
         "association",
+        "path_expr",
         "select_list",
         "clauses",
         "operands",
@@ -12344,7 +12699,9 @@
         "role",
         "role,",
         "access_rules",
-        "condition"
+        "condition",
+        "literal_condition",
+        "pfcg_condition"
       ],
       "difficulty": "comprehensive"
     },
@@ -12352,8 +12709,8 @@
       "title": "ABAP DATA-STRUCTURES - Complete Reference",
       "file": "mega-bundles/abap-data-structures-complete.md",
       "category": "data-structures",
-      "bundleCount": 34,
-      "totalFiles": 172,
+      "bundleCount": 35,
+      "totalFiles": 164,
       "keywords": [
         "dictionary",
         "cds",
@@ -12389,6 +12746,9 @@
         "processing",
         "overview",
         "keys",
+        "primary",
+        "key",
+        "secondary",
         "statements",
         "read",
         "itab",
@@ -12402,8 +12762,8 @@
         "collect",
         "append",
         "modify",
-        "delete",
         "itab_line",
+        "delete",
         "itab_lines",
         "duplicates",
         "sort",
@@ -12446,8 +12806,8 @@
       "title": "ABAP UI - Complete Reference",
       "file": "mega-bundles/abap-ui-complete.md",
       "category": "ui",
-      "bundleCount": 66,
-      "totalFiles": 485,
+      "bundleCount": 64,
+      "totalFiles": 438,
       "keywords": [
         "dictionary",
         "cds",
@@ -12540,7 +12900,6 @@
         "formatting",
         "source",
         "code.",
-        "naming",
         "comments",
         "procedure",
         "code",
@@ -12568,14 +12927,16 @@
       "title": "ABAP TYPES - Complete Reference",
       "file": "mega-bundles/abap-types-complete.md",
       "category": "types",
-      "bundleCount": 3,
-      "totalFiles": 19,
+      "bundleCount": 6,
+      "totalFiles": 23,
       "keywords": [
         "dictionary",
         "predefined",
         "data",
         "types",
         "attributes",
+        "general",
+        "special",
         "reference",
         "program",
         "flow",
@@ -12587,6 +12948,11 @@
         "logical",
         "rel_exp",
         "comparison",
+        "relational",
+        "operators",
+        "all",
+        "character",
+        "like",
         "rules",
         "comparing",
         "elementary",
@@ -12655,10 +13021,5 @@
         "types"
       ]
     }
-  ],
-  "stats": {
-    "bundlesFixed": 37,
-    "megaBundlesCreated": 8,
-    "quickRefsCreated": 2
-  }
+  ]
 }

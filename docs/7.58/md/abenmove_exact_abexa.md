@@ -1,4 +1,14 @@
-  
+---
+title: "Lossless Assignment"
+description: |
+  This example demonstrates how the operator EXACT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_exact.htm) is used to make lossless assignments. Source Code  Public class definition CLASS cl_demo_move_exact DEFINITION INHERITING FROM cl_demo_classrun P
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmove_exact_abexa.htm"
+abapFile: "abenmove_exact_abexa.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abenmove", "exact", "abexa"]
+---
 
 * * *
 

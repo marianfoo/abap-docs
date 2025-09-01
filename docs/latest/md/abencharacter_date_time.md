@@ -1,4 +1,14 @@
-  
+---
+title: "Date Fields and Time Fields"
+description: |
+  The ABAP types d(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_date_time.htm) and t(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_date_time.htm) are built-in types for data objects that specify dates and times. The date type
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_date_time.htm"
+abapFile: "abencharacter_date_time.htm"
+keywords: ["do", "if", "data", "types", "abencharacter", "date", "time"]
+---
 
 * * *
 

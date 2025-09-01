@@ -1,4 +1,14 @@
-  
+---
+title: "Language of Comments"
+description: |
+  Background The natural language that has established itself worldwide for computer programming is English. This is because the language elements in all significant programming languages have been taken from English and their syntax based on English grammar. ABAP is no exception. In fact, efforts hav
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_langu_guidl.htm"
+abapFile: "abencomment_langu_guidl.htm"
+keywords: ["do", "while", "if", "case", "try", "abencomment", "langu", "guidl"]
+---
 
 * * *
 

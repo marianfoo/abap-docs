@@ -1,4 +1,14 @@
-  
+---
+title: "delayed_update_glosry"
+description: |
+  delayed_update_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendelayed_update_glosry.htm"
+abapFile: "abendelayed_update_glosry.htm"
+keywords: ["update", "do", "if", "try", "data", "internal-table", "field-symbol", "abendelayed", "glosry"]
+---
 
 * * *
 

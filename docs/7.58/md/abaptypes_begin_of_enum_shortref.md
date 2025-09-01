@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES BEGIN OF ENUM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_enum.htm) Syntax TYPES BEGIN OF ENUM enum_type .... val1 ..., val2 ..., ... TYPES END OF ENUM enum_type .... Effect Defines an enumerated type enum_type.
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_begin_of_enum_shortref.htm"
+abapFile: "abaptypes_begin_of_enum_shortref.htm"
+keywords: ["do", "if", "types", "abaptypes", "begin", "enum", "shortref"]
+---
 
 * * *
 

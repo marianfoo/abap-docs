@@ -1,4 +1,14 @@
-  
+---
+title: "Use of the Built-In Dictionary Types"
+description: |
+  The built-in types(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) in ABAP Dictionary are used for the definition of the elementary parts of all data types, including reference types in ABAP Dictionary, and for specifying some types in Open SQL and ABAP CDS.
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_type_usage.htm"
+abapFile: "abenddic_builtin_type_usage.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "builtin", "type", "usage"]
+---
 
 * * *
 

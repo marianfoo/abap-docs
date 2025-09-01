@@ -1,4 +1,14 @@
-  
+---
+title: "Extremum Functions nmax, nmin"
+description: |
+  This example demonstrates the extremum functions nmax(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennmax_nmin_functions.htm) and nmin(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennmax_nmin_functions.htm). Source Code REPORT demo_nmax_nmin. CLASS demo DEFINITI
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennmax_nmin_function_abexa.htm"
+abapFile: "abennmax_nmin_function_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abennmax", "nmin", "function", "abexa"]
+---
 
 * * *
 

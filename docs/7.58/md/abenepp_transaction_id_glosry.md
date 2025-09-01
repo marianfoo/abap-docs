@@ -1,4 +1,14 @@
-  
+---
+title: "EPP transaction ID"
+description: |
+  Component of an extended passport (EPP)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenepp_glosry.htm 'Glossary Entry'). ID of the current SAP-LUW(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_glosry.htm 'Glossary Entry'). → More about(https://help.sap.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenepp_transaction_id_glosry.htm"
+abapFile: "abenepp_transaction_id_glosry.htm"
+keywords: ["do", "if", "try", "abenepp", "transaction", "glosry"]
+---
 
 * * *
 

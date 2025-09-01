@@ -1,4 +1,14 @@
-  
+---
+title: "Grouping Internal Tables"
+description: |
+  Similar to SQL's GROUP BY(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapgroupby_clause.htm), there is also a GROUP BY(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) for working with internal tables, that can be used behind LOOP AT itab
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_grouping_iitabs.htm"
+abapFile: "abapsheets_grouping_iitabs.htm"
+keywords: ["insert", "loop", "do", "while", "if", "case", "data", "internal-table", "abapsheets", "grouping", "iitabs"]
+---
 
 * * *
 
@@ -17,10 +27,8 @@ While there are may examples for all the powerful features of GROUP BY and IN GR
 
 the following explains the grouping of internal tables step by step using a very simple case of an internal table spfli\_tab that is filled with data from the database table SPFLI. The following steps show how the contents of the internal table can be grouped using [LOOP AT GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm):
 
--   [Grouping by One Column](#@@ITOC@@ABAPSHEETS_GROUPING_IITABS_1)
--   [Grouping by More Than One Column](#@@ITOC@@ABAPSHEETS_GROUPING_IITABS_2)
--   [Group Key Binding when Grouping by One Column](#@@ITOC@@ABAPSHEETS_GROUPING_IITABS_3)
--   [Group Key Binding when Grouping by More Than One Column](#@@ITOC@@ABAPSHEETS_GROUPING_IITABS_4)
+-   [Grouping by One Column](#abapsheets-grouping-iitabs-1-------grouping-by-more-than-one-column---@ITOC@@ABAPSHEETS_GROUPING_IITABS_2)
+-   [Group Key Binding when Grouping by One Column](#abapsheets-grouping-iitabs-3-------group-key-binding-when-grouping-by-more-than-one-column---@ITOC@@ABAPSHEETS_GROUPING_IITABS_4)
 -   [Demonstration Program](#@@ITOC@@ABAPSHEETS_GROUPING_IITABS_5)
 
 Grouping by One Column

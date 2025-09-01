@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Overview"
+description: |
+  ABAP Objects is the object-oriented part of ABAP. ABAP Objects adds a complete set of language elements(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobjects_keywords.htm) to ABAP, which was previously only a procedural language, that allow object-oriented programming(https://he
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_objects_oview.htm"
+abapFile: "abenabap_objects_oview.htm"
+keywords: ["do", "method", "class", "data", "abenabap", "objects", "oview"]
+---
 
 * * *
 

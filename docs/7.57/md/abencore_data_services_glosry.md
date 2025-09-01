@@ -1,4 +1,14 @@
-  
+---
+title: "Core Data Services"
+description: |
+  Infrastructure for defining and consuming semantically rich data models. Currently, there are two versions: -   ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_core_data_services_glosry.htm 'Glossary Entry') for AS ABAP(https://help.sap.com/doc/abapdocu_757_index_htm
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencore_data_services_glosry.htm"
+abapFile: "abencore_data_services_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencore", "services", "glosry"]
+---
 
 * * *
 

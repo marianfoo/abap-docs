@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenddic_structures_tech.htm
 
-  
+---
+title: "DDIC - Technical Properties of Structures"
+description: |
+  A DDIC structure describes a structure type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructured_type_glosry.htm 'Glossary Entry') that consists of components and has the following technical properties: -   Component name The name of a component can have a maximum of 30 charac
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures_tech.htm"
+abapFile: "abenddic_structures_tech.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "tech"]
+---
 
 * * *
 
@@ -52,7 +62,17 @@ Continue
 
 ### abenddic_structures_enh_cat.htm
 
-  
+---
+title: "DDIC - Enhancement Category of Structures"
+description: |
+  DDIC structures and DDIC database tables that are delivered by SAP can be extended using customizing includes(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencustomizing_include_glosry.htm 'Glossary Entry') or append structures(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures_enh_cat.htm"
+abapFile: "abenddic_structures_enh_cat.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abenddic", "structures", "enh", "cat"]
+---
 
 * * *
 

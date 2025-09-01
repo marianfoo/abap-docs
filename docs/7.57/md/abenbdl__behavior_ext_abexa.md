@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Behavior Extension"
+description: |
+  This example demonstrates how the behavior of a RAP BO is extended by means of a BDEF extension. Original RAP BO Data model The CDS data model consists of one root node without child entities: @AccessControl.authorizationCheck: #NOT_REQUIRED @EndUserText.label: 'CDS view entity, beh ext' define roo
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl__behavior_ext_abexa.htm"
+abapFile: "abenbdl__behavior_ext_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "method", "class", "data", "abenbdl", "behavior", "ext", "abexa"]
+---
 
 * * *
 

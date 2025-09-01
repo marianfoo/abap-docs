@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_corresponding_class_strtb. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, BEGIN OF line2, col2 TYPE i, col3 TYPE i, END OF line2. DATA: BEGIN OF struc1, itab TY
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_abap_corr_deep_abexa.htm"
+abapFile: "abencl_abap_corr_deep_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "abencl", "abap", "corr", "deep", "abexa"]
+---
 
 * * *
 

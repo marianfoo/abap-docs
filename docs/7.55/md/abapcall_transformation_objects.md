@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSFORMATION, OBJECTS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_shortref.htm) Obsolete Syntax ... OBJECTS o1 = e1 o2 = e2 ...(otab) ... Effect This addition of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_objects.htm"
+abapFile: "abapcall_transformation_objects.htm"
+keywords: ["do", "try", "method", "data", "internal-table", "abapcall", "transformation", "objects"]
+---
 
 * * *
 

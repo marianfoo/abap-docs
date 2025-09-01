@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Simple Managed RAP Business Object"
+description: |
+  This example demonstrates a simple managed RAP business object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry') and uses EML(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm 'Glossary Entry') to access it. Data model
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_simple_managed_bo_abexa.htm"
+abapFile: "abencds_simple_managed_bo_abexa.htm"
+keywords: ["select", "update", "do", "if", "try", "method", "class", "data", "internal-table", "abencds", "simple", "managed", "abexa"]
+---
 
 * * *
 

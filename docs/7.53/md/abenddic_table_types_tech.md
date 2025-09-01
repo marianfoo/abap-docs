@@ -1,4 +1,14 @@
-  
+---
+title: "Technical Attributes of Table Types"
+description: |
+  A table type describes an internal table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_glosry.htm 'Glossary Entry') with the following technical attributes: -   Row type The row type can be defined as follows: -   Any row type can be defined by referencing any data
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_table_types_tech.htm"
+abapFile: "abenddic_table_types_tech.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenddic", "table", "tech"]
+---
 
 * * *
 

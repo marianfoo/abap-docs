@@ -1,4 +1,14 @@
-  
+---
+title: "Inverse Reads on Internal Table without STEP"
+description: |
+  This example demonstrates a table reduction(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_reduction_glosry.htm 'Glossary Entry') implemented by a conditional iteration. Source Code  Public class definition CLASS cl_demo_for_reverse_iteration DEFINITION INHERITING
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninverse_itab_for_abexa.htm"
+abapFile: "abeninverse_itab_for_abexa.htm"
+keywords: ["do", "while", "if", "try", "method", "class", "data", "internal-table", "abeninverse", "itab", "for", "abexa"]
+---
 
 * * *
 

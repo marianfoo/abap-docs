@@ -1,4 +1,14 @@
-  
+---
+title: "External Views"
+description: |
+  An external view is a special view in ABAP Dictionary that defines(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexternal_views.htm) an SAP HANA View(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_view_glosry.htm 'Glossary Entry') in SAP HANA XSC(https://h
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_external_views.htm"
+abapFile: "abenddic_external_views.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenddic", "external", "views"]
+---
 
 * * *
 

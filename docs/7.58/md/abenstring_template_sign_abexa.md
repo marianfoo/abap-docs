@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_str_template_sign DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_str_template_sign IMPLEMENTATION. METHOD main. DATA: num1    TYPE i
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_sign_abexa.htm"
+abapFile: "abenstring_template_sign_abexa.htm"
+keywords: ["delete", "loop", "do", "if", "case", "method", "class", "data", "abenstring", "template", "sign", "abexa"]
+---
 
 * * *
 

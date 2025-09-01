@@ -1,4 +1,14 @@
-  
+---
+title: "screen_list_glosry"
+description: |
+  screen_list_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_list_glosry.htm"
+abapFile: "abenscreen_list_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenscreen", "list", "glosry"]
+---
 
 * * *
 

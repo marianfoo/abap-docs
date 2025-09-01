@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Exposing Associations with a Redirect"
+description: |
+  This example demonstrates the addition REDIRECTED of WITH ASSOCIATIONS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations.htm) for common table expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommon_table_expression_glosry.htm 'G
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwith_assocs_redirect_abexa.htm"
+abapFile: "abenwith_assocs_redirect_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abenwith", "assocs", "redirect", "abexa"]
+---
 
 * * *
 

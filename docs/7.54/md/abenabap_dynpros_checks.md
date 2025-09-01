@@ -1,4 +1,14 @@
-  
+---
+title: "Input Checks"
+description: |
+  Dynpros enables input values to be checked in the following ways: -   Automatic input checks(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks_auto.htm) -   Input checks in dialog modules(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks.htm"
+abapFile: "abenabap_dynpros_checks.htm"
+keywords: ["select", "do", "abenabap", "dynpros", "checks"]
+---
 
 * * *
 

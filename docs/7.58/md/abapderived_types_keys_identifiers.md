@@ -1,4 +1,14 @@
-  
+---
+title: "Using Keys and Identifying RAP BO Instances in a Nutshell"
+description: |
+  The following bullet points outline the most important aspects regarding keys and identifying RAP BO instances(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm 'Glossary Entry') in ABAP EML statements. Why is it important? -   The primary key(https://help
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_keys_identifiers.htm"
+abapFile: "abapderived_types_keys_identifiers.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "data", "types", "abapderived", "keys", "identifiers"]
+---
 
 * * *
 

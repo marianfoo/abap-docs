@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES - LOB HANDLE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_shortref.htm) Syntax TYPES dtype TYPE dbtabview lob_handle_type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle_type.htm) FOR lob_handle_columns(https://help.sap.com/doc/
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm"
+abapFile: "abaptypes_lob_handle.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "abaptypes", "lob", "handle"]
+---
 
 * * *
 

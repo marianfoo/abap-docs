@@ -1,4 +1,14 @@
-  
+---
+title: "user_master_record_glosry"
+description: |
+  user_master_record_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_master_record_glosry.htm"
+abapFile: "abenuser_master_record_glosry.htm"
+keywords: ["do", "if", "try", "abenuser", "master", "record", "glosry"]
+---
 
 * * *
 

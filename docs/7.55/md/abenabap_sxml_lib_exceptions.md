@@ -1,4 +1,14 @@
-  
+---
+title: "abap_sxml_lib_exceptions"
+description: |
+  abap_sxml_lib_exceptions - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib_exceptions.htm"
+abapFile: "abenabap_sxml_lib_exceptions.htm"
+keywords: ["do", "class", "data", "types", "abenabap", "sxml", "lib", "exceptions"]
+---
 
 * * *
 

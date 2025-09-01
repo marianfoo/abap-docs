@@ -1,4 +1,14 @@
-  
+---
+title: "SAP GUI"
+description: |
+  Software component which is installed on the presentation server(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpresentation_server_glosry.htm 'Glossary Entry') of an AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry').
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_gui_glosry.htm"
+abapFile: "abensap_gui_glosry.htm"
+keywords: ["do", "if", "try", "abensap", "gui", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "message_maintenance_glosry"
+description: |
+  message_maintenance_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_maintenance_glosry.htm"
+abapFile: "abenmessage_maintenance_glosry.htm"
+keywords: ["do", "if", "try", "abenmessage", "maintenance", "glosry"]
+---
 
 * * *
 

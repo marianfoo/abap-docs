@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  -   The asXML representation of reference variables and referenced objects is only of relevance for XSL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenid_trafo_glosry.htm 'Glossary Entry') transformations and the identity transformation ID. You cannot currently use simple transform
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_references.htm"
+abapFile: "abenabap_xslt_asxml_references.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenabap", "xslt", "asxml", "references"]
+---
 
 * * *
 

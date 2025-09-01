@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation, Structures"
+description: |
+  This example demonstrates the symmetrical serialization and deserialization of a nested structure. Source Code REPORT demo_st_structure. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: BEGIN OF struc1, col1 TYPE c LENGTH 10 VALUE '
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_structure_abexa.htm"
+abapFile: "abenst_structure_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenst", "structure", "abexa"]
+---
 
 * * *
 

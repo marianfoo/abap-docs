@@ -1,4 +1,14 @@
-  
+---
+title: "CALL METHOD, OLE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_of_ole_shortref.htm) Syntax CALL METHOD OF ole meth = rc EXPORTING p1 = f1 p2 = f2 ... NO FLUSH QUEUE-ONLY. Additions: 1.... EXPORTING p1 = f1 p2 = f2 ...(#!ABAP_ADDITION_1
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_ole2.htm"
+abapFile: "abapcall_method_ole2.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "abapcall", "ole2"]
+---
 
 * * *
 

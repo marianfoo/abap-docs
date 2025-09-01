@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenabap_context.htm
 
-  
+---
+title: "ABAP - ABAP Context"
+description: |
+  The following subjects introduce the context of ABAP developments. -   ABAP Platform(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform.htm) -   ABAP Language Versions, Release Contracts and Released APIs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenab
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_context.htm"
+abapFile: "abenabap_context.htm"
+keywords: ["do", "if", "abenabap", "context"]
+---
 
 * * *
 
@@ -29,7 +39,17 @@ Continue
 
 ### abenabap_platform.htm
 
-  
+---
+title: "ABAP Platform"
+description: |
+  An ABAP Platform(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform_glosry.htm 'Glossary Entry') is a technical platform for SAP products such as SAP Business Technology Platform (SAP BTP)(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_btp_glosry.htm
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform.htm"
+abapFile: "abenabap_platform.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "platform"]
+---
 
 * * *
 
@@ -68,10 +88,8 @@ An ABAP Platform provides an [ABAP development environment (ABAP DE)](https://he
 
 There are mainly two usage types of ABAP Platforms that differ in their programming paradigms.
 
--   [ABAP Platform for ABAP Cloud](#@@ITOC@@ABENABAP_PLATFORM_1)
-    -   [SAP BTP ABAP Environment](#@@ITOC@@ABENABAP_PLATFORM_2)
-    -   [ABAP Platform Cloud](#@@ITOC@@ABENABAP_PLATFORM_3)
--   [ABAP Platform for Classic ABAP](#@@ITOC@@ABENABAP_PLATFORM_4)
+-   [ABAP Platform for ABAP Cloud](#abenabap-platform-1-----------sap-btp-abap-environment---@ITOC@@ABENABAP_PLATFORM_2)
+    -   [ABAP Platform Cloud](#abenabap-platform-3-------abap-platform-for-classic-abap---@ITOC@@ABENABAP_PLATFORM_4)
 
 Hint
 
@@ -128,7 +146,17 @@ The obsolete [Non-Unicode ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/
 
 ### abenabap_versions_and_apis.htm
 
-  
+---
+title: "ABAP Language Versions, Release Contracts and Released APIs"
+description: |
+  ABAP supports two main programming paradigms: -   ABAP Cloud(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cloud_glosry.htm 'Glossary Entry') -   Classic ABAP(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_abap_glosry.htm 'Glossary Entry') While in c
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_and_apis.htm"
+abapFile: "abenabap_versions_and_apis.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "class", "data", "abenabap", "versions", "and", "apis"]
+---
 
 * * *
 
@@ -148,8 +176,7 @@ ABAP supports two main programming paradigms:
 
 While in classic ABAP there is unrestricted access to an [ABAP Platform](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform_glosry.htm "Glossary Entry"), in ABAP Cloud there are restrictions regarding ABAP language versions and access to APIs explained in the following topics.
 
--   [ABAP Language Versions](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_1)
--   [Release Contracts](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
+-   [ABAP Language Versions](#abenabap-versions-and-apis-1-------release-contracts---@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
 -   [Released APIs](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_3)
 
 ABAP Language Versions   

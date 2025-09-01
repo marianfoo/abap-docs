@@ -1,4 +1,14 @@
-  
+---
+title: "output_stream_glosry"
+description: |
+  output_stream_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoutput_stream_glosry.htm"
+abapFile: "abenoutput_stream_glosry.htm"
+keywords: ["do", "if", "try", "abenoutput", "stream", "glosry"]
+---
 
 * * *
 

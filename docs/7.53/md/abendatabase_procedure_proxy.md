@@ -1,4 +1,14 @@
-  
+---
+title: "Database Procedure Proxy"
+description: |
+  For each standalone SQL Script procedure(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_script_procedure_glosry.htm 'Glossary Entry') in the SAP HANA database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm 'Glossary Entry'), database p
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_procedure_proxy.htm"
+abapFile: "abendatabase_procedure_proxy.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "types", "abendatabase", "procedure", "proxy"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Conversion Functions for Units and Currencies"
+description: |
+  Syntax ... UNIT_CONVERSION( p1 => a1, p2 => a2, ... )  CURRENCY_CONVERSION( p1 => a1, p2 => a2, ... )  DECIMAL_SHIFT( p1 => a1, p2 => a2, ... ) ... Variants: 1. ... UNIT_CONVERSION( p1 => a1, p2 => a2, ... )(#!ABAP_VARIANT_1@1@) 2. ... CURRENCY_CONVERSION( p1 => a1, p2 => a2, ... )(
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conv_func_unit_curr.htm"
+abapFile: "abencds_f1_conv_func_unit_curr.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "conv", "func", "unit", "curr"]
+---
 
 * * *
 

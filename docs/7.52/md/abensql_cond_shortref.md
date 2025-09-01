@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  operand1 =EQ<>NE>GT<LT>=GE<=LE  operand2  ALLANYSOME subquery(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubquery_shortref.htm)   operand NOT BETWEEN operand1 AND operand2
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cond_shortref.htm"
+abapFile: "abensql_cond_shortref.htm"
+keywords: ["select", "do", "if", "try", "abensql", "cond", "shortref"]
+---
 
 * * *
 

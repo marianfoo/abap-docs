@@ -1,4 +1,14 @@
-  
+---
+title: "CPI-C Interface"
+description: |
+  This section describes cross-system communications between two ABAP programs which is implemented using the COMMUNICATION(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommunication.htm) statement. Hint SDK for CPI-C is no longer supported. The CPI-C libraries and the documentatio
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cpic.htm"
+abapFile: "abenabap_cpic.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "cpic"]
+---
 
 * * *
 

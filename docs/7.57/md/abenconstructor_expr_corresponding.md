@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING, Component Operator"
+description: |
+  Syntax Forms Basic Form(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding_constr_arg_type.htm) 1. ...  CORRESPONDING dtype#( EXACT DEEP structitab  duplicates(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorrespo
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expr_corresponding.htm"
+abapFile: "abenconstructor_expr_corresponding.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "field-symbol", "abenconstructor", "expr", "corresponding"]
+---
 
 * * *
 

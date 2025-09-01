@@ -1,4 +1,14 @@
-  
+---
+title: "MOVE-CORRESPONDING for Structures"
+description: |
+  This example demonstrates the statement MOVE-CORRESPONDING(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmove-corresponding.htm) for structures. Source Code REPORT demo_move_corresponding_struct. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. TYPES:
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmove_corresponding_struc_abexa.htm"
+abapFile: "abenmove_corresponding_struc_abexa.htm"
+keywords: ["select", "delete", "do", "if", "method", "class", "data", "types", "abenmove", "corresponding", "struc", "abexa"]
+---
 
 * * *
 

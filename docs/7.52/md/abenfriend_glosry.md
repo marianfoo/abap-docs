@@ -1,4 +1,14 @@
-  
+---
+title: "Friend"
+description: |
+  Term in ABAP Objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_glosry.htm 'Glossary Entry'). The additions FRIENDS(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_options.htm) and LOCAL FRIENDS(https://help.sap.com/doc/abapdocu_752_index_h
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfriend_glosry.htm"
+abapFile: "abenfriend_glosry.htm"
+keywords: ["do", "try", "class", "data", "abenfriend", "glosry"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 5
 
 ### abencheck_correctness_gdl.htm
 
-  
+---
+title: "Checks for Correctness"
+description: |
+  This section enhances the section Correctness and Quality(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencorrectness_quality_guidl.htm 'Guideline') by providing more information about static checks on ABAP programs. -   Syntax Check(https://help.sap.com/doc/abapdocu_756_index_htm
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencheck_correctness_gdl.htm"
+abapFile: "abencheck_correctness_gdl.htm"
+keywords: ["do", "if", "abencheck", "correctness", "gdl"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abensyntax_check_guidl.htm
 
-  
+---
+title: "Syntax Check"
+description: |
+  Background The syntax check provides syntax errors and syntax warnings: -   As soon as a syntax error occurs, the system stops the check and displays the relevant error message. In many cases, the system suggests a correction that can be applied. Programs with syntax errors can be activated, but the
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyntax_check_guidl.htm"
+abapFile: "abensyntax_check_guidl.htm"
+keywords: ["select", "do", "if", "case", "class", "data", "internal-table", "abensyntax", "check", "guidl"]
+---
 
 * * *
 
@@ -101,7 +121,17 @@ ASSIGN itab\[ KEY cities
 
 ### abenextended_program_check_guidl.htm
 
-  
+---
+title: "Extended Program Check"
+description: |
+  Background You can call the extended program check for activated programs either from ABAP Workbench or by using transaction SLIN. It performs static checks that are too complex for the regular syntax check. Both individual and multiple subtests can be performed, or an ATC-relevant check that includ
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextended_program_check_guidl.htm"
+abapFile: "abenextended_program_check_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "abenextended", "program", "check", "guidl"]
+---
 
 * * *
 
@@ -170,7 +200,17 @@ ENDIF.
 
 ### abencode_inspector_guidl.htm
 
-  
+---
+title: "Code Inspector"
+description: |
+  Background The Code Inspector tool performs a static check of repository objects regarding performance, security, syntax, and adherence to naming conventions. Transaction SCI can be called to use the full range of functions of Code Inspector to perform complex static checks and regular mass tests fo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencode_inspector_guidl.htm"
+abapFile: "abencode_inspector_guidl.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abencode", "inspector", "guidl"]
+---
 
 * * *
 
@@ -279,7 +319,17 @@ ENDCLASS.
 
 ### abenabap-testcockpit_guidl.htm
 
-  
+---
+title: "ABAP Test Cockpit"
+description: |
+  Background ABAP Test Cockpit (ATC) is a framework that is integrated into ABAP Workbench and the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm 'Glossary Entry'); it simplifies considerably the handling of the tests required during develo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap-testcockpit_guidl.htm"
+abapFile: "abenabap-testcockpit_guidl.htm"
+keywords: ["do", "if", "try", "abenabap", "testcockpit", "guidl"]
+---
 
 * * *
 

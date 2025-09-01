@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Work Areas in Statements"
+description: |
+  If the ABAP SQL statements -   SELECT or FETCH without the addition CORRESPONDING FIELDS, -   INSERT, UPDATE, MODIFY, or DELETE Specify work areas wa or internal tables itab as the target or source areas, the following prerequisites apply to the work area or row type of the internal table; if the pr
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_wa.htm"
+abapFile: "abenopen_sql_wa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "data", "types", "internal-table", "abenopen", "sql"]
+---
 
 * * *
 
@@ -16,9 +26,7 @@ If the ABAP SQL statements
 
 Specify work areas wa or internal tables itab as the target or source areas, the following prerequisites apply to the work area or row type of the internal table; if the prerequisites are ignored, a syntax error occurs or an exception is raised.
 
--   [Regular Work Areas](#@@ITOC@@ABENOPEN_SQL_WA_1)
-
--   [LOB Handle Structures](#@@ITOC@@ABENOPEN_SQL_WA_2)
+-   [Regular Work Areas](#abenopen-sql-wa-1--------lob-handle-structures---@ITOC@@ABENOPEN_SQL_WA_2)
 
 Regular Work Areas
 

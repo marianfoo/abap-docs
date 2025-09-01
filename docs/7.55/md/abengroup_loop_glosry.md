@@ -1,4 +1,14 @@
-  
+---
+title: "group_loop_glosry"
+description: |
+  group_loop_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengroup_loop_glosry.htm"
+abapFile: "abengroup_loop_glosry.htm"
+keywords: ["loop", "do", "try", "internal-table", "abengroup", "glosry"]
+---
 
 * * *
 

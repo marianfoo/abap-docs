@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, FROM JOIN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_shortref.htm) Syntax ... (  data_source(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_data_source.htm) AS tabaliasjoin INNER JOINLEFTRIGH
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_join.htm"
+abapFile: "abapselect_join.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abapselect", "join"]
+---
 
 * * *
 

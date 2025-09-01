@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP database schema"
+description: |
+  Database schema(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_schema_glosry.htm 'Glossary Entry') of the standard database(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_db_glosry.htm 'Glossary Entry') assigned to the database user na
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_db_schema_glosry.htm"
+abapFile: "abenabap_db_schema_glosry.htm"
+keywords: ["do", "if", "try", "method", "data", "abenabap", "schema", "glosry"]
+---
 
 * * *
 

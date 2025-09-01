@@ -1,4 +1,14 @@
-  
+---
+title: "Selection Screen Processing"
+description: |
+  Selection screen processing packages the dynpro flow logic(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_flow_logic_glosry.htm 'Glossary Entry') together with the sending of the selection screen(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_scre
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_events.htm"
+abapFile: "abenselection_screen_events.htm"
+keywords: ["select", "loop", "do", "if", "try", "abenselection", "screen", "events"]
+---
 
 * * *
 

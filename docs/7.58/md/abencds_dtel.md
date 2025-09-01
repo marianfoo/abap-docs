@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... data_element ... Effect A CDS simple type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_type_glosry.htm 'Glossary Entry') can be typed using a DDIC data element(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_element_glosry.htm 'Glossary Entry
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dtel.htm"
+abapFile: "abencds_dtel.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "dtel"]
+---
 
 * * *
 

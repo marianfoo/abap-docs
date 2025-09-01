@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax Forms in Open SQL"
+description: |
+  -   Blank-Separated Lists(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_lists_obsolete.htm) -   Obsolete Host Variables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_hostvar_obsolete.htm) Blank-Separated Lists(https://help.sap.com/doc/abapdoc
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_syntax_obsolete.htm"
+abapFile: "abenopen_sql_syntax_obsolete.htm"
+keywords: ["do", "data", "abenopen", "sql", "syntax", "obsolete"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT CONNECTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_rollback_connection.htm) Syntax COMMIT CONNECTION con. Effect Exits a database LUW(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_luw_glosry.htm 'Glossary Entry') on the specified connection
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_connection_shortref.htm"
+abapFile: "abapcommit_connection_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapcommit", "connection", "shortref"]
+---
 
 * * *
 

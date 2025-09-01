@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - GET PERMISSIONS, Dynamic Form"
+description: |
+  This example demonstrates the dynamic form of the GET PERMISSIONS statement using the addition ONLY INSTANCE FEATURES. Data model The CDS data model consists of the root entity DEMO_MANAGED_ROOT_3 and its child entity DEMO_MANAGED_CHILD_3. Root entity: @AccessControl.authorizationCheck: #NOT_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenget_perm_dyn_form_abexa.htm"
+abapFile: "abenget_perm_dyn_form_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenget", "perm", "dyn", "form", "abexa"]
+---
 
 * * *
 

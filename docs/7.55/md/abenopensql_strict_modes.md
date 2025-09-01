@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Release-Dependent Syntax Check Modes"
+description: |
+  In Release 7.40, SP02, a new SQL parser for ABAP SQL was introduced, used for both statically specified ABAP SQL statements and for dynamic tokens, and which applies some rules more strictly than the previous parser. In Release 7.40, SP02, the new parser was used only for the statement SELECT(http
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql_strict_modes.htm"
+abapFile: "abenopensql_strict_modes.htm"
+keywords: ["select", "do", "if", "try", "data", "abenopensql", "strict", "modes"]
+---
 
 * * *
 

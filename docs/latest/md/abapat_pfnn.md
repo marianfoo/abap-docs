@@ -1,4 +1,14 @@
-  
+---
+title: "AT PF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_pf_shortref.htm) Obsolete Syntax AT PFnn. Effect Reacts to an obsolete list event(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_event_glosry.htm 'Glossary Entry'). This obsolete stat
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_pfnn.htm"
+abapFile: "abapat_pfnn.htm"
+keywords: ["select", "do", "if", "try", "abapat", "pfnn"]
+---
 
 * * *
 

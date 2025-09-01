@@ -1,4 +1,14 @@
-  
+---
+title: "Assigning Structure Components"
+description: |
+  The following special language constructs are used to assign components from structures or columns of internal tables: -   MOVE-CORRESPONDING(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmove-corresponding.htm) for the assignment of identically named components. -   Component ope
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding.htm"
+abapFile: "abencorresponding.htm"
+keywords: ["do", "if", "class", "data", "internal-table", "abencorresponding"]
+---
 
 * * *
 

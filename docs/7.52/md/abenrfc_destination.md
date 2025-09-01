@@ -1,4 +1,14 @@
-  
+---
+title: "RFC Destination"
+description: |
+  The information about the target system of an RFC call is stored in the RFC destination. -   Static Destinations(#abenrfc-destination-1--------dynamic-destinations---@ITOC@@ABENRFC_DESTINATION_2) -   Predefined Destinations(#abenrfc-destination-3--------application-servers-as-destinations---@ITO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_destination.htm"
+abapFile: "abenrfc_destination.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenrfc", "destination"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ RFC Destination
 
 The information about the target system of an RFC call is stored in the RFC destination.
 
--   [Static Destinations](#@@ITOC@@ABENRFC_DESTINATION_1)
+-   [Static Destinations](#abenrfc-destination-1--------dynamic-destinations---@ITOC@@ABENRFC_DESTINATION_2)
 
--   [Dynamic Destinations](#@@ITOC@@ABENRFC_DESTINATION_2)
-
--   [Predefined Destinations](#@@ITOC@@ABENRFC_DESTINATION_3)
-
--   [Application Servers as Destinations](#@@ITOC@@ABENRFC_DESTINATION_4)
+-   [Predefined Destinations](#abenrfc-destination-3--------application-servers-as-destinations---@ITOC@@ABENRFC_DESTINATION_4)
 
 -   [More Information](#@@ITOC@@ABENRFC_DESTINATION_5)
 

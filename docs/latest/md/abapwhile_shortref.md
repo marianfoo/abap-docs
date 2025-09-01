@@ -1,4 +1,14 @@
-  
+---
+title: "WHILE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhile.htm) Syntax WHILE log_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlog_exp_shortref.htm) VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_bl
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhile_shortref.htm"
+abapFile: "abapwhile_shortref.htm"
+keywords: ["loop", "do", "while", "if", "data", "abapwhile", "shortref"]
+---
 
 * * *
 

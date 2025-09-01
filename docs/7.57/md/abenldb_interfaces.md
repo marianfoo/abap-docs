@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Interface Work Areas"
+description: |
+  The following statement declares an interface work area(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_work_area_glosry.htm 'Glossary Entry') intended for use with logical databases only: -   NODES(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapnodes.htm
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_interfaces.htm"
+abapFile: "abenldb_interfaces.htm"
+keywords: ["select", "do", "if", "try", "data", "abenldb", "interfaces"]
+---
 
 * * *
 

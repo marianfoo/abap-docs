@@ -1,4 +1,14 @@
-  
+---
+title: "internet_transac_server_glosry"
+description: |
+  internet_transac_server_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternet_transac_server_glosry.htm"
+abapFile: "abeninternet_transac_server_glosry.htm"
+keywords: ["do", "try", "data", "abeninternet", "transac", "server", "glosry"]
+---
 
 * * *
 

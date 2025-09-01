@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  <tt:cast to-ref='node'to-var='variable' ref='node'var='variable' /> Effect The statement tt:cast can be used to assign the content of one reference variable to another reference variable, if the static type of the source variable is more general than the static type of the targ
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_cast.htm"
+abapFile: "abenst_tt_cast.htm"
+keywords: ["do", "if", "case", "try", "data", "abenst", "cast"]
+---
 
 * * *
 

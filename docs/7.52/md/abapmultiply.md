@@ -1,4 +1,14 @@
-  
+---
+title: "MULTIPLY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmultiply_shortref.htm) Syntax MULTIPLY dobj1 BY dobj2. Effect This statement has the same effect as the statement dobj1 = dobj1  dobj2.(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_arith_exp
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmultiply.htm"
+abapFile: "abapmultiply.htm"
+keywords: ["do", "if", "try", "data", "abapmultiply"]
+---
 
 * * *
 

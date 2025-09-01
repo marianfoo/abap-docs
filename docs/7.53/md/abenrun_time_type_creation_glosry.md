@@ -1,4 +1,14 @@
-  
+---
+title: "run_time_type_creation_glosry"
+description: |
+  run_time_type_creation_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_creation_glosry.htm"
+abapFile: "abenrun_time_type_creation_glosry.htm"
+keywords: ["do", "try", "method", "class", "data", "types", "abenrun", "time", "type", "creation", "glosry"]
+---
 
 * * *
 

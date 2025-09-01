@@ -1,4 +1,14 @@
-  
+---
+title: "CDS association"
+description: |
+  An association(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassociation_glosry.htm 'Glossary Entry') of ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). Associations define join(https://help.sap.com/doc/abapdocu_75
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_glosry.htm"
+abapFile: "abencds_association_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "association", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Escape Character for Names"
+description: |
+  The character ! can be written directly before a name i order to distinguish it from an ABAP word(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_words.htm) of the same notation in a statement. With the exception of the first word, each word of a statement that is preceded by t
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennames_escaping.htm"
+abapFile: "abennames_escaping.htm"
+keywords: ["do", "if", "try", "abennames", "escaping"]
+---
 
 * * *
 

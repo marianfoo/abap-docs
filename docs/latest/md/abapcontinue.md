@@ -1,4 +1,14 @@
-  
+---
+title: "CONTINUE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontinue_shortref.htm) Syntax CONTINUE. Effect The statement CONTINUE may only be used in loops(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenloop_glosry.htm 'Glossary Entry'). If it is used
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontinue.htm"
+abapFile: "abapcontinue.htm"
+keywords: ["loop", "do", "if", "try", "data", "abapcontinue"]
+---
 
 * * *
 

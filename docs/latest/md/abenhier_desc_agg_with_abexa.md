@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_hrrchy_desc_with DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. PRIVATE SECTION. METHODS fill_table. ENDCLASS.  Public class implementation CLASS cl_demo_hrrchy_desc_with IMPLEMENTATIO
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhier_desc_agg_with_abexa.htm"
+abapFile: "abenhier_desc_agg_with_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenhier", "desc", "agg", "with", "abexa"]
+---
 
 * * *
 

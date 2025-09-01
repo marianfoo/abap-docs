@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Base BDEF Extension"
+description: |
+  A base BDEF extension(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_base_bdef_ext_glosry.htm 'Glossary Entry') is a repository object that extends a RAP behavior definition of type managed or unmanaged using the statement extension. As a prerequisite, the respective BDEF
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extensibility_managed_unm.htm"
+abapFile: "abenbdl_extensibility_managed_unm.htm"
+keywords: ["do", "if", "try", "abenbdl", "extensibility", "managed", "unm"]
+---
 
 * * *
 

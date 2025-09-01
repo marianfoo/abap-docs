@@ -1,4 +1,14 @@
-  
+---
+title: "SADL"
+description: |
+  Service Adaptation Definition Language. Infrastructure for model-based data reading and processing. More details can be found in Consuming Business Entities with SADL documentation on SAP Help Portal(http://help.sap.com).
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensadl_glosry.htm"
+abapFile: "abensadl_glosry.htm"
+keywords: ["do", "data", "abensadl", "glosry"]
+---
 
 * * *
 

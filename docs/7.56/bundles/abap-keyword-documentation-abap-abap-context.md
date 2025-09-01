@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenabap_context.htm
 
-  
+---
+title: "ABAP - ABAP Context"
+description: |
+  The following subjects introduce the context of ABAP developments. -   ABAP Platforms(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform.htm) -   ABAP Language Versions, Release Contracts and Released APIs(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abena
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_context.htm"
+abapFile: "abenabap_context.htm"
+keywords: ["do", "abenabap", "context"]
+---
 
 * * *
 
@@ -27,7 +37,17 @@ Continue
 
 ### abenabap_platform.htm
 
-  
+---
+title: "ABAP Platforms"
+description: |
+  An ABAP platform(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_glosry.htm 'Glossary Entry') is a technical platform for SAP products such as SAP S/4HANA(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_s4hana_glosry.htm 'Glossary Entry') or SAP B
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform.htm"
+abapFile: "abenabap_platform.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "types", "abenabap", "platform"]
+---
 
 * * *
 
@@ -64,10 +84,8 @@ An ABAP platform provides an [ABAP development environment (ABAP DE)](https://he
 
 There are mainly two types of ABAP Platforms that differ in their programming paradigms.
 
--   [ABAP Platform Classic](#@@ITOC@@ABENABAP_PLATFORM_1)
--   [ABAP Platform Strict](#@@ITOC@@ABENABAP_PLATFORM_2)
-    -   [SAP BTP ABAP Environment](#@@ITOC@@ABENABAP_PLATFORM_3)
-    -   [ABAP Platform Cloud](#@@ITOC@@ABENABAP_PLATFORM_4)
+-   [ABAP Platform Classic](#abenabap-platform-1-------abap-platform-strict---@ITOC@@ABENABAP_PLATFORM_2)
+    -   [SAP BTP ABAP Environment](#abenabap-platform-3-----------abap-platform-cloud---@ITOC@@ABENABAP_PLATFORM_4)
 
 ABAP Platform Classic
 
@@ -124,7 +142,17 @@ The program ABAP\_DOCU\_STEAMPUNK\_APIS shows the repository objects released as
 
 ### abenabap_versions_and_apis.htm
 
-  
+---
+title: "ABAP Language Versions, Release Contracts and Released APIs"
+description: |
+  ABAP can be developed on an ABAP platform classic(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_classic_glosry.htm 'Glossary Entry') or an ABAP platform strict(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_strict_glosry.htm 'Glossary
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_versions_and_apis.htm"
+abapFile: "abenabap_versions_and_apis.htm"
+keywords: ["do", "if", "case", "try", "class", "abenabap", "versions", "and", "apis"]
+---
 
 * * *
 
@@ -136,8 +164,7 @@ ABAP Language Versions, Release Contracts and Released APIs
 
 ABAP can be developed on an [ABAP platform classic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_classic_glosry.htm "Glossary Entry") or an [ABAP platform strict](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_strict_glosry.htm "Glossary Entry"). Especially for [strict ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstrict_abap_glosry.htm "Glossary Entry"), the following subjects are important:
 
--   [ABAP Language Versions](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_1)
--   [Release Contracts](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
+-   [ABAP Language Versions](#abenabap-versions-and-apis-1-------release-contracts---@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
 -   [Released APIs](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_3)
 
 ABAP Language Versions

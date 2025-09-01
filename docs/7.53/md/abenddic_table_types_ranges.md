@@ -1,4 +1,14 @@
-  
+---
+title: "Ranges Table Type"
+description: |
+  A ranges table type is a table type for a ranges table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm 'Glossary Entry'). A ranges table is a standard table with a standard key and a specially structured row type and can be used in general logical expressions
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_table_types_ranges.htm"
+abapFile: "abenddic_table_types_ranges.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenddic", "table", "ranges"]
+---
 
 * * *
 

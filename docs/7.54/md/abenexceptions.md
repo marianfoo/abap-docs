@@ -1,4 +1,14 @@
-  
+---
+title: "Class-Based Exceptions"
+description: |
+  Class-based exceptions are implemented as instances of exception classes(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_classes.htm). Exception classes are either predefined globally in the system or can be defined by the user (globally or locally). Class-based exception
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions.htm"
+abapFile: "abenexceptions.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "exception-handling", "abenexceptions"]
+---
 
 * * *
 

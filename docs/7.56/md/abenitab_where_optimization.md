@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  If the lines selected using WHERE are modified or deleted using MODIFY(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or DELETE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using LOOP AT(https://help.sap.com/
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_where_optimization.htm"
+abapFile: "abenitab_where_optimization.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abenitab", "where", "optimization"]
+---
 
 * * *
 
@@ -30,8 +40,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 
 The following sections describe exactly when an access can be optimized.
 
--   [Prerequisites for the Optimization of Hash Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
--   [Prerequisites for the Optimization of Sorted Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
+-   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
 -   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
 
 Hint

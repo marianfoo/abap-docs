@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... UTCL_CURRENT( )  UTCL_ADD_SECONDS( utclong,seconds )  UTCL_SECONDS_BETWEEN( utclong1,utclong2 )  TSTMP_IS_VALID( tstmp )  TSTMP_CURRENT_UTCTIMESTAMP( )  TSTMP_SECONDS_BETWEEN( tstmp1   = tstmp1, tstmp2   = tstmp2, on_error = on_error )  TSTMP_ADD_SECONDS(
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_timestamp_func.htm"
+abapFile: "abensql_timestamp_func.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "catch", "class", "data", "types", "abensql", "timestamp", "func"]
+---
 
 * * *
 

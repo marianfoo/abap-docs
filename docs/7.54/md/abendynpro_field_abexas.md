@@ -1,4 +1,14 @@
-  
+---
+title: "Screen Fields - Examples"
+description: |
+  !Example(exa.gif 'Example') Screens, Processing Input and Output Fields(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_in_out_field_abexa.htm) !Example(exa.gif 'Example') Dynpros, Fields with Reference to ABAP Dictionary(https://help.sap.com/doc/abapdocu_754_index_htm/
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_field_abexas.htm"
+abapFile: "abendynpro_field_abexas.htm"
+keywords: ["do", "if", "abendynpro", "field", "abexas"]
+---
 
 * * *
 

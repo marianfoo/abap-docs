@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Feature Tables"
+description: |
+  The following sections shows all available language elements of the CDS TDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_tdl_glosry.htm 'Glossary Entry'), CDS DDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm 'Glossary Entry'), and CDS D
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_language_elements.htm"
+abapFile: "abencds_language_elements.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "data", "types", "abencds", "language", "elements"]
+---
 
 * * *
 
@@ -12,30 +22,18 @@ ABAP CDS - Feature Tables
 
 The following sections shows all available language elements of the [CDS TDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_tdl_glosry.htm "Glossary Entry"), [CDS DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry"), and [CDS DCL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dcl_glosry.htm "Glossary Entry") in [ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm "Glossary Entry") and their release dates. For further information on the release dates, see [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm).
 
--   [TDL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_1)
-    -   [CDS Type Definitions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_2)
--   [FDL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_3)
-    -   [CDS Function Definitions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_4)
--   [DDL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_5)
-    -   [CDS Annotation Definitions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_6)
-    -   [CDS View Entities](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_7)
-    -   [CDS Projection Views of Type Transactional Query](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_8)
-    -   [CDS Projection Views of Type Transactional Interface](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_9)
-    -   [CDS Projection Views of Type Analytical Query](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
-    -   [CDS DDIC-based views (obsolete)](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_11)
-    -   [CDS Entity Extensions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_12)
-    -   [CDS Table Functions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_13)
-    -   [CDS Hierarchies](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_14)
-    -   [CDS Custom Entities](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_15)
-    -   [CDS Abstract Entities](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_16)
-    -   [CDS Metadata Extensions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_17)
-    -   [CDS Tuning Objects](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_18)
--   [SDL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_19)
-    -   [CDS Service Definitions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_20)
-    -   [CDS Service Definition Extensions](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_21)
--   [DCL](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_22)
-    -   [CDS Roles](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_23)
-    -   [CDS Access Policy](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_24)
+-   [TDL](#abencds-language-elements-1-----------cds-type-definitions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_2)
+-   [FDL](#abencds-language-elements-3-----------cds-function-definitions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_4)
+-   [DDL](#abencds-language-elements-5-----------cds-annotation-definitions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_6)
+    -   [CDS View Entities](#abencds-language-elements-7-----------cds-projection-views-of-type-transactional-query---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_8)
+    -   [CDS Projection Views of Type Transactional Interface](#abencds-language-elements-9-----------cds-projection-views-of-type-analytical-query---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
+    -   [CDS DDIC-based views (obsolete)](#abencds-language-elements-11-----------cds-entity-extensions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_12)
+    -   [CDS Table Functions](#abencds-language-elements-13-----------cds-hierarchies---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_14)
+    -   [CDS Custom Entities](#abencds-language-elements-15-----------cds-abstract-entities---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_16)
+    -   [CDS Metadata Extensions](#abencds-language-elements-17-----------cds-tuning-objects---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_18)
+-   [SDL](#abencds-language-elements-19-----------cds-service-definitions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_20)
+    -   [CDS Service Definition Extensions](#abencds-language-elements-21-------dcl---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_22)
+    -   [CDS Roles](#abencds-language-elements-23-----------cds-access-policy---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_24)
 
 In addition to the language elements shown here, CDS source code can also contain [annotations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations.htm) with metadata.
 

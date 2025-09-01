@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE, Use of SET"
+description: |
+  The example demonstrates how the addition SET of the statement UPDATE is used. Source Code REPORT demo_update. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. CONSTANTS id TYPE demo_update-id VALUE 'X'. DELETE FROM demo_update WHERE id
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenupdate_set_abexa.htm"
+abapFile: "abenupdate_set_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "method", "class", "data", "abenupdate", "set", "abexa"]
+---
 
 * * *
 

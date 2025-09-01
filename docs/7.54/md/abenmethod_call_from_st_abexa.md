@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation, Method Call"
+description: |
+  This example demonstrates the call of a static method from a simple transformation. Source Code METHOD main. DATA:  scarr_tab  TYPE SORTED TABLE OF scarr WITH UNIQUE KEY carrid. SELECT  FROM scarr INTO TABLE @scarr_tab. IF sy-subrc <> 0. RETURN. ENDIF. TRY. CALL TRANSFORMATION demo_st_with_me
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_call_from_st_abexa.htm"
+abapFile: "abenmethod_call_from_st_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenmethod", "call", "from", "abexa"]
+---
 
 * * *
 

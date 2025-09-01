@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Services"
+description: |
+  Represent an access mechanism of the Application Server ABAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm 'Glossary Entry') providing SQL-level access to published, ABAP-managed CDS view entities(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/aben
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_services_glosry.htm"
+abapFile: "abenabap_sql_services_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "sql", "services", "glosry"]
+---
 
 * * *
 

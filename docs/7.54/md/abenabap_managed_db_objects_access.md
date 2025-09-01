@@ -1,4 +1,14 @@
-  
+---
+title: "Access to ABAP-Managed Database Objects"
+description: |
+  ABAP-managed database objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_object_glosry.htm 'Glossary Entry') can be accessed as follows: -   ABAP SQL Access to ABAP-Managed Database Objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ma
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_access.htm"
+abapFile: "abenabap_managed_db_objects_access.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenabap", "managed", "objects", "access"]
+---
 
 * * *
 

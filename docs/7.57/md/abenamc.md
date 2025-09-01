@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Messaging Channels (AMC)"
+description: |
+  ABAP Messaging Channels (AMC) are a method of communication between ABAP programs using messages. Using a publish and subscribe mechanism, messages can be exchanged between any AS ABAP programs, which allows communication between different user sessions and AS instances. Messages can be implemented
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamc.htm"
+abapFile: "abenamc.htm"
+keywords: ["update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "types", "abenamc"]
+---
 
 * * *
 
@@ -19,14 +29,10 @@ ABAP Messaging Channels (AMC) are a method of communication between ABAP program
 
 ABAP messaging channels are implemented as repository objects that can be accessed in sender and receiver programs using an interface-based and class-based programming interface (API). The classes and interfaces of the API use the naming convention CL\_AMC\_... and IF\_AMC\_... respectively. Communication between different AS instances takes place using the [message server](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_server_glosry.htm "Glossary Entry").
 
--   [Messaging Channels as Repository Objects](#@@ITOC@@ABENAMC_1)
--   [Sending AMC Messages](#@@ITOC@@ABENAMC_2)
--   [Receiving AMC Messages](#@@ITOC@@ABENAMC_3)
--   [Point-to-Point Communication](#@@ITOC@@ABENAMC_4)
--   [AMC - Security](#@@ITOC@@ABENAMC_5)
--   [AMC - Exceptions](#@@ITOC@@ABENAMC_6)
--   [AMC - Test and Analysis](#@@ITOC@@ABENAMC_7)
--   [More Information](#@@ITOC@@ABENAMC_8)
+-   [Messaging Channels as Repository Objects](#abenamc-1-------sending-amc-messages---@ITOC@@ABENAMC_2)
+-   [Receiving AMC Messages](#abenamc-3-------point-to-point-communication---@ITOC@@ABENAMC_4)
+-   [AMC - Security](#abenamc-5-------amc---exceptions---@ITOC@@ABENAMC_6)
+-   [AMC - Test and Analysis](#abenamc-7-------more-information---@ITOC@@ABENAMC_8)
 
 Hints
 

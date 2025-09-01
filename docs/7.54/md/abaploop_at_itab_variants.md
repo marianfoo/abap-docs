@@ -1,4 +1,14 @@
-  
+---
+title: "LOOP AT itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab_shortref.htm) Syntax Forms Loop across table rows(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab.htm) 1. LOOP AT itab result(https://help.sap.com/doc/abapdocu_754_index_htm
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab_variants.htm"
+abapFile: "abaploop_at_itab_variants.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "internal-table", "abaploop", "itab", "variants"]
+---
 
 * * *
 

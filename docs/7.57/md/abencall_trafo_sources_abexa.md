@@ -1,4 +1,14 @@
-  
+---
+title: "XML Sources of Transformations"
+description: |
+  This example demonstrates the possible XML sources of the statement CALL TRANSFORMATION(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation.htm). Source Code REPORT demo_call_trafo_xml_sources. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS.
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_trafo_sources_abexa.htm"
+abapFile: "abencall_trafo_sources_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abencall", "trafo", "sources", "abexa"]
+---
 
 * * *
 

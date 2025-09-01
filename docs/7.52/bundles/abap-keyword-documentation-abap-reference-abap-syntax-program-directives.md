@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenprogram_directives.htm
 
-  
+---
+title: "Program Directives"
+description: |
+  The ABAP program directives(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') enable source-code-based development objects to be documented or modify the check results of various check tools. -   ABAP Doc(https://help.sap.com/doc/abapdo
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm"
+abapFile: "abenprogram_directives.htm"
+keywords: ["do", "if", "try", "abenprogram", "directives"]
+---
 
 * * *
 
@@ -31,7 +41,17 @@ Continue
 
 ### abendoccomment.htm
 
-  
+---
+title: "ABAP Doc"
+description: |
+  ABAP Doc allows declarations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_glosry.htm 'Glossary Entry') in ABAP programs to be documented, based on special ABAP Doc comments. ABAP development environments that support ABAP Doc, such as ABAP Development Tools (ADT)(ht
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendoccomment.htm"
+abapFile: "abendoccomment.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abendoccomment"]
+---
 
 * * *
 
@@ -43,17 +63,11 @@ ABAP Doc
 
 ABAP Doc allows [declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_glosry.htm "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. ABAP development environments that support ABAP Doc, such as [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry"), analyze the content of ABAP Doc comments, convert it to HTML and display it appropriately.
 
--   [ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
+-   [ABAP Doc Comments](#abendoccomment-1--------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
 
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3--------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
 
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
-
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
-
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
-
--   [Guidelines](#@@ITOC@@ABENDOCCOMMENT_6)
+-   [Documentation Links](#abendoccomment-5--------guidelines---@ITOC@@ABENDOCCOMMENT_6)
 
 ABAP Doc Comments
 
@@ -339,7 +353,17 @@ The following guidelines for general comments also specifically apply to ABAP-DO
 
 ### abenpragma.htm
 
-  
+---
+title: "Pragmas"
+description: |
+  Pragmas are program directives(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') that can be used to hide warnings from various check tools. The following are supported: -   Warnings from the ABAP Compiler syntax check(https://help.sap.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm"
+abapFile: "abenpragma.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "data", "types", "internal-table", "abenpragma"]
+---
 
 * * *
 
@@ -357,9 +381,7 @@ Pragmas are [program directives](https://help.sap.com/doc/abapdocu_752_index_htm
 
 For more information, see:
 
--   [Syntax of Pragmas](#@@ITOC@@ABENPRAGMA_1)
-
--   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_2)
+-   [Syntax of Pragmas](#abenpragma-1--------positioning-of-pragmas-in-abap-source-code---@ITOC@@ABENPRAGMA_2)
 
 Syntax of Pragmas
 
@@ -431,7 +453,17 @@ Unknown pragmas or pragmas with formal errors or pragmas in the wrong position o
 
 ### abenpseudo_comment.htm
 
-  
+---
+title: "Pseudo Comments"
+description: |
+  Pseudo comments are program directives(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') that influence check and test procedures. Pseudo comments have mostly become obsolete(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/ab
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm"
+abapFile: "abenpseudo_comment.htm"
+keywords: ["do", "if", "try", "class", "abenpseudo", "comment"]
+---
 
 * * *
 
@@ -463,7 +495,17 @@ Continue
 
 ### abenpseudo_comment_ci.htm
 
-  
+---
+title: "Pseudo Comments for Code Inspector"
+description: |
+  The character string '#EC after a statement or a part of a statement followed by an ID with the prefix 'CI_' defines a pseudo comment(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_glosry.htm 'Glossary Entry') for Code Inspector(https://help.sap.com/doc/abapdocu_7
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm"
+abapFile: "abenpseudo_comment_ci.htm"
+keywords: ["select", "do", "if", "try", "data", "abenpseudo", "comment"]
+---
 
 * * *
 
@@ -504,7 +546,17 @@ SELECT d~object, h~dokldate, h~dokltime   "#EC CI\_BUFFJOIN
 
 ### abenpseudo_comment.htm
 
-  
+---
+title: "Pseudo Comments"
+description: |
+  Pseudo comments are program directives(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') that influence check and test procedures. Pseudo comments have mostly become obsolete(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/ab
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm"
+abapFile: "abenpseudo_comment.htm"
+keywords: ["do", "if", "try", "class", "abenpseudo", "comment"]
+---
 
 * * *
 

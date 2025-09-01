@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  @AbapCatalog.tableCategory : table_cat @AbapCatalog.dataMaintenance : data_maint @AbapCatalog.deliveryClass : deliv_class @AbapCatalog.activationType : act_type @AbapCatalog.replacementObject : '...' Effect Annotations for specifying table properties in the definition of a databa
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_table_props.htm"
+abapFile: "abenddicddl_define_table_props.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddicddl", "define", "table", "props"]
+---
 
 * * *
 

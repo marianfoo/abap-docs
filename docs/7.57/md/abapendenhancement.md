@@ -1,4 +1,14 @@
-  
+---
+title: "ENDENHANCEMENT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapenhancement_shortref.htm) Syntax ENDENHANCEMENT. Effect The statement ENDENHANCEMENT closes a source code plug-in(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_plugin_glosry.htm 'Glossary
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapendenhancement.htm"
+abapFile: "abapendenhancement.htm"
+keywords: ["do", "if", "try", "abapendenhancement"]
+---
 
 * * *
 

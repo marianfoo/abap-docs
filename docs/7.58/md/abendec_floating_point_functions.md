@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... roundrescale( val = arg ...  ) ... Effect The built-in(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_functions.htm) rounding functions expect a decimal floating point number(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm 'Gloss
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendec_floating_point_functions.htm"
+abapFile: "abendec_floating_point_functions.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abendec", "floating", "point", "functions"]
+---
 
 * * *
 
@@ -18,8 +28,7 @@ Effect
 
 The [built-in](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_functions.htm) rounding functions expect a [decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry") as a main argument val and additional arguments that describe how this floating point number is handled. The type of the return value of a rounding function is always decfloat34. Within an arithmetic expression, the argument for the decimal floating point number can either be an arithmetic expression or a function. The other arguments must always be specified as numeric data objects.
 
--   [Rounding Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_1)
--   [Rescaling Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
+-   [Rounding Function](#abendec-floating-point-functions-1-------rescaling-function---@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
 
 Hint
 

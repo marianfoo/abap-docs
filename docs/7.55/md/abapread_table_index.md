@@ -1,4 +1,14 @@
-  
+---
+title: "READ TABLE, index"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_itab_shortref.htm) Syntax ... INDEX idx USING KEY keyname(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenkeyname.htm) ... Addition: ... USING KEY keyname(#!ABAP_ONE_ADD@1@) Effect
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_index.htm"
+abapFile: "abapread_table_index.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "internal-table", "abapread", "table", "index"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "FIELDS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfields.htm) Syntax FIELDS dobj. Effect Obsolete: Addresses a dobj data object to prevent a warning about the enhanced program check if the data object is not addressed statically.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfields_shortref.htm"
+abapFile: "abapfields_shortref.htm"
+keywords: ["do", "if", "data", "abapfields", "shortref"]
+---
 
 * * *
 

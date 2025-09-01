@@ -1,4 +1,14 @@
-  
+---
+title: "Strings"
+description: |
+  Strings are elementary data objects(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenelementary_data_object_glosry.htm 'Glossary Entry') of variable length. Strings can be either text strings(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_string_glosry.htm 'Glo
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring.htm"
+abapFile: "abenstring.htm"
+keywords: ["select", "do", "try", "data", "types", "internal-table", "abenstring"]
+---
 
 * * *
 

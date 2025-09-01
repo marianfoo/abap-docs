@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - CDS Behavior Definition Header"
+description: |
+  Syntax implementation_type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm)saving options(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_saving.htm)  implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_bdef_header.htm"
+abapFile: "abenbdl_bdef_header.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "class", "data", "types", "abenbdl", "bdef", "header"]
+---
 
 * * *
 

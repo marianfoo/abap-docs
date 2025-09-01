@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, List Box with Value List from Input Help"
+description: |
+  This example demonstrates the recommended way to enable a dropdown list box. Source Code &--------------------------------------------------------------------- & Report  DEMO_DROPDOWN_LIST_BOX                                       &-------------------------------------------------------
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_drop1_abexa.htm"
+abapFile: "abendynpro_drop1_abexa.htm"
+keywords: ["select", "insert", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abendynpro", "drop1", "abexa"]
+---
 
 * * *
 

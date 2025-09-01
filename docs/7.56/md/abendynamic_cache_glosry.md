@@ -1,4 +1,14 @@
-  
+---
+title: "dynamic_cache_glosry"
+description: |
+  dynamic_cache_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynamic_cache_glosry.htm"
+abapFile: "abendynamic_cache_glosry.htm"
+keywords: ["do", "abendynamic", "cache", "glosry"]
+---
 
 * * *
 

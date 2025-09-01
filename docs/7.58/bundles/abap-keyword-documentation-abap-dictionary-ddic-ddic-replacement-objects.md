@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abenddic_replacement_objects.htm
 
-  
+---
+title: "DDIC - Replacement Objects"
+description: |
+  A transparent(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransparent_table_glosry.htm 'Glossary Entry') DDIC database table(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables.htm) and DDIC database view(https://help.sap.com/doc/abapdocu_758_
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm"
+abapFile: "abenddic_replacement_objects.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "data", "types", "abenddic", "replacement", "objects"]
+---
 
 * * *
 
@@ -94,7 +104,17 @@ Continue
 
 ### abenddic_replacement_object_abexa.htm
 
-  
+---
+title: "DDIC - Replacement Object for Database Table"
+description: |
+  This example demonstrates a DDIC database table with a replacement object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreplacement_object_glosry.htm 'Glossary Entry'). Source Code  Public class definition CLASS cl_demo_table_rplcmnt_object DEFINITION INHERITING FROM cl_dem
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_object_abexa.htm"
+abapFile: "abenddic_replacement_object_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenddic", "replacement", "object", "abexa"]
+---
 
 * * *
 

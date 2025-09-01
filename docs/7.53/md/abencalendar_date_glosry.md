@@ -1,4 +1,14 @@
-  
+---
+title: "Calendar date"
+description: |
+  Date for short. Precise time (to the day, week, or month) with respect to the Gregorian calendar. Valid content of a date field(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_field_glosry.htm 'Glossary Entry').
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalendar_date_glosry.htm"
+abapFile: "abencalendar_date_glosry.htm"
+keywords: ["do", "try", "abencalendar", "date", "glosry"]
+---
 
 * * *
 

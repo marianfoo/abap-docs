@@ -1,4 +1,14 @@
-  
+---
+title: "application_table_glosry"
+description: |
+  application_table_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_table_glosry.htm"
+abapFile: "abenapplication_table_glosry.htm"
+keywords: ["do", "try", "data", "abenapplication", "table", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "FIELD-SYMBOLS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols.htm) Syntax FIELD-SYMBOLS <fs>  typing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_shortref.htm)   STRUCTURE struc DEFAULT dobj  . Effect Declares a field sym
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_shortref.htm"
+abapFile: "abapfield-symbols_shortref.htm"
+keywords: ["do", "if", "data", "types", "field-symbol", "abapfield", "symbols", "shortref"]
+---
 
 * * *
 

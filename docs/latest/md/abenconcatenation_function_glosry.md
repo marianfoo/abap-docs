@@ -1,4 +1,14 @@
-  
+---
+title: "concatenation_function_glosry"
+description: |
+  concatenation_function_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconcatenation_function_glosry.htm"
+abapFile: "abenconcatenation_function_glosry.htm"
+keywords: ["do", "if", "try", "internal-table", "abenconcatenation", "function", "glosry"]
+---
 
 * * *
 

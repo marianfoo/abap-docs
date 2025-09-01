@@ -1,4 +1,14 @@
-  
+---
+title: "FDL source code"
+description: |
+  CDS source code(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_source_code_glosry.htm 'Glossary Entry') for CDS function definitions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_function_definition_glosry.htm 'Glossary Entry') in CDS FDL(https://help.s
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfdl_source_code_glosry.htm"
+abapFile: "abenfdl_source_code_glosry.htm"
+keywords: ["do", "if", "try", "abenfdl", "source", "code", "glosry"]
+---
 
 * * *
 

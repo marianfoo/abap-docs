@@ -1,4 +1,14 @@
-  
+---
+title: "ABP saver class"
+description: |
+  Local class(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_class_glosry.htm 'Glossary Entry') of an ABAP behavior pool (ABP)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm 'Glossary Entry') that is part of the ABAP behavior implemen
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_saver_class_glosry.htm"
+abapFile: "abenabp_saver_class_glosry.htm"
+keywords: ["do", "try", "class", "abenabp", "saver", "glosry"]
+---
 
 * * *
 

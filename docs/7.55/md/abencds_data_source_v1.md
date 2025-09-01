@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... entity parameters(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_parameters_v1.htm) path_expr(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v1.htm) AS alias  join(https://help.sap.com/doc/abapdo
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_data_source_v1.htm"
+abapFile: "abencds_data_source_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "source"]
+---
 
 * * *
 

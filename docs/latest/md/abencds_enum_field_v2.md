@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, EnumConstant"
+description: |
+  Syntax ... EnumType.#EnumConstant ... Effect Specifies an enumerated constant(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_constant_glosry.htm 'Glossary Entry') EnumConstant of a CDS enumerated type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_field_v2.htm"
+abapFile: "abencds_enum_field_v2.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "enum", "field"]
+---
 
 * * *
 

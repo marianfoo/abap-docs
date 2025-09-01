@@ -1,4 +1,14 @@
-  
+---
+title: "Determining Data Types"
+description: |
+  This example demonstrates how the properties of data types can be determined at runtime. Source Code  CCDEF CLASS conv_exc DEFINITION INHERITING FROM cx_static_check. ENDCLASS.  Public class definition CLASS cl_demo_rtti_data_types DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREA
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm"
+abapFile: "abenrtti_data_type_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "types", "abenrtti", "type", "abexa"]
+---
 
 * * *
 

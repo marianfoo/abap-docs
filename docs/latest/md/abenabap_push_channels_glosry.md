@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Push Channels"
+description: |
+  APC for short. Framework for bidirectional communication between an AS ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry') and the Internet using the WebSocket protocol or TCP socket protocol. ABAP Push Channels can be linked with ABAP Mes
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_push_channels_glosry.htm"
+abapFile: "abenabap_push_channels_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "push", "channels", "glosry"]
+---
 
 * * *
 

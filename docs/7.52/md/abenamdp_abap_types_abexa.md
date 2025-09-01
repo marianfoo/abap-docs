@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP, Access to ABAP Types"
+description: |
+  The example demonstrates how to access ABAP types via the AMDP macro(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_macro_glosry.htm 'Glossary Entry') $ABAP.type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types.htm). Source Code REPORT demo_amd
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm"
+abapFile: "abenamdp_abap_types_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenamdp", "abap", "abexa"]
+---
 
 * * *
 

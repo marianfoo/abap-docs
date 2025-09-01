@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  GRANT SELECT ON cds_entity COMBINATION MODE OR  COMBINATION MODE AND  REDEFINITION WHERE cond_expr(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_cond_expr.htm); Effect Conditional access rule in the statement DEFINE ROLE(https://help.sap.com/doc/abap
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_cond_rule.htm"
+abapFile: "abencds_dcl_role_cond_rule.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abencds", "dcl", "role", "cond", "rule"]
+---
 
 * * *
 

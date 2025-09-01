@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT DIRECTORY - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapimport_directory.htm) Syntax IMPORT DIRECTORY INTO itab FROM DATABASE dbtab(ar) TO wa CLIENT cl ID id. Effect Imports the table of contents of a data cluster(https://help.sap.com/doc/abapdocu_755_index_htm/7
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapimport_directory_shortref.htm"
+abapFile: "abapimport_directory_shortref.htm"
+keywords: ["do", "if", "try", "data", "internal-table", "abapimport", "directory", "shortref"]
+---
 
 * * *
 

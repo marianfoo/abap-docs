@@ -1,4 +1,14 @@
-  
+---
+title: "FETCH - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm) Syntax FETCH NEXT CURSOR dbcur   INTO  CORRESPONDING FIELDS OF wa  (dobj1, dobj2, ...)     INTOAPPENDING CORRESPONDING FIELDS OF TABLE itab PACKAGE SIZE n
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch_shortref.htm"
+abapFile: "abapfetch_shortref.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abapfetch", "shortref"]
+---
 
 * * *
 

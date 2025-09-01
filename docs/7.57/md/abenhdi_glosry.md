@@ -1,4 +1,14 @@
-  
+---
+title: "HDI"
+description: |
+  SAP HANA Deployment Infrastructure Framework for deploying HDI objects(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhdi_object_glosry.htm 'Glossary Entry').
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhdi_glosry.htm"
+abapFile: "abenhdi_glosry.htm"
+keywords: ["do", "if", "try", "abenhdi", "glosry"]
+---
 
 * * *
 

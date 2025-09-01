@@ -1,4 +1,14 @@
-  
+---
+title: "RFC - Exception Handling"
+description: |
+  This example demonstrates exception handling in RFC. Source Code REPORT demo_rfc_exceptions. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA msg TYPE c LENGTH 255. FINAL(out) = cl_demo_output=>new( ). 'Classical exception handling
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrfc_exceptions_abexa.htm"
+abapFile: "abenrfc_exceptions_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "exception-handling", "abenrfc", "exceptions", "abexa"]
+---
 
 * * *
 

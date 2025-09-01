@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF Implementation Type"
+description: |
+  Rules All - A C0 release is possible for the language version ABAP for Cloud Development(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_cloud_dev_glosry.htm 'Glossary Entry'). C0 release for the language version ABAP for Key Users(https://help.sap.com/doc/abapdocu_
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_bdef.htm"
+abapFile: "abenc0_provider_rules_bdef.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "abenc0", "provider", "rules", "bdef"]
+---
 
 * * *
 
@@ -15,10 +25,8 @@ BDEFs with the [implementation type](https://help.sap.com/doc/abapdocu_latest_in
 
 The following sections show the most important C0 contract rules for BDEFs.
 
--   [Prerequisites for the C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_1)
--   [Naming Rules](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
+-   [Prerequisites for the C0 Release](#abenc0-provider-rules-bdef-1-------naming-rules---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
+-   [Stability Rules After Release](#abenc0-provider-rules-bdef-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
 
 Prerequisites for the C0 Release   
 

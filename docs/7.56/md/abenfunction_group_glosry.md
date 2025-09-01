@@ -1,4 +1,14 @@
-  
+---
+title: "function_group_glosry"
+description: |
+  function_group_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction_group_glosry.htm"
+abapFile: "abenfunction_group_glosry.htm"
+keywords: ["do", "try", "abenfunction", "group", "glosry"]
+---
 
 * * *
 

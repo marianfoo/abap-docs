@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Holding Data"
+description: |
+  This example demonstrates how to hold input data across transactions. Source Code REPORT demo_dynpro_set_hold_data. DATA field(10) TYPE c. CALL SCREEN 100. field = 'XXXXXXXXXX'. CALL SCREEN 100. MODULE hold_data OUTPUT. SET HOLD DATA ON. ENDMODULE. Description The static next dynpro of dynpro 1
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_hold_data_abexa.htm"
+abapFile: "abendynpro_hold_data_abexa.htm"
+keywords: ["delete", "do", "if", "try", "data", "abendynpro", "hold", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( pname1 = act1, pname2 = act2, ... ) ... Effect Specifies actual parameters act1, act2, ... for input parameters pname1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_param.htm), pname2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_param.htm),
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_parameters.htm"
+abapFile: "abenabap_sql_parameters.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenabap", "sql", "parameters"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET, WITH LINEFEED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_dataset_shortref.htm) Syntax ... WITH  NATIVE  SMART  UNIX  WINDOWS  LINEFEED ... Alternatives: 1. ... WITH NATIVE LINEFEED(#!ABAP_ALTERNATIVE_1@1@) 2. ... WITH SMART LINEFEED(#!ABAP_ALTERNATIV
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_dataset_linefeed.htm"
+abapFile: "abapopen_dataset_linefeed.htm"
+keywords: ["update", "delete", "do", "while", "if", "case", "try", "data", "abapopen", "dataset", "linefeed"]
+---
 
 * * *
 

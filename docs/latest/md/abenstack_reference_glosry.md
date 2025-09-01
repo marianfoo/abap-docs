@@ -1,4 +1,14 @@
-  
+---
+title: "stack_reference_glosry"
+description: |
+  stack_reference_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstack_reference_glosry.htm"
+abapFile: "abenstack_reference_glosry.htm"
+keywords: ["do", "if", "try", "abenstack", "reference", "glosry"]
+---
 
 * * *
 

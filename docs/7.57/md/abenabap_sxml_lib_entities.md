@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  sXML - Named Entities(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_elements.htm) sXML - Literal Values(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_values.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_entities.htm"
+abapFile: "abenabap_sxml_lib_entities.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "sxml", "lib", "entities"]
+---
 
 * * *
 

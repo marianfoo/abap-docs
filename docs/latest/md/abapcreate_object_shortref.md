@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE OBJECT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm) Syntax CREATE OBJECT oref AREA HANDLE handle  TYPE class EXPORTING  p1 = a1 p2 = a2 ... EXCEPTIONS exc1 = n1 exc2 = n2 ... OTHERS = n_others    T
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_shortref.htm"
+abapFile: "abapcreate_object_shortref.htm"
+keywords: ["do", "if", "try", "class", "internal-table", "abapcreate", "object", "shortref"]
+---
 
 * * *
 

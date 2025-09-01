@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - with privileged mode"
+description: |
+  Syntax Forms BDEF Privileged Mode for Managed and Unmanaged RAP BOs ... with privileged mode disabling ContextName; ... BDEF Privileged Mode for RAP Projection BOs ... with privileged mode disabling base context and ContextName; ... BDEF Privileged Mode for RAP Interface Behavior Definitions
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_privileged_mode.htm"
+abapFile: "abenbdl_privileged_mode.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abenbdl", "privileged", "mode"]
+---
 
 * * *
 

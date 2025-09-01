@@ -1,4 +1,14 @@
-  
+---
+title: "Example"
+description: |
+  Creation of any rational numbers from string values using the method FACTORY_FROM_STRING of the class CL_ABAP_RATIONAL. DATA(lo_rational) = cl_abap_rational=>factory_from_string( EXPORTING iv_value = `123451319241923741092743102751927431209374123461928374612983746129` & `346129364123946
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_rational_doc.htm"
+abapFile: "abencl_abap_rational_doc.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "rational", "doc"]
+---
 
 * * *
 

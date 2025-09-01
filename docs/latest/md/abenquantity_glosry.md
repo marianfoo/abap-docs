@@ -1,4 +1,14 @@
-  
+---
+title: "quantity_glosry"
+description: |
+  quantity_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquantity_glosry.htm"
+abapFile: "abenquantity_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenquantity", "glosry"]
+---
 
 * * *
 

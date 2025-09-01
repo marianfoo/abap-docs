@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Naming Rules for Database Tables"
+description: |
+  The name of a database table defined in the ABAP Dictionary must adhere to the following rules: -   It can have a maximum of 16 characters. -   It must follow the naming rules for DDIC types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_types_names.htm). -   It must follow th
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dbtab_names.htm"
+abapFile: "abenddic_dbtab_names.htm"
+keywords: ["do", "try", "data", "types", "abenddic", "dbtab", "names"]
+---
 
 * * *
 

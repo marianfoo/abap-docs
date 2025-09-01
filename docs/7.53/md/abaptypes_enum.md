@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  TYPES BEGIN OF ENUM enum_type STRUCTURE struc BASE TYPE dtype. TYPES val1 VALUE IS INITIAL, TYPES val2 VALUE val, TYPES val3 VALUE val, ... TYPES END OF ENUM enum_type STRUCTURE struc. Extras: 1. ... STRUCTURE struc(#!ABAP_ADDITION_1@1@) 2. ...
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_enum.htm"
+abapFile: "abaptypes_enum.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "field-symbol", "abaptypes", "enum"]
+---
 
 * * *
 

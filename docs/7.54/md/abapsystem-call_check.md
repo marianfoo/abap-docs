@@ -1,4 +1,14 @@
-  
+---
+title: "SYSTEM-CALL CHECK FOR SEQUENCE OF C"
+description: |
+  This statement is intended solely for  Internal use within SAP Basis Development  Even within SAP Basis, it may be used only in programs within the ABAP+GUI dvelopment groups. Its use is subject to various restrictions, some of which may not be described in the documentation . This docum
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsystem-call_check.htm"
+abapFile: "abapsystem-call_check.htm"
+keywords: ["do", "if", "try", "method", "class", "abapsystem", "call", "check"]
+---
 
 * * *
 

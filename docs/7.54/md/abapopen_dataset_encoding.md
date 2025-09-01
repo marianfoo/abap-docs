@@ -1,4 +1,14 @@
-  
+---
+title: "OPEN DATASET - encoding"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_dataset_shortref.htm) Syntax ... ENCODING  DEFAULT  UTF-8 SKIPPINGWITH BYTE-ORDER MARK  NON-UNICODE  ... Alternatives: 1. ... DEFAULT(#!ABAP_ALTERNATIVE_1@1@) 2. ... UTF-8 SKIP
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapopen_dataset_encoding.htm"
+abapFile: "abapopen_dataset_encoding.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "catch", "method", "class", "data", "abapopen", "dataset", "encoding"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Evaluating CDS Metadata"
+description: |
+  This documentation is only available internally at SAP. ABAP CDS - System View Entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_system_views.htm) ABAP CDS - Read API(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_reading.htm) ABAP CDS - System Clas
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_read_api.htm"
+abapFile: "abencds_read_api.htm"
+keywords: ["do", "if", "class", "data", "abencds", "read", "api"]
+---
 
 * * *
 

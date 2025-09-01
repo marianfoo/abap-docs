@@ -1,4 +1,14 @@
-  
+---
+title: "Rounding Function round"
+description: |
+  This example demonstrates the rounding function round(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendec_floating_point_functions.htm). Source Code REPORT demo_round. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: BEGIN OF mode, value LIKE
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenround_function_abexa.htm"
+abapFile: "abenround_function_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "method", "class", "data", "types", "abenround", "function", "abexa"]
+---
 
 * * *
 

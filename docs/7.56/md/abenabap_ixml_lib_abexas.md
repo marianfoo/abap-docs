@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') iXML - Parse to DOM(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenixml_parsing_abexa.htm) !Example(exa.gif 'Example') iXML - Sequential Parsing(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenixml_sequential_parsing_abexa.htm) !Exa
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_ixml_lib_abexas.htm"
+abapFile: "abenabap_ixml_lib_abexas.htm"
+keywords: ["do", "if", "class", "data", "abenabap", "ixml", "lib", "abexas"]
+---
 
 * * *
 

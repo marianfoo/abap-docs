@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DDIC-Based Views"
+description: |
+  A CDS DDIC-based view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm 'Glossary Entry') is defined for existing DDIC database tables(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm), DDIC views(https://help.sap.com/d
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_views.htm"
+abapFile: "abencds_v1_views.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "views"]
+---
 
 * * *
 

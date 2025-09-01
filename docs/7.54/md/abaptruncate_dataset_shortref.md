@@ -1,4 +1,14 @@
-  
+---
+title: "TRUNCATE DATASET - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptruncate.htm) Syntax TRUNCATE DATASET dset AT CURRENT POSITIONPOSITION pos. Effect Sets the end of file of the file specified in dset to the position specified after AT. Additions -   CURRENT POSITION Sets the
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptruncate_dataset_shortref.htm"
+abapFile: "abaptruncate_dataset_shortref.htm"
+keywords: ["do", "if", "data", "abaptruncate", "dataset", "shortref"]
+---
 
 * * *
 

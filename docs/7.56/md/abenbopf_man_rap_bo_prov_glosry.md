@@ -1,4 +1,14 @@
-  
+---
+title: "BOPF-managed RAP BO provider"
+description: |
+  Part of the RAP BO provider(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry') that provides the transactional buffer(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactional_buffer_glosry.htm 'Glossary Entry') for BOPF
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbopf_man_rap_bo_prov_glosry.htm"
+abapFile: "abenbopf_man_rap_bo_prov_glosry.htm"
+keywords: ["do", "try", "abenbopf", "man", "rap", "prov", "glosry"]
+---
 
 * * *
 

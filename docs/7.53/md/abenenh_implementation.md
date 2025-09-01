@@ -1,4 +1,14 @@
-  
+---
+title: "Enhancement Implementation"
+description: |
+  The following statements define a source code plug-in(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_plugin_glosry.htm 'Glossary Entry'): -   ENHANCEMENT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement.htm) -   ENDENHANCEMENT(https://help.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenh_implementation.htm"
+abapFile: "abenenh_implementation.htm"
+keywords: ["do", "try", "abenenh", "implementation"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SUPPRESS DIALOG"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsuppress_dialog_shortref.htm) Syntax SUPPRESS DIALOG. Effect If this statement is specified during PBO(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpbo_glosry.htm 'Glossary Entry') processi
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsuppress.htm"
+abapFile: "abapsuppress.htm"
+keywords: ["do", "while", "if", "try", "abapsuppress"]
+---
 
 * * *
 

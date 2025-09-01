@@ -1,4 +1,14 @@
-  
+---
+title: "run_time_monitor_glosry"
+description: |
+  run_time_monitor_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_monitor_glosry.htm"
+abapFile: "abenrun_time_monitor_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenrun", "time", "monitor", "glosry"]
+---
 
 * * *
 

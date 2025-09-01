@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES BEGIN OF MESH - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh.htm) Syntax TYPES BEGIN OF MESH mesh_type. ... TYPES  snode  TYPE REF TO table_typeref_type    LIKE REF TO itab      dref      ASSOCIATION _assoc TO tnode ON
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_begin_of_mesh_shortref.htm"
+abapFile: "abaptypes_begin_of_mesh_shortref.htm"
+keywords: ["do", "if", "try", "data", "types", "internal-table", "abaptypes", "begin", "mesh", "shortref"]
+---
 
 * * *
 

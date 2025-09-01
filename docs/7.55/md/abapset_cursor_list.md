@@ -1,4 +1,14 @@
-  
+---
+title: "SET CURSOR, List"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_cursor_shortref.htm) Syntax SET CURSOR   FIELD field LINE line DISPLAYMEMORY OFFSET off    LINE  line DISPLAYMEMORY OFFSET off    col lin  . Altern
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_cursor_list.htm"
+abapFile: "abapset_cursor_list.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "field-symbol", "abapset", "cursor", "list"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "EDITOR-CALL FOR itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapeditor-call_shortref.htm) Obsolete Syntax EDITOR-CALL FOR itab TITLE title DISPLAY-MODEBACKUP INTO jtab. Extras: 1. ... TITLE title(#!ABAP_ADDITION_1@1@) 2. ... DISPLAY-MODE(#!ABAP_A
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapeditor-call_for_itab.htm"
+abapFile: "abapeditor-call_for_itab.htm"
+keywords: ["delete", "do", "if", "try", "class", "data", "types", "internal-table", "abapeditor", "call", "for", "itab"]
+---
 
 * * *
 

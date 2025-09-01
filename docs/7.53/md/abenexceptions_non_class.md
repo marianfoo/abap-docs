@@ -1,4 +1,14 @@
-  
+---
+title: "Non-Class-Based Exceptions"
+description: |
+  Definition Non-class-based exceptions can be defined in the interfaces of function modules and methods. These exceptions are defined as follows: -   In methods of local classes, by assigning a name for the exception after the addition EXCEPTIONS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_non_class.htm"
+abapFile: "abenexceptions_non_class.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "exception-handling", "abenexceptions", "non"]
+---
 
 * * *
 

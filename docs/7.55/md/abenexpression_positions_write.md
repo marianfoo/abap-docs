@@ -1,4 +1,14 @@
-  
+---
+title: "Write Positions for Functions and Expressions"
+description: |
+  Write positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwriting_position_glosry.htm 'Glossary Entry') are operand positions in which the operand is written to. -   Declaration Positions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_positions.ht
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexpression_positions_write.htm"
+abapFile: "abenexpression_positions_write.htm"
+keywords: ["do", "try", "abenexpression", "positions", "write"]
+---
 
 * * *
 

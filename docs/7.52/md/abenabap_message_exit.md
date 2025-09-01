@@ -1,4 +1,14 @@
-  
+---
+title: "Messages in conversion routines"
+description: |
+  In conversion routines(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_routine_glosry.htm 'Glossary Entry'), the function modules ..._INPUT and ...OUTPUT need to be distinguished: -   In an ..._INPUT function module, all messages apart from those of type 'E', 'A' or 'S'
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_exit.htm"
+abapFile: "abenabap_message_exit.htm"
+keywords: ["do", "try", "types", "abenabap", "message", "exit"]
+---
 
 * * *
 

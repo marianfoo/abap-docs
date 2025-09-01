@@ -1,4 +1,14 @@
-  
+---
+title: "SEARCH itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch_shortref.htm) Obsolete Syntax SEARCH itab FOR pattern IN CHARACTERBYTE MODE STARTING AT idx1 ENDING AT idx2 ABBREVIATED AND MARK. Additions: 1. ... IN CHARACT
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch_itab.htm"
+abapFile: "abapsearch_itab.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "data", "internal-table", "abapsearch", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @itab Effect Specifies an internal table(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_table_glosry.htm 'Glossary Entry') itab as a host variable(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_host_variables.htm) whose name must be prefixed
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_itab.htm"
+abapFile: "abapselect_itab.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abapselect", "itab"]
+---
 
 * * *
 

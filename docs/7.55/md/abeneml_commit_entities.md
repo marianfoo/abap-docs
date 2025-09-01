@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - COMMIT ENTITIES"
+description: |
+  Work in progress  Syntax COMMIT ENTITIES RESPONSE OF root_name_1 FAILED    it_failed    DATA(it_failed) REPORTED  it_reported  DATA(it_reported) RESPONSE OF root_name_2 FAILED    it_failed    DATA(it_failed) REPORTED  it_reported  D
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm"
+abapFile: "abeneml_commit_entities.htm"
+keywords: ["do", "if", "try", "data", "types", "abeneml", "commit", "entities"]
+---
 
 * * *
 

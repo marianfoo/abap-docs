@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  meth(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm)( ... )-> meth1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm)( ... )->meth2( ... )->...->methn(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static_chain.htm"
+abapFile: "abapcall_method_static_chain.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abapcall", "static", "chain"]
+---
 
 * * *
 

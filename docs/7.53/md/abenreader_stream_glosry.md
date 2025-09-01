@@ -1,4 +1,14 @@
-  
+---
+title: "reader_stream_glosry"
+description: |
+  reader_stream_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreader_stream_glosry.htm"
+abapFile: "abenreader_stream_glosry.htm"
+keywords: ["do", "try", "data", "abenreader", "stream", "glosry"]
+---
 
 * * *
 

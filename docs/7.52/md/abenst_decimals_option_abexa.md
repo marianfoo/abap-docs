@@ -1,4 +1,14 @@
-  
+---
+title: "Simple Transformation, Option for Decimal Places"
+description: |
+  This example demonstrates the display of numeric ABAP types with specifications for decimal places. Source Code REPORT demo_st_decimals_option. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, call_transformation CHANGING writer TYPE REF TO cl_sxml_string_writer. CLASS-DATA: intege
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_decimals_option_abexa.htm"
+abapFile: "abenst_decimals_option_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenst", "decimals", "option", "abexa"]
+---
 
 * * *
 

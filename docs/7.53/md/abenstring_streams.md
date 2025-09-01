@@ -1,4 +1,14 @@
-  
+---
+title: "Streaming for Strings"
+description: |
+  The specific classes for streaming(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstreaming_glosry.htm 'Glossary Entry') for strings are: These classes are subclasses of the abstract superclasses CL_ABAP_MEMORY_...(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abe
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_streams.htm"
+abapFile: "abenstring_streams.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "abenstring", "streams"]
+---
 
 * * *
 

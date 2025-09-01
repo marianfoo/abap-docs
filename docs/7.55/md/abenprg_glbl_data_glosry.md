@@ -1,4 +1,14 @@
-  
+---
+title: "prg_glbl_data_glosry"
+description: |
+  prg_glbl_data_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprg_glbl_data_glosry.htm"
+abapFile: "abenprg_glbl_data_glosry.htm"
+keywords: ["do", "try", "data", "abenprg", "glbl", "glosry"]
+---
 
 * * *
 

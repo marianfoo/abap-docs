@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT, Operands and Expressions"
+description: |
+  -   Literals(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_literal.htm) -   Fields of data sources(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_field.htm) -   Parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_operands_and_expressions.htm"
+abapFile: "abencds_operands_and_expressions.htm"
+keywords: ["select", "do", "case", "data", "abencds", "operands", "and", "expressions"]
+---
 
 * * *
 

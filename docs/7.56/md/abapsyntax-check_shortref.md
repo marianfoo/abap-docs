@@ -1,4 +1,14 @@
-  
+---
+title: "SYNTAX-CHECK - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsyntax-check_for_itab.htm) Syntax SYNTAX-CHECK FOR itab MESSAGE mess LINE lin WORD wrd PROGRAM prog DIRECTORY ENTRY dir WITH CURRENT SWITCHSTATES INCLUDE incl OFFSET off MESSAGE-ID
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsyntax-check_shortref.htm"
+abapFile: "abapsyntax-check_shortref.htm"
+keywords: ["do", "if", "try", "abapsyntax", "check", "shortref"]
+---
 
 * * *
 

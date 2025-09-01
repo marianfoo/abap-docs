@@ -1,4 +1,14 @@
-  
+---
+title: "Text Elements"
+description: |
+  The statements -   READ TEXTPOOL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_textpool.htm), -   INSERT TEXTPOOL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_textpool.htm) for dynamically creating and maintaining text elements(https://help.sap.co
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentextpool.htm"
+abapFile: "abentextpool.htm"
+keywords: ["insert", "do", "if", "try", "abentextpool"]
+---
 
 * * *
 

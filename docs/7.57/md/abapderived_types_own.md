@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %own is a component group(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). The component group is contain
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_own.htm"
+abapFile: "abapderived_types_own.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abapderived", "own"]
+---
 
 * * *
 

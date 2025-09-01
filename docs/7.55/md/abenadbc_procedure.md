@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Stored Procedures"
+description: |
+  Stored procedures(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstored_procedure_glosry.htm 'Glossary Entry') can be executed using the following instance method of the class CL_SQL_STATEMENT -   EXECUTE_PROCEDURE The method has an mandatory input parameter PROC_NAME of type s
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc_procedure.htm"
+abapFile: "abenadbc_procedure.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "types", "internal-table", "abenadbc", "procedure"]
+---
 
 * * *
 

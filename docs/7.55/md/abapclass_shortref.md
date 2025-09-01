@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_definition.htm) Syntax Forms Declaration Part CLASS class DEFINITION INHERITING FROM superclass ABSTRACT FINAL CREATE PUBLICPROTECTEDPRIVATE SHARED MEMORY ENABLED
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_shortref.htm"
+abapFile: "abapclass_shortref.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapclass", "shortref"]
+---
 
 * * *
 

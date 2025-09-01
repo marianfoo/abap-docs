@@ -1,4 +1,14 @@
-  
+---
+title: "Byte string"
+description: |
+  Byte-like data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_like_data_typ_glosry.htm 'Glossary Entry') for saving byte chains(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_chain_glosry.htm 'Glossary Entry') with variable lengths or a similar dat
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_string_glosry.htm"
+abapFile: "abenbyte_string_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenbyte", "string", "glosry"]
+---
 
 * * *
 

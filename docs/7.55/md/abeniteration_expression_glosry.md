@@ -1,4 +1,14 @@
-  
+---
+title: "iteration_expression_glosry"
+description: |
+  iteration_expression_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeniteration_expression_glosry.htm"
+abapFile: "abeniteration_expression_glosry.htm"
+keywords: ["do", "try", "abeniteration", "expression", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Business Service Definition"
+description: |
+  Short: Service Definition The business service definition (or service definition for short) is a repository object that enables a consumer-specific perspective on the underlying data model. The service definition defines which CDS entities and which data model of the behavior are provided for consum
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenservice_definition_glosry.htm"
+abapFile: "abenservice_definition_glosry.htm"
+keywords: ["do", "if", "data", "abenservice", "definition", "glosry"]
+---
 
 * * *
 

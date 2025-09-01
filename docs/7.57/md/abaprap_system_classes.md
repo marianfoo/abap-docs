@@ -1,4 +1,14 @@
-  
+---
+title: "RAP-Related System Classes"
+description: |
+  The class CL_ABAP_BEHV_AUX contains methods for retrieving information about the context of the current RAP handler method(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_handler_method_glosry.htm 'Glossary Entry') or saver method(https://help.sap.com/doc/abapdocu_757_index
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprap_system_classes.htm"
+abapFile: "abaprap_system_classes.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abaprap", "system", "classes"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CTE association"
+description: |
+  Association(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassociation_glosry.htm 'Glossary Entry') that is defined for a common table expression(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencommon_table_expression_glosry.htm 'Glossary Entry') (CTE(https://hel
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencte_association_glosry.htm"
+abapFile: "abencte_association_glosry.htm"
+keywords: ["do", "try", "abencte", "association", "glosry"]
+---
 
 * * *
 

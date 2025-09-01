@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   Internal tables must be specified at operand positions for internal tables when the statement is executed and if known statically. Generic formal parameters and field symbols can only be specified if they are typed with at least the generic type any table(https://help.sap.com/doc/abapdocu_755_
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_access.htm"
+abapFile: "abenitab_access.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "data", "types", "internal-table", "field-symbol", "abenitab", "access"]
+---
 
 * * *
 

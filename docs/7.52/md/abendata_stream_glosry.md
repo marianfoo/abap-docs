@@ -1,4 +1,14 @@
-  
+---
+title: "data_stream_glosry"
+description: |
+  data_stream_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_stream_glosry.htm"
+abapFile: "abendata_stream_glosry.htm"
+keywords: ["do", "try", "data", "abendata", "stream", "glosry"]
+---
 
 * * *
 

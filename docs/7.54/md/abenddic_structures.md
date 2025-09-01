@@ -1,4 +1,14 @@
-  
+---
+title: "Structures"
+description: |
+  A structure in ABAP Dictionary defines a structured type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructured_type_glosry.htm 'Glossary Entry') that contains other data types as components. These components can be: -   Elementary data types -   Reference types -   Structured t
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_structures.htm"
+abapFile: "abenddic_structures.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abenddic", "structures"]
+---
 
 * * *
 

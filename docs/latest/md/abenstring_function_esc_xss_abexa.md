@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_xss DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor . PRIVATE SECTION. DATA: in       TYPE REF TO if_demo_input, icf_node TYPE string. ENDCLASS.  Public class implement
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_function_esc_xss_abexa.htm"
+abapFile: "abenstring_function_esc_xss_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenstring", "function", "esc", "xss", "abexa"]
+---
 
 * * *
 

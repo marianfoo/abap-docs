@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  GRANT SELECT ON cds_entity REDEFINITION; Effect Full access rule in the statement DEFINE ROLE(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_role.htm) in CDS DCL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_glosry.htm 'Glossary Ent
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_grant_rule.htm"
+abapFile: "abencds_dcl_role_grant_rule.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "dcl", "role", "grant", "rule"]
+---
 
 * * *
 

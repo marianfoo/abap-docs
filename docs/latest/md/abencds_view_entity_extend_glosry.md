@@ -1,4 +1,14 @@
-  
+---
+title: "CDS view entity extension"
+description: |
+  CDS entity extension(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_extend_glosry.htm 'Glossary Entry') of a CDS view entity(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') or a CDS projection view(htt
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity_extend_glosry.htm"
+abapFile: "abencds_view_entity_extend_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "view", "entity", "extend", "glosry"]
+---
 
 * * *
 

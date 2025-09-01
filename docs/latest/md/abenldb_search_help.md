@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Link with Search Helps"
+description: |
+  A logical database can be assigned a suitable search help(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensearch_help_glosry.htm 'Glossary Entry'). The best type of search help for a logical database depends on the content of the database. For example, if a logical database is
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenldb_search_help.htm"
+abapFile: "abenldb_search_help.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "try", "data", "internal-table", "abenldb", "search", "help"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "aggregate_function_glosry"
+description: |
+  aggregate_function_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaggregate_function_glosry.htm"
+abapFile: "abenaggregate_function_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenaggregate", "function", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  itab - System Class CL_ABAP_DIFF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_diff.htm) itab - System Class CL_ABAP_ITAB_UTILITIES(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_itab.htm)
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_system_classes.htm"
+abapFile: "abenitab_system_classes.htm"
+keywords: ["do", "if", "class", "data", "internal-table", "abenitab", "system", "classes"]
+---
 
 * * *
 

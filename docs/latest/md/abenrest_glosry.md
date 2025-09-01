@@ -1,4 +1,14 @@
-  
+---
+title: "REST"
+description: |
+  Short for Representational State Transfer. An architecture concept for Web services. One of the essential conditions for a RESTful(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrestful_glosry.htm 'Glossary Entry') programming model is a stateless Web server. No client-depende
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrest_glosry.htm"
+abapFile: "abenrest_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrest", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT, UPDATE, MODIFY dbtab - LOB Handles"
+description: |
+  In the INSERT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_dbtab.htm), UPDATE(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapupdate.htm), or MODIFY(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_dbtab.htm) statements, LOB handles
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninsert_update_modify_lob.htm"
+abapFile: "abeninsert_update_modify_lob.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abeninsert", "modify", "lob"]
+---
 
 * * *
 
@@ -10,17 +20,11 @@ INSERT, UPDATE, MODIFY dbtab - LOB Handles
 
 In the [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapupdate.htm), or [MODIFY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_dbtab.htm) statements, [LOB handles](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_glosry.htm "Glossary Entry") can be created as [writer streams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwriter_stream_glosry.htm "Glossary Entry") and specified as [locators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocator_glosry.htm "Glossary Entry").
 
--   [Prerequisites](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_1)
+-   [Prerequisites](#abeninsert-update-modify-lob-1--------rules---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_2)
 
--   [Rules](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_2)
+-   [Changing Accesses Using Write Streams](#abeninsert-update-modify-lob-3--------changing-accesses-using-locators---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_4)
 
--   [Changing Accesses Using Write Streams](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_3)
-
--   [Changing Accesses Using Locators](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_4)
-
--   [Restrictions](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_5)
-
--   [Examples](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_6)
+-   [Restrictions](#abeninsert-update-modify-lob-5--------examples---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_6)
 
 Prerequisites
 

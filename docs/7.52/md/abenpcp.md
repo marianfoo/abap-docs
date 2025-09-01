@@ -1,4 +1,14 @@
-  
+---
+title: "PCP - Push Channel Protocol"
+description: |
+  The Push Channel Protocol (PCP)(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpush_channel_protocol_glosry.htm 'Glossary Entry') is a communications format, specified by SAP, that is used to exchange messages between ABAP programs and between ABAP programs and external interfaces.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpcp.htm"
+abapFile: "abenpcp.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenpcp"]
+---
 
 * * *
 

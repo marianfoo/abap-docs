@@ -1,4 +1,14 @@
-  
+---
+title: "Elementary Data Type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm 'Glossary Entry') of fixed or variable length that is neither structured(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructured_type_glosry.htm 'Glossary Entry') nor a table type(ht
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_type_glosry.htm"
+abapFile: "abenelementary_data_type_glosry.htm"
+keywords: ["do", "try", "data", "types", "abenelementary", "type", "glosry"]
+---
 
 * * *
 

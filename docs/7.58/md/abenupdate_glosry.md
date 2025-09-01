@@ -1,4 +1,14 @@
-  
+---
+title: "update_glosry"
+description: |
+  update_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_glosry.htm"
+abapFile: "abenupdate_glosry.htm"
+keywords: ["update", "do", "if", "try", "data", "abenupdate", "glosry"]
+---
 
 * * *
 

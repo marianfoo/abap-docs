@@ -1,4 +1,14 @@
-  
+---
+title: "Screens, Screen Input Help"
+description: |
+  The example shows how to use the screen input help. Source Code REPORT demo_dynpro_f4_help_dynpro. DATA: carrier(3) TYPE c, connection(4) TYPE c. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. Description The static next screen number of screen 100 is 100. The input fields have
+version: "7.52"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_f4_help_dyn_abexa.htm"
+abapFile: "abendynpro_f4_help_dyn_abexa.htm"
+keywords: ["select", "do", "if", "data", "abendynpro", "help", "dyn", "abexa"]
+---
 
 * * *
 

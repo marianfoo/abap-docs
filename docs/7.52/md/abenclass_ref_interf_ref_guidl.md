@@ -1,4 +1,14 @@
-  
+---
+title: "Class References and Interface References"
+description: |
+  Background Interface components in objects can be addressed using a class reference variable or an interface reference variable. If you use a class reference variable, the interface component is addressed using the name of the interface and the interface component selector (~). If you use a suitable
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ref_interf_ref_guidl.htm"
+abapFile: "abenclass_ref_interf_ref_guidl.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenclass", "ref", "interf", "guidl"]
+---
 
 * * *
 

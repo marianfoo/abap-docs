@@ -1,4 +1,14 @@
-  
+---
+title: "Pooled Tables and Cluster Tables"
+description: |
+  Pooled tables and cluster tables are an SAP-specific category of database tables that can be defined in ABAP Dictionary and exist alongside transparent tables(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransparent_table_glosry.htm 'Glossary Entry'). Unlike transparent tables, p
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poolclu.htm"
+abapFile: "abenddic_database_tables_poolclu.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "poolclu"]
+---
 
 * * *
 

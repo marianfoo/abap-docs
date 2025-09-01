@@ -1,4 +1,14 @@
-  
+---
+title: "Table Control - Examples"
+description: |
+  !Example(exa.gif 'Example') Table Control with Scrolling(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_control1_abexa.htm) !Example(exa.gif 'Example') Table Control with Modifications(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_control2_abexa.h
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_control_abexas.htm"
+abapFile: "abentable_control_abexas.htm"
+keywords: ["do", "if", "abentable", "control", "abexas"]
+---
 
 * * *
 

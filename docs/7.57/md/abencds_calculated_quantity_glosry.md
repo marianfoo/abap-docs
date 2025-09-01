@@ -1,4 +1,14 @@
-  
+---
+title: "CDS calculated quantity"
+description: |
+  Component of a CDS view entity(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). A calculated quantity is always the result of a
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity_glosry.htm"
+abapFile: "abencds_calculated_quantity_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "calculated", "quantity", "glosry"]
+---
 
 * * *
 

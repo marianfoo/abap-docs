@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Date Functions and Time Functions"
+description: |
+  ABAP SQL supports the following date functions and time functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm): -   Date functions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_date_func.htm) -   Time functions(https://help.s
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_date_time_functions.htm"
+abapFile: "abenopen_sql_date_time_functions.htm"
+keywords: ["do", "data", "abenopen", "sql", "date", "time", "functions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DIVIDE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide_shortref.htm) Syntax DIVIDE dobj1 BY dobj2. Effect This statement has the same effect as the statement dobj1 = dobj1 / dobj2.(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm"
+abapFile: "abapdivide.htm"
+keywords: ["do", "if", "try", "data", "abapdivide"]
+---
 
 * * *
 

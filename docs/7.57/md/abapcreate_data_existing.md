@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA, TYPE, LIKE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data_area_handle.htm)  TYPE LINE OF type(name)
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data_existing.htm"
+abapFile: "abapcreate_data_existing.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "field-symbol", "abapcreate", "existing"]
+---
 
 * * *
 

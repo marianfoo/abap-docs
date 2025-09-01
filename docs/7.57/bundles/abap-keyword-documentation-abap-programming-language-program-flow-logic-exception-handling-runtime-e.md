@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abennoncat_exceptions.htm
 
-  
+---
+title: "Runtime Errors"
+description: |
+  Runtime errors indicate situations in which the execution of an ABAP program cannot be continued but must be terminated. Runtime errors can occur in one of the following situations when ABAP programs are executed: -   Non-handled exceptions: -   A catchable exception is not handled. -   A uncatchabl
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennoncat_exceptions.htm"
+abapFile: "abennoncat_exceptions.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "exception-handling", "abennoncat", "exceptions"]
+---
 
 * * *
 
@@ -46,7 +56,17 @@ Continue
 
 ### abapraise_shortdump.htm
 
-  
+---
+title: "RAISE SHORTDUMP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_shortref.htm) Syntax RAISE SHORTDUMP  TYPE cx_class  message(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_message.htm) EXPORTING p1 = a1 p2 = a2 ...
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump.htm"
+abapFile: "abapraise_shortdump.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abapraise", "shortdump"]
+---
 
 * * *
 
@@ -139,7 +159,17 @@ Continue
 
 ### abapraise_shortdump_message.htm
 
-  
+---
+title: "RAISE SHORTDUMP, message"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_shortref.htm) Syntax ...  MESSAGE(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_exception_message.htm) tn(id)   ID mid TYPE mtype NUMBER num  WITH dobj1 ... dobj4
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_message.htm"
+abapFile: "abapraise_shortdump_message.htm"
+keywords: ["do", "if", "try", "class", "exception-handling", "abapraise", "shortdump", "message"]
+---
 
 * * *
 
@@ -205,7 +235,17 @@ RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
 
 ### abapraise_shortdump.htm
 
-  
+---
+title: "RAISE SHORTDUMP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_shortref.htm) Syntax RAISE SHORTDUMP  TYPE cx_class  message(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump_message.htm) EXPORTING p1 = a1 p2 = a2 ...
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_shortdump.htm"
+abapFile: "abapraise_shortdump.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "exception-handling", "abapraise", "shortdump"]
+---
 
 * * *
 

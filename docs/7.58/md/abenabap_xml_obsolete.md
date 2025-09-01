@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete XML Binding"
+description: |
+  -   CALL TRANSFORMATION - OBJECTS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_objects.htm) CALL TRANSFORMATION, OBJECTS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_objects.htm)
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml_obsolete.htm"
+abapFile: "abenabap_xml_obsolete.htm"
+keywords: ["do", "if", "data", "abenabap", "xml", "obsolete"]
+---
 
 * * *
 

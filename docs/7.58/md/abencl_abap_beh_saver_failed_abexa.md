@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_SAVE_F_UNM_S_M. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity DEMO_SAVE_F_UNM_S_M as select from demo_tab_root_7  key key_field, char1, char2, num1, num2  Behavior definition The RAP behavio
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_beh_saver_failed_abexa.htm"
+abapFile: "abencl_abap_beh_saver_failed_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "abencl", "abap", "beh", "saver", "failed", "abexa"]
+---
 
 * * *
 

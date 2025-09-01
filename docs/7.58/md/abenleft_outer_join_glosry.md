@@ -1,4 +1,14 @@
-  
+---
+title: "left_outer_join_glosry"
+description: |
+  left_outer_join_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleft_outer_join_glosry.htm"
+abapFile: "abenleft_outer_join_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenleft", "outer", "join", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  sql_func - Type Conversion Functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_type_conv_func.htm) sql_func - Unit and Currency Conversion Functions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_curr_unit_conv_func.htm) sql_func - Geome
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_conversion_functions.htm"
+abapFile: "abenabap_sql_conversion_functions.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "sql", "conversion", "functions"]
+---
 
 * * *
 

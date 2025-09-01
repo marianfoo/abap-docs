@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Object Orientation"
+description: |
+  Object orientation, or rather object-oriented programming, is a problem-solving method that represents the real world in a series of software objects. Object-oriented programming is based on a programming model in which data and functions are unified in objects. The remaining language scope of ABAP
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_orientation.htm"
+abapFile: "abenobject_orientation.htm"
+keywords: ["do", "while", "if", "method", "class", "data", "object-oriented", "abenobject", "orientation"]
+---
 
 * * *
 

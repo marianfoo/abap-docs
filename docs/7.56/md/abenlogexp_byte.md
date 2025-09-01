@@ -1,4 +1,14 @@
-  
+---
+title: "Comparisons with Numeric Data Types"
+description: |
+  - xstring, x decfloat16, decfloat34 decfloat34 f f p p int8 int8 i, s, b i Length Adjustments The comparison type p has 31 places and the number of decimal places for the operand of type p. Hint In conversions(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbyte_source_fields.htm)
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_byte.htm"
+abapFile: "abenlogexp_byte.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenlogexp", "byte"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ rel\_exp - Comparison Type of Byte-Like Data Objects
 
 The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between byte-like data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_type.htm) determine how the comparison is performed.
 
--   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_BYTE_1)
--   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_BYTE_2)
--   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_BYTE_3)
--   [Comparisons with Date Types, Time Types, or Time Stamp Types](#@@ITOC@@ABENLOGEXP_BYTE_4)
+-   [Comparisons with Numeric Data Types](#abenlogexp-byte-1-------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_BYTE_2)
+-   [Comparisons with Byte-Like Data Types](#abenlogexp-byte-3-------comparisons-with-date-types--time-types--or-time-stamp-types---@ITOC@@ABENLOGEXP_BYTE_4)
 
 Comparisons with Numeric Data Types
 

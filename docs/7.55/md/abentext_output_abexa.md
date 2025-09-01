@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT  demo_show_text. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: text       TYPE REF TO cl_demo_text, text_table TYPE cl_demo_text=>t_text, text_line  TYPE cl_demo_text=>t_line. text = cl_demo_text=>new( ). text
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_output_abexa.htm"
+abapFile: "abentext_output_abexa.htm"
+keywords: ["select", "delete", "do", "method", "class", "data", "abentext", "output", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Mapping, Abstract BDEF"
+description: |
+  Syntax Forms Type Mapping ... mapping for PartnerType(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_type_mapping.htm) ... Deep Mapping ... deep mapping for NestedDeepDDICType corresponding  extensible(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_type_mapping_abstract.htm"
+abapFile: "abenbdl_type_mapping_abstract.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbdl", "type", "mapping", "abstract"]
+---
 
 * * *
 

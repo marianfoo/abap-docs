@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT - INTO target"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_shortref.htm) Syntax ...      @dobj              @DATA(dobj)    NEW @dref          NEW @DATA(dref)  ... Alternatives: 1. ... @dobj(#!ABAP_ALTERNATIVE_1@1@) 2. ... @DATA(dobj)
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_into_target.htm"
+abapFile: "abapselect_into_target.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abapselect", "into", "target"]
+---
 
 * * *
 

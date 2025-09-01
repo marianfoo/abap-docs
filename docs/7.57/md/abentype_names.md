@@ -1,4 +1,14 @@
-  
+---
+title: "Absolute Type Names"
+description: |
+  The type name of a self-defined (i.e. not built-in) type that can be used statically in ABAP statements is only valid in relation to its context and is therefore also known as the relative type name. As described in Validity and Visibility(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_names.htm"
+abapFile: "abentype_names.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abentype", "names"]
+---
 
 * * *
 

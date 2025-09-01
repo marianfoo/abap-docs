@@ -1,4 +1,14 @@
-  
+---
+title: "backround_request_glosry"
+description: |
+  backround_request_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbackround_request_glosry.htm"
+abapFile: "abenbackround_request_glosry.htm"
+keywords: ["do", "if", "try", "abenbackround", "request", "glosry"]
+---
 
 * * *
 

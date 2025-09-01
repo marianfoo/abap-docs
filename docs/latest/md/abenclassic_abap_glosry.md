@@ -1,4 +1,14 @@
-  
+---
+title: "classic_abap_glosry"
+description: |
+  classic_abap_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclassic_abap_glosry.htm"
+abapFile: "abenclassic_abap_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenclassic", "abap", "glosry"]
+---
 
 * * *
 

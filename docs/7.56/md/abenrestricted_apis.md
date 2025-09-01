@@ -1,4 +1,14 @@
-  
+---
+title: "Working with released APIs"
+description: |
+  In strict ABAP development environments(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstrict_abap_dev_envir_glosry.htm 'Glossary Entry'), a restricted ABAP language version(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_version_glosry.htm 'Glossary Ent
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_apis.htm"
+abapFile: "abenrestricted_apis.htm"
+keywords: ["do", "try", "abenrestricted", "apis"]
+---
 
 * * *
 

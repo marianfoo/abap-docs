@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - DDL for Metadata Extensions"
+description: |
+  Alongside the DDL statements for data definitions(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm), the CDS DDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm 'Glossary Entry') in ABAP CDS makes it possible to define metada
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm"
+abapFile: "abencds_f1_ddlx_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "ddlx", "syntax"]
+---
 
 * * *
 

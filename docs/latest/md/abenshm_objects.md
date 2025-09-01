@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Objects"
+description: |
+  Objects in the shared objects memory(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_memory_glosry.htm 'Glossary Entry'), that is, the actual shared objects, are instances of shared-memory-enabled classes or anonymous data objects addressed using references. A sh
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_objects.htm"
+abapFile: "abenshm_objects.htm"
+keywords: ["do", "if", "try", "class", "data", "abenshm", "objects"]
+---
 
 * * *
 

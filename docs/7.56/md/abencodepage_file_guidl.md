@@ -1,4 +1,14 @@
-  
+---
+title: "Code Pages for Files"
+description: |
+  Background When you open text files on the host computer(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of the current AS instance using the OPEN DATASET statement, you specify the following options that are very important for internationa
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencodepage_file_guidl.htm"
+abapFile: "abencodepage_file_guidl.htm"
+keywords: ["select", "insert", "do", "if", "try", "data", "abencodepage", "file", "guidl"]
+---
 
 * * *
 

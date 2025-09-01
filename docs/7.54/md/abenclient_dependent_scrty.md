@@ -1,4 +1,14 @@
-  
+---
+title: "Cross-Client Database Access"
+description: |
+  Each client(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_glosry.htm 'Glossary Entry') is a self-contained unit. Implicit client handling(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm) in ABAP SQL(https://help.sap.com/doc/ab
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_dependent_scrty.htm"
+abapFile: "abenclient_dependent_scrty.htm"
+keywords: ["select", "do", "if", "try", "data", "abenclient", "dependent", "scrty"]
+---
 
 * * *
 

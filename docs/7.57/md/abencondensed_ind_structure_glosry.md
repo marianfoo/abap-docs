@@ -1,4 +1,14 @@
-  
+---
+title: "condensed_ind_structure_glosry"
+description: |
+  condensed_ind_structure_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencondensed_ind_structure_glosry.htm"
+abapFile: "abencondensed_ind_structure_glosry.htm"
+keywords: ["do", "if", "try", "abencondensed", "ind", "structure", "glosry"]
+---
 
 * * *
 

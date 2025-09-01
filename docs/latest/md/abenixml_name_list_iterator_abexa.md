@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_ixml_name_list_itrtr DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_ixml_name_list_itrtr IMPLEMENTATION. METHOD main. DATA source
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_name_list_iterator_abexa.htm"
+abapFile: "abenixml_name_list_iterator_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenixml", "name", "list", "iterator", "abexa"]
+---
 
 * * *
 

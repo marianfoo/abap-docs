@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE WHERE, DELETE WHERE, CLIENT SPECIFIED"
+description: |
+  Obsolete Syntax ... CLIENT SPECIFIED ... Effect The addition CLIENT SPECIFIED can be used instead of the USING(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapiumd_client.htm) additions in the variants UPDATE SET(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapud_client_obsolete.htm"
+abapFile: "abapud_client_obsolete.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "data", "abapud", "client", "obsolete"]
+---
 
 * * *
 

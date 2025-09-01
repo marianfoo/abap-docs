@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE FILTER DEPENDENCY RULE"
+description: |
+  Syntax DEFINE FILTER DEPENDENCY RULE drul ON dbtab IF  cond_pattern  THEN  derived_cond  Effect Variant of the Dictionary DDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_ddl_glosry.htm 'Glossary Entry') statement DEFINE DEPENDENCY RULE(https://help.sap.co
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_filter_drul.htm"
+abapFile: "abenddicddl_define_filter_drul.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abenddicddl", "define", "filter", "drul"]
+---
 
 * * *
 

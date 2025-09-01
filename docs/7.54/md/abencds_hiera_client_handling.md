@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Client Handling in CDS Hierarchies"
+description: |
+  For CDS hierarchies, client handling cannot be defined using annotations (as is the case in CDS views(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm)). Instead, client handling is defined in advance as follows: -   Client dependency is determined in the same
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hiera_client_handling.htm"
+abapFile: "abencds_hiera_client_handling.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "hiera", "client", "handling"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  A structure that does not have an associated JSON object component in deserializations retains its previous value. A structure to which an empty object is assigned also remains unchanged, since this has the same effect on the structure components as a missing object component. To initialize the stru
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson_abap_types_struc.htm"
+abapFile: "abenabap_asjson_abap_types_struc.htm"
+keywords: ["do", "case", "data", "types", "abenabap", "asjson", "abap", "struc"]
+---
 
 * * *
 

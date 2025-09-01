@@ -1,4 +1,14 @@
-  
+---
+title: "SUM"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_shortref.htm) Syntax SUM. Effect The statement SUM can only be specified within a loop starting with LOOP(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm), and is only respected wit
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum.htm"
+abapFile: "abapsum.htm"
+keywords: ["loop", "do", "if", "try", "data", "types", "internal-table", "abapsum"]
+---
 
 * * *
 

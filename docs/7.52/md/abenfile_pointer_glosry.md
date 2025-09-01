@@ -1,4 +1,14 @@
-  
+---
+title: "file_pointer_glosry"
+description: |
+  file_pointer_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_pointer_glosry.htm"
+abapFile: "abenfile_pointer_glosry.htm"
+keywords: ["do", "try", "abenfile", "pointer", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Flag for Initial Values in Database Tables"
+description: |
+  Table fields of database tables can be given a flag for initial values. On the database, this flag is set to NOT NULL. When a new field is inserted into an existing database table, this flag can be used (on any platform) to assign the type-dependent initial value(https://help.sap.com/doc/abapdocu_
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_init.htm"
+abapFile: "abenddic_database_tables_init.htm"
+keywords: ["insert", "update", "do", "if", "try", "class", "data", "types", "abenddic", "database", "tables", "init"]
+---
 
 * * *
 

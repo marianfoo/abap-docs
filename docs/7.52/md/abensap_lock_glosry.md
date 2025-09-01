@@ -1,4 +1,14 @@
-  
+---
+title: "SAP lock"
+description: |
+  Logical lock(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlock_glosry.htm 'Glossary Entry') based on lock objects(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlock_object_glosry.htm 'Glossary Entry'). → More(https://help.sap.com/doc/abapdocu_752_index_htm/7.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_lock_glosry.htm"
+abapFile: "abensap_lock_glosry.htm"
+keywords: ["do", "try", "abensap", "lock", "glosry"]
+---
 
 * * *
 

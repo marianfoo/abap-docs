@@ -1,4 +1,14 @@
-  
+---
+title: "COMPUTE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute_shortref.htm) Obsolete Syntax COMPUTE EXACT lhs =?= rhs. Effect The keyword COMPUTE can be written before every assignment(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute.htm"
+abapFile: "abapcompute.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abapcompute"]
+---
 
 * * *
 

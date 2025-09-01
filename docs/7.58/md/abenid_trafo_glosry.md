@@ -1,4 +1,14 @@
-  
+---
+title: "id_trafo_glosry"
+description: |
+  id_trafo_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm"
+abapFile: "abenid_trafo_glosry.htm"
+keywords: ["do", "if", "try", "abenid", "trafo", "glosry"]
+---
 
 * * *
 

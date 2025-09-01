@@ -1,4 +1,14 @@
-  
+---
+title: "Data Cluster"
+description: |
+  A data cluster is a group of data objects(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_object_glosry.htm 'Glossary Entry') grouped together for the purpose of storage in a memory medium(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_data_cluster_medi
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster.htm"
+abapFile: "abendata_cluster.htm"
+keywords: ["delete", "do", "try", "class", "data", "abendata", "cluster"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Test Statements"
+description: |
+  Internal Statements These statements are for internal use only. They cannot be used in application programs. -   TRACE-ENTRY(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptrace-entry.htm) -   SYNTAX-TRACE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-trac
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentests_internal.htm"
+abapFile: "abentests_internal.htm"
+keywords: ["do", "if", "try", "abentests", "internal"]
+---
 
 * * *
 

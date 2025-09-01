@@ -1,4 +1,14 @@
-  
+---
+title: "textlike_data_type_glosry"
+description: |
+  textlike_data_type_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentextlike_data_type_glosry.htm"
+abapFile: "abentextlike_data_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentextlike", "type", "glosry"]
+---
 
 * * *
 

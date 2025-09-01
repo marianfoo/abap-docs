@@ -1,4 +1,14 @@
-  
+---
+title: "REFRESH, FROM - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprefresh_obsolete.htm) Syntax REFRESH itab FROM TABLE dbtab. Effect Obsolete: Deletes all lines of an internal table itab and fills the table with lines from the database table or view dbtab. The content of the table work are
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprefresh_from_shortref.htm"
+abapFile: "abaprefresh_from_shortref.htm"
+keywords: ["delete", "do", "try", "data", "internal-table", "abaprefresh", "from", "shortref"]
+---
 
 * * *
 

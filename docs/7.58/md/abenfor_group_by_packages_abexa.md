@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_for_grps_by_packages DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. TYPES i_tab TYPE STANDARD TABLE OF decfloat34 WITH EMPTY KEY. DATA: itab TYPE i_ta
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_group_by_packages_abexa.htm"
+abapFile: "abenfor_group_by_packages_abexa.htm"
+keywords: ["loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "packages", "abexa"]
+---
 
 * * *
 

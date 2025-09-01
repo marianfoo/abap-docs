@@ -1,4 +1,14 @@
-  
+---
+title: "table_expression_glosry"
+description: |
+  table_expression_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expression_glosry.htm"
+abapFile: "abentable_expression_glosry.htm"
+keywords: ["do", "if", "try", "internal-table", "abentable", "expression", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, ASSIGN INCREMENT"
+description: |
+  The examples shows how the statement ASSIGN behaves when the addition INCREMENT is used. Source Code REPORT  demo_assign_increment. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA assign TYPE c LENGTH 1 VALUE '1'. cl_demo_input=>r
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassign_increment_abexa.htm"
+abapFile: "abenassign_increment_abexa.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "field-symbol", "abenassign", "increment", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP - Graph Processing"
+description: |
+  This example demonstrates graph(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengraph_glosry.htm 'Glossary Entry') processing using a graph workspace(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengraph_workspace_glosry.htm 'Glossary Entry') and a graph
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_graph_abexa.htm"
+abapFile: "abenamdp_graph_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abenamdp", "graph", "abexa"]
+---
 
 * * *
 

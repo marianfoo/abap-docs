@@ -1,4 +1,14 @@
-  
+---
+title: "METHOD"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_shortref.htm) Syntax METHOD meth. ... ENDMETHOD. Effect Between the statements METHOD and ENDMETHOD, the function of a method(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm 'Gl
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm"
+abapFile: "abapmethod.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "types", "abapmethod"]
+---
 
 * * *
 

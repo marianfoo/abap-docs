@@ -1,4 +1,14 @@
-  
+---
+title: "The C Destructor"
+description: |
+  A destructor is a special method called automatically when an object is deleted. Destructors can be used to release resources used by the object that are not covered by garbage collection. Currently, ABAP Objects does not have a destructor in which a regular ABAP processing block can be programmed.
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenc_destructor.htm"
+abapFile: "abenc_destructor.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "abenc", "destructor"]
+---
 
 * * *
 

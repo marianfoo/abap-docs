@@ -1,4 +1,14 @@
-  
+---
+title: "READ LINE, result"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_line_shortref.htm) Syntax ... LINE VALUE INTO wa FIELD VALUE dobj1 INTO wa1 dobj2 INTO wa2 .... Additions: 1. ... LINE VALUE INTO wa(#!ABAP_ADDITION_1@1@) 2. ... FIELD VALUE dob
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_line_result.htm"
+abapFile: "abapread_line_result.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "field-symbol", "abapread", "line", "result"]
+---
 
 * * *
 

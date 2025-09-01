@@ -1,4 +1,14 @@
-  
+---
+title: "Floating Point Numbers, Arithmetic Calculations"
+description: |
+  The example demonstrates arithmetic calculations(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarith_operators.htm) with floating point numbers. Source Code REPORT demo_floating_point_numbers. DATA ok_code       TYPE sy-ucomm. DATA op1           TYPE c LENGTH 46. DATA op2
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_numbers_abexa.htm"
+abapFile: "abenfloating_point_numbers_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenfloating", "point", "numbers", "abexa"]
+---
 
 * * *
 

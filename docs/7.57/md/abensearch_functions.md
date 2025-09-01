@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  1. ... find( val = text(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_val.htm)  sub = substring(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_sub.htm) pcre = regex(https://help.sap.com/doc/abapdocu_757_index_htm/7
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensearch_functions.htm"
+abapFile: "abensearch_functions.htm"
+keywords: ["do", "if", "case", "catch", "class", "data", "abensearch", "functions"]
+---
 
 * * *
 

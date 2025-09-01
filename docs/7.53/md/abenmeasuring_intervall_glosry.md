@@ -1,4 +1,14 @@
-  
+---
+title: "measuring_intervall_glosry"
+description: |
+  measuring_intervall_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmeasuring_intervall_glosry.htm"
+abapFile: "abenmeasuring_intervall_glosry.htm"
+keywords: ["do", "try", "abenmeasuring", "intervall", "glosry"]
+---
 
 * * *
 

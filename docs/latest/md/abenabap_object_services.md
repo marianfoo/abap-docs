@@ -1,4 +1,14 @@
-  
+---
+title: "Object Services (OS)"
+description: |
+  Object Services is an object-oriented framework for handling relational databases. Instead of working directly with ABAP SQL statements, persistent objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpersistent_object_glosry.htm 'Glossary Entry') are used whose attributes a
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services.htm"
+abapFile: "abenabap_object_services.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabap", "object", "services"]
+---
 
 * * *
 

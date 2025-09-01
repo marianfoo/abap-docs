@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DDIC-Based View, Associations and Joins"
+description: |
+  This topic describes the different use cases of CDS associations. It explains in which use case a join is generated on the database and which join type(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_type_glosry.htm 'Glossary Entry') is generated each time. Examples and screens
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1.htm"
+abapFile: "abencds_assoc_join_v1.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abencds", "assoc", "join"]
+---
 
 * * *
 
@@ -17,12 +27,9 @@ When a CDS association is instantiated as join on the database, then the [associ
 
 There are the following basic use cases for CDS associations:
 
--   [Using a Path Expression in the FROM Clause](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_1)
--   [Exposing a CDS Association](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_2)
--   [Adding a Field from the Association Target to the Element List](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_3)
--   [Using a Path Expression in the WHERE Clause](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_4)
--   [Using an Exposed Association in an External View](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_5)
--   [Using an Exposed Association in ABAP SQL](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_6)
+-   [Using a Path Expression in the FROM Clause](#abencds-assoc-join-v1-1-------exposing-a-cds-association---@ITOC@@ABENCDS_ASSOC_JOIN_V1_2)
+-   [Adding a Field from the Association Target to the Element List](#abencds-assoc-join-v1-3-------using-a-path-expression-in-the-where-clause---@ITOC@@ABENCDS_ASSOC_JOIN_V1_4)
+-   [Using an Exposed Association in an External View](#abencds-assoc-join-v1-5-------using-an-exposed-association-in-abap-sql---@ITOC@@ABENCDS_ASSOC_JOIN_V1_6)
 
 Using a Path Expression in the FROM Clause   
 

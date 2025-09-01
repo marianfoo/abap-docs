@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Casting Decimal Places"
+description: |
+  This example demonstrates how a casting of decimal places is performed. Source Code  Public class definition CLASS cl_demo_fld_smbls_assign_deci DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementat
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencasting_obsolete_dec_abexa.htm"
+abapFile: "abencasting_obsolete_dec_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "field-symbol", "abencasting", "obsolete", "dec", "abexa"]
+---
 
 * * *
 

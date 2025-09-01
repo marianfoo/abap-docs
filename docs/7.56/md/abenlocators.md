@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Locators"
+description: |
+  ABAP SQL supports locators(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocator_glosry.htm 'Glossary Entry') for LOBs(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlob_glosry.htm 'Glossary Entry') in data sources. -   System Classes for Locators(#abenlocators
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocators.htm"
+abapFile: "abenlocators.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "abenlocators"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ ABAP SQL - Locators
 
 ABAP SQL supports [locators](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocator_glosry.htm "Glossary Entry") for [LOBs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlob_glosry.htm "Glossary Entry") in data sources.
 
--   [System Classes for Locators](#@@ITOC@@ABENLOCATORS_1)
-    -   [Important Methods](#@@ITOC@@ABENLOCATORS_2)
--   [Creating Locators for LOBs](#@@ITOC@@ABENLOCATORS_3)
--   [Closing Locators](#@@ITOC@@ABENLOCATORS_4)
+-   [System Classes for Locators](#abenlocators-1-----------important-methods---@ITOC@@ABENLOCATORS_2)
+-   [Creating Locators for LOBs](#abenlocators-3-------closing-locators---@ITOC@@ABENLOCATORS_4)
 -   [Examples](#@@ITOC@@ABENLOCATORS_5)
 
 System Classes for Locators

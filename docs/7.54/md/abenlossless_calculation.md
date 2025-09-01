@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... EXACT type( arith_exp ) .... If the operand of the operator EXACT is an arithmetic expression, the data type specified by type cannot have the type f. arith_exp must be an arithmetic expression simplified as follows: -   The permitted arithmetic operators(https://help.sap.com/doc/abapdocu_75
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_calculation.htm"
+abapFile: "abenlossless_calculation.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "abenlossless", "calculation"]
+---
 
 * * *
 

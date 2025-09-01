@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenprogram_attributes_obsolete.htm
 
-  
+---
+title: "Obsolete Program Attributes"
+description: |
+  -   Obsolete Disabling of the Unicode Check(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_obsolete.htm) -   Obsolete Disabling of Fixed Point Arithmetic(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_fixed_point_obsolete.htm) Note The strict mode
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attributes_obsolete.htm"
+abapFile: "abenprogram_attributes_obsolete.htm"
+keywords: ["do", "abenprogram", "attributes", "obsolete"]
+---
 
 * * *
 
@@ -30,7 +40,17 @@ Continue
 
 ### abennon_unicode_obsolete.htm
 
-  
+---
+title: "Obsolete Disabling of the Unicode Check"
+description: |
+  When a program is created, the ABAP language version(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_versions.htm) standard ABAP (Unicode)(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_program_glosry.htm 'Glossary Entry') with enabled Unicode checks
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_obsolete.htm"
+abapFile: "abennon_unicode_obsolete.htm"
+keywords: ["do", "try", "abennon", "unicode", "obsolete"]
+---
 
 * * *
 
@@ -55,7 +75,17 @@ Programming Guideline
 
 ### abennon_fixed_point_obsolete.htm
 
-  
+---
+title: "Obsolete Disabling of Fixed Point Arithmetic"
+description: |
+  The program attribute(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_glosry.htm 'Glossary Entry') fixed point arithmetic(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfixed_point_arithmetic_glosry.htm 'Glossary Entry') is set by default when a p
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_fixed_point_obsolete.htm"
+abapFile: "abennon_fixed_point_obsolete.htm"
+keywords: ["do", "if", "try", "class", "types", "abennon", "fixed", "point", "obsolete"]
+---
 
 * * *
 

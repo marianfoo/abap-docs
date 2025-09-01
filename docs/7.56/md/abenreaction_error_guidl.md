@@ -1,4 +1,14 @@
-  
+---
+title: "Reaction to Error Situations"
+description: |
+  Background ABAP provides the following concepts that a program can use to properly react to different error situations: -   Exceptions Exceptions are events in the execution of an ABAP program that interrupt the program when it is not possible for the program to continue in a meaningful way. Excepti
+version: "7.56"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreaction_error_guidl.htm"
+abapFile: "abenreaction_error_guidl.htm"
+keywords: ["select", "do", "if", "class", "exception-handling", "abenreaction", "error", "guidl"]
+---
 
 * * *
 

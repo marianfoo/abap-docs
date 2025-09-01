@@ -1,4 +1,14 @@
-  
+---
+title: "generic_data_type_glosry"
+description: |
+  generic_data_type_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_data_type_glosry.htm"
+abapFile: "abengeneric_data_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "field-symbol", "abengeneric", "type", "glosry"]
+---
 
 * * *
 

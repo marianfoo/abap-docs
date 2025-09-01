@@ -1,4 +1,14 @@
-  
+---
+title: "ABP - Global class"
+description: |
+  Work in progress  Syntax CLASS class_name DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF CDS_entity_behavior. PUBLIC SECTION. PROTECTED SECTION. PRIVATE SECTION. ENDCLASS. CLASS class_name IMPLEMENTATION. ENDCLASS. Effect The behavior pool(https://help.sap.com/doc/abapdo
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_global_class.htm"
+abapFile: "abenabp_global_class.htm"
+keywords: ["update", "do", "if", "try", "method", "class", "data", "types", "abenabp", "global"]
+---
 
 * * *
 

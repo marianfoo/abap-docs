@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - FOR Expressions for Mesh Paths"
+description: |
+  This example demonstrates table comprehensions and table reductions for mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_for_flights DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SE
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_abexa.htm"
+abapFile: "abenmesh_for_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "catch", "method", "class", "data", "types", "abenmesh", "for", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Replacement Object for Database Table"
+description: |
+  This example demonstrates a DDIC database table with a replacement object(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreplacement_object_glosry.htm 'Glossary Entry'). Source Code REPORT demo_table_replacement_object. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class
+version: "7.55"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_replacement_object_abexa.htm"
+abapFile: "abenddic_replacement_object_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "method", "class", "data", "abenddic", "replacement", "object", "abexa"]
+---
 
 * * *
 

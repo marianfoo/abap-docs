@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL - Operands and Expressions"
+description: |
+  In ABAP SQL statements, the following objects can be specified as operands alongside data sources (database tables , classic views, and non-abstract CDS entities) and the following expressions can be used: -   Elements of data sources -   ABAP SQL - Specified Columns(https://help.sap.com/doc/abapd
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_operands.htm"
+abapFile: "abenopen_sql_operands.htm"
+keywords: ["select", "do", "if", "class", "data", "abenopen", "sql", "operands"]
+---
 
 * * *
 

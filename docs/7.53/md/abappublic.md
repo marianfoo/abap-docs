@@ -1,4 +1,14 @@
-  
+---
+title: "PUBLIC SECTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_shortref.htm) Syntax PUBLIC SECTION. Effect This statement can only be used in the declaration part(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_definition.htm) of a class. It defines the
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abappublic.htm"
+abapFile: "abappublic.htm"
+keywords: ["select", "do", "try", "method", "class", "abappublic"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Data Types"
+description: |
+  Global data types can be defined in the ABAP Dictionary as DDIC types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_type_glosry.htm 'Glossary Entry'). These DDIC types are visible for all repository objects of the current AS ABAP and can be used there (as long as the package
+version: "7.56"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm"
+abapFile: "abenddic_data_types.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "types", "internal-table", "abenddic"]
+---
 
 * * *
 

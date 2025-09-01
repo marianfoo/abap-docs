@@ -5,7 +5,17 @@ Included pages: 12
 
 ### abencds_service_definitions.htm
 
-  
+---
+title: "ABAP CDS - Service Definitions"
+description: |
+  A CDS service definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') exposes CDS entities(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry') for a RAP business service(htt
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definitions.htm"
+abapFile: "abencds_service_definitions.htm"
+keywords: ["do", "if", "try", "data", "abencds", "service", "definitions"]
+---
 
 * * *
 
@@ -33,7 +43,17 @@ Continue
 
 ### abencds_f1_sdl_syntax.htm
 
-  
+---
+title: "ABAP CDS - SDL for Service Definitions"
+description: |
+  A CDS service definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') in ABAP CDS is created using the data definition language CDS SDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sdl_glosry.htm 'Glossar
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm"
+abapFile: "abencds_f1_sdl_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "sdl", "syntax"]
+---
 
 * * *
 
@@ -62,7 +82,17 @@ Continue
 
 ### abensrvd_define_service.htm
 
-  
+---
+title: "CDS SDL - DEFINE SERVICE"
+description: |
+  Syntax @service_annot1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm) @service_annot2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm) ... DEFINE SERVICE service  PROVIDER CON
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm"
+abapFile: "abensrvd_define_service.htm"
+keywords: ["do", "if", "try", "data", "abensrvd", "define", "service"]
+---
 
 * * *
 
@@ -143,7 +173,17 @@ Continue
 
 ### abencds_define_service_annos.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_syntax.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm"
+abapFile: "abencds_define_service_annos.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abencds", "define", "service", "annos"]
+---
 
 * * *
 
@@ -167,8 +207,7 @@ The character @ must be placed directly in front of the name annotation of the a
 
 The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_DEFINE_SERVICE_ANNOS_1)
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_DEFINE_SERVICE_ANNOS_2)
+-   [AbapCatalog Annotations](#abencds-define-service-annos-1-------endusertext-annotations---@ITOC@@ABENCDS_DEFINE_SERVICE_ANNOS_2)
 
 The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 
@@ -232,7 +271,17 @@ ABAP annotations introduced using EndUserText are used to define translatable se
 
 ### abensrvd_provider_contract.htm
 
-  
+---
+title: "CDS SDL - PROVIDER CONTRACTS"
+description: |
+  Syntax ... PROVIDER CONTRACTS INA  SQL ... Effect A provider contract can optionally be specified in a CDS service definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definition_glosry.htm 'Glossary Entry'). It defines the scenario for which the service definit
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_provider_contract.htm"
+abapFile: "abensrvd_provider_contract.htm"
+keywords: ["do", "if", "case", "try", "data", "abensrvd", "provider", "contract"]
+---
 
 * * *
 
@@ -301,7 +350,17 @@ define service DEMO\_CDS\_SD\_PROVIDER\_CONTRACT
 
 ### abensrvd_define_service.htm
 
-  
+---
+title: "CDS SDL - DEFINE SERVICE"
+description: |
+  Syntax @service_annot1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm) @service_annot2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm) ... DEFINE SERVICE service  PROVIDER CON
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm"
+abapFile: "abensrvd_define_service.htm"
+keywords: ["do", "if", "try", "data", "abensrvd", "define", "service"]
+---
 
 * * *
 
@@ -382,7 +441,17 @@ Continue
 
 ### abensrvd_extend_service.htm
 
-  
+---
+title: "CDS SDL - EXTEND SERVICE"
+description: |
+  Syntax EXTEND SERVICE name WITH  EXPOSE cds_entity1 AS alias1; EXPOSE cds_entity2 AS alias2; ...  Effect Extends an existing CDS service definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') name us
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_extend_service.htm"
+abapFile: "abensrvd_extend_service.htm"
+keywords: ["delete", "do", "if", "case", "try", "data", "abensrvd", "extend", "service"]
+---
 
 * * *
 
@@ -445,7 +514,17 @@ define service DEMO\_CDS\_ORIGINAL\_SD {
 
 ### abencds_f1_sdl_syntax.htm
 
-  
+---
+title: "ABAP CDS - SDL for Service Definitions"
+description: |
+  A CDS service definition(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') in ABAP CDS is created using the data definition language CDS SDL(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sdl_glosry.htm 'Glossar
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm"
+abapFile: "abencds_f1_sdl_syntax.htm"
+keywords: ["do", "if", "try", "data", "abencds", "sdl", "syntax"]
+---
 
 * * *
 
@@ -474,7 +553,17 @@ Continue
 
 ### abenservice_bindings_abexas.htm
 
-  
+---
+title: "ABAP CDS - Consuming Business Services"
+description: |
+  -   ABAP CDS - Consuming Business Services with Demo Class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm) -   ABAP CDS - Consuming Business Services with OData Client Proxy(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_prox
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm"
+abapFile: "abenservice_bindings_abexas.htm"
+keywords: ["do", "if", "class", "data", "abenservice", "bindings", "abexas"]
+---
 
 * * *
 
@@ -497,7 +586,17 @@ Continue
 
 ### abenconsume_bs_abexa.htm
 
-  
+---
+title: "ABAP CDS - Consuming Business Services with Demo Class"
+description: |
+  This example demonstrates how the OData data of business services can be consumed in ABAP with a demonstration class. Source Code  Public class definition CLASS cl_demo_consume_bs_simple DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITI
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm"
+abapFile: "abenconsume_bs_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenconsume", "abexa"]
+---
 
 * * *
 
@@ -580,7 +679,17 @@ See also [Consuming Business Services with Client Proxy](https://help.sap.com/do
 
 ### abenconsume_bs_client_proxy_abexa.htm
 
-  
+---
+title: "ABAP CDS - Consuming Business Services with OData Client Proxy"
+description: |
+  This example demonstrates how the OData data of business services can be consumed in ABAP using an OData Client Proxy. Source Code  Public class definition CLASS cl_demo_consume_bs_clnt_proxy DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDE
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_proxy_abexa.htm"
+abapFile: "abenconsume_bs_client_proxy_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenconsume", "client", "proxy", "abexa"]
+---
 
 * * *
 
@@ -661,7 +770,17 @@ The data provided by that view are retrieved.
 
 ### abenservice_bindings_abexas.htm
 
-  
+---
+title: "ABAP CDS - Consuming Business Services"
+description: |
+  -   ABAP CDS - Consuming Business Services with Demo Class(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm) -   ABAP CDS - Consuming Business Services with OData Client Proxy(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_prox
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm"
+abapFile: "abenservice_bindings_abexas.htm"
+keywords: ["do", "if", "class", "data", "abenservice", "bindings", "abexas"]
+---
 
 * * *
 

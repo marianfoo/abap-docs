@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Behavior Definitions"
+description: |
+  A CDS behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') (BDEF for short) is an ABAP repository object that defines the transactional behavior of a RAP business object(https://help.sap.com/doc/abapdocu_757_index
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm"
+abapFile: "abencds_bdef.htm"
+keywords: ["do", "if", "try", "data", "abencds", "bdef"]
+---
 
 * * *
 

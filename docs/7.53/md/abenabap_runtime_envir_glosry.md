@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP runtime environment"
+description: |
+  Hardware, operating system, and database-independent platform (virtual machine) of an ABAP program(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_glosry.htm 'Glossary Entry'). Processes of the ABAP runtime environment control the execution of an ABAP program by calling
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_runtime_envir_glosry.htm"
+abapFile: "abenabap_runtime_envir_glosry.htm"
+keywords: ["do", "try", "data", "abenabap", "runtime", "envir", "glosry"]
+---
 
 * * *
 

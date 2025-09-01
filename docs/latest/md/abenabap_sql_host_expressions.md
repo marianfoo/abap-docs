@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @( expr ) ... Effect Specification of a host expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_expression_glosry.htm 'Glossary Entry') in an ABAP SQL statement. Host expressions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_express
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_host_expressions.htm"
+abapFile: "abenabap_sql_host_expressions.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "sql", "host", "expressions"]
+---
 
 * * *
 

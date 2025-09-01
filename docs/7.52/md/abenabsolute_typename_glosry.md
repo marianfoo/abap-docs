@@ -1,4 +1,14 @@
-  
+---
+title: "absolute_typename_glosry"
+description: |
+  absolute_typename_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabsolute_typename_glosry.htm"
+abapFile: "abenabsolute_typename_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenabsolute", "typename", "glosry"]
+---
 
 * * *
 

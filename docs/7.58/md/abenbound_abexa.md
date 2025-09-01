@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_is_not_bound DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. DATA dref TYPE REF TO i. METHODS meth. ENDCLASS.  Public class implementation CLASS cl_demo_is_not_bound IMPLEMENTATION. METH
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbound_abexa.htm"
+abapFile: "abenbound_abexa.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenbound", "abexa"]
+---
 
 * * *
 

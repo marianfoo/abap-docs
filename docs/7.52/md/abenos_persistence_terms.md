@@ -1,4 +1,14 @@
-  
+---
+title: "Persistence Service Overview"
+description: |
+  Transient and Persistent Data ABAP programs work with local program data, which resides in the program’s internal session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm 'Glossary Entry'). Such data only survives as long as its context(https://help.sap.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_persistence_terms.htm"
+abapFile: "abenos_persistence_terms.htm"
+keywords: ["select", "update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "abenos", "persistence", "terms"]
+---
 
 * * *
 

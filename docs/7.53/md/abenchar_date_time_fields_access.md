@@ -1,4 +1,14 @@
-  
+---
+title: "Access to Date Fields and Time Fields"
+description: |
+  Only a few operand positions are affected by the fact that date fields and time fields contain a local date in the format 'yyyymmdd' or a local time in the format 'hhmmss': -   When using date fields and time fields as source fields or target fields of a lossless assignment(https://help.sap.com/do
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_access.htm"
+abapFile: "abenchar_date_time_fields_access.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenchar", "date", "time", "fields", "access"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Standard ABAP"
+description: |
+  Unrestricted ABAP language version(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunrestricted_version_glosry.htm 'Glossary Entry') with unrestricted language scope and unrestricted access to repository objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_abap_glosry.htm"
+abapFile: "abenstandard_abap_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenstandard", "abap", "glosry"]
+---
 
 * * *
 

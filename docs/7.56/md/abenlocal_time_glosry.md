@@ -1,4 +1,14 @@
-  
+---
+title: "local_time_glosry"
+description: |
+  local_time_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocal_time_glosry.htm"
+abapFile: "abenlocal_time_glosry.htm"
+keywords: ["do", "try", "abenlocal", "time", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ranges_table_glosry"
+description: |
+  ranges_table_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm"
+abapFile: "abenranges_table_glosry.htm"
+keywords: ["select", "do", "try", "data", "types", "internal-table", "abenranges", "table", "glosry"]
+---
 
 * * *
 

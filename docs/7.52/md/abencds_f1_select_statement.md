@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - SELECT"
+description: |
+  Syntax SELECT DISTINCT  select_list(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) FROM data_source(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) association1(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm"
+abapFile: "abencds_f1_select_statement.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "statement"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "RAP modify operation"
+description: |
+  Synonym for CUD operations(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencud_glosry.htm 'Glossary Entry'). RAP BO operation(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_operation_glosry.htm 'Glossary Entry') that changes data of a RAP BO entity instance
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_modify_operation_glosry.htm"
+abapFile: "abenrap_modify_operation_glosry.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenrap", "modify", "operation", "glosry"]
+---
 
 * * *
 

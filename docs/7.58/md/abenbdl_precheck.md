@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - precheck"
+description: |
+  Syntax ... precheck ... Effect A method that is called before a modify request is executed on the transactional buffer to prevent unwanted changes from reaching the application buffer. A precheck can be defined for the following RAP BO operations(https://help.sap.com/doc/abapdocu_758_index_htm/7.5
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_precheck.htm"
+abapFile: "abenbdl_precheck.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "precheck"]
+---
 
 * * *
 

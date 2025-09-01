@@ -1,4 +1,14 @@
-  
+---
+title: "Dialog Modules"
+description: |
+  Dialog modules help prepare and process screens(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_glosry.htm 'Glossary Entry') of dynpros(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm 'Glossary Entry'). No local data types and data objects c
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendialog_module.htm"
+abapFile: "abendialog_module.htm"
+keywords: ["do", "try", "data", "types", "abendialog", "module"]
+---
 
 * * *
 

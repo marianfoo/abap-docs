@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... lhs NOT LIKE rhs ESCAPE esc... Addition: ... ESCAPE esc(#!ABAP_ONE_ADD@1@) Effect Pattern comparison in a condition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v1.htm) in a CDS DDIC-based view(https://help.sap.com/doc/abapdocu_7
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_like_v1.htm"
+abapFile: "abencds_cond_expr_like_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "cond", "expr", "like"]
+---
 
 * * *
 

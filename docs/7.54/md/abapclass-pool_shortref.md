@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-POOL - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool.htm) Syntax CLASS-POOL MESSAGE-ID mid. Effect Introduces a class pool(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_pool_glosry.htm 'Glossary Entry') Addition -   MESSAGE-ID mid Spe
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool_shortref.htm"
+abapFile: "abapclass-pool_shortref.htm"
+keywords: ["do", "if", "try", "class", "abapclass", "pool", "shortref"]
+---
 
 * * *
 

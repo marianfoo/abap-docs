@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS, DEFERRED, LOAD - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_deferred.htm) Syntax CLASS class DEFINITION DEFERRED PUBLIC  LOAD. Effect Makes a class public. Additions -   DEFERRED PUBLIC Makes a local or global class public before it is actually declared
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_deferred_load_shortref.htm"
+abapFile: "abapclass_deferred_load_shortref.htm"
+keywords: ["do", "class", "abapclass", "deferred", "load", "shortref"]
+---
 
 * * *
 

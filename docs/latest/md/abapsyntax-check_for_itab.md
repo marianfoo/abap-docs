@@ -1,4 +1,14 @@
-  
+---
+title: "SYNTAX-CHECK"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsyntax-check_shortref.htm) Syntax SYNTAX-CHECK FOR itab MESSAGE mess LINE lin WORD wrd PROGRAM prog DIRECTORY ENTRY dir WITH CURRENT SWITCHSTATES error_handling(https://help.sap.com/d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsyntax-check_for_itab.htm"
+abapFile: "abapsyntax-check_for_itab.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abapsyntax", "check", "for", "itab"]
+---
 
 * * *
 

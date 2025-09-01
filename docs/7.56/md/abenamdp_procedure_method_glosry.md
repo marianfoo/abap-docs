@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP procedure implementation"
+description: |
+  AMDP method(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_method_glosry.htm 'Glossary Entry') without return value(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreturn_value_glosry.htm 'Glossary Entry') that is indicated by BY DATABASE PROCEDURE(https://h
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_procedure_method_glosry.htm"
+abapFile: "abenamdp_procedure_method_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenamdp", "procedure", "glosry"]
+---
 
 * * *
 

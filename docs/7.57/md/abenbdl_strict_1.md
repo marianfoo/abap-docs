@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - strict"
+description: |
+  Syntax ... strict; ... Effect The addition strict enables BDEF strict mode(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_strict_mode_glosry.htm 'Glossary Entry'), version 1. strict must always appear as the second line in a CDS behavior definition(https://help.sap.com/doc/ab
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_strict_1.htm"
+abapFile: "abenbdl_strict_1.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "strict"]
+---
 
 * * *
 

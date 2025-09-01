@@ -1,4 +1,14 @@
-  
+---
+title: "SET PARAMETER"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_parameter_shortref.htm) Syntax SET PARAMETER ID pid FIELD dobj. Effect This statement sets the content of the SPA/GPA(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspa_gpa_parameter_1_glosry.htm '
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_parameter.htm"
+abapFile: "abapset_parameter.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abapset", "parameter"]
+---
 
 * * *
 

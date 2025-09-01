@@ -1,4 +1,14 @@
-  
+---
+title: "GENERATE REPORT"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax GENERATE REPORT prog error_handling. Additions: 1. ... MESSAGE f1(#!ABAP_ADDITION_1@1@) 2. ... INCLUDE f2(#!ABAP_ADDITION_2@2@) 3. ... LINE f3(#!ABAP_ADDITION_3@3@) 4. ... WORD f4(#!ABAP
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapgenerate_report.htm"
+abapFile: "abapgenerate_report.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "abapgenerate", "report"]
+---
 
 * * *
 

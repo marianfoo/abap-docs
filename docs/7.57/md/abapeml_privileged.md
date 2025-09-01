@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP EML - PRIVILEGED"
+description: |
+  The addition PRIVILEGED is used for a privileged access to a RAP BO, for example, to circumvent authority checks. The addition can only be used if the RAP BO entity is defined with with privileged mode .... See the details in the CDS BDL documentation for with privileged mode(https://help.sap.com/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapeml_privileged.htm"
+abapFile: "abapeml_privileged.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapeml", "privileged"]
+---
 
 * * *
 

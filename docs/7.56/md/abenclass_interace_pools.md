@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Statements in Class Pools and Interface Pools"
+description: |
+  Class pools and interface pools are the ABAP programs in the class library. They are defined in the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm 'Glossary Entry') or using the Class Builder(https://help.sap.com/doc/abapdocu_756_index_
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_interace_pools.htm"
+abapFile: "abenclass_interace_pools.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abenclass", "interace", "pools"]
+---
 
 * * *
 

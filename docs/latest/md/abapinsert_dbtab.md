@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT dbtab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_dbtab_shortref.htm) Syntax INSERT  INTO target(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapiumd_target.htm)  connection(https://help.sap.com/doc/abapdocu_latest_index_htm/l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_dbtab.htm"
+abapFile: "abapinsert_dbtab.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "class", "data", "types", "internal-table", "abapinsert", "dbtab"]
+---
 
 * * *
 

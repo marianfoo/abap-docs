@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Replacement Objects"
+description: |
+  A transparent(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransparent_table_glosry.htm 'Glossary Entry') DDIC database table(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables.htm) and DDIC database view(https://help.sap.com/doc/aba
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_replacement_objects.htm"
+abapFile: "abenddic_replacement_objects.htm"
+keywords: ["select", "update", "do", "if", "case", "try", "data", "types", "abenddic", "replacement", "objects"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...    RANGE range. Alternatives: 1. ...  (#!ABAP_ALTERNATIVE_1@1@) 2. ... RANGE range(#!ABAP_ALTERNATIVE_2@2@) Effect The specification range_spec defines the area limits within which a memory area can be assigned to the field symbol. Either nothing can be specified here
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_range.htm"
+abapFile: "abapassign_range.htm"
+keywords: ["loop", "do", "while", "if", "try", "catch", "data", "types", "field-symbol", "abapassign", "range"]
+---
 
 * * *
 

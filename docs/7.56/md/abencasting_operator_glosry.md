@@ -1,4 +1,14 @@
-  
+---
+title: "casting_operator_glosry"
+description: |
+  casting_operator_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_operator_glosry.htm"
+abapFile: "abencasting_operator_glosry.htm"
+keywords: ["do", "try", "abencasting", "operator", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "class_library_glosry"
+description: |
+  class_library_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_library_glosry.htm"
+abapFile: "abenclass_library_glosry.htm"
+keywords: ["do", "try", "class", "types", "abenclass", "library", "glosry"]
+---
 
 * * *
 

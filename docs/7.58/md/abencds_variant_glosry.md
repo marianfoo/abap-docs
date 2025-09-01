@@ -1,4 +1,14 @@
-  
+---
+title: "CDS variant"
+description: |
+  This documentation is only available internally at SAP.
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_variant_glosry.htm"
+abapFile: "abencds_variant_glosry.htm"
+keywords: ["do", "if", "abencds", "variant", "glosry"]
+---
 
 * * *
 

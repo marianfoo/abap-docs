@@ -1,4 +1,14 @@
-  
+---
+title: "Naming"
+description: |
+  -   The alias name for elements and associations must start with the correct namespace prefix(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennames_repos_obj_guidl.htm 'Guideline'). For customers and partners, this means that either ZZ or YY must be used as prefix. For associations,
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_consumer_rules_cds.htm"
+abapFile: "abenc0_consumer_rules_cds.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abenc0", "consumer", "rules", "cds"]
+---
 
 * * *
 
@@ -20,10 +30,8 @@ The [provider rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/
 
 The following sections list allowed extensions to released APIs that must be considered when creating an extension.
 
--   [Naming](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_1)
--   [General Rules](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_2)
--   [Restrictions](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_3)
--   [Example Topics](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_4)
+-   [Naming](#abenc0-consumer-rules-cds-1-------general-rules---@ITOC@@ABENC0_CONSUMER_RULES_CDS_2)
+-   [Restrictions](#abenc0-consumer-rules-cds-3-------example-topics---@ITOC@@ABENC0_CONSUMER_RULES_CDS_4)
 
 Naming   
 

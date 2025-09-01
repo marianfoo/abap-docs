@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... @itab Effect Specifies an internal table(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm 'Glossary Entry') itab, whose name must be prefixed with the @ character, as a data source(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_d
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_itab.htm"
+abapFile: "abapselect_itab.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abapselect", "itab"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Table, Grouping with FOR for Aggregates"
+description: |
+  This example demonstrates aggregates with FOR expressions. Source Code REPORT demo_for_groups_by_aggregates. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, initialize. PRIVATE SECTION. TYPES: BEGIN OF line, key TYPE i, num TYPE i, END OF line, itab TYPE STANDARD TABLE OF line WITH E
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_group_by_aggregates_abexa.htm"
+abapFile: "abenfor_group_by_aggregates_abexa.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "aggregates", "abexa"]
+---
 
 * * *
 

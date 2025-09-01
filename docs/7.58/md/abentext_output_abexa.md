@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_show_text. cl_demo_show_text=>main( ). Description The class CL_DEMO_SHOW_TEXT uses the methods of the class CL_DEMO_TEXT, which was designed for this purpose. The class encapsulates the use of a text edit control in a dialog box. Wrappers like this can replace the use of the s
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_output_abexa.htm"
+abapFile: "abentext_output_abexa.htm"
+keywords: ["do", "if", "method", "class", "abentext", "output", "abexa"]
+---
 
 * * *
 

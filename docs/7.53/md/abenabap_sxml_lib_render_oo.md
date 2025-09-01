@@ -1,4 +1,14 @@
-  
+---
+title: "Procedure (Principles)"
+description: |
+  As in token-based rendering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_render_token.htm), the XML writer is created using the factory method CREATE of the class in question, for example: DATA(writer) = CAST if_sxml_writer( cl_sxml_string_writer=>create( ... )
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_render_oo.htm"
+abapFile: "abenabap_sxml_lib_render_oo.htm"
+keywords: ["insert", "do", "if", "method", "class", "data", "abenabap", "sxml", "lib", "render"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ sXML Library - Object-Oriented Rendering
 
 Just as in [token-based rendering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_render_token.htm), object-oriented rendering creates an XML writer. The nodes are not written, however, using a separate method for each node type, but using a single method, WRITE\_NODE. This method is associated with a node object with the required [node type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_entities.htm) using its input parameters and a corresponding node is appended to the current writing position.
 
--   [Procedure (Principles)](#@@ITOC@@ABENABAP_SXML_LIB_RENDER_OO_1)
-
--   [Methods for Object-Oriented Rendering](#@@ITOC@@ABENABAP_SXML_LIB_RENDER_OO_2)
+-   [Procedure (Principles)](#abenabap-sxml-lib-render-oo-1--------methods-for-object-oriented-rendering---@ITOC@@ABENABAP_SXML_LIB_RENDER_OO_2)
 
 Procedure (Principles)
 

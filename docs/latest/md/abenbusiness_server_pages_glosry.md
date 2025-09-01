@@ -1,4 +1,14 @@
-  
+---
+title: "Business Server Pages"
+description: |
+  User interface(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_interface_glosry.htm 'Glossary Entry') of an Internet application of the Application Server ABAP(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_abap_glosry.htm 'Glossary Entry') encode
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_server_pages_glosry.htm"
+abapFile: "abenbusiness_server_pages_glosry.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenbusiness", "server", "pages", "glosry"]
+---
 
 * * *
 

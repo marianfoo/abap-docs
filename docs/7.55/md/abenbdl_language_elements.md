@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Language Elements"
+description: |
+  Work in progress  The following section summarizes the CDS Behavior Definition Language (CDS BDL(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm 'Glossary Entry')) language elements, arranged by topics. Header implementation(https://help.sap.com/doc/abapdoc
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm"
+abapFile: "abenbdl_language_elements.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "language", "elements"]
+---
 
 * * *
 

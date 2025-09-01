@@ -1,4 +1,14 @@
-  
+---
+title: "Table Expressions, Side Effects"
+description: |
+  This example demonstrates a possible side effect when field symbols are produced as the result. Source Code REPORT demo_tab_exp_side_effect. TYPES itab TYPE STANDARD TABLE OF i WITH EMPTY KEY. CLASS class DEFINITION. PUBLIC SECTION. CLASS-METHODS meth IMPORTING idx          TYPE i line1        T
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_side_effect_abexa.htm"
+abapFile: "abentable_exp_side_effect_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "field-symbol", "abentable", "exp", "side", "effect", "abexa"]
+---
 
 * * *
 

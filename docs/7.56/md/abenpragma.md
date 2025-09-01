@@ -1,4 +1,14 @@
-  
+---
+title: "Pragmas"
+description: |
+  Pragmas are program directives(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_directive_glosry.htm 'Glossary Entry') that can be used to hide warnings from various check tools. The following are supported: -   Warnings from the ABAP Compiler syntax check(https://help.sap.
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpragma.htm"
+abapFile: "abenpragma.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "data", "types", "internal-table", "abenpragma"]
+---
 
 * * *
 

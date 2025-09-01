@@ -1,4 +1,14 @@
-  
+---
+title: "Date"
+description: |
+  → Calendar Date(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencalendar_date_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_glosry.htm"
+abapFile: "abendate_glosry.htm"
+keywords: ["do", "try", "abendate", "glosry"]
+---
 
 * * *
 

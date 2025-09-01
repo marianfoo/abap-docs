@@ -1,4 +1,14 @@
-  
+---
+title: "logical_expression_glosry"
+description: |
+  logical_expression_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_expression_glosry.htm"
+abapFile: "abenlogical_expression_glosry.htm"
+keywords: ["do", "try", "abenlogical", "expression", "glosry"]
+---
 
 * * *
 

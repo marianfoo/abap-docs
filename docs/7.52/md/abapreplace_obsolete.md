@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE substring WITH"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_pattern_shortref.htm) Obsolete Syntax REPLACE substring WITH new INTO dobj IN BYTECHARACTER MODE LENGTH len. Extras: 1. ... IN CHARACTERBYTE MODE(#!ABAP_ADDITION_1@1@) 2. .
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_obsolete.htm"
+abapFile: "abapreplace_obsolete.htm"
+keywords: ["insert", "do", "while", "if", "case", "data", "abapreplace", "obsolete"]
+---
 
 * * *
 

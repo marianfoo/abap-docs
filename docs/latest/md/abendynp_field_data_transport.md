@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   The effect of the statement FIELD on the data transport at the event PAI is independent from its association with a MODULE statement. -   If an empty field that has not been modified by the user is filled with a value in a PAI module before the FIELD statement is executed, this value is not over
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_field_data_transport.htm"
+abapFile: "abendynp_field_data_transport.htm"
+keywords: ["insert", "loop", "do", "if", "try", "data", "abendynp", "field", "transport"]
+---
 
 * * *
 

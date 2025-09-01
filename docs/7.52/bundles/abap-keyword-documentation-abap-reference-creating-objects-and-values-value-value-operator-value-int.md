@@ -5,7 +5,17 @@ Included pages: 4
 
 ### abenvalue_constructor_params_itab.htm
 
-  
+---
+title: "VALUE - Internal Tables"
+description: |
+  Syntax ... VALUE dtype#( let_exp(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplet.htm) BASE itab FOR for_exp1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor.htm) FOR for_exp2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_constructor_params_itab.htm"
+abapFile: "abenvalue_constructor_params_itab.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abenvalue", "constructor", "params", "itab"]
+---
 
 * * *
 
@@ -213,7 +223,17 @@ Continue
 
 ### abenvalue_constructor_params_lspc.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... line  LINES OF itab FROM idx1 TO idx2 USING KEY keyname ... Alternatives: 1. ... line(#!ABAP_ALTERNATIVE_1@1@) 2. ... LINES OF jtab FROM idx1 TO idx2 USING KEY keyname(#!ABAP_ALTERNATIVE_2@2@) Effect Specifies one or more rows to be
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_constructor_params_lspc.htm"
+abapFile: "abenvalue_constructor_params_lspc.htm"
+keywords: ["insert", "delete", "do", "while", "if", "try", "method", "data", "types", "internal-table", "abenvalue", "constructor", "params", "lspc"]
+---
 
 * * *
 
@@ -333,7 +353,17 @@ This translation does not reflect the current version of the documentation.
 
 ### abenvalue_itab_abexa.htm
 
-  
+---
+title: "VALUE - Operator for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_constructor_params_itab.htm) for internal tables. Source Code REPORT demo_value_constructor_itab. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS de
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_itab_abexa.htm"
+abapFile: "abenvalue_itab_abexa.htm"
+keywords: ["select", "insert", "do", "if", "method", "class", "data", "types", "internal-table", "abenvalue", "itab", "abexa"]
+---
 
 * * *
 
@@ -398,7 +428,17 @@ The example shows various effects when using the left side of an assignment in s
 
 ### abenvalue_itab_let_abexa.htm
 
-  
+---
+title: "VALUE - Operator with LET for Internal Tables"
+description: |
+  This example demonstrates the value operator VALUE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_constructor_params_itab.htm) for internal tables with a LET expression(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplet.htm). Source Code REPORT demo_value_
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_itab_let_abexa.htm"
+abapFile: "abenvalue_itab_let_abexa.htm"
+keywords: ["select", "do", "method", "class", "types", "internal-table", "abenvalue", "itab", "let", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal and External Procedure Calls"
+description: |
+  Background When a procedure is called, a distinction is made between internal and external procedure calls. An internal call calls a procedure of the same program, whereas an external call calls a procedure of a different program. The major difference between internal and external procedure calls is
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenintern_extern_proc_call_guidl.htm"
+abapFile: "abenintern_extern_proc_call_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abenintern", "extern", "proc", "call", "guidl"]
+---
 
 * * *
 

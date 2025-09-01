@@ -1,4 +1,14 @@
-  
+---
+title: "Processing Functions for Character-Like Arguments"
+description: |
+  The following processing functions have a character-like result. They can be declared at general expression positions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expr_position_glosry.htm 'Glossary Entry') and character-like expression positions(https://help.sap.com/doc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocess_functions.htm"
+abapFile: "abenprocess_functions.htm"
+keywords: ["insert", "do", "if", "case", "try", "data", "abenprocess", "functions"]
+---
 
 * * *
 

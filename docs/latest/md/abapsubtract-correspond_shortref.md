@@ -1,4 +1,14 @@
-  
+---
+title: "SUBTRACT-CORRESPONDING - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd-corresponding.htm) Syntax SUBTRACT-CORRESPONDING struc1 FROM struc2. Effect Obsolete: Subtracts the components of a structure struc1 from the corresponding component of a structure struc2.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubtract-correspond_shortref.htm"
+abapFile: "abapsubtract-correspond_shortref.htm"
+keywords: ["do", "if", "abapsubtract", "correspond", "shortref"]
+---
 
 * * *
 

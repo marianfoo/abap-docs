@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, RANGE OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_shortref.htm) Syntax DATA range_tab TYPE RANGE OF typeLIKE RANGE OF dobj INITIAL SIZE n VALUE IS INITIAL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapda
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_ranges.htm"
+abapFile: "abapdata_ranges.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abapdata", "ranges"]
+---
 
 * * *
 

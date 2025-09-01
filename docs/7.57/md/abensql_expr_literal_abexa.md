@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_literal. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carrier TYPE scarr-carrid. cl_demo_input=>request( CHANGING field = carrier ). SELECT SINGLE @abap_true FROM scarr WHERE carrid = @carrier INTO @FINAL
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_literal_abexa.htm"
+abapFile: "abensql_expr_literal_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abensql", "expr", "literal", "abexa"]
+---
 
 * * *
 

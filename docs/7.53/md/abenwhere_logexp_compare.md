@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand1 operator operand2  ALLANYSOME(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_all_any_some.htm) ( SELECT subquery_clauses(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_subquery.htm) ) ... Effect This r
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_compare.htm"
+abapFile: "abenwhere_logexp_compare.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenwhere", "logexp", "compare"]
+---
 
 * * *
 

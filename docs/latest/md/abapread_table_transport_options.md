@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... COMPARING   comp1 comp2 ...(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_components.htm)ALL FIELDSNO FIELDS  TRANSPORTING   comp1 comp2 ...(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_com
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table_transport_options.htm"
+abapFile: "abapread_table_transport_options.htm"
+keywords: ["select", "loop", "do", "while", "if", "case", "class", "data", "internal-table", "abapread", "table", "transport", "options"]
+---
 
 * * *
 

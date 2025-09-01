@@ -1,4 +1,14 @@
-  
+---
+title: "Implementing and including interfaces"
+description: |
+  Interfaces can be implemented by classes using the statement -   INTERFACES(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterfaces.htm) or can be included by other interfaces. Alias names can be defined for interface components using the statement -   ALIASES(https://help.sap.
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterfaces.htm"
+abapFile: "abeninterfaces.htm"
+keywords: ["do", "if", "class", "abeninterfaces"]
+---
 
 * * *
 

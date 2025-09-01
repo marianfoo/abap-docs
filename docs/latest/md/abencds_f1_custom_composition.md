@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, COMPOSITION"
+description: |
+  Syntax ... COMPOSITION cardinality(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cardinality_v2.htm) OF target ... Effect Defines a to-child association(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abento_child_association_glosry.htm 'Glossary
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_custom_composition.htm"
+abapFile: "abencds_f1_custom_composition.htm"
+keywords: ["do", "if", "try", "data", "abencds", "custom", "composition"]
+---
 
 * * *
 

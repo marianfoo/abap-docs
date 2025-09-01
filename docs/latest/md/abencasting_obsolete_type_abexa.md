@@ -1,4 +1,14 @@
-  
+---
+title: "Field Symbols, Casting Built-In Data Types"
+description: |
+  This example demonstrates how a casting is performed on built-in data types. Source Code  Public class definition CLASS cl_demo_fld_smbls_assign_type DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implem
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm"
+abapFile: "abencasting_obsolete_type_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "field-symbol", "abencasting", "obsolete", "type", "abexa"]
+---
 
 * * *
 

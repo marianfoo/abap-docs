@@ -1,4 +1,14 @@
-  
+---
+title: "APC - System-Wide Access"
+description: |
+  This example demonstrates access to any ABAP channel using a connection handle. Source Code REPORT demo_apc_access_connection. CLASS apc_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS apc_demo IMPLEMENTATION. METHOD main. DATA attach_handle TYPE string VALUE ' '. cl_demo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapc_connect_via_handle_abexa.htm"
+abapFile: "abenapc_connect_via_handle_abexa.htm"
+keywords: ["select", "do", "while", "if", "try", "catch", "method", "class", "data", "abenapc", "connect", "via", "handle", "abexa"]
+---
 
 * * *
 

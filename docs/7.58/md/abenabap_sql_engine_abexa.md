@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Engine, Multiple Internal Tables"
+description: |
+  This example demonstrates the access to multiple internal tables with the ABAP SQL engine. Source Code  Public class definition CLASS cl_demo_abap_sql_engine DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC . PUBLIC SECTION. METHODS main REDEFINITION . ENDCLASS.  Public cla
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_engine_abexa.htm"
+abapFile: "abenabap_sql_engine_abexa.htm"
+keywords: ["select", "do", "while", "if", "method", "class", "data", "internal-table", "abenabap", "sql", "engine", "abexa"]
+---
 
 * * *
 

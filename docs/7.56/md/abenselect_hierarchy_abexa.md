@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, hierarchy generator, BULK vs INCREMENTAL"
+description: |
+  This example demonstrates how the addition LOAD INCREMENTAL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy_generator.htm) can speed up the generation of a hierarchy. Source Code REPORT demo_hierarchy_bulk_increment. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-M
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy_abexa.htm"
+abapFile: "abenselect_hierarchy_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "abenselect", "hierarchy", "abexa"]
+---
 
 * * *
 

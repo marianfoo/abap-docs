@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... ( ...  element1, element2 ...  ... ) =?= ASPECT pfcg_auth ( ... PFCG_MAPPING = pfcg_mapping ...  ) ... Effect Assigns an element list specified in curly brackets  element1, element2 ...  to a PFCG mapping(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_pfcg_mapping.htm"
+abapFile: "abencds_f1_cond_pfcg_mapping.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abencds", "cond", "pfcg", "mapping"]
+---
 
 * * *
 

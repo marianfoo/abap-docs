@@ -1,4 +1,14 @@
-  
+---
+title: "Static Classes and Singletons"
+description: |
+  Background The classes of ABAP Objects support two types of components: -   Instance components (instance attributes, instance events and instance methods). You can only address the instance components of a class using instances of the class (objects). -   Static components (static attributes, stati
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_class_singleton_guidl.htm"
+abapFile: "abenstatic_class_singleton_guidl.htm"
+keywords: ["delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abenstatic", "singleton", "guidl"]
+---
 
 * * *
 

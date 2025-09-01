@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, UNION"
+description: |
+  Syntax ... UNION ALL select_statement(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v2.htm) ... Effect Merges the rows of the result sets of multiple SELECT statements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sele
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_union_v2.htm"
+abapFile: "abencds_union_v2.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abencds", "union"]
+---
 
 * * *
 

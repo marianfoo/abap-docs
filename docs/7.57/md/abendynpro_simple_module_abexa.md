@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_module. TABLES demo_conn. DATA: ok_code TYPE sy-ucomm, save_ok LIKE ok_code, wa_spfli TYPE spfli. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. MOVE-CORRESPONDING wa_spfli TO demo_conn. ENDMODULE. MODULE status_0100 OUTPUT. SET PF-STATUS 'STATUS_100'. SET TITLEBAR
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_simple_module_abexa.htm"
+abapFile: "abendynpro_simple_module_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "simple", "module", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Data Definitions"
+description: |
+  CDS data definitions are created using the CDS DDL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm 'Glossary Entry') of the ABAP CDS in the DDL source code(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm 'Glossary Entry'
+version: "7.52"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm"
+abapFile: "abenddic_cds_entities.htm"
+keywords: ["select", "delete", "do", "if", "try", "class", "data", "types", "abenddic", "cds", "entities"]
+---
 
 * * *
 

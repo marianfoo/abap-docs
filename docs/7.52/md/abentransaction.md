@@ -1,4 +1,14 @@
-  
+---
+title: "Data Consistency"
+description: |
+  When data in database tables is modified by application programs, it must be ensured that the data is consistent after the changes have been made. This is particularly important when data is edited in the database. The time span in which a consistent data state is transferred to another consistent s
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransaction.htm"
+abapFile: "abentransaction.htm"
+keywords: ["do", "if", "try", "data", "types", "abentransaction"]
+---
 
 * * *
 

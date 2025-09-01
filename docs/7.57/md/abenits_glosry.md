@@ -1,4 +1,14 @@
-  
+---
+title: "ITS"
+description: |
+  → Internet Transaction Server(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternet_transac_server_glosry.htm 'Glossary Entry').
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenits_glosry.htm"
+abapFile: "abenits_glosry.htm"
+keywords: ["do", "if", "try", "abenits", "glosry"]
+---
 
 * * *
 

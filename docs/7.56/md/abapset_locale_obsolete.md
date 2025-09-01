@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... COUNTRY cntry MODIFIER mod Additions: 1. ... COUNTRY cntry(#!ABAP_ADDITION_1@1@) 2. ... MODIFIER mod(#!ABAP_ADDITION_2@2@) Effect ABAP syntax allows the additions COUNTRY and MODIFIER to be specified for the statementSET LOCALE LANGUAGE(https://help.sap.com/doc/abapdocu_7
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_locale_obsolete.htm"
+abapFile: "abapset_locale_obsolete.htm"
+keywords: ["do", "if", "try", "data", "abapset", "locale", "obsolete"]
+---
 
 * * *
 

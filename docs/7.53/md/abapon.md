@@ -1,4 +1,14 @@
-  
+---
+title: "ON CHANGE OF"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapon_change_of_shortref.htm) Obsolete Syntax ON CHANGE OF dobj OR dobj1 OR dobj2 .... statement_block1 ELSE. statement_block2 ENDON. Effect The statements ON CHANGE OF and ENDON, which are forbid
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapon.htm"
+abapFile: "abapon.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "class", "data", "abapon"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Tabstrip Controls"
+description: |
+  A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line tab title(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentab_title_glosry.htm 'Glossary Entry') associated with a function code and which can be used to select the tab p
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_tabstrip.htm"
+abapFile: "abendynp_tabstrip.htm"
+keywords: ["select", "do", "if", "try", "data", "abendynp", "tabstrip"]
+---
 
 * * *
 

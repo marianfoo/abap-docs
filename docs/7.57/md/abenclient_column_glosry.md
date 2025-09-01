@@ -1,4 +1,14 @@
-  
+---
+title: "client_column_glosry"
+description: |
+  client_column_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_column_glosry.htm"
+abapFile: "abenclient_column_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenclient", "column", "glosry"]
+---
 
 * * *
 

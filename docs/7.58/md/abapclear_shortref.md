@@ -1,4 +1,14 @@
-  
+---
+title: "CLEAR - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm) Syntax CLEAR dobj  WITH val IN CHARACTERBYTE  MODE  WITH NULL . Effect Initializes a data object dobj by assigning the type-dependent initial value(https://help.sap.com/doc
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear_shortref.htm"
+abapFile: "abapclear_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapclear", "shortref"]
+---
 
 * * *
 

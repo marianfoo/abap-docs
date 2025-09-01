@@ -1,4 +1,14 @@
-  
+---
+title: "dev_extensibility_glosry"
+description: |
+  dev_extensibility_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendev_extensibility_glosry.htm"
+abapFile: "abendev_extensibility_glosry.htm"
+keywords: ["do", "if", "case", "try", "data", "abendev", "extensibility", "glosry"]
+---
 
 * * *
 

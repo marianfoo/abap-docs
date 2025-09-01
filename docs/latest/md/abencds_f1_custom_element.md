@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE CUSTOM ENTITY, element"
+description: |
+  Syntax ... @element_annot1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_return_list_annotation.htm) @element_annot2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_return_list_annotation.htm) ...  KEY name
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_custom_element.htm"
+abapFile: "abencds_f1_custom_element.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "custom", "element"]
+---
 
 * * *
 

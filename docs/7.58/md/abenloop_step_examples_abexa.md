@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_step_examples DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. TYPES: BEGIN OF customer_purchase, cust_id    TYPE c LENGTH 8, cust_name  TYPE string, item_id    TYPE c LENGTH 9, purch_date
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_step_examples_abexa.htm"
+abapFile: "abenloop_step_examples_abexa.htm"
+keywords: ["insert", "delete", "loop", "do", "if", "case", "method", "class", "data", "types", "internal-table", "abenloop", "step", "examples", "abexa"]
+---
 
 * * *
 

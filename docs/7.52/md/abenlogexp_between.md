@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT BETWEEN operand1 AND operand2 ... Effect A comparison expression with the relational operator BETWEEN checks the content of an interval. The relational expression checks whether the content of an operand operand is within a closed interval delimited by the operands operand1 a
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_between.htm"
+abapFile: "abenlogexp_between.htm"
+keywords: ["do", "try", "data", "types", "abenlogexp", "between"]
+---
 
 * * *
 

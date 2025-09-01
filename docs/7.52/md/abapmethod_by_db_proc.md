@@ -1,4 +1,14 @@
-  
+---
+title: "METHOD - BY DATABASE PROCEDURE, FUNCTION"
+description: |
+  Syntax METHOD meth BY DATABASE PROCEDUREFUNCTION FOR db LANGUAGE db_lang OPTIONS db_options USING   db_entities. ... ENDMETHOD. Extras: 1. ... FOR db(#!ABAP_ADDITION_1@1@) 2. ... LANGUAGE db_lang(#!ABAP_ADDITION_2@2@) 3. ... OPTIONS db_options(#!ABAP_ADDITION_3@3@)
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_by_db_proc.htm"
+abapFile: "abapmethod_by_db_proc.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "abapmethod", "proc"]
+---
 
 * * *
 

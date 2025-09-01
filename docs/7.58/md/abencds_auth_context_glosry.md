@@ -1,4 +1,14 @@
-  
+---
+title: "RAP authorization context for disable"
+description: |
+  A RAP authorization context(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_auth_con_glosry.htm 'Glossary Entry') that lists authorization objects(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthorization_object_glosry.htm 'Glossary Entry') which can be skip
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_auth_context_glosry.htm"
+abapFile: "abencds_auth_context_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "auth", "context", "glosry"]
+---
 
 * * *
 

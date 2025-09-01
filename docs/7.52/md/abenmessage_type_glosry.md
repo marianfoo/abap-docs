@@ -1,4 +1,14 @@
-  
+---
+title: "Message Type"
+description: |
+  Determines in theMESSAGE(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage.htm) statement the representation of the output(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm 'Glossary Entry') and the remaining program flow. There are the messag
+version: "7.52"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_type_glosry.htm"
+abapFile: "abenmessage_type_glosry.htm"
+keywords: ["do", "try", "types", "abenmessage", "type", "glosry"]
+---
 
 * * *
 

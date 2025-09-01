@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Inheritance and Constructors"
+description: |
+  There are special rules governing constructors(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor.htm) in inheritance. Instance Constructors Each class has an instance constructor called constructor. This is a derivation from the rule of unique component names along a path
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninheritance_constructors.htm"
+abapFile: "abeninheritance_constructors.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "exception-handling", "abeninheritance", "constructors"]
+---
 
 * * *
 

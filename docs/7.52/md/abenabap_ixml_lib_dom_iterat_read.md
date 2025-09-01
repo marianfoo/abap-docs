@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  The iterators shown here are forward iterators that iterate from left to right or from top to bottom. The interfaces of the objects also make it possible to create backward iterators, which iterate from right to left or from bottom to top. Iterator for Nodes A reference variable document with the ty
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_ixml_lib_dom_iterat_read.htm"
+abapFile: "abenabap_ixml_lib_dom_iterat_read.htm"
+keywords: ["select", "do", "if", "case", "method", "class", "data", "abenabap", "ixml", "lib", "dom", "iterat", "read"]
+---
 
 * * *
 

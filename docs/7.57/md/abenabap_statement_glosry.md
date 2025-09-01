@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP statement"
+description: |
+  A complete sentence of the ABAP programming language. Consists of tokens(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentoken_glosry.htm 'Glossary Entry') and is closed with a period. → More about(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_statements.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_statement_glosry.htm"
+abapFile: "abenabap_statement_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "statement", "glosry"]
+---
 
 * * *
 

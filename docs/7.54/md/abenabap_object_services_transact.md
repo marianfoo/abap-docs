@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  Transaction Service Overview(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_transaction_terms.htm) Components of the Transaction Service(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenos_transaction_comps.htm) Transaction Mode(https://help.sap.com/doc/abapdoc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_transact.htm"
+abapFile: "abenabap_object_services_transact.htm"
+keywords: ["update", "do", "if", "try", "data", "abenabap", "object", "services", "transact"]
+---
 
 * * *
 

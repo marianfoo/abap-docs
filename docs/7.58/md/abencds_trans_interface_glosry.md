@@ -1,4 +1,14 @@
-  
+---
+title: "CDS transactional interface"
+description: |
+  A CDS transactional interface is a CDS projection view(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') that is intended to serve as stable public interface for consumption. A CDS transactional interfaces should be classified by a rel
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_trans_interface_glosry.htm"
+abapFile: "abencds_trans_interface_glosry.htm"
+keywords: ["do", "if", "try", "class", "abencds", "trans", "interface", "glosry"]
+---
 
 * * *
 

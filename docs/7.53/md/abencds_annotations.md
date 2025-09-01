@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Annotations"
+description: |
+  A CDS annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_glosry.htm 'Glossary Entry') uses metadata to enrich CDS objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_object_glosry.htm 'Glossary Entry'). It can be specified in fixed an
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations.htm"
+abapFile: "abencds_annotations.htm"
+keywords: ["do", "if", "try", "class", "data", "abencds", "annotations"]
+---
 
 * * *
 

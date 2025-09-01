@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... oref IS NOT INSTANCE OF classintf Effect The predicate expression IS INSTANCE OF checks the following: -   Is dynamic type(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_type_glosry.htm 'Glossary Entry') more specific or equal to a comparison type for a non-i
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_instance_of.htm"
+abapFile: "abenlogexp_instance_of.htm"
+keywords: ["do", "if", "case", "try", "catch", "class", "data", "types", "field-symbol", "abenlogexp", "instance"]
+---
 
 * * *
 

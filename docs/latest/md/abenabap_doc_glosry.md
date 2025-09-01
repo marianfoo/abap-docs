@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Doc"
+description: |
+  ABAP Doc is a documentation tool that enables documentation files to be created automatically in HTML format from ABAP source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_source_code_glosry.htm 'Glossary Entry'). ABAP Doc is based on special ABAP Doc comments(htt
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_doc_glosry.htm"
+abapFile: "abenabap_doc_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "doc", "glosry"]
+---
 
 * * *
 

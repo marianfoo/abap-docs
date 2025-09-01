@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Complex CASE"
+description: |
+  This example demonstrates complex case distinctions in SQL expressions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm). Source Code REPORT demo_sql_expr_searched_case. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. M
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expr_searched_case_abexa.htm"
+abapFile: "abensql_expr_searched_case_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abensql", "expr", "searched", "abexa"]
+---
 
 * * *
 

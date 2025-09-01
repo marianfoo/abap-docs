@@ -1,4 +1,14 @@
-  
+---
+title: "cross_join_glosry"
+description: |
+  cross_join_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencross_join_glosry.htm"
+abapFile: "abencross_join_glosry.htm"
+keywords: ["do", "try", "data", "abencross", "join", "glosry"]
+---
 
 * * *
 

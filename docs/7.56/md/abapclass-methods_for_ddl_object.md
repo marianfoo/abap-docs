@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS, FOR DDL OBJECT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-methods_shortref.htm) Syntax CLASS-METHODS meth FOR DDL OBJECT ... Effect Not yet documented.
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-methods_for_ddl_object.htm"
+abapFile: "abapclass-methods_for_ddl_object.htm"
+keywords: ["do", "method", "class", "data", "abapclass", "methods", "for", "ddl", "object"]
+---
 
 * * *
 

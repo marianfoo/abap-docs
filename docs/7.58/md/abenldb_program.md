@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Database Program"
+description: |
+  The database program of a logical database ldb has the name SAPDBldb. It is used as a container for subroutines(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_glosry.htm 'Glossary Entry') called by the ABAP runtime framework when a logical database is processing. The ord
+version: "7.58"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program.htm"
+abapFile: "abenldb_program.htm"
+keywords: ["select", "loop", "do", "if", "try", "class", "data", "internal-table", "abenldb", "program"]
+---
 
 * * *
 

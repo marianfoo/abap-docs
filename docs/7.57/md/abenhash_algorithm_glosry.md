@@ -1,4 +1,14 @@
-  
+---
+title: "hash_algorithm_glosry"
+description: |
+  hash_algorithm_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhash_algorithm_glosry.htm"
+abapFile: "abenhash_algorithm_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenhash", "algorithm", "glosry"]
+---
 
 * * *
 

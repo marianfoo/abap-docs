@@ -1,4 +1,14 @@
-  
+---
+title: "Example, Handling of Messages"
+description: |
+  Work in progress  Example For the sake of readability, the methods for handling the messages are implemented in the separate class zcl_messages. These methods are used to handle the messages in the methods of the handler class. Messages that come from the legacy business logic must be assigned
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_handling_messages.htm"
+abapFile: "abenrpm_handling_messages.htm"
+keywords: ["insert", "update", "loop", "do", "if", "method", "class", "data", "types", "abenrpm", "handling", "messages"]
+---
 
 * * *
 

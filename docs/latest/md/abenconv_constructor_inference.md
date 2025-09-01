@@ -1,4 +1,14 @@
-  
+---
+title: "CONV, Type Inference for Actual Parameters"
+description: |
+  If a constructor expression CONV(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm) #( let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) dobj ) is passed to generically typed formal parameters as an act
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_inference.htm"
+abapFile: "abenconv_constructor_inference.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abenconv", "constructor", "inference"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, EXCEPT"
+description: |
+  Syntax ... EXCEPT select_statement(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_statement_v2.htm) ... Effect The set operator(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_set_operators_glosry.htm 'Glossary Entry') EXCEPT returns all rows of a
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_except_v2.htm"
+abapFile: "abencds_except_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abencds", "except"]
+---
 
 * * *
 

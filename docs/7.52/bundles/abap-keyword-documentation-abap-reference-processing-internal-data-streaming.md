@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abenstreaming.htm
 
-  
+---
+title: "Streaming"
+description: |
+  Streaming describes how streams(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstream_glosry.htm 'Glossary Entry') are passed. Streams are represented by instances of special classes. Streams are passed by calling the relevant methods of the object. Properties of Streams Streams ar
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm"
+abapFile: "abenstreaming.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenstreaming"]
+---
 
 * * *
 
@@ -45,7 +55,17 @@ Continue
 
 ### abenstreaming_classes_interfaces.htm
 
-  
+---
+title: "Classes and Interfaces for Streams"
+description: |
+  The classes and interfaces of streams are in the SABP_STREAMS_AND_LOCATORS package. Interfaces and classes that have been released for use are exposed in their package interface SABP_STREAMS_AND_LOCATORS. The following figure shows the hierarchy of the most important interfaces and classes for
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_classes_interfaces.htm"
+abapFile: "abenstreaming_classes_interfaces.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "internal-table", "abenstreaming", "classes", "interfaces"]
+---
 
 * * *
 
@@ -127,7 +147,17 @@ Methods from the IF\_ABAP\_CLOSE\_RESOURCE interface:
 
 ### abendata_objects_streams.htm
 
-  
+---
+title: "Streaming for Data Objects"
+description: |
+  The abstract superclasses for streaming(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm 'Glossary Entry') for data objects are: -   CL_ABAP_MEMORY_C_READER -   CL_ABAP_MEMORY_C_WRITER -   CL_ABAP_MEMORY_X_READER -   CL_ABAP_MEMORY_X_WRITER Stream
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm"
+abapFile: "abendata_objects_streams.htm"
+keywords: ["do", "try", "class", "data", "internal-table", "abendata", "objects", "streams"]
+---
 
 * * *
 
@@ -164,7 +194,17 @@ Continue
 
 ### abenstring_streams.htm
 
-  
+---
+title: "Streaming for Strings"
+description: |
+  The specific classes for streaming(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm 'Glossary Entry') for strings are: -   CL_ABAP_STRING_C_READER -   CL_ABAP_STRING_C_WRITER -   CL_ABAP_STRING_X_READER -   CL_ABAP_STRING_X_WRITER These classes ar
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm"
+abapFile: "abenstring_streams.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "abenstring", "streams"]
+---
 
 * * *
 
@@ -207,7 +247,17 @@ cl\_demo\_output=>display( ).
 
 ### abenitab_streams.htm
 
-  
+---
+title: "Streaming for internal tables"
+description: |
+  The specific classes for streaming(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm 'Glossary Entry') for internal tables are: CL_ABAP_ITAB_C_READER -   CL_ABAP_ITAB_C_READER -   CL_ABAP_ITAB_C_WRITER -   CL_ABAP_ITAB_X_READER -   CL_ABAP_ITAB_
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm"
+abapFile: "abenitab_streams.htm"
+keywords: ["do", "while", "if", "try", "class", "data", "internal-table", "abenitab", "streams"]
+---
 
 * * *
 
@@ -245,7 +295,17 @@ cl\_demo\_output=>display( ).
 
 ### abendata_objects_streams.htm
 
-  
+---
+title: "Streaming for Data Objects"
+description: |
+  The abstract superclasses for streaming(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm 'Glossary Entry') for data objects are: -   CL_ABAP_MEMORY_C_READER -   CL_ABAP_MEMORY_C_WRITER -   CL_ABAP_MEMORY_X_READER -   CL_ABAP_MEMORY_X_WRITER Stream
+version: "7.52"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm"
+abapFile: "abendata_objects_streams.htm"
+keywords: ["do", "try", "class", "data", "internal-table", "abendata", "objects", "streams"]
+---
 
 * * *
 

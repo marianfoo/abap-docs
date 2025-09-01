@@ -1,4 +1,14 @@
-  
+---
+title: "Global Declarations of a Program"
+description: |
+  Background Each ABAP program has a global declaration part where data types, interfaces, classes, and data objects that are visible throughout the program can be declared. From a technical viewpoint, the global declaration part consists of all declarations that cannot be assigned to a more local con
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_declar_guidl.htm"
+abapFile: "abenglobal_declar_guidl.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenglobal", "declar", "guidl"]
+---
 
 * * *
 

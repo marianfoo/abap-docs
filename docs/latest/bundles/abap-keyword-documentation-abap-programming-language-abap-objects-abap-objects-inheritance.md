@@ -5,7 +5,17 @@ Included pages: 11
 
 ### abeninheritance.htm
 
-  
+---
+title: "ABAP Objects - Inheritance"
+description: |
+  The concept of inheritance makes it possible to derive new classes from existing classes. This is done using the addition INHERITING FROM(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_options.htm) of the statement CLASS ... DEFINITION(https://help.sap.com/doc/abapdocu
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm"
+abapFile: "abeninheritance.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance"]
+---
 
 * * *
 
@@ -48,7 +58,17 @@ Continue
 
 ### abeninheritance_redefinition.htm
 
-  
+---
+title: "ABAP Objects - Redefining Methods"
+description: |
+  Each subclass contains the components of all classes that are located between this class and the root node in the inheritance tree. The visibility of a component is always the same and cannot be changed. However, it is possible to redefine the public and protected instance methods of all preceding s
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_redefinition.htm"
+abapFile: "abeninheritance_redefinition.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "redefinition"]
+---
 
 * * *
 
@@ -72,7 +92,17 @@ Within a redefined method, [super->meth](https://help.sap.com/doc/abapdocu_lates
 
 ### abeninheritance_abstract_final.htm
 
-  
+---
+title: "ABAP Objects - Abstract and Final Methods and Classes"
+description: |
+  Abstract and final methods or classes can be defined using the additions ABSTRACT and FINAL of the statements METHODS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods.htm) and CLASS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass.htm). Abstrac
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abstract_final.htm"
+abapFile: "abeninheritance_abstract_final.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "abstract", "final"]
+---
 
 * * *
 
@@ -99,7 +129,17 @@ Hints
 
 ### abeninheritance_references.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and Polymorphism"
+description: |
+  Since a subclass contains all components of all superclasses along the inheritance tree and the interfaces of methods cannot be changed, a reference variable that is typed with reference to a superclass or with reference to an interface implemented by a superclass may contain references to objects o
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_references.htm"
+abapFile: "abeninheritance_references.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "references"]
+---
 
 * * *
 
@@ -121,7 +161,17 @@ When an instance method is redefined in one or more subclasses, different implem
 
 ### abeninheritance_interfaces.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and Interfaces"
+description: |
+  Interfaces(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfac.htm) are standalone constructs in ABAP Objects that support polymorphism(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpolymorphism_glosry.htm 'Glossary Entry') in classes. The polymorph
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_interfaces.htm"
+abapFile: "abeninheritance_interfaces.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "abeninheritance", "interfaces"]
+---
 
 * * *
 
@@ -141,7 +191,17 @@ The interface concept exists completely independent of and in addition to the in
 
 ### abeninheritance_visibility.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and Visibility"
+description: |
+  It is not possible to change the visibility section(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_visibility.htm) to which a component is assigned using inheritance. The visibility of components has the following consequences in inheritance: Public Components The public
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_visibility.htm"
+abapFile: "abeninheritance_visibility.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abeninheritance", "visibility"]
+---
 
 * * *
 
@@ -204,7 +264,17 @@ ENDCLASS.
 
 ### abeninheritance_name_space.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and the Component Namespace"
+description: |
+  A subclass contains all components of all its superclasses. Only the public and the protected components are visible. This is why all public and protected components of a path of an inheritance tree are located in a single namespace and must have unique names. Private components, on the other hand,
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_name_space.htm"
+abapFile: "abeninheritance_name_space.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance", "name", "space"]
+---
 
 * * *
 
@@ -224,7 +294,17 @@ When methods are [redefined](https://help.sap.com/doc/abapdocu_latest_index_htm/
 
 ### abeninheritance_statical.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and Static Components"
+description: |
+  Static components(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_component_glosry.htm 'Glossary Entry'), like all components, exist only once in each inheritance tree, and can be used as of the declaring class: -   A subclass can access all non-private static components
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_statical.htm"
+abapFile: "abeninheritance_statical.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abeninheritance", "statical"]
+---
 
 * * *
 
@@ -331,7 +411,17 @@ Executable Example
 
 ### abeninheritance_constructors.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and Constructors"
+description: |
+  There are special rules governing constructors(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor.htm) in inheritance. Instance Constructors Each class has an instance constructor called constructor. This is a derivation from the rule of unique component names along a
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_constructors.htm"
+abapFile: "abeninheritance_constructors.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "exception-handling", "abeninheritance", "constructors"]
+---
 
 * * *
 
@@ -395,7 +485,17 @@ When a subclass is addressed for the first time in a program by creating an inst
 
 ### abeninheritance_instantiation.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and Instantiation"
+description: |
+  When a subclass is instantiated, all superclasses are instantiated simultaneously, whereby the initialization of superclass attributes is ensured by calling the superclass constructors, as described in Inheritance and Constructors(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abe
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_instantiation.htm"
+abapFile: "abeninheritance_instantiation.htm"
+keywords: ["do", "if", "case", "try", "class", "abeninheritance", "instantiation"]
+---
 
 * * *
 
@@ -445,7 +545,17 @@ If the subclass has no addition, it inherits the attribute CREATE PRIVATE. Howev
 
 ### abeninheritance_events.htm
 
-  
+---
+title: "ABAP Objects - Inheritance and Events"
+description: |
+  Once declared in a superclass, an event is known in all subclasses of the inheritance tree in which it is visible and can be raised in the methods there. An event handler can be declared with reference to all classes of the inheritance tree in which the event is visible for the event handler. Howeve
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_events.htm"
+abapFile: "abeninheritance_events.htm"
+keywords: ["do", "if", "case", "method", "class", "abeninheritance", "events"]
+---
 
 * * *
 

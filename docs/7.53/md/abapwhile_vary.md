@@ -1,4 +1,14 @@
-  
+---
+title: "WHILE - VARY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm) Obsolete Syntax WHILE ... VARY dobj FROM dobj1 NEXT dobj2 RANGE range VARY .... statement_block ENDWHILE. Effect The addition VARY and its addition RANGE have exactly the sam
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_vary.htm"
+abapFile: "abapwhile_vary.htm"
+keywords: ["loop", "do", "while", "if", "try", "data", "abapwhile", "vary"]
+---
 
 * * *
 

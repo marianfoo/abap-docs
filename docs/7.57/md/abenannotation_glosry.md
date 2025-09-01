@@ -1,4 +1,14 @@
-  
+---
+title: "annotation_glosry"
+description: |
+  annotation_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_glosry.htm"
+abapFile: "abenannotation_glosry.htm"
+keywords: ["do", "if", "try", "abenannotation", "glosry"]
+---
 
 * * *
 

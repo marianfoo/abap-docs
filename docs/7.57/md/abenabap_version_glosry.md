@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP language version"
+description: |
+  Program property(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_property_glosry.htm 'Glossary Entry') that determines the language scope and the syntax rules of an ABAP program(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_program_glosry.htm 'Glossar
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_version_glosry.htm"
+abapFile: "abenabap_version_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "version", "glosry"]
+---
 
 * * *
 

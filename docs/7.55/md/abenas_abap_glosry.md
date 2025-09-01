@@ -1,4 +1,14 @@
-  
+---
+title: "Application Server ABAP"
+description: |
+  AS ABAP for short. AS ABAP represents the application layer(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapplication_layer_glosry.htm 'Glossary Entry') of an ABAP system(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_system_glosry.htm 'Glossary Entry') in w
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenas_abap_glosry.htm"
+abapFile: "abenas_abap_glosry.htm"
+keywords: ["do", "try", "abenas", "abap", "glosry"]
+---
 
 * * *
 

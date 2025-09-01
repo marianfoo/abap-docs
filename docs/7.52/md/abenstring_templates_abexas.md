@@ -1,4 +1,14 @@
-  
+---
+title: "Examples of string templates"
+description: |
+  !Example(exa.gif 'Example') String Templates, Length(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_width_abexa.htm) !Example(exa.gif 'Example') Character String Templates, Alignments, and Padding(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/aben
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_abexas.htm"
+abapFile: "abenstring_templates_abexas.htm"
+keywords: ["do", "if", "case", "data", "abenstring", "templates", "abexas"]
+---
 
 * * *
 

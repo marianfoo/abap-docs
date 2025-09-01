@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric text"
+description: |
+  Character string(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_string_1_glosry.htm 'Glossary Entry') consisting only of the digits 0 through 9. Valid content of a numeric text field(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_text_field_glosr
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_text_glosry.htm"
+abapFile: "abennumeric_text_glosry.htm"
+keywords: ["do", "try", "abennumeric", "text", "glosry"]
+---
 
 * * *
 

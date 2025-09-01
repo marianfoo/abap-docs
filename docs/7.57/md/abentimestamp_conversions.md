@@ -1,4 +1,14 @@
-  
+---
+title: "Conversion Statements for Time Stamp Fields"
+description: |
+  The following statements convert time stamps in time stamp fields to date fields and time fields and back again. -   CONVERT UTCLONG(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconvert_utclong.htm) -   CONVERT INTO UTCLONG(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/e
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentimestamp_conversions.htm"
+abapFile: "abentimestamp_conversions.htm"
+keywords: ["do", "if", "data", "abentimestamp", "conversions"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "chained_attribute_acc_glosry"
+description: |
+  chained_attribute_acc_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_attribute_acc_glosry.htm"
+abapFile: "abenchained_attribute_acc_glosry.htm"
+keywords: ["select", "do", "if", "try", "method", "abenchained", "attribute", "acc", "glosry"]
+---
 
 * * *
 

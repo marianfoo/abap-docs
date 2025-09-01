@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN TAB - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_tabbed.htm) Syntax SELECTION-SCREEN TAB (len) tab USER-COMMAND fcode DEFAULT PROGRAM prog SCREEN dynnr MODIF ID modid FOR TABLENODE node ID id. Effect Def
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_tab_shortref.htm"
+abapFile: "abapselection-screen_tab_shortref.htm"
+keywords: ["select", "do", "if", "try", "data", "abapselection", "screen", "tab", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Dynpros, Automatic Input Checks"
+description: |
+  The example demonstrates what an automatic input check does. Source Code PROGRAM demo_dynpro_automatic_checks . DATA: ok_code TYPE sy-ucomm, date TYPE d. TABLES demo_conn. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. SET PF-STATUS 'STATUS_100'. ENDMODULE. MODULE cancel INPUT. LEAVE PROGRA
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_auto_check_abexa.htm"
+abapFile: "abendynpro_auto_check_abexa.htm"
+keywords: ["do", "try", "data", "abendynpro", "auto", "check", "abexa"]
+---
 
 * * *
 

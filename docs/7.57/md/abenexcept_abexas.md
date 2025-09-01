@@ -1,4 +1,14 @@
-  
+---
+title: "EXCEPT, Examples"
+description: |
+  !Example(exa.gif 'Example') SELECT, Difference of Multiple Tables(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_except_abexa.htm) !Example(exa.gif 'Example') SELECT, Difference with Aggregate Expression(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abense
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexcept_abexas.htm"
+abapFile: "abenexcept_abexas.htm"
+keywords: ["select", "do", "if", "data", "abenexcept", "abexas"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... lhs operator rhs ... Effect Comparison operators can be used to specify a comparison in a condition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v1.htm) in a CDS DDIC-based view(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_comp_v1.htm"
+abapFile: "abencds_cond_expr_comp_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "abencds", "cond", "expr", "comp"]
+---
 
 * * *
 

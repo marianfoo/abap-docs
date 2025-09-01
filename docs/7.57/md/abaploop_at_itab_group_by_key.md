@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... key  ( key1 = dobj1 key2 = dobj2 ... gs = GROUP SIZE gi = GROUP INDEX ) ... Additions: 1. ... gs = GROUP SIZE(#!ABAP_ADDITION_1@1@) 2. ... gi = GROUP INDEX(#!ABAP_ADDITION_2@2@) Effect Group key expression for constructing the group key in the grouping(https://help.sap
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_group_by_key.htm"
+abapFile: "abaploop_at_itab_group_by_key.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "field-symbol", "abaploop", "itab", "group", "key"]
+---
 
 * * *
 

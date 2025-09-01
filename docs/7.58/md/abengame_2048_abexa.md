@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_game_2048_740 DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC FINAL. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  CCIMP CLASS game DEFINITION. PUBLIC SECTION. METHODS: constructor, board. PRIVATE SECTION. TYPES: BEGIN OF t_c
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengame_2048_abexa.htm"
+abapFile: "abengame_2048_abexa.htm"
+keywords: ["loop", "do", "while", "if", "try", "method", "class", "data", "types", "abengame", "2048", "abexa"]
+---
 
 * * *
 

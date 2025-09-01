@@ -1,4 +1,14 @@
-  
+---
+title: "hierarchy_attribute_glosry"
+description: |
+  hierarchy_attribute_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhierarchy_attribute_glosry.htm"
+abapFile: "abenhierarchy_attribute_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenhierarchy", "attribute", "glosry"]
+---
 
 * * *
 

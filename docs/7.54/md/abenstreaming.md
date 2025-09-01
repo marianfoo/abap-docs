@@ -1,4 +1,14 @@
-  
+---
+title: "Streaming"
+description: |
+  Streaming describes how streams(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstream_glosry.htm 'Glossary Entry') are passed. Streams are represented by instances of special classes. The transfer of streams takes place by calling the relevant methods of the object. Properties of S
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstreaming.htm"
+abapFile: "abenstreaming.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abenstreaming"]
+---
 
 * * *
 

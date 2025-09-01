@@ -1,4 +1,14 @@
-  
+---
+title: "Pushbuttons on the Dynpro"
+description: |
+  Pushbuttons were originally the only elements of dynpros that trigger the PAI event when the user chooses them. As of release 4.6, you can also assign checkboxes, radio buttons, and dropdown boxes to function codes. In the attributes of a pushbutton, you can specify a function code up to 20 characte
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_user_actions.htm"
+abapFile: "abenabap_dynpro_user_actions.htm"
+keywords: ["select", "update", "do", "while", "if", "case", "try", "data", "types", "internal-table", "abenabap", "dynpro", "user", "actions"]
+---
 
 * * *
 

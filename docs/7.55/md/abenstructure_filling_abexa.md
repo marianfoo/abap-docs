@@ -1,4 +1,14 @@
-  
+---
+title: "Filling a Structure"
+description: |
+  The example demonstrates the filling of a nested structure. Source Code REPORT demo_structure_filling. CLASS demo DEFINITION. PUBLIC SECTION. TYPES: BEGIN OF name_type, title   TYPE string, prename TYPE string, surname TYPE string, END OF name_type, BEGIN OF street_type, name   TYPE string, num
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructure_filling_abexa.htm"
+abapFile: "abenstructure_filling_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "abenstructure", "filling", "abexa"]
+---
 
 * * *
 

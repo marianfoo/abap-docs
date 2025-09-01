@@ -1,4 +1,14 @@
-  
+---
+title: "Virtual Sorting of Two Internal Tables"
+description: |
+  This example demonstrates the virtual sorting of two internal tables. Source Code REPORT demo_virtual_sort_combined. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, itab1 TY
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_combined_abexa.htm"
+abapFile: "abenvirtual_sort_combined_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "internal-table", "abenvirtual", "sort", "combined", "abexa"]
+---
 
 * * *
 

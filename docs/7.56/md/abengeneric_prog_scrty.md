@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Command Injections"
+description: |
+  ABAP command injections(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_comm_injection_glosry.htm 'Glossary Entry'), the injection of malicious ABAP code into programs, is a potential risk in generic programming. The most important statements in generic programming are -   GEN
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneric_prog_scrty.htm"
+abapFile: "abengeneric_prog_scrty.htm"
+keywords: ["insert", "delete", "do", "if", "case", "try", "data", "types", "abengeneric", "prog", "scrty"]
+---
 
 * * *
 

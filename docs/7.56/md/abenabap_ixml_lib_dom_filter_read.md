@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  For more information (further filters and possible parameters), see the interface IF_IXML_NODE. Executable Example Iterator Filters(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenixml_filter_iterator_abexa.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_ixml_lib_dom_filter_read.htm"
+abapFile: "abenabap_ixml_lib_dom_filter_read.htm"
+keywords: ["do", "if", "method", "class", "data", "abenabap", "ixml", "lib", "dom", "filter", "read"]
+---
 
 * * *
 

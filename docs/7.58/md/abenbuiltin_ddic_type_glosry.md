@@ -1,4 +1,14 @@
-  
+---
+title: "builtin_ddic_type_glosry"
+description: |
+  builtin_ddic_type_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_ddic_type_glosry.htm"
+abapFile: "abenbuiltin_ddic_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenbuiltin", "ddic", "type", "glosry"]
+---
 
 * * *
 

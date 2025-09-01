@@ -1,4 +1,14 @@
-  
+---
+title: "ADD"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd_shortref.htm) Obsolete Syntax ADD dobj1 TO dobj2. Effect This statement has the same effect as the statement dobj2 += dobj1.(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_ass
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd.htm"
+abapFile: "abapadd.htm"
+keywords: ["do", "if", "try", "catch", "data", "abapadd"]
+---
 
 * * *
 

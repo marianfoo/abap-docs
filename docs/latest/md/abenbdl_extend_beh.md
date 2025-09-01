@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - Entity Behavior Extension"
+description: |
+  Syntax extend behavior for EntityName implementation in class ClassName unique(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_in_class_unique_ext.htm) with additional save with full data(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extend_beh.htm"
+abapFile: "abenbdl_extend_beh.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenbdl", "extend", "beh"]
+---
 
 * * *
 

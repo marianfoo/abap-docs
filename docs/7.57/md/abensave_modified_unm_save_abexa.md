@@ -1,4 +1,14 @@
-  
+---
+title: "Data model"
+description: |
+  The CDS data model consists of the root entity DEMO_MANAGED_UNMANAGED_SAVE. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity DEMO_MANAGED_UNMANAGED_SAVE as select from demo_tab_root_3  key key_field, field1, field2, field3, field4  Behavior definitio
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensave_modified_unm_save_abexa.htm"
+abapFile: "abensave_modified_unm_save_abexa.htm"
+keywords: ["select", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abensave", "modified", "unm", "save", "abexa"]
+---
 
 * * *
 

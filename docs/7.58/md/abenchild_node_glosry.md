@@ -1,4 +1,14 @@
-  
+---
+title: "child_node_glosry"
+description: |
+  child_node_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchild_node_glosry.htm"
+abapFile: "abenchild_node_glosry.htm"
+keywords: ["do", "if", "try", "abenchild", "node", "glosry"]
+---
 
 * * *
 

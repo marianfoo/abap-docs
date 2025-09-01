@@ -1,4 +1,14 @@
-  
+---
+title: "Component Operator, Reflexive Assignment"
+description: |
+  This example demonstrates the component operator(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expr_corresponding.htm) with FROM USING for a single table. Source Code  Public class definition CLASS cl_demo_crrspndng_using_self DEFINITION INHERITING FROM cl_demo
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding_using_self_abexa.htm"
+abapFile: "abencorresponding_using_self_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abencorresponding", "using", "self", "abexa"]
+---
 
 * * *
 

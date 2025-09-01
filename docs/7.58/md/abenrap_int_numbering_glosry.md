@@ -1,4 +1,14 @@
-  
+---
+title: "RAP internal numbering"
+description: |
+  A numbering concept(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_numbering_glosry.htm 'Glossary Entry') in which key values are assigned by the RAP BO provider(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_provider_glosry.htm 'Glossary Entry').
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_int_numbering_glosry.htm"
+abapFile: "abenrap_int_numbering_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "int", "numbering", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %target is a component group(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_group_glosry.htm 'Glossary Entry') in BDEF derived types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used to add
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_target.htm"
+abapFile: "abapderived_types_target.htm"
+keywords: ["update", "do", "if", "try", "data", "types", "abapderived", "target"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ADD, THEN, UNTIL - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd_sequences.htm) Syntax ADD   dobj1 THEN dobj2 UNTIL dobj  TO result  GIVING result ACCORDING TO sel     dobj FROM pos1 TO pos GIVING result   RANGE range. Effect Ob
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd_then_from_shortref.htm"
+abapFile: "abapadd_then_from_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapadd", "then", "from", "shortref"]
+---
 
 * * *
 

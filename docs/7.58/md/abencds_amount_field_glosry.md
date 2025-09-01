@@ -1,4 +1,14 @@
-  
+---
+title: "CDS amount field"
+description: |
+  A component of a CDS entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm 'Glossary Entry') of data type CURR, DECFLOAT34, DEC, or FLTP in ABAP CDS(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm 'Glossary Entry'). It is u
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_amount_field_glosry.htm"
+abapFile: "abencds_amount_field_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "amount", "field", "glosry"]
+---
 
 * * *
 

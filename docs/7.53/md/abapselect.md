@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm) Syntax SELECT mainquery_clauses(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_mainquery.htm) UNION ...(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/aba
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm"
+abapFile: "abapselect.htm"
+keywords: ["select", "update", "loop", "do", "if", "case", "try", "class", "data", "abapselect"]
+---
 
 * * *
 

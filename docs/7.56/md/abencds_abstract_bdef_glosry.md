@@ -1,4 +1,14 @@
-  
+---
+title: "CDS abstract behavior definition"
+description: |
+  CDS abstract BDEF or abstract BDEF for short. A CDS abstract behavior definition is a CDS behavior definition(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry') of implementation type(https://help.sap.com/doc/abapdocu_756_index_htm
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_abstract_bdef_glosry.htm"
+abapFile: "abencds_abstract_bdef_glosry.htm"
+keywords: ["do", "try", "abencds", "abstract", "bdef", "glosry"]
+---
 
 * * *
 

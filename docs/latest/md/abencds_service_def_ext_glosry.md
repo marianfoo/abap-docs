@@ -1,4 +1,14 @@
-  
+---
+title: "CDS service definition extension"
+description: |
+  A transportable extension of a CDS service definition(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_service_definition_glosry.htm 'Glossary Entry') using the CDS SDL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sdl_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_service_def_ext_glosry.htm"
+abapFile: "abencds_service_def_ext_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "service", "def", "ext", "glosry"]
+---
 
 * * *
 

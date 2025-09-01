@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sql_expr_searched_case DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_sql_expr_searched_case IMPLEMENTATION. METHOD main. CONSTANT
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_expr_searched_case_abexa.htm"
+abapFile: "abensql_expr_searched_case_abexa.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "method", "class", "data", "internal-table", "abensql", "expr", "searched", "abexa"]
+---
 
 * * *
 

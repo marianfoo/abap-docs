@@ -1,4 +1,14 @@
-  
+---
+title: "Comparisons with Numeric Data Types"
+description: |
+  - d, t utclong decfloat16, decfloat34 decfloat34 - f f - p p - int8 int8 - i, s, b i - Example The content of the syst_datum type data object date is converted to the number of days since 01/01/0001 in the comparison and compared with the content of days. FINAL(date) = cl_demo_date_time=>g
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_date_time.htm"
+abapFile: "abenlogexp_date_time.htm"
+keywords: ["do", "if", "try", "data", "types", "abenlogexp", "date", "time"]
+---
 
 * * *
 
@@ -13,10 +23,8 @@ rel\_exp - Comparison Type of Date Fields, Time Fields, and Time Stamp Fields
 
 The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between date/time types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomparison_type.htm) determine how the comparison is performed. If no comparison type is specified for a combination, no comparison is possible.
 
--   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_1)
--   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_2)
--   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_3)
--   [Comparisons with Date Types, Time Types, or Time Stamp Types](#@@ITOC@@ABENLOGEXP_DATE_TIME_4)
+-   [Comparisons with Numeric Data Types](#abenlogexp-date-time-1-------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_DATE_TIME_2)
+-   [Comparisons with Byte-Like Data Types](#abenlogexp-date-time-3-------comparisons-with-date-types--time-types--or-time-stamp-types---@ITOC@@ABENLOGEXP_DATE_TIME_4)
 
 Comparisons with Numeric Data Types   
 

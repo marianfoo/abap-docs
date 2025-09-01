@@ -1,4 +1,14 @@
-  
+---
+title: "stopping_point_glosry"
+description: |
+  stopping_point_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstopping_point_glosry.htm"
+abapFile: "abenstopping_point_glosry.htm"
+keywords: ["do", "try", "abenstopping", "point", "glosry"]
+---
 
 * * *
 

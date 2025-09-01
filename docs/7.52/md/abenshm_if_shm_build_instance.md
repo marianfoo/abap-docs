@@ -1,4 +1,14 @@
-  
+---
+title: "Static Methods"
+description: |
+  BUILD Interface method for implementing the area constructor of an area. input parameter -   INST_NAME of type SHM_INST_NAME Name of the area instance version. Entering a name is optional. The default value is the value of constant CL_SHM_AREA=>DEFAULT_INSTANCE. -   INVOCATION_MODE of type i
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_if_shm_build_instance.htm"
+abapFile: "abenshm_if_shm_build_instance.htm"
+keywords: ["do", "while", "if", "method", "class", "abenshm", "shm", "build", "instance"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "EXPORT, medium"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_shortref.htm) Syntax ...  DATA BUFFER xstr    INTERNAL TABLE itab    MEMORY ID id    DATABASE      dbtab(ar) FROM wa CLIENT cl ID id    SHARED MEMORY dbtab(a
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster_medium.htm"
+abapFile: "abapexport_data_cluster_medium.htm"
+keywords: ["select", "delete", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "abapexport", "cluster", "medium"]
+---
 
 * * *
 

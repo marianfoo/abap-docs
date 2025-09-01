@@ -1,4 +1,14 @@
-  
+---
+title: "Stability Rules After Release"
+description: |
+  -   Currently, CDS view entities(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm 'Glossary Entry'), CDS projection views(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm 'Glossary Entry'), CDS abstract entities(
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc0_provider_rules_cds.htm"
+abapFile: "abenc0_provider_rules_cds.htm"
+keywords: ["select", "delete", "do", "if", "try", "class", "data", "abenc0", "provider", "rules", "cds"]
+---
 
 * * *
 
@@ -15,10 +25,8 @@ Generally, a [repository object](https://help.sap.com/doc/abapdocu_757_index_htm
 
 The following sections show the most important rules that a C0 contract imposes on different kinds of repository objects.
 
--   [Prerequisites for C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_1)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
--   [Restrictions](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
+-   [Prerequisites for C0 Release](#abenc0-provider-rules-cds-1-------stability-rules-after-release---@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
+-   [Restrictions](#abenc0-provider-rules-cds-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
 
 Prerequisites for C0 Release   
 

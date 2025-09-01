@@ -1,12 +1,8 @@
 # ABAP Statements Quick Reference
 
-**📖 Source Documentation**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-**🔍 Search All Topics**: Use `abap_search` with any keyword below
-**📚 Get Complete Bundles**: Use `abap_get` with specific bundle IDs
-
-
 **Version**: 7.58
-**Generated**: 2025-09-01T11:38:54.846Z
+**Generated**: 2025-09-01T19:38:39.757Z
+**📖 Source Documentation**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
 
 ## Core Statements
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE DATA, TABLE OF"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_data_shortref.htm) Syntax CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_data_area_handle.htm)  TYPE STANDARDSORTEDHASHED TABLE O
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_data_itab.htm"
+abapFile: "abapcreate_data_itab.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "internal-table", "field-symbol", "abapcreate", "itab"]
+---
 
 * * *
 

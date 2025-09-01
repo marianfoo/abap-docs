@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP behavior implementation"
+description: |
+  An ABAP behavior implementation implements the unmanaged RAP BO provider(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunmanaged_rap_bo_prov_glosry.htm 'Glossary Entry'). The implementation takes place in local classes of an ABAP behavior pool (ABP)(https://help.sap.com/doc/abap
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_implement_glosry.htm"
+abapFile: "abenbehavior_implement_glosry.htm"
+keywords: ["do", "try", "class", "abenbehavior", "implement", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Intersection with Aggregate Expression"
+description: |
+  This example demonstrates how an intersection is created across a table using an aggregate expression. Source Code  Public class definition CLASS cl_demo_select_intrsct_max DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_intersect_max_abexa.htm"
+abapFile: "abenselect_intersect_max_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenselect", "intersect", "max", "abexa"]
+---
 
 * * *
 

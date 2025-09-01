@@ -1,4 +1,14 @@
-  
+---
+title: "Component of the Derived Types"
+description: |
+  Work in progress  Derived data types(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) in the context of ABAP RAP(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm 'Glossary Entry') also contain components that are not bas
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm"
+abapFile: "abencomponents_derived_types.htm"
+keywords: ["insert", "update", "delete", "do", "if", "try", "method", "data", "types", "abencomponents", "derived"]
+---
 
 * * *
 

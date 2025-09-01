@@ -1,4 +1,14 @@
-  
+---
+title: "query_service_glosry"
+description: |
+  query_service_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_service_glosry.htm"
+abapFile: "abenquery_service_glosry.htm"
+keywords: ["do", "if", "try", "abenquery", "service", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ranges_condition_glosry"
+description: |
+  ranges_condition_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenranges_condition_glosry.htm"
+abapFile: "abenranges_condition_glosry.htm"
+keywords: ["do", "if", "try", "abenranges", "condition", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS element"
+description: |
+  Element in a CDS entity(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm 'Glossary Entry'). A CDS element is defined in an element list of a CDS data definition(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_data_definition_glosry.htm 'Glos
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_element_glosry.htm"
+abapFile: "abencds_element_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "element", "glosry"]
+---
 
 * * *
 

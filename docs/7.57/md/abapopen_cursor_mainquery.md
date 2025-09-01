@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  FROM(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm) source FIELDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfields_clause.htm) select_clause(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_clause.htm)
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_cursor_mainquery.htm"
+abapFile: "abapopen_cursor_mainquery.htm"
+keywords: ["select", "do", "if", "try", "data", "abapopen", "cursor", "mainquery"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "activation_variant_glosry"
+description: |
+  activation_variant_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenactivation_variant_glosry.htm"
+abapFile: "abenactivation_variant_glosry.htm"
+keywords: ["do", "if", "try", "abenactivation", "variant", "glosry"]
+---
 
 * * *
 

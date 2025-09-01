@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Example of a Database Program"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include: SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR. SELECT-OPTIO
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program_example.htm"
+abapFile: "abenldb_program_example.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abenldb", "program", "example"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   For information about the maximum size of an internal table, see Maximum Size of Dynamic Data Objects(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmemory_consumption_2.htm). -   For information about obsolete headers of internal tables, see Internal Tables with Header(https
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_oview.htm"
+abapFile: "abenitab_oview.htm"
+keywords: ["select", "do", "try", "data", "internal-table", "abenitab", "oview"]
+---
 
 * * *
 

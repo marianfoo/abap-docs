@@ -1,4 +1,14 @@
-  
+---
+title: "Code Pages for Files"
+description: |
+  Background When you open text files on the application server using the OPEN DATASET statement, you specify the following options that are very important for internationalization: -   The ENCODING addition specifies the character representation where the content of the file is handled. -   The WITH
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencodepage_file_guidl.htm"
+abapFile: "abencodepage_file_guidl.htm"
+keywords: ["select", "insert", "do", "if", "data", "abencodepage", "file", "guidl"]
+---
 
 * * *
 

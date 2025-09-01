@@ -1,4 +1,14 @@
-  
+---
+title: "ASSIGN, LOCAL COPY - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_local_copy.htm) Syntax ASSIGN LOCAL COPY OF  INITIAL  dobj+off(len)  (name)  oref->(attr_name)  class(class_name)=>attr(attr_name)  dref->
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_local_copy_shortref.htm"
+abapFile: "abapassign_local_copy_shortref.htm"
+keywords: ["do", "if", "try", "class", "data", "internal-table", "field-symbol", "abapassign", "local", "copy", "shortref"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Deserializing Missing Elements"
+description: |
+  This example demonstrates the deserialization of empty elements. Source Code REPORT demo_asxml_asjson_no_vals. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA(out) = cl_demo_output=>new( )->begin_section( `asXML` ). DATA elem
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_deserl_no_elem_abexa.htm"
+abapFile: "abenabap_deserl_no_elem_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "internal-table", "abenabap", "deserl", "elem", "abexa"]
+---
 
 * * *
 

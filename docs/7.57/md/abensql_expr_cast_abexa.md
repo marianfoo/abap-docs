@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_sql_expr_cast. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DELETE FROM demo_expressions. INSERT demo_expressions FROM @( VALUE #( id   = 'X' num1 = 111 numlong1 = '123456789' dec3 = '123.456' dats2 = sy-datum ) ). SELE
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_cast_abexa.htm"
+abapFile: "abensql_expr_cast_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abensql", "expr", "cast", "abexa"]
+---
 
 * * *
 

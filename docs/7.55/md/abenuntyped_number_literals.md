@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Literals"
+description: |
+  Syntax ... +-nnn... ... Effect A numeric literal consists of a continuous sequence of up to 31 digits n (0 to 9), which can be directly preceded by a plus (+) or minus (-) sign. -   Numeric literals between -2147483648 and 2147483647 are integer literals(https:
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuntyped_number_literals.htm"
+abapFile: "abenuntyped_number_literals.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "field-symbol", "abenuntyped", "number", "literals"]
+---
 
 * * *
 

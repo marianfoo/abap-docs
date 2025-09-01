@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  sXML - XML Reader and XML Writer(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_reader_writer.htm) sXML - Entities of XML Data(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_entities.htm) sXML - Exception Classes(https://help.sap.com/
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib_object_types.htm"
+abapFile: "abenabap_sxml_lib_object_types.htm"
+keywords: ["do", "if", "class", "data", "types", "abenabap", "sxml", "lib", "object"]
+---
 
 * * *
 

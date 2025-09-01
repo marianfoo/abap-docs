@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   If a conversion error occurs in an arithmetic expression in a relational expression, the associated exception can be handled differently than in direct comparisons of data objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_operands_dobj.htm). -   To compar
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_expr_arith.htm"
+abapFile: "abenlogexp_rules_expr_arith.htm"
+keywords: ["do", "if", "try", "data", "types", "abenlogexp", "rules", "expr", "arith"]
+---
 
 * * *
 

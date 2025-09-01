@@ -1,4 +1,14 @@
-  
+---
+title: "WITH, Publishing Associations with a Recursive Redirect"
+description: |
+  This example demonstrates the addition REDIRECT of WITH ASSOCIATIONS(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations.htm) where the redirect is made to the current CTE. Source Code REPORT demo_with_assocs_redir_self. CLASS demo DEFINITION. PUBLIC SECTION. CLASS
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwith_assocs_redir_self_abexa.htm"
+abapFile: "abenwith_assocs_redir_self_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abenwith", "assocs", "redir", "self", "abexa"]
+---
 
 * * *
 

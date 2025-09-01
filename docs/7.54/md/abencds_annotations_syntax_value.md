@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Annotation Syntax, value"
+description: |
+  Syntax ... literal  #SYMBOL  truefalse  null Effect An annotation value(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenannotation_value_glosry.htm 'Glossary Entry') can be specified directly after the colon : of an annotation(https://help.sap.com/doc/abapdocu_754_inde
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotations_syntax_value.htm"
+abapFile: "abencds_annotations_syntax_value.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abencds", "annotations", "syntax", "value"]
+---
 
 * * *
 

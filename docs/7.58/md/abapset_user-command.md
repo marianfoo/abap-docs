@@ -1,4 +1,14 @@
-  
+---
+title: "SET USER-COMMAND"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_user-command_shortref.htm) Syntax SET USER-COMMAND fcode. Effect Raises a list event with a function code specified in fcode. fcode must be a character-like data object(https://help.sap.com/doc/abapdocu_758_index_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_user-command.htm"
+abapFile: "abapset_user-command.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abapset", "user", "command"]
+---
 
 * * *
 

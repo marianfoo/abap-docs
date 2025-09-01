@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - extension for abstract"
+description: |
+  Syntax extension for abstract; define behavior for ... extend behavior for ... scalar entity ... ... Alternatives: 1. ... define behavior for(#!ABAP_ALTERNATIVE_1@1@) 2. ... extend behavior for(#!ABAP_ALTERNATIVE_2@2@) 3. ... scalar entity(#!ABAP_ALTERNATIVE_3@3@) Ef
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension_for_abstract.htm"
+abapFile: "abenbdl_extension_for_abstract.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "extension", "for", "abstract"]
+---
 
 * * *
 

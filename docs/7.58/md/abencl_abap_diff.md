@@ -1,4 +1,14 @@
-  
+---
+title: "Executable Example"
+description: |
+  itab -Using CL_ABAP_DIFF(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_diff_abexa.htm) !Example(exa.gif 'Example') itab - Using CL_ABAP_DIFF(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_diff_abexa.htm)
+version: "7.58"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_diff.htm"
+abapFile: "abencl_abap_diff.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abencl", "abap", "diff"]
+---
 
 * * *
 

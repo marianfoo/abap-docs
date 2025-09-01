@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... BYPASSING BUFFER CONNECTION con(con_syntax) ... Extras: 1.... BYPASSING BUFFER(#!ABAP_ADDITION_1@1@) 2.... CONNECTION con(con_syntax)(#!ABAP_ADDITION_2@2@) Effect These ABAP-specific additions of a main query(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-U
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_additions.htm"
+abapFile: "abapselect_additions.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abapselect", "additions"]
+---
 
 * * *
 

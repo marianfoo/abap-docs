@@ -1,4 +1,14 @@
-  
+---
+title: "CALL DATABASE PROCEDURE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_database_procedure.htm) Syntax CALL DATABASE PROCEDURE proxy(prox_name) CONNECTION con(con_syntax)  EXPORTING  p1 = a1 p2 = a2 ... IMPORTING  p1 = a1 p2 = a2 ...    PARAMET
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_db_procedure_shortref.htm"
+abapFile: "abapcall_db_procedure_shortref.htm"
+keywords: ["do", "try", "data", "internal-table", "abapcall", "procedure", "shortref"]
+---
 
 * * *
 

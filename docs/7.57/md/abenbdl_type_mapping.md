@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - Type Mapping"
+description: |
+  Syntax ... mapping for PartnerType           control ControlType corresponding  extensible(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_enabling_m_u.htm)except Comp1,Comp2, ...  EntityComp1      = PartnerComp1 control C
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping.htm"
+abapFile: "abenbdl_type_mapping.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "abenbdl", "type", "mapping"]
+---
 
 * * *
 

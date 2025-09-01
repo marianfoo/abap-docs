@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_asxml_id_vs_st LINE-SIZE 160 NO STANDARD PAGE HEADING. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: str TYPE string, xml TYPE string, len TYPE i. DATA(out) = cl_demo_output=>new( )->begin_section( 'XSLT ID' ). s
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasxml_id_vs_st_abexa.htm"
+abapFile: "abenasxml_id_vs_st_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenasxml", "abexa"]
+---
 
 * * *
 

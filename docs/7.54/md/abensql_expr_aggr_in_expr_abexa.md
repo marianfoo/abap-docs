@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Aggregate Expressions in SQL Expressions"
+description: |
+  This example demonstrates aggregate expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) as an argument of SQL expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm). Source Code REPORT demo_aggregates_in_sql_expr.
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_aggr_in_expr_abexa.htm"
+abapFile: "abensql_expr_aggr_in_expr_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "abensql", "expr", "aggr", "abexa"]
+---
 
 * * *
 

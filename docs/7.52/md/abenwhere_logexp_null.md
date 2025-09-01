@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand IS NOT NULL ... Effect This relational expression is true if the value of the operand operand is (is not) the null value(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm 'Glossary Entry'). Columns(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_null.htm"
+abapFile: "abenwhere_logexp_null.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "data", "abenwhere", "logexp", "null"]
+---
 
 * * *
 

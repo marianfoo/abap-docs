@@ -1,4 +1,14 @@
-  
+---
+title: "rel_operator_glosry"
+description: |
+  rel_operator_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrel_operator_glosry.htm"
+abapFile: "abenrel_operator_glosry.htm"
+keywords: ["do", "try", "abenrel", "operator", "glosry"]
+---
 
 * * *
 

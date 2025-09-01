@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Native SQL"
+description: |
+  -   Obsolete Cursor Processing in Native SQL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_cursor_implicit.htm) Obsolete Cursor Processing in Native SQL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_cursor_implicit.htm)
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql_obsolete.htm"
+abapFile: "abennative_sql_obsolete.htm"
+keywords: ["do", "if", "data", "abennative", "sql", "obsolete"]
+---
 
 * * *
 

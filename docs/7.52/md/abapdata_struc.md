@@ -1,4 +1,14 @@
-  
+---
+title: "DATA - BEGIN OF struc"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_begin_of_shortref.htm) Syntax DATA BEGIN OF struc READ-ONLY(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm). ... INCLUDE TYPESTRUCTURE ...(https://help.sap.com/doc/ab
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_struc.htm"
+abapFile: "abapdata_struc.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "types", "abapdata", "struc"]
+---
 
 * * *
 

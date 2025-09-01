@@ -1,4 +1,14 @@
-  
+---
+title: "CONCATENATE - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconcatenate.htm) Syntax CONCATENATE dobj1 dobj2 ...LINES OF itab INTO result IN CHARACTERBYTE MODE SEPARATED BY sep RESPECTING BLANKS. Effect Concatenates the content of dobj1 d
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconcatenate_shortref.htm"
+abapFile: "abapconcatenate_shortref.htm"
+keywords: ["do", "if", "internal-table", "abapconcatenate", "shortref"]
+---
 
 * * *
 

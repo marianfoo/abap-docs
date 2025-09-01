@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP release"
+description: |
+  Release of the AS ABAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm 'Glossary Entry') and its programming languages and infrastructure. The counting of the releases is done by release numbers such as 7.55, 7.56, 7.57, ... These release numbers are based on the
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_release_glosry.htm"
+abapFile: "abenabap_release_glosry.htm"
+keywords: ["do", "if", "try", "abenabap", "release", "glosry"]
+---
 
 * * *
 

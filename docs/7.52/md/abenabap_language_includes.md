@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code Modules"
+description: |
+  Source code modularization is the segmentation of a program's source code into individual units. Modularization operates independently of the segmentation of an ABAP program into processing blocks. Source code modules are implemented as either include programs(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm"
+abapFile: "abenabap_language_includes.htm"
+keywords: ["do", "abenabap", "language", "includes"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "message_class_glosry"
+description: |
+  message_class_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_class_glosry.htm"
+abapFile: "abenmessage_class_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenmessage", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SXPG Framework"
+description: |
+  A framework for calling operating system statements of the application server(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm 'Glossary Entry') from ABAP programs, based on the transaction(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abe
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensxpg_glosry.htm"
+abapFile: "abensxpg_glosry.htm"
+keywords: ["do", "try", "abensxpg", "glosry"]
+---
 
 * * *
 

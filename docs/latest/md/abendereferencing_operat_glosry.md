@@ -1,4 +1,14 @@
-  
+---
+title: "dereferencing_operat_glosry"
+description: |
+  dereferencing_operat_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendereferencing_operat_glosry.htm"
+abapFile: "abendereferencing_operat_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendereferencing", "operat", "glosry"]
+---
 
 * * *
 

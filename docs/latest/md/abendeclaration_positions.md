@@ -1,4 +1,14 @@
-  
+---
+title: "Declaration Positions"
+description: |
+  Declaration positions are write-only positions(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwrite_only_position_glosry.htm 'Glossary Entry') in which a declaration expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_expression_glosry.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_positions.htm"
+abapFile: "abendeclaration_positions.htm"
+keywords: ["select", "insert", "loop", "do", "if", "try", "catch", "method", "data", "types", "internal-table", "field-symbol", "abendeclaration", "positions"]
+---
 
 * * *
 

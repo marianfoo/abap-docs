@@ -1,4 +1,14 @@
-  
+---
+title: "SQL condition"
+description: |
+  Logical expression in an ABAP SQL statement(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm 'Glossary Entry'). → More about(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenasql_cond.htm)
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_cond_glosry.htm"
+abapFile: "abensql_cond_glosry.htm"
+keywords: ["do", "if", "try", "abensql", "cond", "glosry"]
+---
 
 * * *
 

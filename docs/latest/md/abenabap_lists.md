@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Create"
+description: |
+  The following ABAP statements are used for creating classical lists: -   WRITE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite-.htm) -   ULINE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapuline.htm) -   FORMAT(https://help.sap.com/doc/abapdocu_l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists.htm"
+abapFile: "abenabap_lists.htm"
+keywords: ["do", "if", "class", "abenabap", "lists"]
+---
 
 * * *
 

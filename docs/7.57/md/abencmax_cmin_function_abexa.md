@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_cmax_cmin. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA:  txt TYPE string, max TYPE string, min TYPE string, msg TYPE string. txt = `one two three four five six seven eight nine ten`. max = ` `. min = `§`. DO. T
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencmax_cmin_function_abexa.htm"
+abapFile: "abencmax_cmin_function_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abencmax", "cmin", "function", "abexa"]
+---
 
 * * *
 

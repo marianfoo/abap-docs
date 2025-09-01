@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Expressions, Window Expressions with Grouping"
+description: |
+  This example demonstrates window expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) for a grouped results set. Source Code REPORT demo_select_over_group. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_group_abexa.htm"
+abapFile: "abensql_expr_over_group_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "abensql", "expr", "over", "group", "abexa"]
+---
 
 * * *
 

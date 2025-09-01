@@ -1,4 +1,14 @@
-  
+---
+title: "Assignment Rules for Reference Variables"
+description: |
+  The content of a reference variable can only be assigned to another reference variable. At the same time, -   data references can only be assigned to data reference variables(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_references_data.htm) and -   object references c
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_references.htm"
+abapFile: "abenconversion_references.htm"
+keywords: ["select", "insert", "do", "while", "if", "case", "try", "catch", "class", "data", "types", "internal-table", "abenconversion", "references"]
+---
 
 * * *
 
@@ -16,13 +26,9 @@ The content of a reference variable can only be assigned to another reference va
 
 No conversion takes place when variables are assigned. For an assignment to take place, the [static type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_type_glosry.htm "Glossary Entry") of the target reference variable must be more general than or the same as the [dynamic type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynamic_type_glosry.htm "Glossary Entry") of the source reference variable. After a successful assignment, the target reference variable points to the same object as the source reference variable, that is, the target reference variable inherits the dynamic type of the source reference variable.
 
--   [Static Type and Dynamic Type](#@@ITOC@@ABENCONVERSION_REFERENCES_1)
+-   [Static Type and Dynamic Type](#abenconversion-references-1--------up-cast-and-down-cast---@ITOC@@ABENCONVERSION_REFERENCES_2)
 
--   [Up Cast and Down Cast](#@@ITOC@@ABENCONVERSION_REFERENCES_2)
-
--   [Up Cast](#@@ITOC@@ABENCONVERSION_REFERENCES_3)
-
--   [Down Cast](#@@ITOC@@ABENCONVERSION_REFERENCES_4)
+-   [Up Cast](#abenconversion-references-3--------down-cast---@ITOC@@ABENCONVERSION_REFERENCES_4)
 
 Hint
 

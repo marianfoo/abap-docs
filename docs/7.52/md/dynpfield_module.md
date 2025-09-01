@@ -1,4 +1,14 @@
-  
+---
+title: "FIELD - MODULE"
+description: |
+  Syntax FIELD dynp_field MODULE mod  ON INPUT  ON REQUEST  ON -INPUT  ON CHAIN-INPUTCHAIN-REQUEST  AT CURSOR-SELECTION . Extras: 1. ... ON INPUT(#!ABAP_ADDITION_1@1@) 2. ... ON REQUEST(#!ABAP_ADDITION_2@2@) 3. ... ON -INPUT(#!AB
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield_module.htm"
+abapFile: "dynpfield_module.htm"
+keywords: ["select", "do", "if", "try", "data", "types", "dynpfield", "module"]
+---
 
 * * *
 

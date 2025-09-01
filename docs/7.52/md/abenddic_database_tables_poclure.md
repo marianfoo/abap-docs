@@ -1,4 +1,14 @@
-  
+---
+title: "Restrictions in Pooled Tables and Cluster Tables"
+description: |
+  The following general restrictions apply to pooled tables and cluster tables: -   Access to pooled tables and cluster tables using Native SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm 'Glossary Entry') or AMDP(https://help.sap.com/doc/abapdocu_752_index
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclure.htm"
+abapFile: "abenddic_database_tables_poclure.htm"
+keywords: ["select", "insert", "update", "do", "if", "case", "try", "class", "data", "abenddic", "database", "tables", "poclure"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... source._assoc1 parameters(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_parameters.htm)attributes(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_attr.htm) ._assoc2 parameters(https://help.s
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_path_expression.htm"
+abapFile: "abencds_f1_path_expression.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "abencds", "path", "expression"]
+---
 
 * * *
 

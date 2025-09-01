@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapcreate_data_built_in.htm
 
-  
+---
+title: "Syntax"
+description: |
+  CREATE DATA dref area_handle(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_area_handle.htm) TYPE abap_type(name) LENGTH len DECIMALS dec. Effect Creates a data object with an explicitly specified data type. For the data type, all bui
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_built_in.htm"
+abapFile: "abapcreate_data_built_in.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "field-symbol", "abapcreate", "built"]
+---
 
 * * *
 
@@ -73,7 +83,17 @@ Continue
 
 ### abencreate_simple_data_abexa.htm
 
-  
+---
+title: "Creating Elementary Data Objects"
+description: |
+  This example demonstrates how elementary data objects are created. Source Code REPORT demo_create_simple_data. CLASS create_demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS create_data IMPORTING VALUE(typ) TYPE c VALUE(len) TYPE i VALUE(dec) TYPE i RETURNING V
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_simple_data_abexa.htm"
+abapFile: "abencreate_simple_data_abexa.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abencreate", "simple", "abexa"]
+---
 
 * * *
 

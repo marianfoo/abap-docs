@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - determination"
+description: |
+  Syntax determination DetName on modify  CUD1; CUD2; ...    field Field1, Field2, ... ;  on save    CUD1; CUD2; ...    field Field1, Field2, ... ;  Effect A determination(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_determination_glosry.htm 'Glossa
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determinations.htm"
+abapFile: "abenbdl_determinations.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "types", "abenbdl", "determinations"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS FDL - Parameter Passing in Scalar Functions"
+description: |
+  Syntax ... ( pname1 => act1, pname2 => act2, ... ) ... Effect Passes the actual parameters act1, act2, ... to the input parameters pname1, pname2, ... of an SQL-based scalar function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_glosry.htm 'Glossary Entry'). Th
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_parameter_passing.htm"
+abapFile: "abencds_parameter_passing.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "parameter", "passing"]
+---
 
 * * *
 

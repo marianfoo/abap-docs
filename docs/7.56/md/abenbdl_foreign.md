@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - foreign entity"
+description: |
+  Syntax ... foreign entity ForeignEntityName; ... Effect Defines a RAP BO entity(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_glosry.htm 'Glossary Entry') which, as a component of the current RAP BO, is not part of the CDS composition tree(https://help.sap.com/doc/
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_foreign.htm"
+abapFile: "abenbdl_foreign.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "data", "abenbdl", "foreign"]
+---
 
 * * *
 

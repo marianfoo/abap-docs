@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC DDL - DEFINE DYNAMIC CACHE"
+description: |
+  Syntax DEFINE DYNAMIC CACHE ...  Effect Interface between cached views(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_cached_views.htm) in SAP HANA and dictionary views.
+version: "7.55"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_dynamic_cache.htm"
+abapFile: "abenddicddl_define_dynamic_cache.htm"
+keywords: ["do", "abenddicddl", "define", "dynamic", "cache"]
+---
 
 * * *
 

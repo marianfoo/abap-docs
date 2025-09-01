@@ -1,4 +1,14 @@
-  
+---
+title: "XSL - Identity Transformation"
+description: |
+  Under the name ID, SAP provides an identity transformation that is specially handled by the runtime framework depending on the source and target: -   An identity transformation from XML to XML produces a result that is a normalized copy of the source document in which the attributes of an element ar
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_id.htm"
+abapFile: "abenabap_xslt_id.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenabap", "xslt"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "METHODS - constructor"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_shortref.htm) Syntax METHODS constructor FINAL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_abstract_final.htm) IMPORTING parameters(https://help.sap.com/doc/abapdocu_75
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_constructor.htm"
+abapFile: "abapmethods_constructor.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "abapmethods", "constructor"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_dynpro_f4_help_dynpro. DATA: carrier(3) TYPE c, connection(4) TYPE c. CALL SCREEN 100. MODULE cancel INPUT. LEAVE PROGRAM. ENDMODULE. Description The static next dynpro number of dynpro 100 is 100. The input fields are taken from the program fields carrier and connection. The functio
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_f4_help_dyn_abexa.htm"
+abapFile: "abendynpro_f4_help_dyn_abexa.htm"
+keywords: ["select", "do", "if", "data", "types", "abendynpro", "help", "dyn", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CALL TRANSFORMATION, Examples"
+description: |
+  -   XML Sources of Transformations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_trafo_sources_abexa.htm) -   XML Targets of Transformations(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_trafo_results_abexa.htm) -   Deserializing Missing Ele
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_transformation_abexas.htm"
+abapFile: "abencall_transformation_abexas.htm"
+keywords: ["do", "if", "data", "abencall", "transformation", "abexas"]
+---
 
 * * *
 

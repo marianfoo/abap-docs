@@ -1,4 +1,14 @@
-  
+---
+title: "SQL expression"
+description: |
+  Expression in an ABAP SQL statement(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm 'Glossary Entry') that is passed to the database system for evaluation. → More about(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm)
+version: "7.56"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expression_glosry.htm"
+abapFile: "abensql_expression_glosry.htm"
+keywords: ["do", "try", "data", "abensql", "expression", "glosry"]
+---
 
 * * *
 

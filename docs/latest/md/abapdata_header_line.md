@@ -1,4 +1,14 @@
-  
+---
+title: "DATA, HEADER LINE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata.htm) Obsolete Syntax ... WITH HEADER LINE ... Effect This addition of the statements DATA TABLE OF(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm), DATA RANGE OF(https://
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_header_line.htm"
+abapFile: "abapdata_header_line.htm"
+keywords: ["loop", "do", "if", "try", "class", "data", "types", "internal-table", "abapdata", "header", "line"]
+---
 
 * * *
 

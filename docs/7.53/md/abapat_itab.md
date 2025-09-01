@@ -1,4 +1,14 @@
-  
+---
+title: "AT - Group Level Processing"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_shortref.htm) Syntax LOOP AT itab(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm) result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm"
+abapFile: "abapat_itab.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "class", "data", "internal-table", "field-symbol", "abapat", "itab"]
+---
 
 * * *
 

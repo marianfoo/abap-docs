@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - RAP Business Objects (RAP BO)"
+description: |
+  A RAP business object (RAP BO) is a business object (BO)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') that plays a central role in ABAP RAP(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_rap_glosry.htm 'Glossary
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm"
+abapFile: "abencds_rap_business_objects.htm"
+keywords: ["do", "if", "try", "method", "data", "types", "internal-table", "abencds", "rap", "business", "objects"]
+---
 
 * * *
 

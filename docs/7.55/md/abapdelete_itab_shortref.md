@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE itab - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab.htm) Syntax DELETE   TABLE itab FROM wa USING KEY key_name(name) WITH TABLE KEY key_name(name) COMPONENTS comp_name1(name1) = dobj1 comp_name2(name2
+version: "7.55"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_shortref.htm"
+abapFile: "abapdelete_itab_shortref.htm"
+keywords: ["delete", "loop", "do", "if", "try", "internal-table", "abapdelete", "itab", "shortref"]
+---
 
 * * *
 

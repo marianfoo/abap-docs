@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... bit-set( arg ) ... This built-in function(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) expects an integer numeric value as an argument. The argument is a numeric expression position(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbit_functions.htm"
+abapFile: "abenbit_functions.htm"
+keywords: ["do", "if", "try", "data", "abenbit", "functions"]
+---
 
 * * *
 

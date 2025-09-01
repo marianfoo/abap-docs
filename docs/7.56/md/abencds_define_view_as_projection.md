@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - DEFINE VIEW ENTITY AS PROJECTION ON, transactional query"
+description: |
+  Syntax @entity_annot1(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm) @entity_annot2(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm) ... @proj_view_annot1(https://help.sap.com/do
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_as_projection.htm"
+abapFile: "abencds_define_view_as_projection.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abencds", "define", "view", "projection"]
+---
 
 * * *
 

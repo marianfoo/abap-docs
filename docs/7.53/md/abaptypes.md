@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_shortref.htm) Syntax Forms Using built-in types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_simple.htm) 1. TYPES  dtype(len) TYPE abap_type DECIMALS dec
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes.htm"
+abapFile: "abaptypes.htm"
+keywords: ["do", "if", "class", "data", "types", "abaptypes"]
+---
 
 * * *
 

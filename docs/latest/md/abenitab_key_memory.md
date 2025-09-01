@@ -1,4 +1,14 @@
-  
+---
+title: "Examples"
+description: |
+  -   A standard table with a secondary hash key that is exclusively filled with APPEND(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapappend.htm) requires: -   No additional memory for the primary index since the logical and physical orders are the same -   18 bytes per line fo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_memory.htm"
+abapFile: "abenitab_key_memory.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "key", "memory"]
+---
 
 * * *
 

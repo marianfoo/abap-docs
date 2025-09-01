@@ -1,4 +1,14 @@
-  
+---
+title: "Automatic Authorization Checks"
+description: |
+  The following authorization checks take place automatically during data access: -   Authorization Check in the Operating System(#abenfile-interface-authority-1--------authorization-checks-for-special-files---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2) -   Authorization Object S_DATASET(#abenfile-int
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_authority.htm"
+abapFile: "abenfile_interface_authority.htm"
+keywords: ["delete", "do", "if", "case", "try", "class", "data", "abenfile", "interface", "authority"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ Automatic Authorization Checks
 
 The following authorization checks take place automatically during data access:
 
--   [Authorization Check in the Operating System](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_1)
+-   [Authorization Check in the Operating System](#abenfile-interface-authority-1--------authorization-checks-for-special-files---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
 
--   [Authorization Checks for Special Files](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
-
--   [Authorization Object S\_DATASET](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_3)
-
--   [Database Table SPTH and Authorization Object S\_PATH](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
+-   [Authorization Object S\_DATASET](#abenfile-interface-authority-3--------database-table-spth-and-authorization-object-s--path---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
 
 Authorization Check in the Operating System
 

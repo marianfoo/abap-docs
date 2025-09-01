@@ -1,4 +1,14 @@
-  
+---
+title: "Trailing Blanks in Character String Processing"
+description: |
+  There is a major difference between data types of fixed length and text strings regarding the treatment of blanks: -   All blanks are generally preserved in operations with operands of the data type string. -   In assignments and statements for character string processing, leading blanks for operand
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_processing_trail_blanks.htm"
+abapFile: "abenstring_processing_trail_blanks.htm"
+keywords: ["do", "if", "try", "data", "types", "abenstring", "processing", "trail", "blanks"]
+---
 
 * * *
 

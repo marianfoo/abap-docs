@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_check_radio . DATA: radio1(1) TYPE c, radio2(1) TYPE c, radio3(1) TYPE c, field1(10) TYPE c, field2(10) TYPE c, field3(10) TYPE c, box TYPE c. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. CALL SCREEN 100. MODULE user_command_0100 INPUT. save_ok = ok_code. CLEAR ok
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_radio_button_abexa.htm"
+abapFile: "abendynpro_radio_button_abexa.htm"
+keywords: ["select", "do", "if", "case", "data", "abendynpro", "radio", "button", "abexa"]
+---
 
 * * *
 

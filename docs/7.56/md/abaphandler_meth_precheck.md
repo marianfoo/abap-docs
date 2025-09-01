@@ -1,4 +1,14 @@
-  
+---
+title: "FOR PRECHECK"
+description: |
+  Syntax Handler method definitions: METHODS(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm) meth FINAL(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_abstract_final.htm) FOR PRECHECK IMPORTING(https://help.sap.com/doc/abapdocu_756_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_precheck.htm"
+abapFile: "abaphandler_meth_precheck.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abaphandler", "meth", "precheck"]
+---
 
 * * *
 

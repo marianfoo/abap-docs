@@ -1,4 +1,14 @@
-  
+---
+title: "COMMUNICATION - comstep"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommunication_shortref.htm) Obsolete Syntax ... INIT DESTINATION dest  ALLOCATE  ACCEPT  SEND BUFFER buf  RECEIVE BUFFER buf DATAINFO dat STATUSINFO stat  DEALLOCATE ... Alternatives: 1
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommunication_comstep.htm"
+abapFile: "abapcommunication_comstep.htm"
+keywords: ["do", "if", "try", "data", "types", "abapcommunication", "comstep"]
+---
 
 * * *
 

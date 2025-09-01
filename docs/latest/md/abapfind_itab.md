@@ -1,4 +1,14 @@
-  
+---
+title: "FIND IN TABLE itab"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_shortref.htm) Syntax FIND FIRST OCCURRENCEALL OCCURRENCES OF pattern(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_pattern.htm) IN TABLE itab table_ran
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_itab.htm"
+abapFile: "abapfind_itab.htm"
+keywords: ["loop", "do", "if", "case", "try", "catch", "data", "types", "internal-table", "abapfind", "itab"]
+---
 
 * * *
 

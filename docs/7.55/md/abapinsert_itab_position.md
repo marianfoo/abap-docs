@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... TABLE itab  itab INDEX idx  itab ... Alternatives: 1. ... TABLE itab(#!ABAP_ALTERNATIVE_1@1@) 2. ... itab INDEX idx(#!ABAP_ALTERNATIVE_2@2@) 3. ... itab(#!ABAP_ALTERNATIVE_3@3@) Effect These alternatives specify the position in the internal table itab at which li
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_itab_position.htm"
+abapFile: "abapinsert_itab_position.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "catch", "class", "data", "internal-table", "abapinsert", "itab", "position"]
+---
 
 * * *
 

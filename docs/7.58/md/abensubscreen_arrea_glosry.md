@@ -1,4 +1,14 @@
-  
+---
+title: "subscreen_arrea_glosry"
+description: |
+  subscreen_arrea_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubscreen_arrea_glosry.htm"
+abapFile: "abensubscreen_arrea_glosry.htm"
+keywords: ["do", "if", "try", "abensubscreen", "arrea", "glosry"]
+---
 
 * * *
 

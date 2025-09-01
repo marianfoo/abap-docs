@@ -1,4 +1,14 @@
-  
+---
+title: "standard_type_glosry"
+description: |
+  standard_type_glosry - ABAP 7.53 language reference documentation
+version: "7.53"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_type_glosry.htm"
+abapFile: "abenstandard_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "field-symbol", "abenstandard", "type", "glosry"]
+---
 
 * * *
 

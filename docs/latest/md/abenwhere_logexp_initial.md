@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand IS NOT INITIAL ... Effect This relational expression is true if the value of the operand operand is (is not) the initial value(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninitial_value_glosry.htm 'Glossary Entry') of its built-in dictionary type(https:
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwhere_logexp_initial.htm"
+abapFile: "abenwhere_logexp_initial.htm"
+keywords: ["select", "do", "if", "try", "catch", "data", "types", "abenwhere", "logexp", "initial"]
+---
 
 * * *
 

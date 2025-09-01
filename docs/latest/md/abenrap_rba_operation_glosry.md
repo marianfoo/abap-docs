@@ -1,4 +1,14 @@
-  
+---
+title: "RAP read-by-association operation"
+description: |
+  RAP read operation(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_read_operation_glosry.htm 'Glossary Entry') that retrieves data of an association target(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_target_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_rba_operation_glosry.htm"
+abapFile: "abenrap_rba_operation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "rba", "operation", "glosry"]
+---
 
 * * *
 

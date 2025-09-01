@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Area Locks"
+description: |
+  An area lock is set on the area instance version each time an area instance version is accessed (meaning each time an area handle(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_area_instance_handle.htm) is bound). The lock exists as long as an area handle is bound to an area in
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_area_instance_locks.htm"
+abapFile: "abenshm_area_instance_locks.htm"
+keywords: ["update", "delete", "do", "while", "if", "case", "try", "method", "class", "data", "abenshm", "area", "instance", "locks"]
+---
 
 * * *
 

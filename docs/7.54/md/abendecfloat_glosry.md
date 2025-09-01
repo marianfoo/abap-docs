@@ -1,4 +1,14 @@
-  
+---
+title: "Decimal floating point number"
+description: |
+  Numeric data type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_data_type_glosry.htm 'Glossary Entry') for saving (decimally) numbers with mantissa and exponent or a number saved in a similar way. The associated built-in ABAP types(https://help.sap.com/doc/abapdocu_754_i
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm"
+abapFile: "abendecfloat_glosry.htm"
+keywords: ["do", "try", "data", "types", "abendecfloat", "glosry"]
+---
 
 * * *
 

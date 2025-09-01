@@ -1,4 +1,14 @@
-  
+---
+title: "Object Component Selector"
+description: |
+  -   Static Target(#abenobject-component-selector-1-------dynamic-target---@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2) Static Target A statically specified component comp of an object is accessed using the following name: ref->comp In this case, the character -> is the object component selector. A ref
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobject_component_selector.htm"
+abapFile: "abenobject_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "field-symbol", "abenobject", "component", "selector"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 Object Component Selector
 
--   [Static Target](#@@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_1)
--   [Dynamic Target](#@@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2)
+-   [Static Target](#abenobject-component-selector-1-------dynamic-target---@ITOC@@ABENOBJECT_COMPONENT_SELECTOR_2)
 
 Static Target   
 

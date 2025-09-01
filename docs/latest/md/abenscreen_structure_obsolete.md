@@ -1,4 +1,14 @@
-  
+---
+title: "The Built-In Structure screen"
+description: |
+  In dynpro(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm 'Glossary Entry') processing in dialog modules, the built-in data object screen of the data type SCREEN from ABAP Dictionary is available. It can be addressed explicitly there and implicitly in obsolete
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_structure_obsolete.htm"
+abapFile: "abenscreen_structure_obsolete.htm"
+keywords: ["loop", "do", "if", "try", "data", "abenscreen", "structure", "obsolete"]
+---
 
 * * *
 

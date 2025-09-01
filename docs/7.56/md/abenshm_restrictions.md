@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Restrictions"
+description: |
+  Currently, the following restrictions apply to shared objects: -   When data objects referenced using data references are stored, there is a restriction that the dynamic type cannot have been created at program runtime. Direct references to data elements and table types in the ABAP Dictionary are, h
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_restrictions.htm"
+abapFile: "abenshm_restrictions.htm"
+keywords: ["do", "if", "class", "data", "types", "abenshm", "restrictions"]
+---
 
 * * *
 

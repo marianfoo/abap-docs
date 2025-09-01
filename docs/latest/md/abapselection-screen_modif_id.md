@@ -1,4 +1,14 @@
-  
+---
+title: "SELECTION-SCREEN, MODIF ID"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_shortref.htm) Syntax ... MODIF ID modid ... Effect After the MODIF ID addition, a modid identifier can be specified to assign a screen element of a selection screen to a modification group(https:
+version: "latest"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_modif_id.htm"
+abapFile: "abapselection-screen_modif_id.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "abapselection", "screen", "modif"]
+---
 
 * * *
 

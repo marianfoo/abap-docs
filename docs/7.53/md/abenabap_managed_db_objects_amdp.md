@@ -1,4 +1,14 @@
-  
+---
+title: "AMDP Access to ABAP-Managed Database Objects"
+description: |
+  ABAP Managed Database Procedures (AMDP)(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_proc_glosry.htm 'Glossary Entry') is a class-based AS ABAP framework for managing and calling database procedures(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/aben
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_amdp.htm"
+abapFile: "abenabap_managed_db_objects_amdp.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "types", "abenabap", "managed", "objects", "amdp"]
+---
 
 * * *
 

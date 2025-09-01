@@ -1,4 +1,14 @@
-  
+---
+title: "ENDWITH"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith_shortref.htm) Syntax ENDWITH. Effect The Open SQL(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm 'Glossary Entry') statement ENDWITH closes a loop started using WITH(https://
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendwith.htm"
+abapFile: "abapendwith.htm"
+keywords: ["select", "loop", "do", "try", "data", "internal-table", "abapendwith"]
+---
 
 * * *
 

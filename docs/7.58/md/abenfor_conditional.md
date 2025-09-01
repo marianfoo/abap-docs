@@ -1,4 +1,14 @@
-  
+---
+title: "FOR, Conditional Iteration"
+description: |
+  Syntax ... FOR var = rhs THEN expr UNTILWHILE log_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) let_exp(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) ... Effect This syntax form of an iteration expression(https://h
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm"
+abapFile: "abenfor_conditional.htm"
+keywords: ["insert", "loop", "do", "while", "if", "case", "try", "method", "data", "internal-table", "field-symbol", "abenfor", "conditional"]
+---
 
 * * *
 

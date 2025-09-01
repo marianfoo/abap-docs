@@ -1,4 +1,14 @@
-  
+---
+title: "Remarks"
+description: |
+  -   The parameter mapped is part of the signature of the method check_before_save. It is not, however, used. -   The implementation of the method check_before_save is not mandatory.
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_check_before_save.htm"
+abapFile: "abensaver_check_before_save.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abensaver", "check", "before", "save"]
+---
 
 * * *
 

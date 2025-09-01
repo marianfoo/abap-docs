@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Special Functions"
+description: |
+  These built-in functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_special_functions.htm) are delivered by SAP and are not provided as native functions on every database platform: -   Conversion functions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencd
+version: "7.54"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_special_functions.htm"
+abapFile: "abencds_special_functions.htm"
+keywords: ["select", "do", "data", "abencds", "special", "functions"]
+---
 
 * * *
 

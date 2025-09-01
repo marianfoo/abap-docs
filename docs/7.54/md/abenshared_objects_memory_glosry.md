@@ -1,4 +1,14 @@
-  
+---
+title: "shared_objects_memory_glosry"
+description: |
+  shared_objects_memory_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshared_objects_memory_glosry.htm"
+abapFile: "abenshared_objects_memory_glosry.htm"
+keywords: ["do", "try", "abenshared", "objects", "memory", "glosry"]
+---
 
 * * *
 

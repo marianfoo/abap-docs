@@ -1,4 +1,14 @@
-  
+---
+title: "LOB handle"
+description: |
+  An object from one of the system classes(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_class_glosry.htm 'Glossary Entry') that support streaming(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_streaming.htm) and locators(https://help.sap.com/doc/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_handle_glosry.htm"
+abapFile: "abenlob_handle_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenlob", "handle", "glosry"]
+---
 
 * * *
 

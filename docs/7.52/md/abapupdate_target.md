@@ -1,4 +1,14 @@
-  
+---
+title: "UPDATE dbtab - target"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapupdate_shortref.htm) Syntax ... dbtabview(target_syntax) USING CLIENT clnt  CLIENT SPECIFIED ... Alternatives: 1. ... dbtabview(#!ABAP_ALTERNATIVE_1@1@) 2. ... (target_syntax)(#!ABAP_
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapupdate_target.htm"
+abapFile: "abapupdate_target.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abapupdate", "target"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AMC - Examples"
+description: |
+  -   AMC - Sending Messages(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_send_abexa.htm) -   AMC - Receiving Messages(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_receive_abexa.htm) -   AMC - Suppressing Standalone Messages(https://help.sap.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_abexas.htm"
+abapFile: "abenamc_abexas.htm"
+keywords: ["do", "if", "data", "abenamc", "abexas"]
+---
 
 * * *
 

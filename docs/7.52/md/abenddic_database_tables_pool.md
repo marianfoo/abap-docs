@@ -1,4 +1,14 @@
-  
+---
+title: "Pooled Tables in Table Pools"
+description: |
+  Pooled tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table pools rather than being defined as pooled tables on the database. -   Table Pools(#abenddic-database-tables-pool-1--------pooled-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2) Tabl
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_pool.htm"
+abapFile: "abenddic_database_tables_pool.htm"
+keywords: ["delete", "do", "if", "class", "data", "types", "abenddic", "database", "tables", "pool"]
+---
 
 * * *
 
@@ -10,9 +20,7 @@ Pooled Tables in Table Pools
 
 Pooled tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table pools rather than being defined as pooled tables on the database.
 
--   [Table Pools](#@@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_1)
-
--   [Pooled Tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2)
+-   [Table Pools](#abenddic-database-tables-pool-1--------pooled-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2)
 
 Table Pools
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS TDL - CDS Enumerated Type, Type Description"
+description: |
+  This example demonstrates type description for CDS enumerated types. Source Code  Public class definition CLASS cl_demo_cds_enum_type DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_description_abexa.htm"
+abapFile: "abencds_enum_description_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abencds", "enum", "description", "abexa"]
+---
 
 * * *
 

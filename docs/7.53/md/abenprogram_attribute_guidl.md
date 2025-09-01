@@ -1,4 +1,14 @@
-  
+---
+title: "Program Attributes"
+description: |
+  Background Alongside various, less important properties, each ABAP program has a set of program attributes that control specific aspects of the program behavior and syntax check severity: -   ABAP language version for configuring the ABAP language version(https://help.sap.com/doc/abapdocu_753_inde
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_attribute_guidl.htm"
+abapFile: "abenprogram_attribute_guidl.htm"
+keywords: ["select", "do", "while", "if", "try", "method", "class", "data", "types", "abenprogram", "attribute", "guidl"]
+---
 
 * * *
 

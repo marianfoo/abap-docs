@@ -1,4 +1,14 @@
-  
+---
+title: "right_outer_join_glosry"
+description: |
+  right_outer_join_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenright_outer_join_glosry.htm"
+abapFile: "abenright_outer_join_glosry.htm"
+keywords: ["do", "try", "data", "abenright", "outer", "join", "glosry"]
+---
 
 * * *
 

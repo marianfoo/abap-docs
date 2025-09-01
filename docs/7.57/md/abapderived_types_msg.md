@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %msg is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is used as a component of the reported(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm) response paramet
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_msg.htm"
+abapFile: "abapderived_types_msg.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "types", "abapderived", "msg"]
+---
 
 * * *
 

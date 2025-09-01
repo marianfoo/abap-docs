@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - BDEF Projection Extension"
+description: |
+  A BDEF projection extension(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projec_bdef_ext_glosry.htm 'Glossary Entry') is a repository object that extends a CDS projection behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm"
+abapFile: "abenbdl_extensibility_projection.htm"
+keywords: ["do", "if", "try", "data", "abenbdl", "extensibility", "projection"]
+---
 
 * * *
 

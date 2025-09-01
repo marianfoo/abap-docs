@@ -1,4 +1,14 @@
-  
+---
+title: "CONVERT TEXT"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconvert_text_shortref.htm) Syntax CONVERT TEXT text INTO SORTABLE CODE hex. Effect The content of the operand text is converted to a sortable byte string and the result is assigned to the target field hex. The data
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconvert_text.htm"
+abapFile: "abapconvert_text.htm"
+keywords: ["do", "while", "if", "case", "try", "catch", "data", "internal-table", "abapconvert", "text"]
+---
 
 * * *
 

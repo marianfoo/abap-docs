@@ -1,4 +1,14 @@
-  
+---
+title: "Character"
+description: |
+  Encoded element of a character set(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_set_glosry.htm 'Glossary Entry'). Letter, number or special character.
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_glosry.htm"
+abapFile: "abencharacter_glosry.htm"
+keywords: ["do", "try", "abencharacter", "glosry"]
+---
 
 * * *
 

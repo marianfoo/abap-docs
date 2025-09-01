@@ -1,4 +1,14 @@
-  
+---
+title: "TOP-OF-PAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page_shortref.htm) Syntax TOP-OF-PAGE DURING LINE-SELECTION. Addition: ... DURING LINE-SELECTION(#!ABAP_ONE_ADD@1@) Effect This statement defines an event block whose event is raised by the ABAP runtim
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm"
+abapFile: "abaptop-of-page.htm"
+keywords: ["select", "do", "if", "try", "class", "abaptop", "page"]
+---
 
 * * *
 

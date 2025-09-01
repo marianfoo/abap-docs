@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... DATS_IS_VALID( date )  DATS_DAYS_BETWEEN( date1,date2 )  DATS_ADD_DAYS( date,days )  DATS_ADD_MONTHS( date,months ) ... Variants: 1. ... DATS_IS_VALID( date )(#!ABAP_VARIANT_1@1@) 2. ... DATS_DAYS_BETWEEN( date1,date2 )(#!ABAP_VARIANT_2@2@) 3. ... DATS_ADD_DAYS( da
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_date_func.htm"
+abapFile: "abensql_date_func.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "case", "try", "data", "types", "abensql", "date", "func"]
+---
 
 * * *
 

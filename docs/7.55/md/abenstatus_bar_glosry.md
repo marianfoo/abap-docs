@@ -1,4 +1,14 @@
-  
+---
+title: "status_bar_glosry"
+description: |
+  status_bar_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatus_bar_glosry.htm"
+abapFile: "abenstatus_bar_glosry.htm"
+keywords: ["do", "try", "abenstatus", "bar", "glosry"]
+---
 
 * * *
 

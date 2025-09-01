@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE REPORT"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax DELETE REPORT prog. Addition: ... STATE state(#!ABAP_ONE_ADD@1@) Effect Deletes the source code, attributes, text elements, and generated version of the program, whose names are in the data object prog. An
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_report.htm"
+abapFile: "abapdelete_report.htm"
+keywords: ["insert", "delete", "do", "if", "try", "catch", "data", "abapdelete", "report"]
+---
 
 * * *
 

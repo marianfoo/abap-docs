@@ -1,4 +1,14 @@
-  
+---
+title: "SAP memory"
+description: |
+  Obsolete name for user memory(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_memory_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_memory_glosry.htm"
+abapFile: "abensap_memory_glosry.htm"
+keywords: ["do", "if", "try", "abensap", "memory", "glosry"]
+---
 
 * * *
 

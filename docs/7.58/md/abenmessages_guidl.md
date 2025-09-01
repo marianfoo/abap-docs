@@ -1,4 +1,14 @@
-  
+---
+title: "Messages"
+description: |
+  Background Messages are texts that are created using a message maintenance(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_maintenance_glosry.htm 'Glossary Entry'). They are stored in the system table T100. In ABAP programs, the statement MESSAGE(https://help.sap.com/doc/a
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm"
+abapFile: "abenmessages_guidl.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "types", "exception-handling", "abenmessages", "guidl"]
+---
 
 * * *
 

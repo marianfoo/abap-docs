@@ -1,4 +1,14 @@
-  
+---
+title: "Dead Code"
+description: |
+  Background Dead code is program parts that are never executed because they are no longer required or were never actually required at any time. This code can accumulate during the development (rejected prototypes) or maintenance (changeover to new code without deleting the old code) of programs. Rule
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendead_code_guidl.htm"
+abapFile: "abendead_code_guidl.htm"
+keywords: ["do", "if", "case", "method", "class", "types", "abendead", "code", "guidl"]
+---
 
 * * *
 

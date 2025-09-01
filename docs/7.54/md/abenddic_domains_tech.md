@@ -1,4 +1,14 @@
-  
+---
+title: "Technical Attributes of Domains"
+description: |
+  The only technical attribute of a domain is the description of an elementary data type whose following technical attributes are defined directly in the domain: -   Built-in data type(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) in ABAP Dictionary -   Lengt
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_domains_tech.htm"
+abapFile: "abenddic_domains_tech.htm"
+keywords: ["do", "if", "class", "data", "types", "abenddic", "domains", "tech"]
+---
 
 * * *
 

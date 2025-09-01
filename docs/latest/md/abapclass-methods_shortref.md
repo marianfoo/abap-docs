@@ -1,4 +1,14 @@
-  
+---
+title: "CLASS-METHODS - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods.htm) Syntax CLASS-METHODS meth options FOR TABLE FUNCTION cds_entity. Effect Declares a static method(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_method_glosry.htm
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_shortref.htm"
+abapFile: "abapclass-methods_shortref.htm"
+keywords: ["do", "if", "try", "method", "class", "abapclass", "methods", "shortref"]
+---
 
 * * *
 

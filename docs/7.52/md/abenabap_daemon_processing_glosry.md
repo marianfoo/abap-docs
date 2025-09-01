@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Daemon processing"
+description: |
+  Processing of an ABAP Daemon(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_glosry.htm 'Glossary Entry'). An ABAP Daemon is processed in a dedicated ABAP Daemon session(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_session_glosry.htm 'Glos
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_processing_glosry.htm"
+abapFile: "abenabap_daemon_processing_glosry.htm"
+keywords: ["do", "try", "abenabap", "daemon", "processing", "glosry"]
+---
 
 * * *
 

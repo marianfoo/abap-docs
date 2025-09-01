@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_for_groups_by_overlap. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES i_tab TYPE STANDARD TABLE OF i WITH EMPTY KEY. CLASS-DATA itab TYPE i_tab. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA out TYPE REF TO if_demo_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_group_by_overlap_abexa.htm"
+abapFile: "abenfor_group_by_overlap_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "overlap", "abexa"]
+---
 
 * * *
 

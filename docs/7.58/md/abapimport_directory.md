@@ -1,4 +1,14 @@
-  
+---
+title: "IMPORT DIRECTORY"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_directory_shortref.htm) Syntax IMPORT DIRECTORY INTO itab FROM DATABASE dbtab(ar) TO wa CLIENT cl ID id. Effect This statement passes a table of contents of all data objects of a data cluster(ht
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_directory.htm"
+abapFile: "abapimport_directory.htm"
+keywords: ["do", "if", "case", "try", "catch", "data", "types", "internal-table", "abapimport", "directory"]
+---
 
 * * *
 

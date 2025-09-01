@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Table-Specific Technical Properties of Database Tables"
+description: |
+  The following technical properties are provided specifically for DDIC database tables. They define properties of the physical database table and access via the database interface. Apart from the table category and activation type, these technical settings constitute a standalone object and can be ac
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_techspec.htm"
+abapFile: "abenddic_database_tables_techspec.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "techspec"]
+---
 
 * * *
 

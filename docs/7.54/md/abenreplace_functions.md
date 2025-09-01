@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Forms"
+description: |
+  1. ... replace( val = text(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions_val.htm)  off = off(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions_off_len.htm) len = len(https://help.sap.com/doc/abapdocu_754_index_htm/7.5
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreplace_functions.htm"
+abapFile: "abenreplace_functions.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "abenreplace", "functions"]
+---
 
 * * *
 

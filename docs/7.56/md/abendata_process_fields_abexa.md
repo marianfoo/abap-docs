@@ -1,4 +1,14 @@
-  
+---
+title: "Substrings"
+description: |
+  This example demonstrates how substrings can be accessed. Source Code REPORT demo_data_process_fields. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA time TYPE t VALUE '172545'. DATA: f1(8)  TYPE c VALUE 'ABCDEFGH', f2(20) TYPE c
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_process_fields_abexa.htm"
+abapFile: "abendata_process_fields_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abendata", "process", "fields", "abexa"]
+---
 
 * * *
 

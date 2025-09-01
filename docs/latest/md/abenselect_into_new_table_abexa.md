@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Create Internal Table as Target Area"
+description: |
+  The example demonstrates the creation of an internal table as a target area of the statement SELECT. Source Code  Public class definition CLASS cl_demo_select_into_new_table DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_into_new_table_abexa.htm"
+abapFile: "abenselect_into_new_table_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "internal-table", "abenselect", "into", "new", "table", "abexa"]
+---
 
 * * *
 

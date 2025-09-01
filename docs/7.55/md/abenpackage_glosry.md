@@ -1,4 +1,14 @@
-  
+---
+title: "package_glosry"
+description: |
+  package_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpackage_glosry.htm"
+abapFile: "abenpackage_glosry.htm"
+keywords: ["do", "try", "abenpackage", "glosry"]
+---
 
 * * *
 

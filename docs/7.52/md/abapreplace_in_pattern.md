@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE pattern IN"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_shortref.htm) Syntax REPLACE FIRST OCCURRENCE ALL OCCURRENCES OF pattern(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_pattern.htm) IN section_of(https://
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_in_pattern.htm"
+abapFile: "abapreplace_in_pattern.htm"
+keywords: ["insert", "loop", "do", "if", "case", "try", "data", "internal-table", "abapreplace", "pattern"]
+---
 
 * * *
 

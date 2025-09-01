@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - System View Entities"
+description: |
+  This documentation is only available internally at SAP.
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_system_views.htm"
+abapFile: "abencds_system_views.htm"
+keywords: ["do", "if", "data", "abencds", "system", "views"]
+---
 
 * * *
 

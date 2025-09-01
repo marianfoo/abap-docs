@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Forward Associations in Mesh Paths"
+description: |
+  This example demonstrates the results of forward associations in mesh paths. Source Code  Public class definition CLASS cl_demo_mesh_forward_assoc DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm"
+abapFile: "abenmesh_for_forward_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "internal-table", "abenmesh", "for", "forward", "abexa"]
+---
 
 * * *
 

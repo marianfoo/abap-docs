@@ -1,4 +1,14 @@
-  
+---
+title: "static_class_glosry"
+description: |
+  static_class_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_class_glosry.htm"
+abapFile: "abenstatic_class_glosry.htm"
+keywords: ["do", "try", "class", "abenstatic", "glosry"]
+---
 
 * * *
 

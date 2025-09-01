@@ -1,4 +1,14 @@
-  
+---
+title: "modul_pool_glosry"
+description: |
+  modul_pool_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodul_pool_glosry.htm"
+abapFile: "abenmodul_pool_glosry.htm"
+keywords: ["do", "if", "try", "abenmodul", "pool", "glosry"]
+---
 
 * * *
 

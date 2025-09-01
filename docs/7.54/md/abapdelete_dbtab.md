@@ -1,4 +1,14 @@
-  
+---
+title: "DELETE dbtab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab_shortref.htm) Syntax DELETE  FROM target connection  WHERE sql_cond(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_where.htm) db_hints(https://help.sap.co
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab.htm"
+abapFile: "abapdelete_dbtab.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "internal-table", "abapdelete", "dbtab"]
+---
 
 * * *
 

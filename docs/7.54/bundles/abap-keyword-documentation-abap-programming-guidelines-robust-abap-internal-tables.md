@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenitab_guidl.htm
 
-  
+---
+title: "Internal Tables"
+description: |
+  An internal table is a dynamic data object consisting of a sequence of rows with the same data type. The data type of an internal table is a table type that has the following basic properties of every internal table: -   Row type The row type can be any data type. In particular, tables of elementary
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_guidl.htm"
+abapFile: "abenitab_guidl.htm"
+keywords: ["select", "loop", "do", "if", "try", "data", "types", "internal-table", "abenitab", "guidl"]
+---
 
 * * *
 
@@ -75,7 +85,17 @@ Continue
 
 ### abenselect_table_type_guidl.htm
 
-  
+---
+title: "Selecting the Table Category"
+description: |
+  Background The table category specifies the internal administration for an internal table and the primary access type: -   Standard tables that are managed with a primary table index. When inserting or deleting table rows, only the table index is reorganized, but not the remaining table rows. If row
+version: "7.54"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_table_type_guidl.htm"
+abapFile: "abenselect_table_type_guidl.htm"
+keywords: ["select", "insert", "delete", "loop", "do", "if", "case", "try", "data", "types", "internal-table", "abenselect", "table", "type", "guidl"]
+---
 
 * * *
 
@@ -135,7 +155,17 @@ If you use [secondary keys](https://help.sap.com/doc/abapdocu_754_index_htm/7.54
 
 ### abensecondary_key_guidl.htm
 
-  
+---
+title: "Secondary Key"
+description: |
+  Background Secondary keys can be declared for internal tables. The following options are possible: -   Sorted keys (non-unique or unique) -   Hash keys that can only be unique These keys are assigned a name when they are declared and can be created for any table category. The primary key (nameless u
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_key_guidl.htm"
+abapFile: "abensecondary_key_guidl.htm"
+keywords: ["update", "delete", "loop", "do", "if", "case", "data", "types", "internal-table", "abensecondary", "key", "guidl"]
+---
 
 * * *
 
@@ -224,7 +254,17 @@ ENDLOOP.
 
 ### abeninitial_memory_requ_guidl.htm
 
-  
+---
+title: "Initial Memory Requirements"
+description: |
+  Background Internal tables are stored in the memory block by block. The ABAP runtime environment allocates a suitable memory area for the data of the table by default. If the initial memory area is insufficient, further blocks are created using an internal duplication strategy until a threshold is r
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_memory_requ_guidl.htm"
+abapFile: "abeninitial_memory_requ_guidl.htm"
+keywords: ["do", "if", "class", "data", "types", "internal-table", "abeninitial", "memory", "requ", "guidl"]
+---
 
 * * *
 
@@ -287,7 +327,17 @@ TYPES: BEGIN OF line\_structure,
 
 ### abensort_guidl.htm
 
-  
+---
+title: "Sorted Filling"
+description: |
+  Background The statement APPEND for attaching rows to an internal table has the addition SORTED BY. This addition can be used to fill a standard table by using sorted filling. The prerequisites are: -   A value greater than zero must be specified for the addition INITIAL SIZE(https://help.sap.com/
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensort_guidl.htm"
+abapFile: "abensort_guidl.htm"
+keywords: ["loop", "do", "if", "data", "internal-table", "abensort", "guidl"]
+---
 
 * * *
 
@@ -351,7 +401,17 @@ ENDLOOP.
 
 ### abencollect_guidl.htm
 
-  
+---
+title: "Collected Filling"
+description: |
+  Background The statement COLLECT can be used to collect rows and insert them in an internal table. If a row with the relevant primary key already exists in the target table, the values of numeric components are added to the values in the existing table row. Otherwise, a new row is inserted in the ta
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencollect_guidl.htm"
+abapFile: "abencollect_guidl.htm"
+keywords: ["insert", "do", "if", "internal-table", "abencollect", "guidl"]
+---
 
 * * *
 
@@ -382,7 +442,17 @@ The statement COLLECT is based on unique entries with respect to the primary key
 
 ### abentable_output_guidl.htm
 
-  
+---
+title: "Output Behavior"
+description: |
+  Background Internal tables can be read by accessing individual rows (using READ TABLE or table expressions(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expression_glosry.htm 'Glossary Entry')) or sequentially (using LOOP AT). In both cases, the following output behavior can
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_output_guidl.htm"
+abapFile: "abentable_output_guidl.htm"
+keywords: ["select", "insert", "loop", "do", "if", "case", "try", "data", "internal-table", "field-symbol", "abentable", "output", "guidl"]
+---
 
 * * *
 
@@ -456,7 +526,17 @@ ENDLOOP.
 
 ### abenloop_guidl.htm
 
-  
+---
+title: "Loop Processing"
+description: |
+  Background Alongside the statements for editing individual rows in internal tables, other statements can be used to address and modify the entire body of the table. Examples: -   All categories of assignments applying to whole internal tables -   Deleting the whole of an internal table using CLEAR o
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_guidl.htm"
+abapFile: "abenloop_guidl.htm"
+keywords: ["select", "loop", "do", "if", "class", "types", "internal-table", "abenloop", "guidl"]
+---
 
 * * *
 

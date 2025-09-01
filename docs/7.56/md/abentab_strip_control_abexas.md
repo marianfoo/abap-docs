@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  !Example(exa.gif 'Example') dynpro - Subscreens(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_subscreen_abexa.htm) !Example(exa.gif 'Example') dynpro - Tabstrips with Scrolling in SAP GUI(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control_abexas.htm"
+abapFile: "abentab_strip_control_abexas.htm"
+keywords: ["do", "if", "abentab", "strip", "control", "abexas"]
+---
 
 * * *
 

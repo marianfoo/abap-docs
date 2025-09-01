@@ -1,4 +1,14 @@
-  
+---
+title: "BREAK-POINT - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapbreak-point.htm) Syntax BREAK-POINT  ID group  log_text . Effect Defines a breakpoint(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbreakpoint_glosry.htm 'Glossary Entry')
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapbreak-point_shortref.htm"
+abapFile: "abapbreak-point_shortref.htm"
+keywords: ["do", "if", "try", "abapbreak", "point", "shortref"]
+---
 
 * * *
 

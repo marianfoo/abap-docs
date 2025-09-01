@@ -1,4 +1,14 @@
-  
+---
+title: "time_stamp_glosry"
+description: |
+  time_stamp_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamp_glosry.htm"
+abapFile: "abentime_stamp_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abentime", "stamp", "glosry"]
+---
 
 * * *
 

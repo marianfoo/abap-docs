@@ -1,4 +1,14 @@
-  
+---
+title: "Hints"
+description: |
+  -   asJSON only occurs in the identity transformation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm 'Glossary Entry') ID. In particular, asJSON is not generally needed for self-written transformations for JSON data. JSON-XML(https://help.sap.com/doc/abapdocu_
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_asjson.htm"
+abapFile: "abenabap_asjson.htm"
+keywords: ["do", "while", "if", "try", "data", "types", "abenabap", "asjson"]
+---
 
 * * *
 

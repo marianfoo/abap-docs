@@ -1,4 +1,14 @@
-  
+---
+title: "DCL"
+description: |
+  Short for Data Control Language. A subset of SQL(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_glosry.htm 'Glossary Entry'). The statements of the DCL perform authorization and consistency checks on relational databases(https://help.sap.com/doc/abapdocu_latest_index_htm
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendcl_glosry.htm"
+abapFile: "abendcl_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendcl", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "attribute_glosry"
+description: |
+  attribute_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenattribute_glosry.htm"
+abapFile: "abenattribute_glosry.htm"
+keywords: ["do", "if", "try", "class", "data", "abenattribute", "glosry"]
+---
 
 * * *
 

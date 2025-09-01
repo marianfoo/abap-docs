@@ -1,4 +1,14 @@
-  
+---
+title: "database_function_glosry"
+description: |
+  database_function_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_function_glosry.htm"
+abapFile: "abendatabase_function_glosry.htm"
+keywords: ["do", "try", "data", "abendatabase", "function", "glosry"]
+---
 
 * * *
 

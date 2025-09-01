@@ -1,4 +1,14 @@
-  
+---
+title: "EPP - Extended Passport"
+description: |
+  An Extended Passport (EPP) is a data structure that can be sent from a client to a server and is used to analyze call stacks. For the RFC interface(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_interface.htm), Extended Passports can be sent and received in both ABAP sessions
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenepp.htm"
+abapFile: "abenepp.htm"
+keywords: ["update", "do", "if", "case", "try", "method", "class", "data", "internal-table", "abenepp"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_proj_view_read_assoc. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: class_constructor, main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. SELECT  FROM demo_sales_pv_so_i WHERE positionnumber > 10 ORDER BY materialname INTO TABLE @DATA(result). cl_demo_output=>di
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_view_assoc_abexa.htm"
+abapFile: "abencds_proj_view_assoc_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "try", "catch", "method", "class", "data", "abencds", "proj", "view", "assoc", "abexa"]
+---
 
 * * *
 

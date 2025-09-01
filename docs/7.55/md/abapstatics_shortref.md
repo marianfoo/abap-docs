@@ -1,4 +1,14 @@
-  
+---
+title: "STATICS - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapstatics.htm) Syntax STATICS dobj options. Effect Declares a static local data object dobj in a subroutine(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubroutine_glosry.htm 'Glossary Entry'), a function m
+version: "7.55"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapstatics_shortref.htm"
+abapFile: "abapstatics_shortref.htm"
+keywords: ["do", "if", "try", "method", "data", "abapstatics", "shortref"]
+---
 
 * * *
 

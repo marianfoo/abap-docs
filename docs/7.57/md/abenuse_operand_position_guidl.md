@@ -1,4 +1,14 @@
-  
+---
+title: "Using Elements in Operand Positions"
+description: |
+  Background Statements that modify the content of system fields generally evaluate the operands first and then set the system fields. In some complex statements, however, a system field could be set first, before all operand positions are evaluated. Rule Do not use system fields in statements that se
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_operand_position_guidl.htm"
+abapFile: "abenuse_operand_position_guidl.htm"
+keywords: ["loop", "do", "if", "case", "method", "abenuse", "operand", "position", "guidl"]
+---
 
 * * *
 

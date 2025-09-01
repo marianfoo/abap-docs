@@ -1,4 +1,14 @@
-  
+---
+title: "FREE MEMORY"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_memory_shortref.htm) Syntax FREE MEMORY ID id. Effect This statement has the same effect as the statement DELETE FROM MEMORY ID id.(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_cluster.ht
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_memory.htm"
+abapFile: "abapfree_memory.htm"
+keywords: ["delete", "do", "while", "case", "try", "class", "data", "abapfree", "memory"]
+---
 
 * * *
 

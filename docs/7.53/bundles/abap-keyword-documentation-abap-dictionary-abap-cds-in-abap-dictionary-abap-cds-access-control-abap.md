@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abencds_f1_define_accesspolicy.htm
 
-  
+---
+title: "ABAP CDS - DEFINE ACCESSPOLICY"
+description: |
+  Syntax @access_policy_annot(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_ap_annotations.htm) DEFINE ACCESSPOLICY access_policy   pfcg_mapping_definition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mappin
+version: "7.53"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_accesspolicy.htm"
+abapFile: "abencds_f1_define_accesspolicy.htm"
+keywords: ["do", "if", "try", "abencds", "define", "accesspolicy"]
+---
 
 * * *
 
@@ -42,7 +52,17 @@ Continue
 
 ### abencds_f1_dcl_ap_annotations.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_753_ind
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_ap_annotations.htm"
+abapFile: "abencds_f1_dcl_ap_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -97,7 +117,17 @@ ABAP annotations introduced using EndUserText are used to define translatable se
 
 ### abencds_f1_define_pfcg_mapping.htm
 
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping BETWEEN pfcg_mapping_field_definition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_mapping_spcl
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["do", "if", "try", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 
@@ -156,7 +186,17 @@ Continue
 
 ### abencds_f1_dcl_pm_annotations.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ... @annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations.htm) ... Effect Specifies an annotation(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_glosry.htm 'Glossary Entry') annotation(https://help.sap.com/doc/abapdocu_753_ind
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_annotations.htm"
+abapFile: "abencds_f1_dcl_pm_annotations.htm"
+keywords: ["do", "if", "try", "abencds", "dcl", "annotations"]
+---
 
 * * *
 
@@ -211,7 +251,17 @@ ABAP annotations introduced using EndUserText are used to define translatable se
 
 ### abencds_f1_dcl_pm_mapping_spcl.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...  pfcg_mapping_field_definition ... Effect Specifies the PFCG mapping field definition in the statement DEFINE PFCG_MAPPING(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm) used to define a PFCG mapping(https://help.sap.com/doc/abapdocu_753_in
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_mapping_spcl.htm"
+abapFile: "abencds_f1_dcl_pm_mapping_spcl.htm"
+keywords: ["do", "if", "case", "try", "data", "abencds", "dcl", "mapping", "spcl"]
+---
 
 * * *
 
@@ -262,7 +312,17 @@ A CDS entity has an element called "Cost Center". The PFCG authorizations of the
 
 ### abencds_f1_define_pfcg_mapping.htm
 
-  
+---
+title: "Syntax"
+description: |
+  pfcg_mapping_annot(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_annotations.htm) DEFINE PFCG_MAPPING pfcg_mapping BETWEEN pfcg_mapping_field_definition(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pm_mapping_spcl
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm"
+abapFile: "abencds_f1_define_pfcg_mapping.htm"
+keywords: ["do", "if", "try", "abencds", "define", "pfcg", "mapping"]
+---
 
 * * *
 

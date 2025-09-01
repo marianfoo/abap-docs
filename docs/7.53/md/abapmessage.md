@@ -1,4 +1,14 @@
-  
+---
+title: "MESSAGE"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_shortref.htm) Syntax MESSAGE  msg(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_msg.htm)   text(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_text.htm)
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm"
+abapFile: "abapmessage.htm"
+keywords: ["insert", "update", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "abapmessage"]
+---
 
 * * *
 

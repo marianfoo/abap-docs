@@ -1,4 +1,14 @@
-  
+---
+title: "interface_comp_selector_glosry"
+description: |
+  interface_comp_selector_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_comp_selector_glosry.htm"
+abapFile: "abeninterface_comp_selector_glosry.htm"
+keywords: ["select", "do", "if", "try", "class", "abeninterface", "comp", "selector", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... DEFAULT val1 TO val2 OPTION opt SIGN sgn LOWER CASE MATCHCODE OBJECT search_help MEMORY ID pid ... Extras: 1. ... DEFAULT val1 TO val2 OPTION opt SIGN sgn(#!ABAP_ADDITION_1@1@) 2. ... LOWER CASE(#!ABAP_ADDITIO
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_value.htm"
+abapFile: "abapselect-options_value.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abapselect", "options", "value"]
+---
 
 * * *
 

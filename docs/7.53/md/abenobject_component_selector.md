@@ -1,4 +1,14 @@
-  
+---
+title: "Object Component Selector"
+description: |
+  A component comp of an object is accessed using the following name: ref->comp In this case, the character -> is the object component selector. A reference variable ref must be specified on the left of the object component selector as follows: -   Name of a reference variable (can itself be a compos
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm"
+abapFile: "abenobject_component_selector.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "abenobject", "component", "selector"]
+---
 
 * * *
 

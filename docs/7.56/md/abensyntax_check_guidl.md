@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax Check"
+description: |
+  Background The syntax check provides syntax errors and syntax warnings: -   As soon as a syntax error occurs, the system stops the check and displays the relevant error message. In many cases, the system suggests a correction that can be applied. Programs with syntax errors can be activated, but the
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyntax_check_guidl.htm"
+abapFile: "abensyntax_check_guidl.htm"
+keywords: ["select", "do", "if", "case", "class", "data", "internal-table", "abensyntax", "check", "guidl"]
+---
 
 * * *
 

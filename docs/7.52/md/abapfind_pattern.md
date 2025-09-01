@@ -1,4 +1,14 @@
-  
+---
+title: "FIND - pattern"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_shortref.htm) Syntax ...  SUBSTRING substring  REGEX regex ... . Variants: 1. ... SUBSTRING substring.(#!ABAP_VARIANT_1@1@) 2. ... REGEX regex.(#!ABAP_VARIANT_2@2@) Effect Defin
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_pattern.htm"
+abapFile: "abapfind_pattern.htm"
+keywords: ["select", "loop", "do", "while", "if", "try", "class", "data", "abapfind", "pattern"]
+---
 
 * * *
 

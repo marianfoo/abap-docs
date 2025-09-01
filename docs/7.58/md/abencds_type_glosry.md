@@ -1,4 +1,14 @@
-  
+---
+title: "CDS type"
+description: |
+  Data type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_type_glosry.htm 'Glossary Entry') defined as a global type(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_type_glosry.htm 'Glossary Entry') in ABAP CDS(https://help.sap.com/doc/abapdocu_758_ind
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_type_glosry.htm"
+abapFile: "abencds_type_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "type", "glosry"]
+---
 
 * * *
 

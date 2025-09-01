@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - Dictionary DDL for Defining Database Tables"
+description: |
+  In the ABAP Development Tools (ADT)(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm 'Glossary Entry'), a database table can be displayed and modified using source-code-based methods in the Dictionary DDL(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abe
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_define_table.htm"
+abapFile: "abenddic_define_table.htm"
+keywords: ["do", "if", "try", "method", "data", "abenddic", "define", "table"]
+---
 
 * * *
 

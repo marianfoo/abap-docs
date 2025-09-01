@@ -1,4 +1,14 @@
-  
+---
+title: "synchronous_rfc_glosry"
+description: |
+  synchronous_rfc_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensynchronous_rfc_glosry.htm"
+abapFile: "abensynchronous_rfc_glosry.htm"
+keywords: ["do", "try", "abensynchronous", "rfc", "glosry"]
+---
 
 * * *
 

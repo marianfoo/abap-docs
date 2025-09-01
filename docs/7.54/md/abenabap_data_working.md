@@ -1,4 +1,14 @@
-  
+---
+title: "Processing Internal Data"
+description: |
+  All working data within the internal session(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm 'Glossary Entry') is referred to as internal data. -   Assignments(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_assignments.htm) -   Nu
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm"
+abapFile: "abenabap_data_working.htm"
+keywords: ["do", "try", "data", "types", "internal-table", "abenabap", "working"]
+---
 
 * * *
 

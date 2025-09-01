@@ -1,4 +1,14 @@
-  
+---
+title: "CDS source code"
+description: |
+  The source code(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_glosry.htm 'Glossary Entry') for the definition of a CDS object(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_object_glosry.htm 'Glossary Entry'). There are different kinds o
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_source_code_glosry.htm"
+abapFile: "abencds_source_code_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abencds", "source", "code", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - EXTEND CUSTOM ENTITY"
+description: |
+  Syntax EXTEND CUSTOM ENTITY CustomEntity WITH  ElementListExtension  Effect Extends an existing CDS custom entity(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_custom_entity_glosry.htm 'Glossary Entry') CustomEntity using a CDS custom entity extension(https://help.sap.com/
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_extend_custom_entity.htm"
+abapFile: "abencds_extend_custom_entity.htm"
+keywords: ["select", "delete", "do", "if", "try", "class", "data", "abencds", "extend", "custom", "entity"]
+---
 
 * * *
 

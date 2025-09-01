@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - define authorization context"
+description: |
+  Syntax define authorization context ContextName for disable(modifyreadmodify,read)  AuthObject1(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbc_authority_check.htm);  AuthObject2(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbc_au
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_def_auth_context.htm"
+abapFile: "abenbdl_def_auth_context.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "def", "auth", "context"]
+---
 
 * * *
 

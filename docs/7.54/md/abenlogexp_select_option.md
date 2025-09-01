@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand NOT IN range_tab ... Effect In a comparison expression with the relational operator IN, the conditions of a ranges table(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenranges_table_glosry.htm 'Glossary Entry') or a table with this layout are checked. This means
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_select_option.htm"
+abapFile: "abenlogexp_select_option.htm"
+keywords: ["select", "loop", "do", "if", "try", "method", "data", "types", "internal-table", "abenlogexp", "option"]
+---
 
 * * *
 

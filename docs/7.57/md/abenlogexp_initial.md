@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... operand IS NOT INITIAL ... Effect This predicate expression checks whether the operand operand is initial. The expression is true, if the operand contains its type-dependent initial value(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_value_glosry.htm 'Glossary
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_initial.htm"
+abapFile: "abenlogexp_initial.htm"
+keywords: ["select", "do", "if", "try", "method", "data", "internal-table", "abenlogexp", "initial"]
+---
 
 * * *
 

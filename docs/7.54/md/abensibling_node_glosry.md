@@ -1,4 +1,14 @@
-  
+---
+title: "sibling_node_glosry"
+description: |
+  sibling_node_glosry - ABAP 7.54 language reference documentation
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensibling_node_glosry.htm"
+abapFile: "abensibling_node_glosry.htm"
+keywords: ["do", "try", "abensibling", "node", "glosry"]
+---
 
 * * *
 

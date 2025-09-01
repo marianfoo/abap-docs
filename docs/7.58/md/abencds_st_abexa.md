@@ -1,4 +1,14 @@
-  
+---
+title: "CDS TDL - Using a CDS Simple Type for Typing in ABAP"
+description: |
+  This example demonstrates how to use CDS simple types for declaring data objects in an ABAP class. The following CDS simple types are used: -   First name @EndUserText.heading: 'First name' define type demo_bt_first_name: abap.char( 30 ); -   Last name @EndUserText.heading: 'Last name' define typ
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_st_abexa.htm"
+abapFile: "abencds_st_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "types", "abencds", "abexa"]
+---
 
 * * *
 

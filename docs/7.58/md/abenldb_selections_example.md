@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Example of a Selection Include"
+description: |
+  A logical database TEST_LDB has the structure shown in Example of a Logical Database(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows: -----------------------------------------------------------
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm"
+abapFile: "abenldb_selections_example.htm"
+keywords: ["select", "delete", "do", "if", "data", "abenldb", "selections", "example"]
+---
 
 * * *
 

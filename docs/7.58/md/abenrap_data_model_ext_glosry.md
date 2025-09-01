@@ -1,4 +1,14 @@
-  
+---
+title: "RAP data model extension"
+description: |
+  Extension of the data model of a RAP BO(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm 'Glossary Entry'). May consist of DDIC extensions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_extension_glosry.htm 'Glossary Entry') and CDS entity ex
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_data_model_ext_glosry.htm"
+abapFile: "abenrap_data_model_ext_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenrap", "model", "ext", "glosry"]
+---
 
 * * *
 

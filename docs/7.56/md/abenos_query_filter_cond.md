@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Query Conditions"
+description: |
+  A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condit
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenos_query_filter_cond.htm"
+abapFile: "abenos_query_filter_cond.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenos", "query", "filter", "cond"]
+---
 
 * * *
 
@@ -10,10 +20,8 @@ OS - Query Conditions
 
 A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condition, a query condition is made up of elementary comparisons that can be combined using the Boolean operators AND, OR, and NOT, where grouping using parentheses is supported.
 
--   [Comparison Operators](#@@ITOC@@ABENOS_QUERY_FILTER_COND_1)
--   [LIKE](#@@ITOC@@ABENOS_QUERY_FILTER_COND_2)
--   [IS NULL](#@@ITOC@@ABENOS_QUERY_FILTER_COND_3)
--   [EQUALSREF](#@@ITOC@@ABENOS_QUERY_FILTER_COND_4)
+-   [Comparison Operators](#abenos-query-filter-cond-1-------like---@ITOC@@ABENOS_QUERY_FILTER_COND_2)
+-   [IS NULL](#abenos-query-filter-cond-3-------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
 -   [AND, OR, NOT](#@@ITOC@@ABENOS_QUERY_FILTER_COND_5)
 
 When a query is executed using a class agent, the query is bound exactly to its persistent class. The attributes specified in a query condition must exist in the persistent class as public persistent attributes. If not, an exception is raised. On the other hand, a query that has been created can certainly be executed consecutively by class agents of different persistent classes, as long as the specified attributes exist. When a query is executed, a SELECT statement is created internally with a WHERE condition, in which the attributes are replaced by concrete column identifiers and the free parameters are replaced by current values.

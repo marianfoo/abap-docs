@@ -1,4 +1,14 @@
-  
+---
+title: "CONV, Conversion Operator"
+description: |
+  Syntax ... CONV type( let_exp(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) dobj ) ... Effect A constructor expression(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expressions.htm) with the conversion operator CONV conve
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm"
+abapFile: "abenconstructor_expression_conv.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenconstructor", "expression", "conv"]
+---
 
 * * *
 

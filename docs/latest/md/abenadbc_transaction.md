@@ -1,4 +1,14 @@
-  
+---
+title: "ADBC - Database LUWs"
+description: |
+  For each open database connection that can be represented by an instance of class CL_SQL_CONNECTION(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_sql_connection.htm), only one database LUW(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_luw
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_transaction.htm"
+abapFile: "abenadbc_transaction.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "abenadbc", "transaction"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "public_glosry"
+description: |
+  public_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpublic_glosry.htm"
+abapFile: "abenpublic_glosry.htm"
+keywords: ["do", "if", "case", "try", "class", "abenpublic", "glosry"]
+---
 
 * * *
 

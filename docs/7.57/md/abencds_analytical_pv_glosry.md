@@ -1,4 +1,14 @@
-  
+---
+title: "CDS analytical projection view"
+description: |
+  CDS projection view(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm 'Glossary Entry') that is intended for modelling analytical queries within a CDS data model. An CDS analytical projection view is defined using the CDS DDL(https://help.sap.com/doc/a
+version: "7.57"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_analytical_pv_glosry.htm"
+abapFile: "abencds_analytical_pv_glosry.htm"
+keywords: ["do", "if", "try", "data", "abencds", "analytical", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Parameter Interface of Procedures"
+description: |
+  The parameter interface of a procedure consists of formal parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameter_glosry.htm 'Glossary Entry') and specifies the exceptions(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_glosry.htm 'Glos
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameters_oview.htm"
+abapFile: "abenformal_parameters_oview.htm"
+keywords: ["select", "update", "do", "while", "if", "case", "try", "catch", "method", "class", "data", "internal-table", "abenformal", "parameters", "oview"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Internal Tables, Grouping with LOOP and Sort"
+description: |
+  This example demonstrates how groupings are used for sorts. Source Code REPORT demo_loop_group_by_sort. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES itab TYPE STANDARD TABLE OF string WITH EMPTY KEY. DATA(itab) = VALUE itab( (
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_group_by_sort_abexa.htm"
+abapFile: "abenloop_group_by_sort_abexa.htm"
+keywords: ["select", "loop", "do", "while", "case", "method", "class", "data", "types", "internal-table", "abenloop", "group", "sort", "abexa"]
+---
 
 * * *
 

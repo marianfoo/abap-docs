@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... association filter(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_pv_assoc_modified.htm) AS alias : redirection(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_pv_assoc_redirected.htm)  Effect CDS associations from the proje
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_view_expose_assoc.htm"
+abapFile: "abencds_proj_view_expose_assoc.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "proj", "view", "expose", "assoc"]
+---
 
 * * *
 

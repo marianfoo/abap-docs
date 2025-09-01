@@ -1,4 +1,14 @@
-  
+---
+title: "CDS type definition"
+description: |
+  A definition of a CDS user-defined type(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_user_defined_type_glosry.htm 'Glossary Entry') using language elements(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddl_syntax.htm) of the CDS TDL(https
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_type_definition_glosry.htm"
+abapFile: "abencds_type_definition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "type", "definition", "glosry"]
+---
 
 * * *
 

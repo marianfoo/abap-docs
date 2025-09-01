@@ -1,4 +1,14 @@
-  
+---
+title: "Continue"
+description: |
+  PROVIDE(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide.htm)
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_table_interval_spcl.htm"
+abapFile: "abeninternal_table_interval_spcl.htm"
+keywords: ["do", "data", "internal-table", "abeninternal", "table", "interval", "spcl"]
+---
 
 * * *
 

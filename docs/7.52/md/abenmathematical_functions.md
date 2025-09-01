@@ -1,4 +1,14 @@
-  
+---
+title: "Numerical Functions"
+description: |
+  Numerical functions belong to the predefined functions(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_functions.htm). The main argument of a numerical function must represent a numerical value. The data type of the return value is determined either by the argument of the f
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmathematical_functions.htm"
+abapFile: "abenmathematical_functions.htm"
+keywords: ["do", "try", "method", "class", "data", "abenmathematical", "functions"]
+---
 
 * * *
 

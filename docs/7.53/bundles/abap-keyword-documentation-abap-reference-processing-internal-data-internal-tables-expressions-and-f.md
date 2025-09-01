@@ -5,7 +5,17 @@ Included pages: 8
 
 ### abenconstructor_expression_filter.htm
 
-  
+---
+title: "FILTER - Filter Operator"
+description: |
+  Syntax Forms Basic form(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm) 1. ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm"
+abapFile: "abenconstructor_expression_filter.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "method", "data", "internal-table", "abenconstructor", "expression", "filter"]
+---
 
 * * *
 
@@ -84,7 +94,17 @@ Continue
 
 ### abenconstructor_expr_filter_basic.htm
 
-  
+---
+title: "FILTER - Basic Form"
+description: |
+  Syntax ... FILTER type( itab EXCEPT USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) WHERE c1 op f1 AND c2 op f2 ... ) ... Extras: 1. ... USING KEY keyname(#!ABAP_ADDITION_1@1@) 2. ... WHERE c1 op v1 AND c2 op v2
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm"
+abapFile: "abenconstructor_expr_filter_basic.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "internal-table", "abenconstructor", "expr", "filter", "basic"]
+---
 
 * * *
 
@@ -182,7 +202,17 @@ Executable Example
 
 ### abenconstructor_expr_filter_table.htm
 
-  
+---
+title: "FILTER - Filter Table"
+description: |
+  Syntax ... FILTER type( itab EXCEPT IN ftab USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm)  USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) EXCEPT IN ftab W
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm"
+abapFile: "abenconstructor_expr_filter_table.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "internal-table", "abenconstructor", "expr", "filter", "table"]
+---
 
 * * *
 
@@ -305,7 +335,17 @@ Executable Examples
 
 ### abentable_filtering_abexas.htm
 
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 
@@ -323,7 +363,17 @@ Continue
 
 ### abenfilter_value_condition_abexa.htm
 
-  
+---
+title: "Table Filtering, Single Values"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using single values. Source Code REPORT demo_filter_value_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEM
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm"
+abapFile: "abenfilter_value_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenfilter", "value", "condition", "abexa"]
+---
 
 * * *
 
@@ -378,7 +428,17 @@ A further internal table, rest, is given the same table filtering, but the addit
 
 ### abenfilter_table_abexa.htm
 
-  
+---
+title: "Table Filtering, Filter Table"
+description: |
+  This example demonstrates table filtering(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm) using a filter table. Source Code REPORT demo_filter_table. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: cityfrom TYPE spfli-cityfrom VALUE 'Frankfurt
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm"
+abapFile: "abenfilter_table_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "abexa"]
+---
 
 * * *
 
@@ -441,7 +501,17 @@ Those rows are filtered out of an internal table spfli\_tab filled with flight d
 
 ### abenfilter_table_condition_abexa.htm
 
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_filter_table_condition. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-DATA: itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line, ftab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line. CLASS-METHODS: main, class_constructor. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD mai
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm"
+abapFile: "abenfilter_table_condition_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "internal-table", "abenfilter", "table", "condition", "abexa"]
+---
 
 * * *
 
@@ -526,7 +596,17 @@ The fourth filtering does not produce the same result as the second filtering. T
 
 ### abentable_filtering_abexas.htm
 
-  
+---
+title: "Examples of Table Filtering"
+description: |
+  !Example(exa.gif 'Example') Table Filtering, Single Values(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm) !Example(exa.gif 'Example') Table Filtering, Filter Table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_ab
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm"
+abapFile: "abentable_filtering_abexas.htm"
+keywords: ["do", "if", "data", "internal-table", "abentable", "filtering", "abexas"]
+---
 
 * * *
 

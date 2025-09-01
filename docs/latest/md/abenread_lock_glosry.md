@@ -1,4 +1,14 @@
-  
+---
+title: "read_lock_glosry"
+description: |
+  read_lock_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenread_lock_glosry.htm"
+abapFile: "abenread_lock_glosry.htm"
+keywords: ["do", "if", "try", "abenread", "lock", "glosry"]
+---
 
 * * *
 

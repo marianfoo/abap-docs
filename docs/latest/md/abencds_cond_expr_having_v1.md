@@ -1,4 +1,14 @@
-  
+---
+title: "cds_cond_expr_having_v1"
+description: |
+  cds_cond_expr_having_v1 - ABAP latest language reference documentation
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_expr_having_v1.htm"
+abapFile: "abencds_cond_expr_having_v1.htm"
+keywords: ["select", "do", "if", "try", "data", "abencds", "cond", "expr", "having"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "APC - AS ABAP as WebSocket Client"
+description: |
+  This example demonstrates AS ABAP as a WebSocket client. Source Code  CCDEF CLASS o DEFINITION. PUBLIC SECTION. CLASS-DATA out TYPE REF TO if_demo_output. ENDCLASS.  Public class definition CLASS cl_demo_apc_client DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC S
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_ws_client_abexa.htm"
+abapFile: "abenapc_ws_client_abexa.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abenapc", "client", "abexa"]
+---
 
 * * *
 

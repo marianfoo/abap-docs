@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... source~_assoc1 sql_para(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_parameters.htm)attributes(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_path_filter.htm) _assoc2 sql_para(https://help.sap.com/d
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_path.htm"
+abapFile: "abenopen_sql_path.htm"
+keywords: ["select", "insert", "do", "if", "case", "try", "data", "abenopen", "sql", "path"]
+---
 
 * * *
 

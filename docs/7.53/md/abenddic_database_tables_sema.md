@@ -1,4 +1,14 @@
-  
+---
+title: "Semantic Attributes of Database Tables"
+description: |
+  The semantic attributes of a database table include the attributes of its structure and attributes specific to the table. -   Semantic attributes of the structure of a database table(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semastruc.htm) -   Specific se
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_sema.htm"
+abapFile: "abenddic_database_tables_sema.htm"
+keywords: ["do", "if", "class", "data", "abenddic", "database", "tables", "sema"]
+---
 
 * * *
 

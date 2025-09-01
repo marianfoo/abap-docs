@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Object References"
+description: |
+  Object references are used as pointers to objects. The content of object reference variables, that is, the object references, are the only way to access(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_components_addressing.htm) the components of objects in an ABAP program
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreferences.htm"
+abapFile: "abenreferences.htm"
+keywords: ["do", "if", "case", "try", "catch", "method", "class", "data", "types", "internal-table", "field-symbol", "abenreferences"]
+---
 
 * * *
 
@@ -12,16 +22,11 @@ ABAP Objects - Object References
 
 Object references are used as pointers to objects. The content of object reference variables, that is, the object references, are the only way to [access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_components_addressing.htm) the components of objects in an ABAP program. References can be used to access attributes and methods, but not events.
 
--   [Object Reference Variables](#@@ITOC@@ABENREFERENCES_1)
--   [Static Type of Object Reference Variables](#@@ITOC@@ABENREFERENCES_2)
-    -   [Class Reference Variables](#@@ITOC@@ABENREFERENCES_3)
-    -   [Interface Reference Variables](#@@ITOC@@ABENREFERENCES_4)
-    -   [Special Object Reference Variables](#@@ITOC@@ABENREFERENCES_5)
--   [Initializes Object Reference Variables](#@@ITOC@@ABENREFERENCES_6)
--   [Assigning Object References Using Upcast](#@@ITOC@@ABENREFERENCES_7)
--   [Assigning Object References Using Downcast](#@@ITOC@@ABENREFERENCES_8)
--   [Object References as Actual Parameters](#@@ITOC@@ABENREFERENCES_9)
--   [Assigning Object References to Field Symbols](#@@ITOC@@ABENREFERENCES_10)
+-   [Object Reference Variables](#abenreferences-1-------static-type-of-object-reference-variables---@ITOC@@ABENREFERENCES_2)
+    -   [Class Reference Variables](#abenreferences-3-----------interface-reference-variables---@ITOC@@ABENREFERENCES_4)
+    -   [Special Object Reference Variables](#abenreferences-5-------initializes-object-reference-variables---@ITOC@@ABENREFERENCES_6)
+-   [Assigning Object References Using Upcast](#abenreferences-7-------assigning-object-references-using-downcast---@ITOC@@ABENREFERENCES_8)
+-   [Object References as Actual Parameters](#abenreferences-9-------assigning-object-references-to-field-symbols---@ITOC@@ABENREFERENCES_10)
 
 Object Reference Variables   
 

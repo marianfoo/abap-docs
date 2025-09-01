@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_for_grps_by_values DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS initialize. PRIVATE SECTION. TYPES spfli_tab TYPE STANDARD TABLE OF spfli WITH EMPTY KEY. DATA: carrier TYPE spfli-
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_group_by_values_abexa.htm"
+abapFile: "abenfor_group_by_values_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "values", "abexa"]
+---
 
 * * *
 

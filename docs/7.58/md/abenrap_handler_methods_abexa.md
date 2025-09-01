@@ -1,4 +1,14 @@
-  
+---
+title: "Example for RAP Handler Methods"
+description: |
+  This example demonstrates various RAP handler methods with an unmanaged and draft-enabled RAP BO. Note that the simplified example does not represent a real business scenario. The focus is on the technical side by giving an idea on self-implementing the handler methods of an ABAP behavior pool (ABP
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_handler_methods_abexa.htm"
+abapFile: "abenrap_handler_methods_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "while", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abenrap", "handler", "methods", "abexa"]
+---
 
 * * *
 

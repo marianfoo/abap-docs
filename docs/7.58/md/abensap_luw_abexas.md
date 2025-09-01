@@ -1,4 +1,14 @@
-  
+---
+title: "SAP LUW, Examples"
+description: |
+  -   SAP LUW, UPDATE TASK(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_update_task_abexa.htm) -   SAP LUW, ON COMMIT(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_on_commit_abexa.htm) -   Demonstrating the SAP LUW(https://help.sap.com/doc/abapd
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_abexas.htm"
+abapFile: "abensap_luw_abexas.htm"
+keywords: ["update", "do", "if", "data", "abensap", "luw", "abexas"]
+---
 
 * * *
 

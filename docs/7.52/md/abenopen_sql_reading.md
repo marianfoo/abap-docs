@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Reads"
+description: |
+  The Open SQL language elements for performing reads on the database are: -   SELECT(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) -   WITH(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith.htm) -   OPEN CURSOR(https://help.sap.com/doc/abapdocu_752
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_reading.htm"
+abapFile: "abenopen_sql_reading.htm"
+keywords: ["select", "do", "data", "abenopen", "sql", "reading"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Objects"
+description: |
+  Objects are instances of classes. There can be any number of objects or instances in a class. Each object has a unique identity and its own attributes. By default, all objects have the same priority in the data area(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_area_glosry.ht
+version: "7.58"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject.htm"
+abapFile: "abenobject.htm"
+keywords: ["delete", "do", "if", "try", "method", "class", "data", "internal-table", "field-symbol", "abenobject"]
+---
 
 * * *
 

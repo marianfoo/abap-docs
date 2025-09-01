@@ -1,4 +1,14 @@
-  
+---
+title: "SQL Injections Using ADBC"
+description: |
+  When ADBC(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_glosry.htm 'Glossary Entry') is used, SQL statements are passed as strings to objects of class ADBC and then passed on to the database system. If all of part of one of these SQL statements originates from outside of
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm"
+abapFile: "abensql_inj_adbc_scrty.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abensql", "inj", "adbc", "scrty"]
+---
 
 * * *
 

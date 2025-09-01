@@ -1,4 +1,14 @@
-  
+---
+title: "EXEC SQL - OPEN, FETCH, CLOSE"
+description: |
+  In embedded Native SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm 'Glossary Entry'), similar statements to those in ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry') can be specified to read dat
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec_cursor.htm"
+abapFile: "abapexec_cursor.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "abapexec", "cursor"]
+---
 
 * * *
 

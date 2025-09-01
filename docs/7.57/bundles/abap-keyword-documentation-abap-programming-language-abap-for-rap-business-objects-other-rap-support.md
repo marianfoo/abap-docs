@@ -5,7 +5,17 @@ Included pages: 2
 
 ### abapset_names.htm
 
-  
+---
+title: "SET NAMES"
+description: |
+  Syntax SET NAMES fields FROM FLAGS src  MAPPING  TYPE p_type    LIKE var  . Variants: 1. ... MAPPING TYPE p_type.(#!ABAP_VARIANT_1@1@) 2. ... MAPPING LIKE var.(#!ABAP_VARIANT_2@2@) Effect Used for the conversion of fields that have the technical type(https://help.sap.c
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_names.htm"
+abapFile: "abapset_names.htm"
+keywords: ["update", "do", "if", "case", "try", "data", "types", "abapset", "names"]
+---
 
 * * *
 
@@ -96,7 +106,17 @@ Continue
 
 ### abeneml_set_names_abexa.htm
 
-  
+---
+title: "ABAP EML - Variants of SET NAMES"
+description: |
+  This example demonstrates the variants of the SET NAMES statement. Data model The CDS data model consists of the root entity DEMO_MANAGED_ROOT_MAP and its child entity DEMO_MANAGED_CHILD_MAP. Root entity: @AccessControl.authorizationCheck: #NOT_REQUIRED define root view entity DEMO_MANAGED_
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_set_names_abexa.htm"
+abapFile: "abeneml_set_names_abexa.htm"
+keywords: ["select", "update", "delete", "do", "if", "try", "method", "class", "data", "abeneml", "set", "names", "abexa"]
+---
 
 * * *
 

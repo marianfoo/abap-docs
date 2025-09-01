@@ -1,4 +1,14 @@
-  
+---
+title: "intf_gen_glosry"
+description: |
+  intf_gen_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenintf_gen_glosry.htm"
+abapFile: "abenintf_gen_glosry.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "abenintf", "gen", "glosry"]
+---
 
 * * *
 

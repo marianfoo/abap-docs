@@ -1,4 +1,14 @@
-  
+---
+title: "Presentation layer"
+description: |
+  A software layer of the AS ABAP(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') that functions as the user interface(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_interface_glosry.htm 'Glossary Entry') of the system. T
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpresentation_layer_glosry.htm"
+abapFile: "abenpresentation_layer_glosry.htm"
+keywords: ["do", "try", "abenpresentation", "layer", "glosry"]
+---
 
 * * *
 

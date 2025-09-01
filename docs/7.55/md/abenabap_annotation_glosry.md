@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP annotation"
+description: |
+  SAP annotation(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_annotation_glosry.htm 'Glossary Entry') that can be specified in CDS source code(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_source_code_glosry.htm 'Glossary Entry') and that is evaluated by
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_annotation_glosry.htm"
+abapFile: "abenabap_annotation_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenabap", "annotation", "glosry"]
+---
 
 * * *
 

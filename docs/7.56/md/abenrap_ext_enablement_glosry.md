@@ -1,4 +1,14 @@
-  
+---
+title: "RAP extensibility enablement"
+description: |
+  Preparing a RAP business object(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm 'Glossary Entry') to fulfill all technical requirements for extensibility like release contracts(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrelease_contract_glosry
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_ext_enablement_glosry.htm"
+abapFile: "abenrap_ext_enablement_glosry.htm"
+keywords: ["do", "try", "abenrap", "ext", "enablement", "glosry"]
+---
 
 * * *
 

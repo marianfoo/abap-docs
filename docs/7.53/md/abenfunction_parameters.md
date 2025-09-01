@@ -1,4 +1,14 @@
-  
+---
+title: "Properties of Interface Parameters"
+description: |
+  When an interface parameter p1, p2... is defined in Function Builder, properties are determined for the parameter that are reflected in the syntax of parameters and table_parameters(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_parameters_obsolete.htm). Syntax ...  VALU
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_parameters.htm"
+abapFile: "abenfunction_parameters.htm"
+keywords: ["select", "insert", "do", "while", "if", "try", "method", "class", "data", "types", "internal-table", "abenfunction", "parameters"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Testing Business Objects"
+description: |
+  CREATE-OBJECT-FOR-TESTING(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_create_object_for_testing.htm)
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_testing.htm"
+abapFile: "abenrpm_testing.htm"
+keywords: ["do", "abenrpm", "testing"]
+---
 
 * * *
 

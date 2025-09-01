@@ -1,4 +1,14 @@
-  
+---
+title: "selection_table_glosry"
+description: |
+  selection_table_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_table_glosry.htm"
+abapFile: "abenselection_table_glosry.htm"
+keywords: ["select", "do", "if", "try", "internal-table", "abenselection", "table", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "GET RUN TIME - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time.htm) Syntax GET RUN TIME FIELD rtime. Effect Returns the program runtime, measured in microseconds, since the first execution of the statement in rtime.
+version: "7.53"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time_shortref.htm"
+abapFile: "abapget_run_time_shortref.htm"
+keywords: ["do", "abapget", "run", "time", "shortref"]
+---
 
 * * *
 

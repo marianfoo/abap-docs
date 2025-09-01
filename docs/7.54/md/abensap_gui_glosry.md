@@ -1,4 +1,14 @@
-  
+---
+title: "SAP GUI"
+description: |
+  Component of the presentation layer(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpresentation_layer_glosry.htm 'Glossary Entry') in AS ABAP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm 'Glossary Entry') that is installed on the presenta
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_gui_glosry.htm"
+abapFile: "abensap_gui_glosry.htm"
+keywords: ["do", "if", "try", "abensap", "gui", "glosry"]
+---
 
 * * *
 

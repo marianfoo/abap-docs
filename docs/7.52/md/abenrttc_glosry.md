@@ -1,4 +1,14 @@
-  
+---
+title: "RTTC"
+description: |
+  → runtime type creation(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrun_time_type_creation_glosry.htm 'Glossary Entry')
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrttc_glosry.htm"
+abapFile: "abenrttc_glosry.htm"
+keywords: ["do", "try", "abenrttc", "glosry"]
+---
 
 * * *
 

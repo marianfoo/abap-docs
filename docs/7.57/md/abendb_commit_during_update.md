@@ -1,4 +1,14 @@
-  
+---
+title: "Forbidden Statements in Updates"
+description: |
+  In updates(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_glosry.htm 'Glossary Entry'), that is, when an update function module(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_function_module_glosry.htm 'Glossary Entry') triggered using COMMIT WORK(
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_commit_during_update.htm"
+abapFile: "abendb_commit_during_update.htm"
+keywords: ["select", "update", "do", "if", "try", "data", "types", "abendb", "commit", "during"]
+---
 
 * * *
 

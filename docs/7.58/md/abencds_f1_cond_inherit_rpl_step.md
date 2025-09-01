@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ...  PFCG_FILTER  OBJECT auth_object  FIELD auth_field VALUE  old WITH new    PARAMETERS WITH ( param1 : value1 , param2 : value2 ...  )    ROOT WITH path_expr INCLUDING PARAMETERS     ELEMENT source_match WITH target    PREFIX WITH
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_inherit_rpl_step.htm"
+abapFile: "abencds_f1_cond_inherit_rpl_step.htm"
+keywords: ["select", "insert", "update", "do", "while", "if", "case", "try", "data", "abencds", "cond", "inherit", "rpl", "step"]
+---
 
 * * *
 

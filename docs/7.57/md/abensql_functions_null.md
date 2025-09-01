@@ -1,4 +1,14 @@
-  
+---
+title: "DDIC - SQL Functions for Null Values"
+description: |
+  The following table shows the SQL functions for null values(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_value_glosry.htm 'Glossary Entry') that can be used by ABAP CDS(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_cds_glosry.htm 'Glossary Entry') and
+version: "7.57"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_functions_null.htm"
+abapFile: "abensql_functions_null.htm"
+keywords: ["do", "if", "try", "data", "types", "abensql", "functions", "null"]
+---
 
 * * *
 

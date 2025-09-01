@@ -1,4 +1,14 @@
-  
+---
+title: "Enhancements Using BAdIs"
+description: |
+  BAdIs are created in Enhancement Builder(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenhancement_builder_glosry.htm 'Glossary Entry') as a part of the ABAP enhancement concept(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenhancement_concept_glosry.htm 'Glossa
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbadi_enhancement.htm"
+abapFile: "abenbadi_enhancement.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenbadi", "enhancement"]
+---
 
 * * *
 

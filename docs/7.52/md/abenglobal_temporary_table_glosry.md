@@ -1,4 +1,14 @@
-  
+---
+title: "global_temporary_table_glosry"
+description: |
+  global_temporary_table_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_temporary_table_glosry.htm"
+abapFile: "abenglobal_temporary_table_glosry.htm"
+keywords: ["delete", "do", "try", "data", "abenglobal", "temporary", "table", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Inner, Outer, and Cross Joins"
+description: |
+  This example demonstrates inner and outer joins(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_join.htm) as well as cross joins(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_join.htm) in the SELECT statement. Source Code REPORT demo_joins NO STANDA
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoins_abexa.htm"
+abapFile: "abenjoins_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "types", "internal-table", "abenjoins", "abexa"]
+---
 
 * * *
 

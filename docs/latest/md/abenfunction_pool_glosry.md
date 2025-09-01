@@ -1,4 +1,14 @@
-  
+---
+title: "function_pool_glosry"
+description: |
+  function_pool_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_pool_glosry.htm"
+abapFile: "abenfunction_pool_glosry.htm"
+keywords: ["do", "if", "try", "abenfunction", "pool", "glosry"]
+---
 
 * * *
 

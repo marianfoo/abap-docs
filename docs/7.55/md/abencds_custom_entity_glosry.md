@@ -1,4 +1,14 @@
-  
+---
+title: "CDS custom entity"
+description: |
+  CDS entity(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm 'Glossary Entry') defined using DEFINE CUSTOM ENTITY(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_custom_entity.htm) in a CDS data definition(https://help.sap.com/doc
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_custom_entity_glosry.htm"
+abapFile: "abencds_custom_entity_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "custom", "entity", "glosry"]
+---
 
 * * *
 

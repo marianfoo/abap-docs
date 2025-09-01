@@ -1,4 +1,14 @@
-  
+---
+title: "table_filtering_glosry"
+description: |
+  table_filtering_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_filtering_glosry.htm"
+abapFile: "abentable_filtering_glosry.htm"
+keywords: ["do", "if", "try", "internal-table", "abentable", "filtering", "glosry"]
+---
 
 * * *
 

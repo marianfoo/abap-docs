@@ -1,4 +1,14 @@
-  
+---
+title: "CALL BADI"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_badi_shortref.htm) Syntax CALL BADI  badi->meth parameter_list(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_parameters.htm)    badi->(meth_name) parameter_list(ht
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_badi.htm"
+abapFile: "abapcall_badi.htm"
+keywords: ["select", "do", "if", "case", "try", "catch", "method", "class", "data", "abapcall", "badi"]
+---
 
 * * *
 

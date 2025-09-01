@@ -1,4 +1,14 @@
-  
+---
+title: "Enumerated Objects"
+description: |
+  This section summarizes the use of enumerated objects(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm 'Glossary Entry') (data objects with enumerated types(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm 'Gloss
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_types_usage.htm"
+abapFile: "abenenumerated_types_usage.htm"
+keywords: ["select", "do", "while", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abenenumerated", "usage"]
+---
 
 * * *
 
@@ -10,25 +20,15 @@ Enumerated Objects
 
 This section summarizes the use of [enumerated objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry") (data objects with [enumerated types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
--   [Declaration](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_1)
+-   [Declaration](#abenenumerated-types-usage-1--------processing-of-enumerated-objects---@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
 
--   [Processing of Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
+-   [Operand Positions for Enumerated Objects](#abenenumerated-types-usage-3--------value-assignments---@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
 
--   [Operand Positions for Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_3)
+-   [Comparisons](#abenenumerated-types-usage-5--------typing-of-formal-parameters-and-field-symbols---@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
 
--   [Value Assignments](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
+-   [Access to the Enumerated Value](#abenenumerated-types-usage-7--------type-descriptions---@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
 
--   [Comparisons](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_5)
-
--   [Typing of Formal Parameters and Field Symbols](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
-
--   [Access to the Enumerated Value](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_7)
-
--   [Type Descriptions](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
-
--   [Data interfaces](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_9)
-
--   [Forbidden Uses](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
+-   [Data interfaces](#abenenumerated-types-usage-9--------forbidden-uses---@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
 
 Executable Example
 

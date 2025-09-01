@@ -1,4 +1,14 @@
-  
+---
+title: "Return Code"
+description: |
+  Background The most prominent system field is probably the return code(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_glosry.htm 'Glossary Entry') sy-subrc, which signals the successful execution of an ABAP statement or, if you are using classic exceptions(https://hel
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm"
+abapFile: "abenreturn_code_guidl.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenreturn", "code", "guidl"]
+---
 
 * * *
 

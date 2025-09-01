@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_for_grps_by_aggregates DEFINITION PUBLIC INHERITING FROM cl_demo_classrun CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS initialize. PRIVATE SECTION. TYPES: BEGIN OF line, key TYPE i, num TYPE i, END OF line, itab TYPE STANDARD TABLE
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_group_by_aggregates_abexa.htm"
+abapFile: "abenfor_group_by_aggregates_abexa.htm"
+keywords: ["loop", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abenfor", "group", "aggregates", "abexa"]
+---
 
 * * *
 

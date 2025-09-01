@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Addressing ABAP Data"
+description: |
+  Simple transformations are used to serialize ABAP data or deserialize XML documents to ABAP data objects. Accordingly, it must be possible to address the interfaced ABAP data in the ST programs. Serializations only permit read-only access to ABAP data; deserializations permit only write access. In a
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_addressing.htm"
+abapFile: "abenst_addressing.htm"
+keywords: ["do", "if", "method", "data", "abenst", "addressing"]
+---
 
 * * *
 

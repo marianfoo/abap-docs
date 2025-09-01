@@ -1,4 +1,14 @@
-  
+---
+title: "TYPES, BOXED"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_begin_of_shortref.htm) Syntax TYPES comp TYPE struc_type BOXED. Effect This statement defines a substructure comp of a structure as a static box(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_boxed.htm"
+abapFile: "abaptypes_boxed.htm"
+keywords: ["do", "if", "try", "class", "data", "types", "abaptypes", "boxed"]
+---
 
 * * *
 

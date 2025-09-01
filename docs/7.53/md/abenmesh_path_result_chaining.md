@@ -1,4 +1,14 @@
-  
+---
+title: "Meshes - Result of a Path Extension"
+description: |
+  A path extension with the syntax(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm) ..._assoc1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_assoc.htm)  cond(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_result_chaining.htm"
+abapFile: "abenmesh_path_result_chaining.htm"
+keywords: ["do", "if", "data", "types", "abenmesh", "path", "result", "chaining"]
+---
 
 * * *
 

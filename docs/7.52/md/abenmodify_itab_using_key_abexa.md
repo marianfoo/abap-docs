@@ -1,4 +1,14 @@
-  
+---
+title: "Internal tables, index assess with key specification"
+description: |
+  The example shows an index access to a hashed table. Source Code REPORT demo_modify_table_using_key. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: sflight_tab TYPE HASHED TABLE OF sflight WITH UNIQUE KEY primary_key COMPONENT
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodify_itab_using_key_abexa.htm"
+abapFile: "abenmodify_itab_using_key_abexa.htm"
+keywords: ["select", "loop", "do", "if", "method", "class", "data", "internal-table", "field-symbol", "abenmodify", "itab", "using", "key", "abexa"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_reduce_method_call. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-METHODS to_string IMPORTING wa          TYPE scarr RETURNING VALUE(text) TYPE string. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA carriers TYPE TABLE OF scarr. SELECT  F
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreduce_method_call_abexa.htm"
+abapFile: "abenreduce_method_call_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "internal-table", "abenreduce", "call", "abexa"]
+---
 
 * * *
 

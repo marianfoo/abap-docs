@@ -1,4 +1,14 @@
-  
+---
+title: "FORM, STRUCTURE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapform_shortref.htm) Obsolete Syntax ... STRUCTURE struc ... Effect A formal parameter p1 p2 ... of a subroutine can be specified with the addition STRUCTURE instead of typing(https://help.sap.com/doc/abapdocu_757_index
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapform_structure.htm"
+abapFile: "abapform_structure.htm"
+keywords: ["do", "if", "case", "try", "data", "field-symbol", "abapform", "structure"]
+---
 
 * * *
 

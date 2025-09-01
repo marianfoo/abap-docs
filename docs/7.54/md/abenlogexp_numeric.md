@@ -1,4 +1,14 @@
-  
+---
+title: "Note"
+description: |
+  If a decimal floating point number(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm 'Glossary Entry') is involved in a comparison, the comparison is always made with the type decfloat34. Comparisons with Numeric Data Types - decfloat16, decfloat34 f p int8 i s b
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_numeric.htm"
+abapFile: "abenlogexp_numeric.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abenlogexp", "numeric"]
+---
 
 * * *
 
@@ -10,13 +20,9 @@ rel\_exp - Comparison Type of Numeric Data Objects
 
 The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between numeric data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomparison_type.htm) determine how the comparison is performed.
 
--   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_1)
+-   [Comparisons with Numeric Data Types](#abenlogexp-numeric-1--------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_NUMERIC_2)
 
--   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_2)
-
--   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_3)
-
--   [Comparisons with Date Types/Time Types/Time Stamp Types](#@@ITOC@@ABENLOGEXP_NUMERIC_4)
+-   [Comparisons with Byte-Like Data Types](#abenlogexp-numeric-3--------comparisons-with-date-types-time-types-time-stamp-types---@ITOC@@ABENLOGEXP_NUMERIC_4)
 
 Note
 

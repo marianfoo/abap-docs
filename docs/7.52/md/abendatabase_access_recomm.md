@@ -1,4 +1,14 @@
-  
+---
+title: "Access to ABAP-Managed Database Objects"
+description: |
+  The ABAP-managed database objects in the ABAP database schema(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm 'Glossary Entry') of the standard(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm 'Glossary Entry') AS ABA
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_recomm.htm"
+abapFile: "abendatabase_access_recomm.htm"
+keywords: ["do", "if", "case", "try", "method", "data", "types", "abendatabase", "access", "recomm"]
+---
 
 * * *
 

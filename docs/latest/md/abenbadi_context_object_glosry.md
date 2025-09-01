@@ -1,4 +1,14 @@
-  
+---
+title: "BAdI context object"
+description: |
+  Instance(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_glosry.htm 'Glossary Entry') of a class(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_glosry.htm 'Glossary Entry') that implements the tag interface(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbadi_context_object_glosry.htm"
+abapFile: "abenbadi_context_object_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenbadi", "context", "object", "glosry"]
+---
 
 * * *
 

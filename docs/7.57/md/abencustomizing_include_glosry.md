@@ -1,4 +1,14 @@
-  
+---
+title: "customizing_include_glosry"
+description: |
+  customizing_include_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencustomizing_include_glosry.htm"
+abapFile: "abencustomizing_include_glosry.htm"
+keywords: ["do", "if", "try", "abencustomizing", "include", "glosry"]
+---
 
 * * *
 

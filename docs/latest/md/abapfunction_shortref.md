@@ -1,4 +1,14 @@
-  
+---
+title: "FUNCTION - Short Reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction.htm) Syntax FUNCTION func. ... ENDFUNCTION. Effect Implements a function module func. A function module is defined in Function Builder(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfuncti
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction_shortref.htm"
+abapFile: "abapfunction_shortref.htm"
+keywords: ["do", "if", "try", "abapfunction", "shortref"]
+---
 
 * * *
 

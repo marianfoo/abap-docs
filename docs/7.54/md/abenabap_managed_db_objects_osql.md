@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP SQL Access to ABAP-Managed Database Objects"
+description: |
+  ABAP SQL(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm 'Glossary Entry') includes a set of ABAP SQL statements(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) for use in ABAP programs. The database is accessed using the ABAP SQL i
+version: "7.54"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_managed_db_objects_osql.htm"
+abapFile: "abenabap_managed_db_objects_osql.htm"
+keywords: ["select", "do", "if", "try", "class", "data", "types", "abenabap", "managed", "objects", "osql"]
+---
 
 * * *
 

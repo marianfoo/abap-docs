@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... log_exp1 OR log_exp2 OR log_exp3 ... Effect If multiple logical expressions log_exp(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm) are combined using OR, a new logical expression is created that is true if at least one of the logical expressions log_exp is true
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_or.htm"
+abapFile: "abenlogexp_or.htm"
+keywords: ["do", "if", "case", "abenlogexp"]
+---
 
 * * *
 

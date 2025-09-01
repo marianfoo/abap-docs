@@ -1,4 +1,14 @@
-  
+---
+title: "Hint"
+description: |
+  Certain SQL expressions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_engine_expr.htm) can be calculated by the ABAP SQL engine(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_engine_glosry.htm 'Glossary Entry'). If any other SQL expressions are used,
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_builtin_functions.htm"
+abapFile: "abenabap_sql_builtin_functions.htm"
+keywords: ["select", "do", "if", "try", "data", "internal-table", "abenabap", "sql", "builtin", "functions"]
+---
 
 * * *
 

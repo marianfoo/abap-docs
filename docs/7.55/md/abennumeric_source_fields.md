@@ -1,4 +1,14 @@
-  
+---
+title: "Numeric Source Fields"
+description: |
+  -   i, int8, (b, s)(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_ibs.htm) -   p(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_p.htm) -   decfloat16, decfloat34(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconv
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumeric_source_fields.htm"
+abapFile: "abennumeric_source_fields.htm"
+keywords: ["do", "if", "try", "data", "types", "abennumeric", "source", "fields"]
+---
 
 * * *
 

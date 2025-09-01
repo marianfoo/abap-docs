@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - DEFINE BEHAVIOR, association"
+description: |
+  Work in progress  Syntax ... internal association AssociationName abbreviation AbbreviationName internalcreate;; Effect An important behavior part of an entity is the transactional enabling of its associations. This affects both reads (Read-By-Association) and
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm"
+abapFile: "abenbdl_association.htm"
+keywords: ["update", "delete", "do", "if", "try", "data", "abenbdl", "association"]
+---
 
 * * *
 

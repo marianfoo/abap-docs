@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP file interface"
+description: |
+  The ABAP file interface makes it possible to process files(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfile_glosry.htm 'Glossary Entry') on the host computers(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhost_computer_glosry.htm 'Glossary Entry') of AS insta
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfile_interface_glosry.htm"
+abapFile: "abenfile_interface_glosry.htm"
+keywords: ["do", "try", "abenfile", "interface", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Object-Relational Mapping"
+description: |
+  Technically speaking, all objects in ABAP Objects (including persistent objects managed by the Persistence Service) exist only transiently in the internal session(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm 'Glossary Entry') of an ABAP program. Conver
+version: "7.53"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenos_persistence_mapping.htm"
+abapFile: "abenos_persistence_mapping.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "internal-table", "abenos", "persistence", "mapping"]
+---
 
 * * *
 

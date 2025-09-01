@@ -1,4 +1,14 @@
-  
+---
+title: "CONVERT UTCLONG"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_utclong_shortref.htm) Syntax CONVERT UTCLONG time_stamp INTO DATE dat TIME tim FRACTIONAL SECONDS fs DAYLIGHT SAVING TIME dst TIME ZONE tz. Effect This statement converts the ti
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_utclong.htm"
+abapFile: "abapconvert_utclong.htm"
+keywords: ["do", "if", "try", "catch", "class", "data", "types", "abapconvert", "utclong"]
+---
 
 * * *
 

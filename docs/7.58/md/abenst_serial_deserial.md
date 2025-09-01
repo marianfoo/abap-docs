@@ -1,4 +1,14 @@
-  
+---
+title: "ST - Serialization and Deserialization"
+description: |
+  Serialization and deserialization are primarily based on following schema: -   During serialization, the literal elements of templates are passed to the target XML data unchanged and the ST statements specified in between are executed. -   In deserializations, the source XML data is handled as an in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_serial_deserial.htm"
+abapFile: "abenst_serial_deserial.htm"
+keywords: ["do", "if", "try", "method", "data", "abenst", "serial", "deserial"]
+---
 
 * * *
 

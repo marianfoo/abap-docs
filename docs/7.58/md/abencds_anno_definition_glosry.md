@@ -1,4 +1,14 @@
-  
+---
+title: "CDS annotation definition"
+description: |
+  Defines a CDS annotation(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotation_glosry.htm 'Glossary Entry') as a CDS object(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_object_glosry.htm 'Glossary Entry') using the statement DEFINE ANNOTATION(https
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_anno_definition_glosry.htm"
+abapFile: "abencds_anno_definition_glosry.htm"
+keywords: ["do", "if", "try", "abencds", "anno", "definition", "glosry"]
+---
 
 * * *
 

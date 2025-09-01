@@ -1,4 +1,14 @@
-  
+---
+title: "INTERFACE intf"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface_shortref.htm) Syntax INTERFACE intf PUBLIC. components(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_component.htm) ENDINTERFACE. Addition: ... PUBLIC(#
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterface_definition.htm"
+abapFile: "abapinterface_definition.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "abapinterface", "definition"]
+---
 
 * * *
 

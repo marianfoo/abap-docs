@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - APC Processing"
+description: |
+  Messages sent during APC processing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_processing_glosry.htm 'Glossary Entry'), that is, when a Web socket query or TCP query is handled by an APC handler(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc.
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_message_apc_server.htm"
+abapFile: "abenabap_message_apc_server.htm"
+keywords: ["do", "if", "case", "try", "method", "types", "abenabap", "message", "apc", "server"]
+---
 
 * * *
 

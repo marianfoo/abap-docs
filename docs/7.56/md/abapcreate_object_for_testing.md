@@ -1,4 +1,14 @@
-  
+---
+title: "CREATE OBJECT FOR TESTING"
+description: |
+  Syntax CREATE OBJECT ... FOR TESTING. Effect RAP-specific variant of CREATE OBJECT(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object.htm).
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_for_testing.htm"
+abapFile: "abapcreate_object_for_testing.htm"
+keywords: ["do", "if", "abapcreate", "object", "for", "testing"]
+---
 
 * * *
 

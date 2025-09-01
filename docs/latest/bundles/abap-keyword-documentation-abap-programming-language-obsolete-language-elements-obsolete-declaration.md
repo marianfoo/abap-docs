@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenfield_symbols_obsolete.htm
 
-  
+---
+title: "Field Symbols"
+description: |
+  -   Obsolete Typing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_obsolete_typing.htm) FIELD-SYMBOLS, obsolete_typing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_obsolete_typing.htm) !Example(exa.gif 'Example') Field S
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_obsolete.htm"
+abapFile: "abenfield_symbols_obsolete.htm"
+keywords: ["do", "if", "field-symbol", "abenfield", "symbols", "obsolete"]
+---
 
 * * *
 
@@ -26,7 +36,17 @@ Continue
 
 ### abapfield-symbols_obsolete_typing.htm
 
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ...    STRUCTURE struc DEFAULT dobj ... Additions: 1. ...  (#!ABAP_ADDITION_1@1@) 2. ... STRUCTURE struc DEFAULT dobj(#!ABAP_ADDITION_2@2@) Effect These additions of the statement FIELD-SYMBOLS(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols.h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_obsolete_typing.htm"
+abapFile: "abapfield-symbols_obsolete_typing.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "types", "field-symbol", "abapfield", "symbols", "obsolete", "typing"]
+---
 
 * * *
 
@@ -102,7 +122,17 @@ Executable Example
 
 ### abenfield_symbols_struc_abexa.htm
 
-  
+---
+title: "Field Symbols, Cast Structures"
+description: |
+  This example demonstrates how field symbols are cast. Source Code  Public class definition CLASS cl_demo_fld_smbls_structure DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class implementation CLASS cl_demo_f
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_struc_abexa.htm"
+abapFile: "abenfield_symbols_struc_abexa.htm"
+keywords: ["do", "if", "method", "class", "data", "field-symbol", "abenfield", "symbols", "struc", "abexa"]
+---
 
 * * *
 

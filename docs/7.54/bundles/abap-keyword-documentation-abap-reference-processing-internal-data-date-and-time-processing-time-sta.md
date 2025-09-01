@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abentime_stamps_packed.htm
 
-  
+---
+title: "Time Stamps in Packed Numbers"
+description: |
+  In this format, time stamps(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamp_glosry.htm 'Glossary Entry') are represented using packed numbers of the type p(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm). -   Representation of
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps_packed.htm"
+abapFile: "abentime_stamps_packed.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "abentime", "stamps", "packed"]
+---
 
 * * *
 
@@ -17,13 +27,9 @@ Time Stamps in Packed Numbers
 
 In this format, [time stamps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamp_glosry.htm "Glossary Entry") are represented using packed numbers of the type [p](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm).
 
--   [Representation of Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_1)
+-   [Representation of Time Stamps in Packed Numbers](#abentime-stamps-packed-1--------accessing-time-stamps-in-packed-numbers---@ITOC@@ABENTIME_STAMPS_PACKED_2)
 
--   [Accessing Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_2)
-
--   [Notes on Handling Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_3)
-
--   [Examples for Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_4)
+-   [Notes on Handling Time Stamps in Packed Numbers](#abentime-stamps-packed-3--------examples-for-time-stamps-in-packed-numbers---@ITOC@@ABENTIME_STAMPS_PACKED_4)
 
 Representation of Time Stamps in Packed Numbers
 
@@ -161,7 +167,17 @@ Continue
 
 ### abapget_time-stamp.htm
 
-  
+---
+title: "GET TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time_stamp_shortref.htm) Syntax GET TIME STAMP FIELD time_stamp. Effect This statement uses the system time(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_time_glosry.htm 'Glossary Entry')
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time-stamp.htm"
+abapFile: "abapget_time-stamp.htm"
+keywords: ["do", "if", "try", "method", "class", "data", "abapget", "time", "stamp"]
+---
 
 * * *
 
@@ -219,7 +235,17 @@ Non-Handleable Exceptions
 
 ### abapconvert_time-stamp.htm
 
-  
+---
+title: "CONVERT TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time_stamp_shortref.htm) Syntax CONVERT TIME STAMP time_stamp TIME ZONE tz INTO DATE dat TIME tim DAYLIGHT SAVING TIME dst. Effect This statement interprets the content of a packed numbe
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm"
+abapFile: "abapconvert_time-stamp.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abapconvert", "time", "stamp"]
+---
 
 * * *
 
@@ -344,7 +370,17 @@ Non-Handleable Exceptions
 
 ### abapconvert_date_time-stamp.htm
 
-  
+---
+title: "CONVERT INTO TIME STAMP"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time_stamp_shortref.htm) Syntax CONVERT DATE dat TIME tim DAYLIGHT SAVING TIME dst INTO TIME STAMP time_stamp TIME ZONE tz. Effect This statement converts a date specified in dat, a time specifi
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm"
+abapFile: "abapconvert_date_time-stamp.htm"
+keywords: ["do", "if", "case", "try", "data", "types", "abapconvert", "date", "time", "stamp"]
+---
 
 * * *
 
@@ -463,7 +499,17 @@ Non-Handleable Exceptions
 
 ### abencl_abap_tstmp.htm
 
-  
+---
+title: "System Class for Time Stamps in Packed Numbers"
+description: |
+  The class CL_ABAP_TSTMP is used to calculate and convert time stamps in packed numbers(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps_packed.htm). Important methods include: -   The method ADD or SUBTRACTSECS adds or subtracts seconds from time stamps. -   The method
+version: "7.54"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_tstmp.htm"
+abapFile: "abencl_abap_tstmp.htm"
+keywords: ["do", "if", "method", "class", "data", "abencl", "abap", "tstmp"]
+---
 
 * * *
 
@@ -512,7 +558,17 @@ cl\_demo\_output=>display(
 
 ### abenconvert_time_stamp_abexa.htm
 
-  
+---
+title: "Convert Time Stamps in Packed Numbers"
+description: |
+  This example demonstrates the statements CONVERT TIME STAMP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm) and CONVERT INTO TIME STAMP(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm). Source Code REPORT demo_con
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_time_stamp_abexa.htm"
+abapFile: "abenconvert_time_stamp_abexa.htm"
+keywords: ["select", "loop", "do", "if", "case", "method", "class", "data", "abenconvert", "time", "stamp", "abexa"]
+---
 
 * * *
 

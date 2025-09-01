@@ -5,7 +5,17 @@ Included pages: 6
 
 ### abapassign_casting.htm
 
-  
+---
+title: "Syntax"
+description: |
+  ...     CASTING     TYPE type(name)  LIKE dobj  TYPE p DECIMALS dec  TYPE HANDLE handle     obsolete_casting(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting_obsolete.htm)  ... Alternatives
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting.htm"
+abapFile: "abapassign_casting.htm"
+keywords: ["do", "if", "case", "try", "method", "class", "data", "types", "field-symbol", "abapassign", "casting"]
+---
 
 * * *
 
@@ -276,7 +286,17 @@ Continue
 
 ### abencasting_obsolete_abexas.htm
 
-  
+---
+title: "Casting Examples"
+description: |
+  !Example(exa.gif 'Example') Field Symbols, Casting(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_imp_exp_abexa.htm) !Example(exa.gif 'Example') Field Symbols, Casting Built-In Data Types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_abexas.htm"
+abapFile: "abencasting_obsolete_abexas.htm"
+keywords: ["do", "if", "data", "types", "field-symbol", "abencasting", "obsolete", "abexas"]
+---
 
 * * *
 
@@ -294,7 +314,17 @@ Continue
 
 ### abencasting_imp_exp_abexa.htm
 
-  
+---
+title: "Field Symbols, Casting"
+description: |
+  This example demonstrates how castings are performed when the type is specified implicitly and explicitly. Source Code REPORT demo_field_symbols_casting. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. TYPES: BEGIN OF t_date, year  TYP
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_imp_exp_abexa.htm"
+abapFile: "abencasting_imp_exp_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "types", "field-symbol", "abencasting", "imp", "exp", "abexa"]
+---
 
 * * *
 
@@ -355,7 +385,17 @@ An explicit casting is performed in the second part of the method main. The fiel
 
 ### abencasting_obsolete_type_abexa.htm
 
-  
+---
+title: "Field Symbols, Casting Built-In Data Types"
+description: |
+  This example demonstrates how a casting is performed on built-in data types. Source Code REPORT demo_field_symbols_assign_type. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA txt(8) TYPE c VALUE '20050606'. DATA mytype(1) VALUE '
+version: "7.56"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_type_abexa.htm"
+abapFile: "abencasting_obsolete_type_abexa.htm"
+keywords: ["select", "do", "method", "class", "data", "types", "field-symbol", "abencasting", "obsolete", "type", "abexa"]
+---
 
 * * *
 
@@ -405,7 +445,17 @@ The section of the method that has been commented out also shows the syntax for 
 
 ### abencasting_obsolete_dec_abexa.htm
 
-  
+---
+title: "Field Symbols, Casting Decimal Places"
+description: |
+  This example demonstrates how a casting of decimal places is performed. Source Code REPORT demo_field_symbols_assign_deci. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA: pack1 TYPE p DECIMALS 2 VALUE '400', pack2 TYPE p DECIMALS
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_dec_abexa.htm"
+abapFile: "abencasting_obsolete_dec_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "field-symbol", "abencasting", "obsolete", "dec", "abexa"]
+---
 
 * * *
 
@@ -466,7 +516,17 @@ The section of the method that has been commented out also shows the syntax for 
 
 ### abencasting_obsolete_abexas.htm
 
-  
+---
+title: "Casting Examples"
+description: |
+  !Example(exa.gif 'Example') Field Symbols, Casting(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_imp_exp_abexa.htm) !Example(exa.gif 'Example') Field Symbols, Casting Built-In Data Types(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_abexas.htm"
+abapFile: "abencasting_obsolete_abexas.htm"
+keywords: ["do", "if", "data", "types", "field-symbol", "abencasting", "obsolete", "abexas"]
+---
 
 * * *
 

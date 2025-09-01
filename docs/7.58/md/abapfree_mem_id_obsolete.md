@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  FREE MEMORY. Effect If the addition ID is not specified in the statement FREE MEMORY(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_memory.htm), all data clusters are deleted from the ABAP memory. Hints -   FREE MEMORY without addition ID also deletes data clusters written int
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_mem_id_obsolete.htm"
+abapFile: "abapfree_mem_id_obsolete.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abapfree", "mem", "obsolete"]
+---
 
 * * *
 

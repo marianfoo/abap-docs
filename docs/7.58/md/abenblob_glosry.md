@@ -1,4 +1,14 @@
-  
+---
+title: "BLOB"
+description: |
+  Abbreviation for Binary Large Object. Term for a database field(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_field_glosry.htm 'Glossary Entry') of the data type RAWSTRING(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) or the resu
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenblob_glosry.htm"
+abapFile: "abenblob_glosry.htm"
+keywords: ["do", "if", "try", "data", "types", "abenblob", "glosry"]
+---
 
 * * *
 

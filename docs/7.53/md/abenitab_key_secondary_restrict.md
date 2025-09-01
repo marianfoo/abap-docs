@@ -1,4 +1,14 @@
-  
+---
+title: "Restrictions for Secondary Keys"
+description: |
+  Internal tables with secondary keys can be used in all processing statements for internal tables(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) and other statements that work with internal tables. However, there are also operand positions for intern
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm"
+abapFile: "abenitab_key_secondary_restrict.htm"
+keywords: ["select", "insert", "update", "delete", "do", "if", "data", "internal-table", "abenitab", "key", "secondary", "restrict"]
+---
 
 * * *
 

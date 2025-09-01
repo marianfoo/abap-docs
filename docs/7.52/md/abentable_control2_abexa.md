@@ -1,4 +1,14 @@
-  
+---
+title: "Table Control with Modifications"
+description: |
+  This example demonstrates sorting by columns and how rows are deleted in table controls. Source Code REPORT demo_dynpro_tabcont_loop_at. CONTROLS flights TYPE TABLEVIEW USING SCREEN 100. DATA: cols LIKE LINE OF flights-cols, lines TYPE i. DATA: ok_code TYPE sy-ucomm, save_ok TYPE sy-ucomm. DAT
+version: "7.52"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_control2_abexa.htm"
+abapFile: "abentable_control2_abexa.htm"
+keywords: ["select", "delete", "loop", "do", "if", "case", "data", "internal-table", "abentable", "control2", "abexa"]
+---
 
 * * *
 

@@ -5,7 +5,17 @@ Included pages: 3
 
 ### abenmesh_modify.htm
 
-  
+---
+title: "Syntax"
+description: |
+  MODIFY  TABLE mesh_path(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path.htm) USING KEY keyname(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkeyname.htm) FROM wa TRANSPORTING comp1(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify.htm"
+abapFile: "abenmesh_modify.htm"
+keywords: ["do", "if", "data", "types", "internal-table", "abenmesh", "modify"]
+---
 
 * * *
 
@@ -104,7 +114,17 @@ Continue
 
 ### abenmesh_modify_table_abexa.htm
 
-  
+---
+title: "Changing Single Rows in Mesh Paths"
+description: |
+  This example demonstrates how single rows are changed in mesh paths. Source Code REPORT demo_mesh_modify_table_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, t_itab1 TYPE SO
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_table_abexa.htm"
+abapFile: "abenmesh_modify_table_abexa.htm"
+keywords: ["select", "insert", "do", "while", "if", "method", "class", "data", "types", "abenmesh", "modify", "table", "abexa"]
+---
 
 * * *
 
@@ -205,7 +225,17 @@ The ON condition of the association \_node2\_2 does not cover the table key mkey
 
 ### abenmesh_modify_abexa.htm
 
-  
+---
+title: "Changing Multiple Rows in Mesh Paths"
+description: |
+  This example demonstrates how multiple rows are changed in mesh paths. Source Code REPORT demo_mesh_modify_numbers. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS: main, class_constructor. PRIVATE SECTION. TYPES: BEGIN OF line1, col1 TYPE i, col2 TYPE i, END OF line1, t_itab1 TYPE SORTED
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_abexa.htm"
+abapFile: "abenmesh_modify_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "while", "if", "method", "class", "data", "types", "abenmesh", "modify", "abexa"]
+---
 
 * * *
 

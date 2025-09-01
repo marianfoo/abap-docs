@@ -1,4 +1,14 @@
-  
+---
+title: "system_date_glosry"
+description: |
+  system_date_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_date_glosry.htm"
+abapFile: "abensystem_date_glosry.htm"
+keywords: ["do", "if", "try", "abensystem", "date", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "AT LINE-SELECTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_line-selection_shortref.htm) Syntax AT LINE-SELECTION. Effect This statement defines an event block whose event is raised by the ABAP runtime framework(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abe
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_line-selection.htm"
+abapFile: "abapat_line-selection.htm"
+keywords: ["select", "do", "if", "try", "class", "abapat", "line", "selection"]
+---
 
 * * *
 

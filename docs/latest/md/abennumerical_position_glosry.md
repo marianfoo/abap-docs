@@ -1,4 +1,14 @@
-  
+---
+title: "numerical_position_glosry"
+description: |
+  numerical_position_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_position_glosry.htm"
+abapFile: "abennumerical_position_glosry.htm"
+keywords: ["do", "if", "try", "data", "abennumerical", "position", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Assignments, Calculations, and Other Types of Data Access"
+description: |
+  An assignment passes the content of a data object, a return value, or a result of a calculation expression to a data object. If the data types are compatible, the content is copied unchanged. If the data types are incompatible and there is a suitable conversion rule, the content is converted. An ass
+version: "latest"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm"
+abapFile: "abenassignment_access_gdl.htm"
+keywords: ["select", "do", "if", "data", "types", "abenassignment", "access", "gdl"]
+---
 
 * * *
 

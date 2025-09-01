@@ -1,4 +1,14 @@
-  
+---
+title: "source_code_glosry"
+description: |
+  source_code_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_glosry.htm"
+abapFile: "abensource_code_glosry.htm"
+keywords: ["do", "try", "abensource", "code", "glosry"]
+---
 
 * * *
 

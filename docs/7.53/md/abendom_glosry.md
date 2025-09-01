@@ -1,4 +1,14 @@
-  
+---
+title: "DOM"
+description: |
+  Document Object Model. Interface used to access XML(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxml_glosry.htm 'Glossary Entry') documents. Based on an object-oriented tree-like representation of the documents in the memory, where each node is represented by an object. In ABAP,
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendom_glosry.htm"
+abapFile: "abendom_glosry.htm"
+keywords: ["do", "try", "abendom", "glosry"]
+---
 
 * * *
 

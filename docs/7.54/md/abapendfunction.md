@@ -1,4 +1,14 @@
-  
+---
+title: "ENDFUNCTION"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction_shortref.htm) Syntax ENDFUNCTION. Effect The statement ENDFUNCTION closes a function module introduced using FUNCTION(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction.htm).
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendfunction.htm"
+abapFile: "abapendfunction.htm"
+keywords: ["do", "abapendfunction"]
+---
 
 * * *
 

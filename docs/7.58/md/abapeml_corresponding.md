@@ -1,4 +1,14 @@
-  
+---
+title: "CORRESPONDING, Type Mapping for ABAP EML"
+description: |
+  Syntax  ntype = CORRESPONDING dtype#( in_d_type MAPPING FROM ENTITY )    out_d_type = CORRESPONDING dtype#( ntype MAPPING TO ENTITY )    ntype = CORRESPONDING dtype#( in_d_type USING CONTROL )    ntype = CORRESPONDING dtype#( in
+version: "7.58"
+category: "types"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_corresponding.htm"
+abapFile: "abapeml_corresponding.htm"
+keywords: ["select", "update", "do", "if", "try", "data", "types", "internal-table", "abapeml", "corresponding"]
+---
 
 * * *
 

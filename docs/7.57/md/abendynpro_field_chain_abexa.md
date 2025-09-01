@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  PROGRAM demo_dynpro_field_chain. DATA: ok_code TYPE sy-ucomm, input1 TYPE i, input2 TYPE i, input3 TYPE i, input4 TYPE i, input5 TYPE i, input6 TYPE i, sum TYPE i. CALL SCREEN 100. MODULE init_screen_100 OUTPUT. CLEAR: input1, input2, input3, input4, input5, input6. SET PF-STATUS 'STATUS_100'
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_field_chain_abexa.htm"
+abapFile: "abendynpro_field_chain_abexa.htm"
+keywords: ["do", "if", "data", "abendynpro", "field", "chain", "abexa"]
+---
 
 * * *
 

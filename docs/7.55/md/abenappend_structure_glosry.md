@@ -1,4 +1,14 @@
-  
+---
+title: "append_structure_glosry"
+description: |
+  append_structure_glosry - ABAP 7.55 language reference documentation
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenappend_structure_glosry.htm"
+abapFile: "abenappend_structure_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenappend", "structure", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Conditions for the Strict Mode"
+description: |
+  The strict mode of the syntax check in Release 7.54 applies to all ABAP SQL statements that use one of the following attributes introduced in Release 7.54(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-754-abap_sql.htm): -   Use of aggregate expressions(https://help.sap.com/
+version: "7.55"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql_strict_mode_754.htm"
+abapFile: "abenopensql_strict_mode_754.htm"
+keywords: ["select", "do", "if", "try", "data", "abenopensql", "strict", "mode", "754"]
+---
 
 * * *
 
@@ -8,9 +18,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Strict Mode in Release 7.54
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_754_1)
-
--   [Rules for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_754_2)
+-   [Conditions for the Strict Mode](#abenopensql-strict-mode-754-1--------rules-for-the-strict-mode---@ITOC@@ABENOPENSQL_STRICT_MODE_754_2)
 
 Conditions for the Strict Mode
 

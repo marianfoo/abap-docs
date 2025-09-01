@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - saving options"
+description: |
+  Syntax ... with additional save and cleanup  with unmanaged save and cleanup ... Variants: 1. ... with additional save and cleanup(#!ABAP_VARIANT_1@1@) 2. ... with unmanaged save and cleanup(#!ABAP_VARIANT_2@2@) Additions: 1. ... and cleanup(#!
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_saving.htm"
+abapFile: "abenbdl_saving.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "saving"]
+---
 
 * * *
 

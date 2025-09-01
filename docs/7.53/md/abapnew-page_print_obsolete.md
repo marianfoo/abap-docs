@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Specification of Spool Parameters"
+description: |
+  When using the statements -   NEW-PAGE PRINT ON(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm) -   SUBMIT ... TO SAP-SPOOL(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_list_options.htm) to create spool lists, it must be ensured that ei
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print_obsolete.htm"
+abapFile: "abapnew-page_print_obsolete.htm"
+keywords: ["do", "if", "case", "class", "data", "abapnew", "page", "print", "obsolete"]
+---
 
 * * *
 

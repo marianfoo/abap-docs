@@ -1,4 +1,14 @@
-  
+---
+title: "CDS hierarchy"
+description: |
+  CDS entity(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm 'Glossary Entry') defined using DEFINE HIERARCHY(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_hierarchy.htm) in a CDS data definition(https://help.sap.com/doc/abapdoc
+version: "7.55"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_hierarchy_glosry.htm"
+abapFile: "abencds_hierarchy_glosry.htm"
+keywords: ["do", "try", "data", "abencds", "hierarchy", "glosry"]
+---
 
 * * *
 

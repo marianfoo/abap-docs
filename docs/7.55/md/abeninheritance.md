@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP Objects - Inheritance"
+description: |
+  The concept of inheritance makes it possible to derive new classes from existing classes. This is done using the addition INHERITING FROM(https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_options.htm) of the statement CLASS ... DEFINITION(https://help.sap.com/doc/abapdocu_755_
+version: "7.55"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninheritance.htm"
+abapFile: "abeninheritance.htm"
+keywords: ["do", "if", "try", "method", "class", "abeninheritance"]
+---
 
 * * *
 

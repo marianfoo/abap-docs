@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE EXCEPTION"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_shortref.htm) Syntax RAISE RESUMABLE EXCEPTION  TYPE cx_class  message(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm) EXPORTING p
+version: "7.58"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm"
+abapFile: "abapraise_exception_class.htm"
+keywords: ["select", "delete", "do", "if", "case", "try", "catch", "method", "class", "data", "types", "exception-handling", "abapraise", "exception"]
+---
 
 * * *
 

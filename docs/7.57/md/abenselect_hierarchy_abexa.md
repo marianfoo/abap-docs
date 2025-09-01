@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  REPORT demo_hierarchy_bulk_increment. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. PRIVATE SECTION. CLASS-DATA: all_lines   TYPE i VALUE 100000, hiera_lines TYPE i VALUE 10, start_node  TYPE demo_guid_hiera-id. CLASS-METHODS fill_table. ENDCLASS. CLASS demo IMPLEMENTATION. MET
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_hierarchy_abexa.htm"
+abapFile: "abenselect_hierarchy_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "try", "catch", "method", "class", "data", "abenselect", "hierarchy", "abexa"]
+---
 
 * * *
 

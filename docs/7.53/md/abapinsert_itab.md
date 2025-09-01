@@ -1,4 +1,14 @@
-  
+---
+title: "INSERT itab"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_shortref.htm) Syntax INSERT line_spec(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_linespec.htm) INTO itab_position(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en
+version: "7.53"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab.htm"
+abapFile: "abapinsert_itab.htm"
+keywords: ["insert", "update", "delete", "loop", "do", "if", "try", "class", "data", "types", "internal-table", "field-symbol", "abapinsert", "itab"]
+---
 
 * * *
 

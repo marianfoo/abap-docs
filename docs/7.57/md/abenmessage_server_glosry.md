@@ -1,4 +1,14 @@
-  
+---
+title: "message_server_glosry"
+description: |
+  message_server_glosry - ABAP 7.57 language reference documentation
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_server_glosry.htm"
+abapFile: "abenmessage_server_glosry.htm"
+keywords: ["do", "if", "try", "abenmessage", "server", "glosry"]
+---
 
 * * *
 

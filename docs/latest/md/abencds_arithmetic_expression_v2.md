@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... -operand1 +-/ -operand2 +-/ -operand3 ...  ... Effect Arithmetic expression in a SELECT statement(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v2.htm) of a CDS view entity(https://h
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_arithmetic_expression_v2.htm"
+abapFile: "abencds_arithmetic_expression_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "arithmetic", "expression"]
+---
 
 * * *
 

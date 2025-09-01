@@ -1,4 +1,14 @@
-  
+---
+title: "COMMIT ENTITIES, Short Form"
+description: |
+  Syntax COMMIT ENTITIES IN SIMULATION MODE. Addition: ... IN SIMULATION MODE(#!ABAP_ONE_ADD@1@) Effect Triggers the RAP save sequence and finishes the RAP LUW(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_luw_glosry.htm 'Glossary Entry'). All RAP BO instances(https:
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapemlcommit_entities_short.htm"
+abapFile: "abapemlcommit_entities_short.htm"
+keywords: ["do", "while", "if", "case", "try", "method", "data", "abapemlcommit", "entities", "short"]
+---
 
 * * *
 

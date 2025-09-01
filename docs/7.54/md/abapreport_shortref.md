@@ -1,4 +1,14 @@
-  
+---
+title: "REPORT - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm) Syntax REPORT rep NO STANDARD PAGE HEADING LINE-SIZE width LINE-COUNT page_lines(footer_lines) MESSAGE-ID mid DEFINING DATABASE ldb REDUCED FUNCTIONALITY.
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_shortref.htm"
+abapFile: "abapreport_shortref.htm"
+keywords: ["do", "if", "try", "class", "data", "abapreport", "shortref"]
+---
 
 * * *
 

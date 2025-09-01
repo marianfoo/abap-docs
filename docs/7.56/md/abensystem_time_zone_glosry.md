@@ -1,4 +1,14 @@
-  
+---
+title: "system_time_zone_glosry"
+description: |
+  system_time_zone_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_time_zone_glosry.htm"
+abapFile: "abensystem_time_zone_glosry.htm"
+keywords: ["do", "try", "abensystem", "time", "zone", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "CONTROLS"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontrols_shortref.htm) Syntax Forms Declaration of Table Controls(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontrols_tableview.htm) 1. CONTROLS contrl TYPE TABLEVIEW USING SCREEN dynnr. Declarat
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontrols.htm"
+abapFile: "abapcontrols.htm"
+keywords: ["loop", "do", "if", "try", "catch", "class", "abapcontrols"]
+---
 
 * * *
 

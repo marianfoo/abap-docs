@@ -1,4 +1,14 @@
-  
+---
+title: "OS - Transaction Service, Overview"
+description: |
+  The classic SAP transaction concept is based on SAP LUWs in which changes to the database are bundled into a single database LUW. The bundling techniques used here include programming database changes in procedures and registering them in a database LUW for later execution instead of performing them
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_transaction_terms.htm"
+abapFile: "abenos_transaction_terms.htm"
+keywords: ["update", "do", "if", "case", "class", "data", "abenos", "transaction", "terms"]
+---
 
 * * *
 

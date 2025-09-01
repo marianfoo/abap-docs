@@ -1,4 +1,14 @@
-  
+---
+title: "CDS DDL - CDS View Entity, SELECT, GROUP BY"
+description: |
+  Syntax ... GROUP BY field1, field2, ... path_expr1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_case_expression_v2.htm), path_expr2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_case_expression_v2.htm), ... Effect Groups those rows in the re
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_group_by_v2.htm"
+abapFile: "abencds_group_by_v2.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abencds", "group"]
+---
 
 * * *
 

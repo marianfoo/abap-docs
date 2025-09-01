@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - authorization"
+description: |
+  Syntax Forms Declaration on Entity Level ... authorization master ( global ) ( instance ) ( global, instance )  authorization dependent by _Assoc ... RAP BO Operation Additions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_operations_additions.htm), Declaration
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorization.htm"
+abapFile: "abenbdl_authorization.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "method", "class", "data", "abenbdl", "authorization"]
+---
 
 * * *
 

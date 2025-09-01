@@ -1,4 +1,14 @@
-  
+---
+title: "Displaying and Editing Database Tables"
+description: |
+  In ABAP Dictionary, it is possible to define whether database tables are displayed or edited using certain tools such as Data Browser(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_browser_glosry.htm 'Glossary Entry') (transaction SE16 ) and 'Table View Maintenance' (transacti
+version: "7.53"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_maint.htm"
+abapFile: "abenddic_database_tables_maint.htm"
+keywords: ["do", "if", "try", "class", "data", "abenddic", "database", "tables", "maint"]
+---
 
 * * *
 

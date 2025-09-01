@@ -1,4 +1,14 @@
-  
+---
+title: "Notes"
+description: |
+  -   The conversion rules are designed so that data objects of the types d and t display character-like behavior in character-like operand positions and numeric behavior in numeric operand positions. -   In the case of a substring access(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/ab
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_source_fields.htm"
+abapFile: "abendate_time_source_fields.htm"
+keywords: ["do", "if", "case", "data", "types", "abendate", "time", "source", "fields"]
+---
 
 * * *
 

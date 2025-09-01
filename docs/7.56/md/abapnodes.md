@@ -1,4 +1,14 @@
-  
+---
+title: "NODES"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnodes_shortref.htm) Obsolete Syntax NODES node TYPE type. Effect The only purpose of the statement NODES is to pass data from logical databases(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlo
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnodes.htm"
+abapFile: "abapnodes.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "types", "abapnodes"]
+---
 
 * * *
 

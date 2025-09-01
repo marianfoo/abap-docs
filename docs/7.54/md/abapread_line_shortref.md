@@ -1,4 +1,14 @@
-  
+---
+title: "READ LINE - Quick reference"
+description: |
+  Reference(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_line.htm) Syntax READ  LINE line OF PAGE pageOF CURRENT PAGE INDEX idx  CURRENT LINE  LINE VALUE INTO wa FIELD VALUE dobj1 INTO wa1 dobj2 INTO w
+version: "7.54"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_line_shortref.htm"
+abapFile: "abapread_line_shortref.htm"
+keywords: ["do", "if", "try", "data", "abapread", "line", "shortref"]
+---
 
 * * *
 

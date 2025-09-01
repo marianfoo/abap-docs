@@ -1,4 +1,14 @@
-  
+---
+title: "CDS BDL - strict"
+description: |
+  Syntax ... strict; ... Effect The addition strict enables BDEF strict mode(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_strict_mode_glosry.htm 'Glossary Entry'). When strict mode is switched on, outdated syntax which normally produces a syntax check warning leads to a syntax
+version: "7.56"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_strict.htm"
+abapFile: "abenbdl_strict.htm"
+keywords: ["update", "delete", "do", "if", "try", "class", "data", "abenbdl", "strict"]
+---
 
 * * *
 

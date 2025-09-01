@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  ... sum(field) .... Effect For the fields field1, field2, ... of the field groups of an extract dataset(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextract_dataset_glosry.htm 'Glossary Entry'), data objects named sum(field1), sum(field2), ... of the same data type as field1
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsum_extract.htm"
+abapFile: "abapsum_extract.htm"
+keywords: ["loop", "do", "if", "try", "catch", "data", "abapsum", "extract"]
+---
 
 * * *
 

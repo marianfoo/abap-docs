@@ -1,4 +1,14 @@
-  
+---
+title: "Notes on Using Secondary Table Keys"
+description: |
+  -   The standard scenario for profitable use of secondary table keys is a very large internal table that is constructed once in the memory and whose content is then changed very infrequently. Costs(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_memory.htm) for the adm
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_usage.htm"
+abapFile: "abenitab_key_secondary_usage.htm"
+keywords: ["insert", "update", "delete", "do", "if", "case", "try", "data", "types", "internal-table", "abenitab", "key", "secondary", "usage"]
+---
 
 * * *
 

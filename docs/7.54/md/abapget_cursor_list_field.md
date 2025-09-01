@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... VALUE val LENGTH len DISPLAYMEMORY OFFSET off LINE lin. Extras: 1. ... VALUE val(#!ABAP_ADDITION_1@1@) 2. ... LENGTH len(#!ABAP_ADDITION_2@2@) 3. ... DISPLAYMEMORY OFFSET off(#!ABAP_ADDITION_3@3@) 4. ... LINE lin(#!ABAP_ADDITION_4
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_cursor_list_field.htm"
+abapFile: "abapget_cursor_list_field.htm"
+keywords: ["do", "if", "class", "data", "abapget", "cursor", "list", "field"]
+---
 
 * * *
 

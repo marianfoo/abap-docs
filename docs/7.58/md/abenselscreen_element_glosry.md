@@ -1,4 +1,14 @@
-  
+---
+title: "selscreen_element_glosry"
+description: |
+  selscreen_element_glosry - ABAP 7.58 language reference documentation
+version: "7.58"
+category: "ui"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselscreen_element_glosry.htm"
+abapFile: "abenselscreen_element_glosry.htm"
+keywords: ["select", "do", "if", "try", "abenselscreen", "element", "glosry"]
+---
 
 * * *
 

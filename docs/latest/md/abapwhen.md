@@ -1,4 +1,14 @@
-  
+---
+title: "WHEN"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_shortref.htm) Syntax WHEN  operand1  OR operand2 OR operand2 ...  OTHERS . Effect See CASE(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcas
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen.htm"
+abapFile: "abapwhen.htm"
+keywords: ["do", "if", "case", "abapwhen"]
+---
 
 * * *
 

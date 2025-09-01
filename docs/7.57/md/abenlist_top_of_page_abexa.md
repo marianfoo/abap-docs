@@ -1,4 +1,14 @@
-  
+---
+title: "Lists - Page Header"
+description: |
+  The example shows how to define the page header at the TOP-OF-PAGE event. Source Code REPORT demo_list_top_of_page NO STANDARD PAGE HEADING LINE-SIZE 80 LINE-COUNT 7. DATA: h1(10) TYPE c VALUE '    Number', h2(10) TYPE c VALUE '    Square', h3(10) TYPE c VALUE '      Cube', n1 TYPE i, n2 TYPE i,
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_top_of_page_abexa.htm"
+abapFile: "abenlist_top_of_page_abexa.htm"
+keywords: ["select", "do", "if", "class", "data", "abenlist", "top", "page", "abexa"]
+---
 
 * * *
 

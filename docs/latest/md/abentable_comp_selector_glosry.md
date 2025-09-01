@@ -1,4 +1,14 @@
-  
+---
+title: "table_comp_selector_glosry"
+description: |
+  table_comp_selector_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_comp_selector_glosry.htm"
+abapFile: "abentable_comp_selector_glosry.htm"
+keywords: ["select", "do", "if", "try", "data", "abentable", "comp", "selector", "glosry"]
+---
 
 * * *
 

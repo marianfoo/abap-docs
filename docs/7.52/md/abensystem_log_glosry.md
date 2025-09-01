@@ -1,4 +1,14 @@
-  
+---
+title: "system_log_glosry"
+description: |
+  system_log_glosry - ABAP 7.52 language reference documentation
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_log_glosry.htm"
+abapFile: "abensystem_log_glosry.htm"
+keywords: ["do", "try", "abensystem", "log", "glosry"]
+---
 
 * * *
 

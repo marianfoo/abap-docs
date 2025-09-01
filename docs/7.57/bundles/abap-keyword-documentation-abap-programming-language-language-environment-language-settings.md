@@ -5,7 +5,17 @@ Included pages: 7
 
 ### abenlanguage_settings.htm
 
-  
+---
+title: "Language Settings"
+description: |
+  The language setting(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlanguage_setting_glosry.htm 'Glossary Entry') includes the following settings: -   Logon language(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogon_language.htm) The logon language is the langu
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlanguage_settings.htm"
+abapFile: "abenlanguage_settings.htm"
+keywords: ["select", "do", "if", "try", "abenlanguage", "settings"]
+---
 
 * * *
 
@@ -41,7 +51,17 @@ Continue
 
 ### abenlogon_language.htm
 
-  
+---
+title: "Logon Language"
+description: |
+  The logon language(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogon_language_glosry.htm 'Glossary Entry') is defined when an ABAP user(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_user_glosry.htm 'Glossary Entry') logs on(https://help.sap.com/doc/abap
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogon_language.htm"
+abapFile: "abenlogon_language.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "abenlogon", "language"]
+---
 
 * * *
 
@@ -75,7 +95,17 @@ FINAL(logon\_langu) = cl\_abap\_syst=>get\_logon\_language( ).
 
 ### abentext_environment.htm
 
-  
+---
+title: "Text Environment Language and Text Environment"
+description: |
+  -   Text Environment Language(#abentext-environment-1-------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2) Text Environment Language The text environment language(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_env_langu_glosry.htm 'Glossary Entry') is part of the languag
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment.htm"
+abapFile: "abentext_environment.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abentext", "environment"]
+---
 
 * * *
 
@@ -88,8 +118,7 @@ Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Text Environment Language and Text Environment
 
--   [Text Environment Language](#@@ITOC@@ABENTEXT_ENVIRONMENT_1)
--   [Text Environment](#@@ITOC@@ABENTEXT_ENVIRONMENT_2)
+-   [Text Environment Language](#abentext-environment-1-------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2)
 
 Text Environment Language   
 
@@ -166,7 +195,17 @@ Continue
 
 ### abapset_locale.htm
 
-  
+---
+title: "SET LOCALE LANGUAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_shortref.htm) Syntax SET LOCALE LANGUAGE lang obsolete_parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm). Effect This statement sets the text envir
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale.htm"
+abapFile: "abapset_locale.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "class", "data", "abapset", "locale"]
+---
 
 * * *
 
@@ -257,7 +296,17 @@ Uncatchable Exceptions
 
 ### abapget_locale.htm
 
-  
+---
+title: "GET LOCALE LANGUAGE"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_shortref.htm) Syntax GET LOCALE LANGUAGE lang obsolete_parameters(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm). Effect The language key of the current text envir
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale.htm"
+abapFile: "abapget_locale.htm"
+keywords: ["do", "if", "try", "data", "abapget", "locale"]
+---
 
 * * *
 
@@ -298,7 +347,17 @@ SET LOCALE LANGUAGE lang.
 
 ### abenset_locale_abexa.htm
 
-  
+---
+title: "Setting the Text Environment"
+description: |
+  This example demonstrates how to set the text environment explicitly. Source Code REPORT demo_set_locale. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. ENDCLASS. CLASS demo IMPLEMENTATION. METHOD main. DATA text_tab TYPE HASHED TABLE OF string WITH UNIQUE KEY table_line. text_tab =
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenset_locale_abexa.htm"
+abapFile: "abenset_locale_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenset", "locale", "abexa"]
+---
 
 * * *
 
@@ -346,7 +405,17 @@ This example shows the effect of the locale of the text environment on sorts. In
 
 ### abentext_environment.htm
 
-  
+---
+title: "Text Environment Language and Text Environment"
+description: |
+  -   Text Environment Language(#abentext-environment-1-------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2) Text Environment Language The text environment language(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_env_langu_glosry.htm 'Glossary Entry') is part of the languag
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment.htm"
+abapFile: "abentext_environment.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abentext", "environment"]
+---
 
 * * *
 
@@ -359,8 +428,7 @@ Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Text Environment Language and Text Environment
 
--   [Text Environment Language](#@@ITOC@@ABENTEXT_ENVIRONMENT_1)
--   [Text Environment](#@@ITOC@@ABENTEXT_ENVIRONMENT_2)
+-   [Text Environment Language](#abentext-environment-1-------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2)
 
 Text Environment Language   
 

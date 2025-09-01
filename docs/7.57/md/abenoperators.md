@@ -1,4 +1,14 @@
-  
+---
+title: "Operators"
+description: |
+  ABAP contains the following operators: -   Operators that perform special operations in operand positions: -   Declaration Operators(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declarations.htm) The declaration operators DATA and FIELD-SYMBOL declare variables or field sy
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperators.htm"
+abapFile: "abenoperators.htm"
+keywords: ["do", "if", "try", "data", "types", "field-symbol", "abenoperators"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "SELECT, Grouping Sets"
+description: |
+  This example demonstrates the addition GROUPING SETS(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm) of the statement SELECT(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm). Source Code REPORT demo_select_grouping_sets. CLASS
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_grouping_sets_abexa.htm"
+abapFile: "abenselect_grouping_sets_abexa.htm"
+keywords: ["select", "do", "if", "method", "class", "data", "abenselect", "grouping", "sets", "abexa"]
+---
 
 * * *
 

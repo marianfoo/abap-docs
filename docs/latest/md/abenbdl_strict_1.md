@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - strict"
+description: |
+  Syntax ... strict; ... Effect The addition strict enables BDEF strict mode(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_strict_mode_glosry.htm 'Glossary Entry'), version 1. strict must always appear as the second line in a RAP behavior definition(https://help.sap.com/d
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_strict_1.htm"
+abapFile: "abenbdl_strict_1.htm"
+keywords: ["update", "delete", "do", "if", "try", "method", "class", "abenbdl", "strict"]
+---
 
 * * *
 

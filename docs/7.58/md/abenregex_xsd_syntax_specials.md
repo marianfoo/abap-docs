@@ -1,4 +1,14 @@
-  
+---
+title: "XSD regex - Special Characters"
+description: |
+  The following tables summarize the special characters in XSD regular expressions(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsd_regex_glosry.htm 'Glossary Entry'). -   Pattern Syntax(#abenregex-xsd-syntax-specials-1-----------single-character-escapes---@ITOC@@ABENREGEX_XSD_SY
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_xsd_syntax_specials.htm"
+abapFile: "abenregex_xsd_syntax_specials.htm"
+keywords: ["do", "while", "if", "case", "try", "class", "data", "abenregex", "xsd", "syntax", "specials"]
+---
 
 * * *
 
@@ -12,14 +22,10 @@ XSD regex - Special Characters
 
 The following tables summarize the special characters in [XSD regular expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsd_regex_glosry.htm "Glossary Entry").
 
--   [Pattern Syntax](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_1)
-    -   [Single Character Escapes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_2)
-    -   [Character Escapes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_3)
-    -   [Category Escapes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_4)
-    -   [Quantifiers](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_5)
-    -   [Grouping and Capturing](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_6)
-    -   [Alternation](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_7)
-    -   [Character Classes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_8)
+-   [Pattern Syntax](#abenregex-xsd-syntax-specials-1-----------single-character-escapes---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_2)
+    -   [Character Escapes](#abenregex-xsd-syntax-specials-3-----------category-escapes---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_4)
+    -   [Quantifiers](#abenregex-xsd-syntax-specials-5-----------grouping-and-capturing---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_6)
+    -   [Alternation](#abenregex-xsd-syntax-specials-7-----------character-classes---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_8)
 -   [Replacement Syntax](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_9)
 
 Pattern Syntax   

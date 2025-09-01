@@ -1,4 +1,14 @@
-  
+---
+title: "APC, AS ABAP as WebSocket Server"
+description: |
+  This example demonstrates ABAP push channel(https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_glosry.htm 'Glossary Entry')s in AS ABAP as a WebSocket server. Source Code REPORT demo_apc_wsp. CLASS demo DEFINITION. PUBLIC SECTION. CLASS-METHODS main. CLASS-METHODS class_construc
+version: "7.54"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_abexa.htm"
+abapFile: "abenapc_abexa.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "abenapc", "abexa"]
+---
 
 * * *
 

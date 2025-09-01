@@ -1,4 +1,14 @@
-  
+---
+title: "LDB - Linkage with Executable Programs"
+description: |
+  -   How Linking Works(#abenldb-usage-executable-1-------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2) -   Runtime Behavior(#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3) How Linking Works If an executable program(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexecutable_program_g
+version: "7.57"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_usage_executable.htm"
+abapFile: "abenldb_usage_executable.htm"
+keywords: ["select", "loop", "do", "if", "case", "try", "class", "data", "abenldb", "usage", "executable"]
+---
 
 * * *
 
@@ -11,8 +21,7 @@ r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 LDB - Linkage with Executable Programs
 
--   [How Linking Works](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_1)
--   [Selection Screen](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
+-   [How Linking Works](#abenldb-usage-executable-1-------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
 -   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3)
 
 How Linking Works   

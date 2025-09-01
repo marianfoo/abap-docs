@@ -1,4 +1,14 @@
-  
+---
+title: "JSON"
+description: |
+  JavaScript Object Notation ( http://www.json.org/(http://www.json.org/)). Data format in text form for data exchange between applications. In ABAP, the sXML Library(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensxml_library_glosry.htm 'Glossary Entry') and transformations(http
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjson_glosry.htm"
+abapFile: "abenjson_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenjson", "glosry"]
+---
 
 * * *
 

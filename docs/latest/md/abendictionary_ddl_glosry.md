@@ -1,4 +1,14 @@
-  
+---
+title: "dictionary_ddl_glosry"
+description: |
+  dictionary_ddl_glosry - ABAP latest language reference documentation
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_ddl_glosry.htm"
+abapFile: "abendictionary_ddl_glosry.htm"
+keywords: ["do", "if", "try", "data", "abendictionary", "ddl", "glosry"]
+---
 
 * * *
 

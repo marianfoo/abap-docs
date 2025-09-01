@@ -1,4 +1,14 @@
-  
+---
+title: "object_plugin_glosry"
+description: |
+  object_plugin_glosry - ABAP 7.56 language reference documentation
+version: "7.56"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_plugin_glosry.htm"
+abapFile: "abenobject_plugin_glosry.htm"
+keywords: ["do", "if", "try", "class", "abenobject", "plugin", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Shared Objects - Dynamic Area Properties"
+description: |
+  The dynamic properties of an area are ignored when the area class(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarea_class_glosry.htm 'Glossary Entry') is generated. These properties can be changed by developers only. When the dynamic properties of an area are changed at runtime,
+version: "7.57"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_area_dynamic_properties.htm"
+abapFile: "abenshm_area_dynamic_properties.htm"
+keywords: ["do", "if", "try", "method", "class", "types", "abenshm", "area", "dynamic", "properties"]
+---
 
 * * *
 

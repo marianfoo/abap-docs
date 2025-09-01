@@ -1,4 +1,14 @@
-  
+---
+title: "Heap references and stack references"
+description: |
+  The objects referenced by references can be located in the heap(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheap_glosry.htm 'Glossary Entry') or in the stack(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstack_glosry.htm 'Glossary Entry'). Objects in the heap
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheap_stack_reference.htm"
+abapFile: "abenheap_stack_reference.htm"
+keywords: ["delete", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "field-symbol", "abenheap", "stack", "reference"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Null Values"
+description: |
+  A null value(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennull_value_glosry.htm 'Glossary Entry') is a special value returned by a database(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_glosry.htm 'Glossary Entry') in order to indicate an undefined val
+version: "7.58"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_null_values.htm"
+abapFile: "abencds_null_values.htm"
+keywords: ["select", "do", "if", "case", "try", "data", "abencds", "null", "values"]
+---
 
 * * *
 

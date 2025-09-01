@@ -1,4 +1,14 @@
-  
+---
+title: "Client-Independent Database Access"
+description: |
+  Each client(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_glosry.htm 'Glossary Entry') is a self-contained unit. Implicit client handling(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_client_handling.htm) in ABAP SQL(https://help.sap.
+version: "latest"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_dependent_scrty.htm"
+abapFile: "abenclient_dependent_scrty.htm"
+keywords: ["select", "do", "if", "try", "data", "abenclient", "dependent", "scrty"]
+---
 
 * * *
 

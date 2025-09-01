@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP runtime environment"
+description: |
+  → ABAP runtime framework(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm 'Glossary Entry')
+version: "7.56"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_envir_glosry.htm"
+abapFile: "abenabap_runtime_envir_glosry.htm"
+keywords: ["do", "try", "abenabap", "runtime", "envir", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_select_over DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor . ENDCLASS.  Public class implementation CLASS cl_demo_select_over IMPLEMENTATION. METHOD main. SELECT char1
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_expr_over_abexa.htm"
+abapFile: "abensql_expr_over_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "case", "method", "class", "data", "types", "abensql", "expr", "over", "abexa"]
+---
 
 * * *
 

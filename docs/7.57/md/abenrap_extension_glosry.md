@@ -1,4 +1,14 @@
-  
+---
+title: "BDEF extension"
+description: |
+  A repository object(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm 'Glossary Entry') that extends a CDS behavior definition(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm 'Glossary Entry'). → More ab
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_extension_glosry.htm"
+abapFile: "abenrap_extension_glosry.htm"
+keywords: ["do", "if", "try", "abenrap", "extension", "glosry"]
+---
 
 * * *
 

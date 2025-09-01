@@ -1,4 +1,14 @@
-  
+---
+title: "RAP - BOPF-Based RAP Business Objects"
+description: |
+  For business objects(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_object_glosry.htm 'Glossary Entry') built with the predecessor programming model ABAP programming model for SAP Fiori(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pm_for_
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm"
+abapFile: "abenbdl_rap_bopf.htm"
+keywords: ["do", "if", "try", "types", "abenbdl", "rap", "bopf"]
+---
 
 * * *
 

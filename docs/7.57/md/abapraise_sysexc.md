@@ -1,4 +1,14 @@
-  
+---
+title: "RAISE SYSTEM-EXCEPTIONS"
+description: |
+  This statement is for internal use only. It must not be used in application programs. Syntax RAISE SYSTEM-EXCEPTIONS  RMC_COMMUNICATION_FAILURE  RMC_INVALID_STATUS  RMC_SYSTEM_FAILURE  Effect The given runtime error is raised. Hint Currently, only the following runtime errors are r
+version: "7.57"
+category: "error-handling"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_sysexc.htm"
+abapFile: "abapraise_sysexc.htm"
+keywords: ["do", "if", "method", "abapraise", "sysexc"]
+---
 
 * * *
 

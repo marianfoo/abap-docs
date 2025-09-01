@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... BINTOHEX( expr )  HEXTOBIN( expr ) ... Variants: 1a. ... BINTOHEX( expr )(#!ABAP_VARIANT_1A@1@) 1b. ... HEXTOBIN( expr )(#!ABAP_VARIANT_1B@2@) Effect Functions for conversions between data types in an Open SQL statement. Notes -   These SQL functions execute special conversions that canno
+version: "7.52"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_type_conv_func.htm"
+abapFile: "abensql_type_conv_func.htm"
+keywords: ["select", "do", "if", "case", "try", "method", "class", "data", "types", "abensql", "type", "conv", "func"]
+---
 
 * * *
 

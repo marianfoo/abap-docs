@@ -1,4 +1,14 @@
-  
+---
+title: "SAP HANA"
+description: |
+  SAP HANA(http://help.sap.com/hana) platform for SAP In-Memory Computing based on the SAP HANA database(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm 'Glossary Entry'). If a SAP HANA database is used as the standard database(https://help.sap.com/doc/aba
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_glosry.htm"
+abapFile: "abenhana_glosry.htm"
+keywords: ["do", "if", "try", "data", "abenhana", "glosry"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Syntax"
+description: |
+  ... GROUPING SETS ( (     sql_exp1(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm), sql_exp2(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm), ...  ), (     sql_exp1(https://help.sap.com/doc/abapdo
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgrouping_sets_clause.htm"
+abapFile: "abapgrouping_sets_clause.htm"
+keywords: ["select", "do", "if", "try", "method", "class", "data", "types", "internal-table", "abapgrouping", "sets", "clause"]
+---
 
 * * *
 

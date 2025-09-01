@@ -1,4 +1,14 @@
-  
+---
+title: "REPLACE - options"
+description: |
+  Quick Reference(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_shortref.htm) Syntax ... RESPECTINGIGNORING CASE REPLACEMENT COUNT rcnt  REPLACEMENT OFFSET roff REPLACEMENT LENGTH rlen  RESULTS result_tabresult_wa
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_options.htm"
+abapFile: "abapreplace_options.htm"
+keywords: ["insert", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapreplace", "options"]
+---
 
 * * *
 

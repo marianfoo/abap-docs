@@ -1,4 +1,14 @@
-  
+---
+title: "FORM, parameters"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform_shortref.htm) Obsolete Syntax ...  VALUE(p1)  p1   typing(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_syntax.htm)structure(https://help.sap.com/doc/abapdocu_l
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapform_parameters.htm"
+abapFile: "abapform_parameters.htm"
+keywords: ["do", "if", "try", "data", "types", "abapform", "parameters"]
+---
 
 * * *
 

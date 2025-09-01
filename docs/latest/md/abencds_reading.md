@@ -1,4 +1,14 @@
-  
+---
+title: "ABAP CDS - Read API"
+description: |
+  This documentation is only available internally at SAP.
+version: "latest"
+category: "cds"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_reading.htm"
+abapFile: "abencds_reading.htm"
+keywords: ["do", "if", "data", "abencds", "reading"]
+---
 
 * * *
 

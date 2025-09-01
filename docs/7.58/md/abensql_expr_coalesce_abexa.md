@@ -1,4 +1,14 @@
-  
+---
+title: "Source Code"
+description: |
+  Public class definition CLASS cl_demo_sql_expr_coalesce DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. METHODS constructor. PRIVATE SECTION. DATA: wa1 TYPE demo_join1, wa2 TYPE demo_join2. DATA BEGIN OF wa. INCLUDE STRUCTURE wa
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_expr_coalesce_abexa.htm"
+abapFile: "abensql_expr_coalesce_abexa.htm"
+keywords: ["select", "insert", "delete", "do", "if", "method", "class", "data", "abensql", "expr", "coalesce", "abexa"]
+---
 
 * * *
 

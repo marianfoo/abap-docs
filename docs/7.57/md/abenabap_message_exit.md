@@ -1,4 +1,14 @@
-  
+---
+title: "Messages - Conversion Routines"
+description: |
+  Conversion routines(https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_routine_glosry.htm 'Glossary Entry') distinguish between the function modules ..._INPUT and ...OUTPUT: -   In an ..._INPUT function module, all messages apart from those of type E, A, or S raise an unca
+version: "7.57"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_message_exit.htm"
+abapFile: "abenabap_message_exit.htm"
+keywords: ["do", "if", "try", "catch", "types", "abenabap", "message", "exit"]
+---
 
 * * *
 

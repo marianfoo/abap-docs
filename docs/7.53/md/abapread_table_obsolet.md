@@ -1,4 +1,14 @@
-  
+---
+title: "Obsolete Syntax"
+description: |
+  READ TABLE itab      WITH KEY dobj    WITH KEY = dobj   BINARY SEARCH result(https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_table_outdesc.htm). Alternatives: 1. ...  (#!ABAP_ALTERNATIVE_1@1@) 2. ... WITH KEY dobj(#!ABAP_ALTERNA
+version: "7.53"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_table_obsolet.htm"
+abapFile: "abapread_table_obsolet.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "internal-table", "abapread", "table", "obsolet"]
+---
 
 * * *
 

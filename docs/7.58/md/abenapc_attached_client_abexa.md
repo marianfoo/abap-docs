@@ -1,4 +1,14 @@
-  
+---
+title: "APC - AS ABAP as Attached Client"
+description: |
+  This example demonstrates the AS ABAP as an attached client for a detached client. Source Code  Public class definition CLASS cl_demo_apc_attach_client DEFINITION INHERITING FROM cl_demo_classrun PUBLIC CREATE PUBLIC. PUBLIC SECTION. METHODS main REDEFINITION. ENDCLASS.  Public class imple
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc_attached_client_abexa.htm"
+abapFile: "abenapc_attached_client_abexa.htm"
+keywords: ["do", "if", "try", "catch", "method", "class", "data", "abenapc", "attached", "client", "abexa"]
+---
 
 * * *
 

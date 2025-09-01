@@ -1,4 +1,14 @@
-  
+---
+title: "Conversions, Performance Notes"
+description: |
+  Conversions in assignments between data objects with different data types or a data object specified in an operand position where a different data type is expected, cause runtime costs. To avoid these costs, conversions should be avoided if possible and only data objects of the same type should be a
+version: "latest"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_perfo.htm"
+abapFile: "abenconversion_perfo.htm"
+keywords: ["do", "if", "data", "types", "abenconversion", "perfo"]
+---
 
 * * *
 

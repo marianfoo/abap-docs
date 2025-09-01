@@ -1,4 +1,14 @@
-  
+---
+title: "Complex Data Objects with Deep Components"
+description: |
+  If data objects of complex data types(https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomplex_data_type_glosry.htm 'Glossary Entry') have many deep components, which often, for example, applies to internal tables with a deep line type for example, the administrative costs in th
+version: "latest"
+category: "oop"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_4.htm"
+abapFile: "abenmemory_consumption_4.htm"
+keywords: ["do", "if", "case", "try", "class", "data", "types", "internal-table", "abenmemory", "consumption"]
+---
 
 * * *
 

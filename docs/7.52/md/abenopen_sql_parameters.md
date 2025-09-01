@@ -1,4 +1,14 @@
-  
+---
+title: "Open SQL - Parameter Passing"
+description: |
+  Syntax ... ( pname1 = act1, pname2 = act2, ... ) ... Effect Specifies actual parameters act1, act2, ... for input parameters pname1(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm), pname2(https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param
+version: "7.52"
+category: "database"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_parameters.htm"
+abapFile: "abenopen_sql_parameters.htm"
+keywords: ["select", "do", "if", "case", "try", "class", "data", "types", "abenopen", "sql", "parameters"]
+---
 
 * * *
 

@@ -1,4 +1,14 @@
-  
+---
+title: "Use"
+description: |
+  %cid is a component of BDEF derived types(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm 'Glossary Entry'). It is a string to define a content ID that should be filled for ABAP EML requests. In case of strict(2)(https://help.sap.com/doc/abapdocu_758_in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_cid.htm"
+abapFile: "abapderived_types_cid.htm"
+keywords: ["update", "delete", "do", "if", "case", "try", "types", "abapderived", "cid"]
+---
 
 * * *
 

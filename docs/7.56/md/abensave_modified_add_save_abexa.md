@@ -1,4 +1,14 @@
-  
+---
+title: "Log table field"
+description: |
+  Details change_id Identifier for an individual change. In this case, it is a UUID(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuuid_glosry.htm 'Glossary Entry'). key_field Key field of the RAP BO instance(https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_i
+version: "7.56"
+category: "data-structures"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensave_modified_add_save_abexa.htm"
+abapFile: "abensave_modified_add_save_abexa.htm"
+keywords: ["select", "insert", "update", "delete", "loop", "do", "if", "case", "try", "method", "class", "data", "types", "internal-table", "abensave", "modified", "add", "save", "abexa"]
+---
 
 * * *
 

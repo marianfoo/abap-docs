@@ -1,4 +1,14 @@
-  
+---
+title: "STOP"
+description: |
+  Short Reference(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop_shortref.htm) Syntax STOP. Effect The statement STOP is only to be used in executable programs(https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexecutable_program_glosry.htm 'Glossary Entry') and in
+version: "7.58"
+category: "general"
+type: "abap-reference"
+sourceUrl: "https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop.htm"
+abapFile: "abapstop.htm"
+keywords: ["select", "do", "if", "try", "catch", "method", "data", "abapstop"]
+---
 
 * * *
 
